@@ -25,7 +25,7 @@ A reading companion for long books. It splits a Project Gutenberg text into sect
 - In the text itself, the translator's summary at the top of each fable is collapsed, because it usually gives away the plot.
 - **Search:** the box in the top bar finds characters and places by any of their names, spelling-insensitive ("odysseus" finds Ulysses, "aeneas" finds Æneas). Each being or place is one row however many books it is in ("in 4 books"); it opens in the book you are reading if it is there, otherwise in that book. Entries in different books are one being or place only when they were matched to the same Wikipedia article or the cross-book index joins them, never by name alone, so the two Ajaxes stay apart.
 - **Place profiles:** Tartarus, Olympus, Ithaca, Ulysses' house. The place in the scene card ("Where:") and the places listed under the map are links. A profile shows the picture, what kind of place it is (a realm, island, city…) and whether it is real, legendary or mythical, a line on it in this book, Wikipedia's account, the scenes set there and the sections that name it (each a link), and "Also in:" the same place in the other books. Character profiles have the same "Also in:" line.
-- **Light and dark colours:** a button at the right of the top bar switches between them, map included. The choice is remembered; until you make one the page follows your system's setting.
+- **Light and dark colours:** a button at the right of the top bar switches between them, map included. The page opens in light colours; a choice of dark is remembered in your browser.
 - Reading position is remembered per book.
 
 ## Quick start

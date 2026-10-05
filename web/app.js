@@ -1230,9 +1230,9 @@ function drawBoth() {
     const data = mostConnected(state.treeData, ABOUT_TREE);
     els.count.textContent = data.people.length < state.treeData.people.length
       ? `The ${data.people.length} people with the most family links, of ${state.treeData.people.length}. Open a section to follow its characters.` : "";
-    if (els.treePane.open) state.cy = drawTree(els.graph, els.info, state.cy, data, 10, state.treeData, els.info.dataset.person);
+    if (els.treePane.open) state.cy = drawTree(els.graph, els.info, state.cy, data, 11, state.treeData, els.info.dataset.person);
     else if (state.cy) { state.cy.destroy(); state.cy = null; }
-    if (els.treeDialog.open) state.cyBig = drawTree(els.graphBig, els.infoBig, state.cyBig, data, 13, state.treeData, els.infoBig.dataset.person);
+    if (els.treeDialog.open) state.cyBig = drawTree(els.graphBig, els.infoBig, state.cyBig, data, 14, state.treeData, els.infoBig.dataset.person);
     return;
   }
   const base = applyCollapse(state.treeData);
@@ -1248,9 +1248,9 @@ function drawBoth() {
   }
   els.count.textContent = parts.length ? parts.join("; ").replace(/^./, (c) => c.toUpperCase()) + "." : "";
   const keepSmall = els.info.dataset.person, keepBig = els.infoBig.dataset.person;
-  if (els.treePane.open) state.cy = drawTree(els.graph, els.info, state.cy, data, 10, state.treeData, keepSmall);
+  if (els.treePane.open) state.cy = drawTree(els.graph, els.info, state.cy, data, 11, state.treeData, keepSmall);
   else if (state.cy) { state.cy.destroy(); state.cy = null; }       // folded away: draw it again when it is opened
-  if (els.treeDialog.open) state.cyBig = drawTree(els.graphBig, els.infoBig, state.cyBig, data, 13, state.treeData, keepBig);
+  if (els.treeDialog.open) state.cyBig = drawTree(els.graphBig, els.infoBig, state.cyBig, data, 14, state.treeData, keepBig);
 }
 
 function setDepth(value, user = true) {
