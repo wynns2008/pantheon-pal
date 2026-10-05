@@ -1,0 +1,702 @@
+{
+ "section_id": "hesiod-body-23",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7730,
+  "output": 5311
+ },
+ "result": {
+  "summary": "The Theogony closes with a catalogue of goddesses who bore children to mortal men, including Demeter, Harmonia, Eos, Thetis, Aphrodite, Circe and Calypso. The poet then calls on the Muses to sing of the company of women, which leads into the Catalogue of Women.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Children of Demeter, Harmonia, Eos",
+    "summary": "Demeter bears Plutus to Iasion in Crete. Harmonia's children by Cadmus, Callirrhoe's son Geryones and the sons of Eos are listed.",
+    "stakes": "",
+    "present": [
+     "Demeter",
+     "Iasion",
+     "Plutus",
+     "Harmonia",
+     "Cadmus",
+     "Callirrhoe",
+     "Chrysaor",
+     "Geryones",
+     "Heracles",
+     "Eos",
+     "Tithonus",
+     "Memnon",
+     "Emathion",
+     "Cephalus",
+     "Phaethon",
+     "Aphrodite"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Crete",
+     "modern_name": "Crete",
+     "certainty": "real",
+     "lat": 35.2,
+     "lon": 24.9
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 8,
+    "title": "Iason brings Medea home",
+    "summary": "Iason completes the labours set by Pelias, takes Medea from Aeetes and brings her to Iolcus, where she bears Medeus.",
+    "stakes": "Iason risks failure in the grievous labours imposed by Pelias.",
+    "present": [
+     "Iason",
+     "Aeetes",
+     "Pelias",
+     "Medea",
+     "Medeus",
+     "Cheiron",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Iolcus",
+     "modern_name": "Volos",
+     "certainty": "real",
+     "lat": 39.36,
+     "lon": 22.94
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 14,
+    "title": "Sea goddesses and Aphrodite's mortal loves",
+    "summary": "Psamathe and Thetis bear Phocus and Achilles. Aphrodite bears Aeneas, Circe bears sons to Odysseus, and Calypso bears sons to him as well.",
+    "stakes": "",
+    "present": [
+     "Psamathe",
+     "Aeacus",
+     "Phocus",
+     "Thetis",
+     "Peleus",
+     "Achilles",
+     "Aphrodite",
+     "Anchises",
+     "Aeneas",
+     "Circe",
+     "Odysseus",
+     "Agrius",
+     "Latinus",
+     "Telegonus",
+     "Calypso",
+     "Nausithous",
+     "Nausinous"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Ida",
+     "modern_name": "Mount Ida (Kaz Dağı), Turkey",
+     "certainty": "traditional",
+     "lat": 39.7,
+     "lon": 26.85
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 16,
+    "title": "Invocation of the Muses",
+    "summary": "The poet sums up the goddesses who lay with mortals and asks the Muses to sing of women.",
+    "stakes": "",
+    "present": [
+     "Muses",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympus",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "bright goddess who bore Plutus"
+   },
+   {
+    "name": "Iasion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero loved by Demeter"
+   },
+   {
+    "name": "Plutus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who gives wealth"
+   },
+   {
+    "name": "Harmonia",
+    "aliases": [],
+    "kind": "other",
+    "description": "daughter of Aphrodite, wife of Cadmus"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Cytherea"
+    ],
+    "kind": "goddess",
+    "description": "golden goddess of love"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Harmonia"
+   },
+   {
+    "name": "Ino",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Cadmus"
+   },
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Cadmus"
+   },
+   {
+    "name": "Agave",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Cadmus"
+   },
+   {
+    "name": "Autonoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Cadmus, wife of Aristaeus"
+   },
+   {
+    "name": "Aristaeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "long-haired husband of Autonoe"
+   },
+   {
+    "name": "Polydorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cadmus"
+   },
+   {
+    "name": "Callirrhoe",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of Ocean, mother of Geryones"
+   },
+   {
+    "name": "Chrysaor",
+    "aliases": [],
+    "kind": "other",
+    "description": "stout-hearted father of Geryones"
+   },
+   {
+    "name": "Geryones",
+    "aliases": [],
+    "kind": "monster",
+    "description": "strongest of men, killed by Heracles"
+   },
+   {
+    "name": "Heracles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killer of Geryones"
+   },
+   {
+    "name": "Eos",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "dawn goddess, mother of Memnon"
+   },
+   {
+    "name": "Tithonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "lover of Eos"
+   },
+   {
+    "name": "Memnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Ethiopians"
+   },
+   {
+    "name": "Emathion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Eos and Tithonus"
+   },
+   {
+    "name": "Cephalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "lover of Eos"
+   },
+   {
+    "name": "Phaethon",
+    "aliases": [],
+    "kind": "other",
+    "description": "youth seized by Aphrodite as shrine keeper"
+   },
+   {
+    "name": "Iason",
+    "aliases": [
+     "son of Aeson"
+    ],
+    "kind": "mortal",
+    "description": "hero who won Medea"
+   },
+   {
+    "name": "Aeetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "heaven-nurtured king, father of Medea"
+   },
+   {
+    "name": "Pelias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "violent king who set labours"
+   },
+   {
+    "name": "Medea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Aeetes, wife of Iason"
+   },
+   {
+    "name": "Medeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Iason and Medea"
+   },
+   {
+    "name": "Cheiron",
+    "aliases": [],
+    "kind": "creature",
+    "description": "son of Philyra, raised Medeus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of gods, whose will is fulfilled"
+   },
+   {
+    "name": "Psamathe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Nereus"
+   },
+   {
+    "name": "Aeacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "lover of Psamathe"
+   },
+   {
+    "name": "Phocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Psamathe"
+   },
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "silver-shod sea goddess"
+   },
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Thetis"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "lion-hearted son of Thetis"
+   },
+   {
+    "name": "Anchises",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero loved by Aphrodite"
+   },
+   {
+    "name": "Aeneas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aphrodite"
+   },
+   {
+    "name": "Circe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Helius"
+   },
+   {
+    "name": "Helius",
+    "aliases": [],
+    "kind": "god",
+    "description": "son of Hyperion, father of Circe"
+   },
+   {
+    "name": "Hyperion",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Helius"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "lover of Circe and Calypso"
+   },
+   {
+    "name": "Agrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Circe"
+   },
+   {
+    "name": "Latinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Circe"
+   },
+   {
+    "name": "Telegonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Circe"
+   },
+   {
+    "name": "Calypso",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "bright goddess loving Odysseus"
+   },
+   {
+    "name": "Nausithous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Calypso"
+   },
+   {
+    "name": "Nausinous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Calypso"
+   },
+   {
+    "name": "Muses",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sweet-voiced daughters of Zeus"
+   },
+   {
+    "name": "Nereus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Old man of the Sea"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Demeter",
+    "relation": "lover_of",
+    "b": "Iasion",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Plutus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Harmonia",
+    "relation": "spouse_of",
+    "b": "Cadmus",
+    "source": "outside",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Aphrodite",
+    "relation": "parent_of",
+    "b": "Harmonia",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Cadmus",
+    "relation": "parent_of",
+    "b": "Semele",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Eos",
+    "relation": "parent_of",
+    "b": "Memnon",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Tithonus",
+    "relation": "parent_of",
+    "b": "Memnon",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Thetis",
+    "relation": "spouse_of",
+    "b": "Peleus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Thetis",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Aphrodite",
+    "relation": "lover_of",
+    "b": "Anchises",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Aphrodite",
+    "relation": "parent_of",
+    "b": "Aeneas",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Circe",
+    "relation": "lover_of",
+    "b": "Odysseus",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Helius",
+    "relation": "parent_of",
+    "b": "Circe",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Calypso",
+    "relation": "parent_of",
+    "b": "Nausithous",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Iason",
+    "relation": "spouse_of",
+    "b": "Medea",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Iason",
+    "relation": "parent_of",
+    "b": "Medeus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Nereus",
+    "relation": "parent_of",
+    "b": "Psamathe",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Muses",
+    "source": "text",
+    "evidence_sentence": 16
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cytherea",
+    "canonical": "Aphrodite",
+    "explanation": "Epithet of Aphrodite, linked with the island of Cythera."
+   },
+   {
+    "alias": "son of Aeson",
+    "canonical": "Iason",
+    "explanation": "Patronymic used for Iason."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "The closing invocation that bridges the Theogony to the Catalogue of Women.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The catalogue ties the divine genealogy to the heroic age, showing gods as ancestors of famous mortals and heroes.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage lists local heroic lineages, and its closing lines link to the Catalogue of Women, a poem attributed to the Hesiodic tradition.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The closing invocation of the women led to the Catalogue of Women, a major source of genealogical myth for later Greek writers."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The mentions of Latinus and the Tyrenians show Greek tradition linking Odysseus's descendants to Italy; many scholars think the last lines were later additions.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "A thrice-ploughed fallow is a field ploughed three times before sowing, a fertility image that suits the union of the grain goddess with a mortal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Shambling describes the oxen's slow, shuffling, rolling gait. Geryones' cattle were the prize of Heracles' tenth labour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "Phaethon here is a different figure from the son of Helius who drove the sun's chariot. He becomes a daimon, a divine spirit, keeping Aphrodite's shrine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The labours were tasks Pelias set Iason, including winning the Golden Fleece from Aeetes of Colchis. Medea's help is not mentioned here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Buxom here is an old sense meaning obliging or compliant, not the modern sense. Coy-eyed means modest-eyed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "This line says that Iason's quest and his marriage to Medea were part of Zeus's plan.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Cytherea is a title of Aphrodite, linked to the island of Cythera, near where she was said to have come ashore.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Tyrenians means Tyrsenians, the Etruscans of Italy. The line puts Circe's sons as rulers in the far west.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Plutus is the personification of wealth. His birth from Demeter, goddess of grain, links riches with agricultural harvest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Cadmus founded Thebes. His daughters Ino, Semele, Agave and Autonoe have major roles in Theban myth, and Semele was the mother of Dionysus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Eos is the goddess of dawn. Memnon, her son, fought for Troy and was killed by Achilles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Thetis, a sea goddess, was married to the mortal Peleus. Their son Achilles is the greatest Greek warrior at Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Circe is the enchantress who detained Odysseus on her island in the Odyssey. This passage gives her sons by him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Calypso is the nymph who kept Odysseus on Ogygia for years in the Odyssey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The poem here moves on to the Catalogue of Women, traditionally attributed to Hesiod, a poem about heroines and their children.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "epithet",
+    "text": "Shepherd of the people is a formulaic title for a leader, presenting Iason as a king responsible for his subjects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "epithet",
+    "text": "Silver-shod and lion-hearted are stock descriptions. They characterize Thetis as graceful and Achilles as fierce, and the second is sharpened by the grim phrase destroyer of men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "apostrophe",
+    "text": "The poet addresses the Muses directly, closing the poem with a traditional invocation and passing to the next theme.",
+    "spoiler": false
+   }
+  ]
+ }
+}

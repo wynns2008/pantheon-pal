@@ -1,0 +1,535 @@
+{
+ "section_id": "hesiod-body-117",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10539,
+  "output": 4711
+ },
+ "result": {
+  "summary": "After winning at Chalcis, Hesiod goes to Delphi, receives an oracle warning him about Nemean Zeus, and is killed at Oenoe; his body is later moved to Orchomenus. Homer, defeated, wanders reciting poems, composes Midas's epitaph, dedicates a bowl at Delphi, and visits Athens, Corinth and Argos.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Hesiod's tripod and the oracle",
+    "summary": "Hesiod dedicates his tripod and goes to Delphi, where the prophetess blesses him but warns him against the grove of Nemean Zeus.",
+    "stakes": "Hesiod's life: the oracle foretells his death at Nemean Zeus's grove.",
+    "present": [
+     "Hesiod",
+     "Homer"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 11,
+    "title": "Hesiod's death at Oenoe",
+    "summary": "Hesiod stays at Oenoe, is killed by his hosts' sons on suspicion of seducing their sister, and is washed ashore by dolphins. The killers are punished; another version names different brothers.",
+    "stakes": "Hesiod's life and the killers' safety from their countrymen's anger.",
+    "present": [
+     "Hesiod",
+     "Amphiphanes",
+     "Ganyetor",
+     "Phegeus",
+     "Ctimenus",
+     "Antiphus",
+     "Eurycles",
+     "Demodes",
+     "Zeus",
+     "Alcidamas",
+     "Eratosthenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Oenoe in Locris",
+     "modern_name": "near Oeneon, Locris",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 14,
+    "title": "Hesiod's tomb at Orchomenus",
+    "summary": "The Orchomenians move Hesiod's body by oracle and inscribe his tomb.",
+    "stakes": "",
+    "present": [
+     "Hesiod"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Orchomenus",
+     "modern_name": "Orchomenos, Boeotia",
+     "certainty": "real",
+     "lat": 38.4903,
+     "lon": 22.9778
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 21,
+    "title": "Homer wanders and honours Midas",
+    "summary": "Homer recites epics, writes Midas's epitaph for Xanthus and Gorgus, dedicates a silver bowl at Delphi, and composes the Odyssey.",
+    "stakes": "Homer's renown, which he asks Apollo to grant.",
+    "present": [
+     "Homer",
+     "Xanthus",
+     "Gorgus",
+     "Midas",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 30,
+    "title": "Homer at Athens, Corinth, Argos",
+    "summary": "Homer is entertained by Medon, improvises verses by the fire, is honoured at Corinth, and recites the Argive catalogue at Argos.",
+    "stakes": "",
+    "present": [
+     "Homer",
+     "Medon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hesiod",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who defeated Homer and was killed at Oenoe"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who lost the contest and travelled reciting"
+   },
+   {
+    "name": "Amphiphanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phegeus, host of Hesiod"
+   },
+   {
+    "name": "Ganyetor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phegeus, or father of the killers in another account"
+   },
+   {
+    "name": "Phegeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Amphiphanes and Ganyetor"
+   },
+   {
+    "name": "Ctimenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ganyetor, killer in Eratosthenes' version"
+   },
+   {
+    "name": "Antiphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ganyetor, killer in Eratosthenes' version"
+   },
+   {
+    "name": "Eurycles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "seer who sacrificed the killers"
+   },
+   {
+    "name": "Demodes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "stranger said to have seduced the girl"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Nemean Zeus"
+    ],
+    "kind": "god",
+    "description": "god who sank the killers; Nemean Zeus's grove named in oracle"
+   },
+   {
+    "name": "Alcidamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "author of the Museum"
+   },
+   {
+    "name": "Eratosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "author of a Hesiod"
+   },
+   {
+    "name": "Xanthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Midas who commissioned an epitaph"
+   },
+   {
+    "name": "Gorgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Midas who commissioned an epitaph"
+   },
+   {
+    "name": "Midas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king whose tomb bears a bronze maiden"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoebus"
+    ],
+    "kind": "god",
+    "description": "god of Delphi, given Homer's bowl"
+   },
+   {
+    "name": "Medon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Athenians who hosted Homer"
+   },
+   {
+    "name": "Diomedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive leader in quoted Iliad verses"
+   },
+   {
+    "name": "Tydeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Diomedes"
+   },
+   {
+    "name": "Sthenelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Capaneus, Argive leader"
+   },
+   {
+    "name": "Capaneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Sthenelus"
+   },
+   {
+    "name": "Eurypylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "third Argive leader"
+   },
+   {
+    "name": "Mecisteus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Eurypylus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Phegeus",
+    "relation": "parent_of",
+    "b": "Amphiphanes",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Phegeus",
+    "relation": "parent_of",
+    "b": "Ganyetor",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Ganyetor",
+    "relation": "parent_of",
+    "b": "Ctimenus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Ganyetor",
+    "relation": "parent_of",
+    "b": "Antiphus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Midas",
+    "relation": "parent_of",
+    "b": "Xanthus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Midas",
+    "relation": "parent_of",
+    "b": "Gorgus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Tydeus",
+    "relation": "parent_of",
+    "b": "Diomedes",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Capaneus",
+    "relation": "parent_of",
+    "b": "Sthenelus",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Mecisteus",
+    "relation": "parent_of",
+    "b": "Eurypylus",
+    "source": "text",
+    "evidence_sentence": 29
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phoebus",
+    "canonical": "Apollo",
+    "explanation": "Epithet of Apollo used in Homer's dedication."
+   },
+   {
+    "alias": "Nemean Zeus",
+    "canonical": "Zeus",
+    "explanation": "Zeus worshipped at a place called Nemea; the oracle's wording is ambiguous."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "The ambiguous oracle warning Hesiod of death at Nemean Zeus's grove.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "reason": "Famous epitaph of Midas, the enduring-forever tomb inscription.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The oracle's ambiguity shows the classic theme that fate is fulfilled precisely through attempts to avoid it.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The biographical traditions about Homer and Hesiod, with competing sources cited, show how Greeks built lives for poets from their verses and inscriptions.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Midas epitaph was widely quoted in antiquity, including in Plato's Phaedrus, as an example of verse on a tomb."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The epitaph of Midas also appears in Plato's Phaedrus, where it is criticised for having lines that can be reordered without changing the sense.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A tripod is a three-legged bronze cauldron, given as a prize or offering to a god. Helicon is the mountain sacred to the Muses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "The prophetess is the Pythia, the priestess of Apollo at Delphi, who spoke the god's oracles while inspired.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "The oracle is ambiguous: Hesiod takes 'Nemean Zeus' to mean Nemea in the Peloponnesus, but a place in Locris bore the same name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Ariadne, daughter of Minos of Crete, was loved by Theseus and Dionysus; local festivals honoured her in various places.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Alcidamas was a fourth-century BC rhetorician; his 'Museum' is the work on which this account of the contest draws.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "'Gods of hospitality' refers to Zeus Xenios, protector of guests; the brothers had violated host-guest duty by killing Hesiod.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"As they were directed by an oracle\": the Orchomenians consulted a god's oracle, which told them to move the bones, a common cause of hero-cult reburials.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Minyans: an old people associated with Orchomenus in Boeotia; \"horse-driving\" is a stock epithet for them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Judged by the test of wit\" means measured by skill and wisdom, as in poetic contests.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The Thebais and Epigoni belong to the Theban cycle about the war of the Seven against Thebes and their sons' later attack; ancient writers doubted Homer wrote them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Phoebus is a title of Apollo, meaning \"bright\"; Delphi was his chief oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "\"Drew off\" means he improvised or produced the lines on the spot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "The Son of Cronos is Jove (the Greek Zeus), here sending winter snow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "This is a passage from the Catalogue of Ships in the Iliad (Book 2), listing the Argive contingent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "\"Linen jerkins\" are linen body armour; \"goads\" are prods for driving animals.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Delphi was the chief oracle of Apollo. Visitors consulted it and offered first fruits, a share of their gains, to the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Eratosthenes was a Hellenistic scholar and poet of Alexandria, known for measuring the Earth. He wrote a work on Hesiod.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Midas was the legendary king of Phrygia. The tomb figure of a weeping maiden is a funerary statue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Medon was traditionally an early ruler of Athens, son of Codrus, after whom the Athenian archons were sometimes called Medontids.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "simile",
+    "text": "Hesiod's fame is compared to the spreading light of dawn, suggesting it will reach everywhere and be lasting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "foreshadowing",
+    "text": "The prophecy of death in a grove of Nemean Zeus hints at the coming murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "irony",
+    "text": "By avoiding the Peloponnesian Nemea, Hesiod walks straight into the fate foretold, so the oracle is fulfilled by his attempt to escape it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "Narrative voice",
+    "text": "A brisk, formulaic closing phrase moves the compiler's story from Hesiod to Homer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "Prosopopoeia",
+    "text": "The bronze maiden speaks in the first person, giving the tomb a voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "Hyperbole",
+    "text": "The epitaph promises the statue will speak as long as nature lasts, stressing the monument's endlessness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "Metaphor",
+    "text": "Children are called a crown and towers, and horses and ships ornaments, comparing things to what they honour or protect.",
+    "spoiler": false
+   }
+  ]
+ }
+}

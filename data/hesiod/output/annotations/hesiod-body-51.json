@@ -1,0 +1,399 @@
+{
+ "section_id": "hesiod-body-51",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9423,
+  "output": 3216
+ },
+ "result": {
+  "summary": "The hymn opens with Apollo entering the hall of Zeus, where the gods tremble and only Leto stays beside him. The poet then tells how Leto wandered through many lands seeking a home for her son's birth, and how Delos agreed only after Leto swore a great oath. Her labour begins, but Hera keeps Eilithyia away.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Apollo in the halls of Zeus",
+    "summary": "The gods tremble as Apollo draws his bow, but Leto disarms him and seats him, and Zeus welcomes him with nectar. The poet hails Leto for her children.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Leto",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "house of Zeus",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 8,
+    "title": "The poet's invocation",
+    "summary": "The poet asks how to sing of Apollo, whose domain is all lands and seas, and considers telling of his birth on Delos.",
+    "stakes": "",
+    "present": [
+     "Phoebus",
+     "Leto"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delos",
+     "modern_name": "Delos",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 25.27
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 10,
+    "title": "Leto's wanderings",
+    "summary": "Leto roams through many lands and islands in labour, but all fear to receive Apollo until she reaches Delos.",
+    "stakes": "Leto needs a place to give birth; every land refuses out of fear.",
+    "present": [
+     "Leto",
+     "Phoebus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Aegean islands and coasts",
+     "modern_name": "Aegean Sea",
+     "certainty": "real",
+     "lat": 38,
+     "lon": 25.5
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 21,
+    "title": "Leto's bargain with Delos",
+    "summary": "Leto asks Delos to host Apollo's temple. Delos fears Apollo's pride and demands an oath, which Leto swears by Styx.",
+    "stakes": "Delos risks being overturned and cast into the sea; Leto needs a birthplace.",
+    "present": [
+     "Leto",
+     "Delos",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delos",
+     "modern_name": "Delos",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 25.27
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 25,
+    "title": "Leto's labour and Hera's trick",
+    "summary": "Leto suffers nine days while the goddesses attend her. Hera keeps Eilithyia on Olympus out of envy.",
+    "stakes": "Leto's birth is blocked by Hera's jealousy, prolonging her agony.",
+    "present": [
+     "Leto",
+     "Dione",
+     "Rhea",
+     "Ichnaea",
+     "Themis",
+     "Amphitrite",
+     "Hera",
+     "Eilithyia",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delos",
+     "modern_name": "Delos",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 25.27
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoebus",
+     "Phoebus Apollo"
+    ],
+    "kind": "god",
+    "description": "far-shooting archer god, son of Leto and Zeus"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Apollo and Artemis, daughter of Coeus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of the gods who delights in thunder"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "archer daughter of Leto"
+   },
+   {
+    "name": "Delos",
+    "aliases": [],
+    "kind": "other",
+    "description": "rocky island that speaks and bargains with Leto"
+   },
+   {
+    "name": "Coeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Leto"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "white-armed goddess who envies Leto"
+   },
+   {
+    "name": "Eilithyia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of sore travail"
+   },
+   {
+    "name": "Dione",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess attending Leto"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess attending Leto"
+   },
+   {
+    "name": "Ichnaea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess attending Leto"
+   },
+   {
+    "name": "Themis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess attending Leto"
+   },
+   {
+    "name": "Amphitrite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "loud-moaning goddess attending Leto"
+   },
+   {
+    "name": "Macar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aeolus, whose home is Lesbos"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Artemis",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Coeus",
+    "relation": "parent_of",
+    "b": "Leto",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "outside",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Apollo",
+    "relation": "sibling_of",
+    "b": "Artemis",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phoebus",
+    "canonical": "Apollo",
+    "explanation": "Phoebus is a common epithet of Apollo, often used alone."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 21,
+    "reason": "Leto's oath by Styx, called the gods' strongest oath, secures Delos as Apollo's first shrine.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn presents Apollo's power as awesome even to gods, then shows his birth as dependent on the humble island Delos and on divine oaths.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The long list of islands and coasts reflects the Ionian world that gathered at Delos for Apollo's festival.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Delos became a major Greek sanctuary of Apollo and a center of the Delian League treasury in the fifth century BC."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The hymn's Delian section was traditionally said to have been performed by the poet at the Delian festival.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "Typical hymn opening: the poet promises to keep the god in memory, meaning he will praise him in song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Archery\" here means his bow and arrows, the equipment of an archer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Bare\" is the archaic past tense of \"bear\"; \"bare glorious children\" means gave birth to them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Phoebus\" (\"bright\") is a common epithet-name of Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "The sentence breaks off after the dash: Leto's request is left unfinished, as if she pleads hurriedly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Hecatombs\" are large public sacrifices of cattle, originally a hundred.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Sware\" is an archaic form of \"swear\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Beyond wont\" means beyond what is usual, so unusually severe pains.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "\"By Hera's contriving\" means through Hera's scheming; she deliberately kept Eilithyia ignorant of the birth.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Ortygia and Delos are places linked with the birth of Artemis and Apollo; the poet names two traditions of their birthplace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "This long list of islands and coastal places across the Aegean shows how widely Leto searched; many were sites of Apollo's cult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Swearing by the water of Styx, a river of the Underworld, was the gods' most binding oath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Eilithyia was the goddess of childbirth; without her a birth could not proceed. Hera was jealous because Leto bore Zeus's children.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "imagery",
+    "text": "The trembling gods and the drawn bow convey Apollo's awesome power before his mother calms him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "apostrophe",
+    "text": "The poet turns to address Leto directly, praising her as a proud mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "rhetorical question",
+    "text": "The poet asks what to sing, a hymn convention that sets up the birth story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "foreshadowing",
+    "text": "Delos's fear of being overturned and sunk reveals Apollo's proud reputation and the need for an oath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "characterization",
+    "text": "Hera's envy is shown by her cunning act of holding Eilithyia back.",
+    "spoiler": false
+   }
+  ]
+ }
+}

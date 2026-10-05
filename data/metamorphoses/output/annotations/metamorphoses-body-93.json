@@ -1,0 +1,214 @@
+{
+ "section_id": "metamorphoses-body-93",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6801,
+  "output": 1779
+ },
+ "result": {
+  "summary": "Adonis ignores Venus's warning, hunts a boar and is gored to death. Venus, arriving too late, mourns him, promises a yearly rite of mourning, and turns his blood into a short-lived flower.",
+  "scenes": [
+   {
+    "start_sentence": 1,
+    "end_sentence": 3,
+    "title": "Adonis Hunts the Boar",
+    "summary": "Venus leaves in her swan chariot, but Adonis keeps hunting. His dogs rouse a boar, he wounds it, and it kills him.",
+    "stakes": "Adonis risks his life by chasing a wild boar against Venus's advice.",
+    "present": [
+     "Adonis",
+     "Venus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the wood",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 12,
+    "title": "Venus Mourns and Makes a Flower",
+    "summary": "Venus hears his groans, descends and laments. She sprinkles nectar on his blood, and a pomegranate-coloured flower springs up.",
+    "stakes": "Venus faces the loss of her beloved and wants a lasting memorial.",
+    "present": [
+     "Venus",
+     "Adonis",
+     "Persephone"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the yellow sand where Adonis lay",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Venus",
+    "aliases": [
+     "Cytherea"
+    ],
+    "kind": "goddess",
+    "description": "goddess of love who mourns Adonis"
+   },
+   {
+    "name": "Adonis",
+    "aliases": [
+     "son of Cinyras"
+    ],
+    "kind": "mortal",
+    "description": "young hunter killed by a boar"
+   },
+   {
+    "name": "Cinyras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Adonis"
+   },
+   {
+    "name": "Persephone",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "queen of the underworld, who turned a woman into mint"
+   },
+   {
+    "name": "the boar",
+    "aliases": [],
+    "kind": "creature",
+    "description": "wild boar that kills Adonis"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cinyras",
+    "relation": "parent_of",
+    "b": "Adonis",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Venus",
+    "relation": "lover_of",
+    "b": "Adonis",
+    "source": "outside",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Adonis",
+    "relation": "transformed_into",
+    "b": "crimson flower",
+    "source": "text",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cytherea",
+    "canonical": "Venus",
+    "explanation": "A title of Venus, linked to the island of Cythera."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Venus founds the yearly commemoration of Adonis's death as a ritual of mourning.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Love and loss lead to transformation: grief becomes a lasting natural memorial. The fragile flower mirrors Adonis's brief life.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage links to the Adonia, an annual festival in which women mourned Adonis.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The myth of Venus and Adonis inspired Shakespeare's poem Venus and Adonis (1593) and many paintings, such as Titian's."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The flower is the anemone, whose Greek name relates to the wind (anemos), as sentence 12 alludes.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Cytherea is a title of Venus, from the island of Cythera, near which she was said to have risen from the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The yearly 'representation' of his death refers to the Adonia, a festival in which women mourned Adonis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Refers to Proserpine (Persephone) turning the nymph Mentha into mint, told earlier in Ovid; Venus asks why she may not do likewise for Adonis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The flower is the anemone, whose Greek name comes from anemos, 'wind'; the winds that name it also scatter its petals.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Venus's swans draw her chariot; she had just warned Adonis to avoid dangerous beasts and hunt only timid game.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Adonis is called son of Cinyras, king of Cyprus, born of Myrrha's incestuous union with her father.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "foreshadowing",
+    "text": "His courage resisting her advice signals that Adonis's disregard of the warning will bring disaster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "apostrophe",
+    "text": "Venus addresses the dead Adonis directly, heightening her grief and her promise of lasting memorials.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "simile",
+    "text": "The effervescing blood is compared to bubbles rising in rainy weather, giving the transformation a vivid, delicate image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "symbolism",
+    "text": "The flower's brief life, battered by wind, symbolizes the fragility of Adonis's beauty and of love and youth.",
+    "spoiler": false
+   }
+  ]
+ }
+}

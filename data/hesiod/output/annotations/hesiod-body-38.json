@@ -1,0 +1,342 @@
+{
+ "section_id": "hesiod-body-38",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7593,
+  "output": 2780
+ },
+ "result": {
+  "summary": "Heracles faces Ares, who is held back by Athene's warning but attacks anyway. Heracles wounds Ares in the thigh and the god flees to Olympus. Heracles and Iolaus strip Cycnus's armour and go to Trachis, and Ceyx buries Cycnus, though the river Anaurus later washes the grave away at Apollo's command.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Heracles faces Ares",
+    "summary": "Heracles waits for Ares like a lion, and the two clash with a great cry.",
+    "stakes": "Heracles risks death in combat against the war god.",
+    "present": [
+     "Heracles",
+     "Ares"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Near Pagasae, the battlefield",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 12,
+    "title": "Athene intervenes; Ares wounded",
+    "summary": "Athene warns Ares off, but he attacks. She deflects his spear, Heracles wounds him in the thigh, and Panic and Dread carry him to Olympus.",
+    "stakes": "Ares risks defeat and injury; Heracles risks being killed by the god.",
+    "present": [
+     "Athene",
+     "Ares",
+     "Heracles",
+     "Panic",
+     "Dread"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Battlefield by Cycnus's body",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 14,
+    "title": "Departure to Trachis",
+    "summary": "Heracles and Iolaus strip Cycnus's armour and drive to Trachis; Athene returns to Olympus.",
+    "stakes": "",
+    "present": [
+     "Heracles",
+     "Iolaus",
+     "Athene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Trachis",
+     "modern_name": "Trachis, near Lamia, Greece",
+     "certainty": "real",
+     "lat": 38.8,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 16,
+    "title": "Burial of Cycnus",
+    "summary": "Ceyx and the people bury Cycnus, but the river Anaurus, at Apollo's command, erases the grave.",
+    "stakes": "",
+    "present": [
+     "Ceyx",
+     "Cycnus",
+     "Anaurus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Anaurus river, Thessaly",
+     "modern_name": "Xerias river, near Volos, Greece",
+     "certainty": "real",
+     "lat": 39.35,
+     "lon": 22.95
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Heracles",
+    "aliases": [
+     "son of Zeus",
+     "son of Amphitryon",
+     "son of Alcmena"
+    ],
+    "kind": "mortal",
+    "description": "hero who fights Ares"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of war, father of Cycnus, wounded by Heracles"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "bright-eyed Athene"
+    ],
+    "kind": "goddess",
+    "description": "protects Heracles and turns Ares's spear"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Heracles and Athene"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heracles's mortal father"
+   },
+   {
+    "name": "Alcmena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Heracles"
+   },
+   {
+    "name": "Iolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heracles's companion and charioteer"
+   },
+   {
+    "name": "Cycnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "slain son of Ares"
+   },
+   {
+    "name": "Panic",
+    "aliases": [],
+    "kind": "creature",
+    "description": "attendant who drives Ares's chariot"
+   },
+   {
+    "name": "Dread",
+    "aliases": [],
+    "kind": "creature",
+    "description": "attendant who drives Ares's chariot"
+   },
+   {
+    "name": "Ceyx",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who buries Cycnus"
+   },
+   {
+    "name": "Anaurus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river that destroys the grave at Apollo's order"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Leto's son"
+    ],
+    "kind": "god",
+    "description": "god who commands the river"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Apollo"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Heracles",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Amphitryon",
+    "relation": "parent_of",
+    "b": "Heracles",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Alcmena",
+    "relation": "parent_of",
+    "b": "Heracles",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Athene",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Ares",
+    "relation": "parent_of",
+    "b": "Cycnus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 16
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 0,
+    "reason": "Vivid lion simile showing Heracles's ferocity before facing Ares.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "A mortal hero overcomes a god, with Athene's help, showing Heracles's divine favour and supremacy in battle.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The ending explains the disappearance of Cycnus's grave and links the tale to Delphic (Pytho) interests in protecting pilgrims' offerings.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The poem's battle with Cycnus is expanded from a short episode in the Catalogue of Women, and the shield description is modelled on Homer's Shield of Achilles.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Let him be\" means Heracles left Cycnus's body alone, having just killed him, and turned to face the next opponent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Winged words\" is a Homeric formula for speech that flies swiftly from speaker to listener.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Ares' \"dead son\" is Cycnus, whom Heracles has just killed; this explains Ares' fury.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Tare\" is an old past tense of \"tear\": the spear ripped deep into the flesh.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Panic and Dread (Phobos and Deimos) are Ares' sons and usual attendants in battle, here acting as his charioteers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Pytho is Delphi, Apollo's sanctuary. Hecatombs were large sacrifices of cattle, so Cycnus robbed pilgrims bringing offerings to the god.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Athene protects Heracles, her half-brother through Zeus, and here enforces Zeus's will that Ares cannot kill him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Trachis was the city of Ceyx, Heracles' host and friend, where Heracles took refuge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The Anaurus is a Thessalian river. Apollo has it wipe out the grave of Cycnus as punishment for his robbing of pilgrims.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "epic simile",
+    "text": "Heracles' tense waiting is compared at length to an enraged lion, conveying his fierce, menacing readiness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "device": "epithet",
+    "text": "\"Unsated of battle\" is a repeated epithet that characterizes Heracles as tireless and eager to fight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "simile",
+    "text": "The clash of the gods is likened to a falling rock striking a crag, conveying its force and noise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "simile",
+    "text": "Ares' spears are said to wave \"like fire,\" suggesting his burning rage.",
+    "spoiler": false
+   }
+  ]
+ }
+}

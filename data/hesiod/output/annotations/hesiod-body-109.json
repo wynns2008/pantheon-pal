@@ -1,0 +1,235 @@
+{
+ "section_id": "hesiod-body-109",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6192,
+  "output": 2113
+ },
+ "result": {
+  "summary": "This section collects ancient quotations and testimonia about the Margites, a comic poem attributed to Homer. They describe an old singer arriving at Colophon, the foolish hero Margites who is skilled at nothing, and a proverb about the fox and hedgehog.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Suidas on Pigres",
+    "summary": "A lexicon entry names Pigres, brother of Artemisia, as the author of the Margites and the Battle of the Frogs and Mice.",
+    "stakes": "",
+    "present": [
+     "Pigres",
+     "Artemisia",
+     "Mausolus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Halicarnassus",
+     "modern_name": "Bodrum, Turkey",
+     "certainty": "real",
+     "lat": 37.0344,
+     "lon": 27.4305
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 4,
+    "title": "The Singer Comes to Colophon",
+    "summary": "An old inspired singer, servant of the Muses and Apollo, arrives at Colophon holding a lyre.",
+    "stakes": "",
+    "present": [
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Colophon",
+     "modern_name": "near Degirmendere, Turkey",
+     "certainty": "real",
+     "lat": 38.1,
+     "lon": 27.15
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 7,
+    "title": "Margites the Fool",
+    "summary": "Quotations and a scholiast describe Margites, who knew many things badly, failed at every craft, and was ignorant of his parentage and afraid of his wife.",
+    "stakes": "",
+    "present": [
+     "Margites"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Unknown",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 8,
+    "title": "Fox and Hedgehog Proverb",
+    "summary": "A proverb says the fox knows many tricks but the hedgehog's one trick beats them all.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Unknown",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pigres",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Carian of Halicarnassus said to have written the Margites"
+   },
+   {
+    "name": "Artemisia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sister of Pigres, wife of Mausolus, distinguished in war"
+   },
+   {
+    "name": "Mausolus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Husband of Artemisia"
+   },
+   {
+    "name": "Margites",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Foolish grown man who is unskilled and ignorant"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "far-shooting Apollo"
+    ],
+    "kind": "god",
+    "description": "God served by the singer"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Mausolus",
+    "relation": "spouse_of",
+    "b": "Artemisia",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "Famous description of Margites, the fool who knew many things but all badly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "reason": "Origin of the proverb contrasting the fox with the hedgehog, later made famous by Archilochus and Isaiah Berlin.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The fragments portray a comic anti-hero, a fool lacking all skill and common sense, in contrast to the heroes of the Iliad and Odyssey.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ancient writers attributed the Margites to Homer, though the Suidas entry offers Pigres as author, showing doubts over authorship.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The fox and hedgehog saying became a well-known proverb, later used by Archilochus and in Isaiah Berlin's 1953 essay The Hedgehog and the Fox."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Aristotle praised the Margites as a forerunner of comedy, much as the Iliad and Odyssey were forerunners of tragedy.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Artemisia, wife of Mausolus, ruled Caria and fought in war; Mausolus' tomb gave us the word 'mausoleum'. The bracketed numbers are editor's footnote markers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "'Far-shooting' is a standing description of Apollo, the archer god, who was also patron of music and poetry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "'Knew all badly' means he had wide but poor knowledge, a jack of all trades and master of none.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "A scholiast is an ancient commentator whose notes on a text survive; this one comments on a passage of Aeschines.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "A proverb contrasting the fox's many tricks with the hedgehog's single defence of rolling into a spiny ball; it echoes the Margites' theme of knowledge.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Suidas is the name given to a Byzantine Greek lexicon (c. 10th century AD), which includes short biographies of authors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Colophon was an Ionian Greek city in Asia Minor, one of the places that claimed to be Homer's birthplace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Aristotle quotes this line in the Nicomachean Ethics when discussing wisdom and practical skill.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "epithet",
+    "text": "'Divine singer' and 'far-shooting Apollo' use traditional epic descriptors, giving the poem a Homeric opening that dignifies the singer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "irony",
+    "text": "The gods usually grant skills; here their withholding of every craft marks Margites as a comic fool, setting up the mock-heroic tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "proverb",
+    "text": "The compact saying contrasts breadth with one effective skill, in effect the moral opposite of Margites, who knows much but badly.",
+    "spoiler": false
+   }
+  ]
+ }
+}

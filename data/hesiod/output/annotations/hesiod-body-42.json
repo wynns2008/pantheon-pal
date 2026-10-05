@@ -1,0 +1,357 @@
+{
+ "section_id": "hesiod-body-42",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7240,
+  "output": 2991
+ },
+ "result": {
+  "summary": "A set of short fragments from the lost epic Aegimius, quoted by later writers. They touch on Phrixus and the golden fleece, Thetis testing her children with Peleus, and the story of Io, Argus and Hermes, ending with a note on tribes settling in Crete.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Phrixus brings the fleece",
+    "summary": "Phrixus is received without a go-between because of the fleece. He purifies it after sacrifice and enters the halls of Aeetes.",
+    "stakes": "",
+    "present": [
+     "Phrixus",
+     "Aeetes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "halls of Aeetes",
+     "modern_name": "Colchis (western Georgia)",
+     "certainty": "traditional",
+     "lat": 42.2,
+     "lon": 42.0
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 2,
+    "title": "Thetis and the cauldron",
+    "summary": "Thetis throws her children by Peleus into a cauldron of water to test whether they are mortal. Peleus stops her before she can do it to Achilles.",
+    "stakes": "Achilles' life is threatened by his mother's test.",
+    "present": [
+     "Thetis",
+     "Peleus",
+     "Achilles"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "home of Peleus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 10,
+    "title": "Io, Argus and Hermes",
+    "summary": "Zeus seduces Io, priestess of Hera, and turns her into a white cow. Euboea is named after the cow, Hera sets Argus to watch her, and Hermes kills him.",
+    "stakes": "Io is changed into a cow and kept under guard.",
+    "present": [
+     "Io",
+     "Zeus",
+     "Hera",
+     "Argus",
+     "Hermes",
+     "Peiren"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Abantis (Euboea)",
+     "modern_name": "Euboea, Greece",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 23.8
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 11,
+    "title": "A place of refreshment",
+    "summary": "A single line is quoted in which a speaker looks forward to a place of refreshment, and the authorship is debated.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 14,
+    "title": "The Three-fold People of Crete",
+    "summary": "Three Hellenic tribes settle Crete in three groups and are called the Three-fold People.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": true,
+    "place": {
+     "name": "Crete",
+     "modern_name": "Crete, Greece",
+     "certainty": "real",
+     "lat": 35.2,
+     "lon": 24.9
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Phrixus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man who carried the fleece to Aeetes"
+   },
+   {
+    "name": "Aeetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king whose halls Phrixus enters"
+   },
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sea goddess, mother of Peleus' children"
+   },
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Thetis, saves Achilles"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Thetis and Peleus"
+   },
+   {
+    "name": "Io",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "priestess of Hera turned into a white cow"
+   },
+   {
+    "name": "Peiren",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Io"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who seduces Io"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who sets Argus to guard Io"
+   },
+   {
+    "name": "Argus",
+    "aliases": [],
+    "kind": "monster",
+    "description": "watchman of Io with many eyes"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Slayer of Argus"
+    ],
+    "kind": "god",
+    "description": "god who slew Argus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Peiren",
+    "relation": "parent_of",
+    "b": "Io",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Thetis",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Peleus",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Thetis",
+    "relation": "spouse_of",
+    "b": "Peleus",
+    "source": "outside",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Io",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Io",
+    "relation": "transformed_into",
+    "b": "white cow",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "outside",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Slayer of Argus",
+    "canonical": "Hermes",
+    "explanation": "Epithet of Hermes for killing Argus, Io's herdsman."
+   },
+   {
+    "alias": "Cyprian",
+    "canonical": "Aphrodite",
+    "explanation": "Epithet of Aphrodite, here standing for love affairs."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "Hesiod's saying that oaths about love go unpunished by the gods.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The fragments show myths of divine power over mortals: Zeus's affair, Hera's watcher, and Thetis testing her children's mortality.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Aegimius survives only in quotations by scholiasts and others, and its authorship was already disputed in antiquity.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Io and the hundred-eyed Argus was retold by later poets such as Ovid in the Metamorphoses and Aeschylus in Prometheus Bound."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ancient writers could not agree whether Hesiod or Cercops of Miletus wrote the Aegimius.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Received without intermediary\" means Phrixus was admitted directly, without a go-between to introduce him, because he brought the fleece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "The purification refers to ritual cleansing of the fleece after sacrifice, removing pollution before it was carried into the palace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Where they were mortal\" means whether they were mortal; Thetis tests each child by immersing it in water.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "\"The Cyprian\" is Aphrodite, so the oath concerns lovers' secrets; the quoted verse says perjury in love brings no divine punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Abantis was an old name of Euboea; the name is explained by Greek bous, \"cow\", so Euboea means \"rich in cattle\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Slayer of Argus\" (Argeiphontes) is a traditional epithet of Hermes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Place of refreshment\" is a speaker's anticipated resting place; with only one line surviving, its context is unknown.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Phrixus escaped on a golden-fleeced ram and came to Aeetes of Colchis. The fleece later drew Jason and the Argonauts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Thetis was a sea goddess who married the mortal Peleus; their son Achilles became the great hero of the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Argus, called Panoptes, was a many-eyed watchman. Hera used him to guard Io.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Athenaeus cites the line, noting that the authorship of the Aegimius was disputed between Hesiod and Cercops of Miletus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Pelasgi, Achaeans and Dorians are three Greek peoples; the fragment explains the Cretan name as a three-part settlement.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "irony",
+    "text": "Zeus swears he did not touch Io while he has already touched her and transformed her, so his oath is a lie.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "characterization",
+    "text": "Argus is defined by his tireless vigilance, which Hera has divinely boosted. This makes his eventual killing by Hermes more striking.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,668 @@
+{
+ "section_id": "hesiod-body-15",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10682,
+  "output": 5217
+ },
+ "result": {
+  "summary": "After invoking the Muses, the poet tells how Chaos, Earth, Tartarus and Eros came first, and how Earth bore Heaven, the Titans, Cyclopes and hundred-handed giants. Heaven hides his children, so Earth and Cronos ambush and castrate him, and from the act come the Erinyes, Giants, Meliae and Aphrodite.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Invocation to the Muses",
+    "summary": "The poet asks the Muses to sing of the origin of the gods and to say which came first.",
+    "stakes": "",
+    "present": [
+     "Muses"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympus",
+     "modern_name": "Mount Olympus",
+     "certainty": "traditional",
+     "lat": 40.0852,
+     "lon": 22.3584
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 13,
+    "title": "First Powers and Children of Earth",
+    "summary": "Chaos, Earth, Tartarus and Eros arise, then Night, Heaven, Pontus, the Titans and the Cyclopes.",
+    "stakes": "",
+    "present": [
+     "Chaos",
+     "Earth",
+     "Tartarus",
+     "Eros",
+     "Erebus",
+     "Night",
+     "Aether",
+     "Day",
+     "Heaven",
+     "Pontus",
+     "Oceanus",
+     "Cronos",
+     "Brontes",
+     "Steropes",
+     "Arges"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "The beginning of the world",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 24,
+    "title": "Earth Plots Against Heaven",
+    "summary": "Heaven hides the hundred-handed sons in Earth. Earth makes a sickle and only Cronos agrees to punish his father.",
+    "stakes": "Earth and her sons risk their father's wrath; the hidden children suffer imprisonment.",
+    "present": [
+     "Earth",
+     "Heaven",
+     "Cronos",
+     "Cottus",
+     "Briareos",
+     "Gyes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Earth",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 32,
+    "title": "Castration and Birth of Aphrodite",
+    "summary": "Cronos maims Heaven; Erinyes, Giants and Meliae spring from the blood, and Aphrodite rises from the foam and goes to Cythera and Cyprus.",
+    "stakes": "Heaven loses his power; Cronos risks his father's retaliation.",
+    "present": [
+     "Heaven",
+     "Earth",
+     "Cronos",
+     "Aphrodite",
+     "Eros",
+     "Desire",
+     "Erinyes",
+     "Giants",
+     "Meliae"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Cyprus",
+     "modern_name": "Cyprus",
+     "certainty": "real",
+     "lat": 34.9,
+     "lon": 33.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Muses",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "children of Zeus who dwell on Olympus and inspire song"
+   },
+   {
+    "name": "Chaos",
+    "aliases": [],
+    "kind": "other",
+    "description": "first thing to come to be"
+   },
+   {
+    "name": "Earth",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "wide-bosomed foundation of the gods, mother of Heaven and many children"
+   },
+   {
+    "name": "Tartarus",
+    "aliases": [],
+    "kind": "other",
+    "description": "dim place deep in the Earth"
+   },
+   {
+    "name": "Eros",
+    "aliases": [
+     "Love"
+    ],
+    "kind": "god",
+    "description": "fairest of the gods, who unnerves limbs and minds"
+   },
+   {
+    "name": "Erebus",
+    "aliases": [],
+    "kind": "god",
+    "description": "born of Chaos, father of Aether and Day"
+   },
+   {
+    "name": "Night",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "born of Chaos, mother of Aether and Day"
+   },
+   {
+    "name": "Aether",
+    "aliases": [],
+    "kind": "god",
+    "description": "child of Night and Erebus"
+   },
+   {
+    "name": "Day",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "child of Night and Erebus"
+   },
+   {
+    "name": "Heaven",
+    "aliases": [],
+    "kind": "god",
+    "description": "starry son and mate of Earth, cruel father"
+   },
+   {
+    "name": "Pontus",
+    "aliases": [],
+    "kind": "god",
+    "description": "the barren sea, born of Earth alone"
+   },
+   {
+    "name": "Oceanus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Titan, child of Earth and Heaven"
+   },
+   {
+    "name": "Coeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Titan"
+   },
+   {
+    "name": "Crius",
+    "aliases": [],
+    "kind": "god",
+    "description": "Titan"
+   },
+   {
+    "name": "Hyperion",
+    "aliases": [],
+    "kind": "god",
+    "description": "Titan"
+   },
+   {
+    "name": "Iapetus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Titan"
+   },
+   {
+    "name": "Theia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Titaness"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Titaness"
+   },
+   {
+    "name": "Themis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Titaness"
+   },
+   {
+    "name": "Mnemosyne",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Titaness"
+   },
+   {
+    "name": "Phoebe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "gold-crowned Titaness"
+   },
+   {
+    "name": "Tethys",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "lovely Titaness"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "youngest Titan, who castrates his father"
+   },
+   {
+    "name": "Brontes",
+    "aliases": [],
+    "kind": "creature",
+    "description": "one-eyed Cyclops"
+   },
+   {
+    "name": "Steropes",
+    "aliases": [],
+    "kind": "creature",
+    "description": "one-eyed Cyclops"
+   },
+   {
+    "name": "Arges",
+    "aliases": [],
+    "kind": "creature",
+    "description": "one-eyed Cyclops"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "given thunder by the Cyclopes"
+   },
+   {
+    "name": "Cottus",
+    "aliases": [],
+    "kind": "monster",
+    "description": "hundred-armed son of Earth and Heaven"
+   },
+   {
+    "name": "Briareos",
+    "aliases": [],
+    "kind": "monster",
+    "description": "hundred-armed son of Earth and Heaven"
+   },
+   {
+    "name": "Gyes",
+    "aliases": [],
+    "kind": "monster",
+    "description": "hundred-armed son of Earth and Heaven"
+   },
+   {
+    "name": "Erinyes",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Furies born from Heaven's blood"
+   },
+   {
+    "name": "Giants",
+    "aliases": [],
+    "kind": "creature",
+    "description": "armoured beings born from the blood"
+   },
+   {
+    "name": "Meliae",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "ash-tree nymphs born from the blood"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Cytherea",
+     "Cyprogenes",
+     "Philommedes"
+    ],
+    "kind": "goddess",
+    "description": "foam-born goddess of love"
+   },
+   {
+    "name": "Desire",
+    "aliases": [],
+    "kind": "god",
+    "description": "follows Aphrodite at her birth"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Chaos",
+    "relation": "parent_of",
+    "b": "Erebus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Chaos",
+    "relation": "parent_of",
+    "b": "Night",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Night",
+    "relation": "parent_of",
+    "b": "Day",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Erebus",
+    "relation": "parent_of",
+    "b": "Aether",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Night",
+    "relation": "lover_of",
+    "b": "Erebus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Earth",
+    "relation": "parent_of",
+    "b": "Heaven",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Earth",
+    "relation": "parent_of",
+    "b": "Pontus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Earth",
+    "relation": "parent_of",
+    "b": "Cronos",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Heaven",
+    "relation": "parent_of",
+    "b": "Cronos",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Earth",
+    "relation": "lover_of",
+    "b": "Heaven",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Earth",
+    "relation": "parent_of",
+    "b": "Brontes",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Earth",
+    "relation": "parent_of",
+    "b": "Cottus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Heaven",
+    "relation": "parent_of",
+    "b": "Briareos",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Earth",
+    "relation": "parent_of",
+    "b": "Erinyes",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Heaven",
+    "relation": "parent_of",
+    "b": "Aphrodite",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Cronos",
+    "relation": "sibling_of",
+    "b": "Rhea",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cytherea",
+    "canonical": "Aphrodite",
+    "explanation": "Epithet from the island Cythera, where she first landed."
+   },
+   {
+    "alias": "Cyprogenes",
+    "canonical": "Aphrodite",
+    "explanation": "Epithet meaning born in Cyprus."
+   },
+   {
+    "alias": "Philommedes",
+    "canonical": "Aphrodite",
+    "explanation": "Epithet linked to the members from which she sprang."
+   },
+   {
+    "alias": "Love",
+    "canonical": "Eros",
+    "explanation": "English gloss of the name Eros."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Hesiod's famous account of the first beings: Chaos, then Earth, Tartarus and Eros.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "reason": "Defines Aphrodite's domain of love, smiles, deceit and sweet delight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "reason": "Explains the Cyclopes' name as 'orb-eyed'.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage presents the cosmos arising through generation and violent succession: each ruler is overthrown by a child. Heaven's fall prepares for Cronos and then Zeus.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Hesiod's genealogy organizes Greek cult figures into one system, and it resembles earlier Near Eastern succession myths, such as the Hittite Kumarbi story.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Hesiod's Chaos-first genealogy shaped later Greek and Roman cosmologies, and the English word chaos draws on it."
+   },
+   {
+    "kind": "history",
+    "text": "The birth of Aphrodite from sea foam inspired artworks such as Botticelli's Birth of Venus (c. 1485)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Aphrodite's name was often linked by Greeks to aphros, 'foam', though modern scholars doubt this etymology.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Hail\" is a formal greeting or salutation, here addressed to the Muses as an act of reverence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Ye\" is the old plural form of \"you\", here addressing the Muses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Verily\" is an archaic word meaning \"truly\" or \"indeed\", used to give solemn emphasis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Chaos here means a yawning gap or void, not disorder as in modern usage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Without sweet union of love\": Earth produces Pontus by herself, with no partner.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Surnamed\" means given a descriptive name; Cyclopes literally means \"round-eyed\" or \"circle-eyed\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Doughty\" means valiant or mighty; \"presumptuous\" here suggests overweening, arrogant strength rather than mere rudeness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "\"Straitened\" means hemmed in or constricted; Earth is pained because her children are crammed inside her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Father of evil name\" means a father of ill repute, whose name is justly cursed for his deeds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "The \"1607\" is a stray footnote marker from the edition, not part of the poem.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "\"Members\" is a euphemism for genitals; the translator avoids naming the act directly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "Erinyes are the Furies, avenging spirits who punish crimes, especially against kin. Meliae are ash-tree nymphs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "phrasing",
+    "text": "Aphrodite's epithets are folk etymologies: Cytherea from Cythera, Cyprogenes from Cyprus, and \"foam-born\" from aphros, foam. Philommedes plays on a word for genitals, so \"member-loving\" is a pun.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The Muses were goddesses of song and memory, daughters of Zeus and Mnemosyne, believed to inspire poets.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Tartarus is the dark region deep beneath the earth, later used as a prison for defeated gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Cronos, youngest of the Titans, later overthrows his father Heaven and becomes ruler of the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Cottus, Briareos and Gyes are the Hundred-Handers, monstrous brothers of the Titans, later allies of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Cronos is the youngest Titan. His deed makes him ruler of the gods until his own son overthrows him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Cythera and Cyprus were centres of Aphrodite's cult, which explains her titles Cytherea and Cyprogenes.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "apostrophe",
+    "text": "The poet directly addresses the Muses, opening the invocation in the epic tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "personification",
+    "text": "Eros is described as a power that unnerves limbs and overcomes minds, making love a force acting on all beings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "foreshadowing",
+    "text": "Calling Cronos \"wily\" and \"terrible\" and noting his hatred of his father hints at the coming violence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "characterization",
+    "text": "Heaven rejoicing in cruelty paints him as a tyrant, justifying the revenge that follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "epithet",
+    "text": "\"Cronos the wily\" marks his cunning, foreshadowing the trickery that defines his rule.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "symbolism",
+    "text": "Beauty and desire arise from violence and severed divine flesh, tying love to the cosmic struggle for power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "characterization",
+    "text": "Aphrodite's domain is defined through whispers, smiles and deceits, showing love as both sweet and deceptive.",
+    "spoiler": false
+   }
+  ]
+ }
+}

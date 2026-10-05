@@ -1,0 +1,333 @@
+{
+ "section_id": "metamorphoses-body-29",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9829,
+  "output": 3081
+ },
+ "result": {
+  "summary": "Minerva visits the foul goddess Envy and orders her to poison Aglauros against her sister Herse. Envy does so, and Aglauros, consumed by jealousy, blocks Mercury's way to Herse's room until he turns her to stone.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "Pallas visits Envy's house",
+    "summary": "Minerva strikes open Envy's door, finds her eating vipers, and tells her to infect Aglauros. She then departs.",
+    "stakes": "",
+    "present": [
+     "Pallas",
+     "Envy"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the abode of Envy",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 20,
+    "title": "Envy poisons Aglauros",
+    "summary": "Envy travels, blighting the land, reaches Athens and fills Aglauros with venom and jealousy of Herse. Aglauros wastes away in torment.",
+    "stakes": "Aglauros's peace of mind and health are consumed by envy.",
+    "present": [
+     "Envy",
+     "Aglauros",
+     "Herse"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the Tritonian citadel",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 28,
+    "title": "Aglauros turned to stone",
+    "summary": "Aglauros sits at the threshold to bar Mercury. He opens the door with his wand and she slowly turns to stone.",
+    "stakes": "Aglauros risks Mercury's anger and her own life by blocking him.",
+    "present": [
+     "Aglauros",
+     "Mercury"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Herse's chamber, Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pallas",
+    "aliases": [
+     "Tritonia",
+     "Minerva"
+    ],
+    "kind": "goddess",
+    "description": "warrior goddess who orders Envy to act"
+   },
+   {
+    "name": "Envy",
+    "aliases": [],
+    "kind": "other",
+    "description": "foul personified spirit who eats vipers and spreads jealousy"
+   },
+   {
+    "name": "Aglauros",
+    "aliases": [
+     "daughter of Cecrops"
+    ],
+    "kind": "mortal",
+    "description": "Athenian princess who becomes jealous and is turned to stone"
+   },
+   {
+    "name": "Herse",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aglauros's fortunate sister, loved by Mercury"
+   },
+   {
+    "name": "Mercury",
+    "aliases": [
+     "the Cyllenian God"
+    ],
+    "kind": "god",
+    "description": "god who seeks Herse and petrifies Aglauros"
+   },
+   {
+    "name": "Cecrops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aglauros and Herse"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cecrops",
+    "relation": "parent_of",
+    "b": "Aglauros",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Aglauros",
+    "relation": "sibling_of",
+    "b": "Herse",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Aglauros",
+    "relation": "transformed_into",
+    "b": "statue",
+    "source": "text",
+    "evidence_sentence": 27
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Tritonia",
+    "canonical": "Pallas",
+    "explanation": "A title of Pallas Minerva, linked to Lake Triton; Tritonian also describes her city, Athens."
+   },
+   {
+    "alias": "Cyllenian God",
+    "canonical": "Mercury",
+    "explanation": "Mercury was born on Mount Cyllene."
+   },
+   {
+    "alias": "Minerva",
+    "canonical": "Pallas",
+    "explanation": "Roman name of the goddess also called Pallas."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Concise image of envy as self-torment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "reason": "Striking closing line: the stone is black with her guilt.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Envy is portrayed as self-destructive: it torments both host and victim. Aglauros's jealousy ends in her petrification, a punishment that mirrors her hardened heart.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid draws on Athenian legend of Cecrops's daughters and uses the Roman tradition of personifying vices, in the manner of epic.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Ovid's portrait of Envy influenced later personifications, notably Spenser's Envy in The Faerie Queene and Dante's treatment of envy's punishment in Purgatorio."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid's House of Envy passage was widely imitated by Renaissance poets as a model of allegorical description.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Female warrior\" is Pallas Minerva; she stays outside because Envy's house is polluted, and the text says she thought entering unlawful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Propensities\" means inclinations or tendencies; the vipers' flesh feeds her vicious nature.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Tritonia is an epithet of Minerva (Pallas), of uncertain origin, linked to Lake Triton or the river Triton.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Daughters of Cecrops: Cecrops was the legendary first king of Athens; Aglauros is one of his three daughters, along with Herse and Pandrosos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Spurned the ground with her spear\" means she pushed off from the earth with her spear, rising into the air to leave.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"With a look askance\" means a sideways, envious or resentful glance. The Goddess is Minerva, who has just visited Envy's cave to order her to act.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Tritonian\" refers to Minerva, called Tritonis or Tritonia, an epithet of the goddess; her citadel is Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The daughter of Cecrops is Aglauros, daughter of Athens' legendary early king Cecrops.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Her sister is Herse, whom Mercury loves and will marry; the God is Mercury, whose beauty feeds Aglauros's jealousy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Cyllenian\" names Mercury, said to be born on Mount Cyllene in Arcadia. His wand is the caduceus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "This summary introduces the next episode: Mercury loves Herse, and Aglauros's envy leads Mercury to turn her to stone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Pallas is Minerva, goddess of wisdom and war. Her spear is her usual attribute, and she is shown here as a formidable warrior.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Minerva (the Greek Athena) had Envy sent against Aglauros as punishment for her disrespect after she peeked into the sacred basket.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Ancient writers used \"cancer\" for spreading, creeping ulcers or tumors; the image suggests inexorable spread.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "personification",
+    "text": "Envy is portrayed as a living woman with a house, eating vipers, giving the abstract vice a body and habits.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "imagery",
+    "text": "A catalogue of sickly colors and features (pale, black, green, dripping) makes Envy physically repulsive, so the vice is visible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "irony",
+    "text": "Her only smiles come from seeing others suffer, a grim reversal of the usual meaning of a smile.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "paradox",
+    "text": "Envy both torments and is tormented, so she is her own punishment; the vice harms the one who holds it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "personification",
+    "text": "Envy is a character who walks, tramples fields and carries a thorny staff, making a vice a destructive physical force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "Envy is pained by the sight of happiness, so a peaceful city makes her weep; her sorrow stems from there being nothing to grieve.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "simile",
+    "text": "Aglauros's slow wasting is compared to ice under a weak, clouded sun, stressing gradual, relentless dissolving.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "simile",
+    "text": "Her jealousy is likened to fire under thorny reeds, smoldering without flame, an image of hidden, consuming resentment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "symbolism",
+    "text": "The stone's dark color externalizes her inner moral stain; the transformation makes her envy visible, a fitting punishment.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,307 @@
+{
+ "section_id": "metamorphoses-body-97",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7007,
+  "output": 2598
+ },
+ "result": {
+  "summary": "Apollo leaves Tmolus and joins Neptune, disguised as mortals, to build Troy's walls for Laomedon, who cheats them of their pay. Neptune floods the land and sends a sea monster, and Hercules later rescues Hesione but is also cheated, so he sacks Troy and gives Hesione to Telamon. The passage ends by noting that Peleus, in contrast, received a goddess as wife.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Argument of the fable",
+    "summary": "A prose summary of the story of Laomedon's broken promises and Hercules' revenge.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Neptune",
+     "Laomedon",
+     "Hercules",
+     "Hesione",
+     "Telamon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.957,
+     "lon": 26.239
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 8,
+    "title": "Building the walls of Troy",
+    "summary": "Apollo comes to the Trojan plain, joins Neptune in mortal form, and they build the walls. Laomedon refuses the agreed gold and swears falsely.",
+    "stakes": "The gods are cheated of their promised payment; Laomedon risks divine anger.",
+    "present": [
+     "Apollo",
+     "Neptune",
+     "Laomedon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Plains of Laomedon near Sigæum",
+     "modern_name": "Troad, Turkey",
+     "certainty": "traditional",
+     "lat": 39.95,
+     "lon": 26.2
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 13,
+    "title": "Flood, monster and Hercules",
+    "summary": "Neptune floods the fields and demands the king's daughter for a sea monster. Hercules frees her, is cheated of his horses, sacks Troy, and Telamon receives Hesione.",
+    "stakes": "Troy and Laomedon's daughter face destruction for his perjury.",
+    "present": [
+     "Neptune",
+     "Laomedon",
+     "Hercules",
+     "Hesione",
+     "Telamon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.957,
+     "lon": 26.239
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 15,
+    "title": "Peleus and his goddess wife",
+    "summary": "The narrator turns to Peleus, honored with a goddess as wife and proud of his lineage.",
+    "stakes": "",
+    "present": [
+     "Peleus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Apollo",
+    "aliases": [
+     "son of Latona"
+    ],
+    "kind": "god",
+    "description": "god who leaves Tmolus and helps build Troy's walls"
+   },
+   {
+    "name": "Neptune",
+    "aliases": [
+     "king of the sea",
+     "trident-bearing father of the raging deep"
+    ],
+    "kind": "god",
+    "description": "sea god who builds the walls and punishes Laomedon"
+   },
+   {
+    "name": "Laomedon",
+    "aliases": [
+     "the Phrygian king"
+    ],
+    "kind": "mortal",
+    "description": "king of Troy who cheats the gods and Hercules"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Alcides"
+    ],
+    "kind": "mortal",
+    "description": "hero who rescues Hesione and sacks Troy"
+   },
+   {
+    "name": "Hesione",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Laomedon's daughter, exposed to a sea monster"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "companion of Hercules, given Hesione"
+   },
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who gained a goddess as wife"
+   },
+   {
+    "name": "Latona",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Apollo"
+   },
+   {
+    "name": "Jove",
+    "aliases": [
+     "Panomphæan Thunderer"
+    ],
+    "kind": "god",
+    "description": "king of the gods, grandfather of Peleus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Latona",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Laomedon",
+    "relation": "parent_of",
+    "b": "Hesione",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Jove",
+    "relation": "parent_of",
+    "b": "Peleus",
+    "source": "outside",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Telamon",
+    "relation": "spouse_of",
+    "b": "Hesione",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Alcides",
+    "canonical": "Hercules",
+    "explanation": "Patronymic of Hercules, grandson of Alcæus."
+   },
+   {
+    "alias": "son of Latona",
+    "canonical": "Apollo",
+    "explanation": "Epithet naming Apollo by his mother."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Neptune's threat after Laomedon's perjury launches the punishment.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Broken oaths bring divine punishment; Laomedon's perjury dooms Troy, foreshadowing its later fall.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale explains Troy's early sack by Hercules and links heroic families through Telamon and Peleus.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Ancient writers called Laomedon's cheating the 'perjury of Troy', and Latin writers used 'Trojan perfidy' as a proverb.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Son of Latona\" is Apollo; Latona was his mother, and the periphrasis avoids naming him. Tmolus is a mountain in Lydia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The \"narrow sea of Helle\" is the Hellespont, named for Helle, who fell from the golden ram; Nephele was her mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Phrygian here means Trojan; Troy lay in the region of Phrygia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"King of the sea\" is Neptune, who speaks the threat in his own voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Alcides is a name for Hercules, from his grandfather Alcaeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "\"Twice-perjured\" refers to Laomedon cheating both the gods and Hercules; Troy's walls bear the guilt of his broken oaths.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 7,
+    "text": "Neptune is god of the sea. Apollo and Neptune served Laomedon in human form, according to the myth, as punishment for rebelling against Jove.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Telamon, father of Ajax, fought alongside Hercules at Troy. Hesione, Laomedon's daughter, was his prize.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Peleus married the sea goddess Thetis; their son was Achilles. This returns the narrative to Peleus's story.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "Characterization",
+    "text": "Laomedon is shown as faithless, adding perjury to deceit, which prepares the justice of divine and heroic punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Metaphor",
+    "text": "Turning the land into the form of the sea vividly presents the flood as the sea taking over the fields.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Repetition",
+    "text": "The doubled claim about Peleus's grandfather and wife stresses his unique honor, balancing the pride of lineage.",
+    "spoiler": false
+   }
+  ]
+ }
+}

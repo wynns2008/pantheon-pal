@@ -1,0 +1,249 @@
+{
+ "section_id": "metamorphoses-body-55",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7258,
+  "output": 2380
+ },
+ "result": {
+  "summary": "The Muse closes Arethusa's account: Ceres sends Triptolemus in her dragon-drawn chariot to spread grain, and when King Lyncus of Scythia tries to murder him, Ceres turns Lyncus into a lynx. The Nymphs then award the contest to the Muses, and the defeated Pierides, who abuse them, are turned into chattering magpies.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "Triptolemus and Lyncus",
+    "summary": "Ceres sends Triptolemus across the world to sow grain. In Scythia King Lyncus, jealous of the gift, tries to stab him in his sleep and is turned into a lynx.",
+    "stakes": "Triptolemus risks being murdered in his sleep by a jealous host, and his mission could fail.",
+    "present": [
+     "Ceres",
+     "Triptolemus",
+     "Lyncus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Scythia",
+     "modern_name": "Northern Black Sea steppe",
+     "certainty": "real",
+     "lat": 47.0,
+     "lon": 35.0
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 18,
+    "title": "The Pierides become magpies",
+    "summary": "The Nymphs judge the Muses the winners. The defeated Pierides hurl abuse and threats, and are changed into magpies that keep their talkativeness.",
+    "stakes": "The Pierides face punishment for insulting the Muses after losing the contest.",
+    "present": [
+     "Muses",
+     "Pierides",
+     "Nymphs"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Helicon",
+     "modern_name": "Mount Helicon, Boeotia",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 22.8
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ceres",
+    "aliases": [
+     "The fertile Goddess"
+    ],
+    "kind": "goddess",
+    "description": "goddess of grain who sends out Triptolemus and punishes Lyncus"
+   },
+   {
+    "name": "Triptolemus",
+    "aliases": [
+     "the Mopsopian youth"
+    ],
+    "kind": "mortal",
+    "description": "Athenian youth carrying Ceres' seed grain"
+   },
+   {
+    "name": "Lyncus",
+    "aliases": [
+     "the barbarian"
+    ],
+    "kind": "mortal",
+    "description": "king of Scythia who tries to murder his guest"
+   },
+   {
+    "name": "Arethusa",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph whose tale the Muse has been retelling"
+   },
+   {
+    "name": "Muses",
+    "aliases": [
+     "Goddesses who inhabit Helicon"
+    ],
+    "kind": "goddess",
+    "description": "winners of the singing contest"
+   },
+   {
+    "name": "Pierides",
+    "aliases": [
+     "daughters of Pierus",
+     "Emathian sisters"
+    ],
+    "kind": "mortal",
+    "description": "defeated rivals of the Muses, turned into magpies"
+   },
+   {
+    "name": "Nymphs",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "judges who declare the Muses victors"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lyncus",
+    "relation": "transformed_into",
+    "b": "lynx",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Pierides",
+    "relation": "transformed_into",
+    "b": "magpies",
+    "source": "text",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Mopsopian",
+    "canonical": "Triptolemus",
+    "explanation": "Mopsopian means Athenian, from the old Attic king Mopsopus; here it describes Triptolemus."
+   },
+   {
+    "alias": "Emathian sisters",
+    "canonical": "Pierides",
+    "explanation": "Emathia is a poetic name for Macedonia, where the Pierides came from."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Both stories punish those who reject or abuse a gift: Lyncus envies the gift of agriculture, and the Pierides insult their judges. Transformation fits the offence.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Triptolemus links Athens and the Eleusinian Mysteries to the spread of farming, and Scythia stands for the barbarian outsider in Greek and Roman eyes.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Triptolemus sending out grain was a favourite subject of Greek vase painting and Athenian civic myth, tied to the Eleusinian Mysteries."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The magpie ending ties into Ovid's habit of explaining animal traits through myth; the Pierides' chattering becomes the magpie's cry.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The Tritonian citadel is Athens, the city of Minerva (Pallas), who was associated with Lake Triton. Triptolemus was an Athenian prince.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Scythia was the vaguely known region north of the Black Sea, which Greeks and Romans regarded as wild and uncivilized.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Barbarian\" here means a non-Greek, uncivilized foreigner, as the Scythians were considered; it is not simply an insult to his manners.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Mopsopian\" means Athenian, from Mopsopus, an early legendary king of Attica.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Sacred drawers\" means the sacred dragons that draw Ceres' chariot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Helicon is the Muses' mountain in Boeotia, so \"the Goddesses who inhabit Helicon\" are the Muses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Emathian\" means Macedonian; Ovid uses it for the Pierides, daughters of Pierus, here loosely linked with northern Greece.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Ceres (the Greek Demeter) is goddess of grain and agriculture. She sends Triptolemus to teach farming after her daughter's return.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "The narrator is a Muse retelling the contest with the Pierides to Minerva. Arethusa's story was her song's last part, and \"the greatest of us\" is Calliope.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Magpies were known for noisy chatter, so the transformation fits the Pierides' boastful, quarrelsome natures.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "Irony",
+    "text": "Lyncus tries to kill the giver of a gift to humanity out of envy, and his own name becomes his punishment, a lynx.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Dramatic irony",
+    "text": "The Pierides smile and scorn the threats while the reader knows, from the Muses' power, that they are about to suffer transformation themselves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Imagery",
+    "text": "The picture of arms flapping into wings while the birds hang in the air makes the metamorphosis vivid and a little comic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "Characterization",
+    "text": "Their old habit of noisy talk survives the change, so the new form expresses their original character.",
+    "spoiler": false
+   }
+  ]
+ }
+}

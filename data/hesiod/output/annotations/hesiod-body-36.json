@@ -1,0 +1,427 @@
+{
+ "section_id": "hesiod-body-36",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12163,
+  "output": 3784
+ },
+ "result": {
+  "summary": "The poet continues describing the decorated shield made by Hephaestus for Heracles. Scenes include a harbour with dolphins and a fisherman, Perseus fleeing the Gorgons, a besieged city with the Fates and Darkness of Death, a city at a wedding festival, and scenes of farming, vintage, hunting and a chariot race.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Harbour with dolphins and fisherman",
+    "summary": "The shield shows a tin harbour with silver dolphins chasing bronze fishes while a fisherman waits with a net.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Shield of Heracles",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 13,
+    "title": "Perseus flees the Gorgons",
+    "summary": "Golden Perseus flies with winged sandals and the cap of Hades, carrying the Gorgon's head, while the other Gorgons chase him.",
+    "stakes": "Perseus is pursued by the Gorgons who long to seize him.",
+    "present": [
+     "Perseus",
+     "Hephaestus",
+     "Danae"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Shield of Heracles",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 24,
+    "title": "Battle over a town, Fates",
+    "summary": "Men fight to defend or sack a town while elders pray and the grim Fates and Darkness of Death seize the fallen.",
+    "stakes": "The townsfolk risk death and the sack of their city.",
+    "present": [
+     "Clotho",
+     "Lachesis",
+     "Atropos",
+     "Darkness of Death",
+     "Hephaestus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Shield of Heracles",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 29,
+    "title": "City at peace: wedding",
+    "summary": "A city with seven golden gates celebrates a wedding with torches, song, pipes and dance.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Shield of Heracles",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 30,
+    "end_sentence": 41,
+    "title": "Farming, vintage, sports, race",
+    "summary": "Riders, ploughmen, reapers, grape gatherers, boxers, hunters and charioteers are shown, with a golden tripod as the prize.",
+    "stakes": "",
+    "present": [
+     "Hephaestus",
+     "Demeter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Shield of Heracles",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero shown flying in gold, carrying the Gorgon's head"
+   },
+   {
+    "name": "Danae",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Perseus"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [
+     "the Lame One"
+    ],
+    "kind": "god",
+    "description": "divine smith who made the shield"
+   },
+   {
+    "name": "Gorgons",
+    "aliases": [],
+    "kind": "monster",
+    "description": "snake-girdled monsters chasing Perseus"
+   },
+   {
+    "name": "Clotho",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "one of the Fates"
+   },
+   {
+    "name": "Lachesis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "one of the Fates"
+   },
+   {
+    "name": "Atropos",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "eldest and smallest of the Fates"
+   },
+   {
+    "name": "Darkness of Death",
+    "aliases": [],
+    "kind": "other",
+    "description": "gaunt, bloody figure beside the Fates"
+   },
+   {
+    "name": "Hades",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of the dead, whose cap Perseus wears"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of grain, named for the harvest"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Danae",
+    "relation": "parent_of",
+    "b": "Perseus",
+    "source": "text",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Lame One",
+    "canonical": "Hephaestus",
+    "explanation": "Epithet for the lame smith god."
+   },
+   {
+    "alias": "Demeter's grain",
+    "canonical": "Demeter",
+    "explanation": "Demeter stands for grain by metonymy."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "Marvelling at Hephaestus's craft: Perseus appears to fly unsupported.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The shield contrasts war and death with festival, farming and play, presenting a whole world of human life.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The description imitates the shield of Achilles in the Iliad, showing the epic tradition of ekphrasis.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The passage belongs to the tradition of the described shield, which runs from Homer's Achilles shield to Virgil's shield of Aeneas."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Shield of Heracles is ascribed to Hesiod in antiquity, but modern scholars generally doubt his authorship.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Mute\" fishes: silent, voiceless; a standard descriptive touch for fish in Greek poetry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"The famous Lame One\" is Hephaestus, the smith god, referred to by an epithet instead of his name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "A cross-belt is a baldric, a strap worn diagonally over the shoulder to carry a sword.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The cap of Hades made its wearer invisible. Perseus borrowed it to approach the Gorgons unseen. The number 1804 is a stray page marker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Adamant is a legendary unbreakable metal; here it describes the pale surface of the shield on which the Gorgons run.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Like living beings\" is odd: the women are figures worked in metal, so the poet likens the images to real women in their lifelike grief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "Tartarus is the gloomy lowest region of the underworld; here it is used loosely alongside Hades for the place of the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Clotho, Lachesis and Atropos are the three Fates, who spun, measured and cut the thread of each human life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Darkness of Death\" translates a personified figure, Achlys, a spirit of mist and misery associated with dying.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "\"Well-wheeled car\" means a well-made wagon or chariot in which the bride was conveyed to her husband's house in the wedding procession.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "\"Tunics girt up\" means tunics belted high so the legs were free for work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "\"Cars\" is an old word for ears of grain, not vehicles. The translator's spelling reflects older usage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "\"Demeter's grain\" uses the goddess's name for grain itself, a metonymy common in Greek poetry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "phrasing",
+    "text": "\"Turned black 1805\" contains a stray printed date, a text error; it likely means the grapes were ripening dark.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "word",
+    "text": "\"Liquor\" here means the freshly pressed grape juice or wine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "phrasing",
+    "text": "\"Hard set\" means hard pressed or intensely engaged in the contest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "word",
+    "text": "\"Naves\" are the hubs of the wheels, where the axle passes through.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Perseus, son of Zeus and Danae, beheaded the Gorgon Medusa. Her head turned onlookers to stone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Medusa's two immortal sisters, Stheno and Euryale, chased Perseus after he killed her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Hephaestus was the smith god, who made the shield's metalwork; the poet reminds us the whole scene is his craftsmanship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Elders too old to fight stayed outside the gates and prayed, a common picture of a besieged town.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "Hephaestus was the divine smith who forged the shield, so the golden vine is a god's craftsmanship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "text": "A tripod was a three-legged cauldron or stand, a typical prize in Greek games and a valuable gift.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "Imagery",
+    "text": "The tin harbour that seems to heave with waves makes a static metal object look alive and moving.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "Simile",
+    "text": "Comparing Perseus's flight to thought conveys extreme speed in a few words.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Onomatopoeia",
+    "text": "The ringing, clanging shield makes the sound of the chase audible, adding noise to a silent artwork.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "Personification",
+    "text": "Fear is imagined as a being quaking upon the Gorgons' heads, making terror a visible presence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "personification",
+    "text": "The Fates are shown as snarling, fanged beasts thirsting for blood, turning fate into predatory violence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "imagery",
+    "text": "Piled grim physical details of hunger and decay make Death's spirit repulsive and vivid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "contrast",
+    "text": "The golden-gated city of festival follows the scene of war and death, setting peace against slaughter on the same shield.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "sensory imagery",
+    "text": "Sound, light and movement of pipes, lyres, echo and dance create a lively picture of joy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "Parallelism",
+    "text": "The balanced clause about hunters and hares both being eager makes the chase seem alive, suspended between pursuit and escape.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "Onomatopoeia",
+    "text": "The clattering cars and shrieking wheel hubs bring sound into a silent metal image, making the scene vivid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "device": "Irony",
+    "text": "The contest is endless and no one wins, so the prize is displayed but never gained, a frozen moment of art.",
+    "spoiler": false
+   }
+  ]
+ }
+}

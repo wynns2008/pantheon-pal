@@ -1,0 +1,92 @@
+{
+ "work": "The Metamorphoses of Ovid, Books I-VII + VIII-XV",
+ "model": "claude-sonnet-5-5",
+ "usage": {
+  "input": 28236,
+  "output": 1441
+ },
+ "same": [
+  {
+   "names": [
+    "Fates",
+    "The Fates"
+   ],
+   "reason": "Same goddesses listed twice",
+   "change": true
+  },
+  {
+   "names": [
+    "Oceanus",
+    "Ocean"
+   ],
+   "reason": "Same sea god, two spellings",
+   "change": true
+  },
+  {
+   "names": [
+    "Raven",
+    "The raven"
+   ],
+   "reason": "Same bird informing on Coronis",
+   "change": true
+  },
+  {
+   "names": [
+    "Numa",
+    "Numa Pompilius"
+   ],
+   "reason": "Same Roman king",
+   "change": true
+  }
+ ],
+ "different": [
+  {
+   "name": "Juno",
+   "other": "Beroë",
+   "reason": "Beroë is a Trojan woman whose shape Juno takes",
+   "change": true
+  },
+  {
+   "name": "Lucifer",
+   "other": "Ceyx",
+   "reason": "Ceyx is a mortal king, husband of Halcyone, not the star",
+   "change": true
+  },
+  {
+   "name": "Ino",
+   "other": "Leucothoë",
+   "reason": "Leucothoë is Orchamus's daughter loved by the Sun",
+   "change": true
+  },
+  {
+   "name": "Macareus",
+   "other": "Achæmenides",
+   "reason": "Different Greeks; Achæmenides was rescued by Aeneas, Macareus another",
+   "change": true
+  },
+  {
+   "name": "Atalanta",
+   "other": "Nonacrian Nymph",
+   "reason": "Nonacrian Nymph is Calisto, not Atalanta",
+   "change": true
+  },
+  {
+   "name": "Tereus",
+   "other": "Polymnestor",
+   "reason": "Polymnestor is a different Thracian king who killed Polydorus",
+   "change": true
+  },
+  {
+   "name": "Progne",
+   "other": "Cecropian Nymphs",
+   "reason": "Plural nymphs are not Progne",
+   "change": true
+  },
+  {
+   "name": "Ceres",
+   "other": "Deoïan oak",
+   "reason": "Oak is a tree, not the goddess",
+   "change": true
+  }
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "section_id": "metamorphoses-body-15",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6606,
+  "output": 1836
+ },
+ "result": {
+  "summary": "Mercury tells how Pan fell in love with the Naiad Syrinx, a devotee of Diana. She fled him to the river Ladon and was changed into reeds, from which Pan made his pipes.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Argument of the fable",
+    "summary": "A headnote summarizes the tale of Pan and Syrinx and the origin of the seven-pipe instrument.",
+    "stakes": "",
+    "present": [
+     "Pan",
+     "Syrinx"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 6,
+    "title": "Pan pursues Syrinx",
+    "summary": "Mercury describes Syrinx, a virgin huntress like Diana, whom Pan spies on returning from Lycaeus. She flees to the Ladon, is turned into reeds, and Pan makes pipes from them.",
+    "stakes": "Syrinx stands to lose her virginity and freedom to Pan's pursuit; Pan stands to lose his beloved.",
+    "present": [
+     "Mercury",
+     "Pan",
+     "Syrinx",
+     "Diana",
+     "Latona"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Arcadia, river Ladon",
+     "modern_name": "Ladon river, Arcadia, Greece",
+     "certainty": "traditional",
+     "lat": 37.75,
+     "lon": 22.05
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "goat-god who loves Syrinx and makes the pipes"
+   },
+   {
+    "name": "Syrinx",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Arcadian Naiad, chaste follower of Diana, turned into reeds"
+   },
+   {
+    "name": "Mercury",
+    "aliases": [],
+    "kind": "god",
+    "description": "narrator of the tale"
+   },
+   {
+    "name": "Diana",
+    "aliases": [
+     "the Ortygian Goddess"
+    ],
+    "kind": "goddess",
+    "description": "virgin huntress goddess whom Syrinx imitates"
+   },
+   {
+    "name": "Latona",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Diana"
+   },
+   {
+    "name": "Ladon",
+    "aliases": [],
+    "kind": "place",
+    "description": "river that stops Syrinx's flight"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Latona",
+    "relation": "parent_of",
+    "b": "Diana",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Syrinx",
+    "relation": "transformed_into",
+    "b": "reeds",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Ortygian Goddess",
+    "canonical": "Diana",
+    "explanation": "Epithet of Diana, linked to Ortygia, her birthplace tradition."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 6,
+    "reason": "Pan's words on the reeds: the origin of the panpipes, pathos of lost love.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Like other Ovidian tales, pursuit ends in transformation: the unwilling beloved is changed and the pursuer turns loss into art.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale gives an aetiology for the syrinx, or panpipes, an instrument of Arcadian shepherds.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Debussy's solo flute piece Syrinx (1913) draws on the myth, and the story inspired many painters and poets."
+   },
+   {
+    "kind": "history",
+    "text": "The word syringe comes from Greek syrinx, meaning pipe or reed."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The panpipes are still sometimes called syrinx, and the vocal organ of birds is also named the syrinx.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Hamadryads are tree nymphs bound to a single tree; Nonacris was a mountain region of Arcadia. Naiads, by contrast, belong to fresh water.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Ortygian Goddess is Diana, called so from Ortygia, an old name linked to her birthplace Delos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "The bow contrast is compressed: Syrinx's bow was of cornel wood, Diana's of gold, the only way to tell them apart.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "The speech Pan makes is cut off; Mercury is the narrator, and the text says only that he went on to repeat it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Ladon is an Arcadian river; Lycæus is an Arcadian mountain sacred to Pan.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Satyrs were woodland creatures, part man and part goat, famous for chasing nymphs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Mercury is telling this story to Argus, whom he is lulling to sleep with talk and music.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "simile",
+    "text": "Syrinx is likened to Diana in dress and look, which stresses her chastity and her devotion to hunting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "irony",
+    "text": "Pan thinks he has caught the nymph but holds only reeds, a reversal that turns his pursuit into the creation of music.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "aetiology",
+    "text": "The tale explains the origin of the panpipes and why they are called syrinx.",
+    "spoiler": false
+   }
+  ]
+ }
+}

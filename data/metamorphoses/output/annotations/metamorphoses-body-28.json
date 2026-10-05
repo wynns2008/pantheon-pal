@@ -1,0 +1,318 @@
+{
+ "section_id": "metamorphoses-body-28",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8134,
+  "output": 2683
+ },
+ "result": {
+  "summary": "Mercury, flying over Athens, falls in love with Herse as she returns from a festival of Minerva. He approaches her sister Aglauros, who agrees to help only for gold. Minerva, angered by Aglauros's greed and remembering her earlier offence, goes to the cave of Envy.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Mercury sees Herse",
+    "summary": "Mercury flies over Athens, sees the festival maidens, and is inflamed by Herse's beauty. He lands and smartens his appearance.",
+    "stakes": "Mercury risks nothing grave; he is driven by desire for Herse.",
+    "present": [
+     "Mercury",
+     "Herse"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Munychia and the Actæan towers",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 16,
+    "title": "Aglauros demands gold",
+    "summary": "In the house of Cecrops, Aglauros asks Mercury his purpose. He asks her help with Herse, and she demands gold and sends him out.",
+    "stakes": "Mercury needs access to Herse; Aglauros risks Minerva's anger through her greed.",
+    "present": [
+     "Mercury",
+     "Aglauros",
+     "Herse",
+     "Pandrosos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "House of Cecrops",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 20,
+    "title": "Minerva turns to Envy",
+    "summary": "Minerva sighs in anger, recalls Aglauros's profane peeking at Erichthonius, and goes to the dark cave of Envy.",
+    "stakes": "Aglauros faces Minerva's vengeance; Minerva's honour is at stake.",
+    "present": [
+     "Minerva"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cave of Envy",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Mercury",
+    "aliases": [
+     "Cyllenian",
+     "son of Jupiter"
+    ],
+    "kind": "god",
+    "description": "winged messenger god, in love with Herse"
+   },
+   {
+    "name": "Herse",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "beautiful daughter of Cecrops"
+   },
+   {
+    "name": "Aglauros",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "greedy sister of Herse"
+   },
+   {
+    "name": "Pandrosos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sister who has the right-hand chamber"
+   },
+   {
+    "name": "Cecrops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the sisters"
+   },
+   {
+    "name": "Minerva",
+    "aliases": [
+     "Pallas"
+    ],
+    "kind": "goddess",
+    "description": "warlike goddess, angered by Aglauros"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Mercury"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "god",
+    "description": "Mercury's grandfather"
+   },
+   {
+    "name": "Pleione",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Mercury's grandmother"
+   },
+   {
+    "name": "Envy",
+    "aliases": [],
+    "kind": "monster",
+    "description": "personified spirit living in a dark cave"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cecrops",
+    "relation": "parent_of",
+    "b": "Herse",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Mercury",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Atlas",
+    "relation": "parent_of",
+    "b": "Jupiter",
+    "source": "outside",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Herse",
+    "relation": "sibling_of",
+    "b": "Aglauros",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Mercury",
+    "relation": "lover_of",
+    "b": "Herse",
+    "source": "text",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cyllenian",
+    "canonical": "Mercury",
+    "explanation": "Mercury is named for Mount Cyllene, his birthplace."
+   },
+   {
+    "alias": "Pallas",
+    "canonical": "Minerva",
+    "explanation": "Pallas is a title of Minerva."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 6,
+    "reason": "Memorable simile comparing Herse's beauty to Lucifer outshining the stars.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Greed and envy drive the episode: Aglauros's demand for gold sets up her punishment through Envy.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The festival procession reflects Athenian religious practice honouring Minerva.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Ancient writers said Balearic slingers used lead shot; Ovid borrows the belief that flying lead heats up.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "The caduceus is Mercury's winged staff entwined with serpents; 'bearer of the caduceus' is a periphrasis for Mercury.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "'Cyllenian' refers to Mount Cyllene in Arcadia, Mercury's birthplace; 'Actæan' means Attic, i.e. of Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Lucifer is the morning star (Venus); Phœbe is the moon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Balearic slingers from the Balearic Islands were famed in antiquity; lead sling bullets were believed to heat and glow in flight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Mercury's mother Maia was a daughter of Atlas and Pleione, so he is their grandson.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The 'hidden mysteries' are the chest Minerva entrusted to the sisters, holding the infant Erichthonius; Aglauros opened it despite the ban.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "The God of Lemnos is Vulcan; Erichthonius sprang from his seed spilled on the earth, born without a mother.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "This describes the Athenian festival procession in which maidens carried sacred baskets to Minerva's (Pallas's) citadel, the Acropolis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Cecrops was the legendary first king of Athens; Pandrosos, Aglauros and Herse were his three daughters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The Ægis was Minerva's protective breastplate or shield, fringed with serpents and bearing the Gorgon's head.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Envy is personified as a hideous goddess; Minerva will use her to punish Aglauros.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "Epic simile",
+    "text": "Mercury's cautious circling is compared to a kite hovering near sacrificial entrails, suggesting predatory desire mixed with hesitation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "Hyperbole",
+    "text": "Herse's beauty is likened to the moon outshining the morning star, exaggerating her superiority over her companions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "Simile",
+    "text": "The lead bullet heated by its flight pictures Mercury catching fire from passion in mid-air.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "Characterization",
+    "text": "Mercury's confidence in his looks, shown by not disguising himself, reveals his vanity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Irony",
+    "text": "Aglauros uses the same greedy, prying eyes that betrayed Minerva's secret, linking her past fault to her present bargaining.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "Imagery",
+    "text": "Cold, lightless, windless details build a lifeless setting suited to Envy.",
+    "spoiler": false
+   }
+  ]
+ }
+}

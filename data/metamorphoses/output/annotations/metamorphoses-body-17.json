@@ -1,0 +1,309 @@
+{
+ "section_id": "metamorphoses-body-17",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8261,
+  "output": 2654
+ },
+ "result": {
+  "summary": "Io, driven to Egypt by a Fury sent by Juno, is restored to human shape when Jupiter swears by the Styx and Juno relents; she is worshipped as a goddess and bears Epaphus. Epaphus taunts Phaëton about his father, and Phaëton's mother Clymene swears he is the Sun's son, so he sets out for the Sun's rising.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Io's wanderings and restoration",
+    "summary": "Juno sends a Fury to torment Io, who wanders to the Nile and begs Jupiter for relief. Juno is pacified and Io regains her human form and is worshipped.",
+    "stakes": "Io risks endless torment and permanent loss of her human shape and voice.",
+    "present": [
+     "Io",
+     "Juno",
+     "Jupiter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the Nile",
+     "modern_name": "Nile River, Egypt",
+     "certainty": "real",
+     "lat": 30.0,
+     "lon": 31.2
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 10,
+    "title": "Epaphus taunts Phaëton",
+    "summary": "Io's son Epaphus is worshipped in Egypt. He mocks Phaëton for believing in an imaginary divine father, and Phaëton begs his mother for proof.",
+    "stakes": "Phaëton's pride and standing, if his divine parentage cannot be proved.",
+    "present": [
+     "Epaphus",
+     "Phaëton",
+     "Clymene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Egypt",
+     "modern_name": "Egypt",
+     "certainty": "real",
+     "lat": 26.8,
+     "lon": 30.8
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 15,
+    "title": "Clymene's oath; Phaëton departs",
+    "summary": "Clymene swears by the Sun that he is Phaëton's father and sends him to ask for himself. Phaëton eagerly sets off east past Ethiopia and India.",
+    "stakes": "Clymene risks her sight if her oath is false; Phaëton seeks proof of his identity.",
+    "present": [
+     "Clymene",
+     "Phaëton",
+     "Sun"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the East, toward the Sun's rising",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Io",
+    "aliases": [
+     "Isis",
+     "Argive mistress"
+    ],
+    "kind": "nymph",
+    "description": "Maiden turned into a cow, restored and worshipped as a goddess"
+   },
+   {
+    "name": "Juno",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Jupiter's wife, who torments Io"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [
+     "Jove"
+    ],
+    "kind": "god",
+    "description": "King of the gods, who pleads for Io"
+   },
+   {
+    "name": "Epaphus",
+    "aliases": [
+     "grandson of Inachus"
+    ],
+    "kind": "god",
+    "description": "Son of Io and Jove, worshipped in Egypt"
+   },
+   {
+    "name": "Phaëton",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Clymene, said to be sprung from the Sun"
+   },
+   {
+    "name": "Clymene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phaëton's mother"
+   },
+   {
+    "name": "Sun",
+    "aliases": [
+     "Phœbus"
+    ],
+    "kind": "god",
+    "description": "Sun god, Phaëton's father, treated as a being who hears and sees"
+   },
+   {
+    "name": "Merops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sworn by Phaëton, apparently Clymene's husband"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Epaphus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Io",
+    "relation": "parent_of",
+    "b": "Epaphus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Sun",
+    "relation": "parent_of",
+    "b": "Phaëton",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Clymene",
+    "relation": "parent_of",
+    "b": "Phaëton",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Jupiter",
+    "relation": "spouse_of",
+    "b": "Juno",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Jupiter",
+    "relation": "lover_of",
+    "b": "Io",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Io",
+    "relation": "transformed_into",
+    "b": "cow",
+    "source": "text",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phœbus",
+    "canonical": "Sun",
+    "explanation": "Phœbus is another name for the Sun god, Phaëton's father."
+   },
+   {
+    "alias": "Isis",
+    "canonical": "Io",
+    "explanation": "Io is worshipped in Egypt under the name Isis."
+   },
+   {
+    "alias": "Jove",
+    "canonical": "Jupiter",
+    "explanation": "Jove is another name for Jupiter."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Epaphus's taunt sets off Phaëton's quest and the whole story that follows.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Divine anger and mercy pass from Io's story to Phaëton's, linking tales of parentage, proof and the cost of pride.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid ties Io to the Egyptian goddess Isis, reflecting Greco-Roman habits of identifying foreign gods with their own myths.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Ovid's phrase 'linen-wearing throng' refers to Egyptian priests of Isis, who wore linen.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Argive mistress\" means Io, who was a princess of Argos; Juno's rage is aimed at the rival Jupiter loved.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Swearing by the Stygian waters (the river Styx) was the gods' most binding oath, which even Jupiter could not break.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Disposed of into five nails\" means the hoof splits into the five fingers or toes of a human hand or foot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Linen-wearing priests served Isis in Egypt; Io is identified with the goddess Isis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Grandson of Inachus\" is Epaphus; Inachus was the river god of Argos and father of Io.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Merops is Clymene's husband, the mortal who passes as Phaëton's father. \"Nuptial torches of his sisters\" refers to their coming marriages.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Reaches the skies in imagination\" means he is so excited that he already pictures himself in heaven.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "The Nile marks the far edge of Io's wanderings; in the myth Egypt is where she is restored.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Phaëton's shame is the hinge of the story: his need for proof of his father leads to the disastrous chariot ride of the Sun.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "apostrophe",
+    "text": "The narrator turns to address the river Nile directly, giving the geographic endpoint a solemn, personal tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "imagery",
+    "text": "The piece-by-piece list of vanishing animal features makes the reversal of the transformation vivid and almost physical.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "repetition",
+    "text": "Clymene's doubled \"thou, that thou\" shows her passion and insistence as she swears the oath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "foreshadowing",
+    "text": "Phaëton's eager, unthinking haste toward the Sun hints at the recklessness that will bring his ruin.",
+    "spoiler": false
+   }
+  ]
+ }
+}

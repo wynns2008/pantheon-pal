@@ -1,0 +1,582 @@
+{
+ "section_id": "hesiod-body-25",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10399,
+  "output": 4774
+ },
+ "result": {
+  "summary": "Fragments of the Catalogues of Women give the descendants of Tyro, including Iason, then the race of Atalanta and Hippomenes with the golden apples. Shorter fragments touch on Danaus at Argos, Aegyptus' fifty sons, and the madness of the daughters of Proetus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Tyro's sons and Iason",
+    "summary": "A scholiast traces Tyro's children by Poseidon and Cretheus, and Iason's birth to Aeson, raised by Chiron.",
+    "stakes": "",
+    "present": [
+     "Tyro",
+     "Poseidon",
+     "Cretheus",
+     "Aeson",
+     "Iason",
+     "Chiron"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pelion",
+     "modern_name": "Mount Pelion, Greece",
+     "certainty": "real",
+     "lat": 39.43,
+     "lon": 23.05
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 14,
+    "title": "Atalanta's contest announced",
+    "summary": "Atalanta refuses marriage. Schoeneus announces that Hippomenes may win her only by surviving a race.",
+    "stakes": "Hippomenes risks death if he loses the race.",
+    "present": [
+     "Atalanta",
+     "Hippomenes",
+     "Schoeneus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Race course of Schoeneus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 22,
+    "title": "The race and the apples",
+    "summary": "Hippomenes tricks Atalanta with Aphrodite's golden apples and escapes death by winning.",
+    "stakes": "Hippomenes' life depends on winning the race.",
+    "present": [
+     "Atalanta",
+     "Hippomenes",
+     "Aphrodite"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Race course of Schoeneus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 26,
+    "title": "Arabus, Danaus and Aegyptus",
+    "summary": "Brief fragments on Arabus' parentage, Danaus watering Argos, and Aegyptus' sons.",
+    "stakes": "",
+    "present": [
+     "Arabus",
+     "Hermaon",
+     "Thronia",
+     "Belus",
+     "Danaus",
+     "Aegyptus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 33,
+    "title": "Madness of Proetus' daughters",
+    "summary": "The daughters of Proetus go mad for scorning a god, are afflicted with disease, and are cured by Melampus.",
+    "stakes": "The daughters lose their sanity and beauty.",
+    "present": [
+     "Proetus",
+     "Acrisius",
+     "Stheneboea",
+     "Lysippe",
+     "Iphinoe",
+     "Iphianassa",
+     "Melampus",
+     "Danae",
+     "Eurydice"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tiryns",
+     "modern_name": "Tiryns, Greece",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.8
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Tyro",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Salmoneus, mother of Neleus, Pelias, Aeson, Pheres and Amythaon"
+   },
+   {
+    "name": "Salmoneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Tyro"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Neleus and Pelias"
+   },
+   {
+    "name": "Cretheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Husband of Tyro"
+   },
+   {
+    "name": "Aeson",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Iason"
+   },
+   {
+    "name": "Iason",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Aeson, raised by Chiron"
+   },
+   {
+    "name": "Chiron",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Raised Iason on Pelion"
+   },
+   {
+    "name": "Amythaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Tyro, father of Melampus"
+   },
+   {
+    "name": "Melampus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cured the daughters of Proetus"
+   },
+   {
+    "name": "Atalanta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Swift-footed daughter of Schoeneus who shunned marriage"
+   },
+   {
+    "name": "Schoeneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Atalanta"
+   },
+   {
+    "name": "Hippomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Suitor who beats Atalanta with apples"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Source of the golden apples"
+   },
+   {
+    "name": "Arabus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Child of Hermaon and Thronia"
+   },
+   {
+    "name": "Hermaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Arabus"
+   },
+   {
+    "name": "Thronia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Belus, mother of Arabus"
+   },
+   {
+    "name": "Belus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Thronia"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Made Argos well-watered"
+   },
+   {
+    "name": "Aegyptus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sent his fifty sons to Argos"
+   },
+   {
+    "name": "Proetus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Tiryns, father of the maddened daughters"
+   },
+   {
+    "name": "Acrisius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Argos, father of Danae"
+   },
+   {
+    "name": "Eurydice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Lacedemon, mother of Danae"
+   },
+   {
+    "name": "Danae",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Acrisius"
+   },
+   {
+    "name": "Stheneboea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Proetus"
+   },
+   {
+    "name": "Lysippe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Proetus"
+   },
+   {
+    "name": "Iphinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Proetus"
+   },
+   {
+    "name": "Iphianassa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Proetus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Salmoneus",
+    "relation": "parent_of",
+    "b": "Tyro",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Neleus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Pelias",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Tyro",
+    "relation": "spouse_of",
+    "b": "Cretheus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Tyro",
+    "relation": "parent_of",
+    "b": "Aeson",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Tyro",
+    "relation": "parent_of",
+    "b": "Amythaon",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Aeson",
+    "relation": "parent_of",
+    "b": "Iason",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Schoeneus",
+    "relation": "parent_of",
+    "b": "Atalanta",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Acrisius",
+    "relation": "parent_of",
+    "b": "Danae",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Proetus",
+    "relation": "parent_of",
+    "b": "Lysippe",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Amythaon",
+    "relation": "parent_of",
+    "b": "Melampus",
+    "source": "text",
+    "evidence_sentence": 31
+   },
+   {
+    "a": "Hermaon",
+    "relation": "parent_of",
+    "b": "Arabus",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Acrisius",
+    "relation": "spouse_of",
+    "b": "Eurydice",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Proetus",
+    "relation": "spouse_of",
+    "b": "Stheneboea",
+    "source": "text",
+    "evidence_sentence": 28
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Juno",
+    "canonical": "Hera",
+    "explanation": "Probus uses the Roman name Juno for the goddess whose divinity the daughters scorned."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 21,
+    "reason": "Climax of the apple race, where Hippomenes escapes death.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The fragments show the Catalogue's genealogical method, with myths of heroic marriage and the rejection of it.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The sources are scholiasts and papyri, so the poem survives only in quotation. The Atalanta fragment's stripped Hippomenes led a scholiast to date Hesiod after Homer.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The apple race of Atalanta and Hippomenes became a staple of later myth, retold by Ovid in the Metamorphoses."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Atalanta passage comes from a papyrus of the 2nd-3rd century AD, one of the longest surviving pieces of the Catalogue.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Pelion is the wooded mountain in Thessaly, traditionally the home of the centaur Chiron, who trained heroes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Men who eat bread\" is a Homeric-style expression meaning ordinary mortal men, who live on grain, unlike the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "The scholiast argues from the detail of Hippomenes being stripped for the race, which he thinks marks a later custom than Homer's. The reasoning is the scholiast's, not proven.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Trim-ankled\" is a conventional epithet praising a woman's neat, slender ankles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Coy-eyed\" describes a modest or shy glance, suited to a maiden.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Escape death\" means that losing the race is fatal; the passage assumes this without explaining it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Unenviable struggle\" means a contest no one would wish to share: Atalanta races for sport and spurns love, while Hippomenes races for his life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Schoeneus: Atalanta's father in this tradition; \"daughter of Schoeneus\" is a patronymic way of addressing her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Harpy: a winged female spirit of snatching and storm winds, used here to convey Atalanta's swift, grasping movement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Refusing the rites of Dionysus means rejecting his worship; the god's usual punishment for such refusal is madness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "allusion",
+    "text": "Believing themselves turned into cows alludes to the famous myth of the Proetids' delusion; Vergil's Eclogue vi refers to it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "Itch and leprosy here denote a disfiguring skin disease sent as punishment, causing hair loss.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Scholiasts were ancient commentators who wrote notes on texts. This one preserves Hesiod's family tree of Tyro's sons, linking Pelias and Neleus to Aeson's line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "The Graces were goddesses of beauty and charm, so Atalanta's eyes are compared to theirs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "The fragment is badly broken here; it seems to describe the start of the race, but the sense is uncertain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Atalanta was a swift huntress who would marry only a man who beat her in a race; losers were killed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Hippomenes uses a trick: Aphrodite had given him golden apples to distract Atalanta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Danaus, a king of Argos in myth, is credited with bringing water to dry Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Proetus ruled Tiryns, and his daughters are the Proetids; Danae was the mother of Perseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Melampus was a legendary seer and healer who cured the maidens' madness.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "epithet",
+    "text": "\"Shepherd of the people\" is a traditional epic title for a leader, here applied to Aeson.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "imagery",
+    "text": "The west wind stirring her garment gives a vivid picture of Atalanta's beauty and swift motion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "foreshadowing",
+    "text": "Schoeneus's warning of death and his wish for rejoicing hint at the high stakes and the uncertain outcome of the contest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "Atalanta runs scorning Aphrodite's gifts, yet Aphrodite's gifts will defeat her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "simile",
+    "text": "Comparing Atalanta to a Harpy stresses her speed and greedy snatching, and shows the apples' power over her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "epithet",
+    "text": "\"Fair, swift-footed Atalanta\" repeats a fixed descriptive phrase, with irony as she is slowed by the apples.",
+    "spoiler": false
+   }
+  ]
+ }
+}

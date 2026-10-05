@@ -1,0 +1,495 @@
+{
+ "section_id": "hesiod-body-34",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10668,
+  "output": 4590
+ },
+ "result": {
+  "summary": "The poem opens by praising Alcmena and telling how Amphitryon fled to Thebes after killing her father, and went to war against the Taphians and Teleboans. While he is away Zeus lies with Alcmena, and she bears Heracles and Iphiclus. Heracles then confronts Cycnus and Ares at Apollo's grove and speaks to his charioteer Iolaus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Alcmena and Amphitryon's exile",
+    "summary": "Alcmena is praised for beauty and wisdom. Amphitryon, exiled for killing her father, goes to war to avenge her brothers.",
+    "stakes": "Amphitryon fears the gods' anger if he fails the task that must be done before he may lie with Alcmena.",
+    "present": [
+     "Alcmena",
+     "Amphitryon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 18,
+    "title": "Zeus and Amphitryon visit Alcmena",
+    "summary": "Zeus comes from Olympus and lies with Alcmena in one night. Amphitryon returns the same night, and Alcmena bears twins, Heracles and Iphiclus.",
+    "stakes": "The world's gods and men need a defender against destruction; Zeus seeks to beget one.",
+    "present": [
+     "Zeus",
+     "Alcmena",
+     "Amphitryon",
+     "Heracles",
+     "Iphiclus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebe",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 27,
+    "title": "Heracles meets Cycnus and Ares",
+    "summary": "Heracles, with Iolaus, finds Cycnus and Ares in Apollo's grove. Apollo has stirred Heracles against Cycnus.",
+    "stakes": "Heracles faces death at the hands of Cycnus and Ares, who plan to strip his armour.",
+    "present": [
+     "Heracles",
+     "Cycnus",
+     "Ares",
+     "Apollo",
+     "Iolaus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Grove of Pagasaean Apollo",
+     "modern_name": "Pagasae, near Volos",
+     "certainty": "traditional",
+     "lat": 39.34,
+     "lon": 22.94
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 36,
+    "title": "Heracles speaks to Iolaus",
+    "summary": "Heracles recounts Amphitryon's exile and the fate laid on him, then tells Iolaus to drive the chariot fearlessly against Ares.",
+    "stakes": "Heracles and Iolaus risk battle against the war god Ares.",
+    "present": [
+     "Heracles",
+     "Iolaus",
+     "Ares",
+     "Amphitryon",
+     "Eurystheus",
+     "Creon",
+     "Eniocha"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Grove of Pagasaean Apollo",
+     "modern_name": "Pagasae, near Volos",
+     "certainty": "traditional",
+     "lat": 39.34,
+     "lon": 22.94
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Alcmena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Beautiful, wise daughter of Electyron, wife of Amphitryon"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [
+     "son of Alcaeus"
+    ],
+    "kind": "mortal",
+    "description": "Exiled hero from Tiryns, husband of Alcmena"
+   },
+   {
+    "name": "Electyron",
+    "aliases": [
+     "Electryon"
+    ],
+    "kind": "mortal",
+    "description": "Father of Alcmena, killed by Amphitryon"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "son of Cronos",
+     "father of men and gods"
+    ],
+    "kind": "god",
+    "description": "King of the gods, father of Heracles"
+   },
+   {
+    "name": "Heracles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mighty son of Zeus and Alcmena"
+   },
+   {
+    "name": "Iphiclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Weaker twin son of Amphitryon"
+   },
+   {
+    "name": "Cycnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Ares, killed by Heracles"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "War god, father of Cycnus"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoebus Apollo",
+     "Pagasaean Apollo"
+    ],
+    "kind": "god",
+    "description": "God whose grove is the battle site"
+   },
+   {
+    "name": "Iolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heracles' charioteer and companion"
+   },
+   {
+    "name": "Eurystheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wicked king Heracles must serve"
+   },
+   {
+    "name": "Creon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban who received Amphitryon kindly"
+   },
+   {
+    "name": "Eniocha",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Creon"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess of love, source of Alcmena's charm"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Electyron",
+    "relation": "parent_of",
+    "b": "Alcmena",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Amphitryon",
+    "relation": "spouse_of",
+    "b": "Alcmena",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Heracles",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Alcmena",
+    "relation": "parent_of",
+    "b": "Heracles",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Amphitryon",
+    "relation": "parent_of",
+    "b": "Iphiclus",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Alcmena",
+    "relation": "parent_of",
+    "b": "Iphiclus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Ares",
+    "relation": "parent_of",
+    "b": "Cycnus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Alcmena",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Heracles",
+    "relation": "sibling_of",
+    "b": "Iphiclus",
+    "source": "text",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "son of Alcaeus",
+    "canonical": "Amphitryon",
+    "explanation": "Patronymic for Amphitryon."
+   },
+   {
+    "alias": "son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "Patronymic for Zeus."
+   },
+   {
+    "alias": "Phoebus Apollo",
+    "canonical": "Apollo",
+    "explanation": "Phoebus is a common epithet of Apollo."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Contrasts the twin brothers, the mortal and the son of Zeus.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The opening stresses divine and mortal paternity, explaining Heracles' superiority over his twin and his destiny as protector of gods and men.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The poem expands the Hesiodic Catalogue of Women, whose Alcmena episode is its model, into an epic about Heracles; the opening lines suggest that.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Zeus visiting Alcmena in her husband's likeness was later dramatized by Plautus in Amphitruo."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Shield of Heracles is traditionally attributed to Hesiod, but scholars generally doubt this and date it to the 6th century BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "The opening \"Or like her\" continues a catalogue of women from an earlier poem; the lines before it are lost, so it begins mid-comparison.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Suppliant\" means he sought protection and refuge from the Thebans as an exile, which custom obliged hosts to grant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Go in unto\" is an old idiom for having sexual relations; Amphitryon abstains until his vow is fulfilled.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Taphians and Teleboans were island seafaring peoples of western Greece whose raiders had killed Alcmena's brothers over cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Breathing above their shields\" pictures warriors crouched behind shields, panting with eagerness for battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "\"Son of Alcaeus\" is Amphitryon, whose father was Alcaeus. The same phrase elsewhere can refer to Heracles, his stepson.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Typhaonium and Phicium are places near Thebes, the latter a mountain associated with the Sphinx. The \"1801\" is a stray line-number marker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Thebe\" is Thebes, called seven-gated for its seven famous gates.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "\"Close\" means an enclosed precinct; here the sacred enclosure of Apollo's grove and sanctuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Vaunts\" are boasts, here Cycnus's proud claims that he will kill Heracles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Amphitryon killed Electryon, his uncle and father-in-law, over a dispute about oxen, and so had to flee Tiryns into exile at Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "\"Wide-browned\" is an odd rendering of an epithet for oxen, probably meaning broad-browed or with broad foreheads.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Suppliants were refugees seeking protection; Greek custom required hosts to receive and shelter them, as Creon did for Amphitryon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "Heracles's service to Eurystheus, king of Tiryns, led to his Labours; the poem blames Zeus for clouding Amphitryon's judgment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "The \"heavy tasks\" are the twelve Labours imposed by Eurystheus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Amphitryon accidentally killed Electryon (spelled Electyron here) during a quarrel over cattle, and was exiled from Tiryns for it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Zeus, disguised as Amphitryon, deceived Alcmena; the poem hints at this with \"guile.\" He wanted a son to protect gods and men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Zeus and Amphitryon both lay with Alcmena the same night, which is why her twins had different fathers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Iphiclus, Amphitryon's son, is the weaker twin and Heracles' half-brother; Heracles is the greatest Greek hero.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Ares is the Greek god of war; Cycnus is his son, who waylaid travelers going to Apollo's shrine at Pytho (Delphi).",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Iolaus was Heracles's nephew and charioteer, his constant companion in his exploits.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Heracles and Iolaus were half-brothers' sons in effect: Iolaus's father Iphicles was Heracles's twin, son of Amphitryon, while Heracles's father was Zeus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "Hyperbole",
+    "text": "Comparing Alcmena's face to Aphrodite's own charm exalts her beauty beyond ordinary human praise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Foreshadowing",
+    "text": "\"Pondering guile\" hints at Zeus's deception of Alcmena and the extraordinary child it will produce.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "Simile",
+    "text": "Amphitryon's joyful homecoming is likened to a man freed from disease or slavery, stressing his relief after the hard task.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Contrast",
+    "text": "The twins' unequal natures are set side by side, preparing the poem's focus on Heracles' superior strength.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "simile",
+    "text": "Armour shining like blazing fire and dust rising like smoke build a vivid picture of the warriors as a gathering conflagration.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "hyperbole",
+    "text": "The whole grove and altar are said to flame from Ares's arms and eyes, exaggerating his terrifying radiance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "rhetorical question",
+    "text": "The question exalts Heracles and Iolaus by implying no other mortal could face the war god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "apostrophe",
+    "text": "The exclamation \"unhappy man!\" is a narrator-like outburst of pity, as Heracles reflects on his father's tragic error.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "irony",
+    "text": "Heracles's grim promise that Ares will have \"enough of war\" turns the god's own appetite for battle against him.",
+    "spoiler": false
+   }
+  ]
+ }
+}

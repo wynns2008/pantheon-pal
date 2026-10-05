@@ -1,0 +1,562 @@
+{
+ "section_id": "metamorphoses-body-69",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 16440,
+  "output": 5167
+ },
+ "result": {
+  "summary": "After a night's feast, Cephalus and the sons of Pallas visit Phocus, who admires Cephalus' unerring javelin. Cephalus tells how Aurora carried him off, how he tested his wife Procris' fidelity in disguise, how they were reconciled and she gave him the dog Lælaps and the javelin, and how the dog and the monster it chased were turned to stone.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Recap and morning departure",
+    "summary": "The argument recaps Cephalus' story, then the day is spent in talk and feasting and the next morning the East wind still holds the ships.",
+    "stakes": "",
+    "present": [
+     "Cephalus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aegina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.7467,
+     "lon": 23.4278
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 17,
+    "title": "Phocus admires the javelin",
+    "summary": "Cephalus and the sons of Pallas visit Phocus, who asks about Cephalus' strange javelin. Cephalus weeps and begins his tale.",
+    "stakes": "Cephalus' grief over his lost wife and his shame at how he got the gift.",
+    "present": [
+     "Cephalus",
+     "Phocus",
+     "Pallas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the king's palace",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.7467,
+     "lon": 23.4278
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 34,
+    "title": "Aurora and the disguise",
+    "summary": "Cephalus tells of his marriage to Procris, Aurora's seizure of him, and his suspicious return to Athens in disguise.",
+    "stakes": "His marriage and trust in Procris' fidelity.",
+    "present": [
+     "Cephalus",
+     "Procris",
+     "Aurora",
+     "Erectheus",
+     "Orithyïa"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Hymettus and Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 35,
+    "end_sentence": 49,
+    "title": "The test and reconciliation",
+    "summary": "Cephalus tempts Procris with gifts until she wavers, reveals himself, and she flees to hunt with Diana. He begs forgiveness and she returns, giving him the dog and the javelin.",
+    "stakes": "Cephalus risks losing Procris; Procris' honour and marriage are at stake.",
+    "present": [
+     "Cephalus",
+     "Procris",
+     "Diana"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 50,
+    "end_sentence": 66,
+    "title": "Lælaps and the Teumessian beast",
+    "summary": "Themis sends a monster against Thebes; Lælaps chases it, and both are turned to marble.",
+    "stakes": "Thebes' people and cattle are being devoured by the monster.",
+    "present": [
+     "Cephalus",
+     "Lælaps",
+     "Themis",
+     "Œdipus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Aonian Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3203,
+     "lon": 23.3181
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cephalus",
+    "aliases": [
+     "grandson of Æolus"
+    ],
+    "kind": "mortal",
+    "description": "Athenian hunter and narrator, husband of Procris"
+   },
+   {
+    "name": "Procris",
+    "aliases": [
+     "daughter of Erectheus"
+    ],
+    "kind": "mortal",
+    "description": "Cephalus' wife, sister of Orithyïa"
+   },
+   {
+    "name": "Aurora",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Dawn goddess who carries Cephalus off"
+   },
+   {
+    "name": "Phocus",
+    "aliases": [
+     "son of Æacus",
+     "Nereian youth"
+    ],
+    "kind": "mortal",
+    "description": "Prince of Aegina who receives the Athenians"
+   },
+   {
+    "name": "Erectheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Procris"
+   },
+   {
+    "name": "Orithyïa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sister of Procris, carried off by violence"
+   },
+   {
+    "name": "Diana",
+    "aliases": [
+     "Cynthia"
+    ],
+    "kind": "goddess",
+    "description": "Huntress goddess who gave Procris the dog and javelin"
+   },
+   {
+    "name": "Lælaps",
+    "aliases": [
+     "Tempest"
+    ],
+    "kind": "creature",
+    "description": "Swift hound turned to marble"
+   },
+   {
+    "name": "Themis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who sends a plague on Thebes"
+   },
+   {
+    "name": "Œdipus",
+    "aliases": [
+     "son of Laius"
+    ],
+    "kind": "mortal",
+    "description": "Solver of the Sphinx's riddle"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of the Athenian visitors"
+   },
+   {
+    "name": "Æacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Phocus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Æacus",
+    "relation": "parent_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Erectheus",
+    "relation": "parent_of",
+    "b": "Procris",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Erectheus",
+    "relation": "parent_of",
+    "b": "Orithyïa",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Procris",
+    "relation": "sibling_of",
+    "b": "Orithyïa",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Cephalus",
+    "relation": "spouse_of",
+    "b": "Procris",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Laius",
+    "relation": "parent_of",
+    "b": "Œdipus",
+    "source": "text",
+    "evidence_sentence": 52
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cynthia",
+    "canonical": "Diana",
+    "explanation": "Epithet of Diana, from Mount Cynthus on Delos."
+   },
+   {
+    "alias": "Nereian youth",
+    "canonical": "Phocus",
+    "explanation": "Phocus' mother was the Nereid Psamathe, hence 'son of a Goddess'."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 25,
+    "reason": "Cephalus' devotion to Procris despite the goddess' beauty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "reason": "Ends the tale of the marble hound and beast with a memorable twist.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Distrust and testing of love bring ruin: Cephalus' need to test Procris foreshadows the tragedy of the javelin.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale ties Athenian myth to Thebes and the Oedipus cycle, showing Ovid's habit of nesting stories inside stories.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The hound Lælaps that always catches its prey but is turned to stone became a classical paradox, and Cephalus and Procris were retold by later poets and painters."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid's wording of the javelin that returns bloody to its thrower sets up the fatal accident told in the next part.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Œdipus solved the Sphinx's riddle and freed Thebes; Themis, goddess of law and justice, then sent a monster to punish the land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "The East wind blocks the ships' return; the Athenians, waiting for fair weather, are stuck on Aegina.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Stricken in years\" is an archaic way of saying he was old; Cephalus is elderly here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Citizens of Cecrops\" means Athenians; Cecrops was the legendary first king of Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "\"Grandson of Æolus\" is Cephalus, whose father Deioneus was a son of Æolus, the ruler of the winds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Promiscuous\" here means mixed or casual, not sexual: general small talk before the real question.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "\"Nereian youth\" is Phocus, whose mother Psamathe was a Nereid, a sea-nymph; hence \"son of a Goddess\" later.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Orithyïa was carried off by Boreas, the north wind, who seized her by force. Ovid's audience knew the story, so 'victim of violence' needs no further explanation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Aurora, goddess of dawn, often takes mortal lovers in myth. Hymettus is the mountain near Athens famed for its honey and flowers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "'Possesses the confines of light and darkness' means Aurora rules the border of night and day, where dawn rises.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "'If my mind is gifted with foresight' means 'if I can foresee the future'. Aurora hints that Cephalus will regret having Procris.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "'Make attempts upon her chaste constancy' means to try to seduce her with gifts, testing whether she stays faithful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "phrasing",
+    "text": "The house is described as if it had feelings: 'in concern' for its master, meaning it seemed to mourn his absence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "The daughter of Erectheus is Procris, whose father was a legendary king of Athens. Cephalus is narrating to Phocus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "phrasing",
+    "text": "\"The witness\" means Cephalus himself saw her yield, so her guilt is proven by his own testimony.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "phrasing",
+    "text": "\"Her wicked husband\" is a confusing phrase. It seems to mean she fled the house of treachery, leaving Cephalus, whom she now sees as wicked, and all men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "phrasing",
+    "text": "\"Revenged her offended modesty\" means she first made him pay for the insult of the test, then took him back.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "word",
+    "text": "Cynthia is a name for Diana, born on Mount Cynthus on Delos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "allusion",
+    "text": "The son of Laius is Oedipus, who solved the Sphinx's riddle; she then threw herself from the cliff, hence 'precipitated'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "word",
+    "text": "Aonian means Boeotian, from Aonia, a region of Boeotia; Thebes was its chief city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 55,
+    "kind": "word",
+    "text": "'Toils' are hunting nets set to enclose game.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "word",
+    "text": "'Couples' are leashes joining pairs of hounds, removed to release them for the chase.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "kind": "allusion",
+    "text": "Gortynian refers to Gortyn in Crete, famed for its archers and bows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "kind": "phrasing",
+    "text": "'If any God did attend to them' is a cautious hedge; the speaker is unsure a god was responsible.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Aurora is the goddess of dawn; Cephalus rejected her out of love for Procris, then tested his wife's faithfulness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Telamon and Peleus, brothers of Phocus by Æacus, are away raising troops; Phocus is the king's son receiving guests.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Erectheus was a legendary king of Athens. His daughters included Procris and Orithyïa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Pallas is Minerva, the patron goddess of Athens, so 'the city of Pallas' means Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "text": "Diana was goddess of the hunt and chastity. Her followers avoided men, so Procris's flight to her fits her anger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "text": "The dog (Laelaps) and the javelin are Diana's gifts. In the story, they later figure in Procris's death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "text": "Themis is the goddess of divine law and order; here she avenges the Sphinx's death by sending a new monster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "text": "Lælaps was a hound that never failed to catch its quarry; Cephalus is the speaker, and the dog was a gift.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "personification",
+    "text": "The Sun is described as a golden figure shedding his beams, marking morning in epic style.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "hyperbole",
+    "text": "The javelin never misses and returns by itself, magical exaggeration that marks it as a divine gift.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "foreshadowing",
+    "text": "Cephalus' tears and the remark that the javelin destroyed him and his wife hint at the tragic story he is about to tell.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "foreshadowing",
+    "text": "Cephalus's regret about 'this present', the javelin he received from Procris, hints at the tragedy to come.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "anaphora",
+    "text": "The repeated 'Procris' shows his devotion and contrasts the goddess's glamour with his love for his wife.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "antithesis",
+    "text": "Beauty and youth urge suspicion while virtue forbids it, showing Cephalus torn between doubt and trust.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "personification",
+    "text": "The house shows concern and chastity, which makes Procris's apparent faithfulness more convincing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "apostrophe",
+    "text": "Cephalus turns to address Phocus directly, drawing the listener into the scene and stressing Procris's beauty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "device": "irony",
+    "text": "Cephalus, the tester, is caught in his own trap. His own deception exposes his lack of trust and costs him her love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "device": "foreshadowing",
+    "text": "Cephalus mentions the javelin casually while holding it, hinting at its fatal role in the tragedy that follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "device": "Simile",
+    "text": "Piled comparisons with spear, sling-stones and arrow stress the dog's incredible speed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "device": "Irony",
+    "text": "The dog seems to catch the beast yet only snaps at air, showing the chase is a stalemate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 65,
+    "device": "Climax",
+    "text": "The sudden turn of the eyes and the abrupt vision of statues delivers the transformation as a surprise.",
+    "spoiler": false
+   }
+  ]
+ }
+}

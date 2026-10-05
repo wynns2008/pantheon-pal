@@ -1,0 +1,263 @@
+{
+ "section_id": "metamorphoses-body-25",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7485,
+  "output": 2279
+ },
+ "result": {
+  "summary": "The raven is told the tale of Nyctimene, but ignores the warning and tells Apollo that Coronis has taken another lover. Apollo kills her in rage, then repents, fails to save her, and rescues their unborn child, taking him to Chiron. He curses the raven to lose its white plumage.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "The Crow's Warning, the Raven's Tale",
+    "summary": "A bird warns the raven with the tale of Nyctimene, turned into an owl for incest. The raven ignores it and tells Apollo of Coronis's infidelity.",
+    "stakes": "The raven risks his master's wrath and the consequences of delivering unwelcome news.",
+    "present": [
+     "Nyctimene",
+     "Nycteus",
+     "Coronis",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lesbos",
+     "modern_name": "Lesbos",
+     "certainty": "real",
+     "lat": 39.1,
+     "lon": 26.35
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 10,
+    "title": "Apollo Shoots Coronis",
+    "summary": "Stricken by the news, Apollo shoots Coronis with an arrow. She says she carries his child and dies.",
+    "stakes": "Coronis loses her life and her unborn child; Apollo's rage overrides his judgment.",
+    "present": [
+     "Apollo",
+     "Coronis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thessaly",
+     "modern_name": "Thessaly, Greece",
+     "certainty": "traditional",
+     "lat": 39.6,
+     "lon": 22.4
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 17,
+    "title": "Remorse and the Rescued Child",
+    "summary": "Apollo repents and tries to heal her in vain. He snatches the child from the pyre, gives him to Chiron, and banishes the raven from the white birds.",
+    "stakes": "Apollo's unborn son would perish in the flames; the raven loses his place and color.",
+    "present": [
+     "Apollo",
+     "Coronis",
+     "Chiron"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cave of Chiron",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Nyctimene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman changed into an owl after incest with her father"
+   },
+   {
+    "name": "Nycteus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Nyctimene"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phœbus"
+    ],
+    "kind": "god",
+    "description": "god who kills his lover Coronis in anger"
+   },
+   {
+    "name": "Coronis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Apollo's mistress, pregnant by him"
+   },
+   {
+    "name": "Chiron",
+    "aliases": [],
+    "kind": "creature",
+    "description": "two-formed being who receives Apollo's child"
+   },
+   {
+    "name": "The raven",
+    "aliases": [],
+    "kind": "creature",
+    "description": "white bird who informs on Coronis"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Nycteus",
+    "relation": "parent_of",
+    "b": "Nyctimene",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Nyctimene",
+    "relation": "transformed_into",
+    "b": "owl",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Coronis",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Aesculapius",
+    "source": "outside",
+    "evidence_sentence": 16
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phœbus",
+    "canonical": "Apollo",
+    "explanation": "Phœbus is a common epithet of Apollo meaning 'bright'."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Coronis's dying words reveal her pregnancy: 'now we two shall die in one.'",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "reason": "Poignant note that gods cannot weep, so Apollo only sighs.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Hasty rage and the cost of delivering or believing reports: Apollo's wrath leads to immediate regret, a recurring Ovidian pattern of divine passion.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The story explains why ravens are black and sets up the birth of Aesculapius, the healing god, within Greek myth.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The tale of the raven turned black as punishment for tale-bearing became a standard etiological myth and was retold by later writers."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The sentence numbers include Ovid's editorial-style fable headings, which are translator's summaries and not Ovid's own text.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Nyctimene's story: she slept with her father Nycteus and, in shame, was changed into an owl. Lesbos is the island where it was supposedly well known.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Omen\" refers to the crow's warning, which the raven takes as a bad sign for his journey, and curses back at her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Hæmonia is an old name for Thessaly, so the lover is a Thessalian youth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "A plectrum is the small pick used to pluck the strings of a lyre, Apollo's instrument.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"We two shall die in one\" means she and the unborn child die in a single death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Obsequies\" are funeral rites; \"two-formed\" describes Chiron the centaur, half man and half horse.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Phœbus Apollo is the god of prophecy, music, archery and healing; Coronis was his lover. The raven had been a white bird.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The child is Æsculapius (Asclepius), later the god of medicine, raised by the centaur Chiron.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "Symbolism",
+    "text": "The fallen laurel, Apollo's sacred plant and emblem of glory, and his fading color show the god's composure collapsing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "Characterization",
+    "text": "Apollo's swift shift to rage, striking the very breast he once embraced, reveals impulsiveness over reason.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Simile",
+    "text": "Apollo's grief is compared to a calf struck down by an axe while its mother watches, stressing sudden, helpless anguish.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Irony",
+    "text": "The raven expects a reward for his true report but is punished, his white plumage taken away in the aftermath.",
+    "spoiler": false
+   }
+  ]
+ }
+}

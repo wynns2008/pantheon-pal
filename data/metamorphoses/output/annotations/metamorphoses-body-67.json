@@ -1,0 +1,480 @@
+{
+ "section_id": "metamorphoses-body-67",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 15287,
+  "output": 4221
+ },
+ "result": {
+  "summary": "Minos fails to win Ægina's support against Athens and leaves. Cephalus then arrives from Athens and is promised aid by Æacus. Æacus explains why his island has so few young men by describing the plague that Juno sent upon it.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 12,
+    "title": "Minos refused at Ægina",
+    "summary": "Minos gathers allies among the islands, is refused by some, and sails to Ægina. Æacus rejects his plea because of Ægina's treaty with Athens, and Minos leaves threatening war.",
+    "stakes": "Minos needs allies to avenge his son; without them his war against Athens is weakened.",
+    "present": [
+     "Minos",
+     "Æacus",
+     "Telamon",
+     "Peleus",
+     "Phocus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Œnopia (Ægina)",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 25,
+    "title": "Cephalus wins Æacus's aid",
+    "summary": "Cephalus arrives from Athens and asks for help. Æacus grants it freely, and Cephalus asks where the missing youths are. Æacus answers that they are dead.",
+    "stakes": "Athens needs allies against Minos' fleet.",
+    "present": [
+     "Cephalus",
+     "Æacus",
+     "Clytus",
+     "Butes",
+     "Telamon",
+     "Peleus",
+     "Phocus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Palace of Æacus, Ægina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 67,
+    "title": "The plague of Ægina",
+    "summary": "Æacus tells how Juno's anger brought a plague. It killed animals first, then people, and overwhelmed temples, burials and funeral fires.",
+    "stakes": "The whole population of Ægina faces death, and Æacus faces the loss of his people.",
+    "present": [
+     "Æacus",
+     "Juno",
+     "Jupiter"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ægina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Crete, seeking allies for war"
+   },
+   {
+    "name": "Æacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aged king of Ægina, grandson of Asopus"
+   },
+   {
+    "name": "Cephalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian ambassador seeking help"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elder son of Æacus"
+   },
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Æacus, younger than Telamon"
+   },
+   {
+    "name": "Phocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Third son of Æacus"
+   },
+   {
+    "name": "Clytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Pallas, with Cephalus"
+   },
+   {
+    "name": "Butes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Pallas, with Cephalus"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Clytus and Butes"
+   },
+   {
+    "name": "Juno",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Sends the plague out of hatred for her rival"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with a temple on Ægina"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "god",
+    "description": "River-god, grandfather of Æacus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Telamon",
+    "relation": "sibling_of",
+    "b": "Peleus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Æacus",
+    "relation": "parent_of",
+    "b": "Telamon",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Æacus",
+    "relation": "parent_of",
+    "b": "Peleus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Æacus",
+    "relation": "parent_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Pallas",
+    "relation": "parent_of",
+    "b": "Clytus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Pallas",
+    "relation": "parent_of",
+    "b": "Butes",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Jupiter",
+    "relation": "spouse_of",
+    "b": "Juno",
+    "source": "outside",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Æacus",
+    "source": "outside",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Œnopia",
+    "canonical": "Ægina",
+    "explanation": "The old name of the island, before Æacus renamed it for his mother."
+   },
+   {
+    "alias": "Gnossian",
+    "canonical": "Minos",
+    "explanation": "Ships of Gnossus, Minos' Cretan city; also called Lyctian."
+   },
+   {
+    "alias": "Cecropia",
+    "canonical": "Athens",
+    "explanation": "Athens named for its legendary king Cecrops."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Minos's bitter warning that Æacus's alliance will cost him dearly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "reason": "Closing image of the plague's overwhelming toll: no mourners, tombs or wood for fires.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Divine anger, here Juno's jealousy, brings sudden collective destruction on innocents. The plague's breakdown of ritual and order echoes the Athenian plague in Thucydides.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The plague description draws on Thucydides and Lucretius. It reflects Roman concern with proper rites for burial and sacrifice.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Ovid's plague of Ægina influenced later plague writing, and the tale of the island repopulated from ants, which follows, gave the Myrmidons their origin."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ægina was said to be named for the nymph Aegina, mother of Æacus by Jupiter.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Gnossian means from Gnossus (Knossos), the Cretan city of Minos; the phrase means the Cretan ships of Minos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Minos's fatherly sorrow is for his son Androgeos, killed in Attica; this is why Minos is making war on Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Grandson of Asopus is Æacus, whose mother Ægina was a daughter of the river-god Asopus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Cecropia is Athens, named for its legendary early king Cecrops; its people are the Athenians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Lyctian means Cretan, from Lyctus, a city of Crete. Attic means Athenian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Give their right hands\" refers to the clasped right hand, an ancient gesture of greeting, friendship and good faith.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Olive branch carried by Cephalus signals a suppliant seeking peace and aid; the olive was sacred to Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "\"People of Cecrops\" means the Athenians; Cecrops was their legendary first king. Athens is here preparing for war with Minos of Crete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Achaia here means Greece generally, not only the later Roman province.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "Æacus means that although the beginning of his story is sorrowful, things afterward improved; he wishes he could tell only the better part.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "\"Tenacious memory\" means a memory that holds firmly; Æacus notes that Cephalus still remembers the lost youths.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Juno hated Ægina because Jupiter had loved the nymph Ægina, for whom the island was named; Juno's anger at her rival fell on the people.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "The Moon's four fillings and wanings mean four months; the plague began under a long season of hot, humid southern wind.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "word",
+    "text": "\"Latent flame\" means hidden fever, burning inside before it shows outwardly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "phrasing",
+    "text": "Physicians' skill turns against them: they catch the disease from their patients, so their own art harms them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "phrasing",
+    "text": "Æacus is speaking to Cephalus, pointing to a temple of Jupiter visible from where they stand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "kind": "allusion",
+    "text": "Priests read the entrails of sacrificed animals for the gods' signs; here the diseased organs gave no readable message.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "kind": "word",
+    "text": "\"Halter\" means a noose; these people hang themselves.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Ægina was a nymph loved by Jove, who bore Æacus. The island was renamed for her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Telamon and Peleus, sons of Æacus, are later fathers of the heroes Ajax and Achilles. Phocus is their half-brother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Minos was the famous king of Crete, here called ruler of a hundred cities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "A sceptre was the staff of royal authority, so Æacus is shown speaking as king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "The missing youths were lost to a plague sent on Æacus's island, which he goes on to describe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Æacus, king of Ægina and son of Jupiter, is telling Cephalus how his island was emptied of people.",
+    "spoiler": false
+   },
+   {
+    "sentence": 65,
+    "text": "Romans and Greeks considered proper burial or cremation with rites essential for the dead's rest, so this disorder is shocking.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "oxymoron",
+    "text": "A war of affection joins violence with love, showing how Minos frames vengeance as a father's duty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "irony",
+    "text": "Minos's bitter remark about the compact's price sounds like a threat, yet he withdraws and does not fight, so his menace is deferred.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "foreshadowing",
+    "text": "The Athenian ship arriving as Minos's fleet still lingers hints at the contest over Ægina's alliance and the events to follow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "characterization",
+    "text": "Cephalus's lingering beauty and the deference of the younger men present him as dignified, respected and still youthful in appearance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "hyperbole",
+    "text": "Æacus offers all his kingdom's forces without reservation, emphasizing generosity and generous alliance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "foreshadowing",
+    "text": "The blunt statement of death prepares for the long narrative of the plague that follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "Pathetic fallacy",
+    "text": "The heavy sky and stifling heat mirror the coming doom, so nature itself seems to foretell the plague.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "device": "Chiasmus",
+    "text": "The reversal of body and ground, with the ground heated by the bodies, vividly shows the burning fever.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "device": "Simile",
+    "text": "The fallen multitude is compared to apples and acorns shaken from trees, making mass death seem as ordinary as a harvest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 59,
+    "device": "Irony",
+    "text": "Sacrificial bulls die before the knife, so the ritual meant to appease the gods is overtaken by death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "device": "Asyndeton",
+    "text": "The list of sons, husbands, old and young, with no mourners and no room, piles up loss relentlessly.",
+    "spoiler": false
+   }
+  ]
+ }
+}

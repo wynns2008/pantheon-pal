@@ -1,0 +1,428 @@
+{
+ "section_id": "metamorphoses-body-122",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 14362,
+  "output": 4044
+ },
+ "result": {
+  "summary": "Rome is struck by plague, and the Delphic oracle tells the Romans to fetch Apollo's son Æsculapius from Epidaurus. The god appears in a dream and then as a serpent, sails to Rome, and settles on the Tiber island, ending the plague.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Plague and the Delphic oracle",
+    "summary": "Plague ravages Latium and the Romans consult Phœbus at Delphi. The tripod tells them to seek his son, and the Senate sends envoys to Epidaurus.",
+    "stakes": "The Romans face death from the plague unless they obey the oracle and find a cure.",
+    "present": [
+     "Phœbus",
+     "Romans"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi, Greece",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 16,
+    "title": "Debate and the dream at Epidaurus",
+    "summary": "The Epidaurian elders are divided about giving up their god. Æsculapius appears to a Roman in a dream and shows the serpent he will become.",
+    "stakes": "Epidaurus risks losing its protector, and Rome's envoys risk returning without the god.",
+    "present": [
+     "Æsculapius",
+     "Romans",
+     "Epidaurian elders"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Epidaurus",
+     "modern_name": "Epidaurus, Greece",
+     "certainty": "real",
+     "lat": 37.5958,
+     "lon": 23.1578
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 28,
+    "title": "The serpent god boards the ship",
+    "summary": "At dawn the nobles pray, and the god appears as a great serpent. He is acknowledged by the priest, leaves his temple, and boards the Roman ship.",
+    "stakes": "Rome's hope of cure depends on the god consenting to depart.",
+    "present": [
+     "Æsculapius",
+     "Romans",
+     "priest"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Epidaurus",
+     "modern_name": "Epidaurus, Greece",
+     "certainty": "real",
+     "lat": 37.5958,
+     "lon": 23.1578
+    }
+   },
+   {
+    "start_sentence": 29,
+    "end_sentence": 35,
+    "title": "Voyage along the Italian coast",
+    "summary": "The ship sails across the Ionian sea and up the Italian coast. The god visits his father's temple at Antium before continuing.",
+    "stakes": "The voyage could be lost to rough sea.",
+    "present": [
+     "Æsculapius",
+     "Romans"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ionian Sea and coast of Italy",
+     "modern_name": "Ionian Sea and Italian coast",
+     "certainty": "real",
+     "lat": 39.0,
+     "lon": 17.0
+    }
+   },
+   {
+    "start_sentence": 36,
+    "end_sentence": 43,
+    "title": "Arrival at Rome and the Island",
+    "summary": "Crowds welcome the god at the Tiber. He chooses the river island, resumes his divine form, and ends the mourning.",
+    "stakes": "",
+    "present": [
+     "Æsculapius",
+     "Romans",
+     "Vesta"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tiber Island",
+     "modern_name": "Tiber Island, Rome",
+     "certainty": "real",
+     "lat": 41.8908,
+     "lon": 12.4776
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Æsculapius",
+    "aliases": [
+     "son of Coronis",
+     "son of Phœbus",
+     "the God of Epidaurus"
+    ],
+    "kind": "god",
+    "description": "god of healing who comes to Rome as a serpent"
+   },
+   {
+    "name": "Phœbus",
+    "aliases": [
+     "Apollo"
+    ],
+    "kind": "god",
+    "description": "god of the Delphic oracle, father of Æsculapius"
+   },
+   {
+    "name": "Coronis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Æsculapius"
+   },
+   {
+    "name": "Vesta",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose attendants greet the god"
+   },
+   {
+    "name": "Romans",
+    "aliases": [
+     "descendants of Æneas"
+    ],
+    "kind": "other",
+    "description": "people of Rome who send for the god"
+   },
+   {
+    "name": "Epidaurian elders",
+    "aliases": [],
+    "kind": "other",
+    "description": "council who debate giving up the god"
+   },
+   {
+    "name": "priest",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "recognizes the god and leads the prayer"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Phœbus",
+    "relation": "parent_of",
+    "b": "Æsculapius",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Coronis",
+    "relation": "parent_of",
+    "b": "Æsculapius",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Æsculapius",
+    "relation": "transformed_into",
+    "b": "serpent",
+    "source": "text",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Ausonian",
+    "canonical": "Romans",
+    "explanation": "Ausonian and Latian are poetic names for Italian or Roman."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "The oracle says Rome needs not Apollo but Apollo's son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "reason": "Closing line: the healing god arrives in Rome.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "This episode links Greek myth to Roman history, showing a foreign god adopted by Rome. It leads towards the Julius Caesar and Augustus finale.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It recalls the real introduction of Aesculapius's cult to Rome around 293 BC during a plague, with a temple on Tiber Island.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Tiber island long held a sanctuary of healing, and a hospital still stands there."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Tiber island was said to be shaped like a ship, and its edges were later carved with a ship design.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The Island in the Tiber is Tiber Island in Rome, where Æsculapius's temple stood. The Romans associated its shape with the ship that brought the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Delphi was regarded as the centre of the world, the 'navel' (omphalos), where Zeus's two eagles were said to have met.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Tripod: the three-legged seat on which the priestess (Pythia) sat to deliver Apollo's oracles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Epidaurus: a Greek city in the Argolid, the chief cult centre of Æsculapius, famous as a healing sanctuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Ausonian: poetic name for Italian, from the Ausones, an early people of Italy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "The god promises a size fit for a transformed heavenly body, probably alluding to the deification of the dead, such as Caesar's transformation into a star.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"The God sought\" means the god they had come to seek: Aesculapius, whose temple at Epidaurus they visit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "A fillet is a band or ribbon worn around the head, here marking the priest's ritual purity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Be of good omen\" means to speak and think only auspicious things, as Roman ritual required, so that nothing disrupts the rite.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "The \"descendants of Æneas\" are the Romans, who traced their origin to the Trojan hero Æneas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "Ausonian means Italian; Ausonia was a poetic name for Italy, so this is the Roman ship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "The bull is a sacrificial offering to secure a safe voyage, made before the ship's cables are loosed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "phrasing",
+    "text": "\"The daughter of Pallas\" is Aurora, the dawn; \"the sixth rising\" means the sixth dawn of the voyage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "\"The king the grandson of Hippotas\" is Aeolus, ruler of the winds, whose island lay near the Sicilian strait.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "\"She for whom her foster-child erected the tomb\" is Caieta, nurse of Aeneas, who gave her name to Caieta (Gaeta).",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "phrasing",
+    "text": "\"The God of Epidaurus\" is Aesculapius in serpent form; \"his sire\" is Phoebus (Apollo), whose temple stood at Antium.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "phrasing",
+    "text": "\"Son of Phœbus\" is Aesculapius; \"Latian\" means Latin, i.e. Roman.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 7,
+    "text": "Phœbus Apollo was god of prophecy and healing. Æsculapius, his son by Coronis, was the god of medicine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Æsculapius is conventionally shown bearded, leaning on a staff with a serpent coiled around it, as the dream describes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "The serpent was the sacred animal of Aesculapius, god of healing, whom the Romans are bringing to Rome to end a plague.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "The harbour is that of Epidaurus, the Greek city where Aesculapius had his famous temple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Vesta was the goddess of the hearth; her priestesses, the Vestal Virgins, kept her sacred fire burning in Rome.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "text": "This is the Tiber Island in Rome, where a temple of Aesculapius was built after the plague of 291 BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "apostrophe",
+    "text": "The narrator addresses the Muses directly, invoking them as sources of knowledge, a traditional epic gesture that renews the poem's authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "personification",
+    "text": "The place, laurels and quivers shake together, as if the sanctuary itself reacts to the god's presence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "apostrophe",
+    "text": "The narrator suddenly addresses the sleeping Roman as 'thou', making the dream vivid and immediate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "parallelism",
+    "text": "Repeating 'departs' for the god and then for sleep links the two departures and gives a smooth, quiet close.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "Imagery",
+    "text": "Gold glitter, fiery eyes and the shaking temple give a vivid sense of divine power and awe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "Pathos",
+    "text": "The god's backward look at his old altars humanizes him, giving his departure a tender, reluctant tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "Personification",
+    "text": "The ship \"is sensible of\" the god's weight, as if it could feel the divinity it carries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "apostrophe",
+    "text": "The narrator breaks off to address Vesta directly, giving the welcome a ceremonial, reverent tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "epithet",
+    "text": "Calling Rome \"the sovereign of the world\" marks the city's imperial greatness and flatters Ovid's Roman audience.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "metamorphosis",
+    "text": "The serpent's return to divine form quietly resolves the story's transformation and ends the city's grief.",
+    "spoiler": false
+   }
+  ]
+ }
+}

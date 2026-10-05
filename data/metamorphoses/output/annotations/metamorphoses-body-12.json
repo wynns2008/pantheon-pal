@@ -1,0 +1,423 @@
+{
+ "section_id": "metamorphoses-body-12",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12786,
+  "output": 3754
+ },
+ "result": {
+  "summary": "Apollo mocks Cupid's bow, and Cupid avenges himself by shooting Apollo with a golden love arrow and Daphne with a leaden arrow that repels love. Apollo chases Daphne, who prays to her father Peneus and is changed into a laurel. Apollo adopts the laurel as his sacred tree.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Apollo Mocks Cupid",
+    "summary": "Apollo, proud of killing the Python, scorns Cupid's bow. Cupid flies to Parnassus and shoots Apollo with a gold arrow and Daphne with a lead one.",
+    "stakes": "Apollo's pride is at risk; he is about to be struck by love against his will.",
+    "present": [
+     "Apollo",
+     "Cupid",
+     "Daphne"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Parnassus",
+     "modern_name": "Mount Parnassus, Greece",
+     "certainty": "real",
+     "lat": 38.53,
+     "lon": 22.62
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 19,
+    "title": "Daphne Refuses Marriage",
+    "summary": "Daphne loves the woods and hunting and rejects all suitors. She begs her father for lifelong virginity, but her beauty inflames Apollo.",
+    "stakes": "Daphne's chosen life of freedom and virginity is threatened by her beauty.",
+    "present": [
+     "Daphne",
+     "Peneus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the woods",
+     "modern_name": "Thessaly, Greece",
+     "certainty": "traditional",
+     "lat": 39.8,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 39,
+    "title": "The Chase",
+    "summary": "Apollo pleads and boasts of his powers as he chases the fleeing Daphne, like a greyhound after a hare.",
+    "stakes": "Daphne risks capture and violation; Apollo risks a fruitless passion.",
+    "present": [
+     "Apollo",
+     "Daphne"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the woods",
+     "modern_name": "Thessaly, Greece",
+     "certainty": "traditional",
+     "lat": 39.8,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 40,
+    "end_sentence": 48,
+    "title": "Daphne Becomes a Laurel",
+    "summary": "Exhausted, Daphne prays to her father and the Earth and turns into a laurel. Apollo makes it his tree and promises it evergreen honor.",
+    "stakes": "Daphne loses her human form to escape Apollo.",
+    "present": [
+     "Daphne",
+     "Apollo",
+     "Peneus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "banks of the Peneus",
+     "modern_name": "Peneus River, Thessaly, Greece",
+     "certainty": "traditional",
+     "lat": 39.75,
+     "lon": 22.5
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phœbus",
+     "the Delian God",
+     "Pæan"
+    ],
+    "kind": "god",
+    "description": "Archer god of prophecy, music and healing, who slew the Python"
+   },
+   {
+    "name": "Daphne",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Huntress nymph, daughter of Peneus, who shuns love"
+   },
+   {
+    "name": "Cupid",
+    "aliases": [
+     "son of Venus"
+    ],
+    "kind": "god",
+    "description": "Winged god of love who takes revenge on Apollo"
+   },
+   {
+    "name": "Peneus",
+    "aliases": [],
+    "kind": "god",
+    "description": "River god, Daphne's father"
+   },
+   {
+    "name": "Venus",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Mother of Cupid"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Apollo"
+   },
+   {
+    "name": "Python",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Huge serpent slain by Apollo"
+   },
+   {
+    "name": "Diana",
+    "aliases": [
+     "Phœbe"
+    ],
+    "kind": "goddess",
+    "description": "Virgin huntress goddess"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Peneus",
+    "relation": "parent_of",
+    "b": "Daphne",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Venus",
+    "relation": "parent_of",
+    "b": "Cupid",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Daphne",
+    "relation": "transformed_into",
+    "b": "laurel",
+    "source": "text",
+    "evidence_sentence": 43
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phœbus",
+    "canonical": "Apollo",
+    "explanation": "Epithet meaning 'bright', used for Apollo."
+   },
+   {
+    "alias": "Phœbe",
+    "canonical": "Diana",
+    "explanation": "Epithet of the huntress goddess, here Diana, sister of Phœbus."
+   },
+   {
+    "alias": "Pæan",
+    "canonical": "Apollo",
+    "explanation": "Title of Apollo as healer."
+   },
+   {
+    "alias": "the Delian God",
+    "canonical": "Apollo",
+    "explanation": "Apollo was born on Delos."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 27,
+    "reason": "Apollo's ironic plea: Daphne flees because she does not know who he is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "reason": "The god of healing cannot cure his own love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "reason": "Apollo links the laurel to Augustus and Roman honors.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Love as power and compulsion: even a proud god is overcome by it, and Daphne's refusal costs her human form.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Apollo's promise ties the laurel to Roman triumphs and to Augustus's doorposts, flattering the emperor.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The laurel wreath became a symbol of victory and poetic honor, giving us 'poet laureate' and 'resting on one's laurels'."
+   },
+   {
+    "kind": "history",
+    "text": "Bernini's marble sculpture Apollo and Daphne (1622-25) depicts the moment of transformation."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Greek word for laurel is daphne, so the myth explains the tree's name.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Delian God\" means Apollo, who was born on the island of Delos. \"Wanton\" here means playful and mischievous, not lewd.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The Python was the huge serpent of Mount Parnassus that Apollo killed near Delphi. This victory is the source of his pride.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"I know not what flames\" is Apollo's contemptuous way of belittling Cupid's power over love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Lead beneath the reed\" means the arrow has a lead tip under its reed shaft, making it blunt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Phœbe is Diana, goddess of hunting and virginity. Daphne imitates her way of life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Hymen is the god of marriage, whose name stands for the wedding itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "The \"nuptial torch\" was carried in Roman wedding processions. Daphne asks for the same lifelong virginity that Jove granted Diana.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Apollo's \"oracles\" refer to his gift of prophecy. He cannot foresee his own failure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Delphi, Claros, Tenedos and Patara were famous centres of Apollo's worship and oracles; he claims them as his domain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Apollo claims knowledge of past, present and future (prophecy) and patronage of music; Jupiter is his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "Simples are medicinal herbs, each used alone as a remedy; Apollo was also god of healing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "word",
+    "text": "Stock means the trunk of the tree.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "allusion",
+    "text": "The laurel and oak at Augustus's doors refer to honors voted him in 27 BC: laurels flanked his house, and an oak wreath marked saving citizens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "word",
+    "text": "Pæan is a title of Apollo, originally as healer, here used for him as god.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Peneus is a river god of Thessaly. Daphne is his daughter, a nymph, and her name is Greek for laurel.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Parnassus is the mountain sacred to Apollo and the Muses, near Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Peneus is a river god in Thessaly, Daphne's father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "text": "The laurel became Apollo's sacred tree, worn in his hair and carried on his lyre and quiver.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "text": "Roman generals in a triumph wore laurel crowns and processed to the Capitol, the hill with Jupiter's temple.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "Irony",
+    "text": "Cupid's boast that his bow will strike Apollo anticipates the god's own humiliation. Apollo's scorn is about to be turned against him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Antithesis",
+    "text": "The gold and lead arrows give opposite effects, desire and aversion, so the same attack makes one lover and the other fugitive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Simile",
+    "text": "Apollo's passion is compared to burning stubble and hedges. The images show a small spark growing into a destructive fire.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "Dramatic irony",
+    "text": "Apollo imagines unseen beauty as still lovelier. His desire grows from sight and imagination, which foreshadows the pursuit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "Anaphora",
+    "text": "Repeated 'thus' and the string of predator-prey pairs build Apollo's argument, ironically casting himself as the predator he denies being.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "Irony",
+    "text": "The master archer is wounded by Cupid's arrow, a more unerring shot, which reverses his proud claims.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "Simile",
+    "text": "The greyhound and hare compare the chase to a hunt, making Apollo the hunter and Daphne the prey despite his pleading.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "Metaphor",
+    "text": "Love gives Apollo wings, suggesting desire is a force that propels him faster than Daphne's fear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "device": "Metamorphosis",
+    "text": "Her body changes part by part, with only her elegance left, which makes the change vivid and poignant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "device": "Personification",
+    "text": "The laurel nods as if a head, suggesting consent and leaving a trace of Daphne's humanity.",
+    "spoiler": false
+   }
+  ]
+ }
+}

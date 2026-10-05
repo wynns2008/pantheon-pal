@@ -1,0 +1,243 @@
+{
+ "section_id": "metamorphoses-body-87",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6304,
+  "output": 2106
+ },
+ "result": {
+  "summary": "Orpheus, sitting among the trees and beasts his music has drawn, begins a song invoking Jove and announces a lighter theme: youths loved by the gods. His first tale is of Jupiter, who becomes an eagle and carries off Ganymede to serve as cup-bearer.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Orpheus begins his song",
+    "summary": "Orpheus, surrounded by trees, beasts and birds, tunes his lyre and invokes the Muse and Jove. He says he will now sing a softer theme of youths loved by gods.",
+    "stakes": "",
+    "present": [
+     "Orpheus",
+     "Calliope"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the grove of trees drawn by Orpheus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 10,
+    "title": "Jupiter carries off Ganymede",
+    "summary": "Jupiter, desiring Ganymede, takes the form of an eagle, the bird that carries his bolts, and seizes the Trojan youth. Ganymede now serves nectar to Jove, against Juno's wishes.",
+    "stakes": "Ganymede is snatched from his home; Jupiter risks Juno's displeasure.",
+    "present": [
+     "Jupiter",
+     "Ganymede",
+     "Juno"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ilium",
+     "modern_name": "Troy, Turkey",
+     "certainty": "traditional",
+     "lat": 39.957,
+     "lon": 26.239
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Orpheus",
+    "aliases": [
+     "the bard"
+    ],
+    "kind": "mortal",
+    "description": "the bard who sings to trees and beasts"
+   },
+   {
+    "name": "Calliope",
+    "aliases": [
+     "my parent Muse"
+    ],
+    "kind": "goddess",
+    "description": "the Muse Orpheus invokes as his parent"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [
+     "Jove",
+     "king of the Gods above"
+    ],
+    "kind": "god",
+    "description": "king of the gods who desires Ganymede"
+   },
+   {
+    "name": "Ganymede",
+    "aliases": [
+     "the youth of Ilium"
+    ],
+    "kind": "mortal",
+    "description": "beautiful Trojan youth made cup-bearer"
+   },
+   {
+    "name": "Juno",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Jove's wife, displeased at Ganymede's service"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Calliope",
+    "relation": "parent_of",
+    "b": "Orpheus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Jupiter",
+    "relation": "lover_of",
+    "b": "Ganymede",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Jupiter",
+    "relation": "spouse_of",
+    "b": "Juno",
+    "source": "outside",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Jupiter",
+    "relation": "transformed_into",
+    "b": "eagle",
+    "source": "text",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Jove",
+    "canonical": "Jupiter",
+    "explanation": "Jove is another name for Jupiter."
+   },
+   {
+    "alias": "my parent Muse",
+    "canonical": "Calliope",
+    "explanation": "Orpheus addresses his mother, the Muse; the text does not name her here, but tradition says Calliope."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Orpheus' invocation, 'all things submit to the sway of Jove', opens his song.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Orpheus turns from epic subjects to love stories of gods and mortals, framing the book's run of tales about forbidden or punished desire.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Ganymede myth reflected Greek and Roman traditions of male desire and the elite cup-bearer, which Ovid presents with court-like elegance.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The rape of Ganymede became a frequent subject in art, including Correggio's painting (c. 1530) and Rembrandt's 1635 version."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The word 'nectar' in the passage is the gods' drink, and Ganymede's role as cup-bearer replaced Hebe's in some traditions.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "The poet tests the lyre's strings, finding that different notes still blend in harmony, before beginning his song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Muse is called \"parent\" because Calliope, Muse of epic poetry, was said to be Orpheus's mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Giants warred against the gods; Jove defeated them with thunderbolts at Phlegræa (Phlegra) in Thessaly or Macedonia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "Jupiter preferred to be something other than himself: an eagle, so that he could seize the boy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Vouchsafe\" means to condescend or deign to do something.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Ilium\" is Troy; Ganymede is a Trojan prince.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Orpheus has just drawn trees and animals by his music; the grove of trees gathered around him provides shade.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Juno, Jove's wife, resented Ganymede because he replaced her daughter Hebe as the gods' cup-bearer.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "Invocation",
+    "text": "Orpheus opens by calling on the Muse and Jove, following the epic convention of beginning a song with divine inspiration.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "Foreshadowing",
+    "text": "The announced theme of forbidden loves and punished girls prepares for the tales that follow, such as Myrrha and Venus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "Irony",
+    "text": "The ruler of all gods is described as wishing to be something lesser, a bird, which wittily shows his power ruled by desire.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Epithet",
+    "text": "\"Fictitious wings\" stresses that the eagle form is a disguise, since Jove is a god, not a bird.",
+    "spoiler": false
+   }
+  ]
+ }
+}

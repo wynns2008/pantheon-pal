@@ -1,0 +1,558 @@
+{
+ "section_id": "hesiod-body-1",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11103,
+  "output": 4932
+ },
+ "result": {
+  "summary": "Hesiod invokes the Muses to praise Zeus, then tells his brother Perses that there are two kinds of Strife, one useful and one harmful, and urges him to work rather than litigate. He explains why life is hard through the myths of Prometheus's theft of fire and the creation of Pandora, who looses evils on mankind.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Invocation to the Muses and Zeus",
+    "summary": "Hesiod calls on the Muses to sing of Zeus, who raises and humbles men, and asks Zeus to judge justly. He announces he will tell Perses true things.",
+    "stakes": "",
+    "present": [
+     "Muses",
+     "Zeus",
+     "Perses"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pieria",
+     "modern_name": "Pieria, Greece",
+     "certainty": "real",
+     "lat": 40.2,
+     "lon": 22.4
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 16,
+    "title": "The Two Strifes and Perses",
+    "summary": "Hesiod distinguishes harmful Strife from the good Strife that spurs work. He warns Perses not to waste time in court and reminds him that he took more than his share of their inheritance.",
+    "stakes": "Perses risks ruin by neglecting work for quarrels over property.",
+    "present": [
+     "Hesiod",
+     "Perses",
+     "Strife",
+     "Night",
+     "Cronos",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ascra",
+     "modern_name": "Ascra, Boeotia",
+     "certainty": "traditional",
+     "lat": 38.3,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 23,
+    "title": "Prometheus Steals Fire",
+    "summary": "Zeus hides the means of life because Prometheus deceived him. Prometheus steals fire in a fennel-stalk and Zeus angrily promises men an evil in exchange.",
+    "stakes": "Mankind faces hardship and Zeus's punishment; Prometheus risks Zeus's anger.",
+    "present": [
+     "Zeus",
+     "Prometheus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympus",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 33,
+    "title": "The Making of Pandora",
+    "summary": "Zeus orders the gods to fashion a beautiful, deceitful woman. Each god gives a gift and she is named Pandora.",
+    "stakes": "Mankind is to receive a beautiful snare that will bring them sorrow.",
+    "present": [
+     "Zeus",
+     "Hephaestus",
+     "Athene",
+     "Aphrodite",
+     "Hermes",
+     "Pandora",
+     "Graces",
+     "Persuasion",
+     "Hours"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympus",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 34,
+    "end_sentence": 42,
+    "title": "Epimetheus and the Jar",
+    "summary": "Epimetheus accepts Pandora despite Prometheus's warning. She opens the jar, releasing evils, while Hope stays inside.",
+    "stakes": "Mankind loses its life free from toil and sickness.",
+    "present": [
+     "Hermes",
+     "Epimetheus",
+     "Pandora",
+     "Zeus",
+     "Hope",
+     "Prometheus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Earth",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [
+     "son of Cronos",
+     "Aegis-holding Zeus"
+    ],
+    "kind": "god",
+    "description": "king of the gods who rules over men's fortunes"
+   },
+   {
+    "name": "Muses",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddesses of song from Pieria, invoked by the poet"
+   },
+   {
+    "name": "Perses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hesiod's brother, addressed in the poem"
+   },
+   {
+    "name": "Hesiod",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the poet speaking in the first person"
+   },
+   {
+    "name": "Strife",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "two spirits of rivalry, one harmful and one wholesome"
+   },
+   {
+    "name": "Night",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "dark mother of the kinder Strife"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Zeus"
+   },
+   {
+    "name": "Prometheus",
+    "aliases": [
+     "son of Iapetus"
+    ],
+    "kind": "god",
+    "description": "crafty Titan who stole fire for men"
+   },
+   {
+    "name": "Iapetus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Prometheus"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [
+     "Lame God"
+    ],
+    "kind": "god",
+    "description": "craftsman god who moulds Pandora"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Pallas Athene"
+    ],
+    "kind": "goddess",
+    "description": "teaches Pandora weaving and clothes her"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "gives Pandora grace and longing"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Slayer of Argus",
+     "the Guide",
+     "Herald of the gods"
+    ],
+    "kind": "god",
+    "description": "messenger who gives Pandora lies and speech"
+   },
+   {
+    "name": "Pandora",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first woman, made as a gift-evil for men"
+   },
+   {
+    "name": "Epimetheus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Prometheus's brother who accepts Pandora"
+   },
+   {
+    "name": "Graces",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "adorn Pandora with gold necklaces"
+   },
+   {
+    "name": "Persuasion",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "helps adorn Pandora"
+   },
+   {
+    "name": "Hours",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "crown Pandora with spring flowers"
+   },
+   {
+    "name": "Hope",
+    "aliases": [],
+    "kind": "other",
+    "description": "remains in the jar"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Iapetus",
+    "relation": "parent_of",
+    "b": "Prometheus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Night",
+    "relation": "parent_of",
+    "b": "Strife",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Iapetus",
+    "relation": "parent_of",
+    "b": "Epimetheus",
+    "source": "outside",
+    "evidence_sentence": 35
+   },
+   {
+    "a": "Prometheus",
+    "relation": "sibling_of",
+    "b": "Epimetheus",
+    "source": "outside",
+    "evidence_sentence": 35
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Slayer of Argus",
+    "canonical": "Hermes",
+    "explanation": "Epithet of Hermes, also called Argos-Slayer, the Guide and Herald of the gods."
+   },
+   {
+    "alias": "Lame God",
+    "canonical": "Hephaestus",
+    "explanation": "Epithet for the lame smith god."
+   },
+   {
+    "alias": "Pallas Athene",
+    "canonical": "Athene",
+    "explanation": "Pallas is a common epithet of Athene."
+   },
+   {
+    "alias": "son of Iapetus",
+    "canonical": "Prometheus",
+    "explanation": "Patronymic for Prometheus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Famous proverb-like line: the half is more than the whole.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "reason": "The jar opened by the woman, source of the 'Pandora's box' story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "reason": "Hope alone stays in the jar, an enduringly debated image.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage links labor, justice and suffering: Zeus controls fortunes, and toil is the human condition after Prometheus's trick.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Hesiod's quarrel with Perses and his attack on bribe-taking lords reflect a farming society in archaic Greece with weak, corruptible justice.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Pandora became the proverbial 'Pandora's box' (the jar was mistranslated as a box by Erasmus in the 16th century)."
+   },
+   {
+    "kind": "history",
+    "text": "Hesiod's Prometheus and Pandora myths influenced later literature, including Aeschylus and Shelley's Prometheus Unbound (1820)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Greek word is pithos, a large storage jar; the 'box' arose from a Renaissance translation error.",
+    "spoiler": false
+   },
+   {
+    "text": "Hesiod's account here is the earliest surviving telling of Pandora; the Theogony version gives no jar.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Pieria, a region near Mount Olympus, was linked with the Muses' birth and cult; hence 'Muses of Pieria'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "'Blasts the proud' repeats 'proud' from earlier in the sentence; the translation seems to render a different Greek word, meaning 'withers' or 'dries up the arrogant'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "'Perforce' means by necessity; men honour harsh Strife because the gods compel them, not by choice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "'Victuals' (pronounced 'vittles') means food supplies; 'betimes' means in good time, early.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "The text seems garbled here: Hesiod urges settling the dispute with straight judgement, as the inheritance was already divided once unfairly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "'The half is more than the whole' is a proverb: a modest fair share beats a greedy whole. Mallow and asphodel are simple, humble foods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "Hesiod means that without the need to labor, a single day's work would feed you for a year, so you could hang your rudder over the hearth smoke and stop sailing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "\"Stole again\" means Prometheus stole back the fire Zeus had hidden. Fennel stalks have a dry pith that smolders, so they could carry a spark.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "\"Bade\" is the old past tense of \"bid\", meaning commanded or told.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Hermes is called Slayer of Argus because he killed the hundred-eyed giant Argus, who had been set to guard Io.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"The famous Lame God\" is a title for Hephaestus, the smith god, who was lame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "Pandora means \"all gifts\" in Greek, or \"gift of all\", because every Olympian gave her something. The number marks a translator's footnote.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "word",
+    "text": "The \"jar\" is a large storage vessel. It is often wrongly called a \"box\" because of a later mistranslation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "word",
+    "text": "Hope (Elpis) staying in the jar is ambiguous. It may be a comfort kept for men, or a deceptive evil that stays out of reach.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Perses is Hesiod's brother, the addressee of the poem, who is in a dispute with him over their inheritance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Cronos was the Titan father of Zeus. Night (Nyx) was a primeval goddess, mother of many troubling powers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Demeter was the goddess of grain and agriculture, so 'Demeter's grain' means cereal crops.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "The 'bribe-swallowing lords' are local nobles who acted as judges and, Hesiod says, could be bought.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Prometheus, a Titan's son, is the trickster who favors mankind against Zeus. Epimetheus is his brother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "The Graces, Persuasion and the Hours are minor goddesses of charm, seduction and the seasons. They adorn the first woman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "Epimetheus's name means \"afterthought\", while Prometheus means \"forethought\". This explains why he acts without thinking.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Hesiod is describing the earlier time when people lived without toil or illness. This is the background to his myth of the decline of mankind.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "anaphora",
+    "text": "Repeating 'easily' at the start of each clause stresses how effortless Zeus's power is over human fortune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "apostrophe",
+    "text": "Hesiod turns directly to Zeus, addressing him as 'thou' and asking him to ensure justice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "personification",
+    "text": "Strife is a goddess with a parentage and a place in the earth's roots, making an abstract idea into a figure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "parallelism",
+    "text": "Matching pairs (potter with potter, minstrel with minstrel) show good Strife as rivalry among equals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "irony",
+    "text": "Hesiod calls the judges 'fools' and uses a paradox, half being more than whole, to mock their greed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "irony",
+    "text": "The \"evil thing\" will make men glad even as it ruins them, so what looks like a blessing is a curse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "characterization",
+    "text": "Zeus laughing aloud as he plans harm shows him as cruel and vengeful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "personification",
+    "text": "Persuasion, the Graces and the Hours act as characters. Their gifts make clear that her appeal comes from adornment and seduction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "proverbial wisdom",
+    "text": "The brief remark that Epimetheus understood only after the evil was his makes a plain moral about foolishness: you learn too late.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "symbolism",
+    "text": "Hope sealed inside the jar represents a mixed gift. It is held back from men, or kept in reserve for them, amid all the evils.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "epigrammatic conclusion",
+    "text": "The closing line sums up the myth in a single maxim: no one can outwit Zeus.",
+    "spoiler": false
+   }
+  ]
+ }
+}

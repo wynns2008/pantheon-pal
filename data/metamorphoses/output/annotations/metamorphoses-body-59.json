@@ -1,0 +1,264 @@
+{
+ "section_id": "metamorphoses-body-59",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6886,
+  "output": 2230
+ },
+ "result": {
+  "summary": "A speaker recalls how the satyr Marsyas, beaten by Apollo in a flute contest, was flayed alive, and the tears of mourners became the river Marsyas in Phrygia. The people then turn back to mourning Amphion and his family, and Pelops, Niobe's brother, shows his ivory shoulder.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "The flaying of Marsyas",
+    "summary": "Marsyas, defeated by Apollo in a flute contest, is flayed alive and cries out in regret. The woodland beings mourn, and their tears form the river Marsyas.",
+    "stakes": "Marsyas suffers a cruel death as punishment for challenging a god.",
+    "present": [
+     "Marsyas",
+     "Apollo",
+     "Fauns",
+     "Satyrs",
+     "Olympus",
+     "Nymphs"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Phrygia",
+     "modern_name": "Phrygia, Anatolia (Turkey)",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 30.0
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 16,
+    "title": "Mourning Amphion; Pelops's ivory shoulder",
+    "summary": "The people mourn Amphion and his family, and hate Niobe. Pelops alone mourns his sister and reveals his ivory shoulder, which the Gods fashioned after his father cut him apart.",
+    "stakes": "",
+    "present": [
+     "Amphion",
+     "Niobe",
+     "Pelops"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Marsyas",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Satyr flayed by Apollo after losing a flute contest"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "the son of Latona"
+    ],
+    "kind": "god",
+    "description": "God who defeats and punishes Marsyas"
+   },
+   {
+    "name": "Latona",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Mother of Apollo"
+   },
+   {
+    "name": "Fauns",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Woodland deities who mourn Marsyas"
+   },
+   {
+    "name": "Satyrs",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Brothers of Marsyas who mourn him"
+   },
+   {
+    "name": "Olympus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Renowned musician who mourns Marsyas"
+   },
+   {
+    "name": "Nymphs",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Mourners of Marsyas"
+   },
+   {
+    "name": "Amphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Dead king mourned by his people"
+   },
+   {
+    "name": "Niobe",
+    "aliases": [
+     "the mother"
+    ],
+    "kind": "mortal",
+    "description": "Mother, hated by the people"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Niobe's brother with an ivory shoulder"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Latona",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Niobe",
+    "relation": "sibling_of",
+    "b": "Pelops",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Amphion",
+    "relation": "spouse_of",
+    "b": "Niobe",
+    "source": "outside",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the son of Latona",
+    "canonical": "Apollo",
+    "explanation": "Apollo is named by his mother, Latona."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Marsyas's anguished cry as he is flayed is among the most vivid in the poem.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Marsyas's fate shows the danger of challenging gods, echoing Niobe's pride and punishment.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Grief becomes nature: tears turn into a river, a typical Ovidian metamorphosis.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The flaying of Marsyas became a frequent subject in art, notably Titian's late painting The Flaying of Marsyas."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The river Marsyas in Phrygia is a real tributary of the Maeander, linked in ancient tradition to the satyr.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The Tritonian reed is the flute (Minerva, also called Tritonia, invented it and threw it away). The son of Latona is Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Stript\" is an old spelling of \"stripped\"; the skin is peeled from his body.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Olympus here is a Satyr, Marsyas's pupil and beloved companion, not the mountain of the Gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Pelops is Niobe's brother. His ivory shoulder comes from the story that his father Tantalus served him to the Gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Cut asunder by the hands of his father\" refers to Tantalus dismembering him; the Gods reassembled the body, missing one shoulder piece.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "This is an editorial summary heading, not Ovid's own words. Apollo, god of music, punished Marsyas for challenging him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Fauns and Satyrs are woodland spirits, part human and part goat, associated with Bacchus and the countryside.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Phrygia is a region of Asia Minor; the river Marsyas was a real river there, which Ovid explains through this myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Amphion was Niobe's husband, king of Thebes. He and his children died after Niobe boasted against Latona.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "Irony",
+    "text": "Marsyas's regret that the flute is not worth this pain underlines how disproportionate his punishment is for pride.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "Imagery",
+    "text": "The grisly anatomical detail makes the flaying vivid, showing the body entirely exposed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Personification",
+    "text": "The earth is described as drinking the tears and sending forth a stream, as if she were a living being.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Aetiology",
+    "text": "The tale explains Pelops's ivory shoulder, and the ending gives a neat sense of restoration.",
+    "spoiler": false
+   }
+  ]
+ }
+}

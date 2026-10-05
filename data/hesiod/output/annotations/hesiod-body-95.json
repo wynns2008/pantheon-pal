@@ -1,0 +1,353 @@
+{
+ "section_id": "hesiod-body-95",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6519,
+  "output": 2708
+ },
+ "result": {
+  "summary": "This section collects short ancient fragments quoted from the lost epic War of the Titans, attributed to Eumelus or Arctinus. They touch on the descendants of Heaven and Earth, Aegaeon the ally of the Titans, a shield with golden fish, Zeus dancing, Cronos fathering Cheiron, and Heracles sailing in a cauldron.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Heaven, Earth and their offspring",
+    "summary": "Quoted fragments describe the union of Heaven and Earth, Heaven's parentage, and Aegaeon as an ally of the Titans.",
+    "stakes": "",
+    "present": [
+     "Heaven",
+     "Earth",
+     "Aether",
+     "Aegaeon",
+     "Sea"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 5,
+    "title": "Shield and dancing Zeus",
+    "summary": "Two quoted verses describe fish on a shield and Zeus dancing among the gods.",
+    "stakes": "",
+    "present": [
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 7,
+    "title": "Cronos as a horse",
+    "summary": "Cronos takes horse shape and lies with Philyra, so Cheiron is born a centaur.",
+    "stakes": "",
+    "present": [
+     "Cronos",
+     "Philyra",
+     "Cheiron",
+     "Chariclo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 9,
+    "title": "Heracles and the apples",
+    "summary": "Heracles is said to cross the sea in a cauldron, and the Hesperides' apples are said to be guarded.",
+    "stakes": "",
+    "present": [
+     "Heracles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Heaven",
+    "aliases": [],
+    "kind": "god",
+    "description": "primal sky god, husband of Earth, son of Aether"
+   },
+   {
+    "name": "Earth",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "primal goddess, mother of the hundred-handers and Cyclopes"
+   },
+   {
+    "name": "Aether",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Heaven in this epic"
+   },
+   {
+    "name": "Aegaeon",
+    "aliases": [],
+    "kind": "monster",
+    "description": "sea-dwelling ally of the Titans"
+   },
+   {
+    "name": "Sea",
+    "aliases": [],
+    "kind": "god",
+    "description": "parent of Aegaeon"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Father of men and gods"
+    ],
+    "kind": "god",
+    "description": "king of the gods, shown dancing"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Titan who took horse shape"
+   },
+   {
+    "name": "Philyra",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of Ocean, mother of Cheiron"
+   },
+   {
+    "name": "Ocean",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Philyra"
+   },
+   {
+    "name": "Cheiron",
+    "aliases": [],
+    "kind": "creature",
+    "description": "centaur born of Cronos and Philyra"
+   },
+   {
+    "name": "Chariclo",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "wife of Cheiron"
+   },
+   {
+    "name": "Heracles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero said to sail in a cauldron"
+   },
+   {
+    "name": "Eumelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian poet, possible author"
+   },
+   {
+    "name": "Arctinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet, possible author"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Heaven",
+    "relation": "spouse_of",
+    "b": "Earth",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Aether",
+    "relation": "parent_of",
+    "b": "Heaven",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Earth",
+    "relation": "parent_of",
+    "b": "Aegaeon",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Sea",
+    "relation": "parent_of",
+    "b": "Aegaeon",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Ocean",
+    "relation": "parent_of",
+    "b": "Philyra",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Cronos",
+    "relation": "lover_of",
+    "b": "Philyra",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Cheiron",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Philyra",
+    "relation": "parent_of",
+    "b": "Cheiron",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Cheiron",
+    "relation": "spouse_of",
+    "b": "Chariclo",
+    "source": "text",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Father of men and gods",
+    "canonical": "Zeus",
+    "explanation": "A common epithet of Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "A rare image of Zeus dancing, preserved from the lost epic.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The fragments show an early Greek cosmogony and the origins of the Titans, with divine births often producing strange or hybrid beings.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The epic is lost and survives only as quotations by later scholars, so authorship, whether Eumelus or Arctinus, is uncertain.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The War of the Titans is sometimes counted among the poems of the Epic Cycle, though its place there is disputed.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "The 'Epic Cycle' was a group of early Greek epics about the Trojan War and earlier myths; most are now lost, surviving only in summaries and fragments like these.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "'Hundred-handed' refers to the Hecatoncheires, monstrous sons of Heaven and Earth; Cyclopes are the one-eyed smiths, also their sons.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Aether is the bright upper air, a primal personified being; here it is made Heaven's father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "'Dumb' means silent, not stupid; fish make no sound.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "'Father of men and gods' is a standard epithet of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Heracles sailing in a cauldron refers to a tale of his crossing the sea in the Sun's golden bowl; the text does not say so here.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Aegaeon is a sea giant, often called Briareos, one of the hundred-handed brothers; here he sides with the Titans against Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Athenaeus quotes poets in his banquet-dialogue; authorship of the Titan epic was disputed between Eumelus and Arctinus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Cheiron, the wise centaur, was half horse because his father Cronos had taken horse shape; he tutored heroes such as Achilles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The Hesperides' golden apples, in a far western garden, were the object of one of Heracles' labours.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "imagery",
+    "text": "Golden-faced fish swimming on a shield make a vivid, paradoxical picture, where metal craftsmanship seems alive and moving.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "epithet",
+    "text": "Zeus is named only by his formulaic title, giving the dancing a solemn, majestic tone.",
+    "spoiler": false
+   }
+  ]
+ }
+}

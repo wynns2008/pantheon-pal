@@ -1,0 +1,180 @@
+{
+ "section_id": "metamorphoses-body-44",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6453,
+  "output": 1645
+ },
+ "result": {
+  "summary": "The daughters of Minyas keep working at their looms and scorn Bacchus until unseen music and scents fill the house and their weaving turns into ivy and vines. At dusk the house blazes with phantom fires and howling beasts, and the sisters, hiding, are changed into bats.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "The looms turn green",
+    "summary": "The sisters continue working and despise Bacchus. Unseen instruments sound, and their webs turn into ivy and vines.",
+    "stakes": "The sisters risk the god's anger for refusing his worship and working during his festival.",
+    "present": [
+     "Daughters of Minyas",
+     "Bacchus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "House of Minyas",
+     "modern_name": "Orchomenus",
+     "certainty": "traditional",
+     "lat": 38.4953,
+     "lon": 22.9761
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 10,
+    "title": "Dusk, fire, and bats",
+    "summary": "At twilight the house shakes and glows with fire and phantom beasts howl. The sisters hide and are changed into small winged bats that fly by night.",
+    "stakes": "The sisters lose their human shape and are condemned to a life of darkness.",
+    "present": [
+     "Daughters of Minyas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "House of Minyas",
+     "modern_name": "Orchomenus",
+     "certainty": "traditional",
+     "lat": 38.4953,
+     "lon": 22.9761
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Daughters of Minyas",
+    "aliases": [
+     "the sisters"
+    ],
+    "kind": "mortal",
+    "description": "Sisters who scorn Bacchus and keep weaving during his festival; turned into bats"
+   },
+   {
+    "name": "Bacchus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God whose worship the sisters despise; punishes them"
+   },
+   {
+    "name": "Minyas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of the sisters"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Minyas",
+    "relation": "parent_of",
+    "b": "Daughters of Minyas",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Daughters of Minyas",
+    "relation": "transformed_into",
+    "b": "bats",
+    "source": "text",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "Ends the tale with an etymology: the bat's name derives from the evening.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Impiety is punished by a fitting transformation: the sisters who loved work and shunned the god are turned into creatures of twilight, and their weaving becomes Bacchus's plants.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale explains the bat and reflects the ancient expectation that new cults like that of Bacchus be honored by whole communities.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The etymology in the last line works in Latin, where the bat is vespertilio, from vesper, evening.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "The sisters scorn Bacchus's rites and keep weaving during his festival; the tambourines, pipes and horn are the usual instruments of his worship, which here sound unseen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "The warp is the set of lengthwise threads held taut on a loom; the crosswise weft is woven through it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Unctuous\" here means oily or greasy, describing torches fed by oil or pitch.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The Latin word for bat, vespertilio, comes from vesper, 'evening'. The note refers to this etymology, which is lost in English.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The daughters of Minyas, king of Orchomenus, refused to join the Theban women in Bacchus's rites and stayed home weaving, telling stories to pass the time.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Their wings are membranes stretched over limbs, unlike a bird's feathers, which matches how a bat's wing is built.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "Irony",
+    "text": "The sisters despise the god while his sounds, scents and signs of power gather around them, so their defiance leads straight into the punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "Imagery",
+    "text": "The twilight is defined as neither dark nor light, setting a blurred, in-between mood that matches the sisters' coming transformation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "Narrative voice",
+    "text": "The narrator notes that darkness keeps them from seeing how they changed, so the metamorphosis happens almost unnoticed, even by the victims.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Etiology",
+    "text": "The tale ends by explaining the origin of the bat's name, a typical Ovidian way of closing a transformation story.",
+    "spoiler": false
+   }
+  ]
+ }
+}

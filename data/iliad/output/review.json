@@ -1,0 +1,32 @@
+{
+ "work": "The Iliad",
+ "model": "claude-sonnet-5-5",
+ "usage": {
+  "input": 12399,
+  "output": 447
+ },
+ "same": [
+  {
+   "names": [
+    "Rhaea",
+    "Rhea"
+   ],
+   "reason": "Two spellings of the Titaness Rhea, mother of the Olympians.",
+   "change": true
+  }
+ ],
+ "different": [
+  {
+   "name": "Apollo",
+   "other": "Mentes",
+   "reason": "Mentes is a real Ciconian chief whose shape Apollo takes.",
+   "change": true
+  },
+  {
+   "name": "Sleep",
+   "other": "Chalcis",
+   "reason": "Chalcis is the gods' name for a bird; Sleep takes its form.",
+   "change": true
+  }
+ ]
+}

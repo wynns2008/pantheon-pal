@@ -1,0 +1,249 @@
+{
+ "section_id": "metamorphoses-body-6",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8051,
+  "output": 2214
+ },
+ "result": {
+  "summary": "Jupiter, angered by the crime of Lycaon, summons the gods to a council along the Milky Way. He declares he will destroy mankind, and the gods approve. Jupiter then begins to explain what he found when he descended to earth in human shape.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Jupiter summons the council",
+    "summary": "Jupiter groans at Lycaon's crime and calls the gods. Ovid describes the Milky Way leading to the heavenly palaces, and Jupiter takes his seat and shakes his locks.",
+    "stakes": "",
+    "present": [
+     "Jupiter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the Milky Way and the palace of Heaven",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 15,
+    "title": "Jupiter proclaims destruction",
+    "summary": "Jupiter says he must wipe out mankind, swearing by the Styx, and asks the gods to protect the lesser deities on earth. The gods shout their approval.",
+    "stakes": "Mankind faces total destruction; the lesser earth deities need protection from corrupt men.",
+    "present": [
+     "Jupiter",
+     "Lycaon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the marble hall of assembly in Heaven",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 19,
+    "title": "Comparison with Caesar and Augustus",
+    "summary": "Ovid compares the gods' reaction to the horror at the plot against Caesar and the loyalty shown to Augustus. Jupiter silences the gods.",
+    "stakes": "",
+    "present": [
+     "Jupiter",
+     "Augustus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the marble hall of assembly in Heaven",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 21,
+    "title": "Jupiter's visit to earth",
+    "summary": "Jupiter tells how he heard of mankind's wickedness and came down from Olympus disguised as a man, finding it worse than reported.",
+    "stakes": "",
+    "present": [
+     "Jupiter"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the earth",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Jupiter",
+    "aliases": [
+     "Jove",
+     "the Father",
+     "the son of Saturn",
+     "the Thunderer"
+    ],
+    "kind": "god",
+    "description": "king of the gods who resolves to destroy mankind"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "cruel man who plotted against Jupiter and served a polluted banquet"
+   },
+   {
+    "name": "Saturn",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Jupiter"
+   },
+   {
+    "name": "Augustus",
+    "aliases": [
+     "Cæsar"
+    ],
+    "kind": "mortal",
+    "description": "Roman ruler addressed by Ovid"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Saturn",
+    "relation": "parent_of",
+    "b": "Jupiter",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Jove",
+    "canonical": "Jupiter",
+    "explanation": "Another name for the king of the gods."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "Memorable surgical image justifying the destruction of mankind.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Human corruption provokes divine wrath and justifies the flood, beginning the cycle of destruction and renewal in the poem.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid models the divine court on Rome and flatters Augustus by comparing Jupiter's rule to his, recalling the murder of Julius Caesar.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The image of the Milky Way as a road to the gods' palaces influenced later poets' pictures of heaven."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid's phrase for the Milky Way's palaces compares the gods' dwellings to Roman noble houses along a street.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Lycaon, king of Arcadia, served human flesh to Jove to test his divinity; this 'polluted banquet' was told just before this scene.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The snake-footed monsters are the Giants, who piled mountains on one another to storm heaven; Jupiter defeated them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Swearing by the Styx, the river of the underworld, was the gods' most binding oath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Nereus is a sea-god, used here by metonymy for the sea itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Fauns, Satyrs and Sylvans are rustic woodland spirits, part human or goat in form, who were lesser deities of the countryside.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The impious band were the conspirators who assassinated Julius Caesar in 44 BC.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "The Milky Way is imagined as the road to the gods' dwellings, like a street in Rome leading to great houses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Ovid jokes that heaven's best quarter resembles Rome's Palatine hill, where Augustus lived, hence 'palatial'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Augustus, Rome's first emperor and Caesar's heir, was Ovid's ruler; the poem flatters him by comparing him to Jupiter.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "Hyperbole",
+    "text": "Jupiter's shaken locks make earth, seas and stars tremble, conveying his overwhelming power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Metaphor",
+    "text": "Mankind is a diseased body part, and destroying it is surgery to save the healthy remainder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "Rhetorical question",
+    "text": "Jupiter frames his argument as a question, steering the gods to agree that no one is safe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Simile",
+    "text": "The gods' outrage at Lycaon is likened to human horror at Caesar's murder, linking myth to Roman history.",
+    "spoiler": false
+   }
+  ]
+ }
+}

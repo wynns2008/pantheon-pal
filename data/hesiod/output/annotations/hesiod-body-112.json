@@ -1,0 +1,441 @@
+{
+ "section_id": "hesiod-body-112",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11493,
+  "output": 3690
+ },
+ "result": {
+  "summary": "A Mouse laments the loss of three sons to the Frogs' side and persuades the Mice to arm. The Frogs arm in turn after a herald's challenge, the gods decline to take sides, and the first fighting begins.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "The Mice arm for war",
+    "summary": "A bereaved Mouse recounts the deaths of his three sons and urges war. The Mice are armed with comic gear made of household scraps.",
+    "stakes": "The Mice risk open war with the Frogs to avenge their dead kin.",
+    "present": [
+     "Ares"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the Mice's land by the lake",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 27,
+    "title": "The Frogs answer and arm",
+    "summary": "The Frogs hold a council, hear the herald's challenge, and Puff-jaw denies guilt. He proposes a plan and the Frogs arm with leaves and shells.",
+    "stakes": "Puff-jaw is blamed for a death and the Frogs face attack.",
+    "present": [
+     "Pot-visitor",
+     "Cheese-carver",
+     "Puff-jaw",
+     "Crumb-snatcher"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the lake",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 43,
+    "title": "The gods refuse to intervene",
+    "summary": "Zeus asks which gods will help each side. Athena refuses both, citing grievances, and the gods decide to watch as war is sounded.",
+    "stakes": "Gods risk being wounded if they join the fighting.",
+    "present": [
+     "Zeus",
+     "Athena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "starry heaven",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 44,
+    "end_sentence": 53,
+    "title": "The first battle",
+    "summary": "Frogs and Mice trade blows and many fall, the lake running red.",
+    "stakes": "The warriors risk death in battle.",
+    "present": [
+     "Loud-croaker",
+     "Lickman",
+     "Troglodyte",
+     "Beety",
+     "Pot-visitor",
+     "Bread-nibbler",
+     "Loud-crier",
+     "Pond-larker",
+     "Ocimides",
+     "Cabbage-eater",
+     "Cheese-eater"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the lake shore",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Puff-jaw",
+    "aliases": [],
+    "kind": "creature",
+    "description": "king of the Frogs, blamed for drowning a Mouse"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of war who equips the Mice"
+   },
+   {
+    "name": "Pot-visitor",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Mouse herald, son of Cheese-carver; later killed"
+   },
+   {
+    "name": "Cheese-carver",
+    "aliases": [],
+    "kind": "creature",
+    "description": "father of the herald"
+   },
+   {
+    "name": "Crumb-snatcher",
+    "aliases": [],
+    "kind": "creature",
+    "description": "drowned Mouse"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "son of Cronos"
+    ],
+    "kind": "god",
+    "description": "king of gods who watches the war"
+   },
+   {
+    "name": "Athena",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who refuses to help either side"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Zeus"
+   },
+   {
+    "name": "Loud-croaker",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Frog warrior"
+   },
+   {
+    "name": "Lickman",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Mouse warrior"
+   },
+   {
+    "name": "Troglodyte",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Mouse warrior"
+   },
+   {
+    "name": "Beety",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Frog warrior"
+   },
+   {
+    "name": "Bread-nibbler",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Mouse warrior"
+   },
+   {
+    "name": "Loud-crier",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Frog warrior"
+   },
+   {
+    "name": "Pond-larker",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Frog warrior"
+   },
+   {
+    "name": "Ocimides",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Frog warrior"
+   },
+   {
+    "name": "Cabbage-eater",
+    "aliases": [],
+    "kind": "creature",
+    "description": "fleeing warrior"
+   },
+   {
+    "name": "Cheese-eater",
+    "aliases": [],
+    "kind": "creature",
+    "description": "warrior slain"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 33
+   },
+   {
+    "a": "Cheese-carver",
+    "relation": "parent_of",
+    "b": "Pot-visitor",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Athena",
+    "source": "text",
+    "evidence_sentence": 31
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 36,
+    "reason": "Athena's comic complaint about borrowing money and owing interest.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The poem parodies Homeric epic by giving tiny animals heroic arming scenes, councils and divine spectators.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The gods' petty grievances mock traditional epic religion and everyday concerns like debt and noise.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Batrachomyomachia became a model of mock-epic, influencing later works such as Pope's The Rape of the Lock."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The poem was anciently attributed to Homer, though scholars generally regard it as a later parody.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "'First essay at mischief' means the first attempt or sample of harm; the Mouse argues the Frogs' wrongs will continue against all Mice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "'Unheard-of arts' means devices never known before; the Mouse sees the trap as a strange, wicked human invention.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Greaves are armour for the shins, here comically made from gnawed bean-pods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "The 'centre-piece of a lamp' is the boss, the middle part of a lamp, used as a small round shield.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "A wand here is a herald's staff, the sign of a messenger's protected status.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "'Dry-hobs' is the translator's rendering of a mocking name for the Mice, who live on dry land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "A trophy was a monument of captured arms set up on the battlefield to mark victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Centaurs and Giants were mythic races famed for violent battle with gods and heroes; the comparison grandly inflates the tiny animal armies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "word",
+    "text": "\"Mischief\" here means damage or harm; the mice are treated as pests who spoil her offerings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "The sacred robe (peplos) was woven for Athena's statue and presented at the Panathenaic festival in Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "phrasing",
+    "text": "Athena jokes that she, a goddess, is dunned by a money-lender; \"interest\" on a debt is bitter even for immortals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "phrasing",
+    "text": "\"Not considerable\" means not worthy of regard; she dismisses the Frogs as unimportant and annoying.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "word",
+    "text": "\"Fell\" means cruel or deadly; the gnats' trumpets are a mock-heroic touch.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "word",
+    "text": "Troglodyte means \"cave-dweller\"; the warriors' names describe animal habits, like Lickman and Bread-nibbler.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Ares was the Greek god of war. Here he serves as the mock-heroic armourer of the Mice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "The names are comic: Pot-visitor and Cheese-carver describe mouse habits, parodying Homeric heralds and fathers' names.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "The Frogs' armour is made of marsh and garden plants, matching their habitat as the Mice's gear matches the household.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Zeus is called son of Cronos, a Titan he overthrew; this patronymic is a standard Homeric formula.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Athena, goddess of wisdom, war and weaving, had a temple at Athens where offerings of oil and food were made.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "text": "Zeus's thunder is the traditional divine sign that battle begins, as in Homer's Iliad.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "Irony",
+    "text": "The Mice's breastplates come from a ferret, the very enemy that killed a son, making vengeance part of their gear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Mock-epic",
+    "text": "Epic arming-scene conventions, even 'the work of Ares', are applied to lamp parts, needles and nutshells, creating humour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Irony",
+    "text": "Calling the challenge 'blameless speech' is ironic, since it accuses the Frogs of a killing their king denies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "Characterization",
+    "text": "Puff-jaw's glib excuse shows him evasive and self-serving, shifting blame onto the drowned Mouse's foolish play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "Mock-heroic",
+    "text": "Tiny creatures are described with epic grandeur, comparing them to Giants and Centaurs, for comic effect.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "Irony",
+    "text": "Zeus's sly smile shows he treats the war as amusement, undercutting the epic solemnity of the gathering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "Parody",
+    "text": "Athena's petty complaints about holes in her robe and debts mock the lofty divine councils of Homeric epic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "device": "Epic convention",
+    "text": "The fall, the clashing armour and the dust imitate Iliad death scenes, applied absurdly to a mouse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "device": "Imagery",
+    "text": "The lake dyed with red blood gives a vivid, Iliad-like picture of slaughter, set in a pond.",
+    "spoiler": false
+   }
+  ]
+ }
+}

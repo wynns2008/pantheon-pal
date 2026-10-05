@@ -1,0 +1,68 @@
+{
+ "work": "The Argonautica",
+ "model": "claude-sonnet-5-5",
+ "usage": {
+  "input": 11470,
+  "output": 662
+ },
+ "same": [
+  {
+   "names": [
+    "Cheiron",
+    "Chiron"
+   ],
+   "reason": "Same centaur, two spellings of the name.",
+   "change": true
+  },
+  {
+   "names": [
+    "Orithyia",
+    "Oreithyia"
+   ],
+   "reason": "Same mother of Zetes and Calais, spelled two ways.",
+   "change": true
+  },
+  {
+   "names": [
+    "Idyia",
+    "Eidyia"
+   ],
+   "reason": "Same wife of Aeetes, mother of Medea, spelled two ways.",
+   "change": true
+  },
+  {
+   "names": [
+    "Meleager",
+    "Meleagrus"
+   ],
+   "reason": "Same young Calydonian hero, son of Oeneus.",
+   "change": true
+  }
+ ],
+ "different": [
+  {
+   "name": "Apsyrtus",
+   "other": "Phaethon",
+   "reason": "Phaethon is a different person, son of Helios, not Apsyrtus.",
+   "change": true
+  },
+  {
+   "name": "Phineus",
+   "other": "Cadmus",
+   "reason": "Cadmus is the founder of Thebes, a different person from Phineus.",
+   "change": true
+  },
+  {
+   "name": "Nereus",
+   "other": "Triton",
+   "reason": "Triton is a different sea-god from Nereus.",
+   "change": true
+  },
+  {
+   "name": "Perseus",
+   "other": "Eurymedon",
+   "reason": "Eurymedon is a different person from Perseus.",
+   "change": true
+  }
+ ]
+}

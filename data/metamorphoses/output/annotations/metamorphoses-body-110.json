@@ -1,0 +1,262 @@
+{
+ "section_id": "metamorphoses-body-110",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6736,
+  "output": 2352
+ },
+ "result": {
+  "summary": "Ovid recaps Æneas's voyage past Charybdis to Libya, where Dido takes him in and later kills herself on the pyre. Æneas then returns to Sicily, honours his father's tomb, and sails on past the Sirens to Pithecusæ, where Jupiter once turned the perjured Cercopes into apes.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Dido receives Æneas",
+    "summary": "Driven back by winds to Libya, Æneas is received by Dido, who loves him and later dies on the pyre.",
+    "stakes": "Dido stands to lose her love and her life; Æneas risks losing his course to Italy.",
+    "present": [
+     "Æneas",
+     "Dido"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Libyan coasts",
+     "modern_name": "Carthage, Tunisia",
+     "certainty": "traditional",
+     "lat": 36.85,
+     "lon": 10.32
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 6,
+    "title": "Sicily and the voyage onward",
+    "summary": "Æneas sacrifices at his father's tomb near Eryx, then sails past the Sirens and the islands to Pithecusæ.",
+    "stakes": "The fleet is in danger after Iris's near-burning of the ships.",
+    "present": [
+     "Æneas",
+     "Acestes",
+     "Iris"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eryx",
+     "modern_name": "Erice, Sicily",
+     "certainty": "real",
+     "lat": 38.04,
+     "lon": 12.59
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 10,
+    "title": "Jupiter changes the Cercopes",
+    "summary": "Jupiter punishes the perjured Cercopes by making them ape-like and taking away their speech.",
+    "stakes": "The Cercopes lose their human form and speech as punishment.",
+    "present": [
+     "Jupiter",
+     "Cercopes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pithecusæ",
+     "modern_name": "Ischia, Italy",
+     "certainty": "real",
+     "lat": 40.73,
+     "lon": 13.9
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Æneas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan leader sailing toward Italy"
+   },
+   {
+    "name": "Dido",
+    "aliases": [
+     "The Sidonian"
+    ],
+    "kind": "mortal",
+    "description": "Queen who loves Æneas and dies on a pyre"
+   },
+   {
+    "name": "Acestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicilian ruler near Eryx who hosts Æneas"
+   },
+   {
+    "name": "Iris",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Minister of Juno who nearly burned the ships"
+   },
+   {
+    "name": "Juno",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess whose messenger is Iris"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [
+     "father of the Gods"
+    ],
+    "kind": "god",
+    "description": "Punishes the Cercopes by transformation"
+   },
+   {
+    "name": "Cercopes",
+    "aliases": [
+     "Cercopians"
+    ],
+    "kind": "creature",
+    "description": "Perjured, fraudulent people turned into apes"
+   },
+   {
+    "name": "Sirens",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Daughters of Acheloüs, living on rocks"
+   },
+   {
+    "name": "Acheloüs",
+    "aliases": [],
+    "kind": "god",
+    "description": "River god, father of the Sirens"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Acheloüs",
+    "relation": "parent_of",
+    "b": "Sirens",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Cercopes",
+    "relation": "transformed_into",
+    "b": "apes",
+    "source": "text",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Sidonian",
+    "canonical": "Dido",
+    "explanation": "Dido is called Sidonian because she came from Phoenician Sidon/Tyre."
+   },
+   {
+    "alias": "father of the Gods",
+    "canonical": "Jupiter",
+    "explanation": "Title for Jupiter."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Compact summary of Dido's fate: self-deceived, she deceives everyone.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Ovid compresses the Aeneid's story into a few lines, linking epic to his transformation theme through the Cercopes' punishment.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The etymology of Pithecusæ from Greek pithekos, 'ape', reflects ancient interest in explaining place names through myth.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Dido's story, retold from Virgil, became a major subject in later literature and opera, such as Purcell's Dido and Aeneas (c. 1689)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pithecusæ is the ancient name of Ischia, site of one of the earliest Greek colonies in the west.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Charybdis is the whirlpool opposite Scylla in the Strait of Messina, a classic peril for ancient sailors. Ausonian means Italian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "'Phrygian husband' means Sychaeus, Dido's murdered husband; the translation's 'Phrygian' here is loose. Dido, from Sidon/Tyre, is called Sidonian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "'Herself deceived, she deceived all' means Dido, tricked by love, tricked her people by pretending the pyre was for sacred rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The 'son of Hippotas' is Aeolus, ruler of the winds, whose realm is the Aeolian islands near volcanic, sulphur-smoking regions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The Cercopians (Cercopes) were a treacherous, deceitful people; Ovid makes their perjury the reason for their punishment.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Eryx in Sicily was ruled by Acestes, a Trojan-descended king. Æneas held funeral rites there for his father Anchises, who had died the previous year.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Iris, Juno's messenger, incited the Trojan women to burn the ships in Sicily; some were saved. Juno opposed Æneas throughout.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "The Sirens were creatures whose song lured sailors to death. Their lineage from the river god Acheloüs is part of the tradition.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "irony",
+    "text": "Dido's pretended sacred rites hide her real purpose, suicide; she deceives others while being deceived herself by love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "imagery",
+    "text": "The physical details of flattened noses and wrinkled faces make the transformation vivid and grotesque.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "poetic justice",
+    "text": "Perjurers lose the very tongues that lied; the punishment fits the crime.",
+    "spoiler": false
+   }
+  ]
+ }
+}

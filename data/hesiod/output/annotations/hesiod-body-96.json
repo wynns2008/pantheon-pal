@@ -1,0 +1,194 @@
+{
+ "section_id": "hesiod-body-96",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5609,
+  "output": 1637
+ },
+ "result": {
+  "summary": "This section gathers three testimonia about a lost epic, the Story of Oedipus (Oedipodea). They record its length and attribution to Cinaethon, its claim that Oedipus's sons were born of Euryganeia rather than Iocasta, and a line saying the Sphinx killed Haemon, son of Creon.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Fragments of a lost epic",
+    "summary": "Three ancient citations describe the Story of Oedipus: its author and length, the mother of Oedipus's sons, and the Sphinx's killing of Haemon.",
+    "stakes": "",
+    "present": [
+     "Oedipus",
+     "Iocasta",
+     "Euryganeia",
+     "Haemon",
+     "Creon",
+     "Sphinx",
+     "Cinaethon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "traditional",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban hero whose story the epic told"
+   },
+   {
+    "name": "Iocasta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Woman Pausanias says did not bear Oedipus's sons"
+   },
+   {
+    "name": "Euryganeia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Named in the epic as mother of Oedipus's sons"
+   },
+   {
+    "name": "Haemon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Beautiful son of Creon, killed by the Sphinx"
+   },
+   {
+    "name": "Creon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Blameless father of Haemon"
+   },
+   {
+    "name": "Sphinx",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Monster that killed Haemon"
+   },
+   {
+    "name": "Cinaethon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet credited with the Story of Oedipus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Creon",
+    "relation": "parent_of",
+    "b": "Haemon",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Oedipus's sons",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Euryganeia",
+    "relation": "lover_of",
+    "b": "Oedipus",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Preserves a variant tradition denying that Oedipus fathered children with his mother Iocasta.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The fragments show that the Oedipus myth had variants, including one that avoided children born of incest.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The epic is lost, known only through quotations by Pausanias and scholiasts, showing how much early Greek epic survives only in scraps.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Theban cycle of epics, including the Oedipodea, fed the tragedians, notably Sophocles and Euripides, who reshaped the myth."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The inscription cited credits the epic with 6,600 lines, a length given by an ancient record.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "'Verses' means lines of epic poetry; 6,600 lines gives the poem's length, roughly half an Iliad's size.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "'Judging by Homer' refers to the Odyssey, where Epicaste (Iocasta) is Oedipus's mother and wife but no children by her are mentioned.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "A scholiast is an ancient commentator whose notes were copied in the margins of a text, here Euripides' Phoenician Women.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "'Comeliest' means most handsome or attractive.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Cinaethon of Sparta was a poet credited with several early epics. This inscription is a catalogue entry, not the poem itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Pausanias was a 2nd-century AD Greek traveller whose guidebook to Greece often records local myths and variant versions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Haemon, son of Creon, is best known as Antigone's betrothed in Sophocles. Here a different tradition has the Sphinx kill him.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "epithet",
+    "text": "'Noble,' 'blameless' and 'dear' are formulaic descriptors typical of epic style, praising Haemon and Creon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "pathos",
+    "text": "Stressing the boy's beauty and loveliness makes his death at the Sphinx's hands more poignant.",
+    "spoiler": false
+   }
+  ]
+ }
+}

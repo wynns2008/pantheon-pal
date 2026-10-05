@@ -1,0 +1,330 @@
+{
+ "section_id": "metamorphoses-body-52",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9195,
+  "output": 2946
+ },
+ "result": {
+  "summary": "Pluto sees Proserpina gathering flowers by Lake Pergus and carries her off in his chariot. The nymph Cyane tries to block him, but he splits the earth and descends to Tartarus, and Cyane dissolves into her own pool in grief. Ceres searches the world for her daughter and, when mocked by a boy while drinking, turns him into a speckled lizard.",
+  "scenes": [
+   {
+    "start_sentence": 3,
+    "end_sentence": 9,
+    "title": "Proserpina seized at Pergus",
+    "summary": "Proserpina gathers flowers in the grove by Lake Pergus. Pluto sees, loves and seizes her, and she cries out for her mother.",
+    "stakes": "Proserpina's freedom and her return to her mother; she is carried off by force.",
+    "present": [
+     "Proserpina",
+     "Pluto"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lake Pergus near Henna",
+     "modern_name": "Lake Pergusa, Sicily",
+     "certainty": "real",
+     "lat": 37.518,
+     "lon": 14.305
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 24,
+    "title": "Cyane confronts Pluto",
+    "summary": "Pluto drives through Sicilian pools. Cyane rises from her pool and bars his way, protesting that Proserpina should have been asked. He strikes the earth open and descends, and Cyane melts into water.",
+    "stakes": "Cyane risks her life and her pool's honour in defying a god; she is dissolved into water.",
+    "present": [
+     "Cyane",
+     "Pluto",
+     "Proserpina",
+     "Anapis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pool of Cyane near Syracuse",
+     "modern_name": "Cyane spring, near Syracuse, Sicily",
+     "certainty": "real",
+     "lat": 37.0,
+     "lon": 15.25
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 28,
+    "title": "Ceres searches the world",
+    "summary": "Ceres seeks her daughter over every land and sea, day and night, lighting pine torches at Etna.",
+    "stakes": "Ceres may never find her lost daughter.",
+    "present": [
+     "Ceres",
+     "Aurora",
+     "Hesperus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mount Etna and all lands",
+     "modern_name": "Mount Etna, Sicily",
+     "certainty": "real",
+     "lat": 37.751,
+     "lon": 14.994
+    }
+   },
+   {
+    "start_sentence": 29,
+    "end_sentence": 33,
+    "title": "Stellio turned into a newt",
+    "summary": "A weary Ceres is given barley drink by an old woman. A bold boy mocks her greed, and she splashes him so that he becomes a small speckled lizard.",
+    "stakes": "The boy risks a goddess's anger by mocking her; he is transformed.",
+    "present": [
+     "Ceres",
+     "Stellio"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "An old woman's cottage",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Proserpina",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Young daughter of Ceres, seized by Pluto while picking flowers"
+   },
+   {
+    "name": "Pluto",
+    "aliases": [
+     "son of Saturn"
+    ],
+    "kind": "god",
+    "description": "God of the underworld who abducts Proserpina"
+   },
+   {
+    "name": "Cyane",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Sicilian nymph who opposes Pluto and becomes a pool"
+   },
+   {
+    "name": "Anapis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man who courted and married Cyane"
+   },
+   {
+    "name": "Ceres",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Mother of Proserpina who searches for her"
+   },
+   {
+    "name": "Stellio",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Impudent boy turned into a newt by Ceres"
+   },
+   {
+    "name": "Aurora",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Dawn, who sees Ceres still searching"
+   },
+   {
+    "name": "Hesperus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Evening star, who also sees Ceres without rest"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Saturn",
+    "relation": "parent_of",
+    "b": "Pluto",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Ceres",
+    "relation": "parent_of",
+    "b": "Proserpina",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Cyane",
+    "relation": "spouse_of",
+    "b": "Anapis",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Cyane",
+    "relation": "transformed_into",
+    "b": "fountain",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Stellio",
+    "relation": "transformed_into",
+    "b": "newt",
+    "source": "text",
+    "evidence_sentence": 32
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "son of Saturn",
+    "canonical": "Pluto",
+    "explanation": "A patronymic for Pluto, whose father is Saturn."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Memorable summary of Proserpina's abduction: seen, loved and seized at once, 'in such great haste is love'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "reason": "Cyane's protest that consent should have been sought, not taken by force.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows divine desire overriding consent, and the suffering of those who resist, whether Cyane, Proserpina or Ceres.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid sets the myth in real Sicilian places such as Henna, Pergus and Syracuse's Cyane spring, tying it to the cult of Ceres on the island.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The abduction of Proserpina became a major subject in art, for example Bernini's sculpture The Rape of Proserpina (1622)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Lake Pergusa in Sicily still exists, and the Cyane spring near Syracuse is still known by her name.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Cayster was a river in Lydia (Asia Minor) famed for its swans, so the comparison praises Pergus as even richer in swan song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Tyrian hue means purple or crimson, from the dye of Tyre, a Phoenician city famous for it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The Bacchiadæ were a Corinthian ruling clan who founded Syracuse in Sicily; the city lay between two harbors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "Cyane compares her small affair with a river-god to the great matter of a goddess, a modest apology for presuming to speak.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "The son of Saturn is Pluto (the Greek Hades), brother of Jove and ruler of the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Tartarus here means the underworld, the realm of the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "Aurora is the dawn goddess; Hesperus is the evening star.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "Pearled barley is hulled, polished barley; the drink is a barley beverage, which Ceres, goddess of grain, receives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "The boy's new name suits his spots: a stellio was a spotted lizard or newt, from Latin stella, star.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Pluto, king of the underworld, seizes Proserpina (the Greek Persephone), daughter of Ceres, goddess of grain and harvest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Cyane was a Sicilian water nymph whose spring was near Syracuse; she guarded it as its presiding divinity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Ætna, Sicily's volcano, supplies fire for Ceres' torches in her night search.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "simile",
+    "text": "The foliage is compared to an awning, making the grove's shade a roof that shuts out the sun.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "narrative voice",
+    "text": "The narrator's aside, 'in such great haste is love', comments wryly on the speed of Pluto's desire and rape.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "pathos",
+    "text": "Her grief over spilled flowers shows childlike innocence, which heightens sympathy for her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "metaphor",
+    "text": "Cyane's body softens limb by limb into water, a drawn-out metamorphosis that makes grief physical.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "irony",
+    "text": "The boy is shrunk so that he can do little harm, a punishment fitted to his insolence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

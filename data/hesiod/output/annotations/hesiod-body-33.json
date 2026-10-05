@@ -1,0 +1,464 @@
+{
+ "section_id": "hesiod-body-33",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8205,
+  "output": 3826
+ },
+ "result": {
+  "summary": "These fragments of the Catalogue of Women cover Amphiaraus and the swallowing of his chariot by the earth, the sons of Electryon and Alcmena's survival, Auge's son Telephus by Heracles, and the descendants of Electra including Dardanus and Ganymede. The papyri are broken and many lines are lost.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Amphiaraus and Eriphyle's son",
+    "summary": "Eriphyle bears Alcmaon to Amphiaraus, who is admired by Theban women. Though he foresees his fate, the earth swallows him with his chariot.",
+    "stakes": "Amphiaraus faces death in the war against Thebes despite his prophetic knowledge.",
+    "present": [
+     "Eriphyle",
+     "Amphiaraus",
+     "Alcmaon",
+     "Oedipus",
+     "Polynices"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 7,
+    "title": "Electryon's children and Alcmena",
+    "summary": "Electryon's sons are killed by the Taphians in a fight over cattle, leaving Alcmena alone. She later bears Heracles to the son of Cronos.",
+    "stakes": "The house of Electryon is destroyed by the Taphian raid.",
+    "present": [
+     "Electryon",
+     "Perses",
+     "Alcmena",
+     "Heracles",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mycenae region",
+     "modern_name": "Mycenae, Greece",
+     "certainty": "traditional",
+     "lat": 37.73,
+     "lon": 22.76
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 15,
+    "title": "Auge and Telephus",
+    "summary": "Teuthras takes in Auge, who bears Telephus to Heracles. Telephus later routes the Achaeans but is brought low.",
+    "stakes": "Telephus risks defeat after fighting the Achaeans.",
+    "present": [
+     "Teuthras",
+     "Auge",
+     "Telephus",
+     "Heracles",
+     "Laomedon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mysia",
+     "modern_name": "northwest Anatolia, Turkey",
+     "certainty": "real",
+     "lat": 39.5,
+     "lon": 28.0
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 23,
+    "title": "Descendants of Electra",
+    "summary": "Electra bears Dardanus and Eetion to Zeus. Eetion is struck down for assaulting Demeter, Dardanus founds the Trojan line, and Ganymede is carried off by an eagle.",
+    "stakes": "Eetion is killed by Zeus's thunderbolt for assaulting Demeter.",
+    "present": [
+     "Electra",
+     "Zeus",
+     "Dardanus",
+     "Eetion",
+     "Demeter",
+     "Ganymede",
+     "Diomede",
+     "Hyacinthus",
+     "Phoebus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Samothrace and the Troad",
+     "modern_name": "Samothrace, Greece",
+     "certainty": "real",
+     "lat": 40.5,
+     "lon": 25.5
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Eriphyle",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Amphiaraus, mother of Alcmaon"
+   },
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "seer swallowed by the earth"
+   },
+   {
+    "name": "Alcmaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amphiaraus"
+   },
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man of many woes, buried by Amphiaraus"
+   },
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "cause of the Argive expedition to Thebes"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "son of Cronos",
+     "cloud-gathering Zeus"
+    ],
+    "kind": "god",
+    "description": "king of the gods"
+   },
+   {
+    "name": "Electryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Perses, father of Alcmena"
+   },
+   {
+    "name": "Perses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Electryon"
+   },
+   {
+    "name": "Alcmena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "only surviving child of Electryon"
+   },
+   {
+    "name": "Heracles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, son of Zeus and Alcmena"
+   },
+   {
+    "name": "Teuthras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who raised Auge"
+   },
+   {
+    "name": "Auge",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Telephus"
+   },
+   {
+    "name": "Telephus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Mysians"
+   },
+   {
+    "name": "Laomedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "owner of famed horses"
+   },
+   {
+    "name": "Electra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Dardanus and Eetion"
+   },
+   {
+    "name": "Dardanus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder who left Samothrace"
+   },
+   {
+    "name": "Eetion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "struck by Zeus for desiring Demeter"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "rich-haired goddess"
+   },
+   {
+    "name": "Ganymede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "beautiful youth taken by an eagle"
+   },
+   {
+    "name": "Diomede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Hyacinthus"
+   },
+   {
+    "name": "Hyacinthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "youth killed by a disk"
+   },
+   {
+    "name": "Phoebus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who slew Hyacinthus unwittingly"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Amphiaraus",
+    "relation": "parent_of",
+    "b": "Alcmaon",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Eriphyle",
+    "relation": "parent_of",
+    "b": "Alcmaon",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Electryon",
+    "relation": "parent_of",
+    "b": "Alcmena",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Heracles",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Auge",
+    "relation": "parent_of",
+    "b": "Telephus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Heracles",
+    "relation": "parent_of",
+    "b": "Telephus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Electra",
+    "relation": "parent_of",
+    "b": "Dardanus",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Dardanus",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Eetion",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Perses",
+    "relation": "parent_of",
+    "b": "Electryon",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Alcmena",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Electra",
+    "source": "text",
+    "evidence_sentence": 18
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "Patronymic epithet for Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Amphiaraus, though a seer, is swallowed by the earth with his chariot.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The fragments trace heroic genealogies, linking mortal families to Zeus and Heracles through unions with gods.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Catalogue organized legendary lineages, giving Greek cities and noble families mythic ancestors; these fragments survive only on later papyri.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Telephus story later inspired Euripides' lost play Telephus, and the Trojan genealogy influenced later epic tradition."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Fragments 101 and 102 come from Oxyrhynchus papyrus 1359, copied in the early 3rd century AD.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Cadmean means Theban, from Cadmus, the legendary founder of Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Danai is an old name for the Greeks, here the Argive army marching against Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Amphiaraus, a seer, joined the expedition against Thebes knowing he would die; he was swallowed by the earth in flight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "'Son of Perses' is a patronymic for Electryon's father line; the text names Electryon through his father, as is common in epic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Taphians were seafaring raiders from islands off western Greece; 'shambling hoofs' describes the slow, shuffling gait of cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Heracles sought Laomedon's horses at Troy; the Amazon campaign is a separate exploit of his.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Eetion's offence against Demeter is punished by Zeus's thunderbolt, as in the story of his desire for the goddess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Hyacinthus was accidentally killed by Phoebus (Apollo) with a discus; the hyacinth flower was said to spring from him.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 7,
+    "text": "The son of Cronos is Zeus, who fathered Heracles on Alcmena, wife of Amphitryon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Auge was a princess of Tegea whom Teuthras, king of Mysia, took in; her son Telephus later ruled there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Telephus fought the Achaeans when they landed in Mysia on their way to Troy, mistaking it for Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Dardanus, ancestor of the Trojans (Dardanians), is said to have come from Samothrace to the Troad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Ganymede, a beautiful Trojan prince, was taken to Olympus to be Zeus's cupbearer.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "Irony",
+    "text": "The seer who knows all things ordained by Zeus cannot escape his own doom; his foresight only underlines fate's power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "Epithet",
+    "text": "'Famous shipmen' and 'shambling hoofs' use stock descriptive phrases typical of epic style.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Metaphor",
+    "text": "Might 'brought low' pictures strength as something that can be felled, hinting at Telephus's wounding and fall.",
+    "spoiler": false
+   }
+  ]
+ }
+}

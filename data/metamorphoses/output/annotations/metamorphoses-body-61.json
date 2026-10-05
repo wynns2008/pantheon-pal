@@ -1,0 +1,475 @@
+{
+ "section_id": "metamorphoses-body-61",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12715,
+  "output": 4373
+ },
+ "result": {
+  "summary": "At a Bacchic festival Progne, disguised as a reveler, rescues her mute sister Philomela from captivity. Together they kill Progne's son Itys and serve him to Tereus at a feast, then reveal the truth. Tereus pursues them with a sword and all three are changed into birds.",
+  "scenes": [
+   {
+    "start_sentence": 3,
+    "end_sentence": 11,
+    "title": "Progne rescues Philomela",
+    "summary": "Dressed as a Bacchante, Progne breaks into the lonely dwelling, seizes Philomela, disguises her in Bacchic garb and leads her into the palace, where she unveils her.",
+    "stakes": "Discovery by Tereus would doom both sisters; Philomela is shamed and terrified.",
+    "present": [
+     "Progne",
+     "Philomela",
+     "Bacchus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thrace, Rhodope",
+     "modern_name": "Rhodope Mountains, Bulgaria/Greece",
+     "certainty": "traditional",
+     "lat": 41.6,
+     "lon": 24.0
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 28,
+    "title": "The murder of Itys",
+    "summary": "Progne plans revenge, is briefly softened by her son Itys, then hardens and with Philomela kills him and cooks his limbs.",
+    "stakes": "Itys loses his life; Progne risks her own motherhood and the sisters' safety.",
+    "present": [
+     "Progne",
+     "Philomela",
+     "Itys",
+     "Tereus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The royal house of Tereus",
+     "modern_name": "Thrace",
+     "certainty": "traditional",
+     "lat": 41.5,
+     "lon": 25.0
+    }
+   },
+   {
+    "start_sentence": 29,
+    "end_sentence": 35,
+    "title": "The horrible banquet",
+    "summary": "Tereus unknowingly eats his son, asks for Itys, and Philomela throws the bloody head at him; he rages and weeps.",
+    "stakes": "Tereus faces the horror of his crime's revenge; the sisters face his sword.",
+    "present": [
+     "Tereus",
+     "Progne",
+     "Philomela",
+     "Itys"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The royal house of Tereus",
+     "modern_name": "Thrace",
+     "certainty": "traditional",
+     "lat": 41.5,
+     "lon": 25.0
+    }
+   },
+   {
+    "start_sentence": 36,
+    "end_sentence": 41,
+    "title": "Transformed into birds",
+    "summary": "The sisters become a swallow and a nightingale, and Tereus a crested lapwing; Pandion dies of grief.",
+    "stakes": "The sisters escape death only by flight; Tereus is condemned to bird form.",
+    "present": [
+     "Progne",
+     "Philomela",
+     "Tereus",
+     "Pandion"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thrace",
+     "modern_name": "Thrace",
+     "certainty": "traditional",
+     "lat": 41.5,
+     "lon": 25.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Progne",
+    "aliases": [
+     "the queen",
+     "his wife"
+    ],
+    "kind": "mortal",
+    "description": "Queen of Thrace, wife of Tereus, daughter of Pandion"
+   },
+   {
+    "name": "Philomela",
+    "aliases": [
+     "daughter of Pandion"
+    ],
+    "kind": "mortal",
+    "description": "Progne's sister, violated by Tereus and tongueless"
+   },
+   {
+    "name": "Tereus",
+    "aliases": [
+     "the Thracian"
+    ],
+    "kind": "mortal",
+    "description": "King of Thrace who wronged Philomela"
+   },
+   {
+    "name": "Itys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Young son of Progne and Tereus"
+   },
+   {
+    "name": "Bacchus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of wine whose festival gives Progne cover"
+   },
+   {
+    "name": "Pandion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of the sisters, who dies of grief"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Progne",
+    "relation": "parent_of",
+    "b": "Itys",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Tereus",
+    "relation": "parent_of",
+    "b": "Itys",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Progne",
+    "relation": "spouse_of",
+    "b": "Tereus",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Progne",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Philomela",
+    "source": "text",
+    "evidence_sentence": 35
+   },
+   {
+    "a": "Progne",
+    "relation": "sibling_of",
+    "b": "Philomela",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Tereus",
+    "relation": "transformed_into",
+    "b": "lapwing",
+    "source": "text",
+    "evidence_sentence": 39
+   },
+   {
+    "a": "Philomela",
+    "relation": "transformed_into",
+    "b": "nightingale",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Progne",
+    "relation": "transformed_into",
+    "b": "swallow",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Evoë",
+    "canonical": "Bacchus",
+    "explanation": "A ritual cry of Bacchic worshippers, not a name of the god."
+   },
+   {
+    "alias": "Cecropian Nymphs",
+    "canonical": "Progne",
+    "explanation": "The sisters, Athenian princes, called after Cecrops, legendary Athenian king; also applies to Philomela."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "Progne rejects tears and declares her turn to violent revenge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "reason": "Chilling line showing Progne hardening her heart against pity.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The episode shows vengeance escalating into horror, where cruelty is answered with greater cruelty and family bonds are destroyed.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Bacchic rites, which let women roam at night in disguise, supply the cover for the escape; Greeks and Romans associated them with frenzy.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Philomela as nightingale became a standard poetic image, used by later poets including Shakespeare in Titus Andronicus, which echoes the tale directly."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid's Latin pun is lost here: the bird 'epops' is the hoopoe, which the translator renders as lapwing.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Sithonian means Thracian, from the Sithonii, a people of Thrace. Here it marks the setting as Tereus's kingdom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Rhodope is a mountain range in Thrace, long associated with Bacchic revels.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "Progne pretends her fury is inspired by Bacchus, so her rage passes as ritual frenzy. The sentence turns to address the god directly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Evoë!\" was the ritual cry of Bacchus's worshippers in their ecstatic rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Supplanter of her sister\" means Philomela feels she has displaced Progne as Tereus's partner, though she was forced. Her hand stands in for speech because her tongue was cut out.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"The members that have deprived thee of thy chastity\" is a euphemism for Tereus's genitals, which Progne threatens to cut off.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"In truth\" is a narrator's aside: Progne really was moved. The \"mother\" in her is her maternal feeling, which she now struggles against.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Pandion was king of Athens and father of Progne and Philomela. Progne is reminding herself of her own family's honour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "The Ganges stands for the far, wild East, so the tigress is an exotic, ferocious predator.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "\"Gore\" means thick, clotted blood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"His wife\" is Progne (Procne), who serves Tereus his own son; \"unconsciousness\" means he is unaware of what the meal is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "allusion",
+    "text": "The \"Viperous sisters\" are the Furies, snake-haired goddesses of vengeance, called up from the Stygian valley, the underworld around the river Styx.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "word",
+    "text": "\"Thracian\" names Tereus, king of Thrace, a region north of Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "word",
+    "text": "\"Cecropian\" means Athenian, after Cecrops, legendary first king of Athens; the sisters are daughters of Pandion, an Athenian king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "allusion",
+    "text": "In the usual tradition one sister becomes a nightingale of the woods and the other a swallow dwelling under house roofs; the text does not say which is which.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "word",
+    "text": "Tartarus is here the underworld, the realm of the dead (\"shades\").",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Bacchus is the god of wine and ecstasy. His women worshippers, Bacchantes, roamed at night in frenzy, which gave Progne a cover for her rescue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Vine leaves, a deerskin and a light spear (the thyrsus) were the standard dress of a Bacchante.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The house is accursed because Tereus raped Philomela and imprisoned her after cutting out her tongue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Progne is the wife of Tereus, king of Thrace. He raped her sister Philomela and cut out her tongue to silence her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Itys is the young son of Progne and Tereus. His death becomes the vengeance on his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Progne and Philomela will serve the boy's cooked flesh to Tereus at a feast, a revenge that echoes the myth of Atreus and Thyestes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "The \"throne of his forefathers\" stresses Tereus's royal pride, which makes his unwitting cannibalism more degrading.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Philomela cannot speak because Tereus raped her and cut out her tongue to silence her; this is why she longs for words.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "personification",
+    "text": "Night is said to be \"conscious\" of the rites, as if it were a witness. This lends the scene secrecy and menace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "apostrophe",
+    "text": "The narrator suddenly addresses Bacchus, giving the moment a charged, almost ritual intensity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "characterization",
+    "text": "Philomela's shudder and pallor show her terror at returning to the scene of her violation without needing to state it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "irony",
+    "text": "Philomela feels shame and guilt though she is the victim, and her hand replaces her silenced voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "irony",
+    "text": "Itys's likeness to his father, which gives the boy his appeal, is what turns Progne against him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "paradox",
+    "text": "Progne inverts moral terms, calling tenderness a crime, and so justifies her own cruelty to herself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "simile",
+    "text": "Itys is compared to a hind's fawn dragged by a tigress, stressing his helplessness and the predatory cruelty of his own mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "pathos",
+    "text": "The boy's cries of \"Alas!\" and \"My mother!\" as he clings to his killer heighten the horror, and the unturned face shows her resolve.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "irony",
+    "text": "The father who sits proudly aloft devours his own flesh, a grim reversal of his royal dignity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "dramatic irony",
+    "text": "Tereus asks for the son he has just eaten, while the reader and the women know the truth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "repetition",
+    "text": "The line repeats itself, affirming the wonder: the supposed impression turns out to be literal fact, which makes the transformation abrupt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "symbolism",
+    "text": "Blood-stained feathers and breast mark the birds permanently with the crime, linking the metamorphosis to guilt and vengeance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "metaphor",
+    "text": "The sword-like \"long spear\" becomes a bill, showing his violent nature preserved in his new bodily form.",
+    "spoiler": false
+   }
+  ]
+ }
+}

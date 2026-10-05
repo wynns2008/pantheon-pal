@@ -1,0 +1,481 @@
+{
+ "section_id": "hesiod-body-58",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12186,
+  "output": 4478
+ },
+ "result": {
+  "summary": "Hermes roasts and divides two of the stolen cows, hides the evidence, and slips home to his cradle. Maia scolds him and he boldly answers that he will become a prince of robbers if denied honour. Meanwhile Apollo questions an old man at Onchestus, learns of a child driving cattle backwards, and follows the trail to Pylos.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Hermes Roasts the Cattle",
+    "summary": "Hermes kindles a fire, slaughters two cows, roasts the meat and divides it into twelve portions. He does not eat, hides the remains, burns the heads and hoofs, and throws his sandals into the Alpheus.",
+    "stakes": "Hermes must hide his theft from Apollo and the other gods.",
+    "present": [
+     "Hermes",
+     "Hephaestus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Alpheus",
+     "modern_name": "Alfeios River, Greece",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 21.6
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 11,
+    "title": "Return to the Cradle",
+    "summary": "At dawn Hermes returns unseen to Cyllene, slips through the keyhole and lies in his cradle like a baby, with his lyre beside him.",
+    "stakes": "Being discovered as the thief.",
+    "present": [
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cyllene",
+     "modern_name": "Mount Kyllini, Greece",
+     "certainty": "real",
+     "lat": 37.94,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 23,
+    "title": "Maia Scolds Hermes",
+    "summary": "Maia rebukes Hermes for his night roaming and warns of Apollo's anger. Hermes replies that he will seek honour among the gods or become a robber and plunder Apollo's house at Pytho.",
+    "stakes": "Hermes risks punishment by Apollo and being confined to a gloomy cave without honour.",
+    "present": [
+     "Hermes",
+     "Maia",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cyllene",
+     "modern_name": "Mount Kyllini, Greece",
+     "certainty": "real",
+     "lat": 37.94,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 35,
+    "title": "Apollo Questions the Old Man",
+    "summary": "Apollo comes to Onchestus and asks an old man about his lost cattle. The man recalls a child driving cows backwards, and Apollo, reading a bird omen, goes to Pylos and sees the tracks.",
+    "stakes": "Apollo stands to lose his stolen cattle.",
+    "present": [
+     "Apollo",
+     "Eros"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Onchestus",
+     "modern_name": "near Thebes, Boeotia, Greece",
+     "certainty": "real",
+     "lat": 38.3,
+     "lon": 23.2
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hermes",
+    "aliases": [
+     "luck-bringing Hermes",
+     "son of Zeus"
+    ],
+    "kind": "god",
+    "description": "infant god who steals Apollo's cattle"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of fire, named for the fire's strength"
+   },
+   {
+    "name": "Maia",
+    "aliases": [
+     "the lady Maia"
+    ],
+    "kind": "goddess",
+    "description": "Hermes' mother, who scolds him"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "son of Leto",
+     "Far-Shooter",
+     "lord Apollo"
+    ],
+    "kind": "god",
+    "description": "owner of the stolen cattle, seeking the thief"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Zeus the son of Cronos"
+    ],
+    "kind": "god",
+    "description": "father of Hermes and Apollo"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Apollo"
+   },
+   {
+    "name": "Selene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "moon whose light shines in the night"
+   },
+   {
+    "name": "Eros",
+    "aliases": [],
+    "kind": "god",
+    "description": "early-born, rising from Ocean at dawn"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Zeus"
+   },
+   {
+    "name": "Old man",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "vineyard worker at Onchestus who saw the child"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Maia",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 34
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 33
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Maia",
+    "source": "outside",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Far-Shooter",
+    "canonical": "Apollo",
+    "explanation": "Epithet of Apollo as the archer god."
+   },
+   {
+    "alias": "son of Leto",
+    "canonical": "Apollo",
+    "explanation": "Metronymic identifying Apollo by his mother."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 20,
+    "reason": "Hermes boldly declares he will be a prince of robbers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "reason": "Vivid image of Hermes slipping through the keyhole like autumn breeze.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows Hermes' cunning and ambition: even a newborn claims a share of divine honour and uses trickery to get it.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The twelve portions and burnt offerings reflect Greek sacrificial ritual, here presented as Hermes' invention.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Hermes as divine trickster and thief shaped later Greek and Roman portrayals of Mercury."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The hymn's odd line about hides remaining on the rock links the tale to an aetiology for a cult site.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "\"The strength of Hephaestus\" is a poetic way of saying fire itself; Hephaestus is the god of fire and the forge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Vital chord\" means the spinal cord or the great vessel of the neck; piercing it kills the animal. The \"2517\" is a stray footnote marker in the source text.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Chine\" is the backbone or cut of meat from it; \"paunch\" is the stomach, here stuffed like a sausage with blood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "Twelve portions \"distributed by lot\" suggests a sacrifice shared among the twelve Olympian gods, with Hermes counting himself among them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Byre\" is a cowshed; here it is the cave where the meat is stored.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Selene is the Moon, here personified as a goddess whose light shines over the night.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Edgeways through the key-hole\" means he squeezes through sideways like a breath of wind; \"as one might\" is an odd, compressed phrase for walking noiselessly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Wear shamelessness as a garment\" means he is utterly brazen, cloaked in it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"Have you forth out of doors with unbreakable cords\" means Apollo will seize and bind him and drag him out of the cave; \"by whiles\" means now and then.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "\"Unfee'd\" means unpaid, here lacking the offerings and prayers that gods receive as their due.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Stories of grain\" is a odd rendering; it likely means heaps of grain, i.e. abundant wealth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Tripods\" are three-legged bronze stands or cauldrons, valuable prizes and temple offerings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "\"Eros the early born\" is an odd dawn image: here Eros seems to stand for the first light of morning rising from Ocean, the river encircling the world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "\"Holder of the Earth\" is an epithet of Poseidon, who has his sacred grove at Onchestus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "\"Weeder\" means one who clears weeds, i.e. a laborer tending his land. The number \"2520\" is a stray line-number artifact of the edition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "\"Which is great marvel\" means this is astonishing: the guard dogs and bull stayed behind while the cows vanished.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "\"Backwards way, with their heads toward him\" describes the cattle walked in reverse, facing the driver, to disguise their tracks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "Reading a bird's flight as an omen was a common Greek practice; Apollo, god of prophecy, interprets it as pointing to Hermes as the thief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "word",
+    "text": "\"Shambling\" describes the oxen's rolling, lurching walk.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Hermes is the youngest Olympian, newborn in this hymn, and he invents sacrificial division here, a role usually linked to the gods' honours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "The Alpheus is a major river in the Peloponnese, near Olympia. Hermes disposes of his sandals there to hide his tracks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Cyllene is the mountain in Arcadia where Hermes was born in a cave.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "The son of Leto is Apollo, whose cattle Hermes has just stolen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Pytho is Delphi, Apollo's sanctuary, famed for its treasures, so Hermes threatens to rob the god's own wealthy house.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Onchestus was a town in Boeotia with a famous grove sacred to Poseidon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Pieria, north of Mount Olympus, is where Apollo kept his herd.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Pylos, in the western Peloponnese, is where Hermes had hidden the stolen cattle.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "aetiology",
+    "text": "The narrator explains a lasting feature of the world by this event, claiming the hides remain even now.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "irony",
+    "text": "The god who is hungry for meat refuses to eat it, a puzzling restraint since gods feed on smoke and ambrosia, not meat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "simile",
+    "text": "Hermes is compared to autumn breeze and mist, conveying his stealth and slipperiness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "irony",
+    "text": "The cunning thief plays the helpless infant, hiding his deed behind innocence while the lyre stays close at hand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "metaphor",
+    "text": "Shamelessness is imagined as clothing Hermes wears, vividly characterizing his habitual boldness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "irony",
+    "text": "Hermes calls himself a feeble, frightened babe though he is a newborn who has just stolen cattle, mocking his mother's scolding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "characterization",
+    "text": "His boast of becoming a prince of robbers shows his ambition and cheeky confidence, foreshadowing his role as patron of thieves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "personification",
+    "text": "Dawn is presented as a deity rising from Ocean and bringing light, giving the time of day a mythic setting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "simile",
+    "text": "The hounds are \"like men\" in their unity of purpose, stressing how loyal they were, and how strange their failure is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "characterization",
+    "text": "The old man's hedging, \"I do not know for certain,\" paints him as cautious and honest, and keeps him from being involved.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "irony",
+    "text": "Apollo, god of prophecy, finds his answer only through a small omen, and the child he seeks is his own half-brother.",
+    "spoiler": false
+   }
+  ]
+ }
+}

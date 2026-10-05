@@ -1,0 +1,753 @@
+{
+ "section_id": "hesiod-body-40",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 13385,
+  "output": 6133
+ },
+ "result": {
+  "summary": "A set of quoted fragments from the lost Great Eoiae, a catalogue-style poem of heroines and heroes. They record genealogies, myths of Heracles, Melampus, Phineus and Endymion, and the story of Hermes stealing Apollo's cattle and turning Battus to stone.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 13,
+    "title": "Genealogy fragments",
+    "summary": "Short citations give the descent and marriages of Argive and Boeotian figures, including Epidaurus, Thero, Mecionice, Hyettus, Peirene and Mycene.",
+    "stakes": "",
+    "present": [
+     "Argos",
+     "Zeus",
+     "Alcmene",
+     "Heracles",
+     "Telamon",
+     "Polycaon",
+     "Euaechme",
+     "Phylas",
+     "Leipephile",
+     "Thero",
+     "Apollo",
+     "Chaeron",
+     "Mecionice",
+     "Euphemus",
+     "Hyettus",
+     "Molurus",
+     "Peirene",
+     "Mycene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 17,
+    "title": "Suitors killed by Oenomaus",
+    "summary": "The poem lists the suitors of Hippodamia who were killed by Oenomaus in the chariot race.",
+    "stakes": "Suitors risk death in the race.",
+    "present": [
+     "Oenomaus",
+     "Alcathous",
+     "Aristomachus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pisa, Elis",
+     "modern_name": "Olympia",
+     "certainty": "traditional",
+     "lat": 37.64,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 25,
+    "title": "Endymion, Melampus, Scylla, Phineus",
+    "summary": "Endymion is cast down to Hades for desiring Hera. Melampus gains prophecy from a serpent's young and escapes Iphiclus. Scylla's parentage and Phineus' blinding are noted.",
+    "stakes": "Melampus is bound and faces death in a collapsing house.",
+    "present": [
+     "Endymion",
+     "Zeus",
+     "Hera",
+     "Melampus",
+     "Polyphantes",
+     "Iphiclus",
+     "Scylla",
+     "Phoebus",
+     "Hecate",
+     "Phineus",
+     "Phrixus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aegina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 31,
+    "title": "Children of Phrixus",
+    "summary": "Four sons of Phrixus and Iophossa are named, and the descent of Magnes is given.",
+    "stakes": "",
+    "present": [
+     "Argus",
+     "Phrontis",
+     "Melas",
+     "Cytisorus",
+     "Iophossa",
+     "Aeetes",
+     "Magnes",
+     "Phrixus",
+     "Perimele",
+     "Admetus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Magnesia, Thessaly",
+     "modern_name": "Magnesia, Thessaly",
+     "certainty": "real",
+     "lat": 39.3,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 32,
+    "end_sentence": 46,
+    "title": "Hermes steals cattle; Battus",
+    "summary": "Apollo loves Hymenaeus, and Hermes steals his cattle and drives them to Coryphasium. Battus betrays the secret for a robe, and Hermes turns him into rock.",
+    "stakes": "Battus risks Hermes' anger by breaking his oath; he is turned to stone.",
+    "present": [
+     "Hymenaeus",
+     "Apollo",
+     "Hermes",
+     "Battus",
+     "Magnes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Coryphasium",
+     "modern_name": "Pylos",
+     "certainty": "real",
+     "lat": 36.93,
+     "lon": 21.7
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Heracles"
+   },
+   {
+    "name": "Argos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Zeus, father of Epidaurus"
+   },
+   {
+    "name": "Alcmene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Heracles"
+   },
+   {
+    "name": "Heracles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, most toilful and excellent"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hosts Heracles"
+   },
+   {
+    "name": "Polycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Butes"
+   },
+   {
+    "name": "Euaechme",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Hyllus"
+   },
+   {
+    "name": "Phylas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Leipephile"
+   },
+   {
+    "name": "Leipephile",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Iolaus"
+   },
+   {
+    "name": "Thero",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Phylas, loved by Apollo"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoebus"
+    ],
+    "kind": "god",
+    "description": "god who loves Thero and Hymenaeus"
+   },
+   {
+    "name": "Chaeron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Thero and Apollo"
+   },
+   {
+    "name": "Mecionice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "loved by the Earth-Shaker"
+   },
+   {
+    "name": "Euphemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Mecionice"
+   },
+   {
+    "name": "Hyettus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killed Molurus and fled"
+   },
+   {
+    "name": "Molurus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killed by Hyettus"
+   },
+   {
+    "name": "Peirene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Oebalius"
+   },
+   {
+    "name": "Mycene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Inachus, wife of Arestor"
+   },
+   {
+    "name": "Oenomaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killer of suitors"
+   },
+   {
+    "name": "Alcathous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "suitor killed by Oenomaus"
+   },
+   {
+    "name": "Aristomachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "suitor killed by Oenomaus"
+   },
+   {
+    "name": "Endymion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "taken to heaven, then cast down to Hades"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "desired by Endymion"
+   },
+   {
+    "name": "Melampus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "seer dear to Apollo"
+   },
+   {
+    "name": "Polyphantes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who hosted Melampus"
+   },
+   {
+    "name": "Iphiclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "owner of the cows"
+   },
+   {
+    "name": "Scylla",
+    "aliases": [],
+    "kind": "monster",
+    "description": "daughter of Phoebus and Hecate"
+   },
+   {
+    "name": "Phoebus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Scylla"
+   },
+   {
+    "name": "Hecate",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Scylla"
+   },
+   {
+    "name": "Phineus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "blinded for guiding Phrixus"
+   },
+   {
+    "name": "Phrixus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Argus and others"
+   },
+   {
+    "name": "Argus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phrixus"
+   },
+   {
+    "name": "Phrontis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phrixus"
+   },
+   {
+    "name": "Melas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phrixus"
+   },
+   {
+    "name": "Cytisorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phrixus"
+   },
+   {
+    "name": "Iophossa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Aeetes"
+   },
+   {
+    "name": "Aeetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Iophossa"
+   },
+   {
+    "name": "Perimele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Admetus"
+   },
+   {
+    "name": "Admetus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Perimele"
+   },
+   {
+    "name": "Magnes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Argus, Thessalian"
+   },
+   {
+    "name": "Hymenaeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "beautiful son of Magnes"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "cattle thief"
+   },
+   {
+    "name": "Battus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "watcher turned to rock"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Argos",
+    "relation": "parent_of",
+    "b": "Epidaurus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Heracles",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Alcmene",
+    "relation": "parent_of",
+    "b": "Heracles",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Phylas",
+    "relation": "spouse_of",
+    "b": "Leipephile",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Phylas",
+    "relation": "parent_of",
+    "b": "Thero",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Chaeron",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Thero",
+    "relation": "lover_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Phoebus",
+    "relation": "parent_of",
+    "b": "Scylla",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Hecate",
+    "relation": "parent_of",
+    "b": "Scylla",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Iophossa",
+    "relation": "parent_of",
+    "b": "Argus",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Phrixus",
+    "relation": "parent_of",
+    "b": "Argus",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Argus",
+    "relation": "parent_of",
+    "b": "Magnes",
+    "source": "text",
+    "evidence_sentence": 31
+   },
+   {
+    "a": "Magnes",
+    "relation": "parent_of",
+    "b": "Hymenaeus",
+    "source": "text",
+    "evidence_sentence": 32
+   },
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Hymenaeus",
+    "source": "text",
+    "evidence_sentence": 33
+   },
+   {
+    "a": "Battus",
+    "relation": "transformed_into",
+    "b": "rock",
+    "source": "text",
+    "evidence_sentence": 45
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phoebus",
+    "canonical": "Apollo",
+    "explanation": "Phoebus is a common epithet of Apollo."
+   },
+   {
+    "alias": "Earth-holder and Earth-Shaker",
+    "canonical": "Poseidon",
+    "explanation": "Epithets of Poseidon, who is not named in the text."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 45,
+    "reason": "Hermes punishes Battus' double-tongued betrayal by turning him into a rock.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The fragments show the catalogue form: genealogies linking heroes to gods and cities, with short myths attached.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The poem survives only in quotations by later scholars and travellers like Pausanias, who used it for local lineages and etymologies.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Hermes stealing Apollo's cattle echoes the Homeric Hymn to Hermes and later retellings."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The 'Eoiae' takes its name from the formula 'or like her', which introduced each heroine.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "PONEROS normally means 'bad' in Greek, but the commentator argues Hesiod uses it for 'toilsome' or 'ill-fated', so Heracles is both hard-worked and excellent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Aias (Ajax) was said to take his name from the eagle (Greek aietos), sent by Zeus as an answer to Heracles' prayer for a brave son for Telamon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "'Lay in the embrace of' is a conventional euphemism for sexual union, here between the god and a mortal woman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "'Earth-holder and Earth-Shaker' are epithets of Poseidon, who is the father of Euphemus by Mecionice; the god is not named.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Minyan Orchomenus is the Boeotian city of the Minyans, a legendary early people; Hyettus the exile settles there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Lacedemonian\" means a man of Lacedaemon, that is Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "\"Befooled with a shape of cloud\": Zeus tricked Endymion by giving him a cloud made to look like Hera, so he never possessed her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "\"Inspire him with prophecy\": the serpents' licking cleansed his ears so he understood birds and other creatures' speech, giving prophetic knowledge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Melampus' prophetic hearing let him learn from woodworms that the roof beam was rotten, so his warning about the collapsing house won his release.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Phrixus fled on the golden ram toward Colchis; Phineus, a Thracian king, directed him, and for this the gods are said to have blinded Phineus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "Magnesia, the Thessalian region, is explained as named after Magnes; this is an eponym story, a common way Greek tradition explained place names.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "word",
+    "text": "Strangles is a disease causing swelling of the throat; here it helps explain why the dogs cannot bark.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "phrasing",
+    "text": "\"Never yoked\" means the cows had never been put under a plough or cart, so they were untamed and unworked.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "allusion",
+    "text": "Hermes disguises himself to test Battus. Disguise as a trial of someone's word is a common motif in Greek stories.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "word",
+    "text": "\"Double-tongued\" means deceitful, saying one thing and doing another; Battus first promised silence and then spoke.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "phrasing",
+    "text": "The sentence is awkward: it means the rock is always exposed to frost or heat, so Battus is punished perpetually.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Fragments here are quotations from later authors such as Pausanias and scholiasts, since the Great Eoiae itself survives only in pieces.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Killing an adulterer in one's own house was an offence requiring exile and purification in early Greek tradition, which explains Hyettus' flight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Mycene, daughter of Inachus (the river-god of Argos), is the legendary eponym of the city Mycenae.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Oenomaus, king of Pisa, challenged his daughter Hippodamia's suitors to a chariot race and killed each loser, until Pelops defeated him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Melampus was a legendary Greek seer, said to be the first mortal prophet and physician.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Scylla is the sea monster who haunted the strait opposite Charybdis; Hecate was a goddess of magic and night.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Aeetes was king of Colchis, keeper of the Golden Fleece; Phrixus had fled there on the ram, and married his daughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Hermes was the divine trickster and patron of thieves. Stealing Apollo's cattle is his famous exploit, told also in the Homeric Hymn to Hermes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "The route runs from Thessaly south through central Greece into the Peloponnesus; the long journey and the brushwood trick are meant to hide the theft.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "characterization",
+    "text": "Alcmene's words define Heracles as a hero whose excellence is inseparable from suffering and labour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "epithet",
+    "text": "'Famous Iolaus' is a stock descriptive epithet, and the comparison to the Olympians adds heroic idealisation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "simile",
+    "text": "Thero's beauty is compared to moonbeams, a typical epic way of praising a woman's radiance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "catalogue",
+    "text": "The list of doomed suitors follows the Eoiae's catalogue form, piling up names to stress Oenomaus' cruelty and the race's repeated deadly outcome.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "irony",
+    "text": "Endymion, favored by Zeus, is ruined by overreaching desire; the cloud-phantom makes his punishment a mocking parody of his wish.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "characterization",
+    "text": "Hermes' cunning is shown by his neutralising the guard dogs first, before taking any cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "device": "irony",
+    "text": "Hermes, a notorious deceiver himself, punishes Battus for deceit, and the test he set was itself a trick.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "device": "aetiology",
+    "text": "The tale ends by explaining a landmark: a rock exposed to weather is said to be the transformed Battus.",
+    "spoiler": false
+   }
+  ]
+ }
+}

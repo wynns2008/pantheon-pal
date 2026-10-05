@@ -1,0 +1,223 @@
+{
+ "section_id": "hesiod-body-110",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5594,
+  "output": 1900
+ },
+ "result": {
+  "summary": "Fragments describe the Cercopes, two knavish brothers named Passalus and Acmon, whose mother warned them to avoid Heracles (\"Black-bottom\"). Another tradition makes them children of Theia and Ocean who were turned to stone for trying to deceive Zeus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "The Cercopes and their tricks",
+    "summary": "The Cercopes are introduced as cunning brothers who roam the world deceiving people. Their mother warns them about Heracles, and a variant says they were turned to stone for deceiving Zeus.",
+    "stakes": "The brothers risk punishment for their trickery, from Heracles or from Zeus.",
+    "present": [
+     "Passalus",
+     "Acmon",
+     "Cercopes",
+     "Heracles",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the earth",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Passalus",
+    "aliases": [
+     "Cercopes"
+    ],
+    "kind": "creature",
+    "description": "one of the two knavish Cercopes brothers"
+   },
+   {
+    "name": "Acmon",
+    "aliases": [
+     "Cercopes"
+    ],
+    "kind": "creature",
+    "description": "the other Cercopes brother"
+   },
+   {
+    "name": "Cercopes",
+    "aliases": [],
+    "kind": "creature",
+    "description": "two brothers who practised knavery and deceived men"
+   },
+   {
+    "name": "Heracles",
+    "aliases": [
+     "Black-bottom"
+    ],
+    "kind": "mortal",
+    "description": "hero the Cercopes' mother warned them to avoid"
+   },
+   {
+    "name": "Memnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the Cercopes' mother"
+   },
+   {
+    "name": "Theia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "named as mother of the Cercopes in one version"
+   },
+   {
+    "name": "Ocean",
+    "aliases": [],
+    "kind": "god",
+    "description": "named as father of the Cercopes in one version"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god the Cercopes tried to deceive"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Theia",
+    "relation": "parent_of",
+    "b": "Cercopes",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Ocean",
+    "relation": "parent_of",
+    "b": "Cercopes",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Cercopes",
+    "relation": "transformed_into",
+    "b": "stone",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Theia",
+    "relation": "spouse_of",
+    "b": "Ocean",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Black-bottom",
+    "canonical": "Heracles",
+    "explanation": "A nickname for Heracles, glossed in the text, used in the warning to the Cercopes."
+   },
+   {
+    "alias": "Cercopes",
+    "canonical": "Passalus",
+    "explanation": "The name for the pair, said to come from their cunning doings; it covers Passalus and Acmon."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "Verse description of the Cercopes as liars and cheats.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The Cercopes embody trickery and hubris: those who cheat gods and heroes meet punishment, as the warning about Heracles and the petrification show.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage is a lexicon entry (Suidas) preserving fragments of lost early epic, showing how varied and contradictory the ancient traditions about the Cercopes were.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Cercopes appear in later Greek art, such as metopes at Selinus, carried upside down by Heracles, and Greek words for knavery derive from their name."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The text comes from Suidas, a Byzantine encyclopedia of the 10th century, not from a surviving poem itself.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Suidas, s.v.: the Suda, a Byzantine Greek encyclopedia; \"s.v.\" (sub voce) means \"under the word\", so this fragment is quoted from the Cercopes entry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Cercopes is explained as derived from Greek kerkos, \"tail\", and from cercopes meaning cunning or tricky deeds; the bracketed number is an editor's footnote marker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "\"Black-bottom\" is a nickname for Heracles, implying a hairy, sunburnt rear; the warning is that Heracles will one day punish them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Turned to stone for deceiving Zeus: a variant myth, differing from the more familiar tale of Heracles capturing them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Irremediable\" means incapable of being put right; their tricks cause harm that cannot be undone.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Memnon was the legendary king of the Ethiopians, who fought at Troy and was killed by Achilles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Theia was a Titaness, and Ocean the Titan who personified the great river encircling the world.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "foreshadowing",
+    "text": "The mother's warning about Heracles hints that the brothers' trickery will eventually meet its match.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "hyperbole",
+    "text": "\"Far over the world\" and \"continually\" exaggerate their roaming to stress how widespread their deceit was.",
+    "spoiler": false
+   }
+  ]
+ }
+}

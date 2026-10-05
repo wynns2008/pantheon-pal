@@ -1,0 +1,374 @@
+{
+ "section_id": "hesiod-body-105",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6515,
+  "output": 3058
+ },
+ "result": {
+  "summary": "Proclus summarizes the lost epic Telegony, which follows Odysseus after the Odyssey: his travels, his second marriage, and his death at the hands of his son Telegonus. A second fragment gives a different account of his children.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Sacrifices and Journey to Elis",
+    "summary": "After the suitors are buried, Odysseus sacrifices to the Nymphs, visits Elis and Polyxenus, returns to Ithaca for Teiresias's sacrifices.",
+    "stakes": "",
+    "present": [
+     "Odysseus",
+     "Polyxenus",
+     "Penelope"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Elis, Peloponnese",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.4
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 6,
+    "title": "Thesprotian Marriage and War",
+    "summary": "Odysseus goes to Thesprotis, marries Callidice and leads a war against the Brygi, where the gods clash. Polypoetes inherits the kingdom.",
+    "stakes": "Odysseus's army is routed by Ares in the war.",
+    "present": [
+     "Odysseus",
+     "Callidice",
+     "Ares",
+     "Athena",
+     "Apollo",
+     "Polypoetes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thesprotis",
+     "modern_name": "Thesprotia, Epirus",
+     "certainty": "real",
+     "lat": 39.4,
+     "lon": 20.4
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 8,
+    "title": "Death of Odysseus",
+    "summary": "Telegonus lands on Ithaca, unwittingly kills Odysseus, then takes the body, Penelope and Telemachus to Circe, who makes them immortal; the pairs marry.",
+    "stakes": "Odysseus's life, defending Ithaca against an unknown attacker who is his son.",
+    "present": [
+     "Telegonus",
+     "Odysseus",
+     "Penelope",
+     "Telemachus",
+     "Circe"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ithaca",
+     "modern_name": "Ithaca, Greece",
+     "certainty": "real",
+     "lat": 38.36,
+     "lon": 20.72
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 9,
+    "title": "Alternate Genealogy",
+    "summary": "Eustathius reports Odysseus's sons by Calypso and Penelope.",
+    "stakes": "",
+    "present": [
+     "Odysseus",
+     "Calypso",
+     "Telegonus",
+     "Penelope",
+     "Telemachus",
+     "Acusilaus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero of the Odyssey, king of Ithaca"
+   },
+   {
+    "name": "Penelope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Odysseus"
+   },
+   {
+    "name": "Telemachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Odysseus and Penelope"
+   },
+   {
+    "name": "Telegonus",
+    "aliases": [
+     "Teledamus"
+    ],
+    "kind": "mortal",
+    "description": "Son of Odysseus who kills him unknowingly"
+   },
+   {
+    "name": "Circe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Telegonus's mother, who makes the others immortal"
+   },
+   {
+    "name": "Calypso",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Said in fragment 2 to be mother of Telegonus"
+   },
+   {
+    "name": "Callidice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Queen of the Thesprotians, wife of Odysseus"
+   },
+   {
+    "name": "Polypoetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Odysseus, succeeds to Thesprotian kingdom"
+   },
+   {
+    "name": "Polyxenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Host of Odysseus in Elis"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of war, routs Odysseus's army"
+   },
+   {
+    "name": "Athena",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Fights Ares"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "Separates Athena and Ares"
+   },
+   {
+    "name": "Acusilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Odysseus and Penelope in one account"
+   },
+   {
+    "name": "Eugammon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet of Cyrene, author of the Telegony"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Odysseus",
+    "relation": "parent_of",
+    "b": "Telegonus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Circe",
+    "relation": "parent_of",
+    "b": "Telegonus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Odysseus",
+    "relation": "parent_of",
+    "b": "Polypoetes",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Odysseus",
+    "relation": "spouse_of",
+    "b": "Callidice",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Odysseus",
+    "relation": "spouse_of",
+    "b": "Penelope",
+    "source": "outside",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Telegonus",
+    "relation": "spouse_of",
+    "b": "Penelope",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Telemachus",
+    "relation": "spouse_of",
+    "b": "Circe",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Odysseus",
+    "relation": "parent_of",
+    "b": "Telemachus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Odysseus",
+    "relation": "parent_of",
+    "b": "Acusilaus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Odysseus",
+    "relation": "lover_of",
+    "b": "Calypso",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Teledamus",
+    "canonical": "Telegonus",
+    "explanation": "Alternative name for Odysseus's son by Calypso in fragment 2."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The epic extends Odysseus's story beyond the Odyssey, with a tragic irony: the wanderer is killed by his own unrecognized son.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Telegony belonged to the Epic Cycle, and survives only in this summary by Proclus and scattered fragments.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The tale of Telegonus killing Odysseus with a spear tipped with a stingray spine was retold by later writers and inspired Sophocles's lost play Odysseus Acanthoplex."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Eugammon of Cyrene is dated to about 568 BC, making the Telegony one of the latest poems in the Epic Cycle.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Chrestomathia means a collection of useful passages; Proclus' summary of the Epic Cycle is the main source for this lost poem.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "A mixing bowl (krater) was a large vessel in which wine was blended with water, a typical guest-gift.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Trophonius and Agamedes were legendary builders, and Augeas the king of Elis with the filthy stables; the poem digresses to their stories.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The sacrifices ordered by Teiresias refer to the prophecy the seer gave Odysseus in the underworld in the Odyssey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "The Brygi are a people of the northern Greek region; here they are enemies of the Thesprotians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Unwittingly means without knowing; Telegonus does not recognize his father.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Eugammon of Cyrene composed the Telegony, the last poem of the Epic Cycle, probably in the sixth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "The Nymphs were female nature spirits of springs and caves; Odysseus honored them in Ithaca.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Ares is the god of war, Athena a war goddess of strategy, and Apollo the god who here ends their fight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Circe is the sorceress of the Odyssey who detained Odysseus and is Telegonus' mother.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "motif",
+    "text": "Gods fighting among mortals echoes the divine conflicts of the Iliad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "dramatic irony",
+    "text": "The audience knows the stranger is Odysseus' son, while father and son do not, making the killing tragic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "irony",
+    "text": "Death is followed by immortality and unexpected marriages, resolving the tragedy with a surprising, almost fairy-tale reversal.",
+    "spoiler": false
+   }
+  ]
+ }
+}

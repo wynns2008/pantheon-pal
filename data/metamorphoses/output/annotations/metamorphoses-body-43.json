@@ -1,0 +1,398 @@
+{
+ "section_id": "metamorphoses-body-43",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11739,
+  "output": 3814
+ },
+ "result": {
+  "summary": "The narrator explains why the spring of Salmacis softens those who bathe in it. The nymph Salmacis, vain and idle, falls in love with the boy Hermaphroditus, is refused, and then seizes him while he bathes. The gods answer her prayer and join them into one two-sexed body, and Hermaphroditus asks that the spring unman all who enter it.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Introduction and the boy's wanderings",
+    "summary": "The narrator introduces the infamous spring. Hermaphroditus, son of Mercury and Venus, is raised on Ida and at fifteen wanders to Lycia and Caria.",
+    "stakes": "",
+    "present": [
+     "Hermaphroditus",
+     "Naiads",
+     "Mercury"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ida",
+     "modern_name": "Mount Ida, Turkey",
+     "certainty": "traditional",
+     "lat": 39.7,
+     "lon": 26.85
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 16,
+    "title": "The pool and its nymph",
+    "summary": "Hermaphroditus finds the clear pool in Caria, home of Salmacis, a nymph who shuns hunting and cares for her looks. She sees the youth and prepares herself to approach him.",
+    "stakes": "",
+    "present": [
+     "Salmacis",
+     "Hermaphroditus",
+     "Diana"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pool of Salmacis, Caria",
+     "modern_name": "Bodrum (Halicarnassus), Turkey",
+     "certainty": "traditional",
+     "lat": 37.04,
+     "lon": 27.42
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 24,
+    "title": "Salmacis declares her love",
+    "summary": "Salmacis praises the youth and offers marriage. He blushes and threatens to leave; she pretends to go but hides.",
+    "stakes": "Salmacis risks rejection; Hermaphroditus wants to be left alone.",
+    "present": [
+     "Salmacis",
+     "Hermaphroditus",
+     "Cupid"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pool of Salmacis, Caria",
+     "modern_name": "Bodrum (Halicarnassus), Turkey",
+     "certainty": "traditional",
+     "lat": 37.04,
+     "lon": 27.42
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 36,
+    "title": "The nymph seizes the bather",
+    "summary": "Hermaphroditus undresses and swims. Salmacis leaps in, clings to him like a serpent, ivy or polypus, and prays never to be parted from him.",
+    "stakes": "Hermaphroditus is in danger of being forced and losing his freedom.",
+    "present": [
+     "Salmacis",
+     "Hermaphroditus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pool of Salmacis, Caria",
+     "modern_name": "Bodrum (Halicarnassus), Turkey",
+     "certainty": "traditional",
+     "lat": 37.04,
+     "lon": 27.42
+    }
+   },
+   {
+    "start_sentence": 37,
+    "end_sentence": 40,
+    "title": "Two bodies become one",
+    "summary": "The gods grant her prayer and the bodies merge into one. Hermaphroditus prays that the spring weaken any man who bathes, and his parents agree.",
+    "stakes": "Hermaphroditus loses his manhood.",
+    "present": [
+     "Hermaphroditus",
+     "Salmacis",
+     "Mercury",
+     "Venus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pool of Salmacis, Caria",
+     "modern_name": "Bodrum (Halicarnassus), Turkey",
+     "certainty": "traditional",
+     "lat": 37.04,
+     "lon": 27.42
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Salmacis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Naiad of a Carian spring, vain and idle, who desires Hermaphroditus"
+   },
+   {
+    "name": "Hermaphroditus",
+    "aliases": [
+     "descendant of Atlas"
+    ],
+    "kind": "god",
+    "description": "Handsome son of Mercury and Venus, joined with Salmacis into one body"
+   },
+   {
+    "name": "Mercury",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Hermaphroditus"
+   },
+   {
+    "name": "Venus",
+    "aliases": [
+     "Cytherean Goddess"
+    ],
+    "kind": "goddess",
+    "description": "Mother of Hermaphroditus"
+   },
+   {
+    "name": "Diana",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Huntress goddess who does not know Salmacis"
+   },
+   {
+    "name": "Cupid",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of love, to whom Salmacis compares the youth"
+   },
+   {
+    "name": "Naiads",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Water nymphs who nursed the boy and are Salmacis's sisters"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Mercury",
+    "relation": "parent_of",
+    "b": "Hermaphroditus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Venus",
+    "relation": "parent_of",
+    "b": "Hermaphroditus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Salmacis",
+    "relation": "transformed_into",
+    "b": "Hermaphroditus",
+    "source": "text",
+    "evidence_sentence": 37
+   },
+   {
+    "a": "Mercury",
+    "relation": "parent_of",
+    "b": "Hermaphroditus",
+    "source": "text",
+    "evidence_sentence": 39
+   },
+   {
+    "a": "Mercury",
+    "relation": "lover_of",
+    "b": "Venus",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cytherean Goddess",
+    "canonical": "Venus",
+    "explanation": "Venus is called Cytherean from the island of Cythera, a cult site."
+   },
+   {
+    "alias": "descendant of Atlas",
+    "canonical": "Hermaphroditus",
+    "explanation": "Mercury's mother Maia was a daughter of Atlas, so Hermaphroditus descends from Atlas."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 38,
+    "reason": "Memorable image of the merged form: neither and both woman and boy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "reason": "Hermaphroditus's prayer explains the spring's power to make men effeminate.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The tale is an etiological myth of transformation, explaining a spring's reputation while exploring desire, force and blurred gender.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Salmacis was a real spring at Halicarnassus, said in antiquity to soften or effeminate bathers; Ovid turns this belief into myth.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The word hermaphrodite for a being with both sexes comes from this figure, and the story inspired many later sculptures and paintings."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Roman sculpture type the Sleeping Hermaphroditus, with a male front and female form seen from behind, was widely copied in antiquity.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Enervates\" is used in its old sense: to weaken or drain strength, not to energize.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "\"The Cytherean Goddess\" is Venus, named from the island Cythera, near which she was said to have come ashore.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The boy's name, Hermaphroditus, combines his parents' names, Hermes (Mercury) and Aphrodite (Venus).",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Lycia and Caria were regions of southwestern Asia Minor (modern Turkey).",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Straitening\" means smoothing or arranging her hair with a comb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Citorian boxwood comes from Mount Cytorus in Asia Minor, famed for its boxwood, used for combs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Cupid is the Roman god of love, the Greek Eros. Salmacis guesses the youth may be him because of his beauty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Ancients believed noise of brass cymbals could help the moon during an eclipse, when she was thought to be troubled by magic; the moon 'blushes' as she reddens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "The 'royal bird' is the eagle, bird of Jove, which hunts snakes. The simile pictures a serpent coiling round its captor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "word",
+    "text": "Polypus means octopus, whose suckered arms grip its prey. 'Descendant of Atlas' is Hermaphroditus, whose father Mercury was Atlas's grandson.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "phrasing",
+    "text": "'Taint with drugs of ambiguous quality' means the parents infuse the spring with a power that makes bathers half-male, fulfilling the son's prayer.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Naiads are nymphs of fresh water: springs, rivers and pools.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Mount Ida, where the Naiads raised the boy, is a mountain associated with nurture of divine children.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Diana, goddess of the hunt, was patron of many nymphs who followed her hunting. Salmacis refuses this life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Salmacis is a Naiad, a nymph of a spring or fountain; here she haunts the pool that bears her name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "text": "Hermaphroditus is the son of Mercury and Venus, hence 'father and mother'; his name combines Hermes and Aphrodite, the Greek names of his parents.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "foreshadowing",
+    "text": "The opening promises an explanation of the spring's reputation, preparing us for the transformation that will end the tale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "imagery",
+    "text": "The clear pool, free of reeds and sedge, sets up an idyllic, seemingly harmless place that hides danger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "parallelism",
+    "text": "The line repeats her sisters' words in negative form, stressing how firmly she refuses the hunt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "characterization",
+    "text": "Her careful preparation shows her vanity and calculation, contrasting with the unaware boy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "Simile",
+    "text": "Her burning eyes are compared to the sun's glare reflected from a mirror, conveying the dazzling intensity of her desire.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "Simile",
+    "text": "Ivory statues and lilies seen under glass evoke his pale, gleaming body in the water, aestheticizing him as an object of the gaze.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "Epic simile",
+    "text": "The serpent trapped by an eagle, yet coiling round it, casts Salmacis as a predator-turned-captor and Hermaphroditus as the struggling prey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "Simile",
+    "text": "Two bodies merging is likened to branches growing together under one bark, making the unnatural fusion seem part of nature.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "Paradox",
+    "text": "'Neither and both' captures the new being's impossible identity in a single balanced contradiction.",
+    "spoiler": false
+   }
+  ]
+ }
+}

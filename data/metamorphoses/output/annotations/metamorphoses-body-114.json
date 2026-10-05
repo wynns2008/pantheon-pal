@@ -1,0 +1,407 @@
+{
+ "section_id": "metamorphoses-body-114",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12622,
+  "output": 3539
+ },
+ "result": {
+  "summary": "A speaker who stayed a year with Circe tells how Picus, king of Ausonia, spurned Circe's love because of his wife Canens. Circe turned him into a woodpecker and his companions into beasts, and Canens wandered grieving until she vanished into thin air by the Tiber.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Picus and Canens introduced",
+    "summary": "Picus, handsome king of Ausonia, is wooed by many nymphs but loves only Canens, a singer of great power. He rides out to hunt boar.",
+    "stakes": "",
+    "present": [
+     "Picus",
+     "Canens",
+     "Venilia",
+     "Janus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Laurentine fields, Latium",
+     "modern_name": "Laurentum, Lazio, Italy",
+     "certainty": "traditional",
+     "lat": 41.65,
+     "lon": 12.4
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 23,
+    "title": "Circe tries to win Picus",
+    "summary": "Circe sees Picus, lures him from his guards with a phantom boar and darkened sky, and begs for his love. He refuses out of faithfulness to Canens, and she threatens him.",
+    "stakes": "Picus risks Circe's vengeance if he stays faithful to Canens.",
+    "present": [
+     "Circe",
+     "Picus",
+     "Canens"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Laurentine wood",
+     "modern_name": "Laurentum, Lazio, Italy",
+     "certainty": "traditional",
+     "lat": 41.65,
+     "lon": 12.4
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 32,
+    "title": "Picus and his men transformed",
+    "summary": "Circe turns Picus into a woodpecker with his purple and gold colours. When his attendants attack, she summons dark powers and turns them into beasts.",
+    "stakes": "Picus loses his human form; his attendants risk death and are transformed.",
+    "present": [
+     "Circe",
+     "Picus",
+     "Hecate"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Laurentine wood",
+     "modern_name": "Laurentum, Lazio, Italy",
+     "certainty": "traditional",
+     "lat": 41.65,
+     "lon": 12.4
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 40,
+    "title": "Canens vanishes into air",
+    "summary": "Canens searches six days and nights, then laments by the Tiber and dissolves into air. The place is named Canens.",
+    "stakes": "Canens loses her husband and, finally, her own life.",
+    "present": [
+     "Canens",
+     "Tiber"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Banks of the Tiber",
+     "modern_name": "Tiber River, Italy",
+     "certainty": "real",
+     "lat": 41.9,
+     "lon": 12.5
+    }
+   },
+   {
+    "start_sentence": 41,
+    "end_sentence": 44,
+    "title": "The teller's stay ends",
+    "summary": "The narrator says he spent a year with Circe, was ordered to sail on, and was frightened by her warning, so he stayed on these shores.",
+    "stakes": "Perils of a dangerous sea voyage.",
+    "present": [
+     "Circe"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Circe's land",
+     "modern_name": "Monte Circeo, Italy",
+     "certainty": "traditional",
+     "lat": 41.23,
+     "lon": 13.05
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Picus",
+    "aliases": [
+     "Laurentine Picus"
+    ],
+    "kind": "mortal",
+    "description": "Son of Saturn, king in Ausonia, turned into a woodpecker"
+   },
+   {
+    "name": "Canens",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Singing nymph, wife of Picus"
+   },
+   {
+    "name": "Circe",
+    "aliases": [
+     "daughter of the Sun",
+     "daughter of Titan"
+    ],
+    "kind": "goddess",
+    "description": "Enchantress who loves Picus and transforms him"
+   },
+   {
+    "name": "Saturn",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Picus"
+   },
+   {
+    "name": "Venilia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Mother of Canens"
+   },
+   {
+    "name": "Janus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Canens"
+   },
+   {
+    "name": "Sun",
+    "aliases": [],
+    "kind": "god",
+    "description": "Circe's father, who sees all things"
+   },
+   {
+    "name": "Hecate",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess invoked in Circe's magic"
+   },
+   {
+    "name": "Tiber",
+    "aliases": [],
+    "kind": "god",
+    "description": "River who sees Canens' last lament"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Saturn",
+    "relation": "parent_of",
+    "b": "Picus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Venilia",
+    "relation": "parent_of",
+    "b": "Canens",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Janus",
+    "relation": "parent_of",
+    "b": "Canens",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Picus",
+    "relation": "spouse_of",
+    "b": "Canens",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Sun",
+    "relation": "parent_of",
+    "b": "Circe",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Picus",
+    "relation": "transformed_into",
+    "b": "woodpecker",
+    "source": "text",
+    "evidence_sentence": 25
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "daughter of Titan",
+    "canonical": "Circe",
+    "explanation": "Circe's father the Sun is called a Titan, so she is named as his daughter."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 23,
+    "reason": "Circe's fierce, memorable declaration of what a slighted woman in love can do.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Faithful love is punished by thwarted desire and magic, and the tale explains a bird's origin through metamorphosis.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The story gives Latium's early kings and place names a mythic origin, tying Roman land to legend.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Picus was associated in Roman tradition with the woodpecker, a bird sacred to Mars.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Ausonia is an old poetic name for Italy; Picus is a legendary early king of Latium, son of Saturn in Roman tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "The speaker points to a statue or image of Picus nearby, so 'as thou beholdest' refers to a physical likeness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Olympic games were held every fifth year at Elis; the sentence says Picus was under twenty, too young to have seen four of them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The daughter of the Sun is Circe, the enchantress; the Circæan fields are named after her, around Mount Circeo on the Latin coast.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "'Suppliant' means one who humbly begs a favour; the goddess reverses her usual rank by pleading.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "'With impunity' means without punishment or harm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "Turning to West and East twice each is a ritual gesture: magic repeated in set numbers, with three as the traditional charm number.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "Latian means of Latium, the region of Italy around Rome. Picus is a legendary early king there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Erebus and Chaos are primeval realms of darkness in the underworld. Hecate is the goddess of witchcraft and night, invoked in magic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "Tartessian means of Tartessus, in southwestern Spain; the poet uses it for the far western ocean where the sun sets.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "allusion",
+    "text": "Tiber is the river of Rome, here a god-like witness. Canens ends her life on its banks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "Ancient belief held that the swan sang a beautiful song just before dying, hence 'swan song'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "word",
+    "text": "Daughter of Titan means Circe, whose father was the Sun (Sol), a Titan's son in Ovid's usage.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "This long list of rivers and springs places the nymphs in the real landscape of Latium.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Janus was the Roman two-faced god of doorways and beginnings; here he is the father of Canens by the nymph Venilia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Circe's father is the Sun, and magic that darkens the moon and gathers clouds over him shows her power over nature.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Picus becomes a woodpecker, an Italian bird sacred to Mars, which explains its purple and gold colouring in the tale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "text": "This is an aetiological ending: the story explains how a place got its name, a common Ovidian pattern.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "Hyperbole",
+    "text": "Canens's song moves rocks, stills rivers and holds birds in flight, showing the extraordinary power of music.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Metaphor",
+    "text": "Love as a flame running through her marrow expresses sudden, consuming passion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Irony",
+    "text": "Picus follows the phantom 'unconsciously,' chasing a vain hope that is Circe's trap, leading him from safety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "Climax",
+    "text": "The rising triplet 'slighted, in love, a woman' ends with Circe naming herself, giving a menacing sense of what follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "Irony",
+    "text": "Picus, who rejected Circe, now strikes oaks in rage; his anger is expressed in the very bird-habit that marks his new form.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "Imagery",
+    "text": "Weeping stones, bloody grass and phantoms build a vivid supernatural horror, showing the scale of Circe's power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "Simile",
+    "text": "Canens' faint mournful singing is compared to a dying swan, foreshadowing her own fading away.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "Metaphor",
+    "text": "Melting with grief turns sorrow into physical dissolution, making her vanishing into air a literal outcome of emotion.",
+    "spoiler": false
+   }
+  ]
+ }
+}

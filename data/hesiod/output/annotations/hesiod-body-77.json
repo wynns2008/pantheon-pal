@@ -1,0 +1,238 @@
+{
+ "section_id": "hesiod-body-77",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5394,
+  "output": 1951
+ },
+ "result": {
+  "summary": "The hymn's speaker calls on the Muse to sing of the twin brothers Castor and Polydeuces, sons of Zeus. Their mother Leda bore them beneath Mount Taygetus after Zeus secretly took her. The poem ends with a greeting to them as horsemen.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Invocation of the Dioscuri",
+    "summary": "The poet asks the Muse to sing of Castor and Polydeuces, tells of their birth to Leda and Zeus under Taygetus, and hails them as riders.",
+    "stakes": "",
+    "present": [
+     "Castor",
+     "Polydeuces",
+     "Leda",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Taygetus",
+     "modern_name": "Taygetus mountains, Peloponnese, Greece",
+     "certainty": "real",
+     "lat": 36.95,
+     "lon": 22.35
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Castor",
+    "aliases": [
+     "Tyndaridae"
+    ],
+    "kind": "god",
+    "description": "Twin son of Leda, horseman, one of the Dioscuri"
+   },
+   {
+    "name": "Polydeuces",
+    "aliases": [
+     "Tyndaridae"
+    ],
+    "kind": "god",
+    "description": "Twin brother of Castor, son of Zeus"
+   },
+   {
+    "name": "Leda",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Stately mother of the twins, taken by Zeus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "Father of the twins, who secretly lay with Leda"
+   },
+   {
+    "name": "Tyndareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man whose name gives the twins their title Tyndaridae"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Zeus, mentioned only by name"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Castor",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Polydeuces",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Leda",
+    "relation": "parent_of",
+    "b": "Castor",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Leda",
+    "relation": "parent_of",
+    "b": "Polydeuces",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Leda",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Castor",
+    "relation": "sibling_of",
+    "b": "Polydeuces",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Tyndareus",
+    "relation": "spouse_of",
+    "b": "Leda",
+    "source": "outside",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Tyndaridae",
+    "canonical": "Castor",
+    "explanation": "Patronymic meaning sons of Tyndareus, used for both Castor and Polydeuces."
+   },
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "Patronymic epithet for Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "The brief closing salutation hailing the twins as horsemen, typical of Homeric Hymn endings.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn praises the twins' divine parentage and their role as horsemen, with the stress on Zeus as father despite their mortal-linked title Tyndaridae.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Such short hymns served as invocations or proems, and the Dioscuri were widely worshipped, especially by Spartans and sailors.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Castor and Polydeuces (Pollux) became the constellation Gemini and were venerated in Rome as Castor and Pollux."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Homeric Hymns are not by Homer; they are anonymous preludes composed over several centuries.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Tyndaridae means 'sons of Tyndareus', Leda's husband, though here they are said to spring from Zeus; the name is a traditional patronymic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Bare\" is the old past tense of \"bear\"; \"privily\" means secretly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Bent her to his will\" is a polite way of saying Zeus seduced or overpowered Leda, who was a mortal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Son of Cronos\" is Zeus, named by his father, the Titan Cronos.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Castor and Polydeuces (Latin Pollux) were the twin Dioscuri, heroes and protectors of sailors, worshipped across the Greek world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Taygetus is the mountain range beside Sparta, the twins' homeland; Leda was a Spartan queen.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "apostrophe",
+    "text": "The poet addresses the Muse directly, a conventional hymn opening that asks divine inspiration to supply the song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "device": "epithet",
+    "text": "\"Dark-clouded Son of Cronos\" characterizes Zeus as storm-god, using a descriptive title instead of his name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "apostrophe",
+    "text": "The poet turns from the Muse to address the twins themselves, with a formal greeting that marks the hymn's close and their cult role as horsemen.",
+    "spoiler": false
+   }
+  ]
+ }
+}

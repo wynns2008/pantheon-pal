@@ -1,0 +1,168 @@
+{
+ "section_id": "hesiod-body-69",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5567,
+  "output": 1404
+ },
+ "result": {
+  "summary": "The poet invokes the Muse to sing of Artemis, the virgin archer sister of Apollo. She drives her golden chariot from the river Meles through Smyrna to Claros, where Apollo awaits her. The poet then salutes her and all goddesses and moves on to another song.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Artemis drives to Claros",
+    "summary": "The Muse is asked to sing of Artemis, who waters her horses at the Meles and drives her chariot through Smyrna to Claros, where Apollo waits.",
+    "stakes": "",
+    "present": [
+     "Artemis",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Claros",
+     "modern_name": "Claros, near Colophon, Turkey",
+     "certainty": "real",
+     "lat": 37.99,
+     "lon": 27.19
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 3,
+    "title": "Farewell and transition",
+    "summary": "The poet greets Artemis and all goddesses, then says he will turn to another song.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Artemis",
+    "aliases": [
+     "the far-shooting goddess"
+    ],
+    "kind": "goddess",
+    "description": "virgin goddess who delights in arrows, sister of Apollo"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "the Far-shooter",
+     "god of the silver bow"
+    ],
+    "kind": "god",
+    "description": "archer god, brother of Artemis, waiting at Claros"
+   },
+   {
+    "name": "Meles",
+    "aliases": [],
+    "kind": "place",
+    "description": "reedy river where Artemis waters her horses"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Artemis",
+    "relation": "sibling_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 0
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Far-shooter",
+    "canonical": "Apollo",
+    "explanation": "Epithet of Apollo as archer god."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Typical hymn closing formula: the poet begins with the goddess and moves on to another song.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn praises Artemis through her bond with Apollo and her role as virgin huntress, showing the pair as complementary archer deities.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Ionian setting of Smyrna, the Meles and Claros suggests the hymn was tied to the Greek cities and Apolline cult of Asia Minor.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "This is one of the shortest Homeric Hymns, and it works as a brief prelude (proem) to a longer recitation.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Far-shooter is an epithet of Apollo, the archer god whose arrows reach distant targets.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Fostered with Apollo\" means brought up alongside him; the two are twin children of Leto.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Claros was a site near Colophon in Ionia with a famous oracle and sanctuary of Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "The poet says he will \"turn to another song,\" the standard way a Homeric Hymn closes and moves on to the next piece of performance.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The Meles is a river at Smyrna, on the western coast of Asia Minor, traditionally linked to Homer's birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Hymns typically end with a greeting (\"hail\") to the god, often asking for favor in return for the song.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "epithet",
+    "text": "Repeated descriptions such as \"all-golden\" and \"silver bow\" fix each divinity with a fixed, glittering attribute.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "ring composition",
+    "text": "The poet ends by returning to the opening gesture of beginning with the goddess, framing the hymn and signaling a transition.",
+    "spoiler": false
+   }
+  ]
+ }
+}

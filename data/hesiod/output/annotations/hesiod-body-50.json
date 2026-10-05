@@ -1,0 +1,333 @@
+{
+ "section_id": "hesiod-body-50",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7837,
+  "output": 2756
+ },
+ "result": {
+  "summary": "Demeter and Persephone are reunited, and Hecate becomes Persephone's companion. Zeus sends Rhea to settle the dispute: Persephone will spend a third of the year below and two thirds above. Demeter makes the earth fruitful again, teaches her mysteries to the princes of Eleusis, and the poet closes with a prayer.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Mother and daughter reunited",
+    "summary": "Demeter and Persephone embrace and are comforted. Hecate joins them and becomes Persephone's companion.",
+    "stakes": "",
+    "present": [
+     "Demeter",
+     "Persephone",
+     "Hecate"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eleusis",
+     "modern_name": "Elefsina, Greece",
+     "certainty": "traditional",
+     "lat": 38.0414,
+     "lon": 23.5386
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 11,
+    "title": "Rhea brings Zeus's settlement",
+    "summary": "Zeus sends Rhea, who meets Demeter on the plain of Rharus and relays his terms. Demeter yields and makes the earth fruitful.",
+    "stakes": "Demeter risks losing her daughter for part of the year, and mankind risks famine unless she relents.",
+    "present": [
+     "Zeus",
+     "Rhea",
+     "Demeter",
+     "Persephone"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "plain of Rharus",
+     "modern_name": "Rharian plain near Eleusis",
+     "certainty": "traditional",
+     "lat": 38.03,
+     "lon": 23.5
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 16,
+    "title": "The mysteries taught",
+    "summary": "Demeter teaches her rites to the Eleusinian kings and then returns to Olympus. The initiated are promised blessings and wealth.",
+    "stakes": "The uninitiated face a bleak lot after death.",
+    "present": [
+     "Demeter",
+     "Triptolemus",
+     "Diocles",
+     "Eumolpus",
+     "Celeus",
+     "Polyxeinus",
+     "Persephone",
+     "Zeus",
+     "Plutus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eleusis",
+     "modern_name": "Elefsina, Greece",
+     "certainty": "traditional",
+     "lat": 38.0414,
+     "lon": 23.5386
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 18,
+    "title": "Poet's prayer",
+    "summary": "The poet addresses Demeter and Persephone, asks for a livelihood, and promises another song.",
+    "stakes": "",
+    "present": [
+     "Demeter",
+     "Persephone"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eleusis",
+     "modern_name": "Elefsina, Greece",
+     "certainty": "traditional",
+     "lat": 38.0414,
+     "lon": 23.5386
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Deo"
+    ],
+    "kind": "goddess",
+    "description": "goddess of grain and giver of seasons"
+   },
+   {
+    "name": "Persephone",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Demeter's daughter, who spends part of the year below"
+   },
+   {
+    "name": "Hecate",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "bright-coiffed goddess, Persephone's minister and companion"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "king of the gods who sets the settlement"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "messenger who brings Zeus's terms"
+   },
+   {
+    "name": "Triptolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eleusinian king taught the mysteries"
+   },
+   {
+    "name": "Diocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "horse-driving king taught the mysteries"
+   },
+   {
+    "name": "Eumolpus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "doughty king taught the mysteries"
+   },
+   {
+    "name": "Celeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the people, taught the mysteries"
+   },
+   {
+    "name": "Polyxeinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man taught the mysteries"
+   },
+   {
+    "name": "Plutus",
+    "aliases": [],
+    "kind": "god",
+    "description": "giver of wealth sent to the houses of the blessed"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Persephone",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Persephone",
+    "source": "outside",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Rhea",
+    "source": "outside",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Rhea",
+    "relation": "parent_of",
+    "b": "Demeter",
+    "source": "text",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Deo",
+    "canonical": "Demeter",
+    "explanation": "An alternative name for Demeter used in the closing prayer."
+   },
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "Patronymic title for Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Core statement of the Eleusinian Mysteries' promise of a better afterlife for initiates.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The compromise explains the seasons: Persephone's time below matches barren months, and her return brings spring and renewed grain.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The hymn is an origin story for the Eleusinian Mysteries, a secret initiation cult promising blessings in the afterlife.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Eleusinian Mysteries continued for nearly two thousand years and influenced later ideas of initiation and the afterlife."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The word 'mystery' comes from Greek mystes, an initiate, and the secrecy of the rites was so well kept that details remain uncertain.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Bright-coiffed\" means with beautifully dressed hair; \"minister\" here means attendant or servant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Third part of the circling year\" means four months below, two-thirds above; this explains the seasons' cycle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The Rharian plain near Eleusis was sacred to Demeter; she had made it barren in her anger at losing her daughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Bowed his head in token\" refers to a nod by which Zeus makes a promise binding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Transgress or pry into\" means violate or inquire about; the mysteries were secret and could not be revealed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Plutus is the personified god of wealth, often linked with Demeter's grain harvests.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "\"Deo\" is another name for Demeter.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Hecate, a goddess associated with night and crossroads, heard Persephone's cry when she was seized and helped Demeter search.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Cronos was the Titan father of Zeus; Rhea is his wife and also Zeus's mother, so she speaks as Demeter's sister.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "These Eleusinian kings were the legendary first priests of the Eleusinian Mysteries, a secret initiation cult in Demeter's honor.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "foreshadowing",
+    "text": "The barren plain is told of as it will soon be, anticipating the harvest that will follow Demeter's reconciliation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "contrast",
+    "text": "The blessed initiate is set against the uninitiate in death, stressing the value of the rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "apostrophe",
+    "text": "The poet turns directly to the goddess, using a string of epithets and places to honor her and ask for a reward.",
+    "spoiler": false
+   }
+  ]
+ }
+}

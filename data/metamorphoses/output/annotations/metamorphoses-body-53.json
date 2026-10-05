@@ -1,0 +1,428 @@
+{
+ "section_id": "metamorphoses-body-53",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12308,
+  "output": 3855
+ },
+ "result": {
+  "summary": "Ceres searches the whole earth for Proserpine and finds her girdle in Cyane's pool in Sicily. Arethusa tells her that Proserpine is queen in the underworld, and Ceres appeals to Jupiter. He agrees to a return only if Proserpine has eaten nothing there, but Ascalaphus reveals that she ate pomegranate seeds, and he is turned into an owl. The poet also notes the daughters of Acheloüs, who became bird-women to search for Proserpine.",
+  "scenes": [
+   {
+    "start_sentence": 5,
+    "end_sentence": 13,
+    "title": "Ceres Blights Sicily",
+    "summary": "Ceres returns to Sicily and sees Cyane's token, Proserpine's girdle. In grief and anger she destroys the farmland of Trinacria.",
+    "stakes": "Ceres risks losing her daughter for good and her anger ruins the land's crops.",
+    "present": [
+     "Ceres",
+     "Cyane",
+     "Proserpine"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Trinacria (Sicily)",
+     "modern_name": "Sicily",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 14.0
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 23,
+    "title": "Arethusa Speaks to Ceres",
+    "summary": "Arethusa rises from the water, defends Sicily and says she saw Proserpine in the underworld as queen.",
+    "stakes": "Sicily faces more of Ceres' wrath; Arethusa pleads for her adopted home.",
+    "present": [
+     "Arethusa",
+     "Ceres",
+     "Proserpine"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Fountain of Arethusa, Ortygia",
+     "modern_name": "Ortygia, Syracuse",
+     "certainty": "traditional",
+     "lat": 37.06,
+     "lon": 15.29
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 32,
+    "title": "Ceres Appeals to Jupiter",
+    "summary": "Ceres goes to Jupiter and demands her daughter back. He agrees on condition that Proserpine has eaten nothing below.",
+    "stakes": "Ceres could lose her daughter permanently to the underworld.",
+    "present": [
+     "Ceres",
+     "Jupiter",
+     "Proserpine"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Heaven (the upper air)",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 39,
+    "title": "Ascalaphus Becomes an Owl",
+    "summary": "Proserpine had eaten seven pomegranate seeds, and Ascalaphus tells. She punishes him by turning him into an owl.",
+    "stakes": "Proserpine's return depends on the secret; Ascalaphus faces her punishment.",
+    "present": [
+     "Proserpine",
+     "Ascalaphus",
+     "Orphne"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Garden of the underworld",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 40,
+    "end_sentence": 43,
+    "title": "The Sirens Gain Wings",
+    "summary": "The poet asks why the daughters of Acheloüs have bird forms and says the gods gave them wings to search for Proserpine.",
+    "stakes": "",
+    "present": [
+     "Acheloüs"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Over the seas",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ceres",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of corn, mother of Proserpine"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Ceres' daughter, carried off to be queen of the underworld"
+   },
+   {
+    "name": "Cyane",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph transformed into a pool, who shows the girdle"
+   },
+   {
+    "name": "Arethusa",
+    "aliases": [
+     "Alpheian Nymph"
+    ],
+    "kind": "nymph",
+    "description": "nymph from Elis who flowed under the earth to Sicily"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, father of Proserpine"
+   },
+   {
+    "name": "Ascalaphus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "informer turned into an owl"
+   },
+   {
+    "name": "Orphne",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph of Avernus, mother of Ascalaphus"
+   },
+   {
+    "name": "Acheron",
+    "aliases": [],
+    "kind": "other",
+    "description": "underworld river, father of Ascalaphus"
+   },
+   {
+    "name": "Acheloüs",
+    "aliases": [],
+    "kind": "god",
+    "description": "river god, father of the bird-footed maidens"
+   },
+   {
+    "name": "Pluto",
+    "aliases": [
+     "Infernal King"
+    ],
+    "kind": "god",
+    "description": "king of the underworld, Proserpine's husband"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ceres",
+    "relation": "parent_of",
+    "b": "Proserpine",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Proserpine",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Pluto",
+    "relation": "spouse_of",
+    "b": "Proserpine",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Jupiter",
+    "relation": "sibling_of",
+    "b": "Pluto",
+    "source": "text",
+    "evidence_sentence": 30
+   },
+   {
+    "a": "Orphne",
+    "relation": "parent_of",
+    "b": "Ascalaphus",
+    "source": "text",
+    "evidence_sentence": 34
+   },
+   {
+    "a": "Ascalaphus",
+    "relation": "transformed_into",
+    "b": "owl",
+    "source": "text",
+    "evidence_sentence": 36
+   },
+   {
+    "a": "Acheron",
+    "relation": "parent_of",
+    "b": "Ascalaphus",
+    "source": "text",
+    "evidence_sentence": 34
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Alpheian Nymph",
+    "canonical": "Arethusa",
+    "explanation": "Named for the river Alpheus, associated with her home in Elis."
+   },
+   {
+    "alias": "Infernal King",
+    "canonical": "Pluto",
+    "explanation": "Title for the ruler of the underworld, husband of Proserpine."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 26,
+    "reason": "Ceres' bitter play on the word 'finding' when she learns where her daughter is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "reason": "Jupiter sets the fateful condition that dooms Proserpine's return.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Grief and rage in Ceres bring sterility to the earth, linking the myth to the cycle of the seasons.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Ovid links several metamorphoses: Ascalaphus's punishment for telling and the Sirens' wings for faithfulness.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The pomegranate seeds and the six-month division of the year became the classic myth explaining the seasons."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The owl was a bad omen in Roman belief, which Ovid ties here to Ascalaphus.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"It were a tedious task\" is archaic subjunctive: it would be a wearisome job. The speaker is the Muse narrating the tale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Girdle: a belt or sash worn around the waist, here Proserpine's, dropped into the pool as a clue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Trinacria is an old name for Sicily, meaning 'three-cornered' for its triangular shape.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Darnel is a weedy grass that infests wheat fields; ancient writers treated it as a typical crop-spoiler.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "The Alpheian Nymph is Arethusa, a nymph of Elis pursued by the river god Alpheus; she fled under the sea and resurfaced in Sicily as a spring.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Stygian refers to the Styx, the river of the underworld; here it means the dark waters of the lower world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "Ceres plays bitterly on the word 'finding': she has only learned for certain that her daughter is lost, so the word hardly applies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "allusion",
+    "text": "Jupiter's brother is Pluto, the Infernal King. Lots were drawn among the brothers, and Pluto received the underworld rather than heaven or the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "Broke her fast means she ate. Eating the food of the dead bound a person to the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "Phlegethon is the fiery river of the underworld. Its waters are the means of Ascalaphus' transformation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "allusion",
+    "text": "The daughters of Acheloüs are the Sirens, who in Ovid's account were Proserpine's companions and were given bird forms.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Cyane was a Sicilian nymph turned into a spring while trying to stop Pluto from carrying off Proserpine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Ceres is goddess of grain and agriculture, so her curse on the land's \"gifts of corn\" is especially fitting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Ceres is goddess of grain and Proserpine's mother. Jupiter is the girl's father, which is why she appeals to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Ascalaphus is a minor underworld figure, son of Acheron and Orphne, both associated with the infernal rivers and darkness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "Owls were ancient omens of death and misfortune, which fits the transformation of the informer.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "Pathos",
+    "text": "Cyane's desire to speak, without mouth or tongue, evokes sympathy for her helpless state.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Imagery",
+    "text": "Torn hair and beaten breast show the goddess's grief physically, through vivid gestures.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Antithesis",
+    "text": "Excessive heat set against excessive showers shows the blight attacking from every direction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "characterization",
+    "text": "Arethusa presents Proserpine as sad yet powerful, softening Ceres' grief by emphasizing her new rank.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "simile",
+    "text": "Ceres' stunned stillness is compared to stone, showing grief that freezes her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "irony",
+    "text": "Jupiter calls the abduction affection rather than injury, a self-serving euphemism that makes his reasonableness suspect.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "foreshadowing",
+    "text": "The statement that the Fates do not permit it signals that Ceres' hopes will fail.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "imagery",
+    "text": "Vivid physical details, such as tawny wings and bent nails, make the transformation concrete and grotesque.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "device": "narrative voice",
+    "text": "The poet addresses the Sirens directly and offers a rationale for their form, an explanatory voice common in the Metamorphoses.",
+    "spoiler": false
+   }
+  ]
+ }
+}

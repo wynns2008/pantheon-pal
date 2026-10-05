@@ -1,0 +1,357 @@
+{
+ "section_id": "metamorphoses-body-80",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8533,
+  "output": 3125
+ },
+ "result": {
+  "summary": "Ovid's argument recounts how Juno had Ilithyia obstruct Alcmena's labour until her maid Galanthis tricked the goddess and was turned into a weasel. Alcmena then tells the story to Iole, who is about to give birth to Hyllus's child.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Argument: Galanthis becomes a weasel",
+    "summary": "The prefatory argument summarises Juno's spite, Lucina's delaying spell, Galanthis's trick and her transformation.",
+    "stakes": "Alcmena's life and the birth of Hercules are at risk from Juno's revenge.",
+    "present": [
+     "Juno",
+     "Ilithyïa",
+     "Alcmena",
+     "Galanthis",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Alcmena's abode",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.3226,
+     "lon": 23.3189
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 10,
+    "title": "Alcmena confides in Iole",
+    "summary": "Eurystheus still hates Hercules. The aged Alcmena finds comfort in Iole, wife of Hyllus, and begins her tale with a blessing for Iole's coming labour.",
+    "stakes": "Alcmena faces the anxiety and loneliness of old age.",
+    "present": [
+     "Alcmena",
+     "Iole",
+     "Hyllus",
+     "Hercules",
+     "Eurystheus",
+     "Atlas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Home of Alcmena",
+     "modern_name": "Argos area, Greece",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 17,
+    "title": "Alcmena's agonising labour",
+    "summary": "Alcmena recalls seven days of torment as Lucina, corrupted by Juno, sat on the altar with crossed knees and fingers and muttered charms.",
+    "stakes": "Alcmena's life, in agony from the delayed birth, is threatened by Juno's vengeance.",
+    "present": [
+     "Alcmena",
+     "Lucina",
+     "Juno",
+     "Jupiter",
+     "Hercules"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.3226,
+     "lon": 23.3189
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 25,
+    "title": "Galanthis tricks the goddess",
+    "summary": "Galanthis falsely announces the birth. Lucina leaps up, breaking the spell, and Hercules is born. The goddess punishes Galanthis by turning her into a weasel.",
+    "stakes": "Galanthis risks the wrath of a goddess for her mistress.",
+    "present": [
+     "Galanthis",
+     "Lucina",
+     "Alcmena",
+     "Juno"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.3226,
+     "lon": 23.3189
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Juno",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Jealous goddess who persecutes Alcmena and Hercules"
+   },
+   {
+    "name": "Ilithyïa",
+    "aliases": [
+     "Lucina"
+    ],
+    "kind": "goddess",
+    "description": "Goddess of childbirth who delays Alcmena's delivery"
+   },
+   {
+    "name": "Lucina",
+    "aliases": [
+     "Ilithyïa"
+    ],
+    "kind": "goddess",
+    "description": "Goddess of childbirth"
+   },
+   {
+    "name": "Alcmena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive mother of Hercules, telling her story"
+   },
+   {
+    "name": "Galanthis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Yellow-haired maid who tricks Lucina and becomes a weasel"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Alcmena and Jupiter, famed for his labours"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "King of the gods, father of Hercules"
+   },
+   {
+    "name": "Eurystheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Sthenelus, hostile to Hercules"
+   },
+   {
+    "name": "Sthenelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Eurystheus"
+   },
+   {
+    "name": "Iole",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Hyllus, Alcmena's confidante"
+   },
+   {
+    "name": "Hyllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Hercules, husband of Iole"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "other",
+    "description": "Titan who felt the burden of Hercules"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Alcmena",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Sthenelus",
+    "relation": "parent_of",
+    "b": "Eurystheus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Hyllus",
+    "source": "outside",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Hyllus",
+    "relation": "spouse_of",
+    "b": "Iole",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Jupiter",
+    "relation": "lover_of",
+    "b": "Alcmena",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Galanthis",
+    "relation": "transformed_into",
+    "b": "weasel",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lucina",
+    "canonical": "Ilithyïa",
+    "explanation": "Lucina is the Roman name of the birth goddess; Ilithyia is the Greek form."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 25,
+    "reason": "Explains the weasel's supposed mouth-birth as punishment for Galanthis's lying mouth.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The tale shows divine jealousy and a clever mortal's trick, ending in a punitive transformation typical of the Metamorphoses.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid draws on an ancient belief that weasels bore their young through the mouth, offering a mythic explanation for it.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The crossed legs and clasped fingers of Lucina reflect the ancient belief that knots and crossed limbs could bind or delay birth.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Ilithyïa is the Greek goddess of childbirth, identified with the Roman Lucina; the text uses both names for the same goddess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "This line links to Hercules' labours: Atlas had felt the weight of Hercules when the hero briefly held up the heavens. The footnote [29] marks an editor's note.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "Awkward syntax: Alcmena 'has Iole' as someone to whom she can confide her complaints, achievements and misfortunes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The 'tenth sign' refers to the tenth month; the 'luminary' is the sun. The sense is that she was in her tenth month of pregnancy, and the child was unusually heavy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The Nixi were minor birth deities who aided women in labour, invoked together with Lucina.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Crossed knees and interlaced fingers were folk-magic gestures believed to block or delay birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Cadmeian means Theban, from Cadmus, the legendary founder of Thebes, where Alcmena lived.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Ancient belief held that weasels gave birth through the mouth, so Galanthis's punishment mirrors her lying mouth.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Eurystheus was the king who imposed the twelve labours on Hercules, and he hated him as Juno's favourite agent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Hyllus was the son of Hercules and Deianira; Iole was a princess Hercules had captured and then gave to Hyllus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Juno hated Alcmena because Jupiter had fathered Hercules by her, and so she turned the birth goddess against her.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "Imagery",
+    "text": "The cold shudder shows that remembered pain still grips the old woman, bringing the past into the present.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Hyperbole",
+    "text": "Words that would move hard stones exaggerate the pathos of Alcmena's laments.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "Irony",
+    "text": "Galanthis laughs at her trick, but the goddess seizes her mid-laugh, so her triumph turns at once into punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "Poetic justice",
+    "text": "The lying mouth that brought a false birth is punished by a transformation in which the mouth is linked to birth.",
+    "spoiler": false
+   }
+  ]
+ }
+}

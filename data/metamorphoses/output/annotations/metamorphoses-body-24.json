@@ -1,0 +1,310 @@
+{
+ "section_id": "metamorphoses-body-24",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7222,
+  "output": 2571
+ },
+ "result": {
+  "summary": "A crow tells Minerva how she was ruined by her faithfulness: she reported that Aglauros opened the basket holding Ericthonius, and Minerva punished her. She then tells how she, Coroneus' daughter, was changed into a bird to escape Neptune's pursuit.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "The crow and the basket",
+    "summary": "The crow recalls watching the daughters of Cecrops open Minerva's basket. Aglauros untied it and the crow told Minerva, and was banished for it.",
+    "stakes": "The crow's place in Minerva's favor, lost despite her loyalty.",
+    "present": [
+     "Minerva",
+     "Ericthonius",
+     "Pandrosos",
+     "Herse",
+     "Aglauros",
+     "Cecrops"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens (Cecrops' house)",
+     "modern_name": "Athens",
+     "certainty": "traditional",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 19,
+    "title": "Flight from Neptune",
+    "summary": "The crow tells of her royal birth and how Neptune pursued her along the shore. Minerva turned her into a bird and made her her companion.",
+    "stakes": "Her virginity and life, threatened by Neptune's violence.",
+    "present": [
+     "Coroneus",
+     "Neptune",
+     "Minerva",
+     "Coronis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the sea-shore of Phocis",
+     "modern_name": "Phocis coast, Greece",
+     "certainty": "traditional",
+     "lat": 38.4,
+     "lon": 22.4
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 20,
+    "title": "Replaced by Nyctimene",
+    "summary": "The crow laments that Nyctimene, made a bird for a crime, has taken her place.",
+    "stakes": "Her honor as Minerva's companion.",
+    "present": [
+     "Nyctimene",
+     "Coronis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Coronis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phocian princess turned into a crow, who tells the tale"
+   },
+   {
+    "name": "Minerva",
+    "aliases": [
+     "Pallas"
+    ],
+    "kind": "goddess",
+    "description": "Goddess who kept Ericthonius in a basket and took the crow as companion"
+   },
+   {
+    "name": "Ericthonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Motherless child hidden in a basket"
+   },
+   {
+    "name": "Cecrops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Two-shaped king, father of three daughters"
+   },
+   {
+    "name": "Pandrosos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Cecrops who obeyed Minerva"
+   },
+   {
+    "name": "Herse",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Cecrops who obeyed Minerva"
+   },
+   {
+    "name": "Aglauros",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Cecrops who opened the basket"
+   },
+   {
+    "name": "Coroneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Famous man of Phocis, father of the crow"
+   },
+   {
+    "name": "Neptune",
+    "aliases": [
+     "the God of the Ocean"
+    ],
+    "kind": "god",
+    "description": "Sea god who pursued the crow"
+   },
+   {
+    "name": "Nyctimene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Girl made a bird for a horrid crime, now Minerva's companion"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cecrops",
+    "relation": "parent_of",
+    "b": "Aglauros",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Cecrops",
+    "relation": "parent_of",
+    "b": "Pandrosos",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Cecrops",
+    "relation": "parent_of",
+    "b": "Herse",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Coroneus",
+    "relation": "parent_of",
+    "b": "Coronis",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Coronis",
+    "relation": "transformed_into",
+    "b": "crow",
+    "source": "text",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pallas",
+    "canonical": "Minerva",
+    "explanation": "Another name for Minerva, the Roman Athena."
+   },
+   {
+    "alias": "the God of the Ocean",
+    "canonical": "Neptune",
+    "explanation": "Title for Neptune, god of the sea."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Sums up the crow's bitter lesson that loyalty brought ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "reason": "The moral of the tale: chattering birds should beware.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The crow's tale shows that truth-telling can be punished, echoing the raven's fate in the surrounding story.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Metamorphosis is a rescue here, but the divine favor it gives is fragile and easily lost.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "This Coronis is a different figure from Apollo's lover Coronis, mother of Aesculapius, in the same book.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Ericthonius was a child of Vulcan born from the earth, not a mother. Pallas (Minerva) hid him in a basket and entrusted it to Cecrops' daughters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Two-shaped\" Cecrops: legendary first king of Athens, said to be half man and half serpent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Actæan\" means Attic, of Attica, the region around Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Placed after the bird of the night\" means ranked below the owl, which has taken the crow's place as Minerva's favorite.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"The God of the Ocean\" is Neptune, named by description rather than by name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "The virgin who helps is Minerva, herself a virgin goddess, who pities the girl's plight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Nyctimene was changed into an owl after a crime, in Ovid's account incest with her father. The crow only calls it a horrid crime.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "This crow is speaking to a raven who is on his way to tell Apollo of his beloved Coronis' unfaithfulness, and she warns him with her own story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Aglauros opens the basket despite the warning. Her disobedience leads to the sisters' punishment elsewhere in Ovid's story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Phocis is a region of central Greece. Coroneus is her father, a local king.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "irony",
+    "text": "Her loyalty in reporting the secret brought her ruin, a reversal of the reward that faithfulness should earn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "moral",
+    "text": "The crow turns her own punishment into a warning against gossip, giving the tale a didactic purpose.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "imagery",
+    "text": "The feathers rooting in her skin makes the transformation physical and unsettling, as the human body is lost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "antithesis",
+    "text": "Repeating hands and breast, first as things she tries to use and then as things she has lost, makes the loss felt sharply.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,480 @@
+{
+ "section_id": "metamorphoses-body-106",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11366,
+  "output": 4237
+ },
+ "result": {
+  "summary": "Aeneas flees Troy and reaches Delos, where King Anius tells him how his daughters, who could turn things to corn, wine and oil, were seized by Agamemnon and changed into doves by Bacchus. After gifts are exchanged, including a carved goblet showing the daughters of Orion, the Trojans sail on past Crete and the Ionian coast toward Italy.",
+  "scenes": [
+   {
+    "start_sentence": 3,
+    "end_sentence": 5,
+    "title": "Aeneas Sails from Troy",
+    "summary": "Aeneas carries his father and the sacred relics, leaves Thrace, and sails to Delos.",
+    "stakes": "The survival of the Trojan remnant and its sacred relics.",
+    "present": [
+     "Aeneas",
+     "Anchises",
+     "Ascanius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Antandros to Delos",
+     "modern_name": "Delos",
+     "certainty": "real",
+     "lat": 37.396,
+     "lon": 25.268
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 8,
+    "title": "Welcome at Anius's Temple",
+    "summary": "Anius shows Aeneas the city and temples, they feast, and Anchises asks about Anius's children.",
+    "stakes": "",
+    "present": [
+     "Anius",
+     "Aeneas",
+     "Anchises"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delos",
+     "modern_name": "Delos",
+     "certainty": "real",
+     "lat": 37.396,
+     "lon": 25.268
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 21,
+    "title": "Anius Tells of His Daughters",
+    "summary": "Anius explains that his daughters' gifts made Agamemnon seize them, and Bacchus turned them into doves.",
+    "stakes": "The daughters face captivity and forced service to the Greek fleet.",
+    "present": [
+     "Anius",
+     "Agamemnon",
+     "Bacchus",
+     "Anius's daughters"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delos and Andros",
+     "modern_name": "Delos",
+     "certainty": "real",
+     "lat": 37.396,
+     "lon": 25.268
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 24,
+    "title": "Oracle and Parting Gifts",
+    "summary": "After feasting, the Trojans consult the oracle and Anius gives gifts, including a carved goblet.",
+    "stakes": "",
+    "present": [
+     "Anius",
+     "Aeneas",
+     "Anchises",
+     "Ascanius",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delos",
+     "modern_name": "Delos",
+     "certainty": "real",
+     "lat": 37.396,
+     "lon": 25.268
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 29,
+    "title": "The Goblet of Orion's Daughters",
+    "summary": "The goblet shows Thebes in mourning and Orion's daughters sacrificing themselves, from whose ashes twin youths rise.",
+    "stakes": "The daughters die to save Thebes from plague.",
+    "present": [
+     "Orion's daughters"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.322,
+     "lon": 23.318
+    }
+   },
+   {
+    "start_sentence": 30,
+    "end_sentence": 33,
+    "title": "Voyage Toward Italy",
+    "summary": "The Trojans give gifts, then sail via Crete, the Strophades and past Ithaca and Epirus.",
+    "stakes": "Storms and Harpies threaten the fleet.",
+    "present": [
+     "Aeneas",
+     "Aëllo",
+     "Anius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ionian Sea coast",
+     "modern_name": "Ionian Sea",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 20.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aeneas",
+    "aliases": [
+     "Cytherean hero"
+    ],
+    "kind": "mortal",
+    "description": "Trojan hero fleeing Troy with his father and son"
+   },
+   {
+    "name": "Anchises",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aeneas's aged father"
+   },
+   {
+    "name": "Ascanius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aeneas's son"
+   },
+   {
+    "name": "Anius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Delos and priest of Apollo"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phœbus",
+     "Delian God"
+    ],
+    "kind": "god",
+    "description": "God whose oracle and temple are on Delos"
+   },
+   {
+    "name": "Bacchus",
+    "aliases": [
+     "Liber"
+    ],
+    "kind": "god",
+    "description": "God who gave the daughters gifts and turned them into doves"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [
+     "son of Atreus"
+    ],
+    "kind": "mortal",
+    "description": "Greek leader who seized Anius's daughters"
+   },
+   {
+    "name": "Anius's daughters",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Four girls who turned things to corn, wine and oil; became doves"
+   },
+   {
+    "name": "Orion's daughters",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban maidens who died for their city"
+   },
+   {
+    "name": "Aëllo",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Winged Harpy at the Strophades"
+   },
+   {
+    "name": "Latona",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Gripped the trees when in labour"
+   },
+   {
+    "name": "Therses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aeneas's guest-friend who sent the goblet"
+   },
+   {
+    "name": "Alcon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Craftsman who carved the goblet"
+   },
+   {
+    "name": "Ulysses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Deceitful king of Ithaca region"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Anchises",
+    "relation": "parent_of",
+    "b": "Aeneas",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Aeneas",
+    "relation": "parent_of",
+    "b": "Ascanius",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Anius",
+    "relation": "parent_of",
+    "b": "Anius's daughters",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Anius's daughters",
+    "relation": "transformed_into",
+    "b": "doves",
+    "source": "text",
+    "evidence_sentence": 21
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phœbus",
+    "canonical": "Apollo",
+    "explanation": "Epithet of Apollo."
+   },
+   {
+    "alias": "Liber",
+    "canonical": "Bacchus",
+    "explanation": "Roman name for Bacchus."
+   },
+   {
+    "alias": "son of Atreus",
+    "canonical": "Agamemnon",
+    "explanation": "Patronymic."
+   },
+   {
+    "alias": "Cytherean hero",
+    "canonical": "Aeneas",
+    "explanation": "Aeneas is son of Venus, linked to Cythera."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 19,
+    "reason": "Bitter irony about Bacchus's rescue of the daughters.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The section links Troy's fall to survival and metamorphosis: the Trojans escape while others are transformed or reborn.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid bridges Greek myth into Rome's founding story by tracing Aeneas's route to Italy.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Ovid's brief voyage of Aeneas echoes and compresses Virgil's Aeneid, Book 3."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The daughters of Anius were called the Oenotropae, 'wine-changers', in tradition.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Cytherean\" refers to Venus, who was linked with the island Cythera. Aeneas is her son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Latona (the Greek Leto) clung to a palm and an olive tree on Delos while giving birth to Apollo and Diana.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Liber\" is a Roman name for Bacchus, god of wine. \"Delian God\" is Apollo, born on Delos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Berry of Minerva\" means the olive, the tree sacred to Minerva. Together with corn and wine, it forms a triad of staple crops.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "\"Son of Atreus\" is Agamemnon, leader of the Greek (Argive) army at Troy, who needed supplies for his fleet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Doves were sacred to Venus, \"thy consort\" being Anchises' former lover. Anius addresses Anchises, who was loved by Venus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Anius, king and priest of Apollo at Delos, is the host. 'Phœbus' is Apollo; the oracle's 'ancient mother' leads to the Trojans' later misreading of Crete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "The seven gates stand in place of a name: the carving identifies the city as Thebes by its famous seven gates.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Orion's daughters, Metioche and Menippe, offered their lives to end a plague at Thebes. The twin youths from their ashes were called Coronae.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "Acanthus is a Mediterranean plant with spiny, curling leaves, a common decorative motif on rims and columns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "Teucer here is the early ancestor of the Trojans, who had come from Crete. The Trojans take this as the oracle's meaning, but the plague there drives them off.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "Aëllo is a Harpy, a winged monster with a woman's face. The Strophades are islands where the Harpies lived.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "The last clauses allude to myths of Ambracia and of Molossian king's sons turned into birds; the 'stone judge' was a man changed to stone after judging against Apollo.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Polydorus was a young Trojan prince murdered in Thrace for his gold. Aeneas had found his blood-soaked grave there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Delos was Apollo's sacred island, and Anius ruled it as both king and priest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Andros is an Aegean island near Delos. Anius's son Andros, from whom it took its name, ruled it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Anius says his son lacked a defender like Hector or Aeneas, who held Troy against the Greeks for ten years.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Gifts of a sceptre, scarf, quiver and goblet reflect guest-friendship, a bond of reciprocal hospitality central to ancient society.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Ausonia is a poetic name for Italy, the Trojans' destined new home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Ulysses (the Greek Odysseus) is called deceitful, reflecting the Trojan view of him as the schemer behind Troy's fall.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "Foreshadowing",
+    "text": "The Fates preserving Troy's hope anticipates Aeneas's role in founding Rome.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "Epithet",
+    "text": "\"Cytherean hero\" identifies Aeneas by his divine mother. Calling Anchises \"another sacred relic\" extends the idea of piety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Irony",
+    "text": "Anius reflects on how fortune reverses, noting that he once had five children and now has almost none.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "Irony",
+    "text": "Anius bitterly calls the transformation \"aid\" while admitting it destroyed the daughters, a sardonic reflection on divine help.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "ekphrasis",
+    "text": "The long description of the carved goblet introduces a detailed verbal portrait of a work of art, pausing the narrative.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "personification",
+    "text": "The Nymphs are shown weeping and mourning their dried springs, so the land itself shares the city's grief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "imagery",
+    "text": "The bare tree and goats gnawing stones give a stark picture of drought and desolation in a few words.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "catalogue",
+    "text": "The rapid list of places and their myths gives a sense of a long voyage and of a landscape thick with stories.",
+    "spoiler": false
+   }
+  ]
+ }
+}

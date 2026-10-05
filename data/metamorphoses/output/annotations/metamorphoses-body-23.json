@@ -1,0 +1,436 @@
+{
+ "section_id": "metamorphoses-body-23",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10979,
+  "output": 3987
+ },
+ "result": {
+  "summary": "Juno punishes Calisto for bearing Jupiter's son Arcas by turning her into a bear. Jupiter saves her and Arcas by setting them in the sky, and Juno complains to Tethys and Ocean, who bar the stars from their waters. The passage then begins the tale of the raven, once white, who informs Apollo of Coronis's infidelity.",
+  "scenes": [
+   {
+    "start_sentence": 3,
+    "end_sentence": 9,
+    "title": "Juno transforms Calisto",
+    "summary": "Juno, resentful of Arcas's birth, seizes Calisto and turns her into a bear, taking away her speech.",
+    "stakes": "Calisto loses her beauty, her voice and her human form to Juno's wrath.",
+    "present": [
+     "Juno",
+     "Calisto",
+     "Jupiter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Arcadia",
+     "modern_name": "Arcadia, Greece",
+     "certainty": "traditional",
+     "lat": 37.6,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 16,
+    "title": "Arcas nearly kills his mother",
+    "summary": "Calisto wanders in fear until her son Arcas, now fifteen, meets her in the forest and nearly spears her. Jupiter sets both in the heavens as constellations.",
+    "stakes": "Calisto is about to be killed by her own son.",
+    "present": [
+     "Calisto",
+     "Arcas",
+     "Jupiter",
+     "Lycaon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Erymanthian forests",
+     "modern_name": "Mount Erymanthos, Greece",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 21.85
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 27,
+    "title": "Juno complains to Tethys and Ocean",
+    "summary": "Juno visits the sea gods, complains that Calisto has been honored with a place in heaven, and asks them to bar the stars from the waters. They agree.",
+    "stakes": "Juno's pride and honor as queen of the gods.",
+    "present": [
+     "Juno",
+     "Tethys",
+     "Ocean",
+     "Jupiter",
+     "Phoronis",
+     "Lycaon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Home of Tethys and Ocean",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 35,
+    "title": "The white raven and the crow",
+    "summary": "Juno returns in her peacock chariot. The narrator introduces the once-white raven, who flies to tell Apollo of Coronis's infidelity, and the crow warns him it is a fruitless errand.",
+    "stakes": "The raven risks punishment for his chattering tongue.",
+    "present": [
+     "Juno",
+     "Raven",
+     "Coronis",
+     "Phoebus",
+     "Crow"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hæmonia (Thessaly)",
+     "modern_name": "Thessaly, Greece",
+     "certainty": "real",
+     "lat": 39.6,
+     "lon": 22.4
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Juno",
+    "aliases": [
+     "spouse of the great Thunderer",
+     "daughter of Saturn"
+    ],
+    "kind": "goddess",
+    "description": "queen of the gods, jealous wife of Jupiter"
+   },
+   {
+    "name": "Calisto",
+    "aliases": [
+     "daughter of Lycaon"
+    ],
+    "kind": "nymph",
+    "description": "Jupiter's mistress turned into a bear"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [
+     "Jove",
+     "great Thunderer",
+     "Omnipotent"
+    ],
+    "kind": "god",
+    "description": "king of the gods who saves Calisto and Arcas"
+   },
+   {
+    "name": "Arcas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Calisto and Jupiter, a young hunter"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Calisto's father, turned into a wolf"
+   },
+   {
+    "name": "Tethys",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sea goddess, Juno's foster-parent"
+   },
+   {
+    "name": "Ocean",
+    "aliases": [],
+    "kind": "god",
+    "description": "aged sea god"
+   },
+   {
+    "name": "Phoronis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive woman Jupiter restored to her shape"
+   },
+   {
+    "name": "Raven",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Apollo's formerly white bird who informs on Coronis"
+   },
+   {
+    "name": "Coronis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "beautiful woman of Larissa loved by Apollo"
+   },
+   {
+    "name": "Phoebus",
+    "aliases": [
+     "Delphian God"
+    ],
+    "kind": "god",
+    "description": "Apollo, master of the raven"
+   },
+   {
+    "name": "Crow",
+    "aliases": [],
+    "kind": "creature",
+    "description": "chattering bird who warns the raven"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Jupiter",
+    "relation": "lover_of",
+    "b": "Calisto",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Calisto",
+    "relation": "parent_of",
+    "b": "Arcas",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Calisto",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Juno",
+    "relation": "spouse_of",
+    "b": "Jupiter",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Arcas",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Calisto",
+    "relation": "transformed_into",
+    "b": "bear",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Phoebus",
+    "relation": "lover_of",
+    "b": "Coronis",
+    "source": "text",
+    "evidence_sentence": 32
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Jove",
+    "canonical": "Jupiter",
+    "explanation": "Jove is another name for Jupiter."
+   },
+   {
+    "alias": "Phoebus",
+    "canonical": "Apollo",
+    "explanation": "Phoebus is Apollo's epithet; the text also calls him the Delphian God."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 23,
+    "reason": "Juno's bitter irony: her punishment made Calisto a goddess.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Divine jealousy punishes the woman rather than the god, and the transformation costs Calisto speech but not understanding.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Ovid links tales by theme: Juno's complaint leads into the peacocks and then the raven, showing how chattering tongues bring ruin.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story gave a mythological origin for the constellations Ursa Major and Ursa Minor, the Great and Little Bear."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Capitol geese mentioned here recall the Roman tradition that geese woke defenders when Gauls attacked in 390 BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"The spouse of the great Thunderer\" is Juno, wife of Jupiter, who wields the thunderbolt. \"This\" refers to Calisto's affair with Jupiter, told just before.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Forsooth\" is archaic and here sarcastic, meaning \"indeed\" or \"truly\": Juno mocks the last insult she was supposedly still missing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Her father Lycaon was turned into a wolf as punishment, so the wolves she fears may include her own father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Erymanthian forests: the woods around Mount Erymanthus in Arcadia, Calisto's homeland and later the setting of Hercules' boar labour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Thrice five birthdays\" means fifteen years: Arcas is now fifteen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Omnipotent\" here is an epithet for Jove, all-powerful; he rescues the pair as Arcas is about to commit matricide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Tethys and Ocean are sea deities, a Titan couple; Ocean is the great river encircling the world. Juno was fostered by them, hence 'foster-child' in sentence 26.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "'May I be deemed untruthful' is an oath formula: Juno stakes her credibility on the stars being visible near the celestial pole.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Phoronis is Io, daughter of Phoronis's line (Inachus); Jupiter restored her human form after Juno's persecution. Argive means from Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Lycaon was Calisto's father, king of Arcadia. Juno sarcastically suggests Jupiter should make Calisto his wife and Lycaon his father-in-law.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "Triones are the 'plough oxen', the seven stars of the Great and Little Bear. Because they are circumpolar, they never set into the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Refers to the sacred geese whose cackling woke the Romans and saved the Capitol from a night attack by the Gauls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "'Delphian God' is Apollo, whose chief oracle was at Delphi.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 7,
+    "text": "Seizing by the hair is a violent act; it also targets Calisto's beauty, which Juno has just named as the cause of her anger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Jove is the Roman king of the gods, whom Calisto blames, though he caused her ordeal by seducing her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The pair become Ursa Major and Ursa Minor, the Great and Little Bear, the constellations the note at sentence 1 mentions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Juno's chariot is drawn by peacocks, whose tails bear the eyes of Argus, the hundred-eyed watchman she set over Io.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Hæmonia is an old name for Thessaly; Larissa was a Thessalian city. Coronis is the lover of Apollo.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "Irony",
+    "text": "Juno's sarcasm, \"this thing alone was wanting\", bitterly mocks the situation and reveals her jealous rage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "Imagery",
+    "text": "Concrete details of black hair, hooked claws and a gaping mouth make the transformation vivid and gradual, limb by limb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Pathos",
+    "text": "Calisto keeps human understanding in a bear's body, and she cannot speak her reproach to Jove, which makes her suffering more moving.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Irony",
+    "text": "A huntress herself, she now flees hunters. The reversal of her former role heightens the pathos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Dramatic irony",
+    "text": "Narrator and reader know the bear is his mother, while Arcas does not, so the tension rises as his spear nears her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "irony",
+    "text": "Juno bitterly calls her punishment of Calisto a display of power, though it ended up elevating her to a goddess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "apostrophe",
+    "text": "The narrator suddenly addresses the raven directly, 'thou', creating intimacy and linking its transformation to the peacocks' colours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "foreshadowing",
+    "text": "The narrator announces the raven's fatal chattering, preparing the story of his black plumage as punishment for talkativeness.",
+    "spoiler": false
+   }
+  ]
+ }
+}

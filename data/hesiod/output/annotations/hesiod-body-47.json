@@ -1,0 +1,451 @@
+{
+ "section_id": "hesiod-body-47",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12205,
+  "output": 4392
+ },
+ "result": {
+  "summary": "Demeter, disguised as an old woman named Doso, tells the daughters of Celeus a false story of being kidnapped by pirates. They take her to their mother Metaneira, who offers her the nursing of her late-born son. Demeter sits in grief until Iambe's jests make her smile, and she refuses red wine.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 14,
+    "title": "Demeter's false tale at the well",
+    "summary": "The maidens ask the old woman who she is. Demeter invents a story of pirates and escape and asks for work in a household.",
+    "stakes": "Demeter, searching for her daughter in disguise, needs shelter and must hide her identity.",
+    "present": [
+     "Demeter",
+     "Callidice"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eleusis, near the wayside",
+     "modern_name": "Eleusis, Greece",
+     "certainty": "traditional",
+     "lat": 38.0414,
+     "lon": 23.5397
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 26,
+    "title": "Callidice offers a home",
+    "summary": "Callidice names the city's leaders and proposes that Metaneira take the stranger in as nurse. The girls run home and bring Demeter back.",
+    "stakes": "Demeter needs a welcome in a mortal household.",
+    "present": [
+     "Callidice",
+     "Demeter",
+     "Metaneira"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eleusis, near the wayside",
+     "modern_name": "Eleusis, Greece",
+     "certainty": "traditional",
+     "lat": 38.0414,
+     "lon": 23.5397
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 37,
+    "title": "Demeter in the house of Celeus",
+    "summary": "Demeter fills the doorway with radiance, and Metaneira is awed. Demeter sits veiled and silent until Iambe's jests make her smile, then she refuses red wine and takes a drink of meal, water and mint.",
+    "stakes": "Demeter's grief over her lost daughter, and the risk of her divinity being seen.",
+    "present": [
+     "Demeter",
+     "Metaneira",
+     "Iambe",
+     "Celeus",
+     "Callidice"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "House of Celeus, Eleusis",
+     "modern_name": "Eleusis, Greece",
+     "certainty": "traditional",
+     "lat": 38.0414,
+     "lon": 23.5397
+    }
+   },
+   {
+    "start_sentence": 38,
+    "end_sentence": 42,
+    "title": "Metaneira's offer",
+    "summary": "Metaneira welcomes the stranger and asks her to nurse her son, promising great reward.",
+    "stakes": "Metaneira hopes to secure care for her long-awaited son.",
+    "present": [
+     "Metaneira",
+     "Demeter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "House of Celeus, Eleusis",
+     "modern_name": "Eleusis, Greece",
+     "certainty": "traditional",
+     "lat": 38.0414,
+     "lon": 23.5397
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Doso",
+     "Deo"
+    ],
+    "kind": "goddess",
+    "description": "goddess of seasons, disguised as an old woman and grieving for her daughter"
+   },
+   {
+    "name": "Callidice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "fairest unwed daughter of Celeus"
+   },
+   {
+    "name": "Metaneira",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "queen, mother of Callidice and of a late-born son"
+   },
+   {
+    "name": "Celeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler whose house receives Demeter"
+   },
+   {
+    "name": "Iambe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "careful servant who makes Demeter smile with jests"
+   },
+   {
+    "name": "Triptolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wise leading man of the city"
+   },
+   {
+    "name": "Dioclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leading man of the city"
+   },
+   {
+    "name": "Polyxeinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leading man of the city"
+   },
+   {
+    "name": "Eumolpus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "blameless leading man of the city"
+   },
+   {
+    "name": "Dolichus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leading man of the city"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Celeus",
+    "relation": "parent_of",
+    "b": "Callidice",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Metaneira",
+    "relation": "parent_of",
+    "b": "Callidice",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Celeus",
+    "relation": "spouse_of",
+    "b": "Metaneira",
+    "source": "outside",
+    "evidence_sentence": 27
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Doso",
+    "canonical": "Demeter",
+    "explanation": "False name Demeter gives herself while disguised."
+   },
+   {
+    "alias": "Deo",
+    "canonical": "Demeter",
+    "explanation": "Alternative name for Demeter."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 15,
+    "reason": "Expresses the human acceptance of what the gods send, a recurring theme.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "A god in disguise tests mortal hospitality; her grief and divine radiance show through the mask.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The refusal of red wine for a mixed drink of meal, water and mint echoes the kykeon of the Eleusinian Mysteries.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Iambe's jesting is often linked to the ritual obscene joking at Demeter's festivals and to the origin of iambic verse."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "A lacuna after line 211 means some verses of the hymn are lost in the manuscript.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Old mother\" is a respectful form of address to an elderly woman; \"of folk born long ago\" means she seems to belong to an earlier generation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Hail\" is a greeting, here meaning \"greetings\" or \"good health to you.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Doso means \"giver\" in Greek, a fitting false name for the goddess who gives grain and gifts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Thoricus is a place on the coast of Attica, near Athens, so the invented story brings her close to where she actually is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Unpurchased\" means without payment: the pirates would have sold her as a slave overseas, so she escaped before they could profit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"Recess of the well-built chamber\" means an inner nook of the bedroom where the master's bed stood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Perforce\" means by necessity; mortals have no choice but to endure what the gods send.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Coif of towers\" is a metaphor for the city's crown of towers, i.e. its battlements, which the leaders guard.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Late-born\" means born after the parents' other children, when they were no longer young; hence he is much prayed for.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"Any one of womankind who should see you would envy you\" means any woman would envy you the rich rewards you would receive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Hire\" means wages; \"measureless\" means unlimited, a very generous payment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "\"Hinds\" are female deer; \"sated\" means fully fed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "The veiled head and dark cloak signal Demeter's mourning for her lost daughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "\"Scion\" means a young offspring or descendant; here it is the infant son Demophoon, described as a tender shoot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "\"Jointed seat\" is a folding or joined stool, a simple seat of fitted pieces, contrasted with the bright couch.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "phrasing",
+    "text": "\"Pleased her moods in aftertime also\" means Iambe's jesting continued to soothe the goddess in later times, hinting at a ritual origin of ribald jokes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "phrasing",
+    "text": "\"Not lawful\" means forbidden for her in her grief; red wine was refused, and the mint drink (kykeon) became the Eleusinian ritual drink.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "word",
+    "text": "\"Deo\" is another name for Demeter. The text breaks off here at a gap in the manuscript.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "phrasing",
+    "text": "\"Perforce\" means of necessity; mortals must endure what the gods send whether they like it or not.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 7,
+    "text": "Pirate raids and enslavement of captives were a real danger in the ancient Mediterranean, so the story would seem believable to the maidens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Callidice is one of the daughters of Celeus, the ruler of Eleusis, whose household will take Demeter in.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Triptolemus, Dioclus, Polyxeinus, Eumolpus and Dolichus are Eleusinian nobles. Triptolemus and Eumolpus are later linked with Demeter's mysteries at Eleusis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Metaneira is the wife of Celeus, ruler of Eleusis, the \"brave father\" of the girls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "The infant is Demophoon, whom Demeter will later try to make immortal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Demeter is the goddess of grain and harvest, hence \"bringer of seasons.\" She is disguised as an old woman searching for her daughter Persephone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Iambe's joking is traditionally linked to the bawdy jesting at Demeter's festivals; the word \"iambic\" in poetry is also associated with her name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "text": "Metaneira's son was born late in her life; in the wider story the child is Demophoon, whom Demeter tries to make immortal.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "epithet",
+    "text": "\"That queen among goddesses\" reminds us of Demeter's true rank while she appears as a humble old woman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "dramatic irony",
+    "text": "The audience knows Demeter is a goddess and her story is invented, while the maidens take it as true.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "characterization",
+    "text": "Her gracious blessing and modest request present her as a polite, harmless suppliant, helping win the girls' trust.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Dramatic irony",
+    "text": "Callidice calls the stranger \"godlike\" without knowing she truly is a goddess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "Simile",
+    "text": "The girls are compared to bounding deer and calves, conveying their youthful energy and joy; the crocus simile for their hair adds color.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "Contrast",
+    "text": "The goddess's slow, grieving walk behind the girls follows their joyful dash, emphasizing her sorrow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "Hyperbole",
+    "text": "The goddess's head touching the roof and the doorway filled with light signal her divinity breaking through her mortal disguise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "Asyndeton-like accumulation",
+    "text": "Listing awe, reverence and pale fear builds Metaneira's overwhelming reaction and shows the goddess's power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "Characterization",
+    "text": "Demeter's long silence, refusal of food and never smiling vividly portray her grief for Persephone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "device": "Metaphor",
+    "text": "The yoke on mortals' necks pictures human subjection to divine will as a burden borne like an ox's.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "Dramatic irony",
+    "text": "Metaneira offers a stranger her child, unaware she is a goddess; the reader knows Demeter will treat him in extraordinary ways.",
+    "spoiler": false
+   }
+  ]
+ }
+}

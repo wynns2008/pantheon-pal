@@ -1,0 +1,343 @@
+{
+ "section_id": "metamorphoses-body-70",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10366,
+  "output": 3168
+ },
+ "result": {
+  "summary": "Cephalus tells Phocus why his javelin is fatal. He recalls his happy early marriage to Procris, and how his songs to the breeze were mistaken for love of a Nymph. Procris, hiding in the woods to spy on him, was killed by his javelin. She died believing him faithful once the mistake was explained. Aeacus then arrives with his sons and soldiers.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Recap and Phocus's question",
+    "summary": "The narrator sums up Procris's death, then Phocus asks what is wrong with the javelin.",
+    "stakes": "",
+    "present": [
+     "Cephalus",
+     "Phocus",
+     "Procris"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aeacus's court",
+     "modern_name": "Aegina",
+     "certainty": "traditional",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 15,
+    "title": "Happy marriage and the breeze",
+    "summary": "Cephalus recalls his early joy with Procris and his daily hunts. He called to the cooling breeze, and an eavesdropper misunderstood.",
+    "stakes": "His marriage is threatened by a misunderstood phrase.",
+    "present": [
+     "Cephalus",
+     "Procris"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the woods",
+     "modern_name": "Attica",
+     "certainty": "traditional",
+     "lat": 38.0,
+     "lon": 23.8
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 20,
+    "title": "The informer tells Procris",
+    "summary": "The informer repeats the words to Procris, who faints, grieves and resolves to see for herself.",
+    "stakes": "Procris fears losing her husband's love.",
+    "present": [
+     "Procris"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Cephalus's home",
+     "modern_name": "Attica",
+     "certainty": "traditional",
+     "lat": 38.0,
+     "lon": 23.8
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 31,
+    "title": "Procris's death",
+    "summary": "Cephalus hears a rustle, throws his javelin and kills Procris. She begs him not to let Aura share their marriage and dies.",
+    "stakes": "Procris loses her life; Cephalus loses his wife.",
+    "present": [
+     "Cephalus",
+     "Procris"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the woods",
+     "modern_name": "Attica",
+     "certainty": "traditional",
+     "lat": 38.0,
+     "lon": 23.8
+    }
+   },
+   {
+    "start_sentence": 32,
+    "end_sentence": 32,
+    "title": "Aeacus arrives",
+    "summary": "Aeacus enters with his sons and new soldiers while the listeners weep.",
+    "stakes": "",
+    "present": [
+     "Cephalus",
+     "Aeacus",
+     "Phocus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aeacus's court",
+     "modern_name": "Aegina",
+     "certainty": "traditional",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cephalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hunter who accidentally killed his wife"
+   },
+   {
+    "name": "Procris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cephalus's jealous wife"
+   },
+   {
+    "name": "Phocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aeacus, listener"
+   },
+   {
+    "name": "Aeacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who arrives with his sons"
+   },
+   {
+    "name": "Aura",
+    "aliases": [
+     "breeze"
+    ],
+    "kind": "nymph",
+    "description": "imagined Nymph, actually the breeze"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, mentioned"
+   },
+   {
+    "name": "Venus",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of love, mentioned"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Aeacus",
+    "relation": "parent_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Cephalus",
+    "relation": "spouse_of",
+    "b": "Procris",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "A concise maxim on jealousy and credulous love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "reason": "Poignant moment: the truth comes too late.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Jealousy and misunderstanding destroy a happy marriage, with ambiguous words causing tragedy.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid reworks an Attic myth, treating fate and error rather than villainy as the cause of the death.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Cephalus and Procris was often painted and retold in the Renaissance, for example in Piero di Cosimo's painting of Procris's death."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid's pun on aura, Latin for breeze, drives the plot of this tale.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Demerits\" here means faults or bad qualities, answering Phocus's question about what is wrong with the javelin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Son of Æacus\" is a patronymic: Phocus is addressed by his father's name, a common epic form of address.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Jupiter's bed refers to his many love affairs; Cephalus says Procris would not prefer even the king of the gods to him. Venus is the goddess of love and beauty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Knotty nets\" are hunting nets knotted from cord, set to trap game; Cephalus hunts without any of this equipment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Ambiguous words\": the Latin word for breeze (aura) could be taken as a woman's name, so his endearments sounded like addresses to a lover.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "A proverb-like remark: love readily believes, even rumor, which explains why Procris accepts the informer's story so quickly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"A name without a body\" means the word \"Aura\" was only a name, with no real woman behind it; Procris mistook the breeze for a rival.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Cephalus's call to \"breeze\" (aura) to cool him is what the informer overheard and misreported as a call to a lover named Aura.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Her \"present\" is the unerring javelin Procris had given Cephalus; it now kills her. Ovid's bitter irony lies in the gift's turning on its giver.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "\"Deserved anything well of thee\" means: if I ever earned any good from you, grant this one request.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "\"Levied\" means raised or enlisted; Aeacus arrives with newly recruited troops, returning the narrative to the frame story of the war.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "This is the narrator's summary of the story. Procris is Cephalus's wife; the javelin was her gift, and Cephalus is telling Phocus the tale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Cephalus's words of endearment to the breeze are innocent but, overheard out of context, sound like those of a lover addressing a mistress.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Aura is a nymph's name but also the Latin word for breeze. Procris wrongly believes her husband loves a nymph of that name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Aeacus, king of Aegina, is receiving Cephalus, who came from Athens seeking help in the war against Minos; Cephalus has been telling this story.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "Foreshadowing",
+    "text": "Beginning with joys as the \"first portion\" of a sorrowful story signals that the happiness will end in grief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Metaphor",
+    "text": "Love is described as \"flames\" firing both breasts, a conventional image of passion that stresses how equal their love was.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "Apostrophe",
+    "text": "Cephalus addresses the breeze directly as if it could hear him, which is what makes the later misunderstanding possible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "Dramatic irony",
+    "text": "\"So my destiny prompted me\": Cephalus hints that fate guided his words, while the reader already knows they will cause Procris's death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "Dramatic irony",
+    "text": "The reader knows the rustle is Procris hidden in the leaves, while Cephalus takes it for an animal, which makes the fatal throw tragic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "Metaphor",
+    "text": "Her strength \"flies\" with her blood, treating life-force as something that departs the body along with the blood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "Pathos",
+    "text": "Procris dies gazing at him, breathing her last breath onto his face, and seems content, which deepens the sorrow and his guilt.",
+    "spoiler": false
+   }
+  ]
+ }
+}

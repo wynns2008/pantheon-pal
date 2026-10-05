@@ -1,0 +1,416 @@
+{
+ "section_id": "hesiod-body-19",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10598,
+  "output": 3729
+ },
+ "result": {
+  "summary": "Zeus punishes Prometheus for stealing fire by having Hephaestus and Athene fashion the first woman as a beautiful evil for men, and the poet reflects on marriage. The narrative then turns to the Hundred-Handers, whom Zeus freed on Earth's advice to help him against the Titans.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Fire stolen, woman fashioned",
+    "summary": "Zeus, angry at Prometheus's theft of fire, has the Limping God mould a maiden of earth. Athene dresses her and the crown is adorned.",
+    "stakes": "Mankind faces an evil sent as the price for stolen fire; Prometheus has angered Zeus.",
+    "present": [
+     "Zeus",
+     "Prometheus",
+     "Hephaestus",
+     "Athene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the earth",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 15,
+    "title": "The evil presented to men",
+    "summary": "The woman is brought before gods and men, who marvel. The poet explains that women are a trouble to men, whether he marries or not, and that Prometheus could not escape Zeus.",
+    "stakes": "Men must suffer evil whether they marry or stay single.",
+    "present": [
+     "Zeus",
+     "Hephaestus",
+     "Athene",
+     "Prometheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the place of gods and men",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 21,
+    "title": "Hundred-Handers freed for war",
+    "summary": "Zeus had bound Obriareus, Cottus and Gyes under the earth; Earth advises the gods to free them. They are fed nectar and ambrosia in the ten-year war with the Titans.",
+    "stakes": "The gods risk an endless stalemate against the Titans.",
+    "present": [
+     "Zeus",
+     "Obriareus",
+     "Cottus",
+     "Gyes",
+     "Earth",
+     "Rhea"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "under the wide-pathed earth; Olympus and Othyrs",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 28,
+    "title": "Zeus rallies Cottus",
+    "summary": "Zeus asks the freed brothers to fight the Titans; Cottus pledges their aid.",
+    "stakes": "Victory in the war against the Titans depends on the Hundred-Handers.",
+    "present": [
+     "Zeus",
+     "Cottus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympus",
+     "modern_name": "Mount Olympus",
+     "certainty": "traditional",
+     "lat": 40.0857,
+     "lon": 22.3584
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [
+     "son of Cronos",
+     "father of men and gods"
+    ],
+    "kind": "god",
+    "description": "king of the gods, who punishes Prometheus and leads the war on the Titans"
+   },
+   {
+    "name": "Prometheus",
+    "aliases": [
+     "son of Iapetus"
+    ],
+    "kind": "god",
+    "description": "clever Titan who stole fire for men and was bound"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [
+     "Limping God"
+    ],
+    "kind": "god",
+    "description": "craftsman god who moulds the first woman"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Pallas Athene"
+    ],
+    "kind": "goddess",
+    "description": "bright-eyed goddess who dresses the woman"
+   },
+   {
+    "name": "Cottus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Hundred-Hander who answers Zeus"
+   },
+   {
+    "name": "Obriareus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Hundred-Hander bound by Uranus"
+   },
+   {
+    "name": "Gyes",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Hundred-Hander bound beneath the earth"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "rich-haired mother of the Olympian gods"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Titan father of Zeus"
+   },
+   {
+    "name": "Earth",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "advises the gods to free the Hundred-Handers"
+   },
+   {
+    "name": "Iapetus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Titan, father of Prometheus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Iapetus",
+    "relation": "parent_of",
+    "b": "Prometheus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Rhea",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Cronos",
+    "relation": "spouse_of",
+    "b": "Rhea",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Hephaestus",
+    "source": "text",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Limping God",
+    "canonical": "Hephaestus",
+    "explanation": "An epithet of the lame smith god; the name Hephaestus is not used in this section."
+   },
+   {
+    "alias": "Pallas Athene",
+    "canonical": "Athene",
+    "explanation": "Pallas is a common epithet of Athene."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Hesiod's famous, misogynistic claim that womankind descends from the first woman, Pandora (unnamed here).",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "reason": "Memorable bee-and-drone simile comparing women to drones.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows that Zeus's will cannot be evaded: theft of fire is answered with a lasting evil, and rebels are bound while helpers are rewarded.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Its view of women reflects the attitudes of archaic Greek farming society, in which marriage was an economic matter and heirs mattered.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "This is the earliest account of the story later known as Pandora, whose name Hesiod gives in Works and Days."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Hesiod does not name the first woman here; Pandora appears in his Works and Days.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"So, sir\" is ironic, mocking address; Zeus sarcastically notes that Prometheus still has his tricks, referring to the earlier deception at the sacrifice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Melian\" refers to the race of men born from ash trees (meliai, ash-tree nymphs); the footnote number is an editorial marker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Fennel stalk: a hollow giant fennel stem, whose pithy core could carry a smouldering ember.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Broidered\" means embroidered; \"girded\" means belted or fastened her dress.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Beautiful evil\" is a deliberate paradox: the woman looks lovely but is the price for the blessing of fire.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"No helpmeets in hateful poverty, but only in wealth\" means wives share a man's prosperity but give no help in hard times.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Skeps\" are straw beehives; \"drones\" are male bees that do no work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Comeliness\" means good looks or handsomeness; \"manhood\" here means manly vigor or courage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Their father\" is Heaven (Uranus), who bound his monstrous children; the translation does not name him in this sentence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "\"Vaunt\" means to boast; the victory would give the gods a glorious reason to boast.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Othyrs is a mountain in Thessaly where the Titans made their stand, set against the gods on Olympus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Provided those three with all things fitting\" means Zeus gave them proper food and care; nectar and ambrosia are the gods' own food.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "\"Chill doom\" means grim, deadly destruction; Cottus credits Zeus with saving the gods from it.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "The Limping God is Hephaestus, divine smith and craftsman. The woman he moulds is Pandora, though this passage does not name her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Athene (Pallas Athene) is goddess of wisdom and crafts, especially weaving, so she fittingly clothes the woman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Prometheus was bound by Zeus in chains as punishment, a story Hesiod tells just before this passage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The son of Cronos is Zeus. Earth (Gaia) is his grandmother and advises him because she is the mother of the Hundred-Handers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "This ten-year war is the Titanomachy, the gods' struggle against the Titans for rule of the cosmos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Zeus calls the Hundred-Handers children of Earth and Heaven, which makes them brothers of the Titans they are about to fight.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "Epithet",
+    "text": "\"Limping God\" and later \"very famous\" identify Hephaestus by his defining trait, as Homeric-style epithets do.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Irony",
+    "text": "Gods and men marvel at something beautiful that is in truth \"sheer guile\"; admiration hides the harm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Extended simile",
+    "text": "Hesiod compares women to idle drones fed by industrious bees, casting men as the toiling bees; the comparison expresses his misogynistic view.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "Antithesis",
+    "text": "Marriage brings sorrow, but so does staying single; the balanced dilemma shows no escape from the \"second evil.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "metaphor",
+    "text": "The war's outcome \"hung evenly balanced\" like weights on a scale, conveying the stalemate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "rhetoric",
+    "text": "Zeus appeals to gratitude, reminding the brothers of their rescue to bind them to his cause.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "epithet",
+    "text": "The closing address \"O lord, son of Cronos\" gives formal deference, marking Cottus's loyalty to Zeus.",
+    "spoiler": false
+   }
+  ]
+ }
+}

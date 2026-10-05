@@ -1,0 +1,287 @@
+{
+ "section_id": "metamorphoses-body-31",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7247,
+  "output": 2552
+ },
+ "result": {
+  "summary": "Agenor sends his son Cadmus to find his sister Europa, who has been carried off by Jupiter, and forbids him to return without her. Cadmus consults Phœbus's oracle, follows a heifer to the spot where she lies down, and prepares a sacrifice. Nearby, a dragon sacred to Mars lurks in a cave.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Cadmus exiled and seeks oracle",
+    "summary": "Agenor orders Cadmus to find Europa or stay in exile. After wandering the world, Cadmus asks Phœbus's oracle where to settle.",
+    "stakes": "Cadmus risks permanent exile from his homeland and his father's wrath if he cannot find Europa.",
+    "present": [
+     "Jupiter",
+     "Agenor",
+     "Cadmus",
+     "Phœbus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phœnicia",
+     "modern_name": "Lebanon",
+     "certainty": "real",
+     "lat": 33.9,
+     "lon": 35.5
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 6,
+    "title": "The oracle's command",
+    "summary": "Phœbus tells Cadmus to follow an unyoked heifer and found a city where she lies down.",
+    "stakes": "Cadmus needs a home, having no place to return to.",
+    "present": [
+     "Phœbus",
+     "Cadmus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Castalian cave (Delphi)",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.48,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 12,
+    "title": "Following the heifer",
+    "summary": "Cadmus follows the heifer past the Cephisus and Panope until she lies down. He gives thanks and sends servants for water for a sacrifice to Jupiter.",
+    "stakes": "",
+    "present": [
+     "Cadmus",
+     "Phœbus",
+     "Jupiter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "fields of Panope, Bœotia",
+     "modern_name": "Boeotia, Greece",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 23.0
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 16,
+    "title": "The dragon's grove",
+    "summary": "The ancient grove hides a cave with a spring and a poisonous, triple-tongued dragon sacred to Mars.",
+    "stakes": "The servants sent for water are about to face a deadly guardian.",
+    "present": [
+     "Mars"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ancient grove, Bœotia",
+     "modern_name": "Thebes area, Greece",
+     "certainty": "traditional",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who carried off Europa disguised as a bull"
+   },
+   {
+    "name": "Europa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "abducted daughter of Agenor"
+   },
+   {
+    "name": "Agenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Europa and Cadmus who orders the search"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [
+     "son of Agenor"
+    ],
+    "kind": "mortal",
+    "description": "prince sent to find his sister"
+   },
+   {
+    "name": "Phœbus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of the Delphic oracle"
+   },
+   {
+    "name": "Mars",
+    "aliases": [],
+    "kind": "god",
+    "description": "god to whom the dragon is sacred"
+   },
+   {
+    "name": "Cephisus",
+    "aliases": [],
+    "kind": "place",
+    "description": "river whose fords Cadmus crosses"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Agenor",
+    "relation": "parent_of",
+    "b": "Cadmus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Agenor",
+    "relation": "parent_of",
+    "b": "Europa",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Cadmus",
+    "relation": "sibling_of",
+    "b": "Europa",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Jupiter",
+    "relation": "lover_of",
+    "b": "Europa",
+    "source": "outside",
+    "evidence_sentence": 0
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "son of Agenor",
+    "canonical": "Cadmus",
+    "explanation": "Patronymic for Cadmus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Wry remark that no one can uncover Jupiter's intrigues, excusing Cadmus's failure.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Cadmus's exile follows from a god's whim, showing human fates shaped by divine desire and the injustice of Agenor's harsh command.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "The oracle and the heifer begin a foundation myth, linking wandering and divine guidance to the founding of Thebes.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Cadmus founding Thebes by following a cow was a popular foundation myth, retold by later writers and artists."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid's Metamorphoses opens Book 3 mid-story, continuing Jupiter's abduction of Europa from the end of Book 2.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Phœnicia was the coastal homeland of Agenor and Cadmus, roughly modern Lebanon; Cadmus is barred from returning without Europa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Affectionate and unnatural\": Agenor's love for his daughter is shown by the search, but banishing his son if he fails is cruel.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The rhetorical question hints that Jupiter (the Greek Zeus) was the true culprit, so Cadmus's exile is unjust.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The Castalian cave is by the Castalian spring at Delphi, Apollo's oracle site, sacred to Phœbus and the Muses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Reverberate\" means to echo; the heifer's lowing fills the air.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "A libation is liquid poured out as an offering to a god; here water is needed for the sacrifice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Mars (the Greek Ares) was god of war; a dragon sacred to him foreshadows violence, since killing it will bring consequences.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Phœbus is Apollo, god of prophecy, whose oracle at Delphi was consulted before founding colonies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The Cephisus is a river in Phocis and Bœotia; Panope was a town in Phocis, so the route runs toward Bœotia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "A grove untouched by the axe was typically sacred, so entering it risks offending a deity.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "characterization",
+    "text": "Cadmus's silent adoration and patient following show him as pious and obedient to divine guidance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "foreshadowing",
+    "text": "The hidden dragon, introduced just after the servants are sent for water, signals the danger awaiting them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "imagery",
+    "text": "Fire, poison and triple rows of teeth build a vivid, frightening picture of the beast.",
+    "spoiler": false
+   }
+  ]
+ }
+}

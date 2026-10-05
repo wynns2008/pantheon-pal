@@ -1,0 +1,375 @@
+{
+ "section_id": "hesiod-body-48",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10838,
+  "output": 3360
+ },
+ "result": {
+  "summary": "Demeter nurses Metaneira's son Demophoon and tries to make him immortal in the fire, but Metaneira interrupts and the gift is lost. Demeter reveals herself and orders a temple at Eleusis, then withholds the harvest in grief until Zeus sends Iris to summon her.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Demeter nurses Demophoon",
+    "summary": "Demeter takes the child and secretly anoints him with ambrosia and hides him in the fire at night. Metaneira spies and cries out in fear.",
+    "stakes": "Demophoon would gain immortality; Metaneira fears for her son's life.",
+    "present": [
+     "Demeter",
+     "Metaneira",
+     "Demophoon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Celeus' palace, Eleusis",
+     "modern_name": "Eleusis, Greece",
+     "certainty": "traditional",
+     "lat": 38.04,
+     "lon": 23.54
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 26,
+    "title": "The goddess revealed",
+    "summary": "Angered, Demeter drops the child, declares the immortality lost, and orders a temple and rites. She shows her true form and leaves, while the household tends the crying boy.",
+    "stakes": "Demophoon loses the chance at deathlessness; Metaneira faces the wrath of a goddess.",
+    "present": [
+     "Demeter",
+     "Metaneira",
+     "Demophoon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Celeus' palace, Eleusis",
+     "modern_name": "Eleusis, Greece",
+     "certainty": "traditional",
+     "lat": 38.04,
+     "lon": 23.54
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 32,
+    "title": "Celeus builds the temple",
+    "summary": "At dawn Celeus hears the story, assembles the people and has the temple and altar built.",
+    "stakes": "The family fears the goddess's anger.",
+    "present": [
+     "Celeus",
+     "Demeter",
+     "Demophoon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eleusis",
+     "modern_name": "Eleusis, Greece",
+     "certainty": "traditional",
+     "lat": 38.04,
+     "lon": 23.54
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 41,
+    "title": "Famine and Iris's summons",
+    "summary": "Demeter, pining for her daughter, causes a famine. Zeus sends Iris to call her to Olympus.",
+    "stakes": "Mankind faces extinction by famine and the gods lose their sacrifices.",
+    "present": [
+     "Demeter",
+     "Zeus",
+     "Iris"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eleusis",
+     "modern_name": "Eleusis, Greece",
+     "certainty": "traditional",
+     "lat": 38.04,
+     "lon": 23.54
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess of grain, disguised as an old nurse, grieving for her daughter"
+   },
+   {
+    "name": "Metaneira",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Queen of Eleusis, mother of Demophoon"
+   },
+   {
+    "name": "Demophoon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Infant son of Celeus and Metaneira"
+   },
+   {
+    "name": "Celeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler of the Eleusinians"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "King of the gods who sends Iris"
+   },
+   {
+    "name": "Iris",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Golden-winged messenger of Zeus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Metaneira",
+    "relation": "parent_of",
+    "b": "Demophoon",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Celeus",
+    "relation": "parent_of",
+    "b": "Demophoon",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Metaneira",
+    "relation": "spouse_of",
+    "b": "Celeus",
+    "source": "outside",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 39
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "Patronymic epithet for Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 15,
+    "reason": "Demeter's rebuke of mortals' blindness to their fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "reason": "Demeter declares her identity and importance.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Mortals cannot gain immortality; human fear and limits defeat divine gifts, explaining why death is unavoidable.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage gives an origin for the Eleusinian temple and its mysteries, central to Greek religion.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Eleusinian Mysteries at Eleusis lasted nearly two thousand years and drew initiates from across the Greek and Roman world."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Line 2 contains a pun-like pair of names for pests or harms, 'Undercutter' and 'Woodcutter', whose exact meaning is uncertain.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"I ween\" is archaic for \"I think\" or \"I am sure.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Undercutter\" and \"Woodcutter\" name a harmful pest or agent of hurt; the exact reference is obscure, and the text here is corrupt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Like a brand\" means like a burning log or piece of firewood laid in the embers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Winged words\" is a Homeric formula for words that fly swiftly from speaker to hearer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Swearing by the water of Styx, the river of the underworld, was the gods' most binding oath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Refers to a ritual war among Eleusinian youths, probably commemorated in the festival honouring Demophoon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Points to the founding of Demeter's temple at Eleusis, home of the Eleusinian Mysteries; Callichorus is a well there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "\"All things without fail\" means everything exactly, leaving nothing out, as Demeter had instructed them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "\"Harkened\" means listened and paid heed; \"right speedily\" means very quickly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "phrasing",
+    "text": "\"Kept it hid\" means Demeter held the seed concealed beneath the soil, so that nothing sprouted.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "phrasing",
+    "text": "The gods would lose their \"right of gifts and sacrifices\" because, with no crops, humans could no longer offer them honours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "phrasing",
+    "text": "\"Winged words\" is a Homeric formula for speech that flies swiftly from speaker to hearer.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Celeus is king of Eleusis; Metaneira is his wife. Demeter, disguised as an old woman, has become the nurse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Ambrosia is the food of the gods, which confers or preserves immortality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Demeter is goddess of grain and harvest, and her gift of agriculture benefits both gods and humans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Celeus is the ruler of Eleusis. The temple built here is the sanctuary at Eleusis, the centre of the Eleusinian Mysteries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Iris is the gods' messenger, often linked with the rainbow. Here she carries Zeus's summons to Demeter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "text": "Zeus is called Son of Cronos because Cronos, a Titan, was his father.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "simile",
+    "text": "Comparing the child to a brand in the fire makes the secret rite look both nurturing and alarming.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "foreshadowing",
+    "text": "The conditional \"had not\" signals that Metaneira's watching will ruin the immortalising.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "epithet",
+    "text": "\"Bright goddess, lovely-crowned\" keeps Demeter's stately epithets even as her anger rises.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "characterization",
+    "text": "Demeter's scorn for mortals shows her divine impatience and the gap between gods and humans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "simile",
+    "text": "The house filled with brightness \"as with lightning\" conveys the overwhelming force of the goddess's revealed divinity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "irony",
+    "text": "The boy rejects ordinary human care, showing how much the goddess's loss costs him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "Simile",
+    "text": "The child Demophoon's growth is compared to that of an immortal, hinting at Demeter's secret divine nurture of him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "Epithet",
+    "text": "\"Rich-crowned Demeter\" is a fixed descriptive epithet, and it contrasts with the barren land she causes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "Imagery",
+    "text": "The plough-drawing oxen and the wasted barley make the famine vivid by showing human effort that yields nothing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "Hyperbole",
+    "text": "The prospect of Demeter destroying the whole human race shows how total and dangerous her grief has become.",
+    "spoiler": false
+   }
+  ]
+ }
+}

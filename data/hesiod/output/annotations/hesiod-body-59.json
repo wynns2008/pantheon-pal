@@ -1,0 +1,461 @@
+{
+ "section_id": "hesiod-body-59",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12655,
+  "output": 4161
+ },
+ "result": {
+  "summary": "Apollo follows the strange tracks of his stolen cattle to Cyllene and searches the cave, where baby Hermes pretends to be an innocent newborn. Apollo threatens and mocks him, Hermes denies everything, and Apollo carries him off until they go together to Zeus on Olympus for judgement.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Apollo puzzles over the tracks",
+    "summary": "Apollo marvels at the oxen tracks turned backwards and at the unknown footprints of the thief.",
+    "stakes": "Apollo risks losing his stolen cattle and being fooled by an unknown trickster.",
+    "present": [
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the way near the meadow",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 14,
+    "title": "Apollo searches the cave",
+    "summary": "Apollo comes to Cyllene, finds Hermes feigning sleep, searches the cave and threatens to cast him into Tartarus.",
+    "stakes": "Hermes risks being thrown into Tartarus; Apollo seeks his cattle.",
+    "present": [
+     "Apollo",
+     "Hermes",
+     "Maia"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Cyllene",
+     "modern_name": "Mount Kyllini, Greece",
+     "certainty": "real",
+     "lat": 37.94,
+     "lon": 22.37
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 27,
+    "title": "Hermes denies the theft",
+    "summary": "Hermes claims he is a newborn who knows nothing of cows; Apollo laughs and calls him prince of robbers.",
+    "stakes": "Hermes stands to be punished if his lie is not believed.",
+    "present": [
+     "Hermes",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Cyllene",
+     "modern_name": "Mount Kyllini, Greece",
+     "certainty": "real",
+     "lat": 37.94,
+     "lon": 22.37
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 38,
+    "title": "The omen and the sneeze",
+    "summary": "Apollo carries Hermes off; Hermes breaks wind and sneezes, Apollo drops him, and Hermes demands judgement from Zeus.",
+    "stakes": "Hermes is being hauled away and risks punishment for the theft.",
+    "present": [
+     "Apollo",
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Cyllene",
+     "modern_name": "Mount Kyllini, Greece",
+     "certainty": "real",
+     "lat": 37.94,
+     "lon": 22.37
+    }
+   },
+   {
+    "start_sentence": 39,
+    "end_sentence": 42,
+    "title": "To Olympus for judgement",
+    "summary": "The two keep quarrelling, then walk to Olympus where the gods assemble before Zeus.",
+    "stakes": "Both seek Zeus's verdict over the cattle.",
+    "present": [
+     "Hermes",
+     "Apollo",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympus",
+     "modern_name": "Mount Olympus",
+     "certainty": "traditional",
+     "lat": 40.08,
+     "lon": 22.36
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Son of Zeus",
+     "Far-Shooter",
+     "Son of Leto",
+     "Phoebus Apollo",
+     "Far-Worker",
+     "God of the Silver Bow"
+    ],
+    "kind": "god",
+    "description": "Archer god whose cattle were stolen"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Son of Zeus and Maia",
+     "Cyllenian Hermes",
+     "Slayer of Argus"
+    ],
+    "kind": "god",
+    "description": "Newborn trickster god who stole the cattle"
+   },
+   {
+    "name": "Maia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Mountain-nymph, mother of Hermes"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "Father of Apollo and Hermes, judge"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Mother of Apollo"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Zeus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Maia",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 41
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Slayer of Argus",
+    "canonical": "Hermes",
+    "explanation": "Epithet recalling Hermes killing the giant Argus."
+   },
+   {
+    "alias": "Cyllenian",
+    "canonical": "Hermes",
+    "explanation": "Named for Mount Cyllene, his birthplace."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 22,
+    "reason": "Hermes' mock-innocent claim to know cows only by hearsay.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "reason": "Apollo names Hermes the prince of robbers.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage celebrates cleverness over strength: a newborn bluffs a mighty god with shameless, comic lies.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Hermes' role as patron of thieves and tricksters is explained here, as is his authority to settle disputes before Zeus.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The theft of Apollo's cattle by baby Hermes became a favourite story in later Greek and Roman literature and art."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The text has a gap (lacuna) in line 313 ff., marked in this translation.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "Tracks \"turned backwards\" means the oxen's prints seem to point toward the meadow, the opposite of the direction they were driven.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Centaurs were half-man, half-horse creatures of Greek myth, here imagined as a possible maker of strange tracks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Snuggled down\" and \"cuddled\" show Hermes curling up in his swaddling-clothes, the bands wrapped around newborns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Nectar and ambrosia are the drink and food of the gods, giving immortality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Tartarus is the deepest pit of the underworld, used to imprison defeated gods and Titans. \"Little folk\" means the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Son of Leto\" is a patronymic address for Apollo, whose mother was Leto.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Cattle-lifter\" means cattle thief; \"stalwart\" means sturdy and strong.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Forepart of the house\" means the front hall or entrance; Hermes argues a baby could not drive cattle in.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "\"By my father's head\" refers to an oath sworn by Jove (the Greek Zeus), Hermes' father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "\"Far-working\" translates a Homeric epithet for Apollo, the archer god who strikes from afar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "\"Sleep your last and latest sleep\" is a threat of death, or being cast into Tartarus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"Belly-serf\" and \"rude messenger\" are humorous riddling terms for a fart, called an omen because Apollo treats sounds and signs as portents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"Slayer of Argus\" is an epithet of Hermes, recalling his killing of the hundred-eyed giant Argus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "phrasing",
+    "text": "The sneeze was itself a recognized omen in Greek belief, so Apollo drops the child in alarm and then mocks him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "\"Swaddling baby\" mocks Hermes as an infant wrapped in cloths, though Apollo suspects him of a theft.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "phrasing",
+    "text": "\"O dear, would that all the sort of oxen might perish\" is Hermes' exaggerated, feigned disgust at the whole matter of cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "phrasing",
+    "text": "\"Give right and take it\" means submit to a lawful judgement: each party offers and accepts justice before Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "phrasing",
+    "text": "The lacuna marks a gap in the surviving manuscript, so the text is broken here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "allusion",
+    "text": "The scales of judgement set on Olympus suggest a divine court where Zeus weighs disputes; the image is familiar from Homer.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Mount Cyllene in Arcadia was Hermes' birthplace in myth. The nymph is Maia, and the child's father is Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Apollo is the Son of Leto, and is also called Far-Shooter for his bow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Apollo has tracked his missing cattle to the cave where the infant Hermes lies in his cradle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Apollo prophesies Hermes' future role as a patron of thieves and a god of herdsmen's flocks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Hermes is called Cyllenian because he was born on Mount Cyllene in Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "\"Far-Worker\" is an epithet of Apollo, the archer god who strikes from afar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "text": "Olympus was the gods' home, and Zeus presided over their assemblies.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "hyperbole",
+    "text": "Apollo's list of wolves, bears, lions and Centaurs exaggerates his bafflement at the tracks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "simile",
+    "text": "Hermes hiding himself is compared to ash covering embers: a hidden, still-glowing energy beneath a calm surface.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "irony",
+    "text": "Hermes pretends to be a sleepy newborn while wide awake and hiding the lyre, which comically undercuts his innocent pose.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "irony",
+    "text": "Hermes pretends ignorance of cows, though he stole them; his feigned innocence is comically transparent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "characterization",
+    "text": "Darting eyes, raised brows and whistling show Hermes' cheeky, shifty nature despite his claim of infancy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "verbal irony",
+    "text": "Apollo says Hermes talks \"so innocently\" while meaning the opposite, mocking the lie.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "euphemism",
+    "text": "Hymn humor turns a bodily noise into a grand riddling phrase, treating the omen mock-solemnly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "characterization",
+    "text": "Hermes plays the innocent baby by pulling his swaddling over his ears, while really being cunning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "irony",
+    "text": "Hermes' denial is a bold lie. He professes knowing cows only by hearsay, though he stole them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "device": "antithesis",
+    "text": "The matched wiles of both gods balance the two figures, making the stalemate between them clear.",
+    "spoiler": false
+   }
+  ]
+ }
+}

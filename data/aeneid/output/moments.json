@@ -1,0 +1,822 @@
+{
+ "work": "The Æneid of Virgil translated into English prose",
+ "model": "claude-sonnet-5-5",
+ "people": {
+  "Æneas": [
+   {
+    "section": "aeneid-body-1",
+    "what": "Æneas despairs in Juno's storm, lands in Libya and meets Venus, then Dido."
+   },
+   {
+    "section": "aeneid-body-2",
+    "what": "Æneas narrates Troy's fall, flees with Anchises and loses Creusa."
+   },
+   {
+    "section": "aeneid-body-4",
+    "what": "Æneas shelters in the cave with Dido, then obeys Mercury and sails from Carthage."
+   },
+   {
+    "section": "aeneid-body-6",
+    "what": "Æneas plucks the golden bough and descends to the underworld, meeting Anchises in Elysium."
+   },
+   {
+    "section": "aeneid-body-8",
+    "what": "Æneas seeks Evander's alliance on Tiber's advice and receives Vulcan's shield."
+   },
+   {
+    "section": "aeneid-body-12",
+    "what": "Æneas is wounded and healed, then kills Turnus on seeing Pallas' belt."
+   }
+  ],
+  "Ascanius": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Ascanius shames the Trojan women who burn the ships and leads the boys' game."
+   },
+   {
+    "section": "aeneid-body-7",
+    "what": "Ascanius wounds Silvia's tame stag, igniting the first fighting."
+   },
+   {
+    "section": "aeneid-body-9",
+    "what": "Ascanius kills Numanus in his first kill, then Apollo restrains him from fighting."
+   }
+  ],
+  "Juno": [
+   {
+    "section": "aeneid-body-1",
+    "what": "Juno bribes Æolus to raise a storm against the Trojan fleet."
+   },
+   {
+    "section": "aeneid-body-4",
+    "what": "Juno bargains with Venus and arranges the storm that unites Dido and Æneas."
+   },
+   {
+    "section": "aeneid-body-5",
+    "what": "Juno sends Iris to incite the Trojan women to burn the ships."
+   },
+   {
+    "section": "aeneid-body-7",
+    "what": "Juno sends Allecto to stir up war and herself opens the gates of War."
+   },
+   {
+    "section": "aeneid-body-10",
+    "what": "Juno pleads in council and lures Turnus away with a phantom Æneas."
+   },
+   {
+    "section": "aeneid-body-12",
+    "what": "Juno speaks to Juturna and agrees with Jupiter that the Latians keep their name."
+   }
+  ],
+  "Jove": [
+   {
+    "section": "aeneid-body-1",
+    "what": "Jove foretells Rome's rise to Venus and sends Mercury to soften Dido."
+   },
+   {
+    "section": "aeneid-body-4",
+    "what": "Jove sends Mercury to order Æneas to sail for Italy."
+   },
+   {
+    "section": "aeneid-body-5",
+    "what": "Jove sends rain that quenches the burning ships."
+   },
+   {
+    "section": "aeneid-body-10",
+    "what": "Jupiter calls the council, rebukes the gods and declares himself neutral."
+   },
+   {
+    "section": "aeneid-body-12",
+    "what": "Jupiter decrees with Juno the Latians' future, and a Fury is sent against Turnus."
+   }
+  ],
+  "Anchises": [
+   {
+    "section": "aeneid-body-2",
+    "what": "Anchises refuses to leave Troy until a flame and falling star convince him."
+   },
+   {
+    "section": "aeneid-body-3",
+    "what": "Anchises interprets oracles, and dies at Drepanum."
+   },
+   {
+    "section": "aeneid-body-5",
+    "what": "Anchises appears in a dream and urges Æneas to visit him below."
+   },
+   {
+    "section": "aeneid-body-6",
+    "what": "Anchises explains the souls' cycle and shows Æneas the future heroes of Rome."
+   }
+  ],
+  "Venus": [
+   {
+    "section": "aeneid-body-1",
+    "what": "Venus pleads with Jupiter and meets Æneas disguised as a huntress."
+   },
+   {
+    "section": "aeneid-body-2",
+    "what": "Venus stops Æneas from killing Helen and shows him the gods destroying Troy."
+   },
+   {
+    "section": "aeneid-body-5",
+    "what": "Venus begs Neptune for safe passage for the Trojans."
+   },
+   {
+    "section": "aeneid-body-8",
+    "what": "Venus wins arms from Vulcan and presents the shield to Æneas."
+   },
+   {
+    "section": "aeneid-body-10",
+    "what": "Venus pleads for the Trojans in Jupiter's council."
+   },
+   {
+    "section": "aeneid-body-12",
+    "what": "Venus heals Æneas' wound with dittany and restores his weapons."
+   }
+  ],
+  "Achates": [
+   {
+    "section": "aeneid-body-1",
+    "what": "Achates accompanies Æneas ashore and into Carthage hidden in mist."
+   },
+   {
+    "section": "aeneid-body-3",
+    "what": "Achates is first to cry out the sight of Italy."
+   }
+  ],
+  "Turnus": [
+   {
+    "section": "aeneid-body-7",
+    "what": "Allecto inflames Turnus to war, and he rejects the Trojans' claim."
+   },
+   {
+    "section": "aeneid-body-9",
+    "what": "Turnus attacks the camp, fires the fleet, breaks in and escapes by the Tiber."
+   },
+   {
+    "section": "aeneid-body-10",
+    "what": "Turnus kills Pallas and takes his belt, then is carried away by Juno's phantom."
+   },
+   {
+    "section": "aeneid-body-11",
+    "what": "Turnus answers Drances and accepts single combat."
+   },
+   {
+    "section": "aeneid-body-12",
+    "what": "Turnus insists on the duel, fights Æneas and is killed."
+   }
+  ],
+  "Messapus": [
+   {
+    "section": "aeneid-body-7",
+    "what": "Messapus is introduced as invulnerable son of Neptune in the catalogue."
+   },
+   {
+    "section": "aeneid-body-9",
+    "what": "Messapus fights with Turnus in the siege of the Trojan camp."
+   }
+  ],
+  "Dido": [
+   {
+    "section": "aeneid-body-1",
+    "what": "Dido welcomes the Trojans and asks Æneas to tell his tale."
+   },
+   {
+    "section": "aeneid-body-4",
+    "what": "Dido loves Æneas, is abandoned, curses him and kills herself on the pyre."
+   },
+   {
+    "section": "aeneid-body-6",
+    "what": "Dido refuses Æneas in the underworld and flees to Sychæus."
+   }
+  ],
+  "Mezentius": [
+   {
+    "section": "aeneid-body-10",
+    "what": "Mezentius fights fiercely, is wounded, sees Lausus die and welcomes death."
+   },
+   {
+    "section": "aeneid-body-11",
+    "what": "Mezentius' arms are dedicated as a trophy to Mars."
+   }
+  ],
+  "Pallas": [
+   {
+    "section": "aeneid-body-8",
+    "what": "Pallas challenges the Trojans and is sent with Æneas by Evander."
+   },
+   {
+    "section": "aeneid-body-10",
+    "what": "Pallas rallies the Arcadians and is killed by Turnus, who takes his belt."
+   },
+   {
+    "section": "aeneid-body-11",
+    "what": "Pallas' body is carried home in procession and mourned by Evander."
+   },
+   {
+    "section": "aeneid-body-12",
+    "what": "Pallas' belt on Turnus moves Æneas to kill him."
+   }
+  ],
+  "Mnestheus": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Mnestheus captains the Shark in the ship race."
+   }
+  ],
+  "Apollo": [
+   {
+    "section": "aeneid-body-3",
+    "what": "Apollo's oracle at Delos sends the Trojans to seek their ancient mother land."
+   },
+   {
+    "section": "aeneid-body-9",
+    "what": "Apollo praises Ascanius, then disguised as Butes tells him to stop fighting."
+   },
+   {
+    "section": "aeneid-body-11",
+    "what": "Apollo hears Arruns' prayer but grants only half of it."
+   }
+  ],
+  "Lavinia": [
+   {
+    "section": "aeneid-body-7",
+    "what": "Lavinia's burning hair is a portent of the foreign son-in-law."
+   }
+  ],
+  "Neptune": [
+   {
+    "section": "aeneid-body-1",
+    "what": "Neptune rebukes the winds and calms the sea."
+   },
+   {
+    "section": "aeneid-body-5",
+    "what": "Neptune promises safe passage at the cost of one life."
+   },
+   {
+    "section": "aeneid-body-7",
+    "what": "Neptune speeds the Trojans past Circe's shore."
+   }
+  ],
+  "Iris": [
+   {
+    "section": "aeneid-body-4",
+    "what": "Iris cuts Dido's lock of hair to free her soul."
+   },
+   {
+    "section": "aeneid-body-5",
+    "what": "Iris, disguised as Beroe, rouses the Trojan women to burn the ships."
+   },
+   {
+    "section": "aeneid-body-9",
+    "what": "Iris tells Turnus that Æneas is away and urges him to attack."
+   }
+  ],
+  "Hector": [
+   {
+    "section": "aeneid-body-2",
+    "what": "Hector's ghost warns Æneas to flee and entrusts him with the gods."
+   }
+  ],
+  "Hercules": [
+   {
+    "section": "aeneid-body-8",
+    "what": "Evander tells how Hercules killed the monster Cacus."
+   }
+  ],
+  "Ilioneus": [
+   {
+    "section": "aeneid-body-1",
+    "what": "Ilioneus pleads the Trojans' cause before Dido."
+   },
+   {
+    "section": "aeneid-body-7",
+    "what": "Ilioneus speaks for the Trojans before Latinus."
+   }
+  ],
+  "Latinus": [
+   {
+    "section": "aeneid-body-7",
+    "what": "Latinus consults Faunus, welcomes the Trojans, then yields to war."
+   },
+   {
+    "section": "aeneid-body-11",
+    "what": "Latinus convenes the council and proposes peace with the Trojans."
+   },
+   {
+    "section": "aeneid-body-12",
+    "what": "Latinus pleads with Turnus and swears the treaty."
+   }
+  ],
+  "Palinurus": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Palinurus is drugged by Sleep and thrown overboard."
+   },
+   {
+    "section": "aeneid-body-6",
+    "what": "Palinurus' shade speaks to Æneas at the Styx."
+   }
+  ],
+  "Priam": [
+   {
+    "section": "aeneid-body-2",
+    "what": "Priam spares Sinon, and is killed by Pyrrhus at the altar."
+   }
+  ],
+  "Sergestus": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Sergestus wrecks the Centaur on the rocks in the ship race."
+   }
+  ],
+  "Tarchon": [
+   {
+    "section": "aeneid-body-10",
+    "what": "Tarchon allies with Æneas, but his ship is wrecked at the landing."
+   },
+   {
+    "section": "aeneid-body-11",
+    "what": "Tarchon rebukes the Tuscans and seizes Venulus."
+   }
+  ],
+  "Acestes": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Acestes welcomes the Trojans, goads Entellus, and his arrow bursts into flame."
+   }
+  ],
+  "Amata": [
+   {
+    "section": "aeneid-body-7",
+    "what": "Allecto maddens Amata, who raves as a Bacchante."
+   },
+   {
+    "section": "aeneid-body-12",
+    "what": "Amata pleads with Turnus, then hangs herself."
+   }
+  ],
+  "Augustus Cæsar": [
+   {
+    "section": "aeneid-body-8",
+    "what": "Augustus leads at Actium on Æneas' shield."
+   }
+  ],
+  "Cybele": [
+   {
+    "section": "aeneid-body-9",
+    "what": "Cybele's voice frees her pine ships, turning them into sea-goddesses."
+   }
+  ],
+  "Bitias": [
+   {
+    "section": "aeneid-body-9",
+    "what": "Bitias opens the gate to Turnus and is killed."
+   }
+  ],
+  "Camilla": [
+   {
+    "section": "aeneid-body-11",
+    "what": "Camilla offers to meet the cavalry, fights bravely and is killed by Arruns."
+   }
+  ],
+  "Cloanthus": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Cloanthus wins the ship race with divine help."
+   }
+  ],
+  "Euryalus": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Euryalus wins the foot-race."
+   },
+   {
+    "section": "aeneid-body-9",
+    "what": "Euryalus joins Nisus on a night raid and is killed."
+   }
+  ],
+  "Evander": [
+   {
+    "section": "aeneid-body-8",
+    "what": "Evander welcomes Æneas, tells of Cacus, and entrusts Pallas to him."
+   },
+   {
+    "section": "aeneid-body-11",
+    "what": "Evander laments Pallas and asks that Turnus be killed."
+   }
+  ],
+  "Faunus": [
+   {
+    "section": "aeneid-body-7",
+    "what": "Faunus's oracle tells Latinus to await a foreign son-in-law."
+   }
+  ],
+  "Gyas": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Gyas throws Menœtes overboard in the ship race."
+   }
+  ],
+  "Helen": [
+   {
+    "section": "aeneid-body-2",
+    "what": "Helen hides in Vesta's temple, and Æneas is stopped from killing her."
+   }
+  ],
+  "Mercury": [
+   {
+    "section": "aeneid-body-4",
+    "what": "Mercury rebukes Æneas and warns him again in a dream."
+   }
+  ],
+  "Lausus": [
+   {
+    "section": "aeneid-body-10",
+    "what": "Lausus dies saving his father Mezentius."
+   }
+  ],
+  "Misenus": [
+   {
+    "section": "aeneid-body-6",
+    "what": "Misenus is found drowned by Triton and given a pyre and tomb."
+   }
+  ],
+  "Vulcan": [
+   {
+    "section": "aeneid-body-8",
+    "what": "Vulcan forges Æneas' arms and the shield at Venus' request."
+   }
+  ],
+  "Pyrrhus": [
+   {
+    "section": "aeneid-body-2",
+    "what": "Pyrrhus kills Polites and then Priam at the altar."
+   }
+  ],
+  "Nisus": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Nisus trips Salius so Euryalus can win the race."
+   },
+   {
+    "section": "aeneid-body-9",
+    "what": "Nisus volunteers for the night raid and dies over Euryalus."
+   }
+  ],
+  "Numanus": [
+   {
+    "section": "aeneid-body-9",
+    "what": "Numanus boasts and is killed by Ascanius."
+   }
+  ],
+  "Polites": [
+   {
+    "section": "aeneid-body-2",
+    "what": "Polites is killed by Pyrrhus before his parents."
+   }
+  ],
+  "Tiber": [
+   {
+    "section": "aeneid-body-8",
+    "what": "Tiber appears to Æneas in a dream and advises alliance with Evander."
+   },
+   {
+    "section": "aeneid-body-9",
+    "what": "Tiber receives Turnus and saves him."
+   }
+  ],
+  "Venulus": [
+   {
+    "section": "aeneid-body-11",
+    "what": "Reports Diomede's refusal of help to Latinus's council, then is seized by Tarchon."
+   }
+  ],
+  "Acca": [
+   {
+    "section": "aeneid-body-11",
+    "what": "Carries the dying Camilla's message to Turnus after her death."
+   }
+  ],
+  "Achemenides": [
+   {
+    "section": "aeneid-body-3",
+    "what": "Begs the Trojans for rescue and tells of Polyphemus, left behind by Ulysses."
+   }
+  ],
+  "Æolus": [
+   {
+    "section": "aeneid-body-1",
+    "what": "Is bribed by Juno with Deiopea and looses the winds to wreck the Trojan fleet."
+   }
+  ],
+  "Æthon": [
+   {
+    "section": "aeneid-body-11",
+    "what": "Pallas' war horse weeps in the funeral procession."
+   }
+  ],
+  "Allecto": [
+   {
+    "section": "aeneid-body-7",
+    "what": "Sent by Juno, drives Amata mad, inflames Turnus, starts the war, and is dismissed."
+   }
+  ],
+  "Almo": [
+   {
+    "section": "aeneid-body-7",
+    "what": "Is the first slain when fighting erupts over the stag."
+   }
+  ],
+  "Andromache": [
+   {
+    "section": "aeneid-body-3",
+    "what": "Mourns at Hector's false tomb in Buthrotum and tells of Pyrrhus' death."
+   }
+  ],
+  "Anna": [
+   {
+    "section": "aeneid-body-4",
+    "what": "Persuades Dido to marry Æneas, later builds the pyre and carries her pleas."
+   }
+  ],
+  "Arruns": [
+   {
+    "section": "aeneid-body-11",
+    "what": "Stalks Camilla, prays to Apollo, kills her with a spear, and is shot by Opis."
+   }
+  ],
+  "Cacus": [
+   {
+    "section": "aeneid-body-8",
+    "what": "Fire-breathing monster who steals Hercules' cattle and is killed by him."
+   }
+  ],
+  "Caieta": [
+   {
+    "section": "aeneid-body-7",
+    "what": "Æneas's nurse Caieta dies and is buried on the coast."
+   }
+  ],
+  "Celæno": [
+   {
+    "section": "aeneid-body-3",
+    "what": "Prophesies that the Trojans will eat their tables before building their city."
+   }
+  ],
+  "Charon": [
+   {
+    "section": "aeneid-body-6",
+    "what": "Is persuaded by the golden bough to ferry Aeneas across the Styx."
+   }
+  ],
+  "Coroebus": [
+   {
+    "section": "aeneid-body-2",
+    "what": "Tries to rescue Cassandra and dies, betrayed by Trojan darts."
+   }
+  ],
+  "Creusa": [
+   {
+    "section": "aeneid-body-2",
+    "what": "Is lost in the flight from Troy; her ghost foretells Hesperia to Æneas."
+   }
+  ],
+  "Cupid": [
+   {
+    "section": "aeneid-body-1",
+    "what": "Disguised as Ascanius, inflames Dido with love at the banquet."
+   }
+  ],
+  "Cymodoce": [
+   {
+    "section": "aeneid-body-10",
+    "what": "Warns Æneas and urges him to arm."
+   }
+  ],
+  "Dares": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Challenges all to a boxing match and is beaten by Entellus."
+   }
+  ],
+  "Deïphobe": [
+   {
+    "section": "aeneid-body-6",
+    "what": "The Sibyl, seized by Apollo, prophesies and guides Aeneas through the underworld."
+   }
+  ],
+  "Deiphobus": [
+   {
+    "section": "aeneid-body-6",
+    "what": "Mutilated Deiphobus tells Aeneas how Helen betrayed him on Troy's last night."
+   }
+  ],
+  "Diana": [
+   {
+    "section": "aeneid-body-11",
+    "what": "Diana tells Opis Camilla's story and sends her to avenge Camilla."
+   }
+  ],
+  "Diomede": [
+   {
+    "section": "aeneid-body-11",
+    "what": "Diomede, at Arpi, refuses to fight the Trojans, as Venulus reports."
+   }
+  ],
+  "Drances": [
+   {
+    "section": "aeneid-body-11",
+    "what": "Drances praises Æneas, then presses the case against Turnus and demands he yield Lavinia."
+   }
+  ],
+  "Entellus": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Old Entellus, goaded by Acestes, beats Dares at boxing and kills the bull for Eryx."
+   }
+  ],
+  "Fame": [
+   {
+    "section": "aeneid-body-4",
+    "what": "Fame spreads the rumour of Dido and Æneas and rouses Iarbas."
+   }
+  ],
+  "Galæsus": [
+   {
+    "section": "aeneid-body-7",
+    "what": "Galæsus is killed while pleading for peace as fighting erupts."
+   }
+  ],
+  "Helenus": [
+   {
+    "section": "aeneid-body-3",
+    "what": "Helenus welcomes the Trojans at Buthrotum and prophesies their route and dangers."
+   }
+  ],
+  "Iapis": [
+   {
+    "section": "aeneid-body-12",
+    "what": "Iapis tries to extract the arrow from Æneas but cannot."
+   }
+  ],
+  "Iarbas": [
+   {
+    "section": "aeneid-body-4",
+    "what": "Iarbas, angered by the rumour, prays to Jove against Dido and Æneas."
+   }
+  ],
+  "Juturna": [
+   {
+    "section": "aeneid-body-12",
+    "what": "Disguised as Camers, Juturna stirs the Rutulians and the truce is broken."
+   },
+   {
+    "section": "aeneid-body-12",
+    "what": "Left by Turnus, Juturna helps him in the duel and is driven away by a Fury."
+   }
+  ],
+  "Laocoon": [
+   {
+    "section": "aeneid-body-2",
+    "what": "Laocoon warns against the horse, hurls a spear at it, and dies with his sons."
+   }
+  ],
+  "Liger": [
+   {
+    "section": "aeneid-body-10",
+    "what": "Liger is killed by Æneas in his rampage."
+   }
+  ],
+  "Lucagus": [
+   {
+    "section": "aeneid-body-10",
+    "what": "Lucagus is killed by Æneas in his rampage."
+   }
+  ],
+  "Magus": [
+   {
+    "section": "aeneid-body-10",
+    "what": "Magus begs for mercy and is killed by Æneas."
+   }
+  ],
+  "Menœtes": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Gyas throws the pilot Menœtes overboard during the ship race."
+   }
+  ],
+  "Nautes": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Nautes counsels Æneas to leave the weary behind in Acesta."
+   }
+  ],
+  "Opis": [
+   {
+    "section": "aeneid-body-11",
+    "what": "Sent by Diana, Opis shoots Arruns dead to avenge Camilla."
+   }
+  ],
+  "Pandarus": [
+   {
+    "section": "aeneid-body-9",
+    "what": "Pandarus and Bitias open the gate, letting Turnus into the Trojan camp."
+   }
+  ],
+  "Panthus": [
+   {
+    "section": "aeneid-body-2",
+    "what": "Panthus brings news and joins Æneas and the young warriors in Troy's street fighting."
+   }
+  ],
+  "Sleep": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Sleep, disguised as Phorbas, drugs Palinurus and throws him overboard."
+   }
+  ],
+  "Polydorus": [
+   {
+    "section": "aeneid-body-3",
+    "what": "Polydorus speaks from the bleeding bushes in Thrace and tells of his murder for gold."
+   }
+  ],
+  "Polyphemus": [
+   {
+    "section": "aeneid-body-3",
+    "what": "The blinded Polyphemus appears on the shore and the Trojans flee."
+   }
+  ],
+  "Pyrgo": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Pyrgo, the aged royal nurse, unmasks Iris disguised as Beroe among the Trojan women."
+   }
+  ],
+  "Rhamnes": [
+   {
+    "section": "aeneid-body-9",
+    "what": "Rhamnes, the Rutulian augur, is killed asleep by Nisus and Euryalus."
+   }
+  ],
+  "Rhœtus": [
+   {
+    "section": "aeneid-body-9",
+    "what": "Rhœtus is killed by Euryalus in the Rutulian camp."
+   }
+  ],
+  "Salius": [
+   {
+    "section": "aeneid-body-5",
+    "what": "Salius is tripped by Nisus in the foot-race and is compensated by Æneas."
+   }
+  ],
+  "Serranus": [
+   {
+    "section": "aeneid-body-9",
+    "what": "Serranus is killed asleep by Nisus and Euryalus."
+   }
+  ],
+  "Silvia": [
+   {
+    "section": "aeneid-body-7",
+    "what": "Silvia's tame stag is wounded by Ascanius, sparking the first fighting."
+   }
+  ],
+  "Sinon": [
+   {
+    "section": "aeneid-body-2",
+    "what": "Sinon feigns desertion with a false tale and persuades the Trojans to take in the horse."
+   },
+   {
+    "section": "aeneid-body-2",
+    "what": "Sinon opens the horse and lets the Greeks out at night."
+   }
+  ],
+  "Sulmo": [
+   {
+    "section": "aeneid-body-9",
+    "what": "Sulmo is killed by Nisus's spear while Nisus tries to save Euryalus."
+   }
+  ],
+  "Tagus": [
+   {
+    "section": "aeneid-body-9",
+    "what": "Tagus is killed by Nisus's spear while Nisus tries to save Euryalus."
+   }
+  ],
+  "Tolumnius": [
+   {
+    "section": "aeneid-body-12",
+    "what": "Tolumnius, after an omen, throws a spear and breaks the truce."
+   }
+  ],
+  "Volscens": [
+   {
+    "section": "aeneid-body-9",
+    "what": "Volscens' horsemen catch Euryalus; Nisus kills Volscens in revenge."
+   }
+  ]
+ }
+}

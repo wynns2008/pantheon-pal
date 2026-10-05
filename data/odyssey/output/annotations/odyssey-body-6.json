@@ -1,0 +1,545 @@
+{
+ "section_id": "odyssey-body-6",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 21225,
+  "output": 5100
+ },
+ "result": {
+  "summary": "Minerva appears to Nausicaa in a dream and sends her to wash clothes at the river. There she finds the shipwrecked Ulysses, gives him clothes and food, and leads him toward the Phaeacian town, telling him how to approach her parents. Ulysses prays to Minerva in her grove.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 16,
+    "title": "Minerva visits Nausicaa's dream",
+    "summary": "Minerva describes the Phaeacians' history, then in disguise urges Nausicaa to organize a washing day, and returns to Olympus.",
+    "stakes": "Ulysses' chance of getting home depends on Nausicaa being sent to the shore.",
+    "present": [
+     "Minerva",
+     "Nausicaa",
+     "Nausithous",
+     "Alcinous",
+     "Dymas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Scheria, house of Alcinous",
+     "modern_name": "Corfu",
+     "certainty": "traditional",
+     "lat": 39.62,
+     "lon": 19.92
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 36,
+    "title": "Washing day at the river",
+    "summary": "Nausicaa gets her father's consent and a waggon, drives to the river with her maids, washes clothes and plays ball.",
+    "stakes": "",
+    "present": [
+     "Nausicaa",
+     "Alcinous"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "River mouth near Scheria",
+     "modern_name": "Corfu",
+     "certainty": "traditional",
+     "lat": 39.62,
+     "lon": 19.92
+    }
+   },
+   {
+    "start_sentence": 37,
+    "end_sentence": 78,
+    "title": "Ulysses meets Nausicaa",
+    "summary": "A lost ball wakes Ulysses, who appeals to Nausicaa. She shelters, clothes and bathes him, and Minerva makes him look splendid.",
+    "stakes": "Ulysses, naked and destitute, needs help from strangers to survive.",
+    "present": [
+     "Ulysses",
+     "Nausicaa",
+     "Minerva"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Shore of Scheria",
+     "modern_name": "Corfu",
+     "certainty": "traditional",
+     "lat": 39.62,
+     "lon": 19.92
+    }
+   },
+   {
+    "start_sentence": 79,
+    "end_sentence": 109,
+    "title": "Nausicaa's instructions",
+    "summary": "Nausicaa feeds Ulysses and explains how to reach the town and her mother, fearing gossip.",
+    "stakes": "Nausicaa risks her reputation; Ulysses needs the queen's favour to get home.",
+    "present": [
+     "Nausicaa",
+     "Ulysses"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Shore of Scheria",
+     "modern_name": "Corfu",
+     "certainty": "traditional",
+     "lat": 39.62,
+     "lon": 19.92
+    }
+   },
+   {
+    "start_sentence": 110,
+    "end_sentence": 116,
+    "title": "Prayer in Minerva's grove",
+    "summary": "They drive toward town and Ulysses prays in the grove; Minerva hears but stays hidden, fearing Neptune.",
+    "stakes": "Neptune's anger still threatens Ulysses' homecoming.",
+    "present": [
+     "Ulysses",
+     "Minerva",
+     "Nausicaa",
+     "Neptune"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Grove of Minerva near Scheria",
+     "modern_name": "Corfu",
+     "certainty": "traditional",
+     "lat": 39.62,
+     "lon": 19.92
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ulysses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "shipwrecked hero seeking home"
+   },
+   {
+    "name": "Minerva",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess aiding Ulysses"
+   },
+   {
+    "name": "Nausicaa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phaeacian princess"
+   },
+   {
+    "name": "Alcinous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Phaeacians"
+   },
+   {
+    "name": "Nausithous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "former Phaeacian king who founded Scheria"
+   },
+   {
+    "name": "Dymas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sea captain whose daughter Minerva impersonates"
+   },
+   {
+    "name": "Jove",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods"
+   },
+   {
+    "name": "Diana",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "huntress goddess"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Diana"
+   },
+   {
+    "name": "Neptune",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god angry at Ulysses"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Alcinous",
+    "relation": "parent_of",
+    "b": "Nausicaa",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Nausithous",
+    "relation": "parent_of",
+    "b": "Alcinous",
+    "source": "outside",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Jove",
+    "relation": "parent_of",
+    "b": "Minerva",
+    "source": "text",
+    "evidence_sentence": 114
+   },
+   {
+    "a": "Jove",
+    "relation": "parent_of",
+    "b": "Diana",
+    "source": "text",
+    "evidence_sentence": 51
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Diana",
+    "source": "text",
+    "evidence_sentence": 36
+   },
+   {
+    "a": "Neptune",
+    "relation": "sibling_of",
+    "b": "Jove",
+    "source": "outside",
+    "evidence_sentence": 116
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 59,
+    "reason": "Ulysses' praise of a harmonious marriage, a memorable ideal of domestic life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "reason": "States the sacred duty of hospitality to strangers under Jove's protection.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Hospitality to strangers, protected by Jove, is central; Nausicaa embodies it by aiding a naked, stranger.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The episode shows Greek expectations of marriage, female reputation and xenia (guest-friendship).",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Sophocles is said to have written a lost play about Nausicaa, and Samuel Butler argued the Odyssey was written by a woman modelled on her."
+   },
+   {
+    "kind": "popular_culture",
+    "text": "Hayao Miyazaki named the heroine of Nausicaä of the Valley of the Wind (1984) after her."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "This translation, by Samuel Butler (1900), calls the gods by their Roman names, such as Minerva and Jove.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Counsels inspired of heaven\" means Alcinous's decisions and advice were guided by the gods, marking him as wise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Hie\" is archaic for hurry or go quickly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Those who attend you\" means her maidservants, whose clothing she would be expected to provide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"Remain a maid\" means stay an unmarried girl; \"maid\" here is not a servant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Girdles\" are belts or sashes worn around the waist over robes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "Aldermen is Butler's English-flavored word for the Phaeacian elders or chiefs who sat on the council with the king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "\"Her own wedding\" is the real reason for the trip; Nausicaa is too modest to mention marriage, and her father understands anyway.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "A cruse is a small jar or flask; here it holds olive oil, used like soap and lotion after bathing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "phrasing",
+    "text": "\"Treading them in the pits\" means stamping on the clothes with bare feet in shallow basins, the ancient method of washing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "Diana (the Greek Artemis) is the virgin huntress; her mother Leto is proud of her. Taygetus and Erymanthus are mountains in Greece known for game.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "allusion",
+    "text": "Nymphs were female nature spirits believed to inhabit mountains, springs, rivers and meadows; Ulysses mistakes the girls' voices for theirs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "word",
+    "text": "\"Unkempt\" means dishevelled; \"begrimed\" means covered in dirt. \"Spits\" are narrow points of land running into the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "allusion",
+    "text": "Embracing the knees was the formal gesture of a suppliant begging for protection and help.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "kind": "word",
+    "text": "\"Scion\" means a young descendant or offspring; here it flatters Nausicaa as her family's fair child.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "kind": "allusion",
+    "text": "Delos was the island sacred to Apollo; the palm tree there was linked to the god's birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "kind": "allusion",
+    "text": "The Ogygian island is Calypso's island, where Ulysses was held for years before escaping on a raft.",
+    "spoiler": false
+   },
+   {
+    "sentence": 73,
+    "kind": "word",
+    "text": "\"Anoint\" means rub with oil, the normal practice after bathing in the ancient Greek world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "kind": "allusion",
+    "text": "Vulcan (the Greek Hephaestus) was the god of metalworking; Minerva (Athene) also patronised crafts, so the goldsmith is a master.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "kind": "word",
+    "text": "\"Ravenously\" means with fierce, desperate hunger, here after days of starving at sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 96,
+    "kind": "phrasing",
+    "text": "\"We have no neighbours\" means the Phaeacians live remote from other peoples, so a stranger must have come by sea or from the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 107,
+    "kind": "word",
+    "text": "\"Topes\" means drinks wine, especially heavily; Alcinous sits drinking like an immortal god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 108,
+    "kind": "allusion",
+    "text": "Laying hands on her knees is the gesture of a suppliant begging for protection and help.",
+    "spoiler": false
+   },
+   {
+    "sentence": 114,
+    "kind": "phrasing",
+    "text": "\"Aegis-bearing\" refers to the aegis, Jove's protective goatskin shield or cape, which Minerva also carries.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The Phaeacians are a seafaring people who later help Ulysses reach home. The Cyclopes are the lawless one-eyed giants, like Polyphemus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Washing was done at river pools or cisterns outside town, so the trip needs a cart and mules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Olympus is the mountain home of the Greek gods; Minerva (the Greek Athena) protects Ulysses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Nausicaa's dream: Minerva, disguised as a friend, urged her to wash clothes since her marriage is near. This is why she acts now.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Aegis-bearing Jove: Jove (the Greek Zeus) carries the aegis, a divine shield or cloak. Here his daughters are the nymphs who accompany Diana.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Minerva (the Greek Athene), goddess of wisdom, protects Ulysses and arranges this meeting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "text": "Diana (the Greek Artemis) was the virgin goddess of the hunt, often pictured as tall and beautiful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "text": "Jove (the Greek Zeus) was believed to protect strangers and suppliants, so hospitality was a sacred duty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 91,
+    "text": "Neptune (the Greek Poseidon) is god of the sea, fitting for a seafaring people's marketplace temple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "text": "Alcinous is the king of the Phaeacians and Nausicaa's father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 116,
+    "text": "Neptune is angry with Ulysses for blinding his son, the Cyclops Polyphemus; he is brother to Minerva's father Jove, hence her uncle.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "simile",
+    "text": "Minerva's arrival \"like a breath of wind\" conveys a silent, unseen divine presence entering the sleeping room.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "characterization",
+    "text": "Minerva's mock scolding of a \"lazy daughter\" is a clever pretext, playing on Nausicaa's wish to marry well.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "imagery",
+    "text": "Calm, snowless sunshine and light portray Olympus as a changeless, serene contrast with the troubled human world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "irony",
+    "text": "Nausicaa gives practical excuses about brothers and clean linen while hiding her real motive, a gentle, indirect persuasion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "characterization",
+    "text": "The father's quick, warm consent shows his indulgence and perceptiveness, and Nausicaa's tact shows her modesty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "epic simile",
+    "text": "Nausicaa is compared at length to Diana among her nymphs, elevating a simple ball game and marking her beauty and grace above her maids.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "device": "epic simile",
+    "text": "Ulysses is compared to a starving lion; the extended image conveys his wild, frightening appearance and desperate need.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "divine intervention",
+    "text": "Minerva steadies Nausicaa's heart, showing the gods shaping events behind human actions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "device": "flattery",
+    "text": "Ulysses opens with careful, honeyed praise, showing his skill with words and his cautious approach to a possible helper.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "device": "simile",
+    "text": "Comparing Nausicaa to a young palm tree praises her grace and ties the speech to Ulysses' own past.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "device": "simile",
+    "text": "Minerva's transformation of Ulysses is likened to a craftsman gilding silver, suggesting beauty added to something already valuable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 82,
+    "device": "dramatic irony",
+    "text": "Nausicaa's wish for a husband like Ulysses hints at what could happen, while she does not know who he is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 93,
+    "device": "characterization",
+    "text": "Her fear of gossip shows Nausicaa's prudence and concern for reputation, as well as her quick wit in imagining the speech.",
+    "spoiler": false
+   },
+   {
+    "sentence": 116,
+    "device": "foreshadowing",
+    "text": "Minerva's hidden help and Neptune's lingering fury signal further trials on Ulysses' journey home.",
+    "spoiler": false
+   }
+  ]
+ }
+}

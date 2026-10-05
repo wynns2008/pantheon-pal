@@ -1,0 +1,276 @@
+{
+ "section_id": "hesiod-body-107",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6528,
+  "output": 2281
+ },
+ "result": {
+  "summary": "These are fragments about the lost epic the Taking of Oechalia, which was attributed to Homer or to Creophylus of Samos. They cover who wrote it, a repeated verse, the number of Eurytus' sons, and an alternate version of Medea's story attributed to Creophylus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Who wrote the Oechalia?",
+    "summary": "Eustathius and Callimachus discuss whether Homer or Creophylus wrote the poem about Eurytus, Iole and the sack of Oechalia.",
+    "stakes": "",
+    "present": [
+     "Heracles",
+     "Eurytus",
+     "Iole",
+     "Creophylus",
+     "Homer"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Oechalia",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 10,
+    "title": "Verse and sons of Eurytus",
+    "summary": "A verse shared with the Odyssey is noted, and sources disagree on how many sons Eurytus had.",
+    "stakes": "",
+    "present": [
+     "Eurytus",
+     "Antioche",
+     "Hesiod",
+     "Creophylus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Oechalia",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 13,
+    "title": "Medea at Corinth",
+    "summary": "Medea poisons Creon, flees to Athens and leaves her sons at Hera's altar, where Creon's kin kill them and blame her.",
+    "stakes": "Medea's children's safety, and her reputation, are at risk from Creon's vengeful kin.",
+    "present": [
+     "Medea",
+     "Creon",
+     "Hera Acraea"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Corinth, Greece",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 22.88
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Heracles",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero who sacked Oechalia for Iole"
+   },
+   {
+    "name": "Eurytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Oechalia, father of Iole"
+   },
+   {
+    "name": "Iole",
+    "aliases": [
+     "Ioleia"
+    ],
+    "kind": "mortal",
+    "description": "daughter of Eurytus"
+   },
+   {
+    "name": "Creophylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Samian poet, host of Homer"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet said to be guest of Creophylus"
+   },
+   {
+    "name": "Antioche",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Eurytus according to Hesiod"
+   },
+   {
+    "name": "Medea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman who left Corinth for Athens"
+   },
+   {
+    "name": "Creon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Corinth"
+   },
+   {
+    "name": "Hera Acraea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose altar sheltered Medea's sons"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Eurytus",
+    "relation": "parent_of",
+    "b": "Iole",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Eurytus",
+    "relation": "spouse_of",
+    "b": "Antioche",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Medea",
+    "relation": "parent_of",
+    "b": "Medea's sons",
+    "source": "text",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Ioleia",
+    "canonical": "Iole",
+    "explanation": "Callimachus uses a variant form of Iole's name."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "Callimachus' wry epigram on Creophylus gaining honour from Homer's reputed authorship.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "The fragments show ancient scholars disputing authorship of epics, and how poems were attributed to Homer.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "The Medea fragment shows myths varied by source, here clearing Medea of killing her children.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The alternate tradition that Corinthians killed Medea's sons is echoed in later discussion of Euripides' innovation in making Medea the killer."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Callimachus' epigram, preserved here, is a Hellenistic poem about the Oechalia's disputed authorship.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Eurytus, king of Oechalia, promised Iole to the winner of an archery contest; Heracles won, was refused, and later sacked the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Received the attribution of the poem\" means Creophylus was credited with Homer's authorship, or rather Homer's name was attached to Creophylus's poem.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Ioleia is a variant form of the name Iole.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Dear Heaven!\" is an ironic exclamation; the epigram mocks the honour of having one's poem pass as Homer's.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "A scholiast is an ancient commentator whose notes on a text were preserved in manuscript margins.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Acraea means \"of the heights\", an epithet of Hera linked to a hilltop sanctuary at Corinth.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Creophylus of Samos was a poet traditionally said to have been Homer's host and friend, and sometimes his rival or pupil.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Callimachus was a Hellenistic poet and scholar of Alexandria, known for short, witty epigrams.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Noting a verse shared between poems helped ancient scholars judge whether the same poet wrote both.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Didymus was an Alexandrian scholar whose commentaries were a major source for later scholia. Medea, the sorceress from Colchis, was wife of Jason.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "Persona",
+    "text": "The poem speaks in its own voice, as an object talking about itself, a common device in epigrams.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "Irony",
+    "text": "The apparent praise of Creophylus actually mocks him, since his work is known only under another poet's name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "Narrative voice",
+    "text": "\"Spread the story\" frames the common tale of Medea's guilt as a slander, giving this version a contrary, exonerating tone.",
+    "spoiler": false
+   }
+  ]
+ }
+}

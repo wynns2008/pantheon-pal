@@ -1,0 +1,356 @@
+{
+ "section_id": "metamorphoses-body-35",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7325,
+  "output": 3171
+ },
+ "result": {
+  "summary": "Jupiter visits Semele in a weaker form of thunder, but she is burned to ashes; the unborn Bacchus is saved in Jupiter's thigh and raised by Ino and the Nyseian Nymphs. Jupiter and Juno then quarrel over whose pleasure is greater, and Tiresias, who has lived as both man and woman, sides with Jupiter and is blinded by Juno and given prophecy by Jupiter.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Semele destroyed by Jupiter's thunder",
+    "summary": "Jupiter comes to Semele with his lesser thunder, but her mortal body cannot bear it and she burns.",
+    "stakes": "Semele risks her life in facing the god's power; Jupiter must keep his promise.",
+    "present": [
+     "Semele",
+     "Jupiter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the house of Agenor",
+     "modern_name": "Thebes",
+     "certainty": "traditional",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 9,
+    "title": "Bacchus born and hidden",
+    "summary": "The unformed Bacchus is placed in Jupiter's thigh to finish gestation, then nursed by Ino and hidden by the Nyseian Nymphs.",
+    "stakes": "The infant Bacchus's survival after his mother's death.",
+    "present": [
+     "Bacchus",
+     "Jupiter",
+     "Ino",
+     "Nyseian Nymphs"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Nysa caves",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 13,
+    "title": "Jupiter and Juno's wager",
+    "summary": "Tipsy Jupiter jokes that women enjoy love more than men; Juno denies it and they agree to ask Tiresias.",
+    "stakes": "",
+    "present": [
+     "Jupiter",
+     "Juno",
+     "Tiresias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the home of the gods",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 16,
+    "title": "Tiresias and the serpents",
+    "summary": "Tiresias strikes coupling snakes, becomes a woman for seven years, and changes back by striking them again.",
+    "stakes": "Tiresias risks his sex and identity by striking the serpents.",
+    "present": [
+     "Tiresias"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "a green wood",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 19,
+    "title": "Tiresias judges and is blinded",
+    "summary": "Tiresias sides with Jupiter; Juno blinds him, and Jupiter compensates him with prophecy.",
+    "stakes": "Tiresias loses his sight through Juno's anger.",
+    "present": [
+     "Tiresias",
+     "Jupiter",
+     "Juno"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the home of the gods",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mortal woman, pregnant with Bacchus, burned by Jupiter's thunder"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [
+     "Jove",
+     "the omnipotent father"
+    ],
+    "kind": "god",
+    "description": "King of the gods, father of Bacchus"
+   },
+   {
+    "name": "Juno",
+    "aliases": [
+     "the daughter of Saturn"
+    ],
+    "kind": "goddess",
+    "description": "Jupiter's wife, who blinds Tiresias"
+   },
+   {
+    "name": "Bacchus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Twice-born infant son of Jupiter and Semele"
+   },
+   {
+    "name": "Ino",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Bacchus's aunt who nurses him"
+   },
+   {
+    "name": "Nyseian Nymphs",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nymphs who hide and feed the infant Bacchus"
+   },
+   {
+    "name": "Tiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Seer who has been both man and woman"
+   },
+   {
+    "name": "Typhœus",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Hundred-handed monster overthrown by Jupiter's flames"
+   },
+   {
+    "name": "Agenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Owner of the house Jupiter enters"
+   },
+   {
+    "name": "Saturn",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Juno"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Bacchus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Semele",
+    "relation": "parent_of",
+    "b": "Bacchus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Saturn",
+    "relation": "parent_of",
+    "b": "Juno",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Jupiter",
+    "relation": "spouse_of",
+    "b": "Juno",
+    "source": "outside",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Jupiter",
+    "relation": "lover_of",
+    "b": "Semele",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Tiresias",
+    "relation": "transformed_into",
+    "b": "Tiresias",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Jove",
+    "canonical": "Jupiter",
+    "explanation": "Another name for the Roman king of the gods."
+   },
+   {
+    "alias": "the daughter of Saturn",
+    "canonical": "Juno",
+    "explanation": "A patronymic title for Juno."
+   },
+   {
+    "alias": "Bacchus, twice born",
+    "canonical": "Bacchus",
+    "explanation": "Epithet for his birth from Semele and then from Jupiter's thigh."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 19,
+    "reason": "States the rule that no god may undo another's act, and Tiresias's blindness-for-prophecy bargain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "reason": "Tiresias's challenge to the snakes explains his transformation back.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows the dangers of mortals meeting divine power, and of divine quarrels, with suffering followed by compensation.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Bacchus's twice-born status reflects the god's cult, which linked him to rebirth and to Thebes.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Tiresias, the blind seer who was once a woman, became a major figure in later literature, including Sophocles and T. S. Eliot's The Waste Land (1922)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The 'Cyclops' thunder mentioned here refers to the Cyclopes, who in myth forged Jupiter's thunderbolts.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Typhœus was a monstrous giant who challenged the gods; Jupiter defeated him with thunderbolts. The reference shows how fierce his full lightning is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The Cyclops forged Jupiter's thunderbolts, so the 'right hand of the Cyclops' means their craftsmanship, here a weaker version of the bolts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Nyseian Nymphs were nymphs of Mount Nysa, legendary nurses of the infant Bacchus (Dionysus).",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "'Twice born' refers to Bacchus's two births: from Semele's womb, then from Jupiter's thigh.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "'Passing strange' means 'extremely strange'; the parenthesis is the narrator's aside about the wonder of the change.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "'Daughter of Saturn' is Juno, who is Jupiter's sister and wife and a child of Saturn.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Semele, a Theban princess, had made Jupiter swear to grant her any wish. Juno's jealousy led her to ask him to appear in his full divine form.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Agenor was king of Phoenicia and the father of Cadmus. Semele, Cadmus's daughter, lived in the Theban royal house founded by him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Ino was Semele's sister, so she is Bacchus's aunt. She nursed him in secret to hide him from Juno's anger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Tiresias was a famous Theban seer. His experience as both man and woman made him the ideal judge.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "Irony",
+    "text": "Semele's wish to be embraced by Jupiter in his divine glory, meant as honor, brings her destruction among the very gifts of her marriage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Narrative voice",
+    "text": "'They tell' distances the narrator from the tale, a tone of hearsay that lightens the mood as the story moves from tragedy to comedy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "Irony",
+    "text": "Tiresias's blindness is paired with the gift of prophecy. Loss of physical sight becomes inner vision, a lasting motif in Theban myth.",
+    "spoiler": false
+   }
+  ]
+ }
+}

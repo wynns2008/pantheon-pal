@@ -1,0 +1,410 @@
+{
+ "section_id": "hesiod-body-10",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8621,
+  "output": 3320
+ },
+ "result": {
+  "summary": "Fragments of the Astronomy give the names of the Pleiades and Hyades, and tell how Callisto, Arcas and Orion became constellations. Orion's story covers his blinding, healing, death by a scorpion, and his work at Peloris.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Names of Pleiades and Hyades",
+    "summary": "Quoted lines name the Pleiades as daughters of Atlas, with Maia bearing Hermes, and list the Hyades, whom Zeus made stars.",
+    "stakes": "",
+    "present": [
+     "Maia",
+     "Atlas",
+     "Hermes",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mountains of Cyllene",
+     "modern_name": "Mount Kyllini",
+     "certainty": "real",
+     "lat": 37.94,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 12,
+    "title": "Callisto and Arcas",
+    "summary": "Callisto is seduced by Zeus, turned into a bear by Artemis, and nearly killed by her son before Zeus makes her a constellation. Arcas becomes Bootes, and Lycaon serves Zeus a butchered babe.",
+    "stakes": "Callisto risks death for entering the forbidden precinct of Zeus.",
+    "present": [
+     "Callisto",
+     "Lycaon",
+     "Artemis",
+     "Zeus",
+     "Arcas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Arcadia",
+     "modern_name": "Arcadia, Greece",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 20,
+    "title": "Orion's Wanderings and Death",
+    "summary": "Orion outrages Merope, is blinded by Oenopion, healed by Helius, and killed by Earth's scorpion in Crete. Zeus sets him among the stars.",
+    "stakes": "Orion loses his sight and finally his life.",
+    "present": [
+     "Orion",
+     "Euryale",
+     "Poseidon",
+     "Merope",
+     "Oenopion",
+     "Hephaestus",
+     "Cedalion",
+     "Helius",
+     "Artemis",
+     "Leto",
+     "Earth",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Chios",
+     "modern_name": "Chios",
+     "certainty": "real",
+     "lat": 38.37,
+     "lon": 26.14
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 23,
+    "title": "Orion at Peloris",
+    "summary": "Hesiod says Orion piled up the promontory at Peloris, then settled in Euboea and became a star.",
+    "stakes": "",
+    "present": [
+     "Orion",
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Peloris",
+     "modern_name": "Capo Peloro, Sicily",
+     "certainty": "real",
+     "lat": 38.27,
+     "lon": 15.65
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of the Pleiades"
+   },
+   {
+    "name": "Maia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "A Pleiad who bore Hermes"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Herald of the gods"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Places figures among the stars"
+   },
+   {
+    "name": "Callisto",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Daughter of Lycaon, turned into a bear and star"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian, father of Callisto"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Huntress who punishes Callisto"
+   },
+   {
+    "name": "Arcas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Callisto and Zeus, Bootes"
+   },
+   {
+    "name": "Orion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hunter who walks on waves, becomes a constellation"
+   },
+   {
+    "name": "Euryale",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Minos, mother of Orion"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Orion"
+   },
+   {
+    "name": "Merope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Oenopion, outraged by Orion"
+   },
+   {
+    "name": "Oenopion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Chios who blinds Orion"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Gives Orion a guide"
+   },
+   {
+    "name": "Cedalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Servant of Hephaestus who guides Orion"
+   },
+   {
+    "name": "Helius",
+    "aliases": [
+     "the Sun"
+    ],
+    "kind": "god",
+    "description": "Sun who heals Orion"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Hunts with Orion, begs for his honour"
+   },
+   {
+    "name": "Earth",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Sends a scorpion against Orion"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Atlas",
+    "relation": "parent_of",
+    "b": "Maia",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Maia",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Callisto",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Callisto",
+    "relation": "parent_of",
+    "b": "Arcas",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Callisto",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Callisto",
+    "relation": "transformed_into",
+    "b": "Bear",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Orion",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Euryale",
+    "relation": "parent_of",
+    "b": "Orion",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Oenopion",
+    "relation": "parent_of",
+    "b": "Merope",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Peleiades",
+    "canonical": "Pleiades",
+    "explanation": "The Astronomy's spelling of the Pleiades, doves in Greek."
+   },
+   {
+    "alias": "Bootes",
+    "canonical": "Arcas",
+    "explanation": "Arcas is identified with the constellation Bootes, the Bear-warden."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Constellations are explained as rewards or memorials for mortals, often after transgression and suffering.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Astronomy survives only in quotations by later writers, and its attribution to Hesiod was doubted even in antiquity.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The myths of Callisto and Orion became the standard explanations of Ursa Major and Orion in later Greek and Roman astronomy and poetry."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Athenaeus doubts that the poem is really by Hesiod, writing 'forsooth' in the translation.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Forsooth\" is an archaic, sarcastic word meaning \"in truth\"; the writer doubts that Hesiod really wrote The Astronomy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Peleiades means \"doves\"; the writer notes this form for the Pleiades, the star cluster whose rising and setting marked seasons.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Graces were goddesses of beauty and charm, so the Hyades are praised as being as lovely as them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The \"forbidden precinct of Zeus\" was a sacred enclosure on Mount Lycaeum in Arcadia; any who entered it were said to be put to death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Bootes means \"ox-driver\" or herdsman; \"Bear-warden\" refers to his place in the sky beside the Bear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Outraged\" here means sexually violated; the text states he was drunk when he did so.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Close\" means an enclosed sacred area, here a precinct dedicated to Poseidon.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Atlas was the Titan who held up the sky. His seven daughters were the Pleiades, and Maia was the mother of Hermes by Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "The Hyades were a star cluster whose rising was linked with rain; the name was often tied to the root for \"rain\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Lycaon is the Arcadian king in the myth who tested Zeus by serving him human flesh, usually said to be punished for it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Hephaestus was the smith god, and Lemnos was an island sacred to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Peloris is the cape in northeastern Sicily, near the strait separating Sicily from Italy.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "Irony",
+    "text": "Callisto is saved by the god who caused her ruin, and the constellation name memorializes her misfortune rather than relieving it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "Poetic justice",
+    "text": "Orion's boast of killing every beast is answered by Earth sending a single scorpion, a fitting and proportionate punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "Aetiology",
+    "text": "The story explains why Orion and the scorpion appear as constellations, turning a death into a lasting memorial in the sky.",
+    "spoiler": false
+   }
+  ]
+ }
+}

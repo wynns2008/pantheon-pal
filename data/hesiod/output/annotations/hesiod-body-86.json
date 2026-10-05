@@ -1,0 +1,191 @@
+{
+ "section_id": "hesiod-body-86",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5754,
+  "output": 1630
+ },
+ "result": {
+  "summary": "The hymn opens by praising Dionysus, son of Zeus and Semele, and tells how the Nymphs raised him in a cave at Nysa. He then roams the woods with the Nymphs following, and the poet closes with a prayer for many returning seasons.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Dionysus raised by the Nymphs",
+    "summary": "The singer introduces Dionysus, who is nursed by the Nymphs at Nysa and then wanders the wooded glens with them in his train.",
+    "stakes": "",
+    "present": [
+     "Dionysus",
+     "Nymphs"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Nysa",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 5,
+    "title": "Closing prayer to Dionysus",
+    "summary": "The poet bids the god farewell and asks to return rejoicing to the festival season for many years.",
+    "stakes": "",
+    "present": [
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "place of the festival",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "ivy-crowned god of wine, son of Zeus and Semele"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "lord and father of Dionysus"
+   },
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "glorious mother of Dionysus"
+   },
+   {
+    "name": "Nymphs",
+    "aliases": [
+     "goddesses"
+    ],
+    "kind": "nymph",
+    "description": "rich-haired nurses who raised Dionysus at Nysa"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Semele",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "text",
+    "evidence_sentence": 0
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "The closing prayer is a typical hymn formula asking for return to the festival in future years.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn presents Dionysus as a nature god, raised among Nymphs and roaming wild woods, linking him with ivy, vines and ecstatic revelry.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Homeric Hymns were short prefaces sung before longer recitations or at festivals; the closing prayer for returning to the season reflects this performance setting.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The location of Nysa was never fixed in antiquity; several places from Thrace to Libya to India were claimed as the site.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Loud-crying\" translates a cult epithet (Greek Eriboas/Bromios type) evoking the shouts of his worshippers and the god's own roaring cry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Dells\" are small wooded valleys; Nysa is a legendary mountain whose location the ancients placed in several different lands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Coombes\" are deep wooded valleys or hollows on a hillside.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"A god oft hymned\" means a god often praised in song; it is an aside noting his fame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"This season\" refers to the festival at which the hymn is sung; the poet prays to be present at it again in future years.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Semele was a mortal woman, daughter of Cadmus of Thebes. Dionysus, god of wine and ecstasy, was unusual for having a mortal mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Nymphs were female nature spirits of mountains, trees and springs. Here they act as the infant god's nurses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Dionysus is the god of the vine, so \"abundant clusters\" refers to grape bunches and the wine harvest.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "epithet",
+    "text": "\"Ivy-crowned\" and \"loud-crying\" are descriptive epithets that characterize Dionysus through his emblem and his noisy worship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "imagery",
+    "text": "The forest \"filled with their outcry\" gives a vivid sound picture of the ecstatic revel band, with the god as leader.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "prayer formula",
+    "text": "The closing farewell and request for return follows the standard hymn ending, binding the poet's own hope to the god's favor.",
+    "spoiler": false
+   }
+  ]
+ }
+}

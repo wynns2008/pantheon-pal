@@ -1,0 +1,395 @@
+{
+ "section_id": "hesiod-body-20",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10479,
+  "output": 3495
+ },
+ "result": {
+  "summary": "The gods and the Titans clash in the great war, with Zeus's hundred-handed allies and his thunderbolts shaking the whole cosmos. The Hundred-Handers bury the Titans under rocks and chain them in Tartarus, and the poem then describes Tartarus, the house of Night, and her children Sleep and Death.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "The armies meet in battle",
+    "summary": "The gods, with the Hundred-Handers whom Zeus brought up from Erebus, face the Titans. The sea, earth, heaven and Tartarus shake at the onset.",
+    "stakes": "Both sides risk defeat in the war for rule of the cosmos.",
+    "present": [
+     "Zeus",
+     "Cottus",
+     "Briareos",
+     "Gyes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympus and the battlefield",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 14,
+    "title": "Zeus unleashes his thunderbolts",
+    "summary": "Zeus hurls lightning and the world burns and seethes. The Titans are blinded and the battle begins to turn.",
+    "stakes": "The Titans face destruction by Zeus's fire.",
+    "present": [
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympus and the earth",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 23,
+    "title": "Titans chained in Tartarus",
+    "summary": "The Hundred-Handers bury and bind the Titans beneath the earth. Tartarus is described, with its bronze gates set by Poseidon and its guards.",
+    "stakes": "The Titans lose their freedom permanently.",
+    "present": [
+     "Cottus",
+     "Briareos",
+     "Gyes",
+     "Zeus",
+     "Poseidon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tartarus",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 29,
+    "title": "House of Night, Sleep and Death",
+    "summary": "Night and Day pass each other at a bronze threshold while Atlas holds up heaven. Night's children Sleep and Death dwell there, one kind to men and the other pitiless.",
+    "stakes": "",
+    "present": [
+     "Night",
+     "Day",
+     "Atlas",
+     "Sleep",
+     "Death"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Home of Night",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Leader of the gods who defeats the Titans with thunderbolts"
+   },
+   {
+    "name": "Cottus",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Hundred-handed ally of Zeus"
+   },
+   {
+    "name": "Briareos",
+    "aliases": [
+     "Obriareus"
+    ],
+    "kind": "monster",
+    "description": "Hundred-handed ally of Zeus"
+   },
+   {
+    "name": "Gyes",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Hundred-handed ally of Zeus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Fixed the bronze gates of Tartarus"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [
+     "son of Iapetus"
+    ],
+    "kind": "god",
+    "description": "Titan holding up the heaven"
+   },
+   {
+    "name": "Night",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Dark goddess whose house stands in Tartarus"
+   },
+   {
+    "name": "Day",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Passes Night at the threshold"
+   },
+   {
+    "name": "Sleep",
+    "aliases": [],
+    "kind": "god",
+    "description": "Kindly son of Night, brother of Death"
+   },
+   {
+    "name": "Death",
+    "aliases": [],
+    "kind": "god",
+    "description": "Pitiless son of Night"
+   },
+   {
+    "name": "Titans",
+    "aliases": [
+     "Titan gods"
+    ],
+    "kind": "god",
+    "description": "Older gods defeated and imprisoned"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Night",
+    "relation": "parent_of",
+    "b": "Sleep",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Night",
+    "relation": "parent_of",
+    "b": "Death",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Sleep",
+    "relation": "sibling_of",
+    "b": "Death",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Iapetus",
+    "relation": "parent_of",
+    "b": "Atlas",
+    "source": "text",
+    "evidence_sentence": 25
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "son of Iapetus",
+    "canonical": "Atlas",
+    "explanation": "Patronymic for Atlas, who holds up heaven; the name is not given in this section."
+   },
+   {
+    "alias": "Obriareus",
+    "canonical": "Briareos",
+    "explanation": "Variant spelling of the same Hundred-Hander."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Memorable measure of Tartarus's depth by a falling anvil.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Zeus wins sovereignty through force and allies, and the defeated are confined, which establishes the order of the cosmos.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The cosmic geography reflects early Greek ideas of a layered universe with Tartarus as far below earth as heaven is above.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Titanomachy became a standard subject of Greek and later art and literature, and Tartarus entered later descriptions of the underworld."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The falling-anvil measure of nine days is echoed in Homer's Iliad, where Zeus threatens to hurl gods into Tartarus.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Givers of good things\" is a traditional epithet of the Olympian gods, who are the source of blessings; \"he\" is Cronos' son Zeus's ally Cottus, who has just spoken.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "These are the Hundred-Handers (Cottus, Briareos and Gyes), sons of Heaven and Earth, whom Zeus freed from imprisonment so they would fight for him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Tartarus is the dark, deep pit far beneath the earth, used as a prison for defeated gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Thunder-stone\" means the thunderbolt, imagined as a hurled missile.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Chaos here is the primeval gap or void from which the world began, not mere disorder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"The battle inclined\" means the fight tipped or turned, as a balance does, in favour of one side.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Insatiate for war\" means never satisfied with fighting; the Hundred-Handers are eager for battle. Briareos is also called Obriareus in sentence 20.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "A neck-circlet is a collar or necklace; night is pictured as encircling Tartarus the way a collar rings the neck.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "\"Zeus who drives the clouds\" is a stock epithet for Zeus as weather god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "The aegis is Zeus's divine shield or goatskin cloak, which terrified enemies; \"warders\" are guards.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "The son of Iapetus is Atlas, a Titan condemned to hold up the sky. The number 1622 is a stray footnote marker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "\"Even evil Night\" refers to the Night who stays at home holding Sleep; the phrasing is awkward, and \"evil\" means baneful rather than morally wicked.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The Titans, children of Heaven and Earth, ruled before the Olympians. Zeus and his siblings, children of Cronos, are now fighting them for control of the cosmos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "The thunderbolt is Zeus's chief weapon, made for him by the Cyclopes, and the symbol of his rule.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Bronze was the strongest metal known to the early Greeks, so it often marks things as solid and divine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Poseidon, god of the sea and Zeus's brother, here helps secure the Titans' prison with bronze gates.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Sleep is gentle, while Death is pitiless; Hesiod makes both children of Night.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "personification",
+    "text": "Sea, earth, Heaven and Olympus roar, groan and reel like living beings, showing the whole cosmos taking part in the battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "imagery",
+    "text": "Thick-flying bolts, thunder and whirling flame create a vivid sight and sound picture of Zeus's overwhelming power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "hyperbole",
+    "text": "The din is compared to Earth and Heaven colliding, an exaggeration conveying a cosmic-scale clash.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "foreshadowing",
+    "text": "\"Until then\" hints that the deadlock is about to end and the Titans' defeat is coming.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "hyperbole",
+    "text": "The anvil falling nine days and nights conveys the immense depth of Tartarus, as far below earth as earth is below heaven.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "simile",
+    "text": "Night spreading like a neck-circlet gives the vast cosmic enclosure a familiar image of encircling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "personification",
+    "text": "Night and Day greet each other at the threshold like neighbors, turning the cycle of time into a meeting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "metaphor",
+    "text": "Death's heart of iron and spirit of bronze express his unyielding cruelty, contrasting with kindly Sleep.",
+    "spoiler": false
+   }
+  ]
+ }
+}

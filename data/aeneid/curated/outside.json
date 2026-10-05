@@ -1,0 +1,895 @@
+{
+ "model": "claude-sonnet-5-5",
+ "work": "The Æneid of Virgil translated into English prose",
+ "requested": [
+  "Abas",
+  "Acestes",
+  "Achates",
+  "Achilles",
+  "Æneas",
+  "Æolus",
+  "Alcanor",
+  "Aletes",
+  "Amata",
+  "Anchises",
+  "Andromache",
+  "Anna",
+  "Apollo",
+  "Ascanius",
+  "Asilas",
+  "Astyanax",
+  "Augustus Cæsar",
+  "Aventinus",
+  "Bitias",
+  "Butes",
+  "Cacus",
+  "Camilla",
+  "Capys",
+  "Carmentis",
+  "Casmilla",
+  "Cassandra",
+  "Cloanthus",
+  "Coras",
+  "Corynæus",
+  "Creusa",
+  "Cupid",
+  "Cybele",
+  "Cycnus",
+  "Daunus",
+  "Deiphobus",
+  "Diana",
+  "Dido",
+  "Euryalus",
+  "Evander",
+  "Faunus",
+  "Gyas",
+  "Hector",
+  "Hecuba",
+  "Helen",
+  "Helenus",
+  "Hercules",
+  "Hyrtacus",
+  "Ilioneus",
+  "Iris",
+  "Jove",
+  "Juno",
+  "Juturna",
+  "Latinus",
+  "Latona",
+  "Lausus",
+  "Lavinia",
+  "Manto",
+  "Marica",
+  "Mars",
+  "Mercury",
+  "Messapus",
+  "Metabus",
+  "Mezentius",
+  "Misenus",
+  "Mnestheus",
+  "Neptune",
+  "Nisus",
+  "Numanus",
+  "Ocnus",
+  "Opheltes",
+  "Orontes",
+  "Palinurus",
+  "Pallas",
+  "Pandarus",
+  "Picus",
+  "Pilumnus",
+  "Polites",
+  "Polydorus",
+  "Priam",
+  "Pygmalion",
+  "Pyrrhus",
+  "Romulus",
+  "Saturn",
+  "Serestus",
+  "Sergestus",
+  "Silvia",
+  "Silvius",
+  "Sychæus",
+  "Tarchon",
+  "Tiber",
+  "Triton",
+  "Turnus",
+  "Tyrrheus",
+  "Ufens",
+  "Ulysses",
+  "Venilia",
+  "Venulus",
+  "Venus",
+  "Vulcan"
+ ],
+ "people": [
+  {
+   "name": "Anchises",
+   "other_name": "",
+   "description": "Trojan prince, father of Æneas, loved by Venus"
+  },
+  {
+   "name": "Æneas",
+   "other_name": "Aeneas",
+   "description": "Trojan hero, son of Venus, founder of Roman lineage"
+  },
+  {
+   "name": "Ascanius",
+   "other_name": "Iulus",
+   "description": "Son of Æneas and Creusa, founder of Alba Longa"
+  },
+  {
+   "name": "Creusa",
+   "other_name": "",
+   "description": "Daughter of Priam, first wife of Æneas"
+  },
+  {
+   "name": "Capys",
+   "other_name": "",
+   "description": "Trojan elder, father of Anchises"
+  },
+  {
+   "name": "Cupid",
+   "other_name": "Eros",
+   "description": "God of love, son of Venus"
+  },
+  {
+   "name": "Apollo",
+   "other_name": "Phoebus",
+   "description": "God of prophecy, music and the sun"
+  },
+  {
+   "name": "Achilles",
+   "other_name": "",
+   "description": "Greek hero, son of Peleus and Thetis, slayer of Hector"
+  },
+  {
+   "name": "Andromache",
+   "other_name": "",
+   "description": "Wife of Hector, later wife of Helenus"
+  },
+  {
+   "name": "Astyanax",
+   "other_name": "",
+   "description": "Infant son of Hector and Andromache"
+  },
+  {
+   "name": "Cassandra",
+   "other_name": "",
+   "description": "Prophetic daughter of Priam, unbelieved"
+  },
+  {
+   "name": "Deiphobus",
+   "other_name": "",
+   "description": "Son of Priam, later husband of Helen"
+  },
+  {
+   "name": "Priam",
+   "other_name": "",
+   "description": "Last king of Troy"
+  },
+  {
+   "name": "Hecuba",
+   "other_name": "",
+   "description": "Queen of Troy, wife of Priam"
+  },
+  {
+   "name": "Hector",
+   "other_name": "",
+   "description": "Chief Trojan warrior, son of Priam"
+  },
+  {
+   "name": "Venus",
+   "other_name": "Aphrodite",
+   "description": "Goddess of love, mother of Æneas"
+  },
+  {
+   "name": "Jupiter",
+   "other_name": "Zeus",
+   "description": "King of the gods"
+  },
+  {
+   "name": "Latona",
+   "other_name": "Leto",
+   "description": "Titaness, mother of Apollo and Diana"
+  },
+  {
+   "name": "Mars",
+   "other_name": "Ares",
+   "description": "God of war"
+  },
+  {
+   "name": "Juno",
+   "other_name": "Hera",
+   "description": "Queen of the gods"
+  },
+  {
+   "name": "Saturn",
+   "other_name": "Cronus",
+   "description": "Titan, father of Jupiter"
+  },
+  {
+   "name": "Ops",
+   "other_name": "Rhea",
+   "description": "Titaness, mother of Jupiter"
+  },
+  {
+   "name": "Cybele",
+   "other_name": "Rhea",
+   "description": "Great Mother goddess of Phrygia"
+  },
+  {
+   "name": "Chaos",
+   "other_name": "",
+   "description": "Primordial void at the beginning of the Greek cosmos"
+  },
+  {
+   "name": "Gaia",
+   "other_name": "Earth",
+   "description": "Primordial Earth goddess"
+  },
+  {
+   "name": "Uranus",
+   "other_name": "Heaven",
+   "description": "Primordial sky god, husband of Gaia"
+  },
+  {
+   "name": "Cronus",
+   "other_name": "Saturn",
+   "description": "Titan king, father of the first Olympians"
+  },
+  {
+   "name": "Rhea",
+   "other_name": "Ops",
+   "description": "Titaness, wife of Cronus and mother of Olympians"
+  },
+  {
+   "name": "Jove",
+   "other_name": "Zeus",
+   "description": "King of the gods, ruler of sky and thunder"
+  },
+  {
+   "name": "Neptune",
+   "other_name": "Poseidon",
+   "description": "God of the sea"
+  },
+  {
+   "name": "Mercury",
+   "other_name": "Hermes",
+   "description": "Messenger god"
+  },
+  {
+   "name": "Maia",
+   "other_name": "",
+   "description": "Pleiad nymph, mother of Mercury"
+  },
+  {
+   "name": "Atlas",
+   "other_name": "",
+   "description": "Titan who holds up the sky"
+  },
+  {
+   "name": "Diana",
+   "other_name": "Artemis",
+   "description": "Goddess of the hunt and moon"
+  },
+  {
+   "name": "Iris",
+   "other_name": "",
+   "description": "Goddess of the rainbow, messenger of Juno"
+  },
+  {
+   "name": "Thaumas",
+   "other_name": "",
+   "description": "Sea deity, father of Iris"
+  },
+  {
+   "name": "Electra",
+   "other_name": "",
+   "description": "Oceanid, mother of Iris"
+  },
+  {
+   "name": "Hercules",
+   "other_name": "Heracles",
+   "description": "Greatest Greek hero, famed for twelve labours"
+  },
+  {
+   "name": "Helen",
+   "other_name": "Helen of Troy",
+   "description": "Most beautiful woman, cause of the Trojan War"
+  },
+  {
+   "name": "Leda",
+   "other_name": "",
+   "description": "Mother of Helen"
+  },
+  {
+   "name": "Helenus",
+   "other_name": "",
+   "description": "Trojan prophet, son of Priam"
+  },
+  {
+   "name": "Zeus",
+   "other_name": "Jupiter",
+   "description": "King of the gods, ruler of sky"
+  },
+  {
+   "name": "Hera",
+   "other_name": "Juno",
+   "description": "Queen of the gods, wife of Zeus"
+  },
+  {
+   "name": "Vulcan",
+   "other_name": "Hephaestus",
+   "description": "God of fire and the forge"
+  },
+  {
+   "name": "Dione",
+   "other_name": "",
+   "description": "Goddess, mother of Aphrodite in Homeric tradition"
+  },
+  {
+   "name": "Polites",
+   "other_name": "",
+   "description": "Trojan son of Priam, killed by Pyrrhus"
+  },
+  {
+   "name": "Polydorus",
+   "other_name": "",
+   "description": "Youngest son of Priam, killed in Thrace"
+  },
+  {
+   "name": "Pyrrhus",
+   "other_name": "Neoptolemus",
+   "description": "Son of Achilles, killer of Priam"
+  },
+  {
+   "name": "Picus",
+   "other_name": "",
+   "description": "Latin king, woodpecker prophet, son of Saturn"
+  },
+  {
+   "name": "Pilumnus",
+   "other_name": "",
+   "description": "Ancestor of Turnus, Rutulian divine figure"
+  },
+  {
+   "name": "Venilia",
+   "other_name": "",
+   "description": "Nymph, mother of Turnus, sister of Amata"
+  },
+  {
+   "name": "Turnus",
+   "other_name": "",
+   "description": "King of the Rutulians, Aeneas's rival"
+  }
+ ],
+ "relationships": [
+  {
+   "a": "Capys",
+   "relation": "parent_of",
+   "b": "Anchises",
+   "note": ""
+  },
+  {
+   "a": "Anchises",
+   "relation": "parent_of",
+   "b": "Æneas",
+   "note": ""
+  },
+  {
+   "a": "Venus",
+   "relation": "parent_of",
+   "b": "Æneas",
+   "note": ""
+  },
+  {
+   "a": "Anchises",
+   "relation": "spouse_of",
+   "b": "Venus",
+   "note": "Union of mortal and goddess, not marriage"
+  },
+  {
+   "a": "Æneas",
+   "relation": "parent_of",
+   "b": "Ascanius",
+   "note": ""
+  },
+  {
+   "a": "Creusa",
+   "relation": "parent_of",
+   "b": "Ascanius",
+   "note": ""
+  },
+  {
+   "a": "Æneas",
+   "relation": "spouse_of",
+   "b": "Creusa",
+   "note": ""
+  },
+  {
+   "a": "Priam",
+   "relation": "parent_of",
+   "b": "Creusa",
+   "note": ""
+  },
+  {
+   "a": "Hecuba",
+   "relation": "parent_of",
+   "b": "Creusa",
+   "note": ""
+  },
+  {
+   "a": "Priam",
+   "relation": "parent_of",
+   "b": "Hector",
+   "note": ""
+  },
+  {
+   "a": "Hecuba",
+   "relation": "parent_of",
+   "b": "Hector",
+   "note": ""
+  },
+  {
+   "a": "Priam",
+   "relation": "parent_of",
+   "b": "Cassandra",
+   "note": ""
+  },
+  {
+   "a": "Hecuba",
+   "relation": "parent_of",
+   "b": "Cassandra",
+   "note": ""
+  },
+  {
+   "a": "Priam",
+   "relation": "parent_of",
+   "b": "Deiphobus",
+   "note": ""
+  },
+  {
+   "a": "Hecuba",
+   "relation": "parent_of",
+   "b": "Deiphobus",
+   "note": ""
+  },
+  {
+   "a": "Priam",
+   "relation": "spouse_of",
+   "b": "Hecuba",
+   "note": ""
+  },
+  {
+   "a": "Hector",
+   "relation": "parent_of",
+   "b": "Astyanax",
+   "note": ""
+  },
+  {
+   "a": "Andromache",
+   "relation": "parent_of",
+   "b": "Astyanax",
+   "note": ""
+  },
+  {
+   "a": "Hector",
+   "relation": "spouse_of",
+   "b": "Andromache",
+   "note": ""
+  },
+  {
+   "a": "Venus",
+   "relation": "parent_of",
+   "b": "Cupid",
+   "note": "Some versions make Mars his father"
+  },
+  {
+   "a": "Jupiter",
+   "relation": "parent_of",
+   "b": "Apollo",
+   "note": ""
+  },
+  {
+   "a": "Latona",
+   "relation": "parent_of",
+   "b": "Apollo",
+   "note": ""
+  },
+  {
+   "a": "Jupiter",
+   "relation": "spouse_of",
+   "b": "Juno",
+   "note": ""
+  },
+  {
+   "a": "Saturn",
+   "relation": "parent_of",
+   "b": "Jupiter",
+   "note": ""
+  },
+  {
+   "a": "Ops",
+   "relation": "parent_of",
+   "b": "Jupiter",
+   "note": ""
+  },
+  {
+   "a": "Saturn",
+   "relation": "spouse_of",
+   "b": "Ops",
+   "note": ""
+  },
+  {
+   "a": "Saturn",
+   "relation": "parent_of",
+   "b": "Juno",
+   "note": ""
+  },
+  {
+   "a": "Ops",
+   "relation": "parent_of",
+   "b": "Juno",
+   "note": ""
+  },
+  {
+   "a": "Chaos",
+   "relation": "parent_of",
+   "b": "Gaia",
+   "note": "Hesiod: Gaia arose from Chaos"
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Uranus",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Cronus",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Cronus",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Rhea",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Rhea",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Atlas",
+   "note": "Atlas often listed as son of Iapetus; Iapetus omitted"
+  },
+  {
+   "a": "Cronus",
+   "relation": "spouse_of",
+   "b": "Rhea",
+   "note": ""
+  },
+  {
+   "a": "Cronus",
+   "relation": "parent_of",
+   "b": "Jove",
+   "note": ""
+  },
+  {
+   "a": "Rhea",
+   "relation": "parent_of",
+   "b": "Jove",
+   "note": ""
+  },
+  {
+   "a": "Cronus",
+   "relation": "parent_of",
+   "b": "Juno",
+   "note": ""
+  },
+  {
+   "a": "Rhea",
+   "relation": "parent_of",
+   "b": "Juno",
+   "note": ""
+  },
+  {
+   "a": "Cronus",
+   "relation": "parent_of",
+   "b": "Neptune",
+   "note": ""
+  },
+  {
+   "a": "Rhea",
+   "relation": "parent_of",
+   "b": "Neptune",
+   "note": ""
+  },
+  {
+   "a": "Jove",
+   "relation": "spouse_of",
+   "b": "Juno",
+   "note": ""
+  },
+  {
+   "a": "Jove",
+   "relation": "parent_of",
+   "b": "Mars",
+   "note": ""
+  },
+  {
+   "a": "Juno",
+   "relation": "parent_of",
+   "b": "Mars",
+   "note": ""
+  },
+  {
+   "a": "Atlas",
+   "relation": "parent_of",
+   "b": "Maia",
+   "note": ""
+  },
+  {
+   "a": "Jove",
+   "relation": "parent_of",
+   "b": "Mercury",
+   "note": ""
+  },
+  {
+   "a": "Maia",
+   "relation": "parent_of",
+   "b": "Mercury",
+   "note": ""
+  },
+  {
+   "a": "Jove",
+   "relation": "parent_of",
+   "b": "Diana",
+   "note": ""
+  },
+  {
+   "a": "Latona",
+   "relation": "parent_of",
+   "b": "Diana",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Latona",
+   "note": "Latona is daughter of Titans Coeus and Phoebe; Coeus omitted"
+  },
+  {
+   "a": "Thaumas",
+   "relation": "parent_of",
+   "b": "Iris",
+   "note": ""
+  },
+  {
+   "a": "Electra",
+   "relation": "parent_of",
+   "b": "Iris",
+   "note": ""
+  },
+  {
+   "a": "Thaumas",
+   "relation": "spouse_of",
+   "b": "Electra",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Thaumas",
+   "note": ""
+  },
+  {
+   "a": "Jove",
+   "relation": "parent_of",
+   "b": "Hercules",
+   "note": "Mother Alcmene omitted"
+  },
+  {
+   "a": "Jove",
+   "relation": "parent_of",
+   "b": "Helen",
+   "note": ""
+  },
+  {
+   "a": "Leda",
+   "relation": "parent_of",
+   "b": "Helen",
+   "note": ""
+  },
+  {
+   "a": "Priam",
+   "relation": "parent_of",
+   "b": "Helenus",
+   "note": ""
+  },
+  {
+   "a": "Hecuba",
+   "relation": "parent_of",
+   "b": "Helenus",
+   "note": ""
+  },
+  {
+   "a": "Cronus",
+   "relation": "parent_of",
+   "b": "Zeus",
+   "note": ""
+  },
+  {
+   "a": "Rhea",
+   "relation": "parent_of",
+   "b": "Zeus",
+   "note": ""
+  },
+  {
+   "a": "Cronus",
+   "relation": "parent_of",
+   "b": "Hera",
+   "note": ""
+  },
+  {
+   "a": "Rhea",
+   "relation": "parent_of",
+   "b": "Hera",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "spouse_of",
+   "b": "Hera",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Vulcan",
+   "note": "Hesiod has Hera alone bear Hephaestus"
+  },
+  {
+   "a": "Hera",
+   "relation": "parent_of",
+   "b": "Vulcan",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Venus",
+   "note": "Hesiod: born from sea foam after Uranus"
+  },
+  {
+   "a": "Dione",
+   "relation": "parent_of",
+   "b": "Venus",
+   "note": ""
+  },
+  {
+   "a": "Achilles",
+   "relation": "parent_of",
+   "b": "Pyrrhus",
+   "note": ""
+  },
+  {
+   "a": "Priam",
+   "relation": "parent_of",
+   "b": "Polites",
+   "note": ""
+  },
+  {
+   "a": "Priam",
+   "relation": "parent_of",
+   "b": "Polydorus",
+   "note": ""
+  },
+  {
+   "a": "Saturn",
+   "relation": "parent_of",
+   "b": "Picus",
+   "note": ""
+  },
+  {
+   "a": "Venilia",
+   "relation": "spouse_of",
+   "b": "Pilumnus",
+   "note": "Virgil: Venilia mother of Turnus, Daunus father"
+  },
+  {
+   "a": "Venilia",
+   "relation": "parent_of",
+   "b": "Turnus",
+   "note": ""
+  }
+ ],
+ "report": {
+  "people": 52,
+  "relationships": 75,
+  "requested": 99,
+  "requested_missing": [
+   "Abas",
+   "Acestes",
+   "Achates",
+   "Æolus",
+   "Alcanor",
+   "Aletes",
+   "Amata",
+   "Anna",
+   "Asilas",
+   "Augustus Cæsar",
+   "Aventinus",
+   "Bitias",
+   "Butes",
+   "Cacus",
+   "Camilla",
+   "Carmentis",
+   "Casmilla",
+   "Cloanthus",
+   "Coras",
+   "Corynæus",
+   "Cycnus",
+   "Daunus",
+   "Dido",
+   "Euryalus",
+   "Evander",
+   "Faunus",
+   "Gyas",
+   "Hyrtacus",
+   "Ilioneus",
+   "Juturna",
+   "Latinus",
+   "Lausus",
+   "Lavinia",
+   "Manto",
+   "Marica",
+   "Messapus",
+   "Metabus",
+   "Mezentius",
+   "Misenus",
+   "Mnestheus",
+   "Nisus",
+   "Numanus",
+   "Ocnus",
+   "Opheltes",
+   "Orontes",
+   "Palinurus",
+   "Pallas",
+   "Pandarus",
+   "Pygmalion",
+   "Romulus",
+   "Serestus",
+   "Sergestus",
+   "Silvia",
+   "Silvius",
+   "Sychæus",
+   "Tarchon",
+   "Tiber",
+   "Triton",
+   "Tyrrheus",
+   "Ufens",
+   "Ulysses",
+   "Venulus"
+  ],
+  "added_ancestors": 15,
+  "dropped": {
+   "unknown_endpoint": [],
+   "self_link": [],
+   "cycle": [],
+   "duplicate": 10
+  }
+ }
+}

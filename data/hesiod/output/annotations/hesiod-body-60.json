@@ -1,0 +1,397 @@
+{
+ "section_id": "hesiod-body-60",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11222,
+  "output": 3584
+ },
+ "result": {
+  "summary": "Apollo brings the infant Hermes before Zeus and accuses him of stealing his cattle, while Hermes brazenly denies it. Zeus laughs and sends them to Pylos to recover the herd, where Apollo is astonished by Hermes' tricks and then charmed by his lyre and song.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 25,
+    "title": "Trial before Zeus",
+    "summary": "Apollo accuses Hermes of cattle theft before Zeus; Hermes denies everything. Zeus laughs and orders Hermes to show where the cattle are.",
+    "stakes": "Hermes risks punishment, even Tartarus, if his theft is proved; Apollo risks losing his cattle.",
+    "present": [
+     "Hermes",
+     "Apollo",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the council of the gods",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 32,
+    "title": "Recovering the cattle at Pylos",
+    "summary": "The brothers go to Pylos and find the cattle and hides. Apollo tries to bind Hermes, but the withes take root and cover the cattle.",
+    "stakes": "Hermes faces being bound as a proven thief; Apollo faces the loss of his herd.",
+    "present": [
+     "Hermes",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pylos, by the ford of Alpheus",
+     "modern_name": "Pylos, Peloponnese",
+     "certainty": "traditional",
+     "lat": 37.02,
+     "lon": 21.7
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 40,
+    "title": "Hermes plays the lyre",
+    "summary": "Hermes softens Apollo by playing the lyre and singing of the gods' births, beginning with Mnemosyne. Apollo is seized with longing for the music.",
+    "stakes": "Hermes seeks to escape Apollo's anger by winning him over.",
+    "present": [
+     "Hermes",
+     "Apollo",
+     "Mnemosyne"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pylos, by the ford of Alpheus",
+     "modern_name": "Pylos, Peloponnese",
+     "certainty": "traditional",
+     "lat": 37.02,
+     "lon": 21.7
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hermes",
+    "aliases": [
+     "the Cyllenian",
+     "Slayer of Argus",
+     "son of Maia"
+    ],
+    "kind": "god",
+    "description": "newborn trickster son of Zeus and Maia, accused of theft"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoebus",
+     "Phoebus Apollo",
+     "Far-shooter",
+     "son of Leto"
+    ],
+    "kind": "god",
+    "description": "god of the silver bow whose cattle were stolen"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "father of the gods, who judges the dispute"
+   },
+   {
+    "name": "Maia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "mother of Hermes"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Apollo"
+   },
+   {
+    "name": "Helios",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sun god by whom Hermes pretends reverence"
+   },
+   {
+    "name": "Mnemosyne",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of the Muses, honoured first in Hermes' song"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Maia",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 30
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Mnemosyne",
+    "relation": "parent_of",
+    "b": "Muses",
+    "source": "text",
+    "evidence_sentence": 38
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phoebus",
+    "canonical": "Apollo",
+    "explanation": "Common epithet of Apollo, meaning bright."
+   },
+   {
+    "alias": "Slayer of Argus",
+    "canonical": "Hermes",
+    "explanation": "Epithet recalling Hermes' killing of the giant Argus."
+   },
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "Patronymic of Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 14,
+    "reason": "Hermes' shameless claim to truthfulness is comic irony.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "reason": "Apollo's vivid description of the baffling double tracks.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage celebrates cunning over strength: the infant Hermes outwits Apollo with lies and then with music.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The scene reflects Greek ideas of Hermes as patron of thieves, liars and bargains, and of divine disputes being settled by Zeus.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The tale of Hermes' theft and the lyre became a classic subject in later Greek and Roman literature, including Sophocles' satyr play Ichneutae."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The text breaks off at a lacuna in sentence 33, so part of the manuscript's account is lost.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "Standing \"at the knees\" of Zeus means standing before his throne, the posture of suppliants and litigants appealing to a powerful figure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Phoebus (\"bright\") is a common name for Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Pert\" means impudent or boldly forward; Apollo is astonished at the child's audacity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Sprite\" here means a supernatural, tricky being; Apollo cannot explain the strange tracks otherwise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Kine\" is an archaic plural for cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Tartarus is the deep pit beneath the earth where Zeus confined rebellious gods such as the Titans; it is a terrible threat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Helios is the sun god, who sees everything and so was invoked as a witness to oaths. Hermes names him to sound sincere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Slayer of Argus\" refers to Hermes killing the many-eyed giant Argus, a traditional epithet of Hermes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "Byre means a cowshed or cattle shelter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "phrasing",
+    "text": "Apollo means Hermes should not be allowed to grow up, since his cunning and strength as an adult would be fearsome.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "Withes are tough, flexible twigs used for binding; osier is a kind of willow whose shoots were used for this.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "phrasing",
+    "text": "The dots and the note 'LACUNA' mark a gap where the manuscript text is lost or damaged.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "word",
+    "text": "The 'key' is the plectrum, a small tool used to strike the lyre's strings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "phrasing",
+    "text": "'Winged words' is a standard Homeric formula for speech, as words fly from speaker to listener.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Zeus has implied Apollo is greedy for plunder; Apollo replies that this case is serious, not a petty complaint.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Pylos was a town in the western Peloponnese, where Hermes has hidden the cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Cyllene is the Arcadian mountain where Hermes was born, so he is called the Cyllenian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "The aegis is Zeus's awe-inspiring goatskin shield or cloak, a symbol of his power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Apollo, son of Leto, is the god of music, prophecy and archery. The stolen cattle were his herd.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "'Slayer of Argus' refers to Hermes killing the hundred-eyed giant Argus; 'Far-shooter' is a title of Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "Mnemosyne is the goddess of Memory and mother of the Muses. Hermes honours her first because song depends on remembering.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "Hyperbole",
+    "text": "Apollo's amazed exclamations and the image of walking on oak-trees exaggerate the strangeness of the tracks, and indirectly praise Hermes' cleverness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Simile",
+    "text": "Comparing the hidden baby to still dark night, unseen even by an eagle, stresses how convincingly Hermes feigns innocence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "Irony",
+    "text": "Hermes' claim to be truthful and unable to lie is absurd, since he is the trickster god and the poem has shown his lies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "Characterization",
+    "text": "Hermes' sidelong glances and clutching his swaddling-clothes show his sly, calculating nature while he plays the helpless baby.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "Dramatic irony",
+    "text": "Zeus knows the truth and is amused by the performance, while Hermes' denials are plainly false to the audience.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "irony",
+    "text": "Apollo mockingly stresses Hermes' babyhood while accusing him of a deed no infant could do, which shows the child's unnatural cunning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "symbolism",
+    "text": "The withes growing into living roots and covering the cattle shows Hermes' trickery turning even Apollo's attempt at control against him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "epithet",
+    "text": "Titles like 'slayer of Argus' and 'Far-shooter' recall each god's powers and add stately weight to the quarrel.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "characterization",
+    "text": "Apollo's laughter and soft longing show the god of music being disarmed by art, shifting the quarrel from anger to admiration.",
+    "spoiler": false
+   }
+  ]
+ }
+}

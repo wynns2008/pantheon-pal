@@ -1,0 +1,143 @@
+{
+ "section_id": "hesiod-body-83",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5329,
+  "output": 1170
+ },
+ "result": {
+  "summary": "The hymn's speaker announces a song to Zeus, the greatest and all-seeing lord of the gods, who counsels with Themis. The speaker then asks him to be gracious.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Invocation of Zeus",
+    "summary": "The singer praises Zeus as chief of the gods, shown whispering wisdom to Themis, and begs his favour.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Themis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "chief and greatest of the gods, all-seeing lord of all"
+   },
+   {
+    "name": "Themis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who sits beside Zeus and receives his counsel"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Zeus, named in his title"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "A patronymic title for Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 0,
+    "reason": "Concise opening praising Zeus as supreme and wise, in counsel with Themis.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn presents Zeus as supreme ruler whose power is joined with wisdom and justice, shown by his closeness to Themis, goddess of right order.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Like other short Homeric Hymns, it works as a brief prayer or proem, perhaps used to open a recitation.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "This hymn is only four lines long, one of the shortest in the collection.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Fulfiller\" translates the idea that Zeus brings plans and decrees to completion; nothing he ordains fails.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Leaning towards him\" depicts Themis sitting close and attentive, as a counsellor would, while Zeus speaks quietly to her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Be gracious\" is a formal prayer request, asking the god to look kindly on the singer and the song.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Themis is the goddess of divine law, custom and right order. In Hesiod she is a Titan, and she is counted among the wives of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "\"Son of Cronos\" refers to Zeus's father, the Titan Cronos, whom Zeus overthrew to become ruler of the gods.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "epithet",
+    "text": "Stacked titles (chiefest, greatest, all-seeing, lord of all) characterize Zeus by his power and knowledge, as in the formulaic style of hymns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "device": "apostrophe",
+    "text": "The singer turns from third-person narration to address Zeus directly, closing the hymn with a personal plea and repeating \"all-seeing\" as a frame.",
+    "spoiler": false
+   }
+  ]
+ }
+}

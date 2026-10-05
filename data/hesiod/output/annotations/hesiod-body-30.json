@@ -1,0 +1,429 @@
+{
+ "section_id": "hesiod-body-30",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10325,
+  "output": 3878
+ },
+ "result": {
+  "summary": "The suitors of Helen come to Tyndareus' house from many lands, offering gifts, and Tyndareus binds them all by an oath to defend the winner; Menelaus wins with the greatest gifts. After Hermione's birth, the text turns to Zeus's plan to destroy the race of demi-gods.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 13,
+    "title": "The suitors gather for Helen",
+    "summary": "Heroes from Phylace, Athens, Crete, Salamis and Euboea send gifts or come themselves to woo Helen at Tyndareus' house.",
+    "stakes": "Each suitor risks losing Helen to a rival who offers more.",
+    "present": [
+     "Podarces",
+     "Protesilaus",
+     "Tyndareus",
+     "Helen",
+     "Menestheus",
+     "Lycomedes",
+     "Aias",
+     "Elephenor",
+     "Idomeneus",
+     "Menelaus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lacedaemon",
+     "modern_name": "Sparta, Laconia",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 20,
+    "title": "Tyndareus' oath and Menelaus wins",
+    "summary": "Tyndareus takes oaths from all suitors to punish anyone who takes Helen by force. Menelaus prevails by his gifts, while Achilles is still a boy with Chiron.",
+    "stakes": "Tyndareus risks violence among the suitors; Achilles' absence decides Helen's fate.",
+    "present": [
+     "Tyndareus",
+     "Menelaus",
+     "Chiron",
+     "Achilles",
+     "Helen"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lacedaemon",
+     "modern_name": "Sparta, Laconia",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 29,
+    "title": "Zeus plans to end the demi-gods",
+    "summary": "Helen bears Hermione. Zeus, with the gods divided, plans to destroy the demi-gods and separate gods from men, and a figure carries out his father's counsels.",
+    "stakes": "The race of demi-gods and many heroes face destruction in Zeus's plan.",
+    "present": [
+     "Helen",
+     "Hermione",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Earth and the home of the gods",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Podarces",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Suitor from Phylace, son of Iphiclus"
+   },
+   {
+    "name": "Protesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Suitor from Phylace, son of Actor"
+   },
+   {
+    "name": "Tyndareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Helen's father, lord of Lacedaemon"
+   },
+   {
+    "name": "Helen",
+    "aliases": [
+     "Argive Helen"
+    ],
+    "kind": "mortal",
+    "description": "Famed maiden courted by many"
+   },
+   {
+    "name": "Menestheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian suitor, son of Peteous"
+   },
+   {
+    "name": "Lycomedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Suitor from Crete"
+   },
+   {
+    "name": "Aias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Suitor from Salamis, famed spearman"
+   },
+   {
+    "name": "Elephenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Suitor from Euboea, son of Chalcodon"
+   },
+   {
+    "name": "Idomeneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan suitor, son of Deucalion, who came himself"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Atreus, winner of Helen"
+   },
+   {
+    "name": "Chiron",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Tutor of the boy Achilles on Pelion"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Swift-footed son of Peleus, still a boy"
+   },
+   {
+    "name": "Hermione",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter born to Helen"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Thunderer planning to destroy the demi-gods"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Renowned father of Deucalion"
+   },
+   {
+    "name": "Deucalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Idomeneus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Deucalion",
+    "relation": "parent_of",
+    "b": "Idomeneus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Minos",
+    "relation": "parent_of",
+    "b": "Deucalion",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Helen",
+    "relation": "parent_of",
+    "b": "Hermione",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Tyndareus",
+    "relation": "parent_of",
+    "b": "Helen",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Menelaus",
+    "relation": "spouse_of",
+    "b": "Helen",
+    "source": "text",
+    "evidence_sentence": 20
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Argive Helen",
+    "canonical": "Helen",
+    "explanation": "Epithet linking Helen to the Argives, meaning Greeks."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 15,
+    "reason": "Tyndareus' oath of the suitors, a key origin of the Trojan War alliance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "reason": "Zeus's plan to end the demi-gods and separate gods from men.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The catalogue of suitors sets up the oath that will bind Greek heroes to fight at Troy, linking Helen's marriage to the end of the heroic age.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The wooing by gifts reflects archaic bridal-gift customs, and the list of heroes from many regions shows a pan-Hellenic view of heroic society.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The oath of the suitors became the standard explanation in later Greek literature for why the Greek kings joined the expedition against Troy."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The passage survives only in papyrus fragments, hence the gaps (lacunae), including the Berlin Papyrus.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Bridal-gifts: the suitor's gifts to the bride's father, a Homeric custom (hedna), offered to win a marriage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "The lacuna marks a gap in the damaged papyrus; the text is missing here and the fragments are incomplete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Tripods: three-legged bronze cauldrons or stands, valued as wealth and given as prizes and gifts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "'Fitting gifts, even wonderful deeds': Aias offers not goods but a promise to drive off cattle and sheep from many places.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Thwarts: the rowers' benches across a ship; 'many thwarts' means a large ship with many oarsmen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Ogygian sea: an old poetic epithet; Ogygian suggests ancient, primeval. Its exact application here is uncertain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "The translation uses Zeus here, though other lines may use another form; the line says Idomeneus came by divine prompting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Unmixed libations\" are pure wine poured out to the gods without water, making the oath especially solemn and binding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Do aught apart from him\" means act independently of the chosen husband in regard to the marriage, that is, interfere with it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Neat-ankled\" is a fixed descriptive adjective meaning trim or shapely of ankle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Mingle storm and tempest\" means stirring up war and disaster over the earth to thin out mankind.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "The lines are fragmentary; \"declaring those things that were, and are, and shall be\" describes a figure with prophetic knowledge, likely Apollo-like foresight, but the subject is lost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The sword sending heroes to Hades alludes to the coming Trojan War, through which Zeus plans to destroy the demi-gods.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Phylace was a Thessalian town. Protesilaus later was the first Greek killed at Troy, and Podarces took over his command.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Menestheus later led the Athenians at Troy. Peteous was his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Aias (Ajax) of Salamis was one of the greatest Greek warriors at Troy, known for his huge shield and long spear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Idomeneus later led the Cretans at Troy. His grandfather Minos was the legendary king of Crete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Tyndareus, Helen's mortal father, feared violence among her many suitors, so he bound them all to defend whoever became her husband.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Chiron was the wise centaur who raised heroes, including Achilles, on Mount Pelion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Achilles, the greatest warrior of the Trojan War, would have outshone every rival had he been old enough to woo Helen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Demi-gods were the children of gods and mortals; Zeus's plan to remove them is the origin of the Trojan War in this tradition.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "characterization",
+    "text": "Menestheus is shown as confident in wealth, trusting gifts over merit; his pride sets up his later failure to win Helen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "catalogue",
+    "text": "The long list of places Aias would plunder shows the scale of his promised gift and typifies Hesiodic catalogue style.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "contrast",
+    "text": "Idomeneus comes in person rather than sending envoys, setting him apart from earlier suitors who only sent gifts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "foreshadowing",
+    "text": "Zeus's prompting hints that the gathering serves a larger divine plan, ultimately the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "characterization",
+    "text": "Menelaus wins by wealth rather than prowess, subtly presenting him as a rich, practical suitor despite the epithet \"warlike.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "foreshadowing",
+    "text": "The mention of Achilles hints at the later war, in which the greatest hero would have been a rival for Helen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "metaphor",
+    "text": "\"Toil and sorrow upon sorrow\" pictures suffering as burdens heaped up by Zeus on the heroes.",
+    "spoiler": false
+   }
+  ]
+ }
+}

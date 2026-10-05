@@ -1,0 +1,718 @@
+{
+ "section_id": "hesiod-body-100",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11606,
+  "output": 6031
+ },
+ "result": {
+  "summary": "A set of fragments from the Cypria, the lost epic on the origins of the Trojan War. They cover Thetis and the wedding of Peleus, Aphrodite's flowery garments, the birth of Helen to Nemesis and Zeus, Helen's abduction, the Dioscuri, and scattered Trojan War details.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Thetis and Peleus's wedding",
+    "summary": "Thetis refuses Zeus to please Hera, and Zeus decrees she will marry a mortal. At the wedding on Pelion the gods bring Peleus gifts, including a spear.",
+    "stakes": "Thetis risks Zeus's anger by refusing him; Peleus gains a divine bride and gifts.",
+    "present": [
+     "Thetis",
+     "Zeus",
+     "Hera",
+     "Peleus",
+     "Cheiron",
+     "Athena",
+     "Hephaestus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pelion",
+     "modern_name": "Mount Pelion",
+     "certainty": "real",
+     "lat": 39.43,
+     "lon": 23.05
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 9,
+    "title": "Aphrodite's flowered garments",
+    "summary": "Aphrodite is clothed in garments dyed with spring flowers, then she and her attendants weave flower crowns and sing on Ida.",
+    "stakes": "",
+    "present": [
+     "Aphrodite",
+     "Graces",
+     "Hours",
+     "Nymphs"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Ida",
+     "modern_name": "Mount Ida, near Troy",
+     "certainty": "traditional",
+     "lat": 39.7,
+     "lon": 26.85
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 15,
+    "title": "Castor, Polydeuces, and Nemesis",
+    "summary": "Castor is mortal and Polydeuces immortal. Nemesis flees Zeus through many shapes but is caught and bears Helen.",
+    "stakes": "Nemesis is pursued and ultimately violated by Zeus.",
+    "present": [
+     "Castor",
+     "Polydeuces",
+     "Nemesis",
+     "Zeus",
+     "Helen"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Land and sea, Ocean's stream",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 21,
+    "title": "Helen's abduction and Aphidna",
+    "summary": "Helen's children and her voyage to Ilium with Alexandrus are noted. Earlier, Theseus carried her off, and the Dioscuri sacked Aphidna and Athens.",
+    "stakes": "Helen's abductions cause war; Aphidna is sacked.",
+    "present": [
+     "Helen",
+     "Alexandrus",
+     "Theseus",
+     "Castor",
+     "Aphidnus",
+     "Alycus",
+     "Pleisthenes",
+     "Aganus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Aphidna",
+     "modern_name": "Aphidna, Attica",
+     "certainty": "real",
+     "lat": 38.2,
+     "lon": 23.9
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 24,
+    "title": "Lynceus spies the Dioscuri",
+    "summary": "Lynceus climbs Taygetus and sees Castor and Polydeuces hidden in an oak. Castor is killed by Idas.",
+    "stakes": "Castor's life is at risk from Idas and Lynceus.",
+    "present": [
+     "Lynceus",
+     "Castor",
+     "Polydeuces",
+     "Idas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Taygetus",
+     "modern_name": "Taygetus range, Greece",
+     "certainty": "real",
+     "lat": 36.95,
+     "lon": 22.35
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 34,
+    "title": "Scattered Trojan War fragments",
+    "summary": "Short fragments on wine, Agamemnon's daughters, Achilles' anger, Protesilaus's wife, Chryseis, Palamedes' death, the Gorgons, and a proverb.",
+    "stakes": "",
+    "present": [
+     "Menelaus",
+     "Agamemnon",
+     "Achilles",
+     "Protesilaus",
+     "Polydora",
+     "Chryseis",
+     "Palamedes",
+     "Diomedes",
+     "Odysseus",
+     "Iphigeneia",
+     "Iphianassa"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Troy and the Greek camp",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.96,
+     "lon": 26.24
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sea goddess who avoided Zeus and wed Peleus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "king of the gods, pursuer of Nemesis"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess Thetis wished to please"
+   },
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mortal husband of Thetis"
+   },
+   {
+    "name": "Cheiron",
+    "aliases": [],
+    "kind": "creature",
+    "description": "gave Peleus an ashen spear"
+   },
+   {
+    "name": "Athena",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "polished the spear"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "fitted the spearhead"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess in flowery garments"
+   },
+   {
+    "name": "Graces",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "made garments and sang"
+   },
+   {
+    "name": "Hours",
+    "aliases": [
+     "Seasons"
+    ],
+    "kind": "goddess",
+    "description": "helped make Aphrodite's garments"
+   },
+   {
+    "name": "Nymphs",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "attendants wearing flower crowns"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mortal Dioscurus"
+   },
+   {
+    "name": "Polydeuces",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "immortal son of Ares per the fragment"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Polydeuces here"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Nemesis, taken to Troy"
+   },
+   {
+    "name": "Nemesis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "fled Zeus, mother of Helen"
+   },
+   {
+    "name": "Alexandrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "took Helen to Ilium"
+   },
+   {
+    "name": "Pleisthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Helen's third child, taken to Cyprus"
+   },
+   {
+    "name": "Aganus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "child of Helen and Alexandrus"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "earlier abductor of Helen"
+   },
+   {
+    "name": "Aphidnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who wounded Castor"
+   },
+   {
+    "name": "Alycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killed by Theseus near Aphidna"
+   },
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "keen-sighted hero on Taygetus"
+   },
+   {
+    "name": "Idas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aphareus, killed Castor"
+   },
+   {
+    "name": "Aphareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Idas"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "addressed about wine"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of men"
+   },
+   {
+    "name": "Iphigeneia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Agamemnon"
+   },
+   {
+    "name": "Iphianassa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Agamemnon"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with an angry heart"
+   },
+   {
+    "name": "Protesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first Greek to land at Troy"
+   },
+   {
+    "name": "Polydora",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Protesilaus"
+   },
+   {
+    "name": "Meleager",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Polydora"
+   },
+   {
+    "name": "Oeneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Meleager"
+   },
+   {
+    "name": "Chryseis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "captive woman from Thebes"
+   },
+   {
+    "name": "Andromache",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "townswoman of Chryseis"
+   },
+   {
+    "name": "Palamedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "drowned while fishing"
+   },
+   {
+    "name": "Diomedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "helped cause Palamedes' death"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "helped cause Palamedes' death"
+   },
+   {
+    "name": "Gorgons",
+    "aliases": [],
+    "kind": "monster",
+    "description": "fearful monsters on Sarpedon"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Nemesis",
+    "relation": "parent_of",
+    "b": "Helen",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Helen",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Nemesis",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Ares",
+    "relation": "parent_of",
+    "b": "Polydeuces",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Meleager",
+    "relation": "parent_of",
+    "b": "Polydora",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Oeneus",
+    "relation": "parent_of",
+    "b": "Meleager",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Aphareus",
+    "relation": "parent_of",
+    "b": "Idas",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Protesilaus",
+    "relation": "spouse_of",
+    "b": "Polydora",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Peleus",
+    "relation": "spouse_of",
+    "b": "Thetis",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Helen",
+    "relation": "lover_of",
+    "b": "Alexandrus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "sibling_of",
+    "b": "Menelaus",
+    "source": "outside",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Nemesis",
+    "relation": "transformed_into",
+    "b": "fish",
+    "source": "text",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Dioscuri",
+    "canonical": "Castor",
+    "explanation": "Collective name for Castor and Polydeuces."
+   },
+   {
+    "alias": "Seasons",
+    "canonical": "Hours",
+    "explanation": "The text uses Hours and Seasons for the same goddesses."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 25,
+    "reason": "Praise of wine as the best remedy for human cares.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "reason": "Proverb on avenging a father's killing; often quoted.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The fragments trace the causes of the Trojan War: divine marriages, Helen's divine birth, and her abductions.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The poem is lost, known only through quotations by later writers, and its authorship was disputed between Stasinus and Hegesias.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Cypria supplied the prehistory of the Trojan War that later Greek poets and dramatists drew on, including the story of Helen's birth from Nemesis."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ancient sources disagreed on who wrote the Cypria, naming Stasinus of Cyprus or Hegesias, and some attributed it to Homer.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Pelion is a wooded mountain in Thessaly, home of the centaur Cheiron. Peleus's wedding feast there was a famous event, later leading to the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "A \"shaft\" is a spear's wooden body; the \"head\" is the metal point. This spear later became the famous spear of Achilles, Peleus's son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Ancient writers disputed who composed the Cypria; Hegesias and Stasinus were the names proposed, so the quoting scholar hedges.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "The Hours and Seasons are goddesses of the turning year, here imagined as dressing in flowers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Bright-coiffed\" means with beautifully dressed hair; \"coiffed\" is from French coiffure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Castor and Polydeuces were twin brothers; in this version only Polydeuces, son of a god, was immortal, while Castor had a mortal father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Her father Zeus\": in this tradition Nemesis is Zeus's daughter, so his pursuit is also incestuous, which explains her shame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Ocean's stream is the river the Greeks thought encircled the world, so the chase covers the whole earth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "A scholiast is an ancient commentator whose notes survive in manuscript margins; here he quotes the lost Cypria. \"Cyprian histories\" means the Cypria.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "The earlier rape: Theseus of Athens seized the young Helen, and her brothers the Dioscuri (Castor and Polydeuces) came to recover her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "\"Cyclic writers\" are the poets of the Epic Cycle, the lost epics that told the Trojan War story beyond Homer's Iliad and Odyssey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"The whole isle of Pelops\" means the Peloponnese, literally \"island of Pelops\", though it is a peninsula.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "Palamedes was a Greek hero said to have exposed Odysseus's feigned madness; this tradition explains Odysseus's enmity toward him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "phrasing",
+    "text": "The proverb says that killing a man yet sparing his sons invites their revenge.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Thetis was a sea goddess. Zeus had desired her, but a prophecy said her son would be greater than his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Cheiron was a wise centaur who taught heroes. Athena was goddess of crafts and war, and Hephaestus was the divine smith.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Aphrodite is the goddess of love and beauty, so fragrance and flowers are fitting to her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Helen, whose abduction caused the Trojan War, is usually called Zeus's daughter by Leda; the Cypria gives her mother as Nemesis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Nemesis is the goddess of retribution and indignation at wrongdoing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Alexandrus is another name for Paris, the Trojan prince who took Helen. Herodotus cites this to argue Homer did not write the Cypria.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Idas and his brother Lynceus, sons of Aphareus, quarrelled with the Dioscuri; in this version Idas kills Castor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Protesilaus was the first Greek to leap ashore at Troy and the first to die.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "The Gorgons were monstrous sisters, the best known being Medusa, whose gaze turned people to stone.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "imagery",
+    "text": "A catalogue of flowers and scents builds a rich sensory picture of spring and the goddess's beauty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "epithet",
+    "text": "\"Laughter-loving\" and \"golden\" are stock descriptions of Aphrodite, typical of epic style.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "characterization",
+    "text": "Zeus is shown as relentless in desire, a ruler who pursues what he wants despite refusal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "anaphora",
+    "text": "The repeated \"now... and now\" conveys the frantic, ever-changing flight and the vast range of the chase.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "epithet",
+    "text": "Lynceus is characterized by his swift feet; elsewhere he is known for sharp sight, which the next lines use.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "imagery",
+    "text": "The panoramic view from the peak and the brothers hidden in a hollow oak create a vivid, tense picture of pursuit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "irony",
+    "text": "The speaker's regret that he angered Achilles, whom he loved, anticipates the later wrath that brings great suffering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "aphorism",
+    "text": "The closing maxim, that shame accompanies fear, compresses a moral observation into a memorable general truth.",
+    "spoiler": false
+   }
+  ]
+ }
+}

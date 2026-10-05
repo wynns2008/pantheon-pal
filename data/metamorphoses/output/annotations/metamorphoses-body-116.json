@@ -1,0 +1,415 @@
+{
+ "section_id": "metamorphoses-body-116",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10748,
+  "output": 3685
+ },
+ "result": {
+  "summary": "Turnus tries to burn the Trojan fleet, but Cybele saves the ships by turning them into sea nymphs. After Turnus falls and Ardea burns, a bird rises from the ashes, and Venus wins Jupiter's consent to make Æneas a god, which the river Numicius and Venus then bring about.",
+  "scenes": [
+   {
+    "start_sentence": 3,
+    "end_sentence": 14,
+    "title": "Cybele saves the burning ships",
+    "summary": "Turnus fires the Trojan ships; Cybele raises a storm, frees the ships and turns them into sea Naiads who still help sailors except Greeks.",
+    "stakes": "The Trojan fleet, made of Cybele's sacred pines, faces destruction by fire.",
+    "present": [
+     "Turnus",
+     "Cybele",
+     "Naiads"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the Trojan camp and fleet",
+     "modern_name": "Latium coast, Italy",
+     "certainty": "traditional",
+     "lat": 41.6,
+     "lon": 12.5
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 20,
+    "title": "Turnus falls; Ardea burns",
+    "summary": "Turnus persists in the war; Æneas wins, Turnus dies, and Ardea is burnt, and a bird rises from its ruins.",
+    "stakes": "Turnus and his city face defeat and destruction.",
+    "present": [
+     "Turnus",
+     "Æneas",
+     "Venus",
+     "Lavinia"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ardea",
+     "modern_name": "Ardea, Italy",
+     "certainty": "real",
+     "lat": 41.61,
+     "lon": 12.54
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 25,
+    "title": "Venus pleads with Jupiter",
+    "summary": "Venus begs Jupiter to make Æneas a god; the gods and Juno assent and Jupiter grants it.",
+    "stakes": "Æneas's chance at immortality depends on Jupiter's consent.",
+    "present": [
+     "Venus",
+     "Jupiter",
+     "Juno",
+     "Æneas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Heaven, home of the gods",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 31,
+    "title": "Æneas becomes a god",
+    "summary": "Venus has the river Numicius wash away Æneas's mortal part, anoints him with ambrosia and nectar, and the Romans worship him as Indiges.",
+    "stakes": "",
+    "present": [
+     "Venus",
+     "Numicius",
+     "Æneas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Laurentine shore, river Numicius",
+     "modern_name": "near Pratica di Mare, Italy",
+     "certainty": "traditional",
+     "lat": 41.66,
+     "lon": 12.48
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Turnus",
+    "aliases": [
+     "the Rutulian"
+    ],
+    "kind": "mortal",
+    "description": "Rutulian king who attacks the Trojan fleet and dies"
+   },
+   {
+    "name": "Cybele",
+    "aliases": [
+     "the holy Mother of the Gods",
+     "the genial Mother"
+    ],
+    "kind": "goddess",
+    "description": "Mother of the Gods who saves her pine ships"
+   },
+   {
+    "name": "Æneas",
+    "aliases": [
+     "the hero",
+     "son of Cytherea"
+    ],
+    "kind": "mortal",
+    "description": "Trojan hero, made a god"
+   },
+   {
+    "name": "Venus",
+    "aliases": [
+     "Cytherea"
+    ],
+    "kind": "goddess",
+    "description": "Mother of Æneas who wins his deification"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [
+     "her father"
+    ],
+    "kind": "god",
+    "description": "King of the gods who grants Venus's request"
+   },
+   {
+    "name": "Juno",
+    "aliases": [
+     "his royal wife"
+    ],
+    "kind": "goddess",
+    "description": "Jupiter's wife who gives up her resentment"
+   },
+   {
+    "name": "Numicius",
+    "aliases": [],
+    "kind": "god",
+    "description": "Horned river god who washes away Æneas's mortality"
+   },
+   {
+    "name": "Naiads",
+    "aliases": [
+     "sea Nymphs"
+    ],
+    "kind": "nymph",
+    "description": "The transformed Trojan ships"
+   },
+   {
+    "name": "Iülus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Æneas, his power now established"
+   },
+   {
+    "name": "Lavinia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Virgin once sought as Turnus's bride"
+   },
+   {
+    "name": "Astræus",
+    "aliases": [],
+    "kind": "other",
+    "description": "Father of the storm winds"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Venus",
+    "relation": "parent_of",
+    "b": "Æneas",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Venus",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Jupiter",
+    "relation": "spouse_of",
+    "b": "Juno",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Æneas",
+    "relation": "parent_of",
+    "b": "Iülus",
+    "source": "outside",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Astræus",
+    "relation": "parent_of",
+    "b": "Naiads",
+    "source": "outside",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cytherea",
+    "canonical": "Venus",
+    "explanation": "Epithet of Venus, linked to the island Cythera."
+   },
+   {
+    "alias": "Indiges",
+    "canonical": "Æneas",
+    "explanation": "Title given to Æneas as a deified native god."
+   },
+   {
+    "alias": "the people of Quirinus",
+    "canonical": "Romans",
+    "explanation": "The Romans, named after Quirinus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Shows the war continuing from pride and shame rather than any real aim.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Divine protection and transformation save Troy's remnant, linking Ovid's metamorphoses to Rome's founding.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Æneas's apotheosis as Indiges echoes Roman cult and prepares for the deification of rulers such as Julius Caesar and Augustus.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The ships-to-nymphs episode comes from Virgil's Aeneid, which Ovid reworks, and the Ardea bird (heron) gives a Latin pun on the name."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ardea means heron in Latin, so the bird from the ashes is a pun on the city's name.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Ætolian arms refused: Turnus's envoy had sought help from Diomedes, a Greek hero now settled in Italy, who declined to fight the Trojans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Mother of the Gods is Cybele, whose sacred pines on Mount Ida were felled to build the Trojan ships; cymbals and pipes belong to her rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Sons of Astræus are the winds, brothers born of the Titan Astræus; Cybele borrows one to break the ships' moorings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "'Him of Neritos' is Ulysses, from Ithaca's Mount Neritos; the Pelasgians are the Greeks. His ship's wreck is not shown here but alluded to.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Alcinoüs's ship refers to the Phaeacian ship that carried Ulysses home and was turned to stone by Neptune near the coast.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Prodigy\" means a portent or marvel; here the transformation of Æneas's ships into sea Nymphs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Lavinia, daughter of King Latinus, was the prize promised to Æneas; Turnus had also sought her hand, which was the original cause of the war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Ardea was Turnus's city; its name suggests Latin ardea, 'heron', which prepares for the bird that rises from the ashes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "Iülus is Ascanius, son of Æneas; Cytherea is Venus, named for the island of Cythera, associated with her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "The \"unsightly realms\" and Stygian streams refer to the underworld, which Æneas had already visited alive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "Numicius is a small river in Latium near Laurentum; here a river god with reeds and horns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "\"People of Quirinus\" means the Romans, after Romulus deified as Quirinus. Indiges is a title for a deified native hero or local god.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Cybele's lions drew her chariot; she was a Phrygian mother goddess, so she protects the Trojan (Phrygian) fleet built from her sacred trees.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Naiads are properly freshwater nymphs; here the ships become sea nymphs, a new kind of divine being in the ocean.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Both sides have divine backing: Venus and later Juno's reluctant stance for the Trojans, and local gods for the Rutulians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Juno, the royal wife of Jupiter, had long persecuted the Trojans, so her assent marks the end of her hostility.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Doves were the birds that drew Venus's chariot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Ambrosia and nectar were the food and drink of the gods, conferring immortality.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "Irony",
+    "text": "Ships that survived the sea now fear fire, a reversal of the danger they had escaped.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Metaphor",
+    "text": "Each ship part is matched to a body part, so the transformation is told as a point-by-point correspondence between hull and body.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "Characterization",
+    "text": "The nymphs keep human memory and loyalties, helping sailors but shunning Greeks, so the transformation preserves Trojan feeling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Apostrophe",
+    "text": "The narrator turns to address Lavinia directly, adding pathos by showing she is no longer even the aim of the fighting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "Personification",
+    "text": "The bird takes on the city's voice, pallor and mourning, so the ruined city seems to lament itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "Repetition",
+    "text": "The repeated \"enough\" and \"once\" make Venus's plea sound modest and persuasive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "Symbolism",
+    "text": "The surviving \"superior essence\" signifies the divine part of Æneas, separated from mortality by apotheosis.",
+    "spoiler": false
+   }
+  ]
+ }
+}

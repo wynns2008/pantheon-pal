@@ -1,0 +1,685 @@
+{
+ "section_id": "hesiod-body-26",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12043,
+  "output": 5766
+ },
+ "result": {
+  "summary": "Fragments from the Catalogues of Women tell how Zeus carried Europa to Crete and fathered Minos, Rhadamanthys and Sarpedon, with Sarpedon's role at Troy. The remaining short fragments give genealogies and geographical notes about Phoenix's family, Niobe's children, Boeotian places and the Pelasgians.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 13,
+    "title": "Europa, Zeus and Sarpedon",
+    "summary": "Zeus carries Europa to Crete, gives her the golden necklace and fathers three sons. Sarpedon rules Lycia and fights at Troy as an ally of the Trojans.",
+    "stakes": "Sarpedon risks his life as a Trojan ally, though Zeus has granted him a long life.",
+    "present": [
+     "Europa",
+     "Zeus",
+     "Hephaestus",
+     "Minos",
+     "Rhadamanthys",
+     "Sarpedon",
+     "Hector",
+     "Patroclus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Crete",
+     "modern_name": "Crete",
+     "certainty": "real",
+     "lat": 35.2,
+     "lon": 24.9
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 19,
+    "title": "Scholiast's Europa and the Bull",
+    "summary": "Zeus, as a bull, abducts Europa from a meadow and takes her to Crete. She lives with King Asterion and bears three sons.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Europa",
+     "Asterion",
+     "Minos",
+     "Sarpedon",
+     "Rhadamanthys"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Crete",
+     "modern_name": "Crete",
+     "certainty": "real",
+     "lat": 35.2,
+     "lon": 24.9
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 25,
+    "title": "Genealogies of Phoenix and Agenor",
+    "summary": "Short notes name the parentage of Phineus and Adonis, the suitors of Demodoce, and the number of Niobe's children.",
+    "stakes": "",
+    "present": [
+     "Phineus",
+     "Phoenix",
+     "Agenor",
+     "Cassiopea",
+     "Adonis",
+     "Alphesiboea",
+     "Demodoce",
+     "Amphion",
+     "Niobe"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Phoenicia",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 35,
+    "title": "Theban and Boeotian Notes",
+    "summary": "Fragments mention Oedipus's funeral, Tityos, the Cephisus river, Arnae, Onchestus and the plain of Aega.",
+    "stakes": "",
+    "present": [
+     "Oedipus",
+     "Argea",
+     "Adrastus",
+     "Tityos",
+     "Elara",
+     "Eteoclus",
+     "Cephisus",
+     "Areithous",
+     "Onchestus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Boeotia",
+     "modern_name": "Boeotia, Greece",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 36,
+    "end_sentence": 37,
+    "title": "The Pelasgians",
+    "summary": "Hesiod is cited for Pelasgus being born from the earth and for Lycaon's sons descending from him.",
+    "stakes": "",
+    "present": [
+     "Pelasgus",
+     "Lycaon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Arcadia",
+     "modern_name": "Arcadia, Greece",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.3
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [
+     "the Father",
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "king of the gods, father of Minos, Rhadamanthys and Sarpedon"
+   },
+   {
+    "name": "Europa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Phoenix, carried to Crete by Zeus"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "craftsman god who made the golden necklace"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Zeus and Europa, ruler"
+   },
+   {
+    "name": "Rhadamanthys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "just son of Zeus and Europa"
+   },
+   {
+    "name": "Sarpedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Lycia, Trojan ally"
+   },
+   {
+    "name": "Hector",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan hero"
+   },
+   {
+    "name": "Patroclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who rouses the Argives"
+   },
+   {
+    "name": "Asterion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Cretans"
+   },
+   {
+    "name": "Phoenix",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Europa, Phineus and Adonis"
+   },
+   {
+    "name": "Phineus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phoenix"
+   },
+   {
+    "name": "Agenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Demodoce and Phoenix"
+   },
+   {
+    "name": "Cassiopea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Phineus"
+   },
+   {
+    "name": "Adonis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phoenix and Alphesiboea"
+   },
+   {
+    "name": "Alphesiboea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Adonis"
+   },
+   {
+    "name": "Demodoce",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "beautiful daughter of Agenor"
+   },
+   {
+    "name": "Amphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Niobe's children"
+   },
+   {
+    "name": "Niobe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of many children"
+   },
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "died at Thebes"
+   },
+   {
+    "name": "Argea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Adrastus"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Argea"
+   },
+   {
+    "name": "Tityos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Elara"
+   },
+   {
+    "name": "Elara",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Tityos"
+   },
+   {
+    "name": "Eteoclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cephisus, first sacrificed to the Graces"
+   },
+   {
+    "name": "Cephisus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river of Orchomenus, father of Eteoclus"
+   },
+   {
+    "name": "Areithous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boeotian of Arnae, father of Menesthius"
+   },
+   {
+    "name": "Onchestus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boeotian founder of Onchestus"
+   },
+   {
+    "name": "Pelasgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "earth-born ancestor of the Pelasgians"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "godlike father of sons by Pelasgus's line"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Minos",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Rhadamanthys",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Sarpedon",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Europa",
+    "relation": "parent_of",
+    "b": "Minos",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Europa",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Phoenix",
+    "relation": "parent_of",
+    "b": "Europa",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Phoenix",
+    "relation": "parent_of",
+    "b": "Adonis",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Alphesiboea",
+    "relation": "parent_of",
+    "b": "Adonis",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Phoenix",
+    "relation": "parent_of",
+    "b": "Phineus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Cassiopea",
+    "relation": "parent_of",
+    "b": "Phineus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Agenor",
+    "relation": "parent_of",
+    "b": "Demodoce",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Elara",
+    "relation": "parent_of",
+    "b": "Tityos",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Cephisus",
+    "relation": "parent_of",
+    "b": "Eteoclus",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Pelasgus",
+    "relation": "parent_of",
+    "b": "Lycaon",
+    "source": "text",
+    "evidence_sentence": 37
+   },
+   {
+    "a": "Zeus",
+    "relation": "transformed_into",
+    "b": "bull",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Amphion",
+    "relation": "spouse_of",
+    "b": "Niobe",
+    "source": "outside",
+    "evidence_sentence": 24
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "Patronymic title for Zeus."
+   },
+   {
+    "alias": "the Father",
+    "canonical": "Zeus",
+    "explanation": "Epithet 'Father of men and of gods'."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 25,
+    "reason": "Ancient critic doubts that these verses are truly Hesiod's, showing attribution problems.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The Catalogue traces heroic lineages through unions of gods with mortal women, linking families and places across the Greek world.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "These fragments survive only as quotations in scholiasts and ancient writers, showing how the poem served as a genealogical reference.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Zeus as a bull carrying off Europa became a major theme in Greek vase painting, Ovid and later European art, and gave the continent its name."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Aelian doubted whether Hesiod wrote the verses giving Niobe's children as nine boys and ten girls.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Hephaestus, smith god, made the necklace; the passage says he gave it to his father Zeus. The necklace here is a love-gift to Europa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Daughter of proud Phoenix is Europa. In this version she is Phoenix's daughter, not the daughter of Agenor as in other accounts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Bare is the old past tense of 'bear': she gave birth to sons.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "Shepherd of the people is a Homeric title for a king, who guards his subjects as a shepherd guards sheep.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "The text is broken; a star sent as a sign for Sarpedon's return is obscure, and dots mark missing words in the papyrus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Danaans is a Homeric name for the Greeks, like Argives in the next sentence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "A scholiast is an ancient commentator whose marginal notes (scholia) on a text preserve otherwise lost material, such as these Hesiodic fragments.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "Zeus breathing a crocus from his mouth is an odd detail; the flower presumably lured Europa or marked the god's miraculous disguise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"In this condition\" means as a woman now pregnant by Zeus; Asterion then takes her in, and later tradition has him raise her sons.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Bacchylides was a Greek lyric poet of the fifth century BC, who also told the story of Europa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Wooed\" means courted as suitors; the gifts are bride-gifts offered to her father to win her hand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "Aelian doubts the verses are authentic, since many poems were falsely attributed to Hesiod in antiquity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "A scholiast is an ancient commentator whose notes on a text, here Homer's Iliad, preserve fragments of lost works like this one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "The Graces (Charites) were goddesses of charm and beauty, worshipped at Orchomenus; Pindar's Olympian 14 honours them as patrons of that city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "'Winding like a snake' describes the Cephisus's twisting course through the Boeotian plain; Panopeus and Glechon are places along it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "word",
+    "text": "Autochthonous means sprung from the earth itself, a native people or ancestor with no parents elsewhere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "allusion",
+    "text": "Ephorus was a 4th-century BC historian; Strabo cites him as quoting Hesiod, so this is secondhand evidence for the line.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Zeus, in the form of a bull in the usual story, carried Europa from Phoenicia to Crete. Her name later gave Europe its name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Minos, Rhadamanthys and Sarpedon are Zeus's sons by Europa. Minos and Rhadamanthys became famous as a king of Crete and a judge of the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Sarpedon leads the Lycians as allies of Troy in the Trojan War, as in Homer's Iliad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "In the Iliad, Patroclus enters the fighting in Achilles' armour and rallies the Greeks. There he kills Sarpedon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Europa is a Phoenician princess here; in other versions her father is Agenor. The fragments reflect this variant genealogy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Minos became king of Crete, Sarpedon a Lycian ruler, and Rhadamanthys a judge of the dead in later tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Adonis is the beautiful youth loved by Aphrodite; most accounts give him other parents, so Hesiod's version is a variant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Niobe, wife of Amphion of Thebes, boasted of her many children, and Apollo and Artemis killed them; sources disagree on their number.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Tityos was a giant, in myth the son of Elara, later punished in the underworld for assaulting Leto.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Onchestus in Boeotia was famed for a grove and sanctuary of Poseidon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "Cirrha was a town near Delphi on the Gulf of Corinth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Lycaon was a legendary king of Arcadia; Pelasgians were regarded as an ancient people of Greece.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "epithet",
+    "text": "The famed craftsman marks Hephaestus with a fixed descriptive phrase, typical of epic style, and stresses the necklace's skilled making.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "foreshadowing",
+    "text": "Sarpedon's extended life, though not immortal, hints that his death will come at Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "characterization",
+    "text": "Pairing Sarpedon with man-slaying Hector shows him as a great warrior and gives Troy's enemies cause for woe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Metamorphosis",
+    "text": "Zeus's transformation into a bull is a classic divine shape-change used to seduce mortal women without being recognized.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Euphemism",
+    "text": "The plain phrase \"had intercourse\" summarizes the scholiast's dry, factual retelling of a mythic abduction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "Hyperbole",
+    "text": "\"Very many of men\" and \"exceeding beauty\" magnify Demodoce's desirability in typical epic praise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "simile",
+    "text": "The river is compared to a snake, conveying its slow, sinuous curves across the land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "epithet",
+    "text": "'God-like' is a conventional epic epithet that ennobles Lycaon and marks the verse's heroic genealogical style.",
+    "spoiler": false
+   }
+  ]
+ }
+}

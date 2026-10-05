@@ -1,0 +1,189 @@
+{
+ "section_id": "metamorphoses-body-11",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6957,
+  "output": 1762
+ },
+ "result": {
+  "summary": "After the deluge, the sun-warmed earth spontaneously produces new creatures, as the Nile mud does, and among them the monstrous serpent Python. Apollo kills Python with arrows and founds the Pythian games, whose victors are crowned with beech leaves because the laurel does not yet exist.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Earth breeds life from warm mud",
+    "summary": "The narrator explains how heat and moisture let the earth generate creatures after the flood, comparing it to the Nile's mud after its flooding recedes.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "the Nile's fields",
+     "modern_name": "Nile Delta, Egypt",
+     "certainty": "real",
+     "lat": 30.9,
+     "lon": 31.0
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 9,
+    "title": "Apollo slays Python",
+    "summary": "Earth produces the huge serpent Python, which terrifies mankind until Apollo kills him with arrows and founds the Pythian games, with beech-leaf crowns for victors.",
+    "stakes": "Mankind is terrorised by Python; Apollo must kill the monster with a nearly exhausted quiver.",
+    "present": [
+     "Python",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "a mountain slope",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Python",
+    "aliases": [],
+    "kind": "monster",
+    "description": "enormous serpent born of the earth, slain by Apollo"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phœbus",
+     "Pythius",
+     "The God that bears the bow"
+    ],
+    "kind": "god",
+    "description": "archer god who kills Python and founds the Pythian games"
+   },
+   {
+    "name": "Earth",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "the earth, treated as a mother who brings forth creatures"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Earth",
+    "relation": "parent_of",
+    "b": "Python",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phœbus",
+    "canonical": "Apollo",
+    "explanation": "Phœbus is a common epithet of Apollo, the archer god."
+   },
+   {
+    "alias": "Pythius",
+    "canonical": "Apollo",
+    "explanation": "Apollo takes this surname from his victory over the serpent Python."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Gives Ovid's account of Apollo killing Python and founding the Pythian games.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Continuing the post-flood renewal, nature's spontaneous generation yields both new creatures and monsters, and Apollo's victory shows order being imposed on chaos.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The account reflects ancient belief in spontaneous generation from warm mud, with the Nile as the standard example, and ties myth to the origin of the Pythian games at Delphi.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Pythian games at Delphi were one of the four great Panhellenic festivals, and the word 'python' for the snake descends from this myth."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "In Ovid's telling the first victors' crowns are of beech leaves only because the laurel, which becomes Apollo's emblem, has not yet come into being; the next story explains it.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Pythius\" is a surname of Apollo, derived from Python; the games are called Pythian for the same reason.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Nile's seven mouths (branches in its delta) are a standard ancient description. The yearly flood left fertile mud, and ancient writers believed it spawned creatures.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Discordant concord\" is an oxymoron drawn from ancient natural philosophy: opposites like fire and moisture combine to produce life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"The God that bears the bow\" is a periphrasis for Apollo, who is not named in this sentence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Beechen\" means made of beech. The crown is a temporary substitute, since the laurel is not yet associated with Apollo.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 7,
+    "text": "Apollo is the god of archery, prophecy, music and healing. Python was said to guard Delphi, where his oracle was later established.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The laurel became Apollo's sacred tree after Daphne's transformation, which Ovid tells next.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "imagery",
+    "text": "Half-formed creatures, part animate and part clod, give a vivid picture of life emerging from matter, echoing the poem's theme of change.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "apostrophe",
+    "text": "The narrator suddenly addresses the dead serpent directly, making its size and menace vivid and dramatic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "foreshadowing",
+    "text": "Noting that the laurel does not yet exist hints at the coming story of Daphne and Apollo.",
+    "spoiler": false
+   }
+  ]
+ }
+}

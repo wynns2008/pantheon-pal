@@ -1,0 +1,308 @@
+{
+ "section_id": "hesiod-body-65",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8098,
+  "output": 2740
+ },
+ "result": {
+  "summary": "Aphrodite, speaking to the mortal Anchises, tells how Eos won deathlessness for Tithonus but forgot youth, so he withered into endless old age. She says she does not wish this for him, foretells the birth of their son to be raised by mountain Nymphs, and warns him never to boast of their union. She then rises to heaven, and the hymn ends with a farewell.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "The tale of Tithonus",
+    "summary": "Aphrodite recounts how Eos obtained deathlessness for Tithonus without youth, and he became a babbling old man shut in a room. She says she would not wish such immortality on Anchises.",
+    "stakes": "Tithonus is trapped in endless, helpless old age; Anchises is warned of the same fate if made deathless.",
+    "present": [
+     "Aphrodite",
+     "Eos",
+     "Tithonus",
+     "Zeus",
+     "Anchises"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the streams of Ocean, at the ends of the earth",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 20,
+    "title": "Aphrodite's shame and instructions",
+    "summary": "Aphrodite laments her shame at mating with a mortal, describes the Nymphs who will raise her son, and tells Anchises to bring the boy to Ilion and keep her name secret.",
+    "stakes": "Anchises risks Zeus's thunderbolt if he boasts of lying with Aphrodite; Aphrodite risks ridicule among the gods.",
+    "present": [
+     "Aphrodite",
+     "Anchises",
+     "Zeus",
+     "Nymphs",
+     "Sileni",
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the forest-clad hill (Ida)",
+     "modern_name": "Mount Ida, near Troy",
+     "certainty": "traditional",
+     "lat": 39.7,
+     "lon": 26.85
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 23,
+    "title": "Departure and farewell",
+    "summary": "Aphrodite soars up to heaven, and the poet bids her hail and moves on to another hymn.",
+    "stakes": "",
+    "present": [
+     "Aphrodite"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "windy heaven",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "rich-crowned Aphrodite",
+     "queen of well-builded Cyprus"
+    ],
+    "kind": "goddess",
+    "description": "goddess of love who has lain with Anchises and speaks to him"
+   },
+   {
+    "name": "Eos",
+    "aliases": [
+     "golden-throned Eos"
+    ],
+    "kind": "goddess",
+    "description": "goddess of dawn who loved Tithonus"
+   },
+   {
+    "name": "Tithonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eos's lover, granted deathlessness but not youth"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "king of the gods who grants Eos's prayer and wields thunderbolt"
+   },
+   {
+    "name": "Anchises",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mortal man addressed by Aphrodite, father of her child"
+   },
+   {
+    "name": "Nymphs",
+    "aliases": [
+     "mountain Nymphs"
+    ],
+    "kind": "nymph",
+    "description": "long-lived mountain spirits bound to trees who will rear the child"
+   },
+   {
+    "name": "Sileni",
+    "aliases": [],
+    "kind": "creature",
+    "description": "woodland beings who mate with the Nymphs"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Slayer of Argus"
+    ],
+    "kind": "god",
+    "description": "god who mates with the Nymphs in caves"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Aphrodite",
+    "relation": "lover_of",
+    "b": "Anchises",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Eos",
+    "relation": "lover_of",
+    "b": "Tithonus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Aphrodite",
+    "relation": "parent_of",
+    "b": "Aeneas",
+    "source": "outside",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "patronymic epithet for Zeus"
+   },
+   {
+    "alias": "Slayer of Argus",
+    "canonical": "Hermes",
+    "explanation": "epithet of Hermes, who killed the watchman Argus"
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "Grim image of Tithonus babbling in his shut room, emblem of immortality without youth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "reason": "Old age is dreaded even by the gods.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The Tithonus story warns that immortality without eternal youth is a curse, and sets limits between gods and mortals.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Nymph and tree passage reflects Greek belief in tree spirits and sacred groves that were not to be cut.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Tithonus myth of undying old age became a lasting literary image, notably in Tennyson's poem Tithonus (1860)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The unnamed son Aphrodite foretells is Aeneas, later hero of Vergil's Aeneid, though this section does not name him.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Eos is the goddess of dawn. Tithonus was a Trojan prince, of Anchises' family line, whom she carried off to be her lover.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Too simply\" means foolishly or naively; Eos failed to think of asking for youth along with deathlessness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Slough\" is the cast-off skin of a snake; here old age is imagined as a skin to be shed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Put to the shining doors\" means she closed the bright doors on him, shutting him in.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"2529\" is a stray footnote number from the source text, not part of the poem.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Or soon or late\" means sooner or later; Aphrodite says she has always made gods fall for mortals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The \"Slayer of Argus\" is Hermes, named for killing the hundred-eyed giant Argus. The Sileni are woodland spirits.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Ilion is Troy. The son, Aeneas, will be raised there; the line looks ahead to his later role.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Zeus, son of Cronos, is king of the gods. Granting a wish by bowing his head was a sign of binding assent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Ocean was imagined as a river encircling the world, so Eos's home lay at the far edge of the earth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Zeus's thunderbolt is his weapon of punishment. Anchises is warned of this penalty for boasting of a goddess's favor.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "Tense shift",
+    "text": "The present tense \"babbles\" makes Tithonus's suffering seem ongoing, bringing the myth into the speaker's present.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "Personification",
+    "text": "Old age is pictured as a ruthless figure that stands beside every man and \"enshrouds\" him, even dreaded by gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Irony",
+    "text": "The goddess who made gods subject to mortal love is now herself caught by it and shamed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Repetition",
+    "text": "Repeating \"madness\" with intensifying adjectives conveys Aphrodite's bitter self-reproach.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "Symbolism",
+    "text": "The trees bound to the Nymphs' lives symbolize their long but finite existence, between mortal and immortal.",
+    "spoiler": false
+   }
+  ]
+ }
+}

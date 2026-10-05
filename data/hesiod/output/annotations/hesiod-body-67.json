@@ -1,0 +1,390 @@
+{
+ "section_id": "hesiod-body-67",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9100,
+  "output": 3494
+ },
+ "result": {
+  "summary": "Dionysus appears on a shore as a young man and is seized by Tyrsenian pirates who think he is a king's son. When the ship fills with wine, vines and wild beasts, the pirates leap overboard and become dolphins, while Dionysus spares the helmsman and reveals who he is.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Pirates seize the stranger",
+    "summary": "Dionysus appears on a headland as a young man. Pirates capture him, but their bonds fall away and the helmsman realises he is a god.",
+    "stakes": "The pirates risk divine anger by binding a god; Dionysus faces no real danger.",
+    "present": [
+     "Dionysus",
+     "Tyrsenian pirates",
+     "helmsman"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "a jutting headland by the shore of the sea",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 12,
+    "title": "Helmsman warns, master scoffs",
+    "summary": "The helmsman urges the crew to free the stranger, whom he takes for a god. The master overrules him and orders the ship to sail on.",
+    "stakes": "The crew risk storms and divine wrath if they keep the god captive.",
+    "present": [
+     "helmsman",
+     "master",
+     "Dionysus",
+     "Tyrsenian pirates"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the ship at sea",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 22,
+    "title": "Wonders and transformations aboard",
+    "summary": "Wine flows, vines and ivy cover the ship, and Dionysus becomes a lion and conjures a bear. The sailors leap overboard and become dolphins; the helmsman is spared and told who the god is.",
+    "stakes": "The sailors lose their human shape and the master his life; the helmsman is at risk but is saved.",
+    "present": [
+     "Dionysus",
+     "helmsman",
+     "master",
+     "Tyrsenian pirates",
+     "Semele",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the black ship at sea",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 24,
+    "title": "Closing salutation",
+    "summary": "The poet bids farewell to Dionysus and says no singer should forget him.",
+    "stakes": "",
+    "present": [
+     "Dionysus",
+     "Semele"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of wine, son of Semele and Zeus, who appears as a young man"
+   },
+   {
+    "name": "Semele",
+    "aliases": [
+     "Cadmus’ daughter"
+    ],
+    "kind": "mortal",
+    "description": "mother of Dionysus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Dionysus"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "silver-bowed god the helmsman suspects the captive might be"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god the helmsman suspects the captive might be"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Semele"
+   },
+   {
+    "name": "helmsman",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the wise steersman who recognises the god and is spared"
+   },
+   {
+    "name": "master",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the ship's captain who scorns the warning and is killed by the lion"
+   },
+   {
+    "name": "Tyrsenian pirates",
+    "aliases": [
+     "sailors",
+     "seamen"
+    ],
+    "kind": "mortal",
+    "description": "the crew who kidnap Dionysus and become dolphins"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Semele",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Cadmus",
+    "relation": "parent_of",
+    "b": "Semele",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Semele",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Dionysus",
+    "relation": "transformed_into",
+    "b": "lion",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Tyrsenian pirates",
+    "relation": "transformed_into",
+    "b": "dolphins",
+    "source": "text",
+    "evidence_sentence": 19
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Tyrsenian",
+    "canonical": "Tyrsenian pirates",
+    "explanation": "Tyrsenians were the Etruscans, or sea-raiders associated with them, in Greek usage."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 22,
+    "reason": "Dionysus reveals his name and parentage to the spared helmsman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "reason": "The sailors leap overboard and become dolphins, the hymn's central transformation.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn shows mortals punished for failing to recognise a god, while the one who recognises him is rewarded. Dionysus' power is shown through wine, vines and wild beasts.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Tyrsenian pirates reflect Greek fear of Etruscan sea raiders. The story also explains the dolphin as a former man and affirms Dionysus' divine standing.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The pirates-turned-dolphins tale was retold by Ovid in the Metamorphoses and was a favourite subject in Greek art, notably the cup by Exekias showing Dionysus sailing with dolphins."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Exekias cup (c. 530 BC) shows a vine growing from the ship's mast with dolphins around it, matching this hymn's imagery.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Tyrsenian is the older spelling of Tyrrhenian, meaning Etruscan; Greeks often called Tyrrhenians pirates. The number 2530 is a stray line or page marker from the edition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Heaven-nurtured means raised under the care of the gods; the pirates take him for a royal prince worth a ransom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Withes are tough, flexible twigs or branches used as bands for tying.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Chid is the old past tense of chide, meaning scolded or rebuked.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Sheets are the ropes that control the angle of the sails, not cloth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Hyperboreans were a legendary people living far north, beyond the north wind. The master lists distant places to mock the stranger's importance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Sheets\" are ropes attached to the corners of a sail to adjust it, not cloth; hauling them taut trims the sail to the wind.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "Thole-pins are pegs set in the ship's side that hold the oars in place when rowing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Bemused\" here means bewildered or stupefied with fear, not amused.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "The \"...\" marks a gap in the surviving text; a word or phrase, probably an address to the helmsman, is lost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Bare\" is old past tense of \"bear\": Semele bore him. Zeus is the Greek name for the king of the gods.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Dionysus is the god of wine, revelry and transformation. His mother Semele was a mortal woman, and his father was Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "The helmsman names Zeus, Apollo and Poseidon as the gods the stranger might be. They are major Olympians of sky, music and archery, and sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The crew are pirates who had seized the disguised god, intending to sell him or hold him for ransom, so their change of heart comes from fear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "The helmsman alone had recognised the god's divinity earlier and urged the crew to release him, which is why he is called right-minded.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Semele, daughter of Cadmus, king of Thebes, was Dionysus' mortal mother; Zeus fathered him, making Dionysus a god born of a human woman.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "foreshadowing",
+    "text": "The 'miserable doom' tells the audience at once that the pirates' crime will bring them ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "characterization",
+    "text": "The falling bonds and calm smile show Dionysus's divine power and ease, in contrast to the pirates' ignorance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "dramatic irony",
+    "text": "The master expects the captive to reveal his wealth, but the audience knows he is a god and will punish them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Imagery",
+    "text": "Streaming wine and a heavenly fragrance appeal to taste and smell, showing Dionysus' domain and marking the start of the miracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "Symbolism",
+    "text": "The lion and bear show the god's wild, dangerous side, contrasting with the pleasant gifts of wine and vines just before.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "Irony",
+    "text": "The sailors flee a fate they call miserable, yet escape into the sea and become dolphins, a transformation that is also a punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "Characterization",
+    "text": "Dionysus appears both merciful and terrible: he spares the loyal helmsman and makes him happy, rewarding piety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "Apostrophe",
+    "text": "The poet turns from the story to address the god directly, as the hymn's closing salutation.",
+    "spoiler": false
+   }
+  ]
+ }
+}

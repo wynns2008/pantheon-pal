@@ -1,0 +1,577 @@
+{
+ "section_id": "metamorphoses-body-48",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 15175,
+  "output": 5288
+ },
+ "result": {
+  "summary": "Perseus flies to Æthiopia, finds Andromeda chained to a rock, and kills the sea monster that threatens her. He sets the Gorgon's head on weeds that turn to coral, sacrifices to the gods and marries Andromeda. At the wedding feast he tells how he beheaded Medusa, and a noble explains how Minerva gave her snaky hair.",
+  "scenes": [
+   {
+    "start_sentence": 4,
+    "end_sentence": 12,
+    "title": "Perseus finds Andromeda chained",
+    "summary": "Perseus flies over Æthiopia and sees Andromeda bound to a rock for her mother's boast. He falls in love and asks her name and crime.",
+    "stakes": "Andromeda is chained and faces death as punishment for her mother's boast about her beauty.",
+    "present": [
+     "Perseus",
+     "Andromeda",
+     "Ammon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Æthiopia, lands of Cepheus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 31,
+    "title": "Perseus slays the sea monster",
+    "summary": "As the monster appears, Perseus bargains for Andromeda's hand with her parents. He attacks from the air and kills it, and the family rejoices.",
+    "stakes": "Perseus risks death in battle with the monster, and Andromeda risks being devoured.",
+    "present": [
+     "Perseus",
+     "Andromeda",
+     "Cepheus",
+     "Cassiope"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the rock by the sea, Æthiopia",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 32,
+    "end_sentence": 35,
+    "title": "The origin of coral",
+    "summary": "Perseus lays Medusa's head on weeds, which harden into coral. The sea Nymphs spread the effect to other plants.",
+    "stakes": "",
+    "present": [
+     "Perseus",
+     "Medusa"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the shore, Æthiopia",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 36,
+    "end_sentence": 43,
+    "title": "Altars and wedding feast",
+    "summary": "Perseus sacrifices to Mercury, Minerva and Jove, then marries Andromeda. At the feast he asks about local customs.",
+    "stakes": "",
+    "present": [
+     "Perseus",
+     "Andromeda",
+     "Cepheus",
+     "Lyncides",
+     "Mercury",
+     "Minerva",
+     "Jove",
+     "Hymenæus",
+     "Cupid"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cepheus's palace, Æthiopia",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 44,
+    "end_sentence": 47,
+    "title": "Perseus tells of Medusa",
+    "summary": "Asked, Perseus recounts the Phorcides' eye, the stone statues, killing Medusa by her reflection, and the birth of Pegasus and his brother.",
+    "stakes": "Perseus faced being turned to stone by Medusa.",
+    "present": [
+     "Perseus",
+     "Medusa",
+     "Pegasus",
+     "Lyncides",
+     "Atlas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the land of the Gorgons beneath Atlas",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 48,
+    "end_sentence": 53,
+    "title": "Why Medusa has snakes",
+    "summary": "A noble tells how Neptune violated Medusa in Minerva's temple, and Minerva punished her by turning her hair to snakes.",
+    "stakes": "Medusa suffers punishment for an offence she did not choose.",
+    "present": [
+     "Medusa",
+     "Neptune",
+     "Minerva"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Temple of Minerva",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Perseus",
+    "aliases": [
+     "descendant of Abas",
+     "descendant of Inachus",
+     "grandson of Abas"
+    ],
+    "kind": "mortal",
+    "description": "winged hero, son of Jove, slayer of Medusa"
+   },
+   {
+    "name": "Andromeda",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æthiopian princess chained to a rock"
+   },
+   {
+    "name": "Cepheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Æthiopia, Andromeda's father"
+   },
+   {
+    "name": "Cassiope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Andromeda's mother, whose boast caused the punishment"
+   },
+   {
+    "name": "Ammon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who ordered Andromeda's punishment"
+   },
+   {
+    "name": "Medusa",
+    "aliases": [
+     "daughter of Phorcys"
+    ],
+    "kind": "monster",
+    "description": "Gorgon whose head turns men to stone"
+   },
+   {
+    "name": "Minerva",
+    "aliases": [
+     "warlike Virgin",
+     "daughter of Jove"
+    ],
+    "kind": "goddess",
+    "description": "goddess who gave Medusa serpent hair"
+   },
+   {
+    "name": "Jove",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, father of Perseus"
+   },
+   {
+    "name": "Mercury",
+    "aliases": [
+     "wing-footed God"
+    ],
+    "kind": "god",
+    "description": "winged god honored with an altar"
+   },
+   {
+    "name": "Neptune",
+    "aliases": [
+     "sovereign of the sea"
+    ],
+    "kind": "god",
+    "description": "sea god who violated Medusa"
+   },
+   {
+    "name": "Lyncides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æthiopian noble who answers Perseus"
+   },
+   {
+    "name": "Pegasus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "winged horse born from Medusa's blood"
+   },
+   {
+    "name": "Hymenæus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of marriage at the wedding"
+   },
+   {
+    "name": "Cupid",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of love at the wedding"
+   },
+   {
+    "name": "Bacchus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of wine, named for wine"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "place",
+    "description": "mountain beneath which the Gorgons live"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Jove",
+    "relation": "parent_of",
+    "b": "Perseus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Cepheus",
+    "relation": "parent_of",
+    "b": "Andromeda",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Cassiope",
+    "relation": "parent_of",
+    "b": "Andromeda",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Perseus",
+    "relation": "spouse_of",
+    "b": "Andromeda",
+    "source": "text",
+    "evidence_sentence": 38
+   },
+   {
+    "a": "Medusa",
+    "relation": "parent_of",
+    "b": "Pegasus",
+    "source": "text",
+    "evidence_sentence": 45
+   },
+   {
+    "a": "Jove",
+    "relation": "parent_of",
+    "b": "Minerva",
+    "source": "text",
+    "evidence_sentence": 51
+   },
+   {
+    "a": "Neptune",
+    "relation": "lover_of",
+    "b": "Medusa",
+    "source": "text",
+    "evidence_sentence": 50
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "descendant of Abas",
+    "canonical": "Perseus",
+    "explanation": "Perseus is a descendant of Abas, king of Argos."
+   },
+   {
+    "alias": "descendant of Inachus",
+    "canonical": "Perseus",
+    "explanation": "Inachus was the first king of Argos, Perseus's ancestor."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Memorable image of Andromeda so still she seems made of marble.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "reason": "Ovid's origin of coral.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Beauty, pride and punishment recur: Andromeda suffers for her mother's boast and Medusa for her beauty, with divine justice seeming arbitrary.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The coral tale reflects ancient attempts to explain natural phenomena through myth; coral was thought to harden on contact with air.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Perseus rescuing Andromeda became a favorite subject of painters, including Titian and Rubens, and of Renaissance poets like Ariosto."
+   },
+   {
+    "kind": "popular_culture",
+    "text": "The story was adapted in the films Clash of the Titans (1981 and 2010)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid's Medusa as a former beauty ravished by Neptune is his own addition; earlier tradition made her a monster from birth.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Grandson of Hippotas is Aeolus, keeper of the winds, who here locks them away so the air is calm for Perseus's flight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Lucifer means 'light-bringer': the morning star (Venus at dawn), which signals that people should begin their daily work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "'Crooked weapon' is the harpe, a curved sword given to Perseus by Mercury, used to behead Medusa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Her mother Cassiope (Cassiepeia) boasted that she was more beautiful than the Nereids, which angered the sea-gods and led to the oracle of Ammon demanding Andromeda's sacrifice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Descendant of Abas: Perseus, whose grandfather Acrisius was a descendant of Abas, king of Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "He means she deserves the bonds of lovers, not iron chains; 'mutually united' hints at marriage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"The latter more justly so\" hints that the mother's boasting about her beauty caused Andromeda's punishment, so her grief is deserved.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Perseus' mother Danaë was imprisoned in a bronze chamber by her father; Jove (the Greek Zeus) came to her as a shower of gold and fathered Perseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "\"Ætherial\" means of the upper air or heavens, referring to Perseus' flight on winged sandals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Balearic slingers, from islands off Spain, were famed in antiquity for their skill and range with lead sling-bullets; the phrase measures the distance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "\"Descendant of Inachus\": Perseus traced his ancestry to Inachus, the first king of Argos, through his mother Danaë's line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "Ovid gives a mythic origin for coral, which hardens when taken from the water; the Latin name for it, 'gorgonia', hints at the link.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "phrasing",
+    "text": "'Warlike Virgin' is Minerva (the Greek Athena), addressed directly; she was a virgin goddess of war and wisdom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "word",
+    "text": "Hymenæus is the god of marriage, invoked in wedding songs; Cupid is the god of love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "word",
+    "text": "'Bacchus' stands for wine by metonymy; 'grandson of Abas' is Perseus, named through his ancestry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "word",
+    "text": "Lyncides is a descendant of Lynceus, here a noble at Cepheus' court.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "allusion",
+    "text": "The sisters sharing one eye are the Graiae; Perseus seized it to force them to reveal the route to the Gorgons.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "kind": "phrasing",
+    "text": "'Sovereign of the sea' is Neptune (the Greek Poseidon); 'deflowered' is a euphemism for rape.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Æthiopia in Ovid is a legendary land, ruled here by King Cepheus, Andromeda's father; it is not tied to the real African country.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "A modest unmarried girl would not speak to a strange man unprompted, so her silence reflects proper maidenly conduct.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "The bird of Jupiter is the eagle, the king of birds and sacred to Jove.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Cassiope (Cassiopeia) and Cepheus are Andromeda's parents, rulers of the Ethiopians. Her boast of beauty angered the sea nymphs, leading to the monster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Each sacrifice suits its god: a cow for Minerva, a calf for swift Mercury, and a bull for Jove, the greatest god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "Perseus had rescued Andromeda from a sea monster; her parents Cepheus and Cassiope had promised her to her rescuer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "text": "Pegasus, the winged horse, and his brother Chrysaor sprang from Medusa's blood when she was beheaded, since Neptune was their father.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "simile",
+    "text": "Comparing the motionless girl to a marble statue stresses her helplessness; only the moving hair and tears show she lives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "metaphor",
+    "text": "'Takes fire' presents sudden love as a flame, a common image, while his faltering wings show how powerfully it strikes him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "characterization",
+    "text": "Her blushing, silent shame and weeping show her innocence and modesty, making her undeserved punishment more pitiable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "irony",
+    "text": "The rhetorical question shows the parents' haste: bargaining over their daughter's hand seems absurd, yet desperation makes agreement obvious.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "epic simile",
+    "text": "The monster's advance is compared to a rowed ship, giving a vivid sense of its speed and power before Perseus leaps into the air.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "simile",
+    "text": "Perseus is likened to an eagle seizing a serpent, stressing his skill and the monster's helplessness from above.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "simile",
+    "text": "The wounded monster is compared to a boar harassed by hounds, shifting the beast from terror to a hunted, desperate animal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "characterization",
+    "text": "Andromeda is called both reward and cause of his labors, reducing her to a prize and giving her no voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "Personification",
+    "text": "The weeds 'imbibe' poison and 'feel' stiffness, as if they were sentient, making the transformation vivid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "device": "Imagery",
+    "text": "Garlands, music and open halls build a bright sensory picture of joy, contrasting with the preceding monstrous violence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "device": "Irony",
+    "text": "Medusa's celebrated beauty, especially her hair, sets up the cruel reversal in which that hair becomes her horror.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "device": "Irony",
+    "text": "Minerva turns Medusa's punishment into her own weapon, wearing the snakes on her breastplate.",
+    "spoiler": false
+   }
+  ]
+ }
+}

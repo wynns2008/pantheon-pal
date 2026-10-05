@@ -1,0 +1,435 @@
+{
+ "section_id": "metamorphoses-body-117",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11116,
+  "output": 3881
+ },
+ "result": {
+  "summary": "The text lists the kings of Alba down to Proca, then introduces Pomona, a Latin Hamadryad devoted to orchards who shuns love. Vertumnus woos her in many disguises and finally appears as an old woman who begins a speech urging her to marry him.",
+  "scenes": [
+   {
+    "start_sentence": 1,
+    "end_sentence": 6,
+    "title": "The kings of Alba",
+    "summary": "The line of Alban kings is listed from Ascanius through Tiberinus and Aventinus to Proca.",
+    "stakes": "",
+    "present": [
+     "Ascanius",
+     "Sylvius",
+     "Latinus",
+     "Epitos",
+     "Capetus",
+     "Capys",
+     "Tiberinus",
+     "Remulus",
+     "Acrota",
+     "Aventinus",
+     "Proca"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Alba",
+     "modern_name": "Alba Longa (near Castel Gandolfo)",
+     "certainty": "traditional",
+     "lat": 41.75,
+     "lon": 12.65
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 13,
+    "title": "Pomona and her orchard",
+    "summary": "Pomona tends her trees, walls out the rustics, and rejects the Satyrs, Pans, Sylvanus and Priapus.",
+    "stakes": "Her chosen life of gardening and freedom from love.",
+    "present": [
+     "Pomona",
+     "Sylvanus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Latium",
+     "modern_name": "Lazio",
+     "certainty": "real",
+     "lat": 41.6,
+     "lon": 12.8
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 21,
+    "title": "Vertumnus in disguises",
+    "summary": "Vertumnus approaches Pomona as reaper, herdsman, pruner, soldier and fisherman, then as an old woman who kisses her.",
+    "stakes": "Vertumnus risks yet another failed courtship.",
+    "present": [
+     "Vertumnus",
+     "Pomona"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pomona's orchard",
+     "modern_name": "Lazio",
+     "certainty": "real",
+     "lat": 41.6,
+     "lon": 12.8
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 34,
+    "title": "The old woman's plea",
+    "summary": "Using the elm and vine as an example, the disguised Vertumnus urges Pomona to marry Vertumnus and warns of the gods' anger.",
+    "stakes": "Vertumnus's hope of winning Pomona.",
+    "present": [
+     "Vertumnus",
+     "Pomona"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pomona's orchard",
+     "modern_name": "Lazio",
+     "certainty": "real",
+     "lat": 41.6,
+     "lon": 12.8
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ascanius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Alba and the Latin state"
+   },
+   {
+    "name": "Sylvius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "successor of Ascanius"
+   },
+   {
+    "name": "Latinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Alba with a renewed name"
+   },
+   {
+    "name": "Epitos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Alba"
+   },
+   {
+    "name": "Capetus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Alba"
+   },
+   {
+    "name": "Capys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Alba"
+   },
+   {
+    "name": "Tiberinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king drowned in the Etrurian river, which took his name"
+   },
+   {
+    "name": "Remulus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "elder son of Tiberinus, killed by lightning"
+   },
+   {
+    "name": "Acrota",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "moderate son of Tiberinus"
+   },
+   {
+    "name": "Aventinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king buried on the mount named for him"
+   },
+   {
+    "name": "Proca",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Palatine nation"
+   },
+   {
+    "name": "Pomona",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Latin Hamadryad devoted to orchards"
+   },
+   {
+    "name": "Vertumnus",
+    "aliases": [],
+    "kind": "god",
+    "description": "shape-changing god who loves Pomona"
+   },
+   {
+    "name": "Sylvanus",
+    "aliases": [],
+    "kind": "god",
+    "description": "rustic god who courted Pomona"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "much-wooed woman, cited as example"
+   },
+   {
+    "name": "Ulysses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of the wife mentioned"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Sylvius",
+    "relation": "parent_of",
+    "b": "Latinus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Epitos",
+    "relation": "parent_of",
+    "b": "Capetus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Tiberinus",
+    "relation": "parent_of",
+    "b": "Remulus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Tiberinus",
+    "relation": "parent_of",
+    "b": "Acrota",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Remulus",
+    "relation": "sibling_of",
+    "b": "Acrota",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Vertumnus",
+    "relation": "lover_of",
+    "b": "Pomona",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Idalian Goddess",
+    "canonical": "Venus",
+    "explanation": "Venus, worshipped at Idalium in Cyprus."
+   },
+   {
+    "alias": "her of Rhamnus",
+    "canonical": "Nemesis",
+    "explanation": "Nemesis, goddess of retribution, worshipped at Rhamnus."
+   },
+   {
+    "alias": "the God who scares the thieves",
+    "canonical": "Priapus",
+    "explanation": "Garden god with a pruning-hook, not named here."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 21,
+    "reason": "Vertumnus disguised as an old woman kisses Pomona, a comic, revealing moment.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pomona's refusal of love and Vertumnus's disguises set up a courtship about change versus self-contained devotion; the elm and vine image argues for union.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The king list gives Rome's Alban ancestry a mythic genealogy, tying Latin places like the Tiber and Aventine to legendary rulers.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Pomona and Vertumnus became favorite subjects of Renaissance and Baroque art, including Arcimboldo's portrait of Rudolf II as Vertumnus."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The name Pomona comes from Latin pomum, 'fruit', and the genus name Pomona is still used for fruit-related terms like pomology.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Ascanius, son of Aeneas, was also called Iulus; the 'two names' refer to this. Alba Longa was the city he founded.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Tiberinus drowned in the river Albula, which was renamed the Tiber after him; Etrurian means Etruscan.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Remulus imitated Jupiter's lightning, mocking the god, and was punished by a thunderbolt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Hamadryads are wood nymphs whose lives are bound to particular trees. Pomona's name comes from Latin pomum, 'fruit'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Engrafting means grafting: inserting a shoot (the sucker) into a slit in the bark so it grows on another tree, the 'stranger nursling'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "'Rustics' means country people; 'flies from' means flees from, not travels by air.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The god who scares thieves is Priapus, a garden god whose statues, with a pruning-hook and exaggerated phallus, guarded orchards.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "Bay-bound temples and turning mown grass describe a hay-maker, one of Vertumnus's rustic roles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "\"Obtained access for himself\" means he gained admission to her presence by these disguises, so he could look at her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "\"Unwedded\" applies marriage language to trees: vines were trained to grow up elms, a common Roman farming practice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Helen of Troy, the Lapith bride Hippodame (whose wedding led to the battle with the Centaurs), and Penelope, wife of Ulysses, who faced her suitors, are all famous much-wooed women.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "The mountains of Alba refer to Alba Longa in Latium; the Italian rural deities who live there court Pomona.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "The Idalian Goddess is Venus, worshipped at Idalium in Cyprus. She of Rhamnus is Nemesis, goddess of retribution, whose shrine stood at Rhamnus in Attica.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Proca is the Alban king who later fathers Numitor and Amulius, in the line leading to Romulus and Remus. The Palatine is a Roman hill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Satyrs, Pans and Sylvanus are lustful rustic woodland spirits and gods, so they are typical pursuers of nymphs in Ovid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Vertumnus is an Italian god of seasons and change. Pomona is a nymph devoted to orchards and fruit-growing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "The old-woman disguise lets him enter the garden and kiss Pomona, as an old woman would not be a threat in her eyes.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "Symbolism",
+    "text": "The pruning-knife replaces the huntress's javelin, marking Pomona as a cultivator rather than a hunter like Diana's nymphs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Characterization",
+    "text": "A blunt statement of her delight in gardening and lack of desire defines Pomona and sets up the wooing that follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "Rhetorical question",
+    "text": "The question stresses how many suitors tried, building comic momentum before Vertumnus is introduced as the most persistent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "exclamation",
+    "text": "The narrator's aside emphasizes how perfectly Vertumnus plays each role, preparing the greater disguise to come.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "irony",
+    "text": "Vertumnus's kisses are unlike any real old woman's, an ironic hint that the disguise conceals a lover.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "allegory",
+    "text": "The elm and vine stand for husband and wife; the argument from nature urges Pomona that she needs a partner.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "dramatic irony",
+    "text": "Vertumnus, speaking as the old woman, praises his own shape-changing, which the reader knows is exactly what he has been doing.",
+    "spoiler": false
+   }
+  ]
+ }
+}

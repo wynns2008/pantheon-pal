@@ -1,0 +1,225 @@
+{
+ "section_id": "hesiod-body-87",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6052,
+  "output": 1912
+ },
+ "result": {
+  "summary": "The hymn praises Artemis as a golden-armed huntress who ranges over mountains and forests terrifying wild beasts. When satisfied she goes to Apollo's house at Delphi, hangs up her bow and leads the Muses and Graces in dance and song about Leto's children. The poet closes with a greeting and promises another song.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Artemis the Huntress",
+    "summary": "Artemis is praised and shown hunting across mountains and woods, making the earth and beasts tremble. When satisfied she goes to Apollo's house at Delphi.",
+    "stakes": "Wild beasts face destruction from her arrows.",
+    "present": [
+     "Artemis",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "shadowy hills and windy peaks",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 6,
+    "title": "Dancing at Delphi",
+    "summary": "At Delphi Artemis hangs up her bow and leads the Muses and Graces in dance while they sing of Leto's children. The poet hails Artemis and Apollo and moves on to another song.",
+    "stakes": "",
+    "present": [
+     "Artemis",
+     "Apollo",
+     "Muses",
+     "Graces",
+     "Leto"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi, Greece",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Phoebus"
+    ],
+    "kind": "goddess",
+    "description": "golden-bowed virgin huntress, sister of Apollo"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoebus Apollo"
+    ],
+    "kind": "god",
+    "description": "golden-sworded brother of Artemis, lord of Delphi"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Artemis and Apollo"
+   },
+   {
+    "name": "Muses",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddesses of song who dance at Delphi"
+   },
+   {
+    "name": "Graces",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddesses who join the dance at Delphi"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Artemis and Apollo"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Artemis",
+    "relation": "sibling_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Artemis",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Artemis",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Vivid image of the huntress goddess's power shaking mountains, woods and sea.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Artemis is shown both as a fearsome hunter and as a graceful leader of dance, balancing wildness with harmony among the gods.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Like other Homeric Hymns, this short piece served as a prelude to a longer recitation, as its closing line about another song shows.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Shafts\" means arrows; \"shooter of stags\" is a compound epithet meaning deer-hunter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Earthquakes and the sea also\" is elliptical: the earth and the fish-filled sea also shake or resound. The grammar is loose in this translation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Phoebus\" is a title of Apollo meaning bright or radiant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Bare\" is an archaic past tense of \"bear\", meaning gave birth to; \"neat-ankled\" means slim-ankled, a Homeric-style epithet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "A standard hymn closing formula: the poet promises to remember the god and then move on to another song, as rhapsodes did when performing.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Delphi was Apollo's chief sanctuary and oracle, on Mount Parnassus. Here it serves as the setting for the gods' music and dance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "The Muses (goddesses of song) and the Graces (goddesses of charm and beauty) often attend Apollo and sing of the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Leto's children are Artemis and Apollo; Zeus is their father. This translation uses the name Zeus here.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "epithet",
+    "text": "A string of epithets (golden-shafted, pure maiden, stag-shooter) defines Artemis's character and fits the hymn's formal praise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "hyperbole",
+    "text": "Mountains, woods and even the sea shake at her hunting, magnifying her divine power beyond any human hunter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "contrast",
+    "text": "The huntress who terrified the wilds now hangs up her weapons and leads graceful dance, showing her other, harmonious side.",
+    "spoiler": false
+   }
+  ]
+ }
+}

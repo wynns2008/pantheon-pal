@@ -1,0 +1,578 @@
+{
+ "section_id": "hesiod-body-102",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 13778,
+  "output": 5444
+ },
+ "result": {
+  "summary": "This section gives Proclus's outline of the lost Little Iliad, which runs from the contest for Achilles' arms to the Trojans taking the wooden horse into their city. It then gathers scattered fragments and quotations that mention Aias, Odysseus, the sack of Troy and the fates of Priam, Astyanax and Andromache.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Arms, madness, prophecy, Philoctetes",
+    "summary": "Odysseus wins the arms of Achilles, Aias goes mad and dies, and Helenus is captured and prophesies. Philoctetes is brought from Lemnos, healed, and kills Alexandrus.",
+    "stakes": "Aias loses his honour and his life; Troy's fall depends on the prophecy.",
+    "present": [
+     "Odysseus",
+     "Athena",
+     "Aias",
+     "Helenus",
+     "Diomede",
+     "Philoctetes",
+     "Machaon",
+     "Alexandrus",
+     "Menelaus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.9575,
+     "lon": 26.2389
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 11,
+    "title": "Neoptolemus, horse, and Troy's folly",
+    "summary": "Neoptolemus is fetched from Scyros and kills Eurypylus. The horse is built, Odysseus spies in Ilium and takes the Palladium, and the Trojans bring the horse inside.",
+    "stakes": "Troy risks destruction by trusting the apparent Greek retreat.",
+    "present": [
+     "Deiphobus",
+     "Helen",
+     "Odysseus",
+     "Neoptolemus",
+     "Achilles",
+     "Eurypylus",
+     "Epeius",
+     "Athena",
+     "Diomedes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.9575,
+     "lon": 26.2389
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 32,
+    "title": "Fragments on Aias, Odysseus, contests",
+    "summary": "Fragments include the poem's opening, the girls' dispute over Aias and Odysseus, Aias's burial, and Achilles at Scyros. A tale of the Homer and Hesiod contest is also quoted.",
+    "stakes": "",
+    "present": [
+     "Aias",
+     "Odysseus",
+     "Nestor",
+     "Athena",
+     "Achilles",
+     "Machaon",
+     "Eurypylus",
+     "Hesiod"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.9575,
+     "lon": 26.2389
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 52,
+    "title": "Night sack of Ilium",
+    "summary": "Fragments describe Sinon's signal, wounds in the night battle, Priam's death, Aethra's rescue, and the fates of Astyanax, Andromache and Aeneas.",
+    "stakes": "The Trojans face slaughter and captivity.",
+    "present": [
+     "Sinon",
+     "Neoptolemus",
+     "Priam",
+     "Helen",
+     "Menelaus",
+     "Aethra",
+     "Demophon",
+     "Agamemnon",
+     "Astyanax",
+     "Andromache",
+     "Aeneas",
+     "Odysseus",
+     "Philoctetes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.9575,
+     "lon": 26.2389
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek hero who wins Achilles' arms and spies in Troy"
+   },
+   {
+    "name": "Athena",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "helps Odysseus and instructs Epeius"
+   },
+   {
+    "name": "Aias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek hero who goes mad and kills himself"
+   },
+   {
+    "name": "Helenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan prophet captured by Odysseus"
+   },
+   {
+    "name": "Diomede",
+    "aliases": [
+     "Diomedes"
+    ],
+    "kind": "mortal",
+    "description": "Greek hero who fetches Philoctetes and helps take the Palladium"
+   },
+   {
+    "name": "Diomedes",
+    "aliases": [
+     "Diomede"
+    ],
+    "kind": "mortal",
+    "description": "Greek hero who helps Odysseus take the Palladium"
+   },
+   {
+    "name": "Philoctetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "archer brought from Lemnos who kills Alexandrus"
+   },
+   {
+    "name": "Machaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "healer, later killed by Eurypylus"
+   },
+   {
+    "name": "Alexandrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan prince killed by Philoctetes"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek king who outrages the body and yields to Helen's beauty"
+   },
+   {
+    "name": "Deiphobus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan who marries Helen"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman who recognizes Odysseus and plots with him"
+   },
+   {
+    "name": "Neoptolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achilles' son who kills Eurypylus, Priam and Astyanax"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dead hero whose ghost appears to his son"
+   },
+   {
+    "name": "Eurypylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Telephus, Trojan ally"
+   },
+   {
+    "name": "Epeius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "builder of the wooden horse"
+   },
+   {
+    "name": "Nestor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "advises sending eavesdroppers"
+   },
+   {
+    "name": "Hesiod",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who answers Homer in the contest"
+   },
+   {
+    "name": "Sinon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek who shows the signal-light"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan king killed by Neoptolemus"
+   },
+   {
+    "name": "Aethra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theseus's mother who reaches the Greek camp"
+   },
+   {
+    "name": "Demophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Theseus who asks for Aethra"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek leader"
+   },
+   {
+    "name": "Astyanax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hector's son thrown from a tower"
+   },
+   {
+    "name": "Andromache",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hector's wife given to Neoptolemus"
+   },
+   {
+    "name": "Aeneas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Anchises, put on Neoptolemus's ships"
+   },
+   {
+    "name": "Telephus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Eurypylus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Telephus",
+    "relation": "parent_of",
+    "b": "Eurypylus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Neoptolemus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Priam",
+    "relation": "parent_of",
+    "b": "Alexandrus",
+    "source": "outside",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 29,
+    "reason": "Famous line from the legendary contest of Homer and Hesiod.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "reason": "Sharp retort in the dispute between Aias and Odysseus.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The summary traces the final stage of the Trojan War, where cunning and prophecy count for more than strength.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Little Iliad is lost and survives only through Proclus and later quotations, a reminder of how much of the epic cycle is gone.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Its story of the wooden horse and the sack of Troy fed later accounts, including Virgil's Aeneid."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Different ancient writers gave the poem to different authors, such as Lesches of Mitylene or Lesches of Pyrrha.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Chrestomathia means 'useful learning'; Proclus' summary of the Epic Cycle is the source of this outline, since Lesches' poem itself is lost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "'Adjudging' means a formal decision awarding the arms; the Greek leaders judged between Odysseus and Aias as claimants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "'Lies in wait' means ambushes; Helenus, a Trojan seer, is seized so that his prophecy can be forced from him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "'Outraged' means abused or mutilated; the corpse is treated shamefully, as a mark of hatred.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "The Palladium was a sacred wooden image of Pallas Athena, believed to protect Troy while it stood inside the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "'Huts' are the Greeks' camp shelters beside the ships; burning them makes the departure look final.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Ilium is Troy; Dardania is the Trojan territory, named for Dardanus. Danai is a name for the Greeks, like Hellenes and Achaeans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Refers to Aias carrying Achilles' body from the fighting after his death, while Odysseus held off the Trojans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "'By Athena's contrivance' means the goddess prompted the second girl's reply, favouring Odysseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "'Not buried in the usual way' means Aias was not cremated, as heroes normally were, but was buried in a coffin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "'Substantive' means a noun. The scholiast reads 'beggar' as a noun, which he takes to imply Odysseus was a worthless nobody in his disguise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "Hesiod's reply is a deliberately impossible answer, since horses racing at the tomb of Zeus never happened. This answers Homer's riddle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "Scholiast: an ancient commentator whose notes on a text preserve quotations from lost works. Here the Little Iliad survives only through such citations.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "Hellenes: the Greeks. Sinon's light signals the hidden army to act after the wooden horse is inside Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "phrasing",
+    "text": "\"Destroyed off hand\" means killed on the spot, without delay. The writer contrasts this with the more familiar killing at the altar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "allusion",
+    "text": "Aristophanes jokes that Menelaus dropped his sword on seeing Helen's bare breasts, meaning he forgave her instead of killing her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "allusion",
+    "text": "Aethra was Theseus' mother and had been Helen's servant in Troy since Helen was abducted by Theseus. Her grandsons, Theseus' sons, rescue her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "phrasing",
+    "text": "\"Hollow ships\" is a Homeric formula for the Greek vessels drawn up on the shore.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "word",
+    "text": "Danaans: another name for the Greeks, like Achaeans and Hellenes.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Aias (Ajax), bitter at losing the arms, is driven mad by Athena and slaughters livestock, mistaking them for the Greeks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Philoctetes had been abandoned on Lemnos with a festering snake bite; he owned the bow of Heracles, which Troy's fall required.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Neoptolemus is Achilles' young son, raised on Scyros; Deiphobus, a Trojan prince, takes Helen after Alexandrus (Paris) dies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Epeius was a Greek craftsman; the wooden horse was the stratagem that finally took Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Aias (Ajax) and Odysseus quarrelled over Achilles' armour after his death. Nestor was the oldest and wisest Greek counsellor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Scyros was the island where Achilles' son Neoptolemus lived. In this tradition Achilles had stopped there after leaving Telephus' country.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Ganymedes was the Trojan boy carried off by Zeus to be his cupbearer. Laomedon, his father, received the golden vine as compensation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "The contest of Homer and Hesiod was a popular ancient tale. It was said to take place at the funeral games of Amphidamas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "Meges was a Greek leader from Dulichium. Pausanias is describing Polygnotus' painting of the sack of Troy at Delphi and comparing it with the poem.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "text": "Zeus Herceius was Zeus as guardian of the household, whose altar stood in the courtyard. Killing Priam there was a grave offence against the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "text": "Neoptolemus was Achilles' son. Greek chiefs allotted captive women as prizes, and Andromache, Hector's widow, became his concubine.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "characterization",
+    "text": "Odysseus wins through Athena's contriving, showing him as the cunning hero favored by the goddess rather than the strongest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "irony",
+    "text": "Aias, the mighty warrior, destroys only cattle and then himself, a bitter reversal of his heroic standing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "dramatic irony",
+    "text": "The Trojans celebrate victory while the reader knows armed men hide in the horse; their feast and broken wall prepare their ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "divine intervention",
+    "text": "Athena secretly guiding a human speech shows the gods steering the quarrel's outcome toward Odysseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "irony",
+    "text": "The girl mocks Aias's feat by comparing it to a woman's carrying a load, which undermines the praise of strength.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "imagery",
+    "text": "The clear rising moon gives a quiet, luminous picture of the hour just before the slaughter begins.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "device": "epithet",
+    "text": "\"Bright son of bold Achilles\" and \"rich-haired nurse\" use stock descriptive phrases typical of epic style.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "device": "pathos",
+    "text": "Snatching the infant from his nurse's bosom heightens the cruelty of Astyanax's death through the contrast of tenderness and violence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "device": "irony",
+    "text": "Aeneas is called a prize surpassing all others, though he later survives to found a new Trojan line, which the Greeks could not know.",
+    "spoiler": false
+   }
+  ]
+ }
+}

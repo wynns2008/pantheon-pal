@@ -1,0 +1,293 @@
+{
+ "section_id": "metamorphoses-body-47",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8256,
+  "output": 2474
+ },
+ "result": {
+  "summary": "Perseus flies over Libya with Medusa's head, and drops of her blood become serpents. At dusk he stops in the western kingdom of Atlas, who remembers an oracle, refuses him shelter and tries to drive him off. Perseus turns Atlas into a mountain that bears the sky.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Perseus Flies Over Libya",
+    "summary": "Perseus carries the Gorgon's head over Africa, and its blood breeds serpents. After wandering the world he stops at nightfall in Atlas's western land. The opening lines also glance ahead to Atlas's fate and to Acrisius.",
+    "stakes": "",
+    "present": [
+     "Perseus",
+     "Acrisius",
+     "Bacchus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Libyan sands",
+     "modern_name": "Libya",
+     "certainty": "real",
+     "lat": 27.0,
+     "lon": 17.0
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 24,
+    "title": "Atlas Turned to Stone",
+    "summary": "Perseus asks Atlas for hospitality, but Atlas fears the oracle of Themis and attacks. Perseus shows Medusa's head and Atlas becomes a mountain holding up the heavens.",
+    "stakes": "Atlas stands to lose his golden fruit to a son of Jove; Perseus risks being driven off by a giant.",
+    "present": [
+     "Perseus",
+     "Atlas",
+     "Themis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Kingdom of Atlas",
+     "modern_name": "Atlas Mountains",
+     "certainty": "traditional",
+     "lat": 31.1,
+     "lon": -7.9
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Jupiter and Danaë, slayer of Medusa"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [
+     "Jove"
+    ],
+    "kind": "god",
+    "description": "King of the gods, father of Perseus"
+   },
+   {
+    "name": "Danaë",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Perseus, conceived in a shower of gold"
+   },
+   {
+    "name": "Medusa",
+    "aliases": [
+     "the Gorgon"
+    ],
+    "kind": "monster",
+    "description": "Gorgon whose severed head turns living things to stone"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Giant king of the far west, son of Iapetus, guardian of the golden apples"
+   },
+   {
+    "name": "Iapetus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Atlas"
+   },
+   {
+    "name": "Acrisius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Abas, king who denied Perseus's divine birth"
+   },
+   {
+    "name": "Abas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Acrisius"
+   },
+   {
+    "name": "Bacchus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Worshipped god, grandson of Atlas and Acrisius's rival"
+   },
+   {
+    "name": "Themis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Parnassian goddess who gave the oracle"
+   },
+   {
+    "name": "Lucifer",
+    "aliases": [],
+    "kind": "god",
+    "description": "Morning star that ushers in Aurora"
+   },
+   {
+    "name": "Aurora",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Dawn"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Perseus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Danaë",
+    "relation": "parent_of",
+    "b": "Perseus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Iapetus",
+    "relation": "parent_of",
+    "b": "Atlas",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Abas",
+    "relation": "parent_of",
+    "b": "Acrisius",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Atlas",
+    "relation": "transformed_into",
+    "b": "mountain",
+    "source": "text",
+    "evidence_sentence": 22
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Jove",
+    "canonical": "Jupiter",
+    "explanation": "Alternative form of the Roman god's name."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 21,
+    "reason": "Perseus's sarcastic 'present' is the moment Atlas is petrified.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "reason": "Explains why Atlas holds up the sky.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Inhospitality and fear of prophecy bring about the very loss feared. Ovid also gives an origin for the Atlas Mountains.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale ties Greek myth to the far west and Africa, the edge of the known world for Greeks and Romans.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Atlas gave his name to the Atlas Mountains and, later, to books of maps."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid wrote the Metamorphoses in Latin hexameter, completing it around 8 CE.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Bacchus is the grandson of Atlas's line through his mother Semele's ancestry; the text alludes loosely to his conquest of India and cult in Greece (Achaia).",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Acrisius, Danaë's father, had shut her away because of a prophecy; he refused to accept Perseus as Jove's grandson.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The Bears and the Crab are constellations (Ursa Major and Minor, Cancer); naming them marks travel far north and south.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Lucifer means 'light-bringer', the morning star, which precedes Aurora, goddess of dawn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Themis, goddess of justice and prophecy, was linked with Parnassus and Delphi, hence 'Parnassian'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "'Accept this present' is grimly ironic: the gift is the Gorgon's head, which turns Atlas to stone.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Perseus flies with winged sandals; the serpents of Libya were explained by this myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Atlas, a Titan son of Iapetus, was said to dwell at the western edge of the world, near the Hesperides' golden apples.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "The dragon guarding the golden fruit is the guardian of the garden of the Hesperides.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "simile",
+    "text": "Perseus tossed by winds is compared to a cloud, conveying helpless drifting and his vast aerial range.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "repetition",
+    "text": "Repeating 'gold' three times piles up the orchard's dazzling richness and shows why Atlas guards it so fiercely.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "irony",
+    "text": "Atlas is physically huge, yet is overcome by a small gift; Perseus's polite word 'present' hides a deadly weapon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "hyperbole",
+    "text": "Atlas grows until the whole sky rests on him, an aetiological transformation explaining the mountain and his burden.",
+    "spoiler": false
+   }
+  ]
+ }
+}

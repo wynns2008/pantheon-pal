@@ -1,0 +1,339 @@
+{
+ "section_id": "metamorphoses-body-100",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7732,
+  "output": 2845
+ },
+ "result": {
+  "summary": "Hesperia, fleeing the amorous Æsacus, is bitten by a snake and dies. In grief Æsacus leaps from a cliff into the sea, and Tethys turns him into a diving bird, the didapper, which keeps trying to drown itself.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "The old man identifies the diver",
+    "summary": "Observers watching sea birds hear that the didapper was once Æsacus, a Trojan prince, and his lineage is traced from Ilus to Priam.",
+    "stakes": "",
+    "present": [
+     "Æsacus",
+     "Priam",
+     "Hector"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the sea near Troy",
+     "modern_name": "Aegean Sea, near the Troad",
+     "certainty": "real",
+     "lat": 39.9,
+     "lon": 26.0
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 17,
+    "title": "Hesperia's flight and death",
+    "summary": "Æsacus sees Hesperia drying her hair, and she flees. A snake bites her and she dies, and Æsacus blames himself and resolves to die.",
+    "stakes": "Hesperia flees for her life, and Æsacus loses his beloved and resolves on death.",
+    "present": [
+     "Æsacus",
+     "Hesperia"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "banks of the river Cebrenus, under Ida",
+     "modern_name": "Mount Ida, Troad",
+     "certainty": "traditional",
+     "lat": 39.7,
+     "lon": 26.85
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 23,
+    "title": "Æsacus becomes a didapper",
+    "summary": "Æsacus leaps from a cliff, but Tethys turns him into a bird. Resentful, he keeps diving, and his thin form and name come from this.",
+    "stakes": "Æsacus is denied the death he seeks and is forced to live on.",
+    "present": [
+     "Æsacus",
+     "Tethys"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "a sea cliff",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Æsacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan prince, son of Priam, who loved Hesperia and became a didapper"
+   },
+   {
+    "name": "Hesperia",
+    "aliases": [
+     "Hesperie"
+    ],
+    "kind": "nymph",
+    "description": "nymph daughter of Cebrenus, killed by a snake bite"
+   },
+   {
+    "name": "Tethys",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sea goddess who turns Æsacus into a bird"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "last king of Troy, father of Æsacus"
+   },
+   {
+    "name": "Hector",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Priam's son, brother of Æsacus"
+   },
+   {
+    "name": "Alexirhoë",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of Granicus, mother of Æsacus"
+   },
+   {
+    "name": "Granicus",
+    "aliases": [],
+    "kind": "god",
+    "description": "river god, father of Alexirhoë"
+   },
+   {
+    "name": "Cebrenus",
+    "aliases": [],
+    "kind": "god",
+    "description": "river god, father of Hesperia"
+   },
+   {
+    "name": "Ilus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of Æsacus"
+   },
+   {
+    "name": "Assaracus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of Æsacus"
+   },
+   {
+    "name": "Ganymede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor snatched away by Jupiter"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods who carried off Ganymede"
+   },
+   {
+    "name": "Laomedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "aged ancestor of Æsacus, father of Priam"
+   },
+   {
+    "name": "Dymas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hector's mother"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Priam",
+    "relation": "parent_of",
+    "b": "Æsacus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Priam",
+    "relation": "parent_of",
+    "b": "Hector",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Hector",
+    "relation": "sibling_of",
+    "b": "Æsacus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Alexirhoë",
+    "relation": "parent_of",
+    "b": "Æsacus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Granicus",
+    "relation": "parent_of",
+    "b": "Alexirhoë",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Cebrenus",
+    "relation": "parent_of",
+    "b": "Hesperia",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Laomedon",
+    "relation": "parent_of",
+    "b": "Priam",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Æsacus",
+    "relation": "lover_of",
+    "b": "Hesperia",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Æsacus",
+    "relation": "transformed_into",
+    "b": "didapper",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Hesperie",
+    "canonical": "Hesperia",
+    "explanation": "Variant spelling of the nymph's name in the translation."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 22,
+    "reason": "Memorable image of love wasting Æsacus into the thin-legged bird.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Love and guilt lead to a transformation that perpetuates the lover's grief, like many Ovidian metamorphoses where the form fits the character's passion.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale links the Trojan royal house to a natural explanation of a bird's habits and name, in the aetiological tradition of Hellenistic poetry.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Latin name Æsacus is explained by Ovid as coming from the bird's plunging; the translator renders the bird as a didapper, a small diving grebe.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "A didapper is a dabchick or little grebe, a small diving water bird; the name means 'dive-dipper'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Ilus, Assaracus, Ganymede, Laomedon and Priam are the Trojan royal line. Ganymede was carried off by Jupiter to be his cupbearer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Hector, Priam's eldest son, was Troy's greatest defender; 'the daughter of Dymas' is Hecuba, mother of Hector.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "'Hind' means a female deer; 'water-duck' translates a diving bird, here the hunted prey of the hawk.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Tethys is a sea goddess, wife of Oceanus, so she naturally shelters one who falls into the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "The bird's name is explained by its habit of plunging; the etymology is Ovid's own aetiological touch, tied to the Latin/Greek word for diving.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "This summary introduces the tale of Æsacus, one of the many transformations in Book 11 that explain a creature's traits.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Ida is the mountain near Troy; Granicus is a river of the region, and Alexirhoë is his nymph daughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Cebrenus was a river god near Troy; his daughters were nymphs, so Hesperie is a river nymph.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "simile",
+    "text": "Hesperia fleeing is compared to a deer escaping a wolf and a duck escaping a hawk, stressing her helpless terror.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "antithesis",
+    "text": "Love makes the pursuer swift and fear makes the pursued swift, balancing the two in a neat symmetrical line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "irony",
+    "text": "The flight meant to save her life is exactly what ends it; the brief sentence delivers the death abruptly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "aetiology",
+    "text": "The bird's thin body and long neck are explained as lasting marks of lovesick grief.",
+    "spoiler": false
+   }
+  ]
+ }
+}

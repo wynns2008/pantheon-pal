@@ -1,0 +1,225 @@
+{
+ "section_id": "hesiod-body-88",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5891,
+  "output": 1789
+ },
+ "result": {
+  "summary": "The hymn praises Athena and tells how she sprang fully armed from the head of Zeus, shaking the cosmos until she took off her armour. The poet then bids her farewell and promises another song.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 0,
+    "title": "Invocation of Athena",
+    "summary": "The poet begins to sing of Pallas Athene and lists her epithets.",
+    "stakes": "",
+    "present": [
+     "Athena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 1,
+    "end_sentence": 3,
+    "title": "Birth from Zeus's head",
+    "summary": "Zeus bears Athena armed from his head; the gods are awed and the world shakes until she removes her armour. Zeus is glad.",
+    "stakes": "",
+    "present": [
+     "Athena",
+     "Zeus",
+     "Hyperion's Son"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympus",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 5,
+    "title": "Farewell and next song",
+    "summary": "The poet hails Athena and says he will remember her and another song.",
+    "stakes": "",
+    "present": [
+     "Athena",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Athena",
+    "aliases": [
+     "Pallas Athene",
+     "Tritogeneia",
+     "Pallas"
+    ],
+    "kind": "goddess",
+    "description": "bright-eyed virgin goddess born from Zeus's head"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "wise king of the gods who holds the aegis"
+   },
+   {
+    "name": "Hyperion's Son",
+    "aliases": [
+     "the bright Son of Hyperion"
+    ],
+    "kind": "god",
+    "description": "the sun god, who halts his horses"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Athena",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Hyperion",
+    "relation": "parent_of",
+    "b": "Hyperion's Son",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pallas Athene",
+    "canonical": "Athena",
+    "explanation": "Pallas is a title added to her name; the text also spells it Athene."
+   },
+   {
+    "alias": "Tritogeneia",
+    "canonical": "Athena",
+    "explanation": "An epithet of uncertain meaning, often linked to Lake Triton or to water."
+   },
+   {
+    "alias": "the bright Son of Hyperion",
+    "canonical": "Hyperion's Son",
+    "explanation": "A patronymic for the sun god, Helios in Greek."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Vivid image of the cosmos shaking at Athena's birth.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn celebrates Athena's power and her bond with Zeus, showing even nature trembling at her birth.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Homeric Hymns were short preludes sung before longer recitations, which explains the promise of another song at the end.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Athena's birth from the head of Zeus became a common subject in Greek vase painting and sculpture, including the east pediment of the Parthenon."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The closing line reflects the hymn's function as a prelude, with the singer moving on to another song.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Tritogeneia is an epithet of uncertain meaning, possibly 'Triton-born' or 'born of the water'; ancient writers explained it in several ways.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Bare\" is the old past tense of \"bear\"; \"arrayed\" means clothed or equipped.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "The aegis is a divine protective emblem, often a goatskin shield or cape, carried by Zeus and Athena and inspiring terror.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The Son of Hyperion is Helios, the Sun, who halts his chariot in awe at the portent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "Hymns typically close by promising to \"remember\" the god and move on to another song, a formula that links the performance to the next piece.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Pallas is a title attached to Athena's name; Athena was patron of cities, crafts and wise warfare.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "In myth Athena is born fully armed from the head of Zeus, after he swallowed her mother Metis.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "epithet",
+    "text": "The string of descriptive titles, such as bright-eyed and saviour of cities, defines Athena's character and honors her in hymn style.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "personification",
+    "text": "Olympus reels, earth cries out and the sea is moved, so nature itself reacts to Athena's power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "hyperbole",
+    "text": "The sun halting his horses and the whole cosmos shaking magnifies the force of Athena's birth.",
+    "spoiler": false
+   }
+  ]
+ }
+}

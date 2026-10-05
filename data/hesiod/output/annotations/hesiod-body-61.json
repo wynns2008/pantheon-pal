@@ -1,0 +1,362 @@
+{
+ "section_id": "hesiod-body-61",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11174,
+  "output": 3261
+ },
+ "result": {
+  "summary": "Apollo, enchanted by Hermes' lyre, offers friendship and a bargain. Hermes gives him the lyre in exchange for the herds, and the two return to Olympus reconciled. They swear oaths of loyalty, and Apollo gives Hermes a golden staff but refuses to share the prophecy that belongs to Zeus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 23,
+    "title": "Apollo and Hermes talk of the lyre",
+    "summary": "Apollo praises the music and promises Hermes renown. Hermes offers him the lyre and asks only to tend the cattle.",
+    "stakes": "Apollo wants his stolen cattle settled peacefully; Hermes wants to escape punishment and gain honour.",
+    "present": [
+     "Apollo",
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cyllene",
+     "modern_name": "Mount Kyllini, Greece",
+     "certainty": "traditional",
+     "lat": 37.94,
+     "lon": 22.39
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 32,
+    "title": "Exchange of lyre and whip",
+    "summary": "Apollo takes the lyre and makes Hermes keeper of herds. They return to Olympus, Zeus reconciles them, and Apollo asks for an oath.",
+    "stakes": "Apollo fears the thief may steal his lyre and bow; Hermes' friendship is at stake.",
+    "present": [
+     "Apollo",
+     "Hermes",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympus",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 41,
+    "title": "Oaths and Apollo's gifts",
+    "summary": "Hermes swears not to steal from Apollo, who swears friendship and gives a golden staff. He refuses to share Zeus's prophecy and describes how omens work.",
+    "stakes": "Hermes seeks prophecy but is refused; those who misuse prophecy will fail.",
+    "present": [
+     "Hermes",
+     "Apollo",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympus",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hermes",
+    "aliases": [
+     "son of Maia",
+     "Maia's son"
+    ],
+    "kind": "god",
+    "description": "Young trickster god, inventor of the lyre"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoebus Apollo",
+     "Far-worker",
+     "Far-shooter",
+     "son of Leto"
+    ],
+    "kind": "god",
+    "description": "Olympian god of song and prophecy whose cattle were stolen"
+   },
+   {
+    "name": "Maia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Mother of Hermes"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Father"
+    ],
+    "kind": "god",
+    "description": "Father of gods who reconciles the brothers"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Mother of Apollo"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Maia",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Apollo",
+    "relation": "sibling_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 38
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Far-worker",
+    "canonical": "Apollo",
+    "explanation": "An epithet of Apollo, as is Far-shooter."
+   },
+   {
+    "alias": "son of Maia",
+    "canonical": "Hermes",
+    "explanation": "A matronymic epithet for Hermes."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 36,
+    "reason": "Apollo states that prophecy of Zeus's mind is forbidden even to the gods.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn resolves the quarrel through exchange: music and cattle trade hands, showing Hermes' cleverness turned into lasting friendship and defined spheres of divine honour.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage explains the origins of cattle herding, Hermes' role in barter, and Greek bird omens as aetiology of cult practice.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Hermes' golden staff, the kerykeion, became the caduceus, a symbol still used for commerce and medicine."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The hymn says Apollo's oracle works through omens, reflecting the importance of divination at Delphi.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Worth fifty cows\" refers to the stolen cattle; Apollo says the song alone repays the theft, so the quarrel can end.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Feats of skill\" translates the idea of clever crafts or contrivances; Apollo means no other musical art has ever impressed him as this does.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The cornel-wood shaft is Apollo's staff or spear; swearing by it makes his promise a solemn oath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Far-worker\" is a standard epithet of Apollo, the archer god who strikes from afar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Apollo was the god of prophecy, learning Zeus's will and passing it on through oracles such as Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "Hermes offers to graze cattle, taking the herdsman's role, and describes the herds' increase as a blessing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "The 'whip' is the herdsman's goad or lash, the emblem of the office Apollo now hands over: tending cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "The 'key' is the plectrum, a small pick used to strike the lyre's strings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "'Deeds of barter' means exchanges and trade between men. 'Form' is a misprint for 'from'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "The oath by the water of Styx, a river of the underworld, was the gods' most binding oath. Nodding the head was also a sign of solemn assent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "word",
+    "text": "'Scatheless' means unharmed; the staff protects Hermes while he carries out tasks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "word",
+    "text": "'Sooth-saying' is prophecy or divination; 'sooth' means truth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "allusion",
+    "text": "Birds' calls and flight were read as omens. Apollo promises that those who read them rightly will be guided by him truthfully.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Maia is the mother of Hermes; Zeus is his father. Apollo uses the matronymic to address him respectfully.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "The Muses were goddesses of song and arts, and Apollo was their leader and patron of music.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Hermes was a god of herds and shepherds, so tending cattle suits him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Apollo, son of Leto, is the god of music and prophecy. He is called 'far-working' because he shoots arrows from afar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "The pipes, a reed instrument often called the syrinx or panpipes, are later associated with herdsmen and with Hermes' pastoral role.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Hermes is the god of travellers, commerce and thieves. This explains why Apollo, whose cattle he stole, worries about his thieving.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "An eagle was Zeus' sacred bird, and its appearance was a sign of his approval of the oath.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "epithet",
+    "text": "Apollo's string of teasing titles for Hermes mixes praise and reproach, matching the mood of grudging reconciliation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "rhetorical question",
+    "text": "Apollo's rapid questions show his amazement and his eagerness to understand the new instrument.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "irony",
+    "text": "Hermes' \"artful words\" are called honest, yet he flatters Apollo to turn the dispute to his advantage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "personification",
+    "text": "The lyre is given a will: it teaches the wise, abhors drudgery, and chatters foolishness at the ignorant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "Imagery",
+    "text": "The sound is described as awesome and sweet. This shows the lyre's power and the god's skill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "Narrative voice",
+    "text": "The phrase 'even as he does now' speaks from the poet's present. It ties the myth to the continuing friendship of the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "Characterization",
+    "text": "Apollo presents himself as bound by duty and sworn secrecy, which shows his loyalty to Zeus and his guarded authority over prophecy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "Irony",
+    "text": "Apollo says he will still take the gifts of those who ignore him, so the offerings are made to no purpose while the god gains.",
+    "spoiler": false
+   }
+  ]
+ }
+}

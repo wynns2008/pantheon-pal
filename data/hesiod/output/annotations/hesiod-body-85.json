@@ -1,0 +1,156 @@
+{
+ "section_id": "hesiod-body-85",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5430,
+  "output": 1282
+ },
+ "result": {
+  "summary": "The poet opens a short hymn by naming the Muses, Apollo and Zeus as the sources of song and kingship. He blesses those the Muses love, then asks the Muses for honour for his song and promises another song.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Invocation of Muses and Apollo",
+    "summary": "The poet declares he will begin with the Muses, Apollo and Zeus, praises the Muses' favour, and addresses them in farewell, promising to remember them and another song.",
+    "stakes": "",
+    "present": [
+     "Muses",
+     "Apollo",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Muses",
+    "aliases": [
+     "children of Zeus"
+    ],
+    "kind": "goddess",
+    "description": "goddesses who give singers their gift of song"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who, with the Muses, grants singers and lyre players"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "source of kings and father of the Muses"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Muses",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "outside",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Memorable statement of the Muses' gift: favoured speakers speak sweetly.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Song and kingship are presented as divine gifts: poets come from the Muses and Apollo, kings from Zeus.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Hymns like this were short preludes sung by rhapsodes before reciting longer poems, which explains the promise of another song.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The idea that poetic inspiration comes from the Muses became a lasting convention, with later poets invoking them at the start of works."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The same lines about kings coming from Zeus and singers from the Muses and Apollo echo Hesiod's Theogony.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Through the Muses and Apollo\" means singers owe their skill to these gods as the source of inspiration.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Hail\" is a formal greeting or farewell to the gods, not a casual hello; here it closes the invocation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Remember you and another song\" is the usual hymn-closing formula: the poet promises to return to the gods in later singing and move on to another song.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The Muses are goddesses of song and memory, daughters of Zeus. Apollo is the god of music and the lyre.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Kings were believed to rule by Zeus's authority, so the passage divides human gifts: poetry from Apollo and the Muses, kingship from Zeus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "parallelism",
+    "text": "The balanced contrast of singers from the Muses and Apollo against kings from Zeus orders the divine spheres of influence neatly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "metaphor",
+    "text": "Speech that \"flows sweet\" from the lips compares eloquence to a liquid stream, showing the Muses' gift as effortless.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "apostrophe",
+    "text": "The poet turns to address the Muses directly, as if present, giving the closing a tone of personal reverence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

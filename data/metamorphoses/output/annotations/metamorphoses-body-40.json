@@ -1,0 +1,456 @@
+{
+ "section_id": "metamorphoses-body-40",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10219,
+  "output": 4009
+ },
+ "result": {
+  "summary": "Leuconoë tells how the Sun exposed Venus and Mars to Vulcan, who trapped them in a net before the gods. In revenge Venus makes the Sun fall in love with Leucothoë, and he tricks his way into her chamber by disguising himself as her mother.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Leuconoë begins the Sun's tale",
+    "summary": "After a pause, Leuconoë starts to tell of the Sun's loves, beginning with his sight of Venus and Mars.",
+    "stakes": "",
+    "present": [
+     "Leuconoë",
+     "Venus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Home of the Minyeides",
+     "modern_name": "Orchomenus",
+     "certainty": "traditional",
+     "lat": 38.4,
+     "lon": 22.98
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 17,
+    "title": "Vulcan's net traps Venus and Mars",
+    "summary": "The Sun tells Vulcan of the adultery. Vulcan forges a fine net and traps the lovers, then shows them to the laughing gods. Venus resolves to punish the Sun.",
+    "stakes": "Venus and Mars face public disgrace; Vulcan's marriage bed has been wronged.",
+    "present": [
+     "Sun",
+     "Vulcan",
+     "Venus",
+     "Mars"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Vulcan's chamber, Lemnos",
+     "modern_name": "Lemnos",
+     "certainty": "traditional",
+     "lat": 39.9,
+     "lon": 25.1
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 27,
+    "title": "The Sun burns with new love",
+    "summary": "The narrator addresses the Sun, whose passion for Leucothoë disrupts the hours and his light. Leucothoë's parentage is given.",
+    "stakes": "The Sun neglects his duty to the world, driven by Venus's revenge.",
+    "present": [
+     "Sun",
+     "Leucothoë",
+     "Venus",
+     "Clymene",
+     "Rhodos",
+     "Clytie",
+     "Eurynome",
+     "Orchamus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Achæmenian cities",
+     "modern_name": "Persia",
+     "certainty": "traditional",
+     "lat": 29.9,
+     "lon": 52.9
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 36,
+    "title": "The Sun disguised as Eurynome",
+    "summary": "While his horses graze, the Sun enters Leucothoë's chamber as her mother, sends the maids away, reveals himself, and she yields.",
+    "stakes": "Leucothoë's honour and safety before an overwhelming god.",
+    "present": [
+     "Sun",
+     "Leucothoë",
+     "Eurynome"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Leucothoë's chamber",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Leuconoë",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the sisters telling tales, narrator here"
+   },
+   {
+    "name": "Sun",
+    "aliases": [
+     "son of Hyperion"
+    ],
+    "kind": "god",
+    "description": "all-seeing god who tells on Venus, then loves Leucothoë"
+   },
+   {
+    "name": "Vulcan",
+    "aliases": [
+     "the Lemnian God",
+     "son of Juno"
+    ],
+    "kind": "god",
+    "description": "skilful smith and husband of Venus"
+   },
+   {
+    "name": "Venus",
+    "aliases": [
+     "Cytherean goddess"
+    ],
+    "kind": "goddess",
+    "description": "adulterous wife who takes revenge on the Sun"
+   },
+   {
+    "name": "Mars",
+    "aliases": [],
+    "kind": "god",
+    "description": "Venus's lover caught in the net"
+   },
+   {
+    "name": "Leucothoë",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "beautiful Persian princess loved by the Sun"
+   },
+   {
+    "name": "Eurynome",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Leucothoë's mother, whose shape the Sun takes"
+   },
+   {
+    "name": "Orchamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Achæmenian cities, Leucothoë's father"
+   },
+   {
+    "name": "Clymene",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "one of the Sun's former loves"
+   },
+   {
+    "name": "Rhodos",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "one of the Sun's former loves"
+   },
+   {
+    "name": "Clytie",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "despised lover longing for the Sun"
+   },
+   {
+    "name": "Circe",
+    "aliases": [
+     "Ææan Circe"
+    ],
+    "kind": "goddess",
+    "description": "enchantress, whose mother was loved by the Sun"
+   },
+   {
+    "name": "Belus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancient ancestor of Orchamus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Orchamus",
+    "relation": "parent_of",
+    "b": "Leucothoë",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Eurynome",
+    "relation": "parent_of",
+    "b": "Leucothoë",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Vulcan",
+    "relation": "spouse_of",
+    "b": "Venus",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Venus",
+    "relation": "lover_of",
+    "b": "Mars",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Sun",
+    "relation": "lover_of",
+    "b": "Leucothoë",
+    "source": "text",
+    "evidence_sentence": 36
+   },
+   {
+    "a": "Juno",
+    "relation": "parent_of",
+    "b": "Vulcan",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Hyperion",
+    "relation": "parent_of",
+    "b": "Sun",
+    "source": "text",
+    "evidence_sentence": 18
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cytherean goddess",
+    "canonical": "Venus",
+    "explanation": "Venus was linked with the island of Cythera."
+   },
+   {
+    "alias": "Lemnian God",
+    "canonical": "Vulcan",
+    "explanation": "Vulcan was associated with the island of Lemnos."
+   },
+   {
+    "alias": "son of Hyperion",
+    "canonical": "Sun",
+    "explanation": "Patronymic; the Sun is a Titan descendant."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 6,
+    "reason": "Memorable statement of the Sun's all-seeing role, which causes his tale-bearing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "reason": "The gods' laughter at the trapped lovers is a famous comic moment.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Love as vengeance: the Sun's betrayal of Venus's secret is repaid by passion, a pattern of gods punished through desire.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The story is told by the Minyeides, who refuse Bacchus's rites and tell tales instead, showing Ovid's nested storytelling.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The tale of Mars and Venus caught in Vulcan's net, also in the Odyssey, was a favourite subject of Renaissance painters such as Tintoretto."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid's version of the Sun's love for Leucothoë leads on to Clytie's jealousy and her transformation into a heliotropic flower.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Intrigue\" here means a secret love affair; \"discovers\" means reveals or informs, not finds out.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"The husband, the son of Juno\" is Vulcan (the Greek Hephaestus), the smith god, husband of Venus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Files out\" means shapes by filing metal; the chains are so fine that the eye cannot see them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Gallant\" means a lover; here, Mars.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "\"The Lemnian God\" is Vulcan, associated with the island of Lemnos, where he was worshipped and where he landed when thrown from heaven.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Could fain wish\" means would gladly wish: some gods would gladly accept such disgrace to share Mars's pleasure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "\"Cytherean\" refers to Venus, linked with the island of Cythera, a centre of her worship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Son of Hyperion: the Sun, whose father was the Titan Hyperion. The name is used here as a patronymic for the Sun god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Refers to a solar eclipse, caused when the moon passes between the earth and the sun. The poet says the Sun's paleness has a different cause.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Clymene, Rhodos, Circe's mother and Clytie are earlier loves of the Sun. Clytie's jealous love for him is told later in this book.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "Perfume-bearing nation: the Arabians, famed in antiquity for incense and spices.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "Ambrosia: the food of the gods, said here to feed the Sun's horses instead of grass.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "Distaff and spindle are tools for spinning thread; the distaff holds the wool or flax, and the spindle twists it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "Coursers: swift horses, here the horses that draw the Sun's chariot.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "As the Sun, he travels across the sky and sees everything below, which is why he can expose the lovers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Venus's revenge leads to the Sun's tragic love for Leucothoë, the story that follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Orchamus is a Persian king. Achæmenian refers to Persia, named after the Achæmenid dynasty, and Belus is a legendary ancestor-king of the East.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "The Sun sees everything, so he claims to be the universe's eye. This also hints that he knows the secret doings of gods and mortals.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "repetition",
+    "text": "\"This God is the first…\" is repeated for emphasis, and the second clause turns the particular event into a general truth about the Sun.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "hyperbole",
+    "text": "Comparing the net to threads and cobwebs exaggerates its delicacy to show Vulcan's extraordinary skill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "The gods' wish to share the disgrace undercuts their laughter; the humour mocks divine morals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "poetic justice",
+    "text": "Venus repays the Sun in kind: he exposed her love, so she torments him with love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "apostrophe",
+    "text": "The narrator breaks off to speak directly to the Sun, mocking his powerlessness against love and drawing the reader into the scene.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "irony",
+    "text": "The Sun, who burns all lands, is now burnt by love's flame. The god who sees everything stares at only one girl.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "pathetic fallacy",
+    "text": "The Sun's mental turmoil dims the sky and frightens mortals, so nature mirrors the god's emotions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "hyperbole",
+    "text": "The comparison of mother and daughter exaggerates Leucothoë's beauty, which explains why the Sun is so taken with her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "characterization",
+    "text": "Her fear makes her more attractive to the Sun. This shows the god's desire and the girl's helplessness, a pattern common in Ovid's love stories.",
+    "spoiler": false
+   }
+  ]
+ }
+}

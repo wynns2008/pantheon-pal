@@ -1,0 +1,213 @@
+{
+ "section_id": "metamorphoses-body-21",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6905,
+  "output": 1943
+ },
+ "result": {
+  "summary": "Cycnus, Phaëton's kinsman, mourns by the Eridanus and is turned into a swan, which shuns fire and lives on water. Meanwhile the grieving Sun refuses to drive his chariot until the gods and Jupiter beg him to return to his task.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Cycnus becomes a swan",
+    "summary": "Cycnus leaves his Ligurian kingdom to lament Phaëton by the Eridanus. His voice turns shrill and feathers cover him, and as a swan he keeps to water and avoids fire.",
+    "stakes": "Cycnus is lost in grief for his friend and loses his human form.",
+    "present": [
+     "Cycnus",
+     "Phaëton"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "banks of the river Eridanus",
+     "modern_name": "Po River, northern Italy",
+     "certainty": "traditional",
+     "lat": 45.0,
+     "lon": 10.5
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 13,
+    "title": "The Sun refuses to drive",
+    "summary": "The Sun, in mourning, declares he will no longer drive the chariot and tells Jupiter to try it himself. The gods and Jupiter plead and threaten, and Phœbus gives in and furiously whips his terrified horses.",
+    "stakes": "The world risks being left in permanent darkness if the Sun will not return to his task.",
+    "present": [
+     "Phœbus",
+     "Jupiter",
+     "Phaëton"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the Sun's realm in the heavens",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cycnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Ligurians, Phaëton's kinsman and friend, turned into a swan"
+   },
+   {
+    "name": "Sthenelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cycnus"
+   },
+   {
+    "name": "Phaëton",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the dead son of the Sun"
+   },
+   {
+    "name": "Phœbus",
+    "aliases": [
+     "the Sun",
+     "the father of Phaëton"
+    ],
+    "kind": "god",
+    "description": "the sun god, grieving father who stops his work"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, whose lightning killed Phaëton"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Sthenelus",
+    "relation": "parent_of",
+    "b": "Cycnus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Phœbus",
+    "relation": "parent_of",
+    "b": "Phaëton",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Cycnus",
+    "relation": "transformed_into",
+    "b": "swan",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Sun",
+    "canonical": "Phœbus",
+    "explanation": "The sun god is called Phœbus and the Sun interchangeably here."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "The Sun's bitter claim that Phaëton's failure did not merit death.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Grief and its consequences run through the passage: mourning changes Cycnus's form and nearly stops the cosmos when the Sun withdraws.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Ovid gives an aetiology for the swan's love of water, linking its habits to Cycnus's hatred of fire.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The name Cycnus is tied to the Greek word for swan, and the swan's association with mourning song recurs in later poetry."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ancient tradition located the Eridanus with the Po, so Ovid ties the myth to northern Italy.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Cycnus's kinship to Phaëton through his mother is mentioned but not explained; the bond of affection is stressed over blood. Sthenelus here is a Ligurian king, not the Greek hero.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The wood 'augmented by the sisters' refers to the Heliades, Phaëton's grieving sisters, who had just been turned into poplars (or alders) by the river.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "'Suffers an eclipse of his disk' means the Sun is dimmed, as in an eclipse; his mourning is compared to that darkening.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "'Lightnings that bereave fathers' refers to the thunderbolt that killed Phaëton, leaving the Sun without his son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "Jupiter 'excuses the hurling of his lightnings': he defends the bolt as necessary, not as a wrong.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "The Eridanus is a legendary river, later often identified with the Po, in northern Italy, where Phaëton fell.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Phœbus, the Sun god, is Phaëton's father and drives the sun's chariot across the sky each day.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "Irony",
+    "text": "The swan, a bird made for flight, refuses the sky because fire came from there; the transformation reflects his grief and fear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "Pathetic fallacy",
+    "text": "The Sun's mourning dims the world like an eclipse, so nature itself seems to share his grief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Characterization",
+    "text": "Phœbus's bitter challenge shows grief turning to anger and reveals his defiance toward Jupiter.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,484 @@
+{
+ "section_id": "metamorphoses-body-39",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 16587,
+  "output": 4647
+ },
+ "result": {
+  "summary": "The daughters of Minyas refuse the festival of Bacchus and keep spinning, and one of them tells the tale of Pyramus and Thisbe. The lovers, separated by their fathers, talk through a chink in a wall and plan to meet at the tomb of Ninus, where a lioness frightens Thisbe off and both die by the sword, staining the mulberry fruit dark.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Argument of the fable",
+    "summary": "A prefatory summary announces the daughters of Minyas and the story of Pyramus and Thisbe.",
+    "stakes": "",
+    "present": [
+     "Pyramus",
+     "Thisbe"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Babylon",
+     "modern_name": "Babylon, Iraq",
+     "certainty": "real",
+     "lat": 32.54,
+     "lon": 44.42
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 20,
+    "title": "Minyas' daughters refuse Bacchus",
+    "summary": "While Theban women honour Bacchus, the daughters of Minyas keep working and choose a tale to tell.",
+    "stakes": "They risk the severe resentment of Bacchus, which the priest foretold for those who slight him.",
+    "present": [
+     "Alcithoë",
+     "Bacchus",
+     "Silenus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ismenian town (Thebes)",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 32,
+    "title": "Lovers at the chink",
+    "summary": "Neighbours Pyramus and Thisbe, forbidden to marry, whisper through a crack in the shared wall.",
+    "stakes": "Their love is forbidden by their fathers and they cannot even touch.",
+    "present": [
+     "Pyramus",
+     "Thisbe"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Babylon",
+     "modern_name": "Babylon, Iraq",
+     "certainty": "real",
+     "lat": 32.54,
+     "lon": 44.42
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 40,
+    "title": "Thisbe and the lioness",
+    "summary": "The lovers plan to meet at the tomb of Ninus; Thisbe arrives, flees a lioness and drops her veil, which the lioness mauls.",
+    "stakes": "Thisbe is in danger from the lioness and from discovery by her keepers.",
+    "present": [
+     "Thisbe",
+     "Pyramus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tomb of Ninus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 41,
+    "end_sentence": 63,
+    "title": "Deaths beneath the mulberry",
+    "summary": "Pyramus finds the bloodied veil and stabs himself; Thisbe returns, finds him and kills herself, asking that the fruit stay dark and that they share one urn.",
+    "stakes": "Both lovers lose their lives.",
+    "present": [
+     "Pyramus",
+     "Thisbe"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tomb of Ninus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pyramus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Babylonian youth who loves Thisbe and kills himself"
+   },
+   {
+    "name": "Thisbe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Babylonian maiden who loves Pyramus and dies with him"
+   },
+   {
+    "name": "Alcithoë",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Minyas who denies Bacchus' divinity"
+   },
+   {
+    "name": "Minyas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of the impious sisters"
+   },
+   {
+    "name": "Bacchus",
+    "aliases": [
+     "Bromius",
+     "Lyæus",
+     "Nyseus",
+     "Thyoneus",
+     "Lenæus",
+     "Nyctelius",
+     "Eleleus",
+     "Iacchus",
+     "Evan",
+     "Liber"
+    ],
+    "kind": "god",
+    "description": "God of wine whose rites the sisters spurn"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "Said to be Bacchus' father"
+   },
+   {
+    "name": "Silenus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Drunken old follower of Bacchus riding an ass"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess of weaving favoured by the sisters"
+   },
+   {
+    "name": "Semiramis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Queen said to have walled Babylon"
+   },
+   {
+    "name": "Ninus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man whose tomb is the meeting place"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Bacchus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Minyas",
+    "relation": "parent_of",
+    "b": "Alcithoë",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Liber",
+    "canonical": "Bacchus",
+    "explanation": "Latin cult name of Bacchus, one of his many titles listed."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 26,
+    "reason": "Memorable maxim that suppressed love burns more fiercely.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "reason": "Famous aside: what does love not perceive?",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "reason": "The lovers' complaint to the envious wall.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Forbidden love and impulsive misreading of evidence lead to needless death; the tale also mirrors the sisters' own defiance of a god.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid sets the tale in Babylon, using the East as an exotic backdrop, and links it to the aetiology of the dark mulberry.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story influenced Shakespeare's Romeo and Juliet and the play within A Midsummer Night's Dream (c. 1595)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid's version is the earliest surviving full telling of Pyramus and Thisbe.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "A thyrsus (plural thyrsi) is a staff wreathed in ivy or vine leaves and topped with a pine cone, carried by worshippers of Bacchus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Fillets are headbands or ribbons; loosening them let the hair hang free, as Bacchic ritual required.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "These epithets refer to Bacchus's birth: his mother Semele was consumed by Jupiter's lightning, and Jupiter then carried him in his thigh, so he was 'twice-born' with 'two mothers'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Liber, Lenaeus, Iacchus, Evan and the rest are further names of Bacchus (the Greek Dionysus), each tied to wine, night or ritual cries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Pentheus and Lycurgus were kings who resisted Bacchus and were punished. The Etrurians were pirates he turned into dolphins.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Ismenian means Theban, from the river Ismenus near Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Pallas is Minerva, goddess of weaving and handicrafts, whom the sisters favor over Bacchus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Dercetis (Derceto) was a Syrian fish-goddess, said to have been changed into a fish-tailed form. Her daughter, Semiramis, was said to become a dove.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Semiramis was the legendary Assyrian queen said to have founded Babylon and walled it with brick; the story is set there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "The syntax is compressed: they could not forbid their love, so both burned equally. The 'thing' is their passion, which the fathers had no power over.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "The narrator suddenly addresses the lovers directly, a shift from third to second person, with a parenthetical aside about love's sharp perception.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "'Thou' and 'dost' are archaic singular address; here the lovers speak to the wall as if it were a person.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "phrasing",
+    "text": "\"Wonted spot\" means the customary place, the usual meeting place of the lovers (the chink in the wall between their houses).",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "phrasing",
+    "text": "Sunset is described as the light sinking into the sea and night rising from the same waters, a poetic way of saying day turns to night.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "phrasing",
+    "text": "\"Turning the hinge\" means opening the door quietly; \"attendants\" are the household guards who watch her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "word",
+    "text": "\"Thee, much to be lamented\" addresses Thisbe as one deserving mourning; \"’tis\" and \"thee\" are archaic forms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "phrasing",
+    "text": "The simile pictures a lead water pipe with a decayed spot bursting and shooting a hissing jet of water through the flaw.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "kind": "word",
+    "text": "\"Box-wood\" is a pale yellowish wood; paleness like it signals terror.",
+    "spoiler": false
+   },
+   {
+    "sentence": 55,
+    "kind": "word",
+    "text": "The \"ivory sheath\" is the scabbard of Pyramus's sword, found empty, which tells her how he died.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Babylon was famed for its great walls, which the lovers must slip outside of to meet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Minyas was a king of Orchomenus in Boeotia. His daughters' refusal of Bacchus leads to their punishment, framing the tales they tell.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Bacchus was said to have led a triumphant expedition to India, a common part of his legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Silenus was Bacchus's old, drunken tutor and companion, traditionally shown riding a donkey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Pyramus and Thisbe's tale is told by one of the daughters of Minyas, who spin and weave to avoid worshipping Bacchus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "A party-wall is a wall shared by two adjoining buildings, so the crack lies between the two households.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Ninus was the legendary founder of Nineveh and husband of Semiramis; his tomb outside Babylon is the lovers' chosen meeting place.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "The mulberry fruit was white before this night. The tale explains why mulberries became dark red or black.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "text": "Thisbe is called Babylonian because the story is set in Babylon, where she and Pyramus live in adjoining houses.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "apostrophe",
+    "text": "The narrator addresses Bacchus directly, shifting into a hymn-like praise that honors the god the sisters will refuse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "imagery",
+    "text": "Piled-up sounds of shouts, tambourines, cymbals and pipes make the procession loud and lively, in sharp contrast to the silent sisters indoors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "The sisters' diligent labor, a virtue in itself, is set against the festival and is the impiety that will bring ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "narrative voice",
+    "text": "The closing image of wool following the thread marks the shift to a tale within a tale, with the storyteller's work mirroring her telling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "metaphor",
+    "text": "Love is likened to a fire that grows hotter the more it is covered up, expressing how suppression intensifies passion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "apostrophe",
+    "text": "The poet breaks off to address the lovers directly, creating intimacy and sympathy, and praising their ingenuity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "personification",
+    "text": "The lovers talk to the wall as a jealous, 'envious' being able to hear and grant their wish.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "irony",
+    "text": "The kisses are given but never arrive; the wall receives what was meant for each other, underlining their frustration.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "dramatic irony",
+    "text": "Pyramus wrongly believes Thisbe is dead, though she is alive and nearby; the reader's knowledge makes his suicide tragic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "simile",
+    "text": "Pyramus's spurting blood is compared to water from a burst pipe, an homely, almost grotesque image that heightens the violence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "device": "simile",
+    "text": "Thisbe's shuddering is likened to the sea trembling under a light breeze, conveying her fear through a delicate natural image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "device": "aetiology",
+    "text": "The tale ends by explaining the mulberry's dark fruit and the shared urn, turning the lovers' deaths into a lasting natural memorial.",
+    "spoiler": false
+   }
+  ]
+ }
+}

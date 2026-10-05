@@ -1,0 +1,400 @@
+{
+ "section_id": "hesiod-body-37",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11014,
+  "output": 3479
+ },
+ "result": {
+  "summary": "The shield's rim is described, then Heracles and Iolaus drive out against Cycnus, with Athene advising them. Heracles warns Cycnus, the two fight on foot amid similes, and Heracles kills Cycnus with a spear thrust to the neck.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Ocean on the shield's rim",
+    "summary": "The shield's rim shows Ocean with swans and fish. Heracles takes the shield and mounts his chariot with Iolaus.",
+    "stakes": "",
+    "present": [
+     "Heracles",
+     "Iolaus",
+     "Zeus",
+     "Hephaestus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The shield of Heracles",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 15,
+    "title": "Athene's counsel and the charge",
+    "summary": "Athene tells Heracles he will slay Cycnus and may wound Ares, then rides with them as the chariots rush together.",
+    "stakes": "Heracles risks fighting Cycnus and Ares; he must obey Athene's limits.",
+    "present": [
+     "Athene",
+     "Heracles",
+     "Iolaus",
+     "Cycnus",
+     "Ares",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The plain near Trachis",
+     "modern_name": "Near Trachis, Greece",
+     "certainty": "traditional",
+     "lat": 38.8,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 23,
+    "title": "Heracles' warning to Cycnus",
+    "summary": "Heracles tells Cycnus to yield the road and recalls how he once wounded Ares at Pylos.",
+    "stakes": "Cycnus faces death; Heracles' boast recalls Ares' near disgrace.",
+    "present": [
+     "Heracles",
+     "Cycnus",
+     "Ares",
+     "Ceyx",
+     "Themistinoe"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sandy Pylos",
+     "modern_name": "Pylos, Greece",
+     "certainty": "real",
+     "lat": 36.91,
+     "lon": 21.7
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 36,
+    "title": "The duel and death of Cycnus",
+    "summary": "Cycnus ignores the warning and they fight on foot, compared to boars, lions and vultures. Heracles pierces Cycnus' neck and he falls.",
+    "stakes": "Heracles and Cycnus fight to the death; Cycnus loses his life.",
+    "present": [
+     "Heracles",
+     "Cycnus",
+     "Zeus",
+     "Iolaus",
+     "Ares"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The plain near Trachis",
+     "modern_name": "Near Trachis, Greece",
+     "certainty": "traditional",
+     "lat": 38.8,
+     "lon": 22.5
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Heracles",
+    "aliases": [
+     "son of Zeus",
+     "son of Amphitryon"
+    ],
+    "kind": "mortal",
+    "description": "hero, son of Zeus, wielding the shield"
+   },
+   {
+    "name": "Iolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heracles' charioteer"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, father of Heracles"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who made the shield"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "grey-eyed goddess who aids Heracles"
+   },
+   {
+    "name": "Cycnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "spearman, son of Ares, Heracles' foe"
+   },
+   {
+    "name": "Ares",
+    "aliases": [
+     "Lord of War"
+    ],
+    "kind": "god",
+    "description": "war god, father of Cycnus"
+   },
+   {
+    "name": "Ceyx",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Trachis"
+   },
+   {
+    "name": "Themistinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Ceyx, wife of Cycnus"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heracles' mortal father"
+   },
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of Heracles"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Heracles",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Ares",
+    "relation": "parent_of",
+    "b": "Cycnus",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Ceyx",
+    "relation": "parent_of",
+    "b": "Themistinoe",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Cycnus",
+    "relation": "spouse_of",
+    "b": "Themistinoe",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Amphitryon",
+    "relation": "parent_of",
+    "b": "Heracles",
+    "source": "text",
+    "evidence_sentence": 34
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lord of War",
+    "canonical": "Ares",
+    "explanation": "Epithet for Ares, father of Cycnus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 28,
+    "reason": "Vivid simile of falling rocks and trees for the clash of the fighters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "reason": "Famous grasshopper simile with Sirius and Dionysus' grapes marking the summer season.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows divine support for a hero: Athene guides Heracles while Zeus signals the battle, and Heracles' shield protects him.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The extended Homeric-style similes show the poet imitating epic technique, drawing on farming and hunting life.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Shield of Heracles is attributed to Hesiod, but ancient and modern scholars doubt it, and it imitates the shield of Achilles in the Iliad.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Aegis\" is Zeus's storm-shield or goatskin cloak, a sign of his power that terrifies enemies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Heracles is called offspring of Lynceus because Lynceus was an ancestor of his stepfather Amphitryon's line; Iolaus is addressed too, as both are in the chariot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Watch ... narrowly\" means watch closely and carefully, not with a narrow view.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Not ordained\" means fate or divine decree forbids it; Heracles may not take Ares' horses or armour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Mettle\" means spirit and courage; Athene fills the horses with fiery eagerness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Good sir\" is a formal, slightly ironic address; \"pray\" in the next line means \"please\" and adds a mocking politeness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Trachis is a city in central Greece where Heracles stayed with king Ceyx; Cycnus is Ceyx's son-in-law, so Heracles points to a tie between them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Refers to Heracles' fight against Ares at Pylos, where he wounded the god while attacking the city of Neleus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Tare\" is an archaic past tense of \"tear,\" meaning Heracles' spear ripped into the flesh.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "\"The Lord of War\" is Ares, so Cycnus is called his son; \"son of Zeus\" is Heracles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "Sirius, the Dog Star, rises in high summer and was thought to cause the season's scorching heat.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Ocean was imagined as a great river encircling the world, so it fittingly rings the shield's edge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Iolaus was Heracles' nephew and regular charioteer and companion in his labours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Ares, god of war, is the father of Cycnus; Athene's advice lets Heracles wound a god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Myrmidons, Iolcus, Arne, Helice and Anthea are places in Thessaly and nearby; the list shows how far the shout carried.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Zeus is Heracles' father; his thunder and bloody rain are omens that he favors his son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "\"The gift of the god\" is the divine armor, made by Hephaestus and given to Heracles, which protects him.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "simile",
+    "text": "Heracles' leap onto the chariot is compared to his father's lightning, stressing his speed and divine descent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "personification",
+    "text": "The earth groans as if alive, showing the weight and terror of the approaching clash.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "simile",
+    "text": "The charging pair are likened to fire or whirlwind, conveying destructive force and speed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "epic simile",
+    "text": "The clash of the two warriors is compared to rocks crashing down a mountainside and breaking trees, conveying huge, destructive force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "simile",
+    "text": "Heracles is likened to a bristling, foaming boar, stressing his ferocity and the danger he poses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "periphrasis",
+    "text": "The long description of the grasshopper and the summer heat marks the season of the fight and makes the battle feel scorching.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "simile",
+    "text": "Lions and vultures fighting over a kill portray the warriors as predators, and the absent hunter adds a sense of helplessness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "simile",
+    "text": "Cycnus' fall is compared to a lightning-struck oak or pine, recalling the tree imagery earlier and echoing Zeus's power.",
+    "spoiler": false
+   }
+  ]
+ }
+}

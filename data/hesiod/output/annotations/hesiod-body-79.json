@@ -1,0 +1,288 @@
+{
+ "section_id": "hesiod-body-79",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7269,
+  "output": 2483
+ },
+ "result": {
+  "summary": "The hymn praises Pan, the goat-footed, horned god of mountains and flocks, describing his wandering, hunting, piping and dancing with nymphs. It then tells how Hermes fathered him in Arcadia, how his nurse fled in fear, and how the gods delighted in him and named him Pan.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Pan roams the mountains",
+    "summary": "Pan is described wandering the wooded glades and peaks, hunting by day and piping at evening while nymphs dance with him.",
+    "stakes": "",
+    "present": [
+     "Pan",
+     "Echo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "mountains and glades",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 11,
+    "title": "Pan's birth in Arcadia",
+    "summary": "Hermes tends sheep for a mortal in Arcadia and weds Dryops' daughter. She bears Pan, whose appearance terrifies the nurse, but Hermes takes him up gladly.",
+    "stakes": "The child is abandoned by his frightened nurse and depends on Hermes' acceptance.",
+    "present": [
+     "Hermes",
+     "Pan",
+     "Dryops' daughter"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Arcadia",
+     "modern_name": "Arcadia, Peloponnese, Greece",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 13,
+    "title": "Pan shown to the gods",
+    "summary": "Hermes carries the child to the immortals, who delight in him and name him Pan.",
+    "stakes": "",
+    "present": [
+     "Hermes",
+     "Pan",
+     "Zeus",
+     "Dionysus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympus",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 16,
+    "title": "Closing greeting",
+    "summary": "The poet salutes Pan and promises to remember another song.",
+    "stakes": "",
+    "present": [
+     "Pan"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "unspecified",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "goat-footed, horned shepherd-god of mountains, son of Hermes"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "luck-bringing Hermes",
+     "god of Cyllene"
+    ],
+    "kind": "god",
+    "description": "messenger of the gods, father of Pan"
+   },
+   {
+    "name": "Echo",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph whose wail sounds about the mountain-top"
+   },
+   {
+    "name": "Dryops' daughter",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "rich-tressed daughter of Dryops, mother of Pan"
+   },
+   {
+    "name": "Dryops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hermes' bride, whose sheep Hermes tended"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, beside whom Pan is set"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Bacchie Dionysus"
+    ],
+    "kind": "god",
+    "description": "god especially delighted by Pan"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hermes",
+    "relation": "parent_of",
+    "b": "Pan",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Dryops",
+    "relation": "parent_of",
+    "b": "Dryops' daughter",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Hermes",
+    "relation": "spouse_of",
+    "b": "Dryops' daughter",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Dryops' daughter",
+    "relation": "parent_of",
+    "b": "Pan",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Bacchie Dionysus",
+    "canonical": "Dionysus",
+    "explanation": "Epithet linking Dionysus with Bacchic revelry."
+   },
+   {
+    "alias": "god of Cyllene",
+    "canonical": "Hermes",
+    "explanation": "Hermes was worshipped at Mount Cyllene in Arcadia."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Gives the hymn's folk etymology of Pan's name as delighting all the gods.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn presents Pan as a wild yet joyful power of untamed nature, music and dance, welcomed among the Olympians despite his strange looks.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pan was an Arcadian cult figure; the hymn's etymology from 'all' is a Greek wordplay, since his name more likely relates to pasturing.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The word 'panic' derives from Pan, whose sudden cries were thought to terrify flocks and armies."
+   },
+   {
+    "kind": "popular_culture",
+    "text": "Pan's pipes and goat-legged image shaped later depictions such as Mr. Tumnus-like fauns and Barrie's Peter Pan (1904)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The hymn's 'Pan 2532' is a stray reference number from the source edition, not part of the poem.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Foot it\" means to dance; the nymphs dance at a cliff's edge, calling on Pan as they go.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The bird mourning in spring is the nightingale, traditionally linked with the myth of Procne's lament for her son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Echo is the mountain nymph whose voice answers calls; here her \"wail\" is the echo returning from the heights.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Cyllene is the Arcadian mountain where Hermes was born and worshipped; hence \"god of Cyllene.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "The text says Zeus here, though other names are Latinised elsewhere; it is the translation's own spelling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Pan\" resembles the Greek word for \"all\"; the hymn offers this as the name's origin, a folk etymology. The \"2532\" is a stray number in the text.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Pan is the Arcadian god of shepherds, flocks and wild places, half goat in form, and son of Hermes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Dionysus, god of wine and revelry, is especially pleased, fitting for a noisy, dancing, merry-making god like Pan.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "epithet",
+    "text": "Descriptive phrases such as goat's feet, two horns and lover of merry noise fix Pan's identity at once.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "simile",
+    "text": "Pan's piping is compared implicitly to the nightingale's song, and judged unsurpassed, praising his music through nature's best singer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "characterization",
+    "text": "The nurse's terror at his beard and strange face shows Pan's wild, uncanny nature, in contrast with his father's joy.",
+    "spoiler": false
+   }
+  ]
+ }
+}

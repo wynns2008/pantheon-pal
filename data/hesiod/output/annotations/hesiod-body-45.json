@@ -1,0 +1,249 @@
+{
+ "section_id": "hesiod-body-45",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6242,
+  "output": 2033
+ },
+ "result": {
+  "summary": "The fragmentary hymn lists rival claims for Dionysus' birthplace, rejects them, and says Zeus bore him secretly far from Hera. Zeus then promises honours with a nod that shakes Olympus, and the poet closes with a farewell to Dionysus and Semele.",
+  "scenes": [
+   {
+    "start_sentence": 1,
+    "end_sentence": 3,
+    "title": "Disputed birthplaces of Dionysus",
+    "summary": "The poet lists places claimed as Dionysus' birthplace, calls them false, and says Zeus gave him birth in secret from Hera.",
+    "stakes": "",
+    "present": [
+     "Dionysus",
+     "Semele",
+     "Zeus",
+     "Hera"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Dracanum, Icarus, Naxos, Alpheus, Thebes",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 10,
+    "title": "Zeus promises honours with a nod",
+    "summary": "Zeus promises that mortals will honour with offerings and sacrifice every third year, and he confirms it with a nod that shakes Olympus.",
+    "stakes": "",
+    "present": [
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympus",
+     "modern_name": "Mount Olympus",
+     "certainty": "traditional",
+     "lat": 40.0852,
+     "lon": 22.3584
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 12,
+    "title": "Closing invocation and farewell",
+    "summary": "The singer asks Dionysus' favour and bids farewell to him and Semele.",
+    "stakes": "",
+    "present": [
+     "Dionysus",
+     "Semele"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Place of recitation",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Insewn",
+     "Heaven-born",
+     "Inspirer of frenzied women"
+    ],
+    "kind": "god",
+    "description": "god honoured in the hymn, son of Zeus and Semele"
+   },
+   {
+    "name": "Semele",
+    "aliases": [
+     "Thyone"
+    ],
+    "kind": "mortal",
+    "description": "mother of Dionysus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos",
+     "Father of men and gods"
+    ],
+    "kind": "god",
+    "description": "king of the gods, father of Dionysus"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "white-armed goddess from whom the birth is hidden"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Semele",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "outside",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Semele",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Thyone",
+    "canonical": "Semele",
+    "explanation": "Name by which men call Semele, who is later deified as Thyone."
+   },
+   {
+    "alias": "Insewn",
+    "canonical": "Dionysus",
+    "explanation": "Epithet referring to his birth, sewn into Zeus' thigh."
+   },
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "Patronymic for Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "The poet dismisses all rival birthplace claims as lies.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn deals with Dionysus' uncertain origins and confirms his divine legitimacy through Zeus' nod.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The competing birthplaces reflect rival local cults, and the triennial feasts reflect real festivals of Dionysus.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The hymn survives only as a fragment, with the opening lost and gaps marked by asterisks.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Insewn\" refers to the myth that Zeus sewed the unborn Dionysus into his thigh; the title is an epithet of the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Nysa is the legendary mountain where Dionysus was nursed; ancient writers placed it in many different lands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Hecatombs\" were large sacrifices, originally of a hundred oxen; \"perfect\" means unblemished and complete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Each three years\" means every third year, by Greek inclusive counting, a festival held in alternate years.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Thyone is another name for Semele, who was said to be raised to divinity after her death.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Semele was a Theban princess, mother of Dionysus by Zeus. Dracanum, Icarus, Naxos and the Alpheus were rival claimants to his birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Hera, Zeus' wife, was jealous of his mortal lovers and hostile to Semele and Dionysus, so the birth was concealed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Zeus is called Son of Cronos, a title recalling his father, the Titan Cronos, whom he overthrew.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "characterization",
+    "text": "The poet bluntly dismisses rival traditions as lies, taking a confident authoritative narrator's stance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "hyperbole",
+    "text": "Zeus' nod makes a whole mountain shake, conveying his overwhelming power and the binding force of his promise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "apostrophe",
+    "text": "The singer addresses the god directly, asking his favour and shifting from narrative to prayer.",
+    "spoiler": false
+   }
+  ]
+ }
+}

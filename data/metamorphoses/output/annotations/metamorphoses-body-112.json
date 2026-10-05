@@ -1,0 +1,312 @@
+{
+ "section_id": "metamorphoses-body-112",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10090,
+  "output": 2824
+ },
+ "result": {
+  "summary": "Aeneas lands at Caieta after leaving the underworld. There Achæmenides, rescued from the Cyclops' island, meets his former comrade Macareus. Achæmenides recounts his terror of Polyphemus, and Macareus tells of Æolus's bag of winds and the Læstrygons, then warns Aeneas against Circe's shores.",
+  "scenes": [
+   {
+    "start_sentence": 3,
+    "end_sentence": 7,
+    "title": "Meeting at Caieta",
+    "summary": "Aeneas reaches the shore after the Sibyl's guidance, and Macareus recognizes Achæmenides aboard a Trojan ship. Achæmenides swears his gratitude to Aeneas.",
+    "stakes": "",
+    "present": [
+     "Aeneas",
+     "Macareus",
+     "Achæmenides",
+     "Sibyl"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Caieta",
+     "modern_name": "Gaeta",
+     "certainty": "real",
+     "lat": 41.2147,
+     "lon": 13.5719
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 19,
+    "title": "Achæmenides recalls Polyphemus",
+    "summary": "Achæmenides describes being abandoned, the Cyclops hurling rocks, his raging curses, the devoured companions, and his rescue by a Trojan ship.",
+    "stakes": "Achæmenides faces being eaten by Polyphemus or starving alone.",
+    "present": [
+     "Achæmenides",
+     "Polyphemus",
+     "Ulysses"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ætna",
+     "modern_name": "Mount Etna, Sicily",
+     "certainty": "traditional",
+     "lat": 37.751,
+     "lon": 14.9934
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 21,
+    "title": "Æolus and the winds",
+    "summary": "Macareus tells how Ulysses received the winds in a bag, and how the crew opened it out of greed, driving the ship back.",
+    "stakes": "The crew lose their near-reached homeland when the winds escape.",
+    "present": [
+     "Macareus",
+     "Ulysses",
+     "Æolus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Æolian harbour",
+     "modern_name": "Aeolian Islands",
+     "certainty": "traditional",
+     "lat": 38.5,
+     "lon": 14.9
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 27,
+    "title": "Læstrygons and warning",
+    "summary": "Macareus tells of Antiphates and the Læstrygons destroying ships, then warns Aeneas to avoid Circe's island.",
+    "stakes": "Crew members die; Aeneas risks danger from Circe's shores.",
+    "present": [
+     "Macareus",
+     "Antiphates",
+     "Ulysses",
+     "Aeneas",
+     "Circe"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "city of Lamus, land of the Læstrygons",
+     "modern_name": "Formia",
+     "certainty": "traditional",
+     "lat": 41.2569,
+     "lon": 13.6055
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aeneas",
+    "aliases": [
+     "the Trojan Æneas"
+    ],
+    "kind": "mortal",
+    "description": "Trojan hero, son of a Goddess, returning from the underworld"
+   },
+   {
+    "name": "Macareus",
+    "aliases": [
+     "Macareus of Neritos"
+    ],
+    "kind": "mortal",
+    "description": "companion of Ulysses"
+   },
+   {
+    "name": "Achæmenides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ithacan left behind on Ætna, rescued by Aeneas"
+   },
+   {
+    "name": "Polyphemus",
+    "aliases": [
+     "the Cyclop"
+    ],
+    "kind": "monster",
+    "description": "blinded one-eyed man-eating giant"
+   },
+   {
+    "name": "Ulysses",
+    "aliases": [
+     "the Dulichean chief"
+    ],
+    "kind": "mortal",
+    "description": "Greek hero who blinded Polyphemus"
+   },
+   {
+    "name": "Æolus",
+    "aliases": [],
+    "kind": "god",
+    "description": "ruler of the winds, grandson of Hippotas"
+   },
+   {
+    "name": "Hippotas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "grandfather of Æolus"
+   },
+   {
+    "name": "Antiphates",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Læstrygon king who attacked the Greek ships"
+   },
+   {
+    "name": "Lamus",
+    "aliases": [],
+    "kind": "monster",
+    "description": "founder of the Læstrygon city"
+   },
+   {
+    "name": "Circe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "enchantress whose shores are to be avoided"
+   },
+   {
+    "name": "Sibyl",
+    "aliases": [],
+    "kind": "other",
+    "description": "prophetess who guided Aeneas"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hippotas",
+    "relation": "parent_of",
+    "b": "Æolus",
+    "source": "text",
+    "evidence_sentence": 21
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Dulichean chief",
+    "canonical": "Ulysses",
+    "explanation": "Ulysses is called this after Dulichium, an island in his realm."
+   },
+   {
+    "alias": "Macareus of Neritos",
+    "canonical": "Macareus",
+    "explanation": "Neritos is a mountain of Ithaca, marking his homeland."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "Polyphemus's vivid, gruesome curse on the Greeks, as remembered by Achæmenides.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Ovid links the Aeneid to the Odyssey, with a survivor of Virgil's epic meeting a survivor of Homer's, retelling episodes from both.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid playfully revises Virgil's Achæmenides story, calling Greek-Trojan reconciliation after the war explicit in the phrase about no longer being an enemy.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Achæmenides episode was first told in Virgil's Aeneid and is reworked here by Ovid, showing Roman poets rewriting Homer."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The bracketed numbered notes in this text are the translator's footnotes, not Ovid's.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Eubœan city is Cumae, in Italy, founded by settlers from Euboea; the Sibyl's cave was there. Æneas has just returned from the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The shore not yet named for his nurse is Caieta, later called after Æneas's nurse Caieta, who died and was buried there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Neritos is a mountain and island near Ithaca; Macareus is from Ulysses' homeland.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "Clothes 'tacked together with no thorns' means proper stitched clothing, unlike the rags he once fastened with thorns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "The 'engine of war' is a catapult or similar siege machine that hurled stones.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "'Dulichean chief' means Ulysses, ruler of Ithaca and nearby islands including Dulichium.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "'Son of a Goddess' refers to Æneas's mother Venus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Achæmenides was a Greek left behind on Sicily by Ulysses' crew after they escaped Polyphemus, and later rescued by Æneas's Trojans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Æolus, keeper of the winds, gave Ulysses a bag holding the unfavourable winds; the greedy crew opened it within sight of Ithaca.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Circe was the sorceress who turned Ulysses' men into beasts; Macareus knows her island's dangers firsthand.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "Ulysses' own shouting nearly brought destruction on his ship, undercutting his reputation for cunning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "hyperbole",
+    "text": "Polyphemus claims that eating his enemies would make his lost eye trivial, showing his exaggerated rage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "characterization",
+    "text": "Achæmenides says death was the least of his woes, showing how deep his fear of the Cyclops is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "simile",
+    "text": "Comparing the Cyclops to a shaggy lion stresses his bestial savagery as he devours the captives.",
+    "spoiler": false
+   }
+  ]
+ }
+}

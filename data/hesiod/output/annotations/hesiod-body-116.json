@@ -1,0 +1,317 @@
+{
+ "section_id": "hesiod-body-116",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9691,
+  "output": 2958
+ },
+ "result": {
+  "summary": "In the later part of the contest, Hesiod poses riddles and moral questions and Homer answers them all. Each then recites his finest passage, and though the Hellenes favour Homer, King Paneides awards the crown to Hesiod for praising peace and farming over war.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 25,
+    "title": "Riddles and questions of wisdom",
+    "summary": "Hesiod tests Homer with a number puzzle and with questions on the best standard, life in cities, prayer, wisdom and happiness. Homer answers each well.",
+    "stakes": "Hesiod and Homer compete for the poetic crown and for reputation before the assembled Hellenes.",
+    "present": [
+     "Homer",
+     "Hesiod"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aulis, Chalcis",
+     "modern_name": "Chalcis, Euboea",
+     "certainty": "traditional",
+     "lat": 38.4637,
+     "lon": 23.5997
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 40,
+    "title": "Recitations and the king's verdict",
+    "summary": "Each poet recites his best passage. The crowd prefers Homer, but King Paneides crowns Hesiod, who dedicates his tripod to the Muses.",
+    "stakes": "The crown and a brazen tripod, with the judgment of the king deciding who is the greater poet.",
+    "present": [
+     "Homer",
+     "Hesiod",
+     "Paneides"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Chalcis",
+     "modern_name": "Chalcis, Euboea",
+     "certainty": "traditional",
+     "lat": 38.4637,
+     "lon": 23.5997
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Homer",
+    "aliases": [
+     "son of Meles"
+    ],
+    "kind": "mortal",
+    "description": "epic poet competing against Hesiod"
+   },
+   {
+    "name": "Hesiod",
+    "aliases": [
+     "son of Dius"
+    ],
+    "kind": "mortal",
+    "description": "poet of farming and the Works and Days, winner of the contest"
+   },
+   {
+    "name": "Paneides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who judges the contest"
+   },
+   {
+    "name": "Meles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Homer"
+   },
+   {
+    "name": "Dius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hesiod"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of the Pleiads"
+   },
+   {
+    "name": "Hector",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan champion in Homer's verses"
+   },
+   {
+    "name": "Aiantes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the two Aiaxes defending the Achaean line"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Meles",
+    "relation": "parent_of",
+    "b": "Homer",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Dius",
+    "relation": "parent_of",
+    "b": "Hesiod",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Atlas",
+    "relation": "parent_of",
+    "b": "Pleiads",
+    "source": "text",
+    "evidence_sentence": 29
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Homer's brief answer anticipates the ideal of a sound mind in a sound body.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "reason": "The king's verdict prefers peace and husbandry over war and slaughter.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The contest sets Homer's heroic world of war against Hesiod's world of work, peace and justice, and the king chooses peace.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Contest reflects later Greek rivalry between the two founding poets and the habit of testing poets with riddles and maxims.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of the contest was retold in antiquity and later, and shaped the picture of Homer and Hesiod as rivals."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The puzzle in sentence 4 is garbled in the text, and the translation notes that its arithmetic gives an incredible number.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Homer's riddle is a deliberately inflated sum: fifty hearths, spits and carcasses, multiplied by 900 men per joint, giving an absurd army size.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "The text calls the number 'incredible' and breaks off; the arithmetic is the compiler's check, showing the figure is far beyond any real army.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "This sentence repeats the end of sentence 8, probably a copying slip in the text; the answer to the question follows in sentence 10.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "'Standard' translates a measure or rule by which things are judged; each man's own conscience or judgment serves as his measure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "'March with the occasion' means to act in step with circumstances, seizing the right moment rather than lagging behind or rushing ahead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "Meaning: trust is justified where the consequences of betrayal fall immediately on the one who acts, so men are held to their word.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "The Pleiads are a star cluster; their morning rising in May marked harvest time, and their setting in late autumn marked ploughing time.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "allusion",
+    "text": "The forty nights and days are the period when the Pleiades are invisible in the sky, as in Hesiod's Works and Days.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "\"Strip to sow\" means work without heavy clothing, stripped to the tunic, as farm labour in warm seasons required.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "The two Aiantes are the Greek heroes Ajax son of Telamon and Ajax son of Oileus, defending the ships in the Iliad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "word",
+    "text": "\"Serried\" means pressed closely together in ranks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "word",
+    "text": "A tripod is a three-legged bronze vessel or stand, often awarded as a prize and dedicated to gods.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Ilium is Troy. The sons of Atreus are Agamemnon and Menelaus, leaders of the Greek expedition against it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Meles is the river-god or father traditionally named for Homer. The Muses were goddesses of poetry and song, daughters of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Dius is named as Hesiod's father, as in the tradition that Hesiod's family came from Cyme before settling in Boeotia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Paneides is the king of Chalcis who judges the contest in this tradition; he is said to have been honouring his dead brother Amphidamas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Ares is the god of war; Athena protects armies and fights for the Greeks in the Iliad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "text": "The king's reasoning favours useful peaceful work over war, a verdict that many readers find surprising given the crowd's preference.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "characterization",
+    "text": "Hesiod's jealousy at being outdone shows him as the proud, competitive rival, motivating the escalating questions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "antithesis",
+    "text": "The contrast between 'most excellent for the good' and 'worst for the bad' makes one standard yield opposite results, answering the paradoxical riddle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "characterization",
+    "text": "Homer's calm, balanced definition of happiness presents him as a sage whose answers are concise and practical.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "anaphora",
+    "text": "Repeating \"strip to\" gives a rhythmic, instructional tone suited to farming advice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "imagery",
+    "text": "Repeated pairings of shield, helm and man create a vivid, tactile picture of a dense, unbreakable formation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "metaphor",
+    "text": "The battle \"bristled\" like a creature or hedge of spikes, and the bronze flash \"blinded\" the eyes, intensifying the sense of terror.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "irony",
+    "text": "The popular favourite loses, and the judge rewards the poet of peace over the greater epic poet, which reverses the crowd's expectation.",
+    "spoiler": false
+   }
+  ]
+ }
+}

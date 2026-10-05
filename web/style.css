@@ -1,0 +1,319 @@
+/* Pantheon Pal reader: three columns (contents | text | annotations), stacked on narrow screens. */
+:root {
+  /* Light colours: beige paper, a slightly paler beige for the panes */
+  --bg: #efe6d3;
+  --surface: #f7f0e1;
+  --text: #2a251d;
+  --muted: #655a49;
+  --border: #d8cab0;
+  --accent: #8a3b12;
+  --accent-soft: #e6d3b8;
+  --font-text: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  --font-ui: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+/* Dark colours: when the system asks for them, unless the reader chose light; or when the reader chose dark
+   (the Light/Dark button in the top bar sets data-theme on the page). */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17171a;
+    --surface: #1f1f23;
+    --text: #e8e6e1;
+    --muted: #e6e4de;
+    --border: #34343a;
+    --accent: #e39a6b;
+    --accent-soft: #3a2c24;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17171a;
+  --surface: #1f1f23;
+  --text: #e8e6e1;
+  --muted: #e6e4de;
+  --border: #34343a;
+  --accent: #e39a6b;
+  --accent-soft: #3a2c24;
+  color-scheme: dark;
+}
+:root[data-theme="light"] { color-scheme: light; }
+#theme-toggle { margin-left: auto; }
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-ui);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top bar */
+.topbar {
+  display: flex; align-items: center; gap: 12px;
+  padding: 8px 16px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+.topbar h1 { font-size: 1.1rem; margin: 0 8px 0 0; }
+.topbar label { color: var(--muted); font-size: 0.9rem; }
+
+/* Search box in the top bar, with its results in a list that drops down over the page */
+.search { position: relative; }
+.search input {
+  font: inherit; color: var(--text); background: var(--bg);
+  border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; width: 220px;
+}
+.search-results {
+  position: absolute; top: calc(100% + 4px); left: 0; z-index: 50; width: 340px; max-height: 60vh; overflow: auto;
+  margin: 0; padding: 4px 0; list-style: none;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 6px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+.search-results li { padding: 6px 12px; cursor: pointer; font-size: 0.9rem; }
+.search-results li:hover, .search-results li:focus { background: var(--accent-soft); outline: none; }
+.search-results li.none { cursor: default; color: var(--muted); }
+.search-results .where { color: var(--muted); }
+.search-results .tag { font-size: 0.7rem; color: var(--muted); border: 1px solid var(--border); border-radius: 4px; padding: 0 4px; margin-left: 6px; }
+.search-results .what { display: block; color: var(--muted); font-size: 0.8rem; }
+select, button {
+  font: inherit; color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+button { cursor: pointer; }
+button:hover:not(:disabled) { border-color: var(--accent); }
+button:disabled { opacity: 0.45; cursor: default; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Three columns; each scrolls on its own so the text stays put while you browse notes */
+.layout {
+  flex: 1; min-height: 0;
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr) 340px;
+}
+.layout.toc-hidden { grid-template-columns: minmax(0, 1fr) 340px; }
+.layout.toc-hidden .toc { display: none; }
+.toc, .reader, .side { overflow-y: auto; }
+
+/* Contents */
+.toc { padding: 12px 8px; border-right: 1px solid var(--border); background: var(--surface); font-size: 0.9rem; }
+.toc ul { list-style: none; margin: 0; padding-left: 14px; }
+.toc > ul { padding-left: 0; }
+.toc .group { font-weight: 600; }
+.toc a {
+  display: block; padding: 4px 8px; border-radius: 4px;
+  color: var(--text); text-decoration: none;
+}
+.toc a:hover { background: var(--accent-soft); }
+.toc a[aria-current="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+
+/* Reader */
+.reader { padding: 24px 32px 48px; }
+#reader { max-width: 68ch; margin: 0 auto; }
+#section-title { font-family: var(--font-text); font-size: 1.6rem; margin: 0 0 4px; }
+.reference { margin: 0 0 20px; color: var(--muted); font-size: 0.9rem; }
+.text { font-family: var(--font-text); font-size: 1.15rem; line-height: 1.7; }
+.text p { margin: 0 0 1em; }
+.text .verse { white-space: pre-wrap; margin: 0 0 1em; }
+.pager {
+  max-width: 68ch; margin: 32px auto 0;
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  color: var(--muted); font-size: 0.9rem;
+}
+
+/* Annotation panes */
+.side { padding: 12px; border-left: 1px solid var(--border); display: flex; flex-direction: column; gap: 12px; }
+.pane { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+.pane h3 { margin: 0 0 8px; font-size: 0.95rem; }
+.placeholder { color: var(--muted); font-size: 0.9rem; }
+.toggle { display: block; margin-bottom: 8px; font-size: 0.85rem; color: var(--muted); }
+#tree { min-height: 200px; }
+
+/* Narrow screens: single column, panes below the text, contents above it */
+@media (max-width: 900px) {
+  body { display: block; height: auto; }
+  .layout, .layout.toc-hidden, .layout.side-hidden { display: block; }
+  .toc, .reader, .side { overflow: visible; border: 0; }
+  .toc { border-bottom: 1px solid var(--border); max-height: 40vh; overflow-y: auto; }
+  .reader { padding: 16px; }
+  .side { padding: 16px; }
+}
+
+/* Sentences with notes: a faint dotted underline, nothing else, so the page stays clean */
+.s { border-radius: 3px; }
+.s.has-note { text-decoration: underline dotted var(--border); text-underline-offset: 4px; cursor: pointer; }
+.s.has-note:hover { background: var(--accent-soft); }
+.s.selected { background: var(--accent-soft); text-decoration-color: var(--accent); }
+sup.fn { color: var(--accent); font-size: 0.7em; margin-left: 1px; }
+details.summary { margin: 0 0 1em; color: var(--muted); font-size: 0.95rem; }
+details.summary summary { cursor: pointer; }
+details.summary .text-body { margin-top: 6px; }
+
+dialog { max-width: 420px; padding: 20px 24px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--text); }
+/* Legal notice under the reader, and the dialog with each book's own Project Gutenberg license text */
+.legal { padding: 6px 16px; border-top: 1px solid var(--border); background: var(--surface); color: var(--muted); font-size: 0.78rem; line-height: 1.4; }
+.legal a { color: var(--muted); }
+button.link { border: 0; background: none; padding: 0; margin-left: 6px; color: var(--accent); font: inherit; text-decoration: underline; cursor: pointer; }
+dialog.license-dialog { width: min(760px, 94vw); max-width: none; max-height: 82vh; overflow: auto; }
+.license { white-space: pre-wrap; overflow-wrap: anywhere; font: 0.8rem/1.45 var(--font-ui); margin: 0; }
+dialog::backdrop { background: rgba(0, 0, 0, 0.5); }
+dialog h2 { margin: 0 0 8px; font-size: 1.1rem; }
+.dialog-actions { display: flex; justify-content: flex-end; gap: 8px; margin: 16px 0 0; }
+
+.pane .note { margin: 0 0 10px; font-size: 0.9rem; line-height: 1.45; }
+.pane .note .label { display: block; color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.pane .note.outside { font-style: italic; }
+.pane ol, .pane ul { margin: 0; padding-left: 20px; font-size: 0.9rem; }
+.pane h4 { margin: 12px 0 4px; font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+
+/* Family tree */
+.tree-actions { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 6px; }
+.tree-actions .toggle { margin: 0; }
+.tree-graph { height: 300px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); position: relative; }
+.tree-graph.big { height: calc(80vh - 190px); }
+.tree-empty { margin: 0; padding: 16px; color: var(--muted); font-size: 0.9rem; }
+.tree-info { margin-top: 8px; font-size: 0.9rem; line-height: 1.45; }
+.tree-info.placeholder { font-size: 0.85rem; }
+.tree-info .note { margin: 4px 0 0; }
+.tree-info .note .label { display: inline; }
+.tree-list { margin-top: 10px; font-size: 0.9rem; }
+.tree-list summary { cursor: pointer; color: var(--muted); }
+dialog.tree-dialog { width: min(1000px, 94vw); max-width: none; height: 82vh; overflow: auto; }
+.tree-dialog-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+
+/* Depth slider: how many connections out from this section's characters the tree shows */
+.depth { display: flex; align-items: center; gap: 8px; margin: 6px 0; font-size: 0.85rem; color: var(--muted); }
+.depth input { flex: 1; min-width: 80px; }
+.depth b { min-width: 2ch; color: var(--text); }
+.tree-count { margin: 0 0 6px; font-size: 0.8rem; color: var(--muted); }
+.tree-dialog-bar .depth { margin: 0 12px; max-width: 340px; flex: 1; }
+
+/* Hide / show a person's children */
+.tree-toggle { margin-top: 8px; font-size: 0.85rem; padding: 4px 10px; }
+
+/* Notes in the Definitions and References panes read "Label: text" on one line, like the tree details */
+.pane .note .label { display: inline; }
+
+/* The side panes fold away, and the tree's toggles live in a Filters menu that starts folded */
+details.pane > summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 6px; }
+details.pane > summary::-webkit-details-marker { display: none; }
+details.pane > summary::before { content: "\25b8"; color: var(--muted); display: inline-block; transition: transform 0.1s; }
+details.pane[open] > summary::before { transform: rotate(90deg); }
+details.pane > summary h3 { margin: 0; }
+details.pane[open] > summary { margin-bottom: 8px; }
+.filters { flex: 1; min-width: 0; }
+.filters > summary { cursor: pointer; display: inline-block; padding: 4px 10px; border: 1px solid var(--border); border-radius: 6px;
+  background: var(--bg); color: var(--muted); font-size: 0.85rem; }
+.filters[open] > summary { color: var(--text); border-color: var(--accent); }
+.filters-body { margin-top: 6px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); }
+.filters-body .toggle { display: block; margin: 0 0 6px; }
+.tree-dialog-bar .filters { margin: 0 12px; max-width: 460px; }
+
+/* Column widths follow --toc-w and --side-w, which the drag handles change */
+.layout { position: relative; grid-template-columns: var(--toc-w, 260px) minmax(0, 1fr) var(--side-w, 340px); }
+.layout.toc-hidden { grid-template-columns: minmax(0, 1fr) var(--side-w, 340px); }
+.resizer { position: absolute; top: 0; bottom: 0; width: 10px; cursor: col-resize; z-index: 5; touch-action: none; }
+.resizer::after { content: ""; position: absolute; left: 4px; top: 0; bottom: 0; width: 2px; background: transparent; transition: background 0.1s; }
+.resizer:hover::after, .resizer:focus-visible::after, .resizer.dragging::after { background: var(--accent); }
+#resize-toc { left: calc(var(--toc-w, 260px) - 5px); }
+#resize-side { right: calc(var(--side-w, 340px) - 5px); }
+.layout.toc-hidden #resize-toc { display: none; }
+.layout.side-hidden { grid-template-columns: var(--toc-w, 260px) minmax(0, 1fr); }
+.layout.side-hidden .side, .layout.side-hidden #resize-side { display: none; }
+.layout.toc-hidden.side-hidden { grid-template-columns: minmax(0, 1fr); }
+body.resizing { user-select: none; cursor: col-resize; }
+@media (max-width: 900px) { .resizer { display: none; } }
+
+/* Words the translator added to the original (Riley puts them in {braces}) */
+em.added { color: var(--muted); }
+
+/* Notable quotes: underlined in the accent colour in the text, and listed in the Literary analysis pane */
+.s.quoted { text-decoration: underline dotted var(--accent-soft); text-underline-offset: 4px; text-decoration-thickness: 1px; }
+.pane blockquote.quote { margin: 0 0 8px; padding: 2px 0 2px 10px; border-left: 3px solid var(--accent); cursor: pointer; font-size: 0.9rem; line-height: 1.45; }
+.pane blockquote.quote:hover { background: var(--accent-soft); }
+.pane blockquote.quote .why { display: block; margin-top: 2px; color: var(--muted); font-size: 0.82rem; }
+
+/* Summary and scene pane: the scene you are reading, and a list of the section's scenes to jump to */
+.scene-list { margin: 0; padding-left: 22px; }
+.scene-list li { margin-bottom: 2px; }
+button.scene-link { margin-left: 0; text-align: left; color: var(--text); text-decoration: none; }
+button.scene-link:hover { color: var(--accent); text-decoration: underline; }
+button.scene-link.current { color: var(--accent); font-weight: 600; }
+
+/* Map: numbered pins for this section's scenes, small grey dots for places elsewhere in the book */
+.map { height: 260px; border: 1px solid var(--border); border-radius: 6px; isolation: isolate; }
+.map-note { margin: 6px 0 0; font-size: 0.8rem; color: var(--muted); }
+.map-note:empty { display: none; }
+.map-pin { display: flex; align-items: center; justify-content: center; border-radius: 11px; background: var(--surface);
+  color: var(--accent); border: 2px solid var(--accent); font: 600 11px/1 var(--font-ui); cursor: pointer; }
+.map-pin.current { background: var(--accent); color: var(--surface); }
+
+/* A character's key moments, in this book and in others (in the tree's details box) */
+.tree-info h4 { margin: 10px 0 4px; font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.tree-info ul.moments { margin: 0; padding-left: 18px; font-size: 0.88rem; }
+.tree-info ul.moments li { margin-bottom: 4px; }
+.tree-info a { color: var(--accent); }
+
+/* The sentence a reference link was about, marked for a few seconds */
+.found { background: var(--accent-soft); outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+
+/* References in another book fold under that book's title */
+.book-refs { margin: 4px 0; }
+.book-refs > summary { cursor: pointer; font-size: 0.88rem; }
+.book-refs[open] > summary { margin-bottom: 4px; }
+
+/* Sourced material: a small line names the source */
+.pane .source { margin: 6px 0 0; font-size: 0.75rem; color: var(--muted); }
+.pane .note a, .pane .source a { color: var(--accent); }
+
+/* A character's name in the scene card opens their profile */
+button.person-link { margin-left: 0; color: var(--text); text-decoration: underline dotted; text-underline-offset: 3px; }
+button.person-link:hover { color: var(--accent); }
+
+/* Wikipedia's sections as a row of small buttons; the chosen one's text shows underneath */
+.pills { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }
+button.pill { padding: 2px 10px; border-radius: 999px; font-size: 0.8rem; }
+button.pill[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+
+/* About this book: the first page of every book */
+.about h3 { font-family: var(--font-ui); font-size: 1rem; margin: 1.6em 0 0.3em; }
+.about .facts { font-family: var(--font-ui); font-size: 0.95rem; margin: 0 0 4px; }
+.about a { color: var(--accent); font-family: var(--font-ui); font-size: 0.9rem; }
+
+/* A character's profile, opened from a name in the scene card or the side panes */
+dialog.person-dialog { width: min(560px, 94vw); max-width: none; max-height: 82vh; overflow: auto; }
+dialog.person-dialog .tree-info { margin-top: 0; font-size: 0.95rem; }
+dialog.person-dialog .tree-info > strong { font-size: 1.15rem; }
+
+/* The pill buttons on the About page sit in the reading column, so they use the interface font */
+.about .pills, .about .note, .about .source { font-family: var(--font-ui); }
+.about .note { font-size: 0.95rem; line-height: 1.5; margin: 0 0 6px; }
+.about .source { margin: 0 0 10px; font-size: 0.8rem; }
+
+/* Introductions and the translator's commentary in the contents list */
+.toc a.extra { font-style: italic; }
+
+/* A verse translation's line numbers ("1-25") and gaps in the text ("lacuna"): small labels, out of the way */
+.lines { font-family: var(--font-ui); font-size: 0.62em; opacity: 0.55; letter-spacing: 0.02em; margin-right: 0.35em; vertical-align: 0.15em; }
+/* A section's own heading (Butler's "argument"), shown under the title */
+.text p.argument { font-style: italic; font-size: 1.02rem; line-height: 1.5; opacity: 0.85; }
+
+/* How a character's name is said, beside the name at the head of a profile */
+.say { font-size: 0.85em; font-style: italic; opacity: 0.75; margin-left: 2px; }
+.say::before { content: "("; }
+.say::after { content: ")"; }
+
+/* Title pages and headings printed in capitals (in a preface or introduction) are set in small capitals */
+.text p.caps { text-transform: lowercase; font-variant: small-caps; letter-spacing: 0.04em; }
+
+/* A citation in a note ("see book xiii") as a link to that book; dashed so it is not taken for a noted sentence */
+a.cite { color: var(--accent); text-decoration: underline dashed; text-underline-offset: 2px; }
+
+/* Pictures from Wikimedia Commons (annotate.images) on the About page and in profiles, with a small credit line */
+.picture { margin: 8px 0; }
+.picture img { display: block; max-width: 160px; max-height: 200px; border-radius: 4px; }
+.about .picture img { max-width: 240px; max-height: 280px; }
+.picture figcaption { font-size: 11px; color: var(--muted); margin-top: 3px; }

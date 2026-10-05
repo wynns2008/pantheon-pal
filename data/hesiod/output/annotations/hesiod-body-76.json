@@ -1,0 +1,169 @@
+{
+ "section_id": "hesiod-body-76",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5344,
+  "output": 1383
+ },
+ "result": {
+  "summary": "The hymn opens by announcing Asclepius, son of Apollo and healer of diseases. It names his mother Coronis, daughter of Phlegyas, who bore him in the Dotian plain, and closes with a short prayer of greeting.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Hymn to the healer Asclepius",
+    "summary": "The singer announces Asclepius, tells of his birth to Coronis in the Dotian plain, and salutes him in prayer.",
+    "stakes": "",
+    "present": [
+     "Asclepius",
+     "Apollo",
+     "Coronis",
+     "Phlegyas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Dotian plain",
+     "modern_name": "Plain of Dotion, Thessaly",
+     "certainty": "traditional",
+     "lat": 39.1,
+     "lon": 22.6
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Asclepius",
+    "aliases": [],
+    "kind": "god",
+    "description": "son of Apollo, healer of sicknesses and soother of pain"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Asclepius"
+   },
+   {
+    "name": "Coronis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of King Phlegyas, mother of Asclepius"
+   },
+   {
+    "name": "Phlegyas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king, father of Coronis"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Asclepius",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Coronis",
+    "relation": "parent_of",
+    "b": "Asclepius",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Phlegyas",
+    "relation": "parent_of",
+    "b": "Coronis",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Coronis",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Concisely sums up Asclepius's birth and his role as a blessing to humankind.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn praises Asclepius as a divine benefactor whose gift is relief from suffering, tying his healing power to his parentage by Apollo.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Asclepius was worshipped across Greece as a healing god, and his cult sites drew the sick seeking cures.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Rod of Asclepius, a staff with a single snake, became a lasting symbol of medicine and is used by health organizations today."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Though short, this hymn is among the briefest in the Homeric collection, only five lines long.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Bare\" is an archaic past tense of \"bear\": Coronis gave birth to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Pangs\" means sharp pains; \"soother\" is one who relieves them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Hail to you\" is a formal salute. The hymn ends by turning to direct address and mixing \"you\" with archaic \"thee\".",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Asclepius was the Greek god of healing, worshipped at sanctuaries such as Epidaurus. Hymns like this one open by naming the god and his parentage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "The Dotian plain lay in Thessaly. Coronis, mother of Asclepius by Apollo, was the daughter of Phlegyas, king of the Lapiths.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "epithet",
+    "text": "Descriptive phrases like \"fair Coronis\" and \"a great joy to men\" characterize the figures with fixed praise, typical of hymn style.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "apostrophe",
+    "text": "The singer turns from narrating to address the god directly, making the closing salute a personal prayer.",
+    "spoiler": false
+   }
+  ]
+ }
+}

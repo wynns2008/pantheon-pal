@@ -1,0 +1,199 @@
+{
+ "section_id": "metamorphoses-body-89",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6473,
+  "output": 1881
+ },
+ "result": {
+  "summary": "Orpheus, singing, tells how Venus was offended by the Cerastæ of Amathus, who sacrificed strangers on an altar of Jupiter Hospes. She turned them into bulls. The Propœtides denied her divinity, became the first prostitutes, and were then turned to stone.",
+  "scenes": [
+   {
+    "start_sentence": 1,
+    "end_sentence": 7,
+    "title": "Venus transforms the Cerastæ",
+    "summary": "Venus, offended by human sacrifice of strangers on an altar, considers leaving Cyprus. She decides on a change of shape and turns the horned Cerastæ into bulls.",
+    "stakes": "The Cerastæ face punishment for murdering strangers; Venus risks losing her beloved cities to pollution.",
+    "present": [
+     "Venus",
+     "Cerastæ"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Amathus",
+     "modern_name": "Amathus, Cyprus",
+     "certainty": "real",
+     "lat": 34.7125,
+     "lon": 33.145
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 9,
+    "title": "The Propœtides turn to stone",
+    "summary": "The Propœtides deny Venus is a goddess and are made the first prostitutes. Losing all shame, they harden into rock.",
+    "stakes": "The Propœtides are punished for denying the goddess and lose their humanity.",
+    "present": [
+     "Propœtides",
+     "Venus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Amathus",
+     "modern_name": "Amathus, Cyprus",
+     "certainty": "real",
+     "lat": 34.7125,
+     "lon": 33.145
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Venus",
+    "aliases": [
+     "Genial Venus"
+    ],
+    "kind": "goddess",
+    "description": "Goddess to whom Cyprus is sacred; punishes the impious"
+   },
+   {
+    "name": "Cerastæ",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Horned people of Amathus who sacrificed strangers"
+   },
+   {
+    "name": "Propœtides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Women of Amathus who denied Venus's divinity"
+   },
+   {
+    "name": "Jupiter Hospes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Jupiter as protector of guests, whose altar was defiled"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cerastæ",
+    "relation": "transformed_into",
+    "b": "bulls",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Propœtides",
+    "relation": "transformed_into",
+    "b": "rocks",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Jupiter Hospes",
+    "canonical": "Jupiter",
+    "explanation": "Jupiter in his role as guardian of hospitality to strangers (Greek Zeus Xenios)."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 6,
+    "reason": "Venus reasons that changing shape is the middle course between exile and death.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Impiety and violation of hospitality are punished by transformation, a central Ovidian pattern, and here form part of Orpheus's song about the wickedness of women and men.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The story reflects the ancient sanctity of xenia (guest-friendship) and the Cypriot cult of Venus, linked to sacred prostitution traditions at Amathus.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Amathus was a real ancient city on Cyprus with a famous sanctuary of Aphrodite; 'Cerastæ' comes from the Greek word for horned.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Amathus was a Cyprian city sacred to Venus, rich in copper. Here it stands for the island, and Pygmalion's story follows this passage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Cerastæ comes from the Greek for 'horned'; the text notes that their name derives from their horns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Jupiter Hospes is Jupiter as protector of guests and strangers, so killing strangers on his altar violates the very duty he guards.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Ophiusian means 'of Ophiusa', an old name for Cyprus, derived from the Greek word for serpent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "The 'middle course' between death and exile is transformation, which Venus reasons out as a fitting punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "'The blood of their face was hardened' means they lost the ability to blush; 'slight transition' means the step from shamelessness to stone was small.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Venus was closely linked with Cyprus, where she was said to have come ashore after her birth from the sea; Paphos and Amathus were centres of her cult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "The Propœtides were women of Amathus who refused to honour Venus; in this tale their punishment is the origin of prostitution.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "Irony",
+    "text": "A sacred altar of the god of hospitality is stained with guests' blood, and it is compared to an ordinary animal sacrifice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "Rhetorical question",
+    "text": "Venus argues her way toward a verdict, showing a deliberating goddess and building toward the idea of transformation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Metaphor",
+    "text": "Hardened blood and shamelessness become literal stone, so moral callousness is made physical in the metamorphosis.",
+    "spoiler": false
+   }
+  ]
+ }
+}

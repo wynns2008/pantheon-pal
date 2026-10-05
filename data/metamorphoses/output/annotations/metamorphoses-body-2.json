@@ -1,0 +1,268 @@
+{
+ "section_id": "metamorphoses-body-2",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8109,
+  "output": 2328
+ },
+ "result": {
+  "summary": "A creator god shapes the chaotic mass into a globe, setting seas, rivers, land, climate zones, winds and the heavens in order. Stars appear and each region is given its creatures, but none yet rules the rest, so Man is formed, either from divine seed or from earth and water by the son of Iapetus, and given an upright face to look at the stars.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Shaping Earth, Seas and Climates",
+    "summary": "The god gathers the mass into a globe, surrounds it with sea, adds rivers, plains and mountains, marks out five zones, and sets air, clouds and winds in place.",
+    "stakes": "The ordered world risks being torn apart by the discord of the winds.",
+    "present": [
+     "Contriver of the World"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "The newly formed Earth",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 15,
+    "title": "The Winds and the Stars",
+    "summary": "The brother winds are assigned their quarters, the clear firmament is set above, and the long-hidden stars begin to shine.",
+    "stakes": "Quarrelling winds threaten to wreck the world.",
+    "present": [
+     "Eurus",
+     "Zephyrus",
+     "Boreas",
+     "Contriver of the World"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "The heavens and the quarters of the world",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 21,
+    "title": "The Creation of Man",
+    "summary": "Heaven, waters, earth and air receive their creatures, but a ruling being is lacking. Man is made in the image of the gods with an upright face.",
+    "stakes": "",
+    "present": [
+     "Prometheus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "The newly formed Earth",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Contriver of the World",
+    "aliases": [
+     "Artificer of all things",
+     "Deity"
+    ],
+    "kind": "god",
+    "description": "unnamed creator god who orders the universe"
+   },
+   {
+    "name": "Eurus",
+    "aliases": [],
+    "kind": "god",
+    "description": "east wind, goes toward Aurora, Nabath and Persia"
+   },
+   {
+    "name": "Zephyrus",
+    "aliases": [],
+    "kind": "god",
+    "description": "west wind, near the evening shores"
+   },
+   {
+    "name": "Boreas",
+    "aliases": [],
+    "kind": "god",
+    "description": "terrible north wind, invades Scythia"
+   },
+   {
+    "name": "Prometheus",
+    "aliases": [
+     "son of Iapetus"
+    ],
+    "kind": "god",
+    "description": "Titan who fashions Man from earth and water"
+   },
+   {
+    "name": "Man",
+    "aliases": [],
+    "kind": "creature",
+    "description": "the first human, made in the gods' image"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Iapetus",
+    "relation": "parent_of",
+    "b": "Prometheus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Eurus",
+    "relation": "sibling_of",
+    "b": "Boreas",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Eurus",
+    "relation": "sibling_of",
+    "b": "Zephyrus",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "son of Iapetus",
+    "canonical": "Prometheus",
+    "explanation": "A patronymic; the text names Iapetus's son as the maker of Man, and the chapter heading names Prometheus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 20,
+    "reason": "Famous image of humans' upright face set to behold the heavens, unlike other animals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "reason": "Terse, pivotal announcement of humanity's creation.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Creation is an orderly sequence of separation and assignment, moving from chaos to cosmos and ending with humanity as the crown of creation.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid blends Greek philosophical ideas, such as the five zones and the elements, with myth. He hedges on who the creator is, leaving two origins for Man.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The image of Man's upright face turned toward heaven influenced Renaissance humanist writing and later poetry on human dignity."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid gives two rival accounts of Man's origin, divine seed or Prometheus's clay, without choosing between them.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Whoever of the Gods he was\" shows Ovid's vagueness about the creator; he does not name him, unlike the Prometheus attribution in the summary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The five zones are the ancient geographic belts: a torrid middle zone, two frigid polar zones and two temperate zones between.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "The comparison is garbled: air is lighter than water and earth, as fire is lighter than air. Ovid describes the ancient hierarchy of elements.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Eurus is the east wind; Aurora is the goddess of dawn. Nabath refers to Nabataean Arabia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Zephyrus is the gentle west wind, here linked to the evening star and sunset lands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Boreas is the north wind; Scythia was the vaguely known land north of the Black Sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "\"The son of Iapetus\" is Prometheus, the Titan said in myth to have shaped humans from clay.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "Æther is the pure upper sky, thought to be the bright substance of heaven.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 9,
+    "text": "The winds are called brothers because myth made them sons of the dawn goddess Aurora and the Titan Astraeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Ovid assigns each element its inhabitants: gods and stars in heaven, fish in water, beasts on earth, birds in air.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "personification",
+    "text": "The winds are brothers quarrelling, giving natural forces human family rivalry and suggesting how fragile cosmic order is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "metaphor",
+    "text": "Stars \"lying hid\" beneath Chaos treats the stars as buried things, making creation an uncovering and a dawn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "narrative voice",
+    "text": "The very short sentence marks the climax of creation with sudden, dramatic brevity after long catalogues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "contrast",
+    "text": "Animals look down while man looks up, presenting human uprightness as a sign of kinship with the heavens.",
+    "spoiler": false
+   }
+  ]
+ }
+}

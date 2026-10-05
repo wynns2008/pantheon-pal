@@ -1,0 +1,299 @@
+{
+ "section_id": "metamorphoses-body-72",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7093,
+  "output": 2642
+ },
+ "result": {
+  "summary": "Minos pays his vow to Jupiter and shuts the Minotaur, his mother's shameful offspring, in a labyrinth built by Dædalus. Theseus, helped by Ariadne's thread, kills the monster and carries her off to Dia, where he deserts her. Liber comforts her and sets her crown in the sky as a constellation.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Argument of the fable",
+    "summary": "A prose summary tells of Minos's tribute from Athens, Theseus and Ariadne, and the crown made a constellation.",
+    "stakes": "",
+    "present": [
+     "Minos",
+     "Theseus",
+     "Ariadne",
+     "Bacchus",
+     "Dædalus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Crete and Naxos",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 8,
+    "title": "Minos builds the labyrinth",
+    "summary": "Minos pays his vow to Jupiter, then has Dædalus build a mazy prison for the Minotaur, compared to the winding Mæander.",
+    "stakes": "Minos's family honor is threatened by the scandal of the Minotaur.",
+    "present": [
+     "Minos",
+     "Dædalus",
+     "Jupiter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Crete",
+     "modern_name": "Crete",
+     "certainty": "real",
+     "lat": 35.2,
+     "lon": 24.9
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 9,
+    "title": "Theseus escapes and deserts Ariadne",
+    "summary": "Theseus kills the Minotaur, finds his way out by the thread, and abandons Ariadne on Dia.",
+    "stakes": "Theseus risks death in the maze; Ariadne risks abandonment.",
+    "present": [
+     "Theseus",
+     "Ariadne",
+     "Minotaur"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Dia",
+     "modern_name": "Naxos",
+     "certainty": "traditional",
+     "lat": 37.1,
+     "lon": 25.38
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 11,
+    "title": "Ariadne's crown in the sky",
+    "summary": "Liber embraces the deserted Ariadne and throws her crown into the heavens, where its jewels become stars.",
+    "stakes": "Ariadne is grieving and abandoned.",
+    "present": [
+     "Liber",
+     "Ariadne"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Dia",
+     "modern_name": "Naxos",
+     "certainty": "traditional",
+     "lat": 37.1,
+     "lon": 25.38
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who conquered Athens and built the labyrinth"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [
+     "son of Ægeus"
+    ],
+    "kind": "mortal",
+    "description": "Athenian hero who kills the Minotaur"
+   },
+   {
+    "name": "Ariadne",
+    "aliases": [
+     "daughter of Minos"
+    ],
+    "kind": "mortal",
+    "description": "Minos's daughter who helps Theseus with the thread"
+   },
+   {
+    "name": "Dædalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "famed architect of the labyrinth"
+   },
+   {
+    "name": "Minotaur",
+    "aliases": [
+     "two-formed monster"
+    ],
+    "kind": "monster",
+    "description": "bull-and-man monster, Minos's family shame"
+   },
+   {
+    "name": "Liber",
+    "aliases": [
+     "Bacchus"
+    ],
+    "kind": "god",
+    "description": "god who rescues Ariadne and sets her crown in the sky"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "god to whom Minos pays his vow"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Theseus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ægeus",
+    "relation": "parent_of",
+    "b": "Theseus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Minos",
+    "relation": "parent_of",
+    "b": "Ariadne",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Liber",
+    "relation": "lover_of",
+    "b": "Ariadne",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Bacchus",
+    "canonical": "Liber",
+    "explanation": "Bacchus is the Greek-derived name, Liber an old Italian name for the same god of wine."
+   },
+   {
+    "alias": "son of Ægeus",
+    "canonical": "Theseus",
+    "explanation": "A patronymic naming Theseus by his father."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Memorable simile comparing the labyrinth to the winding river Mæander.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows human ingenuity and cruelty: a shameful secret is hidden by clever design, and Theseus's betrayal of Ariadne is answered by divine consolation.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The sentences in brackets are prose argument headings added by the translator, not Ovid's verse.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Ariadne's thread image gave English the phrase for a guiding clue through a complex problem, and the labyrinth became a lasting symbol."
+   },
+   {
+    "kind": "history",
+    "text": "Ariadne abandoned on Naxos inspired Strauss's opera Ariadne auf Naxos (1912)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The constellation of the crown, Corona Borealis, is placed in the text between Hercules kneeling and Ophiuchus holding serpents.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Bacchus is the Roman wine god, also called Liber (sentence 10). Both names refer to the same god, who here takes Ariadne as his bride.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Curetes were the people of Crete in this tradition. Minos is paying a vow made before the war, so the land he reaches is his own island.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The mother is Pasiphaë, wife of Minos. In myth she conceived the Minotaur after a union with a bull, hence 'two-formed'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "'Confounds the marks of distinction' means Dædalus blurs the landmarks that would let a person tell one passage from another.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "This long sentence is a sequence of clauses. The third group of Athenian victims is the one that includes Theseus, and he kills the monster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The thread is the clew of thread Ariadne gave Theseus. He unwound it going in and followed it back out.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The constellation is the Corona Borealis (Northern Crown). It lies between Hercules, kneeling, and Ophiuchus, the serpent-holder.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Athens owed Minos this tribute of young people. It followed Minos's victory in war, which was fought over the death of his son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Dia is an old name often identified with Naxos. Here Theseus abandons Ariadne, and in this version Bacchus then finds her.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "simile",
+    "text": "The labyrinth is compared to the river Mæander, famous for its twisting course. The river is also personified, as it 'sports', 'beholds' and grows weary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "narrative voice",
+    "text": "The narrator crowds the whole story into one breathless sentence. The pace makes the rapid events and Theseus's sudden betrayal feel abrupt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "imagery",
+    "text": "The crown's flight and the jewels turning to fires make a vivid image of transformation. The crown keeps its shape as it becomes stars.",
+    "spoiler": false
+   }
+  ]
+ }
+}

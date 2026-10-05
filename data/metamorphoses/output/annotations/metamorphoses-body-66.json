@@ -1,0 +1,366 @@
+{
+ "section_id": "metamorphoses-body-66",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10327,
+  "output": 3472
+ },
+ "result": {
+  "summary": "Theseus arrives unknown at Athens, and Medea tries to poison him with aconite, but Ægeus recognizes his sword and knocks the cup away. Athens celebrates Theseus's deeds, but Minos prepares war for the death of Androgeus and gathers allies among the islands.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 13,
+    "title": "Medea's poison and Theseus saved",
+    "summary": "Medea prepares aconite, said to spring from Cerberus's foam, and Ægeus offers it to Theseus. He recognizes his son's sword hilt and strikes the cup away, and Medea escapes in clouds.",
+    "stakes": "Theseus risks death by poison from Medea's plot, and Ægeus risks killing his own son.",
+    "present": [
+     "Theseus",
+     "Medea",
+     "Ægeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 24,
+    "title": "Athens feasts Theseus",
+    "summary": "Ægeus makes sacrifices and the people sing of Theseus's victories over monsters and robbers.",
+    "stakes": "",
+    "present": [
+     "Ægeus",
+     "Theseus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 29,
+    "title": "Minos gathers allies",
+    "summary": "Minos prepares war to avenge Androgeus and sails to win over the Aegean islands.",
+    "stakes": "Ægeus faces war from Minos, and the islands must choose submission or conquest.",
+    "present": [
+     "Minos",
+     "Ægeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cyclades",
+     "modern_name": "Cyclades, Aegean Sea",
+     "certainty": "real",
+     "lat": 37.0,
+     "lon": 25.2
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Tirynthian hero"
+    ],
+    "kind": "god",
+    "description": "hero who chained Cerberus"
+   },
+   {
+    "name": "Cerberus",
+    "aliases": [
+     "Echidnean dog"
+    ],
+    "kind": "monster",
+    "description": "three-headed dog guarding the underworld"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, son of Ægeus"
+   },
+   {
+    "name": "Medea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sorceress, wife of Ægeus"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Athens"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Crete, seeking vengeance"
+   },
+   {
+    "name": "Androgeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Minos's murdered son"
+   },
+   {
+    "name": "Procrustes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "cruel robber slain by Theseus"
+   },
+   {
+    "name": "Cercyon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killed by Theseus at Eleusis"
+   },
+   {
+    "name": "Sinnis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "pine-bending robber slain by Theseus"
+   },
+   {
+    "name": "Scyron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "robber whose bones became rocks"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ægeus",
+    "relation": "parent_of",
+    "b": "Theseus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Medea",
+    "relation": "spouse_of",
+    "b": "Ægeus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Minos",
+    "relation": "parent_of",
+    "b": "Androgeus",
+    "source": "text",
+    "evidence_sentence": 26
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Tirynthian hero",
+    "canonical": "Hercules",
+    "explanation": "Hercules is named from Tiryns, his home."
+   },
+   {
+    "alias": "Echidnean dog",
+    "canonical": "Cerberus",
+    "explanation": "Cerberus is called the offspring of Echidna."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 25,
+    "reason": "Memorable reflection that no joy is ever unmixed with anxiety.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Recognition through tokens saves Theseus, and joy is soon shadowed by the threat of war, a recurring pattern of fortune reversing.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The catalogue of Theseus's labours reflects Athenian civic pride in their hero-founder.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Theseus's recognition by his sword and the poisoned cup became a standard episode in later retellings of his legend."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The name aconite is explained here by Ovid with a fanciful derivation from the Greek for hard rock.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "Ægeus is blamed for shelter given to Medea, 'her' referring to her from the previous passage. Only he deserved blame for receiving her after her crimes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Wolfsbane is another name for aconite, a deadly poisonous plant. Scythia was a region north of the Black Sea, associated with distant, barbarous lands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The Echidnean dog is Cerberus, called so because his mother was Echidna, a monster half woman and half serpent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The Tirynthian hero is Hercules, who came from Tiryns. Dragging Cerberus from the Underworld was one of his twelve labours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Adamant is a legendary unbreakable substance, here used for the chains.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The tokens of his race: the sword hilt was a recognition token Ægeus had left for his son, letting him identify Theseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"So narrow an escape from death\" refers to Medea's attempt to poison Theseus, which Ægeus prevented at the last moment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "\"People of Erectheus\" means the Athenians; Erectheus was an early legendary king of Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The \"club-bearing son of Vulcan\" is Periphetes, who killed travellers with a club. Procrustes stretched or cut guests to fit his bed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Scyron robbed travellers on the cliffs near Megara and kicked them into the sea; his bones were said to become the Scironian rocks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Androgeus, son of Minos, was killed in Athenian territory, which is why Minos wages war on Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "The \"treacherous Sithonian\" is Arne, who betrayed her island Siphnos for gold. The text here leaves the island unnamed.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Theseus had cleared the Isthmus of Corinth of bandits, making the road between the Ionian and Aegean seas safe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "The name aconite is here explained by a folk etymology, linking it to the Greek word for a hard rock or whetstone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Medea escapes in a chariot drawn by dragons, a vehicle given by the Sun, her grandfather, as in her flight from Corinth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Theseus, Athenian hero, had killed the Marathonian bull and the Cromyonian sow; the song lists his labours on the road from Troezen to Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Sinnis, the \"pine-bender,\" tied victims to bent pine trees and let them spring back, tearing the bodies apart.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Minos, king of Crete, powerful at sea, gathers island allies before attacking Athens.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "Imagery",
+    "text": "Vivid sensory detail of the dark cave, the shunned daylight and the white foam on green fields makes the poison's origin horrific.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Dramatic irony",
+    "text": "The father unknowingly hands poison to his own son, as if to an enemy; the reader knows what Ægeus does not.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Recognition scene",
+    "text": "A small object, the ivory hilt, reveals identity at the last instant, reversing the tragedy in one swift action.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "apostrophe",
+    "text": "The celebrants address Theseus directly, giving the catalogue of his deeds the tone of a hymn of praise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "hyperbole",
+    "text": "The claim that his deeds outnumber his years exaggerates for praise, stressing Theseus's youth and achievement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "foreshadowing",
+    "text": "The narrator's turn to unalloyed joy being impossible prepares for the coming war with Minos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "repetition",
+    "text": "\"Strong in soldiers, strong in shipping, strongest of all\" builds a climax that makes a father's grief the greatest force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "aetiology",
+    "text": "The transformation explains a natural trait, the jackdaw's attraction to shiny things, by a myth of punished greed.",
+    "spoiler": false
+   }
+  ]
+ }
+}

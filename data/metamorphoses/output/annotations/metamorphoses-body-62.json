@@ -1,0 +1,322 @@
+{
+ "section_id": "metamorphoses-body-62",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7614,
+  "output": 2714
+ },
+ "result": {
+  "summary": "Boreas, the North Wind, fails to win Orithyïa from her father Erectheus by pleading, then angrily decides to use force and carries her off to Thrace. She bears him the winged twins Calaïs and Zethes, who later sail with the Minyæ to fetch the Golden Fleece.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Boreas's failed courtship",
+    "summary": "Boreas is refused Orithyïa by Erectheus and wooes in vain. Enraged, he blames himself for choosing prayers over force.",
+    "stakes": "Boreas risks losing the bride he loves, and his pride as a violent wind god.",
+    "present": [
+     "Boreas",
+     "Erectheus",
+     "Orithyïa"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 12,
+    "title": "Boreas seizes Orithyïa",
+    "summary": "Boasting of his storms and earthquakes, Boreas beats his wings, wraps Orithyïa in darkness and carries her off to the Ciconians.",
+    "stakes": "Orithyïa is in danger of being taken by force from her home.",
+    "present": [
+     "Boreas",
+     "Orithyïa"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Land of the Ciconians, Thrace",
+     "modern_name": "Thrace, near Ismaros, Greece",
+     "certainty": "traditional",
+     "lat": 40.88,
+     "lon": 25.5
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 16,
+    "title": "The winged twins",
+    "summary": "Orithyïa bears Calaïs and Zethes, whose wings grow only when they reach youth. They later sail with the Minyæ for the Golden Fleece.",
+    "stakes": "",
+    "present": [
+     "Orithyïa",
+     "Boreas",
+     "Calaïs",
+     "Zethes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Land of the Ciconians, Thrace",
+     "modern_name": "Thrace, near Ismaros, Greece",
+     "certainty": "traditional",
+     "lat": 40.88,
+     "lon": 25.5
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Boreas",
+    "aliases": [],
+    "kind": "god",
+    "description": "the North Wind, who abducts Orithyïa"
+   },
+   {
+    "name": "Erectheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Athens, father of Orithyïa and Procris"
+   },
+   {
+    "name": "Orithyïa",
+    "aliases": [
+     "the Actæan damsel"
+    ],
+    "kind": "mortal",
+    "description": "Athenian princess carried off by Boreas"
+   },
+   {
+    "name": "Calaïs",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "winged son of Boreas and Orithyïa"
+   },
+   {
+    "name": "Zethes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "winged twin brother of Calaïs"
+   },
+   {
+    "name": "Cephalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Æolus, husband of Procris"
+   },
+   {
+    "name": "Procris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Erectheus, wife of Cephalus"
+   },
+   {
+    "name": "Æolus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Cephalus"
+   },
+   {
+    "name": "Jason",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the expedition for the Golden Fleece"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Boreas",
+    "relation": "parent_of",
+    "b": "Calaïs",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Boreas",
+    "relation": "parent_of",
+    "b": "Zethes",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Orithyïa",
+    "relation": "parent_of",
+    "b": "Calaïs",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Orithyïa",
+    "relation": "parent_of",
+    "b": "Zethes",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Boreas",
+    "relation": "spouse_of",
+    "b": "Orithyïa",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Erectheus",
+    "relation": "parent_of",
+    "b": "Orithyïa",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Erectheus",
+    "relation": "parent_of",
+    "b": "Procris",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Cephalus",
+    "relation": "spouse_of",
+    "b": "Procris",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Æolus",
+    "relation": "parent_of",
+    "b": "Cephalus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Calaïs",
+    "relation": "sibling_of",
+    "b": "Zethes",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Actæan damsel",
+    "canonical": "Orithyïa",
+    "explanation": "Actæan means Attic or Athenian, marking her as an Athenian princess."
+   },
+   {
+    "alias": "Minyæ",
+    "canonical": "Argonauts",
+    "explanation": "The crew of the Argo, here called the Minyæ, sail with Jason."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 6,
+    "reason": "Boreas boasts that violence is his proper nature, justifying the abduction.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Boreas acts in accordance with his elemental nature: when courtship fails, he reverts to force. Ovid treats rape as an expression of divine power and character.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale links Athens to the North Wind and Thrace, and ties the winged sons into the Argonaut legend.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The abduction of Orithyïa by Boreas was a favorite subject of Greek vase painting and later European art and poetry."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Athenians credited Boreas, as a son-in-law, with destroying part of the Persian fleet off Cape Artemisium in 480 BC, and honored him afterward.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Tereus, king of the Thracians, is named as an obstacle, apparently because Thrace was Boreas's home and the Thracian connection delayed his suit; the text is compressed and puzzling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Blandishments are flattering, coaxing words used to persuade.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The Ciconians were a people of Thrace, Boreas's home, the north wind's country.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Actæan damsel means Attic, that is Athenian, girl: Orithyïa, daughter of Athens's king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The Minyæ are the Argonauts, who sailed with Jason on the Argo; it is called the first ship ever built.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Calaïs and Zethes, the winged sons of Boreas, were among the Argonauts in the myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Procris was the wife of Cephalus, whose tragic story Ovid tells in Book 7.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Boreas is the personified north wind, often pictured as a winged, cold, violent god from Thrace.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "Characterization",
+    "text": "Boreas's self-reproach reveals his nature: he is a violent wind who regards gentle persuasion as unfitting, and blames himself for restraint.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "Anaphora",
+    "text": "The repeated 'by violence' hammers his boast of power, echoing the force of the winds he describes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Personification",
+    "text": "The wind's natural actions, stirring dust, ruffling the sea and darkening the air, are shown as a lover's seizure of his prey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Metaphor",
+    "text": "His 'flame' is love's passion, made fiercer by the speed and motion of flight, a fire fanned by wind.",
+    "spoiler": false
+   }
+  ]
+ }
+}

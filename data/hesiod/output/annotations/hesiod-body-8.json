@@ -1,0 +1,335 @@
+{
+ "section_id": "hesiod-body-8",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8821,
+  "output": 3029
+ },
+ "result": {
+  "summary": "Hesiod finishes his calendar of lucky and unlucky days, saying which are good for sowing, gelding, taming animals, building ships, marriage and the birth of boys or girls. He closes by saying that few people know the true nature of days, and that the man who knows them and respects the gods is happy.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Days for sowing, births, gelding",
+    "summary": "Hesiod lists days good or bad for planting, for births of boys and girls, marriage and gelding animals.",
+    "stakes": "The farmer risks failed crops or ill-fated children if he picks the wrong day.",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Hesiod's farmland",
+     "modern_name": "Ascra, Boeotia",
+     "certainty": "traditional",
+     "lat": 38.33,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 11,
+    "title": "Wise births, taming, bridal day",
+    "summary": "More days for births, taming animals, bringing home a bride, and a warning against fifth days.",
+    "stakes": "Choosing a fateful day brings trouble to the heart.",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Hesiod's farmland",
+     "modern_name": "Ascra, Boeotia",
+     "certainty": "traditional",
+     "lat": 38.33,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 12,
+    "title": "Birth of Horcus",
+    "summary": "Hesiod says the Erinyes attended the birth of Horcus on a fifth day.",
+    "stakes": "Oath-breakers are punished by Horcus.",
+    "present": [
+     "Erinyes",
+     "Horcus",
+     "Eris"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Unspecified",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 20,
+    "title": "Threshing, timber, ships, wine",
+    "summary": "Days for threshing grain, cutting timber, building and launching ships, and opening wine jars.",
+    "stakes": "Work done on a wrong day may fail.",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Hesiod's farmland",
+     "modern_name": "Ascra, Boeotia",
+     "certainty": "traditional",
+     "lat": 38.33,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 24,
+    "title": "Few know the days",
+    "summary": "Hesiod concludes that most people do not understand days and that the knowledgeable, pious man is blessed.",
+    "stakes": "Ignorance of days and omens risks offending the gods.",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Hesiod's farmland",
+     "modern_name": "Ascra, Boeotia",
+     "certainty": "traditional",
+     "lat": 38.33,
+     "lon": 23.1
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Horcus",
+    "aliases": [
+     "Oath"
+    ],
+    "kind": "god",
+    "description": "Oath, born to trouble the forsworn"
+   },
+   {
+    "name": "Eris",
+    "aliases": [
+     "Strife"
+    ],
+    "kind": "goddess",
+    "description": "Strife, mother of Horcus"
+   },
+   {
+    "name": "Erinyes",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Avenging spirits who attended Horcus's birth"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess of grain"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Eris",
+    "relation": "parent_of",
+    "b": "Horcus",
+    "source": "text",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Oath",
+    "canonical": "Horcus",
+    "explanation": "English meaning of the name Horcus."
+   },
+   {
+    "alias": "Strife",
+    "canonical": "Eris",
+    "explanation": "English meaning of the name Eris."
+   },
+   {
+    "alias": "Demeter's holy grain",
+    "canonical": "Demeter",
+    "explanation": "Grain is called Demeter's by association."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 23,
+    "reason": "Memorable image of days as stepmother or mother, helpful or harmful.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The calendar ends the poem by tying farm work to piety: success needs knowing the right time and respecting the gods.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage reflects archaic Greek folk belief in lucky and unlucky days of the lunar month, and its preference for male children.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Hesiod's days of the month belong to a long tradition of almanacs and lucky-day lore in Greek and later farming literature."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Some ancient scholars doubted that this day-list was by Hesiod, and some editions bracket it as a later addition.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Waxing month\" means the first ten days of the month, while the moon grows; Hesiod divides the month into three tens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Mid-month\" refers to the middle ten-day period, so the sixth of the mid-month is roughly the sixteenth day.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"The first sixth\" means the sixth day of the month's opening period; \"a kindly\" leaves out \"day\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Sheep-cote\" is a shelter or pen for sheep.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Great twentieth\" is the twentieth day, a major day; \"in full day\" means at midday or while daylight is full.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Shambling\" describes the heavy, rolling walk of oxen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"The fourth of the beginning and ending of the month\" means the fourth day of the first and last ten-day periods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Horcus is the personified Oath, punisher of perjurers; the Erinyes (Furies) were avenging spirits, so their presence marks oath-breaking as dangerous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Forsworn\" means those who have broken or falsely sworn an oath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Well-rolled\" means the threshing floor was packed smooth and hard by rolling, so grain would not mix with dirt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "\"Thwarts\" are the rowers' benches across a ship; \"many thwarts\" means a large vessel.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"Call it by its right name\" means few recognise the day's true character, a theme repeated later in the passage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "\"Fourth day after the twentieth\" counts as the twenty-fourth of the month.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Gelding means castrating male animals, which made them calmer and easier to work or fatten.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Choosing the day and omens for bringing home a bride reflects the Greek belief that luck affected the success of a marriage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Elsewhere in the poem, Hesiod says the Erinyes (Furies) attended the fifth day, which explains why he fears it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Eris is Strife, a goddess of discord; Hesiod makes her mother of Oath, linking quarrels with the need for oaths.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Hesiod's calendar assigns tasks to lucky days; farming, timber-cutting and shipbuilding depended on choosing the right day of the lunar month.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Reading bird omens was a standard Greek way of learning the gods' will before acting.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "characterization",
+    "text": "Hesiod links a birthday to lifelong character, sketching the boy as a sharp-tongued, deceitful talker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "metaphor",
+    "text": "Troubles that \"eat out the heart\" portray worry as something that devours a person from within.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "epithet",
+    "text": "The paired adjectives \"unkindly and terrible\" brand the fifth days with a fixed, ominous reputation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "personification",
+    "text": "Oath and Strife appear as divine figures, giving abstract ideas a family history and moral force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "metaphor",
+    "text": "Days are called stepmother or mother: a harsh or kindly one, comparing their unpredictable fortunes to family care and hostility.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "characterization",
+    "text": "The ideal man is portrayed as pious, observant and careful, summing up the poem's values.",
+    "spoiler": false
+   }
+  ]
+ }
+}

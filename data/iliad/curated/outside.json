@@ -1,0 +1,760 @@
+{
+ "model": "claude-sonnet-5-5",
+ "work": "The Iliad",
+ "requested": [
+  "Acamas",
+  "Achilles",
+  "Adamas",
+  "Aeneas",
+  "Aesculapius",
+  "Agamemnon",
+  "Agenor",
+  "Ajax",
+  "Ajax son of Oileus",
+  "Alcmena",
+  "Anchises",
+  "Andromache",
+  "Antenor",
+  "Antilochus",
+  "Antiphus",
+  "Apollo",
+  "Archelochus",
+  "Ascalaphus",
+  "Asius",
+  "Assaracus",
+  "Asteropaeus",
+  "Astyanax",
+  "Astyoche",
+  "Automedon",
+  "Bacchus",
+  "Bellerophon",
+  "Boreas",
+  "Briseis",
+  "Capys",
+  "Cebriones",
+  "Cleopatra",
+  "Dardanus",
+  "Deiphobus",
+  "Deucalion",
+  "Diana",
+  "Diomed",
+  "Eetion",
+  "Erichthonius",
+  "Euphorbus",
+  "Eurypylus",
+  "Glaucus",
+  "Gorgythion",
+  "Hades",
+  "Hector",
+  "Hecuba",
+  "Helen",
+  "Helenus",
+  "Helicaon",
+  "Hercules",
+  "Hippolochus",
+  "Hyperenor",
+  "Idaeus",
+  "Idomeneus",
+  "Ilus",
+  "Iris",
+  "Jove",
+  "Juno",
+  "Laodameia",
+  "Laodice",
+  "Laomedon",
+  "Laothoe",
+  "Leto",
+  "Lycaon",
+  "Machaon",
+  "Mars",
+  "Meleager",
+  "Menelaus",
+  "Menoetius",
+  "Mercury",
+  "Meriones",
+  "Minerva",
+  "Minos",
+  "Neptune",
+  "Nestor",
+  "Oeneus",
+  "Panthous",
+  "Paris",
+  "Patroclus",
+  "Pelegon",
+  "Peleus",
+  "Phoenix",
+  "Polites",
+  "Polydamas",
+  "Polydorus",
+  "Priam",
+  "Sarpedon",
+  "Saturn",
+  "Sthenelus",
+  "Talthybius",
+  "Telamon",
+  "Teucer",
+  "Thetis",
+  "Thoas",
+  "Thrasymedes",
+  "Tros",
+  "Tydeus",
+  "Ulysses",
+  "Venus",
+  "Vulcan",
+  "Xanthus"
+ ],
+ "people": [
+  {
+   "name": "Chaos",
+   "other_name": "",
+   "description": "Primordial void, first being of Greek cosmogony"
+  },
+  {
+   "name": "Gaia",
+   "other_name": "Earth",
+   "description": "Primordial Earth goddess, mother of Titans"
+  },
+  {
+   "name": "Uranus",
+   "other_name": "Ouranos",
+   "description": "Primordial sky god, father of the Titans"
+  },
+  {
+   "name": "Cronus",
+   "other_name": "Kronos",
+   "description": "Titan king, father of the Olympian gods"
+  },
+  {
+   "name": "Rhea",
+   "other_name": "",
+   "description": "Titaness, mother of the Olympians"
+  },
+  {
+   "name": "Zeus",
+   "other_name": "Jupiter",
+   "description": "King of the gods, ruler of sky and thunder"
+  },
+  {
+   "name": "Leto",
+   "other_name": "Latona",
+   "description": "Titaness, mother of Apollo and Diana"
+  },
+  {
+   "name": "Apollo",
+   "other_name": "Phoebus",
+   "description": "God of music, prophecy, healing and archery"
+  },
+  {
+   "name": "Diana",
+   "other_name": "Artemis",
+   "description": "Goddess of the hunt and moon"
+  },
+  {
+   "name": "Semele",
+   "other_name": "",
+   "description": "Theban princess, mother of Dionysus"
+  },
+  {
+   "name": "Bacchus",
+   "other_name": "Dionysus",
+   "description": "God of wine and revelry"
+  },
+  {
+   "name": "Alcmena",
+   "other_name": "Alcmene",
+   "description": "Mother of Heracles by Zeus"
+  },
+  {
+   "name": "Dardanus",
+   "other_name": "",
+   "description": "Founder of Dardania, ancestor of the Trojan kings"
+  },
+  {
+   "name": "Electra",
+   "other_name": "",
+   "description": "Pleiad, mother of Dardanus by Zeus"
+  },
+  {
+   "name": "Atlas",
+   "other_name": "",
+   "description": "Titan who holds up the sky"
+  },
+  {
+   "name": "Erichthonius",
+   "other_name": "",
+   "description": "Dardanian king, richest of mortal men"
+  },
+  {
+   "name": "Tros",
+   "other_name": "",
+   "description": "Trojan king, eponym of Troy"
+  },
+  {
+   "name": "Assaracus",
+   "other_name": "",
+   "description": "Son of Tros, grandfather of Anchises"
+  },
+  {
+   "name": "Capys",
+   "other_name": "",
+   "description": "Son of Assaracus, father of Anchises"
+  },
+  {
+   "name": "Anchises",
+   "other_name": "",
+   "description": "Trojan prince, father of Aeneas"
+  },
+  {
+   "name": "Aphrodite",
+   "other_name": "Venus",
+   "description": "Goddess of love and beauty"
+  },
+  {
+   "name": "Aeneas",
+   "other_name": "",
+   "description": "Trojan hero, son of Anchises and Aphrodite"
+  },
+  {
+   "name": "Priam",
+   "other_name": "",
+   "description": "Last king of Troy"
+  },
+  {
+   "name": "Hecuba",
+   "other_name": "Hekabe",
+   "description": "Queen of Troy, wife of Priam"
+  },
+  {
+   "name": "Deiphobus",
+   "other_name": "",
+   "description": "Trojan prince, son of Priam"
+  },
+  {
+   "name": "Hector",
+   "other_name": "",
+   "description": "Greatest Trojan warrior, son of Priam"
+  },
+  {
+   "name": "Andromache",
+   "other_name": "",
+   "description": "Wife of Hector, mother of Astyanax"
+  },
+  {
+   "name": "Astyanax",
+   "other_name": "",
+   "description": "Infant son of Hector and Andromache"
+  },
+  {
+   "name": "Peleus",
+   "other_name": "",
+   "description": "King of the Myrmidons, father of Achilles"
+  },
+  {
+   "name": "Thetis",
+   "other_name": "",
+   "description": "Sea nymph, mother of Achilles"
+  },
+  {
+   "name": "Achilles",
+   "other_name": "",
+   "description": "Greatest Greek warrior at Troy"
+  },
+  {
+   "name": "Atreus",
+   "other_name": "",
+   "description": "King of Mycenae, father of Agamemnon"
+  },
+  {
+   "name": "Aerope",
+   "other_name": "",
+   "description": "Wife of Atreus, mother of Agamemnon"
+  },
+  {
+   "name": "Agamemnon",
+   "other_name": "",
+   "description": "King of Mycenae, leader of the Greeks"
+  },
+  {
+   "name": "Jove",
+   "other_name": "Zeus",
+   "description": "King of the gods, ruler of sky and thunder"
+  },
+  {
+   "name": "Juno",
+   "other_name": "Hera",
+   "description": "Queen of the gods, goddess of marriage"
+  },
+  {
+   "name": "Hades",
+   "other_name": "",
+   "description": "God of the underworld and the dead"
+  },
+  {
+   "name": "Mars",
+   "other_name": "Ares",
+   "description": "God of war"
+  },
+  {
+   "name": "Mercury",
+   "other_name": "Hermes",
+   "description": "Messenger god, guide of souls"
+  },
+  {
+   "name": "Hercules",
+   "other_name": "Heracles",
+   "description": "Greatest Greek hero, famed for twelve labors"
+  },
+  {
+   "name": "Helen",
+   "other_name": "Helen of Troy",
+   "description": "Most beautiful woman, wife of Menelaus, taken by Paris"
+  },
+  {
+   "name": "Menelaus",
+   "other_name": "",
+   "description": "King of Sparta, husband of Helen"
+  },
+  {
+   "name": "Helenus",
+   "other_name": "",
+   "description": "Trojan prophet, son of Priam"
+  },
+  {
+   "name": "Laodice",
+   "other_name": "",
+   "description": "Daughter of Priam and Hecuba"
+  },
+  {
+   "name": "Laomedon",
+   "other_name": "",
+   "description": "Earlier king of Troy, father of Priam"
+  },
+  {
+   "name": "Ilus",
+   "other_name": "",
+   "description": "Trojan king, son of Tros, founder of Ilium"
+  },
+  {
+   "name": "Saturn",
+   "other_name": "Cronus",
+   "description": "Titan king of the gods before Jupiter"
+  },
+  {
+   "name": "Neptune",
+   "other_name": "Poseidon",
+   "description": "God of the sea, earthquakes and horses"
+  },
+  {
+   "name": "Telamon",
+   "other_name": "",
+   "description": "King of Salamis, father of Ajax and Teucer"
+  },
+  {
+   "name": "Teucer",
+   "other_name": "",
+   "description": "Greek archer, half-brother of Ajax"
+  },
+  {
+   "name": "Paris",
+   "other_name": "Alexander",
+   "description": "Trojan prince who took Helen"
+  },
+  {
+   "name": "Polydorus",
+   "other_name": "",
+   "description": "Youngest son of Priam, killed by Achilles"
+  },
+  {
+   "name": "Nestor",
+   "other_name": "",
+   "description": "Aged king of Pylos, wise counselor"
+  },
+  {
+   "name": "Thrasymedes",
+   "other_name": "",
+   "description": "Son of Nestor, Greek warrior"
+  },
+  {
+   "name": "Tydeus",
+   "other_name": "",
+   "description": "Aetolian hero, father of Diomedes"
+  },
+  {
+   "name": "Oeneus",
+   "other_name": "",
+   "description": "King of Calydon, father of Tydeus"
+  },
+  {
+   "name": "Venus",
+   "other_name": "Aphrodite",
+   "description": "Goddess of love and beauty"
+  },
+  {
+   "name": "Vulcan",
+   "other_name": "Hephaestus",
+   "description": "God of fire and the forge"
+  },
+  {
+   "name": "Minerva",
+   "other_name": "Athena",
+   "description": "Goddess of wisdom and war"
+  }
+ ],
+ "relationships": [
+  {
+   "a": "Chaos",
+   "relation": "parent_of",
+   "b": "Gaia",
+   "note": "Hesiod's version; Gaia sometimes said to arise alone"
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Uranus",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Cronus",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Cronus",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Rhea",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Rhea",
+   "note": ""
+  },
+  {
+   "a": "Cronus",
+   "relation": "spouse_of",
+   "b": "Rhea",
+   "note": ""
+  },
+  {
+   "a": "Cronus",
+   "relation": "parent_of",
+   "b": "Zeus",
+   "note": ""
+  },
+  {
+   "a": "Rhea",
+   "relation": "parent_of",
+   "b": "Zeus",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "spouse_of",
+   "b": "Leto",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Apollo",
+   "note": ""
+  },
+  {
+   "a": "Leto",
+   "relation": "parent_of",
+   "b": "Apollo",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Diana",
+   "note": ""
+  },
+  {
+   "a": "Leto",
+   "relation": "parent_of",
+   "b": "Diana",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Bacchus",
+   "note": ""
+  },
+  {
+   "a": "Semele",
+   "relation": "parent_of",
+   "b": "Bacchus",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Dardanus",
+   "note": ""
+  },
+  {
+   "a": "Electra",
+   "relation": "parent_of",
+   "b": "Dardanus",
+   "note": ""
+  },
+  {
+   "a": "Atlas",
+   "relation": "parent_of",
+   "b": "Electra",
+   "note": ""
+  },
+  {
+   "a": "Dardanus",
+   "relation": "parent_of",
+   "b": "Erichthonius",
+   "note": ""
+  },
+  {
+   "a": "Erichthonius",
+   "relation": "parent_of",
+   "b": "Tros",
+   "note": ""
+  },
+  {
+   "a": "Tros",
+   "relation": "parent_of",
+   "b": "Assaracus",
+   "note": ""
+  },
+  {
+   "a": "Assaracus",
+   "relation": "parent_of",
+   "b": "Capys",
+   "note": ""
+  },
+  {
+   "a": "Capys",
+   "relation": "parent_of",
+   "b": "Anchises",
+   "note": ""
+  },
+  {
+   "a": "Anchises",
+   "relation": "parent_of",
+   "b": "Aeneas",
+   "note": ""
+  },
+  {
+   "a": "Aphrodite",
+   "relation": "parent_of",
+   "b": "Aeneas",
+   "note": ""
+  },
+  {
+   "a": "Anchises",
+   "relation": "spouse_of",
+   "b": "Aphrodite",
+   "note": "Union by Aphrodite's seduction, not formal marriage"
+  },
+  {
+   "a": "Priam",
+   "relation": "spouse_of",
+   "b": "Hecuba",
+   "note": ""
+  },
+  {
+   "a": "Priam",
+   "relation": "parent_of",
+   "b": "Deiphobus",
+   "note": ""
+  },
+  {
+   "a": "Hecuba",
+   "relation": "parent_of",
+   "b": "Deiphobus",
+   "note": ""
+  },
+  {
+   "a": "Priam",
+   "relation": "parent_of",
+   "b": "Hector",
+   "note": ""
+  },
+  {
+   "a": "Hecuba",
+   "relation": "parent_of",
+   "b": "Hector",
+   "note": ""
+  },
+  {
+   "a": "Hector",
+   "relation": "spouse_of",
+   "b": "Andromache",
+   "note": ""
+  },
+  {
+   "a": "Hector",
+   "relation": "parent_of",
+   "b": "Astyanax",
+   "note": ""
+  },
+  {
+   "a": "Andromache",
+   "relation": "parent_of",
+   "b": "Astyanax",
+   "note": ""
+  },
+  {
+   "a": "Peleus",
+   "relation": "spouse_of",
+   "b": "Thetis",
+   "note": ""
+  },
+  {
+   "a": "Peleus",
+   "relation": "parent_of",
+   "b": "Achilles",
+   "note": ""
+  },
+  {
+   "a": "Thetis",
+   "relation": "parent_of",
+   "b": "Achilles",
+   "note": ""
+  },
+  {
+   "a": "Atreus",
+   "relation": "spouse_of",
+   "b": "Aerope",
+   "note": ""
+  },
+  {
+   "a": "Atreus",
+   "relation": "parent_of",
+   "b": "Agamemnon",
+   "note": "Hesiod makes Agamemnon son of Pleisthenes"
+  },
+  {
+   "a": "Aerope",
+   "relation": "parent_of",
+   "b": "Agamemnon",
+   "note": ""
+  },
+  {
+   "a": "Saturn",
+   "relation": "parent_of",
+   "b": "Neptune",
+   "note": ""
+  },
+  {
+   "a": "Tros",
+   "relation": "parent_of",
+   "b": "Priam",
+   "note": "Priam is Tros's great-grandson via Ilus and Laomedon; not direct"
+  },
+  {
+   "a": "Priam",
+   "relation": "parent_of",
+   "b": "Paris",
+   "note": ""
+  },
+  {
+   "a": "Priam",
+   "relation": "parent_of",
+   "b": "Polydorus",
+   "note": ""
+  },
+  {
+   "a": "Telamon",
+   "relation": "parent_of",
+   "b": "Teucer",
+   "note": ""
+  },
+  {
+   "a": "Nestor",
+   "relation": "parent_of",
+   "b": "Thrasymedes",
+   "note": ""
+  },
+  {
+   "a": "Oeneus",
+   "relation": "parent_of",
+   "b": "Tydeus",
+   "note": ""
+  }
+ ],
+ "report": {
+  "people": 59,
+  "relationships": 48,
+  "requested": 100,
+  "requested_missing": [
+   "Acamas",
+   "Adamas",
+   "Aesculapius",
+   "Agenor",
+   "Ajax",
+   "Ajax son of Oileus",
+   "Antenor",
+   "Antilochus",
+   "Antiphus",
+   "Archelochus",
+   "Ascalaphus",
+   "Asius",
+   "Asteropaeus",
+   "Astyoche",
+   "Automedon",
+   "Bellerophon",
+   "Boreas",
+   "Briseis",
+   "Cebriones",
+   "Cleopatra",
+   "Deucalion",
+   "Diomed",
+   "Eetion",
+   "Euphorbus",
+   "Eurypylus",
+   "Glaucus",
+   "Gorgythion",
+   "Helicaon",
+   "Hippolochus",
+   "Hyperenor",
+   "Idaeus",
+   "Idomeneus",
+   "Iris",
+   "Laodameia",
+   "Laothoe",
+   "Lycaon",
+   "Machaon",
+   "Meleager",
+   "Menoetius",
+   "Meriones",
+   "Minos",
+   "Panthous",
+   "Patroclus",
+   "Pelegon",
+   "Phoenix",
+   "Polites",
+   "Polydamas",
+   "Sarpedon",
+   "Sthenelus",
+   "Talthybius",
+   "Thoas",
+   "Ulysses",
+   "Xanthus"
+  ],
+  "added_ancestors": 12,
+  "dropped": {
+   "unknown_endpoint": [],
+   "self_link": [],
+   "cycle": [],
+   "duplicate": 1
+  }
+ }
+}

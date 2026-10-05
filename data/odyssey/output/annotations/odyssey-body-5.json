@@ -1,0 +1,735 @@
+{
+ "section_id": "odyssey-body-5",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 27106,
+  "output": 6682
+ },
+ "result": {
+  "summary": "The gods decide Ulysses must leave Calypso, and Mercury delivers Jove's order. Ulysses builds a raft and sails, but Neptune wrecks it. Helped by Ino and Minerva, he reaches Phaeacian land and sleeps under two olive shoots.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 13,
+    "title": "Council of the gods",
+    "summary": "Minerva pleads for Ulysses and Jove orders Mercury to tell Calypso to release him.",
+    "stakes": "Ulysses is stranded and suffering, and Telemachus is threatened by the suitors.",
+    "present": [
+     "Minerva",
+     "Jove",
+     "Mercury",
+     "Dawn"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the gods' council",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 44,
+    "title": "Mercury visits Calypso",
+    "summary": "Mercury delivers Jove's decree. Calypso protests but yields, and then looks for Ulysses on the shore.",
+    "stakes": "Calypso risks Jove's anger if she refuses, and loses Ulysses if she obeys.",
+    "present": [
+     "Mercury",
+     "Calypso",
+     "Ulysses"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Calypso's island",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 45,
+    "end_sentence": 84,
+    "title": "Building the raft",
+    "summary": "Calypso swears an oath and helps Ulysses build a raft. He sails for seventeen days and sights Phaeacia.",
+    "stakes": "A dangerous sea voyage on a raft.",
+    "present": [
+     "Calypso",
+     "Ulysses"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Calypso's island",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 85,
+    "end_sentence": 124,
+    "title": "Neptune's storm",
+    "summary": "Neptune raises a storm and wrecks the raft. Ino gives Ulysses her veil, and Minerva calms the winds so he drifts toward land.",
+    "stakes": "Ulysses may drown.",
+    "present": [
+     "Neptune",
+     "Ulysses",
+     "Ino",
+     "Minerva"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the sea near Scheria",
+     "modern_name": "Corfu",
+     "certainty": "traditional",
+     "lat": 39.62,
+     "lon": 19.92
+    }
+   },
+   {
+    "start_sentence": 125,
+    "end_sentence": 152,
+    "title": "Landing and sleep",
+    "summary": "Ulysses is battered by the surf and prays to a river god. He lands and sleeps in a leaf bed under the olives.",
+    "stakes": "Exhaustion, cold and wild beasts could kill him.",
+    "present": [
+     "Ulysses",
+     "Minerva",
+     "Ino"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Scheria",
+     "modern_name": "Corfu",
+     "certainty": "traditional",
+     "lat": 39.62,
+     "lon": 19.92
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ulysses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Shipwrecked king of Ithaca trying to get home"
+   },
+   {
+    "name": "Minerva",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who protects Ulysses"
+   },
+   {
+    "name": "Jove",
+    "aliases": [],
+    "kind": "god",
+    "description": "King of the gods"
+   },
+   {
+    "name": "Calypso",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nymph who keeps Ulysses on her island"
+   },
+   {
+    "name": "Mercury",
+    "aliases": [],
+    "kind": "god",
+    "description": "Messenger of the gods"
+   },
+   {
+    "name": "Neptune",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sea god angry with Ulysses"
+   },
+   {
+    "name": "Ino",
+    "aliases": [
+     "Leucothea"
+    ],
+    "kind": "goddess",
+    "description": "Marine goddess, once a mortal, daughter of Cadmus"
+   },
+   {
+    "name": "Dawn",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess of morning"
+   },
+   {
+    "name": "Telemachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ulysses' son, away seeking news"
+   },
+   {
+    "name": "Penelope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ulysses' wife"
+   },
+   {
+    "name": "Laertes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ulysses' father"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Ino"
+   },
+   {
+    "name": "Tithonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Dawn's consort"
+   },
+   {
+    "name": "Orion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lover of Dawn, killed by Diana"
+   },
+   {
+    "name": "Iasion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lover of Ceres, killed by Jove"
+   },
+   {
+    "name": "Ceres",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who loved Iasion"
+   },
+   {
+    "name": "Diana",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who killed Orion"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ulysses",
+    "relation": "spouse_of",
+    "b": "Penelope",
+    "source": "text",
+    "evidence_sentence": 62
+   },
+   {
+    "a": "Ulysses",
+    "relation": "parent_of",
+    "b": "Telemachus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Laertes",
+    "relation": "parent_of",
+    "b": "Ulysses",
+    "source": "text",
+    "evidence_sentence": 59
+   },
+   {
+    "a": "Jove",
+    "relation": "parent_of",
+    "b": "Mercury",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Cadmus",
+    "relation": "parent_of",
+    "b": "Ino",
+    "source": "text",
+    "evidence_sentence": 103
+   },
+   {
+    "a": "Dawn",
+    "relation": "lover_of",
+    "b": "Orion",
+    "source": "text",
+    "evidence_sentence": 35
+   },
+   {
+    "a": "Ceres",
+    "relation": "lover_of",
+    "b": "Iasion",
+    "source": "text",
+    "evidence_sentence": 36
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Leucothea",
+    "canonical": "Ino",
+    "explanation": "Ino's name as a marine goddess."
+   },
+   {
+    "alias": "Danaans",
+    "canonical": "Achaeans",
+    "explanation": "Names for the Greeks at Troy."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 33,
+    "reason": "Calypso's angry protest at the gods' jealousy of goddesses loving mortals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 62,
+    "reason": "Ulysses prefers mortal Penelope to an immortal goddess.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Ulysses chooses mortal life and home over immortality, and his endurance is tested again by Neptune's wrath.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Calypso's complaint shows the gods punishing unions between goddesses and mortal men, a pattern in Greek myth.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The name Calypso gave its name to the calypso musical style, and Jacques Cousteau's ship Calypso was named after her."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ulysses is the Latin name for Odysseus; this translation (Samuel Butler's) uses Roman names for the gods.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Dawn's couch beside Tithonus refers to the goddess Aurora (Dawn), whose mortal husband Tithonus was Trojan; a stock formula for daybreak.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "Minerva's wish is ironic and bitter: she hopes no ruler will be kind, to shame the gods into acting for Ulysses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Hurry-skurrying\" is a playful, colloquial rendering describing the suitors scrambling back in failure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Convoyed\" means escorted; Ulysses will travel without divine or human company.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "\"Slayer of Argus\" recalls Mercury killing the hundred-eyed giant Argus, who guarded Io for Juno.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Pieria is a region in northern Greece, near Mount Olympus, which Mercury crosses on his flight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "Warp means the lengthwise threads on a loom; the shuttle carries the weft thread across them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "Ambrosia and nectar are the food and drink of the gods, thought to confer immortality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "Hecatombs were large sacrifices of cattle, originally a hundred, offered to the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "phrasing",
+    "text": "\"Most ill-starred\" means most unlucky, as if born under a bad star; it refers to Ulysses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "Dawn loved the hunter Orion; the gods resented it, and Diana (the Greek Artemis) killed him on Ortygia, an island.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "Ceres (the Greek Demeter) lay with Iasion in a field ploughed three times; Jove struck him dead with a thunderbolt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "phrasing",
+    "text": "\"My poor fellow\" is a sympathetic address; Calypso speaks with warmth and condescension, pitying his grief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "allusion",
+    "text": "Swearing by the river Styx was the gods' most binding oath; even Olympian gods could not break it without severe penalty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "word",
+    "text": "Ambrosia and nectar are the food and drink of the gods, conferring immortality, in contrast to mortal meat and drink.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "kind": "word",
+    "text": "A girdle is a belt or sash worn around the waist; gossamer means very fine, light cloth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "kind": "word",
+    "text": "An adze is a cutting tool with an arched blade set at right angles to the handle, used to shape timber.",
+    "spoiler": false
+   },
+   {
+    "sentence": 74,
+    "kind": "word",
+    "text": "Augers are tools for boring holes in wood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 83,
+    "kind": "allusion",
+    "text": "Sailors steered by the Pleiads, Bootes and the Bear (Big Dipper). Keeping the Bear on the left means sailing eastward.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "kind": "phrasing",
+    "text": "\"Days seven and ten\" is an inverted way of saying seventeen days.",
+    "spoiler": false
+   },
+   {
+    "sentence": 85,
+    "kind": "allusion",
+    "text": "The Ethiopians were a distant people at the edge of the world, whom Neptune (the Greek Poseidon) was fond of visiting to receive sacrifices.",
+    "spoiler": false
+   },
+   {
+    "sentence": 95,
+    "kind": "word",
+    "text": "Danaans, like Achaeans, is a Homeric name for the Greeks. 'Thrice blest' is an old intensifying phrase.",
+    "spoiler": false
+   },
+   {
+    "sentence": 96,
+    "kind": "allusion",
+    "text": "Refers to the fight over Achilles' corpse at Troy, when Ulysses held off the Trojans while Ajax carried the body away.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "kind": "word",
+    "text": "Battledore and shuttlecock is an old game, like badminton, in which a shuttlecock is batted back and forth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 121,
+    "kind": "allusion",
+    "text": "Aegae was Neptune's underwater palace home, where he kept his horses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 122,
+    "kind": "phrasing",
+    "text": "'Bound the ways of all the winds' means she held them back, confining them; only the North wind was left blowing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 125,
+    "kind": "phrasing",
+    "text": "\"Some angry spirit\" means a hostile divinity (daimon) thought to cause illness; the simile pictures a sick father's recovery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 130,
+    "kind": "allusion",
+    "text": "Amphitrite is Neptune's wife, queen of the sea, and mother of sea creatures; hence the monsters she \"breeds\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "kind": "word",
+    "text": "A polypus is an octopus; its suckers grip the rock as Ulysses grips the stones.",
+    "spoiler": false
+   },
+   {
+    "sentence": 134,
+    "kind": "phrasing",
+    "text": "A spit that \"takes the waves aslant\" is a point of land where waves strike at an angle and do less harm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 138,
+    "kind": "phrasing",
+    "text": "\"Cling to the knees\" is the ritual gesture of a suppliant begging protection; here it is applied figuratively to the river god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 142,
+    "kind": "allusion",
+    "text": "Ino, the sea goddess, earlier gave Ulysses the scarf (veil) that kept him afloat; he returns it as she instructed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 148,
+    "kind": "word",
+    "text": "A sucker is a shoot growing from a root; one olive is wild (ungrafted), the other cultivated (grafted), sharing a stock.",
+    "spoiler": false
+   },
+   {
+    "sentence": 152,
+    "kind": "word",
+    "text": "\"Brand\" means a burning log or ember; \"fire-seed\" is the preserved spark from which a fire can be restarted.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Jove (the Greek Zeus) is king of the gods and wields the thunderbolt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Minerva (the Greek Athena) favours Ulysses; Calypso is a nymph who has kept him on her island for years.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Telemachus went to Pylos and Lacedaemon to ask Nestor and Menelaus for news of his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Mercury is the gods' messenger, often sent to carry commands between realms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "The Phaeacians of Scheria are a seafaring people, kin to the gods, who will give Ulysses passage home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Mercury (the Greek Hermes) is Jove's messenger god, known for winged sandals and his sleep-giving wand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Minerva (the Greek Athena) was angered because the Greeks failed to punish the outrage against her temple at Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "text": "Calypso offered Ulysses immortality and eternal youth if he stayed with her as husband.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "text": "Mercury had just visited Calypso with Jove's command to release Ulysses, who had been held on her island, Ogygia, for years.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "text": "Calypso offers immortality, which Ulysses will refuse in favour of returning to his mortal wife.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "text": "The Phaeacians are the seafaring people of Scheria, who will eventually take Ulysses home to Ithaca.",
+    "spoiler": false
+   },
+   {
+    "sentence": 88,
+    "text": "The trident is Neptune's emblem; as god of the sea he can stir up storms and winds with it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 103,
+    "text": "Ino was a mortal princess of Thebes who became the sea goddess Leucothea, a protector of sailors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 109,
+    "text": "The veil is a divine talisman that keeps Ulysses afloat and safe; returning it to the sea is a ritual of gratitude.",
+    "spoiler": false
+   },
+   {
+    "sentence": 130,
+    "text": "Neptune (the Greek Poseidon) is angry because Ulysses blinded his son, the Cyclops Polyphemus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 133,
+    "text": "Minerva (the Greek Athena) is Ulysses' protector among the gods, and often helps him with timely thought.",
+    "spoiler": false
+   },
+   {
+    "sentence": 137,
+    "text": "Ulysses does not know the river's name, so he addresses the god politely as \"whoever you may be,\" a common ancient practice.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "simile",
+    "text": "Ulysses' rule is compared to a father's, stressing his kindness and the ingratitude of those who forgot him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "characterization",
+    "text": "Jove's gentle teasing, \"my dear,\" shows an indulgent father and reveals that Minerva already planned Ulysses' return.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "narrative voice",
+    "text": "Jove's summary closes the decision plainly, settling the plot's direction and giving the gods' authority over fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "simile",
+    "text": "Mercury's low flight over the waves is compared to a cormorant fishing, making the god's movement vivid and bird-like.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "imagery",
+    "text": "The lush vine, running streams and violets create an idyllic, paradise-like setting that makes Ulysses' longing to leave more poignant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "characterization",
+    "text": "Calypso's angry outburst shows her passion and sense of injustice, yet she is quickly forced to submit to Jove.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "device": "irony",
+    "text": "Ulysses lives with a goddess in a paradise yet is miserable, his captor's love contrasting with his grief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "device": "Dramatic irony",
+    "text": "Ulysses suspects a trick, but the reader knows the gods have ordered his release, so Calypso's offer is sincere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 55,
+    "device": "Metaphor",
+    "text": "A heart \"made of iron\" expresses harshness; Calypso claims to be tender and sympathetic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "device": "Epithet",
+    "text": "\"Rosy-fingered Dawn\" is a recurring Homeric formula marking the start of a new day.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "device": "Simile",
+    "text": "The distant mountains rising \"like a shield\" convey their rounded, dark shape on the horizon, and hint at safety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 95,
+    "device": "apostrophe",
+    "text": "Ulysses' lament envies the dead heroes, showing his despair and his longing for a glorious death over a pitiful one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 101,
+    "device": "simile",
+    "text": "The tossed raft is compared to thistledown whirled along a road, stressing how light and helpless it is against the wind.",
+    "spoiler": false
+   },
+   {
+    "sentence": 105,
+    "device": "simile",
+    "text": "Ino rises like a sea-gull, linking the goddess to the sea birds and marking her sudden, gentle appearance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "device": "simile",
+    "text": "The raft breaking apart like dry chaff in a whirlwind conveys how fragile it is against Neptune's wrath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 120,
+    "device": "irony",
+    "text": "Neptune grimly says Ulysses will not find he was let off lightly, though Ulysses will in fact reach safety at last.",
+    "spoiler": false
+   },
+   {
+    "sentence": 125,
+    "device": "simile",
+    "text": "Ulysses' relief at seeing land is compared to children's joy at a father's recovery, giving his gratitude emotional warmth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "device": "epic simile",
+    "text": "The octopus torn from its bed, stones clinging, extends the comparison to show how violently the rocks strip the skin from his hands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 144,
+    "device": "soliloquy",
+    "text": "Ulysses debates his options aloud to himself, revealing his anxiety and careful reasoning at a moment of exhaustion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 152,
+    "device": "simile",
+    "text": "Ulysses buried in leaves is likened to a hidden ember in ashes, suggesting life preserved and kept safe until it can rekindle.",
+    "spoiler": false
+   }
+  ]
+ }
+}

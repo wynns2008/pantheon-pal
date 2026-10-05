@@ -1,0 +1,512 @@
+{
+ "section_id": "metamorphoses-body-123",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 14811,
+  "output": 5090
+ },
+ "result": {
+  "summary": "Venus, seeing a plot against Julius Caesar, pleads with the gods, but Jove tells her Fate cannot be changed and foretells the rise of Augustus. Caesar is murdered in the Senate-house and Venus turns his soul into a star. Ovid praises Augustus, prays for his long life, and closes the poem by declaring his own work and name immortal.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Praise of Caesar and Augustus",
+    "summary": "Ovid says Caesar's greatest deed was fathering Augustus, and that Caesar had to become a god so that Augustus would not be of mortal seed.",
+    "stakes": "",
+    "present": [
+     "Julius Cæsar",
+     "Augustus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Rome",
+     "modern_name": "Rome",
+     "certainty": "real",
+     "lat": 41.9028,
+     "lon": 12.4964
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 25,
+    "title": "Venus pleads and omens appear",
+    "summary": "Venus, alarmed at the plot, begs the gods for help. Portents warn of the crime, yet the conspirators strike in the Senate-house, and Venus tries to hide Caesar in a cloud.",
+    "stakes": "Venus fears for Caesar's life and for her line descended from Iülus.",
+    "present": [
+     "Venus",
+     "Julius Cæsar"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Heavens and the Senate-house",
+     "modern_name": "Rome",
+     "certainty": "real",
+     "lat": 41.8925,
+     "lon": 12.4853
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 38,
+    "title": "Jove reveals the Fates",
+    "summary": "Jove tells Venus she cannot alter Fate. He foretells Augustus's victories, laws and eventual deification, and asks her to make Caesar's soul a star.",
+    "stakes": "Venus must accept that Caesar's death is fated.",
+    "present": [
+     "Jove",
+     "Venus",
+     "Augustus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The heavens",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 39,
+    "end_sentence": 45,
+    "title": "Caesar becomes a star",
+    "summary": "Venus snatches Caesar's soul from his body and it becomes a comet. Ovid compares Augustus surpassing Caesar to other sons surpassing fathers.",
+    "stakes": "",
+    "present": [
+     "Venus",
+     "Julius Cæsar",
+     "Augustus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Senate-house, then the sky",
+     "modern_name": "Rome",
+     "certainty": "real",
+     "lat": 41.8955,
+     "lon": 12.4768
+    }
+   },
+   {
+    "start_sentence": 46,
+    "end_sentence": 50,
+    "title": "Prayer and Ovid's epilogue",
+    "summary": "Ovid prays the gods to keep Augustus long on earth, then claims his poem will outlast everything and make him immortal.",
+    "stakes": "Ovid's own fame and survival after death.",
+    "present": [
+     "Ovid",
+     "Augustus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Rome",
+     "modern_name": "Rome",
+     "certainty": "real",
+     "lat": 41.9028,
+     "lon": 12.4964
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Julius Cæsar",
+    "aliases": [
+     "Julius",
+     "the Pontiff"
+    ],
+    "kind": "mortal",
+    "description": "assassinated dictator, made a star"
+   },
+   {
+    "name": "Augustus",
+    "aliases": [
+     "Cæsar"
+    ],
+    "kind": "mortal",
+    "description": "Caesar's son and heir, ruler of the world"
+   },
+   {
+    "name": "Venus",
+    "aliases": [
+     "Cytherea"
+    ],
+    "kind": "goddess",
+    "description": "mother of Æneas, ancestor of Caesar"
+   },
+   {
+    "name": "Jove",
+    "aliases": [
+     "Jupiter"
+    ],
+    "kind": "god",
+    "description": "king of the gods, father of Venus"
+   },
+   {
+    "name": "Æneas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Venus's son, Trojan hero"
+   },
+   {
+    "name": "Ovid",
+    "aliases": [
+     "the Poet"
+    ],
+    "kind": "mortal",
+    "description": "the poet-narrator"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Venus",
+    "relation": "parent_of",
+    "b": "Æneas",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Jove",
+    "relation": "parent_of",
+    "b": "Venus",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Julius Cæsar",
+    "relation": "parent_of",
+    "b": "Augustus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Julius Cæsar",
+    "relation": "transformed_into",
+    "b": "a star",
+    "source": "text",
+    "evidence_sentence": 41
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cytherea",
+    "canonical": "Venus",
+    "explanation": "Epithet of Venus, from the island of Cythera."
+   },
+   {
+    "alias": "Jupiter",
+    "canonical": "Jove",
+    "explanation": "Two forms of the Roman king of the gods' name."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 47,
+    "reason": "Ovid's famous boast that his work will outlast Jove's anger, fire, steel and time.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "reason": "Ovid claims his better part will rise immortal and his name be indelible.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The poem ends by linking mutability to permanence: Caesar's transformation into a star mirrors Ovid's claim that his verse transcends change.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage flatters Augustus and supports the cult of the deified Julius, whose comet appeared in 44 BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Ovid's closing boast of immortality echoes Horace's Odes and was imitated by later poets, such as Shakespeare in his sonnets."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid was exiled by Augustus in AD 8, so this flattering ending was written shortly before his banishment.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"He came a stranger to our temples\" means Caesar was a newly admitted god, not an ancient native deity; \"progeny\" is Augustus, his adopted son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "People of Quirinus means the Romans; Quirinus is the deified Romulus. Juba and Mithridates were enemy kings defeated by Rome, Juba in Africa and Mithridates in Pontus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Pontiff: Caesar was Pontifex Maximus, Rome's chief priest. Venus is called mother of Æneas, from whom the Julian family claimed descent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "At Troy Diomedes, son of Tydeus, wounded Venus with his spear while she was rescuing Æneas, as told in the Iliad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "The flames of Vesta were the sacred fire tended in Rome; Caesar's priesthood is linked to it, so his murder would put it out symbolically.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The aged sisters are the Fates, who spin and cut the thread of life; their decrees bind even the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Lucifer is the morning star, Venus as seen before dawn, here dimmed by omen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "A liver lacking its head or extremity was a notorious bad sign in Roman divination by entrails.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "Cytherea is a name for Venus, from the island of Cythera, linked to her cult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The \"three sisters\" are the Fates, who spin, measure and cut the thread of life. Their archive of brass and iron symbolizes unchangeable destiny.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "Adamant is a legendary unbreakable substance, here used for the hardest, most enduring material.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "allusion",
+    "text": "\"He\" is Julius Caesar, assassinated in 44 BC. Cytherea is Venus, named for the island Cythera near where she was worshipped.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "Mutina, Pharsalia, Philippi and the Sicilian waves refer to Roman civil-war battles. \"One renowned as Great\" is Sextus Pompey, son of Pompey the Great, defeated off Sicily.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "The Egyptian dame is Cleopatra, wife of Antony in the translator's phrasing. Canopus is an Egyptian city, standing for Egypt; she is said to have threatened Rome's Capitol.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "The \"hallowed wife\" is Livia; her son Tiberius was adopted by Augustus and took his name, securing the succession.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "phrasing",
+    "text": "Augustus will reach old age, matching Caesar's years of glory, before joining the gods. The wording is compressed and ambiguous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "phrasing",
+    "text": "\"These words\" are Jupiter's speech just before, promising that Caesar will be deified. \"Genial\" here means kindly or life-giving, an epithet of Venus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "allusion",
+    "text": "The star is the comet that appeared after Caesar's death in 44 BC, which Romans took as his soul ascending. Augustus (Caesar's adopted son) displayed it at games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "allusion",
+    "text": "Atreus, Ægeus and Peleus are fathers outshone by their sons Agamemnon, Theseus and Achilles. Ovid uses these Greek examples to flatter Augustus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "allusion",
+    "text": "Quirinus is the deified Romulus, founder of Rome; Gradivus is Mars, Romulus' father. Ovid calls Mars his son, following the Roman tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "word",
+    "text": "\"Tarpeian heights\" means the Capitoline Hill in Rome, site of Jupiter's chief temple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "kind": "phrasing",
+    "text": "\"Read by the lips of nations\" refers to being read aloud, which was the usual way Romans experienced poetry.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Julius Caesar was murdered in 44 BC in the Senate meeting place. A comet appeared soon after, and Romans took it as his soul ascending.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Caesar was stabbed in the Curia of Pompey, where the Senate was then meeting, on the Ides of March.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Jove is comforting Venus, whose descendant Julius Caesar has just been killed. She had tried to prevent the murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "The son is Octavian, later Augustus, Caesar's adopted heir, who avenged his murder and was later honored as divine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "Caesar was deified after death; a comet appeared at his funeral games and was taken as his soul rising to heaven.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "text": "Caesar was assassinated in the Senate-house in 44 BC. Venus was regarded as ancestress of his family, the Julians, through her son Æneas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "text": "Vesta, goddess of the hearth, had her sacred fire at Rome. Augustus, as pontifex maximus, placed a shrine to her in his house.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "text": "Ovid ends the Metamorphoses with this epilogue, claiming his poem as a monument. The closing echoes Horace's similar boast about his Odes.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "narrative voice",
+    "text": "The editorial summary anticipates the poet's closing boast of immortality, which Ovid makes in his own voice at the end of the poem.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "rhetorical question",
+    "text": "A long catalogue of conquests is set against Augustus's parentage, so the question makes the answer, that fatherhood matters most, seem obvious, a flattering way to praise the emperor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "apostrophe",
+    "text": "Venus's speech, addressed to the assembled gods, lets Ovid present Caesar's murder as a divine family crisis, heightening the pathos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "anaphora",
+    "text": "Repeated \"often\" piles up the omens, building a mood of dread around the coming murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "anaphora",
+    "text": "\"In a thousand places\" is repeated and exaggerated, extending the catalogue of portents with hyperbolic force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "allusion",
+    "text": "Echoing earlier rescues of Paris and Æneas in the cloud links Caesar's fate to Homeric epic, giving the event heroic weight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "symbolism",
+    "text": "Brass and iron tablets stand for the permanence and irreversibility of Fate, beyond even storms and lightning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "foreshadowing",
+    "text": "Jove prophesies in future tense events already past for Ovid's readers, flattering Augustus by making his victories seem fated.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "rhetorical question",
+    "text": "Jove skips over the list of conquests, suggesting they are too numerous to tell and magnifying Augustus's reach.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "apostrophe",
+    "text": "Jove ends with a direct command to Venus, turning the prophecy into the action of Caesar's catasterism.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "Metaphor",
+    "text": "The comet's \"flaming train\" is presented as Caesar's soul, giving the heavenly body a human identity and fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "Personification",
+    "text": "Fame is a free, willful figure who ignores Augustus' commands, which also flatters him by showing his modesty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "device": "Analogy",
+    "text": "The chain of father-and-son pairs climaxes with Saturn and Jove, raising Augustus' comparison to the level of the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "device": "Apostrophe",
+    "text": "Ovid turns from narrative to address the gods directly in a long invocation, shifting the poem into formal prayer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "Hyperbole",
+    "text": "Ovid claims his poem is indestructible, listing forces of destruction in a sequence like a boast of monumental permanence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "device": "Contrast",
+    "text": "The \"better part\" (his poetry and fame) is set against the perishable body, giving the epilogue its confident tone of immortality.",
+    "spoiler": false
+   }
+  ]
+ }
+}

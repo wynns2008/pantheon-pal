@@ -1,0 +1,561 @@
+{
+ "section_id": "hesiod-body-94",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 13170,
+  "output": 5015
+ },
+ "result": {
+  "summary": "A collection of short poems attributed to Homer: begging songs, prayers, curses on potters, a tomb inscription, and a riddle exchange with fishermen. They are occasional verses tied to towns of Asia Minor such as Cyme and Smyrna.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Pleas for hospitality at Cyme",
+    "summary": "The poet asks the people of Cyme for a home and alms, then prays to reach a town of righteous men.",
+    "stakes": "The wandering poet risks going without shelter and charity.",
+    "present": [
+     "Zeus",
+     "Hermus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cyme",
+     "modern_name": "Aliağa area, Turkey",
+     "certainty": "real",
+     "lat": 38.77,
+     "lon": 26.97
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 3,
+    "title": "Bronze maiden on Midas's tomb",
+    "summary": "A bronze statue speaks, declaring it will mark the tomb of Midas as long as nature endures.",
+    "stakes": "",
+    "present": [
+     "Midas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tomb of Midas",
+     "modern_name": "Phrygia, Turkey",
+     "certainty": "traditional",
+     "lat": 39.3,
+     "lon": 31.5
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 8,
+    "title": "Complaint against Smyrna and Cyme",
+    "summary": "The poet laments the fate dealt him because Smyrna's people scorned the Muses' gift of song, and resolves to leave Cyme.",
+    "stakes": "His disappointment and exile after being scorned.",
+    "present": [
+     "Zeus",
+     "Meles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Smyrna",
+     "modern_name": "Izmir, Turkey",
+     "certainty": "real",
+     "lat": 38.42,
+     "lon": 27.14
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 13,
+    "title": "Heart of man and sea prayer",
+    "summary": "A saying about the human heart, then a prayer to Poseidon for safe voyage and revenge on a deceiver.",
+    "stakes": "Danger at sea and the poet's wish for justice against a deceiver.",
+    "present": [
+     "Thestorides",
+     "Poseidon",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Mimas",
+     "modern_name": "Karaburun peninsula, Turkey",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 26.4
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 24,
+    "title": "Short sayings and prayers",
+    "summary": "Brief verses on Earth, sailors and strangers, pines of Ida, dogs, a prayer for an old lover, and what makes life good.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Ares",
+     "Glaucus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Ida",
+     "modern_name": "Kaz Dağı, Turkey",
+     "certainty": "real",
+     "lat": 39.7,
+     "lon": 26.85
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 34,
+    "title": "The Kiln, a curse on potters",
+    "summary": "The poet offers to sing for potters, asks Athena's help, and threatens them with destructive spirits, Circe and Centaurs if they cheat him.",
+    "stakes": "The potters' wares and the poet's payment.",
+    "present": [
+     "Athena",
+     "Circe",
+     "Chiron",
+     "Heracles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Potters' kiln-yard",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 35,
+    "end_sentence": 44,
+    "title": "Begging songs at the door",
+    "summary": "Singers go house to house, blessing a wealthy home with the swallow song and asking for gifts.",
+    "stakes": "Whether the household will give gifts.",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "A wealthy man's house",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 45,
+    "end_sentence": 47,
+    "title": "Riddle with the fishermen",
+    "summary": "Homer asks fishermen about their catch and they answer with a riddle about lice; he replies about their poverty.",
+    "stakes": "",
+    "present": [
+     "Homer",
+     "Fisherman"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Seashore",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the poet, speaker in the fisherman dialogue"
+   },
+   {
+    "name": "Fisherman",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "answers Homer with a riddle"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Zeus the Father",
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "king of gods, protector of strangers"
+   },
+   {
+    "name": "Hermus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river begotten by Zeus"
+   },
+   {
+    "name": "Midas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man buried under the bronze maiden"
+   },
+   {
+    "name": "Meles",
+    "aliases": [],
+    "kind": "other",
+    "description": "sacred stream of Smyrna"
+   },
+   {
+    "name": "Thestorides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man addressed about the human heart"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "earth-shaker invoked for safe voyage"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who loves iron"
+   },
+   {
+    "name": "Glaucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "shepherd advised about dogs"
+   },
+   {
+    "name": "Athena",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "invoked to guard the kiln"
+   },
+   {
+    "name": "Circe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "witch, daughter of the Sun"
+   },
+   {
+    "name": "Chiron",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Centaur called to wreck the kiln"
+   },
+   {
+    "name": "Heracles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "slayer of Centaurs"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Hermus",
+    "source": "text",
+    "evidence_sentence": 0
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "A patronymic title for Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Memorable saying about the unfathomable human heart.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "reason": "Famous epitaph promising Midas's tomb will endure as long as nature.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "reason": "Opening of the swallow song, a famous begging song.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The poems center on hospitality, the wandering poet's dependence on strangers, and divine punishment of those who wrong guests.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "These short pieces are later attributions, drawn from the ancient Life of Homer, and reflect itinerant singers' occasional verse in Ionian Greece.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The swallow song is a well-known example of Greek folk begging songs (the chelidonisma), still echoed in later spring customs."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Most of these epigrams are preserved in the pseudo-Herodotean Life of Homer, not in the epics.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Stranger's dole\" means alms or charity given to a wanderer; the poet is asking the citizens for support.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Cyme is called a \"maiden\" because the city was said to be named for a female figure; Hermus is a river of Asia Minor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Riders on wanton horses\" means spirited, unruly horses; the Phricon people are Aeolian Greek settlers in Asia Minor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "\"Daughters of Zeus\" are the Muses, goddesses of song and poetry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Contrived my fate\" means the man's scornful words caused the poet's misfortune; the translator's note marks the referent as obscure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Sound\" here means to measure the depth of, as with a sounding line; hence \"unfathomable.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Helicon is a mountain in Boeotia, associated with Poseidon here as well as with the Muses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Zeus is lord of guests (Zeus Xenios), protector of hospitality; cheating a guest offends him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Honey-hearted\" is a compound epithet meaning sweet at its core; \"intractable\" means hard to work or cultivate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The pine is addressed as if it were a person; the verse seems to refer to pine wood being cut for ships or weapons, with a better \"fruit\" being iron.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "The Cebrenians were people of the Troad near Ida. The line prophesies iron mining once they hold the land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Dote on\" means be foolishly fond of; \"powers dulled\" means the old men's bodily vigor has faded.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "Shatter, Smash, Charr, Crash and Crudebake are translator's renderings of the demons' Greek names, each describing a way pots are ruined in firing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "The kiln is compared to a horse's jaw crunching, meaning it should crush the pots like teeth grinding food.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "Heracles fought and killed many Centaurs in his labors; Chiron, the wise Centaur, was a notable exception to their wildness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "phrasing",
+    "text": "\"Open of yourselves\" means open by your own accord, as if the doors could respond to the singers' call.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "word",
+    "text": "Pottage is a thick porridge or stew; here it is made of barley and sesame, a festive dish the singers ask for.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "allusion",
+    "text": "The singers compare themselves to the swallow, whose yearly return heralds spring. This is why such begging songs were called swallow songs (chelidonisma).",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "phrasing",
+    "text": "The fishermen's riddle: the lice they picked from their clothes and killed were left behind, while those they could not catch they carried home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "phrasing",
+    "text": "Homer understands the riddle and replies that their fathers were poor, owning neither land nor flocks, hence their lice.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Midas was a legendary king of Phrygia. This epigram is supposedly inscribed on his tomb, spoken by a bronze maiden statue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Poseidon, god of the sea, was also called the earth-shaker, as he was thought to cause earthquakes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Zeus was protector of strangers and guests (Zeus Xenios), so wronging a traveler or suppliant risked divine punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Cronos was the father of Zeus; \"Son of Cronos\" is a standard title for Zeus as sender of weather.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Athena was patron goddess of crafts, including pottery, so she is the natural one to invoke.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Circe was a sorceress, daughter of the Sun, known for turning men into beasts with drugs and spells.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "text": "A lacuna is a gap in the surviving text, where lines have been lost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "text": "Wishing good fortune on the son's bride is part of the blessing the singers offer in exchange for gifts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "text": "The begging song promises blessings for a gift and, in the next line, a departure without one; refusal may bring a threat.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "Prosopopoeia",
+    "text": "The bronze statue speaks in the first person, giving a voice to an inanimate object, as in many inscriptions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "Adynaton",
+    "text": "The monument will last as long as rivers, sun and moon endure, using impossible-seeming permanence to stress eternity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "Foreshadowing",
+    "text": "The poet predicts that the scornful man will one day regret his words, hinting at later vindication.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Apostrophe",
+    "text": "The poet addresses Thestorides directly, turning a general maxim into a personal accusation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "Invective",
+    "text": "Calling the deceiver a wretch and invoking Zeus's protection of guests turns the prayer into a moral curse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "apostrophe",
+    "text": "The speaker addresses Earth directly as a queen, honoring her and reflecting on her uneven treatment of people.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "simile",
+    "text": "Sailors are likened to shy sea-fowl, stressing their restless, unsettled and vulnerable lives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "metaphor",
+    "text": "Children are called a man's crown and a city's towers, presenting them as honor and protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "personification",
+    "text": "Pot-breaking forces become named demons summoned like warriors, with names that mimic their destructive work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "irony",
+    "text": "The curse claims a moral purpose, teaching honesty, while wishing painful disfigurement on the potters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "personification",
+    "text": "Wealth, Mirth and Peace are treated as guests who enter the house, and the doors are addressed as if they could obey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "simile",
+    "text": "The singers liken their yearly visit to the swallow's return, presenting themselves as welcome, harmless harbingers of good fortune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "device": "riddle",
+    "text": "The paradoxical answer hides a plain fact, making a joke of the fishermen's poverty and inviting Homer's wit.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,296 @@
+{
+ "section_id": "hesiod-body-98",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6268,
+  "output": 2503
+ },
+ "result": {
+  "summary": "Three fragments of the lost epic Epigoni. The first gives its opening line, the second tells of the Teumesian fox and Cephalus' hound, and the third tells how Manto was sent to Delphi and later married Rhacius and wept at Colophon.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Opening line of the Epigoni",
+    "summary": "A report that Homer composed the Epigoni in seven thousand verses, with its opening invocation of the Muses.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 5,
+    "title": "The Teumesian fox",
+    "summary": "The gods send a fox to punish Cadmus' descendants. Cephalus, purified by the Cadmeans, hunts it with his unerring hound, and both animals turn to stone.",
+    "stakes": "The Thebans suffer divine punishment; the fox and hound face an impossible chase and are turned to stone.",
+    "present": [
+     "Cephalus",
+     "Procris",
+     "Deion"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Teumessus",
+     "modern_name": "Teumessos, Boeotia",
+     "certainty": "real",
+     "lat": 38.35,
+     "lon": 23.8
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 7,
+    "title": "Manto sent to Delphi",
+    "summary": "Manto is sent to Delphi as a first fruit of spoil, meets Rhacius by oracle's command and marries him, then weeps at Colophon for her ruined country.",
+    "stakes": "Manto has lost her homeland and must follow the oracle into exile.",
+    "present": [
+     "Manto",
+     "Teiresias",
+     "Rhacius",
+     "Lebes",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Colophon",
+     "modern_name": "Colophon, near Degirmendere, Turkey",
+     "certainty": "real",
+     "lat": 38.1,
+     "lon": 27.15
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cephalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian son of Deion, owner of an unescapable hound"
+   },
+   {
+    "name": "Deion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cephalus"
+   },
+   {
+    "name": "Procris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Cephalus, accidentally killed by him"
+   },
+   {
+    "name": "Manto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Teiresias, sent to Delphi by the Epigoni"
+   },
+   {
+    "name": "Teiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Manto"
+   },
+   {
+    "name": "Rhacius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mycenaean son of Lebes who marries Manto"
+   },
+   {
+    "name": "Lebes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Rhacius"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose oracle directs Manto"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of the Theban royal house"
+   },
+   {
+    "name": "Teumesian fox",
+    "aliases": [],
+    "kind": "monster",
+    "description": "beast sent by the gods against Thebes, later turned to stone"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Deion",
+    "relation": "parent_of",
+    "b": "Cephalus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Cephalus",
+    "relation": "spouse_of",
+    "b": "Procris",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Teiresias",
+    "relation": "parent_of",
+    "b": "Manto",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Lebes",
+    "relation": "parent_of",
+    "b": "Rhacius",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Manto",
+    "relation": "spouse_of",
+    "b": "Rhacius",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Teumesian fox",
+    "relation": "transformed_into",
+    "b": "stone",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cadmeans",
+    "canonical": "Thebans",
+    "explanation": "Thebans are called Cadmeans after their founder Cadmus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 0,
+    "reason": "The reported opening line of the lost Epigoni, attributed here to Homer.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The fragments show how Theban legend links divine punishment, purification and exile, with the fallen city's aftermath reaching far abroad.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "These are second-hand reports of a lost Cyclic epic. Ancient scholars attributed it to Homer, though the attribution was doubted.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Manto's story as founder of the oracle at Clarus, near Colophon, was later told by writers including Virgil and Dante."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Teumesian fox was fated never to be caught, and the hound never to miss, so Zeus turned both to stone in other tellings.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "The Contest of Homer and Hesiod is a late text that credits Homer with many epics; modern scholars doubt he wrote the Epigoni.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Epigoni means 'those born afterwards': the sons of the Seven who attacked Thebes, who later avenged their fathers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "'Purified of the homicide' refers to a ritual cleansing required after killing, even by accident, before a person could rejoin society.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Epic Cycle was a group of early Greek epics on the Trojan War and Theban legends, now mostly lost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "'First fruit of their spoil' means the best part of the plunder, dedicated to a god as an offering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The Epigoni had sacked Thebes; Manto was taken captive in that conquest and given to Apollo at Delphi.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Photius was a Byzantine scholar whose Lexicon explains rare words; this entry on 'Teumesia' preserves the fox story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Cephalus accidentally killed Procris with his unerring javelin; his hound Laelaps was fated to catch whatever it chased.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Manto was the daughter of the Theban prophet Teiresias and herself a seer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Colophon was an Ionian city in Asia Minor, near which the oracle of Apollo at Claros was said to be founded.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "invocation",
+    "text": "The opening call to the Muses follows epic convention, asking divine inspiration for a new song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "irony",
+    "text": "The fox that can never be caught meets the hound that never misses; their impossible chase is resolved by turning both to stone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "pathos",
+    "text": "Manto's weeping for her ruined homeland, after obeying the oracle, evokes sympathy for the conquered.",
+    "spoiler": false
+   }
+  ]
+ }
+}

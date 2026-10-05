@@ -1,0 +1,249 @@
+{
+ "section_id": "hesiod-body-92",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5998,
+  "output": 2044
+ },
+ "result": {
+  "summary": "The hymn invokes the Muses to sing of Selene, the Moon, whose light fills the sky as she drives her horses from the waters of Ocean. It notes her love with the Son of Cronos and their daughter Pandia, then bids her farewell and turns to the deeds of half-divine men.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Selene's Radiance in the Sky",
+    "summary": "The Muses are called on to sing of the Moon, whose light brightens the air as she drives her team at the full moon. She is a sign to mortals.",
+    "stakes": "",
+    "present": [
+     "Selene",
+     "Muses"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "heaven and Ocean",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 4,
+    "title": "Love of Zeus and Pandia's Birth",
+    "summary": "The Son of Cronos lay with Selene, and she bore the lovely Pandia.",
+    "stakes": "",
+    "present": [
+     "Selene",
+     "Son of Cronos",
+     "Pandia"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 6,
+    "title": "Farewell and Turn to Heroes",
+    "summary": "The poet hails Selene and moves on to sing of half-divine men.",
+    "stakes": "",
+    "present": [
+     "Selene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Selene",
+    "aliases": [
+     "Moon"
+    ],
+    "kind": "goddess",
+    "description": "goddess of the Moon who drives a team of horses across the sky"
+   },
+   {
+    "name": "Muses",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughters of Zeus, skilled in song, invoked by the poet"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "father of the Muses, lover of Selene"
+   },
+   {
+    "name": "Pandia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "lovely daughter of Selene and the Son of Cronos"
+   },
+   {
+    "name": "Ocean",
+    "aliases": [],
+    "kind": "other",
+    "description": "waters where Selene bathes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Selene",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Selene",
+    "relation": "parent_of",
+    "b": "Pandia",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Pandia",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Muses",
+    "source": "text",
+    "evidence_sentence": 0
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "A patronymic for Zeus, used here for the father of Pandia."
+   },
+   {
+    "alias": "Moon",
+    "canonical": "Selene",
+    "explanation": "Selene is the Moon personified."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Captures the moon's ancient role as a sign marking time for mortals.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn praises the moon's light and cycle, personifying it as a goddess whose fullness is a sign for mortals.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Like other Homeric Hymns, it ends with a farewell and a transition to another song, reflecting its use as a prelude by performers.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The closing lines show that hymns like this served as preludes before recitations of heroic epic.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"2535\" is a stray line-number or footnote marker from the edition, not part of the poem. \"Long-winged\" is an unusual epithet for the Moon, probably evoking her wide sweep across the sky.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Whensoever\" means \"whenever\"; \"donned her far-gleaming, shining team\" is a compressed image of the goddess harnessing her chariot and horses after bathing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Sure token and a sign\" means the Moon's phases reliably mark the passing of time, such as months, for mortals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Son of Cronos\" is Zeus, named by his father's name. \"Joined in love\" is a polite expression for lying together.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Men half-divine\" means the heroes, many of whom had a divine parent. \"Minstrels\" are the poets who sing their deeds.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Selene is the Greek goddess of the Moon. The Muses, daughters of Zeus, are goddesses who inspire poets and song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Ocean was imagined as a great river encircling the world, from which heavenly bodies rose and into which they sank.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Pandia is a minor goddess whose name suggests \"all brightness\". Little is told of her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Hymns like this one served as preludes, after which the singer moved on to epic tales of heroes.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "personification",
+    "text": "The Moon's light is presented as the radiance of a goddess's head that embraces the earth, like a living figure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "imagery",
+    "text": "Bathing in Ocean, the golden crown and the long-maned horses at full speed create a vivid visual picture of the full moon rising.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "apostrophe",
+    "text": "The poet turns to address Selene directly, using a string of epithets such as white-armed and bright-tressed in a formal farewell.",
+    "spoiler": false
+   }
+  ]
+ }
+}

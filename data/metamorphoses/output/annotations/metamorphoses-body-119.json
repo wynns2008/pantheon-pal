@@ -1,0 +1,288 @@
+{
+ "section_id": "metamorphoses-body-119",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8330,
+  "output": 2401
+ },
+ "result": {
+  "summary": "Numa, chosen to succeed Romulus, travels to the Greek city of Crotona to study the nature of things. An old native tells him how Hercules foretold the city and how Myscelos, commanded in dreams, left Argos despite the law and founded it.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Numa seeks knowledge at Crotona",
+    "summary": "Summary of Myscelos's tale is given, then Numa, destined for kingship, leaves the Sabines to study nature and reaches Hercules' Greek city in Italy.",
+    "stakes": "",
+    "present": [
+     "Numa"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "city of Hercules (Crotona)",
+     "modern_name": "Crotone",
+     "certainty": "real",
+     "lat": 39.08,
+     "lon": 17.13
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 8,
+    "title": "The old man tells of Hercules",
+    "summary": "Asked about the city's founder, an old native recalls Hercules resting at Croton's house and prophesying a city.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Croton",
+     "Numa"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lacinian shores",
+     "modern_name": "Capo Colonna, Calabria",
+     "certainty": "real",
+     "lat": 39.03,
+     "lon": 17.21
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 18,
+    "title": "Myscelos's dream and trial",
+    "summary": "Hercules commands Myscelos in dreams to leave Argos; the law forbids it, he is tried, and the black pebbles turn white.",
+    "stakes": "Myscelos risks death for leaving Argos against the law, yet fears the god's threats if he stays.",
+    "present": [
+     "Myscelos",
+     "Hercules"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 21,
+    "title": "Myscelos founds Crotona",
+    "summary": "Myscelos sails along the Italian coast, finds the Æsar and Croton's tomb, and founds his city named for Croton.",
+    "stakes": "",
+    "present": [
+     "Myscelos",
+     "Croton"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "mouth of the Æsar",
+     "modern_name": "Crotone",
+     "certainty": "traditional",
+     "lat": 39.08,
+     "lon": 17.13
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Myscelos",
+    "aliases": [
+     "son of Alemon"
+    ],
+    "kind": "mortal",
+    "description": "Argive favored by the gods who founded Crotona"
+   },
+   {
+    "name": "Numa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sabine destined to be Rome's next king, seeker of knowledge"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "son of Jove",
+     "club-bearer",
+     "son of Amphitryon"
+    ],
+    "kind": "god",
+    "description": "hero-god who appears in dreams to Myscelos"
+   },
+   {
+    "name": "Croton",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man who hosted Hercules and was buried at the site"
+   },
+   {
+    "name": "Alemon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Myscelos"
+   },
+   {
+    "name": "Jove",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Hercules"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hercules' mortal father"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Jove",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Alemon",
+    "relation": "parent_of",
+    "b": "Myscelos",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Amphitryon",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 19
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "club-bearer",
+    "canonical": "Hercules",
+    "explanation": "Epithet from his famous club."
+   },
+   {
+    "alias": "son of Amphitryon",
+    "canonical": "Hercules",
+    "explanation": "Patronymic from his mortal stepfather."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 18,
+    "reason": "The miraculous change of black pebbles to white acquits Myscelos.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Book 15 opens with divine will overriding human law, founding a city, and then turns to Numa's quest for knowledge, preparing for Pythagoras' teaching.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale reflects Greek colonization of southern Italy (Magna Graecia), when colonists often claimed divine or oracular sanction.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Crotona was a real Greek colony, traditionally founded around 710 BC, and later home to Pythagoras.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The 'king so great' is Romulus, Rome's founder, who has just been deified; the one sought to succeed him is Numa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Numa was a Sabine, chosen second king of Rome for his reputation for justice and piety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Hercules drove the cattle of Geryon, taken from Iberia (Spain), across Italy; Lacinium is a headland near Crotona.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "'Club-bearer' refers to Hercules, who is known by his club.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The 'twice six labours' are the twelve labours of Hercules, which earned him a place among the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "In Greek courts, black pebbles meant condemnation and white ones acquittal; the urn collected the votes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "'Son of Amphitryon' is Hercules, so called after his mortal stepfather; 'the parent' here means the one he regards as his protector.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Argos was a Greek city-state; the law mentioned here is told as part of the tale, restricting emigration without magistrates' approval.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Numa is said to have studied philosophy, traditionally linked with Pythagoras, who lived at Crotona.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "The places listed are real towns and rivers along the southern Italian coast, then largely Greek colonies.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "personification",
+    "text": "Fame is treated as a living messenger who announces truth and chooses Numa for kingship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "antithesis",
+    "text": "The balanced clauses set divine command against human law and death, showing Myscelos's dilemma.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "imagery",
+    "text": "The Sun hiding his head and Night showing a starry face mark evening vividly through personified heavenly bodies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "symbolism",
+    "text": "The pebbles turning from black to white symbolize divine intervention overturning the verdict and Hercules' favor.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,300 @@
+{
+ "section_id": "metamorphoses-body-108",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8811,
+  "output": 2666
+ },
+ "result": {
+  "summary": "Glaucus, now a sea god, pursues the fleeing Scylla and tells her how eating a strange grass changed him from a fisherman into a god of the waters. She leaves without answering, and he angrily goes to Circe.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Galatea ends; Scylla returns",
+    "summary": "After the argument summary of Glaucus's change, Galatea finishes her tale and the Nereids depart. Scylla comes back to the shore and cools herself in a secluded inlet.",
+    "stakes": "Scylla is wary of the open sea and seeks safety in a lonely recess.",
+    "present": [
+     "Galatea",
+     "Scylla"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the shore",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 8,
+    "title": "Glaucus pursues Scylla",
+    "summary": "Glaucus appears, newly transformed, and woos Scylla, who flees to a headland. She watches him warily, and he declares himself a god, not a monster.",
+    "stakes": "Scylla fears being caught by an unknown sea creature; Glaucus risks rejection.",
+    "present": [
+     "Glaucus",
+     "Scylla",
+     "Proteus",
+     "Triton",
+     "Palæmon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "a mountain ridge by the shore",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 26,
+    "title": "Glaucus tells of his change",
+    "summary": "Glaucus recounts how, as a fisherman, he saw his catch revive on a meadow's grass, chewed it, and plunged into the sea. The sea gods purified him and he awoke transformed.",
+    "stakes": "Glaucus gives up his mortal life and home for an unknown new nature.",
+    "present": [
+     "Glaucus",
+     "Oceanus",
+     "Tethys"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Anthedon",
+     "modern_name": "Anthedon, Boeotia",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 23.45
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 29,
+    "title": "Scylla leaves; Glaucus seeks Circe",
+    "summary": "Glaucus laments that his godhood means nothing if she is unmoved. Scylla leaves, and angry he goes to Circe.",
+    "stakes": "Glaucus faces unrequited love and turns to magic out of rage.",
+    "present": [
+     "Glaucus",
+     "Scylla",
+     "Circe"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "court of Circe",
+     "modern_name": "",
+     "certainty": "traditional",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Glaucus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Former fisherman turned sea god, in love with Scylla"
+   },
+   {
+    "name": "Scylla",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Maiden who flees Glaucus"
+   },
+   {
+    "name": "Galatea",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nereid who finishes speaking"
+   },
+   {
+    "name": "Proteus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sea god named for comparison"
+   },
+   {
+    "name": "Triton",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sea god named for comparison"
+   },
+   {
+    "name": "Palæmon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sea god, son of Athamas"
+   },
+   {
+    "name": "Athamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Palæmon"
+   },
+   {
+    "name": "Oceanus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sea deity asked to purge Glaucus's mortality"
+   },
+   {
+    "name": "Tethys",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Sea deity asked to purge Glaucus's mortality"
+   },
+   {
+    "name": "Circe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Enchantress, daughter of Titan"
+   },
+   {
+    "name": "Titan",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Circe"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Athamas",
+    "relation": "parent_of",
+    "b": "Palæmon",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Titan",
+    "relation": "parent_of",
+    "b": "Circe",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Glaucus",
+    "relation": "lover_of",
+    "b": "Scylla",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 27,
+    "reason": "Glaucus's bitter question: godhood is worthless without Scylla's love.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Transformation is sudden and accidental here, and it fails to win love, setting up Scylla's own cruel transformation.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Glaucus's tale draws on a Boeotian cult legend of a fisherman-turned-god at Anthedon.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Glaucus and Scylla story inspired later poets and painters, including Renaissance and Baroque treatments."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Anthedon was a real coastal town in Boeotia, linked in ancient tradition with Glaucus.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Anthedon was a coastal town in Boeotia, facing Euboea. It was traditionally Glaucus's home as a fisherman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Proteus, Triton and Palæmon are sea deities. Palæmon was the mortal Melicertes, son of Athamas, who became a sea god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "The convoluted sentence says no livestock had ever grazed the meadow. The apostrophe to sheep and goats makes it sound like speech.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"New master\" is wry: Glaucus owned the fish only briefly before they escaped back to the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "\"Vouchsafed\" means graciously granted. \"Kindred honours\" means honours due to fellow sea gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Purification by a charm repeated nine times and washing reflects ancient ritual cleansing. Nine was a common magical number.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Circe, the daughter of Titan (here the Sun, Hyperion's line), is the sorceress who will transform Scylla.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Scylla is a nymph who avoids the sea gods and their advances, which is why she keeps to the shore.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Oceanus and Tethys are the Titan couple who rule the primal ocean, and they are the elders of the sea gods.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "Irony",
+    "text": "Scylla admires the very features that mark Glaucus as strange, yet she remains wary. Her ambiguity prefigures her rejection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Narrative voice",
+    "text": "Glaucus interrupts his story with a parenthetical aside, assuring Scylla he is not inventing a tale, which makes his speech sound like a nervous suitor's.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "Rhetorical question",
+    "text": "Glaucus's repeated questions show that his divinity is worthless to him without Scylla's love, ending his speech in desperate pathos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "Foreshadowing",
+    "text": "Glaucus's anger and his visit to Circe anticipate Scylla's tragic transformation into a monster.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,428 @@
+{
+ "section_id": "metamorphoses-body-14",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11320,
+  "output": 3895
+ },
+ "result": {
+  "summary": "Juno spots Jupiter hiding mists and asks him for a pretty heifer, which is Io in disguise. He gives her up and Juno sets hundred-eyed Argus to guard her. Io meets her father Inachus and reveals herself by writing in the dust. Jupiter sends Mercury, disguised as a shepherd, to lull Argus to sleep.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 13,
+    "title": "Juno claims the heifer",
+    "summary": "Juno notices the unnatural mists, finds Jupiter and demands the heifer. Jupiter cannot refuse without raising suspicion, so Juno takes Io and gives her to Argus.",
+    "stakes": "Jupiter risks exposing his affair and Juno's wrath; Io risks captivity.",
+    "present": [
+     "Juno",
+     "Jupiter",
+     "Io",
+     "Argus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the fields (earth)",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 20,
+    "title": "Argus guards Io",
+    "summary": "Argus, with a hundred eyes, keeps Io, feeding her by day and tying her at night. She cannot speak or plead and is frightened by her own lowing.",
+    "stakes": "Io is imprisoned in animal form, unable to ask for help.",
+    "present": [
+     "Argus",
+     "Io"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "pastures of Argus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 33,
+    "title": "Io and Inachus",
+    "summary": "Io visits the banks of her father's river and sees her horns. Unrecognised, she writes her name in the dust, and Inachus laments. Argus then leads her away to distant pastures.",
+    "stakes": "Io may never regain her human form or her family; Inachus faces endless grief.",
+    "present": [
+     "Io",
+     "Inachus",
+     "Argus",
+     "Naiads"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "banks of the Inachus",
+     "modern_name": "Inachos river, Argolis, Greece",
+     "certainty": "traditional",
+     "lat": 37.7,
+     "lon": 22.8
+    }
+   },
+   {
+    "start_sentence": 34,
+    "end_sentence": 41,
+    "title": "Mercury charms Argus",
+    "summary": "Jupiter sends Mercury to kill Argus. Mercury disguises himself as a shepherd, plays pipes and talks, and Argus invites him to sit as sleep tries to take him.",
+    "stakes": "Argus's life; Mercury must trick him without being recognised.",
+    "present": [
+     "Jupiter",
+     "Mercury",
+     "Argus",
+     "Maia",
+     "Atlas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "mountain top of Argus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Jupiter",
+    "aliases": [
+     "ruler of the Gods above"
+    ],
+    "kind": "god",
+    "description": "king of the gods who hid Io as a cow"
+   },
+   {
+    "name": "Juno",
+    "aliases": [
+     "daughter of Saturn"
+    ],
+    "kind": "goddess",
+    "description": "Jupiter's jealous wife"
+   },
+   {
+    "name": "Io",
+    "aliases": [
+     "daughter of Inachus",
+     "granddaughter of Phoroneus"
+    ],
+    "kind": "nymph",
+    "description": "Jupiter's mistress turned into a heifer"
+   },
+   {
+    "name": "Argus",
+    "aliases": [
+     "son of Aristor"
+    ],
+    "kind": "monster",
+    "description": "hundred-eyed guardian set by Juno"
+   },
+   {
+    "name": "Inachus",
+    "aliases": [],
+    "kind": "god",
+    "description": "river-god, Io's father"
+   },
+   {
+    "name": "Mercury",
+    "aliases": [
+     "son of Atlas"
+    ],
+    "kind": "god",
+    "description": "Jupiter's son sent to kill Argus"
+   },
+   {
+    "name": "Maia",
+    "aliases": [
+     "the bright Pleiad"
+    ],
+    "kind": "nymph",
+    "description": "Pleiad, mother of Mercury"
+   },
+   {
+    "name": "Naiads",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Io's sisters who do not know her"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Inachus",
+    "relation": "parent_of",
+    "b": "Io",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Maia",
+    "relation": "parent_of",
+    "b": "Mercury",
+    "source": "text",
+    "evidence_sentence": 34
+   },
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Mercury",
+    "source": "text",
+    "evidence_sentence": 34
+   },
+   {
+    "a": "Jupiter",
+    "relation": "spouse_of",
+    "b": "Juno",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Jupiter",
+    "relation": "lover_of",
+    "b": "Io",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Io",
+    "relation": "transformed_into",
+    "b": "cow",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Saturn",
+    "relation": "parent_of",
+    "b": "Juno",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "son of Atlas",
+    "canonical": "Mercury",
+    "explanation": "Mercury is called this in the text; in outside tradition his mother Maia was Atlas's daughter, so it is a loose descent title."
+   },
+   {
+    "alias": "daughter of Saturn",
+    "canonical": "Juno",
+    "explanation": "A patronymic for Juno."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 31,
+    "reason": "Inachus laments that godhood denies him death's relief from grief.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Divine desire and jealousy cost a mortal her voice and body; Io's inability to speak, then writing in the dust, shows identity persisting through loss.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid draws on older Greek myth of Io and Argus, tying it to the river Inachus and Argive tradition.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Argus Panoptes's hundred eyes gave rise to the English phrase 'Argus-eyed' for a vigilant watcher."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The story of Mercury piping Argus to sleep was a popular subject for Renaissance and Baroque painters such as Velázquez and Rubens.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "The braces mark words the translator added for clarity. 'Intrigues of a husband so often detected' means Jupiter's repeated infidelities, which Juno has caught before.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "'I am either deceived, or I am injured' means she suspects either she is mistaken or she is being wronged by her husband.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Io is called daughter of Inachus, a river god of Argos. Her father is named instead of her, which is a common epic way to identify a person.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "'Daughter of Saturn' is Juno, a child of the Titan Saturn. Jupiter is also his child, so the couple are siblings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "'Sharer of his descent and his couch' means Juno, who is both Jupiter's sister and his wife.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "The bracketed number is a translator's footnote marker, not part of Ovid's text. The sense is that the eyes rested in shifts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "Arbute is the strawberry tree, an evergreen shrub whose leaves and fruit were typical rough fodder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Naiads are nymphs of fresh water. Here they are Io's sisters, daughters of the river-god Inachus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "'A detriment to be a God' means divinity is a burden, because as an immortal river-god Inachus cannot die to escape grief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "allusion",
+    "text": "Phoroneus was a legendary early king of Argos and son of Inachus. Io is called his granddaughter here, though she is Inachus's daughter, so the wording is loose.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "Winged sandals, sleep-bringing wand (caduceus) and cap are Mercury's standard equipment. The cap is the traveller's hat, in other tellings a cap of invisibility.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "word",
+    "text": "'Oaten straws joined together' are the pan-pipes, reeds of graded lengths bound side by side, an instrument of Arcadian shepherds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "allusion",
+    "text": "The pipe's recent invention points to the story of Pan and Syrinx, which Mercury is about to tell Argus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Mercury was Jupiter's messenger god, known for trickery and for leading souls. He later lulls Argus to sleep with a tale and kills him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Argus, the watchman with many eyes, was set to guard Io. His eyes were said to sleep in turns, so he was ever watchful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Argus, called Panoptes ('all-seeing'), is a giant set by Juno to guard Io, whom Jupiter had turned into a heifer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Io's hoof-writing is a famous moment: she reveals herself by tracing her name in the dust.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Maia was the eldest of the Pleiades, daughters of Atlas, and the mother of Mercury by Jupiter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "Juno is Jupiter's wife. She is jealous of Io and has made Argus her watchman.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "Irony",
+    "text": "The clouds Jupiter makes to hide his deed are what expose it, since unnatural night at midday alerts Juno.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "Dramatic irony",
+    "text": "Juno feigns ignorance while knowing the truth, and her questions are a trap that Jupiter must answer with a lie.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Antithesis",
+    "text": "Shame and love are set against each other in balanced clauses, showing Jupiter's inner conflict.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "hyperbole",
+    "text": "Argus's vigilance is exaggerated to the point that even with his back turned he still sees Io, stressing her total captivity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "irony",
+    "text": "She wants to stretch out suppliant arms but has none, which makes her transformation cruelly concrete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "repetition",
+    "text": "The repeated 'knew her not' and 'follows' stress the pathos of a daughter beside her family who cannot recognise her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "apostrophe",
+    "text": "Inachus speaks directly to his daughter, and his repeated cry of grief gives the speech pathos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "irony",
+    "text": "His hopes of a wedding and grandchildren are overturned in the next sentence, where Io must have a mate from the herd.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "epithet",
+    "text": "'The starry Argus' recalls his many eyes, which resemble stars, and prepares for the story of his death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "device": "antithesis",
+    "text": "Half-sleeping, half-watching, Argus is balanced between rest and vigilance, building suspense before his fall.",
+    "spoiler": false
+   }
+  ]
+ }
+}

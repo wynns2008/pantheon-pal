@@ -1,0 +1,231 @@
+{
+ "section_id": "hesiod-body-89",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5778,
+  "output": 1892
+ },
+ "result": {
+  "summary": "The poet praises Hestia, goddess of the hearth, whose honour lies in having a place in every house and in receiving the first and last offering at every feast. He then calls on Hermes and Hestia to dwell together in the house and favour its people, and ends by promising another song.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Praise of Hestia's honour",
+    "summary": "Hestia is hailed for her everlasting seat in the homes of gods and men. No banquet is held without wine poured to her first and last.",
+    "stakes": "",
+    "present": [
+     "Hestia"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the dwellings of gods and men",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 5,
+    "title": "Invocation of Hermes and farewell",
+    "summary": "The poet asks Hermes and Hestia to dwell together in the house and help its people. He bids them farewell and promises another song.",
+    "stakes": "",
+    "present": [
+     "Hestia",
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "this glorious house",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hestia",
+    "aliases": [
+     "Daughter of Cronos"
+    ],
+    "kind": "goddess",
+    "description": "goddess of the hearth, honoured first and last at every feast"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "slayer of Argus",
+     "Son of Zeus and Maia",
+     "bearer of the golden rod"
+    ],
+    "kind": "god",
+    "description": "messenger of the gods and giver of good"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Hermes"
+   },
+   {
+    "name": "Maia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "mother of Hermes"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Hestia"
+   },
+   {
+    "name": "Argus",
+    "aliases": [],
+    "kind": "monster",
+    "description": "guardian slain by Hermes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Maia",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Hestia",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Hestia",
+    "relation": "sibling_of",
+    "b": "Zeus",
+    "source": "outside",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "slayer of Argus",
+    "canonical": "Hermes",
+    "explanation": "An epithet of Hermes, who killed the many-eyed Argus."
+   },
+   {
+    "alias": "Daughter of Cronos",
+    "canonical": "Hestia",
+    "explanation": "A patronymic naming Hestia by her father."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Shows Hestia's central place in feasts and ritual: she receives the first and last libation.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn honours the hearth as the centre of household life and hospitality, linking gods and humans through shared ritual. Pairing Hestia with Hermes joins the fixed hearth with the traveller and messenger.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Greek households began meals and sacrifices with offerings to Hestia, so the hymn reflects real domestic cult practice.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Hestia's Roman counterpart Vesta had a hearth cult kept by the Vestal Virgins, and the Latin word focus (hearth) gives English focus."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "This short hymn is one of the brief Homeric Hymns used as preludes, ending with a promise to move on to another song.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Abode\" means dwelling place; Hestia's seat is the hearth at the centre of every home and temple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "\"Slayer of Argus\" refers to Hermes killing the hundred-eyed giant Argus, who guarded Io for Hera.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"2533\" is a stray footnote number from the edition, not part of the poem.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Remember you and another song\" is the usual hymn closing: the poet promises to turn to a new song, as the hymns end.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Hestia is goddess of the hearth and home fire. She was honoured first in household sacrifice and her fire stayed at the centre of the home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Hermes, son of Zeus and the nymph Maia, was herald of the gods and giver of luck. His golden rod is the herald's staff.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Hestia is eldest daughter of Cronos, a Titan and father of the Olympian gods, which is why she is called his daughter.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "merism",
+    "text": "\"First and last\" stands for the whole feast: Hestia is honoured throughout every meal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "epithet",
+    "text": "A string of titles for Hermes, such as messenger and giver of good, identifies him by his deeds and powers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "apostrophe",
+    "text": "The poet speaks directly to the goddess and Hermes, and bids them farewell, as formal closing of the hymn.",
+    "spoiler": false
+   }
+  ]
+ }
+}

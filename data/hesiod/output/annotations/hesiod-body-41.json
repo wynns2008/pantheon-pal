@@ -1,0 +1,409 @@
+{
+ "section_id": "hesiod-body-41",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9143,
+  "output": 3737
+ },
+ "result": {
+  "summary": "A set of fragments from the lost Melampodia, a poem about seers. They include the riddle contest in which Mopsus beats Calchas, Teiresias' long life, his change of sex and blinding, and short passages on feasts, omens and Amphilochus' death.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Calchas and Mopsus' fig contest",
+    "summary": "Calchas, back from Troy, meets the greater seer Mopsus near Clarus. He tests Mopsus with a riddle about figs, loses, and dies of vexation.",
+    "stakes": "Calchas risks his reputation as the foremost seer and, as it proves, his life.",
+    "present": [
+     "Calchas",
+     "Mopsus",
+     "Amphilochus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Clarus",
+     "modern_name": "Claros, near Ahmetbeyli, Turkey",
+     "certainty": "real",
+     "lat": 37.99,
+     "lon": 27.19
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 11,
+    "title": "Teiresias' long life",
+    "summary": "Teiresias is said to have lived seven generations. He complains to Zeus that his long life is no real honour.",
+    "stakes": "Teiresias bears a life too long, and he lacks the ordinary wisdom of mortals.",
+    "present": [
+     "Teiresias",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 16,
+    "title": "Teiresias changes sex and is blinded",
+    "summary": "Teiresias kills snakes on Cithaeron and changes sex. Zeus and Hera then ask him who enjoys love more. His answer angers Hera, who blinds him, and Zeus gives him the seer's power.",
+    "stakes": "Teiresias risks Hera's anger and loses his sight.",
+    "present": [
+     "Teiresias",
+     "Zeus",
+     "Hera"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Cithaeron",
+     "modern_name": "Mount Cithaeron, Greece",
+     "certainty": "real",
+     "lat": 38.2,
+     "lon": 23.2
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 26,
+    "title": "Assorted short fragments",
+    "summary": "Brief quotations on feasting, omens, a cup-bearer scene with Phylacus and Iphiclus, Chalcis, Amphilochus' death at Soli, and the lack of seers who know Zeus' mind.",
+    "stakes": "",
+    "present": [
+     "Mares",
+     "Mantes",
+     "Iphiclus",
+     "Phylacus",
+     "Amphilochus",
+     "Apollo",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Soli",
+     "modern_name": "Soli, Cilicia, Turkey",
+     "certainty": "real",
+     "lat": 36.75,
+     "lon": 34.55
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Calchas",
+    "aliases": [
+     "Calchis"
+    ],
+    "kind": "mortal",
+    "description": "seer who returned from Troy and died after losing to Mopsus"
+   },
+   {
+    "name": "Mopsus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "seer, son of Manto, who solved the fig riddle"
+   },
+   {
+    "name": "Manto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Teiresias, mother of Mopsus"
+   },
+   {
+    "name": "Teiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "long-lived Theban seer, blinded by Hera"
+   },
+   {
+    "name": "Amphilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amphiaraus, killed by Apollo at Soli"
+   },
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Amphilochus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, who gave Teiresias the seer's power"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "wife of Zeus, who blinded Teiresias"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who killed Amphilochus"
+   },
+   {
+    "name": "Mares",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "swift messenger who brings a goblet"
+   },
+   {
+    "name": "Mantes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man who takes the ox's halter"
+   },
+   {
+    "name": "Iphiclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man who lashes the ox"
+   },
+   {
+    "name": "Phylacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man walking with cup and sceptre among bondmen"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Manto",
+    "relation": "parent_of",
+    "b": "Mopsus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Teiresias",
+    "relation": "parent_of",
+    "b": "Manto",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Amphiaraus",
+    "relation": "parent_of",
+    "b": "Amphilochus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "outside",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Teiresias",
+    "relation": "transformed_into",
+    "b": "woman",
+    "source": "text",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Calchis",
+    "canonical": "Calchas",
+    "explanation": "Strabo's spelling of the name differs from the one used in the Hesiod quotation."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 15,
+    "reason": "Teiresias' famous verdict that women enjoy love ten times more than men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "reason": "Gives the fragment's context for Teiresias' span of seven generations.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The fragments concern the limits and rivalry of prophetic knowledge. Seers compete, suffer for their gift, and no one fully knows Zeus' mind.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Melampodia is lost and survives only in quotations by later writers such as Strabo and Athenaeus. It was attributed to Hesiod in antiquity.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Teiresias' sex change and blinding were retold by later writers such as Ovid in the Metamorphoses."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The fig riddle is a numerical puzzle: Mopsus gives the count as ten thousand measures plus one fig left over.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Calchis\" is the translator's spelling here of the seer usually called Calchas, as the later sentences write him. The bracketed number is a footnote marker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "A wild fig-tree is the uncultivated fig, here small yet heavy with fruit, which is why Calchas finds it wonderful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "A bushel is a dry measure of capacity. Mopsus' answer is that the figs fill the measure exactly, with one fig left over.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"The end of death shroud Calchas\" is a poetic way of saying death covered him and he died.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "A generation is roughly the span of one human age, so seven generations means an extraordinarily long life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Mortal kind\" means the human race. Teiresias lives through seven of its generations.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "A scholiast is an ancient commentator whose notes in manuscript margins preserve many fragments of lost poems like the Melampodia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Ten parts\" is a proportion: the woman is said to enjoy nine times more than the man. The odd phrase \"a woman's sense\" means her sensation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "\"Goblet\" is a drinking cup; the \"lord\" is the host being served, and Mares appears to be his attendant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "The scene is obscure out of context: Mantes seems to be a servant or captive taking an ox's halter, and Iphiclus strikes him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Bondmen\" are slaves or serfs; \"spake\" is archaic for spoke.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Amphilochus was a seer, son of Amphiaraus. Soli is a city in Cilicia, in southern Asia Minor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "The aegis is Zeus's divine shield or goatskin cloak, which he shakes to cause terror and storms.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Calchas was the chief seer of the Greeks at Troy. Amphilochus was the son of the seer Amphiaraus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Clarus was a site near Colophon in Asia Minor with a famous oracle of Apollo, where Mopsus the seer was later honoured.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Cadmus was the legendary founder of Thebes. Eteocles and Polyneices were the sons of Oedipus who fought over Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Teiresias is the famous blind seer of Thebes, who appears in Homer's Odyssey, where Ulysses consults his ghost in the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Phylacus and Iphiclus belong to the Melampus story: Melampus, the seer, was linked to the cattle of Phylacus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Chalcis was a major city on the island of Euboea, famous in early Greek times.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "Euphemism",
+    "text": "Death is described as something that wraps around Calchas, softening the plain statement that he died after losing the contest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Apostrophe",
+    "text": "Teiresias addresses Zeus directly, giving his complaint the force of a personal appeal to the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Irony",
+    "text": "The gift of long life is called a failure of honour, so a seeming blessing is felt as a burden.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "The verdict is surprising: the seer, who has lived as both sexes, settles a divine quarrel, and his answer favors one side, which provokes punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "antithesis",
+    "text": "Hera's punishment (blindness) is set against Zeus's compensation (prophecy), so a loss of sight becomes a gift of insight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "hyperbole",
+    "text": "The claim that no mortal seer can know Zeus's mind stresses the gulf between gods and humans and the limits of prophecy.",
+    "spoiler": false
+   }
+  ]
+ }
+}

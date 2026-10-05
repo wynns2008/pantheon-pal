@@ -1,0 +1,372 @@
+{
+ "section_id": "metamorphoses-body-75",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10124,
+  "output": 3451
+ },
+ "result": {
+  "summary": "Theseus, returning from the Calydonian boar hunt, is stopped by the flooded river Acheloüs, who invites him to shelter in his grotto. At the feast Theseus asks about the islands offshore, and Acheloüs explains that they are Naiads he punished, and that one of them, Perimele, was his lover and was turned into an island by Neptune.",
+  "scenes": [
+   {
+    "start_sentence": 2,
+    "end_sentence": 9,
+    "title": "Acheloüs halts Theseus",
+    "summary": "Theseus is travelling home when the swollen river Acheloüs blocks him. The river warns of the flood's dangers and offers shelter, and Theseus accepts.",
+    "stakes": "Theseus risks being swept away if he tries to cross the flooded river.",
+    "present": [
+     "Theseus",
+     "Acheloüs"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the river Acheloüs",
+     "modern_name": "Achelous River, Greece",
+     "certainty": "real",
+     "lat": 38.6,
+     "lon": 21.1
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 15,
+    "title": "Feast in the river's grotto",
+    "summary": "Theseus and his companions dine in the cave while Nymphs serve them. Theseus asks about the islands he sees in the sea.",
+    "stakes": "",
+    "present": [
+     "Theseus",
+     "Acheloüs",
+     "Lelex",
+     "Ixion's son"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Acheloüs' grotto",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 18,
+    "title": "The Naiads become the Echinades",
+    "summary": "Acheloüs tells how the Naiads forgot him at a sacrifice, and in his rage he swept them into the sea, where they became islands.",
+    "stakes": "The Naiads face the river's wrath for neglecting him.",
+    "present": [
+     "Acheloüs",
+     "Naiads"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Echinades",
+     "modern_name": "Echinades Islands",
+     "certainty": "real",
+     "lat": 38.35,
+     "lon": 21.1
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 31,
+    "title": "Perimele becomes an island",
+    "summary": "Acheloüs tells how Hippodamas hurled the pregnant Perimele into the sea. Acheloüs prayed to Neptune, who changed her into an island.",
+    "stakes": "Perimele faces drowning after her father throws her into the sea.",
+    "present": [
+     "Acheloüs",
+     "Perimele",
+     "Hippodamas",
+     "Neptune"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Perimele island",
+     "modern_name": "Echinades Islands",
+     "certainty": "traditional",
+     "lat": 38.3,
+     "lon": 21.1
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Theseus",
+    "aliases": [
+     "son of Ægeus",
+     "Cecropian"
+    ],
+    "kind": "mortal",
+    "description": "Athenian hero returning from the boar hunt"
+   },
+   {
+    "name": "Acheloüs",
+    "aliases": [
+     "the River",
+     "river of the Acarnanians"
+    ],
+    "kind": "god",
+    "description": "River god who hosts Theseus and tells the tale"
+   },
+   {
+    "name": "Lelex",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Grey-haired hero of Trœzen, Theseus' companion"
+   },
+   {
+    "name": "Ixion's son",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "A companion reclining beside Theseus"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Theseus"
+   },
+   {
+    "name": "Perimele",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nymph loved by Acheloüs, turned into an island"
+   },
+   {
+    "name": "Hippodamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Perimele's father who threw her into the sea"
+   },
+   {
+    "name": "Neptune",
+    "aliases": [
+     "bearer of the Trident",
+     "King of the ocean"
+    ],
+    "kind": "god",
+    "description": "Sea god who changes Perimele into an island"
+   },
+   {
+    "name": "Naiads",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Five nymphs turned into the Echinades"
+   },
+   {
+    "name": "Hyperion",
+    "aliases": [],
+    "kind": "god",
+    "description": "The sun, named to mark the time of day"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ægeus",
+    "relation": "parent_of",
+    "b": "Theseus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Hippodamas",
+    "relation": "parent_of",
+    "b": "Perimele",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Acheloüs",
+    "relation": "lover_of",
+    "b": "Perimele",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Perimele",
+    "relation": "transformed_into",
+    "b": "island",
+    "source": "text",
+    "evidence_sentence": 31
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cecropian",
+    "canonical": "Theseus",
+    "explanation": "Cecrops was an early king of Athens, so the word means Athenian."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "The river's hospitable warning begins the episode and frames the tale.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows metamorphosis as punishment and as rescue: the Naiads are punished for slighting a god, while Perimele is saved from drowning.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid links the Echinades islands to myth, reflecting the ancient habit of explaining geography through stories of gods.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Echinades are a real island group off western Greece near the mouth of the Achelous, which deposits silt there.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Erecthean towers of Tritonis means Athens, whose early king was Erechtheus and whose patron goddess was Minerva, also called Tritonis (Pallas Athena).",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Cecropian means Athenian, from Cecrops, legendary first king of Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "The last clause, 'and both he did make use of,' means Theseus took up both the lodging and the advice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Murex is a spiny sea snail, the source of purple dye; its shells decorate the grotto roof.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Hyperion is the Sun; having measured two parts of the light means two parts of the day have passed, so it is late afternoon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The son of Ixion is Pirithous, Theseus's close friend, who joined the Calydonian boar hunt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Refers to Oeneus' neglect of Diana in the Calydonian boar story; the Naiads' neglect of Acheloüs is offered as a parallel, so Diana's anger should not surprise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "\"Main\" in the previous sentence means the open sea; here the river \"course\" means its channel, and \"fullest\" means in highest flood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "A euphemism: Acheloüs says he took her virginity, which is why her father is angry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Bearer of the Trident\" and \"next in rank to the heavens\" describe Neptune, who won the sea when the brothers drew lots for the universe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "Neptune's nod of assent, shaking the waters, is a conventional sign of divine consent.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The Echinades are islands off the coast of Acarnania, near the mouth of the Acheloüs, so the river god tells their story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Acheloüs is the river god of the Acarnanian river, the largest river in Greece, and he speaks as host in his own person.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Lelex is an aged hero of Trœzen, a city in the Peloponnese, and he is among Theseus's companions at dinner.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "The Echinades are a group of small islands off the western coast of Greece, near the mouth of the river Achelous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Hippodamas is Perimele's father; he punishes her by throwing her from a cliff, though she is pregnant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Neptune (the Greek Poseidon) is god of the sea; rivers flow into his realm, so Acheloüs appeals to him as a superior.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "Personification",
+    "text": "The river speaks of its own floods as wild, dangerous forces, and the river itself is a speaking god, giving warning a menacing, boastful tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "Pathos",
+    "text": "Swept-away folds, flocks, strong herds and swift horses are listed to show that neither strength nor speed can resist the flood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Foreshadowing",
+    "text": "The islands that deceive by distance prepare for the river's tale of Naiads transformed into them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Simile",
+    "text": "Acheloüs compares his swollen anger to his own river at full flood, joining human rage with natural force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "Irony",
+    "text": "Acheloüs, the cause of the harm, lectures the father on pity and mildness, rationalizing his own guilt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "Hyperbole",
+    "text": "Neptune's slight nod shakes all the waters, showing the god's vast power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "Imagery",
+    "text": "The throbbing breast turning to hardened earth gives a tactile, vivid image of metamorphosis, with life changing to stone.",
+    "spoiler": false
+   }
+  ]
+ }
+}

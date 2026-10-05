@@ -1,0 +1,570 @@
+{
+ "section_id": "metamorphoses-body-92",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 21546,
+  "output": 5986
+ },
+ "result": {
+  "summary": "Venus, wounded by Cupid's arrow, falls in love with Adonis and follows him hunting, warning him against dangerous beasts. Resting under a poplar, she tells how Hippomenes won Atalanta in a race with her golden apples, then forgot to thank her and was turned with Atalanta into lions for profaning Cybele's shrine.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 28,
+    "title": "Venus loves Adonis and warns him",
+    "summary": "Grazed by Cupid's arrow, Venus abandons her favorite haunts to follow Adonis hunting. She warns him against fierce beasts and draws him down to rest under a poplar.",
+    "stakes": "Venus fears losing Adonis to the wild beasts he might rashly attack.",
+    "present": [
+     "Venus",
+     "Adonis",
+     "Cupid"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "wooded mountains",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 29,
+    "end_sentence": 56,
+    "title": "Atalanta's race and Hippomenes' challenge",
+    "summary": "Atalanta, warned by the oracle, kills suitors who lose her race. Hippomenes first scorns them, then is struck by her beauty and offers to race her.",
+    "stakes": "Hippomenes risks death if he loses; Atalanta fears the oracle's prophecy of ruin through marriage.",
+    "present": [
+     "Atalanta",
+     "Hippomenes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Atalanta's race course",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 57,
+    "end_sentence": 79,
+    "title": "Atalanta's doubts",
+    "summary": "Atalanta pities Hippomenes and wishes he would withdraw, falling in love without realizing it.",
+    "stakes": "Atalanta faces guilt over a youth's death and the oracle's warning.",
+    "present": [
+     "Atalanta",
+     "Hippomenes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Atalanta's race course",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 80,
+    "end_sentence": 101,
+    "title": "The golden apples win the race",
+    "summary": "Hippomenes prays to Venus, who gives him three golden apples from Cyprus. He throws them to delay Atalanta and wins.",
+    "stakes": "Hippomenes' life and his chance to win Atalanta.",
+    "present": [
+     "Hippomenes",
+     "Atalanta",
+     "Venus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Atalanta's race course",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 102,
+    "end_sentence": 113,
+    "title": "Ingratitude and transformation into lions",
+    "summary": "Slighted by Hippomenes, Venus makes him desire Atalanta in Cybele's shrine. Cybele turns them into lions, and Venus warns Adonis again.",
+    "stakes": "Hippomenes and Atalanta suffer divine punishment for sacrilege; Venus fears for Adonis.",
+    "present": [
+     "Venus",
+     "Hippomenes",
+     "Atalanta",
+     "Cybele",
+     "Adonis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "temple of Cybele in a wood",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Venus",
+    "aliases": [
+     "Cytherea"
+    ],
+    "kind": "goddess",
+    "description": "goddess of love, who falls for Adonis"
+   },
+   {
+    "name": "Adonis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "beautiful youth loved by Venus"
+   },
+   {
+    "name": "Cupid",
+    "aliases": [],
+    "kind": "god",
+    "description": "Venus's son, whose arrow wounds her"
+   },
+   {
+    "name": "Atalanta",
+    "aliases": [
+     "daughter of Schœneus"
+    ],
+    "kind": "mortal",
+    "description": "swift maiden who races her suitors"
+   },
+   {
+    "name": "Hippomenes",
+    "aliases": [
+     "Megarean hero"
+    ],
+    "kind": "mortal",
+    "description": "youth who wins the race with golden apples"
+   },
+   {
+    "name": "Cybele",
+    "aliases": [
+     "Mother of the Gods"
+    ],
+    "kind": "goddess",
+    "description": "goddess whose shrine is defiled"
+   },
+   {
+    "name": "Neptune",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god, ancestor of Hippomenes"
+   },
+   {
+    "name": "Megareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hippomenes"
+   },
+   {
+    "name": "Onchestius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Megareus"
+   },
+   {
+    "name": "Schœneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Atalanta"
+   },
+   {
+    "name": "Echion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "builder of Cybele's temple"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Schœneus",
+    "relation": "parent_of",
+    "b": "Atalanta",
+    "source": "text",
+    "evidence_sentence": 57
+   },
+   {
+    "a": "Megareus",
+    "relation": "parent_of",
+    "b": "Hippomenes",
+    "source": "text",
+    "evidence_sentence": 54
+   },
+   {
+    "a": "Onchestius",
+    "relation": "parent_of",
+    "b": "Megareus",
+    "source": "text",
+    "evidence_sentence": 54
+   },
+   {
+    "a": "Venus",
+    "relation": "parent_of",
+    "b": "Cupid",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Venus",
+    "relation": "lover_of",
+    "b": "Adonis",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Hippomenes",
+    "relation": "transformed_into",
+    "b": "lion",
+    "source": "text",
+    "evidence_sentence": 112
+   },
+   {
+    "a": "Atalanta",
+    "relation": "transformed_into",
+    "b": "lion",
+    "source": "text",
+    "evidence_sentence": 112
+   },
+   {
+    "a": "Hippomenes",
+    "relation": "spouse_of",
+    "b": "Atalanta",
+    "source": "text",
+    "evidence_sentence": 105
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cytherea",
+    "canonical": "Venus",
+    "explanation": "Epithet from the island of Cythera, linked with her cult."
+   },
+   {
+    "alias": "Mother of the Gods",
+    "canonical": "Cybele",
+    "explanation": "Title of Cybele."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "Famous reflection on the swift passing of time, introducing Adonis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "reason": "Echoes the proverb that fortune or the divine favors the bold.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Passion overrides reason and piety, as Cupid's arrow, Atalanta's love and Hippomenes' lust show. Gratitude owed to the gods and respect for sacred places have deadly consequences.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Venus's tale foreshadows Adonis's death by a boar: she warns him of beasts, yet he will not heed her.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The race with golden apples became a classic motif in art and literature, painted by Guido Reni (c. 1618–19) among others."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid's version makes Hippomenes' lion transformation a punishment, whereas other ancient sources have Atalanta's husband sometimes named Melanion.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Adonis was born of Myrrha and her father Cinyras; Myrrha was turned into a myrrh tree, from which he was born. So he is child of his sister and grandfather in effect.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "The 'flames of his mother' refers to Myrrha's incestuous passion, which Venus had caused; Adonis, as Myrrha's son, now becomes Venus's own torment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Cytherian shores, Paphos, Cnidos and Amathus were centres of Venus's worship, so abandoning them shows how complete her devotion to Adonis has become.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "'Robes tucked up after the manner of Diana' means dressed for hunting like the huntress goddess, with skirts gathered to the knee.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "'Lightning in their curving tusks' means the boar's tusks strike with sudden, deadly force, like a thunderbolt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "The oracle's warning is the traditional ambiguous prophecy: marriage will somehow ruin her. It sets up her eventual transformation, which the reader may know from the myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "allusion",
+    "text": "The speaker, Venus, addresses Adonis, her beloved, whose beauty was proverbial. She is telling this tale to him, so the comparison is personal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "word",
+    "text": "Aonian means Boeotian, from Aonia, a part of Boeotia in Greece; it identifies Hippomenes' homeland. The Scythians were famed archers, so their arrows signify great speed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "word",
+    "text": "Pinions here means the fluttering ends of her garments, likened to wings; the leggings are decorated bands worn below the knee.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "allusion",
+    "text": "Hippomenes claims descent from Neptune, god of the sea, through Onchestius and Megareus, to impress Atalanta with his lineage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "allusion",
+    "text": "Daughter of Schœneus is Atalanta. Her father's name marks her as the swift huntress who races her suitors and kills those she beats.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "kind": "allusion",
+    "text": "The monarch of the sea is Neptune; Hippomenes is his great-grandson. Atalanta counts this noble descent among his merits.",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "kind": "phrasing",
+    "text": "Impelled onwards to weariness of life means he is driven to be tired of living, that is, to court death recklessly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "kind": "phrasing",
+    "text": "A feminine look means a delicate, beardless, girlish face. She sees youthful softness and so pities him all the more.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "kind": "phrasing",
+    "text": "Vexatious Divinities refers to the gods who, by an oracle, forbade her to marry. Her complaint hints at that prophecy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "kind": "word",
+    "text": "Cytherea is a name for Venus, taken from the island of Cythera, near which she was said to have risen from the sea. Venus is the speaker here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 82,
+    "kind": "allusion",
+    "text": "Tamasenian field: a plain at Tamasus in Cyprus, an island sacred to Venus. The footnote marks the place name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 86,
+    "kind": "phrasing",
+    "text": "The runners are said to be so light they could cross the sea or the tops of the grain without wetting their feet or bending the ears.",
+    "spoiler": false
+   },
+   {
+    "sentence": 90,
+    "kind": "word",
+    "text": "The Megarean hero is Hippomenes, who came from Megara. The virgin daughter of Schœneus is Atalanta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "kind": "phrasing",
+    "text": "Thrown in an oblique direction means off to the side, so Atalanta must run farther out of her way to fetch it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 101,
+    "kind": "phrasing",
+    "text": "Venus means she will shorten the story so that it is not slower than the race itself.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 15,
+    "text": "Venus's son is Cupid, whose arrows cause love; here his arrow accidentally wounds his own mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Diana was the virgin goddess of the hunt, a figure very unlike Venus, goddess of love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "text": "Losing suitors were put to death, yet many still competed, drawn by her beauty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "text": "A festive crown was the victor's prize in Greek footraces; here it marks Atalanta's win, not a reward for a suitor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "text": "Atalanta defeats suitors in a footrace; the loser is put to death. Hippomenes has just come to race her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 79,
+    "text": "Cupid is the god of love. Atalanta's first love is the very feeling she has been avoiding by her race rule.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "text": "Hippomenes is a descendant of Neptune. Atalanta's father set a race: suitors who lost were put to death, and the winner would marry her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "text": "Venus is invisible to everyone but Hippomenes. Gods in Ovid often intervene unseen in human affairs.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "aphorism",
+    "text": "The narrator opens with a general reflection on time's swiftness, framing Adonis's rapid growth that follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "Cupid, who wounds others with love, accidentally wounds his own mother, so love's power turns back on its mistress.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "characterization",
+    "text": "Venus's change from shade-loving beauty to rough huntress shows how love transforms her habits and priorities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "paradox",
+    "text": "Venus advises courage only against fleeing prey, a neat antithesis that sums up her fearful warning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "apostrophe",
+    "text": "Venus breaks off to address Adonis directly, making the narration intimate and flattering while conveying how beautiful Atalanta's body is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "device": "metaphor",
+    "text": "Desire is described as a kindled flame, and Hippomenes' praise feeds it, showing his love growing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "irony",
+    "text": "Hippomenes mocked the suitors, yet he now admires the very race he condemned, and speed itself becomes beauty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "device": "simile",
+    "text": "Atalanta's blush on white skin is compared to purple hangings tinting a white hall, turning her speed into a visual image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 59,
+    "device": "irony",
+    "text": "She denies being moved by his beauty, and then admits she could be, revealing feelings she refuses to recognize.",
+    "spoiler": false
+   },
+   {
+    "sentence": 62,
+    "device": "rhetorical question",
+    "text": "A run of questions, each starting 'And is it not...', shows her talking herself into admiring him while denying it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 76,
+    "device": "apostrophe",
+    "text": "She addresses the absent-minded Hippomenes directly, and wishes she had never been seen by him, which shows her affection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 79,
+    "device": "narrative voice",
+    "text": "The narrator steps in to explain her state, noting the paradox that she loves yet does not know it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 81,
+    "device": "personification",
+    "text": "The breeze is called not envious and carries the prayer like a messenger, as if the wind had feelings and goodwill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 86,
+    "device": "hyperbole",
+    "text": "Exaggeration of the runners' lightness, walking on the sea and the corn, conveys their extraordinary speed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 91,
+    "device": "characterization",
+    "text": "Atalanta's slowing to look at Hippomenes shows she is already in love and half wants to lose.",
+    "spoiler": false
+   },
+   {
+    "sentence": 93,
+    "device": "narrative voice",
+    "text": "The shift to the present tense makes the race feel immediate, even though Venus is narrating a past event.",
+    "spoiler": false
+   },
+   {
+    "sentence": 100,
+    "device": "irony",
+    "text": "Venus, the goddess of love, is the one who forces Atalanta to pick up the apple. Love is thus helped by trickery.",
+    "spoiler": false
+   }
+  ]
+ }
+}

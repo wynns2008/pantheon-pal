@@ -1,0 +1,203 @@
+{
+ "section_id": "hesiod-body-75",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5559,
+  "output": 1593
+ },
+ "result": {
+  "summary": "The hymn's singer praises Heracles as the mightiest man on earth, son of Zeus and Alcmena. It recalls his labors under Eurystheus, his life now on Olympus with Hebe, and ends with a prayer for success.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Hymn in praise of Heracles",
+    "summary": "The singer announces the song, tells of Heracles' birth at Thebes, his wanderings under Eurystheus and his happy life on Olympus, then prays for success.",
+    "stakes": "",
+    "present": [
+     "Heracles",
+     "Alcmena",
+     "Zeus",
+     "Eurystheus",
+     "Hebe"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Heracles",
+    "aliases": [],
+    "kind": "god",
+    "description": "mightiest of mortals, son of Zeus, now living on Olympus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "father of Heracles"
+   },
+   {
+    "name": "Alcmena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Heracles, who bore him in Thebes"
+   },
+   {
+    "name": "Eurystheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who commanded Heracles' labors"
+   },
+   {
+    "name": "Hebe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "neat-ankled wife of Heracles"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Zeus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Heracles",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Alcmena",
+    "relation": "parent_of",
+    "b": "Heracles",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Alcmena",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Heracles",
+    "relation": "spouse_of",
+    "b": "Hebe",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "A patronymic epithet for Zeus, the dark-clouded son of Cronos."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Sums up Heracles' life: toil on earth, then happy immortality on Olympus with Hebe.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn compresses the hero's career into toil followed by divine reward, showing apotheosis through suffering.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Short Homeric Hymns like this served as preludes recited before longer poems or at festivals, ending with a prayer to the god.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Heracles' ascent to Olympus and marriage to Hebe became the standard ending of his myth, later treated by Greek and Roman poets."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The hymn is only nine lines long, one of the shortest in the Homeric collection.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Bare\" is an old past tense of \"bear\": Alcmena gave birth to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Son of Cronos\" is a name for Zeus; \"had lain with her\" means he had slept with her, which led to Heracles' conception.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Neat-ankled\" is a fixed epithet meaning slim, shapely ankles, a mark of beauty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Hail\" is a formal greeting of respect, typical for closing a hymn.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Eurystheus was king of Mycenae and Tiryns. Heracles served him and performed the famous Labours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Hebe is goddess of youth. Heracles married her after his death and entry among the gods.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "antithesis",
+    "text": "The contrast of past toil (\"wander... endured\") with present ease (\"now he lives happily\") summarizes his life as suffering turned to reward.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "apostrophe",
+    "text": "The singer turns from narrating to address Heracles directly, a standard hymn ending that asks the god for favor.",
+    "spoiler": false
+   }
+  ]
+ }
+}

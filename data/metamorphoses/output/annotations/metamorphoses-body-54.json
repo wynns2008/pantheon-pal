@@ -1,0 +1,378 @@
+{
+ "section_id": "metamorphoses-body-54",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10838,
+  "output": 3520
+ },
+ "result": {
+  "summary": "Jupiter splits the year between Ceres and Pluto, and a cheered Ceres asks Arethusa why she became a spring. Arethusa tells how the river-god Alpheus chased her from Arcadia and how Diana saved her by turning her into a stream that flowed underground to Ortygia.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Ceres questions Arethusa",
+    "summary": "After Jupiter divides the year, Proserpina is happy again and Ceres asks Arethusa for her story. Arethusa rises from the fountain to answer.",
+    "stakes": "",
+    "present": [
+     "Ceres",
+     "Arethusa",
+     "Jupiter",
+     "Pluto",
+     "Proserpina"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sicily (Arethusa's fountain)",
+     "modern_name": "Syracuse, Sicily",
+     "certainty": "traditional",
+     "lat": 37.0066,
+     "lon": 15.2931
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 19,
+    "title": "Bathing in the quiet stream",
+    "summary": "Arethusa, a huntress nymph, bathes naked in a clear stream and is startled by the voice of Alpheus. She flees.",
+    "stakes": "Her safety and honor, threatened by a pursuing river-god.",
+    "present": [
+     "Arethusa",
+     "Alpheus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Achaia, near the Stymphalian wood",
+     "modern_name": "Stymphalia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.85,
+     "lon": 22.45
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 26,
+    "title": "The long chase",
+    "summary": "Alpheus pursues Arethusa across Arcadia to Elis, and she grows exhausted. She calls on Dictynna for help.",
+    "stakes": "Being overtaken and violated by Alpheus.",
+    "present": [
+     "Arethusa",
+     "Alpheus",
+     "Dictynna"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Arcadia and Elis",
+     "modern_name": "Peloponnese, Greece",
+     "certainty": "real",
+     "lat": 37.8,
+     "lon": 22.0
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 38,
+    "title": "Cloud, stream and Ortygia",
+    "summary": "Diana hides her in a cloud, and Arethusa dissolves into a stream. Alpheus becomes water to join her, but the goddess splits the earth and Arethusa flows to Ortygia.",
+    "stakes": "Her life and freedom, as Alpheus waits at the cloud.",
+    "present": [
+     "Arethusa",
+     "Alpheus",
+     "Dictynna"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ortygia",
+     "modern_name": "Ortygia, Syracuse",
+     "certainty": "real",
+     "lat": 37.06,
+     "lon": 15.294
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ceres",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess of grain, mother of the recovered daughter"
+   },
+   {
+    "name": "Arethusa",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nymph of Achaia turned into a spring"
+   },
+   {
+    "name": "Alpheus",
+    "aliases": [],
+    "kind": "god",
+    "description": "River-god who pursued Arethusa"
+   },
+   {
+    "name": "Dictynna",
+    "aliases": [
+     "the Delian Goddess"
+    ],
+    "kind": "goddess",
+    "description": "Huntress goddess who saved Arethusa"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "Mediator who divides the year"
+   },
+   {
+    "name": "Pluto",
+    "aliases": [],
+    "kind": "god",
+    "description": "Husband of the goddess, brother of Jupiter"
+   },
+   {
+    "name": "Proserpina",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Ceres' daughter, the goddess who spends half the year in each kingdom"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ceres",
+    "relation": "parent_of",
+    "b": "Proserpina",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Pluto",
+    "relation": "spouse_of",
+    "b": "Proserpina",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Jupiter",
+    "relation": "sibling_of",
+    "b": "Pluto",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Arethusa",
+    "relation": "transformed_into",
+    "b": "stream",
+    "source": "text",
+    "evidence_sentence": 35
+   },
+   {
+    "a": "Alpheus",
+    "relation": "transformed_into",
+    "b": "river waters",
+    "source": "text",
+    "evidence_sentence": 36
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Dictynna",
+    "canonical": "Diana",
+    "explanation": "A cult title of Diana, goddess of hunting; the text also calls her the Delian Goddess."
+   },
+   {
+    "alias": "Delian Goddess",
+    "canonical": "Dictynna",
+    "explanation": "Refers to Diana, born on Delos."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 21,
+    "reason": "Vivid simile of doves fleeing the hawk captures the chase.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "reason": "Moment of Arethusa's transformation into a stream.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The story echoes Proserpina's abduction: another female victim of unwanted pursuit is saved by transformation. Metamorphosis serves as escape and loss.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale is an aetiological myth explaining the spring Arethusa at Syracuse and a supposed link with the Alpheus river in Greece.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Arethusa and Alpheus legend inspired later poets, including Shelley's poem Arethusa (1820)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ancient writers claimed objects thrown into the Alpheus in Greece would emerge at Arethusa's spring in Syracuse.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "'Common Divinity of two kingdoms' means Proserpina is a goddess shared between the upper world and the underworld, spending part of the year in each.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The 'stream of Elis' is Arethusa herself; she was linked with the river Alpheus in Elis, in the Peloponnese, before becoming a Sicilian spring. 'Amours' means love affairs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Stymphalus was an Arcadian region with a lake and wood, famous for the birds of Hercules' labours. Here it is just a hunting ground.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "'Hoary' means grey-white, describing the pale leaves of the willows; 'shelving' means gently sloping.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Alpheus is a river god of Elis who loved Arethusa. His voice comes from the water, so the stream itself is the pursuer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "These are Arcadian and Elean places, so the chase crosses the Peloponnese from north to west, ending at Elis, the region of Alpheus's river.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "Fillets are ribbons or bands tied around the hair.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "Dictynna is a title of Diana (Greek Artemis), probably linked to hunting nets. Arethusa invokes her mistress as a nymph in her service.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "'The river' is Alpheus, who has been a man in pursuit; the narrator names him by his true nature as a river god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "word",
+    "text": "'Delian Goddess' means Diana, born on Delos with her brother Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "Ortygia is an island at Syracuse in Sicily; the name is also linked to Diana's worship. Arethusa surfaces there as a spring.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Jupiter's brother is Pluto, who abducted Proserpina. Her 'disconsolate sister' is Ceres, Proserpina's mother, who is also Jupiter's sister.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Achaia is a region of Greece. Arethusa describes herself as a follower of Diana, devoted to hunting and avoiding love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Diana, goddess of hunting and chastity, protects her followers from unwanted pursuit by hiding or transforming them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Alpheus was a river in Elis. The myth explained why his waters were said to flow under the sea and rise again in Sicily with the spring Arethusa.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "simile",
+    "text": "Proserpina's face brightening is compared to the sun breaking free of rain clouds, which makes the relief visible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "characterization",
+    "text": "Arethusa's shame at her beauty shows her as modest and uninterested in love, which sets up the irony of being pursued.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "imagery",
+    "text": "The motionless, transparent water creates a calm, inviting scene, so the sudden noise that follows is more startling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "foreshadowing",
+    "text": "Her undressing and plunging in, unguarded, hints at the vulnerability that Alpheus will exploit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "repetition",
+    "text": "Alpheus repeats his question, and the hollow tone makes the voice from the water sound eerie and insistent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "simile",
+    "text": "Doves fleeing the hawk compare the nymph's terror and the pursuer's predation, reversing the usual image of gentle pursuit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "irony",
+    "text": "She wonders whether the shadow is only fear's invention, showing how terror blurs perception.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "rhetorical question",
+    "text": "Arethusa asks what she felt, then answers with the helpless lamb, drawing the listener into her fear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "simile",
+    "text": "The motionless hare among hunting dogs conveys her frozen terror while hidden in the cloud.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "metamorphosis",
+    "text": "Her fear-sweat literally becomes water, so the transformation grows naturally out of her bodily terror.",
+    "spoiler": false
+   }
+  ]
+ }
+}

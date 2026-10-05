@@ -1,0 +1,458 @@
+{
+ "section_id": "metamorphoses-body-103",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11388,
+  "output": 3987
+ },
+ "result": {
+  "summary": "Nestor's tale of the Centaurs ends when Tlepolemus complains Hercules was left out, and Nestor bitterly recounts how Hercules killed his eleven brothers, including the shape-changer Periclymenus. Neptune then begs Apollo to avenge his son Cygnus, and Apollo guides Paris's arrow to kill Achilles, whose ashes and famous arms lead to the contest over them.",
+  "scenes": [
+   {
+    "start_sentence": 3,
+    "end_sentence": 16,
+    "title": "Nestor tells of Hercules",
+    "summary": "Tlepolemus protests that Hercules is not praised, and Nestor reluctantly tells how Hercules destroyed Pylos, killed his brothers, and shot Periclymenus as an eagle. The feast then ends in sleep.",
+    "stakes": "Nestor's old grief and hatred; Tlepolemus's honor as son of Hercules.",
+    "present": [
+     "Nestor",
+     "Tlepolemus",
+     "Hercules",
+     "Periclymenus",
+     "Neptune"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the Greek camp",
+     "modern_name": "Troy (Hisarlik)",
+     "certainty": "traditional",
+     "lat": 39.957,
+     "lon": 26.239
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 23,
+    "title": "Neptune urges Apollo",
+    "summary": "Neptune, still angry over Cygnus, asks Apollo to destroy Achilles by a secret arrow. Apollo, veiled in cloud, finds Paris and tells him to aim at Achilles.",
+    "stakes": "Achilles's life; Troy's survival.",
+    "present": [
+     "Neptune",
+     "Apollo",
+     "Paris",
+     "Achilles",
+     "Cygnus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Troy (Hisarlik)",
+     "certainty": "traditional",
+     "lat": 39.957,
+     "lon": 26.239
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 32,
+    "title": "Death of Achilles and his arms",
+    "summary": "Achilles falls, is burned, and only his glory remains. His shield stirs a contest, and Agamemnon has the leaders judge it.",
+    "stakes": "Achilles's fame and who will inherit his arms.",
+    "present": [
+     "Achilles",
+     "Priam",
+     "Ajax",
+     "Ulysses",
+     "Agamemnon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Troy (Hisarlik)",
+     "certainty": "traditional",
+     "lat": 39.957,
+     "lon": 26.239
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Nestor",
+    "aliases": [
+     "the Pylian",
+     "son of Neleus"
+    ],
+    "kind": "mortal",
+    "description": "aged Pylian king telling tales at the feast"
+   },
+   {
+    "name": "Tlepolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hercules, leader of the Rhodian fleet"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Alcides",
+     "the Tirynthian hero"
+    ],
+    "kind": "mortal",
+    "description": "hero who killed Nestor's brothers"
+   },
+   {
+    "name": "Periclymenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Nestor's brother who could change shape"
+   },
+   {
+    "name": "Neptune",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god, ancestor of the Neleians, father of Cygnus"
+   },
+   {
+    "name": "Cygnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Neptune's son, killed by Achilles"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Smintheus",
+     "the Delian God"
+    ],
+    "kind": "god",
+    "description": "god who guides the arrow"
+   },
+   {
+    "name": "Paris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan archer who kills Achilles"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [
+     "grandson of Æacus",
+     "son of Peleus"
+    ],
+    "kind": "mortal",
+    "description": "Greek hero slain by an arrow"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "aged king of Troy"
+   },
+   {
+    "name": "Hector",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "slain Trojan hero"
+   },
+   {
+    "name": "Ajax",
+    "aliases": [
+     "son of Telamon"
+    ],
+    "kind": "mortal",
+    "description": "claimant of Achilles's arms"
+   },
+   {
+    "name": "Ulysses",
+    "aliases": [
+     "son of Laërtes"
+    ],
+    "kind": "mortal",
+    "description": "claimant of Achilles's arms"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [
+     "descendant of Tantalus"
+    ],
+    "kind": "mortal",
+    "description": "leader who sets up the judgment"
+   },
+   {
+    "name": "Neleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Nestor and eleven other sons"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Neleus",
+    "relation": "parent_of",
+    "b": "Nestor",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Neleus",
+    "relation": "parent_of",
+    "b": "Periclymenus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Nestor",
+    "relation": "sibling_of",
+    "b": "Periclymenus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Tlepolemus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Neptune",
+    "relation": "parent_of",
+    "b": "Cygnus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Periclymenus",
+    "relation": "transformed_into",
+    "b": "eagle",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Peleus",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "text",
+    "evidence_sentence": 23
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Alcides",
+    "canonical": "Hercules",
+    "explanation": "Patronymic from his grandfather Alcaeus."
+   },
+   {
+    "alias": "Smintheus",
+    "canonical": "Apollo",
+    "explanation": "Cult title of Apollo."
+   },
+   {
+    "alias": "the Delian God",
+    "canonical": "Apollo",
+    "explanation": "Apollo was born on Delos."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 29,
+    "reason": "Achilles dies but his glory fills the world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "reason": "Poignant image of the great hero reduced to ashes.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Heroic fame outlasts the body, but divine grudges and vengeance shape human fates, even that of Achilles.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Roman poet blends Homeric tradition with later legend, such as Apollo guiding Paris's arrow.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The phrase Achilles' heel for a fatal weakness derives from the tale of his one vulnerable spot."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Homer's Iliad does not narrate Achilles's death; Ovid draws on later tradition.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Alcides is Hercules, named for his grandfather Alcaeus. The cloud-begotten monsters are the Centaurs, sons of Ixion and a cloud shaped like Juno.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "The Pylian is Nestor, king of Pylos. Tlepolemus is a son of Hercules, so Nestor's silence about Hercules offends him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Deiphobus, Polydamas and Hector were Trojan warriors. Nestor says Greeks do not praise enemies, so he likens Hercules to them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The eagle carries Jove's thunderbolts, so it is the bird most pleasing to the king of the Gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "The Tirynthian hero is Hercules, called after Tiryns, the city linked with his early life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "Nestor's rhetorical question is bitterly ironic: he claims he owes Hercules no praise, and addresses Tlepolemus as leader of the Rhodian fleet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "The gifts of Bacchus means wine; the guests resume drinking after the story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Cygnus, son of Neptune, was invulnerable and killed by Achilles, who strangled him; Neptune turned him into a swan. 'Son of Sthenelus' refers to the swan's human namesake, another Cygnus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Neptune and Apollo built Troy's walls for King Laomedon, who refused payment; hence 'in vain'. Smintheus is a title of Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "'Triple spear' is Neptune's trident.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "'Delian God' is Apollo, born on Delos. He is Neptune's nephew, so 'uncle' fits.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "The 'ravisher' is Paris, who abducted Helen, a Greek wife, and so caused the war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Thermodontean battle-axe means the Amazons, who lived by the river Thermodon. Achilles had killed their queen Penthesilea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "Phrygians and Pelasgians mean Trojans and Greeks respectively, here used as poetic names.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "The claimants are Diomedes (son of Tydeus), Ajax son of Oïleus, Menelaus, Ajax son of Telamon and Ulysses (son of Laërtes). Agamemnon is the elder Atreid.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Hercules sacked Pylos, Nestor's city, in a campaign against Neleus, who had refused to purify him. Nestor was the youngest son and survived.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Neptune was the father of Neleus, so Periclymenus, Nestor's brother, received his shape-changing power from his grandfather.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Priam, king of Troy, had lost Hector to Achilles, so Achilles' death was his one consolation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Agamemnon, descendant of Tantalus, commanded the Greek army and avoids deciding the dispute himself.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "characterization",
+    "text": "Nestor appears as a reluctant, aged storyteller, whose old grief and hatred surface when pressed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "imagery",
+    "text": "Repeated crooked, hooked bill and talons make the eagle's attack vivid and violent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "The god-given power of transformation does not save Periclymenus; the arrow's pressure from his own falling weight drives it deeper.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "Nestor calls his silence a form of revenge, a mild retaliation that is polite in tone yet pointed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "apostrophe",
+    "text": "The narrator turns to address the dead Achilles directly, adding pathos and irony at his unheroic end.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "irony",
+    "text": "The god who armed Achilles also destroyed him, since Apollo guided the arrow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "irony",
+    "text": "The great hero is reduced to ashes barely filling a small urn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "contrast",
+    "text": "His small ashes are set against glory that fills the whole world, stressing that fame outlasts the body.",
+    "spoiler": false
+   }
+  ]
+ }
+}

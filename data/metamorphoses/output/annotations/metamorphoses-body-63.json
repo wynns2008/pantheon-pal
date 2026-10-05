@@ -1,0 +1,491 @@
+{
+ "section_id": "metamorphoses-body-63",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 16165,
+  "output": 4737
+ },
+ "result": {
+  "summary": "The Argonauts reach Colchis and ask King Aeetes for the Golden Fleece. His daughter Medea falls in love with Jason and argues with herself before agreeing to help him in return for marriage. With her herbs and charms he tames the fire-breathing bulls, defeats the earth-born warriors and lulls the dragon, then sails home with the Fleece and Medea.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Argonauts Arrive in Colchis",
+    "summary": "The Argonauts reach the Phasis and ask the king for the fleece. He sets deadly tasks, and Medea feels love begin.",
+    "stakes": "Jason and his crew face deadly labors set for winning the fleece.",
+    "present": [
+     "Jason",
+     "Medea",
+     "Aeetes",
+     "Phineus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phasis, Colchis",
+     "modern_name": "Rioni River, Georgia",
+     "certainty": "real",
+     "lat": 42.18,
+     "lon": 41.68
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 41,
+    "title": "Medea's Inner Struggle",
+    "summary": "Medea debates between duty to her family and love for Jason. She imagines his dangers and a future marriage in Greece.",
+    "stakes": "Medea risks betraying her father and country, and being abandoned by Jason.",
+    "present": [
+     "Medea",
+     "Cupid"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Colchis, palace of Aeetes",
+     "modern_name": "Georgia, Colchis region",
+     "certainty": "traditional",
+     "lat": 42.2,
+     "lon": 42.0
+    }
+   },
+   {
+    "start_sentence": 42,
+    "end_sentence": 53,
+    "title": "Pledge at Hecate's Altar",
+    "summary": "Medea goes to Hecate's grove, sees Jason and her love is rekindled. He swears to marry her and she gives him enchanted herbs.",
+    "stakes": "Medea gives up her resolve; Jason must keep his oath.",
+    "present": [
+     "Medea",
+     "Jason",
+     "Hecate",
+     "Cupid"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Grove of Hecate",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 54,
+    "end_sentence": 74,
+    "title": "Bulls and Earth-born Warriors",
+    "summary": "Protected by charms, Jason yokes the fire-breathing bulls and sows the dragon's teeth. Armed men spring up, and he makes them kill one another with a thrown stone.",
+    "stakes": "Jason could be burned by the bulls or killed by the armed men from the teeth.",
+    "present": [
+     "Jason",
+     "Medea",
+     "Aeetes",
+     "Minyae",
+     "Colchians"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Field of Mavors",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 75,
+    "end_sentence": 76,
+    "title": "The Dragon Sleeps; Return",
+    "summary": "Jason drugs the dragon and takes the Fleece. He sails to Iolcos with Medea.",
+    "stakes": "The sleepless dragon guards the Fleece.",
+    "present": [
+     "Jason",
+     "Medea"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Iolcos",
+     "modern_name": "Volos, Greece",
+     "certainty": "real",
+     "lat": 39.36,
+     "lon": 22.94
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Jason",
+    "aliases": [
+     "son of Aeson"
+    ],
+    "kind": "mortal",
+    "description": "leader of the Argonauts seeking the Golden Fleece"
+   },
+   {
+    "name": "Medea",
+    "aliases": [
+     "daughter of Aeetes"
+    ],
+    "kind": "mortal",
+    "description": "Colchian princess and enchantress who loves Jason"
+   },
+   {
+    "name": "Aeetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Colchis, Medea's father"
+   },
+   {
+    "name": "Phineus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "old blind king freed from the Harpies"
+   },
+   {
+    "name": "Cupid",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of love who overpowers Medea's reason"
+   },
+   {
+    "name": "Hecate",
+    "aliases": [
+     "Goddess of the triple form"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a grove and altars near Medea"
+   },
+   {
+    "name": "Minyae",
+    "aliases": [
+     "Greeks",
+     "Pelasgians"
+    ],
+    "kind": "other",
+    "description": "the Argonauts, Jason's crew"
+   },
+   {
+    "name": "Colchians",
+    "aliases": [],
+    "kind": "other",
+    "description": "people of Colchis watching the contest"
+   },
+   {
+    "name": "Perses",
+    "aliases": [],
+    "kind": "other",
+    "description": "father of Hecate"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Aeetes",
+    "relation": "parent_of",
+    "b": "Medea",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Perses",
+    "relation": "parent_of",
+    "b": "Hecate",
+    "source": "text",
+    "evidence_sentence": 43
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Mavors",
+    "canonical": "Mars",
+    "explanation": "Mavors is a poetic Latin name of Mars; the field is sacred to him."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "Medea's famous admission of seeing the better course yet following the worse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "reason": "Captures the conflict between passion and reason.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Medea's monologue dramatizes the clash of reason and passion, foreshadowing her later tragedy.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid draws on the Argonaut myth, treated earlier by Apollonius of Rhodes, and focuses on psychology.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Medea's line about seeing the better but following the worse became a classic expression of weakness of will, echoed by later writers."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid also wrote a lost tragedy Medea, which ancient critics praised.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Phineus was a blind old king tormented by the Harpies, the female-faced birds; the Argonauts' winged sons of Boreas drove them off in return for his guidance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Minyæ is a name for the Argonauts, from the Minyans, a Greek people from whom many of the crew descended.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The fleece belonged to the ram that carried Phryxus to Colchis; he sacrificed it and gave the fleece to Æetes, who guards it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "'Some God, who, I know not' means some unknown god; Medea suspects divine interference but cannot name it, later naming Cupid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "These are Jason's tasks: yoke the fire-breathing bulls, sow dragon's teeth that grow into armed men, and face the sleepless dragon guarding the fleece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "Pelasgian here means Greek; Pelasgians were an early people of Greece, and the poets use the name for Greece generally.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "Charybdis and Scylla are sea perils near Sicily: a whirlpool and a dog-girdled monster. The 'mountains' are probably the clashing rocks (Symplegades).",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "phrasing",
+    "text": "Cupid turning his \"vanquished back\" means love has defeated her better impulses to resist; the personified virtues have lost the struggle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "allusion",
+    "text": "Hecate was a goddess of witchcraft and night; Medea is her priestess. Perses was her father in some traditions, so Medea's visit is a sacred, secret one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "allusion",
+    "text": "The son of Æson is Jason, leader of the Argonauts, who came to Colchis to win the Golden Fleece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "kind": "word",
+    "text": "\"Beguiles\" means deceives or leads astray; Medea admits she knowingly lets love mislead her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "allusion",
+    "text": "The \"sire of his future father-in-law\" is the Sun, father of Aeëtes, Medea's father. Calling him all-seeing makes him a witness to the oath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "phrasing",
+    "text": "\"Goddess of the triple form\" is Hecate, worshipped as three-faced or triple, linked with moon, earth and underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "allusion",
+    "text": "Mavors is an old name for Mars, god of war; the field is sacred to him, which suits the coming battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "kind": "allusion",
+    "text": "The Minyæ are Jason's crew, the Argonauts, named for a people of Greek legend from whom many of them descended.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "kind": "word",
+    "text": "Pelasgians here means Greeks generally, an old name for early inhabitants of Greece. Hæmonian means Thessalian, i.e. Jason.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "kind": "phrasing",
+    "text": "\"She... who had rendered him secure\" is Medea, who gave Jason the protective charms; the name is withheld until the sentence resolves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "kind": "phrasing",
+    "text": "\"Civil fight\" fits because the warriors are all brothers born from the same earth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 76,
+    "kind": "word",
+    "text": "Lethæan means related to Lethe, river of forgetfulness in the underworld, so the juice brings oblivion and sleep.",
+    "spoiler": false
+   },
+   {
+    "sentence": 76,
+    "kind": "word",
+    "text": "Iolcos was Jason's home city in Thessaly, where his uncle Pelias held the throne and had sent him for the Fleece.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Æetes, king of Colchis, is Medea's father; she is a priestess of Hecate, skilled in magic, which she will use to help Jason.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Cupid, god of love, is blamed for Medea's feelings, a common ancient way of showing love as an outside force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "Greeks regarded Colchis, at the Black Sea's eastern edge, as remote and barbarous; Medea adopts this view of her own homeland.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "text": "The herbs are the charm Medea gives Jason to protect him from the fire-breathing bulls and other tasks her father sets for winning the Fleece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 55,
+    "text": "The king is Aeëtes of Colchis, who set Jason these tasks, expecting him to fail, as the price of the Golden Fleece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "text": "Jason is protected by Medea's magic, including an ointment she prepared, since she had fallen in love with him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "text": "The Golden Fleece, the hide of a magical ram, was guarded by a sleepless dragon in Colchis; it was the goal of the Argonauts' voyage.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "Soliloquy",
+    "text": "Ovid turns to Medea's inner speech, letting the reader hear her debate with herself directly instead of through narration.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Antithesis",
+    "text": "Cupid and reason are set against each other, framing her conflict as a divided mind.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Paradox",
+    "text": "She approves the better course yet follows the worse, concisely capturing her helplessness before passion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "Metaphor",
+    "text": "A heart of steel and stone, and birth from a tigress, depict cruelty she would show by letting him die.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "Dramatic irony",
+    "text": "Medea imagines Jason's possible ingratitude; readers who know the myth see that he will indeed abandon her for another wife.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "device": "Self-address",
+    "text": "Addressing herself by name, Medea sharply exposes her own rationalizing and shows reason briefly regaining control.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "personification",
+    "text": "Virtue, Affection and Modesty stand before her like figures, and Cupid turns away, dramatizing her inner moral conflict as a scene.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "device": "simile",
+    "text": "Love is compared to a spark hidden under ashes that wind revives, showing how her suppressed passion flares up again at the sight of Jason.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "device": "narrative voice",
+    "text": "The narrator addresses the reader directly, inviting sympathy and excusing Medea's love with a knowing aside.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "device": "dramatic irony",
+    "text": "Medea's bargain that Jason repay her with marriage foreshadows his later betrayal, which readers of the myth know leads to tragedy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "device": "simile",
+    "text": "The bulls' roaring breasts are compared to roaring forges and furnaces, giving the monsters a vivid industrial sound and heat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "device": "extended simile",
+    "text": "Men growing in the earth are likened to a child developing in the womb, making the earth a mother and the birth uncanny.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "device": "characterization",
+    "text": "Medea's pallor shows her fear for Jason, revealing her love and vulnerability despite her power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "device": "irony",
+    "text": "The warriors, born to kill Jason, destroy one another instead, turning their own violence against themselves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 73,
+    "device": "apostrophe",
+    "text": "The narrator addresses Medea directly, creating sympathy and emphasizing her modesty and restrained desire.",
+    "spoiler": false
+   }
+  ]
+ }
+}

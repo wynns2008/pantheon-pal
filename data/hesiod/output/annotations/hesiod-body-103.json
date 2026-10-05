@@ -1,0 +1,478 @@
+{
+ "section_id": "hesiod-body-103",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9316,
+  "output": 4237
+ },
+ "result": {
+  "summary": "Proclus summarizes Arctinus' lost epic, the Sack of Ilium: the Trojans accept the wooden horse, Laocoon is killed, the Greeks emerge and sack Troy, and Athena plans vengeance on the departing Greeks. Other fragments add details about the Palladium, the spoils, and the physicians Machaon and Podaleirius.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "The Trojans accept the horse",
+    "summary": "The Trojans debate what to do with the horse, choose to dedicate it to Athena, and feast. Serpents kill Laocoon and a son, and Aeneas' followers withdraw to Ida.",
+    "stakes": "Troy risks destruction by accepting the horse; Laocoon and his son are killed.",
+    "present": [
+     "Trojans",
+     "Laocoon",
+     "Athena",
+     "Aeneas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.957,
+     "lon": 26.239
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 12,
+    "title": "The sack of Troy",
+    "summary": "Sinon signals the Greeks, who storm the city. Priam, Deiphobus and Astyanax die, Aias offends Athena, Polyxena is sacrificed, spoils are divided, and Athena plans the Greeks' destruction.",
+    "stakes": "The Trojans face slaughter and enslavement; Aias is nearly stoned; the Greeks face Athena's wrath.",
+    "present": [
+     "Sinon",
+     "Neoptolemus",
+     "Priam",
+     "Menelaus",
+     "Helen",
+     "Deiphobus",
+     "Aias",
+     "Cassandra",
+     "Athena",
+     "Odysseus",
+     "Astyanax",
+     "Andromache",
+     "Polyxena",
+     "Demophon",
+     "Acamas",
+     "Aethra"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ilium",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.957,
+     "lon": 26.239
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 25,
+    "title": "Fragments on details",
+    "summary": "Quoted fragments cover the Palladium, Astyanax's death, gifts to Theseus' sons, and the healing gifts of Poseidon's sons.",
+    "stakes": "",
+    "present": [
+     "Dardanus",
+     "Zeus",
+     "Agamemnon",
+     "Menestheus",
+     "Machaon",
+     "Podaleirius",
+     "Aias",
+     "Astyanax"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ilium",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.957,
+     "lon": 26.239
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Laocoon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan killed with a son by two serpents"
+   },
+   {
+    "name": "Athena",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess to whom the horse is dedicated and whose image Aias tears away"
+   },
+   {
+    "name": "Aeneas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan whose followers withdraw to Ida"
+   },
+   {
+    "name": "Sinon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek who signals the fleet"
+   },
+   {
+    "name": "Neoptolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "kills Priam and takes Andromache"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan king killed at the altar"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Zeus Herceius"
+    ],
+    "kind": "god",
+    "description": "god with an altar at Troy; gave the Palladium to Dardanus"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "finds Helen and takes her to the ships"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "taken back by Menelaus"
+   },
+   {
+    "name": "Deiphobus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killed by Menelaus"
+   },
+   {
+    "name": "Aias",
+    "aliases": [
+     "Aias the son of Ileus"
+    ],
+    "kind": "mortal",
+    "description": "Greek who drags Cassandra from Athena's image"
+   },
+   {
+    "name": "Cassandra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan woman dragged away by Aias"
+   },
+   {
+    "name": "Polyxena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sacrificed at Achilles' tomb"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dead hero whose tomb receives a sacrifice"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "murders Astyanax"
+   },
+   {
+    "name": "Astyanax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan child killed"
+   },
+   {
+    "name": "Andromache",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "taken by Neoptolemus"
+   },
+   {
+    "name": "Demophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Theseus who rescues Aethra"
+   },
+   {
+    "name": "Acamas",
+    "aliases": [
+     "Acamus"
+    ],
+    "kind": "mortal",
+    "description": "son of Theseus who rescues Aethra"
+   },
+   {
+    "name": "Aethra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "taken from Troy by Theseus' sons"
+   },
+   {
+    "name": "Dardanus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "given the Palladium by Zeus"
+   },
+   {
+    "name": "Menestheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader who came with Theseus' sons"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek lord who gave gifts"
+   },
+   {
+    "name": "Machaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "surgeon son of the Earth-Shaker"
+   },
+   {
+    "name": "Podaleirius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "physician who diagnoses diseases"
+   },
+   {
+    "name": "Earth-Shaker",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of the two healers"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Demophon and Acamas"
+   },
+   {
+    "name": "Trojans",
+    "aliases": [],
+    "kind": "other",
+    "description": "people of Troy"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Theseus",
+    "relation": "parent_of",
+    "b": "Demophon",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Theseus",
+    "relation": "parent_of",
+    "b": "Acamas",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Earth-Shaker",
+    "relation": "parent_of",
+    "b": "Machaon",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Earth-Shaker",
+    "relation": "parent_of",
+    "b": "Podaleirius",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Theseus",
+    "relation": "parent_of",
+    "b": "Aethra",
+    "source": "outside",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Zeus Herceius",
+    "canonical": "Zeus",
+    "explanation": "Zeus as protector of the courtyard, whose altar stood at Priam's house."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 24,
+    "reason": "Podaleirius notices Aias' madness, a rare glimpse of the poem's verse.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The sack shows Greek victory turning to impiety: the outrage against Athena's image prepares the Greeks' disastrous homecoming.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage is a prose summary by Proclus plus scattered quotations; Arctinus' poem is lost, so we know it only through later writers.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Sack of Ilium belongs to the Epic Cycle and shaped later accounts of Troy's fall, including Virgil's Aeneid."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The poem is attributed to Arctinus of Miletus, and only a handful of lines survive.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Proclus's Chrestomathia is a late summary of the lost Epic Cycle poems. This is only a prose outline of Arctinus's poem, not the poem itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Portent: an omen, here a sign of coming disaster that the followers of Aeneas read as a warning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"By pretence\" means Sinon entered Troy by a trick, posing as a deserter from the Greeks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Zeus Herceius was Zeus as guardian of the household courtyard. Killing Priam at his altar was an act of sacrilege.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Odysseus\" appears here in the translation's own spelling, though elsewhere the text says Ulysses; the footnote-style \"(1)\" in sentence 8 is an editor's marker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"High seas\" means the open sea; Athena's plan to destroy the Greeks is the angry result of Aias's offence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Palladium: an ancient wooden image of Pallas Athena, believed to protect Troy. Dardanus was the legendary ancestor of the Trojans, and Zeus his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Scholiast: an ancient commentator who wrote notes in the margins of a classical text. The Cyclic poet belongs to the epic cycle on the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Aethra was Theseus' mother and had been Helen's slave at Troy. Her grandsons, Acamus and Demophon, came to rescue her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Earth-Shaker is an epithet of Poseidon, god of the sea and earthquakes. Here he is the father of Machaon and Podaleirius, as the Greek text implies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Aias' clouded mind refers to his madness after the armor of Achilles was awarded to Ulysses. Podaleirius is said to have diagnosed it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "Iambus is probably a character's name here, but the fragment is isolated and its context is uncertain.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Laocoon was a Trojan priest who, in other versions, warned against the horse. Aeneas later became the Trojan survivor who founded Rome's line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Neoptolemus was Achilles' son. Cassandra was Priam's daughter, a prophetess whom no one believed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Menestheus led the Athenian contingent at Troy. Agamemnon's gifts here honor the Athenians who came for Aethra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Machaon and Podaleirius were sons of Asclepius in Homer, and served as healers with the Greek army at Troy.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "Dramatic irony",
+    "text": "The Trojans celebrate peace while the reader knows the hidden Greeks mean their ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "Foreshadowing",
+    "text": "The serpents' attack is a divine sign that Troy's fall is near, and Aeneas's followers leave in time.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Foreshadowing",
+    "text": "Athena's plan points ahead to the Greeks' troubled homeward voyages, the subject of the Returns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "The Trojans display a fake image to protect the real one, but the deception is turned against them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "epithet",
+    "text": "Epic formulas such as 'bold Menestheus, shepherd of hosts' characterize heroes with fixed descriptive phrases.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "antithesis",
+    "text": "The two brothers' gifts are contrasted: swift hands for surgery, perfect knowledge in the heart for diagnosis.",
+    "spoiler": false
+   }
+  ]
+ }
+}

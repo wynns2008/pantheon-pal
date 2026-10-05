@@ -1,0 +1,325 @@
+{
+ "section_id": "metamorphoses-body-73",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10645,
+  "output": 3028
+ },
+ "result": {
+  "summary": "Dædalus, longing to leave Crete, makes wings of feathers and wax for himself and his son Icarus. Icarus ignores his father's warning, flies too high and drowns when the sun melts his wings. Dædalus's murdered nephew Perdix, turned into a partridge by Minerva, then watches him bury the boy.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "Dædalus builds the wings",
+    "summary": "Exiled and homesick, Dædalus resolves to escape by air and builds wings from graded feathers, thread and wax while Icarus plays nearby.",
+    "stakes": "Dædalus is trapped in exile on Crete; Icarus unknowingly plays with the danger.",
+    "present": [
+     "Dædalus",
+     "Icarus",
+     "Minos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Crete",
+     "modern_name": "Crete",
+     "certainty": "real",
+     "lat": 35.24,
+     "lon": 24.81
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 20,
+    "title": "Warning and take-off",
+    "summary": "Dædalus tests the wings, warns Icarus to keep the middle course, and tearfully leads him into the air as onlookers take them for gods.",
+    "stakes": "Icarus's life depends on obeying his father's warning about flying too high or low.",
+    "present": [
+     "Dædalus",
+     "Icarus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Crete, in the air",
+     "modern_name": "Crete",
+     "certainty": "real",
+     "lat": 35.24,
+     "lon": 24.81
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 27,
+    "title": "The fall of Icarus",
+    "summary": "Past Samos, Delos and Paros, Icarus soars too high; the sun melts the wax and he falls into the sea. Dædalus finds the feathers, curses his art and buries him.",
+    "stakes": "Icarus loses his life; Dædalus loses his son.",
+    "present": [
+     "Icarus",
+     "Dædalus",
+     "Juno"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aegean Sea near Samos",
+     "modern_name": "Icarian Sea",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 26.2
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 34,
+    "title": "Perdix becomes a partridge",
+    "summary": "A partridge mocks the burial; its story is told: Perdix, Dædalus's gifted nephew who invented the saw and compass, was thrown from Minerva's citadel and saved as a bird.",
+    "stakes": "Perdix is killed by his uncle's envy, saved only by transformation.",
+    "present": [
+     "Dædalus",
+     "Perdix",
+     "Minerva"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Citadel of Minerva, Athens",
+     "modern_name": "Acropolis, Athens",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 23.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dædalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Skilled craftsman exiled in Crete who makes wings"
+   },
+   {
+    "name": "Icarus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Dædalus's son, who flies too high and drowns"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler of Crete who holds Dædalus"
+   },
+   {
+    "name": "Perdix",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Dædalus's gifted nephew, turned into a partridge"
+   },
+   {
+    "name": "Minerva",
+    "aliases": [
+     "Pallas"
+    ],
+    "kind": "goddess",
+    "description": "Goddess who favours ingenuity and saves Perdix"
+   },
+   {
+    "name": "Juno",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess to whom Samos is sacred"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Dædalus",
+    "relation": "parent_of",
+    "b": "Icarus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Perdix",
+    "relation": "transformed_into",
+    "b": "partridge",
+    "source": "text",
+    "evidence_sentence": 32
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pallas",
+    "canonical": "Minerva",
+    "explanation": "Another name for the goddess Minerva."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 26,
+    "reason": "Dædalus's grief at losing his son: 'now no more a father'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "reason": "The father's warning to keep the middle course.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage contrasts human ingenuity with its dangers: Dædalus's art brings escape yet also loss, and pride and disobedience bring ruin.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "The Perdix tale parallels Icarus's fall, showing Dædalus's envy punished by grief.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Icarus became a lasting symbol of overreaching ambition; Bruegel's painting Landscape with the Fall of Icarus (c. 1558) and Auden's poem Musée des Beaux Arts (1938) draw on this story."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Icarian Sea, near Samos, is still named after Icarus.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Enclosed by the sea\" means trapped on the island of Crete, since Minos controlled the sea routes and watched the ports.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Varied the course of nature\" means he altered nature's normal order, making a human able to imitate birds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "The \"rustic pipe\" is a set of reed pipes (panpipes) of graded lengths, bound side by side.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Ranged\" means arranged in a row; the gentle curvature shapes the feathers like a real wing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Tract\" here means a course or region of the air; the \"middle tract\" is the path between sea and sun.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Boötes, Helice (the Great Bear) and Orion are constellations; Dædalus warns Icarus not to steer by the high stars, but to follow him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "\"Oar-like wings\" compares his wings to oars pulling through air as oars do through water; without them he grasps nothing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "The sea where he fell was named the Icarian Sea after him, as the note on the text says.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "A holm-oak is the evergreen oak, also called the holly oak.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "The citadel of Minerva is the Acropolis at Athens; Perdix is thrown from it and saved by the goddess.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Perdix is Dædalus's nephew; his story is told as a digression about Dædalus's jealousy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Minos was king of Crete. Dædalus had built the Labyrinth for him and was kept on the island afterwards.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Samos, Delos and Paros are Aegean islands; Samos was sacred to Juno, and Delos was famed as the birthplace of Apollo and Diana.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Perdix is Dædalus's nephew, whose name is Greek for partridge. His inventions, the saw and the compass, rival his uncle's skill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Pallas is another name for Minerva, goddess of crafts and wisdom, so she protects an inventive youth.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "Irony",
+    "text": "Minos rules land and sea but not the air; Dædalus's claim is confident, yet the flight will end in tragedy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Simile",
+    "text": "Comparing the graded feathers to a pipe of unequal reeds gives a homely, visual picture of the wing's shape.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Dramatic irony",
+    "text": "Icarus plays with the materials of his own death, unaware of the danger, while the reader knows his fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "simile",
+    "text": "Dædalus is compared to a mother bird leading her fledglings from the nest, which makes his tenderness and anxiety vivid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "irony",
+    "text": "Onlookers think the flyers are gods, yet the flight is a human invention that is about to end in mortal disaster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "paradox",
+    "text": "\"Now no more a father\" compresses the loss into one stark phrase, a father defined by his dead son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "symbolism",
+    "text": "The bird keeps the inventive energy and the name Perdix, while its low flight and fear of heights echo his fall.",
+    "spoiler": false
+   }
+  ]
+ }
+}

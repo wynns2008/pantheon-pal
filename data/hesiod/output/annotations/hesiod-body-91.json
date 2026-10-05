@@ -1,0 +1,279 @@
+{
+ "section_id": "hesiod-body-91",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6046,
+  "output": 2314
+ },
+ "result": {
+  "summary": "The poet invokes Calliope to sing of Helios, child of Hyperion and Euryphaessa, and describes him riding his radiant chariot across the sky. The hymn ends with a farewell, a prayer for sustenance, and a promise to move on to the race of half-divine mortals.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Invocation and Helios's chariot",
+    "summary": "The poet asks Calliope to sing of Helios, names his parents and siblings, and describes his shining chariot journey across heaven to Ocean.",
+    "stakes": "",
+    "present": [
+     "Calliope",
+     "Helios",
+     "Hyperion",
+     "Euryphaessa",
+     "Eos",
+     "Selene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "heaven",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 7,
+    "title": "Farewell and prayer",
+    "summary": "The poet greets Helios, asks for heart-cheering substance, and says he will turn next to the race of half-divine mortals.",
+    "stakes": "The poet seeks livelihood and the Muses' favor for his next song.",
+    "present": [
+     "Helios"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "heaven",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Calliope",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Muse, daughter of Zeus, invoked to begin the song"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Calliope"
+   },
+   {
+    "name": "Helios",
+    "aliases": [],
+    "kind": "god",
+    "description": "sun god who drives a golden chariot across heaven"
+   },
+   {
+    "name": "Euryphaessa",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "far-shining mother of Helios, wife and sister of Hyperion"
+   },
+   {
+    "name": "Hyperion",
+    "aliases": [
+     "Son of Earth and starry Heaven"
+    ],
+    "kind": "god",
+    "description": "husband and brother of Euryphaessa, father of Eos, Selene and Helios"
+   },
+   {
+    "name": "Eos",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "rosy-armed child of Hyperion and Euryphaessa"
+   },
+   {
+    "name": "Selene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "rich-tressed child of Hyperion and Euryphaessa"
+   },
+   {
+    "name": "Ocean",
+    "aliases": [],
+    "kind": "place",
+    "description": "where Helios drives his chariot down at day's end"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hyperion",
+    "relation": "spouse_of",
+    "b": "Euryphaessa",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Hyperion",
+    "relation": "sibling_of",
+    "b": "Euryphaessa",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Hyperion",
+    "relation": "parent_of",
+    "b": "Helios",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Euryphaessa",
+    "relation": "parent_of",
+    "b": "Helios",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Hyperion",
+    "relation": "parent_of",
+    "b": "Eos",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Hyperion",
+    "relation": "parent_of",
+    "b": "Selene",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Calliope",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Helios",
+    "relation": "sibling_of",
+    "b": "Eos",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Helios",
+    "relation": "sibling_of",
+    "b": "Selene",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Son of Earth and starry Heaven",
+    "canonical": "Hyperion",
+    "explanation": "A periphrasis for Hyperion, a Titan, child of Gaia and Ouranos."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Vivid picture of the sun god's radiant helmet, locks and fluttering garment.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn presents the sun as a divine, watchful charioteer whose daily course links heaven and Ocean, showing the gods' presence in natural order.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Homeric Hymns served as preludes to recitations; the closing promise to turn to mortal heroes reflects this performance use.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The image of the sun god driving a chariot across the sky became a lasting motif in Greek and Roman poetry and art."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Calliope is named here as the Muse invoked, and is traditionally the Muse of epic poetry.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Bare\" is the archaic past tense of \"bear\": Euryphaessa gave birth to Helios.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "\"Son of Earth and starry Heaven\" is Hyperion, a Titan, child of Gaia (Earth) and Uranus (Heaven); his name is given in the next sentence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Stayed\" means halted. Helios pauses at midday at heaven's peak before descending toward Ocean in the west.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Substance\" means livelihood or wealth, here the means of living well, which \"cheers the heart.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The \"race of mortal men half-divine\" refers to the heroes, whose deeds the poet will sing next, as hymns typically lead into other songs.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Calliope is the Muse of epic poetry, often named chief of the Muses. Hymns commonly open by calling on a Muse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Eos is the Dawn and Selene the Moon, so Helios the Sun has the other great lights of the sky as siblings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Ocean is the great river encircling the world in Greek thought; the sun was imagined sinking into it at day's end.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "epithet",
+    "text": "Stock descriptions like \"rosy-armed,\" \"rich-tressed\" and \"tireless\" give each sibling a fixed identifying trait, in epic style.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "imagery",
+    "text": "Rays, streaming locks and a fluttering garment make the sun's radiance vivid through light and movement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "narrative voice",
+    "text": "The poet speaks as a performer, closing the hymn and announcing the next song, as in the conventional transition formula.",
+    "spoiler": false
+   }
+  ]
+ }
+}

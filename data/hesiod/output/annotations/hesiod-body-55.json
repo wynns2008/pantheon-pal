@@ -1,0 +1,372 @@
+{
+ "section_id": "hesiod-body-55",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11235,
+  "output": 3550
+ },
+ "result": {
+  "summary": "Apollo seeks priests for his Pytho shrine and hijacks a Cretan ship by leaping aboard as a dolphin. He steers it around the Peloponnese to Crisa, appears to the crew as a young man, and tells them they will serve his temple and worship him as Apollo Delphinius.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Apollo seizes the Cretan ship",
+    "summary": "Apollo spots a Cretan ship bound for Pylos and leaps aboard as a dolphin. The terrified crew sit silent as the ship shakes.",
+    "stakes": "The Cretan sailors fear the monster and the loss of their ship and voyage.",
+    "present": [
+     "Apollo",
+     "Cretans"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the open sea",
+     "modern_name": "Aegean Sea near Crete",
+     "certainty": "real",
+     "lat": 36.0,
+     "lon": 24.5
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 13,
+    "title": "Voyage around the Peloponnese",
+    "summary": "The ship, guided by Apollo, passes Malea, Taenarum, Pylos and Elis, sights Ithaca, then turns east up the gulf to Crisa.",
+    "stakes": "The crew lose control of their ship and cannot reach the shore they want.",
+    "present": [
+     "Apollo",
+     "Cretans"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Peloponnesus coast",
+     "modern_name": "Peloponnese coast, Greece",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 21.5
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 16,
+    "title": "Apollo blazes forth at Crisa",
+    "summary": "Apollo leaps out like a star, lights a flame in his shrine, terrifies the Crisaean women, then returns to the ship as a young man.",
+    "stakes": "The Crisaeans are frightened by the god's blazing radiance.",
+    "present": [
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Crisa",
+     "modern_name": "Krisa, near Delphi",
+     "certainty": "real",
+     "lat": 38.48,
+     "lon": 22.48
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 25,
+    "title": "Apollo questions the Cretans",
+    "summary": "Disguised as a youth, Apollo asks who they are. Their captain answers, praises his godlike look, and asks where they are.",
+    "stakes": "The Cretans want to know where they are and hope to return home.",
+    "present": [
+     "Apollo",
+     "Cretans"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Crisa beach",
+     "modern_name": "Krisa, near Delphi",
+     "certainty": "real",
+     "lat": 38.42,
+     "lon": 22.45
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 33,
+    "title": "Apollo names them his priests",
+    "summary": "Apollo reveals himself, says they will never return home but will keep his temple, and instructs them to build an altar and honour him as Delphinius.",
+    "stakes": "The Cretans must give up their homes and families to serve the god.",
+    "present": [
+     "Apollo",
+     "Cretans"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Crisa beach",
+     "modern_name": "Krisa, near Delphi",
+     "certainty": "real",
+     "lat": 38.42,
+     "lon": 22.45
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoebus Apollo",
+     "Apollo Delphinius"
+    ],
+    "kind": "god",
+    "description": "Son of Zeus, who founds his shrine at Pytho"
+   },
+   {
+    "name": "Cretans",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sailors from Cnossos bound for Pylos, chosen as Apollo's priests"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Apollo, who sends the favouring wind"
+   },
+   {
+    "name": "Helios",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sun god whose sheep graze at Taenarum"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler of Cnossos"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 27
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Apollo Delphinius",
+    "canonical": "Apollo",
+    "explanation": "Cult title from delphis, Greek for dolphin, recalling his dolphin form."
+   },
+   {
+    "alias": "Phoebus",
+    "canonical": "Apollo",
+    "explanation": "Common epithet of Apollo, meaning bright."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 14,
+    "reason": "Vivid image of Apollo leaping from the ship like a star at noon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "reason": "Explains the origin of the cult title Delphinius.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The god's power over mortals is shown as he redirects the sailors' course and their lives to serve his purposes.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage gives an aetiology for Delphi, linking its priesthood to Cretan origins and explaining the name Delphi and cult title Delphinius.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The dolphin became associated with Apollo and Delphi, and the story offered a folk explanation for the name Delphi."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The paean cry Ie Paean in the hymn became the name of a type of Greek hymn to Apollo.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Wine-like sea\" renders a Homeric epithet for the sea's deep, dark colour, not its taste.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Gave heed so as to understand\" means the crew did not realise the dolphin was a god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Sheets\" are the ropes controlling the sail, not cloth; the crew leave them untouched.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Sea-garlanded\" means encircled by the sea, describing Taenarum on its headland.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "A catalogue of Peloponnesian coastal places, tracing the ship's route past Pylos and Elis, where the Epei lived.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"By ordinance of Zeus\" means the wind came by Zeus's decree, serving Apollo's plan.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"Like a star at noonday\" pictures a blazing light visible even in full daylight, signalling the god's divine epiphany.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Winged words\" is a Homeric formula for words that fly swiftly from speaker to listener.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Traffic\" means trade or commerce; the god asks whether they are merchants or pirates.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Men who live by bread\" means ordinary mortals, who must eat, in contrast to the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Pylos is a city in the south-western Peloponnese; the Cretans were sailing there for trade, but were driven off course to Crisa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "Delphinius comes from Greek delphis, \"dolphin\"; Apollo took dolphin form to lead the ship, explaining the cult title and a link to Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "\"Overlooking[2512]\" is a textual corruption or editorial footnote marker; the original wording is uncertain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "\"Ie Paean\" is a ritual cry to Apollo as healer, sung in processions and thanksgiving.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Cnossos was the chief city of Crete, linked with king Minos. Apollo's later priests at Delphi are to come from these Cretans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Helios is the sun god. His sacred sheep were said to graze at Taenarum, the southern tip of the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Ithaca, Dulichium, Same and Zacynthus are islands in the Ionian Sea off western Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Crisa lay near Delphi on the Corinthian gulf; it was the port from which pilgrims approached Pytho.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Tripods were bronze cauldrons on three legs, valuable dedications in Greek shrines and closely associated with Apollo's oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Long uncut hair was typical of young Greek men and of Apollo, who was usually shown as an unshorn youth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Cnossos was the great Cretan city associated with King Minos. The sailors are told they will become Apollo's temple servants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Offering white meal (barley meal) was a simple, common sacrifice, here establishing the cult's first altar.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "Metamorphosis",
+    "text": "Apollo's transformation into a dolphin shows divine power disguised as a frightening animal, as part of his plan.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "Imagery",
+    "text": "Repeated 'black' and 'hollow' ship details, with silent men and unchanged sails, build a tense, eerie stillness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "Irony",
+    "text": "The ship ignores the helm because the crew think they steer it, while Apollo, the unseen god, controls it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "simile",
+    "text": "Apollo's leap is compared to a star, conveying his brilliance and the sudden, awe-inspiring revelation of his divinity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "simile",
+    "text": "\"Swift as a thought\" stresses the god's effortless speed; mortals cannot match the immediacy of divine movement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "irony",
+    "text": "The captain notices the stranger looks godlike and does not realise he is actually speaking to the god who led them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "dramatic irony",
+    "text": "The Cretans blame \"one of the deathless gods\" for their course, unaware that the god is the youth before them.",
+    "spoiler": false
+   }
+  ]
+ }
+}

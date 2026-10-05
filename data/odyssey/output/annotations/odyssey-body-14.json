@@ -1,0 +1,659 @@
+{
+ "section_id": "odyssey-body-14",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 29076,
+  "output": 6446
+ },
+ "result": {
+  "summary": "Ulysses, disguised as a beggar, reaches Eumaeus's hut and is welcomed. He swears Ulysses will return, but Eumaeus disbelieves him, so he tells a false Cretan life story and a tale of a cold night at Troy that wins him a cloak.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 16,
+    "title": "Arrival at the swineherd's hut",
+    "summary": "Ulysses finds Eumaeus and his yards, is attacked by the dogs, and is rescued and made welcome in the hut.",
+    "stakes": "Ulysses could be torn apart by the hounds and must keep his disguise.",
+    "present": [
+     "Ulysses",
+     "Eumaeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eumaeus's hut, Ithaca",
+     "modern_name": "Ithaca, Ionian Islands",
+     "certainty": "traditional",
+     "lat": 38.36,
+     "lon": 20.72
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 55,
+    "title": "Eumaeus laments and doubts",
+    "summary": "Eumaeus feeds Ulysses, describes his master's wealth and the suitors' waste, and rejects Ulysses's oath that he will return.",
+    "stakes": "Ulysses must hide his identity while hearing of the suitors' plunder.",
+    "present": [
+     "Ulysses",
+     "Eumaeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eumaeus's hut, Ithaca",
+     "modern_name": "Ithaca, Ionian Islands",
+     "certainty": "traditional",
+     "lat": 38.36,
+     "lon": 20.72
+    }
+   },
+   {
+    "start_sentence": 56,
+    "end_sentence": 100,
+    "title": "The false Cretan tale",
+    "summary": "Ulysses claims to be a Cretan who fought at Troy, was captured in Egypt, betrayed by a Phoenician, shipwrecked, and brought to Ithaca.",
+    "stakes": "In the tale, the Cretan faces slavery, shipwreck and death.",
+    "present": [
+     "Ulysses",
+     "Castor",
+     "Idomeneus",
+     "Pheidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Crete, Egypt and Thesprotia",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 101,
+    "end_sentence": 131,
+    "title": "Wager and the evening feast",
+    "summary": "Eumaeus still disbelieves; they make a wager, then Eumaeus sacrifices a boar and honours the stranger at supper.",
+    "stakes": "Ulysses's life is wagered on the truth of his claim.",
+    "present": [
+     "Ulysses",
+     "Eumaeus",
+     "Mesaulius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eumaeus's hut, Ithaca",
+     "modern_name": "Ithaca, Ionian Islands",
+     "certainty": "traditional",
+     "lat": 38.36,
+     "lon": 20.72
+    }
+   },
+   {
+    "start_sentence": 132,
+    "end_sentence": 158,
+    "title": "The cloak story and bedtime",
+    "summary": "On a stormy night Ulysses tells of an ambush at Troy where a trick won him a cloak. Eumaeus gives him a bed and goes out to guard the pigs.",
+    "stakes": "Ulysses is testing whether he will be left cold; the tale risks nothing.",
+    "present": [
+     "Ulysses",
+     "Eumaeus",
+     "Thoas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Before Troy, then the hut",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.96,
+     "lon": 26.24
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ulysses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "disguised king of Ithaca"
+   },
+   {
+    "name": "Eumaeus",
+    "aliases": [
+     "the swineherd"
+    ],
+    "kind": "mortal",
+    "description": "loyal swineherd of Ulysses"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "invented Cretan father in Ulysses's tale"
+   },
+   {
+    "name": "Idomeneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan leader at Troy"
+   },
+   {
+    "name": "Pheidon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Thesprotians"
+   },
+   {
+    "name": "Thoas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "soldier who ran to the ships"
+   },
+   {
+    "name": "Mesaulius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "servant bought by Eumaeus"
+   },
+   {
+    "name": "Telemachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ulysses, away at Pylos"
+   },
+   {
+    "name": "Penelope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Ulysses"
+   },
+   {
+    "name": "Laertes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ulysses's old father"
+   },
+   {
+    "name": "Jove",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, protector of strangers"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Laertes",
+    "relation": "parent_of",
+    "b": "Ulysses",
+    "source": "outside",
+    "evidence_sentence": 51
+   },
+   {
+    "a": "Ulysses",
+    "relation": "parent_of",
+    "b": "Telemachus",
+    "source": "text",
+    "evidence_sentence": 39
+   },
+   {
+    "a": "Ulysses",
+    "relation": "spouse_of",
+    "b": "Penelope",
+    "source": "text",
+    "evidence_sentence": 39
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the swineherd",
+    "canonical": "Eumaeus",
+    "explanation": "Eumaeus is addressed by his occupation."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Eumaeus states the rule of hospitality: all strangers and beggars are from Jove.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "reason": "Ulysses says he hates a lying man as he hates hell fire.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Hospitality (xenia) is central: Eumaeus, poor but generous, treats the stranger as under Jove's protection, contrasting with the greedy suitors.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Ulysses's lies, mixing truth and invention, show his cunning and his testing of loyalty.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Eumaeus's tale of the borrowed cloak is one of Ulysses's several invented 'Cretan' stories in the poem.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Spacious126\" contains a stray footnote number (126) from the edition; it is not part of the text. The word simply means roomy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Sandals127\" likewise carries a footnote marker (127). These were simple footwear cut from a single piece of hide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"In his own homestead\" is ironic emphasis: Ulysses is the true owner of this land, though the dogs and swineherd do not know him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Made short work of you\" is an idiom meaning would have killed or mauled you quickly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Chamois skin\" is the hide of a mountain goat-antelope; here a shaggy, soft skin used as bedding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"To this you answered, O swineherd Eumaeus\" is a formal Homeric address to Eumaeus, used when the narrator speaks directly to a character.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Helen's flight or abduction to Troy caused the Trojan War, in which many Greek men died; Eumaeus blames her whole family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Ilius is Ilium, another name for Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "Girdle: a belt or sash tied round the tunic so he could work freely.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "Sprinkling barley meal over the meat was a customary act of sacrificial ritual and a sign of Ulysses sharing the meal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "Freebooters are pirates or raiders who plunder for booty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "allusion",
+    "text": "Swearing by Jove, hospitality and the hearth invokes the gods who protect guests; the hearth is the household's sacred centre.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "allusion",
+    "text": "Telemachus went to Pylos, home of Nestor, to seek news of his father; the suitors plan to ambush him on his return.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "kind": "word",
+    "text": "Son of Saturn is Jove (Zeus), whose father was Saturn (Cronus).",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "kind": "word",
+    "text": "Concubine: a woman kept as a secondary partner, often a slave; it explains why he is not a legitimate heir.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "kind": "phrasing",
+    "text": "Proverb-like saying: the leftover straw shows how fine the grain-ear once was; his present ruin reveals his former greatness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "kind": "phrasing",
+    "text": "The 'river' is the Nile, called Aegyptus in this translation; the odd 'going down a river' reflects sailing south from Crete toward Egypt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "kind": "phrasing",
+    "text": "Clasping the king's knees and kissing them is the standard gesture of a suppliant begging for mercy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 79,
+    "kind": "allusion",
+    "text": "Jove the protector of strangers (Zeus Xenios) punished those who harmed suppliants and guests; this belief runs through the whole Odyssey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 93,
+    "kind": "allusion",
+    "text": "Dodona was an oracle of Jove in northern Greece, where priests interpreted the rustling of a sacred oak.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "kind": "word",
+    "text": "Clouts: rags or patches of cloth, here Ulysses' beggar's clothing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 104,
+    "kind": "phrasing",
+    "text": "\"Spirited him away\" means snatched him off unseen; the storm winds (harpies in the original) are blamed for his disappearance without trace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 107,
+    "kind": "word",
+    "text": "Aetolian: a man from Aetolia, a region of central Greece. He is a fugitive, having killed someone, seeking refuge as a guest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 113,
+    "kind": "word",
+    "text": "Dulichium: an island in the Ionian sea near Ithaca, part of Ulysses' own kingdom. The stranger names it as his supposed destination.",
+    "spoiler": false
+   },
+   {
+    "sentence": 114,
+    "kind": "phrasing",
+    "text": "\"A pretty figure I should cut\" is ironic: he means he would look dreadful, having murdered a guest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "kind": "phrasing",
+    "text": "\"Take toll of him\" means take our share of the pig for ourselves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 120,
+    "kind": "allusion",
+    "text": "Burning bristles from the victim's head as first offering was a sacrificial rite, dedicating the animal to the gods before it was killed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 123,
+    "kind": "word",
+    "text": "\"Equitable\" means fair and just in dividing the shares.",
+    "spoiler": false
+   },
+   {
+    "sentence": 130,
+    "kind": "allusion",
+    "text": "Taphians were seafaring islanders, known as raiders and traders, including slave traders. Mesaulius was bought from them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 133,
+    "kind": "phrasing",
+    "text": "\"A wet quarter\": the West wind was a rainy direction in Greece. Ulysses is hoping to prompt Eumaeus to offer a cloak.",
+    "spoiler": false
+   },
+   {
+    "sentence": 136,
+    "kind": "phrasing",
+    "text": "\"Got up an ambuscade\" means set an ambush; the story is told as one that Ulysses lived through, though he is disguised as a beggar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 139,
+    "kind": "word",
+    "text": "\"Rime\" is frost formed as a white coating of ice crystals; \"hoar frost\" is similar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 141,
+    "kind": "phrasing",
+    "text": "\"Gave me his ear\" means he listened to me attentively.",
+    "spoiler": false
+   },
+   {
+    "sentence": 148,
+    "kind": "phrasing",
+    "text": "\"Whereon\" means \"at which point\"; the cloak is taken the moment Thoas leaves.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Minerva (the Greek Athena) had disguised Ulysses as an old beggar and sent him to Eumaeus, his loyal swineherd, in the previous book.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "The suitors are the men courting Penelope who have taken over Ulysses' household and feast daily on his livestock.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Hospitality to strangers was a sacred duty, protected by Jove (the Greek Zeus), so Ulysses invokes him in thanks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Greeks believed Jove protected strangers and beggars, so mistreating a guest offended the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "The suitors are men courting Penelope who have been consuming Ulysses' household in his long absence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Ulysses is disguised as a beggar, so Eumaeus does not recognize him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "text": "Arceisius was Ulysses' grandfather; \"the house of Arceisius\" means the family line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "text": "Mars (the Greek Ares) is god of war; Minerva (Athena) also favours warriors, and she is Ulysses' own patron.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "text": "Idomeneus was king of Crete and a leading Greek commander at Troy, so naming him makes the Cretan story plausible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "text": "Phoenicians were seafaring traders of the Levant, often portrayed in the Odyssey as clever and untrustworthy, dealing in slaves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 95,
+    "text": "Dulichium is an island near Ithaca, whose men are among Penelope's suitors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 111,
+    "text": "Jove (the Greek Zeus) protected strangers and suppliants, so hospitality was a religious duty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 124,
+    "text": "Mercury (the Greek Hermes), son of Maia, was a god of herdsmen and travellers; the nymphs also protected country places and flocks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 130,
+    "text": "Laertes is Ulysses' aged father, and the mistress is Penelope. Eumaeus bought Mesaulius without consulting them, showing his independence and loyalty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 137,
+    "text": "Menelaus, king of Sparta, was Helen's husband and a leader of the Greeks at Troy. Ulysses' own name in the story is a trick, since the speaker pretends to be someone else.",
+    "spoiler": false
+   },
+   {
+    "sentence": 147,
+    "text": "Agamemnon was the commander of the whole Greek army at Troy, so a request to him for reinforcements sounds plausible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 151,
+    "text": "Ulysses' son is Telemachus, who is away in search of news of his father; Eumaeus does not know the beggar is Ulysses.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "characterization",
+    "text": "Eumaeus' unprompted building of sturdy yards, without telling Penelope or Laertes, shows his loyalty, initiative and thrift.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "simile",
+    "text": "Comparing the hounds to wolves stresses their ferocity and prepares for the danger Ulysses faces.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "dramatic irony",
+    "text": "Eumaeus laments his master as possibly starving far away, while the audience knows that master is standing before him in disguise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "characterization",
+    "text": "Eumaeus' gratitude for his master's generosity shows him as loyal, humble and hardworking.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "dramatic irony",
+    "text": "We know the silent beggar is Ulysses, so Eumaeus' account of the suitors feeds his hidden anger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "irony",
+    "text": "Eumaeus vividly imagines Ulysses' corpse scattered, while the man is alive and sitting before him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "device": "foreshadowing",
+    "text": "Ulysses' prediction of his return and vengeance hints at the coming slaughter of the suitors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "device": "characterization",
+    "text": "Ulysses invents a humble, illegitimate but valiant background, a persona that suits his disguise as a beggar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 85,
+    "device": "simile",
+    "text": "Drowning men compared to sea-gulls bobbing on the water gives a vivid, pitiful picture of helplessness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 90,
+    "device": "dramatic irony",
+    "text": "Ulysses reports news of himself to Eumaeus, who does not know he is speaking to him; the audience enjoys the joke.",
+    "spoiler": false
+   },
+   {
+    "sentence": 100,
+    "device": "irony",
+    "text": "The beggar says the gods brought him to a good man's door, which is true, though in a way Eumaeus cannot know.",
+    "spoiler": false
+   },
+   {
+    "sentence": 101,
+    "device": "epithet",
+    "text": "The narrator's direct address, \"O swineherd Eumaeus\", is a recurring Homeric apostrophe that shows affection for the character.",
+    "spoiler": false
+   },
+   {
+    "sentence": 104,
+    "device": "dramatic irony",
+    "text": "Eumaeus laments Ulysses as lost while the listener is Ulysses himself, so his sorrow and disbelief carry pointed irony.",
+    "spoiler": false
+   },
+   {
+    "sentence": 114,
+    "device": "characterization",
+    "text": "Eumaeus's horror at harming a guest shows his strong sense of piety and hospitality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 116,
+    "device": "imagery",
+    "text": "The squealing of the pigs being driven in gives a vivid sound picture of the farmyard at evening.",
+    "spoiler": false
+   },
+   {
+    "sentence": 125,
+    "device": "characterization",
+    "text": "Giving the best cut to the stranger shows Eumaeus's generosity, even though he still doubts the man's tale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 133,
+    "device": "Characterization",
+    "text": "Ulysses tests Eumaeus rather than asking outright, showing his habitual cunning and caution even while disguised.",
+    "spoiler": false
+   },
+   {
+    "sentence": 143,
+    "device": "Epithet",
+    "text": "\"As crafty as he was valiant\" sums up Ulysses' defining traits, with the beggar praising the man he secretly is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 150,
+    "device": "Dramatic irony",
+    "text": "Eumaeus praises the story and promises help from Ulysses' son, unaware that the old man he addresses is Ulysses himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 158,
+    "device": "Characterization",
+    "text": "Eumaeus's willingness to sleep outdoors with the pigs in harsh weather shows his loyalty and devotion to his absent master's property.",
+    "spoiler": false
+   }
+  ]
+ }
+}

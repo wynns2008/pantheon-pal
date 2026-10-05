@@ -1,0 +1,225 @@
+{
+ "section_id": "hesiod-body-62",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6518,
+  "output": 1893
+ },
+ "result": {
+  "summary": "Apollo finishes his reconciliation with Hermes by giving him the winged bee-maidens of Parnassus, who give oracles. Zeus confirms Hermes' powers over animals and makes him messenger to Hades, and the hymn closes with a farewell.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Apollo gives the bee-maidens",
+    "summary": "Apollo describes three winged virgins near Parnassus who teach divination and speak truth when fed honey. He gives them to Hermes and entrusts him with herds.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Parnassus",
+     "modern_name": "Mount Parnassus, Greece",
+     "certainty": "real",
+     "lat": 38.53,
+     "lon": 22.62
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 11,
+    "title": "Zeus confirms Hermes' honours",
+    "summary": "Zeus grants Hermes rule over animals and the office of messenger to Hades. The poet notes Hermes' ambiguous nature and bids farewell.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Hermes",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Heaven",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who gives Hermes the bee-maidens and his friendship"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Son of Maia"
+    ],
+    "kind": "god",
+    "description": "son of Maia and Zeus, given new honours"
+   },
+   {
+    "name": "Maia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "mother of Hermes"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "father of the gods who confirms Hermes' powers"
+   },
+   {
+    "name": "Hades",
+    "aliases": [],
+    "kind": "god",
+    "description": "ruler of the dead, takes no gifts"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Maia",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "patronymic for Zeus"
+   },
+   {
+    "alias": "Son of Maia",
+    "canonical": "Hermes",
+    "explanation": "epithet naming his mother"
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "Sums up Hermes' trickster nature: he cheats mortals by night.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ending settles Hermes' place among the gods, giving him real offices and ending his conflict with Apollo.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The bee-maidens reflect Greek ideas of honey-linked prophecy and the oracular tradition around Parnassus and Delphi.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The bee-maidens are called Thriae in later sources, and later writers linked them with a form of divination by pebbles.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Luck-bringing genius of the gods\" addresses Hermes as the divine giver of good fortune; \"genius\" here means a spirit or power, not intellect.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "These winged maidens are the Thriae, prophetic bee-nymphs of Parnassus. The odd detail of white meal sprinkled on their heads is linked to their divination.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Inspired\" means filled with divine prophetic power; the honey acts like an intoxicant that loosens truthful speech.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Birds of omen\" are birds whose flight or cries were read as signs of the gods' will.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Cozens\" means cheats or deceives, recalling Hermes' role as trickster and patron of thieves.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Apollo, god of prophecy, says he first learned divination as a youth herding cattle; his father Zeus took no notice of it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Hades is god of the underworld. Hermes guides souls there as psychopomp, the only god who travels freely between the living and the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "\"Son of Cronos\" is Zeus, whose father was the Titan Cronos.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "Contrast",
+    "text": "Truth when fed on honey and falsehood when deprived sets two opposite states side by side, making the bee-maidens' unreliability vivid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "Catalogue",
+    "text": "The long list of beasts and domains conveys the breadth of Hermes' authority and gives the passage a formal, epic dignity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Characterization",
+    "text": "The poet's blunt remark that Hermes helps little but deceives men by night sums up his ambiguous, trickster nature.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Epic closure",
+    "text": "The farewell and promise of another song is the conventional way a Homeric Hymn ends, linking the hymn to the poet's wider performance.",
+    "spoiler": false
+   }
+  ]
+ }
+}

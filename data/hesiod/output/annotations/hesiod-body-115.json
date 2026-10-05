@@ -1,0 +1,266 @@
+{
+ "section_id": "hesiod-body-115",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7970,
+  "output": 2323
+ },
+ "result": {
+  "summary": "Homer's verses on feasting are praised as golden, and Hesiod, annoyed, challenges him with riddling half-lines and puzzling questions. Homer answers each, completing Hesiod's verses with apt sense, often drawing on Trojan War and other heroic themes.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Homer's golden verses; Hesiod's challenge",
+    "summary": "Homer's praise of feasting is admired by the Greeks. Hesiod, annoyed, poses hard questions and then turns to half-lines of doubtful meaning.",
+    "stakes": "Hesiod and Homer compete for poetic reputation; failing to answer would mean losing the contest.",
+    "present": [
+     "Homer",
+     "Hesiod"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the contest",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 35,
+    "title": "Hesiod's half-lines, Homer's completions",
+    "summary": "Hesiod recites unfinished lines and Homer completes each with fitting sense, touching on Heracles, Sarpedon, Argonauts and Agamemnon.",
+    "stakes": "Homer must complete each verse aptly or lose the contest.",
+    "present": [
+     "Homer",
+     "Hesiod"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the contest",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "epic poet competing with Hesiod"
+   },
+   {
+    "name": "Hesiod",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who challenges Homer"
+   },
+   {
+    "name": "Heracles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a curved bow, fighter of giants"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "arrow-loving goddess who slew Callisto"
+   },
+   {
+    "name": "Callisto",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "slain by Artemis's shot"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [
+     "Son of Atreus"
+    ],
+    "kind": "mortal",
+    "description": "king of men who supplied feasts"
+   },
+   {
+    "name": "Sarpedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "bold godlike man, born of Zeus"
+   },
+   {
+    "name": "Aeetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Colchis, inhospitable and lawless"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "golden goddess of love"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, mentioned in the verses"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Sarpedon",
+    "source": "text",
+    "evidence_sentence": 24
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Son of Atreus",
+    "canonical": "Agamemnon",
+    "explanation": "patronymic for Agamemnon, son of Atreus"
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 0,
+    "reason": "Homer's celebrated verses on feasting, called golden by the Greeks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "reason": "Homer's witty completion of Hesiod's riddling line.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The contest pits Homer's quick, apt wit against Hesiod's puzzling challenges, showing the poets as rivals in improvisation.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The account reflects later Greek tradition about the two poets' rivalry and the ritual recitation of Homer's lines at feasts.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Contest of Homer and Hesiod became a famous ancient tale, and Nietzsche wrote about it in his essay Homer's Contest."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Contest of Homer and Hesiod survives in a version from the time of Emperor Hadrian, though it draws on earlier material.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Libations were offerings of wine poured out to the gods before or during a meal; the verses became a customary formula at public sacrifices.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Felicity here means happy skill in expression, Homer's apt and graceful verse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Impasse means a blocked position; Homer must answer a riddle-like request that leaves no easy reply.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Homer answers that nothing of the kind will ever happen, since Zeus has no tomb. Hesiod asked for a song of things neither past, present nor future.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Heracles fought giants with his bow, and his arrows were a famous weapon in myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Callisto was a nymph of Artemis' band, loved by Zeus; in some versions Artemis killed her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Sarpedon, a son of Zeus, was a Lycian ally of Troy killed by Patroclus. Homer completes 'Zeus' into 'Zeus-born'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Colchis and king Aeetes belong to the Argonauts' story: Jason sailed there for the Golden Fleece.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "These lines come from Odysseus' speech to Alcinous in the Odyssey, praising the pleasures of a feast.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "This is the Contest of Homer and Hesiod, an ancient tale in which the two poets compete in verse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "The Phrygians were a people of Asia Minor, neighbors of Troy; Homer twists the line into a comic scene.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Agamemnon, king of men, led the Greek army against Troy and was a major leader in the Iliad.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "hyperbole",
+    "text": "Calling the verses golden praises them as the highest quality, and the claim that all guests recite them shows their fame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "irony",
+    "text": "Homer ends Hesiod's line with a humorous twist: the Phrygians are skilled at ships, yet are made to steal dinner.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "characterization",
+    "text": "Homer's quick completion shows his wit and skill at turning a half-line into a neat, sensible maxim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "irony",
+    "text": "Hesiod's line turns a host's welcome into a curse, leaving a sinister sense for Homer to repair.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,425 @@
+{
+ "section_id": "hesiod-body-2",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11118,
+  "output": 3800
+ },
+ "result": {
+  "summary": "Hesiod tells the myth of the five ages of men: golden, silver, bronze, heroic and iron. He laments living in the iron age, predicts its moral collapse, and then tells the fable of the hawk and the nightingale to warn princes that might is not right.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "The Golden Race",
+    "summary": "The gods make a golden race under Cronos who live without toil or sorrow and die as if falling asleep.",
+    "stakes": "",
+    "present": [
+     "Cronos"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the earth in the time of Cronos",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 9,
+    "title": "The Silver Race",
+    "summary": "A lesser silver race stays childish for a hundred years, then sins and refuses to honour the gods, so Zeus removes them.",
+    "stakes": "The silver race is destroyed by Zeus for neglecting the gods.",
+    "present": [
+     "Zeus",
+     "Cronos"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the earth",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 14,
+    "title": "The Bronze Race",
+    "summary": "Zeus makes a violent bronze race from ash-trees; they destroy one another and go to Hades.",
+    "stakes": "The bronze race perishes by its own violence and is forgotten.",
+    "present": [
+     "Zeus",
+     "Ares",
+     "Hades"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the earth",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 20,
+    "title": "The Heroes",
+    "summary": "The nobler race of heroes dies at Thebes and Troy, or goes to the islands of the blessed where Cronos rules. Zeus then makes a fifth generation.",
+    "stakes": "Heroes face death in war, or else a blessed afterlife.",
+    "present": [
+     "Zeus",
+     "Cronos",
+     "Oedipus",
+     "Helen"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes and Troy",
+     "modern_name": "Thebes, Greece / Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 31,
+    "title": "The Iron Age Lament",
+    "summary": "Hesiod wishes he were not of the iron race, foretelling family strife, injustice and the departure of Aidos and Nemesis.",
+    "stakes": "Mankind faces moral collapse and abandonment by the gods' help.",
+    "present": [
+     "Zeus",
+     "Aidos",
+     "Nemesis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hesiod's present world",
+     "modern_name": "Boeotia, Greece",
+     "certainty": "real",
+     "lat": 38.3,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 32,
+    "end_sentence": 38,
+    "title": "The Hawk and the Nightingale",
+    "summary": "A hawk, carrying a nightingale in his talons, mocks her and says it is foolish to resist the stronger.",
+    "stakes": "The nightingale may be eaten or released at the hawk's whim.",
+    "present": [
+     "hawk",
+     "nightingale"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "high among the clouds",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Zeus the son of Cronos",
+     "Zeus the Father"
+    ],
+    "kind": "god",
+    "description": "king of the gods who makes and destroys the races of men"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "ruler of heaven in the golden age, later ruler of the blessed islands"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of war, whose works the bronze race loved"
+   },
+   {
+    "name": "Hades",
+    "aliases": [],
+    "kind": "god",
+    "description": "lord of the dank underworld house"
+   },
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king whose flocks were fought over at Thebes"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "rich-haired woman for whom the Trojan war was fought"
+   },
+   {
+    "name": "Aidos",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "personification of reverence, who leaves mankind"
+   },
+   {
+    "name": "Nemesis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "personification of righteous indignation, who leaves mankind"
+   },
+   {
+    "name": "hawk",
+    "aliases": [],
+    "kind": "creature",
+    "description": "bird of prey who speaks of the right of the strong"
+   },
+   {
+    "name": "nightingale",
+    "aliases": [],
+    "kind": "creature",
+    "description": "songbird seized by the hawk"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 21,
+    "reason": "Hesiod's famous wish to have lived in another age.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "reason": "Moral of the fable: resisting the stronger is folly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "reason": "Captures the iron age's collapse of justice: strength becomes right.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The five ages show steady moral decline from golden ease to iron toil, with justice and respect for the gods as the measure of each race.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The myth likely blends Near Eastern ideas of metallic ages with Greek heroic tradition; the heroes alone break the pattern of decline.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The five ages shaped later ideas of a lost golden age, notably Ovid's Metamorphoses and the phrase 'golden age'."
+   },
+   {
+    "kind": "history",
+    "text": "The hawk and nightingale is often counted among the earliest Greek fables, a forerunner of the Aesopic tradition."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The heroic age is the only one not named for a metal, which suggests Hesiod fitted the Homeric heroes into an older scheme of four metals.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Sum you up another tale\" means to set out another account briefly; Hesiod is moving on from the Prometheus and Pandora story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Miserable age\" is wretched old age, personified as something that did not settle on these men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Pure spirits\" translates daimones, divine beings between gods and men, here acting as guardians of humans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"An hundred years\" means the silver child stayed a childish simpleton for a century, which marks the race as inferior.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Ash-trees: the bronze men are said to spring from ash trees, perhaps from the wood of spears. The \"1304\" is a stray footnote marker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Adamant\" is an unbreakable, legendary hard substance, here a figure for the men's pitiless hearts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "\"Ate no bread\" means they did not eat grain, the food of civilised men, and so lived by meat and violence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Dank\" means damp and gloomy; it describes the house of Hades, the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The flocks of Oedipus refers to the war of the Seven against Thebes, fought over Oedipus' inheritance; Thebe is Thebes, in the land of Cadmus, its founder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Helen's sake: the Trojan War began when Helen, wife of Menelaus, was taken to Troy by Paris.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Cronos was freed from his bonds by Zeus, who had earlier overthrown him; he now rules the blessed in the islands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Would that I were not\" is an archaic wish: Hesiod wishes he had died earlier or been born later.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "\"Aforetime\" means formerly, in earlier days.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "\"Might shall be their right\" means that whoever has power will decide what counts as justice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "Aidos means shame or reverence; Nemesis means righteous indignation at wrongdoing. Together they restrain human wickedness.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Cronos ruled the gods before his son Zeus overthrew him. His reign is remembered as a time of ease and plenty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Zeus, son of Cronos, is king of the gods and enforcer of justice. He punishes those who neglect proper worship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Ares is the god of war, associated with bloodshed and brutality rather than skill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Hesiod inserts the Age of Heroes between the Bronze and Iron ages. These heroes are the figures of epic such as those at Thebes and Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "The islands of the blessed are a paradise at the world's edge where favoured heroes live after death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Hesiod addresses the kings (princes) who judge disputes; this fable is his warning about their abuse of power.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "simile",
+    "text": "Death is compared to being overcome by sleep, which makes the golden race's end gentle and untroubled.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "motif",
+    "text": "Repeating \"bronze\" for armour, houses and tools stresses a hard, warlike world, with iron not yet known.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "These terrifying warriors are brought down by their own hands, and \"left no name\", so their power ends in oblivion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "imagery",
+    "text": "Honey-sweet fruit three times a year paints a vivid picture of ease and abundance, contrasting with the toil of the iron race.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "antithesis",
+    "text": "Labour by day and perishing by night balances two torments, showing a life with no rest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "personification",
+    "text": "Aidos and Nemesis are shown as white-robed figures who leave earth, making the loss of moral restraint tangible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "allegory",
+    "text": "The hawk and nightingale fable stands for the powerful ruler and the weak victim, perhaps the poet himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "irony",
+    "text": "The hawk's moral that resistance is foolish expresses the very might-is-right attitude Hesiod condemns.",
+    "spoiler": false
+   }
+  ]
+ }
+}

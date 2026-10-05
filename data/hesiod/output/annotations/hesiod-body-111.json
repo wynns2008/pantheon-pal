@@ -1,0 +1,426 @@
+{
+ "section_id": "hesiod-body-111",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11225,
+  "output": 3746
+ },
+ "result": {
+  "summary": "The poet invokes the Muses and announces a war between Mice and Frogs. A mouse, Crumb-snatcher, meets the frog king Puff-jaw, rides on his back across the lake, and is drowned when Puff-jaw dives to escape a water-snake. The Mice, told of the death, gather to hear Bread-nibbler.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Invocation to the Muses",
+    "summary": "The poet asks the Muses to help him tell of the war of Mice and Frogs.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Helicon",
+     "modern_name": "Mount Helicon",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 22.8
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 20,
+    "title": "Puff-jaw meets Crumb-snatcher",
+    "summary": "A thirsty mouse drinks at the lake and is questioned by the frog king. Each tells his lineage, and Crumb-snatcher explains his foods and fears.",
+    "stakes": "Crumb-snatcher risks danger by trusting a stranger from a different world.",
+    "present": [
+     "Crumb-snatcher",
+     "Puff-jaw"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the lake's brink",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 28,
+    "title": "The ride across the lake",
+    "summary": "Puff-jaw boasts of the frogs' double life and offers a ride. The mouse grows terrified as the waves wash over him.",
+    "stakes": "Crumb-snatcher's life, as he is carried over deep water.",
+    "present": [
+     "Crumb-snatcher",
+     "Puff-jaw"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the lake",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 29,
+    "end_sentence": 39,
+    "title": "The water-snake and the drowning",
+    "summary": "A water-snake appears and Puff-jaw dives, abandoning the mouse. Crumb-snatcher curses him and drowns.",
+    "stakes": "Crumb-snatcher's life, which he loses.",
+    "present": [
+     "Crumb-snatcher",
+     "Puff-jaw"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the lake",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 40,
+    "end_sentence": 42,
+    "title": "The Mice assemble",
+    "summary": "Lick-platter sees the death and tells the Mice, who gather at dawn at Bread-nibbler's house. Bread-nibbler rises to speak.",
+    "stakes": "The Mice face the choice of war to avenge a killing.",
+    "present": [
+     "Lick-platter",
+     "Bread-nibbler"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "house of Bread-nibbler",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Crumb-snatcher",
+    "aliases": [],
+    "kind": "creature",
+    "description": "young mouse who drowns"
+   },
+   {
+    "name": "Puff-jaw",
+    "aliases": [],
+    "kind": "creature",
+    "description": "king of the Frogs"
+   },
+   {
+    "name": "Bread-nibbler",
+    "aliases": [],
+    "kind": "creature",
+    "description": "mouse, father of Crumb-snatcher"
+   },
+   {
+    "name": "Quern-licker",
+    "aliases": [],
+    "kind": "creature",
+    "description": "mouse, mother of Crumb-snatcher"
+   },
+   {
+    "name": "Ham-gnawer",
+    "aliases": [],
+    "kind": "creature",
+    "description": "mouse king, father of Quern-licker"
+   },
+   {
+    "name": "Mud-man",
+    "aliases": [],
+    "kind": "creature",
+    "description": "father of Puff-jaw"
+   },
+   {
+    "name": "Waterlady",
+    "aliases": [],
+    "kind": "creature",
+    "description": "mother of Puff-jaw"
+   },
+   {
+    "name": "Lick-platter",
+    "aliases": [],
+    "kind": "creature",
+    "description": "mouse who sees the death and tells the Mice"
+   },
+   {
+    "name": "Chronos",
+    "aliases": [
+     "Son of Chronos"
+    ],
+    "kind": "god",
+    "description": "father of the god who gave frogs their double life"
+   },
+   {
+    "name": "Europa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman carried to Crete by the bull"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Bread-nibbler",
+    "relation": "parent_of",
+    "b": "Crumb-snatcher",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Quern-licker",
+    "relation": "parent_of",
+    "b": "Crumb-snatcher",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Ham-gnawer",
+    "relation": "parent_of",
+    "b": "Quern-licker",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Mud-man",
+    "relation": "parent_of",
+    "b": "Puff-jaw",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Waterlady",
+    "relation": "parent_of",
+    "b": "Puff-jaw",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Mud-man",
+    "relation": "spouse_of",
+    "b": "Waterlady",
+    "source": "text",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Son of Chronos",
+    "canonical": "Chronos",
+    "explanation": "A title for Jove (Zeus), son of Chronos, though the translation does not name him."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 28,
+    "reason": "Mock-heroic comparison of the frog's back to the bull carrying Europa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "reason": "The dying mouse's curse that sets up the war.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The poem parodies epic: an invocation, genealogies and heroic boasts are applied to tiny animals, making their quarrel comic.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Betrayal and misplaced trust trigger the war, as a small accident grows into a conflict.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Battle of Frogs and Mice was traditionally attributed to Homer and was widely read and imitated as a model of mock-epic, influencing later works such as Pope's The Rape of the Lock."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The poem was long credited to Homer, but scholars generally date it much later, probably Hellenistic or even Roman times.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Helicon is a mountain in Boeotia sacred to the Muses; poets traditionally invoke them from there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Tablets upon my knee\" means writing tablets held on the lap; the poet presents his poem as freshly composed in writing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "The Giants were earth-born beings who battled the gods; the mock-epic compares the mice's small war to this great mythic conflict.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Fain\" means gladly or willingly; \"lay\" elsewhere means a song or poem.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Pond-larker\" is the translator's playful compound for a frog, in the manner of epic epithets.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Eridanus is a legendary river, often associated with the Po; naming it lends the frog's pedigree mock grandeur.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "A quern is a hand mill for grain, so \"Quern-licker\" suits a mouse's name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Cates\" are delicacies or choice foods; \"quern\" earlier names a hand mill for grinding grain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Belly-matters\" means food and eating; Puff-jaw teases the Mouse for boasting only of his meals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"'Tis\" is a contraction of \"it is\"; \"lest\" means \"for fear that.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Refers to the myth in which Jove, as a bull, carried Europa across the sea to Crete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "phrasing",
+    "text": "\"Castaway\" here means one cast off or abandoned, comparing the Mouse to something thrown from a rock.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "phrasing",
+    "text": "\"Heaven has an avenging eye\" means the gods watch wrongdoing and see that it is punished.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "word",
+    "text": "\"Heralds\" were official messengers who summoned assemblies and announced public business.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Ferrets were kept in ancient households to hunt mice, so the mouse's fear of one is natural.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Puff-jaw is the frog king; the poem gives animals comic compound names in imitation of epic heroes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "The foods listed are human household fare, stressing how mice live among men, unlike water-dwelling frogs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "The Son of Chronos is Jove (the Greek Zeus), king of the gods, here credited with making frogs amphibious.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "The water-snake is a natural enemy of frogs, which explains Puff-jaw's instant panic.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "invocation",
+    "text": "Opening with a call to the Muses follows the epic convention, here applied to a comic subject.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "device": "mock-epic",
+    "text": "Comparing mice and frogs to the Giants' war inflates a trivial conflict into heroic grandeur, producing humour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "The frog's pompous royal self-introduction in epic style is comic, given that he rules a pond.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "characterization",
+    "text": "Crumb-snatcher boasts of boldness yet describes only nibbling a sleeper's toe, revealing a comically small kind of bravery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "foreshadowing",
+    "text": "His list of fears hints that danger and death will shape the coming war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "metaphor",
+    "text": "The tail is called a steering oar, giving the Mouse's desperate effort the dignity of a ship's seamanship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "allusion",
+    "text": "The Mouse compares his shabby ride to a grand myth, a mock-heroic touch that makes his plight comic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "irony",
+    "text": "The host who promised a joyful ride abandons his guest, and the frog's boast of safety in two elements saves only himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "apostrophe",
+    "text": "The dying Mouse addresses the absent Puff-jaw directly, voicing a curse that sets up the coming war.",
+    "spoiler": false
+   }
+  ]
+ }
+}

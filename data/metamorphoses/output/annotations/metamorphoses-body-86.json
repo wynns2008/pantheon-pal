@@ -1,0 +1,239 @@
+{
+ "section_id": "metamorphoses-body-86",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7095,
+  "output": 2297
+ },
+ "result": {
+  "summary": "Ovid tells how Cyparissus, a beautiful youth loved by Phœbus, accidentally kills his tame stag and wants to die of grief. Phœbus cannot console him, and Cyparissus is changed into the cypress tree, which Phœbus says will always attend mourners.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "The beloved stag of Carthæa",
+    "summary": "Orpheus's song introduces the cypress, once a youth loved by Phœbus, and describes the splendid tame stag sacred to the Nymphs that Cyparissus loved.",
+    "stakes": "",
+    "present": [
+     "Cyparissus",
+     "Phœbus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Carthæan fields, Cea",
+     "modern_name": "Kea, Greece",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 24.33
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 7,
+    "title": "The accidental killing",
+    "summary": "Cyparissus plays with the stag, then at midday hits it with a javelin by mistake. Seeing it dying, he resolves to die too.",
+    "stakes": "Cyparissus faces the loss of his beloved stag and decides to give up his own life.",
+    "present": [
+     "Cyparissus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Carthæan fields, Cea",
+     "modern_name": "Kea, Greece",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 24.33
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 11,
+    "title": "Grief becomes a cypress",
+    "summary": "Phœbus tries to console him in vain. Cyparissus asks to mourn forever, turns into a cypress, and Phœbus laments and gives the tree its role.",
+    "stakes": "Cyparissus's life and human form are lost to endless grief.",
+    "present": [
+     "Cyparissus",
+     "Phœbus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Carthæan fields, Cea",
+     "modern_name": "Kea, Greece",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 24.33
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cyparissus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "beautiful youth of Cea who accidentally kills his pet stag and becomes a cypress"
+   },
+   {
+    "name": "Phœbus",
+    "aliases": [
+     "the God who fits the lyre with the strings"
+    ],
+    "kind": "god",
+    "description": "Apollo, lover of Cyparissus, who tries to console him"
+   },
+   {
+    "name": "Nymphs",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymphs of the Carthæan fields to whom the stag was sacred"
+   },
+   {
+    "name": "the stag",
+    "aliases": [],
+    "kind": "creature",
+    "description": "tame, adorned stag sacred to the Nymphs, killed by accident"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Phœbus",
+    "relation": "lover_of",
+    "b": "Cyparissus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Cyparissus",
+    "relation": "transformed_into",
+    "b": "cypress",
+    "source": "text",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Phœbus gives the cypress its lasting role as the tree of mourning.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Grief and love become permanent: Cyparissus asks to mourn forever, and the metamorphosis makes his sorrow a lasting symbol.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The cypress was associated with funerals and mourning in the ancient Mediterranean, and Ovid gives that custom a mythic origin.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story helped fix the cypress as a tree of mourning in European literature and art, and the cypress's association with graveyards persists."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Latin name of the cypress genus, Cupressus, preserves a link to the name Cyparissus through the Greek kyparissos.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Resembling the cone\" refers to the cypress's tapering conical shape, like the turning-post cone in a racecourse; the translator's footnote explains it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "The god who \"fits the lyre with strings, and the bow with strings\" is Apollo, patron of both music and archery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Carthæan refers to Carthæa, a town on the island of Ceos (Cea), off the coast of Attica.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "\"The Crab\" is the zodiac sign Cancer, the sun's position in midsummer; it is called \"loving the shore\" because crabs live there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"According to the occasion\" means in proportion to the cause: Phœbus urges measured grief, which is a bad fit for a boy's despair.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The cypress was associated with funerals and mourning, so Phœbus's closing words explain why it was planted near graves.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Orpheus is the singer of this tale. He gathers trees around him with his music, and the cypress is among them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Cyparissus is a young man from Ceos. His name in Greek is linked to the cypress tree.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Phœbus is another name for Apollo, here appearing as a mourning lover and not as a mighty god.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "imagery",
+    "text": "Gold, gems, silver and brass build a vivid picture of the stag's splendor, making its death more painful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "characterization",
+    "text": "The stag's trust in strangers shows its gentleness and prepares for the pathos of its accidental death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "apostrophe",
+    "text": "The narrator suddenly addresses Cyparissus directly as \"thou\", creating intimacy and tenderness toward the doomed boy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "foreshadowing",
+    "text": "The still, hot midday and the resting stag quietly set up the sudden, unforeseen disaster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "metaphor",
+    "text": "Grief literally becomes the tree: his hair turns to foliage, and endless weeping becomes his permanent form.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "aetiology",
+    "text": "The speech explains why the cypress symbolizes mourning, a typical Ovidian origin story.",
+    "spoiler": false
+   }
+  ]
+ }
+}

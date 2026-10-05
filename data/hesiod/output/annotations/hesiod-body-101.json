@@ -1,0 +1,366 @@
+{
+ "section_id": "hesiod-body-101",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6921,
+  "output": 3118
+ },
+ "result": {
+  "summary": "Proclus' summary of the Aethiopis, a lost epic by Arctinus of Miletus that continues the Iliad. It tells of Penthesileia and Memnon coming to help Troy, the death and funeral of Achilles, and the quarrel over his arms. Two short fragments follow.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Proclus introduces the Aethiopis",
+    "summary": "Proclus places the Aethiopis after the Iliad and names its author as Arctinus of Miletus.",
+    "stakes": "",
+    "present": [
+     "Arctinus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Miletus",
+     "modern_name": "Miletus",
+     "certainty": "real",
+     "lat": 37.53,
+     "lon": 27.28
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 4,
+    "title": "Penthesileia and Thersites",
+    "summary": "Penthesileia fights for Troy and is killed by Achilles. Achilles then kills Thersites and is purified by Odysseus on Lesbos.",
+    "stakes": "Achilles risks the anger of the Achaeans and the guilt of bloodshed.",
+    "present": [
+     "Penthesileia",
+     "Achilles",
+     "Thersites",
+     "Odysseus",
+     "Apollo",
+     "Artemis",
+     "Leto",
+     "Ares"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.96,
+     "lon": 26.24
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 8,
+    "title": "Memnon and the death of Achilles",
+    "summary": "Memnon comes to help Troy and kills Antilochus. Achilles kills Memnon, then is himself killed by Paris and Apollo. Aias and Odysseus save his body.",
+    "stakes": "Achilles' life, then the recovery of his body.",
+    "present": [
+     "Memnon",
+     "Eos",
+     "Hephaestus",
+     "Thetis",
+     "Antilochus",
+     "Achilles",
+     "Zeus",
+     "Paris",
+     "Apollo",
+     "Aias",
+     "Odysseus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.96,
+     "lon": 26.24
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 11,
+    "title": "Funeral and dispute over arms",
+    "summary": "The Achaeans bury Antilochus and mourn Achilles. Thetis carries him off to the White Island. Games are held, and Odysseus and Aias quarrel over his arms.",
+    "stakes": "The honour of owning Achilles' arms.",
+    "present": [
+     "Thetis",
+     "Achilles",
+     "Antilochus",
+     "Odysseus",
+     "Aias"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "The White Island",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 14,
+    "title": "Fragments on Amazon and Aias",
+    "summary": "One variant reading brings the Amazon straight after Hector's burial. Another fragment says Aias killed himself about dawn.",
+    "stakes": "",
+    "present": [
+     "Hector",
+     "Aias",
+     "Ares"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.96,
+     "lon": 26.24
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Arctinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet of Miletus, author of the Aethiopis"
+   },
+   {
+    "name": "Penthesileia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Amazon, daughter of Ares, who aids Troy"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of war, father of Penthesileia"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean hero who kills Penthesileia and Memnon"
+   },
+   {
+    "name": "Thersites",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean killed by Achilles for reviling him"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean who purifies Achilles and quarrels with Aias"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god honoured by Achilles; helps kill him"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess receiving sacrifice"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess receiving sacrifice"
+   },
+   {
+    "name": "Memnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Eos, Trojan ally in armour by Hephaestus"
+   },
+   {
+    "name": "Eos",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Memnon who wins him immortality"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "made Memnon's armour"
+   },
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Achilles, who mourns and rescues him"
+   },
+   {
+    "name": "Antilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean slain by Memnon"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "grants Memnon immortality"
+   },
+   {
+    "name": "Paris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan who helps kill Achilles"
+   },
+   {
+    "name": "Aias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "carries Achilles' body; later kills himself"
+   },
+   {
+    "name": "Hector",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan hero, whose burial is mentioned"
+   },
+   {
+    "name": "Muses",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddesses who come to mourn Achilles"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ares",
+    "relation": "parent_of",
+    "b": "Penthesileia",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Eos",
+    "relation": "parent_of",
+    "b": "Memnon",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Thetis",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "text",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The epic shows the death of Achilles, foretold in the Iliad, and the cycle of heroic honour, rivalry and mourning that follows it.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Aethiopis is known only through Proclus' later summary and a few fragments. It belonged to the Epic Cycle, which filled in the Trojan story around Homer's poems.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The quarrel over Achilles' arms and the suicide of Aias became a staple of later tragedy, notably Sophocles' Ajax."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Proclus' summary is the main surviving source for the Epic Cycle, whose poems are otherwise almost entirely lost.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "The Cypria and the Aethiopis belong to the Epic Cycle, poems filling in the Trojan story before and after the Iliad. Here the Iliad is the link between them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The Amazons were a mythical nation of warrior women. Penthesileia is their queen in the Trojan story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Purified ... from bloodshed\": killing required ritual cleansing of the killer's guilt, and Odysseus performs it here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Catches away from the pyre\" means she snatches his body from the funeral fire and removes it to a place beyond death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "A cairn is a heaped mound of earth or stones raised as a grave monument.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Great-souled\" translates a Homeric epithet meaning high-spirited and courageous.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Proclus was a later writer whose summaries are the main source for these lost epic poems. Arctinus of Miletus is traditionally an early epic poet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Memnon, king of the Ethiopians, is the son of the dawn goddess Eos. His armour was made by Hephaestus, the divine smith.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Thetis, a sea goddess, is Achilles' mother. The Muses are goddesses of song, and her sisters are the Nereids.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "The quarrel over Achilles' arms leads to the later death of Aias, which fragment 3 mentions.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "foreshadowing",
+    "text": "Achilles' rush into the city with the fleeing Trojans leads straight to his death, fulfilling the long-expected doom of the hero.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "epithet",
+    "text": "\"Slayer of men\" is a stock Homeric epithet of Ares, suited to the warlike father of Penthesileia.",
+    "spoiler": false
+   }
+  ]
+ }
+}

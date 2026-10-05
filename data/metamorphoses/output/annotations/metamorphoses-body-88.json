@@ -1,0 +1,220 @@
+{
+ "section_id": "metamorphoses-body-88",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8374,
+  "output": 2036
+ },
+ "result": {
+  "summary": "Orpheus, singing, tells how Apollo loved the youth Hyacinthus and accidentally killed him with a discus. Apollo mourns and turns his blood into a flower marked with his cries of grief, and Sparta still honours Hyacinthus with a yearly festival.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Apollo's love for Hyacinthus",
+    "summary": "Orpheus introduces the tale: Apollo neglects Delphi, his lyre and his arrows to hunt with Hyacinthus near Sparta.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Hyacinthus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Eurotas and Sparta",
+     "modern_name": "Sparta, Laconia",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 14,
+    "title": "The fatal quoit",
+    "summary": "At midday the two exercise and throw the quoit. Apollo's throw rebounds from the ground and strikes Hyacinthus, whom Apollo cannot save.",
+    "stakes": "Hyacinthus's life, which Apollo's healing herbs cannot save.",
+    "present": [
+     "Apollo",
+     "Hyacinthus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta, Laconia",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 25,
+    "title": "Apollo's lament and the flower",
+    "summary": "Apollo laments, vows to make Hyacinthus remembered, and turns his blood into a flower inscribed with 'ai, ai'. Sparta keeps his festival.",
+    "stakes": "Apollo risks losing his beloved forever; he strives to keep his memory alive.",
+    "present": [
+     "Apollo",
+     "Hyacinthus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta, Laconia",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phœbus",
+     "Titan",
+     "the Divinity"
+    ],
+    "kind": "god",
+    "description": "god who loves Hyacinthus and kills him by accident"
+   },
+   {
+    "name": "Hyacinthus",
+    "aliases": [
+     "Son of Œbalus",
+     "descendant of Amycla",
+     "the Tænarian youth"
+    ],
+    "kind": "mortal",
+    "description": "Spartan youth beloved of Apollo, killed by the quoit"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Œbalus",
+    "relation": "parent_of",
+    "b": "Hyacinthus",
+    "source": "text",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phœbus",
+    "canonical": "Apollo",
+    "explanation": "Phœbus is a common epithet of Apollo."
+   },
+   {
+    "alias": "Titan",
+    "canonical": "Apollo",
+    "explanation": "Titan here names the sun, identified with Apollo as sun-god."
+   },
+   {
+    "alias": "Son of Œbalus",
+    "canonical": "Hyacinthus",
+    "explanation": "Patronymic, naming his father or ancestor Œbalus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 24,
+    "reason": "The flower's petals bear Apollo's cry of grief, 'ai, ai', explaining the hyacinth's markings.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Love and loss, and metamorphosis as a way to preserve the beloved, which fits Orpheus's songs of grief for Eurydice.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale explains the Spartan Hyacinthia festival and probably reflects an older pre-Greek cult of Hyacinthus at Amyclae.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Hyacinthus is the source of the flower's name and of later art and poetry on the death of the beloved."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The flower described by Ovid is probably not the modern hyacinth but another bloom, such as a larkspur or iris.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Hyacinthus is called a descendant of Amycla because Amyclae, a Spartan town, was his home; Phœbus would have made him a constellation, as with other loved mortals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "The Ram and the Fish are zodiac signs; the sun moves from Pisces into Aries at spring's start, so the flower returns each spring.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "Titan, the sun, is midway between the last night and the next, so it is noon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Tænarian means Spartan, from Tænarus, a cape in Laconia; the quoit is a heavy discus thrown for distance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "The valiant hero is Ajax, whose name's initial letters were said to match the marking AI on the hyacinth petals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "'Ai, ai' is the Greek cry of grief, and the markings on the petals were read as this lament.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Delphi was Apollo's chief oracle, thought to be the centre of the earth. Sparta lay on the river Eurotas and had no city walls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "The Hyacinthia was a real Spartan festival, held yearly in honour of Hyacinthus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "apostrophe",
+    "text": "The narrator Orpheus speaks directly to the dead Hyacinthus, giving the tale a mournful tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "simile",
+    "text": "The dying youth's drooping head is compared to broken garden flowers, anticipating his transformation into a flower.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "antithesis",
+    "text": "The balanced clauses set grief against guilt, showing Apollo's self-reproach.",
+    "spoiler": false
+   }
+  ]
+ }
+}

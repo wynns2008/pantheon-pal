@@ -1,0 +1,414 @@
+{
+ "section_id": "hesiod-body-53",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10966,
+  "output": 3553
+ },
+ "result": {
+  "summary": "Apollo is shown playing his lyre among the delighted gods on Olympus. The poet then follows Apollo's journey across Greece in search of a site for his oracle, until Telphusa tricks him into choosing Crisa below Parnassus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Apollo's lyre on Olympus",
+    "summary": "Apollo goes from Pytho to Olympus and plays the lyre while the Muses sing and the other gods dance.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Leto",
+     "Zeus",
+     "Artemis",
+     "Ares",
+     "Hermes",
+     "Aphrodite",
+     "Harmonia",
+     "Hebe"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympus",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 12,
+    "title": "Apollo searches for an oracle site",
+    "summary": "The poet recalls Apollo's wooing and then his journey through Pieria, Euboea and Boeotia seeking a place for an oracle.",
+    "stakes": "",
+    "present": [
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Boeotia",
+     "modern_name": "Boeotia, Greece",
+     "certainty": "real",
+     "lat": 38.35,
+     "lon": 23.2
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 16,
+    "title": "Onchestus and the Cephissus",
+    "summary": "Apollo passes Poseidon's grove at Onchestus, where chariot-dedication rites are described, then crosses the Cephissus to Haliartus.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Onchestus",
+     "modern_name": "near Thebes, Boeotia",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 23.2
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 25,
+    "title": "Telphusa redirects Apollo",
+    "summary": "Apollo plans a temple at Telphusa's spring. She warns of horse noise and persuades him to build at Crisa instead.",
+    "stakes": "Telphusa wants the renown of the oracle for herself; Apollo risks a poor site for his temple.",
+    "present": [
+     "Apollo",
+     "Telphusa"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Telphusa",
+     "modern_name": "near Haliartus, Boeotia",
+     "certainty": "traditional",
+     "lat": 38.35,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 28,
+    "title": "Arrival at Crisa",
+    "summary": "Apollo passes the Phlegyae and reaches Crisa beneath Parnassus, where he resolves to build his temple.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Phlegyae",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Crisa",
+     "modern_name": "Delphi area, Greece",
+     "certainty": "real",
+     "lat": 38.48,
+     "lon": 22.5
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoebus Apollo",
+     "Far-Shooter",
+     "Phoebus"
+    ],
+    "kind": "god",
+    "description": "god of the lyre and oracles, who seeks a site for his temple"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Apollo"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, father of Apollo"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "archer goddess, sister of Apollo"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who sports among the gods"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Slayer of Argus"
+    ],
+    "kind": "god",
+    "description": "keen-eyed god at the dance"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Zeus, dancing"
+   },
+   {
+    "name": "Harmonia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "dancer among the gods"
+   },
+   {
+    "name": "Hebe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "dancer among the gods"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "owner of the grove at Onchestus"
+   },
+   {
+    "name": "Telphusa",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "spring nymph who sends Apollo to Crisa"
+   },
+   {
+    "name": "Phlegyae",
+    "aliases": [],
+    "kind": "other",
+    "description": "presumptuous people who disregard Zeus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Aphrodite",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Artemis",
+    "relation": "sibling_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Slayer of Argus",
+    "canonical": "Hermes",
+    "explanation": "Epithet of Hermes, who killed the watcher Argus; not named directly here."
+   },
+   {
+    "alias": "Iepaeon",
+    "canonical": "Apollo",
+    "explanation": "Cult title 'Hail-Healer' that Telphusa says men will give Apollo."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Memorable picture of gods delighting in song while mortals suffer, helpless against death and old age.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage contrasts Apollo's serene divine music with human frailty, then turns to his founding of the oracle at Delphi.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale of Telphusa explains the origin of Delphi and reflects the geography and cult sites of Boeotia and Phocis.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Line 8 has a gap in the manuscripts, so the list of Apollo's wooings is incomplete.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Lycia, Maeonia (Lydia) and Miletus are regions and a city in Asia Minor where Apollo was widely worshipped; Delos was his birthplace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "The 'golden key' is the plectrum, the pick used to strike the lyre's strings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "'Witless and helpless' describes humans, who live without understanding and cannot cure death or escape old age.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "'Featly' means neatly and nimbly, describing Apollo's graceful stepping.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "'Slayer of Argus' is Hermes, who killed the hundred-eyed giant Argus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "A list of Apollo's legendary love pursuits; the text is damaged here, and a lacuna (gap) interrupts it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "The Euripus is the narrow strait between Euboea and the Boeotian mainland.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "The horses rattle the empty chariot freely; if it breaks, the men tend the horses but tilt the broken chariot against something and leave it to the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "Hecatombs were large public sacrifices, originally of a hundred oxen, here meaning splendid offerings generally.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "'Do you lay up my words in your heart' means 'store them in your mind and remember them'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "Iepaeon, glossed as 'Hail-Healer', is a cult title of Apollo from the cry 'Ie Paean', linking him to healing and paeans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "The translation uses 'Zeus' here, though elsewhere this edition may differ; the Phlegyae are described as showing contempt for the god.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "The Graces, Seasons, Harmonia and Hebe are minor goddesses of beauty, the year, concord and youth, often shown dancing with the Olympians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The poet turns to Apollo's founding of his oracle, which leads to Delphi (Pytho).",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Thebe stands empty because the city of Thebes had not yet been founded in this mythic time.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Onchestus in Boeotia had a grove sacred to Poseidon, who was closely connected with horses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Telphusa is a nymph of a spring, here the local spirit of a site Apollo wants for his oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Crisa lies below Parnassus near Delphi; Apollo's temple here becomes the Delphic oracle.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "Contrast",
+    "text": "The gods' joyful music is set against the Muses' song of human suffering, underscoring the gap between mortal and immortal life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "Epithet",
+    "text": "'Who delights in arrows' characterizes Artemis by her hunting nature while praising her stature and beauty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "Rhetorical question",
+    "text": "The poet's questions about what to sing serve as a transition, offering the next themes of the hymn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Imagery",
+    "text": "Green hills, grassy beds and wheat-bearing plains evoke an untouched landscape before human settlement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "apostrophe",
+    "text": "The narrator addresses Apollo directly, 'O worker from afar', giving the journey a hymnic, ritual tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "characterization",
+    "text": "Telphusa flatters Apollo's strength while steering him away, showing her as cunning and deferential.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "irony",
+    "text": "Telphusa's selfish motive is exposed, yet her trick fails to benefit her; she only removes Apollo from her spring, foreshadowing later punishment.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,426 @@
+{
+ "section_id": "metamorphoses-body-71",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 14486,
+  "output": 3891
+ },
+ "result": {
+  "summary": "Minos besieges Megara, whose safety depends on a purple lock in King Nisus's hair. Nisus's daughter Scylla falls in love with Minos, cuts off the lock and brings it to him, but he rejects her in horror and sails away. She leaps into the sea to follow him, and her father, now a sea eagle, attacks her; she is changed into the bird Ciris.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Minos besieges Alcathoë",
+    "summary": "Minos lays waste the coast and besieges the city of Nisus, whose purple lock guards his kingdom. The war hangs undecided for months.",
+    "stakes": "Nisus's kingdom stands or falls with his purple lock while the siege continues.",
+    "present": [
+     "Minos",
+     "Nisus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Alcathoë (Megara)",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9942,
+     "lon": 23.3469
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 41,
+    "title": "Scylla's love and resolve",
+    "summary": "From the singing tower Scylla watches Minos, falls in love, and argues herself into betraying her father by stealing his lock.",
+    "stakes": "Scylla risks her father, her country and her own honour for a passion for the enemy.",
+    "present": [
+     "Scylla",
+     "Minos",
+     "Nisus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tower of Nisus at Alcathoë",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9942,
+     "lon": 23.3469
+    }
+   },
+   {
+    "start_sentence": 42,
+    "end_sentence": 50,
+    "title": "The theft and Minos's refusal",
+    "summary": "At night Scylla cuts the lock and brings it to Minos. He recoils, curses her, refuses to bring her to Crete and sails away.",
+    "stakes": "Scylla stakes everything on winning Minos; he risks nothing but spurns her.",
+    "present": [
+     "Scylla",
+     "Minos",
+     "Nisus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Camp of Minos near Alcathoë",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9942,
+     "lon": 23.3469
+    }
+   },
+   {
+    "start_sentence": 51,
+    "end_sentence": 86,
+    "title": "Scylla's curse and transformation",
+    "summary": "Scylla rages at the departing fleet, leaps into the sea and clings to a ship. Nisus, as a sea eagle, attacks her, and she becomes the bird Ciris.",
+    "stakes": "Scylla faces abandonment, drowning and her father's talons.",
+    "present": [
+     "Scylla",
+     "Minos",
+     "Nisus",
+     "Cupid"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The sea off Megara",
+     "modern_name": "Saronic Gulf, Greece",
+     "certainty": "real",
+     "lat": 37.85,
+     "lon": 23.3
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Minos",
+    "aliases": [
+     "the son of Europa",
+     "the Dictæan king",
+     "the Gnossian king"
+    ],
+    "kind": "mortal",
+    "description": "King of Crete, besieging Nisus's city to avenge his slain son"
+   },
+   {
+    "name": "Nisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of the besieged city, protected by his purple lock; becomes a sea eagle"
+   },
+   {
+    "name": "Scylla",
+    "aliases": [
+     "Ciris"
+    ],
+    "kind": "mortal",
+    "description": "Nisus's daughter who betrays him for love of Minos; becomes the bird Ciris"
+   },
+   {
+    "name": "Europa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Minos"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "Said to be father of Minos"
+   },
+   {
+    "name": "Pasiphaë",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Minos, who loved a bull"
+   },
+   {
+    "name": "Cupid",
+    "aliases": [],
+    "kind": "god",
+    "description": "Gives Scylla strength to swim after the ships"
+   },
+   {
+    "name": "Phœbus",
+    "aliases": [
+     "the son of Latona"
+    ],
+    "kind": "god",
+    "description": "Apollo, whose harp left its sound in the tower walls"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Nisus",
+    "relation": "parent_of",
+    "b": "Scylla",
+    "source": "text",
+    "evidence_sentence": 45
+   },
+   {
+    "a": "Europa",
+    "relation": "parent_of",
+    "b": "Minos",
+    "source": "text",
+    "evidence_sentence": 64
+   },
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Minos",
+    "source": "text",
+    "evidence_sentence": 65
+   },
+   {
+    "a": "Pasiphaë",
+    "relation": "spouse_of",
+    "b": "Minos",
+    "source": "outside",
+    "evidence_sentence": 73
+   },
+   {
+    "a": "Nisus",
+    "relation": "transformed_into",
+    "b": "sea eagle",
+    "source": "text",
+    "evidence_sentence": 83
+   },
+   {
+    "a": "Scylla",
+    "relation": "transformed_into",
+    "b": "Ciris",
+    "source": "text",
+    "evidence_sentence": 86
+   },
+   {
+    "a": "Jupiter",
+    "relation": "lover_of",
+    "b": "Europa",
+    "source": "text",
+    "evidence_sentence": 23
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Gnossian king",
+    "canonical": "Minos",
+    "explanation": "Minos is named for Gnossus (Knossos) in Crete, and also called Dictæan, after Mount Dicte."
+   },
+   {
+    "alias": "Ciris",
+    "canonical": "Scylla",
+    "explanation": "The bird name Scylla takes, explained by the Greek keirein, 'to cut', for cutting the lock."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 44,
+    "reason": "Scylla's blunt justification of her betrayal: 'Twas love that urged the deed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "reason": "Scylla's self-serving maxim that each person is a god to themselves.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Passion overrides loyalty, and treason is repaid with contempt: Minos rejects the betrayer even though he benefits from her crime.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The story shows ancient disdain for betrayal of kin and country, and links Cretan power to the Athenian-Megarian world.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The tale of Scylla and Nisus, also told in the pseudo-Virgilian Ciris, became a standard example of treacherous love in later literature."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid confuses this Scylla, daughter of Nisus, with the sea monster Scylla, a mix-up already common in ancient sources.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Lucifer is the morning star (Venus as the 'light-bringer'), here marking dawn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Lelegeians were an early people of the Megara region and Asia Minor; the poet uses the name for the coast near Nisus' realm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "The sixth horns of Phœbe means the moon's crescent had returned for the sixth time, so about six months of war had passed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Apollo, son of Latona, was said to have set his lyre on the wall while helping build it, so the stones echoed musically.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Cydonean means from Cydon in Crete, a land famed for archers; the quivers mark Minos' Cretan army.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Gnossian means of Gnossos (Knossos), Minos' city in Crete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "Dictæan refers to Mount Dicte in Crete, so it again means Minos, a Cretan king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "phrasing",
+    "text": "She means each person must make their own fortune and act for themselves, since the gods will not help her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "phrasing",
+    "text": "The 'fatal lock' is Nisus's purple hair, on which his life and kingdom depended; cutting it dooms him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "phrasing",
+    "text": "Minos curses her with exile from the whole world: 'earth and sea denied' means she is to have no place to live.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "kind": "allusion",
+    "text": "Europa was Minos's mother, carried to Crete by Jupiter as a bull. Syrtis (treacherous sandbanks off Africa) and Charybdis (a whirlpool) stand for cruelty and danger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 73,
+    "kind": "allusion",
+    "text": "Refers to Pasiphaë, Minos's wife, who hid in a wooden cow to mate with a bull and bore the Minotaur.",
+    "spoiler": false
+   },
+   {
+    "sentence": 86,
+    "kind": "word",
+    "text": "Ciris is said to derive from Greek keirein, 'to cut', hence the pun on cutting the lock.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 14,
+    "text": "Minos, king of Crete, is the son of Jupiter and Europa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Jupiter loved Europa, took the form of a bull, and carried her to Crete, where she bore Minos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Minos' son Androgeos was killed in Attica, which is why Minos made war on Athens' ally Megara.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "text": "Crete was said to be where Jupiter was born and raised; Minos was his son, as the myth told it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 83,
+    "text": "Nisus had died and been changed into a sea eagle, the bird that traditionally hunts the Ciris.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "personification",
+    "text": "Victory is imagined as a winged creature hovering between the armies, making the stalemate vivid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "characterization",
+    "text": "Scylla's loss of self-control shows her growing infatuation overpowering reason.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "hyperbole",
+    "text": "Calling the javelin and reins 'happy' for being touched shows her exaggerated, envious longing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "rhetorical question",
+    "text": "She argues with herself, justifying her desire by asking whether she would even know Minos without the war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "irony",
+    "text": "She says she would not ask him to take her father's city, yet soon proposes to betray it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "symbolism",
+    "text": "The purple lock stands for Nisus' kingly power and life, so her wish to take it signals betrayal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "personification",
+    "text": "Night is called the 'nurse of cares', as if it nurtures worries, and it also feeds Scylla's boldness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "device": "irony",
+    "text": "Minos is called a 'most just lawgiver', and his justice contrasts with Scylla's treachery that gave him victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "device": "rhetorical question",
+    "text": "A string of angry questions shows Scylla's desperation and her failure to see her own guilt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "device": "hyperbole",
+    "text": "Scylla insults Minos by saying he must have been born of tigresses or a whirlpool, so extreme is his cruelty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "device": "metamorphosis",
+    "text": "The air seems to hold her up, and feathers reveal the change to a bird, as she falls.",
+    "spoiler": false
+   }
+  ]
+ }
+}

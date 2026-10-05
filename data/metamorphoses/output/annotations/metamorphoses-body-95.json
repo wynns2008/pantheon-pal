@@ -1,0 +1,286 @@
+{
+ "section_id": "metamorphoses-body-95",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8821,
+  "output": 2715
+ },
+ "result": {
+  "summary": "Bacchus leaves Thrace, and Phrygian peasants bring his drunken tutor Silenus to King Midas, who entertains him and returns him to Bacchus. As a reward Midas asks that all he touches turn to gold, but he nearly starves and begs for release. Bacchus sends him to wash in the source of the Pactolus, which takes on the golden power.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Silenus is brought to Midas",
+    "summary": "Bacchus leaves Thrace and goes to Mount Tmolus and the Pactolus. Silenus, left behind drunk, is captured by Phrygian peasants and brought to Midas, who recognises him and feasts him for ten days.",
+    "stakes": "Silenus, old and drunk, is lost and bound, dependent on the kindness of his captors' king.",
+    "present": [
+     "Bacchus",
+     "Silenus",
+     "Midas",
+     "Satyrs",
+     "Bacchanals"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phrygia",
+     "modern_name": "Phrygia, central Anatolia (Turkey)",
+     "certainty": "real",
+     "lat": 39.0,
+     "lon": 30.5
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 26,
+    "title": "The golden touch",
+    "summary": "Midas restores Silenus to Bacchus and is offered a favour. He asks for the golden touch, tests it with delight, then finds his food and wine turn to gold.",
+    "stakes": "Midas risks starving to death and thirst because everything he touches becomes gold.",
+    "present": [
+     "Midas",
+     "Bacchus",
+     "Silenus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lydian lands",
+     "modern_name": "Lydia, western Turkey",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 28.0
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 31,
+    "title": "Midas washes in the Pactolus",
+    "summary": "Midas prays for pardon, and Bacchus tells him to bathe at the source of the river near Sardis. The golden power passes into the stream, and its soil still holds gold.",
+    "stakes": "Midas must rid himself of the curse or die of hunger and thirst.",
+    "present": [
+     "Midas",
+     "Bacchus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "River Pactolus near Sardis",
+     "modern_name": "Sart Çayı, near Sart, Turkey",
+     "certainty": "real",
+     "lat": 38.49,
+     "lon": 28.04
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Bacchus",
+    "aliases": [
+     "Liber",
+     "Lenæus"
+    ],
+    "kind": "god",
+    "description": "god of wine who grants Midas his wish and later relieves him of it"
+   },
+   {
+    "name": "Silenus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Bacchus's elderly drunken tutor and foster-father"
+   },
+   {
+    "name": "Midas",
+    "aliases": [
+     "the Berecynthian hero"
+    ],
+    "kind": "mortal",
+    "description": "Phrygian king who asks for the golden touch"
+   },
+   {
+    "name": "Orpheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thracian poet who entrusted Bacchic rites to Midas"
+   },
+   {
+    "name": "Eumolpus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cecropian who with Orpheus entrusted the orgies to Midas"
+   },
+   {
+    "name": "Satyrs",
+    "aliases": [],
+    "kind": "creature",
+    "description": "part of Bacchus's usual throng"
+   },
+   {
+    "name": "Bacchanals",
+    "aliases": [],
+    "kind": "creature",
+    "description": "female followers in Bacchus's train"
+   },
+   {
+    "name": "Ceres",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of grain, named for bread and food"
+   },
+   {
+    "name": "Danaë",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman who received Jupiter as a golden shower, mentioned in comparison"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Silenus",
+    "relation": "parent_of",
+    "b": "Bacchus",
+    "source": "outside",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Liber",
+    "canonical": "Bacchus",
+    "explanation": "Latin cult name of the god of wine."
+   },
+   {
+    "alias": "Lenæus",
+    "canonical": "Bacchus",
+    "explanation": "Epithet of Bacchus, from the wine press."
+   },
+   {
+    "alias": "Berecynthian hero",
+    "canonical": "Midas",
+    "explanation": "Midas is called this after Mount Berecyntus in Phrygia."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Midas's fateful wish for the golden touch.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "reason": "Midas, rich and wretched, begs release from his 'specious calamity'.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage is a warning about greed and foolish wishes: what Midas desires destroys the means of life. Bacchus grants it, then mercifully undoes it.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale explains why the Pactolus, in Lydia, carried gold dust, which fed the wealth of Lydian kings like Croesus.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The phrase 'the Midas touch' for a gift of making money comes from this tale. Hawthorne retold it in 'The Golden Touch' in A Wonder-Book (1852)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ancient Lydians really did gather electrum, a gold-silver alloy, from the Pactolus, and Lydia struck some of the earliest coins from it.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Cecropian means Athenian, from Cecrops, legendary first king of Athens. Eumolpus was the traditional founder of the Eleusinian Mysteries, so he and Orpheus pass on Bacchic rites to Midas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Lucifer is the morning star, here marking the dawn of the eleventh day after ten days of feasting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Berecynthian refers to Mount Berecynthus in Phrygia, linked with the goddess Cybele; it is another way of calling Midas a Phrygian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "The Hesperides were nymphs who guarded the golden apples in a western garden, so the apple looks like theirs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Danaë was visited by Jove as a shower of gold; the water from Midas's hands looks like that golden rain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "Gifts of Ceres means bread and grain; Ceres was goddess of agriculture. Likewise Bacchus in sentence 26 stands for wine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "Lenæus is a name of Bacchus, from a Greek word for wine-press.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Silenus was an old, drunken satyr who raised and educated the young Bacchus, and usually followed his train.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Sardis was the capital of Lydia. The Pactolus river there was famous in antiquity for its gold-bearing sands.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 13,
+    "device": "foreshadowing",
+    "text": "The narrator says Midas is destined to use the favour foolishly, signalling the disaster to come before he even speaks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "Midas rejoices in what is really his misfortune; the reader already sees the gift as a curse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "repetition",
+    "text": "Repeating 'the gifts of Ceres' slows the line and stresses the sudden, horrifying reversal as food turns hard.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "oxymoron",
+    "text": "'Rich and wretched' joins opposites to sum up Midas's paradox: his wish for wealth has become his punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "aetiology",
+    "text": "The tale ends by explaining why the Pactolus and its fields hold gold, a typical Ovidian origin story.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,296 @@
+{
+ "section_id": "metamorphoses-body-68",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7727,
+  "output": 2698
+ },
+ "result": {
+  "summary": "Æacus tells Cephalus how, after a plague emptied Ægina, he prayed to Jupiter for new citizens. Jupiter answered with thunder, and the ants of a sacred oak became men, the Myrmidons, who will follow Cephalus to war.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Prayer to Jupiter",
+    "summary": "Stunned by the plague's devastation, Æacus prays to Jupiter to restore his people or bury him too. Jupiter sends lightning and thunder as a sign.",
+    "stakes": "Æacus faces the total loss of his people and his kingdom, and is ready to die himself.",
+    "present": [
+     "Æacus",
+     "Jupiter"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ægina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.7467,
+     "lon": 23.4286
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 8,
+    "title": "The Oak and the Ants",
+    "summary": "Æacus sees ants streaming along the bark of Jupiter's oak and asks for as many citizens. The oak trembles without wind, and he hopes in secret.",
+    "stakes": "Hope for a repopulated city hangs on whether Jupiter will answer.",
+    "present": [
+     "Æacus",
+     "Jupiter"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Oak sacred to Jupiter, Ægina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.7467,
+     "lon": 23.4286
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 12,
+    "title": "The Dream of Men",
+    "summary": "In a dream the ants fall from the oak, grow upright and take human shape. Æacus wakes and complains that the gods have not helped him.",
+    "stakes": "Æacus risks despair, believing the vision false.",
+    "present": [
+     "Æacus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Palace of Æacus, Ægina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.7467,
+     "lon": 23.4286
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 19,
+    "title": "The Myrmidons Appear",
+    "summary": "Telamon wakes his father to see the men in the palace, the same as in the dream. Æacus gives them the city and lands and names them Myrmidons.",
+    "stakes": "The kingdom's survival depends on the new people being real.",
+    "present": [
+     "Æacus",
+     "Telamon",
+     "Myrmidons",
+     "Jupiter"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Palace of Æacus, Ægina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.7467,
+     "lon": 23.4286
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 22,
+    "title": "Offer of Aid in War",
+    "summary": "Æacus tells Cephalus the Myrmidons keep their ant-like thrift and will go with him to war once the wind changes.",
+    "stakes": "",
+    "present": [
+     "Æacus",
+     "Cephalus",
+     "Myrmidons"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ægina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.7467,
+     "lon": 23.4286
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Æacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Ægina, son of Jupiter, who narrates"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [
+     "Father"
+    ],
+    "kind": "god",
+    "description": "King of the gods, who answers the prayer"
+   },
+   {
+    "name": "Ægina",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Asopus, loved by Jupiter, mother of Æacus"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Ægina"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Æacus, who announces the new men"
+   },
+   {
+    "name": "Myrmidons",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Men made from ants"
+   },
+   {
+    "name": "Cephalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian envoy who listens to the tale"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Æacus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Jupiter",
+    "relation": "lover_of",
+    "b": "Ægina",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Asopus",
+    "relation": "parent_of",
+    "b": "Ægina",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Æacus",
+    "relation": "parent_of",
+    "b": "Telamon",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Ægina",
+    "relation": "parent_of",
+    "b": "Æacus",
+    "source": "outside",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 19,
+    "reason": "Gives the origin of the Myrmidons' name from ants.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows renewal after catastrophe: divine favor, dreams and omens restore a people wiped out by plague.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It is an aetiological myth explaining the name Myrmidons, and a tale linking Ægina to Jupiter's oak oracle at Dodona.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Myrmidons became proverbial for loyal, unquestioning followers; the word 'myrmidon' entered English with that sense."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Greek myrmex means 'ant', and the pun on Myrmidons is likely older than Ovid.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Jupiter's union with Ægina, daughter of the river-god Asopus, produced Æacus. He appeals to this story to claim divine fatherhood and a father's duty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "'Propitious' means favorable. Thunder and lightning were read as signs of Jupiter's will, so the omen is taken as a yes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Dodona in Epirus had the oldest oracle of Jupiter (Zeus), centered on a sacred oak. An oak grown from its acorns is therefore especially holy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Myrmidons comes from the Greek myrmex, 'ant'. The name preserves their origin, as the sentence says.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "The parenthesis explains Cephalus's arrival by east wind. He is waiting for a change to the south wind, which will allow the fleet to sail.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Æacus, king of the island Ægina, is telling Cephalus how a plague sent by Juno emptied his island before the Myrmidons arrived.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Telamon is a son of Æacus and later father of Ajax. His arrival confirms the dream is real.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "imagery",
+    "text": "The ants' long train, heavy burdens and tiny mouths gives a vivid picture of orderly labor. This prepares for the later description of the Myrmidons' thrift.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "paradox",
+    "text": "He denies having hope yet admits he hoped. This shows the fear of a man who dares not trust a good omen after such losses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "metamorphosis",
+    "text": "The gradual change is described step by step: growth, standing upright, losing legs and dark color, taking human limbs. This makes the transformation seem vivid and almost natural.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "characterization",
+    "text": "The ants' habits are carried into the people, so a nation's character is explained by its origin. This is a typical aetiological touch.",
+    "spoiler": false
+   }
+  ]
+ }
+}

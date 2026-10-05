@@ -1,0 +1,304 @@
+{
+ "section_id": "metamorphoses-body-27",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7188,
+  "output": 2604
+ },
+ "result": {
+  "summary": "Mercury steals Apollo's cattle at Pylos while Apollo is distracted by love and his pipe. The old herdsman Battus sees him and accepts a cow to keep silent. Mercury returns in disguise, tests him with a bigger bribe, and turns him into a touchstone when he talks.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Argument and Apollo's absence",
+    "summary": "The prose summary gives the outline of the fable, then the poet notes that Apollo could not help Chiron and was away in Elis and Messenia.",
+    "stakes": "",
+    "present": [
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Elis and the Messenian fields",
+     "modern_name": "Elis and Messenia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 21.8
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 8,
+    "title": "Apollo as shepherd; cattle stolen",
+    "summary": "Apollo, dressed as a shepherd and in love, plays his pipe while Mercury drives his cows into the woods. Only the old herdsman Battus sees it.",
+    "stakes": "Apollo's herd is lost through his distraction; Mercury risks discovery.",
+    "present": [
+     "Apollo",
+     "Mercury",
+     "Battus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pylos",
+     "modern_name": "Pylos, Greece",
+     "certainty": "real",
+     "lat": 36.91,
+     "lon": 21.7
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 11,
+    "title": "Mercury bribes Battus",
+    "summary": "Mercury gives Battus a cow to deny seeing the herd. Battus promises silence, saying a stone would sooner tell.",
+    "stakes": "Mercury risks exposure of the theft.",
+    "present": [
+     "Mercury",
+     "Battus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pylos",
+     "modern_name": "Pylos, Greece",
+     "certainty": "real",
+     "lat": 36.91,
+     "lon": 21.7
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 16,
+    "title": "Disguised test and the touchstone",
+    "summary": "Mercury returns in disguise and offers a cow and bull. Battus betrays the secret, and Mercury turns him into a touchstone.",
+    "stakes": "Battus loses his human form as punishment for perjury.",
+    "present": [
+     "Mercury",
+     "Battus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pylos",
+     "modern_name": "Pylos, Greece",
+     "certainty": "real",
+     "lat": 36.91,
+     "lon": 21.7
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Mercury",
+    "aliases": [
+     "son of Maia",
+     "son of Jupiter",
+     "son of Atlas"
+    ],
+    "kind": "god",
+    "description": "cattle-thief god who disguises himself and punishes Battus"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "God of Delphi"
+    ],
+    "kind": "god",
+    "description": "god whose cattle are stolen while he plays his pipe"
+   },
+   {
+    "name": "Battus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "old herdsman who betrays Mercury and becomes stone"
+   },
+   {
+    "name": "Maia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of Atlas, mother of Mercury"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Maia"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Mercury whose orders cannot be reversed"
+   },
+   {
+    "name": "Neleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "rich owner of the mares Battus keeps"
+   },
+   {
+    "name": "Chiron",
+    "aliases": [
+     "Philyrean hero"
+    ],
+    "kind": "creature",
+    "description": "centaur who wept to Apollo in vain"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Maia",
+    "relation": "parent_of",
+    "b": "Mercury",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Atlas",
+    "relation": "parent_of",
+    "b": "Maia",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Mercury",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Battus",
+    "relation": "transformed_into",
+    "b": "touchstone",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Jupiter",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "outside",
+    "evidence_sentence": 3
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Philyrean hero",
+    "canonical": "Chiron",
+    "explanation": "Chiron was the son of the nymph Philyra."
+   },
+   {
+    "alias": "God of Delphi",
+    "canonical": "Apollo",
+    "explanation": "Apollo's oracle was at Delphi."
+   },
+   {
+    "alias": "son of Maia",
+    "canonical": "Mercury",
+    "explanation": "Metronymic for Mercury."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 15,
+    "reason": "Mercury's ironic rebuke of Battus for betraying him to himself.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The tale punishes broken promises and greed: Battus can be bought twice and pays by being turned to stone.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The story gives an origin for the touchstone, used to test the purity of gold, as Battus's loyalty is tested.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Ovid's tale echoes the Homeric Hymn to Hermes, where the infant Hermes steals Apollo's cattle.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Philyrean hero is the centaur Chiron, son of Philyra. He was wounded and in agony, and Apollo, god of healing, could not cure him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "The translator's braces mark words supplied for sense, such as {God}. Delphi is Apollo's oracle site, and the poet addresses him directly as 'thou'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Pylos was the city of Neleus in Messenia. The cows are Apollo's, left unguarded while he is distracted by love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The son of Maia is Mercury (the Greek Hermes), known as a god of thieves and tricks. Here he steals Apollo's cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "'Lest no requital be paid thee' means roughly 'so that you are not left unrewarded'. The wording is stiff and archaic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "A touchstone is a dark stone used to test the purity of gold or silver by the streak it leaves. Here it also suggests testing Battus's honesty.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "The pipe with seven reeds of unequal length is the syrinx or panpipe, the shepherd's instrument. Apollo plays it while in disguise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Neleus was the king of Pylos and father of Nestor. Battus tends his herds and mares.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "apostrophe",
+    "text": "The poet turns to address Apollo directly, giving the narration a tone of sorrowful intimacy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "irony",
+    "text": "Battus's boast that a stone would speak sooner than he will be ironically undone, since he himself becomes a stone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "Battus is bought twice, and the insistence that the cows really were there stresses that his betrayal was true, not a guess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "aetiology",
+    "text": "The tale ends by explaining the origin of the name 'touchstone', a common Ovidian closing for a transformation story.",
+    "spoiler": false
+   }
+  ]
+ }
+}

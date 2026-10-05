@@ -1,0 +1,264 @@
+{
+ "section_id": "hesiod-body-78",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5775,
+  "output": 2151
+ },
+ "result": {
+  "summary": "The hymnist praises Hermes, lord of Cyllene and Arcadia and messenger of the gods. He tells how Hermes was born to the shy nymph Maia, who secretly lay with Zeus in a cave while Hera slept. The hymn then bids Hermes farewell and moves on to another song.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 0,
+    "title": "Invocation of Hermes",
+    "summary": "The singer announces his song about Hermes, lord of Cyllene and Arcadia and messenger of the gods.",
+    "stakes": "",
+    "present": [
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cyllene",
+     "modern_name": "Mount Kyllini, Greece",
+     "certainty": "real",
+     "lat": 37.94,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 1,
+    "end_sentence": 2,
+    "title": "Birth of Hermes",
+    "summary": "Maia, a shy goddess living in a shadowy cave, secretly lies with Zeus at night while Hera sleeps. Hermes is born of this union.",
+    "stakes": "Discovery by Hera, which is avoided because the affair stays unknown to gods and men.",
+    "present": [
+     "Maia",
+     "Zeus",
+     "Hera",
+     "Hermes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "shadowy cave",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 4,
+    "title": "Farewell and Hail",
+    "summary": "The singer greets Hermes and says he will turn to another song.",
+    "stakes": "",
+    "present": [
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "place of recitation",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Cyllenian Hermes",
+     "Slayer of Argus"
+    ],
+    "kind": "god",
+    "description": "messenger of the gods, lord of Cyllene and Arcadia, giver of good things"
+   },
+   {
+    "name": "Maia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "shy daughter of Atlas, mother of Hermes"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Maia"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "father of Hermes, lies secretly with Maia"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Zeus"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "white-armed wife of Zeus, kept asleep and unaware"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Maia",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Atlas",
+    "relation": "parent_of",
+    "b": "Maia",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Maia",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "outside",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Slayer of Argus",
+    "canonical": "Hermes",
+    "explanation": "Epithet recalling Hermes killing the many-eyed giant Argus."
+   },
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "Patronymic for Zeus."
+   },
+   {
+    "alias": "Cyllenian Hermes",
+    "canonical": "Hermes",
+    "explanation": "Hermes named for Mount Cyllene, his birthplace in tradition."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Concise closing salutation summing up Hermes' roles as guide and giver of good things.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn opens by naming Hermes' domains and his secret birth, showing the gods' family intrigues and Zeus's hidden affairs.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Hymns like this were sung as preludes at festivals, and the closing line moves to another song, as was customary.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "This is the short Hymn XVIII; the much longer Hymn IV to Hermes tells of his theft of Apollo's cattle.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Cyllenian: of Mount Cyllene in Arcadia, Hermes' traditional birthplace and a centre of his worship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Slayer of Argus: Hermes killed the hundred-eyed giant Argus, set to guard Io, a cow-form lover of Zeus, on Hera's orders.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "Son of Cronos: Zeus, named by his father's name; the translator avoids repeating 'Zeus' here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Bound in sweet sleep\" means held fast by sleep, so Hera cannot notice the affair.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Hail\" is a formal greeting or farewell, here closing the hymn's address to the god.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Maia was one of the Pleiades, daughters of the Titan Atlas, who holds up the sky.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Hera, Zeus' wife and queen of the gods, was jealous of his many lovers, hence the secrecy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Homeric Hymns typically end by saying farewell to the god and promising to move on to another song.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "epithet",
+    "text": "Titles like Slayer of Argus and luck-bringing messenger identify Hermes by his famous roles and honour him as the hymn's subject.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "imagery",
+    "text": "Shadowy cave, dead of night and sweet sleep create an atmosphere of secrecy surrounding the god's conception.",
+    "spoiler": false
+   }
+  ]
+ }
+}

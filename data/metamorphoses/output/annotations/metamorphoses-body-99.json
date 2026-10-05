@@ -1,0 +1,698 @@
+{
+ "section_id": "metamorphoses-body-99",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 27335,
+  "output": 6804
+ },
+ "result": {
+  "summary": "Ceyx sails for the oracle at Claros despite Halcyone's pleas and dies in a storm at sea. Juno sends Iris to Sleep, who dispatches Morpheus in Ceyx's shape to tell Halcyone. She finds his body on the shore, and the gods change both into kingfishers.",
+  "scenes": [
+   {
+    "start_sentence": 4,
+    "end_sentence": 32,
+    "title": "Halcyone pleads; Ceyx departs",
+    "summary": "Ceyx prepares to consult the oracle at Claros. Halcyone begs to go with him, but he swears to return within two months and sails, and she watches until the ship is out of sight.",
+    "stakes": "Halcyone risks losing her husband to the sea; Ceyx risks the dangers of the voyage.",
+    "present": [
+     "Ceyx",
+     "Halcyone"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Trachin",
+     "modern_name": "Trachis, near Lamia, Greece",
+     "certainty": "traditional",
+     "lat": 38.8,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 71,
+    "title": "Storm and shipwreck",
+    "summary": "A storm breaks the ship in the Aegean. Ceyx clings to wreckage, calling on Halcyone, until a wave buries him.",
+    "stakes": "Ceyx and the crew face drowning.",
+    "present": [
+     "Ceyx"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aegean Sea",
+     "modern_name": "Aegean Sea",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 25.0
+    }
+   },
+   {
+    "start_sentence": 72,
+    "end_sentence": 97,
+    "title": "Iris visits the House of Sleep",
+    "summary": "Halcyone prays to Juno for a husband already dead. Juno sends Iris to the cave of Sleep, who picks Morpheus for the task.",
+    "stakes": "Halcyone's hope is false; Iris risks falling asleep in the cave.",
+    "present": [
+     "Halcyone",
+     "Juno",
+     "Iris",
+     "Sleep",
+     "Morpheus",
+     "Icelos",
+     "Phantasos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cave of Sleep near the Cimmerians",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 98,
+    "end_sentence": 129,
+    "title": "Morpheus appears as Ceyx",
+    "summary": "Morpheus, in the form of the drowned Ceyx, tells Halcyone of his death. She wakes and resolves to follow him in death.",
+    "stakes": "Halcyone is overwhelmed by grief and resolves to die.",
+    "present": [
+     "Morpheus",
+     "Halcyone",
+     "Ceyx"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Trachin",
+     "modern_name": "Trachis, near Lamia, Greece",
+     "certainty": "traditional",
+     "lat": 38.8,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 130,
+    "end_sentence": 145,
+    "title": "Transformation into kingfishers",
+    "summary": "Halcyone finds Ceyx's body in the sea and leaps from a mole. She turns into a bird and the gods change Ceyx too. They mate and she nests on calm seas.",
+    "stakes": "Halcyone faces despair and death at her husband's loss.",
+    "present": [
+     "Halcyone",
+     "Ceyx",
+     "Aeolus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Shore at Trachin",
+     "modern_name": "Trachis, near Lamia, Greece",
+     "certainty": "traditional",
+     "lat": 38.8,
+     "lon": 22.5
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ceyx",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Trachin, husband of Halcyone, drowned at sea"
+   },
+   {
+    "name": "Halcyone",
+    "aliases": [
+     "daughter of Æolus"
+    ],
+    "kind": "mortal",
+    "description": "Ceyx's wife, turned into a kingfisher"
+   },
+   {
+    "name": "Juno",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who sends Iris to Sleep"
+   },
+   {
+    "name": "Iris",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Rainbow messenger of Juno"
+   },
+   {
+    "name": "Sleep",
+    "aliases": [
+     "Father Sleep"
+    ],
+    "kind": "god",
+    "description": "God of sleep in his dark cave"
+   },
+   {
+    "name": "Morpheus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Son of Sleep who imitates human shapes"
+   },
+   {
+    "name": "Icelos",
+    "aliases": [
+     "Phobetor"
+    ],
+    "kind": "god",
+    "description": "Son of Sleep who takes animal shapes"
+   },
+   {
+    "name": "Phantasos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Son of Sleep who becomes lifeless things"
+   },
+   {
+    "name": "Æolus",
+    "aliases": [
+     "grandson of Hippotas"
+    ],
+    "kind": "god",
+    "description": "Keeper of the winds, father of Halcyone"
+   },
+   {
+    "name": "Lucifer",
+    "aliases": [
+     "Morning Star"
+    ],
+    "kind": "god",
+    "description": "The morning star, Ceyx's father, hidden by clouds"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ceyx",
+    "relation": "spouse_of",
+    "b": "Halcyone",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Æolus",
+    "relation": "parent_of",
+    "b": "Halcyone",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Lucifer",
+    "relation": "parent_of",
+    "b": "Ceyx",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Sleep",
+    "relation": "parent_of",
+    "b": "Morpheus",
+    "source": "text",
+    "evidence_sentence": 92
+   },
+   {
+    "a": "Halcyone",
+    "relation": "transformed_into",
+    "b": "kingfisher",
+    "source": "text",
+    "evidence_sentence": 139
+   },
+   {
+    "a": "Ceyx",
+    "relation": "transformed_into",
+    "b": "kingfisher",
+    "source": "text",
+    "evidence_sentence": 142
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phobetor",
+    "canonical": "Icelos",
+    "explanation": "Icelos is the name used by the gods; mortals call him Phobetor."
+   },
+   {
+    "alias": "daughter of Thaumas",
+    "canonical": "Iris",
+    "explanation": "Patronymic for Iris."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 89,
+    "reason": "Iris's invocation of Sleep as the repose of all things.",
+    "spoiler": false
+   },
+   {
+    "sentence": 143,
+    "reason": "Summarizes the myth: their love survives transformation.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Conjugal love outlasts death and is rewarded with metamorphosis, which turns grief into a lasting natural phenomenon.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale explains the 'halcyon days', the calm winter days when kingfishers were believed to nest on the sea.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The phrase 'halcyon days' for a calm, happy time derives from this myth."
+   },
+   {
+    "kind": "history",
+    "text": "Morpheus gave his name to morphine, and the House of Sleep influenced later poets such as Chaucer in The Book of the Duchess."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The genus of kingfishers, Halcyon, is named after Halcyone.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Phorbas and his Phlegyans were a violent, lawless people said to block and plunder travellers to Delphi, so Ceyx must go to the Clarian oracle instead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Empty tombs (cenotaphs) bore the names of those lost at sea whose bodies were never recovered.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The grandson of Hippotas is Aeolus, keeper of the winds and Halcyone's father, so Ceyx is his son-in-law.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "'Brilliant fires' means lightning, which the winds are imagined as striking out of the clouds by their violent collisions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Ceyx is son of Lucifer, the Morning Star (Phosphorus), the planet Venus as herald of dawn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "'Before the moon has twice completed her orb' means within two months. 'The fire of my sire' is his father the Morning Star's light.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "'Cleave the main' means to cut through the open sea; 'main' is an old word for ocean.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "Sailyards are the yards, the horizontal spars that hold the top of a square sail. \"Pendent oars\" are oars hanging from their holes along the ship's sides.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "allusion",
+    "text": "Stygian waves are the waters of the Styx, the dark river of the underworld, used here as an image of utter blackness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "allusion",
+    "text": "Trachinian means from Trachis, Ceyx's city in Thessaly. Acheron is another river of the underworld, here standing for the depths.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "word",
+    "text": "The balista was an ancient siege engine that hurled heavy stones or bolts. The battering ram was likewise used against walls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "phrasing",
+    "text": "The ship's planks were joined with bolts, and the seams were sealed with wax. The pounding waves loosen both, so water pours in.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "kind": "allusion",
+    "text": "Ancient belief held that every tenth wave was the largest and most violent. A note in the text marks this.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "phrasing",
+    "text": "Those \"whom funeral rites await\" are the lucky ones whose bodies will be recovered and buried. Drowning at sea meant no burial.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "kind": "allusion",
+    "text": "Athos and Pindus are great mountains, in Macedonia and northern Greece. The comparison shows the wave's enormous weight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "kind": "allusion",
+    "text": "Lucifer is the morning star, the planet Venus as light-bringer. It cannot leave the sky, so it hides behind the clouds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "kind": "allusion",
+    "text": "The daughter of Æolus is Halcyone. Her husband Ceyx has already drowned at sea, though she does not know it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 76,
+    "kind": "phrasing",
+    "text": "Juno refuses to let her altars be touched by Halcyone's hands, which are 'polluted' because she prays for a dead man, treated as ritually unclean.",
+    "spoiler": false
+   },
+   {
+    "sentence": 76,
+    "kind": "word",
+    "text": "'Soporiferous' means sleep-bringing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 79,
+    "kind": "allusion",
+    "text": "The Cimmerians were a legendary people said to live in perpetual darkness at the edge of the world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 83,
+    "kind": "allusion",
+    "text": "Lethe is the river of forgetfulness in the underworld; here its waters lull people to sleep.",
+    "spoiler": false
+   },
+   {
+    "sentence": 89,
+    "kind": "word",
+    "text": "'Herculean Trachyn' is Trachis, the city where Ceyx and Halcyone lived, linked to Hercules, who spent time there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 94,
+    "kind": "allusion",
+    "text": "Icelos means 'like' (a thing resembling); Phobetor means 'frightener.' Each name is given by gods and mortals respectively.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "kind": "allusion",
+    "text": "Iris is called daughter of Thaumas in myth; here the phrase identifies her as Juno's messenger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 98,
+    "kind": "allusion",
+    "text": "The Hæmonian city is Trachis in Thessaly (Hæmonia), Ceyx's home, where Halcyone waits. Morpheus is the god of dreams who takes human shapes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 104,
+    "kind": "allusion",
+    "text": "The Ægean Sea is the sea between Greece and Asia Minor, where Ceyx's ship was wrecked on his voyage to consult an oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 107,
+    "kind": "word",
+    "text": "Tartarus here means the underworld generally, the realm of the dead, to which the unmourned ghost is sent without proper rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 119,
+    "kind": "word",
+    "text": "Wonted means customary or usual, so she means his familiar features.",
+    "spoiler": false
+   },
+   {
+    "sentence": 128,
+    "kind": "phrasing",
+    "text": "The urn holds a dead person's ashes. Halcyone says that even without Ceyx's bones, a shared tomb inscription will join their names.",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "kind": "phrasing",
+    "text": "\"Moved at the omen\" means she is troubled by the sight of a drowned stranger, which seems a bad sign for her own husband at sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 137,
+    "kind": "word",
+    "text": "A mole is a stone breakwater or pier built out into the water to shelter a harbour from waves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 138,
+    "kind": "phrasing",
+    "text": "\"'Tis wondrous that she could\" signals that her leap is already the start of her transformation; she flies rather than falls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 144,
+    "kind": "allusion",
+    "text": "The seven calm days (with a similar period after) are the proverbial \"halcyon days\", when winter storms were said to pause for the kingfisher's nesting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 145,
+    "kind": "allusion",
+    "text": "Æolus is the keeper of the winds. He is called Halcyone's father in this tale, so the sea is calmed for his descendants.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Claros, near Colophon, had a famed oracle of Apollo, the 'Clarian God', consulted for guidance about fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "The stern of an ancient ship was high and curved, so Ceyx stands conspicuously there to wave to her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Ceyx is sailing across the Aegean to consult an oracle. He is leaving his wife Halcyone behind, and she had begged him not to go.",
+    "spoiler": false
+   },
+   {
+    "sentence": 59,
+    "text": "Halcyone is Ceyx's wife. Her fear of the sea was the reason she begged him to stay, and the reader knows her fears are coming true.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "text": "Ceyx is a king, so the hand that once held the sceptre now grips wreckage. His father is Lucifer, the morning star, and his father-in-law is Aeolus, god of winds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "text": "Iris is Juno's messenger and goddess of the rainbow, which is the 'curving arch' she travels along.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "text": "Poppies were linked with sleep because opium is made from them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 92,
+    "text": "Morpheus is the god of dreams who takes human form; his name is the root of 'morphine.'",
+    "spoiler": false
+   },
+   {
+    "sentence": 107,
+    "text": "Ancient Greeks and Romans believed the unburied or unmourned dead could not rest, so ritual lament and mourning dress mattered.",
+    "spoiler": false
+   },
+   {
+    "sentence": 124,
+    "text": "Halcyone and Ceyx are devoted spouses; in the myth they are later turned into kingfishers (halcyons).",
+    "spoiler": false
+   },
+   {
+    "sentence": 142,
+    "text": "Ceyx and Halcyone are pitied by the gods, and the transformation reunites them. The Latin word for kingfisher, halcyon, comes from her name.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "simile",
+    "text": "Halcyone's pale face is compared to boxwood, a pale yellowish wood, vividly conveying her fear and sickness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "repetition",
+    "text": "'Three times... three times' stresses her failed attempts to speak, showing her grief overpowering words.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "personification",
+    "text": "The winds 'take possession' and 'disregard' land and sea as willful, lawless beings, expressing her dread of nature's power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "foreshadowing",
+    "text": "Halcyone's shudder, 'presaging the future,' hints that this parting will be final and that disaster awaits Ceyx.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "anaphora",
+    "text": "The repeated 'When... still' pattern traces her gaze following the shrinking ship, stretching out the lingering moment of parting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "Personification",
+    "text": "The winds \"wage war\" and the sea is \"furious\", giving the elements human aggression and prefiguring the siege imagery that follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "device": "Hyperbole",
+    "text": "The ship seems to look down into the underworld from a wave-peak and up at heaven from the trough, exaggerating the swell's height.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "device": "Epic simile",
+    "text": "The wave breaking into the ship is compared at length to a soldier storming a city wall, turning the storm into a military assault.",
+    "spoiler": false
+   },
+   {
+    "sentence": 59,
+    "device": "Irony",
+    "text": "Ceyx regrets only Halcyone yet rejoices she is absent. His love makes him glad she is spared from sharing his death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 62,
+    "device": "Simile",
+    "text": "The wave is likened to a conqueror gazing down over its spoil, so the sea becomes a victorious general.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "device": "Pathetic fallacy",
+    "text": "The morning star hides its face in sorrow at the death of his son, so the heavens seem to mourn Ceyx.",
+    "spoiler": false
+   },
+   {
+    "sentence": 81,
+    "device": "imagery",
+    "text": "A list of absent sounds, the crowing bird, dogs and geese, builds the cave's silence through what is missing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 83,
+    "device": "onomatopoeia",
+    "text": "The murmuring rivulet over sounding pebbles echoes the soft sound that lulls the sleeper.",
+    "spoiler": false
+   },
+   {
+    "sentence": 86,
+    "device": "repetition",
+    "text": "Black, dark, dark and concealed pile up to make the couch's gloom heavy and drowsy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 87,
+    "device": "simile",
+    "text": "The dreams are as many as ears of corn, leaves and sands, conveying their countless number.",
+    "spoiler": false
+   },
+   {
+    "sentence": 89,
+    "device": "apostrophe",
+    "text": "Iris addresses Sleep directly in repeated praise, flattering him while describing his gentle powers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "device": "personification",
+    "text": "Sleep himself drops his head and sinks back drowsy, so the god enacts his own nature even while giving orders.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "device": "imagery",
+    "text": "Dripping beard and soaking hair give a vivid visual detail of drowning, making the false apparition seem real.",
+    "spoiler": false
+   },
+   {
+    "sentence": 101,
+    "device": "irony",
+    "text": "Ceyx's ghost tells her to find a ghost instead of a husband; the speaker is actually Morpheus, a deceiving spirit who tells the truth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 125,
+    "device": "repetition",
+    "text": "Repeated 'now, absent' stresses her separation from Ceyx and the pain of being divided in death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 126,
+    "device": "comparison",
+    "text": "She calls her own heart crueler than the sea, using the killer sea as a measure of what staying alive would mean.",
+    "spoiler": false
+   },
+   {
+    "sentence": 135,
+    "device": "Parallelism",
+    "text": "The repeated comparative \"the more... the less and the less\" mirrors her dawning recognition and growing loss of composure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 136,
+    "device": "Apostrophe",
+    "text": "Her address to the corpse, with its repeated \"is it thus\", voices her grief directly and makes the recognition painfully immediate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 141,
+    "device": "Pathos",
+    "text": "The cold kisses from a hardened bill show her love persisting in a changed body unable to revive him, which heightens the sorrow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 143,
+    "device": "Theme",
+    "text": "The sentence states the story's central idea: love survives change of form, so the metamorphosis rewards devotion rather than only punishing.",
+    "spoiler": false
+   }
+  ]
+ }
+}

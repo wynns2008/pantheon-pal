@@ -1,0 +1,498 @@
+{
+ "section_id": "metamorphoses-body-107",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 15328,
+  "output": 4377
+ },
+ "result": {
+  "summary": "Aeneas's Trojans sail past Epirus to Sicily, where Scylla tells the sea nymphs of her suitors. Galatea answers by telling how the Cyclops Polyphemus, rejected in love, killed her beloved Acis with a rock, and how Acis became a river.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Voyage to Sicily; Scylla and Charybdis",
+    "summary": "The Trojans pass Epirus and, guided by Helenus's advice, enter Sicily near the Zanclaean sands. The poet describes Scylla and Charybdis.",
+    "stakes": "Ships risk destruction by Charybdis and Scylla.",
+    "present": [
+     "Helenus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sicania",
+     "modern_name": "Sicily",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 14.0
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 14,
+    "title": "Scylla and Galatea converse",
+    "summary": "Scylla laments to the sea nymphs that she could not escape the Cyclops. Galatea begins to tell of Acis.",
+    "stakes": "Scylla's grief over unwanted pursuit.",
+    "present": [
+     "Scylla",
+     "Galatea"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sicilian shore",
+     "modern_name": "Strait of Messina",
+     "certainty": "real",
+     "lat": 38.2,
+     "lon": 15.6
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 24,
+    "title": "Polyphemus in love",
+    "summary": "Galatea describes how Polyphemus, once savage, tends his looks for love. Telemus prophesies that Ulysses will take his eye.",
+    "stakes": "Polyphemus will lose his eye to Ulysses.",
+    "present": [
+     "Galatea",
+     "Polyphemus",
+     "Telemus",
+     "Acis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ætna",
+     "modern_name": "Mount Etna",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 14.99
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 60,
+    "title": "The Cyclops's song",
+    "summary": "Polyphemus sits on a headland and sings to Galatea, praising her, boasting of his gifts, and threatening Acis.",
+    "stakes": "Acis and Galatea are hidden and in danger from his jealous rage.",
+    "present": [
+     "Polyphemus",
+     "Galatea",
+     "Acis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Headland by Ætna",
+     "modern_name": "Sicilian coast near Etna",
+     "certainty": "traditional",
+     "lat": 37.6,
+     "lon": 15.15
+    }
+   },
+   {
+    "start_sentence": 61,
+    "end_sentence": 71,
+    "title": "Death of Acis",
+    "summary": "Polyphemus discovers the lovers and hurls a rock, crushing Acis. Galatea changes his blood into a river.",
+    "stakes": "Acis's life.",
+    "present": [
+     "Polyphemus",
+     "Acis",
+     "Galatea"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Slopes of Ætna",
+     "modern_name": "Aci river, Sicily",
+     "certainty": "traditional",
+     "lat": 37.62,
+     "lon": 15.16
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Polyphemus",
+    "aliases": [
+     "the Cyclop"
+    ],
+    "kind": "monster",
+    "description": "one-eyed Cyclops who loves Galatea and kills Acis"
+   },
+   {
+    "name": "Acis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Faunus and Symæthis, loved by Galatea; becomes a river"
+   },
+   {
+    "name": "Galatea",
+    "aliases": [
+     "the Nereid"
+    ],
+    "kind": "nymph",
+    "description": "sea nymph, daughter of Nereus and Doris, who loves Acis"
+   },
+   {
+    "name": "Scylla",
+    "aliases": [],
+    "kind": "monster",
+    "description": "once a maiden, now a monster ringed with dogs"
+   },
+   {
+    "name": "Helenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phrygian prophet, son of Priam"
+   },
+   {
+    "name": "Telemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "prophet, son of Eurymus, who foretells Polyphemus's blinding"
+   },
+   {
+    "name": "Ulysses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero foretold to blind Polyphemus"
+   },
+   {
+    "name": "Faunus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Acis"
+   },
+   {
+    "name": "Symæthis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "mother of Acis"
+   },
+   {
+    "name": "Nereus",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god, father of Galatea"
+   },
+   {
+    "name": "Doris",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Galatea"
+   },
+   {
+    "name": "Charybdis",
+    "aliases": [],
+    "kind": "monster",
+    "description": "whirlpool that swallows ships"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Helenus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Faunus",
+    "relation": "parent_of",
+    "b": "Acis",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Symæthis",
+    "relation": "parent_of",
+    "b": "Acis",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Nereus",
+    "relation": "parent_of",
+    "b": "Galatea",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Doris",
+    "relation": "parent_of",
+    "b": "Galatea",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Priam",
+    "relation": "parent_of",
+    "b": "Helenus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Galatea",
+    "relation": "lover_of",
+    "b": "Acis",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Acis",
+    "relation": "transformed_into",
+    "b": "river",
+    "source": "text",
+    "evidence_sentence": 71
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Jupiter",
+    "canonical": "Jove",
+    "explanation": "Polyphemus uses both Roman names for the king of the gods."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 29,
+    "reason": "Polyphemus's comic, tender catalogue of Galatea's beauty, a famous love song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "reason": "Closing line of the transformation, naming the river Acis.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Love turns a brutal monster both ridiculous and tender, then violent when rejected; desire and jealousy end in metamorphosis.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Ovid reworks a pastoral tradition from Theocritus and Hellenistic poets, tying the tale to Sicilian places and the river Acis near Etna.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The tale inspired Góngora's Fábula de Polifemo y Galatea (1612) and Handel's masque Acis and Galatea (1718)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Polyphemus's catalogue of similes in his song echoes earlier Greek pastoral poetry, especially Theocritus's Idyll 11.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "The Phæacians lived on Corcyra (Corfu), identified with Homer's island of Alcinous, famous for its orchards and gardens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Buthrotos was a town in Epirus where Helenus ruled, and he had built a small imitation of Troy there, hence 'fictitious Troy'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Sicania is an old name for Sicily, from the Sicani, early inhabitants of the island.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Zephyrs are west winds and Boreas is the north wind; 'the Bear' means the northern constellation, so north.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "The parenthesis shows the poet hedging: Scylla's earlier human form may be only a poets' invention.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "The syntax is clumsy: Scylla, having rejected her suitors, went to the sea nymphs and told them of the lovers she had eluded.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "'Not able, but through the waves' means she could escape the Cyclops only by fleeing into the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "'Eight birth-days a second time' means sixteen years old; the 'dubious down' is the first faint beard.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Contemner\" means one who despises or scorns; Polyphemus scorned Olympus and the gods who live there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Ulysses blinded Polyphemus in the Odyssey; Telemus's prophecy anticipates this event, which the reader is expected to know.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Polyphemus means that love (Galatea) has already \"taken\" his eye, in the sense of captivating it; he misreads the prophecy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "\"Sail-yards\" are the horizontal spars that hold a ship's sails, showing how huge the pine-staff is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "\"Cornels\" are cornelian cherries, small red fruits of the dogwood family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "phrasing",
+    "text": "Polyphemus pretends not to know Jupiter, whom Galatea has mentioned; he dismisses the king of the gods as unknown and unimportant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "allusion",
+    "text": "His father is Neptune, god of the sea, so he claims a share in Galatea's watery realm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "kind": "allusion",
+    "text": "Acis's grandsire is a river god, since his mother was a river nymph; Galatea turns him into a river god.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Sicily is triangular, which is why it was called Trinacria, 'three-pointed'. The three capes follow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Scylla and Charybdis were the sea perils on either side of the Sicilian strait, known to readers from Homer's Odyssey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Nereus and Doris were sea deities, and their daughters were the fifty Nereids, among them Galatea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Faunus was an Italian woodland god. Acis is his son by a river nymph, Symæthis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Venus is the goddess of love; her power over gods and monsters alike is a theme of the tale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Mount Ætna in Sicily was traditionally the home of the Cyclopes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "text": "A buckler is a small round shield; the comparison stresses the Cyclops's single huge eye.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "text": "Galatea is a Nereid, daughter of the sea god Nereus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "Epithet",
+    "text": "'Restless' characterizes Charybdis with a single word, giving her a constant, churning menace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "Narrative voice",
+    "text": "The poet's aside, 'if the poets have not left the whole a fiction', playfully doubts the myth he is telling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Irony",
+    "text": "Scylla's complaint to the sea nymphs, who pursue no one, prefigures her own later fate, in which she is transformed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Simile",
+    "text": "'Fingers like marble' compares the white, smooth fingers to stone, stressing Scylla's beauty and her cool delicacy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "irony",
+    "text": "The man who scorns gods and fears nothing is mastered by love, a reversal that sets up the comedy of his courtship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "hyperbole",
+    "text": "The long catalogue of comparisons piles up praise in exaggerated, rustic images, which is comic coming from a giant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "antithesis",
+    "text": "The praise turns sharply into accusation, setting Galatea's beauty against her cruelty in a mirrored list.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "simile",
+    "text": "His hair is compared to a grove, showing how he sees his monstrous body as natural and beautiful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "device": "metaphor",
+    "text": "He carries Ætna in his breast, equating his passion with the volcano's fire and hinting at its coming violence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "device": "simile",
+    "text": "The enraged bull robbed of its heifer likens his jealous rage to animal fury.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "device": "metamorphosis",
+    "text": "The transformation closes the tale by fixing Acis's name in a river, so the landscape preserves his memory.",
+    "spoiler": false
+   }
+  ]
+ }
+}

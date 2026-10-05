@@ -1,0 +1,427 @@
+{
+ "section_id": "metamorphoses-body-94",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11011,
+  "output": 3935
+ },
+ "result": {
+  "summary": "Thracian women, maddened by Bacchic rites, murder Orpheus on Mount Rhodope after his music fails to stop their weapons. His head and lyre float down the Hebrus to Lesbos, where a serpent is turned to stone, and his ghost rejoins Eurydice below. Bacchus then punishes the women by turning them into trees.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Argument of the fable",
+    "summary": "A prose summary states that the women kill Orpheus, his head reaches Lesbos, a serpent becomes stone and the killers become trees.",
+    "stakes": "",
+    "present": [
+     "Orpheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Rhodope",
+     "modern_name": "Rhodope Mountains",
+     "certainty": "real",
+     "lat": 41.6,
+     "lon": 24.7
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 17,
+    "title": "The murder of Orpheus",
+    "summary": "The Ciconian women attack Orpheus; spears and stones are at first charmed, but the din drowns his music and they tear him apart with farm tools. All nature mourns him.",
+    "stakes": "Orpheus's life is at stake as the frenzied women overpower his music.",
+    "present": [
+     "Orpheus",
+     "Mænades"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Rhodope",
+     "modern_name": "Rhodope Mountains",
+     "certainty": "real",
+     "lat": 41.6,
+     "lon": 24.7
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 23,
+    "title": "Head and lyre reach Lesbos",
+    "summary": "His limbs are scattered; the head and lyre float down the Hebrus, still sounding, to Lesbos, where Phœbus turns an attacking serpent to stone.",
+    "stakes": "The head risks being bitten by the serpent.",
+    "present": [
+     "Orpheus",
+     "Hebrus",
+     "Phœbus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Methymnæan Lesbos",
+     "modern_name": "Lesbos",
+     "certainty": "real",
+     "lat": 39.2,
+     "lon": 26.3
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 25,
+    "title": "Reunion in the underworld",
+    "summary": "Orpheus's ghost descends and finds Eurydice in the fields of the blessed, and they walk together; he can now safely look back at her.",
+    "stakes": "",
+    "present": [
+     "Orpheus",
+     "Eurydice"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Fields of the blessed",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 31,
+    "title": "The women become trees",
+    "summary": "Lyæus roots the Edonian women to the ground, and they turn into oak trees as they struggle to flee.",
+    "stakes": "The women are punished for murder by being rooted and transformed into trees.",
+    "present": [
+     "Lyæus",
+     "Edonian matrons"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thrace",
+     "modern_name": "Thrace",
+     "certainty": "real",
+     "lat": 41.5,
+     "lon": 25.5
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Orpheus",
+    "aliases": [
+     "bard of Apollo",
+     "Thracian poet"
+    ],
+    "kind": "mortal",
+    "description": "Thracian poet whose music charms nature, killed by the women"
+   },
+   {
+    "name": "Mænades",
+    "aliases": [
+     "Bacchanals",
+     "matrons of the Ciconians",
+     "Edonian matrons"
+    ],
+    "kind": "mortal",
+    "description": "frenzied Thracian women who kill Orpheus"
+   },
+   {
+    "name": "Eurydice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Orpheus's wife, reunited with him in the underworld"
+   },
+   {
+    "name": "Phœbus",
+    "aliases": [
+     "Apollo"
+    ],
+    "kind": "god",
+    "description": "god who turns the serpent to stone"
+   },
+   {
+    "name": "Lyæus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Bacchic god who punishes the murderers by turning them into trees"
+   },
+   {
+    "name": "Hebrus",
+    "aliases": [],
+    "kind": "god",
+    "description": "river that carries Orpheus's head and lyre to the sea"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "invoked in an exclamation"
+   },
+   {
+    "name": "Naiads",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "water nymphs who mourn Orpheus"
+   },
+   {
+    "name": "Dryads",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "tree nymphs who mourn Orpheus"
+   },
+   {
+    "name": "serpent",
+    "aliases": [],
+    "kind": "creature",
+    "description": "snake that attacks the head and is turned to stone"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Edonian matrons",
+    "relation": "transformed_into",
+    "b": "oak trees",
+    "source": "text",
+    "evidence_sentence": 30
+   },
+   {
+    "a": "serpent",
+    "relation": "transformed_into",
+    "b": "stone",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Orpheus",
+    "relation": "spouse_of",
+    "b": "Eurydice",
+    "source": "outside",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Orpheus",
+    "source": "outside",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phœbus",
+    "canonical": "Apollo",
+    "explanation": "Phœbus is a title of Apollo, whom the text elsewhere names as Orpheus's patron."
+   },
+   {
+    "alias": "Lyæus",
+    "canonical": "Bacchus",
+    "explanation": "Lyæus, the 'loosener', is a name for Bacchus, god of the rites."
+   },
+   {
+    "alias": "Edonian matrons",
+    "canonical": "Mænades",
+    "explanation": "Edonian and Ciconian are Thracian peoples; the same women are meant."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 6,
+    "reason": "Even a thrown stone is overcome by his music and falls like a suppliant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "reason": "The severed head's lyre still mourns as it floats down the river.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The power of art is shown and then defeated by mob frenzy and noise; yet Orpheus's music survives death, and love is restored in the underworld.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Transformation as punishment: the killers become rooted trees, and the serpent stone, answering violence with fixity.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The death and dismemberment of Orpheus became a recurrent subject in art, from ancient vase paintings to Renaissance and Symbolist painting."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Hebrus is today's Maritsa (Evros) river, and Lesbos lies across the Aegean from its mouth.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Orgies\" here means the wild nocturnal rites of Bacchus (Dionysus), not the modern sense; the women are Bacchantes in ecstatic worship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Ciconians were a Thracian people; \"matrons\" means married women, here frenzied followers of Bacchus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Contemner\" means one who scorns; the women accuse Orpheus of despising them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The Berecynthian pipe was a shrill pipe tied to the worship of Cybele, from Mount Berecynthus in Phrygia, often used in frenzied ritual.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "The thyrsus was a Bacchic staff tipped with a pine cone and wreathed in leaves or ivy; it was a ritual object, not a weapon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The stag doomed in the morning sand alludes to Roman arena spectacles, where animals were hunted or thrown to dogs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Mænades\" (Maenads) are the female followers of Bacchus, another name for the Bacchanals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Harrows\" are toothed frames dragged over ploughed ground to break up soil.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "The Hebrus is the main river of Thrace. Orpheus's head and lyre were thrown into it after the Thracian women killed him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Methymna was a city on Lesbos. Lesbos was later famed for lyric poetry and music, which fits the arrival of Orpheus's head and lyre.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Phœbus is Apollo, god of music and poetry. He protects the head of Orpheus, a poet closely linked to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Orpheus had gone to the underworld once before to win back Eurydice. He lost her by looking back, so he recognizes the places.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "Lyæus ('the loosener') is a title of Bacchus, god of wine. Orpheus was his bard, yet the Edonian women, Bacchantes, killed him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "Edonian means Thracian. The Edoni were a Thracian people, so 'Edonian matrons' are the Thracian women who killed Orpheus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Orpheus had shunned women after losing Eurydice, which is the \"indifference\" for which the Thracian women punish him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Orpheus is called Apollo's bard because his musical gift was linked to Apollo, god of music; in tradition he was the son of Calliope, a Muse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "The fields of the blessed (Elysium) were the part of the underworld where the virtuous dead lived happily.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Here Orpheus can look back at Eurydice without harm. In the earlier story, looking back caused her to be lost again.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "Personification",
+    "text": "The stone is given human feeling, lying at his feet like a suppliant ashamed of its daring, showing the power of his music.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Simile",
+    "text": "Comparing the women to birds mobbing an owl by day and to dogs on a stag shows Orpheus as helpless prey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "Irony",
+    "text": "His voice, which charmed everything, now fails for the first time, as he speaks in vain to those who will not hear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "Apostrophe",
+    "text": "The narrator's cry to Jupiter expresses horror and pathos at the voice that moved rocks now fading into the air.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Apostrophe",
+    "text": "Addressing the dead Orpheus directly as \"thee\" heightens the lament and makes nature a chorus of mourners.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "Personification",
+    "text": "The banks 'reply' mournfully, as if the landscape itself joined in grief for Orpheus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "Irony",
+    "text": "The look that destroyed Eurydice is now harmless, so the old fatal act becomes a happy repeated gesture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "Simile",
+    "text": "The trapped bird compares the women's panic to a snared creature, showing their helpless struggle as they take root.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "Direct address",
+    "text": "Speaking to 'you' draws the reader into the scene and confirms the half-human, half-tree image.",
+    "spoiler": false
+   }
+  ]
+ }
+}

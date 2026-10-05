@@ -1,0 +1,307 @@
+{
+ "section_id": "metamorphoses-body-36",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9782,
+  "output": 3496
+ },
+ "result": {
+  "summary": "Ovid introduces Narcissus, born to Liriope and the river Cephisus, whom the seer Tiresias says will live long only if he never knows himself. The nymph Echo, cursed by Juno to repeat only the last words she hears, falls in love with the proud youth, is rejected, and wastes away until only her voice remains.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Birth and prophecy of Narcissus",
+    "summary": "Narcissus is born to Liriope after Cephisus overpowers her. A prophet says he will live long only if he never knows himself. He grows into a beautiful, proud youth who spurns all suitors.",
+    "stakes": "Narcissus's long life depends on never recognizing himself; Liriope fears for her child.",
+    "present": [
+     "Narcissus",
+     "Liriope",
+     "Cephisus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aonia",
+     "modern_name": "Boeotia",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 23.2
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 14,
+    "title": "Juno's curse on Echo",
+    "summary": "Echo sees Narcissus hunting. The narrator explains that Juno limited her speech to repeating last words, because Echo had delayed the goddess with long stories while Jupiter's nymphs escaped.",
+    "stakes": "Echo loses her free voice as punishment for deceiving Juno.",
+    "present": [
+     "Echo",
+     "Juno",
+     "Jupiter",
+     "Narcissus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Aonia",
+     "modern_name": "Boeotia",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 23.2
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 25,
+    "title": "Echo calls to Narcissus",
+    "summary": "Echo follows Narcissus, loving him, and answers his calls with his own words. When she rushes to embrace him he flees and rejects her.",
+    "stakes": "Echo risks rejection and humiliation in her love; she cannot speak her own feelings.",
+    "present": [
+     "Echo",
+     "Narcissus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pathless forests of Aonia",
+     "modern_name": "Boeotia",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 23.2
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 31,
+    "title": "Echo wastes away",
+    "summary": "Rejected, Echo hides in caves and pines away until only her bones, turned to stone, and her voice remain.",
+    "stakes": "Echo's body is wholly consumed by grief.",
+    "present": [
+     "Echo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Woods and caves",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Echo",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "talkative nymph reduced to repeating last words"
+   },
+   {
+    "name": "Narcissus",
+    "aliases": [
+     "the son of Cephisus"
+    ],
+    "kind": "mortal",
+    "description": "proud, beautiful youth who spurns all lovers"
+   },
+   {
+    "name": "Juno",
+    "aliases": [
+     "the daughter of Saturn"
+    ],
+    "kind": "goddess",
+    "description": "wife of Jupiter who punishes Echo"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "Juno's husband, who pursues nymphs"
+   },
+   {
+    "name": "Liriope",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "azure nymph, mother of Narcissus"
+   },
+   {
+    "name": "Cephisus",
+    "aliases": [],
+    "kind": "god",
+    "description": "river whose stream enfolded Liriope"
+   },
+   {
+    "name": "Saturn",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Juno"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Liriope",
+    "relation": "parent_of",
+    "b": "Narcissus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Cephisus",
+    "relation": "parent_of",
+    "b": "Narcissus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Saturn",
+    "relation": "parent_of",
+    "b": "Juno",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Juno",
+    "relation": "spouse_of",
+    "b": "Jupiter",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Echo",
+    "relation": "lover_of",
+    "b": "Narcissus",
+    "source": "text",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the daughter of Saturn",
+    "canonical": "Juno",
+    "explanation": "A patronymic epithet for Juno."
+   },
+   {
+    "alias": "the son of Cephisus",
+    "canonical": "Narcissus",
+    "explanation": "A patronymic for Narcissus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "The prophecy that sets Narcissus's doom in motion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "reason": "Concise ending of Echo's fate: only voice remains.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage joins desire, pride and failed communication: Echo cannot speak her love and Narcissus cannot hear anything but himself, preparing his self-love.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "It is an aetiological myth, explaining the natural phenomenon of echoes through a punishment for deceit.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The word echo comes from this nymph's name, and the myth of Narcissus gave us the word narcissism, later used in psychoanalysis."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The prophet who gives the riddling prophecy is Tiresias, named in Ovid's text just before this section.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Aonia is a poetic name for Boeotia, the region of Greece around Thebes, where this story is set. The 'he' is the prophet Tiresias, named in the preceding lines.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "'Make essay and experiment' means to test or try out. Liriope was the first to consult the prophet and test his reliable voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Cephisus is a river god of Boeotia. He 'encircled' Liriope in his stream, a euphemism for raping her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "The prophet's answer is deliberately cryptic: 'recognizes himself' can mean seeing his own reflection or self-knowledge, and the riddle is solved only at his death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "'One to three times five years' is a roundabout way of saying sixteen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "'Resounding Echo' puns on her name; echo is the Greek word for sound. 'Espied' means caught sight of.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "'Daughter of Saturn' is Juno, wife and sister of Jupiter. Saturn was the old king of the gods, father of Jupiter, Juno and Neptune.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Liriope is a water nymph, hence 'azure', the blue color associated with water.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Juno, queen of the gods, was famously jealous of Jupiter's many affairs with nymphs and mortal women, and often punished the women involved.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "foreshadowing",
+    "text": "The oracle's riddle hints at the tragic fate to come, in which Narcissus will see his own image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "characterization",
+    "text": "Narcissus is defined by stubborn pride and by indifference to the many who love him, setting up his later punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "irony",
+    "text": "Echo, once a talkative 'babbler', is now able only to repeat others' words, so her punishment fits her fault.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "direct speech",
+    "text": "Juno's own words make the curse a sentence passed on Echo, using the very 'tongue' that deceived her as the thing limited.",
+    "spoiler": false
+   }
+  ]
+ }
+}

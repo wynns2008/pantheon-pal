@@ -1,0 +1,162 @@
+{
+ "section_id": "hesiod-body-72",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5329,
+  "output": 1308
+ },
+ "result": {
+  "summary": "The hymn's short opening praises Hera, daughter of Rhea, as queen of the immortals and unmatched in beauty. She is the sister and wife of Zeus, and all the gods on Olympus honour her as they honour him.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Invocation to golden-throned Hera",
+    "summary": "The poet declares he will sing of Hera, daughter of Rhea, and praises her beauty and her rank as Zeus's sister and wife.",
+    "stakes": "",
+    "present": [
+     "Hera",
+     "Rhea",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "high Olympus",
+     "modern_name": "Mount Olympus",
+     "certainty": "traditional",
+     "lat": 40.0856,
+     "lon": 22.3584
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "golden-throned queen of the immortals, sister and wife of Zeus"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Hera"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "loud-thundering husband and brother of Hera, honoured by all the gods"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Rhea",
+    "relation": "parent_of",
+    "b": "Hera",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Hera",
+    "relation": "spouse_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Hera",
+    "relation": "sibling_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Rhea",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "outside",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Concisely states Hera's rank, beauty and dual role as Zeus's sister and wife.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn establishes Hera's status: she is queen of the gods, equal in honour to Zeus, and the praise centres on her beauty and her marriage.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Like other Homeric Hymns, this is a brief proem-style invocation, perhaps used to introduce a longer recitation at a festival.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "This hymn is only five lines long in the translation, one of the shortest in the Homeric Hymns collection.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Bare\" is the archaic past tense of \"bear\": Rhea gave birth to Hera.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Golden-throned\" is a fixed descriptor for Hera, picturing her seated in splendour among the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Even as Zeus\" means the gods honour Hera equally with Zeus, as they honour him.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Rhea was a Titaness, wife of Cronos and mother of Zeus, Hera, Poseidon, Demeter, Hestia and Hades.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Hera was both sister and wife of Zeus, and as such was queen of the gods and protector of marriage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Olympus was the mountain home of the chief Greek gods.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "epithet",
+    "text": "\"Golden-throned\" is a stock epithet that sets Hera's majesty at the very start of the hymn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "device": "parallelism",
+    "text": "Zeus is named twice, with matching epithets \"loud-thundering\" and \"delights in thunder,\" framing Hera's honour as equal to his.",
+    "spoiler": false
+   }
+  ]
+ }
+}

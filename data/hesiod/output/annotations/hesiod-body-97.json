@@ -1,0 +1,409 @@
+{
+ "section_id": "hesiod-body-97",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6978,
+  "output": 3399
+ },
+ "result": {
+  "summary": "Fragments of the lost epic Thebaid describe the curse of Oedipus on his sons Polyneices and Eteocles, Adrastus' flight from Thebes, his lament for Amphiaraus, and variant details about Oeneus' marriage and the death of Parthenopaeus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 0,
+    "title": "Opening of the Thebaid",
+    "summary": "Homer is said to have recited the Thebaid, which begins by invoking a goddess to sing of Argos.",
+    "stakes": "",
+    "present": [
+     "Homer"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 1,
+    "end_sentence": 3,
+    "title": "Oedipus curses his sons",
+    "summary": "Polyneices sets Cadmus' silver table and golden cup before Oedipus, who is grieved and curses his sons to strife.",
+    "stakes": "Oedipus' sons risk lasting enmity and death in war over their inheritance.",
+    "present": [
+     "Polyneices",
+     "Oedipus",
+     "Eteocles"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 6,
+    "title": "The haunch and second curse",
+    "summary": "Oedipus sees the haunch of meat, throws it down and prays to Zeus that his sons kill each other.",
+    "stakes": "The sons face death at each other's hands.",
+    "present": [
+     "Oedipus",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 8,
+    "title": "Adrastus flees and laments",
+    "summary": "Adrastus flees Thebes on Areion, then laments the seer among the seven dead buried at Thebes.",
+    "stakes": "Adrastus has lost his comrades and his seer host.",
+    "present": [
+     "Adrastus",
+     "Areion"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 10,
+    "title": "Oeneus takes Periboea",
+    "summary": "Oeneus married Periboea, or received her as a prize after Olenus fell.",
+    "stakes": "",
+    "present": [
+     "Oeneus",
+     "Periboea"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olenus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 12,
+    "title": "Death of Parthenopaeus",
+    "summary": "Thebans say Asphodicus killed Parthenopaeus, but the Thebaid names Periclymenus.",
+    "stakes": "Parthenopaeus is killed in battle.",
+    "present": [
+     "Asphodicus",
+     "Parthenopaeus",
+     "Periclymenus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet said to have recited the Thebaid"
+   },
+   {
+    "name": "Polyneices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "golden-haired son of Oedipus"
+   },
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father who curses his sons"
+   },
+   {
+    "name": "Eteocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Oedipus' other son, implied as Polyneices' brother"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "former owner of the silver table"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, invoked in the curse"
+   },
+   {
+    "name": "Hades",
+    "aliases": [],
+    "kind": "god",
+    "description": "lord of the underworld"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [
+     "Son of Talaus"
+    ],
+    "kind": "mortal",
+    "description": "Argive leader who flees Thebes"
+   },
+   {
+    "name": "Areion",
+    "aliases": [],
+    "kind": "creature",
+    "description": "black-maned horse of Adrastus"
+   },
+   {
+    "name": "Oeneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Periboea"
+   },
+   {
+    "name": "Periboea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Hipponous"
+   },
+   {
+    "name": "Hipponous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Periboea"
+   },
+   {
+    "name": "Asphodicus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban said to have killed Parthenopaeus"
+   },
+   {
+    "name": "Parthenopaeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Talaus, killed in battle"
+   },
+   {
+    "name": "Periclymenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killer of Parthenopaeus in the Thebaid"
+   },
+   {
+    "name": "Talaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Adrastus and Parthenopaeus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Polyneices",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Eteocles",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Polyneices",
+    "relation": "sibling_of",
+    "b": "Eteocles",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Hipponous",
+    "relation": "parent_of",
+    "b": "Periboea",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Oeneus",
+    "relation": "spouse_of",
+    "b": "Periboea",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Talaus",
+    "relation": "parent_of",
+    "b": "Parthenopaeus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Talaus",
+    "relation": "parent_of",
+    "b": "Adrastus",
+    "source": "outside",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Son of Talaus",
+    "canonical": "Adrastus",
+    "explanation": "Patronymic for Adrastus, who laments the seven dead."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "The curse that sets the doom of Oedipus' sons: endless war between them.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The fragments center on inherited curses and fraternal strife, the engine of the Theban cycle.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Thebaid is lost; its content survives only in quotations by later writers, and ancient tradition attributed it to Homer.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of the Seven against Thebes was later treated by Aeschylus, Sophocles, Euripides and Statius, whose Thebaid is a Latin epic."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The fragment about the haunch shows Oedipus cursing because he was served the wrong cut of meat, a detail reported by a scholiast.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Parched Argos\" renders an epithet for Argos, a region of Greece; here it can also stand for the Argive people or their land generally.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Fury\" is an avenging spirit who enforces curses, especially on family crimes; here she carries out Oedipus' prayer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The haunch was a choice portion of meat, normally reserved as an honor for a king or elder; being served the wrong cut was an insult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "\"Son of Talaus\" is Adrastus, king of Argos; the seven dead are the champions who attacked Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The \"host\" Adrastus misses is the seer Amphiaraus, who was swallowed by the earth during the battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Stormed\" means captured by assault; Olenus was a city, and Periboea was taken as war booty.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Polyneices is a son of Oedipus. Cadmus was the legendary founder of Thebes, so these heirlooms carry the family's royal heritage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Oedipus, former king of Thebes, was blinded and confined after his crimes were revealed. His sons Eteocles and Polyneices later fought over the throne.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Areion was a famous divine horse, said to be exceptionally swift. Adrastus escaped the defeat at Thebes on him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Oeneus was king of Calydon and father of Tydeus, who was one of the seven against Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Parthenopaeus was one of the seven against Thebes. Pausanias reports two rival traditions about who killed him.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "epithet",
+    "text": "\"Heaven-born\" and \"golden-haired\" are formulaic epic descriptions elevating Polyneices before his fault is revealed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "foreshadowing",
+    "text": "Oedipus' curse on his sons anticipates their mutual destruction in the war over Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "personification",
+    "text": "The Fury is treated as a listening being who hears the prayer, making the curse feel active and binding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "irony",
+    "text": "The sons are cursed to kill one another, and the prayer to Zeus, god of kingship and oaths, makes the fraternal violence a divine judgment.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,291 @@
+{
+ "section_id": "metamorphoses-body-51",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7545,
+  "output": 2535
+ },
+ "result": {
+  "summary": "Calliope begins her song by praising Ceres, then describes the giant Typhœus pinned beneath Sicily, whose struggles shake the earth. Pluto inspects Sicily's foundations, and Venus urges Cupid to strike him with an arrow, which he does.",
+  "scenes": [
+   {
+    "start_sentence": 1,
+    "end_sentence": 2,
+    "title": "Calliope invokes Ceres",
+    "summary": "Calliope opens her song by praising Ceres as the giver of plough, corn and laws.",
+    "stakes": "",
+    "present": [
+     "Ceres"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 5,
+    "title": "Typhœus beneath Trinacria",
+    "summary": "The giant Typhœus lies pinned under Sicily, and his struggles shake the earth and frighten the King of the shades.",
+    "stakes": "Typhœus is trapped for challenging Heaven; Pluto fears the ground may split and expose the ghosts.",
+    "present": [
+     "Typhœus",
+     "Pluto"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Trinacria",
+     "modern_name": "Sicily",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 14.0
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 15,
+    "title": "Venus urges Cupid",
+    "summary": "Pluto drives out in his chariot to check Sicily's foundations. Venus, watching from Eryx, asks Cupid to make him fall in love so her power reaches the third kingdom.",
+    "stakes": "Venus fears her influence is dwindling among the gods and wants Love's power extended over the underworld.",
+    "present": [
+     "Pluto",
+     "Venus",
+     "Cupid",
+     "Pallas",
+     "Diana",
+     "Proserpine"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mount Eryx, Sicily",
+     "modern_name": "Erice, Sicily",
+     "certainty": "real",
+     "lat": 38.04,
+     "lon": 12.59
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 18,
+    "title": "Cupid strikes Pluto",
+    "summary": "Cupid chooses his sharpest arrow and shoots Pluto in the breast.",
+    "stakes": "Pluto is about to be overcome by love.",
+    "present": [
+     "Cupid",
+     "Pluto",
+     "Venus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sicily",
+     "modern_name": "Sicily",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 14.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ceres",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of agriculture and giver of laws"
+   },
+   {
+    "name": "Typhœus",
+    "aliases": [],
+    "kind": "monster",
+    "description": "giant buried under Sicily for aspiring to Heaven"
+   },
+   {
+    "name": "Pluto",
+    "aliases": [
+     "King of the shades",
+     "the Ruler"
+    ],
+    "kind": "god",
+    "description": "ruler of the underworld, last of the three brothers' kingdoms"
+   },
+   {
+    "name": "Venus",
+    "aliases": [
+     "Erycina"
+    ],
+    "kind": "goddess",
+    "description": "goddess of love, who sets the plot in motion"
+   },
+   {
+    "name": "Cupid",
+    "aliases": [],
+    "kind": "god",
+    "description": "winged son of Venus with unerring arrows"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Minerva-like virgin goddess who rejected Venus"
+   },
+   {
+    "name": "Diana",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "virgin huntress who rejected Venus"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [
+     "daughter of Ceres"
+    ],
+    "kind": "goddess",
+    "description": "Ceres' daughter, still a virgin"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Venus",
+    "relation": "parent_of",
+    "b": "Cupid",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Ceres",
+    "relation": "parent_of",
+    "b": "Proserpine",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Erycina",
+    "canonical": "Venus",
+    "explanation": "Venus is named for Mount Eryx in Sicily, where she had a famous temple."
+   },
+   {
+    "alias": "King of the shades",
+    "canonical": "Pluto",
+    "explanation": "A title for the ruler of the dead."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Calliope's famous praise of Ceres as source of agriculture and law.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Love's power reaches even the lord of the dead, setting up the abduction of Proserpine and the origin of the seasons.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Typhœus story gives a mythic explanation for Sicily's volcanic activity and earthquakes at Etna.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The tale of Proserpine's abduction, begun here, became a major subject for later art and literature, including Milton's Paradise Lost allusion to Enna."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Venus Erycina had a celebrated temple on Mount Eryx, which the Romans later adopted as a cult site.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Trinacria is the ancient name of Sicily, 'three-cornered' for its triangular shape. Typhœus was a giant who challenged the gods and was buried beneath it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Ausonian means Italian; Pelorus, Pachynus and Lilybœum are the three headlands of Sicily, at its northeast, southeast and west corners.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Erycina is Venus, named for Mount Eryx in Sicily, where she had a famous temple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The 'triple kingdom' is the universe divided among Jupiter (sky), Neptune (sea) and Pluto (underworld); Pluto drew the last lot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Tartarus here means the underworld, Pluto's realm, which Venus says Cupid has not yet conquered.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "'Flexible horn' refers to the bow, which was often made with horn parts; he braces it with his knee to string it.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Ceres (the Greek Demeter) was the goddess of agriculture and grain, and was credited with teaching humans farming and settled law.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Pallas (Minerva) and Diana were virgin goddesses who rejected love, which Venus resents as a slight to her power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Ceres' daughter is Proserpine, who is about to be carried off by Pluto, her uncle.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "anaphora",
+    "text": "Repeating 'first' in three clauses builds a hymn-like list of Ceres' gifts and opens Calliope's song with solemn praise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "personification",
+    "text": "Sicily's landmarks are made the giant's body, so geography becomes a punished figure and volcanic eruption becomes his raging struggle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "irony",
+    "text": "Venus complains that the goddess of love is belittled, though Cupid has just been described as conquering almost every god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "foreshadowing",
+    "text": "The arrow striking Pluto's breast signals his coming passion and the abduction of Proserpine that follows.",
+    "spoiler": false
+   }
+  ]
+ }
+}

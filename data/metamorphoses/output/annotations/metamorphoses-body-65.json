@@ -1,0 +1,324 @@
+{
+ "section_id": "metamorphoses-body-65",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8031,
+  "output": 2840
+ },
+ "result": {
+  "summary": "After killing Pelias, Medea burns Creon's palace at Corinth and kills her sons by Jason, then flees on a dragon-drawn chariot. Her flight over Greece and the islands recalls many places tied to metamorphosis myths, ending at Athens.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Medea's crimes and escape",
+    "summary": "Medea finds Jason remarried, burns the palace, kills her children and takes off on winged dragons.",
+    "stakes": "Medea would face punishment for her murders if she did not escape.",
+    "present": [
+     "Medea",
+     "Jason",
+     "Creon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Corinth",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 22.88
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 15,
+    "title": "Flight over Greece and islands",
+    "summary": "Medea passes places linked to transformation tales: Cerambus, Cea, Hyrie's lake, Pleuron, Calaurea and others.",
+    "stakes": "",
+    "present": [
+     "Medea",
+     "Cerambus",
+     "Phyllius",
+     "Hyrie",
+     "Combe",
+     "Alcidamas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Aegean and Greek lands",
+     "modern_name": "Aegean Sea",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 25.0
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 19,
+    "title": "Ephyre and arrival at Athens",
+    "summary": "Medea reaches Ephyre, recalling her revenge, then flies on to Athens.",
+    "stakes": "She flees Jason and the consequences of her revenge.",
+    "present": [
+     "Medea",
+     "Jason",
+     "Phineus",
+     "Periphas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 23.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Medea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Colchian sorceress who kills her sons and flees by dragon"
+   },
+   {
+    "name": "Jason",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Medea's husband who remarried"
+   },
+   {
+    "name": "Creon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Corinth, burned with his daughter"
+   },
+   {
+    "name": "Cerambus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Escaped Deucalion's flood on wings with the Nymphs' help"
+   },
+   {
+    "name": "Phyllius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Youth who gave gifts to a boy, then refused the bull"
+   },
+   {
+    "name": "Hyrie",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother who wept into a lake"
+   },
+   {
+    "name": "Combe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Ophis, escaped her sons as a bird"
+   },
+   {
+    "name": "Alcidamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of a daughter turned into a dove"
+   },
+   {
+    "name": "Phineus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man changed into a bird, seen over Athens"
+   },
+   {
+    "name": "Periphas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aged man changed into a bird, seen over Athens"
+   },
+   {
+    "name": "Jupiter",
+    "aliases": [],
+    "kind": "god",
+    "description": "Hid the Telchines beneath the waves"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Medea",
+    "relation": "spouse_of",
+    "b": "Jason",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Jason",
+    "relation": "parent_of",
+    "b": "Medea's sons",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Alcidamas",
+    "relation": "parent_of",
+    "b": "Alcidamas's daughter",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Hyrie",
+    "relation": "parent_of",
+    "b": "Cycnus",
+    "source": "text",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phœbean Rhodes",
+    "canonical": "Rhodes",
+    "explanation": "Rhodes is called Phœbean as sacred to Phœbus Apollo."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "The boy's bitter curse before leaping and becoming a swan.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Medea's vengeance climaxes in infanticide, yet she escapes, while her route catalogues metamorphosis myths.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The catalogue of places shows Ovid's learned use of Hellenistic mythographic and aetiological traditions.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Medea's killing of her children inspired Euripides' earlier tragedy and Seneca's Medea, which Ovid's version echoes."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ovid is thought to have written a lost tragedy Medea, praised by ancient critics.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The son of Phillyra is the centaur Chiron, tutor of heroes, who lived on Mount Pelion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The flood of Deucalion is the Greek great flood, survived by Deucalion and Pyrrha; Cerambus was said to escape it by being turned into a winged beetle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Bacchus (the Greek Dionysus) is said to have hidden a stolen bullock by disguising it as a stag on Ida.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Coan women grew horns after Hercules' cattle passed; the Telchines were Rhodian sorcerers whose gaze blighted things, and Jupiter drowned them by sending them beneath his brother Neptune's sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "The boy is Cycnus. Phyllius performed tasks for him as a lover, then refused the last gift, the bull.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Thou shalt wish that thou hadst given it\" is a threat: Cycnus leaps and becomes a swan, leaving Phyllius to regret.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"Was {one day} to lie\" looks ahead: Menephron's incest is a future event, told as a transformation tale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "Pirenian refers to Pirene, the famous spring of Corinth; Ephyre is an old name for Corinth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "The city of Pallas is Athens, sacred to Pallas Minerva. Titanian dragons suggest descent from the Sun, a Titan and Medea's grandfather.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Medea, a Colchian sorceress, helped Jason win the Golden Fleece. Corinth is where he abandoned her to marry Creon's daughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Killing her own children is Medea's most notorious act, and the poem reports it briefly and without comment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Calaurea was an island sacred to Latona, mother of Apollo and Diana; its king and queen became birds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "The persons named here are all said to have been turned into birds; Athens is where Medea next takes refuge with King Aegeus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "Catalogue",
+    "text": "Listing places by their transformation myths makes her flight a tour of metamorphosis, a favorite Ovidian device.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "Foreshadowing",
+    "text": "\"Was destined to wonder\" anticipates the daughter's change into a dove before it is told.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Irony",
+    "text": "A tale of people growing from mushrooms sits oddly beside Medea's arrival at the place of her crimes, which it does not mention.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "Characterization",
+    "text": "\"Wicked sword\" and \"barbarously\" give the narrator's judgement of Medea, stressing her cruelty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "Apostrophe",
+    "text": "The narrator addresses Phineus and Periphas directly, an emotional gesture before the next transformation story.",
+    "spoiler": false
+   }
+  ]
+ }
+}

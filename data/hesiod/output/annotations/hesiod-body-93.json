@@ -1,0 +1,292 @@
+{
+ "section_id": "hesiod-body-93",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5956,
+  "output": 2450
+ },
+ "result": {
+  "summary": "The hymn invokes the Muses to sing of the Dioscuri, Castor and Polydeuces, sons of Zeus and Leda born on Mount Taygetus. It praises them as saviours of sailors, who appear on tawny wings to calm storms, and ends with a farewell and a promise of another song.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Invocation and birth of the twins",
+    "summary": "The poet asks the Muses to sing of Castor and Polydeuces, and tells how Leda bore them to Zeus beneath Mount Taygetus.",
+    "stakes": "",
+    "present": [
+     "Leda",
+     "Zeus",
+     "Castor",
+     "Polydeuces"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the peak of the great hill Taygetus",
+     "modern_name": "Taygetus (Taygetos) mountains, Peloponnese",
+     "certainty": "real",
+     "lat": 36.95,
+     "lon": 22.35
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 4,
+    "title": "Rescuers of storm-tossed ships",
+    "summary": "Sailors pray with vows of lambs as a storm swamps their ship, and the twins appear on tawny wings to calm winds and waves.",
+    "stakes": "Sailors risk drowning when stormy gales and waves overwhelm their ship.",
+    "present": [
+     "Castor",
+     "Polydeuces"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the white sea",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 6,
+    "title": "Farewell and transition",
+    "summary": "The poet hails the Tyndaridae and promises to remember them and another song.",
+    "stakes": "",
+    "present": [
+     "Castor",
+     "Polydeuces"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the poet's performance",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Castor",
+    "aliases": [
+     "Tyndaridae",
+     "Sons of Zeus"
+    ],
+    "kind": "god",
+    "description": "horse-taming son of Zeus and Leda"
+   },
+   {
+    "name": "Polydeuces",
+    "aliases": [
+     "Tyndaridae",
+     "Sons of Zeus"
+    ],
+    "kind": "god",
+    "description": "blameless son of Zeus and Leda"
+   },
+   {
+    "name": "Leda",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "neat-ankled mother of the twins"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Son of Cronos"
+    ],
+    "kind": "god",
+    "description": "dark-clouded father of the twins"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Zeus"
+   },
+   {
+    "name": "Muses",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "bright-eyed goddesses of song, invoked by the poet"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Leda",
+    "relation": "parent_of",
+    "b": "Castor",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Leda",
+    "relation": "parent_of",
+    "b": "Polydeuces",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Castor",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Polydeuces",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Leda",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Castor",
+    "relation": "sibling_of",
+    "b": "Polydeuces",
+    "source": "text",
+    "evidence_sentence": 0
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Tyndaridae",
+    "canonical": "Castor",
+    "explanation": "A patronymic for the twins, after Tyndareus, Leda's mortal husband; also used for Polydeuces. The title Dioscuri means sons of Zeus."
+   },
+   {
+    "alias": "Son of Cronos",
+    "canonical": "Zeus",
+    "explanation": "A patronymic epithet for Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Vividly sums up the twins' role as calmers of storms and saviours of sailors.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn presents the twins as divine helpers who answer human prayer in moments of peril at sea, balancing mortal fragility and divine aid.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Sailors in the ancient Greek world prayed to the Dioscuri for safe voyages, and the hymn reflects the dangers of sea travel and the cult's maritime role.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Dioscuri became the constellation Gemini, and the sailors' phenomenon of St Elmo's fire was long associated with Castor and Pollux."
+   },
+   {
+    "kind": "history",
+    "text": "Their cult spread to Rome, where a temple of Castor and Pollux stood in the Forum."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Polydeuces is the Greek form of the name the Romans called Pollux.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Tyndaridae means 'sons of Tyndareus', Leda's husband. The twins are so called even though Zeus is named as their father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "'Bare' is the archaic past tense of 'bear'; 'lain with' is a polite way of saying she had intercourse with him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "'Delivers' here means rescuers or saviours, not bringers of something.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "'Shipmen' means sailors; the 'forepart of the prow' is the front of the ship, where prayers and vows were offered.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "'Fair signs' means favourable omens: their appearance signals that the danger will pass.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Castor and Polydeuces (Latin Pollux) were the Dioscuri, patron gods of sailors and horsemen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Taygetus is the mountain range overlooking Sparta in the Peloponnese, linked here with the twins' birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Hymns of this kind commonly end by promising another song, which is how the poet moves on to the next hymn.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "epithet",
+    "text": "Descriptive tags such as 'neat-ankled' Leda, 'tamer of horses' Castor and 'blameless' Polydeuces characterize the figures in traditional formulaic style.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "imagery",
+    "text": "The swamped ship and the twins 'darting through the air on tawny wings' give a vivid contrast between helplessness and sudden divine rescue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "personification",
+    "text": "Winds are called 'cruel' and the waves are 'stilled' by the twins, as though the storm were a hostile force being subdued.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "apostrophe",
+    "text": "The poet turns from narration to address the twins directly with a farewell, the conventional close of a hymn.",
+    "spoiler": false
+   }
+  ]
+ }
+}

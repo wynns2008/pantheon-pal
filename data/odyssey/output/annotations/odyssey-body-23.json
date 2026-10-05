@@ -1,0 +1,614 @@
+{
+ "section_id": "odyssey-body-23",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 23582,
+  "output": 6117
+ },
+ "result": {
+  "summary": "Euryclea tells Penelope that Ulysses is home and the suitors are dead, but Penelope doubts it until Ulysses describes their immovable bed. The couple reunite and tell each other their sorrows, and Ulysses recounts his wanderings and Teiresias' prophecy. At dawn Ulysses, Telemachus, Eumaeus and Philoetius arm and leave the town under Minerva's cover of darkness.",
+  "scenes": [
+   {
+    "start_sentence": 1,
+    "end_sentence": 30,
+    "title": "Euryclea wakes Penelope",
+    "summary": "Euryclea brings the news that Ulysses has killed the suitors. Penelope refuses to believe it, thinking a god did it, even after the scar is mentioned.",
+    "stakes": "Penelope risks being deceived by false hope after twenty years of waiting.",
+    "present": [
+     "Euryclea",
+     "Penelope"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ithaca, Penelope's upper room",
+     "modern_name": "Ithaca",
+     "certainty": "traditional",
+     "lat": 38.36,
+     "lon": 20.72
+    }
+   },
+   {
+    "start_sentence": 31,
+    "end_sentence": 57,
+    "title": "Silent meeting in the cloister",
+    "summary": "Penelope sits silent before the beggar-looking Ulysses. Telemachus rebukes her, and Ulysses plans to hide the slaughter with a feigned wedding feast while Minerva makes him splendid.",
+    "stakes": "Ulysses must escape the suitors' kin's vengeance and win his wife's acceptance.",
+    "present": [
+     "Penelope",
+     "Ulysses",
+     "Telemachus",
+     "Phemius",
+     "Eurynome",
+     "Minerva"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ulysses' house, Ithaca",
+     "modern_name": "Ithaca",
+     "certainty": "traditional",
+     "lat": 38.36,
+     "lon": 20.72
+    }
+   },
+   {
+    "start_sentence": 58,
+    "end_sentence": 85,
+    "title": "The test of the bed",
+    "summary": "Penelope tests Ulysses by ordering his bed moved. He angrily describes how it was built round an olive tree, and she is convinced and embraces him. Minerva holds back the dawn.",
+    "stakes": "Their marriage and trust hang on whether Penelope can be certain he is the true Ulysses.",
+    "present": [
+     "Ulysses",
+     "Penelope",
+     "Euryclea",
+     "Minerva"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ulysses' bed chamber, Ithaca",
+     "modern_name": "Ithaca",
+     "certainty": "traditional",
+     "lat": 38.36,
+     "lon": 20.72
+    }
+   },
+   {
+    "start_sentence": 86,
+    "end_sentence": 115,
+    "title": "Prophecy and tales of wandering",
+    "summary": "Ulysses tells of Teiresias' prophecy of further travel and a gentle death. After love they trade stories, and he recounts all his adventures until he sleeps.",
+    "stakes": "Ulysses faces a long final journey and the toil still owed to the gods.",
+    "present": [
+     "Ulysses",
+     "Penelope",
+     "Eurynome",
+     "Telemachus",
+     "Philoetius",
+     "Eumaeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ulysses' bed chamber, Ithaca",
+     "modern_name": "Ithaca",
+     "certainty": "traditional",
+     "lat": 38.36,
+     "lon": 20.72
+    }
+   },
+   {
+    "start_sentence": 116,
+    "end_sentence": 128,
+    "title": "Departure at dawn",
+    "summary": "Minerva lets Dawn rise. Ulysses tells Penelope to stay upstairs, arms, and leads the others out of town, hidden in darkness by Minerva.",
+    "stakes": "Ulysses must reach his father before the suitors' families learn of the killings.",
+    "present": [
+     "Ulysses",
+     "Penelope",
+     "Telemachus",
+     "Philoetius",
+     "Eumaeus",
+     "Minerva"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ithaca town",
+     "modern_name": "Ithaca",
+     "certainty": "traditional",
+     "lat": 38.36,
+     "lon": 20.72
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ulysses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "returned king of Ithaca, husband of Penelope"
+   },
+   {
+    "name": "Penelope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ulysses' wife, cautious and wary"
+   },
+   {
+    "name": "Euryclea",
+    "aliases": [
+     "nurse"
+    ],
+    "kind": "mortal",
+    "description": "old nurse who brings the news"
+   },
+   {
+    "name": "Telemachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ulysses and Penelope"
+   },
+   {
+    "name": "Eumaeus",
+    "aliases": [
+     "the swineherd"
+    ],
+    "kind": "mortal",
+    "description": "loyal swineherd"
+   },
+   {
+    "name": "Philoetius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "loyal herdsman"
+   },
+   {
+    "name": "Phemius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "bard who plays dance music"
+   },
+   {
+    "name": "Eurynome",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "upper servant and bed chamber woman"
+   },
+   {
+    "name": "Minerva",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who aids Ulysses"
+   },
+   {
+    "name": "Teiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban prophet whose shade foretold Ulysses' fate"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Jove, cause of the Trojan war"
+   },
+   {
+    "name": "Jove",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods"
+   },
+   {
+    "name": "Dawn",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who brings daylight"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ulysses",
+    "relation": "spouse_of",
+    "b": "Penelope",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Ulysses",
+    "relation": "parent_of",
+    "b": "Telemachus",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Penelope",
+    "relation": "parent_of",
+    "b": "Telemachus",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Jove",
+    "relation": "parent_of",
+    "b": "Helen",
+    "source": "text",
+    "evidence_sentence": 80
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Vulcan",
+    "canonical": "Minerva",
+    "explanation": "Vulcan is the craftsman god, named beside Minerva as a patron of craft; he is a different god."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 67,
+    "reason": "Ulysses reveals the immovable olive-tree bed, the secret proof of his identity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "reason": "Famous simile comparing Penelope's joy to shipwrecked swimmers reaching land.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Recognition rests on shared secret knowledge, not appearance: Penelope's caution matches Ulysses' own cunning, and their bed symbolizes the rooted stability of marriage.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The concern about avenging kin and fleeing the country reflects an ancient society where killing brought blood-feud rather than courts.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The bed carved from a living olive tree became a lasting literary emblem of marital fidelity and was much discussed by later critics and scholars."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Ancient scholars Aristarchus and Aristophanes of Byzantium thought the Odyssey's original ending came near line 296 of this book, regarding the rest as later additions.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The city with the ill-omened name is Troy (Ilius); the name sounds like the Greek for 'evil' omen, and the war there took Ulysses away.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "The cloister means the colonnaded courtyard or portico of the house, where the suitors had mocked the disguised beggar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "Purifying the house with sulphur means fumigating it; burning sulphur was a ritual cleansing after bloodshed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "Achaean means Greek; here it refers to Greece generally, the land Penelope believes Ulysses will never see again.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "The scar from the wild boar is the old wound Euryclea recognised while washing Ulysses' feet, in Book 19, which proves his identity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "To fathom the counsels of the gods means to understand their plans; Penelope doubts that even a wise nurse can judge divine action.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "The cloister here means the colonnaded court or hall of the house, not a monastery. The \"bearing-posts\" are the pillars that support the roof.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "phrasing",
+    "text": "\"Then again directly\" means that at other moments she looked away or failed to see him as her husband. Her recognition wavers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "allusion",
+    "text": "The \"tokens\" are secret signs known only to the couple. Penelope will use one, the immovable bed, to test him later in this book.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "phrasing",
+    "text": "\"The stay of a whole town\" means its support or mainstay: the leading young men of Ithaca, whose families will now seek vengeance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "word",
+    "text": "Phemius is the household bard, who plays the lyre. Here he is made to provide cover music for the ruse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "word",
+    "text": "\"Vouchsafes\" means graciously grants. Ulysses expects the gods to offer them choices.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "kind": "allusion",
+    "text": "Vulcan (the Greek Hephaestus) is the god of craftsmen and metalworking. Minerva (Athena) also patronised skilled crafts, so both are named.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "kind": "phrasing",
+    "text": "\"Set myself up\" means to put on airs or be proud; Penelope says her coolness is neither arrogance nor contempt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "kind": "word",
+    "text": "\"Bearing-post\" is a pillar that supports a roof beam, so the olive trunk was as thick as a structural column.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "kind": "phrasing",
+    "text": "\"Drawing a line on the wood\" refers to marking a chalked or inked line to guide straight cutting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "kind": "allusion",
+    "text": "Helen, wife of Menelaus, ran off to Troy with Paris, causing the Trojan War in which the Achaeans (Greeks) fought to bring her back.",
+    "spoiler": false
+   },
+   {
+    "sentence": 85,
+    "kind": "allusion",
+    "text": "Lampus and Phaethon are the horses of Dawn, who rises from Oceanus, the river thought to encircle the world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 98,
+    "kind": "allusion",
+    "text": "A winnowing shovel (fan) tossed grain to separate chaff. The stranger would mistake the oar for a farm tool, showing he knows nothing of the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "kind": "word",
+    "text": "Hecatombs were large sacrifices, originally of a hundred oxen, offered to the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "kind": "word",
+    "text": "Vouchsafe means to grant graciously.",
+    "spoiler": false
+   },
+   {
+    "sentence": 105,
+    "kind": "phrasing",
+    "text": "The rites of their own old bed means the customary joys of marriage, here their reunion in the bed they had shared.",
+    "spoiler": false
+   },
+   {
+    "sentence": 114,
+    "kind": "allusion",
+    "text": "The wandering rocks, Sirens, Charybdis, Scylla and the cattle of the sun-god recall episodes from Ulysses' earlier narrative to the Phaeacians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "kind": "phrasing",
+    "text": "\"Had both of his wife and of repose\" means he had enough of both his wife's company and rest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "kind": "allusion",
+    "text": "Oceanus is the great river thought to encircle the world; Dawn was imagined rising from its eastern edge each morning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 120,
+    "kind": "word",
+    "text": "\"Achaeans\" here means the Greeks, in this case the people of Ithaca, who must supply replacement livestock.",
+    "spoiler": false
+   },
+   {
+    "sentence": 127,
+    "kind": "word",
+    "text": "\"Sallied forth\" means rushed or went out, usually from a defended place, as armed men would.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Euryclea is Ulysses' old nurse, now a trusted servant in the household, who has kept his secret since recognising him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "The suitors were local nobles who courted Penelope for years, consuming Ulysses' household stores while he was away.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Ulysses left for Troy about twenty years earlier: ten years of war, then ten of wandering. Telemachus is angry at Penelope's cool reception.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "text": "Ulysses has killed the suitors, who were sons of Ithaca's noble families. Killing a man usually meant exile unless the family accepted compensation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "text": "Eurynome is the housekeeper. Minerva (the Greek Athene) often aids Ulysses by changing his appearance, as she earlier made him look old and ragged.",
+    "spoiler": false
+   },
+   {
+    "sentence": 62,
+    "text": "Euryclea is the old nurse who raised Ulysses and now serves the household. Penelope's order is a trap: the bed's secret proves identity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 82,
+    "text": "Only Ulysses, Penelope and one maid knew the bed's construction, so his knowledge of it is proof no stranger could fake.",
+    "spoiler": false
+   },
+   {
+    "sentence": 85,
+    "text": "Minerva (the Greek Athena) is Ulysses' divine protector throughout the poem, and here she gives the couple a longer night together.",
+    "spoiler": false
+   },
+   {
+    "sentence": 88,
+    "text": "Teiresias was a blind Theban seer whose ghost Ulysses consulted in Hades on Circe's advice, to learn how to get home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "text": "Neptune (the Greek Poseidon), god of the sea, was angry with Ulysses for blinding his son the Cyclops, so this sacrifice appeases him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 104,
+    "text": "Eurynome is Penelope's housekeeper and chamber woman, who attends the couple here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 116,
+    "text": "Minerva (the Greek Athena) is Ulysses' divine protector and has guided the whole return and the slaughter of the suitors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 121,
+    "text": "Ulysses' father Laertes lives in grief on a farm in the country, and Ulysses has not yet seen him since returning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 122,
+    "text": "The suitors' families will soon learn of the killings and may seek revenge, so Penelope is told to stay out of sight.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "Hyperbole",
+    "text": "Her old knees growing young again exaggerates her joy, showing the news physically renews her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "Simile",
+    "text": "Comparing the blood-spattered Ulysses to a lion stresses his ferocity and triumph, in the nurse's admiring view.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "Dramatic irony",
+    "text": "Penelope insists Ulysses is dead and a god acted, while the audience knows he stands in the house; her caution delays the reunion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "Simile",
+    "text": "Telemachus compares his mother's heart to stone, expressing his frustration at her restraint. He does not yet understand her caution.",
+    "spoiler": false
+   },
+   {
+    "sentence": 55,
+    "device": "Dramatic irony",
+    "text": "The reader knows the truth behind the \"wedding\" music, but the townspeople wrongly judge Penelope and the household.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "device": "Epic simile",
+    "text": "The transformation of Ulysses is compared to gilding silver, which presents his restored splendour as skilled artistry by a goddess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "device": "Hyperbole",
+    "text": "Saying he looked like one of the immortals exaggerates his beauty to show how complete Minerva's transformation is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "device": "dramatic irony",
+    "text": "The narrator tells us Penelope speaks to test him, while Ulysses believes the order is real, so his anger unwittingly gives the proof she wants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "device": "symbolism",
+    "text": "The bed fixed in a living tree symbolizes the rooted, unmovable marriage, and the secret only the couple share.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "device": "simile",
+    "text": "Penelope's welcome of her husband is compared to shipwrecked swimmers reaching land, conveying relief after long danger and suffering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 85,
+    "device": "personification",
+    "text": "Dawn is shown as a goddess with horses, held back by Minerva, so the night itself is delayed for the reunited couple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 96,
+    "device": "metaphor",
+    "text": "Oars are called the wings of a ship, picturing the ship as a bird skimming over the water.",
+    "spoiler": false
+   },
+   {
+    "sentence": 113,
+    "device": "summary narration",
+    "text": "The poet condenses the earlier adventures into one long catalogue, recalling the whole epic and giving a sense of closure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "device": "imagery",
+    "text": "Sleep is shown as easing a burden, closing the book on Ulysses' sorrows and giving a peaceful ending.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "device": "epithet",
+    "text": "\"Gold-enthroned Dawn\" uses a fixed descriptive title, and Dawn's rising at a goddess's command shows Minerva's control over the night.",
+    "spoiler": false
+   },
+   {
+    "sentence": 128,
+    "device": "foreshadowing",
+    "text": "Minerva's cloaking darkness at daybreak hints at coming danger and the need for protection as Ulysses faces the suitors' kin.",
+    "spoiler": false
+   }
+  ]
+ }
+}

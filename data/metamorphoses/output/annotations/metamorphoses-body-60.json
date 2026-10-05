@@ -1,0 +1,536 @@
+{
+ "section_id": "metamorphoses-body-60",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 16931,
+  "output": 4871
+ },
+ "result": {
+  "summary": "Tereus of Thrace, married to Progne, fetches her sister Philomela from Athens, rapes her, cuts out her tongue and imprisons her, then tells Progne that Philomela is dead. After a year Philomela weaves the story into a cloth and sends it to Progne, who reads it and turns toward revenge.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Prologue and Athens unvisited",
+    "summary": "A summary of the tale is given, then neighboring Greek cities are listed as visiting Pelops' mourning court, while Athens, at war, alone does not.",
+    "stakes": "",
+    "present": [
+     "Pandion"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 13,
+    "title": "The ill-omened wedding",
+    "summary": "Tereus drives off the invaders and wins Progne from Pandion in a marriage attended by Furies and an owl. Their son Itys is born.",
+    "stakes": "The marriage is doomed from the start.",
+    "present": [
+     "Tereus",
+     "Progne",
+     "Pandion",
+     "Itys"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thrace",
+     "modern_name": "Thrace (Bulgaria/Greece/Turkey)",
+     "certainty": "real",
+     "lat": 42.0,
+     "lon": 25.5
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 34,
+    "title": "Tereus desires Philomela",
+    "summary": "Progne asks that her sister visit. Tereus sails to Athens, sees Philomela and is consumed by lust, and feigns Progne's wishes to win Pandion's consent.",
+    "stakes": "Philomela is unaware that she is in danger from Tereus.",
+    "present": [
+     "Progne",
+     "Tereus",
+     "Pandion",
+     "Philomela"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 35,
+    "end_sentence": 43,
+    "title": "Departure by ship",
+    "summary": "After a sleepless night Tereus receives Pandion's tearful charge, and sails away with Philomela, gloating like an eagle with a hare.",
+    "stakes": "Philomela's safety and Pandion's trust.",
+    "present": [
+     "Tereus",
+     "Pandion",
+     "Philomela"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Piraeus",
+     "modern_name": "Piraeus",
+     "certainty": "real",
+     "lat": 37.942,
+     "lon": 23.647
+    }
+   },
+   {
+    "start_sentence": 44,
+    "end_sentence": 62,
+    "title": "Rape and mutilation",
+    "summary": "Tereus locks Philomela in a forest dwelling, rapes her, and cuts out her tongue when she threatens to expose him. He lies to Progne that her sister is dead.",
+    "stakes": "Philomela's body, voice and life; Tereus fears exposure.",
+    "present": [
+     "Tereus",
+     "Philomela",
+     "Progne"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thrace, forest dwelling",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 63,
+    "end_sentence": 70,
+    "title": "The woven message",
+    "summary": "After a year Philomela weaves her story into a web and sends it secretly to Progne, who reads it in stunned silence and plans revenge.",
+    "stakes": "Philomela hopes to expose Tereus and be freed; Progne decides to act.",
+    "present": [
+     "Philomela",
+     "Progne",
+     "Tereus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thrace",
+     "modern_name": "Thrace (Bulgaria/Greece/Turkey)",
+     "certainty": "real",
+     "lat": 42.0,
+     "lon": 25.5
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Tereus",
+    "aliases": [
+     "Odrysian king",
+     "Thracian Tereus"
+    ],
+    "kind": "mortal",
+    "description": "King of Thrace, descended from Gradivus, husband of Progne"
+   },
+   {
+    "name": "Progne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Pandion, wife of Tereus, mother of Itys"
+   },
+   {
+    "name": "Philomela",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Progne's younger sister, raped and silenced by Tereus"
+   },
+   {
+    "name": "Pandion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Athens, father of Progne and Philomela"
+   },
+   {
+    "name": "Itys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Progne and Tereus"
+   },
+   {
+    "name": "Gradivus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Title of the war god, ancestor of Tereus"
+   },
+   {
+    "name": "Furies",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Avenging spirits who attend the wedding"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Progne",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Philomela",
+    "source": "text",
+    "evidence_sentence": 38
+   },
+   {
+    "a": "Tereus",
+    "relation": "spouse_of",
+    "b": "Progne",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Progne",
+    "relation": "sibling_of",
+    "b": "Philomela",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Progne",
+    "relation": "parent_of",
+    "b": "Itys",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Tereus",
+    "relation": "parent_of",
+    "b": "Itys",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Gradivus",
+    "relation": "parent_of",
+    "b": "Tereus",
+    "source": "outside",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Gradivus",
+    "canonical": "Mars",
+    "explanation": "Gradivus is a title of Mars, the Roman war god."
+   },
+   {
+    "alias": "Odrysian king",
+    "canonical": "Tereus",
+    "explanation": "The Odrysians were a Thracian people, so this names Tereus as king of Thrace."
+   },
+   {
+    "alias": "Titan",
+    "canonical": "Phœbus",
+    "explanation": "Titan and Phœbus here both mean the sun god, used to mark the passing of time."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 29,
+    "reason": "Ovid's aside on the hidden darkness of human hearts, as Tereus' lust disguises itself as affection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "reason": "Famous line that misfortune sharpens ingenuity, introducing Philomela's tapestry.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The tale shows lust and violence silencing a woman, and her answer through art. Weaving becomes speech when the tongue is taken.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The story reflects Greek and Roman stereotypes of Thracians as barbarous. Ovid's irony about omens and appearances is typical of his style.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The myth of Philomela became the classic poetic image of the nightingale's song and lament, used by many later poets, including T. S. Eliot in The Waste Land (1922)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Greek and Roman sources disagree on which sister became the nightingale and which the swallow.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The cities come to console Pelops, whose grief is for his children, the Niobids, killed after Niobe's boast (the preceding tale). The list is a catalogue of Greek places.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Mopsopian\" means Athenian, from Mopsopus, an early legendary king of Attica.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Gradivus is a title of Mars, god of war; Tereus is thus presented as his descendant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Hymeneus (Hymen) is the god of weddings; his absence signals a marriage without divine blessing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The Furies, avenging goddesses, carry funeral-pyre torches instead of wedding torches, perverting the marriage ritual.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The owl was a Roman bird of ill omen, often linked with death and disaster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Titan here is the Sun (Hyperion's son), whose yearly course measures time; 'five autumns' means five years have passed since Progne's marriage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Cecropian means Athenian, from Cecrops, legendary first king of Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "Joining right hands was the formal gesture of greeting and pledge; 'evil omen' means the talk began under inauspicious signs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Naiads are water nymphs and Dryads tree nymphs, the female spirits of nature, proverbially beautiful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "'The people in those regions' refers to Thracians, whom Roman writers stereotyped as passionate; Tereus is king of Thrace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "The narrator exclaims that human hearts hide dark secrets, as night hides things; 'dark night' means concealed wickedness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "'By her own safety (and against it too)' is ironic: she swears by her safety, which this very journey will destroy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "Phœbus is the sun god driving his chariot; his steeds descending Olympus' track means sunset is near.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "word",
+    "text": "Odrysian refers to the Odrysae, a Thracian people; Tereus is king of Thrace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "allusion",
+    "text": "The bird of Jupiter is the eagle, the king of the gods' sacred bird and his traditional emblem.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "phrasing",
+    "text": "Supplanter means one who takes another's place; Philomela says she has displaced her sister as Tereus's wife in effect, while he is husband to both.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "kind": "phrasing",
+    "text": "Conscious rocks means rocks that can be aware and bear witness, so her voice would reach even them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "kind": "phrasing",
+    "text": "The twice six signs are the twelve zodiac signs; the sun passing through them marks one full year.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "kind": "phrasing",
+    "text": "Warp is the set of vertical threads on a loom; she sets up the loom and weaves her story into cloth.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "This summary is a later heading, not Ovid's own words; it gives away the whole plot of Tereus, Progne and Philomela.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Thrace, in the north Aegean region, was regarded by Greeks as wild and warlike, which suits Tereus' later violence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Progne is daughter of Pandion, king of Athens, and wife of Tereus of Thrace; her sister Philomela remains in Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The Piræus was Athens' port, a few miles from the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Tereus considers bribery or abduction followed by war, showing he is already planning to seize Philomela by force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "Pandion, king of Athens, is entrusting Philomela to Tereus so she can visit her sister Progne, Tereus's wife in Thrace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 62,
+    "text": "Progne exchanges bright robes for black mourning dress and builds an empty tomb, a cenotaph, for the sister she thinks dead.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "rhetorical question",
+    "text": "The narrator's startled question stresses how surprising and shameful Athens' absence is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "apostrophe",
+    "text": "Addressing Athens directly adds reproach and draws the reader into the narrator's emotion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "foreshadowing",
+    "text": "The Furies and the owl at the wedding point ahead to the crime, vengeance and horror of the tale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "The festivals celebrate days that bring disaster, so the narrator's moral comment underlines the couple's blindness to their fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "foreshadowing",
+    "text": "The 'evil omen' warns that this meeting will end in catastrophe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "simile",
+    "text": "Lust is compared to fire in dry grain and leaves, suggesting quick, destructive spread.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "apostrophe",
+    "text": "The narrator suddenly addresses the gods, stressing moral horror at Tereus' hidden deceit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "irony",
+    "text": "Tereus is praised as affectionate for the very deceit that conceals his crime.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "dramatic irony",
+    "text": "Philomela rejoices at what the narrator says will bring sorrow; the reader knows more than she does.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "device": "foreshadowing",
+    "text": "Pandion's shuddering at the presages of his own mind hints that the journey will end in disaster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "device": "simile",
+    "text": "Tereus is compared to an eagle with a captured hare, casting Philomela as helpless prey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "device": "simile",
+    "text": "The wounded lamb and bloodied dove convey her lingering terror and vulnerability after the attack.",
+    "spoiler": false
+   },
+   {
+    "sentence": 59,
+    "device": "simile",
+    "text": "The severed tongue is likened to a snake's writhing tail, a gruesome image that makes it seem alive and seeking its owner.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "device": "aphorism",
+    "text": "A general maxim about grief and ingenuity prepares for the weaving of the message.",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "device": "irony",
+    "text": "Progne, who needs words most, is struck silent; the cloth speaks where spoken language has been taken away.",
+    "spoiler": false
+   }
+  ]
+ }
+}

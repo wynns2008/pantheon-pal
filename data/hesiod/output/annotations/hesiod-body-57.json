@@ -1,0 +1,440 @@
+{
+ "section_id": "hesiod-body-57",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11470,
+  "output": 3911
+ },
+ "result": {
+  "summary": "The hymn announces Hermes, born to Maia and Zeus in a cave on Cyllene. On the day of his birth he invents the lyre from a tortoise, then steals Apollo's cattle from Pieria, disguises their tracks, and drives them to the Alpheus, where he invents fire.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Birth of Hermes",
+    "summary": "The Muse is asked to sing of Hermes, whom Maia bore to Zeus in secret in a cave. He is born a cunning thief who steals Apollo's cattle on his first day.",
+    "stakes": "Zeus and Maia must keep their union hidden from Hera and the other gods.",
+    "present": [
+     "Hermes",
+     "Maia",
+     "Zeus",
+     "Hera",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cyllene",
+     "modern_name": "Mount Kyllini, Greece",
+     "certainty": "traditional",
+     "lat": 37.94,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 28,
+    "title": "Hermes invents the lyre",
+    "summary": "Hermes finds a tortoise at the cave door, greets it, kills it and makes a seven-stringed lyre from the shell. He sings of his own begetting, then hides the lyre and sets out to steal meat.",
+    "stakes": "",
+    "present": [
+     "Hermes",
+     "Maia",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Maia's cave on Cyllene",
+     "modern_name": "Mount Kyllini, Greece",
+     "certainty": "traditional",
+     "lat": 37.94,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 29,
+    "end_sentence": 36,
+    "title": "Theft of the cattle",
+    "summary": "At sunset Hermes takes fifty cattle from Pieria and reverses their tracks. He wears wicker sandals to hide his own, and bribes an old vine-tender at Onchestus to stay silent.",
+    "stakes": "Hermes risks exposure and Apollo's anger if the theft is seen.",
+    "present": [
+     "Hermes",
+     "Apollo",
+     "Old man"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pieria and Onchestus",
+     "modern_name": "Pieria and Onchestos, Boeotia, Greece",
+     "certainty": "real",
+     "lat": 38.35,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 37,
+    "end_sentence": 43,
+    "title": "Fire at the Alpheus",
+    "summary": "Hermes drives the cattle through the night to the Alpheus, feeds them in the byre, and makes fire with laurel sticks, the first fire-sticks.",
+    "stakes": "",
+    "present": [
+     "Hermes",
+     "Selene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "River Alpheus",
+     "modern_name": "Alfeios River, Peloponnese, Greece",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Son of Maia",
+     "Slayer of Argus",
+     "Son of Zeus"
+    ],
+    "kind": "god",
+    "description": "newborn trickster god, inventor of the lyre and fire"
+   },
+   {
+    "name": "Maia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "shy nymph, mother of Hermes"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "son of Cronos"
+    ],
+    "kind": "god",
+    "description": "father of Hermes, who visits Maia secretly"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Zeus's wife, kept asleep"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoebus Apollo"
+    ],
+    "kind": "god",
+    "description": "owner of the divine cattle"
+   },
+   {
+    "name": "Selene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "moon, daughter of Pallas"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "other",
+    "description": "father of Selene, son of Megamedes"
+   },
+   {
+    "name": "Old man",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "vine-tender at Onchestus who sees Hermes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Maia",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Maia",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "outside",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Pallas",
+    "relation": "parent_of",
+    "b": "Selene",
+    "source": "text",
+    "evidence_sentence": 38
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Slayer of Argus",
+    "canonical": "Hermes",
+    "explanation": "Epithet recalling Hermes' killing of the giant Argus."
+   },
+   {
+    "alias": "Phoebus Apollo",
+    "canonical": "Apollo",
+    "explanation": "Phoebus is a common epithet of Apollo."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Concisely sums up Hermes' precocious first day: born, lyre-player, cattle thief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "reason": "Gives the myth's origin of the tortoise-shell lyre.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The hymn celebrates Hermes' cunning intelligence, showing a newborn who outwits through invention and trickery.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The hymn explains the origins of the lyre, fire-making and sacrifice, and reflects Hermes' roles as patron of thieves, herdsmen and travellers.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Sophocles' satyr play Ichneutae (The Trackers) dramatised Hermes' theft of Apollo's cattle."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The text has a lacuna at line 41, so part of the fire-making passage is lost.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Cyllene is a mountain in Arcadia, Hermes' birthplace; 'bare' is the archaic past tense of 'bear'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "'Of many shifts' means resourceful and full of tricks; 'blandly cunning' means smooth-talking and deceitful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The fourth day of the month was sacred to Hermes in Greek tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Meeting a tortoise is taken as an omen, a sign of coming fortune, as such signs were commonly read.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "'Gaud' means a showy ornament; here it is the tortoise's patterned shell.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "A living tortoise is said to guard against witchcraft; dead, its shell becomes the lyre's sounding body.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "'Key' here probably means a plectrum, the tool for striking or plucking strings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "The 'taunts' simile compares his improvised singing to young men's playful, teasing verse exchanges at feasts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "\"Steads\" means places or farms where the cattle were kept; here, their accustomed pastures.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "\"Kine\" is an archaic plural of \"cow\", meaning cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "phrasing",
+    "text": "\"Straggling-wise\" means in scattered, disordered fashion, so the herd's tracks look confused.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "The cattle's hooves point the wrong way, and Hermes walks the opposite direction, so pursuers would read the trail backwards.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "Tamarisk is a feathery-leaved shrub of sandy shores; myrtle is an evergreen shrub. Together they supply the pliant twigs for his sandals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "phrasing",
+    "text": "\"Making shift\" means improvising with what is at hand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "phrasing",
+    "text": "The final clause means: stay silent about matters that do not concern you, so no harm comes to you.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "Selene is the Moon, here called daughter of Pallas, a Titan, son of Megamedes. Her \"watch-post\" is the sky's height.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "word",
+    "text": "Lotus here is a fodder plant, a clover-like grass, not the fruit of the Lotus-eaters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "phrasing",
+    "text": "The lacuna marks a gap in the manuscript; some lines describing the fire-drilling are lost.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Hera is Zeus's wife, so the affair must be hidden from her; Zeus is called son of Cronos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Apollo, called far-shooting for his bow, is the god whose cattle Hermes steals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "The seven strings match the standard early Greek lyre.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Pieria, north of Mount Olympus, is where Apollo's divine cattle graze. Hermes, newborn, is stealing from his elder half-brother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "\"Slayer of Argus\" refers to Hermes killing the hundred-eyed giant Argus, a common epithet of his.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Onchestus is a place in Boeotia, famed for a grove and shrine of Poseidon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "The Alpheus is a river in the Peloponnese, far south of Pieria, so the night drive covers a great distance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "text": "The hymn credits Hermes with inventing fire-sticks, which are rubbed or twirled to produce fire. Laurel was Apollo's sacred tree.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "epithet",
+    "text": "A rapid list of titles defines Hermes as thief, trickster and night-prowler, foretelling the story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "hyperbole",
+    "text": "Compressing birth, music and theft into a single day stresses his astonishing precocity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "simile",
+    "text": "Thought and flashing glances illustrate how instantly Hermes plans and acts together.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "foreshadowing",
+    "text": "His hidden purpose, in contrast with the song, signals the coming cattle theft.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "characterization",
+    "text": "The reversed tracks show Hermes as a cunning trickster, already skilled at deception though newborn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "parallelism",
+    "text": "\"Unthought of, unimagined\" repeats the same idea in paired phrases, stressing the novelty of his invention.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "irony",
+    "text": "Hermes offers a bribe with a veiled threat, asking the old man to ignore what he saw, which he will not do.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "personification",
+    "text": "Night is a \"dark ally\" and the Moon climbs a watch-post, treating heavenly bodies as helpers and watchers.",
+    "spoiler": false
+   }
+  ]
+ }
+}

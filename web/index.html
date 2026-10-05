@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pantheon Pal</title>
+  <!-- The site icon: an open book, drawn here so that no image file is needed -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%238a3b12'/%3E%3Cpath d='M16 10C13 8.5 10 8 7 8.4V21.4C10 21 13 21.5 16 23M16 10C19 8.5 22 8 25 8.4V21.4C22 21 19 21.5 16 23M16 10V23' fill='none' stroke='%23f7f0e1' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E">
+  <!-- The map: Leaflet (loaded from a CDN) with Esri's gray canvas tiles, so the map needs internet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <!-- The reader's own choice of light or dark, applied before the page is drawn so it does not flash -->
+  <script>
+    try {
+      const theme = JSON.parse(localStorage.getItem("litanalyzer:theme"));
+      if (theme === "light" || theme === "dark") document.documentElement.dataset.theme = theme;
+    } catch { /* no saved choice: follow the system */ }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <h1>Pantheon Pal</h1>
+    <label for="book-select">Book</label>
+    <select id="book-select" aria-label="Choose a book"></select>
+    <div class="search">
+      <input id="search" type="search" placeholder="Find a person or place…" aria-label="Find a person or place" autocomplete="off">
+      <ul id="search-results" class="search-results" hidden></ul>
+    </div>
+    <button id="toc-toggle" type="button" aria-expanded="true" aria-controls="toc-panel">Contents</button>
+    <button id="side-toggle" type="button" aria-expanded="true" aria-controls="side-panel">Details</button>
+    <button id="theme-toggle" type="button" title="Switch between light and dark colours">Dark mode</button>
+  </header>
+
+  <noscript>This reader needs JavaScript.</noscript>
+
+  <div class="layout">
+    <!-- Left: contents tree built from the book's sections -->
+    <nav id="toc-panel" class="toc" aria-label="Contents">
+      <ul id="toc"></ul>
+    </nav>
+
+    <!-- Centre: the text you are reading -->
+    <main class="reader">
+      <article id="reader" aria-live="polite">
+        <h2 id="section-title">Choose a book to begin</h2>
+        <p id="section-reference" class="reference" hidden></p>
+        <div id="section-text" class="text"></div>
+      </article>
+      <nav class="pager" aria-label="Section navigation">
+        <button id="prev" type="button" disabled>&larr; Previous</button>
+        <span id="position"></span>
+        <button id="next" type="button" disabled>Next &rarr;</button>
+      </nav>
+    </main>
+
+    <!-- Right: annotation panes; they follow the reading position. -->
+    <aside id="side-panel" class="side" aria-label="Annotations">
+      <details id="pane-scene" class="pane" open>
+        <summary><h3>Summary &amp; scene</h3></summary>
+        <div id="scene" class="placeholder">A summary appears here for annotated sections.</div>
+      </details>
+      <details id="pane-map" class="pane" open>
+        <summary><h3>Map</h3></summary>
+        <div id="map" class="map" aria-label="Map of the places in this section" hidden></div>
+        <p id="map-note" class="map-note"></p>
+      </details>
+      <details id="pane-defs" class="pane" open>
+        <summary><h3>Definitions &amp; literary analysis</h3></summary>
+        <div id="defs" class="placeholder">Select an underlined sentence to see what it means.</div>
+        <div id="lit" class="placeholder">Select an underlined sentence to see literary devices.</div>
+      </details>
+      <details id="pane-hist" class="pane" open>
+        <summary><h3>History</h3></summary>
+        <div id="hist" class="placeholder">Select an underlined sentence for background.</div>
+      </details>
+      <details id="pane-refs" class="pane" open>
+        <summary><h3>References &amp; notes</h3></summary>
+        <div id="refs" class="placeholder">Footnotes for this section appear here.</div>
+      </details>
+      <details id="pane-tree" class="pane" open>
+        <summary><h3>Family tree</h3></summary>
+        <div class="tree-actions">
+          <details class="filters">
+            <summary>Filters</summary>
+            <div class="filters-body">
+              <label class="toggle"><input type="checkbox" id="tree-autocollapse" checked> Hide children unless they appear in this section</label>
+              <label class="depth" for="tree-depth">Connections out:
+                <input id="tree-depth" type="range" min="1" max="7" value="1"> <b id="tree-depth-label">1</b></label>
+            </div>
+          </details>
+          <button id="tree-expand" type="button">Expand</button>
+        </div>
+        <p id="tree-count" class="tree-count"></p>
+        <div id="tree-graph" class="tree-graph" aria-label="Family tree"></div>
+        <div id="tree-info" class="tree-info placeholder">Click a person for details.</div>
+        <details class="tree-list">
+          <summary>Characters in this section</summary>
+          <div id="tree" class="placeholder">Characters appear here as you read.</div>
+        </details>
+      </details>
+    </aside>
+
+    <!-- Drag these edges to resize the contents and notes columns (double-click to reset, or use the arrow keys) -->
+    <div id="resize-toc" class="resizer" data-side="toc" role="separator" aria-orientation="vertical"
+         aria-label="Resize the contents column" tabindex="0" title="Drag to resize; double-click to reset"></div>
+    <div id="resize-side" class="resizer" data-side="side" role="separator" aria-orientation="vertical"
+         aria-label="Resize the notes column" tabindex="0" title="Drag to resize; double-click to reset"></div>
+  </div>
+
+  <footer id="legal" class="legal">
+    <span id="legal-text">Texts are from Project Gutenberg. Choose a book.</span>
+    <button id="license-open" type="button" class="link">Full license &amp; credits</button>
+  </footer>
+  <dialog id="license-dialog" class="license-dialog" aria-labelledby="license-title">
+    <h2 id="license-title">Project Gutenberg license and credits</h2>
+    <pre id="license-body" class="license"></pre>
+    <div class="dialog-actions"><button id="license-close" type="button">Close</button></div>
+  </dialog>
+
+  <dialog id="person-dialog" class="person-dialog" aria-label="Character profile">
+    <div id="person-info" class="tree-info"></div>
+    <div class="dialog-actions"><button id="person-close" type="button">Close</button></div>
+  </dialog>
+
+  <dialog id="tree-dialog" class="tree-dialog" aria-label="Family tree">
+    <div class="tree-dialog-bar"><strong>Family tree</strong>
+      <details class="filters">
+        <summary>Filters</summary>
+        <div class="filters-body">
+          <label class="toggle"><input type="checkbox" id="tree-autocollapse-big" checked> Hide children unless they appear in this section</label>
+          <label class="depth" for="tree-depth-big">Connections out:
+            <input id="tree-depth-big" type="range" min="1" max="7" value="1"> <b id="tree-depth-big-label">1</b></label>
+        </div>
+      </details>
+      <button id="tree-close" type="button">Close</button></div>
+    <div id="tree-graph-big" class="tree-graph big"></div>
+    <div id="tree-info-big" class="tree-info placeholder">Click a person for details.</div>
+  </dialog>
+
+  <!-- Family tree drawing: Cytoscape.js with the dagre layout (loaded from a CDN, so the tree needs internet) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dagre@0.8.5/dist/dagre.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/cytoscape-dagre@2.5.0/cytoscape-dagre.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>
