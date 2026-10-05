@@ -34,10 +34,72 @@ state.depthSet = store.get("depth-user") != null;     // true once the reader ha
 state.autoCollapse = store.get("autocollapse") !== false;   // hide the children of people with very many
 state.collapse = new Map();                                  // person id -> true/false, set by the reader's own clicks
 
+// The data: from server/app.py, or on the website (python -m server.export) from the files it wrote, which the
+// browser reads like the server's answers. Search, "Also in:" and the section's people are worked out here then.
 async function api(path) {
+  if (window.STATIC_SITE) return siteApi(path);
   const res = await fetch("/api/" + path);
   if (!res.ok) throw new Error((await res.json().catch(() => ({}))).detail || res.statusText);
   return res.json();
+}
+
+const siteFiles = new Map();          // file -> its contents (a promise), each fetched once
+function siteFile(name) {
+  if (!siteFiles.has(name)) {
+    siteFiles.set(name, fetch(`/api/${name}.json`).then((r) => { if (!r.ok) throw new Error(r.statusText); return r.json(); })
+      .catch((e) => { siteFiles.delete(name); throw e; }));
+  }
+  return siteFiles.get(name);
+}
+
+async function siteApi(path) {
+  const [route, query] = path.split("?");
+  const q = new URLSearchParams(query || "");
+  if (route === "books") return siteFile("books");
+  if (route === "search") return siteSearch(q.get("q") || "", q.get("book") || "");
+  const [, slug, what, id, sub] = route.split("/");
+  const base = `books/${slug}/`;
+  switch (what) {
+    case "toc": case "about": case "places": case "journey": return siteFile(base + what);
+    case "books": return siteFile(base + "book-starts");
+    case "sections": return siteFile(!id ? base + "boilerplate" : base + (sub === "annotations" ? "annotations/" : "sections/") + id);
+    case "people": return siteFile(base + "people/" + decodeURIComponent(id));
+    case "elsewhere": return (await siteFile(base + "elsewhere"))[`${q.get("type")}:${q.get("id")}`] || [];
+    case "tree": {
+      const tree = await siteFile(base + "tree"), upto = q.get("upto");
+      return upto ? { ...tree, position: upto, current: (await siteFile(base + "tree-current"))[upto] || [] } : tree;
+    }
+  }
+  throw new Error("Not on the website: " + path);
+}
+
+// The server's search (server/app.py: search), on the website: same spelling-insensitive names, same order.
+const normName = (s) => s.replace(/[œŒ]/g, "oe").replace(/[æÆ]/g, "ae").normalize("NFKD").replace(/[̀-ͯ]/g, "")
+  .toLowerCase().replace(/[^a-z ]/g, " ").split(/\s+/).filter(Boolean).join(" ");
+
+async function siteSearch(q, book) {
+  const key = normName(q);
+  if (key.length < 2) return [];
+  const groups = await siteFile("search-index");
+  const row = (e) => ({ type: e.type, book: e.book, book_title: e.book_title, id: e.id, name: e.name, kind: e.kind });
+  const found = [];
+  for (const members of groups) {
+    let best = null;
+    for (const e of members) {
+      e.keys ??= e.names.map(normName);           // worked out once, on the first search
+      e.names.forEach((n, i) => {
+        const k = e.keys[i];
+        if (!k.includes(key)) return;
+        const rank = k.startsWith(key) ? 0 : (" " + k).includes(" " + key) ? 1 : 2;
+        if (!best || rank < best.rank || (rank === best.rank && n < best.n)) best = { rank, n };
+      });
+    }
+    if (!best) continue;
+    const main = members.find((e) => e.book === book) || members.reduce((a, b) => (b.weight > a.weight ? b : a));
+    found.push({ rank: best.rank, weight: members.reduce((s, e) => s + e.weight, 0),
+      row: { ...row(main), as: best.n === main.name ? "" : best.n, about: main.about, books: members.map(row) } });
+  }
+  return found.sort((a, b) => a.rank - b.rank || b.weight - a.weight).slice(0, 40).map((f) => f.row);
 }
 
 function showError(message) {
@@ -950,14 +1012,17 @@ const isDark = () => {
   return chosen ? chosen === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
 };
 
-// Esri's gray canvas: a plain base map plus a layer of place names in English, in a dark or light version.
+// Map tiles from MapTiler (OpenStreetMap data; free plan, key limited to pantheonpal.com and localhost), in a
+// light or dark version to match the page.
+const MAPTILER_KEY = "4j2aT4ZayjiQygOJZDWQ";
+
 function mapTiles() {
   if (!state.map) return;
   for (const layer of state.mapTiles || []) layer.remove();
-  const style = isDark() ? "World_Dark_Gray" : "World_Light_Gray";
-  state.mapTiles = ["Base", "Reference"].map((part) =>
-    L.tileLayer(`https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/${style}_${part}/MapServer/tile/{z}/{y}/{x}`, { maxZoom: 12,
-      attribution: part === "Base" ? "Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors" : "" }).addTo(state.map));
+  const style = isDark() ? "dataviz-dark" : "dataviz";
+  state.mapTiles = [L.tileLayer(`https://api.maptiler.com/maps/${style}/256/{z}/{x}/{y}.png?key=${MAPTILER_KEY}`, {
+    maxZoom: 12, attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank" rel="noopener">&copy; MapTiler</a> '
+      + '<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">&copy; OpenStreetMap contributors</a>' }).addTo(state.map)];
   for (const layer of state.mapTiles) layer.bringToBack();
 }
 

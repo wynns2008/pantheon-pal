@@ -11,7 +11,7 @@ A reading companion for long books. It splits a Project Gutenberg text into sect
 - **Contents:** the story's sections, plus the preface, the introductions and the translator's commentary (Riley's explanation after each fable), shown in italics. Previous and Next keep to the story when you are reading the story. Tables of contents, indexes and lists of footnotes are left out; the footnotes show beside their sentences. The book list shows short titles ("The Æneid", not "The Æneid of Virgil translated into English prose").
 - **Side panes, top to bottom** (each can be folded, and the state is remembered; drag the edges of the chapter list and side column to resize):
   - **Summary & scene:** the summary, then a card for the scene you are reading: where it happens, what is at stake, who is present, and whether it is a story told by a character. It follows you as you scroll; click a scene in the list to jump to it. The summary is the translator's own where it is written in full sentences (Riley's before each fable of *Metamorphoses*). Where the translator gives only a heading (Butler's lines in capitals, phrases joined by dashes), Wikipedia's summary is shown instead, with its source as a link to that section of the article ("Wikipedia: Odyssey § Synopsis"); if Wikipedia has none for that section, the heading is shown in ordinary case. Where Wikipedia summarises a whole book and the section is one part of it, its line is added as "In Book 2:". A long Wikipedia summary shows its opening with a "Show all" button.
-  - **Map** (Leaflet with Esri's gray canvas tiles, labelled in English): a numbered pin for each scene's place, joined in reading order; scenes at one spot share a pin. Grey dots are places from the rest of the book. Legendary places use their traditional identification (the Cyclopes in Sicily); places with no location (Olympus, the underworld) are listed under the map.
+  - **Map** (Leaflet with MapTiler's plain grey "Dataviz" tiles, from OpenStreetMap data; place names may be in the local language): a numbered pin for each scene's place, joined in reading order; scenes at one spot share a pin. Grey dots are places from the rest of the book. Legendary places use their traditional identification (the Cyclopes in Sicily); places with no location (Olympus, the underworld) are listed under the map.
   - **Definitions & literary analysis:** odd phrasing, archaic words and allusions for the clicked sentence, followed by the devices it uses (simile, irony, foreshadowing and so on) and why a quote is notable. With nothing selected it lists the names used in the section (Jove = Jupiter), its notable quotes (click one to jump to it), and the themes of the work as Wikipedia describes them: a row of small buttons, one per theme, with a link to the section quoted ("Wikipedia: Odyssey § Structure").
   - **History:** background on the clicked sentence; the people of the scene with their one-line Wikidata description; and the history of the work from Wikipedia (dating, composition, influence, reception), as a row of small buttons with a link to the section quoted.
   - **References & notes:** the translator's own footnote for the clicked sentence, or all of the section's footnotes when nothing is selected. A citation of a book in a note is a link that opens it: "see book xiii", each book of a range or list ("bks. v. and vi.", "books ii, iii and iv"), and another work of the library ("the *Iliad* ix. 146" opens the *Iliad* at Book 9). Claude's notes in the other panes are linked the same way. Line numbers ("Ver. 4", "l. 82"), works the library does not hold, and book numbers in a work not divided into books (Hesiod) stay plain text.
@@ -120,6 +120,24 @@ Put your key in `.env` in the project folder: `ANTHROPIC_API_KEY=...`. `.env` is
 
 **Cost reference (Claude Sonnet 5.5):** annotating all four books again with the two-pass prompt cost about $16.60, plus a little for the Haiku steps; the *Odyssey* alone (24 books) was $3.29. The estimate the command prints runs 15 to 25% low. The *Iliad*, added with the protocol below, cost about $5.20 in all ($4.38 for annotation). Annotating the 53 sections of Hesiod that changed when its parse was fixed, with the review, Wikidata check and key moments, cost about $3.50.
 
+## Publishing the website
+
+The reader can be published as a static website: no server, no database, nothing that costs money to run. `python -m server.export` writes every answer the reader would ask the server for into `site/` (about 21 MB in 3,500 files for six books, in under a minute, free), together with the reader itself. On the website the browser reads those files instead of asking a server, and works out three things itself: the search (one index of every name, downloaded once on the first search), the "Also in:" lines, and who is in the section being read. Everything else is the server's own answer, saved, so the website shows exactly what `uvicorn server.app:app` does; locally the reader works as before.
+
+```bash
+python -m server.export                                # rebuild site/ (free)
+python -m http.server 8002 --directory site            # try it locally at http://localhost:8002/
+```
+
+pantheonpal.com is served by Cloudflare Pages, which builds the site from the GitHub repository on every push:
+
+- **Build command:** `pip install -r requirements.txt && python -m server.export`
+- **Build output directory:** `site`
+- **Environment variable:** `PYTHON_VERSION` = `3.12`
+- **Custom domain:** pantheonpal.com (the domain is registered at Cloudflare, so it connects itself, with HTTPS)
+
+So publishing a change is: run the pipeline or edit the code, commit, and push. `site/` is built, never committed (it is in `.gitignore`). The map tiles come from MapTiler with a free key that only works on pantheonpal.com, its `pantheon-pal.pages.dev` address and localhost; a copy hosted elsewhere needs its own free key in `web/app.js`. Running costs: the domain, about $10 a year; hosting and the map are free within their allowances.
+
 ## How it works
 
 ```
@@ -156,7 +174,7 @@ LitAnalyzer/
 ├── books/<name>/source.txt          raw Gutenberg texts, never modified
 ├── litparse/                        parser: gutenberg, headings, builder, anchors (footnote markers), sentences, model, __main__ (CLI)
 ├── annotate/                        schema, run, check, sweep, pronounce, merge, outside, review, verify (Wikidata), moments, library, about (Wikipedia), places, images (Commons), realign, book (all in one)
-├── server/app.py                    API and static files
+├── server/app.py, export.py         API and static files; export writes the static website into site/
 ├── web/                             index.html, app.js, style.css
 ├── data/<name>/
 │   ├── output/                      generated: sections.json, annotations/, tree.json
@@ -184,10 +202,11 @@ python -m annotate.sweep               # every book; add a name for one
 
 Pass: "Everything opens."
 
-**3. The code.** Every Python file compiles, and every command the README names exists.
+**3. The code.** Every Python file compiles, every command the README names exists, and the static website builds.
 
 ```bash
 python -m compileall -q litparse annotate server
+python -m server.export
 ```
 
 **4. The reader, by hand.** Start the server and, for every book, open the About page, the first, a middle and the last section of the story, and one preface or commentary page. On each, look at these and keep the browser's console open for errors:
@@ -225,7 +244,7 @@ Write down what was found, fix what is wrong at its source (the parser, the prom
 - The review varies a little from run to run (one run joined Leocritus and Leiocritus, the next did not), and it leaves wrong family links alone. The Wikidata check has its own mistakes: with several namesakes it can match the wrong one (the Athenian Icarius for Penelope's father), which marks a correct link `differs`, and some of the parents it adds are one tradition among several. The reader does not yet show which links are confirmed or differ.
 - Sentence-by-sentence reading only applies to annotated prose sections; unannotated sections (and verse) show plain text with line breaks kept.
 - Heading detection needs `CHAPTER`/`BOOK`-style headings or standalone numerals, or (for a verse anthology) line markers and titles in capitals. Books with unnumbered chapters get no structure. In Hesiod a group of fragments with no number of its own is called "Part 7".
-- The tree and map libraries load from a CDN and the map tiles from Esri (free with attribution for personal, non-commercial use), so both need internet access.
+- The tree and map libraries load from a CDN and the map tiles from MapTiler, so both need internet access. MapTiler's free plan has a monthly allowance; past it the tiles stop loading until the next month (nothing is charged), and the rest of the reader keeps working. The key in `web/app.js` only works on pantheonpal.com, its Cloudflare Pages address and localhost; a copy of the project hosted elsewhere needs its own free key.
 - Map coordinates come from the model and are not checked.
 - A picture is the lead image of the character's Wikipedia article, so it is sometimes a scene with others in it (Eumaeus gets a vase of Telemachus leaving Penelope). Characters with no article, or no free image, have none. Pictures load from Wikimedia, so they need internet access.
 - Each place's Wikipedia article is Claude's choice and is not checked; a wrong one (Hesiod's Heaven was given Uranus's) is corrected in `curated/places.json`. Many figures are both a being and a place (river gods, nymphs who are islands, Hesiod's Tartarus); characters and places are kept apart, so the god Tartarus and the place Tartarus are separate rows in the search, each with its own profile. Scene places with no name ("the woods", "the earth") get no profile.
@@ -264,4 +283,4 @@ Write down what was found, fix what is wrong at its source (the parser, the prom
 - **Wikipedia excerpts** (summaries, themes, history, sources and the opening lines on characters and places, in `data/*/output/about.json` and `places.json`): CC BY-SA 4.0, from the English Wikipedia; each links to its article.
 - **Wikidata** (character descriptions and family links): CC0.
 - **Pictures**: not stored here; they load from Wikimedia Commons, each under its own licence, shown in its credit line with a link to its Commons page.
-- **Map tiles**: Esri, free with attribution for personal, non-commercial use.
+- **Map tiles**: MapTiler (free plan), map data © OpenStreetMap contributors (ODbL); both credited on the map.
