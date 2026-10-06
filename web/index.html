@@ -35,6 +35,7 @@
   <div class="layout">
     <!-- Left: contents tree built from the book's sections -->
     <nav id="toc-panel" class="toc" aria-label="Contents">
+      <div class="sheet-bar"><strong>Contents</strong><button type="button" class="panel-close" aria-label="Close the contents">&times;</button></div>
       <ul id="toc"></ul>
     </nav>
 
@@ -54,6 +55,7 @@
 
     <!-- Right: annotation panes; they follow the reading position. -->
     <aside id="side-panel" class="side" aria-label="Annotations">
+      <div class="sheet-bar"><strong>Notes</strong><button type="button" class="panel-close" aria-label="Close the notes">&times;</button></div>
       <details id="pane-scene" class="pane" open>
         <summary><h3>Summary &amp; scene</h3></summary>
         <div id="scene" class="placeholder">A summary appears here for annotated sections.</div>
@@ -105,6 +107,8 @@
     <div id="resize-side" class="resizer" data-side="side" role="separator" aria-orientation="vertical"
          aria-label="Resize the notes column" tabindex="0" title="Drag to resize; double-click to reset"></div>
   </div>
+  <!-- On a phone: dims the text behind the open contents or notes; a tap on it closes them -->
+  <div id="scrim" class="scrim" hidden></div>
 
   <footer id="legal" class="legal">
     <span id="legal-text">Texts are from Project Gutenberg. Choose a book.</span>

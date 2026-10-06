@@ -476,6 +476,15 @@ function selectSentence(i) {
   if (state.selected !== null) els.text.querySelector(`.s[data-i="${i}"]`)?.classList.add("selected");
   if (state.selected !== null && scenes().length) setScene(sceneAt(i));
   renderPanes();
+  // On a phone the notes are out of sight: open the sheet at the sentence's notes.
+  if (state.selected !== null && phone.matches) {
+    openPanel("side");
+    // The first pane with something on this sentence: definitions, then history, then the footnote.
+    const filled = [els.defs, els.lit, els.hist, els.refs].find((n) => !n.hidden && !n.classList.contains("placeholder")) || els.defs;
+    const pane = filled.closest("details"), side = $("side-panel");
+    pane.open = true;
+    side.scrollTop = pane.offsetTop - side.querySelector(".sheet-bar").offsetHeight - 8;
+  }
 }
 
 function placeholder(node, text) { node.className = "placeholder"; delete node.dataset.person; node.replaceChildren(text); }
@@ -1635,7 +1644,24 @@ const onReaderScroll = () => {
 };
 document.querySelector(".reader").addEventListener("scroll", onReaderScroll, { passive: true });
 window.addEventListener("scroll", onReaderScroll, { passive: true });
+// On a phone the contents are a drawer and the notes a sheet over the text: one of them open at a time, or none.
+const phone = matchMedia("(max-width: 900px)");
+function openPanel(which) {
+  els.layout.classList.toggle("toc-open", which === "toc");
+  els.layout.classList.toggle("side-open", which === "side");
+  $("scrim").hidden = !which;
+  if (which === "side") {                     // the map and tree were drawn while hidden: fit them now
+    if (state.cy) { state.cy.resize(); state.cy.fit(undefined, 8); }
+    if (state.current) drawMap();
+  }
+}
+$("scrim").addEventListener("click", () => openPanel(null));
+for (const btn of document.querySelectorAll(".panel-close")) btn.addEventListener("click", () => openPanel(null));
+els.toc.addEventListener("click", (e) => { if (phone.matches && e.target.closest("a")) openPanel(null); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && phone.matches) openPanel(null); });
+phone.addEventListener("change", () => openPanel(null));
 document.getElementById("side-toggle").addEventListener("click", (e) => {
+  if (phone.matches) return openPanel(els.layout.classList.contains("side-open") ? null : "side");
   const hidden = els.layout.classList.toggle("side-hidden");
   e.currentTarget.setAttribute("aria-expanded", String(!hidden));
   if (!hidden && state.cy) { state.cy.resize(); state.cy.fit(undefined, 8); }
@@ -1644,6 +1670,7 @@ document.getElementById("side-toggle").addEventListener("click", (e) => {
 $("license-open").addEventListener("click", () => els.licenseDialog.showModal());
 $("license-close").addEventListener("click", () => els.licenseDialog.close());
 els.tocToggle.addEventListener("click", () => {
+  if (phone.matches) return openPanel(els.layout.classList.contains("toc-open") ? null : "toc");
   const hidden = els.layout.classList.toggle("toc-hidden");
   els.tocToggle.setAttribute("aria-expanded", String(!hidden));
 });
