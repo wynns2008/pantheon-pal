@@ -171,7 +171,6 @@ server/app.py serves all of it;  web/ is the reader.
 ```
 LitAnalyzer/
 ├── README.md, requirements.txt, .gitignore, .env      .env holds your API key (not shared)
-├── .claude/launch.json              how the Claude desktop app starts the server on port 8000
 ├── books/<name>/source.txt          raw Gutenberg texts, never modified
 ├── litparse/                        parser: gutenberg, headings, builder, anchors (footnote markers), sentences, model, __main__ (CLI)
 ├── annotate/                        schema, run, check, sweep, pronounce, merge, outside, review, verify (Wikidata), moments, library, about (Wikipedia), places, images (Commons), realign, book (all in one)

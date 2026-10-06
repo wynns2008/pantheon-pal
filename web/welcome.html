@@ -58,6 +58,22 @@
     .card h3 { font-family: var(--serif); font-size: 1.15rem; margin: 0 0 6px; }
     .card p { font-size: 0.92rem; color: var(--muted); margin: 0; }
 
+    /* See it in action: screenshots beside their captions, alternating sides; stacked on a phone */
+    .shot { display: grid; grid-template-columns: 3fr 2fr; gap: 28px; align-items: center; margin: 28px 0 36px; }
+    .shot:nth-of-type(even) img { order: 2; }
+    .shot img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border);
+                box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12); background: var(--surface); }
+    .shot.tall img { max-width: 380px; justify-self: center; }
+    .shot.wide { grid-template-columns: 1fr; gap: 14px; }               /* a wide picture: caption above, full width */
+    .shot.wide figcaption { order: 1; max-width: 60ch; }
+    .shot.wide img { order: 2; max-width: 780px; }
+    .shot figcaption { font-family: var(--serif); font-size: 1.08rem; color: var(--muted); }
+    .shot figcaption strong { display: block; color: var(--text); font-size: 1.25rem; margin-bottom: 4px; }
+    @media (max-width: 700px) {
+      .shot { grid-template-columns: 1fr; gap: 12px; }
+      .shot:nth-of-type(even) img { order: 0; }
+    }
+
     /* Who it's for */
     .who ul { list-style: none; padding: 0; margin: 14px 0 12px; display: flex; flex-wrap: wrap; gap: 8px; }
     .who li { background: var(--accent-soft); border-radius: 999px; padding: 6px 14px; font-size: 0.92rem; }
@@ -105,6 +121,30 @@
         <div class="card"><h3>Notes beside the text</h3>
           <p>Odd words, allusions and the translator's own footnotes, a tap away.</p></div>
       </div>
+    </section>
+
+    <section class="shots">
+      <h2>See it in action</h2>
+      <figure class="shot">
+        <img src="/static/img/map.webp" width="1230" height="878" loading="lazy"
+             alt="Map of Odyssey Book 9: numbered pins trace Ulysses from Troy past the Cicons and the Lotus-eaters to the Cyclops.">
+        <figcaption><strong>Follow the journey.</strong> Every scene gets a pin, so you can watch Ulysses zigzag across the Mediterranean.</figcaption>
+      </figure>
+      <figure class="shot tall">
+        <img src="/static/img/tree-gods.webp" width="1167" height="1392" loading="lazy"
+             alt="Apollo's family tree: Cronos and Rhea, parents of Zeus; Phoebe and Coeus, parents of Leto; Zeus and Leto, parents of Apollo and Artemis; Apollo and the mortal Coronis, parents of Asclepius.">
+        <figcaption><strong>See who's related to whom.</strong> Apollo's family in one glance, from the Titans down to his son Asclepius. Gods in blue, mortals in orange.</figcaption>
+      </figure>
+      <figure class="shot tall">
+        <img src="/static/img/profile.webp" width="1120" height="1644" loading="lazy"
+             alt="Apollo's profile: a statue of him, his other names, his parents, Wikipedia's summary and his key moments in the Iliad.">
+        <figcaption><strong>Meet the gods.</strong> Apollo's profile: every name he goes by, his family, and the scenes where he really matters.</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="/static/img/citations.webp" width="910" height="636" loading="lazy"
+             alt="The translator's footnotes in Odyssey Book 1, where 'bks. v and vi' and 'book xiii' are links.">
+        <figcaption><strong>Footnotes that go somewhere.</strong> When the translator says "see book xiii", one tap takes you there.</figcaption>
+      </figure>
     </section>
 
     <section class="who">
