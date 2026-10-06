@@ -74,6 +74,9 @@ def main() -> None:
     (SITE / "index.html").write_text(page.replace('<script src="/static/app.js">',
                                                   '<script>window.STATIC_SITE = true;</script>\n  <script src="/static/app.js">'),
                                      encoding="utf-8")
+    # The welcome page at /welcome/ (a folder's index.html works on every host).
+    (SITE / "welcome").mkdir()
+    shutil.copy(server.WEB / "welcome.html", SITE / "welcome" / "index.html")
     size = sum(f.stat().st_size for f in SITE.rglob("*") if f.is_file()) / 1e6
     print(f"Wrote site/: {len(books)} books, {files + 1} data files, {size:.1f} MB. Upload site/ to a static host.")
 

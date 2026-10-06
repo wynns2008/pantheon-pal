@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pantheon Pal: read the Greek and Roman myths without losing track of who's who</title>
+  <meta name="description" content="A free reading companion for the Iliad, the Odyssey, the Aeneid, Ovid's Metamorphoses and more: every name, family tree and place, right beside the text.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%238a3b12'/%3E%3Cpath d='M16 10C13 8.5 10 8 7 8.4V21.4C10 21 13 21.5 16 23M16 10C19 8.5 22 8 25 8.4V21.4C22 21 19 21.5 16 23M16 10V23' fill='none' stroke='%23f7f0e1' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E">
+  <!-- The reader's light or dark choice carries over; light otherwise. Seeing this page once is remembered, so
+       pantheonpal.com then opens the reader itself. -->
+  <script>
+    try {
+      if (JSON.parse(localStorage.getItem("litanalyzer:theme")) === "dark") document.documentElement.dataset.theme = "dark";
+      localStorage.setItem("litanalyzer:welcomed", "true");
+    } catch { /* storage blocked: light, and no memory */ }
+  </script>
+  <style>
+    :root {
+      --bg: #efe6d3; --surface: #f7f0e1; --text: #2a251d; --muted: #655a49; --border: #d8cab0;
+      --accent: #8a3b12; --accent-soft: #e6d3b8;
+      --serif: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+      --sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+      color-scheme: light;
+    }
+    :root[data-theme="dark"] {
+      --bg: #17171a; --surface: #1f1f23; --text: #e8e6e1; --muted: #c9c6bf; --border: #34343a;
+      --accent: #e39a6b; --accent-soft: #3a2c24; color-scheme: dark;
+    }
+    * { box-sizing: border-box; }
+    html { font-size: 112.5%; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--sans); line-height: 1.6; }
+    a { color: var(--accent); }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+    section { padding: 40px 0; border-top: 1px solid var(--border); }
+    h2 { font-family: var(--serif); font-size: 1.6rem; margin: 0 0 12px; }
+    p { margin: 0 0 12px; }
+
+    /* Opening: the name, the promise and the way in */
+    .hero { text-align: center; padding: 72px 0 56px; border: 0; }
+    .hero .mark { width: 56px; height: 56px; }
+    .hero h1 { font-family: var(--serif); font-size: clamp(2.4rem, 7vw, 3.6rem); margin: 8px 0 6px; letter-spacing: -0.01em; }
+    .hero .tagline { font-family: var(--serif); font-style: italic; font-size: clamp(1.1rem, 3vw, 1.35rem); color: var(--muted); max-width: 32ch; margin: 0 auto 28px; }
+    .buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .button { display: inline-block; padding: 12px 22px; border-radius: 999px; font-weight: 600; text-decoration: none; border: 2px solid var(--accent); }
+    .button.primary { background: var(--accent); color: var(--surface); }
+    .button.secondary { color: var(--accent); }
+    .button:hover { filter: brightness(1.08); }
+
+    /* Why: the story, set like a page of a book */
+    .why p { font-family: var(--serif); font-size: 1.15rem; max-width: 62ch; }
+    .names { font-style: italic; color: var(--accent); }
+
+    /* What it does: four cards (stacked on a phone) */
+    .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 18px; }   /* never three and one */
+    @media (min-width: 900px) { .cards { grid-template-columns: repeat(4, 1fr); } }
+    @media (max-width: 520px) { .cards { grid-template-columns: 1fr; } }
+    .card { background: var(--surface); border: 1px solid var(--border); border-top: 3px solid var(--accent); border-radius: 12px; padding: 18px; }
+    .card h3 { font-family: var(--serif); font-size: 1.15rem; margin: 0 0 6px; }
+    .card p { font-size: 0.92rem; color: var(--muted); margin: 0; }
+
+    /* Who it's for */
+    .who ul { list-style: none; padding: 0; margin: 14px 0 12px; display: flex; flex-wrap: wrap; gap: 8px; }
+    .who li { background: var(--accent-soft); border-radius: 999px; padding: 6px 14px; font-size: 0.92rem; }
+
+    /* The books: each card opens that book */
+    .books { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; margin-top: 18px; }
+    .book { display: block; text-decoration: none; color: var(--text); background: var(--surface); border: 1px solid var(--border);
+            border-left: 4px solid var(--accent); border-radius: 10px; padding: 14px 16px; transition: transform 0.1s; }
+    .book:hover { transform: translateY(-2px); border-color: var(--accent); }
+    .book strong { font-family: var(--serif); font-size: 1.15rem; display: block; }
+    .book span { font-size: 0.88rem; color: var(--muted); }
+
+    .note { max-width: 62ch; }
+    .note p { color: var(--muted); }
+    footer { padding: 24px 0 40px; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#8a3b12"/><path d="M16 10C13 8.5 10 8 7 8.4V21.4C10 21 13 21.5 16 23M16 10C19 8.5 22 8 25 8.4V21.4C22 21 19 21.5 16 23M16 10V23" fill="none" stroke="#f7f0e1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <h1>Pantheon Pal</h1>
+      <p class="tagline">Read the Greek and Roman myths without losing track of who's who.</p>
+      <div class="buttons">
+        <a class="button primary" href="/#odyssey">Start reading</a>
+        <a class="button secondary" href="#books">Pick a book &darr;</a>
+      </div>
+    </header>
+
+    <section class="why">
+      <h2>Why I made this</h2>
+      <p><span class="names">Apollo. Phoebus. The Delian God. The son of Latona.</span> Same god, four names, and that's just one page of Ovid.</p>
+      <p>I kept stopping to look things up, so I built the friend I wanted beside me while reading: one who knows everyone's names, families and haunts.</p>
+    </section>
+
+    <section>
+      <h2>What it does</h2>
+      <div class="cards">
+        <div class="card"><h3>Who's who</h3>
+          <p>Tap any name for a profile: every name they go by, their family, their big moments.</p></div>
+        <div class="card"><h3>Family trees</h3>
+          <p>See how everyone's related, for the part you're reading right now.</p></div>
+        <div class="card"><h3>Maps</h3>
+          <p>Where each scene happens, from Troy to the edge of the underworld.</p></div>
+        <div class="card"><h3>Notes beside the text</h3>
+          <p>Odd words, allusions and the translator's own footnotes, a tap away.</p></div>
+      </div>
+    </section>
+
+    <section class="who">
+      <h2>Who it's for</h2>
+      <ul>
+        <li>Curious first-timers</li><li>Students with a reading list</li><li>Book clubs</li>
+        <li>Anyone who's put down a myth because of the names</li>
+      </ul>
+      <p>No Greek or Latin needed. No sign-up. Free.</p>
+    </section>
+
+    <section id="books">
+      <h2>The books</h2>
+      <div class="books" id="book-list">
+        <a class="book" href="/#iliad"><strong>The Iliad</strong><span>Homer: the wrath of Achilles and the fall of Hector.</span></a>
+        <a class="book" href="/#odyssey"><strong>The Odyssey</strong><span>Homer: ten years, one very long trip home.</span></a>
+        <a class="book" href="/#aeneid"><strong>The &AElig;neid</strong><span>Virgil: from burning Troy to the founding of Rome.</span></a>
+        <a class="book" href="/#argonautica"><strong>The Argonautica</strong><span>Apollonius: Jason, Medea and the Golden Fleece.</span></a>
+        <a class="book" href="/#metamorphoses"><strong>The Metamorphoses</strong><span>Ovid: two hundred-odd myths of things changing shape.</span></a>
+        <a class="book" href="/#hesiod"><strong>Hesiod &amp; the Homeric Hymns</strong><span>Where the gods come from, and songs in their honour.</span></a>
+      </div>
+    </section>
+
+    <section class="note">
+      <h2>A quick, honest note</h2>
+      <p>The background (summaries, history, who's who) comes from Wikipedia and Wikidata, written by people who know these myths. AI did the grunt work of combing through the books, so mistakes slip in. Spot one? <a href="https://github.com/wynns2008/pantheon-pal/issues">Tell me on GitHub</a>. Pantheon Pal is <a href="https://github.com/wynns2008/pantheon-pal">open source</a>.</p>
+    </section>
+  </main>
+  <footer class="wrap">
+    Texts from Project Gutenberg (public domain in the US). Summaries and background excerpted from Wikipedia (CC BY-SA 4.0) and Wikidata.
+    Map &copy; MapTiler &copy; OpenStreetMap contributors. Not affiliated with Project Gutenberg.
+  </footer>
+</body>
+</html>

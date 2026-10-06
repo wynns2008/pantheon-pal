@@ -11,6 +11,12 @@
   <link rel="stylesheet" href="/static/style.css">
   <!-- Light colours, unless the reader has chosen dark with the button; applied before the page is drawn so it does not flash -->
   <script>
+    // A first visit (no link into a book, nothing read yet, the welcome page never seen) starts on the welcome page.
+    try {
+      if (!location.hash && !localStorage.getItem("litanalyzer:last") && !localStorage.getItem("litanalyzer:welcomed")) {
+        location.replace("/welcome/");
+      }
+    } catch { /* storage blocked: go straight to the reader */ }
     let theme = "light";
     try { if (JSON.parse(localStorage.getItem("litanalyzer:theme")) === "dark") theme = "dark"; } catch { /* storage blocked: light */ }
     document.documentElement.dataset.theme = theme;
@@ -18,7 +24,7 @@
 </head>
 <body>
   <header class="topbar">
-    <h1>Pantheon Pal</h1>
+    <h1><a href="/welcome/" class="home-link" title="About Pantheon Pal">Pantheon Pal</a></h1>
     <label for="book-select">Book</label>
     <select id="book-select" aria-label="Choose a book"></select>
     <div class="search">

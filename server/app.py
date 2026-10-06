@@ -88,6 +88,13 @@ def index():
     return FileResponse(WEB / "index.html")
 
 
+@app.get("/welcome", include_in_schema=False)
+@app.get("/welcome/", include_in_schema=False)
+def welcome():
+    """The welcome page: what Pantheon Pal is, why it exists and who it is for. A first visit to / starts here."""
+    return FileResponse(WEB / "welcome.html")
+
+
 @app.get("/api/books")
 def list_books():
     """Every parsed book with its title and section counts."""
