@@ -1,0 +1,664 @@
+{
+ "section_id": "aeschylus-body-2",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 22531,
+  "output": 6407
+ },
+ "result": {
+  "summary": "The Chorus of Argive elders praise Zeus for Troy's fall, reflect on pride and the grief of war, and doubt the beacon news until a Herald arrives. The Herald announces Agamemnon's return, Clytaemestra declares her loyalty, and the Herald reports that a storm scattered the fleet and Menelaüs is missing.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 34,
+    "title": "The Chorus on Zeus and ruin",
+    "summary": "The Chorus thank Zeus and Night for Troy's fall, condemn Paris's crime, and describe the grief of Argive homes mourning the dead. They fear public anger and divine vengeance.",
+    "stakes": "The city fears the people's resentment and the vengeance of the gods on those who prosper in wrong.",
+    "present": [
+     "Chorus",
+     "Zeus",
+     "Paris",
+     "Ares"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 35,
+    "end_sentence": 51,
+    "title": "Elders doubt the beacon",
+    "summary": "The elders debate whether the beacon news is true, then see a Herald approaching.",
+    "stakes": "They risk false hope if the beacon news proves untrue.",
+    "present": [
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 52,
+    "end_sentence": 110,
+    "title": "The Herald returns",
+    "summary": "The Herald greets his homeland, praises Agamemnon's victory, and exchanges words with the Chorus about hardships at Troy.",
+    "stakes": "The Herald is overjoyed to have escaped death; the Chorus conceal old fears.",
+    "present": [
+     "Herald",
+     "Chorus",
+     "Agamemnon",
+     "Apollo",
+     "Hermes",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 111,
+    "end_sentence": 126,
+    "title": "Clytaemestra's declaration",
+    "summary": "Clytaemestra says she trusted the beacons despite mockery and sends a message of her faithfulness to Agamemnon. The Chorus doubt her sincerity and ask about Menelaüs.",
+    "stakes": "Her pose of fidelity conceals her true intent; her honour is in question.",
+    "present": [
+     "Clytaemestra",
+     "Herald",
+     "Chorus",
+     "Menelaüs"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 127,
+    "end_sentence": 157,
+    "title": "The storm and Menelaüs",
+    "summary": "The Herald tells how a storm destroyed much of the fleet and separated Menelaüs's ship, leaving his fate unknown.",
+    "stakes": "Menelaüs and many Achaeans may have died at sea.",
+    "present": [
+     "Herald",
+     "Chorus",
+     "Menelaüs",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Aegean Sea",
+     "modern_name": "Aegean Sea",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 25.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [
+     "Leader of the Chorus"
+    ],
+    "kind": "mortal",
+    "description": "Elders of Argos"
+   },
+   {
+    "name": "Herald",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenger returned from Troy"
+   },
+   {
+    "name": "Clytaemestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Queen of Argos, wife of Agamemnon"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sovereign god, lord of host and guest"
+   },
+   {
+    "name": "Paris",
+    "aliases": [
+     "Alexander"
+    ],
+    "kind": "mortal",
+    "description": "Trojan who stole a wedded wife"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Argos, conqueror of Troy"
+   },
+   {
+    "name": "Menelaüs",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lord of the land, missing after the storm"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Pytho's lord"
+    ],
+    "kind": "god",
+    "description": "God invoked by the Herald"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Herald's patron god"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "War god who sends back ashes"
+   },
+   {
+    "name": "Night",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Invoked as casting the net over Troy"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Atreus",
+    "relation": "parent_of",
+    "b": "Agamemnon",
+    "source": "text",
+    "evidence_sentence": 63
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "spouse_of",
+    "b": "Agamemnon",
+    "source": "text",
+    "evidence_sentence": 119
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Alexander",
+    "canonical": "Paris",
+    "explanation": "Another name for Paris, the Trojan prince."
+   },
+   {
+    "alias": "Achaean",
+    "canonical": "Argive",
+    "explanation": "Names for the Greek host."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 32,
+    "reason": "Memorable warning that excessive glory invites divine ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "reason": "Shows the danger of public anger against rulers.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The Chorus link pride and excess wealth to ruin, suggesting Agamemnon's triumph carries danger. Divine justice punishes wrongdoing.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Dismissals of women's judgment reflect Athenian attitudes, and Clytaemestra's speech is deeply ironic.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "The 'meshed snare' and 'enthralling net' picture Troy caught like a fish or bird; 'enthralling' means enslaving, and 'o'erleap' means leap over.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Alexander is another name for Paris, the Trojan prince who carried off Helen. Zeus is 'lord of host and guest' as protector of hospitality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "'Temptation' (Greek Ate) is a personified force of blind folly that leads men to ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "The touchstone was a stone used to test precious metal; base metal shows dark when rubbed against it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "'Dower' means the dowry a bride brings; Helen brings war instead. 'Undareable' is the translator's coinage for a deed none should dare.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Ares, god of war, is pictured as a gold-dealer weighing bodies on scales; the dead return as ashes in urns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "The Spirits of Vengeance are the Erinyes (Furies), who punish bloodshed and wrongdoing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "phrasing",
+    "text": "\"Heralded by a beacon\" means announced by the signal fire; the news of Troy's fall has spread through Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "phrasing",
+    "text": "\"To despond if the story change\" means to fall into despair if the news proves false after he has rejoiced.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "word",
+    "text": "\"'Tis\" is a contraction of \"it is\"; \"ere yet\" means before.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "phrasing",
+    "text": "The woman's mind has \"boundaries open to quick encroachment\": it is easily invaded by belief, like a poorly fenced field.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "word",
+    "text": "\"Anon\" means soon; \"beguiled\" means deceived or led astray.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "phrasing",
+    "text": "\"Boughs of olive overshaded\" means his head is shaded by olive branches, a sign of a messenger bringing good news.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "phrasing",
+    "text": "\"God avert the omen of the contrary\" is a prayer that bad news, the opposite of joy, not be spoken.",
+    "spoiler": false
+   },
+   {
+    "sentence": 55,
+    "kind": "phrasing",
+    "text": "\"Made shipwreck\" means came to ruin; the Herald says most of his hopes failed, and he had not expected to be buried in Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "kind": "allusion",
+    "text": "Pytho is Delphi, Apollo's oracle. \"Pytho's lord\" is Apollo, whose \"shafts\" are arrows that bring plague and death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "allusion",
+    "text": "Apollo favored the Trojans in the war. Scamander is the river of Troy, where he was hostile to the Greeks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "kind": "allusion",
+    "text": "Hermes is the gods' herald and patron of heralds, so the Herald calls him his own patron.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "kind": "phrasing",
+    "text": "The \"mattock of Zeus\" is a digging tool; Troy is imagined as a field uprooted by Zeus's own hand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "kind": "phrasing",
+    "text": "Meaning: neither Paris nor Troy can claim that their crime cost less than the suffering it brought.",
+    "spoiler": false
+   },
+   {
+    "sentence": 65,
+    "kind": "phrasing",
+    "text": "A legal image: Paris is \"cast\" (defeated) in a lawsuit for theft and loses everything, including his father's house.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "kind": "word",
+    "text": "\"Malady\" here is sickness; the Chorus wryly calls homesick longing a pleasing illness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 100,
+    "kind": "allusion",
+    "text": "Ida is the mountain near Troy. The Greeks suffered its snows in winter and windless summer heat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 113,
+    "kind": "word",
+    "text": "\"Erewhile\" means \"a short time ago\"; \"Ilium\" is another name for Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "kind": "phrasing",
+    "text": "\"In good sooth ’tis like a woman\" means \"truly, it is just like a woman\"; the speakers mock women as credulous and emotional.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "kind": "word",
+    "text": "\"Fanes\" are temples; \"wont\" means custom. Women raised a ritual cry while the incense fire was quieted or fed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 119,
+    "kind": "phrasing",
+    "text": "\"Never having broken seal\" means she has never been unfaithful; the image is of an unopened sealed storeroom or letter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 120,
+    "kind": "phrasing",
+    "text": "\"Dyeing bronze\" is an impossible act: she claims to know scandal as little as one knows how to dye bronze.",
+    "spoiler": false
+   },
+   {
+    "sentence": 125,
+    "kind": "phrasing",
+    "text": "\"Speciously\" means plausibly but falsely; the Chorus says her words only seem fair to those who cannot read their hidden meaning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 128,
+    "kind": "phrasing",
+    "text": "Archaic inverted syntax: it means he cannot pass off false news as good so that his loved ones would rejoice in it for long.",
+    "spoiler": false
+   },
+   {
+    "sentence": 136,
+    "kind": "allusion",
+    "text": "Archery image: the Chorus's question hit exactly the point, compressing a long story of suffering into one question.",
+    "spoiler": false
+   },
+   {
+    "sentence": 140,
+    "kind": "allusion",
+    "text": "The Sun, as the god who sees everything, is the only one who could know whether Menelaüs lives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 144,
+    "kind": "phrasing",
+    "text": "The Herald means a joyful day should not be spoiled by bad news; gods of joy and gods of ill are kept separate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 145,
+    "kind": "word",
+    "text": "The 'two-handled scourge' is a double-edged image for war, which strikes with two arms; 'Avenging Spirits' are the Furies, honoured in grim hymns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 149,
+    "kind": "phrasing",
+    "text": "'Evil shepherd' is a metaphor for the storm scattering ships like a flock; the 'blasts from Thrace' are the north wind.",
+    "spoiler": false
+   },
+   {
+    "sentence": 156,
+    "kind": "allusion",
+    "text": "Zeus is named here, though the translation elsewhere uses 'Heaven'; his mercy toward the race gives the Herald hope for Menelaüs.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Night is invoked because Troy fell during the night, and the Chorus has just heard the beacon-fire news of its capture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Paris, a Trojan prince, was a guest of Menelaus, son of Atreus, and abducted Menelaus's wife Helen, causing the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "The sons of Atreus are Agamemnon and Menelaus, leaders of the Greek expedition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Clytemnestra has just announced that a chain of beacon fires has carried news of Troy's capture to Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "text": "The Herald is returning from Troy with news of the Greek army and Agamemnon. Olive branches signalled a favourable message.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "text": "The Elder's curse targets anyone who prays with ill intent against the city, hinting at the political unease in Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "text": "Agamemnon is the elder son of Atreus; his younger brother is Menelaus. Agamemnon led the Greek army against Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "text": "Priam was king of Troy; his sons include Paris, who abducted Helen and caused the war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 110,
+    "text": "Clytaemestra is Agamemnon's wife. She stayed in Argos and will soon prove deadly to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 112,
+    "text": "Clytaemestra is Agamemnon's wife and queen of Argos, ruling while he is at Troy. She secretly plans to kill him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 126,
+    "text": "Menelaüs is Agamemnon's brother and husband of Helen, whose abduction caused the Trojan War. His fate after Troy is uncertain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "text": "Menelaüs is king of Sparta, brother of Agamemnon and husband of Helen, whose abduction caused the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 147,
+    "text": "Fire (lightning) and sea were natural enemies, yet here they combine against the Greeks; the Argives are the Greeks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 150,
+    "text": "The Aegean is the sea between Greece and Asia Minor, crossed by the returning fleet.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "metaphor",
+    "text": "Troy's fall is imagined as a net cast over the city, making destiny a trap no one can escape.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "simile",
+    "text": "The wrongdoer is likened to base metal exposed by a touchstone and to a child chasing a bird, showing his folly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "imagery",
+    "text": "Dreams slipping through the husband's arms and flying off on the paths of sleep vividly convey his empty longing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "personification",
+    "text": "Ares appears as a merchant weighing lives for gold, bitterly showing war as profiteering that returns only ashes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "maxim",
+    "text": "The image of lightning striking the highest peak states the moral that excessive greatness invites divine ruin, and foreshadows Agamemnon's fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "rhetorical question",
+    "text": "The Elder's question voices the chorus's doubt and sets up the tension between hope and distrust in Clytemnestra's report.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "characterization",
+    "text": "The elders' remark on women's credulity subtly points at Clytemnestra, whose word they distrust, and shows their prejudice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "personification",
+    "text": "Dust is called the \"consorting sister of the mire\", making it a witness that vouches for the herald's overland approach.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "foreshadowing",
+    "text": "The fear of the \"contrary\" hints that the homecoming may bring grief rather than pure joy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "device": "apostrophe",
+    "text": "The Herald addresses the soil of Argos as if it could hear, showing deep emotion at returning home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "device": "metaphor",
+    "text": "Troy's destruction is shown as plowing up a field, with Zeus's mattock as the instrument of divine justice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "device": "metaphor",
+    "text": "Troy is pictured as an animal under a heavy yoke, suggesting total subjection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "device": "dramatic irony",
+    "text": "The Herald's readiness to die foreshadows Agamemnon's coming death at home, which the audience anticipates.",
+    "spoiler": false
+   },
+   {
+    "sentence": 100,
+    "device": "personification",
+    "text": "The sea \"sank to sleep\" on a noon-day couch, vividly conveying the dead calm and oppressive heat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 119,
+    "device": "dramatic irony",
+    "text": "Her pledge of faithfulness is false: the audience knows she has taken Aegisthus as lover and plans murder, so every word is double-edged.",
+    "spoiler": false
+   },
+   {
+    "sentence": 119,
+    "device": "metaphor",
+    "text": "Calling herself a watch-dog loyal to her master and hostile to his foes casts her as a guardian, ironically hinting at her real hostility.",
+    "spoiler": false
+   },
+   {
+    "sentence": 125,
+    "device": "characterization",
+    "text": "The Chorus shows its wariness and perceptiveness, suggesting Clytaemestra's speech is deceptive and marking her as cunning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 136,
+    "device": "metaphor",
+    "text": "The Chorus is likened to a master bowman, praising the precision of its question.",
+    "spoiler": false
+   },
+   {
+    "sentence": 147,
+    "device": "personification",
+    "text": "Fire and sea are given the will to swear an alliance, making the storm seem a deliberate conspiracy against the Greeks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 150,
+    "device": "metaphor",
+    "text": "The sea 'flowering' with corpses turns a grim sight into a haunting image of beauty and death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 151,
+    "device": "personification",
+    "text": "Saviour Fortune sits aboard the ship like a guardian, suggesting divine protection of the Herald's vessel.",
+    "spoiler": false
+   }
+  ]
+ }
+}

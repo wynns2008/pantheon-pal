@@ -1,0 +1,223 @@
+{
+ "section_id": "pindar-odes-body-12",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6572,
+  "output": 2061
+ },
+ "result": {
+  "summary": "A prefatory note explains that Ergoteles, exiled from Knosos by civil strife, became a citizen of Himera and won Olympic, Pythian and Isthmian victories in the foot race. The ode prays to Fortune to protect Himera, reflects on the uncertainty of human hopes, and praises Ergoteles, whose exile brought him glory.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Editor's note on Ergoteles",
+    "summary": "The note gives Ergoteles' background, his move from Crete to Himera, and the date and setting of the ode.",
+    "stakes": "",
+    "present": [
+     "Ergoteles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Himera",
+     "modern_name": "Himera, Sicily",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 13.82
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 10,
+    "title": "Prayer to Fortune",
+    "summary": "The poet asks Fortune to protect Himera and reflects that men's hopes are uncertain and fortune can change suddenly.",
+    "stakes": "Himera's safety and the unpredictable turns of human fortune.",
+    "present": [
+     "Fortune",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Himera",
+     "modern_name": "Himera, Sicily",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 13.82
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 12,
+    "title": "Ergoteles' exile and victories",
+    "summary": "Pindar says Ergoteles would have stayed obscure at home had civil strife not driven him out. Now he has won at Olympia, Pytho and Isthmos, honouring Himera.",
+    "stakes": "Ergoteles might have lived and died without renown.",
+    "present": [
+     "Ergoteles",
+     "Philanor"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Knosos",
+     "modern_name": "Knossos, Crete",
+     "certainty": "real",
+     "lat": 35.3,
+     "lon": 25.16
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ergoteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan runner exiled from Knosos, victor, citizen of Himera"
+   },
+   {
+    "name": "Philanor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Ergoteles"
+   },
+   {
+    "name": "Fortune",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "saviour goddess invoked to guard Himera"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "the Deliverer"
+    ],
+    "kind": "god",
+    "description": "father of Fortune, called the Deliverer"
+   },
+   {
+    "name": "Thrasydaios",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant of Akragas expelled by the Himeraeans"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Fortune",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Philanor",
+    "relation": "parent_of",
+    "b": "Ergoteles",
+    "source": "text",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Deliverer",
+    "canonical": "Zeus",
+    "explanation": "A cult title of Zeus as saviour (Eleutherios or Soter)."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Memorable image of the home-bound fighting cock, showing exile as the source of Ergoteles' glory.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode shows human uncertainty and the role of Fortune: misfortune such as exile can turn into great success.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The ode reflects Himera's political upheaval after the tyrant's expulsion in 472 B.C. and the Cretans' limited part in the Panhellenic games.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Panhellenic means 'of all the Greeks'; the games at Olympia, Pytho, Isthmos and Nemea drew competitors from the whole Greek world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "'Zeus the Deliverer' (Zeus Eleutherios or Soter) is a cult title; Fortune (Tyche) is here called his daughter and a saviour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "'Baffling falsity' means deceptive uncertainty; men's hopes ride waves that mislead them, and no sign from God reliably shows the future.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "'Fallen into the sere leaf' means withered away unnoticed, like a dead leaf; his fame would have perished unseen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The 'hot springs' are the warm baths of Himera, said to be sacred to the nymphs; the poet honours the city through them.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Thrasydaios was tyrant of Akragas and was defeated by Hiero of Syracuse and the Himeraeans, who then expelled him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Fortune governs sea voyages, wars and political assemblies alike, so she is imagined as a guiding power in all human enterprise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Ergoteles was a runner, so 'fleet feet' refers to his victories in the long foot-race (dolichos).",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "apostrophe",
+    "text": "Pindar directly addresses Fortune as a goddess, opening the ode as a prayer and making her the poem's guiding power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "metaphor",
+    "text": "Human hopes are tossed like swimmers cleaving waves, picturing uncertainty as a rough sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "simile",
+    "text": "Ergoteles at home is likened to a cock that fights only in its own yard, suggesting a fame never carried beyond home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "irony",
+    "text": "Exile, a misfortune, proved the cause of glory, illustrating the ode's theme that Fortune suddenly reverses outcomes.",
+    "spoiler": false
+   }
+  ]
+ }
+}

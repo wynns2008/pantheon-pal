@@ -1,0 +1,224 @@
+{
+ "section_id": "pausanias-body-258",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6737,
+  "output": 1854
+ },
+ "result": {
+  "summary": "Pausanias describes the road from Megalopolis toward Messene. He records the sites near Maniæ where Orestes was said to have gone mad and been healed, then lists rivers, districts and distances up to the Messenian border.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Orestes' madness and cure",
+    "summary": "Sites near the road recall Orestes' madness after killing his mother, his gnawed finger, healing and hair-cutting. Local antiquarians date the pursuit before the Areopagus trial.",
+    "stakes": "Orestes is tormented by the Furies for matricide until he appeases them.",
+    "present": [
+     "Orestes",
+     "Eumenides",
+     "Graces",
+     "Perilaus",
+     "Clytæmnestra",
+     "Tyndareus",
+     "Icarius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Maniæ",
+     "modern_name": "near Megalopolis, Arcadia",
+     "certainty": "traditional",
+     "lat": 37.38,
+     "lon": 22.13
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 11,
+    "title": "Rivers and road to Hermæum",
+    "summary": "Pausanias gives distances along the road, the rivers Carnion and Gatheatas flowing into the Alpheus, and the Messenian border at Hermæum.",
+    "stakes": "",
+    "present": [
+     "Hermes",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hermæum",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Clytæmnestra, driven mad after killing her"
+   },
+   {
+    "name": "Eumenides",
+    "aliases": [
+     "Furies"
+    ],
+    "kind": "goddess",
+    "description": "goddesses who pursued Orestes, worshipped at Maniæ and Ace"
+   },
+   {
+    "name": "Graces",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddesses sacrificed to together with the white Eumenides"
+   },
+   {
+    "name": "Clytæmnestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Orestes' murdered mother"
+   },
+   {
+    "name": "Tyndareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dead by the time of the trial"
+   },
+   {
+    "name": "Perilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "cousin of Clytæmnestra and accuser of Orestes"
+   },
+   {
+    "name": "Icarius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Perilaus"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Cereates"
+    ],
+    "kind": "god",
+    "description": "worshipped at a temple at Ægytis"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "represented on a pillar at the border"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Clytæmnestra",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Icarius",
+    "relation": "parent_of",
+    "b": "Perilaus",
+    "source": "text",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Furies",
+    "canonical": "Eumenides",
+    "explanation": "Eumenides ('kindly ones') is a placating title for the Furies."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Place names and rites are explained by the myth of Orestes, tying landscape to story and showing purification after bloodguilt.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias relies on local tradition and 'antiquarians', showing how Greek cult sites preserved competing versions of myth.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Maniæ comes from Greek mania, 'madness'; Eumenides ('Kindly Ones') is a placating name for the Furies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Ace means 'cure' or 'remedy' in Greek, so the place name explains the story told about it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Expiations are rites of atonement performed to wipe away guilt and appease angry deities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Shearing-place names the spot after the hair-cutting; cutting hair was a customary act of mourning or purification.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The trial before the Areopagus is Orestes' trial at Athens for killing Clytæmnestra, famous from Aeschylus' Eumenides.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Antiquarians means local students of the past, whose traditions Pausanias often reports.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Orestes killed his mother Clytæmnestra to avenge her murder of his father Agamemnon, and the Furies then hounded him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "The Graces were goddesses of charm and beauty; joining them with the Eumenides suggests a gentler, reconciled aspect.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "A Hermes on a pillar was a herm, a boundary marker topped with the god's head.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "etiology",
+    "text": "The mound and its name are explained by a myth, tying a landmark to the legend of Orestes' self-mutilation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "symbolism",
+    "text": "The Furies' change from black to white marks Orestes' passage from guilt and terror to purification and sanity.",
+    "spoiler": false
+   }
+  ]
+ }
+}

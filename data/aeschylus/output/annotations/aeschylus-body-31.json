@@ -1,0 +1,763 @@
+{
+ "section_id": "aeschylus-body-31",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 27079,
+  "output": 7383
+ },
+ "result": {
+  "summary": "The Chorus fears the curse of Oedipus, and a Messenger reports that Thebes is safe but Eteocles and Polynices have killed each other. Antigone and Ismene lament over the bodies, and a Herald announces that Polynices must lie unburied; Antigone defies the decree, and the Chorus splits to follow each brother.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 20,
+    "title": "Chorus fears the family curse",
+    "summary": "The Chorus recalls the sin of Laïus, the fate of Oedipus and his curse on his sons, and fears its fulfilment.",
+    "stakes": "The city and the royal house may fall to the curse of Oedipus.",
+    "present": [
+     "Chorus",
+     "Laïus",
+     "Oedipus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 56,
+    "title": "Messenger reports the brothers dead",
+    "summary": "The Messenger says the city is saved at its gates, but the sons of Oedipus have slain each other.",
+    "stakes": "The city's safety is bought with the lives of its two princes.",
+    "present": [
+     "Messenger",
+     "Chorus",
+     "Apollo",
+     "Oedipus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 57,
+    "end_sentence": 106,
+    "title": "Chorus mourns as bodies arrive",
+    "summary": "The bodies are brought in, and the Chorus laments the brothers and the curse that destroyed them.",
+    "stakes": "The race of Oedipus is wholly destroyed.",
+    "present": [
+     "Chorus",
+     "Antigone",
+     "Ismene",
+     "Eteocles",
+     "Polynices",
+     "Oedipus",
+     "Zeus",
+     "Ares"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 107,
+    "end_sentence": 213,
+    "title": "Antigone and Ismene's dirge",
+    "summary": "The sisters chant a dirge over their dead brothers, with the Chorus responding.",
+    "stakes": "The sisters face the loss of both brothers and the ruin of their house.",
+    "present": [
+     "Antigone",
+     "Ismene",
+     "Chorus",
+     "Eteocles",
+     "Polynices",
+     "Oedipus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 214,
+    "end_sentence": 274,
+    "title": "The decree and Antigone's defiance",
+    "summary": "A Herald forbids burial of Polynices; Antigone vows to bury him anyway, and the Chorus divides.",
+    "stakes": "Antigone risks punishment by the State for burying her brother.",
+    "present": [
+     "Herald",
+     "Antigone",
+     "Chorus",
+     "Eteocles",
+     "Polynices"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "other",
+    "description": "Theban women who fear for the city"
+   },
+   {
+    "name": "Messenger",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Brings news of the battle and the brothers' deaths"
+   },
+   {
+    "name": "Herald",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Announces the Council's decree on burial"
+   },
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Former king who cursed his sons"
+   },
+   {
+    "name": "Laïus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Oedipus who defied Apollo's warning"
+   },
+   {
+    "name": "Eteocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban prince, killed by his brother and honoured by the State"
+   },
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Prince who attacked Thebes, denied burial"
+   },
+   {
+    "name": "Antigone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sister who vows to bury Polynices"
+   },
+   {
+    "name": "Ismene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sister who mourns the brothers"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "God who warned Laïus and guards the seventh gate"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Chief god invoked to protect Thebes"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "War god who made the curse true"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Laïus",
+    "relation": "parent_of",
+    "b": "Oedipus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Eteocles",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Polynices",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Antigone",
+    "source": "text",
+    "evidence_sentence": 224
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Ismene",
+    "source": "outside",
+    "evidence_sentence": 75
+   },
+   {
+    "a": "Antigone",
+    "relation": "sibling_of",
+    "b": "Polynices",
+    "source": "text",
+    "evidence_sentence": 223
+   },
+   {
+    "a": "Eteocles",
+    "relation": "sibling_of",
+    "b": "Polynices",
+    "source": "text",
+    "evidence_sentence": 219
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Avenging Spirit",
+    "canonical": "Oedipus",
+    "explanation": "The Avenging Spirit is the personified curse of Oedipus on his sons, not Oedipus himself."
+   },
+   {
+    "alias": "Cadmean",
+    "canonical": "Thebes",
+    "explanation": "Thebans are called Cadmean after Cadmus, the city's founder."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 251,
+    "reason": "Antigone's memorable line that strife is slowest to end disputes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 223,
+    "reason": "Antigone's defiance of the State, anticipating Sophocles' Antigone.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Inherited guilt and the fulfilment of curses drive the fall of the house of Laïus, while the city survives.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Antigone scene is often thought to be a later addition, and it sets burial duty against state decree.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Antigone's defiance of the burial ban was developed by Sophocles in his play Antigone."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Many scholars think the final Antigone and Herald scene was added after Aeschylus, to link the play to Sophocles' Antigone.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Avenging Spirit\" translates the Erinys (Fury), here the embodied curse of Oedipus; \"bringeth\" and \"forebodeth\" are archaic verb endings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The \"stranger\" is iron (steel), named from the Chalybes of Scythia, famed metalworkers. It will divide the inheritance by the sword, giving each only a grave.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Pytho is Delphi, regarded as the earth's centre. Apollo's oracle warned Laïus that having a son would cause his death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "The \"hallowed field\" is Jocasta's womb; Oedipus sowed seed where he himself was nurtured. \"Growth of blood\" means his children, born of incest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Refers to throwing cargo overboard in a storm to save the ship; prosperity, when excessive, is sacrificed in disaster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The \"deadly pest\" is the Sphinx, whom Oedipus defeated by solving her riddle, saving Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Malisons\" means curses; \"tendance\" means treatment or care, here the sons' insulting treatment of their blinded father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Mother-bred children\" addresses the Theban women of the Chorus as children of the motherland, their native city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Apollo, guardian of the seventh gate, is said to have taken the brothers there; Laïus had defied his warning not to beget a son, and the curse followed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "\"Commander of Sevens\": Apollo was associated with the number seven, and the seventh day was sacred to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "phrasing",
+    "text": "The Chorus calls itself a prophetess of ill because its earlier fears of disaster have proved true.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "phrasing",
+    "text": "\"Hammered steel of Scythia\" means swords made of iron from the Chalybes, a people of the Black Sea region; the \"portioned wealth\" is the brothers' inheritance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "allusion",
+    "text": "The father's curse: Oedipus cursed his sons, praying they would divide their inheritance by the sword.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "kind": "allusion",
+    "text": "Polynices means 'man of much strife' in Greek; the Chorus plays on the meaning of the name, which fits his fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "kind": "allusion",
+    "text": "The 'Song of the Spear' is the curse of Oedipus, which foretold his sons would divide their inheritance by the sword.",
+    "spoiler": false
+   },
+   {
+    "sentence": 74,
+    "kind": "allusion",
+    "text": "Acheron is a river of the underworld; the 'sable-sailed mission-ship' is the ferry carrying the dead to Hades.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "kind": "phrasing",
+    "text": "'Clasp their girdle about their robes' is a periphrasis for 'women'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 92,
+    "kind": "phrasing",
+    "text": "Ironic riddle: the portion awaiting them is only burial space, as much earth as a tomb holds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 101,
+    "kind": "phrasing",
+    "text": "The 'stranger from beyond the sea' is iron, the sword. Iron was imagined as coming from a foreign land (the Chalybes).",
+    "spoiler": false
+   },
+   {
+    "sentence": 103,
+    "kind": "phrasing",
+    "text": "Bitter paradox: their only 'wealth' is the earth of their graves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 109,
+    "kind": "phrasing",
+    "text": "\"Smitten, thou didst smite\" addresses a dead brother: each wounded the other in their duel at the seventh gate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 149,
+    "kind": "word",
+    "text": "\"Anigh\" is archaic for \"near\"; the sisters say these two sorrows (the brothers' deaths) are closely bound together.",
+    "spoiler": false
+   },
+   {
+    "sentence": 151,
+    "kind": "phrasing",
+    "text": "\"Kindred unto kindred\" stresses that kin killed kin, so the grief is doubled within one family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 153,
+    "kind": "allusion",
+    "text": "Refers to Oedipus's curse, which doomed his sons to divide their inheritance by the sword; the Spirit of Vengeance is the Erinys that fulfils it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 169,
+    "kind": "word",
+    "text": "\"Hes\" is a misprint in the source for \"his\" or \"her\"; the line means he took away another's life as he lost his own.",
+    "spoiler": false
+   },
+   {
+    "sentence": 177,
+    "kind": "phrasing",
+    "text": "\"Threefold woes\" refers to the curse on Oedipus's line: the father's fate and the two brothers' mutual slaughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 179,
+    "kind": "allusion",
+    "text": "Oedipus's curse that his sons would divide their inheritance by the sword is the \"Spirit of Vengeance\" fulfilled in their deaths.",
+    "spoiler": false
+   },
+   {
+    "sentence": 187,
+    "kind": "phrasing",
+    "text": "\"To face him with thy spear\" refers to Eteocles's brother Polynices returning from exile to attack Thebes, meeting Eteocles in combat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 207,
+    "kind": "phrasing",
+    "text": "\"Possessed of an evil spirit\" means driven by a malignant divine power, here the family curse, to their ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 213,
+    "kind": "allusion",
+    "text": "Their father Oedipus is buried nearby; burying the brothers beside him is said to add to his sorrow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 216,
+    "kind": "phrasing",
+    "text": "\"Cadmus\" is the legendary founder of Thebes; \"Cadmean\" simply means Theban. \"Hath in charge\" means has responsibility for.",
+    "spoiler": false
+   },
+   {
+    "sentence": 219,
+    "kind": "phrasing",
+    "text": "\"Were it not that\" means he would have destroyed the land except that a god, working through Eteocles' spear, stopped him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 220,
+    "kind": "word",
+    "text": "\"Guerdon\" means reward or recompense, used here bitterly; \"barrow\" is a burial mound.",
+    "spoiler": false
+   },
+   {
+    "sentence": 223,
+    "kind": "phrasing",
+    "text": "\"Yea\" is an archaic \"yes\"; Antigone answers the Herald's decree by defiantly addressing the rulers directly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 227,
+    "kind": "allusion",
+    "text": "Burying a body by scattering earth was a minimal rite; Greeks believed the unburied dead could not find rest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 251,
+    "kind": "phrasing",
+    "text": "Antigone means that strife (enmity) is the last of the gods to end a quarrel; her hostility to the decree will not yield, and the line is cryptic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 255,
+    "kind": "word",
+    "text": "\"Own-will\" means your own stubborn choice; the Herald washes his hands of her but repeats the ban.",
+    "spoiler": false
+   },
+   {
+    "sentence": 259,
+    "kind": "allusion",
+    "text": "The Vengeful Spirits are the Furies (Erinyes), here embodying the curse of Oedipus that destroyed his sons Eteocles and Polynices.",
+    "spoiler": false
+   },
+   {
+    "sentence": 264,
+    "kind": "word",
+    "text": "\"Adread\" is archaic for afraid; \"townsfolk\" are the citizens who enforce the decree.",
+    "spoiler": false
+   },
+   {
+    "sentence": 273,
+    "kind": "allusion",
+    "text": "Refers to Eteocles, who died defending Thebes (the Cadmean realm, named for founder Cadmus) against the invading Argive army.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The Chorus is a group of Theban women, terrified as the city is besieged by seven attacking champions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "On learning he had killed his father and married his mother, Oedipus blinded himself with brooches from Jocasta's dress.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "The Messenger is a Theban scout or soldier who brings news from the seven gates after the battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "text": "The sons of Oedipus, Eteocles and Polynices, killed each other at the seventh gate, one defending Thebes and one attacking it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "text": "Cadmus founded Thebes. The Chorus are Theban women who feared the city's fall during the siege.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "text": "Antigone and Ismene are the sisters of the dead brothers, Eteocles and Polynices, and daughters of Oedipus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 96,
+    "text": "Their mother Jocasta unknowingly married her own son Oedipus, so the brothers were also his sons and her grandsons-by-incest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 107,
+    "text": "Eteocles and Polynices, sons of Oedipus, killed each other in single combat over rule of Thebes. Their sisters mourn beside their biers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 153,
+    "text": "The Chorus of Theban maidens blames Fate and the family curse, a central theme of the trilogy about the house of Laius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 162,
+    "text": "Antigone and Ismene are the sisters of the dead brothers Eteocles and Polynices. They sing the lament in alternating lines.",
+    "spoiler": false
+   },
+   {
+    "sentence": 179,
+    "text": "Oedipus, former king of Thebes, cursed his sons Eteocles and Polynices, who killed each other in battle at the city's gates.",
+    "spoiler": false
+   },
+   {
+    "sentence": 219,
+    "text": "Polynices led the Argive army against Thebes, his native city, and he and his brother Eteocles killed each other in single combat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 223,
+    "text": "Antigone and Ismene are sisters of both dead brothers. Some scholars think this final scene was added to Aeschylus' play later.",
+    "spoiler": false
+   },
+   {
+    "sentence": 249,
+    "text": "The Herald speaks for Thebes: Polynices led a foreign army against his own city, so the State denies him burial as a traitor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 265,
+    "text": "Greek custom made burial and mourning by kin a sacred duty; denying them was a grave dishonour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 267,
+    "text": "The Chorus splits into two halves, one siding with Antigone and burying Polynices, the other escorting Eteocles.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "metaphor",
+    "text": "Steel is personified as a foreign settler and ruthless land-divider, grimly recasting the brothers' inheritance as burial plots.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "metaphor",
+    "text": "Troubles are waves and Thebes a ship; the third crest evokes the third generation of the cursed house.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "foreshadowing",
+    "text": "The Chorus's dread of the curse's fulfilment anticipates the brothers' mutual death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "metaphor",
+    "text": "The city is a ship that has weathered the storm of war without taking in water, an image of safety under pressure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "aposiopesis",
+    "text": "The Messenger breaks off mid-sentence, delaying the news and heightening the Chorus's dread.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "device": "irony",
+    "text": "The brothers' inheritance is the grave plot they share. Dividing the wealth with steel turns the curse into a grim literal fulfilment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "device": "apostrophe",
+    "text": "The Chorus addresses the curse directly as if it were a present being, stressing its fulfilment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "device": "repetition",
+    "text": "'Twofold' and 'double' repeat to mirror the paired brothers and paired deaths.",
+    "spoiler": false
+   },
+   {
+    "sentence": 90,
+    "device": "irony",
+    "text": "The brothers finally divide their inheritance equally, but only as graves, mocking their quarrel over the property.",
+    "spoiler": false
+   },
+   {
+    "sentence": 101,
+    "device": "personification",
+    "text": "Steel is called a 'stranger' and 'resolver', and Ares an 'apportioner', making war an agent of the curse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 105,
+    "device": "personification",
+    "text": "The Curses sing a victory song like a triumphant army, as the family is routed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 111,
+    "device": "antithesis",
+    "text": "Ismene answers Antigone line by line, reversing the verbs (smite/slain). This mirrors the brothers' mutual killing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 121,
+    "device": "parallelism",
+    "text": "The matching phrases \"lament be poured forth\" and \"tears be poured forth\" give the dirge a ritual, liturgical rhythm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 153,
+    "device": "apostrophe",
+    "text": "The Chorus addresses Fate and the Shade of Oedipus directly, treating the curse as a living, powerful being.",
+    "spoiler": false
+   },
+   {
+    "sentence": 165,
+    "device": "paradox",
+    "text": "Saved yet lost: the city's survival is bought with the brothers' deaths, a contradiction that sums up the tragedy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 171,
+    "device": "antiphony",
+    "text": "The sisters answer each other line by line in short exclamations, giving the dirge a ritual, echoing rhythm of shared grief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 179,
+    "device": "apostrophe",
+    "text": "The Chorus addresses Fate and Oedipus's Shade directly, treating the curse as a living power that has fulfilled itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 224,
+    "device": "apostrophe",
+    "text": "She exclaims at the power of kinship, then addresses her own soul in the next line, voicing inner resolve.",
+    "spoiler": false
+   },
+   {
+    "sentence": 226,
+    "device": "irony",
+    "text": "Antigone mocks the word \"decree\" by quoting it scornfully, rejecting the state's authority over family duty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 243,
+    "device": "characterization",
+    "text": "Her calm appeal to divine law over human decree shows Antigone's firm, pious defiance in few words.",
+    "spoiler": false
+   },
+   {
+    "sentence": 251,
+    "device": "personification",
+    "text": "Strife is imagined as a god who is stubbornly last to end any quarrel, giving Antigone's defiance a divine weight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 260,
+    "device": "rhetorical question",
+    "text": "The Chorus's rapid questions in sentences 260–262 convey anguish and indecision as it faces a conflict between fear and duty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 270,
+    "device": "characterization",
+    "text": "The half-chorus shows that civic law is changeable while kinship bonds endure, setting family loyalty against State authority.",
+    "spoiler": false
+   }
+  ]
+ }
+}

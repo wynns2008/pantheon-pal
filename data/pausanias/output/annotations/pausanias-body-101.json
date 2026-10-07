@@ -1,0 +1,393 @@
+{
+ "section_id": "pausanias-body-101",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10636,
+  "output": 3527
+ },
+ "result": {
+  "summary": "Pausanias finishes describing the throne of Apollo at Amyclae, with its ancient statue and the altar of Hyacinthus, and notes the sights of the village. He then describes the road to Therapne, its temples, and varied traditions about Helen's burial and afterlife.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 14,
+    "title": "Amyclae: statue, altar, and village",
+    "summary": "Pausanias describes the central statue and the Hyacinthus altar with its carvings, then the village of Amyclae and its worship of Dionysus.",
+    "stakes": "",
+    "present": [
+     "Hyacinthus",
+     "Apollo",
+     "Polybœa",
+     "Alexandra",
+     "Nicias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Amyclæ",
+     "modern_name": "Amykles, near Sparta",
+     "certainty": "real",
+     "lat": 37.0,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 25,
+    "title": "Road to Therapne and Helen",
+    "summary": "Along the road to Therapne, Pausanias lists temples and gives the Spartan and Rhodian accounts of Helen's end.",
+    "stakes": "Helen, in the Rhodian tale, is hanged by Polyxo's disguised attendants.",
+    "present": [
+     "Menelaus",
+     "Helen",
+     "Polyxo",
+     "Hercules",
+     "Æsculapius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Therapne",
+     "modern_name": "Therapne, near Sparta",
+     "certainty": "real",
+     "lat": 37.05,
+     "lon": 22.46
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 33,
+    "title": "Leonymus and the island Leuce",
+    "summary": "Pausanias tells how the wounded Leonymus was healed on Leuce, saw Achilles and Helen, and carried her message to Stesichorus.",
+    "stakes": "Leonymus suffers a serious chest wound; Stesichorus is blinded as punishment.",
+    "present": [
+     "Leonymus",
+     "Achilles",
+     "Helen",
+     "Stesichorus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Leuce",
+     "modern_name": "Snake Island, Black Sea",
+     "certainty": "traditional",
+     "lat": 45.25,
+     "lon": 30.2
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hyacinthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "youth buried at Amyclae, loved by Apollo"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god worshipped at Amyclae"
+   },
+   {
+    "name": "Polybœa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sister of Hyacinthus who died a virgin"
+   },
+   {
+    "name": "Alexandra",
+    "aliases": [
+     "Cassandra"
+    ],
+    "kind": "mortal",
+    "description": "daughter of Priam honored at Amyclae"
+   },
+   {
+    "name": "Nicias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "artist, son of Nicomedes"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero who built the temple of Æsculapius and was taken to heaven"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [
+     "Cotylean Æsculapius"
+    ],
+    "kind": "god",
+    "description": "healing god with a temple near Therapne"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king said to be buried at Therapne"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Menelaus, with differing tales of her end"
+   },
+   {
+    "name": "Polyxo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "queen of Rhodes, widow of Tlepolemus"
+   },
+   {
+    "name": "Tlepolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Polyxo"
+   },
+   {
+    "name": "Leonymus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Crotonian general healed on Leuce"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero honored on Leuce, husband of Helen there"
+   },
+   {
+    "name": "Stesichorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet blinded for slandering Helen"
+   },
+   {
+    "name": "Ares",
+    "aliases": [
+     "Theritas"
+    ],
+    "kind": "god",
+    "description": "god with an ancient temple on the road"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Polyxo",
+    "relation": "spouse_of",
+    "b": "Tlepolemus",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Menelaus",
+    "relation": "spouse_of",
+    "b": "Helen",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Achilles",
+    "relation": "spouse_of",
+    "b": "Helen",
+    "source": "text",
+    "evidence_sentence": 32
+   },
+   {
+    "a": "Hyacinthus",
+    "relation": "sibling_of",
+    "b": "Polybœa",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Hyacinthus",
+    "source": "text",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Alexandra",
+    "canonical": "Cassandra",
+    "explanation": "The people of Amyclae call Cassandra, daughter of Priam, Alexandra."
+   },
+   {
+    "alias": "Theritas",
+    "canonical": "Ares",
+    "explanation": "Epithet of Ares, explained as from his nurse Thero or from fierceness in battle."
+   },
+   {
+    "alias": "Psilax",
+    "canonical": "Dionysus",
+    "explanation": "Amyclaean title meaning Winged, from Dorian psila, wings."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Pausanias' neat explanation of Dionysus' epithet: wine lifts men like wings.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs rival local traditions, such as those about Helen, and openly doubts some, while still recording them.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Hyacinthus cult at Amyclae preserves a pre-Dorian worship later merged with Apollo's, and Pausanias notes the Dorian conquest of the village.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Stesichorus' palinode, retracting his slander of Helen, became a famous example of recantation."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Leuce, the island of Achilles, is usually identified with modern Snake Island in the Black Sea.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "A cubit was roughly the length of a forearm, about 18 inches, so the statue would be around 45 feet high.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Brazen\" means made of bronze; \"inartistic\" here means crude and lacking skilled workmanship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Destinies\" are the Fates (Moirai), the goddesses who spun and assigned each person's lot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Refers to the myth that the west wind Zephyr, jealous, blew Apollo's discus off course and killed Hyacinthus, from whose blood the flower grew.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Cassandra, Priam's prophetic daughter, was taken by Agamemnon after Troy and murdered with him; Alexandra is an alternative name for her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Psilax\" is explained by Pausanias as Dorian for winged, linking wine's lightening effect to flight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "Cotyle is Greek for the hollow of the hip joint; the epithet Cotylean is explained by this wound.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "Pausanias suggests the name may be foreign (Colchian) in origin, since Greeks know no nurse called Thero.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "The quotation is from Homer's Iliad, describing Achilles' fury; Pausanias links Ares' title to savagery in battle (Greek ther, 'wild beast').",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "The Furies were goddesses of vengeance; dressing as them let Polyxo's servants terrify Helen and carry out her revenge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "A palinode is a poem retracting an earlier statement; Stesichorus recanted his slander of Helen.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Hyacinthus was a youth loved by Apollo; his Amyclae festival, the Hyacinthia, began with mourning rites for him before the sacrifice to Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "The Dorians were Greek invaders who settled in the Peloponnese; Amyclae was conquered and absorbed by Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Clytæmnestra was Agamemnon's wife, who with her lover killed him on his return from Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Athene Alea was a cult title of Athene, worshipped chiefly in Arcadia, especially at Tegea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Therapne, near Sparta, was the site of the shrine of Menelaus and Helen, Spartan king and queen in the Trojan legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Leuce, 'White Island', in the Black Sea (Euxine) near the Danube (Ister), was where Achilles' spirit was said to dwell.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Stesichorus, a lyric poet of Himera, was said to have been blinded for slandering Helen, and regained sight by retracting.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "narrative voice",
+    "text": "Pausanias distances himself from the myths, skeptically allowing that they may be baseless yet choosing to preserve them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "simile",
+    "text": "Wine's effect on men is compared to wings lifting birds, giving the epithet Psilax a rational explanation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "allusion",
+    "text": "Quoting Homer lends authority to Pausanias' own etymology and ties the god of war to the epic hero's ferocity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "narrative voice",
+    "text": "Pausanias reports the marvel as Leonymus's claim ('said that'), keeping distance while recording the tale.",
+    "spoiler": false
+   }
+  ]
+ }
+}

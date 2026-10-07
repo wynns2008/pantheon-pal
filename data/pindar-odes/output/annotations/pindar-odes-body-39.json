@@ -1,0 +1,318 @@
+{
+ "section_id": "pindar-odes-body-39",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7846,
+  "output": 2811
+ },
+ "result": {
+  "summary": "Pindar addresses Thrasyboulos, praising his late father Xenokrates of Akragas for an Isthmian chariot victory. He remarks that poets once sang for love and now sing for pay, then lists Xenokrates' other victories and virtues, and urges Thrasyboulos to keep his father's fame alive.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Editor's note on date",
+    "summary": "The editor discusses the ode's date and whether Thrasyboulos was still a boy, concluding it may mark an anniversary of the victory.",
+    "stakes": "",
+    "present": [
+     "Xenokrates",
+     "Thrasyboulos",
+     "Theron"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Akragas",
+     "modern_name": "Agrigento, Sicily",
+     "certainty": "real",
+     "lat": 37.31,
+     "lon": 13.58
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 10,
+    "title": "Poets once sang for love",
+    "summary": "Pindar contrasts the old poets, who sang freely for beautiful boys, with the present Muse who sells songs for money, citing the Argive saying that money makes the man.",
+    "stakes": "",
+    "present": [
+     "Thrasyboulos",
+     "Terpsichore",
+     "Aphrodite"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Unspecified",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 13,
+    "title": "Xenokrates' victories",
+    "summary": "Pindar celebrates the Isthmian win and recalls Xenokrates' victories at Krisa, Athens and Olympia, where Nikomachos drove the chariot.",
+    "stakes": "",
+    "present": [
+     "Xenokrates",
+     "Poseidon",
+     "Apollo",
+     "Nikomachos",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Isthmus, Krisa, Athens, Olympia",
+     "modern_name": "Isthmus of Corinth",
+     "certainty": "real",
+     "lat": 37.93,
+     "lon": 22.99
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 19,
+    "title": "Praise and charge to Thrasyboulos",
+    "summary": "Pindar praises Xenokrates' kindness and hospitality and tells Thrasyboulos not to be silent about his father's prowess, sending Nikesippos with the message.",
+    "stakes": "Xenokrates' fame could fade if his son stays silent.",
+    "present": [
+     "Thrasyboulos",
+     "Xenokrates",
+     "Nikesippos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Akragas",
+     "modern_name": "Agrigento, Sicily",
+     "certainty": "real",
+     "lat": 37.31,
+     "lon": 13.58
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Thrasyboulos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Xenokrates, addressed by the poet"
+   },
+   {
+    "name": "Xenokrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man of Akragas, victor in the chariot race"
+   },
+   {
+    "name": "Theron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Xenokrates"
+   },
+   {
+    "name": "Nikomachos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "charioteer of Xenokrates"
+   },
+   {
+    "name": "Nikesippos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "messenger who carries the ode"
+   },
+   {
+    "name": "Ainesidamos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the victorious sons"
+   },
+   {
+    "name": "Terpsichore",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Muse of honeyed speech"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "fair-throned goddess of love"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "gave the Isthmian victory"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "looked on Xenokrates at Krisa"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Olympic Zeus, son of Kronos"
+   },
+   {
+    "name": "Kronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Zeus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Xenokrates",
+    "relation": "parent_of",
+    "b": "Thrasyboulos",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Xenokrates",
+    "relation": "sibling_of",
+    "b": "Theron",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Kronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "Famous saying that money makes the man, voicing complaint about paid poetry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "reason": "Vivid athletic image of the quoit throw to express praise.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode links praise, memory and payment: poets once sang for love, now for money, yet song still preserves a victor's fame.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pindar's remark on a hireling Muse reflects the paid commissions of victory odes, and the date puzzle shows how uncertain Sicilian chronology is.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The same Xenokrates is honoured in Pythian 6, where his son Thrasyboulos had served as his charioteer.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Went up into the Muse's car\" pictures poets riding the Muse's chariot; \"summer-bloom\" means the bloom of youthful beauty in a boy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Silvered faces\" refers to coins; songs are sold for silver, as if the lays themselves were sold with silver-faced coin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The \"Argive man\" is a speaker of a proverb; the translator's footnote identifies him. The saying is that money makes the man.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Dorian parsley (celery) was the victor's wreath at the Isthmian Games, held in honour of Poseidon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "\"Krisa\" is the area near Delphi where the Pythian Games were held; \"Erectheidai\" are the Athenians, descendants of Erechtheus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The Elean heralds announced the sacred truce for the Olympic Games; the \"holy place\" is Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "Pindar wishes to throw his praise as far as Xenokrates surpassed others in kindness, using the athletic image of a quoit (discus) throw.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "Drawing in the sail means cutting short a voyage; Xenokrates' hospitality never faltered, taking him to far Phasis and the Nile.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Xenokrates of Akragas, a Sicilian city, was brother of the tyrant Theron and father of Thrasyboulos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Terpsichore is the Muse of dance and choral song; Pindar blames Muses for turning poetry into paid work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "The proverb is attributed to Aristodemos of Sparta, in the traditional account; the point is that wealth defines worth, and the poor lose friends.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "metaphor",
+    "text": "Youthful beauty is a \"summer-bloom\" and songs are \"shot forth\" like arrows, with honey describing their sweetness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "personification",
+    "text": "The Muse is made a greedy hireling, criticising poets who now write for pay.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "simile",
+    "text": "Pindar compares the reach of his praise to a quoit thrown far, matching Xenokrates' unmatched kindness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "extended metaphor",
+    "text": "Xenokrates' generosity is shown as a ship that never has to shorten sail, sailing wherever it likes in every season.",
+    "spoiler": false
+   }
+  ]
+ }
+}

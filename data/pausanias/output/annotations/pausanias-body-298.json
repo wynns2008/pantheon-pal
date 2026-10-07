@@ -1,0 +1,396 @@
+{
+ "section_id": "pausanias-body-298",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6904,
+  "output": 3187
+ },
+ "result": {
+  "summary": "Pausanias describes Tanagra in Boeotia: its founder Pœmander, the city's old name Graia, and local sites such as the tomb of Orion and the mountain Cerycius. He then describes the temple of Dionysus and its headless statue of Triton, with two legends of how Triton was defeated.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Founding and names of Tanagra",
+    "summary": "Pausanias notes Delium's statues and gives the Tanagrans' account of Pœmander, his wife Tanagra, and the name Graia.",
+    "stakes": "",
+    "present": [
+     "Pœmander",
+     "Tanagra",
+     "Corinna",
+     "Homer"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tanagra",
+     "modern_name": "Tanagra, Boeotia",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.53
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 9,
+    "title": "Sights of Tanagra",
+    "summary": "Pausanias lists the tomb of Orion, Mount Cerycius, and the place Polus where Atlas is said to meditate.",
+    "stakes": "",
+    "present": [
+     "Orion",
+     "Hermes",
+     "Atlas",
+     "Homer"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tanagra",
+     "modern_name": "Tanagra, Boeotia",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.53
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 11,
+    "title": "Triton attacks the bathing women",
+    "summary": "In the temple of Dionysus stands a statue of Triton. In the older legend Triton attacks women bathing before the god's rites and Dionysus defeats him.",
+    "stakes": "The women of Tanagra are in danger from Triton's assault.",
+    "present": [
+     "Dionysus",
+     "Triton",
+     "Calamis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tanagra, seashore",
+     "modern_name": "Tanagra, Boeotia",
+     "certainty": "traditional",
+     "lat": 38.32,
+     "lon": 23.53
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 17,
+    "title": "Triton and the bowl of wine",
+    "summary": "In the second legend Triton raids herds and boats, is lured by wine, falls asleep and is beheaded. This explains his headless statue.",
+    "stakes": "Triton's life, and the herds and boats he plunders.",
+    "present": [
+     "Triton"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tanagra, seashore",
+     "modern_name": "Tanagra, Boeotia",
+     "certainty": "traditional",
+     "lat": 38.32,
+     "lon": 23.53
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pœmander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of Tanagra"
+   },
+   {
+    "name": "Chæresilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pœmander"
+   },
+   {
+    "name": "Iasius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Chæresilaus"
+   },
+   {
+    "name": "Eleuther",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Apollo, father of Iasius"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Eleuther"
+   },
+   {
+    "name": "Æthusa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Poseidon, mother of Eleuther"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Æthusa"
+   },
+   {
+    "name": "Tanagra",
+    "aliases": [
+     "Graia"
+    ],
+    "kind": "mortal",
+    "description": "wife of Pœmander, who gave her name to the city"
+   },
+   {
+    "name": "Æolus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to be Tanagra's father"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Corinna's named father of Tanagra"
+   },
+   {
+    "name": "Corinna",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet cited on Tanagra's parentage"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet quoted by Pausanias"
+   },
+   {
+    "name": "Orion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "buried at Tanagra"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "said to have been reared on Cerycius"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "god",
+    "description": "said to meditate at Polus"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple at Tanagra who defeated Triton"
+   },
+   {
+    "name": "Triton",
+    "aliases": [],
+    "kind": "monster",
+    "description": "sea being who attacked women and plundered herds"
+   },
+   {
+    "name": "Calamis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the Dionysus statue"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue at Delium"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue at Delium"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Chæresilaus",
+    "relation": "parent_of",
+    "b": "Pœmander",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Iasius",
+    "relation": "parent_of",
+    "b": "Chæresilaus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Eleuther",
+    "relation": "parent_of",
+    "b": "Iasius",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Eleuther",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Æthusa",
+    "relation": "parent_of",
+    "b": "Eleuther",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Æthusa",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Pœmander",
+    "relation": "spouse_of",
+    "b": "Tanagra",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Æolus",
+    "relation": "parent_of",
+    "b": "Tanagra",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Asopus",
+    "relation": "parent_of",
+    "b": "Tanagra",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Graia",
+    "canonical": "Tanagra",
+    "explanation": "Name given to the woman Tanagra, and then her city, from her great age."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias gathers local etymologies and rival legends, noting which is more plausible, to explain place names and monuments.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The rationalized Triton story, with wine and an axe, shows how Greek travellers reinterpreted older myth into believable local history.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Tanagra is famous today for its small painted terracotta figurines, found in Boeotian graves.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Corinna was a Boeotian poet from Tanagra, perhaps of the 5th century BC; Pausanias cites her as a local authority who differs on Tanagra's father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Homer's Catalogue of Ships (Iliad 2) lists the Boeotian contingents; Graia appears among the towns there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Polus means 'pole' or 'pivot' of the heavens, suiting Atlas, who is said to ponder the sky and the earth's depths.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Orgies here means secret religious rites of Dionysus, not the modern sense; the women purify themselves beforehand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "'Hoar antiquity' means very ancient; the legend is old, though Pausanias judges it less believable than the next.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "'Smote' is archaic for struck; here it means he cut off the head with the axe.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Delium on the coast of Tanagra had a sanctuary of Apollo; Pausanias here notes statues of Artemis and Leto.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Orion was the giant hunter of myth, and Hermes was said to have been raised on Mount Cerycius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Calamis was a celebrated 5th-century BC Greek sculptor. Parian marble came from the island of Paros and was prized for statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Triton is a sea-god, son of Poseidon, usually shown as a merman, who here threatens the women of Tanagra.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "Allusion",
+    "text": "Quoting Homer lends authority and ties Tanagra's local lore to the wider epic tradition, though the quoted lines actually concern Calypso.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Narrative voice",
+    "text": "Pausanias weighs the two legends as a rational critic, preferring the plausible one over the more ancient, which shows his sceptical method.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Irony",
+    "text": "The sea-god is undone by the gift of wine; his appetite, not strength, brings his defeat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Etiological myth",
+    "text": "The story is invented or retold to explain a physical feature: the statue's missing head.",
+    "spoiler": false
+   }
+  ]
+ }
+}

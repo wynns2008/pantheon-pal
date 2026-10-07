@@ -1,0 +1,379 @@
+{
+ "section_id": "pausanias-body-78",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10691,
+  "output": 3299
+ },
+ "result": {
+  "summary": "Pausanias describes Methana on its isthmus, its hot springs and its charm against the South West Wind, then turns to Hermione and its legendary founder. He tours the coast, promontories, islands and temples, including the old and new towns of Hermione.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Methana and its wonders",
+    "summary": "Methana's temples, hot springs, the cock ritual against the wind, and the islands of Pelops.",
+    "stakes": "Vines are scorched by the South West Wind.",
+    "present": [
+     "Antigonus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Methana",
+     "modern_name": "Methana",
+     "certainty": "real",
+     "lat": 37.58,
+     "lon": 23.39
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 15,
+    "title": "Hermione's founders",
+    "summary": "Pausanias discusses Hermion, Europs and Phoroneus, and the Dorian settlement of Hermione.",
+    "stakes": "",
+    "present": [
+     "Hermion",
+     "Europs",
+     "Phoroneus",
+     "Herophanes",
+     "Argus",
+     "Niobe"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Hermione",
+     "modern_name": "Ermioni",
+     "certainty": "real",
+     "lat": 37.38,
+     "lon": 23.25
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 21,
+    "title": "Road to Hermione and Scylla",
+    "summary": "The road from Trœzen passes Theseus' rock and shrines, and the promontory Scyllæum named for Scylla, who was betrayed by Minos.",
+    "stakes": "Scylla is cast overboard by Minos after betraying her city.",
+    "present": [
+     "Theseus",
+     "Ægeus",
+     "Scylla",
+     "Minos",
+     "Nisus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Scyllæum",
+     "modern_name": "Cape Skyli",
+     "certainty": "real",
+     "lat": 37.43,
+     "lon": 23.5
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 28,
+    "title": "Coast and islands",
+    "summary": "A catalogue of promontories, islands and the shore near Hermione.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Coast of Hermione",
+     "modern_name": "Argolid coast near Ermioni",
+     "certainty": "real",
+     "lat": 37.38,
+     "lon": 23.25
+    }
+   },
+   {
+    "start_sentence": 29,
+    "end_sentence": 39,
+    "title": "Old and new Hermione",
+    "summary": "The temples of the old town and the walled new town, with its Aphrodite shrines and Demeter cult.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Hermione",
+     "modern_name": "Ermioni",
+     "certainty": "real",
+     "lat": 37.38,
+     "lon": 23.25
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of the Macedonians, son of Demetrius"
+   },
+   {
+    "name": "Hermion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of old Hermione, son of Europs"
+   },
+   {
+    "name": "Europs",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phoroneus"
+   },
+   {
+    "name": "Phoroneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early king of Argos"
+   },
+   {
+    "name": "Herophanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "writer of Trœzen"
+   },
+   {
+    "name": "Argus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "grandson of Phoroneus who took the kingdom of Argos"
+   },
+   {
+    "name": "Niobe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Phoroneus, mother of Argus"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who removed the shoes and sword of Ægeus"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "whose shoes and sword lay under the rock"
+   },
+   {
+    "name": "Scylla",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Nisus who betrayed her city"
+   },
+   {
+    "name": "Nisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Scylla"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who took Nisæa and Megara"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Niobe's son in the tradition"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Europs",
+    "relation": "parent_of",
+    "b": "Hermion",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Phoroneus",
+    "relation": "parent_of",
+    "b": "Europs",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Nisus",
+    "relation": "parent_of",
+    "b": "Scylla",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Niobe",
+    "relation": "parent_of",
+    "b": "Argus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Phoroneus",
+    "relation": "parent_of",
+    "b": "Niobe",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Concludes the curious cock-halving ritual against the destructive wind.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends local cult, geography and legend, and cautiously weighs doubtful traditions.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage records folk magic and religion in Roman-era Greece, including Egyptian cults of Isis and Serapis.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Methana is a volcanic peninsula; its hot springs and volcanic activity match Pausanias' fire and water story.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Antigonus, son of Demetrius, is Antigonus Gonatas, king of Macedonia in the 3rd century BC; the date is given by reigning king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Sea dogs probably means sharks or dogfish; the Greek word is for a marine creature, not seals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "The South West Wind is the Libs (Lips) of Greek tradition; here it is a hot, drying wind blowing from the Saronic Gulf.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Pelops was the legendary hero who gave the Peloponnese ('island of Pelops') its name; the islets are named after him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Niobe's son is Argus, said to be the child of Zeus; Pausanias argues a son of Europs could not outrank him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Theseus lifted the rock to find the shoes and sword left by his father Ægeus, the tokens by which Ægeus would recognise him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "A stade was a Greek measure of about 600 feet (roughly 180 metres), so eighty stades is around ten miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Scylla betrayed her father Nisus by cutting his fatal purple lock for Minos, who then abandoned her; this is the 'treason' meant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "'Bucephala' means 'ox-heads'; the name describes the shape of the headland.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "allusion",
+    "text": "The sons of Tyndareus are Castor and Polydeuces (Pollux), the Dioscuri, famed as horsemen and athletes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "Serapis and Isis are Egyptian deities whose cults spread through the Greek world in the Hellenistic and Roman periods.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Isis was an Egyptian goddess whose worship spread widely in Greek lands in the Hellenistic and Roman periods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Phoroneus was an early legendary king of Argos; Herophanes of Trœzen is a local writer cited here, otherwise little known.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "The Dorians were Greek-speaking peoples who settled much of the Peloponnese, traditionally after the return of the Heraclidae.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Demeter was goddess of grain, and Proserpine (Greek Persephone) her daughter, carried off to the underworld; they were worshipped together.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "'Promachorma' means roughly 'she who defends the anchorage', fitting Athene as protector at a harbour site.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "Marriage-related sacrifice to Aphrodite was a local custom at Hermione, binding women to the goddess before marriage.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "narrative voice",
+    "text": "Pausanias speaks directly as a traveller-guide, promising the climax of his stop and building anticipation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "characterization",
+    "text": "His cautious skepticism shows the narrator as a careful, fair-minded observer who reports local belief without endorsing it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "irony",
+    "text": "Scylla's body is scattered by birds, leaving no grave; her punishment is bitterly fitting for one who denied her own father burial rites of loyalty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "narrative voice",
+    "text": "The periegete closes the section with a brisk summary, showing his guidebook manner of moving the reader along a route.",
+    "spoiler": false
+   }
+  ]
+ }
+}

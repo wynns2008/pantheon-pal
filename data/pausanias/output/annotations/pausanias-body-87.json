@@ -1,0 +1,320 @@
+{
+ "section_id": "pausanias-body-87",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8193,
+  "output": 2906
+ },
+ "result": {
+  "summary": "Pausanias traces the Spartan Agiad kings from Plistarchus to Agesipolis. King Pausanias leads an army to Athens, then is tried, fails at Haliartus and Thebes, and flees to Tegea. His son Agesipolis later campaigns against Argos, is hindered by earthquakes, and dies at Olynthus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Pausanias in Attica and trial",
+    "summary": "The succession reaches King Pausanias, who marches on Athens, withdraws after winning, and is tried by the Spartan court and narrowly acquitted.",
+    "stakes": "Pausanias risks condemnation by the Spartan court for returning with nothing gained.",
+    "present": [
+     "Plistarchus",
+     "Plistoanax",
+     "Pausanias",
+     "Thrasybulus",
+     "Agis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Attica and the Piræus",
+     "modern_name": "Piraeus, Greece",
+     "certainty": "real",
+     "lat": 37.94,
+     "lon": 23.65
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 14,
+    "title": "Haliartus, Thebes and Tegea",
+    "summary": "Lysander dies attacking Haliartus; Pausanias arrives late, makes a treaty with Thebes, and then takes refuge at the temple of Alean Athene in Tegea.",
+    "stakes": "Pausanias risks a second trial and the loss of his army to enemies on two sides.",
+    "present": [
+     "Lysander",
+     "Pausanias",
+     "Thrasybulus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Haliartus",
+     "modern_name": "Haliartos, Boeotia",
+     "certainty": "real",
+     "lat": 38.37,
+     "lon": 23.09
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 21,
+    "title": "Agesipolis' wars",
+    "summary": "Aristodemus acts as Regent; Agesipolis then invades Argolis despite earthquakes, and later dies of disease campaigning against Olynthus.",
+    "stakes": "Agesipolis faces divine displeasure and finally death before taking Olynthus.",
+    "present": [
+     "Agesipolis",
+     "Cleombrotus",
+     "Aristodemus",
+     "Poseidon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argolis",
+     "modern_name": "Argolis, Greece",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.8
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Plistarchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Leonidas, who died soon after succeeding"
+   },
+   {
+    "name": "Plistoanax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Pausanias the hero of Platæa"
+   },
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king who withdrew from Athens and went into exile at Tegea"
+   },
+   {
+    "name": "Thrasybulus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian leader opposing the Thirty"
+   },
+   {
+    "name": "Lysander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan commander killed at Haliartus"
+   },
+   {
+    "name": "Agis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of the other Spartan royal house, a judge"
+   },
+   {
+    "name": "Agesipolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Pausanias, Spartan king who died at Olynthus"
+   },
+   {
+    "name": "Cleombrotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Young son of Pausanias"
+   },
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Next of kin, Regent for the young kings"
+   },
+   {
+    "name": "Leotychides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Earlier Spartan who took sanctuary at Tegea"
+   },
+   {
+    "name": "Chrysis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive who took sanctuary at Tegea"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "God whose displeasure the earthquakes were taken to show"
+   },
+   {
+    "name": "Alean Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess of the Tegean temple of sanctuary"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Leonidas",
+    "relation": "parent_of",
+    "b": "Plistarchus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Pausanias",
+    "relation": "parent_of",
+    "b": "Plistoanax",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Plistoanax",
+    "relation": "parent_of",
+    "b": "Pausanias",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Pausanias",
+    "relation": "parent_of",
+    "b": "Agesipolis",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Pausanias",
+    "relation": "parent_of",
+    "b": "Cleombrotus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Agesipolis",
+    "relation": "sibling_of",
+    "b": "Cleombrotus",
+    "source": "text",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The section shows Spartan kingship under strain: kings are judged, exiled, and undone by defeat, caution, and divine signs.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It covers the early fourth century BC, when Sparta's power after the Peloponnesian War began to weaken, especially in the Corinthian War.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Sparta's kings were tried by a court of Seniors, the Ephors, and the king of the other house.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The Thirty Tyrants were an oligarchy ruling Athens after its defeat in 404 BC; Thrasybulus led the democratic exiles resisting them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Seniors are the members of the Spartan council of elders (gerousia); Ephors were annual magistrates. Sparta had two kings from two families.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Between two fires\" means attacked from two sides at once, caught between two hostile forces.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Thermopylæ (480 BC) and Sphacteria (425 BC) were famous Spartan disasters; Pausanias fears a third.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Not demanded up\" means not surrendered; sanctuary at the altar protected suppliants from being handed over.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "A Regent governs on behalf of kings who are minors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"The old conditions established among all Dorians\" refers to traditional terms of peace shared by Dorian peoples, including Spartans and Argives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Poseidon was the god of earthquakes, so tremors were read as signs of his anger.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Pausanias the hero of Platæa was the Spartan regent who commanded the Greeks to victory over the Persians in 479 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Lysander was the Spartan admiral who defeated Athens in 404 BC and later became very influential in Greek affairs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Tegea was an Arcadian city whose temple of Athene Alea was a renowned place of asylum.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Olynthus was the chief city of the Chalcidic peninsula; Sparta campaigned there around 381–379 BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "characterization",
+    "text": "Pausanias is portrayed as honourable, putting Sparta's reputation above the gains of victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "narrative voice",
+    "text": "The author steps in with a personal judgment, defending Pausanias against his countrymen's criticism.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "foreshadowing",
+    "text": "The relentless portents of thunder, lightning and earthquake hint that Agesipolis's defiance of the gods will bring consequences.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "irony",
+    "text": "Agesipolis is cut down by sudden illness just as success seems near, a reversal of his victories.",
+    "spoiler": false
+   }
+  ]
+ }
+}

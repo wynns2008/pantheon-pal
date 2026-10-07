@@ -1,0 +1,451 @@
+{
+ "section_id": "pausanias-body-235",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10115,
+  "output": 4055
+ },
+ "result": {
+  "summary": "Pausanias describes the oak wood Pelagos near Mantinea and the tombs nearby, including those of the daughters of Pelias and of Areithous. He then recounts the death and burial of Epaminondas at Mantinea and compares his fate with the ambiguous oracles that misled Hannibal and the Athenians.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Pelagos and the Pelias tombs",
+    "summary": "Pausanias traces the road through Pelagos, the Mantinea-Tegea boundary altar and the tombs of Pelias' daughters.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Pelagos",
+     "modern_name": "near Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 9,
+    "title": "Medea and the daughters of Pelias",
+    "summary": "Medea tricks Pelias' daughters into boiling their father, promising rejuvenation. They flee to Arcadia and are buried there.",
+    "stakes": "Pelias loses his life; his daughters lose their home and reputation.",
+    "present": [
+     "Medea",
+     "Pelias",
+     "Jason",
+     "Asteropea",
+     "Antinoe"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Iolcos",
+     "modern_name": "Volos, Thessaly",
+     "certainty": "real",
+     "lat": 39.36,
+     "lon": 22.94
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 11,
+    "title": "Tomb of Areithous",
+    "summary": "At Phœzon is the tomb of Areithous, called Corynetes for his club.",
+    "stakes": "",
+    "present": [
+     "Areithous"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phœzon",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 20,
+    "title": "Epaminondas falls at Mantinea",
+    "summary": "Rival accounts name who killed Epaminondas; he watched the battle, died, and was buried on the field with a dragon-shield pillar.",
+    "stakes": "Epaminondas faces death from his wound.",
+    "present": [
+     "Epaminondas",
+     "Machærion",
+     "Gryllus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mantinea battlefield",
+     "modern_name": "Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 24,
+    "title": "Praise and the oracle of Pelagos",
+    "summary": "Pausanias praises Epaminondas and explains how he misread Apollo's warning about Pelagos.",
+    "stakes": "Epaminondas' life, endangered by a misunderstood oracle.",
+    "present": [
+     "Epaminondas",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.48,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 33,
+    "title": "Hannibal and the Athenians misled",
+    "summary": "Hannibal and the Athenians were also deceived by place names in oracles: Libyssa and Sicily.",
+    "stakes": "Hannibal's life and the Athenians' expedition were doomed by misread oracles.",
+    "present": [
+     "Hannibal",
+     "Flaminius",
+     "Prusias"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Libyssa",
+     "modern_name": "Gebze, Turkey",
+     "certainty": "real",
+     "lat": 40.8,
+     "lon": 29.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Medea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sorceress who tricked Pelias' daughters"
+   },
+   {
+    "name": "Pelias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "old king of Iolcos killed by his daughters"
+   },
+   {
+    "name": "Jason",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero whose interest Medea served"
+   },
+   {
+    "name": "Asteropea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Pelias"
+   },
+   {
+    "name": "Antinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Pelias"
+   },
+   {
+    "name": "Mico",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "painter who named the daughters"
+   },
+   {
+    "name": "Areithous",
+    "aliases": [
+     "Corynetes"
+    ],
+    "kind": "mortal",
+    "description": "club-wielding warrior with a tomb at Phœzon"
+   },
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban general killed at Mantinea"
+   },
+   {
+    "name": "Machærion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man claimed to have killed Epaminondas"
+   },
+   {
+    "name": "Gryllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian said to have mortally wounded Epaminondas"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of the Delphic oracle"
+   },
+   {
+    "name": "Hannibal",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Carthaginian general deceived by an oracle"
+   },
+   {
+    "name": "Flaminius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman pursuing Hannibal"
+   },
+   {
+    "name": "Prusias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who rejected Hannibal"
+   },
+   {
+    "name": "Adrian",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor who erected a pillar to Epaminondas"
+   },
+   {
+    "name": "Ammon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose oracle spoke to Hannibal"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Pelias",
+    "relation": "parent_of",
+    "b": "Asteropea",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Pelias",
+    "relation": "parent_of",
+    "b": "Antinoe",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Medea",
+    "relation": "lover_of",
+    "b": "Jason",
+    "source": "outside",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Corynetes",
+    "canonical": "Areithous",
+    "explanation": "Means club-bearer, from the club he used in battle."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Vivid account of Epaminondas watching the battle while dying, naming the place Scope.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "reason": "Shows the oracle's double meaning of Pelagos, sea or oak wood.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Oracles are true but ambiguous, and men are undone by reading them by the usual meaning of a word.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias blends local monuments, rival civic traditions and paintings as evidence, showing how cities competed over memory of the battle of Mantinea (362 BC).",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Hadrian, who set up a pillar at Epaminondas' tomb, was a famous admirer of Greek culture.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Pelagos here is a place name for an oak-wooded area; the Greek word usually means 'sea', but no sea is meant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet (about 180 metres), so five stades is a short walk.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Vituperations means violent blame or abuse; the daughters fled the reproaches that followed their father's death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Ostensibly means outwardly or apparently; Medea only pretended to be Jason's enemy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Jason sought the Golden Fleece for Pelias, who had usurped his throne at Iolcos. Medea, Jason's wife, helped him take revenge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Mico was a famous Athenian painter of the fifth century BC. Pausanias cites his painting as evidence where poets are silent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Corynetes means 'club-man', from the Greek word for a club.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "A stade was a Greek unit of about 180–200 metres, so roughly 5–6 km here. Pelagos is also the Greek word for 'sea'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Scope is the Greek skopē, 'watching place'; the translator glosses it as 'Watch'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "The Sparti ('sown men') sprang from dragon's teeth sown by Cadmus at Thebes; Theban noble families claimed descent from them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "Pelagos in Greek means 'the open sea', which explains Epaminondas' mistaken avoidance of ships.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Ammon is the Libyan oracle-god, identified with Zeus. Libyssa was a place in Bithynia, not in Libya, hence the confusion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "The Athenian expedition to Sicily (415–413 BC) ended in disaster at Syracuse.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Boundary markers like this altar fixed the border between neighbouring Greek cities, here Mantinea and Tegea in Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Medea was a sorceress from Colchis. The ram trick was a demonstration that boiling could restore youth, which was a deception.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Phœzon is a place in Arcadia, near Mantinea, named only for this roadside tomb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Mantinea was in Arcadia; the battle there in 362 BC saw Thebes defeat Sparta and its allies, though Epaminondas died.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Gryllus was the son of Xenophon. The painting of the battle was a well-known work in Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Adrian is the emperor Hadrian (ruled AD 117–138), who admired Greek culture and restored many monuments.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Hannibal, the Carthaginian general, fled to King Prusias of Bithynia after Rome's victory. Flaminius was the Roman envoy demanding his surrender.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "irony",
+    "text": "Medea seems to be Pelias' enemy but secretly serves Jason, so her apparent hostility hides her actual purpose.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "understatement",
+    "text": "The grim result is told dryly: the daughters get barely enough remains to bury, which stresses the horror without describing it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "epithet",
+    "text": "The nickname Corynetes sums up Areithous by his weapon, a tag that identifies him in a single word.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "imagery",
+    "text": "The vivid picture of the dying general gasping, hand on wound, watching the fight shows his devotion to duty and explains the place name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "symbolism",
+    "text": "The dragon on the shield symbolizes Epaminondas' descent from the mythic Sparti and Theban heritage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "irony",
+    "text": "His caution about the sea led him straight to the real danger, a land grove; the warning was fulfilled through his precaution.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "irony",
+    "text": "Hannibal dies at a place named Libyssa, fulfilling the oracle in a way he never expected; his hope of dying at home proves false.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,429 @@
+{
+ "section_id": "pausanias-body-192",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8881,
+  "output": 3562
+ },
+ "result": {
+  "summary": "Pausanias finishes the Olympia hippodrome and gymnasium, then describes the road across the Cladeus and Alpheus into Pisa, with its shrines and ruins. He recounts the legend of Oenomaus, Pelops and the slain suitors of Hippodamia, and names the suitors from the Great Eoeae.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Temple of Demeter Chamyne",
+    "summary": "A hill beside the hippodrome holds the temple of Demeter Chamyne, with two explanations of her title. Herodes later gave new statues.",
+    "stakes": "",
+    "present": [
+     "Demeter",
+     "Chamynus",
+     "Pantaleon",
+     "Herodes",
+     "Proserpine",
+     "Pluto"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hippodrome at Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 7,
+    "title": "The Gymnasium at Olympia",
+    "summary": "The gymnasium is where athletes train for the pentathlum and races, with a wrestling enclosure and lodgings.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Gymnasium at Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6385,
+     "lon": 21.6275
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 21,
+    "title": "Across the Rivers to Phrixa",
+    "summary": "Beyond the Cladeus lies the tomb of Oenomaus. Pausanias then follows the Arcadian border, Saurus's tomb, and shrines to Aesculapius, Dionysus and Athene Cydonia.",
+    "stakes": "",
+    "present": [
+     "Oenomaus",
+     "Saurus",
+     "Hercules",
+     "Clymenus",
+     "Pelops",
+     "Athene Cydonia",
+     "Aesculapius",
+     "Dionysus Lucyanites"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pisa district",
+     "modern_name": "Elis, western Peloponnese",
+     "certainty": "real",
+     "lat": 37.65,
+     "lon": 21.6
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 32,
+    "title": "Tomb of the Suitors",
+    "summary": "Pausanias recounts Marmax's horses, Harpina, and the common tomb Pelops made for the suitors slain by Oenomaus, listing them.",
+    "stakes": "The suitors died racing Oenomaus for Hippodamia.",
+    "present": [
+     "Marmax",
+     "Oenomaus",
+     "Hippodamia",
+     "Pelops",
+     "Harpina",
+     "Alcathous",
+     "Acrias",
+     "Tricolonus",
+     "Erythras",
+     "Eioneus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pisa",
+     "modern_name": "Olympia area",
+     "certainty": "traditional",
+     "lat": 37.64,
+     "lon": 21.62
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Chamyne"
+    ],
+    "kind": "goddess",
+    "description": "goddess honored in a temple by the hippodrome"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a new statue"
+   },
+   {
+    "name": "Pluto",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose chariot the earth took in"
+   },
+   {
+    "name": "Chamynus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man of Pisa killed by Pantaleon"
+   },
+   {
+    "name": "Pantaleon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Pisa, son of Omphalion"
+   },
+   {
+    "name": "Omphalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pantaleon"
+   },
+   {
+    "name": "Herodes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who set up the statues"
+   },
+   {
+    "name": "Oenomaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who killed Hippodamia's suitors"
+   },
+   {
+    "name": "Saurus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "robber killed by Hercules"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero who killed Saurus"
+   },
+   {
+    "name": "Aesculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a ruined temple"
+   },
+   {
+    "name": "Dionysus Lucyanites",
+    "aliases": [],
+    "kind": "god",
+    "description": "Dionysus worshipped by the Lucyanias"
+   },
+   {
+    "name": "Athene Cydonia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Phrixa"
+   },
+   {
+    "name": "Clymenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "descendant of Idaean Hercules who built the temple"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "victor over Oenomaus, later king of Pisa"
+   },
+   {
+    "name": "Marmax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first suitor of Hippodamia killed"
+   },
+   {
+    "name": "Hippodamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Oenomaus, prize of the race"
+   },
+   {
+    "name": "Harpina",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Oenomaus"
+   },
+   {
+    "name": "Alcathous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "suitor, son of Porthaon"
+   },
+   {
+    "name": "Porthaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Alcathous"
+   },
+   {
+    "name": "Acrias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "suitor, probably Lacedaemonian"
+   },
+   {
+    "name": "Tricolonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "suitor of Arcadian descent"
+   },
+   {
+    "name": "Erythras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "suitor, son of Leucon"
+   },
+   {
+    "name": "Leucon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Erythras"
+   },
+   {
+    "name": "Eioneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "suitor, son of Magnes"
+   },
+   {
+    "name": "Magnes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Eioneus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Omphalion",
+    "relation": "parent_of",
+    "b": "Pantaleon",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Harpina",
+    "relation": "parent_of",
+    "b": "Oenomaus",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Porthaon",
+    "relation": "parent_of",
+    "b": "Alcathous",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Leucon",
+    "relation": "parent_of",
+    "b": "Erythras",
+    "source": "text",
+    "evidence_sentence": 31
+   },
+   {
+    "a": "Magnes",
+    "relation": "parent_of",
+    "b": "Eioneus",
+    "source": "text",
+    "evidence_sentence": 31
+   },
+   {
+    "a": "Oenomaus",
+    "relation": "parent_of",
+    "b": "Hippodamia",
+    "source": "outside",
+    "evidence_sentence": 25
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Chamyne",
+    "canonical": "Demeter",
+    "explanation": "Title under which Demeter is worshipped at this temple."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links landmarks to local legends, so the road becomes a guide to memory and myth.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Herodes Atticus's gifts show wealthy Romans-era patrons restoring Greek sanctuaries; many shrines were already ruins in Pausanias's day.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Hippodrome: the course for horse and chariot races. 'Embankment' refers to the other side's raised earthen bank for spectators.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Refers to the abduction of Proserpine (Persephone) by Pluto, whose chariot carried her down into the earth; 'Chamyne' is linked to the earth gaping (chainein).",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Pentelican marble: fine white marble from Mount Pentelicus near Athens, used for major sculpture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "'In lieu of' means 'in place of'; the older statues had been replaced.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Pentathlum: the pentathlon, a contest of five events including running, jumping, discus, javelin and wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Stade: a Greek measure of length, roughly 600 feet or about 185 metres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Refers to the chariot race in which Pelops defeated Œnomaus to win Hippodamia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "'Worthy gentlemen' is the translator's ironic, old-fashioned rendering for the noble suitors; 'sepulchre' means tomb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "The Great Eoeae was an ancient Greek epic catalogue of heroines, attributed to Hesiod, and Pausanias cites it as a source.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Herodes (Atticus) was a wealthy Athenian benefactor of the 2nd century AD who funded buildings across Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Hercules was often credited with ridding the land of robbers and monsters, as in the story of Saurus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Æsculapius was the god of healing, and his temples were often founded by individual devotees.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Œnomaus, king of Pisa, challenged his daughter Hippodamia's suitors to a chariot race and killed them when they lost.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "narrative voice",
+    "text": "Pausanias offers a rival local explanation, presenting competing traditions without choosing, typical of his guidebook-like, scholarly voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "characterization",
+    "text": "Pausanias's personal inference ('I think') shows Pelops as honouring the dead and gives the tomb a moral purpose.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "metaphor",
+    "text": "'Fate overtook' treats death as a pursuer in the race, echoing the chariot contest's theme.",
+    "spoiler": false
+   }
+  ]
+ }
+}

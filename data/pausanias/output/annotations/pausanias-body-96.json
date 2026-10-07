@@ -1,0 +1,393 @@
+{
+ "section_id": "pausanias-body-96",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10597,
+  "output": 3498
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Sparta, listing tombs, temples and statues west of the market-place and along the Dromus. He ends with the youths' ritual fights at Platanistas, preceded by puppy sacrifices and boar fights.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 15,
+    "title": "Tombs and temples near the agora",
+    "summary": "Pausanias lists the cenotaph of Brasidas, the theatre, tombs of Pausanias and Leonidas, the tombs of Agis' descendants and several temples. He adds the story of Chionis and the founding of the temple of Thetis.",
+    "stakes": "",
+    "present": [
+     "Brasidas",
+     "Pausanias",
+     "Leonidas",
+     "Chionis",
+     "Anaxander",
+     "Leandris",
+     "Cleo",
+     "Battus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.0742,
+     "lon": 22.4297
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 28,
+    "title": "The Dromus and Platanistas",
+    "summary": "Pausanias describes the running-ground, its gymnasiums, shrines and heroes' tombs, and the plane-tree island of Platanistas with statues of Hercules and Lycurgus.",
+    "stakes": "",
+    "present": [
+     "Eumedes",
+     "Hercules",
+     "Menelaus",
+     "Polydeuces",
+     "Lynceus",
+     "Alco",
+     "Lycurgus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Dromus",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.0742,
+     "lon": 22.4297
+    }
+   },
+   {
+    "start_sentence": 29,
+    "end_sentence": 38,
+    "title": "The youths' fights",
+    "summary": "The youths sacrifice puppies to Enyalius at the temple of Phoebus, set boars to fight, then fight at Platanistas, pushing each other into the water.",
+    "stakes": "The youths risk injury and defeat in a violent ritual contest.",
+    "present": [
+     "Enyalius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Platanistas",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.0742,
+     "lon": 22.4297
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Brasidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Tellis, honoured with a cenotaph"
+   },
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "general at Plataea, buried at Sparta"
+   },
+   {
+    "name": "Leonidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king whose remains were moved from Thermopylae"
+   },
+   {
+    "name": "Chionis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan runner with Olympic victories"
+   },
+   {
+    "name": "Battus",
+    "aliases": [
+     "Theraean Battus"
+    ],
+    "kind": "mortal",
+    "description": "founder of Cyrene"
+   },
+   {
+    "name": "Anaxander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king who invaded Messenia"
+   },
+   {
+    "name": "Leandris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Anaxander's wife, builder of the temple of Thetis"
+   },
+   {
+    "name": "Cleo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "captive priestess of Thetis"
+   },
+   {
+    "name": "Eumedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hippocoon"
+   },
+   {
+    "name": "Hippocoon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Eumedes and Alco"
+   },
+   {
+    "name": "Alco",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hippocoon, with a hero-chapel"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero with an old statue at the Dromus"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "his old house stood near the Dromus"
+   },
+   {
+    "name": "Polydeuces",
+    "aliases": [
+     "Pollux"
+    ],
+    "kind": "god",
+    "description": "set up a trophy after defeating Lynceus"
+   },
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aphareus, defeated by Polydeuces"
+   },
+   {
+    "name": "Lycurgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan lawgiver with a statue"
+   },
+   {
+    "name": "Enyalius",
+    "aliases": [],
+    "kind": "god",
+    "description": "war god receiving puppy sacrifices"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hippocoon",
+    "relation": "parent_of",
+    "b": "Eumedes",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Hippocoon",
+    "relation": "parent_of",
+    "b": "Alco",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Anaxander",
+    "relation": "spouse_of",
+    "b": "Leandris",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Britomartis",
+    "canonical": "Artemis Issora",
+    "explanation": "The Cretans call this goddess Britomartis rather than Artemis."
+   },
+   {
+    "alias": "Limnaea",
+    "canonical": "Artemis Issora",
+    "explanation": "Another title of the same Artemis."
+   },
+   {
+    "alias": "Pollux",
+    "canonical": "Polydeuces",
+    "explanation": "Latin form of Polydeuces, used with Castor in the temple list."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 37,
+    "reason": "Vividly shows the brutality of the Spartan youths' ritual fights.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The chapter shows how Spartan public space preserves memory of heroes, kings and athletes, tying civic life to tradition and war.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The ritual fights at Platanistas reflect Spartan education, which trained youths in toughness and martial competition.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes that only Spartans could compete in the contest held at the tombs of Pausanias and Leonidas.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A cenotaph is an empty tomb, a monument to someone buried elsewhere; Brasidas died and was buried at Amphipolis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Lounge\" translates a Greek word for a public meeting or resting place; here it is a named spot belonging to the Crotani, a division of the Pitanatæ.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Retrace your steps to the Lounge\" means walking back toward the Lounge mentioned earlier; the sentence also lists three names of one goddess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "The \"course\" is the single-length foot race of about one stadium; the \"double course\" is a stadium there and back.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "The shield race (race in armour) was added to the Olympic programme later, so Chionis could not compete in it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Orpheus, the legendary Thracian singer, was credited with founding mystic rites; Pausanias rejects this and credits the cult at Hermion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Sphærei means those playing ball (sphaira); the name was given to youths just reaching manhood, as the next sentence explains.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Agnitas is a cult title linked to the agnus castus or willow-like tree; Pausanias glosses it as 'Willowy', from the wood of the statue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "The sons of Aphareus, Lynceus and Idas, fought Castor and Polydeuces; Polydeuces' trophy over Lynceus suggests the fight, and burial, happened in Messenia's region instead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "'Of the Startingpoint' translates a cult title of the Dioscuri (Castor and Pollux), connected with the start of races in the running-ground.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "Domatites is a title of Poseidon, apparently meaning 'of the house', protector of dwellings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "Colophon was an Ionian city in Asia Minor; Enodius is a title of Hecate or Ares-like deity of the roads, receiving dog sacrifice.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "This Pausanias commanded the Greeks at Platæa in 479 BC; Leonidas was the Spartan king killed at Thermopylæ.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Æsculapius is the god of healing, known to the Greeks as Asclepius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Cyrene was a Greek colony in Libya, founded from Thera around 630 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Castor and Pollux, the Dioscuri, were Spartan heroes of special local importance; Ilithyia presided over childbirth; Apollo Carneus was honoured at the Carnea festival.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Lycurgus was the traditional Spartan lawgiver, said to have shaped the city's education and discipline.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Enyalius is a war god, often identified with or closely linked to Ares.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "characterization",
+    "text": "The annual speeches and Spartan-only contest show how Sparta honoured its heroes and guarded its own civic identity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "narrative voice",
+    "text": "Pausanias reports the Spartans' account with \"they allege\", keeping his distance from the tradition's truth while preserving its detail.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "simile",
+    "text": "Comparing the water-ringed ground to an island in the sea gives a clear picture of its isolation, fitting for enclosed combat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "characterization",
+    "text": "The reasoning that the bravest tame animal suits the bravest god shows Spartan martial values shaping even their ritual.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "asyndeton",
+    "text": "Rapid clauses linked by 'and' and piling violent actions convey the roughness and momentum of the fight.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,505 @@
+{
+ "section_id": "pindar-odes-body-15",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 13506,
+  "output": 4912
+ },
+ "result": {
+  "summary": "Pindar's first Pythian ode praises Hieron of Aitna for a chariot victory at Delphi in 474 B.C. It opens with the power of the lyre, tells of Typhon imprisoned under Etna, then celebrates Hieron's victories over Carthaginians and Etruscans and advises him to rule justly.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Historical introduction",
+    "summary": "The editor sets out the date of the victory and Hieron's military and civic achievements.",
+    "stakes": "",
+    "present": [
+     "Hieron"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Syracuse",
+     "modern_name": "Syracuse, Sicily",
+     "certainty": "real",
+     "lat": 37.0755,
+     "lon": 15.2866
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 8,
+    "title": "Power of the golden lyre",
+    "summary": "The lyre calms Zeus's eagle and even violent Ares.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Ares",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Home of the gods",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 11,
+    "title": "Typhon beneath Etna",
+    "summary": "Typhon, enemy of the gods, lies bound beneath Etna, which erupts with fire and lava.",
+    "stakes": "Typhon is imprisoned and crushed by the mountain for opposing the gods.",
+    "present": [
+     "Typhon",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Etna",
+     "modern_name": "Mount Etna, Sicily",
+     "certainty": "real",
+     "lat": 37.751,
+     "lon": 14.9934
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 23,
+    "title": "Prayers and praise of Hieron",
+    "summary": "Pindar prays to Zeus and Phoibos, praises Hieron's victory and compares his war effort to Philoktetes's.",
+    "stakes": "Pindar hopes his song will succeed and Hieron's fortune will last.",
+    "present": [
+     "Zeus",
+     "Phoibos",
+     "Hieron",
+     "Philoktetes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aitna",
+     "modern_name": "Etna area, Sicily",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 14.99
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 37,
+    "title": "Dorian laws and counsel",
+    "summary": "Pindar praises the new city's Dorian laws, recalls the victories over Tuscans and Medes, and advises Hieron to rule justly and seek lasting fame.",
+    "stakes": "Hieron's reputation and the city's peace depend on just rule and truthful speech.",
+    "present": [
+     "Hieron",
+     "Zeus",
+     "Craesus",
+     "Phalaris"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aitna",
+     "modern_name": "Etna area, Sicily",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 14.99
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hieron",
+    "aliases": [
+     "Etna's king"
+    ],
+    "kind": "mortal",
+    "description": "Ruler of Syracuse and Aitna, victor in the chariot race"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "son of Kronos"
+    ],
+    "kind": "god",
+    "description": "King of the gods, defender of Etna"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoibos",
+     "Leto's son"
+    ],
+    "kind": "god",
+    "description": "God of the lyre and of song"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "Violent god of war, soothed by the lyre"
+   },
+   {
+    "name": "Typhon",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Hundred-headed enemy of the gods bound under Etna"
+   },
+   {
+    "name": "Philoktetes",
+    "aliases": [
+     "son of Paian"
+    ],
+    "kind": "mortal",
+    "description": "Wounded archer fetched from Lemnos to take Troy"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Troy"
+   },
+   {
+    "name": "Craesus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler remembered for kindness"
+   },
+   {
+    "name": "Phalaris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Pitiless tyrant who burned men in a brazen bull"
+   },
+   {
+    "name": "Deinomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Hieron"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Mother of Apollo"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Kronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Deinomenes",
+    "relation": "parent_of",
+    "b": "Hieron",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Paian",
+    "relation": "parent_of",
+    "b": "Philoktetes",
+    "source": "text",
+    "evidence_sentence": 21
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phoibos",
+    "canonical": "Apollo",
+    "explanation": "Epithet of Apollo, addressed as lord of Lykia and Delos."
+   },
+   {
+    "alias": "Leto's son",
+    "canonical": "Apollo",
+    "explanation": "Apollo named by his mother."
+   },
+   {
+    "alias": "Aitna",
+    "canonical": "Etna",
+    "explanation": "The Greek spelling of the mountain's name, also used for the city Hieron founded."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Famous opening invocation of the golden lyre's power over gods and nature.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "reason": "Concise statement of Pindar's ideal: happiness first, glory second.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Music brings order, as the lyre calms the gods while Typhon, hostile to Zeus, is crushed; this mirrors Hieron's defence of Greek order against barbarians.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pindar links Hieron's victories at Himera and Cumae with Salamis and Plataea, presenting the Sicilian Greeks as equal partners in the war against barbarians.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Pindar's image of Typhon beneath Etna shaped later literary accounts of the volcano, including Aeschylus and Virgil."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pindar's account of Etna's eruption is among the earliest literary descriptions of a volcanic eruption, apparently reflecting the one that began in 479 B.C.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Salamis was the Greek naval victory over Persia in 480; Himera is traditionally dated to the same year, linking the Western and Eastern wars.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Violet-tressed\" translates an epithet meaning dark-haired or violet-dark; here it describes the Muses' hair.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"What time\" is archaic for \"when\"; \"quenched\" is used loosely for the present tense \"quenchest\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "The Pierides are the Muses, named from Pieria, a region in Macedonia associated with their worship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Tartaros is the deepest part of the underworld, a prison for the gods' enemies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"The den Kilikian of many names\" means the Cilician cave, which was known by various names; Typhon was said to be born there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Galled\" means rubbed sore; the mountain's slopes are imagined as chafing Typhon's back.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The mountain is Aitna (Etna); the founder Hieron named a city Aitna after it, and was proclaimed as its citizen at the Pythian games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"Doth reason show us hope\" means the omen of the first victory gives grounds to expect further crowns and song-celebrations.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "Pindar compares his poem to a javelin throw: he hopes not to land outside the marked ring, i.e. not to fail in praise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Philoktetes was a sick archer whom the Greeks needed to take Troy; Hieron, though ill, likewise led campaigns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "\"Danaoi\" is another name for the Greeks; \"son of Paian\" means Philoktetes, whose father was Poias, here styled Paian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "\"Etna's king\" is Hieron, ruler of Syracuse, who founded the city Aitna (Etna) and made his son its titular king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "The Hyllic pattern refers to Hyllos, son of Herakles, ancestor of the Dorian Herakleidai; the laws are the Dorian constitution of Aigimios.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "The Tyndaridai are the Dioscuri, Castor and Polydeuces, sons of Tyndareus, honoured at Amyklai near Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "The sea-fight before Cumae (474 BC) saw Hieron's fleet defeat the Etruscans (Tuscans), who were allied with Carthaginians (Phenicians).",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Salamis, Kithairon (Plataea) and Himëras are victories over Persians (Medes) and Carthaginians, linked as common struggles for Greek freedom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "\"Envy is preferred before pity\" means being envied is better than being pitied, so a prosperous ruler should not fear envy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "Craesus is Croesus, the generous king of Lydia; Phalaris, tyrant of Akragas, was said to roast victims in a bronze bull.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "The Etruscans were a powerful sea people of Italy; Hieron's fleet defeated them off Cumae, protecting the Greek cities of the West.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Ares is the god of war; Leto's son is Apollo, god of music and prophecy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Typhon was a monstrous giant who challenged Zeus and was imprisoned beneath Etna after his defeat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Phoibos is Apollo, god of poetry and prophecy, honoured in Lykia, on Delos and at Delphi near Castaly spring on Parnassos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Philoktetes was left on Lemnos with a festering wound, then fetched because an oracle said Troy could not fall without his bow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Deinomenes was Hieron's father; the \"four-horsed car\" victory was won by Hieron's chariot, here shared as joy for the family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Amënas is a river at Aitna (Catania) in Sicily; Zeus is invoked as the god who controls outcomes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Deinomenes was the father of Hieron and Gelon; Gelon's victory at Himera in 480 BC is celebrated here.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "apostrophe",
+    "text": "The poet directly addresses the lyre as if it were a person, setting up its power to command gods and beasts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "personification",
+    "text": "The eagle sleeps spell-bound, showing music's power by letting a bird of Zeus yield to it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "contrast",
+    "text": "Music soothes what Zeus loves, while what he hates, like Typhon, flees it, turning the lyre's harmony into a moral order.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "imagery",
+    "text": "Contrasting smoke by day and red flame by night makes the eruption vivid to sight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "metaphor",
+    "text": "The volcano is a living monster, so Etna's eruption becomes the body and suffering of the imprisoned Typhon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "simile",
+    "text": "The favourable breeze at a voyage's start is likened to a first victory, promising a successful end to the whole journey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "apostrophe",
+    "text": "Pindar directly addresses Phoibos, turning the ode into a prayer and asking for blessing on the land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "metaphor",
+    "text": "Poetic praise is imagined as javelin-throwing in a contest, making the poet an athlete competing with rival poets.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "allusion",
+    "text": "The Philoktetes myth is used as a parallel: an ailing hero is still indispensable, flattering the sick Hieron.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "metaphor",
+    "text": "Government is a ship steered with a just helm, and speech is a sword forged on a truthful anvil.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "metaphor",
+    "text": "Spending freely is imagined as a sailor loosing his sail to the wind, urging generosity in pursuit of fame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "contrast",
+    "text": "Croesus's lasting kindness is set against Phalaris's cruelty, showing how reputation survives in song for good and ill.",
+    "spoiler": false
+   }
+  ]
+ }
+}

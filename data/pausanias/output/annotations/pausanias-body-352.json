@@ -1,0 +1,408 @@
+{
+ "section_id": "pausanias-body-352",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10538,
+  "output": 3651
+ },
+ "result": {
+  "summary": "Pausanias describes the Phocian towns along the Cephisus: Ledon, Lilaea, Charadra, the lost Parapotamii, Amphiclea, Tithronium and Drymaea. He gives distances, temples, local legends and histories of destruction.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Ledon and its ruin",
+    "summary": "The road from Tithorea leads to deserted Ledon, whose remnant settles by the Cephisus. Pausanias compares its ruin to other towns destroyed by wrongdoing.",
+    "stakes": "",
+    "present": [
+     "Paris",
+     "Menelaus",
+     "Hestiaeus",
+     "Philomelus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ledon",
+     "modern_name": "",
+     "certainty": "real",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 12,
+    "title": "Lilaea and Charadra",
+    "summary": "Pausanias describes Lilaea's history, buildings, river and climate, then nearby Charadra.",
+    "stakes": "The town of Lilaea is besieged and garrisoned by Philip's Macedonians until Patron leads a rising.",
+    "present": [
+     "Philip",
+     "Patron",
+     "Lilaea",
+     "Cephisus",
+     "Apollo",
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lilaea",
+     "modern_name": "Lilea",
+     "certainty": "real",
+     "lat": 38.6,
+     "lon": 22.55
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 19,
+    "title": "Parapotamii and the Cephisus land",
+    "summary": "Pausanias discusses the fertile Cephisus land and Homer's line, and the vanished town of Parapotamii.",
+    "stakes": "",
+    "present": [
+     "Aechmeas",
+     "Xerxes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Parapotamii",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 27,
+    "title": "Amphiclea and the snake",
+    "summary": "Pausanias gives the names of Amphiclea and the tale of the child, wolf and snake, then the Dionysus rites.",
+    "stakes": "A ruler's baby son is threatened by a wolf and then mistakenly killed by his father.",
+    "present": [
+     "Dionysus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Amphiclea",
+     "modern_name": "Dadi (Tithorea area)",
+     "certainty": "real",
+     "lat": 38.63,
+     "lon": 22.57
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 33,
+    "title": "Tithronium and Drymaea",
+    "summary": "Pausanias notes Tithronium, Apollo's grove, and Drymaea with its founder and temple of Demeter.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Phocus",
+     "Demeter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Drymaea",
+     "modern_name": "",
+     "certainty": "real",
+     "lat": 38.6,
+     "lon": 22.65
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Paris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan whose outrage against Menelaus ruined Troy"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wronged by Paris"
+   },
+   {
+    "name": "Hestiaeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ambitious man whose desires ruined Miletus"
+   },
+   {
+    "name": "Philomelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Impious man blamed for Ledon's destruction"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Demetrius, besieged Lilaea"
+   },
+   {
+    "name": "Patron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lilaean who led the rising against the garrison"
+   },
+   {
+    "name": "Lilaea",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Naiad, reputed daughter of the Cephisus, name-giver of the town"
+   },
+   {
+    "name": "Cephisus",
+    "aliases": [],
+    "kind": "other",
+    "description": "River, reputed father of Lilaea"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with temples at Lilaea and Tithronium"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess with a temple at Lilaea"
+   },
+   {
+    "name": "Aechmeas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boy boxing victor of Parapotamii"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King who burned Phocian towns"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God worshipped with orgies at Amphiclea"
+   },
+   {
+    "name": "Phocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Founder of Drymaea, son of Aeacus"
+   },
+   {
+    "name": "Aeacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Phocus"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Law-giving Demeter"
+    ],
+    "kind": "goddess",
+    "description": "Goddess with ancient temple at Drymaea"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cephisus",
+    "relation": "parent_of",
+    "b": "Lilaea",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Aeacus",
+    "relation": "parent_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 32
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Law-giving Demeter",
+    "canonical": "Demeter",
+    "explanation": "Cult title of Demeter at Drymaea (Thesmophoros)."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links towns' fates to moral causes, such as impiety and wrongdoing, alongside local legends of naming.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage records Phocian ruin after the Sacred War and Persian and Macedonian attacks, as well as local cults.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "The Phocian General Council was the common assembly of the Phocian cities, to which even small settlements like this one sent representatives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "An Autochthon is a person said to have sprung from the soil of the land itself, a native with no immigrant ancestry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Paris carried off Menelaus' wife Helen, which caused the Trojan War. Hestiæus of Miletus helped provoke the Ionian revolt against Persia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Philomelus was the Phocian general who seized Delphi's sanctuary in the Sacred War (356 BC), an act of impiety; Phocian towns were later punished.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Capitulated upon conditions of war\" means surrendered on agreed terms, not unconditionally; the same phrase later describes the Macedonians' own terms of withdrawal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Pentelican marble comes from Mount Pentelicus near Athens and was prized for fine sculpture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Naiades (Naiads) are nymphs of springs, rivers and lakes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "A quotation from Homer's Catalogue of Ships in the Iliad, listing the Phocian contingents at Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The Amphictyones were the league of neighbouring peoples who administered Delphi and the Pythian Games, held in honour of Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet, so 60 stades is about seven miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "\"Orgies\" here means secret religious rites, not the modern sense of debauchery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "The ellipsis marks a gap or corruption in the text; the sentence is incomplete and the citation of Herodotus is uncertain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "\"Law-giving Demeter\" is the goddess's title Thesmophoros; her festival, the Thesmophoria, was celebrated by women.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Philip V of Macedon, son of Demetrius II, was king in the late third and early second century BC and campaigned in central Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Delphi was the usual place for Greek cities to set up statues honouring benefactors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Castor and Pollux, the Dioscuri, were twin heroes, brothers of Helen, widely honoured in Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Xerxes, king of Persia, invaded Greece in 480 BC and burned Phocian towns on his march, as Herodotus records.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "After the Sacred War (346 BC), the Amphictyones decreed the destruction of Phocian towns as punishment for seizing Delphi's treasury.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Dream-oracles and healing were typical of cults of healing gods; here Dionysus is credited with them, and the priest prophesies in possession.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Phocus, son of Æacus, was the legendary eponymous founder of the Phocians, and half-brother of Peleus and Telamon.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "allusion",
+    "text": "Famous disasters, Troy and Miletus, serve as parallels, framing Ledon's fall as part of a broader moral pattern.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "metaphor",
+    "text": "\"Wiped off the face of the globe\" pictures destruction as erasing a mark, stressing how complete the ruin was.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "simile",
+    "text": "The river's midday noise is compared to a bull's roar, giving a vivid sense of its violence near the source.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "irony",
+    "text": "The father kills the snake that saved his child, and the child too, through a tragic misreading of appearances.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "aetiology",
+    "text": "The tale explains a place-name and a landscape feature by a legend, a common technique in Pausanias.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "characterization",
+    "text": "Pausanias's reserved tone, calling the rites noteworthy yet describing them only by absence, shows his religious caution before mysteries.",
+    "spoiler": false
+   }
+  ]
+ }
+}

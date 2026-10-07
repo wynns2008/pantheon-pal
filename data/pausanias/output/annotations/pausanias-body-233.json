@@ -1,0 +1,448 @@
+{
+ "section_id": "pausanias-body-233",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8020,
+  "output": 3696
+ },
+ "result": {
+  "summary": "Pausanias tours the temples, tombs and statues of Mantinea, including the shrines of Aesculapius, Hera, and Aphrodite Symmachia. He explains the cult of the emperor Hadrian's favourite Antinous there, and the memorials of Gryllus and Podares from the battle against Epaminondas.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Temples of Mantinea",
+    "summary": "Pausanias describes the double temple, the temples of Zeus, Demeter and Hera, and the tomb of Arcas.",
+    "stakes": "",
+    "present": [
+     "Æsculapius",
+     "Leto",
+     "Praxiteles",
+     "Alcamenes",
+     "Polybius",
+     "Hera",
+     "Arcas",
+     "Athene",
+     "Hebe",
+     "Marsyas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mantinea",
+     "modern_name": "Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 9,
+    "title": "Delphic oracle about Arcas",
+    "summary": "The oracle's verses tell the Mantinæans to move Arcas' bones to where several roads meet.",
+    "stakes": "",
+    "present": [
+     "Arcas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mount Mænalus",
+     "modern_name": "Mainalo, Arcadia",
+     "certainty": "real",
+     "lat": 37.65,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 15,
+    "title": "Tombs and Aphrodite's temple",
+    "summary": "Pausanias lists tombs near the theatre and the temple of Aphrodite Symmachia built after Actium.",
+    "stakes": "",
+    "present": [
+     "Antinoe",
+     "Gryllus",
+     "Nicippe",
+     "Athene Alea"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mantinea",
+     "modern_name": "Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 22,
+    "title": "Antinous worshipped at Mantinea",
+    "summary": "Antinous, beloved of Hadrian, is honoured at Mantinea because Bithynians descended from Arcadians.",
+    "stakes": "",
+    "present": [
+     "Antinous",
+     "Adrian",
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mantinea",
+     "modern_name": "Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 25,
+    "title": "Diomenea and Podares",
+    "summary": "Monuments in the market-place, and who fought best against Epaminondas.",
+    "stakes": "",
+    "present": [
+     "Diomenea",
+     "Podares",
+     "Gryllus",
+     "Cephisodorus",
+     "Epaminondas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mantinea market-place",
+     "modern_name": "Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.38
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose statue by Alcamenes stands in the temple"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple shared with her children"
+   },
+   {
+    "name": "Praxiteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the Hera statues"
+   },
+   {
+    "name": "Alcamenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Æsculapius"
+   },
+   {
+    "name": "Marsyas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "piper shown in the basement relief"
+   },
+   {
+    "name": "Polybius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycortas, statue on a pillar"
+   },
+   {
+    "name": "Lycortas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Polybius"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "enthroned in her temple"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Athene Alea"
+    ],
+    "kind": "goddess",
+    "description": "stands beside Hera; worshipped as Alea"
+   },
+   {
+    "name": "Hebe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Hera"
+   },
+   {
+    "name": "Arcas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Callisto, eponym of Arcadians, buried at Mantinea"
+   },
+   {
+    "name": "Callisto",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "mother of Arcas"
+   },
+   {
+    "name": "Antinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Cepheus, buried near theatre"
+   },
+   {
+    "name": "Cepheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Antinoe"
+   },
+   {
+    "name": "Gryllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Xenophon, bravest in the battle"
+   },
+   {
+    "name": "Xenophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Gryllus"
+   },
+   {
+    "name": "Nicippe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Paseas, dedicated Aphrodite's statue"
+   },
+   {
+    "name": "Antinous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hadrian's beloved, worshipped as a god"
+   },
+   {
+    "name": "Adrian",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "emperor who loved Antinous"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "whom Antinous' paintings resemble"
+   },
+   {
+    "name": "Diomenea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Arcas, bronze image in market"
+   },
+   {
+    "name": "Podares",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who fell fighting Epaminondas"
+   },
+   {
+    "name": "Cephisodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian cavalry commander from Marathon"
+   },
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban general"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Callisto",
+    "relation": "parent_of",
+    "b": "Arcas",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Hera",
+    "relation": "parent_of",
+    "b": "Hebe",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Lycortas",
+    "relation": "parent_of",
+    "b": "Polybius",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Cepheus",
+    "relation": "parent_of",
+    "b": "Antinoe",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Xenophon",
+    "relation": "parent_of",
+    "b": "Gryllus",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Arcas",
+    "relation": "parent_of",
+    "b": "Diomenea",
+    "source": "text",
+    "evidence_sentence": 23
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "The Delphic oracle's riddling instruction for moving Arcas' bones.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local cult and memory tie Mantinea to Arcadian origins, from Arcas to the Bithynian link that justifies honouring Antinous.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The cult of Antinous and the Actium temple show a Greek city accommodating Roman power and imperial favour.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The deification of Antinous after his death in Egypt spread his cult widely, and his image became a lasting subject in art."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias says he never saw Antinous alive, only statues and paintings, showing how recent the cult was.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Leto and her children\" means Apollo and Artemis, her twins by Zeus (Jove).",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Basement\" means the base of the statue group; \"the Muse\" is a singular where several Muses are probably meant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Three and four and even five roads meet\" describes a junction of several roads, where Arcas's bones were to be reburied.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Vesta called Common\" refers to a round hearth-shrine of the city's common hearth, the Greek Hestia Koine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Actium was the naval battle of 31 BC in which Octavian defeated Antony and Cleopatra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "The painting at the Ceramicus in Athens showed the cavalry action at Mantinea, in which Gryllus fought.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Becoming a Roman citizen alludes to the period when Roman citizenship was widely granted to provincials.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Praxiteles was a famous fourth-century BC Athenian sculptor; Alcamenes worked in the fifth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Arcas, son of Callisto and Zeus, was the legendary ancestor of the Arcadians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Gryllus, son of the writer Xenophon, was killed fighting at Mantinea in 362 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Antinous was a Bithynian youth, the favourite of Emperor Hadrian, who deified him after he drowned in the Nile in AD 130.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "The Egyptian city was Antinoöpolis, founded by Hadrian in Antinous's memory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Epaminondas was the Theban general who died winning the battle of Mantinea in 362 BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "epithet",
+    "text": "\"Cold is Mæenalia\" is a descriptive epithet in the oracle's verse, giving the place a fixed, solemn character.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "imperative address",
+    "text": "The oracle speaks in commands and a numerical sequence (three, four, five), giving the verse the authority of divine instruction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as an eyewitness, marking the limits of his own knowledge and stressing the reliability of his account.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "characterization",
+    "text": "Ranking Gryllus, Cephisodorus and Podares by bravery shows how the Mantineans remember and value heroic conduct.",
+    "spoiler": false
+   }
+  ]
+ }
+}

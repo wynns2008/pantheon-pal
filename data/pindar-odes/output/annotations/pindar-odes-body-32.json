@@ -1,0 +1,342 @@
+{
+ "section_id": "pindar-odes-body-32",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8171,
+  "output": 3055
+ },
+ "result": {
+  "summary": "Pindar praises the boy wrestler Alkimidas of Aigina for his Nemean victory, setting human frailty against divine permanence. He recounts the athletic triumphs of Alkimidas's family, the Bassidai, and the glory of the Aiakidai, and ends by praising the trainer Melesias.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Editorial introduction",
+    "summary": "A note on the uncertain date of the ode and its likely performance at Aigina.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 9,
+    "title": "Men, gods and Alkimidas's victory",
+    "summary": "Pindar contrasts mortal and divine natures, then compares Alkimidas's family to fields that rest between harvests. He praises the boy's Nemean win and his grandfather Praxidamas's victories.",
+    "stakes": "Mortals live without knowing their fate; a family's fame could stay obscure without victories.",
+    "present": [
+     "Alkimidas",
+     "Praxidamas",
+     "Sokleides",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Nemea",
+     "modern_name": "Nemea, Greece",
+     "certainty": "real",
+     "lat": 37.82,
+     "lon": 22.71
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 15,
+    "title": "Glories of the Bassid clan",
+    "summary": "Pindar calls on the Muse and lists victories of Bassid kinsmen, then turns to the Aiakidai and Achilles' slaying of Memnon.",
+    "stakes": "Noble deeds would be forgotten without the poet's song.",
+    "present": [
+     "Kallias",
+     "Kreontidas",
+     "Achilles",
+     "Memnon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 17,
+    "title": "Tally of crowns; Melesias",
+    "summary": "Pindar announces this as the family's twenty-fifth victory, notes two lost Olympian wreaths, and likens trainer Melesias to a charioteer.",
+    "stakes": "",
+    "present": [
+     "Alkimidas",
+     "Polytimidas",
+     "Melesias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Alkimidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boy wrestler of Aigina, victor at Nemea"
+   },
+   {
+    "name": "Praxidamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alkimidas's grandfather, Olympic, Isthmian and Nemean victor"
+   },
+   {
+    "name": "Sokleides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Agesimachos, earlier family victor"
+   },
+   {
+    "name": "Agesimachos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Sokleides"
+   },
+   {
+    "name": "Kallias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Bassid boxer, victor at Pytho"
+   },
+   {
+    "name": "Kreontidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Bassid victor at the Isthmos and Phlious"
+   },
+   {
+    "name": "Polytimidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "kinsman of Alkimidas, denied an Olympian wreath by lot"
+   },
+   {
+    "name": "Melesias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "trainer of Alkimidas"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aiakid hero who slew Memnon"
+   },
+   {
+    "name": "Memnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ethiopian slain by Achilles"
+   },
+   {
+    "name": "Morn",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "the bright dawn, mother of Memnon"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "whose ordinance guides the games"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of the gods who favoured Kallias"
+   },
+   {
+    "name": "Aiakos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of the Aiakidai of Aigina"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of the Isthmian sanctuary"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Morn",
+    "relation": "parent_of",
+    "b": "Memnon",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Agesimachos",
+    "relation": "parent_of",
+    "b": "Sokleides",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Praxidamas",
+    "relation": "parent_of",
+    "b": "Alkimidas",
+    "source": "outside",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Morn",
+    "canonical": "Eos",
+    "explanation": "The bright Morn is the dawn goddess, called Eos in Greek."
+   },
+   {
+    "alias": "Kronion",
+    "canonical": "Zeus",
+    "explanation": "Kronion means son of Kronos, a title of Zeus at Olympia."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Famous opening on the shared origin yet unequal fate of men and gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "reason": "Vivid dolphin image praising the trainer Melesias.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Human life is fleeting and its fate unknown, yet athletic achievement and the poet's song give mortals a share of lasting fame.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Victory odes celebrated whole families and trainers, recording crown tallies at Olympia, Nemea, Isthmos and Pytho as civic prestige.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The opening line on one race of men and gods is among Pindar's most quoted and often cited in studies of Greek views of mortality."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Melesias, the trainer praised here, is probably the Athenian Melesias known as a famous trainer in Pindar's other odes.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"One mother\" refers to Earth (Gaia), from whom both gods and men were said to descend; the poem's footnote marks this.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"His father father\" means his father's father, i.e. his paternal grandfather Praxidamas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Alpheos is the river flowing past Olympia; the olive wreath was the Olympic prize. Aiakidai are the descendants of Aiakos, the Aiginetan heroic line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"The Bridge of the untiring sea\" is the Isthmus of Corinth; \"herb of the lion\" is the wild celery of the Nemean crown.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Memnon, king of the Ethiopians, came to help Troy and was killed by Achilles; his mother was Eos (Morn), the dawn goddess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Fall of the lot\" means the drawing of lots in pairing wrestlers or boxers, which cost the family two Olympic wreaths by bad luck.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Aigina was an island city near Athens, famous for its athletes and for tracing its royal line to Aiakos, grandfather of Achilles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Pytho is Delphi, site of the Pythian Games. The children of Leto are Apollo and Artemis; Kastaly is Delphi's sacred spring.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Melesias was a famed Athenian trainer of athletes, credited with training many boy victors.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "antithesis",
+    "text": "Man's nothingness is set against the enduring brazen heaven, sharply contrasting mortal frailty with divine permanence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "simile",
+    "text": "The family's alternating victories and pauses are compared to fields that bear crops in turn and then lie fallow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "simile",
+    "text": "Pindar likens his boldly worded praise to an archer's shot, a recurring image of the poet's aim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "metaphor",
+    "text": "The Muse is asked to send a \"gale\" of song, and the family's renown is a \"cargo\" delivered to the Muses' farmers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "simile",
+    "text": "The trainer is compared to a charioteer guiding the athlete, and the athlete to a swift dolphin, closing the ode with praise.",
+    "spoiler": false
+   }
+  ]
+ }
+}

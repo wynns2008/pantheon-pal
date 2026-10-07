@@ -1,0 +1,343 @@
+{
+ "section_id": "pausanias-body-226",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7368,
+  "output": 3008
+ },
+ "result": {
+  "summary": "Pausanias tells how Lycaon founded Lycosura and the cult of Lycæan Zeus, contrasting him with Cecrops. Lycaon sacrificed a baby and became a wolf, which Pausanias accepts as an old tradition. He argues that in the early age gods and men mingled, and warns that falsehood is often grafted onto true marvels.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Lycaon's foundations and festivals",
+    "summary": "Lycaon founds Lycosura and the Lycæa; Pausanias compares this with the Pan-Athenæa and Olympic games and dates Lycaon alongside Cecrops.",
+    "stakes": "",
+    "present": [
+     "Lycaon",
+     "Pelasgus",
+     "Zeus",
+     "Cecrops"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mountain Lycæus",
+     "modern_name": "Mount Lykaion, Arcadia",
+     "certainty": "real",
+     "lat": 37.3917,
+     "lon": 21.9833
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 8,
+    "title": "Cecrops' cakes, Lycaon's sacrifice",
+    "summary": "Cecrops offers only cakes, while Lycaon sacrifices a baby to Lycæan Zeus and is turned into a wolf.",
+    "stakes": "Lycaon risks the wrath of the god for his impious murder and loses his human form.",
+    "present": [
+     "Cecrops",
+     "Lycaon",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mountain Lycæus",
+     "modern_name": "Mount Lykaion, Arcadia",
+     "certainty": "traditional",
+     "lat": 37.3917,
+     "lon": 21.9833
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 16,
+    "title": "Pausanias on gods and marvels",
+    "summary": "Pausanias argues early men were rewarded or punished by gods, cites mortals made gods, and cautions against exaggerated tales such as werewolf festivals and weeping Niobe.",
+    "stakes": "",
+    "present": [
+     "Pausanias",
+     "Niobe",
+     "Lycaon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Arcadia",
+     "modern_name": "Arcadia, Greece",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 22.2
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian king, son of Pelasgus, who became a wolf"
+   },
+   {
+    "name": "Pelasgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Lycaon"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Lycæan Zeus"
+    ],
+    "kind": "god",
+    "description": "Supreme god worshipped on Mount Lycæus"
+   },
+   {
+    "name": "Cecrops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Athens who offered only cakes"
+   },
+   {
+    "name": "Niobe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Tantalus, turned to stone"
+   },
+   {
+    "name": "Tantalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Niobe"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian hero in whose time the Pan-Athenæa was named"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Said to have wrestled Zeus at Olympia"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Alcmena, a mortal who became a god"
+   },
+   {
+    "name": "Alcmena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Hercules"
+   },
+   {
+    "name": "Aristæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mortal later worshipped as a god"
+   },
+   {
+    "name": "Britomartis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Cretan woman who became a goddess"
+   },
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Œcles, worshipped as a god"
+   },
+   {
+    "name": "Œcles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Amphiaraus"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mortal later worshipped as a god"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mortal later worshipped as a god"
+   },
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "The author and narrator"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Pelasgus",
+    "relation": "parent_of",
+    "b": "Lycaon",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Tantalus",
+    "relation": "parent_of",
+    "b": "Niobe",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Alcmena",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Œcles",
+    "relation": "parent_of",
+    "b": "Amphiaraus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Lycaon",
+    "relation": "transformed_into",
+    "b": "wolf",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Niobe",
+    "relation": "transformed_into",
+    "b": "stone",
+    "source": "text",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lycæan Zeus",
+    "canonical": "Zeus",
+    "explanation": "Zeus as worshipped on Mount Lycæus, a cult title."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Pausanias warns that loving marvels leads people to mix fiction with truth and lose credibility.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Piety and impiety are rewarded or punished by the gods, and Lycaon's wolf-change shows divine wrath on human crime.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias is a rationalising traveller who accepts old local traditions yet distrusts embellished marvels, and he sees his own age as morally declined.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Lycaon wolf-man tale is a source of the word lycanthropy and of later werewolf lore."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Mount Lykaion's ash altar of Zeus has been excavated, and finds there include ancient votive offerings.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Pan-Athenæa was Athens' great festival of all Athenians; Pausanias argues the name only arose after Theseus united the Attic towns into one city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Athenians claimed Olympic origins in myth: Cronos and Zeus wrestled, and the Curetes (divine attendants of infant Zeus) ran the first race. Pausanias declines to discuss this here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Pelanoi were cakes or meal-offerings made without animal sacrifice; the Greek term is given here as _pelani_.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Guests at the tables of the gods\" means that in the early age gods and righteous men dined together familiarly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Tritons were sea-beings, part human and part fish; the shell is a conch-like trumpet, so the story explains their \"voice\" as shell-sound.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Lycaon was an early king of Arcadia; Lycosura was reputed one of the oldest cities, and the Lycæa was an Arcadian festival of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Cecrops was the legendary first king of Athens, half-man and half-serpent in many accounts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Aristæus, Britomartis, Hercules, Amphiaraus, Castor and Pollux were all figures worshipped as gods or heroes though said to have been born mortal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Niobe boasted of her many children against Leto; her children were slain and she was turned to weeping stone on Mount Sipylus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "characterization",
+    "text": "Pausanias contrasts Cecrops' restraint with Lycaon's brutality, using their piety toward Zeus to define each as wise or impious.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "narrative voice",
+    "text": "The author speaks in the first person as a cautious judge, accepting some traditions as plausible while weighing others.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "irony",
+    "text": "Pausanias laments his own age: gods no longer make mortals divine except through flattery, and punishment comes only after death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "aphorism",
+    "text": "Pausanias closes with a general moral: love of wonder leads listeners to exaggerate and so discredit true accounts.",
+    "spoiler": false
+   }
+  ]
+ }
+}

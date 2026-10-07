@@ -1,0 +1,386 @@
+{
+ "section_id": "pindar-odes-body-19",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10713,
+  "output": 3563
+ },
+ "result": {
+  "summary": "Pindar praises Arkesilas, king of Kyrene, for his chariot victory at the Pythian games, and thanks the charioteer Karrhotos. He recalls the founding of Kyrene by Battos, the Spartan and Trojan ancestry of its people, and prays for continued fortune and an Olympic victory.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Editor's introduction",
+    "summary": "A note says the ode celebrates the same victory as the previous one, and describes the procession of the horses at Kyrene.",
+    "stakes": "",
+    "present": [
+     "Karrhotos",
+     "Arkesilas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Kyrene",
+     "modern_name": "Cyrene, Libya",
+     "certainty": "real",
+     "lat": 32.82,
+     "lon": 21.86
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 13,
+    "title": "Praise of Arkesilas and Karrhotos",
+    "summary": "Pindar praises wealth joined with virtue, Arkesilas' victory, and Karrhotos, who drove safely through the race and dedicated his car at Delphi.",
+    "stakes": "Arkesilas must remember that God, not himself, caused the success, or lose his good fortune.",
+    "present": [
+     "Arkesilas",
+     "Karrhotos",
+     "Apollo",
+     "Kastor"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi, Greece",
+     "certainty": "real",
+     "lat": 38.48,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 21,
+    "title": "Battos and the founding of Kyrene",
+    "summary": "Pindar tells how lions fled Battos, how Apollo guided the Heraklid and Trojan settlers, and how Battos is buried and worshipped in Kyrene.",
+    "stakes": "The founders must fulfil Apollo's oracles and establish the city.",
+    "present": [
+     "Battos",
+     "Apollo",
+     "Aristoteles",
+     "Antenor"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Kyrene",
+     "modern_name": "Cyrene, Libya",
+     "certainty": "real",
+     "lat": 32.82,
+     "lon": 21.86
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 27,
+    "title": "Praise and prayer for the king",
+    "summary": "Pindar commends the young Arkesilas and prays that Zeus and the gods keep his fortune and grant Olympic victory.",
+    "stakes": "Arkesilas could lose his prosperity to sudden reverses.",
+    "present": [
+     "Arkesilas",
+     "Zeus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Kyrene",
+     "modern_name": "Cyrene, Libya",
+     "certainty": "real",
+     "lat": 32.82,
+     "lon": 21.86
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Arkesilas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Kyrene, victor in the Pythian chariot race"
+   },
+   {
+    "name": "Karrhotos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Charioteer who drove Arkesilas' winning car"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoibos"
+    ],
+    "kind": "god",
+    "description": "God of Delphi, oracle-giver and founder-guide of Kyrene"
+   },
+   {
+    "name": "Battos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Founder of Kyrene, later worshipped as hero"
+   },
+   {
+    "name": "Kastor",
+    "aliases": [],
+    "kind": "god",
+    "description": "Divine helper of Arkesilas"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Ruler of gods whose mind guides destiny"
+   },
+   {
+    "name": "Aristoteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Leader of the settlers who came to Kyrene"
+   },
+   {
+    "name": "Antenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan whose seed settled in Kyrene"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Woman with whom the Trojans came"
+   },
+   {
+    "name": "Alexibios",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Karrhotos"
+   },
+   {
+    "name": "Herakles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero whose sons settled in Greek cities"
+   },
+   {
+    "name": "Kronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of the gods addressed"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Alexibios",
+    "relation": "parent_of",
+    "b": "Karrhotos",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Herakles",
+    "relation": "parent_of",
+    "b": "Herakles",
+    "source": "outside",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phoibos",
+    "canonical": "Apollo",
+    "explanation": "Phoibos is a common epithet of Apollo."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Opening statement on wealth joined with virtue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "reason": "Concise statement of divine guidance of fate.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Success is credited to divine favour and virtue, and the victory is tied to the city's founding and Apollo's guidance.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pindar praises a ruling dynasty, the Battiads of Kyrene, linking their legitimacy to Apollo's oracle and heroic ancestry.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pythian 5 is among Pindar's longer odes, and its commissioning by Arkesilas IV is dated to the victory of 462 BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Whensoever\" and \"hath\" are archaic; the sense is that wealth is powerful when Fate grants it together with true virtue, and it then brings friends.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Excuse, daughter of Afterthought, is a personification: Karrhotos offered no excuse for failure. Afterthought (Epimetheus) suggests the one who thinks too late.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Sons of Battos\" means the royal house of Kyrene, descended from its founder Battos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Brake he no whit\" means he broke no part of the harness at all.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Karrhotos is addressed by his father's name, Alexibios, a common Greek way of honouring someone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"Fell\" means crashed; the claim is that forty chariots were wrecked while Karrhotos finished unhurt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"A voice from overseas\" means Battos spoke in a foreign tongue, or in an unfamiliar tone. Tradition says he was a stammerer cured by finding his voice, when he met a lion in Libya.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Imparteth\" and \"inhabiteth\" are archaic third-person verb forms ('imparts', 'inhabits'); \"hath bestowed\" is likewise old-fashioned.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The Karneia was a Dorian festival of Apollo, celebrated at Sparta and Thera and carried to Kyrene.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Refers to the fall of Troy; Antenor's Trojans are said to have come away with Helen after the war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"Lieth apart\" means Battos is buried separately, at the edge of the agora, away from the later kings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Sprinkled with kindly dew of outpoured song\" imagines the victory ode as refreshing dew falling on the dead kings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "\"Blest children of Kronos\" are the Olympian gods, chiefly Zeus, Poseidon and Hades, sons of Kronos.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Kyrene was a Greek colony in Libya, ruled by the Battiad dynasty, to which Arkesilas belonged.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Kastor, one of the Dioscuri, was a patron of horsemen and chariots, and a protector in storms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Kastalia was the sacred spring at Delphi, where Pythian victors were honoured.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Krisa was the plain below Delphi, where the chariot races were held.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Battos was the founder of Kyrene, in Libya, around 630 BC. Apollo's oracle had sent him there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Aristoteles was Battos's original name; Battos was probably a title or nickname.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Pytho is Delphi, site of the Pythian Games. Arkesilas won the chariot race there, and this ode celebrates it.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "personification",
+    "text": "Wealth is imagined as a follower that brings its owner friends, giving the abstract idea a companion's role.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "metaphor",
+    "text": "Kastor's help after a wintry storm stands for relief after Arkesilas' past troubles, which brings calm to his hearth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "allegory",
+    "text": "Excuse and Afterthought appear as family members, turning the idea of failure and regret into a lineage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "metaphor",
+    "text": "Battos' bliss is called a bulwark and a light, so the dynasty is a defence and a beacon for the city and for strangers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "epithet",
+    "text": "Apollo is praised through a list of his powers: healing, music, poetry and prophecy. This shapes his character as patron of the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "simile",
+    "text": "Arkesilas is compared to an eagle among birds and his strength to a tower, which magnifies his boldness and steadfastness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "metaphor",
+    "text": "Misfortune is imagined as a wintry late-autumn storm sweeping Arkesilas away, a warning in the middle of the praise.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,310 @@
+{
+ "section_id": "pausanias-body-353",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7735,
+  "output": 2620
+ },
+ "result": {
+  "summary": "Pausanias describes Elatea, the greatest town in Phocis after Delphi, its history of sieges and resistance against Macedonians, Romans and barbarians, and its monuments. He then describes the nearby temple of Athene Cranæa and its priest and statue.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Elatea and its location",
+    "summary": "Elatea's position, road and river are described, and its resistance to Cassander and Taxilus earns Roman freedom.",
+    "stakes": "",
+    "present": [
+     "Cassander",
+     "Taxilus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Elatea",
+     "modern_name": "Elatea",
+     "certainty": "real",
+     "lat": 38.6,
+     "lon": 22.77
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 11,
+    "title": "Founding and sieges of Elatea",
+    "summary": "The Elateans claim Arcadian descent from Elatus, and the town suffers Persian burning and Macedonian, Roman, Pontic and Costoboci attacks.",
+    "stakes": "The town's survival and freedom against repeated sieges and invasion.",
+    "present": [
+     "Elatus",
+     "Areas",
+     "Phlegyas",
+     "Cassander",
+     "Olympiodorus",
+     "Philip",
+     "Titus Flaminius",
+     "Taxilus",
+     "Mnesibulus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Elatea",
+     "modern_name": "Elatea",
+     "certainty": "real",
+     "lat": 38.6,
+     "lon": 22.77
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 16,
+    "title": "Monuments of Elatea",
+    "summary": "Pausanias lists the statue of Mnesibulus, the market-place, the figure of Elatus, the temple of Æsculapius and the theatre with an Athene statue.",
+    "stakes": "",
+    "present": [
+     "Mnesibulus",
+     "Elatus",
+     "Æsculapius",
+     "Athene",
+     "Timocles",
+     "Timarchides"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Elatea",
+     "modern_name": "Elatea",
+     "certainty": "real",
+     "lat": 38.6,
+     "lon": 22.77
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 21,
+    "title": "Temple of Athene Cranæa",
+    "summary": "A gentle road leads to the hilltop temple, whose young priest serves five years; the armed statue copies the Parthenon Athene's shield.",
+    "stakes": "",
+    "present": [
+     "Athene",
+     "Polycles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Athene Cranæa",
+     "modern_name": "near Elatea",
+     "certainty": "traditional",
+     "lat": 38.62,
+     "lon": 22.78
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian ruler who besieged Elatea"
+   },
+   {
+    "name": "Taxilus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "general of Mithridates repulsed by Elatea"
+   },
+   {
+    "name": "Elatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian son of Areas, founder of Elatea"
+   },
+   {
+    "name": "Areas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Elatus"
+   },
+   {
+    "name": "Phlegyas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader whose men attacked Delphi"
+   },
+   {
+    "name": "Olympiodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "defender who foiled Cassander's blockade"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Demetrius, Macedonian king who terrorized and bribed Elatea"
+   },
+   {
+    "name": "Titus Flaminius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman general who freed Greece"
+   },
+   {
+    "name": "Mnesibulus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elatean champion who fought the Costoboci and won races"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a bearded statue at Elatea"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Athene Cranæa"
+    ],
+    "kind": "goddess",
+    "description": "goddess worshipped at Elatea who fought for it"
+   },
+   {
+    "name": "Timocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian sculptor of Æsculapius statue"
+   },
+   {
+    "name": "Timarchides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian sculptor of Æsculapius statue"
+   },
+   {
+    "name": "Polycles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the sculptors of Athene's statue"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Areas",
+    "relation": "parent_of",
+    "b": "Elatus",
+    "source": "text",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Athene Cranæa",
+    "canonical": "Athene",
+    "explanation": "Cult title of Athene at her temple near Elatea."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local pride and piety shape the account: Elatea's identity rests on its founder, its resistance to invaders and its goddess's help.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage records Hellenistic and Roman-era conflicts, including Philip V, Flamininus, Mithridates' general and the Costoboci raid of the 170s AD.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Mnesibulus won the race in armour at the 235th Olympiad, about 161 AD.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "The bustard is a large, heavy ground-dwelling bird of open plains.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Immunity from taxation\" means exemption from paying tribute to Rome, a privilege granted to favoured Greek cities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"The Mede\" is Pausanias' usual term for the Persians, here recalling their invasion of Greece in 480 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"The deity\" here means divine power bringing misfortune, not a named god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "The \"double course\" was a two-length footrace (diaulos); running it in armour made the feat especially impressive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "\"Passed the flower of his age\" means he is no longer in his youthful prime, so his priesthood ends.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "The Phlegyans were a lawless people who, in legend, raided Delphi's temple of Apollo and were punished.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Titus Flamininus defeated Philip V of Macedon in 197 BC and proclaimed the freedom of the Greeks in 196.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "The Costoboci were a tribe from the Carpathian region who raided Greece around AD 170, in Pausanias' own lifetime.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Æsculapius (the Greek Asclepius) was the god of healing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "The Parthenon's gold-and-ivory Athene by Phidias carried a famous decorated shield.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "characterization",
+    "text": "Mentioning that Mnesibulus ran in armour shows him as both athlete and soldier, preparing his heroic death in battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "narrative voice",
+    "text": "Pausanias openly admits uncertainty about the pillar's meaning, showing his careful, honest observer's voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "motif",
+    "text": "Athene's divine aid against Taxilus links the statue to the town's protection, a recurring theme of gods defending their sanctuaries.",
+    "spoiler": false
+   }
+  ]
+ }
+}

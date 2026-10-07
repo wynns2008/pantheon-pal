@@ -1,0 +1,590 @@
+{
+ "section_id": "pausanias-body-98",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10570,
+  "output": 5101
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Sparta, describing the temple of Hilaira and Phœbe, the house of the Tyndarids, and several hero-chapels and tombs. He tells of Dorieus's failed colonization of Sicily and then of the Orthian Artemis, her wooden statue and the Spartan flogging ritual.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Temple of Hilaira and Phœbe",
+    "summary": "The temple of the Leucippides, with priestesses, a restored statue, a hanging egg and the weaving of Apollo's coat.",
+    "stakes": "",
+    "present": [
+     "Hilaira",
+     "Phœbe",
+     "Apollo",
+     "Leda"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 9,
+    "title": "Castor and Pollux visit Phormio",
+    "summary": "Two strangers ask Phormio for lodging; he refuses the daughter's chamber, and next day the girl is gone and statues of the twins are in her room.",
+    "stakes": "Phormio's daughter's safety and honour are implied to be at risk; she vanishes.",
+    "present": [
+     "Phormio",
+     "Castor",
+     "Pollux"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 13,
+    "title": "Dorieus and Eryx",
+    "summary": "Hero-chapels near the gates lead to the tale of Dorieus's failed Sicilian colony and Hercules's wrestling match with Eryx.",
+    "stakes": "Dorieus's army is nearly annihilated by the people of Segeste.",
+    "present": [
+     "Chilo",
+     "Dorieus",
+     "Hercules",
+     "Eryx",
+     "Anaxandrides"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Eryx",
+     "modern_name": "Erice, Sicily",
+     "certainty": "real",
+     "lat": 38.04,
+     "lon": 12.59
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 17,
+    "title": "Tombs and temple of Lycurgus",
+    "summary": "Pausanias lists the temple of Lycurgus and nearby tombs and shrines.",
+    "stakes": "",
+    "present": [
+     "Lycurgus",
+     "Eucosmus",
+     "Lathria",
+     "Anaxandra",
+     "Theopompus",
+     "Eurybiades",
+     "Astrabacus",
+     "Thersander",
+     "Aristodemus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 31,
+    "title": "Orthian Artemis and the flogging",
+    "summary": "Pausanias argues the Spartan statue is the Tauric one, and describes the madness, the feud, and the flogging ritual.",
+    "stakes": "The Spartans face pestilence and bloodshed unless the goddess is appeased with human blood.",
+    "present": [
+     "Artemis",
+     "Orestes",
+     "Iphigenia",
+     "Astrabacus",
+     "Alopecus",
+     "Lycurgus",
+     "Seleucus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Limnæum, Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hilaira",
+    "aliases": [
+     "Leucippides"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a temple at Sparta, daughter of Apollo in the Cyprian poems"
+   },
+   {
+    "name": "Phœbe",
+    "aliases": [
+     "Leucippides"
+    ],
+    "kind": "goddess",
+    "description": "goddess honoured with Hilaira"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god for whom a coat is woven at Amyclæ"
+   },
+   {
+    "name": "Leda",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have laid the egg"
+   },
+   {
+    "name": "Phormio",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan who owned the Tyndarids' house"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "other",
+    "description": "son of Tyndareus, visits Phormio"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "other",
+    "description": "son of Tyndareus, visits Phormio"
+   },
+   {
+    "name": "Tyndareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Castor and Pollux"
+   },
+   {
+    "name": "Chilo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the seven wise men"
+   },
+   {
+    "name": "Dorieus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Anaxandrides, failed Sicilian colonist"
+   },
+   {
+    "name": "Anaxandrides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Dorieus"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero who wrestled and killed Eryx"
+   },
+   {
+    "name": "Eryx",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicilian wrestler killed by Hercules"
+   },
+   {
+    "name": "Lycurgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan legislator honoured as a god"
+   },
+   {
+    "name": "Eucosmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycurgus, buried at Sparta"
+   },
+   {
+    "name": "Lathria",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "twin daughter of Thersander"
+   },
+   {
+    "name": "Anaxandra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "twin daughter of Thersander"
+   },
+   {
+    "name": "Thersander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Cleestonæans"
+   },
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "married the twins"
+   },
+   {
+    "name": "Theopompus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Nicander, buried at Sparta"
+   },
+   {
+    "name": "Eurybiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan commander at Artemisium and Salamis"
+   },
+   {
+    "name": "Astrabacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who went mad on finding the statue"
+   },
+   {
+    "name": "Alopecus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Astrabacus, also went mad"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Orthia",
+     "Orthian Artemis",
+     "Tauric Artemis",
+     "Bound-with-willow-twigs"
+    ],
+    "kind": "goddess",
+    "description": "goddess whose wooden statue is worshipped at Sparta"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have brought the statue and reigned in Sparta"
+   },
+   {
+    "name": "Iphigenia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "accompanied Orestes with the statue"
+   },
+   {
+    "name": "Seleucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "gave the statue to the Syrians of Laodicea"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Hilaira",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Phœbe",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Tyndareus",
+    "relation": "parent_of",
+    "b": "Castor",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Tyndareus",
+    "relation": "parent_of",
+    "b": "Pollux",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Anaxandrides",
+    "relation": "parent_of",
+    "b": "Dorieus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Lycurgus",
+    "relation": "parent_of",
+    "b": "Eucosmus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Thersander",
+    "relation": "parent_of",
+    "b": "Lathria",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Thersander",
+    "relation": "parent_of",
+    "b": "Anaxandra",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Lathria",
+    "relation": "sibling_of",
+    "b": "Anaxandra",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Aristodemus",
+    "relation": "spouse_of",
+    "b": "Lathria",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Aristodemus",
+    "relation": "spouse_of",
+    "b": "Anaxandra",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Castor",
+    "relation": "sibling_of",
+    "b": "Pollux",
+    "source": "outside",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Orestes",
+    "relation": "sibling_of",
+    "b": "Iphigenia",
+    "source": "outside",
+    "evidence_sentence": 19
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Leucippides",
+    "canonical": "Hilaira",
+    "explanation": "Name used for both the priestesses and the goddesses Hilaira and Phœbe."
+   },
+   {
+    "alias": "Orthia",
+    "canonical": "Artemis",
+    "explanation": "Spartan cult title of Artemis, also called Orthian Artemis."
+   },
+   {
+    "alias": "Tauric Artemis",
+    "canonical": "Artemis",
+    "explanation": "Artemis as worshipped in the Tauric Chersonese, whose statue was claimed by Sparta."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 29,
+    "reason": "Vivid description of the statue growing heavy if the scourgers spare any youth.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local cult, relics and tombs tie Spartan identity to myth, with Pausanias weighing rival claims over who owns the sacred statue.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The flogging at the altar of Orthia is the Spartan ritual of endurance; Pausanias traces it to a substitute for human sacrifice.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias reasons critically about the statue's origin, arguing that the Athenians would have carried it onto their ships had they really possessed it.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "The Cyprian poems (Cypria) were a lost early Greek epic about events before the Trojan War, attributed to various authors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Touched up\" and \"put a new face on\" mean repainting or restoring the statue, which Pausanias treats as a dubious modern practice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Leda, wife of Tyndareus, was said to have laid an egg after Jove (Zeus) visited her as a swan; Helen and the twins were born from it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Assa-fœtida is a strong-smelling plant resin; its odor is presumably a sign of a divine visit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Chilo was a Spartan ephor of the sixth century BC, counted among the traditional Seven Wise Men of Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Geryon's oxen were taken by Hercules as one of his labours; Scylla is the promontory on the Italian side of the Sicilian strait.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Lathria and Anaxandra's husband Aristodemus was a Heraclid; the Spartan royal houses descended from Hercules, hence the genealogy tracing Thersander back to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Artemisium and Salamis were naval battles of 480 BC against the Persians, here called Medes, as Greek writers often did.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Orestes and Iphigenia took the statue from the Tauric Chersonese (the Crimea) in the myth where she was priestess of a barbarian Artemis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Brauron in Attica had a famous sanctuary of Artemis, which claimed Iphigenia left the statue there; Pausanias argues against this.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "\"Drawn by lot\" refers to the earlier practice of choosing a human victim by lottery, replaced by ritual flogging.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "Orthia means \"upright\"; the explanation given is that willow twigs held the statue erect.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The Leucippides, Hilaira and Phœbe, were daughters of Leucippus, abducted by Castor and Pollux; here the goddesses share the name with their priestesses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Amyclæ was a nearby Spartan town with a famous sanctuary of Apollo, for which a new tunic was woven yearly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Castor and Pollux, sons of Tyndareus, were divine twins who often appeared to mortals disguised as strangers to test hospitality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Dorieus, a Spartan prince and half-brother of Leonidas, left Sparta to found a colony in the west after failing to gain the throne.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Segeste (Egesta) was a Sicilian city that fought Dorieus's colonists around 510 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Lycurgus was the semi-legendary Spartan lawgiver; honoring him with a temple as a god shows his status in Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Seleucus was a successor of Alexander who founded Laodicea in Syria; Pausanias traces a rival claimant statue there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "The flogging of Spartan youths at Artemis Orthia's altar was a famous, brutal endurance rite, later also a tourist spectacle.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "dramatic irony",
+    "text": "The reader recognizes the divine twins in disguise, while Phormio treats them as ordinary travelers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "narrative voice",
+    "text": "This brief aside distances Pausanias from the story, signaling that he reports tradition without vouching for it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "parallel contrast",
+    "text": "The balanced clauses set the divinely favored Hercules against the unaided Dorieus, whose failure is shown as lack of divine favor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "rhetorical question",
+    "text": "Pausanias argues his case through questions, inviting the reader to agree that the Athenian story is illogical.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "supernatural motif",
+    "text": "The statue's growing heavy when the scourgers show mercy makes the goddess's thirst for blood tangible and enforces the rite's severity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "personification",
+    "text": "The statue is described as having an innate delight in human blood, giving the wooden image a will and appetite.",
+    "spoiler": false
+   }
+  ]
+ }
+}

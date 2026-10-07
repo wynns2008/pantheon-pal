@@ -1,0 +1,472 @@
+{
+ "section_id": "pausanias-body-325",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7134,
+  "output": 3773
+ },
+ "result": {
+  "summary": "Pausanias gives rival traditions about the earliest town at Delphi, its founders, and how it got the names Lycorea, Delphi and Pytho. He ends with a tale of an insolent son of Crius who plundered the temple and was foretold a punishing arrow by Phemonoe.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Parnassus founds the first town",
+    "summary": "Parnassus, son of a Nymph and of two fathers, builds the oldest town. It is destroyed in Deucalion's flood, and survivors follow wolves up the mountain and found Lycorea.",
+    "stakes": "Survivors of the flood must escape destruction by water.",
+    "present": [
+     "Parnassus",
+     "Cleodora",
+     "Poseidon",
+     "Cleopompus",
+     "Deucalion"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mount Parnassus",
+     "modern_name": "Mount Parnassus",
+     "certainty": "real",
+     "lat": 38.5333,
+     "lon": 22.6167
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 8,
+    "title": "Rival origins of Delphi's name",
+    "summary": "Other traditions name Lycorus, Delphus and Thyia as founders or namesakes. The town is also called Pytho, perhaps after Pythes.",
+    "stakes": "",
+    "present": [
+     "Lycorus",
+     "Apollo",
+     "Corycia",
+     "Celæno",
+     "Hyamus",
+     "Delphus",
+     "Castalius",
+     "Thyia",
+     "Melæne",
+     "Cephisus",
+     "Pythes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 10,
+    "title": "The dragon rots at Pytho",
+    "summary": "The common tradition says Apollo's arrows killed the dragon set by Earth to guard her oracle, and it rotted there, giving Pytho its name.",
+    "stakes": "The dragon guards Earth's oracle against Apollo.",
+    "present": [
+     "Apollo",
+     "Earth"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pytho",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 12,
+    "title": "Phemonoe's oracle on the plunderer",
+    "summary": "Crius's insolent son plunders the temple and rich houses. The Delphians beg Apollo for help and Phemonoe prophesies his punishment.",
+    "stakes": "The Delphians risk a second plundering of the temple and their homes.",
+    "present": [
+     "Crius",
+     "Phemonoe",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Parnassus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who built the oldest town and discovered bird omens"
+   },
+   {
+    "name": "Cleodora",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nymph, mother of Parnassus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "divine father of Parnassus"
+   },
+   {
+    "name": "Cleopompus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "human father of Parnassus"
+   },
+   {
+    "name": "Deucalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero of the flood"
+   },
+   {
+    "name": "Lycorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Apollo and Corycia, namesake of Lycorea"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phœbus"
+    ],
+    "kind": "god",
+    "description": "god who slew the dragon and fathered Lycorus and Delphus"
+   },
+   {
+    "name": "Corycia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nymph who gave her name to the Corycian cavern"
+   },
+   {
+    "name": "Celæno",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Hyamus, mother of Delphus"
+   },
+   {
+    "name": "Hyamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycorus, father of Celæno"
+   },
+   {
+    "name": "Delphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Apollo who gave Delphi its name"
+   },
+   {
+    "name": "Castalius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Autochthon, father of Thyia"
+   },
+   {
+    "name": "Thyia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first priestess of Dionysus"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose orgies Thyia introduced"
+   },
+   {
+    "name": "Melæne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Cephisus, alternative mother of Delphus"
+   },
+   {
+    "name": "Cephisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Melæne"
+   },
+   {
+    "name": "Pythes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "supposed son of Delphus, namesake of Pytho"
+   },
+   {
+    "name": "Earth",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "set the dragon to guard her oracle"
+   },
+   {
+    "name": "Crius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Eubœa, father of the plunderer"
+   },
+   {
+    "name": "Phemonoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "priestess who delivered the oracle"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cleodora",
+    "relation": "parent_of",
+    "b": "Parnassus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Parnassus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Cleopompus",
+    "relation": "parent_of",
+    "b": "Parnassus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Lycorus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Corycia",
+    "relation": "parent_of",
+    "b": "Lycorus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Corycia",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Lycorus",
+    "relation": "parent_of",
+    "b": "Hyamus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Hyamus",
+    "relation": "parent_of",
+    "b": "Celæno",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Celæno",
+    "relation": "parent_of",
+    "b": "Delphus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Delphus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Castalius",
+    "relation": "parent_of",
+    "b": "Thyia",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Thyia",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Melæne",
+    "relation": "parent_of",
+    "b": "Delphus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Cephisus",
+    "relation": "parent_of",
+    "b": "Melæne",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Delphus",
+    "relation": "parent_of",
+    "b": "Pythes",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Crius",
+    "relation": "parent_of",
+    "b": "Crius's son",
+    "source": "text",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phœbus",
+    "canonical": "Apollo",
+    "explanation": "Epithet of Apollo used in the oracle."
+   },
+   {
+    "alias": "Pytho",
+    "canonical": "Delphi",
+    "explanation": "Older or alternative name of the town, explained by rotting or by Pythes."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "The hexameter oracle of Phemonoe foretelling Apollo's arrow and purification by Cretans.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias lists competing local traditions about Delphi's origins, showing how names were explained by genealogy and myth.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows how Greek sites justified their names and sanctity through heroic ancestry and appeals to Homer.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says Pytho comes from the Greek word for rotting, a folk etymology tied to the slain dragon.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Two fathers\": a hero was held to have a divine father and a mortal one, so his birth carried both divine and human status.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Deucalion's flood is the Greek great flood; Deucalion and Pyrrha survived it on a ship and repopulated the earth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Autochthon means \"sprung from the land itself\", a native rather than an immigrant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Orgies here means ecstatic religious rites of Dionysus, not the modern sense. Thyiades were his frenzied female worshippers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Homer's Catalogue of the Phocians is the list of Phocian contingents in the Iliad, Book 2, which names Pytho.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Make genealogies about everything\" is mildly scornful: Pausanias doubts those who invent a founding ancestor for every place name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Homer's Sirens, in the Odyssey, lured sailors with song; their island was heaped with the rotting bones of the men who listened.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The Cretans purifying Apollo refers to his purification after killing the dragon, with Cretans linked to the founding of his Delphic cult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Devours Parnassus\" means plunders the sacred mountain's treasures; Phœbus is a title of Apollo.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Poseidon is the Greek sea god, also linked to earthquakes and horses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "The Corycian cavern is a large cave on Parnassus, sacred to Pan and the Nymphs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Phemonoe was reputed to be the first Pythia, Apollo's prophetess at Delphi, and the inventor of hexameter verse.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "etiology",
+    "text": "The story explains the name Lycorea by the wolves the survivors followed, a typical origin tale for a place name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "allusion",
+    "text": "Pausanias cites Homer's rotting sailors to support the etymology, using literary authority as evidence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "foreshadowing",
+    "text": "The oracle announces the plunderer's coming punishment and Apollo's lasting fame, preparing the reader for the outcome.",
+    "spoiler": false
+   }
+  ]
+ }
+}

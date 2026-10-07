@@ -1,0 +1,282 @@
+{
+ "section_id": "pausanias-body-281",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7823,
+  "output": 2489
+ },
+ "result": {
+  "summary": "Pausanias tells how Hera, angry with Zeus, was tricked by Cithæron into a sham wedding with a wooden statue, and so was reconciled. He then describes the festivals of the Dædala, small and great, held by the Platæans and all Bœotia, with their oak-image making and great bonfire on Cithæron.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Cithæron's trick on Hera",
+    "summary": "Zeus, unable to appease Hera, follows Cithæron's advice and parades a dressed wooden statue as a bride. Hera tears its clothes, laughs, and is reconciled.",
+    "stakes": "Zeus risks losing Hera's favour and his marriage.",
+    "present": [
+     "Hera",
+     "Zeus",
+     "Cithæron",
+     "Platæa"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Platæa",
+     "modern_name": "Plataies",
+     "certainty": "real",
+     "lat": 38.2167,
+     "lon": 23.2667
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 6,
+    "title": "Origin of the name Dædala",
+    "summary": "Pausanias reasons that statues were called dædala before Dædalus the Athenian, who got his name from his statues. He notes uncertainty about the festival's interval.",
+    "stakes": "",
+    "present": [
+     "Dædalus",
+     "Palamaon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Platæa",
+     "modern_name": "Plataies",
+     "certainty": "real",
+     "lat": 38.2167,
+     "lon": 23.2667
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 13,
+    "title": "The oak-coppice and crows",
+    "summary": "The Platæans put out boiled meat in an oak grove near Alalcomenæ and carve the image from the tree where a crow perches. The great Dædala is held every sixth year for all Bœotia.",
+    "stakes": "",
+    "present": [
+     "Platæans"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Oak-coppice near Alalcomenæ",
+     "modern_name": "Alalkomenai",
+     "certainty": "real",
+     "lat": 38.4167,
+     "lon": 23.1833
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 20,
+    "title": "The great procession and bonfire",
+    "summary": "Bœotian towns draw lots for statues, take them by waggon from the Asopus to Cithæron and burn them with sacrifices on a great wooden altar. A cave of the prophetic Nymphs lies below.",
+    "stakes": "",
+    "present": [
+     "Platæans",
+     "Cassander",
+     "Hera",
+     "Zeus",
+     "Nymphs of Cithæron"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Cithæron",
+     "modern_name": "Mount Cithaeron",
+     "certainty": "real",
+     "lat": 38.2,
+     "lon": 23.2
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Angry wife of Zeus, tricked by a false bride"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Husband of Hera who devises the ruse"
+   },
+   {
+    "name": "Cithæron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ingenious ruler of Platæa who advises Zeus"
+   },
+   {
+    "name": "Platæa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Asopus, named as the supposed bride"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "other",
+    "description": "Father of Platæa; the river is also named"
+   },
+   {
+    "name": "Dædalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian, son of Palamaon, named from statues"
+   },
+   {
+    "name": "Palamaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Dædalus"
+   },
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Antipater who restored Thebes"
+   },
+   {
+    "name": "Antipater",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Cassander"
+   },
+   {
+    "name": "Nymphs of Cithæron",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Prophesying Nymphs of the cave Sphragidion"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Asopus",
+    "relation": "parent_of",
+    "b": "Platæa",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Palamaon",
+    "relation": "parent_of",
+    "b": "Dædalus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Antipater",
+    "relation": "parent_of",
+    "b": "Cassander",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "The comic climax: Hera finds a wooden bride and is delighted by the trick.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage gives a playful myth as the origin of a ritual, explaining how a divine quarrel and reconciliation became a festival.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The festival shows Bœotian unity and politics: the towns joined the Platæans after Cassander restored Thebes.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias admits he could not learn the exact interval between festivals even though he tried.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Dædala is plural of Greek daidalon, meaning a carved or ornamented work, here a wooden statue; the word also underlies the name Dædalus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "Pausanias argues the craftsman took his name from the statues, not the reverse: 'from his statues, and not from his birth' means his name was not given at birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "'Antiquarian guide' is a local expounder of antiquities who showed Pausanias the sights; the term is the translator's rendering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "The Asopus is the river near Platæa; a stade is about 185 metres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Sphragidion means roughly 'little seal'; the name belongs to the cave of the prophetic Nymphs on Cithæron.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Cithæron is here a mythical king of Platæa, also the name of the mountain near Thebes and Platæa, sacred to Hera and Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Cassander, son of Antipater, ruled Macedonia and refounded Thebes in 316 BC after Alexander had destroyed it; Thebes had been hostile to Platæa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Burning victims whole, with wine and incense, was a holocaust-style offering; Hera and Zeus were the divine married pair honoured here.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "irony",
+    "text": "The mighty king of gods is reduced to deceiving his wife with a doll, a comic reversal of divine dignity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "narrative voice",
+    "text": "The quick, linked clauses of 'and... and...' mimic the swift reversal of Hera's rage into laughter and reconciliation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "hyperbole",
+    "text": "The flame is 'prodigious' and visible from an immense distance, conveying awe at the festival's grandeur.",
+    "spoiler": false
+   }
+  ]
+ }
+}

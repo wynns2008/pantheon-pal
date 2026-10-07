@@ -1,0 +1,384 @@
+{
+ "section_id": "pausanias-body-218",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10322,
+  "output": 3463
+ },
+ "result": {
+  "summary": "Pausanias describes Patrae, beginning with the story of Coresus and Callirhoe, which explains the temple of Calydonian Dionysus. He then lists the city's temples, statues, a mirror oracle at a well, and notes about its women.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Coresus and Callirhoe",
+    "summary": "A priest of Dionysus, rejected by Callirhoe, prays to the god, who sends madness on Calydon. The oracle demands her sacrifice, but Coresus kills himself in her place and she then kills herself.",
+    "stakes": "Callirhoe faces sacrifice; Coresus risks death and his city's ruin from the god's wrath.",
+    "present": [
+     "Coresus",
+     "Callirhoe",
+     "Dionysus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Calydon",
+     "modern_name": "Calydon, Aetolia",
+     "certainty": "real",
+     "lat": 38.37,
+     "lon": 21.53
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 20,
+    "title": "Dionysus statues and Poseidon",
+    "summary": "Pausanias notes shrines near the theatre and harbour of Patrae, including Poseidon's temple, and argues that Hippius refers to horse-riding.",
+    "stakes": "",
+    "present": [
+     "Dionysus",
+     "Poseidon",
+     "Menelaus",
+     "Pamphus",
+     "Eurypylus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Patræ",
+     "modern_name": "Patras",
+     "certainty": "real",
+     "lat": 38.246,
+     "lon": 21.734
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 39,
+    "title": "Temples, oracle and women of Patrae",
+    "summary": "Pausanias lists shrines of Aphrodite, Demeter and others, describes the mirror oracle in the well, and remarks on the city's many women.",
+    "stakes": "",
+    "present": [
+     "Aphrodite",
+     "Ares",
+     "Apollo",
+     "Demeter",
+     "Proserpine",
+     "Serapis",
+     "Belus",
+     "Æsculapius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Patræ",
+     "modern_name": "Patras",
+     "certainty": "real",
+     "lat": 38.246,
+     "lon": 21.734
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Calydonian",
+     "Mesateus",
+     "Antheus",
+     "Aroeus"
+    ],
+    "kind": "god",
+    "description": "god whose priest Coresus prayed to him; worshipped at Patrae"
+   },
+   {
+    "name": "Coresus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Calydonian priest of Dionysus who loved Callirhoe"
+   },
+   {
+    "name": "Callirhoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "maiden who rejected Coresus"
+   },
+   {
+    "name": "Eurypylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have set up the temple of Recovery"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Earth-Shaker",
+     "Pelagæus",
+     "Asphalius",
+     "Hippius"
+    ],
+    "kind": "god",
+    "description": "sea god with a temple at Patrae"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "invokes Poseidon in Homer's chariot race"
+   },
+   {
+    "name": "Pamphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancient Athenian hymn-writer"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet of the Iliad"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with several temples at Patrae"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "bronze statue near the harbour"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Apollo Thyrxis"
+    ],
+    "kind": "god",
+    "description": "god with statues at Patrae and an oracle in Lycia"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple and oracular well at Patrae"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "standing statue beside Demeter"
+   },
+   {
+    "name": "Earth",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "seated statue in Demeter's temple"
+   },
+   {
+    "name": "Serapis",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with two temples at Patrae"
+   },
+   {
+    "name": "Belus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Egyptian who fled to Aroe in grief for his sons"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man Belus feared"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple above the citadel"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Belus",
+    "relation": "parent_of",
+    "b": "Danaus",
+    "source": "outside",
+    "evidence_sentence": 36
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Earth-Shaker",
+    "canonical": "Poseidon",
+    "explanation": "Homeric epithet of Poseidon."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Coresus, yielding to love not anger, kills himself instead of Callirhoe.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The Coresus tale shows divine wrath answering thwarted love, and love overcoming vengeance in the priest's self-sacrifice.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias blends local cult, oracles and monuments, showing how Greek cities preserved religious customs and myths in Roman times.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The well oracle used a mirror lowered on a cord to diagnose whether a sick person would recover.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Died beside themselves\" means they died in a frenzy, out of their wits, as if drunk, rather than a literal doubling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Dodona in Epirus had an oracle of Zeus, where priests interpreted the rustling of oak leaves and the behavior of doves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The three titles (Mesateus, Antheus, Aroeus) match the three old towns that merged to form Patrae: Mesatis, Antheia and Aroe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Eurypylus, a Greek hero at Troy, was said to have been driven mad by a chest containing an image of Dionysus; he was cured at Patrae.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Pelagæus means \"of the sea\", Asphalius \"securer, steadier of the earth\", and Hippius \"of horses\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "This refers to the chariot race in Iliad 23, where Menelaus accuses Antilochus of fouling him and demands an oath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Pamphus was a very early Athenian hymn-writer, whose verses Pausanias cites often; his hymns survive only in quotations.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "\"A generation before my time\" means roughly thirty years or so before Pausanias wrote; the statue was an accidental catch from the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "\"Salubrious\" means healthy or pleasant; the grove is praised as a good place to walk and rest in summer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "\"Earth\" is the goddess Gaia, here seated beside the standing figures of Demeter and Proserpine (the Greek Persephone).",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "allusion",
+    "text": "Pausanias compares the well at Patræ to another water oracle, at Cyaneæ in Lycia, where Apollo Thyrxis was worshipped.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "Belus' flight alludes to the myth of Egyptian royal brothers: Danaus' daughters killed the sons of Aegyptus, causing Argos-linked feud. Belus here is a figure tied to that family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "word",
+    "text": "\"Nets for the hair\" are hairnets or snoods, fine woven head coverings made from linen thread.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Calydon was a city in Ætolia, central Greece, known in myth for the Calydonian boar hunt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Æsymnetes is a title of Dionysus, probably meaning \"ruler\" or \"lord\"; the statues were carried in procession during his festival.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Patræ was a major port city of Achaia on the Gulf of Corinth, still a city today (Patras).",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "Serapis was a Greco-Egyptian god of healing and the underworld, promoted under the Ptolemies; his cult spread widely around the Mediterranean.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Æsculapius (the Greek Asclepius) was the god of medicine, whose temples were places of healing.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "antithesis",
+    "text": "Balancing his great love against her equal dislike heightens the tragic mismatch driving the story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "irony",
+    "text": "The priest, who sought her ruin, is the one who dies at the altar, his love overcoming his anger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "pathos",
+    "text": "Her late repentance, pity and shame make the double suicide tragic, and the well's name preserves the memory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "narrative voice",
+    "text": "Pausanias briefly steps in as a guide, vouching for the oracle with a plain, credulous remark typical of his travelogue style.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "characterization",
+    "text": "The aside about the women's devotion to Aphrodite gives the city a distinct character, hinting at its reputation for pleasure.",
+    "spoiler": false
+   }
+  ]
+ }
+}

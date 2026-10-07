@@ -1,0 +1,345 @@
+{
+ "section_id": "pausanias-body-32",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8429,
+  "output": 2835
+ },
+ "result": {
+  "summary": "Pausanias lists the mountains of Attica and the gods' statues and altars on them. He then turns to Marathon, describing the battle against the Persians, its tombs and marvels, the fountain Macaria, the marsh, and the cave of Pan.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Mountains of Attica and their gods",
+    "summary": "Pausanias names Pentelicus, Parnes, Hymettus and Anchesmus, with their bees, game, statues and altars.",
+    "stakes": "",
+    "present": [
+     "Athene",
+     "Zeus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Attica",
+     "modern_name": "Attica, Greece",
+     "certainty": "real",
+     "lat": 38.1,
+     "lon": 23.8
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 19,
+    "title": "The battle site of Marathon",
+    "summary": "Pausanias describes the tombs of the Athenians, Plataeans and Miltiades, the haunted plain, the hero Echetlaeus, and the missing Persian graves.",
+    "stakes": "Visitors who come out of curiosity to hear the night battle are harmed.",
+    "present": [
+     "Miltiades",
+     "Hercules",
+     "Marathon",
+     "Echetlæus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Marathon",
+     "modern_name": "Marathon, Greece",
+     "certainty": "real",
+     "lat": 38.15,
+     "lon": 23.96
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 25,
+    "title": "Macaria and the Heraclids",
+    "summary": "The fountain is named for Macaria, who died willingly to win Athens victory when it protected Hercules' children from Eurystheus.",
+    "stakes": "Athens faces defeat in war; Macaria gives her life.",
+    "present": [
+     "Hercules",
+     "Eurystheus",
+     "Ceyx",
+     "Theseus",
+     "Macaria",
+     "Deianira"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens, Greece",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 23.73
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 30,
+    "title": "Marsh, river and Pan's cave",
+    "summary": "Pausanias describes the marsh where Persians died, Artaphernes' relics, the river, and the cave of Pan.",
+    "stakes": "",
+    "present": [
+     "Artaphernes",
+     "Pan"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Marathon",
+     "modern_name": "Marathon, Greece",
+     "certainty": "real",
+     "lat": 38.15,
+     "lon": 23.96
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a statue on Pentelicus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "worshipped under many titles on Attic mountains"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "the Fore-seer"
+    ],
+    "kind": "god",
+    "description": "god with an altar on Hymettus"
+   },
+   {
+    "name": "Miltiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cimon, Athenian commander, tried after failing at Paros"
+   },
+   {
+    "name": "Cimon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Miltiades"
+   },
+   {
+    "name": "Marathon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero honoured as namesake of the township"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero worshipped as a god first at Marathon"
+   },
+   {
+    "name": "Echetlæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "rustic hero who fought with a ploughshare"
+   },
+   {
+    "name": "Eurystheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who pursued Hercules and his children"
+   },
+   {
+    "name": "Ceyx",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Trachis, friend of Hercules"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian king who protected the children of Hercules"
+   },
+   {
+    "name": "Macaria",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Hercules who sacrificed herself"
+   },
+   {
+    "name": "Deianira",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Macaria"
+   },
+   {
+    "name": "Artaphernes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian commander whose horses' mangers are shown"
+   },
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of the cave near Marathon"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Macaria",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Deianira",
+    "relation": "parent_of",
+    "b": "Macaria",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Cimon",
+    "relation": "parent_of",
+    "b": "Miltiades",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Hercules",
+    "relation": "spouse_of",
+    "b": "Deianira",
+    "source": "outside",
+    "evidence_sentence": 25
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Famous report of the haunted battlefield, with ghostly horses and fighting heard at night.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends geography, cult and local legend, showing how landscape carried religious and historical memory.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Marathon (490 BC) was central to Athenian identity; its dead were honoured as heroes and the site kept cult and legend.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The tale of Marathon's ghostly night battle is a long-quoted example of haunted battlefield lore."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias says slaves fought at Marathon for the first time, a detail he gives about the Plataean tomb.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "The Alazones were a people living in the north, near the Black Sea region, remote from Greece; Pausanias uses them as a far-off comparison.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Averter of Ill\" is a cult title for Zeus, invoked to turn away misfortune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "Pausanias refers to his plan of describing Attica by townships (demes) before turning to the islands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "Those who come deliberately to hear the ghostly battle are punished; accidental witnesses are spared, since no impiety was intended.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Echetlaeus means roughly \"he of the plough-handle\" (echetle), matching the ploughshare-wielding hero.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Pell mell\" means in confused disorder, without care or arrangement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Suppliants\" are people who seek protection at an altar or from a ruler, whom custom forbade surrendering.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 9,
+    "text": "This is the battle of Marathon, 490 BC, where the Athenians defeated the first major Persian invasion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Plataea sent troops to help Athens at Marathon; freeing slaves to fight was unusual and noteworthy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Miltiades led the Athenians at Marathon; he was later fined after a failed expedition against Paros and died of a wound.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Eurystheus was the king who imposed the Twelve Labours on Hercules; after Hercules' death he persecuted his children.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 13,
+    "device": "supernatural motif",
+    "text": "The nightly sounds of phantom battle make the plain haunted, showing the battle's lasting sacred power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "epiphany",
+    "text": "A mysterious rustic fighter appears and vanishes, suggesting divine intervention on the Athenian side.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "narrative voice",
+    "text": "Pausanias distinguishes Athenian report from his own inspection, showing his careful, skeptical traveler's stance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "aetiology",
+    "text": "The myth of Macaria's sacrifice explains the fountain's name and gives the place heroic meaning.",
+    "spoiler": false
+   }
+  ]
+ }
+}

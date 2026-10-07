@@ -1,0 +1,294 @@
+{
+ "section_id": "pausanias-body-347",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7668,
+  "output": 2496
+ },
+ "result": {
+  "summary": "Pausanias continues describing Polygnotus' painting of the underworld at Delphi: Odysseus' descent to Hades, the river Acheron with Charon's boat, and figures punished for impiety. He digresses on ancient piety toward parents and gods, then describes the demon Eurynomus and the women Auge and Iphimedea.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Acheron and Charon's boat",
+    "summary": "The left side of the painting shows Odysseus in Hades, the river Acheron with reeds and ghostly fishes, and Charon's boat carrying Tellis and Cleoboea.",
+    "stakes": "",
+    "present": [
+     "Odysseus",
+     "Tiresias",
+     "Charon",
+     "Tellis",
+     "Cleobœa",
+     "Theseus",
+     "Pirithous"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Acheron in Hades (painting)",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 18,
+    "title": "Punished sinners and ancient piety",
+    "summary": "A son who mistreated his father is strangled by him, and a sacrilegious man is punished by a poisoner woman. Pausanias digresses on piety at Catana, Syracuse and Delium.",
+    "stakes": "The sinners suffer punishment in Hades for impiety toward father and gods.",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Hades (painting)",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 25,
+    "title": "Eurynomus, Auge and Iphimedea",
+    "summary": "Pausanias describes the demon Eurynomus, said by the Delphic guides to devour corpses, and the Arcadian women Auge and Iphimedea beside him.",
+    "stakes": "",
+    "present": [
+     "Eurynomus",
+     "Auge",
+     "Iphimedea",
+     "Hercules",
+     "Teuthras"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hades (painting)",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero shown descending to Hades to consult Tiresias"
+   },
+   {
+    "name": "Tiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "soul Odysseus consults about his return"
+   },
+   {
+    "name": "Charon",
+    "aliases": [],
+    "kind": "creature",
+    "description": "old ferryman of the dead on Acheron"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "living visitor to Hades in the Minyad"
+   },
+   {
+    "name": "Pirithous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "companion of Theseus in the Minyad"
+   },
+   {
+    "name": "Tellis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "youthful figure in the boat, great-grandfather of Archilochus"
+   },
+   {
+    "name": "Cleobœa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "maiden who brought Demeter's mysteries to Thasos"
+   },
+   {
+    "name": "Archilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet, great-grandson of Tellis"
+   },
+   {
+    "name": "Eurynomus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Hades demon that eats the flesh of the dead"
+   },
+   {
+    "name": "Auge",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian woman who went to Teuthras in Mysia"
+   },
+   {
+    "name": "Iphimedea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian woman honoured at Mylasa"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who fathered Auge's son"
+   },
+   {
+    "name": "Teuthras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Mysia"
+   },
+   {
+    "name": "Polygnotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the painter"
+   },
+   {
+    "name": "Datis",
+    "aliases": [
+     "Datis the Mede"
+    ],
+    "kind": "mortal",
+    "description": "Persian commander who returned Apollo's statue"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Tellis",
+    "relation": "parent_of",
+    "b": "Archilochus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Hercules",
+    "relation": "lover_of",
+    "b": "Auge",
+    "source": "text",
+    "evidence_sentence": 24
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Datis the Mede",
+    "canonical": "Datis",
+    "explanation": "Datis was a Persian commander, called a Mede as Greeks often called Persians."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Quoted line from the lost Minyad about Charon admitting living men.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Punishment in the painted underworld enforces piety toward parents and gods, which Pausanias contrasts with his own less reverent age.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage preserves lost epic material like the Minyad and local traditions, and shows Delphic guides adding details not in Homer.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Minyad is lost; this line is one of the few fragments surviving, thanks to Pausanias.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Minyad is a lost epic poem describing a descent to Hades; Theseus and Pirithous, living men, went down to the underworld in it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "A cist is a covered basket or chest holding sacred objects, carried in Demeter's mystery rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Archilochus was the famous poet of Paros, who lived in the seventh century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The 'Pious' of Catana were two brothers, honoured in local tradition for saving their parents from an eruption of Etna.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Datis was the Persian (Mede) commander in 490 BC; he restored the Apollo statue, which had been taken from Delium.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "'Antiquarians' here means the Delphic local guides, who explained the monuments to visitors.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Odysseus (Ulysses in other translations) visits the dead in Odyssey 11 to learn from the prophet Tiresias how to get home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Charon is the ferryman who carries the dead across the river into Hades.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The Athenians took Syracuse's Olympian Zeus temple during their Sicilian expedition, and by Pausanias' account respected it.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "simile",
+    "text": "The faint fishes are compared to ghosts of fishes, a fitting image of the painted underworld's dim, insubstantial quality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "characterization",
+    "text": "Pausanias presents Polygnotus as a pious painter of a pious age, tying the painter's choice of subject to moral sentiment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "imagery",
+    "text": "The blue-black color like meat-flies and the bared fangs give a vivid, repellent picture of the corpse-eating demon.",
+    "spoiler": false
+   }
+  ]
+ }
+}

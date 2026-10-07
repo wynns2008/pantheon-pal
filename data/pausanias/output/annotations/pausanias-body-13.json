@@ -1,0 +1,480 @@
+{
+ "section_id": "pausanias-body-13",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11226,
+  "output": 4446
+ },
+ "result": {
+  "summary": "Pyrrhus flees Italy by a ruse, defeats Antigonus and conquers much of Macedonia, then is drawn to the Peloponnese by Cleonymus's ambition. He attacks Sparta, then Argos, where he is killed, and Pausanias reports the Argive tale of Demeter's hand in his death.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Pyrrhus escapes from Italy",
+    "summary": "Defeated, Pyrrhus uses false promises of reinforcements to frighten the Romans, then slips away by night to the Ceraunian mountains.",
+    "stakes": "Pyrrhus risks being trapped and destroyed by the Romans at Tarentum.",
+    "present": [
+     "Pyrrhus",
+     "Antigonus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tarentum",
+     "modern_name": "Taranto",
+     "certainty": "real",
+     "lat": 40.47,
+     "lon": 17.24
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 14,
+    "title": "War on Antigonus and dedications",
+    "summary": "Pyrrhus beats Antigonus and his Galati allies, conquers Upper Macedonia and Thessaly, and dedicates captured shields with inscriptions.",
+    "stakes": "Pyrrhus seeks conquest of Macedonia against Antigonus.",
+    "present": [
+     "Pyrrhus",
+     "Antigonus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Athene Itonia between Pheræ and Larissa",
+     "modern_name": "Thessaly, Greece",
+     "certainty": "real",
+     "lat": 39.5,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 23,
+    "title": "Cleonymus and the Spartan royal line",
+    "summary": "Pausanias gives the Spartan royal pedigree and explains how Cleonymus, denied the kingdom, brought Pyrrhus against Sparta; earlier Spartan defeats are listed.",
+    "stakes": "Cleonymus wants the Spartan kingdom.",
+    "present": [
+     "Cleonymus",
+     "Pyrrhus",
+     "Areus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lacedæmon",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 28,
+    "title": "Pyrrhus attacks Sparta",
+    "summary": "Pyrrhus defeats the Spartans and ravages their land, but the city prepares for siege while Antigonus enters the Peloponnese.",
+    "stakes": "Sparta faces conquest and siege.",
+    "present": [
+     "Pyrrhus",
+     "Antigonus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 29,
+    "end_sentence": 37,
+    "title": "Death of Pyrrhus at Argos",
+    "summary": "Pyrrhus is wounded in street fighting and killed by a tile; Argives say Demeter did it. Pausanias comments on the Æacidæ and on biased historians.",
+    "stakes": "Pyrrhus is fighting for his life alone in Argos.",
+    "present": [
+     "Pyrrhus",
+     "Demeter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pyrrhus",
+    "aliases": [
+     "Molossian Pyrrhus"
+    ],
+    "kind": "mortal",
+    "description": "King of Epirus, warrior killed at Argos"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Macedonia, Pyrrhus's rival"
+   },
+   {
+    "name": "Cleonymus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan who brought Pyrrhus against Sparta"
+   },
+   {
+    "name": "Areus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Acrotatus, rival claimant to Sparta's kingship"
+   },
+   {
+    "name": "Acrotatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elder son of Cleomenes"
+   },
+   {
+    "name": "Cleomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, father of Acrotatus and Cleonymus"
+   },
+   {
+    "name": "Cleombrotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king killed at Leuctra"
+   },
+   {
+    "name": "Agesipolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king who died childless"
+   },
+   {
+    "name": "Pleistoanax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Pausanias, Spartan"
+   },
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan leader at Platæa"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Said by Argives to have killed Pyrrhus"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero slain by Alexander and Apollo"
+   },
+   {
+    "name": "Lyceas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive expounder who wrote verses on Pyrrhus's death"
+   },
+   {
+    "name": "Hieronymus",
+    "aliases": [
+     "Hieronymus of Cardia"
+    ],
+    "kind": "mortal",
+    "description": "Historian writing to please Antigonus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Pausanias",
+    "relation": "parent_of",
+    "b": "Pleistoanax",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Pleistoanax",
+    "relation": "parent_of",
+    "b": "Pausanias",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Pausanias",
+    "relation": "parent_of",
+    "b": "Cleombrotus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Cleombrotus",
+    "relation": "parent_of",
+    "b": "Cleomenes",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Cleombrotus",
+    "relation": "parent_of",
+    "b": "Agesipolis",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Cleomenes",
+    "relation": "parent_of",
+    "b": "Acrotatus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Cleomenes",
+    "relation": "parent_of",
+    "b": "Cleonymus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Acrotatus",
+    "relation": "parent_of",
+    "b": "Areus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Pyrrhus",
+    "source": "text",
+    "evidence_sentence": 34
+   },
+   {
+    "a": "Agesipolis",
+    "relation": "sibling_of",
+    "b": "Cleomenes",
+    "source": "text",
+    "evidence_sentence": 18
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Æacidæ",
+    "canonical": "Pyrrhus",
+    "explanation": "Descendants of Æacus, the family line of Achilles and the Epirote kings."
+   },
+   {
+    "alias": "Molossian Pyrrhus",
+    "canonical": "Pyrrhus",
+    "explanation": "Pyrrhus described by his Molossian tribe of Epirus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 31,
+    "reason": "The famous tradition that Pyrrhus was killed by a tile thrown by a woman, perhaps Demeter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "reason": "Pausanias's sharp remark that court historians write like courtiers.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Ambition and divine retribution: Pyrrhus's string of conquests ends abruptly, and his death is given a supernatural, fate-like cast linked to Achilles's line.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias weighs sources, noting that Hieronymus wrote under Antigonus's patronage, showing awareness of bias in Hellenistic history.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Pyrrhus's costly victories gave English the phrase 'Pyrrhic victory'."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias compares Hieronymus's flattery of Antigonus with Philistus hiding the crimes of Dionysius of Syracuse.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Scot-free\" means unpunished or without paying a penalty; the translator uses a modern idiom for Pyrrhus escaping Roman reprisal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Ceraunia: the Ceraunian mountains on the coast of Epirus, across the Adriatic from Italy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Galati: Gauls (Celts), here serving as mercenaries with Antigonus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The Æacidae are the descendants of Aeacus, the royal house of Epirus from which Pyrrhus claimed descent, linked to the hero Achilles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Zeus at Dodona: the ancient oracle shrine in Epirus, Pyrrhus' homeland, where Zeus was worshipped.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Within an ace of it\" means very nearly succeeded; an ace is the smallest unit, as on a die.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Whether or no\" means regardless of the circumstances or the cost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Refers to Thermopylae, where Leonidas fell, and Sphacteria (425 BC), where Spartans surrendered to the Athenians. The Spartans dismissed both as not true defeats.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Fluke\" means a lucky accident; the Spartans use it to explain away the Athenian success.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "\"Promiscuously\" here means indiscriminately, in a confused mixture, with no sexual sense.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "allusion",
+    "text": "Alexander is Paris, son of Priam, who killed Achilles with Apollo's help. The Æacidæ are descendants of Æacus, Achilles' grandfather.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "word",
+    "text": "\"Flagitious\" means shamefully wicked; \"I ween\" is archaic for \"I think.\"",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Pyrrhus, king of Epirus, fought Rome in Italy and Sicily in the 3rd century BC; his costly victories gave rise to the phrase \"Pyrrhic victory\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Athene Itonia was a Thessalian cult of Athene, whose temple stood between Pheræ and Larissa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Molossian refers to the Molossians, the leading tribe of Epirus, over which Pyrrhus ruled.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Pausanias commanded the Greeks at Platæa in 479 BC, where the Persian army was defeated.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Leuctra (371 BC) was the Theban victory under Epaminondas that ended Spartan military supremacy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Demeter was the goddess of grain and agriculture, honored at Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "Hieronymus of Cardia was a historian who served Antigonus and earlier Alexander's successors; his work is now lost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Philistus was a Syracusan historian who served the tyrant Dionysius and was later exiled.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "Irony",
+    "text": "Pyrrhus reads none of the letters and merely says aid will come, so his bluff rests on messages that may have promised nothing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Understatement",
+    "text": "The curt \"No great wonder\" plays down the victory, implying such feats are natural for Pyrrhus' warrior line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "Antithesis",
+    "text": "The epigram contrasts the Macedonians' former conquest and enslavement of others with their present spoils hung up as trophies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "irony",
+    "text": "The Spartans' refusal to admit defeat is ironic given their later repeated reverses, which the following sentences list.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "foreshadowing",
+    "text": "The divine-agent claim recalls Pyrrhus's fated line, prepared for in the later comparison with Achilles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "characterization",
+    "text": "A pointed aphorism characterizes court historians as flatterers and casts doubt on Hieronymus's account.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "narrative voice",
+    "text": "The brief closing line sums up the narrative with a sober, elegiac judgment on Epirus's fallen glory.",
+    "spoiler": false
+   }
+  ]
+ }
+}

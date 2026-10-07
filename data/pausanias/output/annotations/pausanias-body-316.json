@@ -1,0 +1,381 @@
+{
+ "section_id": "pausanias-body-316",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9174,
+  "output": 3459
+ },
+ "result": {
+  "summary": "Pausanias describes the sights of Orchomenus: its temples, the treasury of Minyas, and the tomb of Hesiod, whose bones were brought from Naupactus on Delphi's advice. He then covers Actaeon's spectre, the Melas and Cephisus waters, and the tradition of Aspledon.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Sights of Orchomenus",
+    "summary": "Temples, sacred stones, a well, the circular treasury of Minyas and the tombs of Minyas and Hesiod.",
+    "stakes": "",
+    "present": [
+     "Minyas",
+     "Hesiod"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Orchomenus",
+     "modern_name": "Orchomenos, Boeotia",
+     "certainty": "real",
+     "lat": 38.4903,
+     "lon": 22.9772
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 9,
+    "title": "Bones of Hesiod recovered",
+    "summary": "During a plague Delphi tells the Orchomenians to fetch Hesiod's bones from Naupactus, where a crow guides them to the bones in a stone.",
+    "stakes": "The people and cattle of Orchomenus are dying of pestilence.",
+    "present": [
+     "Hesiod",
+     "Pythian Priestess"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Naupactus",
+     "modern_name": "Nafpaktos",
+     "certainty": "real",
+     "lat": 38.3917,
+     "lon": 21.8308
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 12,
+    "title": "The spectre of Actaeon",
+    "summary": "A spectre on a stone harms the land; Delphi orders Actaeon's remains buried and a bronze copy of the spectre fastened to the stone.",
+    "stakes": "The land of Orchomenus is being injured by a spectre.",
+    "present": [
+     "Actaeon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Orchomenus",
+     "modern_name": "Orchomenos, Boeotia",
+     "certainty": "real",
+     "lat": 38.4903,
+     "lon": 22.9772
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 22,
+    "title": "Melas, Cephisus and the lake",
+    "summary": "Near the temple of Hercules the Melas rises and flows into Lake Cephisis. Pausanias doubts the Theban claim that Hercules diverted the Cephisus, citing Homer on Orchomenus's wealth.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Homer",
+     "Achilles",
+     "Agamemnon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lake Cephisis",
+     "modern_name": "Copais basin (drained)",
+     "certainty": "real",
+     "lat": 38.45,
+     "lon": 23.05
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 27,
+    "title": "Aspledon and Chersias",
+    "summary": "Aspledon lost its people for lack of water; its name derives from Poseidon's son. Chersias's verses are cited, and the Orchomenians credit him with Hesiod's epitaph.",
+    "stakes": "",
+    "present": [
+     "Aspledon",
+     "Poseidon",
+     "Midea",
+     "Chersias",
+     "Callippus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aspledon",
+     "modern_name": "near Orchomenos, Boeotia",
+     "certainty": "real",
+     "lat": 38.49,
+     "lon": 23.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hesiod",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet whose bones lie at Orchomenus"
+   },
+   {
+    "name": "Minyas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancient king with a famous treasury and tomb"
+   },
+   {
+    "name": "Actaeon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero whose spectre harmed Orchomenus"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero said to have diverted the Cephisus"
+   },
+   {
+    "name": "Aspledon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Poseidon, namesake of the town"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Aspledon"
+   },
+   {
+    "name": "Midea",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "mother of Aspledon"
+   },
+   {
+    "name": "Chersias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Orchomenian poet"
+   },
+   {
+    "name": "Callippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "author who quoted Chersias"
+   },
+   {
+    "name": "Pythian Priestess",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Delphic oracle who gave the advice"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet cited as evidence"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero quoted in Homer"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king whose messengers came to Achilles"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Aspledon",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Midea",
+    "relation": "parent_of",
+    "b": "Aspledon",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Poseidon",
+    "relation": "lover_of",
+    "b": "Midea",
+    "source": "text",
+    "evidence_sentence": 23
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "The epitaph praising Hesiod's wisdom, said to mark his bones at Orchomenus.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends monuments, oracles and local tradition, testing myths against Homer and common sense.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Delphic oracles guiding the transfer of heroes' bones reflects Greek hero cult and belief that remains protected a place.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The treasury of Minyas is usually identified with the Mycenaean tholos tomb near Orchomenos, which still stands.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Eteocles was a legendary king of Orchomenus, said to have first sacrificed to the Graces there; the stones were held to be sacred relics.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"A well well worth seeing\" repeats the word awkwardly; it simply means a well truly worth a visit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "The vaulted roof is a corbelled dome, with a capstone said to lock all the other stones in place.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Pythian Priestess: the Pythia, the woman who delivered Apollo's oracles at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Elegiac verses are couplets of a hexameter line followed by a pentameter line, often used for epitaphs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Minyæ are the old people of Orchomenus, named after their king Minyas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–200 metres, so 7 stades is under a mile and a half.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Dammed that passage up\" refers to the underground channels (katavothrai) through which the lake's waters drained to the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Quoted from the Iliad, Book 9, where Achilles refuses Agamemnon's gifts, saying even the wealth of Orchomenus would not persuade him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Callippus is an author of a speech or treatise on the Orchomenians; his work survives only through Pausanias's reference.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The epitaph on Hesiod's tomb at Orchomenus was attributed by locals to Chersias, an early poet of the city.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The Graces (Charites) were goddesses of charm and beauty; Orchomenus was a major centre of their cult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "The \"treasury of Minyas\" is a Bronze Age beehive-shaped tomb, probably built long before Pausanias' time.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Hesiod was an early Greek poet, author of the Works and Days and Theogony, from Ascra in Boeotia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Actæon was a hunter in myth, torn apart by his own hounds; here his ghost is treated as a harmful spirit needing appeasement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Hercules was widely worshipped in Boeotia, and he was linked with the Thebans' defeat of Orchomenus in myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Aspledon was a small town near Orchomenus in Boeotia; Poseidon was the sea god and father of many local heroes.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "hyperbole",
+    "text": "Claiming the building is inferior to nothing in Greece or elsewhere is lavish praise that expresses the author's wonder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "symbolism",
+    "text": "The crow, a bird tied to omens and Apollo's prophecy, serves as the divine guide who reveals the hidden bones.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "epitaph",
+    "text": "The inscription sums up Hesiod's life in brief, balancing his birthplace against his burial and praising his wisdom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "narrative voice",
+    "text": "Pausanias' eyewitness claim lends authority to the strange story and shows his habit of pairing legend with observed detail.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "rhetorical argument",
+    "text": "Pausanias uses probability and historical reasoning to reject the Theban myth, showing his rationalizing habit as a narrator.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a critical investigator, drawing a firm inference from Homer as evidence, with \"plainly\" signaling confidence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

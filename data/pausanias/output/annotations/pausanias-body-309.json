@@ -1,0 +1,342 @@
+{
+ "section_id": "pausanias-body-309",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7796,
+  "output": 2852
+ },
+ "result": {
+  "summary": "Pausanias describes statues, festivals and the spring Hippocrene at Helicon, then reports differing traditions about Hesiod's works and death. He ends with the Thespian fountain of Narcissus and two versions of that story.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Statues and festival at Helicon",
+    "summary": "Pausanias lists statues at the grove of the Muses, including Arsinoe, Telephus and Priapus, and a tripod of Hesiod. He notes the Thespian festival and games.",
+    "stakes": "",
+    "present": [
+     "Arsinoe",
+     "Ptolemy",
+     "Telephus",
+     "Priapus",
+     "Hesiod"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Helicon",
+     "modern_name": "Mount Helicon",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.05
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 15,
+    "title": "Hippocrene and Hesiod's works",
+    "summary": "At the spring Hippocrene, Pausanias reports local views that Hesiod wrote only Works and Days, and rival views of many poems. He adds accounts of Hesiod's death.",
+    "stakes": "Hesiod's murderers, the sons of Ganyctor, were punished for impiety.",
+    "present": [
+     "Hesiod",
+     "Bellerophon",
+     "Ctimenus",
+     "Antiphus",
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Hippocrene",
+     "modern_name": "Mount Helicon",
+     "certainty": "traditional",
+     "lat": 38.31,
+     "lon": 23.07
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 20,
+    "title": "Narcissus at Donacon",
+    "summary": "Pausanias gives two versions of Narcissus and his fountain, and argues the narcissus flower is older, citing Pamphus.",
+    "stakes": "Narcissus dies of love beside the fountain.",
+    "present": [
+     "Narcissus",
+     "Proserpine",
+     "Demeter",
+     "Pamphus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Donacon",
+     "modern_name": "near Thespiae, Boeotia",
+     "certainty": "traditional",
+     "lat": 38.28,
+     "lon": 23.15
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Arsinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sister and wife of Ptolemy, honoured with a statue"
+   },
+   {
+    "name": "Ptolemy",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who married his sister Arsinoe"
+   },
+   {
+    "name": "Telephus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hercules, shown suckled by a doe"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Telephus"
+   },
+   {
+    "name": "Priapus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of flocks and bees, son of Dionysus and Aphrodite"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "said to be father of Priapus"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "said to be mother of Priapus"
+   },
+   {
+    "name": "Hesiod",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet whose works and death are disputed"
+   },
+   {
+    "name": "Bellerophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero whose horse made Hippocrene"
+   },
+   {
+    "name": "Ctimenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ganyctor, fled after Hesiod's murder"
+   },
+   {
+    "name": "Antiphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ganyctor, fled after Hesiod's murder"
+   },
+   {
+    "name": "Ganyctor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Ctimenus and Antiphus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god to whom the murderers were sentenced"
+   },
+   {
+    "name": "Narcissus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thespian youth who loved his own reflection"
+   },
+   {
+    "name": "Pamphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early poet cited on the narcissus flower"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Demeter, carried off"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Proserpine"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ptolemy",
+    "relation": "spouse_of",
+    "b": "Arsinoe",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Ptolemy",
+    "relation": "sibling_of",
+    "b": "Arsinoe",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Telephus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Dionysus",
+    "relation": "parent_of",
+    "b": "Priapus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Aphrodite",
+    "relation": "parent_of",
+    "b": "Priapus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Ganyctor",
+    "relation": "parent_of",
+    "b": "Ctimenus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Ganyctor",
+    "relation": "parent_of",
+    "b": "Antiphus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Proserpine",
+    "source": "text",
+    "evidence_sentence": 20
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 18,
+    "reason": "Pausanias bluntly dismisses the famous Narcissus story as silly.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs competing local traditions and gives his own judgment, as with Hesiod's authorship and Narcissus.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Helicon's sanctuary of the Muses held dedications and festivals, and local Boeotians shaped the claims about Hesiod.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Narcissus myth gave the word narcissism, from Freud's use of the term in the early twentieth century."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias says he saw the old lead tablet bearing Works and Days near Hippocrene.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Ptolemy II of Egypt married his full sister Arsinoe, a Egyptian-style royal marriage that Greeks found remarkable, hence the aside.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Hesiod's tripod refers to his own claim in Works and Days of winning a tripod at Chalcis and dedicating it to the Muses of Helicon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "The 'address to the Muses' is the opening hymn; the poem is made to begin at the passage on Strife.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "'Sentenced to Poseidon' means they were put to death as a sacrifice or punishment for impiety, likely drowned at sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "'Shadow' here means reflection or image in the water.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Proserpine's abduction by Pluto (Hades) while gathering flowers is the myth behind Demeter's search; Pamphus was an early Athenian poet.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Priapus was a fertility god, guardian of flocks, bees, gardens and vineyards, usually shown with an exaggerated phallus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Hippocrene means 'horse's spring'; it was sacred to the Muses and linked with poetic inspiration. A stade is about 185 metres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Many of these poems were attributed to Hesiod in antiquity but are now lost or considered by modern scholars to be by others.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 18,
+    "device": "narrative voice",
+    "text": "Pausanias interrupts with a blunt rationalist judgement, dismissing the popular myth as silly and showing his skeptical, critical character as a guide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "irony",
+    "text": "The alternative version makes Narcissus fully aware of the illusion, turning self-deception into poignant, knowing grief for his lost sister.",
+    "spoiler": false
+   }
+  ]
+ }
+}

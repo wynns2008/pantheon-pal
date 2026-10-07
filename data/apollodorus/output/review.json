@@ -1,0 +1,66 @@
+{
+ "work": "The Library",
+ "model": "claude-sonnet-5-5",
+ "usage": {
+  "input": 26794,
+  "output": 1041
+ },
+ "same": [
+  {
+   "names": [
+    "Fates",
+    "The Fates"
+   ],
+   "reason": "Same three goddesses listed twice under slightly different names.",
+   "change": true
+  },
+  {
+   "names": [
+    "Alcmena",
+    "Alcmene"
+   ],
+   "reason": "Two spellings of Hercules's mother, both married to Amphitryon.",
+   "change": true
+  },
+  {
+   "names": [
+    "Aegyptus",
+    "Egyptus"
+   ],
+   "reason": "Same son of Belus, king in Arabia or Egypt, brother of Danaus.",
+   "change": true
+  }
+ ],
+ "different": [
+  {
+   "name": "Castor",
+   "other": "Dioscuri",
+   "reason": "Dioscuri means both twins, Castor and Pollux, not Castor alone.",
+   "change": true
+  },
+  {
+   "name": "Eurytus",
+   "other": "Molionides",
+   "reason": "Molionides are the sons of Molione, not the giant Eurytus.",
+   "change": true
+  },
+  {
+   "name": "Hippocoon",
+   "other": "Hippocoontids",
+   "reason": "Hippocoontids are his sons, a group, not him.",
+   "change": true
+  },
+  {
+   "name": "Ephialtes",
+   "other": "Aloads",
+   "reason": "Aloads are Otus and Ephialtes together, not Ephialtes alone.",
+   "change": true
+  },
+  {
+   "name": "Dino",
+   "other": "Phorcides",
+   "reason": "Phorcides are the three sisters, not Dino alone.",
+   "change": true
+  }
+ ]
+}

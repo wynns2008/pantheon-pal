@@ -1,0 +1,414 @@
+{
+ "section_id": "pausanias-body-207",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10464,
+  "output": 3618
+ },
+ "result": {
+  "summary": "Pausanias lists famous cases of treason in Greek history, from the Ionians under Darius to Athens under Antipater. He then explains how Callicrates, after Rome defeated Perseus, denounced Achaeans to a Roman senator, leading to more than 1,000 being sent to Italy and held for seventeen years.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "A history of Greek betrayals",
+    "summary": "Pausanias lists traitors who ruined Greek cities, from the Ionian revolt to the Macedonian garrisons in Athens.",
+    "stakes": "Greek cities lose their freedom through betrayal by their own leading men.",
+    "present": [
+     "Darius",
+     "Xerxes",
+     "Xenias",
+     "Lysander",
+     "Philip",
+     "Alexander",
+     "Antipater",
+     "Demades",
+     "Philagras",
+     "Euphorbus",
+     "Attaginus",
+     "Timegenidas",
+     "Agis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Greece",
+     "modern_name": "Greece",
+     "certainty": "real",
+     "lat": 38.0,
+     "lon": 23.0
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 22,
+    "title": "Callicrates accuses the Achaeans",
+    "summary": "After Perseus falls, Callicrates wins over a Roman senator, who at an Achaean assembly accuses the leading Achaeans of helping Perseus.",
+    "stakes": "Achaean leaders risk death on an unproven charge, and the League risks losing its independence.",
+    "present": [
+     "Callicrates",
+     "Perseus",
+     "Abrupolis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Achaean League general meeting",
+     "modern_name": "Achaea, Peloponnese",
+     "certainty": "real",
+     "lat": 38.1,
+     "lon": 22.0
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 33,
+    "title": "Achaeans sent to Rome",
+    "summary": "Xeno offers to be tried, and the senator uses this to send the accused to Rome. Over 1,000 are imprisoned in Etruria, and about 300 are freed after seventeen years.",
+    "stakes": "The accused Achaeans face imprisonment without trial, and escapees face immediate execution.",
+    "present": [
+     "Xeno",
+     "Callicrates"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Etruria",
+     "modern_name": "Tuscany, Italy",
+     "certainty": "real",
+     "lat": 43.4,
+     "lon": 11.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Darius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king, son of Hystaspes"
+   },
+   {
+    "name": "Hystaspes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Darius"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king who invaded Greece"
+   },
+   {
+    "name": "Philagras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eretrian traitor, son of Cyneus"
+   },
+   {
+    "name": "Euphorbus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eretrian traitor, son of Alcimachus"
+   },
+   {
+    "name": "Attaginus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban leader who betrayed Thebes"
+   },
+   {
+    "name": "Timegenidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban leader who betrayed Thebes"
+   },
+   {
+    "name": "Xenias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean who tried to betray Elis"
+   },
+   {
+    "name": "Agis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan leader"
+   },
+   {
+    "name": "Lysander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan commander with traitorous friends"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king, son of Amyntas"
+   },
+   {
+    "name": "Amyntas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Philip"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Philip, Macedonian king"
+   },
+   {
+    "name": "Antipater",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian general after Lamia"
+   },
+   {
+    "name": "Demades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian traitor"
+   },
+   {
+    "name": "Callicrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean traitor who flattered Romans"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king beaten by Rome"
+   },
+   {
+    "name": "Abrupolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Sapaeans"
+   },
+   {
+    "name": "Xeno",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "respected Achaean general"
+   },
+   {
+    "name": "Archilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who mentions the Sapaeans"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hystaspes",
+    "relation": "parent_of",
+    "b": "Darius",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Cyneus",
+    "relation": "parent_of",
+    "b": "Philagras",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Alcimachus",
+    "relation": "parent_of",
+    "b": "Euphorbus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Amyntas",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Perseus",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Medes",
+    "canonical": "Persians",
+    "explanation": "Pausanias often calls the Persians Medes."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Pausanias sums up Greece's recurring weakness for treason.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "reason": "Marks the unprecedented Roman demand to send accused Greeks abroad for trial.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blames Greek downfall on internal betrayal rather than foreign strength, tracing a pattern from the Persian wars to Rome.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The deportation of Achaeans after Pydna (167 BC) shows Rome's growing control over Greece, which ended with the Achaean War and Corinth's destruction in 146 BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The historian Polybius was among the Achaeans deported to Italy after Pydna and used his stay to study Rome.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "The Ionian revolt against Persia ended at the sea battle of Lade (494 BC), where most Samian ships reportedly deserted. Herodotus tells of this.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Aleuadæ were the ruling family of Thessaly, who sided with Xerxes' Persian invasion in 480 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The Lamian War (323–322 BC) was the Greek revolt against Macedon after Alexander's death; Antipater was besieged at Lamia before his victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Commonalty\" means the common people, the citizen body as opposed to its leaders.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The reverse in Bœotia is the defeat at Chaeronea (338 BC), where Philip beat Athens and Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Archilochus was a seventh-century BC poet of Paros, famed for iambic verse; Pausanias cites him as the source that mentions the Sapæans (Thracian people).",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"By no means remarkable for justice\" is understatement: the senator is implied to be unjust and easily corrupted by flattery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "\"Confuted\" means refuted or proved wrong; the senator, once refuted, simply broadens his accusation instead of retreating.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "The Amphictyonic Council was the league of Greek peoples that administered Delphi's sanctuary and judged religious and some inter-state disputes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "phrasing",
+    "text": "\"Some 300 or even fewer\" is Pausanias hedging about the number of survivors after seventeen years of detention.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Eretria, on Euboea, was sacked by the Persians in 490 BC, shortly before Marathon, after some of its leading men betrayed it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Lysander was the Spartan admiral who won the Peloponnesian War in 404 BC and set up pro-Spartan oligarchies in Greek cities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Demades was an Athenian orator who collaborated with Macedon and later served Antipater.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Perseus was defeated at Pydna in 168 BC; Rome then sent commissioners to organize Macedonia and investigate Greek states' conduct.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Etruria, in central Italy, was Roman-controlled territory; the Achaeans were held as hostages there, among them the historian Polybius, though he is not named here.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "narrative voice",
+    "text": "Pausanias opens with a moral judgment, framing the whole survey of Greek history as a lesson on treason.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "hyperbole",
+    "text": "Comparing treason's damage to the plague stresses how destructive betrayal was, a vivid and emphatic exaggeration.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "metaphor",
+    "text": "Treason is called an \"itch,\" presenting it as a persistent, almost bodily affliction of the Greeks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "characterization",
+    "text": "The verb \"insinuated\" and the picture of constant flattery portray Callicrates as a sly, servile opportunist.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "irony",
+    "text": "Xeno's honest confidence in his innocence is what the senator exploits, so his virtue becomes the cause of the disaster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "foreshadowing",
+    "text": "Stressing that this was unprecedented signals a grave turning point, the loss of Greek legal independence under Rome.",
+    "spoiler": false
+   }
+  ]
+ }
+}

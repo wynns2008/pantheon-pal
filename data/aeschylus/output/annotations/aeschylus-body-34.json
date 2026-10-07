@@ -1,0 +1,365 @@
+{
+ "section_id": "aeschylus-body-34",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12266,
+  "output": 3634
+ },
+ "result": {
+  "summary": "The Chorus of Danaid maidens threatens to hang themselves from the statues of the gods unless the King protects them. The King, torn between war with the sons of Aegyptus and offending Zeus, agrees to help, sends Danaüs to place the suppliant boughs on the city's altars, and goes to win over the people.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 46,
+    "title": "The threat of the sashes",
+    "summary": "The Chorus warns the King of divine wrath and threatens to hang themselves from the statues. The King, facing war either way, yields out of reverence for Zeus protector of suppliants.",
+    "stakes": "The King risks war with Aegyptus' sons or the wrath of Zeus; the maidens risk being seized and dragged away.",
+    "present": [
+     "Chorus",
+     "King"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sanctuary of the gods at Argos",
+     "modern_name": "Argos",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 47,
+    "end_sentence": 59,
+    "title": "Danaüs sent to the altars",
+    "summary": "The King tells Danaüs to place the boughs on the city's altars and provides guides. Danaüs departs with attendants.",
+    "stakes": "Danaüs risks hostility or harm from townsfolk who may mistake the strangers.",
+    "present": [
+     "King",
+     "Danaüs"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sanctuary of the gods at Argos",
+     "modern_name": "Argos",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 60,
+    "end_sentence": 90,
+    "title": "The King reassures the maidens",
+    "summary": "Left behind, the Chorus fears abduction. The King promises protection and leaves to rally the people.",
+    "stakes": "The maidens fear being seized by their pursuers.",
+    "present": [
+     "Chorus",
+     "King"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sanctuary of the gods at Argos",
+     "modern_name": "Argos",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the suppliant maidens fleeing unwanted marriage"
+   },
+   {
+    "name": "King",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of the land, asked to protect the suppliants"
+   },
+   {
+    "name": "Danaüs",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "aged father of the maidens"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "protector of suppliants and household wealth"
+   },
+   {
+    "name": "Aegyptus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the pursuing sons, kinsmen of the maidens"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Danaüs",
+    "relation": "parent_of",
+    "b": "Chorus",
+    "source": "text",
+    "evidence_sentence": 47
+   },
+   {
+    "a": "Aegyptus",
+    "relation": "parent_of",
+    "b": "Chorus",
+    "source": "outside",
+    "evidence_sentence": 45
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 44,
+    "reason": "Vivid image of the King's impossible dilemma as a fathomless sea of ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "reason": "Observes that people favor the weaker cause.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage dramatizes the conflict between sacred duty to suppliants and the political cost of war, with the King forced to choose.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The play reflects Athenian ideas of democratic consent: the King must seek the people's approval rather than decide alone.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Suppliant Maidens is among the earliest surviving Greek tragedies, and the Chorus is its main protagonist.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"By the frontlet\" means by the strap or ornament on a horse's forehead; the image compares forcible seizure of the women to leading a horse by its bridle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "The Chorus warns that whichever choice the King makes, his descendants will pay in full for any wrong done to suppliants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "The King says he would rather lack skill in prophesying evil, hoping his gloomy forecast proves wrong.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "\"Breast-bands and girdles\" are the sashes and belts women wore to gather their loose robes. The Chorus is hinting at their use as nooses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "phrasing",
+    "text": "\"Tablets of strange sort\" is a grim euphemism: the hanging bodies would be the offerings, hung on the statues like votive tablets.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "allusion",
+    "text": "The sons of Aegyptus are the Chorus's cousins, who pursue the Danaids to force them into marriage. Fighting them means war against kin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "word",
+    "text": "\"Burghers\" means the citizens of the town; \"suppliance\" is the state of being suppliants, those seeking protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "phrasing",
+    "text": "\"Fain to complain\" means eager or ready to find fault; the King fears the people's readiness to blame their rulers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "word",
+    "text": "\"Wantonness of the troop of males\" refers to the Egyptian suitors' insolent, lawless violence toward the maidens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "phrasing",
+    "text": "The ellipsis marks a gap or corruption in the surviving Greek text, so a word is missing before \"seats\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "kind": "allusion",
+    "text": "Nile and Inachus are rivers of Egypt and Argos; Danaüs says the Egyptians' looks differ from the Argives', so mistakes of identity could occur.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "phrasing",
+    "text": "Danaüs warns that overconfidence may lead to fear, since people have killed loved ones by mistaking them for strangers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "kind": "allusion",
+    "text": "The boughs are olive branches wound with wool, the traditional signs of suppliants seeking protection at an altar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 70,
+    "kind": "phrasing",
+    "text": "\"Betake thee\" is archaic for \"go\"; the \"level space\" is open ground near the sanctuary, not the altar itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "kind": "allusion",
+    "text": "\"Winged creatures\" refers to the pursuing Egyptians, imagined as birds of prey seizing the maidens; the King uses the Chorus's own image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "kind": "phrasing",
+    "text": "The sentence is left incomplete: the maidens mean \"what if you give us up to those worse than serpents?\" Their fear cuts the question short.",
+    "spoiler": false
+   },
+   {
+    "sentence": 79,
+    "kind": "phrasing",
+    "text": "\"Prithee\" means \"I pray thee\"; the King asks for kinder speech, noting that he has spoken kindly to them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 88,
+    "kind": "phrasing",
+    "text": "\"Dispose the general body to friendliness\" means to win the assembled citizens over to a favourable attitude toward the maidens.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 11,
+    "text": "Zeus was guardian of household wealth. The King says material loss can be repaired, unlike bloodshed or a word spoken wrongly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "A suicide at a god's statue would pollute the city's sanctuary, which the Greeks feared as bringing divine anger on the whole community.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "text": "Zeus protected suppliants, so harming or refusing them risked his anger. This reverence finally decides the King.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "text": "Suppliants placed olive boughs wound with wool on altars to claim divine protection; leaving them there made the plea public and sacred.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "text": "Danaüs is the father of the fifty maidens, who have fled Egypt with him to escape forced marriage to their cousins.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "text": "The King of Argos is Pelasgus in the play, though this translation labels him only \"King\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "text": "The maidens fear that ground outside the sacred precinct gives no protection from the Egyptians, since only the altar and sanctuary guarantee sanctity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 88,
+    "text": "The King, who cannot decide alone, goes to put the maidens' plea to the people's assembly. Their father Danaus is to be instructed in how to speak there.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "simile",
+    "text": "The King's predicament is compared to a ship's hull drawn tight by windlasses, conveying his being held fast with no room to move.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "irony",
+    "text": "The Chorus calls womanly sashes a rare contrivance, turning an item the King thought merely feminine into a weapon of pressure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "metaphor",
+    "text": "The threat is called a lash, making the Chorus's words a physical blow that strikes the King's heart.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "device": "metaphor",
+    "text": "The King's dilemma becomes a fathomless sea with no harbor, extending the nautical imagery and expressing his helplessness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "device": "gnomic statement",
+    "text": "The King uses a general maxim, that all favor the weaker cause, to justify his strategy of displaying the maidens' suffering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "device": "foreshadowing",
+    "text": "Danaüs's warning about mistaken identity and slaying loved ones hints at the danger and violence that the Egyptians' arrival will bring.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "device": "characterization",
+    "text": "The King's cautious orders against idle talk show him as a careful ruler concerned with public opinion and order.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "device": "simile",
+    "text": "The Egyptian pursuers are compared to deadly serpents, and the maidens claim they are even worse, which shows the intensity of their terror.",
+    "spoiler": false
+   },
+   {
+    "sentence": 83,
+    "device": "gnomic statement",
+    "text": "The King offers a proverb-like maxim to calm the maidens, and its detached tone contrasts with their emotional appeals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 90,
+    "device": "foreshadowing",
+    "text": "The King's prayer for persuasion and good fortune hints that the outcome of the people's vote is uncertain and will be dramatic.",
+    "spoiler": false
+   }
+  ]
+ }
+}

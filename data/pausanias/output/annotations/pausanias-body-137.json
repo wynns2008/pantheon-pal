@@ -1,0 +1,313 @@
+{
+ "section_id": "pausanias-body-137",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9125,
+  "output": 2757
+ },
+ "result": {
+  "summary": "Demetrius, sent by Philip, tries to surprise Messene but is routed by the Messenians. Pausanias then explains why Messene joined the Achaean League late, and traces its later dealings with Megalopolis, Sparta and the Achaeans, including the capture of Philopoemen.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Demetrius attacks Messene",
+    "summary": "Demetrius lands in Argolis, marches secretly to Ithome and enters Messene before dawn. The Messenians, men and women, drive the Macedonians off the rocks.",
+    "stakes": "The Messenians risk the loss of their newly restored city to the Macedonians.",
+    "present": [
+     "Demetrius",
+     "Philip",
+     "Perseus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messene",
+     "modern_name": "Ancient Messene, Mount Ithome",
+     "certainty": "real",
+     "lat": 37.1761,
+     "lon": 21.9186
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 23,
+    "title": "Messenians, Achaeans and Sparta",
+    "summary": "Pausanias explains Messene's delay in joining the Achaean League and its later joining. Messene shelters the refugees from Megalopolis after Cleomenes takes it and later helps take Sparta. Nabis later occupies Messene and is forced out.",
+    "stakes": "Refugees from Megalopolis and the Messenians face destruction by Cleomenes and later tyrants.",
+    "present": [
+     "Cleomenes",
+     "Philopoemen",
+     "Aratus",
+     "Machanidas",
+     "Nabis",
+     "Pyrrhus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Messene and Megalopolis",
+     "modern_name": "Megalopolis",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 22.14
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 30,
+    "title": "Achaean war and Philopoemen",
+    "summary": "The Achaeans ravage Messenia, Dinocrates repels Lycortas, and the Messenians capture Philopoemen. Pausanias ends the history and turns to describing the country.",
+    "stakes": "Messenia faces Achaean invasion; Philopoemen is captured by his enemies.",
+    "present": [
+     "Dinocrates",
+     "Lycortas",
+     "Philopoemen"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Messenia",
+     "modern_name": "Messenia",
+     "certainty": "real",
+     "lat": 37.1,
+     "lon": 21.9
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian commander, son of Philip, who attacked Messene"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king in need of money"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man who acted against Philip and Demetrius"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Aeacus who attacked the Lacedaemonians"
+   },
+   {
+    "name": "Cleomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Leonidas, who took Megalopolis"
+   },
+   {
+    "name": "Philopoemen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Craugis, Megalopolitan leader captured by the Messenians"
+   },
+   {
+    "name": "Aratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean leader who took Sparta with the Messenians"
+   },
+   {
+    "name": "Machanidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Tyrant of Sparta"
+   },
+   {
+    "name": "Nabis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan tyrant who robbed holy places and occupied Messene"
+   },
+   {
+    "name": "Dinocrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Recently elected Messenian ruler who repelled the Achaeans"
+   },
+   {
+    "name": "Lycortas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean commander forced to retire"
+   },
+   {
+    "name": "Leonidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Cleomenes"
+   },
+   {
+    "name": "Cleonymus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Grandfather of Cleomenes"
+   },
+   {
+    "name": "Craugis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Philopoemen"
+   },
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian hero of earlier days"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Demetrius",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Leonidas",
+    "relation": "parent_of",
+    "b": "Cleomenes",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Cleonymus",
+    "relation": "parent_of",
+    "b": "Leonidas",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Craugis",
+    "relation": "parent_of",
+    "b": "Philopoemen",
+    "source": "text",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lacedaemonians",
+    "canonical": "Spartans",
+    "explanation": "Another name for the people of Sparta."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 19,
+    "reason": "Pausanias reflects on the reversals of fortune in human affairs.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Reversals of fortune and divine favour: the exiled Messenians survive attack, shelter others, and even help take Sparta.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage covers Macedonian and Achaean politics of the 3rd to 2nd centuries BC, when leagues and tyrants contended for the Peloponnese.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Refers back to Pausanias' earlier account of Sicyon, where Perseus' plotting against Demetrius and Philip was described.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"By hook or by crook\" means by any means possible, fair or foul.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"In the van\" means at the front of the army; light-armed troops were lightly equipped skirmishers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Galled\" means harassed or injured them, here by missiles thrown from above.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Sellasia (222 BC) was the battle where Antigonus and the Achaeans defeated Cleomenes of Sparta, after which Sparta was taken.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Refers to the long exile of the Messenians after their defeat by Sparta, until their restoration under Epaminondas.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Ithome was the mountain stronghold of Messenia; Messene's citadel stood on it, so holding it commanded the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Cleomenes was a Spartan king who seized Megalopolis around 223 BC, breaking a truce; many citizens fled.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Machanidas and Nabis were Spartan tyrants of the late third and early second centuries BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Philopoemen was the leading Achaean general; his capture by the Messenians led to his death in 183 BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "irony",
+    "text": "The Messenians' desperation yields near-supernatural courage, and their earlier exile becomes a sign of divine favour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "simile",
+    "text": "The Macedonians are compared to lions, stressing their ferocity before exhaustion defeats them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "contrast",
+    "text": "Women pelting soldiers with tiles contrasts with the Macedonians' professional skill, underlining the city's desperate unity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "theme",
+    "text": "The reflection on reversals of fortune gives the history a moral lesson about human vicissitude and divine direction.",
+    "spoiler": false
+   }
+  ]
+ }
+}

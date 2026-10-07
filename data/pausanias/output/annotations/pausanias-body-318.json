@@ -1,0 +1,539 @@
+{
+ "section_id": "pausanias-body-318",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10117,
+  "output": 4624
+ },
+ "result": {
+  "summary": "Pausanias tells how the Boeotians found the oracle of Trophonius at Lebadea, then lists surviving works of Daedalus. He moves on to Chaeronea, its origins, its trophies and Macedonian custom, the Theban tomb, and the worship of Agamemnon's sceptre.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Bees reveal the oracle",
+    "summary": "During a two-year drought the Boeotians are sent by Delphi to Trophonius. Saon follows bees into the ground and finds the oracle.",
+    "stakes": "The Boeotians face continued drought and famine without a cure.",
+    "present": [
+     "Saon",
+     "Trophonius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lebadea",
+     "modern_name": "Livadeia",
+     "certainty": "real",
+     "lat": 38.4333,
+     "lon": 22.8667
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 10,
+    "title": "Works of Daedalus",
+    "summary": "Pausanias lists surviving works of Daedalus in Boeotia, Crete and Delos, and the story of the Delian Aphrodite given by Theseus.",
+    "stakes": "",
+    "present": [
+     "Daedalus",
+     "Ariadne",
+     "Theseus",
+     "Dionysus",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delos",
+     "modern_name": "Delos",
+     "certainty": "real",
+     "lat": 37.3961,
+     "lon": 25.2681
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 15,
+    "title": "Origin of Chaeronea",
+    "summary": "Chaeronea, once called Arne, is named for Chaeron, son of Apollo, as the Great Eoeae confirms.",
+    "stakes": "",
+    "present": [
+     "Arne",
+     "Chaeron",
+     "Apollo",
+     "Thero",
+     "Phylas",
+     "Lipephile",
+     "Iolaus",
+     "Hippotes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Chaeronea",
+     "modern_name": "Chaeronea",
+     "certainty": "real",
+     "lat": 38.4903,
+     "lon": 22.8442
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 20,
+    "title": "Trophies and the Macedonians",
+    "summary": "Pausanias notes Roman trophies and explains why Macedonian kings set up none, citing Caranus and the lion.",
+    "stakes": "Caranus risks lasting enmity with his neighbours.",
+    "present": [
+     "Sulla",
+     "Philip",
+     "Caranus",
+     "Cisseus",
+     "Alexander"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Chaeronea",
+     "modern_name": "Chaeronea",
+     "certainty": "real",
+     "lat": 38.4903,
+     "lon": 22.8442
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 23,
+    "title": "Tomb of the Thebans",
+    "summary": "The common grave of Thebans who fell against Philip bears a lion and no inscription.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Chaeronea",
+     "modern_name": "Chaeronea",
+     "certainty": "real",
+     "lat": 38.4903,
+     "lon": 22.8442
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 29,
+    "title": "The worshipped sceptre",
+    "summary": "The people of Chaeronea worship Agamemnon's sceptre, called the spear, with daily sacrifices and a spread table.",
+    "stakes": "",
+    "present": [
+     "Hephaestus",
+     "Zeus",
+     "Hermes",
+     "Pelops",
+     "Atreus",
+     "Thyestes",
+     "Agamemnon",
+     "Electra"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Chaeronea",
+     "modern_name": "Chaeronea",
+     "certainty": "real",
+     "lat": 38.4903,
+     "lon": 22.8442
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Saon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "oldest Boeotian messenger, from Acraephnium, who found the oracle"
+   },
+   {
+    "name": "Trophonius",
+    "aliases": [],
+    "kind": "other",
+    "description": "oracular power at Lebadea who taught Saon the rites"
+   },
+   {
+    "name": "Daedalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "legendary craftsman of wooden statues"
+   },
+   {
+    "name": "Ariadne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "went with Theseus, later taken by Dionysus"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "gave the statue of Aphrodite to Apollo at Delos"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "took Ariadne from Theseus"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Chaeron"
+   },
+   {
+    "name": "Arne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Aeolus, old name of Chaeronea"
+   },
+   {
+    "name": "Chaeron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Apollo and Thero, namesake of Chaeronea"
+   },
+   {
+    "name": "Thero",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Phylas, mother of Chaeron"
+   },
+   {
+    "name": "Phylas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Thero and Hippotes"
+   },
+   {
+    "name": "Lipephile",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Iolaus, wife of Phylas"
+   },
+   {
+    "name": "Iolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "famous father of Lipephile"
+   },
+   {
+    "name": "Hippotes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phylas and Lipephile"
+   },
+   {
+    "name": "Sulla",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman who set up trophies at Chaeronea"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king, son of Amyntas, set up no trophies"
+   },
+   {
+    "name": "Caranus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king who set up a trophy"
+   },
+   {
+    "name": "Cisseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "neighbouring king defeated by Caranus"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "set up no trophies"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "made the sceptre"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "received the sceptre from Hephaestus"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "gave the sceptre to Pelops"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "left the sceptre to Atreus"
+   },
+   {
+    "name": "Atreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "left the sceptre to Thyestes"
+   },
+   {
+    "name": "Thyestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "passed the sceptre to Agamemnon"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "owner of the sceptre"
+   },
+   {
+    "name": "Electra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Agamemnon, thought to have taken the sceptre to Phocis"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Chaeron",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Thero",
+    "relation": "parent_of",
+    "b": "Chaeron",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Phylas",
+    "relation": "parent_of",
+    "b": "Thero",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Phylas",
+    "relation": "spouse_of",
+    "b": "Lipephile",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Iolaus",
+    "relation": "parent_of",
+    "b": "Lipephile",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Phylas",
+    "relation": "parent_of",
+    "b": "Hippotes",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Electra",
+    "source": "text",
+    "evidence_sentence": 28
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Arne",
+    "canonical": "Chaeronea",
+    "explanation": "Arne was the ancient name of the town later called Chaeronea."
+   },
+   {
+    "alias": "Aegyptus",
+    "canonical": "the Nile",
+    "explanation": "Homer's old name for the Nile, compared with his use of ancient town names."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Bees leading to the oracle's discovery is a vivid foundation story.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links places to founding legends, relics and customs, showing how local memory shapes Greek identity.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The worship of a sceptre shows how relics from epic tradition served as sacred objects in Roman-era Greece.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Chaeronea was the site of Philip II's decisive victory over Greek states in 338 BC, which the Theban tomb recalls.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "The Pythian Priestess was the woman who delivered Apollo's oracles at Delphi; \"Pythian\" derives from Apollo's association with Pytho, the old name of Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Homer's Iliad (18.590ff.) describes a dancing-ground that Daedalus made in Cnossus for Ariadne; here a white-stone copy is shown in Crete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Find the old wound bleed anew\" means that seeing the statue at home would reopen his grief over losing Ariadne.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Effaced\" means worn away or destroyed; the sense is that time has destroyed those works.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Homer calls Egypt's river the Nile in the Odyssey as \"Ægyptus\"; Pausanias argues Homer used older names for places, as with Chæronea and Lebadea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Sulla defeated Archelaus, Mithridates' general, at Chaeronea in 86 BC; Taxilus was a commander of Mithridates' army there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Caranus was traditionally the founder of the Macedonian royal house, said to come from Argos, hence the Argive imitation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Device\" means an emblem or sculpted figure; here a lion, a symbol of courage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Owing to the deity\" means the god's will; their bravery brought no success because fortune or heaven opposed them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "The sceptre's descent is from Homer's Iliad (2.100ff): Zeus's gift passes down the house of Pelops to Agamemnon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "\"Pastry\" translates cakes or baked offerings; the spread table resembles a theoxenia, a meal laid out for a god.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Trophonius' oracle at Lebadea was consulted by descending into an underground chamber; Pausanias describes the procedure elsewhere in this chapter's surrounding text.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Dædalus was the legendary Athenian craftsman, builder of the Labyrinth. Wooden carved images attributed to him were among the oldest Greek cult statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "In myth Theseus abandoned Ariadne on Naxos, where Dionysus took her as his wife.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "The Great Eoeae was an early Greek epic poem, attributed to Hesiod in antiquity, which catalogued famous women and their children.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Philip II of Macedon defeated Athens and Thebes at Chaeronea in 338 BC, ending Greek independence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "The Thebans buried here fell in that battle of 338 BC; the Sacred Band is often associated with it, and a lion monument still stands at Chaeronea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Electra was Agamemnon's daughter, who after his murder helped her brother Orestes avenge him; Phocis was where Orestes was sheltered.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "symbolism",
+    "text": "The bees act as divine guides, leading humans to the hidden oracle; their guiding role marks the discovery as providential rather than accidental.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "metaphor",
+    "text": "Grief is imagined as a wound that bleeds again, making Theseus' emotional pain physical and vivid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "epithet",
+    "text": "Epic phrases such as \"tamer of horses\" and \"bright as the stars\" give the genealogy a formulaic Homeric tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "symbolism",
+    "text": "The lion overturning the trophy stands for divine or natural power rebuking boastful victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "symbolism",
+    "text": "The wordless lion stands for the Thebans' courage, letting the monument speak without text.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "characterization",
+    "text": "The sceptre's radiance marks it as holy and shows the author's credulous, reverent view of relics.",
+    "spoiler": false
+   }
+  ]
+ }
+}

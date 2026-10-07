@@ -1,0 +1,422 @@
+{
+ "section_id": "pausanias-body-54",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9358,
+  "output": 3711
+ },
+ "result": {
+  "summary": "Pausanias tours Sicyon, describing the Hercules statues and his cult, the sanctuary of Æsculapius with its statues and the legend of the god's arrival, and the temple of Aphrodite with its rules and sacred plant. He ends at the gymnasium with its temple of Pheræan Artemis.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Hercules in Sicyon",
+    "summary": "A stone Hercules by Scopas stands in the gymnasium, and a second temple, Pædize, holds an old wooden statue. The Sicyonians sacrifice to him both as hero and as god.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Phæstus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sicyon",
+     "modern_name": "Sikyona, Corinthia, Greece",
+     "certainty": "real",
+     "lat": 37.9863,
+     "lon": 22.7216
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 15,
+    "title": "Precinct of Æsculapius",
+    "summary": "A double building holds statues of Sleep and Dream and a shrine of Carnean Apollo. The gold and ivory Æsculapius is said to have come from Epidaurus as a dragon, brought by Nicagora.",
+    "stakes": "",
+    "present": [
+     "Æsculapius",
+     "Sleep",
+     "Dream",
+     "Apollo",
+     "Pan",
+     "Artemis",
+     "Nicagora",
+     "Aristodama",
+     "Aratus",
+     "Calamis",
+     "Agasicles",
+     "Echetimus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sicyon, temple of Æsculapius",
+     "modern_name": "Sikyona, Corinthia, Greece",
+     "certainty": "real",
+     "lat": 37.9863,
+     "lon": 22.7216
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 26,
+    "title": "Temple of Aphrodite",
+    "summary": "Antiope's statue stands before Aphrodite's temple, which only two maidens may enter. Canachus made the goddess's statue, and the pæderos plant is burned with the sacrifices.",
+    "stakes": "",
+    "present": [
+     "Aphrodite",
+     "Antiope",
+     "Canachus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sicyon, precincts of Aphrodite",
+     "modern_name": "Sikyona, Corinthia, Greece",
+     "certainty": "real",
+     "lat": 37.9863,
+     "lon": 22.7216
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 29,
+    "title": "Gymnasium and Artemis",
+    "summary": "Near the gymnasium built by Clinias is the temple of Pheræan Artemis. There are also an Artemis in white stone and a Hercules shaped like a herm.",
+    "stakes": "",
+    "present": [
+     "Artemis",
+     "Clinias",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sicyon, gymnasium",
+     "modern_name": "Sikyona, Corinthia, Greece",
+     "certainty": "real",
+     "lat": 37.9863,
+     "lon": 22.7216
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "worshipped at Sicyon as hero and god"
+   },
+   {
+    "name": "Scopas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the stone Hercules"
+   },
+   {
+    "name": "Laphaes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "of Phlius, sculptor of the wooden Hercules"
+   },
+   {
+    "name": "Phæstus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "who introduced sacrifice to Hercules as a god"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of healing, shown beardless in gold and ivory"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Carnean Apollo"
+    ],
+    "kind": "god",
+    "description": "honored in the inner room"
+   },
+   {
+    "name": "Sleep",
+    "aliases": [
+     "the Bountiful"
+    ],
+    "kind": "god",
+    "description": "statue lulling a lion"
+   },
+   {
+    "name": "Dream",
+    "aliases": [],
+    "kind": "god",
+    "description": "statue in the porch"
+   },
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "statue seated by the temple approach"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Pheræan Artemis"
+    ],
+    "kind": "goddess",
+    "description": "statues at the temple and gymnasium"
+   },
+   {
+    "name": "Calamis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Æsculapius"
+   },
+   {
+    "name": "Nicagora",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicyonian who brought Æsculapius from Epidaurus"
+   },
+   {
+    "name": "Agasicles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Nicagora"
+   },
+   {
+    "name": "Echetimus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Nicagora"
+   },
+   {
+    "name": "Aristodama",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Aratus, shown on the dragon"
+   },
+   {
+    "name": "Aratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "held to be son of Æsculapius"
+   },
+   {
+    "name": "Antiope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "whose sons were born at Sicyon"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a gold and ivory statue"
+   },
+   {
+    "name": "Canachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicyonian sculptor of Aphrodite"
+   },
+   {
+    "name": "Clinias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "builder of the gymnasium"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Nicagora",
+    "relation": "parent_of",
+    "b": "Agasicles",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Nicagora",
+    "relation": "spouse_of",
+    "b": "Echetimus",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Aristodama",
+    "relation": "parent_of",
+    "b": "Aratus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Æsculapius",
+    "relation": "parent_of",
+    "b": "Aratus",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pheræan Artemis",
+    "canonical": "Artemis",
+    "explanation": "Artemis worshipped in her form brought from Pheræ."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows local cult practice: Hercules honored as both hero and god, and strict rules of access to Aphrodite's shrine.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias records works by famous sculptors such as Scopas, Calamis and Canachus, preserving knowledge of Greek art and local legend.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes that the pæderos plant grew nowhere else in Sicyonia but Aphrodite's precinct.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Precincts\" means the sacred enclosure around a temple; Pædize is the name given to this one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The first day is called \"Names\" (Onomata in Greek); Pausanias does not explain why, so the reason is unclear here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Porch\" renders the Greek for the temple's front portico or vestibule; the sea-monster bone was displayed as a curiosity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "\"Fruit of the pine-tree\" means a pine cone, a familiar attribute of Æsculapius in this statue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Æsculapius' cult spread from Epidaurus, his main sanctuary, often with the god embodied as a sacred serpent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Antiope's sons Amphion and Zethus, by Zeus, were famed as builders of Thebes; the claim that they were born at Sicyon is a local tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "Sacristan: a temple keeper responsible for the sacred precinct and its objects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Bath-carrier: a title for the maiden, probably from carrying water for the goddess's ritual washing of the statue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "Cap: translates polos, a high cylindrical headdress often worn by goddesses in statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "Hermæ: square pillars topped with a head, with phallic emblems, originally markers of boundaries and roads; the Hercules is shaped like these below the waist.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Scopas was a famous 4th-century BC sculptor from Paros, known for emotional expression in his figures.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Phæstus was said to be a son of Hercules who ruled in Sicyon; he introduced the worship of Hercules as a god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Hero cult honored the dead with offerings of a different kind from sacrifices to gods; the Sicyonians combine both rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Calamis was a noted 5th-century BC sculptor. Gold and ivory (chryselephantine) was a costly technique for major cult statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Aratus of Sicyon was the 3rd-century BC statesman who led the Achæan League; a legend made him Æsculapius' son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Canachus of Sicyon was a famous sculptor of about 500 BC, known for bronze and chryselephantine works for Miletus and Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Gold and ivory (chryselephantine) statues were costly cult images, with gold for the clothing and ivory for the flesh.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "The poppy and apple are symbols of fertility and love, linked to Aphrodite.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "A gymnasium was a public place for exercise and education of youths, so the boys' schooling there continued in Pausanias' day.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "personification",
+    "text": "Sleep is shown as a figure lulling a lion, suggesting even the fiercest creature yields to rest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "narrative voice",
+    "text": "Pausanias closes with a brief, matter-of-fact summary, typical of his guidebook style of moving from site to site.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "characterization",
+    "text": "The restriction shows the goddess's awesome sanctity, keeping ordinary worshippers at a distance and stressing the temple's ritual purity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "simile",
+    "text": "The pæderos leaf is compared with the leaves of familiar trees in size, shape and colour, so readers can picture a plant found nowhere else.",
+    "spoiler": false
+   }
+  ]
+ }
+}

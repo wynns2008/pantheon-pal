@@ -1,0 +1,412 @@
+{
+ "section_id": "pausanias-body-157",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10227,
+  "output": 3948
+ },
+ "result": {
+  "summary": "Pausanias describes the grove of Pelops at Olympia, its rites, and the story of Pelops' shoulder-blade, which was needed to take Troy and was later recovered by a fisherman. He then describes the great altar of Zeus at Olympia, made of ash and the debris of thigh bones, and its yearly renewal.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "The grove and cult of Pelops",
+    "summary": "The walled grove of Pelops in the Altis is described, along with the black ram sacrificed there and the taboo on those who eat of it.",
+    "stakes": "",
+    "present": [
+     "Pelops",
+     "Hercules",
+     "Telephus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis, Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 20,
+    "title": "The shoulder-blade of Pelops",
+    "summary": "Seers say Troy could not fall without the bow of Hercules and a bone of Pelops. The bone was lost in a wreck, fished up by Damarmenus, and given to the Eleans on Delphi's advice.",
+    "stakes": "The Greeks cannot take Ilium, and Elis suffers a pestilence, unless the bone is found and kept.",
+    "present": [
+     "Pelops",
+     "Philoctetes",
+     "Damarmenus",
+     "Pythian Priestess",
+     "Hercules"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ilium (Troy)",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "real",
+     "lat": 39.9575,
+     "lon": 26.2389
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 22,
+    "title": "Traces of Pelops in Asia",
+    "summary": "Pausanias cites the Tantalus marsh and grave, the throne of Pelops on Sipylus and the myrtle Aphrodite at Temnus as signs of Pelops' Asian origin.",
+    "stakes": "",
+    "present": [
+     "Pelops",
+     "Tantalus",
+     "Aphrodite",
+     "Hippodamia"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Sipylus",
+     "modern_name": "Mount Spil, near Manisa, Turkey",
+     "certainty": "real",
+     "lat": 38.6,
+     "lon": 27.4
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 37,
+    "title": "The altar of Olympian Zeus",
+    "summary": "The ash altar of Zeus is described: its origin, measurements, who may climb it, and its yearly renewal with Alpheus water. Similar altars at Pergamum, Samos and Didymi are mentioned.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Hercules",
+     "Alpheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis, Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero honoured at Olympia, whose shoulder-blade was a relic"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Olympian Zeus"
+    ],
+    "kind": "god",
+    "description": "Chief god of Olympia, whose temple and altar are here"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Idæan Hercules",
+     "Hercules the Theban"
+    ],
+    "kind": "mortal",
+    "description": "Hero said to have dedicated the grove and sacrificed to Pelops"
+   },
+   {
+    "name": "Telephus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero worshipped at Pergamum"
+   },
+   {
+    "name": "Philoctetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Holder of Hercules' bows, sent for to Troy"
+   },
+   {
+    "name": "Damarmenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eretrian fisherman who found the bone"
+   },
+   {
+    "name": "Pythian Priestess",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Delphic oracle who advised the Eleans"
+   },
+   {
+    "name": "Tantalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Colonist in Greece, with a marsh and grave named for him"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess to whom Pelops offered a myrtle statue"
+   },
+   {
+    "name": "Hippodamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Woman Pelops wished to marry"
+   },
+   {
+    "name": "Alpheus",
+    "aliases": [],
+    "kind": "other",
+    "description": "River whose water is used to knead the altar"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Hercules"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "Healing god with a temple at Pergamum"
+   },
+   {
+    "name": "Hera",
+    "aliases": [
+     "Samian Hera"
+    ],
+    "kind": "goddess",
+    "description": "Goddess with a temple at Olympia and an altar at Samos"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Amphitryon",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Tantalus",
+    "relation": "parent_of",
+    "b": "Pelops",
+    "source": "outside",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Pelops",
+    "relation": "lover_of",
+    "b": "Hippodamia",
+    "source": "outside",
+    "evidence_sentence": 22
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Idæan Hercules",
+    "canonical": "Hercules",
+    "explanation": "Some say the altar was built by an Idæan Hercules, a figure of Cretan tradition distinct from the son of Amphitryon."
+   },
+   {
+    "alias": "Hercules the Theban",
+    "canonical": "Hercules",
+    "explanation": "Hercules the son of Amphitryon, born at Thebes."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 0,
+    "reason": "Pelops is ranked among Olympia's heroes as Zeus is among the gods.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Hero cult and ritual: Pelops receives chthonic-style sacrifice, with taboos that mark him off from the cult of Zeus.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias gathers relics and local traditions as evidence of Pelops' Asian origins, reflecting how Greek cities used heroes' bones and tombs to claim legitimacy.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Pelops is the eponym of the Peloponnese, and the Olympic Games were later linked to his cult."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The ash altar of Zeus at Olympia has not survived; Pausanias is the main source for its dimensions and ritual.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Altis was the sacred precinct of Olympia, enclosing the temples, altars and statues; the name is the local word for the grove.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "The 'trench' refers to a pit for offerings to a hero, as distinct from the raised altars used for the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "'Has no portion' means the seer receives no share of the victim, a usual perquisite elsewhere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Telephus was a mythical king of Mysia, worshipped at Pergamum; the passage compares his cult's ritual restriction to that of Pelops.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Ilium is Troy. The prophecy says Troy needed the bow of Hercules, held by Philoctetes, and a bone of Pelops.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "The Pythian Priestess was the oracle of Apollo at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Brought colonies\" means led settlers from Asia Minor into Greece; Pausanias reads the Asian place-names as evidence of this migration.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Pelops sought Hippodamia's hand by winning a chariot race against her father Oenomaus; he first sought Aphrodite's favour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Idæan Hercules is the Cretan Heracles of Mount Ida, a figure distinct from Hercules the Theban, son of Alcmena.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "\"Débris\" here means the ash and remains from burnt thigh bones, which were packed together to form the altar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "\"Extemporary altars\" are makeshift altars of ash or rough material, improvised rather than built with finished stone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "\"Pro-altar\" is the broad lower base (prothysis) where the victims were slaughtered, in front of the upper altar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "\"Seers\" are the prophets (manteis) of Olympia, here charged with the annual renewal of the altar.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Hercules was a descendant of Pelops through Amphitryon's ancestry, which explains why he would honour him with a precinct.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Philoctetes inherited Hercules' bow and had been left behind on Lemnos; the Greeks fetched him to Troy. Pisa is the territory around Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Eretria was a city on the island of Euboea (spelled Eubœa here), so the lost bone drifted near its own coast.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Sipylus is a mountain in Lydia, in Asia Minor, Pelops' reputed homeland; Temnus lay near the river Hermus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Women were barred from the Olympic Games at certain times, so access to Olympia was restricted by sex and season.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "Didymi was the site of Apollo's famous sanctuary near Miletus, a Greek city on the coast of Asia Minor.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "foreshadowing",
+    "text": "The prophecy that Troy needs a relic of Pelops sets up the later story of the bone's wreck and recovery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "imagery",
+    "text": "The fisherman's catch and his awe at the bone's great size give a vivid, concrete picture suggesting a heroic past.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "irony",
+    "text": "Chance appears providential: the Eleans happen to be at Delphi just when the bone's owner is to be identified.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "narrative voice",
+    "text": "Pausanias adds a personal judgement, 'in my opinion', typical of his travelling, sceptical guide voice, explaining why the relic is gone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "personification",
+    "text": "The river Alpheus is called \"friendly\" to Zeus, giving the stream a divine favour and an attitude toward the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "narrative voice",
+    "text": "The brief aside distances Pausanias from the Milesian claim, showing his habit of reporting local traditions without endorsing them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "irony",
+    "text": "Pausanias dryly undercuts the Milesians' claim by noting that the blood altar has never grown tall, implying doubt.",
+    "spoiler": false
+   }
+  ]
+ }
+}

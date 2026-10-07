@@ -62,7 +62,9 @@ def check_parse(slug: str, book: dict) -> list[dict]:
 
     odd = [" > ".join(s["path"]) for s in body if any(PLACEHOLDER.match(part) for part in s["path"])]
     say("WARN" if odd else "ok", f"{len(odd)} sections have a placeholder for a title" if odd else "section titles look like titles", odd)
-    doubles = [t for t, n in Counter(" > ".join(s["path"]) for s in body).items() if n > 1]
+    # The story's sections and the introductions and prefaces the contents list shows (not tables of contents or title pages).
+    listed = body + [s for s in sections if s["category"] == "front_matter" and s["path"][0] not in ("Contents", "Title page")]
+    doubles = [t for t, n in Counter(" > ".join(s["path"]) for s in listed).items() if n > 1]
     say("WARN" if doubles else "ok", f"{len(doubles)} titles are used by more than one section" if doubles else "no two sections share a title", doubles)
 
     sizes = [len(s["text"]) for s in body]

@@ -1,0 +1,386 @@
+{
+ "section_id": "pausanias-body-61",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7546,
+  "output": 3113
+ },
+ "result": {
+  "summary": "Pausanias describes the Heraeum near Mycenae, its river and mountains, its sculptures, and the great gold and ivory statue of Hera by Polycletus. He also lists offerings and tells how the older temple burned down through the priestess Chryseis.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Setting of the Heraeum",
+    "summary": "The temple lies near Mycenae by the river Eleutherius. The mountains are named for the nurses of Hera, and the river Asterion and its flower are described.",
+    "stakes": "",
+    "present": [
+     "Asterion",
+     "Eubœa",
+     "Prosymna",
+     "Acræa",
+     "Hera"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Hera near Mycenæ",
+     "modern_name": "Argive Heraion",
+     "certainty": "real",
+     "lat": 37.6986,
+     "lon": 22.7592
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 20,
+    "title": "Temple, statues and offerings",
+    "summary": "Pausanias describes the architecture, statues and gifts, including Polycletus' Hera and the cuckoo story.",
+    "stakes": "",
+    "present": [
+     "Eupolemus",
+     "Hera",
+     "Zeus",
+     "Orestes",
+     "Polycletus",
+     "Hebe",
+     "Menelaus",
+     "Augustus",
+     "Adrian",
+     "Nero",
+     "Naucydes",
+     "Pirasus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Hera near Mycenæ",
+     "modern_name": "Argive Heraion",
+     "certainty": "real",
+     "lat": 37.6986,
+     "lon": 22.7592
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 23,
+    "title": "The old temple burns",
+    "summary": "The earlier temple was destroyed when the priestess Chryseis fell asleep and her lamp set it alight. She fled to Tegea.",
+    "stakes": "Chryseis faces the consequences of destroying the sacred temple.",
+    "present": [
+     "Chryseis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Older temple of Hera",
+     "modern_name": "Argive Heraion",
+     "certainty": "real",
+     "lat": 37.6986,
+     "lon": 22.7592
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess worshipped at the Argive temple"
+   },
+   {
+    "name": "Asterion",
+    "aliases": [],
+    "kind": "god",
+    "description": "River god, father of Hera's nurses"
+   },
+   {
+    "name": "Eubœa",
+    "aliases": [],
+    "kind": "other",
+    "description": "Daughter of Asterion, nurse of Hera"
+   },
+   {
+    "name": "Prosymna",
+    "aliases": [],
+    "kind": "other",
+    "description": "Daughter of Asterion, nurse of Hera"
+   },
+   {
+    "name": "Acræa",
+    "aliases": [],
+    "kind": "other",
+    "description": "Daughter of Asterion, nurse of Hera"
+   },
+   {
+    "name": "Eupolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive architect of the temple"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Said to have become a cuckoo to court Hera"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero with a statue in the porch"
+   },
+   {
+    "name": "Augustus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor, statue said to be Orestes"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Took a spear from Euphorbus at Ilium"
+   },
+   {
+    "name": "Euphorbus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan from whom the spear was taken"
+   },
+   {
+    "name": "Polycletus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor of the gold and ivory Hera"
+   },
+   {
+    "name": "Hebe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Statue near Hera; wed to Hercules"
+   },
+   {
+    "name": "Naucydes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor of the Hebe statue"
+   },
+   {
+    "name": "Pirasus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Argus, set up the oldest Hera statue"
+   },
+   {
+    "name": "Argus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Pirasus"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "Husband of Hebe in the carving"
+   },
+   {
+    "name": "Adrian",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor who gave a gold peacock"
+   },
+   {
+    "name": "Nero",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor who gave a crown and robe"
+   },
+   {
+    "name": "Chryseis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Priestess who accidentally burned the old temple"
+   },
+   {
+    "name": "Alean Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess at Tegea, where Chryseis fled"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Asterion",
+    "relation": "parent_of",
+    "b": "Eubœa",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Asterion",
+    "relation": "parent_of",
+    "b": "Prosymna",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Asterion",
+    "relation": "parent_of",
+    "b": "Acræa",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Argus",
+    "relation": "parent_of",
+    "b": "Pirasus",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Hebe",
+    "relation": "spouse_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "outside",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Zeus",
+    "relation": "transformed_into",
+    "b": "cuckoo",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Adrian",
+    "canonical": "Hadrian",
+    "explanation": "The Roman emperor Hadrian, spelled Adrian in this translation."
+   },
+   {
+    "alias": "Alean Athene",
+    "canonical": "Athene Alea",
+    "explanation": "Athena worshipped as Alea at Tegea."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 15,
+    "reason": "Pausanias states his attitude toward myths: he records them without necessarily believing them.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends myth, art and cult, recording local traditions while admitting doubt about them.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Gifts from Nero and Hadrian show Roman emperors honoring Greek sanctuaries, and the statue of Augustus identified as Orestes shows local reinterpretation of Roman portraits.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Heraeum was one of the great sanctuaries of Greece; excavations in the 19th and 20th centuries uncovered its terraces and temples.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of about 185 metres, so fifteen stades is under three kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Lustrations are ritual purifications with water.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "The Ante-chapel is the pronaos, the room before the inner shrine of the temple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Euphorbus was a Trojan killed by Menelaus in the Trojan war; his spear was kept here as a trophy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "Pausanias says he is forbidden to speak of it because the pomegranate belongs to a religious mystery he will not reveal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Hebe married Hercules (Heracles) after his deification, a myth showing his reconciliation with Hera.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Alean Athene was Athene worshipped at Tegea as Alea, a sanctuary where suppliants sought protection.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 9,
+    "text": "Statues of Roman emperors were sometimes reinscribed or reused; the Argives claimed this one was really an older statue of Orestes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Polycletus of Argos was a famous fifth-century BC sculptor; his gold and ivory Hera was among the best-known cult statues in Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "The peacock was sacred to Hera. Adrian is the emperor Hadrian, who gave gifts to Greek sanctuaries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Nero visited Greece in AD 66-67 and gave gifts to sanctuaries.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "The supreme god disguises himself as a small bird to court his future wife, a playful, undignified picture of divine love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "narrative voice",
+    "text": "Pausanias distances himself from myths he reports, showing a cautious, scholarly narrator who records tradition without claiming belief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "irony",
+    "text": "The Argives keep the statue of the priestess whose carelessness destroyed their temple, a lasting memorial to the misfortune.",
+    "spoiler": false
+   }
+  ]
+ }
+}

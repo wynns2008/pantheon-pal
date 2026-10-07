@@ -1,0 +1,410 @@
+{
+ "section_id": "pausanias-body-135",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10000,
+  "output": 3801
+ },
+ "result": {
+  "summary": "Pausanias explains why Castor and Pollux hated the Messenians, telling how two Andanian youths mocked the Spartans' festival. He then describes Epaminondas founding the new city of Messene with sacrifices, omens and prophecies, and dates the Messenians' return after almost 300 years of exile.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "The prank at the Dioscuri festival",
+    "summary": "Panormus and Gonippus pose as Castor and Pollux before the feasting Spartans and stab many of them. Pausanias thinks this earned the Messenians the Twins' hatred.",
+    "stakes": "The youths risk death if the Spartans realize the trick; the Spartans lose lives through their piety.",
+    "present": [
+     "Panormus",
+     "Gonippus",
+     "Castor",
+     "Pollux"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Laconia",
+     "modern_name": "Laconia, Greece",
+     "certainty": "real",
+     "lat": 37.0,
+     "lon": 22.4
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 12,
+    "title": "Prophecies encourage Epaminondas",
+    "summary": "The Twins now accept the Messenians' return, and the oracles of Bacis encourage Epaminondas. He has the seers test the omens for the site.",
+    "stakes": "The restoration of Messene depends on the gods' favour.",
+    "present": [
+     "Epaminondas",
+     "Bacis",
+     "Castor",
+     "Pollux"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Ithome, Messene",
+     "modern_name": "Ancient Messene, Greece",
+     "certainty": "real",
+     "lat": 37.1767,
+     "lon": 21.9185
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 22,
+    "title": "Founding of Messene",
+    "summary": "Builders are sent for, and the allies sacrifice to their gods. The heroes are invoked, especially Aristomenes, and the walls and houses rise to flute music. The Messenians return 287 years after the fall of Eira.",
+    "stakes": "The Messenians' chance to regain a homeland after long exile.",
+    "present": [
+     "Epaminondas",
+     "Messene",
+     "Aristomenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messene",
+     "modern_name": "Ancient Messene, Greece",
+     "certainty": "real",
+     "lat": 37.1767,
+     "lon": 21.9185
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 27,
+    "title": "Other exiles compared",
+    "summary": "Pausanias compares the Messenian exile with those of the Plataeans, Delians, Minyae and Thebans. The Messenians kept their customs and Doric dialect throughout.",
+    "stakes": "",
+    "present": [
+     "Philip",
+     "Alexander",
+     "Cassander"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Greece",
+     "modern_name": "Greece",
+     "certainty": "real",
+     "lat": 38.0,
+     "lon": 23.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Castor",
+    "aliases": [
+     "Twin Brethren"
+    ],
+    "kind": "god",
+    "description": "One of the divine twins, angered at the Messenians"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [
+     "Twin Brethren"
+    ],
+    "kind": "god",
+    "description": "One of the divine twins"
+   },
+   {
+    "name": "Panormus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Young Andanian raider and friend of Gonippus"
+   },
+   {
+    "name": "Gonippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Young Andanian raider"
+   },
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban general who restores Messene"
+   },
+   {
+    "name": "Bacis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Prophet maddened by the Nymphs"
+   },
+   {
+    "name": "Messene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Triopas, invoked as a heroine"
+   },
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian hero, loudly invoked"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Amyntas, restored exiles"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Destroyed Thebes"
+   },
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Antipater, rebuilt Thebes"
+   },
+   {
+    "name": "Triopas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Messene"
+   },
+   {
+    "name": "Aphareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero invoked, father of sons"
+   },
+   {
+    "name": "Amyntas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Philip"
+   },
+   {
+    "name": "Antipater",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Cassander"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Triopas",
+    "relation": "parent_of",
+    "b": "Messene",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Amyntas",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Antipater",
+    "relation": "parent_of",
+    "b": "Cassander",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Castor",
+    "relation": "sibling_of",
+    "b": "Pollux",
+    "source": "text",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Twin Brethren",
+    "canonical": "Castor",
+    "explanation": "A name for Castor and Pollux together."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Bacis' prophecy of Sparta's decline and Messene's lasting rebuilding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "reason": "Notes Messenians kept their customs and Doric dialect through nearly 300 years of exile.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Divine favour and prophecy legitimize the restoration of Messene, tying the city's rebirth to piety and the gods' will.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The refounding of Messene in 369 BC after Leuctra weakened Sparta by freeing the helots and creating a hostile neighbour.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias dates the return by the Athenian archon Dyscinetus and the 102nd Olympiad, about 369 BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Stenyclerus was the site of a Messenian–Spartan battle during the Messenian wars; the narrator dates the Twins' anger to before it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Lacedæmonians is the usual name for the Spartans, after Lacedaemon, the region of Laconia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Twin Brethren\" is a title for Castor and Pollux, the Dioscuri, also called the Twins.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Refers to a dream Epaminondas had earlier, in which the Twins' goodwill toward the Messenians' return was hinted.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Bacis was a legendary Boeotian prophet whose oracles circulated widely in Greece; he was said to be inspired by the Nymphs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Eira was the mountain stronghold where the Messenians made their last stand in the second war against Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Refers to the Mysteries of the Great Goddesses, whose records had been hidden and were recovered, as told earlier.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Apollo Ismenius was worshipped at the Ismenion near Thebes, named for the river Ismenus; Epaminondas' Thebans honour their own local gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"Priests of the Mysteries\" refers to the Eleusinian-type cult officials serving the Great Goddesses (Demeter and Persephone) and Caucon, a legendary founder of the mysteries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Sacadas of Argos and Pronomus of Thebes were famous flute-players and composers; their tunes represent Argive and Boeotian styles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "Dating is by the Athenian Archon, and by Olympiad year; the second prize implies Damon came second in a contest, probably the stadion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "The Thebans drove out the Minyae after Leuctra (371 BC), where Thebes defeated Sparta; Philip of Macedon later restored the exiles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "\"Stript Thebes of Thebans\" means Alexander destroyed the city and enslaved its people in 335 BC.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Castor and Pollux were sons of Zeus (Jove) or Tyndareus, honored especially at Sparta, and were believed to appear to mortals on horseback.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Epaminondas was the Theban general who defeated Sparta at Leuctra and founded Messene in 369 BC. Seers examined sacrificial omens before founding a city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Messene, daughter of Triopas, was the legendary eponym of the land; Cresphontes and Aepytus were Heraclid kings of Messenia, and Aphareus an early king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Aristomenes was the great Messenian hero of the Second Messenian War against Sparta, long remembered as a symbol of resistance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Mothone and the Asinaeans were communities that had given refuge to exiled Messenians and so were spared removal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "The Plataeans were expelled by Thebes and later by Sparta; the Delians were removed by Athens and lived at Adramyttium in Asia Minor.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "irony",
+    "text": "The Spartans honor the supposed gods, yet are deceived and then slaughtered by mortals, turning reverence into the cause of their harm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "narrative voice",
+    "text": "Rapid chain of verbs conveys the speed of the raid, then the narrator's judgment of sacrilege closes it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "metaphor",
+    "text": "Sparta's \"glorious flower\" stands for its flower of manhood and power, said to fade as Messene rises again.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "characterization",
+    "text": "The unanimous cry for Aristomenes shows his unmatched standing as the nation's hero, even in death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "symbolism",
+    "text": "Building to flute music suggests harmony and religious joy, and the joining of Boeotian and Argive traditions in the new city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "contrast",
+    "text": "After the shorter exiles of other peoples, the Messenians' near 300 years stand out, and their preserved Doric speech becomes a mark of fidelity.",
+    "spoiler": false
+   }
+  ]
+ }
+}

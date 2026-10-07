@@ -1,0 +1,436 @@
+{
+ "section_id": "pausanias-body-139",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10593,
+  "output": 3903
+ },
+ "result": {
+  "summary": "Pausanias travels inland from Pharæ through Thuria and the sources of the Pamisus to Messene. He describes Messene's strong walls, its market-place, and its temples and statues, including works by Damophon and paintings by Omphalion.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "From Pharæ to Thuria",
+    "summary": "Pausanias moves inland past Carnean Apollo's grove to Thuria, recounting how Augustus punished the Messenians and gave Thuria to Sparta. He also notes nearby places and the healing sources of the Pamisus.",
+    "stakes": "",
+    "present": [
+     "Augustus",
+     "Mark Antony",
+     "Teleclus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thuria",
+     "modern_name": "Aethaia, Messenia",
+     "certainty": "real",
+     "lat": 37.1,
+     "lon": 22.0
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 20,
+    "title": "Walls and market of Messene",
+    "summary": "He reaches Messene under Mount Ithome, explains the name of Mount Eva, praises the walls, and describes the market-place and Damophon's statues. He explains how the Messenians came to worship Artemis Laphria.",
+    "stakes": "",
+    "present": [
+     "Dionysus",
+     "Damophon",
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messene",
+     "modern_name": "Ancient Messene, near Mavromati",
+     "certainty": "real",
+     "lat": 37.18,
+     "lon": 21.92
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 37,
+    "title": "Temples, statues and paintings",
+    "summary": "Pausanias digresses on Ephesian Artemis, then lists Messene's temples, the statues in the Asklepieion, and the paintings of Messenian kings and heroes by Omphalion.",
+    "stakes": "",
+    "present": [
+     "Æsculapius",
+     "Epaminondas",
+     "Damophon",
+     "Omphalion",
+     "Castor",
+     "Pollux",
+     "Nestor"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messene",
+     "modern_name": "Ancient Messene, near Mavromati",
+     "certainty": "real",
+     "lat": 37.18,
+     "lon": 21.92
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Augustus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "future Roman Emperor who punished Messenians who backed Antony"
+   },
+   {
+    "name": "Mark Antony",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Augustus's opponent, supported by Messenians"
+   },
+   {
+    "name": "Teleclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Sparta killed at Limnæ"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose cry Evœ named Mount Eva"
+   },
+   {
+    "name": "Damophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian sculptor who repaired the Zeus at Olympia"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Laphria",
+     "Ephesian Artemis"
+    ],
+    "kind": "goddess",
+    "description": "goddess worshipped under several titles"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "carrying off the daughters of Leucippus in a statue"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "twin of Castor in the statue group"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "healing god with a temple at Messene, son of Arsinoe by Messenian tradition"
+   },
+   {
+    "name": "Arsinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Leucippus, mother of Æsculapius in Messenian belief"
+   },
+   {
+    "name": "Leucippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Aphareus, father of Arsinoe"
+   },
+   {
+    "name": "Aphareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early king of Messene"
+   },
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban general, son of Cleommis"
+   },
+   {
+    "name": "Omphalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "painter, pupil of Nicias"
+   },
+   {
+    "name": "Nicias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "painter, son of Nicomedes"
+   },
+   {
+    "name": "Nestor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Pylos painted at Messene"
+   },
+   {
+    "name": "Machaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "took part in the Trojan expedition"
+   },
+   {
+    "name": "Podalirius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "took part in the Trojan expedition"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Leucippus",
+    "relation": "parent_of",
+    "b": "Arsinoe",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Arsinoe",
+    "relation": "parent_of",
+    "b": "Æsculapius",
+    "source": "text",
+    "evidence_sentence": 36
+   },
+   {
+    "a": "Leucippus",
+    "relation": "sibling_of",
+    "b": "Aphareus",
+    "source": "text",
+    "evidence_sentence": 35
+   },
+   {
+    "a": "Æsculapius",
+    "relation": "parent_of",
+    "b": "Machaon",
+    "source": "outside",
+    "evidence_sentence": 36
+   },
+   {
+    "a": "Æsculapius",
+    "relation": "parent_of",
+    "b": "Podalirius",
+    "source": "outside",
+    "evidence_sentence": 36
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Laphria",
+    "canonical": "Artemis",
+    "explanation": "A title of Artemis borrowed from Calydon by the Messenians."
+   },
+   {
+    "alias": "Ephesian Artemis",
+    "canonical": "Artemis",
+    "explanation": "Title by which she is widely worshipped, from her temple at Ephesus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Pausanias confidently rates Messene's wall above famous fortifications, while admitting he has not seen Babylon's.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "Pausanias links places to Roman politics, showing how Augustus's victory over Antony reshaped Greek communities.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "The passage shows Messene's revived civic pride through its walls, cults and art, tied to its heroic past.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Ancient Messene was founded in 369 BC after Epaminondas's victory over Sparta, and its walls still survive impressively.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Anthea is a town named in Homer's Iliad (the offer to Achilles); Pausanias says Thuria was identified with it, though this identification was disputed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Refers to the civil wars ending at Actium in 31 BC, when Octavian (later Augustus) defeated Antony.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Evœ is the ritual shout of Dionysus's worshippers, often spelled Euoi or Evoe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Memnon's walls at Susa refer to the legendary Ethiopian king Memnon, said to have founded or fortified the Persian capital.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Clepsydra means 'water-stealer', also the name for a water-clock; here a spring, whose water is said to run underground.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "'Rivetted' means repaired by fastening; Damophon mended the ivory of Phidias's Zeus at Olympia where pieces had come loose.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Laphria is a cult title of Artemis, associated with Calydon and later Patræ; Pausanias notes the Messenians also use it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"From time immemorial\" means the temple was so ancient that its founding was beyond record or memory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "\"Hall of the Curetes\" is a building for the Curetes, mythical divine attendants of the infant Zeus; the sacrifice is of all kinds of animals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Castor and Pollux carried off Hilaira and Phœbe, daughters of Leucippus, who were betrothed to their cousins Idas and Lynceus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "\"Lightbringing\" translates Artemis's cult epithet Phosphoros, linking her to torches and light.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "allusion",
+    "text": "\"Return of the Heraclidæ\" refers to the descendants of Hercules returning to the Peloponnese and, with the Dorians, taking its kingdoms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "word",
+    "text": "\"Favourite\" here means a beloved companion, implying a personal relationship with his master.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Sparta was rewarded for supporting Augustus; Thuria was among the towns detached from Messenia and given to the Spartans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The Pamisus is the chief river of Messenia; healing springs were commonly sacred and linked to local cults.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Mount Ithome was the Messenians' stronghold and sacred hill, and the new city of Messene was founded beneath it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Damophon of Messene was a celebrated sculptor of the second century BC, known for his statues in Messenia and Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Naupactus, on the Gulf of Corinth, was given to exiled Messenians by Athens in the fifth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Ephesian Artemis was worshipped in her great temple at Ephesus, one of the Seven Wonders of the ancient world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Ilithyia was the goddess who presided over childbirth and helped women in labour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Epaminondas was the Theban general who defeated Sparta at Leuctra and helped found Messene in 369 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Damophon of Messene was a sculptor active in the second century BC, known for work in the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Machaon and Podalirius were sons of Æsculapius and physicians in the Greek army at Troy.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "understatement",
+    "text": "'Some more some less' brushes over the penalties with a dry, matter-of-fact tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "etiology",
+    "text": "The name of the mountain is explained through a myth of Dionysus, tying landscape to legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "narrative voice",
+    "text": "Pausanias stresses personal observation and refuses to vouch for what he has not seen, showing his careful, travel-writer's authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "enumeration",
+    "text": "Pausanias lists three causes of Artemis's glory in order, building a reasoned case for her fame at Ephesus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "climax",
+    "text": "The sacrifices rise from large animals to birds, with \"even go as far as\" stressing the unusual extent of the ritual.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "characterization",
+    "text": "Pausanias's blunt judgement of Messenian sculptors shows him as a critical, opinionated observer rather than a mere guide.",
+    "spoiler": false
+   }
+  ]
+ }
+}

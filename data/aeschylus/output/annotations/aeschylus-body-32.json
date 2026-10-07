@@ -1,0 +1,458 @@
+{
+ "section_id": "aeschylus-body-32",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 16814,
+  "output": 4075
+ },
+ "result": {
+  "summary": "The front matter and argument explain the myth of Io and why the fifty daughters of Danaüs flee from Egypt to Argos. The Chorus of Danaüs' daughters arrives on the shore, prays to Zeus for protection from their cousins, and Danaüs, seeing a host approach, tells them to take sanctuary at the altar of the gods.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 18,
+    "title": "Cast, setting, and argument",
+    "summary": "The cast, setting and a prose argument recount Io's story and the flight of the Danaids, with a note on the sequel and the play's date.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 59,
+    "title": "The Chorus prays for protection",
+    "summary": "The maidens land and call on Zeus and the gods of Argos to receive them and wreck their pursuing cousins. They recount Io's descent and lament, comparing themselves to the nightingale.",
+    "stakes": "The maidens risk forced marriage to their cousins, and say they would rather die by the noose.",
+    "present": [
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sacred precinct on the shore near Argos",
+     "modern_name": "Gulf of Argolis coast",
+     "certainty": "traditional",
+     "lat": 37.55,
+     "lon": 22.75
+    }
+   },
+   {
+    "start_sentence": 60,
+    "end_sentence": 107,
+    "title": "Danaüs sees the host approach",
+    "summary": "Danaüs sees dust and a armed host coming and instructs his daughters to sit at the altar and speak humbly. They invoke the gods whose images stand there.",
+    "stakes": "The suppliants could be seized or harmed by the approaching host if they fail to win protection.",
+    "present": [
+     "Danaüs",
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sacred precinct on the shore near Argos",
+     "modern_name": "Gulf of Argolis coast",
+     "certainty": "traditional",
+     "lat": 37.55,
+     "lon": 22.75
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Danaüs",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the fifty maidens, who led their flight"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the daughters of Danaüs, suppliants"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, guardian of suppliants"
+   },
+   {
+    "name": "Io",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestress turned into a heifer"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "jealous consort of Zeus"
+   },
+   {
+    "name": "Epaphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Zeus and Io"
+   },
+   {
+    "name": "Aegyptus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Danaüs, father of the suitors"
+   },
+   {
+    "name": "Belus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aegyptus and Danaüs"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god invoked as once exiled from heaven"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose image stands at the altar"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Epaphus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Io",
+    "relation": "parent_of",
+    "b": "Epaphus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Io",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Io",
+    "relation": "transformed_into",
+    "b": "heifer",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Belus",
+    "relation": "parent_of",
+    "b": "Danaüs",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Belus",
+    "relation": "parent_of",
+    "b": "Aegyptus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Danaüs",
+    "relation": "sibling_of",
+    "b": "Aegyptus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Danaüs",
+    "relation": "parent_of",
+    "b": "Chorus",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "text",
+    "evidence_sentence": 55
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Apia",
+    "canonical": "Argos",
+    "explanation": "Apia is an old poetic name for the land of Argos/the Peloponnese."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 68,
+    "reason": "Memorable maxim that an altar protects better than a fortress.",
+    "spoiler": false
+   },
+   {
+    "sentence": 73,
+    "reason": "Concise statement of the suppliant's humble position.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The play centers on supplication, the sacred duty to protect refugees, and on women resisting forced marriage under Zeus's watch.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Presented as the oldest surviving Greek drama, it relies heavily on a lyric chorus, reflecting early tragedy's form.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Argument notes the play was once thought the oldest surviving Greek tragedy, but modern scholars question its early date.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Distraught\" means driven mad with anguish; \"semblance\" means outward appearance. Hera turned Io into a heifer, a young cow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Forced marriage\" refers to the cousins' demand to wed the Danaids against their will.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Amain\" is archaic for with full force or at great speed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Besought sanctuary\" means begged for protection; suppliants at an altar were under divine protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Splendid perfidy\" is an oxymoron: her disloyalty to her father is treated as admirable because it springs from love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Guardeth suppliants\" refers to Zeus as protector of those who seek refuge; \"of his grace\" means out of his favour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Alludes to Io, loved by Zeus and turned into a heifer, tormented by a gadfly sent by Hera; she bore Epaphus in Egypt, ancestor of the maidens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "\"Zeus the Saviour, invoked third\" refers to the custom of pouring the third libation to Zeus Saviour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "\"Epaphus\" is linked to the Greek word for touching or caressing, explaining the \"suited name\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "Alludes to the myth of Tereus's wife, changed into a nightingale after killing her son; she is named Metis here, as in this translation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "word",
+    "text": "\"Apia\" is an old name for the land of Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "kind": "allusion",
+    "text": "\"Nether Zeus\" is Hades, god of the dead, who receives all guests in the end; the maidens threaten suicide by hanging.",
+    "spoiler": false
+   },
+   {
+    "sentence": 55,
+    "kind": "allusion",
+    "text": "The \"consort\" is Hera, Zeus's wife, who persecuted Io and her descendants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "kind": "word",
+    "text": "\"Descry\" means to catch sight of something at a distance; \"voiceless herald\" refers to the dust cloud that announces the army.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "kind": "word",
+    "text": "\"Haply\" means perhaps; \"apprised\" means informed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "kind": "allusion",
+    "text": "White-wreathed boughs, usually olive wrapped in wool, were the conventional signs of a suppliant seeking a god's protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 70,
+    "kind": "word",
+    "text": "\"Froward\" means disobedient or bold; Danaüs wants modest, lowered looks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 91,
+    "kind": "allusion",
+    "text": "The bird of Zeus is the eagle, presumably shown on or near an image there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 95,
+    "kind": "allusion",
+    "text": "Apollo was banished from heaven for a time to serve a mortal, Admetus, after killing the Cyclopes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 107,
+    "kind": "allusion",
+    "text": "\"Hellenic wont\" means Greek custom: Hermes' statues or pillars commonly stood at sacred places.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 9,
+    "text": "Hera, queen of the gods and wife of Zeus, was known for persecuting the women Zeus loved.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The Persians (472 BC) is Aeschylus's earliest surviving play by secure date; this one was long thought earlier, though later papyrus evidence suggests otherwise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "The maidens are the daughters of Danaüs, fleeing forced marriage to their cousins, the sons of Aegyptus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Suppliants carried olive or wool-wreathed branches as signs of their plea; harming them offended the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "text": "Zeus's pure daughter is Artemis, the virgin goddess, whom the maidens ask to protect their virginity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "text": "The mound is an altar mound holding images of the gods; sitting at an altar gave suppliants sacred protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 93,
+    "text": "The Sun is invoked as a god whose beams give light and safety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 103,
+    "text": "The trident is the emblem of Poseidon, god of the sea, who is thanked for the voyage.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 13,
+    "device": "Narrative voice",
+    "text": "The summarizing, scholarly tone of the Argument gives the plot in compressed form, outlining the play's action as a sequence of events.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Oxymoron",
+    "text": "Pairing \"splendid\" with \"perfidy\" captures Hypermnestra's conflict between filial duty and love, a tension the trilogy explores.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "apostrophe",
+    "text": "The chorus addresses land, water, and gods directly, making its appeal urgent and solemn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "simile",
+    "text": "The maidens compare their lament to the nightingale's mourning, likening their exile and grief to hers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "metaphor",
+    "text": "Zeus's purposes are \"pathways\" dark and tangled, picturing divine will as a hidden road no mortal can trace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "paradox",
+    "text": "Singing a dirge for oneself while still alive conveys how near to death the maidens feel.",
+    "spoiler": false
+   },
+   {
+    "sentence": 55,
+    "device": "proverb",
+    "text": "The saying about a stormy sea following a stubborn wind expresses how Hera's anger brings continuing trouble.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "device": "metaphor",
+    "text": "The dust is called a voiceless herald, personifying it as a messenger that announces the army without speaking.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "device": "metaphor",
+    "text": "The altar is compared to a castle and an invulnerable shield, stressing the protection of sacred ground.",
+    "spoiler": false
+   },
+   {
+    "sentence": 73,
+    "device": "characterization",
+    "text": "This maxim shows Danaüs as cautious and practical, aware of his daughters' weak position.",
+    "spoiler": false
+   }
+  ]
+ }
+}

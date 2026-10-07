@@ -1,0 +1,325 @@
+{
+ "section_id": "pausanias-body-10",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7668,
+  "output": 2934
+ },
+ "result": {
+  "summary": "Pausanias traces how Lysimachus held Thrace and won Macedonia after wars with Demetrius and Pyrrhus. He then tells how his marriage to Arsinoe led to the death of his son Agathocles, the defection of his supporters, and his own defeat and death against Seleucus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Lysimachus's wars for Macedonia",
+    "summary": "Lysimachus fights Demetrius, keeps Thrace with Pyrrhus's help, and later drives Pyrrhus out of Macedonia after Demetrius falls to Seleucus.",
+    "stakes": "Lysimachus risks losing Thrace and his place among the successors to rival kings.",
+    "present": [
+     "Lysimachus",
+     "Demetrius",
+     "Pyrrhus",
+     "Seleucus",
+     "Antigonus",
+     "Alexander",
+     "Aridæus",
+     "Cassander"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Amphipolis",
+     "modern_name": "Amphipolis, Greece",
+     "certainty": "real",
+     "lat": 40.82,
+     "lon": 23.84
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 9,
+    "title": "Arsinoe plots against Agathocles",
+    "summary": "Lysimachus marries Arsinoe, who plots the death of his son Agathocles. Lysandra flees with her children and kin.",
+    "stakes": "Agathocles faces death, and Lysimachus loses his friends and his family's loyalty.",
+    "present": [
+     "Lysimachus",
+     "Arsinoe",
+     "Agathocles",
+     "Lysandra",
+     "Seleucus",
+     "Ptolemy"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Court of Lysimachus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 14,
+    "title": "Fall and burial of Lysimachus",
+    "summary": "The exiles urge Seleucus to war and Philetærus gives him Pergamum and money. Lysimachus is beaten and killed, and his son Alexander buries him in the Chersonese.",
+    "stakes": "Lysimachus stands to lose his kingdom and his life in battle with Seleucus.",
+    "present": [
+     "Lysimachus",
+     "Seleucus",
+     "Alexander",
+     "Lysandra",
+     "Philetærus",
+     "Odrysiades"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Chersonese, between Cardia and Pactye",
+     "modern_name": "Gallipoli peninsula, Turkey",
+     "certainty": "real",
+     "lat": 40.4,
+     "lon": 26.67
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Lysimachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Thrace who won Macedonia, killed fighting Seleucus"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Antigonus, king of Macedonia, later in Seleucus's power"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Demetrius, and name of Demetrius's son who fought Lysimachus"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Epirus, ally then enemy of Lysimachus"
+   },
+   {
+    "name": "Seleucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King who defeated and killed Lysimachus"
+   },
+   {
+    "name": "Aridæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Earlier ruler of Macedonia"
+   },
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler of Macedonia, father of Alexander"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Name of two men: son of Cassander, and son of Lysimachus who buried him"
+   },
+   {
+    "name": "Arsinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lysimachus's wife who plotted against Agathocles"
+   },
+   {
+    "name": "Agathocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Lysimachus, put to death"
+   },
+   {
+    "name": "Lysandra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Agathocles and sister of Arsinoe, who fled to Seleucus"
+   },
+   {
+    "name": "Ptolemy",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler to whose court the fugitives fled"
+   },
+   {
+    "name": "Philetærus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Treasurer of Lysimachus who held Pergamum and joined Seleucus"
+   },
+   {
+    "name": "Odrysiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Lysimachus, mother of Alexander"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lysimachus",
+    "relation": "parent_of",
+    "b": "Agathocles",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Lysimachus",
+    "relation": "spouse_of",
+    "b": "Arsinoe",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Agathocles",
+    "relation": "spouse_of",
+    "b": "Lysandra",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Arsinoe",
+    "relation": "sibling_of",
+    "b": "Lysandra",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Lysimachus",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Lysimachus",
+    "relation": "spouse_of",
+    "b": "Odrysiades",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Antigonus",
+    "relation": "parent_of",
+    "b": "Demetrius",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Cassander",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "text",
+    "evidence_sentence": 0
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Pausanias' moral framing of the story: love brings many misfortunes to men.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows how ambition and family passion destroyed a successful ruler, with love and jealousy driving the fall of Lysimachus.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It records the power struggles among Alexander the Great's successors in the early third century BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Philetærus' takeover of Pergamum began the Attalid dynasty, which later ruled a major Hellenistic kingdom.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Grasping something\" means being greedy for more territory; Demetrius's acquisitiveness is called a family trait, inherited from Antigonus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Within an ace of\" is an idiom meaning very nearly; Lysimachus almost lost Thrace entirely.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "The sentence is confusing: Lysandra first flees to Seleucus, then the exiles are said to take refuge with Ptolemy, her kin, so the narrative is compressed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Pergamum, a fortress city near the river Caicus, was where Lysimachus kept his treasure; Philetærus later founded the Pergamene dynasty there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "The Chersonese is the Thracian peninsula (Gallipoli) along the Hellespont; Cardia was a city at its neck.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Lysimachus was one of Alexander the Great's generals who became king of Thrace after Alexander's death; the Successors fought constantly over Macedonia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Seleucus, another of Alexander's generals, ruled much of Asia. Demetrius ended as his captive after failing in Asia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Arsinoe was a daughter of Ptolemy I of Egypt; her marriage to the aged Lysimachus set up the dynastic rivalry that follows.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "narrative voice",
+    "text": "Pausanias interrupts the political narrative with a moralizing generalization, introducing the domestic tragedy as a lesson about love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "irony",
+    "text": "Lysimachus learns the truth only when it is too late and he is friendless, a bitter reversal for a victorious king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "epitaph-like closure",
+    "text": "The brief, summarizing final line closes the king's story with a flat note of fate, in the manner of a tragic conclusion.",
+    "spoiler": false
+   }
+  ]
+ }
+}

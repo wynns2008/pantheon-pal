@@ -1,0 +1,275 @@
+{
+ "section_id": "pindar-odes-body-5",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6867,
+  "output": 2396
+ },
+ "result": {
+  "summary": "A headnote explains that this ode celebrates Psaumis' chariot victory at Olympia, sung at Kamarina after his return. Pindar praises Psaumis and his city, prays to Zeus to bless it with brave men, and wishes Psaumis a serene old age with his sons beside him.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Editor's note on the ode",
+    "summary": "The editor explains the occasion, the deities invoked and the recent restoration of Kamarina.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Kamarina",
+     "modern_name": "Camarina, Sicily",
+     "certainty": "real",
+     "lat": 36.8,
+     "lon": 14.45
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 7,
+    "title": "Praise of Psaumis and Kamarina",
+    "summary": "Pindar asks Kamarina to accept the victory song. He recounts Psaumis' sacrifices, his honouring of his father and city, and his part in rebuilding it.",
+    "stakes": "Psaumis' success depends on perilous chance, since toil and cost may fail.",
+    "present": [
+     "Psaumis",
+     "Kamarina",
+     "Akron",
+     "Pallas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Kamarina",
+     "modern_name": "Camarina, Sicily",
+     "certainty": "real",
+     "lat": 36.8,
+     "lon": 14.45
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 10,
+    "title": "Prayer to Zeus",
+    "summary": "Pindar prays to Zeus to glorify the city, wishes Psaumis a serene old age with his sons, and warns against seeking to become a god.",
+    "stakes": "Mortals risk overreaching if they seek to be gods.",
+    "present": [
+     "Zeus",
+     "Psaumis",
+     "Poseidon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Kamarina",
+     "modern_name": "Camarina, Sicily",
+     "certainty": "real",
+     "lat": 36.8,
+     "lon": 14.45
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Psaumis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Victor in the chariot race at Olympia, from Kamarina"
+   },
+   {
+    "name": "Kamarina",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nymph, daughter of Ocean, who is the city's patron"
+   },
+   {
+    "name": "Akron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Psaumis"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "City-guarding goddess with a sacred grove"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Guardian god who sits above the clouds"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "God who gave the steeds"
+   },
+   {
+    "name": "Gelo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler who destroyed Kamarina"
+   },
+   {
+    "name": "Oinomaos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Legendary king linked with Pelops"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Legendary hero linked with Olympia"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Akron",
+    "relation": "parent_of",
+    "b": "Psaumis",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Psaumis",
+    "relation": "parent_of",
+    "b": "Psaumis' sons",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Ocean",
+    "relation": "parent_of",
+    "b": "Kamarina",
+    "source": "text",
+    "evidence_sentence": 3
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pallas",
+    "canonical": "Athena",
+    "explanation": "Pallas is a title of the goddess Athena, patron of the city."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "Typical Pindaric warning to accept human limits and not aspire to divinity.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Victory is tied to civic pride and renewal, with success won through toil and cost yet exposed to chance.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Kamarina had been destroyed by Gelo and only recently restored, so Psaumis' victory was the first for the rebuilt city and a point of civic pride.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The ode was sung at Kamarina after the victory, unlike the preceding ode, which was for the Olympic celebration.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The 'daughter of Ocean' is the nymph Kamarina, who personifies the city and its lake; the song is offered to her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "'Six twin altars' refers to the twelve altars at Olympia, paired for six sets of gods; Psaumis sacrificed on them at the festival.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "'Steed of single frontlet' means a single riding horse, as opposed to a team yoked to a chariot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Oinomaos and Pelops were the legendary rivals in the chariot race at Pisa, near Olympia; the 'dwelling place' is Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "'Bringing from perplexity to the light' means rescuing the city from its former ruin and uncertainty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "'Kronian hill' is the hill of Kronos at Olympia, overlooking the sanctuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "'Seek to become a god' warns against overreaching human limits, a common Pindaric moral.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Gelo was the tyrant of Syracuse who destroyed Kamarina; its restoration came after the fall of the tyrants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Oanis and Hipparis are rivers of the Kamarina region in southern Sicily; Hipparis was channeled to supply the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Zeus was worshipped at Olympia beside the Alpheos river; Ida's cave in Crete was linked to his birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Poseidon was the god of horses; Pindar credits him with the gift of the steeds that won the race.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "apostrophe",
+    "text": "Pindar addresses the nymph Kamarina directly, making the city a divine listener who receives the song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "metaphor",
+    "text": "A 'lofty forest of stedfast dwellings' pictures the rebuilt houses as a growing forest, stressing the city's strength.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "characterization",
+    "text": "Pindar presents Psaumis' toil and expense as risky yet noble, praising his wisdom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "foreshadowing",
+    "text": "The closing warning about divine ambition recalls the fate of mortals who overreach, giving the praise a sober limit.",
+    "spoiler": false
+   }
+  ]
+ }
+}

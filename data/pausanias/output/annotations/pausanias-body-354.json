@@ -1,0 +1,345 @@
+{
+ "section_id": "pausanias-body-354",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7918,
+  "output": 2756
+ },
+ "result": {
+  "summary": "Pausanias describes Abae, with its burnt temple of Apollo, then Hyampolis, founded by Hyantes expelled from Thebes, and finally Stiris, settled from Attica, with its water shortage and temple of Demeter.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Abae and its burnt temple",
+    "summary": "Pausanias gives the road to Abae, its Argive origin, and the history of its oracle temple of Apollo burnt by Persians and Thebans.",
+    "stakes": "",
+    "present": [
+     "Abas",
+     "Apollo",
+     "Xerxes",
+     "Leto",
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Abæ",
+     "modern_name": "Kalapodi",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 22.97
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 17,
+    "title": "Hyampolis and its Artemis",
+    "summary": "Hyampolis is named for Hyantes who fled Thebes; Pausanias lists its ruins, scarce water and the worship of Artemis.",
+    "stakes": "",
+    "present": [
+     "Hyantes",
+     "Cadmus",
+     "Xerxes",
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hyampolis",
+     "modern_name": "near Kalapodi, Phocis",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 22.95
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 24,
+    "title": "Stiris and Demeter",
+    "summary": "Pausanias gives the road to Stiris, its Athenian founding under Peteus, its water scarcity and its statues of Demeter.",
+    "stakes": "",
+    "present": [
+     "Peteus",
+     "Ægeus",
+     "Demeter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Stiris",
+     "modern_name": "Stiri, Boeotia",
+     "certainty": "real",
+     "lat": 38.41,
+     "lon": 22.74
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Abas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of Abae, son of Lynceus"
+   },
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Abas"
+   },
+   {
+    "name": "Hypermnestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Abas, daughter of Danaus"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hypermnestra"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with oracle and temple at Abae"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue at Abae"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess worshipped at Hyampolis"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king whose army burnt temples"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban who drove out the Hyantes"
+   },
+   {
+    "name": "Hyantes",
+    "aliases": [],
+    "kind": "other",
+    "description": "people who fled Thebes and founded Hyampolis"
+   },
+   {
+    "name": "Peteus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Orneus, led Athenians to Stiris"
+   },
+   {
+    "name": "Orneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Peteus"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian ruler who expelled Peteus"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Demeter Stiritis"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a temple at Stiris"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lynceus",
+    "relation": "parent_of",
+    "b": "Abas",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Hypermnestra",
+    "relation": "parent_of",
+    "b": "Abas",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Danaus",
+    "relation": "parent_of",
+    "b": "Hypermnestra",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Orneus",
+    "relation": "parent_of",
+    "b": "Peteus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Hypermnestra",
+    "relation": "spouse_of",
+    "b": "Lynceus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Artemis",
+    "source": "outside",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Adrian",
+    "canonical": "Hadrian",
+    "explanation": "The translation spells the Roman emperor Hadrian as Adrian."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Explains why Greeks left temples burnt by Persians as memorials of national hatred.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "Ruined temples were kept as memorials of the Persian invasion, showing how memory of the Persian Wars shaped Greek landscapes.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Pausanias links towns to founders and migrations, tracing local identity through myth and history.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Excavations at Kalapodi have found a sanctuary used continuously from the Bronze Age into Roman times, matching Pausanias' Abae.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Autonomy means the right of a community to live under its own laws, a privilege Rome granted to favoured Greek towns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Refers to the Persian invasion of 480 BC; the Greeks left temples burnt by Xerxes' army as memorials of the war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Phocian War (the Sacred War, 356–346 BC) pitted Phocis against Thebes and its allies; Thebans burnt Phocian fugitives at Abae.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "The Medes here stand for the Persians; Greek writers often used the names interchangeably.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Bœotian means Theban, since Thebes was the chief city of Bœotia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Cadmus was the legendary founder of Thebes; the Hyantes were an older people said to have been driven out by him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Rased means razed, levelled to the ground.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "Pentelican marble came from Mount Pentelicus near Athens and was prized for statues and buildings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "Fillets are ribbons or headbands tied round a statue as adornment or offering.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Abas was a legendary Argive; Lynceus and Hypermnestra belong to the Danaus myth, in which she alone spared her husband.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Adrian is the emperor Hadrian (reigned AD 117–138), a great builder who admired Greek culture and sponsored many Greek works.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Philip of Macedon destroyed Phocian towns at the end of the Sacred War in 346 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Peteus was an Athenian figure, father of Menestheus, who led the Athenians at Troy in the Iliad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Demeter was the goddess of grain and harvest; torches recall her search for her daughter Persephone.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "symbolism",
+    "text": "The deliberately preserved ruins become monuments of memory, symbolizing enduring Greek hatred of the invaders.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "irony",
+    "text": "The temple suffers twice, first from barbarians and then from fellow Greeks, so Greek behaviour matches the enemy's.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "narrative voice",
+    "text": "Pausanias reasons from etymology like a guide, inviting readers to decode history from the town's name.",
+    "spoiler": false
+   }
+  ]
+ }
+}

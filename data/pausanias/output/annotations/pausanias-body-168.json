@@ -1,0 +1,300 @@
+{
+ "section_id": "pausanias-body-168",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8739,
+  "output": 2553
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of the Altis at Olympia, listing many statues of Zeus and who dedicated them. He ends with the statue of Zeus the God of Oaths in the Council Chamber, before which athletes and umpires swear, and compares the custom to Homer's account of Agamemnon's oath.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 21,
+    "title": "Catalogue of Zeus statues",
+    "summary": "Pausanias walks through the Altis describing statues of Zeus, their makers and dedicators, including those given by Corinthians, Thessalians, Lacedæmonians, Mummius, Elis and Cnidians.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Mummius",
+     "Ganymede",
+     "Pelops",
+     "Alpheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis at Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 31,
+    "title": "Zeus the God of Oaths",
+    "summary": "Pausanias describes the oath-taking of athletes and umpires over a boar before the statue of Zeus in the Council Chamber, and cites Homer's Agamemnon oath, where the boar was thrown into the sea.",
+    "stakes": "Perjurers risk the punishment of Zeus; athletes must swear not to cheat.",
+    "present": [
+     "Zeus",
+     "Agamemnon",
+     "Talthybius",
+     "Briseis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Council Chamber at Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Olympian Zeus",
+     "Zeus the God of Oaths"
+    ],
+    "kind": "god",
+    "description": "king of the gods, shown in many statues at Olympia"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with an altar near Zeus Laœtas"
+   },
+   {
+    "name": "Mummius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman who dedicated bronze Zeus statues from Achaian spoils"
+   },
+   {
+    "name": "Ganymede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "youth carried off to be Zeus's cupbearer"
+   },
+   {
+    "name": "Tros",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Ganymede, given horses"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a temple at Olympia"
+   },
+   {
+    "name": "Alpheus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river statue dedicated beside Pelops"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who swore an oath over a boar"
+   },
+   {
+    "name": "Talthybius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "herald who threw the boar into the sea"
+   },
+   {
+    "name": "Briseis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman Agamemnon swore he had not touched"
+   },
+   {
+    "name": "Cronus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Zeus"
+   },
+   {
+    "name": "Musus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "designer of a bronze Zeus"
+   },
+   {
+    "name": "Ascarus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban sculptor"
+   },
+   {
+    "name": "Aristocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor, pupil and son of Cleœtas"
+   },
+   {
+    "name": "Cleœtas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor, father of Aristocles"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cronus",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Tros",
+    "relation": "parent_of",
+    "b": "Ganymede",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Cleœtas",
+    "relation": "parent_of",
+    "b": "Aristocles",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Zeus the God of Oaths",
+    "canonical": "Zeus",
+    "explanation": "Cult title of Zeus as witness and punisher of perjury."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 22,
+    "reason": "Describes the Oath-god statue meant to terrify wrongdoers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "reason": "Records the Olympic oath ritual over boar entrails.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Olympia's statues show how states used dedications to Zeus to display victories and piety.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The oath rituals show how religion enforced fairness in the Olympic games, and Mummius's offering shows Roman conquest of Greece.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias admits he forgot to ask what was done with the boar after the oath.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Laœtas is a cult title of Zeus and Poseidon, probably meaning 'of the people'; Pausanias explains it elsewhere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Sacred War was the struggle over Delphi against the Phocians in the early sixth century BC, before the Persian invasion of Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "'With propitious mind' means favourably, graciously; the Lacedæmonians ask Zeus to accept the gift kindly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Homer tells that Ganymede, son of Tros, was taken up to serve the gods; Tros was compensated with divine horses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Elaitæ are the people of Elaea, a city in Æolis on the coast of Asia Minor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "'Entrails' of the boar were the sacrificial parts held or touched while swearing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "'Umpires' translates the Hellanodikai, the judges of the games; 'colts' means the horses in the races.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "In the Iliad Agamemnon swears he never touched Briseis, the captive woman Achilles claimed; the herald Talthybius then disposes of the boar.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The Altis was the sacred precinct at Olympia containing the temples, altars and many dedications.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Mummius sacked Corinth in 146 BC and made Achaia a Roman province; he dedicated many spoils at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Zeus Horkios, god of oaths, punished perjury; his statue at Olympia was meant to deter cheating athletes.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 22,
+    "device": "characterization",
+    "text": "The statue's double thunderbolts portray Zeus as a fearsome enforcer of oaths, shaping the reader's sense of his divine role.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "narrative voice",
+    "text": "Pausanias admits he forgot to ask, a candid, personal aside that shows him as a traveller reporting honestly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "imagery",
+    "text": "The vivid, violent picture of the boar whirled into the sea gives Homer's ritual disposal a concrete, memorable force.",
+    "spoiler": false
+   }
+  ]
+ }
+}

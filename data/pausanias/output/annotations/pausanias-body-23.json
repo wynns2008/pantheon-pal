@@ -1,0 +1,550 @@
+{
+ "section_id": "pausanias-body-23",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10312,
+  "output": 4846
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of the Athenian Acropolis. He tells of the lioness statue for Leæna, the arrow-pierced statue of Diitrephes and the Mycalessus massacre, a sailor's tale of Satyr islands, and further statues including the Wooden Horse and the figures of Thucydides and Phormio.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Tyrants and the lioness Leæna",
+    "summary": "Pausanias compares Periander with the Pisistratidæ and tells how Hippias tortured Leæna to death. The Athenians later set up a bronze lioness and a statue of Aphrodite.",
+    "stakes": "Leæna is tortured to death for the suspected knowledge of a plot.",
+    "present": [
+     "Hippias",
+     "Leæna",
+     "Aristogiton",
+     "Hipparchus",
+     "Periander"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 11,
+    "title": "Diitrephes and Mycalessus",
+    "summary": "Pausanias describes the statue of Diitrephes pierced by arrows and recalls his Thracians' massacre at Mycalessus. He then discusses the use of bows among the Greeks.",
+    "stakes": "The people of Mycalessus are slaughtered by Thracian mercenaries.",
+    "present": [
+     "Diitrephes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mycalessus",
+     "modern_name": "near Rhitsona, Boeotia",
+     "certainty": "real",
+     "lat": 38.35,
+     "lon": 23.5
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 20,
+    "title": "Silenus's stone and the Satyr islands",
+    "summary": "Pausanias notes statues of Hygiea and the stone of Silenus, then relays Euphemus's account of red-haired tailed Satyrs on distant islands.",
+    "stakes": "Sailors are menaced by wild Satyrs and sacrifice a woman to save themselves.",
+    "present": [
+     "Silenus",
+     "Euphemus",
+     "Hygiea",
+     "Dionysus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Satyr-islands",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 33,
+    "title": "More Acropolis statues and worthies",
+    "summary": "Pausanias lists statues including Brauronian Artemis and the Wooden Horse, then tells of Thucydides's recall and Phormio's debts.",
+    "stakes": "Thucydides is murdered after returning from exile; Phormio is burdened by debt.",
+    "present": [
+     "Thucydides",
+     "Phormio",
+     "Œnobius",
+     "Artemis",
+     "Epicharinus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Acropolis",
+     "modern_name": "Acropolis of Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Periander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant of Corinth, son of Cypselus, counted among the wise men"
+   },
+   {
+    "name": "Cypselus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Periander"
+   },
+   {
+    "name": "Pisistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian ruler, father of Hippias"
+   },
+   {
+    "name": "Hippias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian tyrant who tortured Leæna"
+   },
+   {
+    "name": "Hipparchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "slain brother of Hippias"
+   },
+   {
+    "name": "Leæna",
+    "aliases": [
+     "Lioness"
+    ],
+    "kind": "mortal",
+    "description": "mistress of Aristogiton, tortured to death"
+   },
+   {
+    "name": "Aristogiton",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "conspirator against Hipparchus"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose statue stands near the lioness"
+   },
+   {
+    "name": "Callias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicator of the Aphrodite statue"
+   },
+   {
+    "name": "Calamis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the Aphrodite"
+   },
+   {
+    "name": "Diitrephes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian commander whose statue is pierced with arrows"
+   },
+   {
+    "name": "Demosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian general who had sailed for Syracuse"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [
+     "Health"
+    ],
+    "kind": "goddess",
+    "description": "daughter of Æsculapius"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Hygiea"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "worshipped also as Hygiea"
+   },
+   {
+    "name": "Silenus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "old Satyr who rested on a stone"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who came to the land"
+   },
+   {
+    "name": "Euphemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Carian who told of the Satyr islands"
+   },
+   {
+    "name": "Philoctetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "archer of the Malienses"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Brauronian Artemis",
+     "Tauric Artemis"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a temple on the Acropolis"
+   },
+   {
+    "name": "Praxiteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the Brauronian Artemis"
+   },
+   {
+    "name": "Lycius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor, son of Myron"
+   },
+   {
+    "name": "Myron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Perseus"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero shown after slaying Medusa"
+   },
+   {
+    "name": "Medusa",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Gorgon slain by Perseus"
+   },
+   {
+    "name": "Epeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "builder of the Wooden Horse"
+   },
+   {
+    "name": "Menestheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek warrior shown in the Horse"
+   },
+   {
+    "name": "Teucer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek warrior shown in the Horse"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the sons shown in the Horse"
+   },
+   {
+    "name": "Critias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Epicharinus"
+   },
+   {
+    "name": "Epicharinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "runner in armour"
+   },
+   {
+    "name": "Œnobius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "proposed Thucydides's recall"
+   },
+   {
+    "name": "Thucydides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Olorus, recalled from exile and murdered"
+   },
+   {
+    "name": "Olorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Thucydides"
+   },
+   {
+    "name": "Phormio",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "indebted Athenian made Admiral"
+   },
+   {
+    "name": "Asopichus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Phormio"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cypselus",
+    "relation": "parent_of",
+    "b": "Periander",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Pisistratus",
+    "relation": "parent_of",
+    "b": "Hippias",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Æsculapius",
+    "relation": "parent_of",
+    "b": "Hygiea",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Myron",
+    "relation": "parent_of",
+    "b": "Lycius",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Olorus",
+    "relation": "parent_of",
+    "b": "Thucydides",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Asopichus",
+    "relation": "parent_of",
+    "b": "Phormio",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Aristogiton",
+    "relation": "lover_of",
+    "b": "Leæna",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Hippias",
+    "relation": "sibling_of",
+    "b": "Hipparchus",
+    "source": "outside",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Hygiea",
+    "canonical": "Athene",
+    "explanation": "Athene was worshipped under the title Hygiea, 'Health'."
+   },
+   {
+    "alias": "Brauronian Artemis",
+    "canonical": "Artemis",
+    "explanation": "Named for Brauron; the ancient statue there is called Tauric Artemis."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Pausanias gives the Athenian tradition of Leæna's torture, which he says no earlier history recorded.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias turns statues into occasions for history and digression, linking monuments to memory, cruelty and civic honour.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Leæna story reflects Athenian tradition about the fall of the Pisistratid tyranny, and the Mycalessus massacre recalls the Peloponnesian War (413 BC).",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias's account of the Mycalessus massacre in 413 BC agrees with Thucydides, who describes the Thracians slaughtering even schoolchildren.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"The Lesbian tyrant\" is Pittacus of Mytilene, usually counted among the Seven Wise Men; the sentence oddly treats Periander as another of the seven.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Brazen\" means made of bronze; \"votive offering\" is a gift dedicated to a deity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Refers to the Athenian expedition to Sicily in 413 BC; Demosthenes had sailed with reinforcements, so the Thracians were sent home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Homer's Catalogue of Ships in the Iliad describes the Locrians as fighting with bows and slings rather than spears and shields.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Philoctetes, from Malis, owned the bow of Heracles and fought at Troy. His fame explains the Malienses' archery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Hygiea, goddess of health, was worshipped as Æsculapius's daughter; Athene took the same title, Athene Hygiea, as healer of the Athenians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Carians came from southwest Asia Minor; Euphemus offers himself as an eyewitness source, a traveller's tale Pausanias reports.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"Handle\" is a euphemism for sexual molestation; the next sentence confirms the assault.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Brauron, in Attica, had a famous sanctuary of Artemis; the Tauric Artemis image was said to be brought from the Taurians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "\"Fatuous\" means foolish; Pausanias argues the Wooden Horse was really a siege engine, since only fools would take it for a hollow wooden horse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Thucydides is the historian of the Peloponnesian War, exiled from Athens; Œnobius's decree let him return.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Hipparchus was killed in 514 BC by Harmodius and Aristogiton. Hippias, his brother, then ruled as a harsher tyrant until expelled in 510 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Calamis was a famous fifth-century BC sculptor. The Athenians honored Leæna with a lioness, a pun on her name, rather than a human figure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "In 413 BC Thracian mercenaries sacked Mycalessus and killed many inhabitants, including schoolchildren, an atrocity recorded by Thucydides.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Satyrs were woodland spirits of Dionysus's retinue, part man and part horse or goat; Silenus was their aged leader and Dionysus's tutor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Myron was a famed Athenian sculptor of the fifth century BC, best known for the Discus Thrower; Lycius was his son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Phormio was a celebrated Athenian admiral of the Peloponnesian War; a township (deme) was a local district of Attica.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "symbolism",
+    "text": "The bronze lioness commemorates Leæna by her name, a visual pun, and stands for her courage in staying silent under torture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "narrative voice",
+    "text": "Pausanias interrupts the story with a traveler's curiosity, treating the arrows as an antiquarian puzzle that leads into a digression on archery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "narrative voice",
+    "text": "Pausanias presents himself as a curious investigator who questions many informants, lending his digressions an air of personal inquiry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "euphemism",
+    "text": "Pausanias declines to describe the assault, letting reticence imply the horror.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "irony",
+    "text": "The Athenians pay the debts of a noble admiral because they want him, reversing his reasoning that debt would undermine his authority.",
+    "spoiler": false
+   }
+  ]
+ }
+}

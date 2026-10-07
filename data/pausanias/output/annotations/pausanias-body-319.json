@@ -1,0 +1,284 @@
+{
+ "section_id": "pausanias-body-319",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7082,
+  "output": 2460
+ },
+ "result": {
+  "summary": "Pausanias argues that Agamemnon's sceptre is the only surviving work of Hephaestus, dismissing other claimed relics such as the bowl at Patara, the chest at Patræ and the necklace at Amathus. He then notes the crag Petrachos above Chæronea, linked to Cronos and Rhea, and the perfumed unguents made at Chæronea.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 13,
+    "title": "Relics claimed as Hephæstus's work",
+    "summary": "Pausanias reviews claimed works of Hephæstus in Lycia, Patræ and Cyprus, and uses Homer's lines on necklaces to doubt the Amathus necklace is Eriphyle's.",
+    "stakes": "",
+    "present": [
+     "Hephæstus",
+     "Eurypylus",
+     "Eriphyle",
+     "Harmonia",
+     "Homer"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Amathus in Cyprus",
+     "modern_name": "Amathus, Limassol",
+     "certainty": "real",
+     "lat": 34.7,
+     "lon": 33.14
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 15,
+    "title": "The crag Petrachos",
+    "summary": "Above Chæronea stands Petrachos, where Cronos was said to have been tricked with a stone instead of Zeus.",
+    "stakes": "",
+    "present": [
+     "Cronos",
+     "Rhea",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Petrachos above Chæronea",
+     "modern_name": "Chaeronea, Boeotia",
+     "certainty": "real",
+     "lat": 38.49,
+     "lon": 22.85
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 19,
+    "title": "Unguents of Chæronea",
+    "summary": "Pausanias describes the unguents made at Chæronea from flowers, their healing and preserving uses, and the iris.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Chæronea",
+     "modern_name": "Chaeronea, Boeotia",
+     "certainty": "real",
+     "lat": 38.49,
+     "lon": 22.85
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hephæstus",
+    "aliases": [],
+    "kind": "god",
+    "description": "smith god, maker of Agamemnon's sceptre"
+   },
+   {
+    "name": "Telephus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicated a brazen bowl at Patara"
+   },
+   {
+    "name": "Eurypylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brought a chest from Troy to Patræ"
+   },
+   {
+    "name": "Harmonia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first given the necklace"
+   },
+   {
+    "name": "Eriphyle",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "received the necklace from her husband"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet cited by Pausanias"
+   },
+   {
+    "name": "Eumæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "swineherd in the Odyssey"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "speaks with Eumæus"
+   },
+   {
+    "name": "Telemachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "returned from Pylos"
+   },
+   {
+    "name": "Penelope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "received gifts from the suitors"
+   },
+   {
+    "name": "Eurymachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "suitor who gave Penelope a necklace"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "deceived with a stone"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "deceived Cronos with a stone"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "infant saved by the stone trick"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "owner of the sceptre"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "outside",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Rhea",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "outside",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Cronos",
+    "relation": "spouse_of",
+    "b": "Rhea",
+    "source": "outside",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Eumæus",
+    "relation": "sibling_of",
+    "b": "Eumæus",
+    "source": "outside",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias tests claims about sacred relics against Homer's text, showing his critical habit of weighing local tradition against literary evidence.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Relics of heroic age objects were prized in Greek sanctuaries, and local claims to own them were common in Pausanias' time.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias names Theodorus and Rhœcus of Samos as the first brass-founders, placing early bronze casting in the 6th century BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Brazen means made of bronze or brass. Pausanias doubts the bowl is by Hephæstus because bronze casting was supposedly invented much later by human craftsmen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Eriphyle's necklace: Polynices bribed her with it to persuade her husband Amphiaraus to join the doomed expedition against Thebes. It was first given to Harmonia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The line refers to Eriphyle, who betrayed her husband Amphiaraus for the necklace; Homer mentions this in the Odyssey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Amber here is the fossil resin, used as beads; the passage contrasts gold necklaces set with amber against pure gold.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Rhea tricked her husband Cronos, who swallowed his children, by giving him a stone wrapped in cloth in place of the infant Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "Unguents are perfumed ointments or oils, here made by boiling flowers.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Hephæstus was the smith god; Agamemnon's sceptre was said to have been made by him, and was worshipped at Chæronea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Theodorus and Rhœcus were Samian sculptors of the sixth century BC, traditionally credited with early bronze casting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Penelope's suitors gave her gifts while courting her in Odysseus' absence.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "simile",
+    "text": "The amber-set necklace is compared to the sun, conveying its glowing, golden brilliance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "The cautious conclusion is dryly sceptical: after dismissing rival claims, Pausanias leaves only the sceptre, which he implicitly treats as the sole credible relic.",
+    "spoiler": false
+   }
+  ]
+ }
+}

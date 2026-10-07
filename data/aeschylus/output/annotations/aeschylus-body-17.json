@@ -1,0 +1,409 @@
+{
+ "section_id": "aeschylus-body-17",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11330,
+  "output": 3742
+ },
+ "result": {
+  "summary": "The jury's votes are counted and Athena casts her vote for Orestes, so the tie acquits him. Orestes thanks Athena and Apollo and swears that Argos will never attack Athens. The Furies rage at the younger gods and threaten to poison the land, until Athena begins to calm them.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 17,
+    "title": "Final words and Athena's vote",
+    "summary": "The Chorus and Apollo trade accusations as the balloting ends. Athena declares she will vote for Orestes and orders the ballots to be emptied from the urns.",
+    "stakes": "Orestes' life and the Furies' ancient honours hang on the vote.",
+    "present": [
+     "Chorus",
+     "Apollo",
+     "Athena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the Areopagus, Athens",
+     "modern_name": "Areopagus, Athens",
+     "certainty": "real",
+     "lat": 37.9722,
+     "lon": 23.7222
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 34,
+    "title": "The ballots are counted",
+    "summary": "Orestes and the Chorus wait anxiously as the ballots are counted. Athena announces the tie, which acquits Orestes.",
+    "stakes": "Orestes faces death by the noose; the Furies face loss of their honours.",
+    "present": [
+     "Orestes",
+     "Chorus",
+     "Apollo",
+     "Athena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the Areopagus, Athens",
+     "modern_name": "Areopagus, Athens",
+     "certainty": "real",
+     "lat": 37.9722,
+     "lon": 23.7222
+    }
+   },
+   {
+    "start_sentence": 35,
+    "end_sentence": 44,
+    "title": "Orestes' thanks and oath",
+    "summary": "Orestes thanks Athena, Apollo and Zeus. He swears that Argos will never attack Athens and departs.",
+    "stakes": "",
+    "present": [
+     "Orestes",
+     "Athena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the Areopagus, Athens",
+     "modern_name": "Areopagus, Athens",
+     "certainty": "real",
+     "lat": 37.9722,
+     "lon": 23.7222
+    }
+   },
+   {
+    "start_sentence": 45,
+    "end_sentence": 59,
+    "title": "The Furies' wrath and Athena's offer",
+    "summary": "The Chorus threatens to poison the land. Athena says they were not defeated and promises them a place of honour in Athens.",
+    "stakes": "Athens risks blight and barrenness from the Furies' anger.",
+    "present": [
+     "Chorus",
+     "Athena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the Areopagus, Athens",
+     "modern_name": "Areopagus, Athens",
+     "certainty": "real",
+     "lat": 37.9722,
+     "lon": 23.7222
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [
+     "daughters of Night"
+    ],
+    "kind": "goddess",
+    "description": "the Furies, ancient goddesses who pursue Orestes and are angered by his acquittal"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoebus",
+     "Loxias"
+    ],
+    "kind": "god",
+    "description": "god who defends Orestes and urges a fair count"
+   },
+   {
+    "name": "Athena",
+    "aliases": [
+     "Pallas"
+    ],
+    "kind": "goddess",
+    "description": "goddess who gives the deciding vote for Orestes"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive accused of killing his mother, acquitted"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "supreme god whose oracle supported Orestes"
+   },
+   {
+    "name": "Night",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "dark mother of the Furies, invoked by them"
+   },
+   {
+    "name": "Pheres",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man whose house Apollo once served"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Night",
+    "relation": "parent_of",
+    "b": "Chorus",
+    "source": "text",
+    "evidence_sentence": 22
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pallas",
+    "canonical": "Athena",
+    "explanation": "Pallas is an epithet of Athena."
+   },
+   {
+    "alias": "Phoebus",
+    "canonical": "Apollo",
+    "explanation": "Phoebus is an epithet of Apollo."
+   },
+   {
+    "alias": "Loxias",
+    "canonical": "Apollo",
+    "explanation": "Loxias is a title of Apollo as god of oracles."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Athena explains her vote: no mother bore her, so she favours the father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "reason": "The tie acquits Orestes, founding the principle that a tied vote favours the accused.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows vengeance giving way to law, as a human court replaces the old blood-feud. The Furies' anger shows the cost of that change.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The trial presents the origin of the Areopagus court and flatters Athens, with the Argive alliance of the 460s BC in view.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The tied vote favouring the accused became known as the 'vote of Athena', a traditional principle that a tie acquits."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Oresteia won first prize at the Athenian festival of Dionysus in 458 BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Apollo served Admetus, son of Pheres, and tricked the Fates (by making them drunk) into letting Admetus escape death if someone died in his place.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "A votary is a devoted worshipper or suppliant; here Orestes, who has sought Apollo's protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Dispensations of eld\" means the ancient allotments of power and order set by the old goddesses, the Fates, in ages past.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Cast in thy suit\" means losing your lawsuit; \"anon\" means soon; \"no whit\" means not at all.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Wroth\" means angry; the Chorus hesitates over whether to unleash its wrath on Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The tie goes to the accused, a rule traditionally credited to Athena's casting vote, later called Athena's vote.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "\"Perish by the noose\" means death by hanging, the penalty Orestes fears if the jury condemns him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "\"Maintain our honours\" means keep their ancient privileges and worship, which the Furies fear losing if Orestes goes free.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"Restored the welfare of a house\" alludes to Orestes: a single vote can save the house of Atreus from ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "phrasing",
+    "text": "\"Stands acquitted\" is a legal formula; the equal count is treated as a verdict of not guilty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "Loxias is a title of Apollo, god of prophecy, who commanded Orestes to avenge his father. The 'third God' is Zeus the Saviour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "word",
+    "text": "Hellas is the Greek name for Greece; Argive means a citizen of Argos, Orestes' home city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "word",
+    "text": "Marches are border territories; 'embattled spear' means an armed, battle-ready force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "allusion",
+    "text": "The 'younger gods' are the Olympians, Apollo and Athena, set against the Furies' older, primal authority over blood-guilt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "word",
+    "text": "Canker means a spreading blight or disease that destroys plants and living things.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "phrasing",
+    "text": "The votes were equally divided, and by Athena's rule a tie acquits the accused. Hence she says the Furies were not defeated.",
+    "spoiler": false
+   },
+   {
+    "sentence": 59,
+    "kind": "word",
+    "text": "Burghers are citizens of a town; here, the Athenians who will honour the Furies.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 12,
+    "text": "Athena, as president of the court, holds the deciding vote if the jurors are split.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Athena was born from the head of Zeus, so she has no mother, which she cites to justify favouring the father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "The Furies are children of Night, so they appeal to her as their mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Athena had said earlier that she would cast her own vote for Orestes, so the tie becomes an acquittal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Pallas is another name for Athena, goddess of wisdom and patron of Athens. She cast the deciding vote that acquitted Orestes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "text": "Orestes leaves the stage after his trial on the Areopagus, the Athenian court. Argos later became Athens' ally.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "text": "The Furies are born of Night in this play; they pursue those who shed kindred blood.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "Allusion",
+    "text": "The Chorus turns Apollo's own past trickery against him, painting him as a habitual breaker of the old order.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "Irony",
+    "text": "Apollo taunts the losing Chorus, saying their venom will harm no enemy, and he scorns their threats while the result is still undecided.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "Characterization",
+    "text": "Athena's motherless birth explains her bias toward the male and father, making her judgment personal rather than neutral.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "apostrophe",
+    "text": "The Chorus calls on absent Night as witness, stressing their ancient, primal origin and their anxiety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "antithesis",
+    "text": "The stark choice between living and perishing conveys the tension of the moment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "aphorism",
+    "text": "Apollo states a general truth about error and a single vote, adding gravity and suspense just before the count.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "device": "foreshadowing",
+    "text": "Orestes' promise to act from the grave anticipates the lasting alliance between Argos and Athens, and links the myth to the audience's present.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "repetition",
+    "text": "'Venom, yea venom' repeats the word to convey the Furies' bitter, obsessive rage and the threat of poison.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "device": "metaphor",
+    "text": "Wrath becomes a canker blasting leaf and child, picturing the Furies' anger as a plague that makes the land infertile.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "device": "characterization",
+    "text": "Athena's short, calm reassurance shows her as a diplomatic peacemaker, in contrast to the Chorus's anguished outbursts.",
+    "spoiler": false
+   }
+  ]
+ }
+}

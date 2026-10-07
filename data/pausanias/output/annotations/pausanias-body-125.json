@@ -1,0 +1,374 @@
+{
+ "section_id": "pausanias-body-125",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10268,
+  "output": 3514
+ },
+ "result": {
+  "summary": "Aristomenes is captured by Demeter's festival-keeping women at Ægila but escapes. At The Great Trench the Lacedæmonians bribe the Arcadian king Aristocrates, who leads his troops in flight and causes a Messenian defeat. Aristomenes then gathers survivors on mount Eira, where they hold out for eleven years.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Aristomenes captured at Ægila",
+    "summary": "Messenians raid women celebrating Demeter's festival at Ægila. The women drive them off and capture Aristomenes, who escapes with the priestess Archidamea's help.",
+    "stakes": "Aristomenes risks captivity and death at the hands of the Lacedæmonians.",
+    "present": [
+     "Aristomenes",
+     "Archidamea",
+     "Demeter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ægila",
+     "modern_name": "Near Kythira area, Laconia",
+     "certainty": "traditional",
+     "lat": 36.9,
+     "lon": 22.4
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 13,
+    "title": "Bribery and its retribution",
+    "summary": "The Lacedæmonians bribe Aristocrates. Pausanias notes later bribes at Ægos-potamoi and compares Sparta's later Persian-funded troubles to the Retribution of Neoptolemus.",
+    "stakes": "Spartan honour in arms is lost, and later divine retribution follows.",
+    "present": [
+     "Aristocrates",
+     "Neoptolemus",
+     "Agesilaus",
+     "Adimantus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "The Great Trench",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 24,
+    "title": "Arcadian treachery at the Trench",
+    "summary": "Aristocrates frightens the Arcadians, then leads them in flight, exposing the Messenians. The Lacedæmonians slaughter them and several leaders fall.",
+    "stakes": "The Messenians face destruction and loss of their country through betrayal.",
+    "present": [
+     "Aristocrates",
+     "Aristomenes",
+     "Androcles",
+     "Phintas",
+     "Phanas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The Great Trench",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 30,
+    "title": "Siege of mount Eira",
+    "summary": "Aristomenes moves the survivors to mount Eira, where they endure a long siege. Pausanias cites Rhianus on its length.",
+    "stakes": "The Messenians risk starvation and conquest under siege.",
+    "present": [
+     "Aristomenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Eira",
+     "modern_name": "Ithome area, Messenia (traditional)",
+     "certainty": "traditional",
+     "lat": 37.18,
+     "lon": 21.92
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian leader and commander"
+   },
+   {
+    "name": "Archidamea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "priestess of Demeter who freed Aristomenes"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess honoured at Ægila"
+   },
+   {
+    "name": "Aristocrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian king and general, son of Icetas, who took a bribe"
+   },
+   {
+    "name": "Icetas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aristocrates"
+   },
+   {
+    "name": "Neoptolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Achilles, slain at Delphi"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Neoptolemus"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king slain at the altar by Neoptolemus"
+   },
+   {
+    "name": "Agesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king who conquered much of Asia Minor"
+   },
+   {
+    "name": "Adimantus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian admiral bribed at Ægos-potamoi"
+   },
+   {
+    "name": "Androcles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian leader killed in battle"
+   },
+   {
+    "name": "Phintas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian leader killed in battle"
+   },
+   {
+    "name": "Phanas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brave Messenian, Olympic double-course victor"
+   },
+   {
+    "name": "Rhianus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet quoted on the war"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Icetas",
+    "relation": "parent_of",
+    "b": "Aristocrates",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Neoptolemus",
+    "source": "text",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Household Zeus",
+    "canonical": "Zeus",
+    "explanation": "Epithet of Zeus as protector of the household, whose altar Priam was slain at."
+   },
+   {
+    "alias": "Lacedæmonians",
+    "canonical": "Spartans",
+    "explanation": "Pausanias' usual name for the Spartans."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Pausanias claims Sparta first bought victory with bribes, a pointed moral judgement.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias stresses that dishonourable victory by bribery brings divine retribution, linking Spartan treachery to later downfall.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage ties the Second Messenian War to later events like Ægos-potamoi and the Corinthian War, and cites the poet Rhianus as a source.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias relies on the poet Rhianus of Crete for the war's length, and notes his unusual word for summers.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "The women, 'inspired by the goddess', fight in a divine frenzy; the Messenians are wounded by the women's sacrificial knives and roasting spits.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "'Had the guilt of letting him escape' means she was blamed for it; 'old sweetheart' means a former lover.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "'Lacedæmonians' is the usual name for the Spartans, after their region Lacedæmon (Laconia).",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Ægos-potamoi (405 BC) was the battle that ended the Peloponnesian War with Athens' fleet destroyed; Pausanias says Athenian admirals were bribed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The Retribution of Neoptolemus is a proverbial phrase for suffering the same wrong one has done to another.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "'The Mede' means the Persian king; the Corinthian war (395-387 BC) was stirred up by Persian money against Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Consternation\" means alarm or dismay; \"straits\" here means a tight, dangerous position with no room to maneuver.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Auspicious\" means favourable; the omens from the sacrificed animals were read as unfavourable, giving a religious excuse for flight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "\"Covenant-breakers\" are those who violate a sworn agreement; the Messenians accuse the Arcadians of betraying their alliance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "The \"double course\" (diaulos) was an Olympic footrace of two stadium lengths, so Phanas was a recognized Olympic champion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "Rhianus' verse counts years by \"summers and winters\"; the poem speaks of twenty-two seasons, which Pausanias reads as eleven years.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "Pausanias explains that the Greek word for \"summers\" can also mean ripe grass, so the poet's counting by seasons is why the total doubles.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Demeter was the goddess of grain and harvest; women's festivals in her honour were common in Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Neoptolemus, son of Achilles, killed old King Priam at Troy's altar of Zeus; he was later killed at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Agesilaus was a Spartan king who campaigned in Asia Minor against Persia until recalled to Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Andania was an inland Messenian town and an early royal seat; Mount Eira was a defensible highland refuge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Rhianus was a Hellenistic poet who wrote an epic on the Messenian wars, which Pausanias uses as a source.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "irony",
+    "text": "The great warrior Aristomenes is overcome by women using torches, a humble domestic weapon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "allusion",
+    "text": "Myth is used as a pattern for history: a killer's own fate becomes a name for just retribution.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "narrative voice",
+    "text": "Pausanias moralizes, presenting divine justice as the explanation for Sparta's later troubles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "irony",
+    "text": "Aristocrates completes his treason by running straight through the very allies he betrays, making the betrayal brazen and visible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "irony",
+    "text": "The Messenians who expected to enslave the Lacedæmonians now barely hope to survive, a sharp reversal of their expectations.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "narrative voice",
+    "text": "The plain, compressed statement of eleven years of siege shows Pausanias' chronicle manner, moving quickly over long suffering.",
+    "spoiler": false
+   }
+  ]
+ }
+}

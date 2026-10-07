@@ -1,0 +1,486 @@
+{
+ "section_id": "apollodorus-body-17",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8473,
+  "output": 3755
+ },
+ "result": {
+  "summary": "Hercules is denied Iole, then kills Iphitus in a fit of madness and is struck with disease. After a clash with Apollo at Delphi he is sold to Omphale, and later sacks Troy, giving Hesione to Telamon.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "The archery contest for Iole",
+    "summary": "Hercules wins the contest at Oechalia but is refused Iole, though Iphitus supports him.",
+    "stakes": "Hercules stands to lose a bride and his honour.",
+    "present": [
+     "Hercules",
+     "Eurytus",
+     "Iole",
+     "Iphitus",
+     "Megara",
+     "Iolaus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Oechalia",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 4,
+    "title": "Murder of Iphitus",
+    "summary": "Iphitus seeks Hercules' help over stolen cattle, and Hercules in madness throws him from the walls of Tiryns.",
+    "stakes": "Iphitus risks his life; Hercules risks guilt for murder.",
+    "present": [
+     "Iphitus",
+     "Hercules",
+     "Eurytus",
+     "Autolycus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tiryns",
+     "modern_name": "Tiryns",
+     "certainty": "real",
+     "lat": 37.5997,
+     "lon": 22.7997
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 10,
+    "title": "Purification and Delphi",
+    "summary": "Refused by Neleus, Hercules is purified by Deiphobus, then tries to seize the Delphic tripod and fights Apollo until Zeus intervenes. The oracle orders him sold into slavery.",
+    "stakes": "Hercules suffers disease and risks divine punishment.",
+    "present": [
+     "Hercules",
+     "Neleus",
+     "Deiphobus",
+     "Apollo",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 15,
+    "title": "Servitude to Omphale",
+    "summary": "Sold by Hermes to Omphale, Hercules performs deeds, including killing Syleus, burying Icarus and being tricked by Daedalus' statue.",
+    "stakes": "Hercules must serve as a slave to cure his disease.",
+    "present": [
+     "Hercules",
+     "Hermes",
+     "Omphale",
+     "Eurytus",
+     "Syleus",
+     "Xenodoce",
+     "Icarus",
+     "Daedalus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lydia",
+     "modern_name": "western Turkey",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 28.0
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 24,
+    "title": "Sack of Troy",
+    "summary": "Hercules sails against Laomedon, takes Ilium, rewards Telamon with Hesione, and Podarces is ransomed as Priam.",
+    "stakes": "Laomedon's city and family face destruction; Telamon risks Hercules' jealous wrath.",
+    "present": [
+     "Hercules",
+     "Oicles",
+     "Laomedon",
+     "Telamon",
+     "Hesione",
+     "Podarces",
+     "Priam"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ilium",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.9575,
+     "lon": 26.2389
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero afflicted by madness and disease"
+   },
+   {
+    "name": "Megara",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hercules' wife, given to Iolaus"
+   },
+   {
+    "name": "Iolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "receives Megara"
+   },
+   {
+    "name": "Eurytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "prince of Oechalia, father of Iole"
+   },
+   {
+    "name": "Iole",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Eurytus"
+   },
+   {
+    "name": "Iphitus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "eldest son of Eurytus, killed by Hercules"
+   },
+   {
+    "name": "Autolycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "cattle thief"
+   },
+   {
+    "name": "Alcestis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman rescued from death"
+   },
+   {
+    "name": "Admetus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alcestis' husband"
+   },
+   {
+    "name": "Neleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "prince of the Pylians"
+   },
+   {
+    "name": "Deiphobus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hippolytus, purifies Hercules"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "fights Hercules at Delphi"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "parts the fighters with a thunderbolt"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "sells Hercules"
+   },
+   {
+    "name": "Omphale",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "queen of Lydia who buys Hercules"
+   },
+   {
+    "name": "Iardanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Omphale"
+   },
+   {
+    "name": "Tmolus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Omphale's late husband"
+   },
+   {
+    "name": "Syleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man in Aulis who forced strangers to dig"
+   },
+   {
+    "name": "Xenodoce",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Syleus"
+   },
+   {
+    "name": "Icarus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "drowned man buried by Hercules"
+   },
+   {
+    "name": "Daedalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "craftsman who made a statue"
+   },
+   {
+    "name": "Oicles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "guard of the ships, killed"
+   },
+   {
+    "name": "Laomedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Troy"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first to enter Troy"
+   },
+   {
+    "name": "Hesione",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Laomedon"
+   },
+   {
+    "name": "Podarces",
+    "aliases": [
+     "Priam"
+    ],
+    "kind": "mortal",
+    "description": "Hesione's brother, renamed Priam"
+   },
+   {
+    "name": "Priam",
+    "aliases": [
+     "Podarces"
+    ],
+    "kind": "mortal",
+    "description": "later name of Podarces"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Eurytus",
+    "relation": "parent_of",
+    "b": "Iole",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Eurytus",
+    "relation": "parent_of",
+    "b": "Iphitus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Iardanes",
+    "relation": "parent_of",
+    "b": "Omphale",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Tmolus",
+    "relation": "spouse_of",
+    "b": "Omphale",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Laomedon",
+    "relation": "parent_of",
+    "b": "Hesione",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Laomedon",
+    "relation": "parent_of",
+    "b": "Podarces",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Hesione",
+    "relation": "sibling_of",
+    "b": "Podarces",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "outside",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Hippolytus",
+    "relation": "parent_of",
+    "b": "Deiphobus",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Priam",
+    "canonical": "Podarces",
+    "explanation": "Podarces got the name Priam, from the Greek for 'to ransom', after Hesione ransomed him."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 21,
+    "reason": "Telamon cleverly averts Hercules' jealous rage by flattering him.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Hercules' violence leads to guilt, disease and slavery, showing that even heroes must atone for killing, especially breaking guest-friendship.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage links Hercules to many places and heroes, stitching local legends into one Greek mythic timeline.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Hercules serving Omphale, often shown in cross-dressing, became a favourite subject in Renaissance and Baroque art."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Library is attributed to Apollodorus but was probably written in the first or second century AD.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Vanquish himself and his sons\" means defeat Eurytus and his sons; the contest was set so that Hercules had to beat the host's whole family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Kine\" is an archaic plural for cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Was fain to\" means was eager or willing to, here with the sense of being driven to do something.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "The tripod was the seat of the Pythian priestess at Delphi; seizing it meant claiming the power to give oracles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "The Cercopes were mischievous thieves who plagued travellers; the myth is told in more detail elsewhere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Telamon's trick works because an altar to Hercules as victor flatters him; the stones are what he pretends to be gathering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "The name Priam is explained by a Greek verb meaning \"to buy\" (priamai), making the ransom the origin of the name.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Hercules had earlier killed his own children in a fit of madness, which is why Eurytus fears for any future offspring.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Pylos was the kingdom of Neleus, father of Nestor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Omphale, queen of Lydia, is the mistress in the best-known story of Hercules' servitude.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Ilium is another name for Troy. Hercules attacks Laomedon, who had earlier cheated him of a promised reward.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "irony",
+    "text": "Iphitus trusted Hercules as a friend and is killed by him as a guest, a grim reversal of hospitality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "The great hero, famed for strength, is fooled by a statue and attacks a lifeless image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "characterization",
+    "text": "Hercules' jealous readiness to attack an ally shows his violent pride and touchy honour.",
+    "spoiler": false
+   }
+  ]
+ }
+}

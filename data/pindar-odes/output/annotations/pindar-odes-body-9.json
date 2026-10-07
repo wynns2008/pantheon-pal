@@ -1,0 +1,532 @@
+{
+ "section_id": "pindar-odes-body-9",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10781,
+  "output": 4634
+ },
+ "result": {
+  "summary": "Pindar celebrates Epharmostos of Opous, an Olympic wrestling victor, and praises Opous and its Lokrian origins. He recounts Deukalion and Pyrrha, the birth of Lokros's line, and Patroklos's descent from Menoitios, then lists Epharmostos' other victories.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Editor's introduction",
+    "summary": "A note on the uncertain date and the victory song of Archilochos sung at Olympia.",
+    "stakes": "",
+    "present": [
+     "Epharmostos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 13,
+    "title": "Call to praise Opous",
+    "summary": "Pindar bids the singer praise Zeus, Elis and Opous, then turns from tales of gods fighting to the city founded by Deukalion and Pyrrha.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Pelops",
+     "Herakles",
+     "Poseidon",
+     "Phoibos",
+     "Hades",
+     "Pyrrha",
+     "Deukalion",
+     "Themis",
+     "Eunomia"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Opous",
+     "modern_name": "Opous, near Atalanti",
+     "certainty": "real",
+     "lat": 38.65,
+     "lon": 23.0
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 19,
+    "title": "Flood and Lokrian ancestry",
+    "summary": "After the flood the first people arise, and Zeus fathers Opous on the daughter of Opöeis, giving Lokros a son. Menoitios is honoured, and Patroklos stands by Achilles.",
+    "stakes": "Lokros risks dying childless.",
+    "present": [
+     "Zeus",
+     "Lokros",
+     "Menoitios",
+     "Patroklos",
+     "Achilles",
+     "Telephos"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mainalos",
+     "modern_name": "Mount Maenalus, Arcadia",
+     "certainty": "real",
+     "lat": 37.65,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 30,
+    "title": "Epharmostos' victories",
+    "summary": "Pindar lists the athlete's wins across Greece, reflects on natural talent, and tells that Epharmostos has crowned Aias' altar.",
+    "stakes": "",
+    "present": [
+     "Epharmostos",
+     "Lampromachos",
+     "Aias Oileus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Opous",
+     "modern_name": "Opous, near Atalanti",
+     "certainty": "real",
+     "lat": 38.65,
+     "lon": 23.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Epharmostos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wrestler of Opous, Olympic victor"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Olympian Lord"
+    ],
+    "kind": "god",
+    "description": "King of gods, father of Lokros's son"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lydian hero who won Elis as Hippodameia's dower"
+   },
+   {
+    "name": "Hippodameia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Bride of Pelops"
+   },
+   {
+    "name": "Themis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who favours Opous"
+   },
+   {
+    "name": "Eunomia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Daughter of Themis, the Preserver"
+   },
+   {
+    "name": "Herakles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero who fought gods at Pylos"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with trident, fought Herakles"
+   },
+   {
+    "name": "Phoibos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Archer god who fought Herakles"
+   },
+   {
+    "name": "Hades",
+    "aliases": [],
+    "kind": "god",
+    "description": "Lord of the dead"
+   },
+   {
+    "name": "Deukalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Flood survivor who made people from stones"
+   },
+   {
+    "name": "Pyrrha",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Deukalion"
+   },
+   {
+    "name": "Lokros",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of the Lokrians, childless"
+   },
+   {
+    "name": "Menoitios",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Aktor and Aigina, honoured settler"
+   },
+   {
+    "name": "Aktor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Menoitios"
+   },
+   {
+    "name": "Aigina",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Menoitios"
+   },
+   {
+    "name": "Patroklos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Menoitios, friend of Achilles"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [
+     "son of Thetis"
+    ],
+    "kind": "mortal",
+    "description": "Greek hero at Troy"
+   },
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Mother of Achilles"
+   },
+   {
+    "name": "Telephos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Routed the Danaoi"
+   },
+   {
+    "name": "Lampromachos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Isthmian victor, Pindar's friend"
+   },
+   {
+    "name": "Aias Oileus",
+    "aliases": [
+     "Oilean Alas"
+    ],
+    "kind": "mortal",
+    "description": "Lokrian hero with an altar"
+   },
+   {
+    "name": "Archilochos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet of the victory strain"
+   },
+   {
+    "name": "Opöeis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of the woman Zeus loved"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Themis",
+    "relation": "parent_of",
+    "b": "Eunomia",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Menoitios",
+    "relation": "parent_of",
+    "b": "Patroklos",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Aktor",
+    "relation": "parent_of",
+    "b": "Menoitios",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Aigina",
+    "relation": "parent_of",
+    "b": "Menoitios",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Thetis",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Deukalion",
+    "relation": "spouse_of",
+    "b": "Pyrrha",
+    "source": "outside",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Pelops",
+    "relation": "spouse_of",
+    "b": "Hippodameia",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Oilean Alas",
+    "canonical": "Aias Oileus",
+    "explanation": "Aias son of Oileus, the Lokrian hero."
+   },
+   {
+    "alias": "son of Thetis",
+    "canonical": "Achilles",
+    "explanation": "Patronymic-style description of Achilles."
+   },
+   {
+    "alias": "Olympian Lord",
+    "canonical": "Zeus",
+    "explanation": "Title of Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Pindar rejects myths of gods fighting: speaking evil of gods is hateful wisdom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "reason": "Expresses Pindar's belief in inborn talent over learning.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Innate excellence given by the gods, shown through Epharmostos and Lokrian heroic ancestry, runs through the ode.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pindar edits myth morally, refusing stories of gods fighting, and links a victor's city to heroic origins.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Archilochos refrain 'tenella kallinike' was the traditional victory chant at Olympia.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Tutelar\" means guardian or protecting; Aias Oileus (Ajax son of Oileus) was the Lokrians' patron hero, honoured with an altar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The transliterated Greek is Archilochos' refrain: \"Hail, glorious victor, lord Herakles, you and Iolaos, two warriors; tenella, glorious victor.\" \"Tenella\" imitates a lyre's sound.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Pelops won Hippodameia by defeating her father in a chariot race; Elis, home of Olympia, was said to be his domain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Pythoward\" means toward Pytho, i.e. Delphi; the arrow of song is aimed at Apollo's realm, since Pindar's words must not \"fall to the ground\" and fail.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Kastalia is the spring at Delphi (Pythian Games) and Alpheos the river at Olympia; victories at both places are meant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Refers to a myth in which Herakles fought Poseidon, Apollo and Hades at Pylos; Pindar then rejects the tale as impious.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "After the flood, Deukalion and Pyrrha threw stones that became people; Greek laos (people) puns on laas (stone).",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Kronidai\" means sons of Kronos; here it refers to the mighty kings descended from the old divine line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Called him by the name of his mother's father\": the child is named Opous, after Opöeis, the grandfather, which also names the city Opous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Telephos, king of Mysia, drove the Greeks back to their ships; Patroklos' stand there is an episode outside Homer's Iliad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "\"Danaoi\" is a name for the Greeks, as are \"Atreidai\", the sons of Atreus (Agamemnon and Menelaos).",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "\"Warm antidote of cold winds\" is a riddling phrase for the woollen cloak given as the prize at Pellene.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Iolaos' tomb was at Thebes, where games were held; Eleusis held games for Demeter. Both are further victory sites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "\"Oilean Alas\" is Ajax son of Oileus, the Lokrian hero, not the greater Aias, son of Telamon.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Epharmostos of Opous was a wrestler who won at Olympia; an impromptu victory chant, often Archilochos' refrain, was customary on the night of the win.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Themis (Right) and her daughter Eunomia (Good Order) are goddesses of lawful order, here credited with sustaining Opous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Protogeneia, \"firstborn,\" is here the primal city or its ancestral figure, tied to Deukalion's people and to Opous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "This is the Greek flood myth of Deukalion and Pyrrha, after which people were made from stones.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Mainalos is a mountain in Arcadia. Zeus (Jove) is often shown seducing mortal women in secret places.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Lampromachos was a relative of Epharmostos. The Isthmian games were held near Corinth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Marathon held games honouring Herakles, with silver vessels as prizes; the boys' and men's wrestling classes were separate.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "metaphor",
+    "text": "Praise is imagined as darts shot from the Muses' far-reaching bow, contrasting Pindar's artful song with the plain chant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "simile",
+    "text": "Pindar compares the speed of his song's message to a high-bred horse or winged ship, boasting of its fame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "apostrophe",
+    "text": "Pindar addresses his own mouth, breaking off the myth in a self-correcting turn that shows his religious reverence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "metaphor",
+    "text": "Songs become flowers and the song a clear gale; the old-wine contrast favors fresh poetry while acknowledging tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "digression",
+    "text": "Pindar moves from Lokrian settlers to Patroklos' courage, tying the mythic past to the Opountian hero Epharmostos by shared valour and companionship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "metaphor",
+    "text": "The poet's song becomes a chariot of the Muses, a common Pindaric image for his poetic journey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "imagery",
+    "text": "Vivid sound and sight, the shouting and the beautiful youth running the ring, make the victory immediate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "gnomic statement",
+    "text": "A maxim asserts that natural ability outranks training, expressing Pindar's aristocratic view of excellence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "apostrophe",
+    "text": "Pindar turns to address an unnamed listener, urging them to proclaim the victor's divine gifts and celebrate him.",
+    "spoiler": false
+   }
+  ]
+ }
+}

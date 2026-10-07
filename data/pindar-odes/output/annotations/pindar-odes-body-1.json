@@ -1,0 +1,451 @@
+{
+ "section_id": "pindar-odes-body-1",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11283,
+  "output": 4025
+ },
+ "result": {
+  "summary": "Pindar praises the Olympic games and Hieron of Syracuse, whose horse Pherenikos won the race in 472 B.C. He retells the myth of Pelops, rejecting the cannibal tale, and ends by hoping for further glory for Hieron and himself.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Editorial introduction",
+    "summary": "A note explains the ode's place at the head of the collection, its date, and its likely performance.",
+    "stakes": "",
+    "present": [
+     "Hieron"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Syracuse",
+     "modern_name": "Syracuse, Sicily",
+     "certainty": "real",
+     "lat": 37.0755,
+     "lon": 15.2866
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 9,
+    "title": "Praise of Olympia and Hieron",
+    "summary": "Pindar says the Olympic games are the greatest, praises Hieron and his horse Pherenikos, and introduces Pelops, warning against false tales.",
+    "stakes": "",
+    "present": [
+     "Hieron",
+     "Pherenikos",
+     "Pelops",
+     "Poseidon",
+     "Klotho"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Syracuse",
+     "modern_name": "Syracuse, Sicily",
+     "certainty": "real",
+     "lat": 37.0755,
+     "lon": 15.2866
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 16,
+    "title": "Pelops taken; Tantalos punished",
+    "summary": "Poseidon carries off Pelops to Olympus; neighbours spread a cannibal tale, which Pindar rejects. Tantalos is punished for stealing nectar and ambrosia, and Pelops is sent back to earth.",
+    "stakes": "Tantalos risks the gods' wrath; Pelops is cast back among mortals.",
+    "present": [
+     "Pelops",
+     "Tantalos",
+     "Poseidon",
+     "Zeus",
+     "Ganymede"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mount Sipylos",
+     "modern_name": "Mount Spil, Turkey",
+     "certainty": "traditional",
+     "lat": 38.57,
+     "lon": 27.4
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 24,
+    "title": "Pelops wins Hippodameia",
+    "summary": "Pelops prays to Poseidon on the shore, receives a golden chariot and winged horses, defeats Oinomaos and wins Hippodameia. He is honoured at his tomb by Olympia.",
+    "stakes": "Pelops risks death like Oinomaos' thirteen earlier suitors.",
+    "present": [
+     "Pelops",
+     "Poseidon",
+     "Oinomaos",
+     "Hippodameia"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pisa and Elis",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 31,
+    "title": "Pindar's closing wishes",
+    "summary": "Pindar promises Hieron more song, says kings reach the highest greatness, and hopes to be friend of winners.",
+    "stakes": "",
+    "present": [
+     "Hieron"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Syracuse",
+     "modern_name": "Syracuse, Sicily",
+     "certainty": "real",
+     "lat": 37.0755,
+     "lon": 15.2866
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hieron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Syracuse, victor at Olympia with his horse"
+   },
+   {
+    "name": "Pherenikos",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Hieron's victorious race horse"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Tantalos, founder of the Olympic games"
+   },
+   {
+    "name": "Tantalos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Pelops, punished for stealing the gods' food"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Bright Trident",
+     "Wielder of the Trident"
+    ],
+    "kind": "god",
+    "description": "Sea god who loved Pelops and aided him"
+   },
+   {
+    "name": "Klotho",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Fate who took Pelops from the cauldron"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Father"
+    ],
+    "kind": "god",
+    "description": "King of the gods, hangs a stone over Tantalos"
+   },
+   {
+    "name": "Ganymede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Youth later taken to Olympus"
+   },
+   {
+    "name": "Oinomaos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Pisan king who killed thirteen suitors of his daughter"
+   },
+   {
+    "name": "Hippodameia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Oinomaos, bride of Pelops"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Tantalos",
+    "relation": "parent_of",
+    "b": "Pelops",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Oinomaos",
+    "relation": "parent_of",
+    "b": "Hippodameia",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Pelops",
+    "relation": "spouse_of",
+    "b": "Hippodameia",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Pelops",
+    "relation": "parent_of",
+    "b": "Pelops",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Poseidon",
+    "relation": "lover_of",
+    "b": "Pelops",
+    "source": "text",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Bright Trident",
+    "canonical": "Poseidon",
+    "explanation": "Epithet of Poseidon from his trident."
+   },
+   {
+    "alias": "Father",
+    "canonical": "Zeus",
+    "explanation": "Zeus as father of gods and men; he is also called son of Kronos."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Famous opening: water is best, gold shines like fire, and Olympia outshines all games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "reason": "Pindar refuses to believe gods could be cannibals, reshaping the myth morally.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "reason": "Pelops' bold argument for risking danger rather than living a nameless life.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode links Hieron's victory to Pelops, founder of the games, presenting glory won through daring and divine favour.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pindar composed victory odes for wealthy patrons like Hieron, whose praise advertised tyrants' prestige in the Greek world.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Its opening line about water being best became a well-known motto, even carved on spa buildings."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Aristophanes of Byzantium's edition placed this ode first, which is why it opens the Pindaric collection.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Fain\" means willing or desirous; \"fain art, O my soul, to tell\" means you wish to tell of the games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Take from the peg the Dorian lute\" means take down the lyre from where it hangs, calling the poet to begin singing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Klotho, one of the three Fates, lifted Pelops from the cauldron of purification, and his shoulder was replaced with ivory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Charis is Grace, the divine power of charm and beauty that makes poetry persuasive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"He of the Bright Trident\" is Poseidon, named by his emblem rather than his name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Ganymede was a beautiful Trojan boy carried off by Zeus to serve as cupbearer to the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Could not digest\" is figurative: Tantalos could not handle his great good fortune and was ruined by excess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "The \"other three\" are other famous sinners punished in the underworld. The note does not name them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "The down shading his cheek means the first beard of adolescence; Pelops is just reaching manhood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "\"Wielder of the Trident\" is a title for Poseidon, god of the sea, who carries a three-pronged spear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "\"Gifts of the Cyprian goddess\" means Aphrodite's gifts of love; Pelops appeals to Poseidon's past love for him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Forasmuch as\" means \"since\"; \"without lot in noble deeds\" means having no share in glorious action.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Pelops' tomb at Olympia received blood-offerings as a hero cult, and the games' courses bear his name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "\"Aeolian mood\" refers to the Aeolian musical mode, one of the Greek modes in which Pindar says he composes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The hill of Kronos is the hill beside Olympia, where the games were held.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Aristophanes of Byzantium was an Alexandrian scholar who edited Pindar's odes and arranged them in the order that survives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Hieron was tyrant of Syracuse in Sicily, a wealthy patron of poets. Here Pindar praises him as a just ruler.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Pherenikos (\"Victory-bringer\") was Hieron's racehorse. Pisa is the district of Olympia, where the Alpheos river flows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "This is the older cannibal myth: Tantalos was said to have served his son Pelops to the gods as a meal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Pelops invokes Poseidon at night by the sea, as in older stories where the god had loved him and lifted him to Olympus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Oinomaos challenged each suitor of his daughter to a chariot race and killed the losers, so Pelops risks death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "The Alpheos is the river flowing by Olympia, where the games were held.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "simile",
+    "text": "Pindar compares the Olympic games to the sun, brighter than any star by day, and water and gold are likewise ranked best.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "gnomic statement",
+    "text": "A short moral maxim states the poet's principle: speak of gods respectfully.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "metaphor",
+    "text": "Digesting good fortune treats prosperity as food that Tantalos cannot handle, linking to his crime of stolen feast.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "moral reflection",
+    "text": "The poet turns Tantalos's story into a general warning that no one can deceive the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "rhetorical question",
+    "text": "Pelops argues that since death is certain, obscure safety is worthless, which justifies his daring.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "aetiology",
+    "text": "The myth explains the origin of Olympia's hero cult and games, linking Pelops' triumph to present victors' reward.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "metaphor",
+    "text": "Song is imagined as a winged dart or arrow stored in reserve, hinting at greater poems to come.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "apostrophe",
+    "text": "Pindar closes by addressing Hieron directly, blending blessing with a wish for his own poetic fame.",
+    "spoiler": false
+   }
+  ]
+ }
+}

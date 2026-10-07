@@ -1,0 +1,536 @@
+{
+ "section_id": "pindar-odes-body-33",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11776,
+  "output": 4964
+ },
+ "result": {
+  "summary": "Pindar praises Sogenes of Aigina, a victor in the pentathlon at Nemea, beginning with a prayer to Eileithuia. He discusses poetry's power to preserve fame, defends himself against the charge of slighting Neoptolemos, and ends with a prayer to Herakles for Sogenes' house.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Editorial introduction",
+    "summary": "A note gives the probable date and says the ode is full of obscure allusions, including a defence of Pindar over Neoptolemos.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 9,
+    "title": "Prayer to Eileithuia and song",
+    "summary": "Pindar invokes Eileithuia, goddess of childbirth, credits her for Sogenes' victory, and says song gives deeds lasting fame.",
+    "stakes": "Great deeds fall into darkness if no song records them.",
+    "present": [
+     "Eileithuia",
+     "Sogenes",
+     "Mnemosyne"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.74,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 13,
+    "title": "Odysseus, Homer and Aias",
+    "summary": "Pindar suspects Homer made Odysseus' fame exceed his deeds, while Aias killed himself over the arms of Achilles.",
+    "stakes": "Aias lost his life through the blindness of men's judgment.",
+    "present": [
+     "Odysseus",
+     "Homer",
+     "Aias"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.96,
+     "lon": 26.24
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 18,
+    "title": "Death of Neoptolemos at Pytho",
+    "summary": "Neoptolemos, after Troy and a spell as king in Molossia, is killed at Delphi in a quarrel over meat and becomes guardian of the sanctuary.",
+    "stakes": "Neoptolemos is killed at Delphi.",
+    "present": [
+     "Neoptolemos"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pytho",
+     "modern_name": "Delphi, Greece",
+     "certainty": "real",
+     "lat": 38.48,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 30,
+    "title": "Human lot and Pindar's defence",
+    "summary": "Pindar praises Aigina and Thearion, says perfect bliss is impossible for men, and defends the honesty of his praise.",
+    "stakes": "Pindar's reputation against the charge of slander.",
+    "present": [
+     "Pindar",
+     "Thearion",
+     "Sogenes",
+     "Aigina"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.74,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 31,
+    "end_sentence": 36,
+    "title": "Hymn to Zeus and Herakles",
+    "summary": "Pindar honours Zeus, Aiakos and Herakles, prays for Sogenes' family, and denies having wronged Neoptolemos.",
+    "stakes": "Pindar's good name regarding Neoptolemos.",
+    "present": [
+     "Zeus",
+     "Aiakos",
+     "Herakles",
+     "Sogenes",
+     "Neoptolemos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Nemea",
+     "modern_name": "Nemea, Greece",
+     "certainty": "real",
+     "lat": 37.81,
+     "lon": 22.71
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Eileithuia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of childbirth, child of Hera"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Eileithuia, husband of Zeus"
+   },
+   {
+    "name": "Hebe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sister of Eileithuia"
+   },
+   {
+    "name": "Sogenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aiginetan victor, son of Thearion"
+   },
+   {
+    "name": "Thearion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Sogenes"
+   },
+   {
+    "name": "Mnemosyne",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Memory, who grants fame through verse"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero whose fame Homer enlarged"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who sang of Odysseus"
+   },
+   {
+    "name": "Aias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who killed himself in anger over the arms"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "best warrior at Troy, father of Neoptolemos"
+   },
+   {
+    "name": "Menelaos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "fair-haired king whose bride was won back"
+   },
+   {
+    "name": "Neoptolemos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Achilles, killed at Delphi, king in Molossia"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of gods, father of Aiakos"
+   },
+   {
+    "name": "Aiakos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Aigina, son of Zeus"
+   },
+   {
+    "name": "Herakles",
+    "aliases": [],
+    "kind": "god",
+    "description": "conqueror of giants, friend of Aiakos' line"
+   },
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the poet speaking"
+   },
+   {
+    "name": "Aigina",
+    "aliases": [],
+    "kind": "place",
+    "description": "island city addressed as mother of heroes"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Troy"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hera",
+    "relation": "parent_of",
+    "b": "Eileithuia",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Eileithuia",
+    "relation": "sibling_of",
+    "b": "Hebe",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Thearion",
+    "relation": "parent_of",
+    "b": "Sogenes",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Aiakos",
+    "source": "text",
+    "evidence_sentence": 31
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "text",
+    "evidence_sentence": 33
+   },
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Neoptolemos",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pytho",
+    "canonical": "Delphi",
+    "explanation": "Pytho is the older name of Delphi, seat of Apollo's oracle."
+   },
+   {
+    "alias": "the grey-eyed maid",
+    "canonical": "Athena",
+    "explanation": "Epithet for Athena, not named in this translation."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Pindar states that deeds need song to escape darkness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "reason": "Memorable statement that perfect bliss is impossible for mortals.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Poetry confers lasting fame on deeds, but Pindar warns that praise must be truthful and that human fortune is always limited.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The ode shows Aigina's pride in the Aiakidai and the political sensitivity of Pindar's relation to Delphi and Neoptolemos' cult.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Pindar's doubt that Homer inflated Odysseus' fame is an early example of Greek criticism of poetic reputation."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Neoptolemos' tomb at Delphi was a hero cult site, which explains Pindar's concern with how he portrayed him.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Moirai are the Fates; \"hearken\" means listen, and \"thou\" and \"sittest\" are archaic second-person forms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Hebe, goddess of youth, is called Eileithuia's sister; to come \"unto\" her means to reach youthful vigour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Not all for a like life\": humans are given breath but not equal fortunes; each is bound to a separate portion by fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The \"five-game prize\" is the pentathlon, the five-event contest in which Sogenes won.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The sons of Aiakos are the Aiginetans, whose legendary ancestor Aiakos was king of Aigina; \"fain\" means eager.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Mnemosyne is Memory, mother of the Muses; her \"shining fillet\" is a bright headband.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "The shipmates' wisdom is to wait patiently for a fair wind and not squander goods out of greed; the point is moderation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Odysseus' \"winged craft\" refers to his cunning tales in Homer; \"feigning\" means invention, so Pindar suspects exaggeration.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Aias killed himself after the arms of Achilles went to Odysseus; Menelaos' bride was Helen, and Ilos' town is Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The \"centre-stone\" is the omphalos at Delphi, so Pindar speaks of those who have gone to Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Pytho is the older name for Delphi, site of Apollo's oracle and sanctuary. Danaoi is Homer's name for the Greeks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Missed Skyros\": storms drove his ships off course, so he never reached the island and instead went overland and by sea to Epirus (Ephyra, Molossia).",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"Entertainers of strangers\" means hosts, the Delphians who welcomed visitors. \"Sons of Aiakos\" means descendants of Aiakos; Neoptolemos was his great-grandson.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "A proxeny was the office of a public friend and host of a foreign city. Pindar was proxenos of Aigina's friends, so he trusts the goodwill of his hosts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The javelin image: the ode is thrown as a cast that stays within the line. The wrestler's \"sweatless\" neck suggests praise that comes before exertion or hardship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "allusion",
+    "text": "Gold, ivory and a lily from the sea suggest precious materials in the poet's garland of song; the \"deep sea's dew\" evokes Aigina's island setting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "The \"conqueror of the giants\" is Herakles, who fought beside the gods against the giants. Sogenes' house stands near his shrines.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "The proverb \"Korinthos son of Zeus\" mocked tedious repetition of a stale boast. Pindar says he will not retell the same tale.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Neoptolemos, son of Achilles, was said to have been killed at Delphi; Pindar's treatment of this episode had apparently offended Aiginetans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Eileithuia was the goddess who presided over childbirth and was thought to help women in labour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Aias (Ajax) was a great Greek warrior at Troy, second only to Achilles in strength, and killed himself out of anger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Neoptolemos, son of Achilles, brought Trojan spoils to Apollo's shrine. Other accounts of his death at Delphi differ, and Pindar gives his own version.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Aigina, a nymph and island, was loved by Zeus and bore Aiakos. The Aiakidai were its heroic family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Thearion is the father of Sogenes, the victorious boy athlete honoured by this ode.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Nemea hosted games for Zeus. Aiakos, Zeus's son, ruled Aigina, and his descendants Peleus and Telamon were friends of Herakles.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "apostrophe",
+    "text": "Pindar addresses the goddess directly in the opening prayer, giving the ode a solemn, ritual tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "metaphor",
+    "text": "Song is a stream and a mirror: it flows from the Muses and reflects noble deeds so they are not lost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "irony",
+    "text": "Pindar, himself a poet, suspects the persuasive power of poetry, noting that Homer's art can make fame outweigh deeds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "metaphor",
+    "text": "Death is a wave that falls on everyone, famed or unknown, which stresses that only fame distinguishes them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "gnomic statement",
+    "text": "Pindar states a general truth about human limits, a maxim that tempers praise of Sogenes with reminder of mortality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "simile",
+    "text": "Praise is compared to streams of water, as refreshing and flowing freely to the worthy, while slander is kept away.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "metaphor",
+    "text": "His swift words are likened to a bronze-headed javelin, giving the song force and accuracy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "simile",
+    "text": "The house standing among Herakles' shrines is compared to a four-horse team, with a shrine on each side, suggesting balance and divine protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "apostrophe",
+    "text": "Pindar speaks directly to Herakles as a blessed spirit, turning the ode into prayer.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,286 @@
+{
+ "section_id": "pausanias-body-355",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7910,
+  "output": 2563
+ },
+ "result": {
+  "summary": "Pausanias travels from Stiris to Ambrosus, describing the kermes dye insect and Ambrosus's Theban walls. He then goes on to Anticyra, noting its history, its hellebore, and its temples, statues and tombs.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Road to Ambrosus and the coccus",
+    "summary": "The road from Stiris to Ambrosus crosses a plain of vines and brambles. Pausanias describes the coccus, whose grubs yield a dye.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Plain between Stiris and Ambrosus",
+     "modern_name": "Plain near Distomo, Boeotia/Phocis",
+     "certainty": "real",
+     "lat": 38.43,
+     "lon": 22.67
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 10,
+    "title": "Ambrosus and its walls",
+    "summary": "Ambrosus lies under Parnassus. The Thebans fortified it with a double wall in the war against Philip.",
+    "stakes": "The town's defence against Philip and the Macedonians.",
+    "present": [
+     "Ambrosus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ambrosus",
+     "modern_name": "Desfina area, Phocis",
+     "certainty": "real",
+     "lat": 38.45,
+     "lon": 22.55
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 17,
+    "title": "Road to Anticyra and its history",
+    "summary": "Pausanias passes the temple of Artemis and reaches Anticyra, recounting its old name, its expulsions and its hellebore.",
+    "stakes": "The town's survival, since it was twice expelled for its loyalties.",
+    "present": [
+     "Artemis",
+     "Anticyreus",
+     "Hercules",
+     "Philip son of Amyntas",
+     "Otilius",
+     "Philip son of Demetrius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Anticyra",
+     "modern_name": "Antikyra, Greece",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 22.63
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 23,
+    "title": "Monuments of Anticyra",
+    "summary": "Pausanias describes the temple of Poseidon, the gymnasiums with the statue of Xenodamus, the conduit and the tomb of the sons of Iphitus.",
+    "stakes": "",
+    "present": [
+     "Poseidon",
+     "Xenodamus",
+     "Schedius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Anticyra",
+     "modern_name": "Antikyra, Greece",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 22.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ambrosus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero after whom the town is said to be named"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Dictynnæan Artemis"
+    ],
+    "kind": "goddess",
+    "description": "goddess honoured at Ambrosus"
+   },
+   {
+    "name": "Anticyreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "contemporary of Hercules who gave Anticyra its name"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, contemporary of Anticyreus"
+   },
+   {
+    "name": "Philip son of Amyntas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king who expelled the people of Anticyra"
+   },
+   {
+    "name": "Otilius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman who expelled the people of Anticyra"
+   },
+   {
+    "name": "Philip son of Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king whom the Anticyrans supported"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god with a temple at Anticyra"
+   },
+   {
+    "name": "Xenodamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Anticyran pancratium victor at Olympia"
+   },
+   {
+    "name": "Schedius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Iphitus who died in the Troad"
+   },
+   {
+    "name": "Iphitus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Schedius and his brother"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Iphitus",
+    "relation": "parent_of",
+    "b": "Schedius",
+    "source": "text",
+    "evidence_sentence": 23
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Dictynnæan Artemis",
+    "canonical": "Artemis",
+    "explanation": "A cult title of Artemis."
+   },
+   {
+    "alias": "Cyparissus",
+    "canonical": "Anticyra",
+    "explanation": "The old name of the town of Anticyra."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias combines practical detail, such as dyes and medicinal plants, with local history and monuments, as in his guidebook method throughout.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage records Macedonian and Roman interventions in Phocis, showing how Hellenistic and Roman wars shaped Greek towns.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Anticyra's hellebore made it proverbial in antiquity as a cure for madness; the saying 'sail to Anticyra' meant someone was mad."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The coccus described is the kermes insect, a source of scarlet dye; the English word 'crimson' derives from its name via Arabic.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "The coccus is the kermes oak, whose insects yield scarlet dye; \"Galati\" are the Galatians, Celts settled in Asia Minor above Phrygia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Its blood\" means the grub's red body fluid, which was used as dye, not literal blood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "A fathom is about six feet; the stated wall thickness seems small beside the height, but is as the text gives it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Homer's Catalogue of ships in the Iliad lists Phocian towns, including Cyparissus, which Pausanias takes to be the later Anticyra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "An emetic induces vomiting; a purgative clears the bowels. Hellebore was a famous ancient drug.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "The Eleans struck the 211th Olympiad from their records, because Nero's contest there was irregular; so Xenodamus's victory would be unrecorded.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 7,
+    "text": "Philip II of Macedon defeated Thebes and Athens at Chaeronea in 338 BC; the Thebans fortified Phocian towns against him earlier.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Dictynnæan Artemis was a Cretan-linked form of the goddess, associated with nets and hunting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Otilius is the Roman commander in the war against Philip V of Macedon, around 200 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "The pancratium was a brutal combination of wrestling and boxing with few rules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Schedius and his brother led the Phocian contingent at Troy in the Iliad.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "characterization",
+    "text": "The plain, unadorned walls reflect the Thebans' urgency, showing function over display.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "imagery",
+    "text": "Pausanias gives a precise visual picture of the statue's pose, with the dolphin and trident marking Poseidon.",
+    "spoiler": false
+   }
+  ]
+ }
+}

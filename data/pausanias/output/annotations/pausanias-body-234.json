@@ -1,0 +1,391 @@
+{
+ "section_id": "pausanias-body-234",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8541,
+  "output": 3435
+ },
+ "result": {
+  "summary": "Pausanias describes the road from Mantinea to Tegea, noting the racecourses, Mount Alesium and the temple of Poseidon Hippius with its legends. He then describes the Mantinean trophy for the battle against Agis and the Lacedaemonians, and closes with a tale of an ancient stag.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Road from Mantinea to Tegea",
+    "summary": "Pausanias lists the sights on the road to Tegea: the horse course, the Antinous games course, Mount Alesium and its grove of Demeter.",
+    "stakes": "",
+    "present": [
+     "Rhea",
+     "Demeter",
+     "Poseidon Hippius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mantinea",
+     "modern_name": "Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 10,
+    "title": "Temple of Poseidon Hippius",
+    "summary": "Hadrian rebuilt the temple around the old one built by Agamedes and Trophonius. Æpytus broke the woollen thread, was blinded by sea water and died; Pausanias compares other inland sea-water wonders.",
+    "stakes": "Æpytus risks the god's anger by entering the forbidden temple, and loses his sight and life.",
+    "present": [
+     "Adrian",
+     "Agamedes",
+     "Trophonius",
+     "Æpytus",
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Temple of Poseidon Hippius",
+     "modern_name": "near Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 25,
+    "title": "Battle against Agis",
+    "summary": "The trophy commemorates a Mantinean and Arcadian victory over the Lacedaemonians. Aratus' feigned retreat drew Agis into a crescent and he was killed; Mantineans credited Poseidon.",
+    "stakes": "The Mantineans and Arcadians risk defeat by Sparta; Agis risks his army and life.",
+    "present": [
+     "Agis",
+     "Podares",
+     "Thrasybulus",
+     "Lydiades",
+     "Leocydes",
+     "Aratus",
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mantinea",
+     "modern_name": "Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 28,
+    "title": "Arcesilaus and the old stag",
+    "summary": "Leocydes' ancestor Arcesilaus was said to have seen a very old stag wearing a collar from the Trojan War era. Pausanias concludes that stags outlive elephants.",
+    "stakes": "",
+    "present": [
+     "Arcesilaus",
+     "Leocydes",
+     "Proserpine",
+     "Agapenor"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lycosura",
+     "modern_name": "Lykosoura, Arcadia",
+     "certainty": "real",
+     "lat": 37.36,
+     "lon": 22.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose wanderings gave Mount Alesium its name"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a grove on Mount Alesium"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Poseidon Hippius"
+    ],
+    "kind": "god",
+    "description": "sea god worshipped at Mantinea, credited with aiding the Mantineans"
+   },
+   {
+    "name": "Adrian",
+    "aliases": [
+     "the Emperor Adrian"
+    ],
+    "kind": "mortal",
+    "description": "emperor who rebuilt the temple of Poseidon"
+   },
+   {
+    "name": "Agamedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "legendary builder of the original temple"
+   },
+   {
+    "name": "Trophonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "legendary builder of the original temple"
+   },
+   {
+    "name": "Æpytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hippothous, blinded for entering the temple"
+   },
+   {
+    "name": "Hippothous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Æpytus"
+   },
+   {
+    "name": "Agis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Eudamidas, killed in battle"
+   },
+   {
+    "name": "Eudamidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Agis"
+   },
+   {
+    "name": "Podares",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mantinean commander"
+   },
+   {
+    "name": "Thrasybulus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean seer of the Iamidae who prophesied victory"
+   },
+   {
+    "name": "Æneas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Thrasybulus"
+   },
+   {
+    "name": "Lydiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Megalopolitan general"
+   },
+   {
+    "name": "Leocydes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Megalopolitan general, descendant of Arcesilaus"
+   },
+   {
+    "name": "Aratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "commander of Sicyonians and Achaeans in the centre"
+   },
+   {
+    "name": "Arcesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man of Lycosura who saw the old stag"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess to whom the stag was sacred"
+   },
+   {
+    "name": "Agapenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian leader who went to Ilium"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god credited with destroying the Galati at Delphi"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hippothous",
+    "relation": "parent_of",
+    "b": "Æpytus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Eudamidas",
+    "relation": "parent_of",
+    "b": "Agis",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Æneas",
+    "relation": "parent_of",
+    "b": "Thrasybulus",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Adrian",
+    "canonical": "Hadrian",
+    "explanation": "The Roman emperor Hadrian, spelled Adrian in this translation."
+   },
+   {
+    "alias": "Proserpine",
+    "canonical": "Persephone",
+    "explanation": "Roman name for the Greek goddess Persephone."
+   },
+   {
+    "alias": "Poseidon Hippius",
+    "canonical": "Poseidon",
+    "explanation": "Epithet meaning Poseidon of horses."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 27,
+    "reason": "The collar inscription of the ancient stag is a memorable tale of supposed longevity.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends monuments, local tradition and cautious reporting, stressing divine presence in sacred places and in war.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The rebuilding of the temple by Hadrian shows Roman imperial patronage of Greek sanctuaries in the second century AD; the battle recalls the Achaean League's conflicts with Sparta in the third century BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The games for Antinous honoured Hadrian's favourite, who drowned in the Nile in AD 130 and was deified.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Games to Antinous: Antinous was the emperor Hadrian's favourite, deified after drowning in the Nile; games were instituted in his honour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Alesium is linked to the 'wanderings' (Greek ale) of Rhea, mother of the gods, searching for her child; a folk etymology.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Adrian is this translation's spelling of the emperor Hadrian, who ruled 117–138 AD.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "A stade was a Greek length of roughly 180–200 metres, so 20 stades is about four kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "Fell back according to preconcerted arrangement: the retreat was a planned feint, not a real rout.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "_En masse_ is French for 'all together', used here for the whole body charging at once.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "The Galati (Gauls) invaded Greece in 279 BC and were said to have been routed at Delphi with supernatural help.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Agapenor was the Arcadian leader at Troy, so the collar would date the stag to the Trojan War era.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Agamedes and Trophonius were legendary architects, said to have built the temple of Apollo at Delphi as well.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "The earlier Podares fought against the Thebans, probably at the battle of Mantinea in 362 BC, where Epaminondas died.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "The Iamidae were a famous Elean family of seers, claiming descent from Iamus, a son of Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Agis IV of Sparta is meant here, the king killed in battle against the Arcadians and Achaeans.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "irony",
+    "text": "Sea water, from the very god he offended, blinds Æpytus; the punishment fits the god and the sacrilege.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "simile",
+    "text": "The retreating line is likened to the crescent shape of a bent bow, which becomes a trap.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "allusion",
+    "text": "Pausanias supports the divine-aid claim by citing Homer and Athenian poets, building authority through literary precedent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "irony",
+    "text": "The dry, matter-of-fact conclusion rests on a doubtful legend, showing Pausanias' habit of treating tradition as evidence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

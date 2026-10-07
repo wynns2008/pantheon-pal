@@ -1,0 +1,293 @@
+{
+ "section_id": "pausanias-body-321",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7580,
+  "output": 2461
+ },
+ "result": {
+  "summary": "Pausanias tells how the Phocians, fined by the Amphictyonic Council, seized Delphi under Philomelus and fought the Thebans in the Sacred War. Their successive leaders Philomelus, Onomarchus, Phayllus and Phalæcus all met bad ends.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "The fine and Philomelus's plan",
+    "summary": "After Platæa the Phocians are fined by the Amphictyonic Council. Philomelus urges them to seize the temple at Delphi.",
+    "stakes": "The Phocians face a fine they cannot pay.",
+    "present": [
+     "Philomelus",
+     "Phocians"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Phocis",
+     "modern_name": "Phocis, central Greece",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 10,
+    "title": "Seizure of Delphi and the war",
+    "summary": "The Phocians seize the temple and fight Thebans for ten years. Philomelus dies at Neon, and Onomarchus is beaten by Philip and killed by his own men.",
+    "stakes": "Philomelus and Onomarchus risk defeat and death in the war.",
+    "present": [
+     "Philomelus",
+     "Onomarchus",
+     "Philip",
+     "Phocians",
+     "Thebans"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.48,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 14,
+    "title": "Phayllus's dream",
+    "summary": "Phayllus dreams he is like the wasted bronze old man offered by Hippocrates, and dies of wasting disease.",
+    "stakes": "Phayllus's life.",
+    "present": [
+     "Phayllus",
+     "Hippocrates"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.48,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 16,
+    "title": "Phalæcus dies at Cydonia",
+    "summary": "Phalæcus is deposed for taking sacred money, then sails to Crete and dies besieging Cydonia.",
+    "stakes": "Phalæcus risks his army and life.",
+    "present": [
+     "Phalæcus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Cydonia",
+     "modern_name": "Chania, Crete",
+     "certainty": "real",
+     "lat": 35.51,
+     "lon": 24.02
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Philomelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phocian from Ledon who urged seizing Delphi"
+   },
+   {
+    "name": "Philotimus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Philomelus"
+   },
+   {
+    "name": "Onomarchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phocian commander after Philomelus"
+   },
+   {
+    "name": "Phayllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Onomarchus, Phocian commander"
+   },
+   {
+    "name": "Phalæcus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phayllus, deposed commander"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amyntas, ally of the Thebans"
+   },
+   {
+    "name": "Amyntas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Philip"
+   },
+   {
+    "name": "Hippocrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "doctor who dedicated the bronze figure"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of Delphi"
+   },
+   {
+    "name": "Phocians",
+    "aliases": [],
+    "kind": "other",
+    "description": "people of Phocis"
+   },
+   {
+    "name": "Thebans",
+    "aliases": [],
+    "kind": "other",
+    "description": "enemies of the Phocians"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Philotimus",
+    "relation": "parent_of",
+    "b": "Philomelus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Amyntas",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Onomarchus",
+    "relation": "sibling_of",
+    "b": "Phayllus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Phayllus",
+    "relation": "parent_of",
+    "b": "Phalæcus",
+    "source": "text",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Medes",
+    "canonical": "Persians",
+    "explanation": "The text uses Medes for the Persians."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Pausanias suggests the Phocians either were misled by the god or valued gain over piety.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Sacrilege against Delphi brings divine punishment: each Phocian leader dies badly, as Pausanias stresses.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "This is the Third Sacred War (356-346 BC), which let Philip II of Macedon enter Greek affairs.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "The Amphictyonic Council was a league of Greek peoples that oversaw the Delphic sanctuary and could punish offenders with fines.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "Dating by the Delphic President, the Athenian Archon and the Olympiad's victor was a Greek way of fixing a year; this corresponds to 356 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Hurling temple-robbers from a cliff recalls the Delphic punishment for sacrilege; the Council decreed this fate for the Phocian plunderers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Brass\" here translates the Greek word for bronze, the usual metal of statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Forthwith\" means immediately; the disease followed the dream at once.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Thebes was the Phocians' chief enemy, and Athens and Sparta (Lacedæmon) were potential allies; the seizure began the Third Sacred War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Philip, father of Alexander the Great, defeated Onomarchus in Thessaly in 352 BC, which increased Macedonian influence in Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Hippocrates, the famous physician of Cos, was regarded as the father of medicine.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "Narrative voice",
+    "text": "The narrator offers two possible explanations, divine delusion or greed, showing Pausanias's mix of piety and moral judgment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Irony",
+    "text": "Onomarchus is killed by his own men, and the narrator attributes it to divine will, as retribution for the temple's plunder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "Foreshadowing",
+    "text": "The dream of the wasted bronze man predicts Phayllus's fate; the fulfilment confirms it, as with many omens in Pausanias.",
+    "spoiler": false
+   }
+  ]
+ }
+}

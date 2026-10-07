@@ -1,0 +1,380 @@
+{
+ "section_id": "pausanias-body-52",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7797,
+  "output": 3145
+ },
+ "result": {
+  "summary": "Pausanias describes the old royal house in Sicyon and the hero-chapel of Aratus, then recounts Aratus's career: freeing Sicyon from tyrants, joining it to the Achaean league, and extending the league's power across the Peloponnese and beyond. The chapter ends by noting that even Aratus had to ally with the Macedonians.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "House of Cleon and Aratus' shrine",
+    "summary": "Pausanias notes that the imperial enclosure was once Cleon's house, and that before it stands a hero-chapel of Aratus.",
+    "stakes": "",
+    "present": [
+     "Cleon",
+     "Clisthenes",
+     "Aratus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sicyon",
+     "modern_name": "Sicyon, near Kiato",
+     "certainty": "real",
+     "lat": 37.9889,
+     "lon": 22.7167
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 8,
+    "title": "Aratus overthrows Nicocles",
+    "summary": "After a series of usurpers and tyrants, Aratus attacks Nicocles by night, takes the tyrant's house and restores the exiles.",
+    "stakes": "Aratus risks death in a night assault; Sicyon risks continued tyranny and civil strife.",
+    "present": [
+     "Aratus",
+     "Nicocles",
+     "Euthydemus",
+     "Timoclidas",
+     "Clinias",
+     "Abantidas",
+     "Pascas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sicyon",
+     "modern_name": "Sicyon, near Kiato",
+     "certainty": "real",
+     "lat": 37.9889,
+     "lon": 22.7167
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 18,
+    "title": "Aratus and the Achaean league",
+    "summary": "Aratus brings Sicyon into the Achaean league, wins Corinth from the Macedonians, and gains many cities. Yet he finally had to ally with the Macedonians.",
+    "stakes": "The Greeks risk domination by Macedonian garrisons and Sparta.",
+    "present": [
+     "Aratus",
+     "Antigonus",
+     "Persæus",
+     "Agis",
+     "Diogenes",
+     "Aristomachus",
+     "Ptolemy"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Corinth and the Peloponnese",
+     "modern_name": "Corinth",
+     "certainty": "real",
+     "lat": 37.9056,
+     "lon": 22.8786
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cleon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "former king of the upper city of Sicyon"
+   },
+   {
+    "name": "Clisthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Sicyonians in the lower city, son of Aristonymus"
+   },
+   {
+    "name": "Aristonymus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Clisthenes"
+   },
+   {
+    "name": "Myro",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aristonymus"
+   },
+   {
+    "name": "Aratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicyonian liberator and general of the Achaeans"
+   },
+   {
+    "name": "Euthydemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "usurper of power at Sicyon"
+   },
+   {
+    "name": "Timoclidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "usurper of power at Sicyon"
+   },
+   {
+    "name": "Clinias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Sicyon, father of Aratus"
+   },
+   {
+    "name": "Abantidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant of Sicyon killed by countrymen"
+   },
+   {
+    "name": "Pascas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Abantidas, briefly tyrant"
+   },
+   {
+    "name": "Nicocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant of Sicyon driven out by Aratus"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian regent for Philip"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Demetrius, Macedonian king"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Philip"
+   },
+   {
+    "name": "Persæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "head of the Corinth garrison, philosopher, killed in battle"
+   },
+   {
+    "name": "Zeno",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "philosopher, son of Mnaseas"
+   },
+   {
+    "name": "Mnaseas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Zeno"
+   },
+   {
+    "name": "Ptolemy",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler allied with the Achaeans"
+   },
+   {
+    "name": "Agis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Eudamidas"
+   },
+   {
+    "name": "Eudamidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Agis"
+   },
+   {
+    "name": "Diogenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian governor of Athenian forts, bribed to surrender"
+   },
+   {
+    "name": "Aristomachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Argos persuaded to join the league"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Aristonymus",
+    "relation": "parent_of",
+    "b": "Clisthenes",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Myro",
+    "relation": "parent_of",
+    "b": "Aristonymus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Clinias",
+    "relation": "parent_of",
+    "b": "Aratus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Pascas",
+    "relation": "parent_of",
+    "b": "Abantidas",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Demetrius",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Mnaseas",
+    "relation": "parent_of",
+    "b": "Zeno",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Eudamidas",
+    "relation": "parent_of",
+    "b": "Agis",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lacedæmonians",
+    "canonical": "Spartans",
+    "explanation": "The people of Sparta, called Lacedæmonians in this translation."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "A reflective remark that even Aratus's great success was undone by fortune.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage celebrates Aratus as a liberator and shows how fragile Greek freedom was, given shifting tyrants and foreign powers.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It reflects the third-century BC rise of the Achaean league as a federal alternative to Macedonian and Spartan dominance.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Aratus wrote Memoirs, which Plutarch and Polybius used for their accounts of him.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Clisthenes was an earlier Sicyonian ruler, a famous tyrant of the sixth century BC. The city was split between a lower and an upper part.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Isonomy means equality of political rights under the law, a term for moderate democratic government.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Regent for Philip\": Antigonus (Doson) ruled Macedon as guardian for the young Philip, son of Demetrius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Ptolemy here is the Egyptian king, who allied with the Achaean league as a counterweight to Macedon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Coup de main\" is a French phrase for a sudden surprise attack. \"Beforehand with them\" means they acted first.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "A talent was a large unit of weight in silver, used as a sum of money.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "A hero-chapel was a shrine where a revered dead person received cult honours like a hero. Sicyon honoured Aratus this way.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The Achaean league was a federation of Peloponnesian cities. Aratus made it a major power against Macedon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Persaeus was a Stoic philosopher, a pupil of Zeno, the founder of Stoicism, and commanded the Macedonian garrison at Corinth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Piraeus and Munychia were Athens' harbours; Salamis and Sunium were nearby strategic places. Macedon garrisoned them.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "metaphor",
+    "text": "\"Unbridled lust for power\" pictures ambition as a horse without a bridle, an uncontrolled force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "irony",
+    "text": "Aratus freed Greeks from Macedon, yet ended as its ally. The reversal shows the gap between achievement and final outcome.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "narrative voice",
+    "text": "This brief line works as a storyteller's pause, promising the explanation to follow.",
+    "spoiler": false
+   }
+  ]
+ }
+}

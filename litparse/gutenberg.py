@@ -2,9 +2,10 @@
 import re
 from dataclasses import dataclass
 
-# Matches "*** START OF THE PROJECT GUTENBERG EBOOK X ***" and the older "THIS" variant.
-START_RE = re.compile(r"^\*\*\* ?START OF (?:THE|THIS) PROJECT GUTENBERG EBOOK", re.I)
-END_RE = re.compile(r"^\*\*\* ?END OF (?:THE|THIS) PROJECT GUTENBERG EBOOK", re.I)
+# Matches "*** START OF THE PROJECT GUTENBERG EBOOK X ***" and the older "THIS" variant, and for a text from another
+# open source (python -m litparse.perseus) "*** START OF THIS TEXT ***".
+START_RE = re.compile(r"^\*\*\* ?START OF (?:THE|THIS) (?:PROJECT GUTENBERG EBOOK|TEXT)", re.I)
+END_RE = re.compile(r"^\*\*\* ?END OF (?:THE|THIS) (?:PROJECT GUTENBERG EBOOK|TEXT)", re.I)
 TITLE_RE = re.compile(r"^Title:\s*(.+?)\s*$")
 
 
@@ -30,7 +31,7 @@ def find_volumes(lines: list[str]) -> list[Volume]:
             volumes.append(Volume(start, i, title))
             start = None
     if not volumes:
-        raise ValueError("No Project Gutenberg START/END markers found; only Gutenberg texts are supported.")
+        raise ValueError("No START/END markers found; only Project Gutenberg texts (or texts made by litparse.perseus) are supported.")
     return volumes
 
 

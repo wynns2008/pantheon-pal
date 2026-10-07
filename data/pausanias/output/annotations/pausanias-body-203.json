@@ -1,0 +1,371 @@
+{
+ "section_id": "pausanias-body-203",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8056,
+  "output": 3073
+ },
+ "result": {
+  "summary": "Pausanias lists the twelve Achæan towns after the Ionians left and names the Achæan rulers, including the founding of Patræ. He then reviews Achæan military history, explaining their absence from the Persian wars and their later part in Greek wars, and describes the weakened state of the Greek powers in the age of the Galatian invasion.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Achæan towns and kings",
+    "summary": "The Achæans divide the land into twelve towns. Their kings, the sons of Tisamenus and others, rule, and Patræ is founded.",
+    "stakes": "",
+    "present": [
+     "Tisamenus",
+     "Däimenes",
+     "Sparton",
+     "Tellis",
+     "Leontomenes",
+     "Cometes",
+     "Damasias",
+     "Preugenes",
+     "Patreus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Achæa",
+     "modern_name": "Achaea, northern Peloponnese",
+     "certainty": "real",
+     "lat": 38.1,
+     "lon": 21.9
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 16,
+    "title": "Achæan wars and absences",
+    "summary": "Pausanias discusses the Achæans' role at Troy, their absence from the Persian wars, and their later part at Chæronea and Lamia.",
+    "stakes": "",
+    "present": [
+     "Agamemnon",
+     "Xerxes",
+     "Leonidas",
+     "Themistocles",
+     "Chilon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Greece",
+     "modern_name": "Greece",
+     "certainty": "real",
+     "lat": 38.0,
+     "lon": 23.0
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 24,
+    "title": "Adrastus and the Galatian era",
+    "summary": "Pausanias mentions the Lydian Adrastus and explains how the Peloponnesians overlooked Thermopylæ and how the leading Greek states were weakened.",
+    "stakes": "Greece lacks a leading state and faces barbarian invasion.",
+    "present": [
+     "Adrastus",
+     "Leonnatus",
+     "Alexander",
+     "Cassander"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Isthmus of Corinth",
+     "modern_name": "Isthmus of Corinth",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 22.99
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Tisamenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achæan king whose sons ruled the Achæans"
+   },
+   {
+    "name": "Däimenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Tisamenus"
+   },
+   {
+    "name": "Sparton",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Tisamenus"
+   },
+   {
+    "name": "Tellis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Tisamenus"
+   },
+   {
+    "name": "Leontomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Tisamenus"
+   },
+   {
+    "name": "Cometes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "eldest son of Tisamenus, who went to Asia Minor"
+   },
+   {
+    "name": "Damasias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Penthilus, Achæan ruler"
+   },
+   {
+    "name": "Penthilus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Orestes"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Penthilus"
+   },
+   {
+    "name": "Preugenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lacedæmonian who shared Achæan rule"
+   },
+   {
+    "name": "Patreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Preugenes, namesake of Patræ"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the expedition against Ilium"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king who invaded Greece"
+   },
+   {
+    "name": "Leonidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "defender of Thermopylæ"
+   },
+   {
+    "name": "Themistocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian commander in the sea-fights"
+   },
+   {
+    "name": "Chilon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achæan wrestler present at Lamia"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lydian who fought for the Greeks"
+   },
+   {
+    "name": "Leonnatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian commander Adrastus fought against"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "destroyer of Thebes"
+   },
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian who reduced Thebes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Tisamenus",
+    "relation": "parent_of",
+    "b": "Däimenes",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Tisamenus",
+    "relation": "parent_of",
+    "b": "Sparton",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Tisamenus",
+    "relation": "parent_of",
+    "b": "Tellis",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Tisamenus",
+    "relation": "parent_of",
+    "b": "Leontomenes",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Tisamenus",
+    "relation": "parent_of",
+    "b": "Cometes",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Penthilus",
+    "relation": "parent_of",
+    "b": "Damasias",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Orestes",
+    "relation": "parent_of",
+    "b": "Penthilus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Tisamenus",
+    "relation": "sibling_of",
+    "b": "Damasias",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Preugenes",
+    "relation": "parent_of",
+    "b": "Patreus",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Medes",
+    "canonical": "Persians",
+    "explanation": "Greek writers often called the Persians Medes."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias defends the Achæans' absence from the Persian wars as prudence and pride, and traces the decline of Greek leadership.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows Greek city histories shaped by local pride and by the later Macedonian and Galatian threats.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias cites the inscribed base of the Zeus statue at Olympia as evidence, a sign of his habit of using monuments as sources.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Refers to a bronze Zeus at Olympia, dedicated from the Platæa spoils, whose base listed the Greek states that fought.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Custos Rotulorum\" is a Latin phrase (keeper of the rolls) the translator uses for the local official who kept Patræ's records.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Leonnatus was a Macedonian general of Alexander who died in the Lamian War (323 BC), fighting the Greeks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Galati\" is Pausanias' name for the Gauls (Galatians), who invaded Greece in 279 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Got somewhere or other\" means Pausanias does not know where the Gauls obtained their ships.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Alexander destroyed Thebes in 335 BC; Cassander later refounded it in 316 BC, after it had again fallen to him.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Tisamenus was a son of Orestes; his sons ruled the Achæans after the Heraclidæ drove them from the Peloponnese's southern parts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Xerxes' invasion of 480 BC led to Thermopylæ, Artemisium off Eubœa and Salamis, where the Greeks resisted the Medes (Persians).",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "The battle of Lamia (323 BC) was the Greek revolt against Macedon after Alexander's death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Sparta's defeat at Leuctra (371 BC) by Thebes ended its dominance and led to Megalopolis and Messene's independence.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "characterization",
+    "text": "Pausanias offers his own conjecture, showing the Achæans as proud and independent, unwilling to follow Dorian leadership.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "irony",
+    "text": "Athenian fame wins universal goodwill yet gives no protection, a bitter contrast between reputation and power.",
+    "spoiler": false
+   }
+  ]
+ }
+}

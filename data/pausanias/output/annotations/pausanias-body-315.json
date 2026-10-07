@@ -1,0 +1,379 @@
+{
+ "section_id": "pausanias-body-315",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7499,
+  "output": 3324
+ },
+ "result": {
+  "summary": "Pausanias traces the Minyan kings of Orchomenus from Clymenus to Erginus, who fights Thebes, is beaten by Hercules, and late in life fathers Trophonius and Agamedes. The two build Delphi's temple and a treasury for Hyrieus, rob it, and meet a bad end. The chapter closes with Orchomenus's later decline.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Clymenus, Erginus and Thebes",
+    "summary": "Clymenus inherits the kingdom and is killed by Thebans. His son Erginus wins tribute from Thebes, but Hercules ends it and Erginus makes peace.",
+    "stakes": "Orchomenus's power and independence against Thebes and Hercules.",
+    "present": [
+     "Clymenus",
+     "Erginus",
+     "Hercules"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Orchomenus and Thebes",
+     "modern_name": "Orchomenos, Boeotia",
+     "certainty": "real",
+     "lat": 38.4903,
+     "lon": 22.9772
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 9,
+    "title": "Erginus consults the oracle",
+    "summary": "Old and rich, Erginus asks Delphi about children and is told to take a young wife. He fathers Trophonius and Agamedes, though Trophonius is said to be Apollo's son.",
+    "stakes": "Erginus risks dying without an heir.",
+    "present": [
+     "Erginus",
+     "Trophonius",
+     "Agamedes",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 14,
+    "title": "The treasury of Hyrieus",
+    "summary": "The brothers build temples and a treasury with a movable stone and steal from it. Agamedes is trapped, Trophonius beheads him, and the earth swallows Trophonius at Lebadea.",
+    "stakes": "Exposure and punishment for theft; Trophonius is lost.",
+    "present": [
+     "Trophonius",
+     "Agamedes",
+     "Hyrieus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lebadea",
+     "modern_name": "Livadeia",
+     "certainty": "real",
+     "lat": 38.4361,
+     "lon": 22.8736
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 17,
+    "title": "Later Orchomenian history",
+    "summary": "Ascalaphus and Ialmenus lead the Minyae to Troy. Orchomenians later settle in Ionia and are restored by Philip, yet their power keeps declining.",
+    "stakes": "Orchomenus's waning power.",
+    "present": [
+     "Ascalaphus",
+     "Ialmenus",
+     "Astyoche",
+     "Philip"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Orchomenus",
+     "modern_name": "Orchomenos, Boeotia",
+     "certainty": "real",
+     "lat": 38.4903,
+     "lon": 22.9772
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Clymenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Orchomenus, killed by Thebans"
+   },
+   {
+    "name": "Erginus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eldest son of Clymenus, king who fought Thebes"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban hero who ended the tribute"
+   },
+   {
+    "name": "Trophonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Builder, son of Erginus or Apollo, swallowed by the earth"
+   },
+   {
+    "name": "Agamedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Builder, brother of Trophonius, killed in the trap"
+   },
+   {
+    "name": "Hyrieus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Owner of the robbed treasury"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with a temple at Delphi, said to father Trophonius"
+   },
+   {
+    "name": "Ascalaphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Orchomenian leader at Troy"
+   },
+   {
+    "name": "Ialmenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Orchomenian leader at Troy"
+   },
+   {
+    "name": "Astyoche",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Azeus, mother of Ascalaphus and Ialmenus"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "God reputed father of Ascalaphus and Ialmenus"
+   },
+   {
+    "name": "Azeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Youngest son of Clymenus"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Amyntas, restored the Orchomenians"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Clymenus",
+    "relation": "parent_of",
+    "b": "Erginus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Clymenus",
+    "relation": "parent_of",
+    "b": "Azeus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Erginus",
+    "relation": "parent_of",
+    "b": "Trophonius",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Erginus",
+    "relation": "parent_of",
+    "b": "Agamedes",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Trophonius",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Ares",
+    "relation": "parent_of",
+    "b": "Ascalaphus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Ares",
+    "relation": "parent_of",
+    "b": "Ialmenus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Astyoche",
+    "relation": "parent_of",
+    "b": "Ascalaphus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Azeus",
+    "relation": "parent_of",
+    "b": "Astyoche",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Erginus",
+    "relation": "sibling_of",
+    "b": "Azeus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Trophonius",
+    "relation": "sibling_of",
+    "b": "Agamedes",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Minyæ",
+    "canonical": "Orchomenians",
+    "explanation": "The Minyae are the old people of Orchomenus, used interchangeably with Orchomenians."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "The oracle's riddling advice to an aged man, telling him to take a young wife.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The chapter shows the decline of a once great house, with oracles and divine will shaping fate and cutting short human ambition.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias blends legend with later history, from Troy to Philip of Macedon, to explain Orchomenus's fall from power.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The tale of Trophonius and Agamedes resembles the Greek story of a thief-builder with a hidden stone, later compared to the story of Rhampsinitus in Herodotus."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Trophonius had a famous oracle at Lebadea, where consultants descended into a cave.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Devolved upon\" means the kingship passed to Clymenus by succession, since Orchomenus, the last of Almus's line, left no heir.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Forthwith\" means immediately; the \"tax\" is tribute paid as compensation for killing Clymenus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Remitted\" means cancelled. Hercules ended the Thebans' obligation to pay.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "The oracle speaks in metaphor: the \"old plough\" is Erginus himself, and the \"new top\" is a young wife, a standard oracular riddle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Filching\" means stealing small amounts; \"privy to\" means sharing secret knowledge of.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The Minyae joined the Greek expedition against Troy; the \"[75]\" is the editor's footnote marker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The expedition to Ionia refers to the Greek colonization of Asia Minor's coast, traditionally led by sons of Codrus, an Athenian king.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Onchestus in Boeotia had a famous sanctuary of Poseidon, where festivals gathered people from nearby cities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Delphi's oracle of Apollo spoke through the Pythian Priestess, and was consulted by Greeks on private and public matters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Trophonius became a god of an oracle at Lebadea, where consultants descended into an underground chamber.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Philip, son of Amyntas, is Philip II of Macedon, who restored Orchomenus after Thebes destroyed it.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "metaphor",
+    "text": "The plough image turns the old man's marriage and fathering of children into farming, giving the oracle's advice a blunt, earthy wit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "Trophonius kills his own brother to protect himself, so the theft that was meant to enrich them destroys their bond.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "foreshadowing",
+    "text": "The closing remark of divine decline sums up the city's fate, suggesting a pattern beyond human control despite Philip's restoration.",
+    "spoiler": false
+   }
+  ]
+ }
+}

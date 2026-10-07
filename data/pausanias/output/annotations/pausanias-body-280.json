@@ -1,0 +1,351 @@
+{
+ "section_id": "pausanias-body-280",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7608,
+  "output": 3072
+ },
+ "result": {
+  "summary": "Pausanias describes the road through the Platæan district past ruined Hysiæ and Erythræ and the tomb of Mardonius. He then notes sites on the road from Megara, including Actæon's rock, before describing Platæa's war tombs, the altar of Zeus Eleutherius, the Eleutheria festival, and the temple of Hera with its statues.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Hysiæ, Erythræ and Mardonius' tomb",
+    "summary": "Off the high road lie the ruins of Hysiæ and Erythræ with a half-finished temple and a prophetic well. Nearby is the supposed tomb of Mardonius.",
+    "stakes": "",
+    "present": [
+     "Mardonius",
+     "Artontes",
+     "Dionysophanes",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Platæan district near Mount Cithæron",
+     "modern_name": "Plataea, Boeotia",
+     "certainty": "real",
+     "lat": 38.2,
+     "lon": 23.27
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 10,
+    "title": "Road from Megara: Actæon and Cithæron",
+    "summary": "Pausanias notes the spring and rock linked to Actæon and disputes Stesichorus' version of his death. He mentions Pentheus and Œdipus on Cithæron.",
+    "stakes": "Actæon is torn apart by his own dogs.",
+    "present": [
+     "Actæon",
+     "Artemis",
+     "Stesichorus",
+     "Pentheus",
+     "Œdipus",
+     "Semele",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Road from Megara to Platæa, Mount Cithæron",
+     "modern_name": "Mount Kithairon",
+     "certainty": "traditional",
+     "lat": 38.2,
+     "lon": 23.2
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 18,
+    "title": "Platæa's tombs and Eleutheria",
+    "summary": "The tombs of those who fell against the Medes, the altar of Zeus Eleutherius, the festival and the trophy are described, as is the chapel of Platæa.",
+    "stakes": "",
+    "present": [
+     "Simonides",
+     "Zeus Eleutherius",
+     "Platæa"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Platæa",
+     "modern_name": "Plataea, Boeotia",
+     "certainty": "real",
+     "lat": 38.21,
+     "lon": 23.27
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 23,
+    "title": "Temple of Hera at Platæa",
+    "summary": "The temple holds statues of Rhea with the stone, Hera Full-Grown by Praxiteles, and a seated Hera by Callimachus called The Bride.",
+    "stakes": "",
+    "present": [
+     "Hera",
+     "Rhea",
+     "Cronos",
+     "Praxiteles",
+     "Callimachus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Hera, Platæa",
+     "modern_name": "Plataea, Boeotia",
+     "certainty": "real",
+     "lat": 38.21,
+     "lon": 23.27
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Mardonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian general whose tomb is shown"
+   },
+   {
+    "name": "Artontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Mardonius who rewarded those who buried his father"
+   },
+   {
+    "name": "Dionysophanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ephesian given gifts for burying Mardonius"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a half-finished temple at Hysiæ"
+   },
+   {
+    "name": "Actæon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hunter killed by his dogs"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess seen bathing by Actæon"
+   },
+   {
+    "name": "Stesichorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet of Himera"
+   },
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman Actæon was said to wish to marry"
+   },
+   {
+    "name": "Pentheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Echion who met his fate on Cithæron"
+   },
+   {
+    "name": "Echion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pentheus"
+   },
+   {
+    "name": "Œdipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "exposed at birth, later slew his father"
+   },
+   {
+    "name": "Zeus Eleutherius",
+    "aliases": [
+     "Zeus"
+    ],
+    "kind": "god",
+    "description": "Zeus of Freedom with altar and statue at Platæa"
+   },
+   {
+    "name": "Simonides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who wrote the epitaph"
+   },
+   {
+    "name": "Platæa",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "heroine with a chapel in the town"
+   },
+   {
+    "name": "Hera",
+    "aliases": [
+     "Full-Grown",
+     "The Bride"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a temple at Platæa"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "shown carrying the stone to Cronos"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "receives the swaddled stone"
+   },
+   {
+    "name": "Praxiteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the standing statues"
+   },
+   {
+    "name": "Callimachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the seated Hera"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Mardonius",
+    "relation": "parent_of",
+    "b": "Artontes",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Echion",
+    "relation": "parent_of",
+    "b": "Pentheus",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Zeus Eleutherius",
+    "canonical": "Zeus",
+    "explanation": "Eleutherius means 'of Freedom', a cult title of Zeus."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends myth, history and art, weighing conflicting traditions with his own rational judgment, as with Actæon's dogs.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Platæa monuments and the Eleutheria festival commemorated the Greek victory over Persia in 479 BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Eleutheria festival at Platæa honored the Greeks who died in the Persian War and was held for centuries.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Holy Well\" refers to a spring where drinking was believed to grant prophetic powers; Pausanias distances himself from the belief with \"if we may believe\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Mardonius was the Persian general killed at Platæa in 479 BC; his missing body is why his burial was disputed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Stesichorus said Artemis disguised Actæon in a deerskin so his dogs would kill him, because he sought to marry Semele, Zeus's beloved; Pausanias rejects this.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Elegiac lines\" are verses in elegiac couplets, the usual metre for epitaphs. Simonides was a famous Greek lyric poet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180 metres, so about 2.7 km.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Rhea tricked her husband Cronos, who swallowed his children, by giving him a stone wrapped as a baby in place of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Pentelican marble is fine white marble quarried on Mount Pentelicus near Athens.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Actæon was a hunter who, in myth, saw Artemis bathing and was punished by being destroyed by his own hounds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Pentheus, king of Thebes, was torn apart on Cithæron for resisting Dionysus. Œdipus was exposed there as an infant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The Eleutheria festival, \"of freedom,\" commemorated the Greek victory over the Persians at Platæa in 479 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Hera Full-Grown (Teleia) honoured Hera as the fulfilled, married goddess.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "rationalization",
+    "text": "Pausanias replaces divine intervention with a natural explanation, madness in the dogs, showing his sceptical, historian's voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "allusion",
+    "text": "Brief references to Pentheus and Œdipus evoke famous tragic myths tied to Cithæron, giving the landscape mythic weight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "foreshadowing",
+    "text": "Ending on \"for the following reason\" promises an explanation of the epithet, drawing the reader into the next account.",
+    "spoiler": false
+   }
+  ]
+ }
+}

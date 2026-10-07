@@ -1,0 +1,652 @@
+{
+ "section_id": "pausanias-body-97",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10448,
+  "output": 5226
+ },
+ "result": {
+  "summary": "Pausanias walks through Sparta, listing hero-chapels, tombs and temples. He recounts Hercules' quarrel with Hippocoon and his sons, and describes odd statues of Enyalius in fetters and Aphrodite in fetters.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Hero-chapels near Platanistas",
+    "summary": "Pausanias lists the chapels of Cynisca and the sons of Hippocoon, the tomb of Alcman, and the temples of Helen and Hercules.",
+    "stakes": "",
+    "present": [
+     "Cynisca",
+     "Alcimus",
+     "Enaræphorus",
+     "Dorceus",
+     "Sebrus",
+     "Alcman",
+     "Helen",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Platanistas, Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 13,
+    "title": "Hercules against Hippocoon",
+    "summary": "Hercules' feud with Hippocoon's sons arises from their refusal to cleanse him and from the killing of Œonus. After his vengeance he builds a temple to Athene.",
+    "stakes": "Œonus is killed; Hercules risks defeat and wounds in his fight with Hippocoon's sons.",
+    "present": [
+     "Hercules",
+     "Iphitus",
+     "Œonus",
+     "Hippocoon",
+     "Athene"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 24,
+    "title": "Temples of Athene, Enyalius, Hera",
+    "summary": "Pausanias describes Theras' temple, Hipposthenes' shrine, the fettered Enyalius, the Painted Lounge chapels, and Hera Goateater.",
+    "stakes": "",
+    "present": [
+     "Theras",
+     "Hipposthenes",
+     "Enyalius",
+     "Hercules",
+     "Hera",
+     "Cadmus",
+     "Œolycus",
+     "Ægeus",
+     "Mæsis",
+     "Læas",
+     "Europas",
+     "Amphilochus",
+     "Tisamenus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 30,
+    "title": "Aphrodite in fetters",
+    "summary": "Pausanias describes temples near the theatre and the armed, fettered Aphrodite, rejecting the story that Tyndareus punished her.",
+    "stakes": "",
+    "present": [
+     "Tyndareus",
+     "Aphrodite",
+     "Cleodæus",
+     "Œbalus",
+     "Æsculapius",
+     "Teleclus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cynisca",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Archidamus, first woman to win the Olympic chariot-race"
+   },
+   {
+    "name": "Archidamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Sparta, father of Cynisca"
+   },
+   {
+    "name": "Hippocoon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan whose sons fought Hercules"
+   },
+   {
+    "name": "Alcimus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hippocoon with a chapel"
+   },
+   {
+    "name": "Enaræphorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hippocoon with a chapel"
+   },
+   {
+    "name": "Dorceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hippocoon, fountain named for him"
+   },
+   {
+    "name": "Sebrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hippocoon, place named for him"
+   },
+   {
+    "name": "Alcman",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet with a tomb at Sparta"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "has a temple at Sparta"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero who fought Hippocoon and his sons"
+   },
+   {
+    "name": "Iphitus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man killed by Hercules"
+   },
+   {
+    "name": "Œonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "nephew of Hercules, killed by Hippocoon's sons"
+   },
+   {
+    "name": "Alcmena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Hercules"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Exactor of due punishment"
+    ],
+    "kind": "goddess",
+    "description": "goddess with temples at Sparta"
+   },
+   {
+    "name": "Theras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Autesion, colonised Thera"
+   },
+   {
+    "name": "Autesion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Theras"
+   },
+   {
+    "name": "Tisamenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Thersander, ancestor of Spartan families"
+   },
+   {
+    "name": "Thersander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Tisamenus"
+   },
+   {
+    "name": "Hipposthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wrestler honoured as a hero"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Tutelary Poseidon"
+    ],
+    "kind": "god",
+    "description": "sea god with a Spartan temple"
+   },
+   {
+    "name": "Enyalius",
+    "aliases": [],
+    "kind": "god",
+    "description": "war god, statue in fetters"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Agenor with a chapel"
+   },
+   {
+    "name": "Agenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cadmus"
+   },
+   {
+    "name": "Œolycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Theras"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Œolycus"
+   },
+   {
+    "name": "Hyræsus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Mæsis, Læas and Europas"
+   },
+   {
+    "name": "Mæsis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "builder of chapels"
+   },
+   {
+    "name": "Læas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "builder of chapels"
+   },
+   {
+    "name": "Europas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "builder of chapels"
+   },
+   {
+    "name": "Amphilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Demonassa, given a chapel"
+   },
+   {
+    "name": "Demonassa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Tisamenus"
+   },
+   {
+    "name": "Hera",
+    "aliases": [
+     "Goateater"
+    ],
+    "kind": "goddess",
+    "description": "goddess given goat sacrifices at Sparta"
+   },
+   {
+    "name": "Cleodæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hyllus with a chapel"
+   },
+   {
+    "name": "Hyllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cleodæus"
+   },
+   {
+    "name": "Œbalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a chapel"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "healing god with temples at Sparta"
+   },
+   {
+    "name": "Teleclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a chapel"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "The Shapely"
+    ],
+    "kind": "goddess",
+    "description": "goddess with an armed, fettered statue"
+   },
+   {
+    "name": "Tyndareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king said to have fettered Aphrodite's statue"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Archidamus",
+    "relation": "parent_of",
+    "b": "Cynisca",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Hippocoon",
+    "relation": "parent_of",
+    "b": "Dorceus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Hippocoon",
+    "relation": "parent_of",
+    "b": "Sebrus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Hippocoon",
+    "relation": "parent_of",
+    "b": "Alcimus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Hippocoon",
+    "relation": "parent_of",
+    "b": "Enaræphorus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Autesion",
+    "relation": "parent_of",
+    "b": "Theras",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Thersander",
+    "relation": "parent_of",
+    "b": "Tisamenus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Tisamenus",
+    "relation": "parent_of",
+    "b": "Autesion",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Theras",
+    "relation": "parent_of",
+    "b": "Œolycus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Œolycus",
+    "relation": "parent_of",
+    "b": "Ægeus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Hyræsus",
+    "relation": "parent_of",
+    "b": "Mæsis",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Demonassa",
+    "relation": "parent_of",
+    "b": "Tisamenus",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Demonassa",
+    "relation": "sibling_of",
+    "b": "Amphilochus",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Agenor",
+    "relation": "parent_of",
+    "b": "Cadmus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Hyllus",
+    "relation": "parent_of",
+    "b": "Cleodæus",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Tyndareus",
+    "relation": "parent_of",
+    "b": "Helen",
+    "source": "outside",
+    "evidence_sentence": 30
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Exactor of due punishment",
+    "canonical": "Athene",
+    "explanation": "Cult title of Athene at Sparta, given after Hercules' vengeance."
+   },
+   {
+    "alias": "Goateater",
+    "canonical": "Hera",
+    "explanation": "Spartan cult title of Hera, linked to goat sacrifices."
+   },
+   {
+    "alias": "The Shapely",
+    "canonical": "Aphrodite",
+    "explanation": "Title of Aphrodite in her upper-story shrine."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Explains the Spartan and Athenian logic of binding or wingless statues to keep war or victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "reason": "Pausanias rationally dismisses the story of punishing a goddess through her statue.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage links Spartan monuments to heroic myth, showing how cult sites preserved memory of Hercules' feud and local lineages.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The fettered statues reflect a belief that binding an image could keep a deity's favour in the city.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Cynisca's Olympic victories were won by horses she owned, since women could not compete in person.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A hero-chapel (heroon) was a shrine honouring a dead person as a hero, who received cult offerings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "The Lacedæmonian dialect is the Doric Greek of Sparta, which Pausanias calls harsh-sounding; Alcman nonetheless wrote his choral songs in it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Clear himself\" means to be ritually purified of blood-guilt after a killing, which Greek custom required.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Exactor of due punishment\" translates a cult title of Athene, meaning she who exacts penalty or requital.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Thera is the modern Santorini; Theras led Spartan settlers there, which explains the Spartan cult of Athene linked to him and the old name Calliste ('fairest').",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "Hipposthenes is honoured like Poseidon on an oracle's command; the comparison suggests he receives divine-style sacrifice, though he was a mortal athlete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Wingless Victory refers to the statue of Nike at Athens, kept wingless so victory could not fly away.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "A 'Lounge' (Greek lesche) was a public meeting hall where men gathered to talk; 'hero-chapel' means a shrine to a heroized dead person.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "'Goateater' is a cult title of Hera; the epithet pairs with the unusual sacrifice of goats, which the following sentences explain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "'Tutelary' means guardian or protecting; here it is Poseidon's cult title at Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "'The Shapely' translates Aphrodite's cult epithet Morpho, a title also tied to beauty of form.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Cynisca won the four-horse chariot race at Olympia in the early fourth century BC. Owners, not drivers, were named victors, so women could win.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Alcman was a Spartan lyric poet of the seventh century BC, famous for choral songs for maidens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Alcmena was Hercules' mother. Œonus was the son of her brother Licymnius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Tisamenus, son of Orestes, was a Spartan ruler in the legend of the Heraclidae's return; Amphilochus was a seer and hero of the Trojan and Theban saga.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Hercules fought Hippocoon and his sons at Sparta after they killed his kinsman; Hera was famously hostile to Hercules throughout his life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Tyndareus was king of Sparta and the legal father of Helen and Clytemnestra, whose scandals the rival story blames on Aphrodite.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "antithesis",
+    "text": "Sweetness of poetry is set against the harshness of the dialect, praising Alcman's skill by contrast.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "narrative voice",
+    "text": "The vivid small incident of a dog and a stone shows how a trivial act sparks a deadly feud.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "symbolism",
+    "text": "The fettered god and the wingless goddess symbolise a city's wish to bind victory to itself; the chains and missing wings stand for permanence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "metaphor",
+    "text": "The 'bonds of love' turns the statue's fetters into an image of love's power to bind men to women.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "irony",
+    "text": "Pausanias mocks the punishment story: striking a small cedar image would hardly punish a goddess, and his sarcastic tone makes the idea look foolish.",
+    "spoiler": false
+   }
+  ]
+ }
+}

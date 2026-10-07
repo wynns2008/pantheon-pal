@@ -1,0 +1,438 @@
+{
+ "section_id": "pausanias-body-149",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10100,
+  "output": 4042
+ },
+ "result": {
+  "summary": "Pausanias ends his sketch of Elean history with the fall of the tyrant Aristotimus, then turns to Elis's wonders, such as its flax. He then describes Triphylia, the city of Lepreus with its legends, and the foul-smelling river Aniger with its healing cave of the Nymphs.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Aristotimus the tyrant falls",
+    "summary": "Aristotimus seizes power in Elis with Antigonus's help. After six months four men depose him, and Cylon kills him at the altar of Zeus Soter.",
+    "stakes": "Aristotimus risks his rule and his life; he is killed despite taking refuge at an altar.",
+    "present": [
+     "Aristotimus",
+     "Antigonus",
+     "Chilon",
+     "Hellanicus",
+     "Lampis",
+     "Cylon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Elis, Peloponnese",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 5,
+    "title": "Wonders of Elis",
+    "summary": "Elis alone in Greece grows flax, and mares there do not bear mules, which is said to result from a curse.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Elis, Peloponnese",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 11,
+    "title": "Triphylia and Lepreus",
+    "summary": "Pausanias describes the route from Samicum to Lepreus and argues that the city was always subject to Elis. The city is said to be named for Lepreus son of Pyrgeus.",
+    "stakes": "",
+    "present": [
+     "Lepreus",
+     "Aristophanes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lepreus",
+     "modern_name": "near Strovitsi, Triphylia",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 21.65
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 20,
+    "title": "Legends and tombs of Lepreus",
+    "summary": "Lepreus ate against Hercules, then challenged him to arms and was killed. Other origins of the name are given, along with former monuments and the spring Arene.",
+    "stakes": "Lepreus loses his life by challenging Hercules to a fight.",
+    "present": [
+     "Lepreus",
+     "Hercules",
+     "Leprea",
+     "Pyrgeus",
+     "Lycurgus",
+     "Caucon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lepreus",
+     "modern_name": "near Strovitsi, Triphylia",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 21.65
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 29,
+    "title": "The foul river Aniger",
+    "summary": "The Aniger is dammed by sand and smells foul, which spoils fish. Legends blame the wounded Centaur and Hydra poison, or Melampus's purification of the daughters of Proetus.",
+    "stakes": "",
+    "present": [
+     "Chiron",
+     "Pylenor",
+     "Hercules",
+     "Melampus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "River Aniger",
+     "modern_name": "Mamousia river, Elis",
+     "certainty": "traditional",
+     "lat": 37.5,
+     "lon": 21.6
+    }
+   },
+   {
+    "start_sentence": 30,
+    "end_sentence": 32,
+    "title": "Cave of the Nymphs",
+    "summary": "People with leprosy pray to the Nymphs, wipe the diseased parts, swim the river and emerge cured.",
+    "stakes": "Sufferers from leprosy hope to be cured of their disease.",
+    "present": [
+     "Nymphs of the Aniger"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Samicum",
+     "modern_name": "Samikon, Elis",
+     "certainty": "real",
+     "lat": 37.54,
+     "lon": 21.57
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aristotimus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant of Elis, son of Damaretus"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Macedonians, son of Demetrius"
+   },
+   {
+    "name": "Chilon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "conspirator against Aristotimus"
+   },
+   {
+    "name": "Hellanicus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "conspirator against Aristotimus"
+   },
+   {
+    "name": "Lampis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "conspirator against Aristotimus"
+   },
+   {
+    "name": "Cylon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "conspirator who killed Aristotimus"
+   },
+   {
+    "name": "Lepreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "legendary founder of Lepreus, son of Pyrgeus"
+   },
+   {
+    "name": "Pyrgeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Lepreus or Leprea"
+   },
+   {
+    "name": "Leprea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Pyrgeus in one account"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who out-ate and killed Lepreus"
+   },
+   {
+    "name": "Aristophanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who called Lepreus an Elean city"
+   },
+   {
+    "name": "Lycurgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aleus, said to be buried at Lepreus"
+   },
+   {
+    "name": "Caucon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a tomb at Lepreus"
+   },
+   {
+    "name": "Chiron",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Centaur said to have been wounded by Hercules"
+   },
+   {
+    "name": "Pylenor",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Centaur in the alternative story"
+   },
+   {
+    "name": "Melampus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amythaon, purifier of the Proetides"
+   },
+   {
+    "name": "Nymphs of the Aniger",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymphs of a cave who cure leprosy"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Pyrgeus",
+    "relation": "parent_of",
+    "b": "Lepreus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Pyrgeus",
+    "relation": "parent_of",
+    "b": "Leprea",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Damaretus",
+    "relation": "parent_of",
+    "b": "Aristotimus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Aleus",
+    "relation": "parent_of",
+    "b": "Lycurgus",
+    "source": "text",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 32,
+    "reason": "Describes the miraculous cure of leprosy by swimming the Aniger.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends history, local legend and natural curiosities, and he weighs competing traditions about the origin of names and places.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The sentences on Aristotimus recall Hellenistic tyranny under Macedonian patronage in the 3rd century BC. The healing cave shows ancient cult medicine tied to nymphs and rivers.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias compares Elean flax to that of the Hebrews, a rare mention of them in his work.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Fled as suppliant to the altar\" refers to the Greek custom that a person clinging to an altar was under divine protection, so killing him there was sacrilege.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Over the borders\" means outside Elis; \"foals to he-asses\" means mares are mated with donkeys, which produces mules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "\"Flax of the Hebrews\" refers to fine linen from Palestine; Pausanias is comparing the quality of Elean flax with it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "Heralds announced each Olympic victor's name and city; Lepreans were proclaimed as Eleans, which is Pausanias's evidence of their subjection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Aristophanes, the Athenian comic poet, mentions Lepreus in his play The Birds; Pausanias cites him as a witness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"As he had betted\" means Lepreus had wagered beforehand that he could match Hercules at eating.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Hardihood\" means boldness or audacity, here bordering on recklessness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Sepulchre\" is a tomb; \"shewn\" is an old spelling of \"shown\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The city's name is linked by folk etymology to Greek lepra, \"scaly disease\", hence \"lepers\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Hercules' arrows were poisoned with the Hydra's venom, which made wounds from them incurable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Melampus was a seer who, in legend, cured the daughters of Proetus of madness by purifying them; the refuse was thrown into the river.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "\"Black or white leprosy\" refers to ancient skin diseases of differing appearance, not necessarily modern leprosy.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Antigonus Gonatas, son of Demetrius, was king of Macedonia in the third century BC. He often backed tyrants in Greek cities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Zeus Soter means Zeus the Saviour, so the killing at his altar was especially shocking.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Triphylia is the southern coastal region of the western Peloponnese, between Elis and Messenia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The people of Lepreus here use \"Zeus\" in the text; Leucæan Zeus was a local cult title of the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Demeter was the goddess of grain and harvest; a plain mud-brick temple shows how modest the city had become.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Chiron was the wise Centaur; in myth he was accidentally wounded by Hercules' poisoned arrow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Nymphs were minor female nature spirits, often tied to springs, rivers and healing.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "irony",
+    "text": "The tyrant seeks safety at the altar of Zeus the Saviour, yet is murdered there, so the god's title is bitterly ironic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "narrative voice",
+    "text": "\"They say\" shows Pausanias reporting local tradition without vouching for it, keeping a cautious, inquiring tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "irony",
+    "text": "Matching Hercules, famed for his huge appetite, in eating is a mock-heroic feat, foreshadowing Lepreus's fatal overreach.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "narrative voice",
+    "text": "Pausanias offers his own rational opinion, setting natural explanation against the myths, as a sceptical traveller-historian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "symbolism",
+    "text": "Crossing the river washes away disease, a ritual of purification and rebirth, with the water carrying off the foulness.",
+    "spoiler": false
+   }
+  ]
+ }
+}

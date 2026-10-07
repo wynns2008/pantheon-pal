@@ -1,0 +1,442 @@
+{
+ "section_id": "pausanias-body-80",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9168,
+  "output": 3646
+ },
+ "result": {
+  "summary": "Pausanias describes the roads and sites of the Argolid coast: deserted Halice, the mountains Pron and Coccygium, Mases, Didymi and the destruction of Asine. He then turns to Lerna, its rivers, sanctuaries and the place where Pluto went down to the underworld.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Halice, Coccygium and Mases",
+    "summary": "Pausanias describes the road to deserted Halice, the temples on Pron and Coccygium, and the port town Mases.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Hera",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Halice and Mases",
+     "modern_name": "Near Kranidi, Argolid",
+     "certainty": "real",
+     "lat": 37.38,
+     "lon": 23.15
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 13,
+    "title": "Bolei and Didymi",
+    "summary": "He lists Bolei and Didymi, where stand temples of Apollo, Poseidon and Demeter, then the Asinaean district.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Poseidon",
+     "Demeter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Didymi",
+     "modern_name": "Near Kranidi, Argolid",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 16,
+    "title": "The fall of Asine",
+    "summary": "Asine sided with the Lacedaemonians against Argos; the Argives under Eratus took and razed the town, sparing Apollo's temple.",
+    "stakes": "The people of Asine risk losing their town and homes to the Argives.",
+    "present": [
+     "Nicander",
+     "Eratus",
+     "Lysistratus",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Asine",
+     "modern_name": "Asini, near Tolo",
+     "certainty": "real",
+     "lat": 37.52,
+     "lon": 22.87
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 26,
+    "title": "The road to Lerna",
+    "summary": "Pausanias describes rivers, the Dioscuri temple, Pluto's descent, Demeter's rites and Mount Pontinus with its ruins.",
+    "stakes": "",
+    "present": [
+     "Dioscuri",
+     "Pluto",
+     "Proserpine",
+     "Demeter",
+     "Athene",
+     "Hippomedon",
+     "Polynices"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lerna",
+     "modern_name": "Lerna, near Myloi",
+     "certainty": "real",
+     "lat": 37.55,
+     "lon": 22.72
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god said to have become a cuckoo; temple on Coccygium"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple on Pron"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with temples at Coccygium, Didymi and Asine"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple at Didymi"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess worshipped at Didymi and Lerna"
+   },
+   {
+    "name": "Nicander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king who invaded Argolis"
+   },
+   {
+    "name": "Charillus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Nicander"
+   },
+   {
+    "name": "Polydectes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Charillus"
+   },
+   {
+    "name": "Eunomus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Polydectes"
+   },
+   {
+    "name": "Prytanis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Eunomus"
+   },
+   {
+    "name": "Eurypon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Prytanis"
+   },
+   {
+    "name": "Eratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Argives"
+   },
+   {
+    "name": "Lysistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive warrior killed at Asine"
+   },
+   {
+    "name": "Dioscuri",
+    "aliases": [
+     "the Kings"
+    ],
+    "kind": "god",
+    "description": "divine twins with a temple near Lerna"
+   },
+   {
+    "name": "Pluto",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who descended to the underworld near Lerna"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Demeter, carried off by Pluto"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Saitian Athene"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a ruined temple on Pontinus"
+   },
+   {
+    "name": "Hippomedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "warrior who went with Polynices against Thebes"
+   },
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Œdipus, attacked Thebes"
+   },
+   {
+    "name": "Œdipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Polynices"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Charillus",
+    "relation": "parent_of",
+    "b": "Nicander",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Polydectes",
+    "relation": "parent_of",
+    "b": "Charillus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Eunomus",
+    "relation": "parent_of",
+    "b": "Polydectes",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Prytanis",
+    "relation": "parent_of",
+    "b": "Eunomus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Eurypon",
+    "relation": "parent_of",
+    "b": "Prytanis",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Proserpine",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Œdipus",
+    "relation": "parent_of",
+    "b": "Polynices",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Zeus",
+    "relation": "transformed_into",
+    "b": "cuckoo",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Pluto",
+    "relation": "lover_of",
+    "b": "Proserpine",
+    "source": "outside",
+    "evidence_sentence": 21
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Saitian Athene",
+    "canonical": "Athene",
+    "explanation": "Athene worshipped under the cult title Saitian at Mount Pontinus."
+   },
+   {
+    "alias": "the Kings",
+    "canonical": "Dioscuri",
+    "explanation": "Cult title of the Dioscuri at their temple near Lerna."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links landscape to cult and legend, showing how places carry memory of gods, wars and ruin.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The account of Asine's destruction preserves Argive-Spartan rivalry traditions, and shows Greek respect for sanctuaries even when towns were razed.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias cites the pillars at Epidaurus recording cures by Asclepius, valuable early evidence of healing inscriptions.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek measure of length, roughly 180-200 metres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Inscribed pillars at the Epidaurian sanctuary of Æsculapius recorded patients' cures; Pausanias uses them as evidence that Halice once existed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Alludes to the myth that Zeus took the form of a cuckoo to win Hera; the mountain's name was explained by this tale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Homer's catalogue of the Argives is the list of Greek contingents in the Iliad, Book 2, which names Mases.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Asinæa means the territory belonging to Asine, which gave the district its name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "The long chain of 'son of' names is a royal genealogy, tracing Nicander's descent through the Spartan Eurypontid line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "'Carried' means taken by assault; 'razed it to the ground' means fully demolished it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet (about 180 metres), so 40 stades is around 4.5 miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Refers to Pluto's abduction of Proserpine (Persephone), Demeter's daughter; local legend said he took her down to the underworld by this spot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Alludes to the Seven against Thebes, the failed expedition led by Polynices to seize Thebes from his brother Eteocles.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Æsculapius was the god of healing; his chief sanctuary was at Epidaurus, where cures were recorded.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Hermione was a nearby city of the Argolid coast, which used the abandoned town of Mases as its harbour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Apollo, Poseidon and Demeter were major gods; Poseidon was god of the sea, Demeter of grain and harvest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "The Dioscuri are Castor and Pollux, twin sons of Leda (or Jupiter), widely worshipped; 'the Kings' is a local cult title.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Lerna was known for the mysteries of Demeter and for the myth of Hercules killing the Hydra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Athene was often worshipped under local titles; 'Saitian' is a local epithet for her at this site.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a cautious first-person traveller, admitting the limits of his knowledge rather than inventing details.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "imagery",
+    "text": "The list of missing doors, roof and statue paints a bare, ruined shrine, suggesting neglect and fading memory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "narrative voice",
+    "text": "The traveller-historian adds 'it is now to be seen', tying past events to what the reader can visit, giving authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "allusion",
+    "text": "The myth of Pluto's descent turns an ordinary circle of stones into a sacred landmark, blending legend with geography.",
+    "spoiler": false
+   }
+  ]
+ }
+}

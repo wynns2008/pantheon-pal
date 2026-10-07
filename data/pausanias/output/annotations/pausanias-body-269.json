@@ -1,0 +1,427 @@
+{
+ "section_id": "pausanias-body-269",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7112,
+  "output": 3362
+ },
+ "result": {
+  "summary": "Pausanias gives the Tegeans' account of their district's name, their parishes and their local renown. He then describes the great temple of Athene Alea, its history, orders of columns, architect Scopas and the sculptures on its gables.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Tegea's name and renown",
+    "summary": "The Tegeans explain their origins, parishes and founder, and list their famous deeds, from the Calydonian boar to victories over the Lacedaemonians.",
+    "stakes": "",
+    "present": [
+     "Tegeates",
+     "Aleus",
+     "Aphidas",
+     "Ancæus",
+     "Atalanta",
+     "Echemus",
+     "Hyllus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tegea",
+     "modern_name": "Tegea (near Alea, Arcadia)",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.42
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 10,
+    "title": "The temple of Athene Alea",
+    "summary": "The old temple built by Aleus burned down, and a larger temple by Scopas replaced it, with Doric, Corinthian and Ionic columns.",
+    "stakes": "The old temple is lost entirely to fire.",
+    "present": [
+     "Aleus",
+     "Scopas",
+     "Athene Alea"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tegea",
+     "modern_name": "Tegea (near Alea, Arcadia)",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.42
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 12,
+    "title": "The gable sculptures",
+    "summary": "The front gable shows the Calydonian boar hunt and the rear gable shows Telephus fighting Achilles.",
+    "stakes": "",
+    "present": [
+     "Atalanta",
+     "Meleager",
+     "Theseus",
+     "Telamon",
+     "Peleus",
+     "Pollux",
+     "Iolaus",
+     "Prothous",
+     "Cometes",
+     "Ancæus",
+     "Epochus",
+     "Castor",
+     "Amphiaraus",
+     "Hippothous",
+     "Pirithous",
+     "Telephus",
+     "Achilles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tegea",
+     "modern_name": "Tegea (near Alea, Arcadia)",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.42
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Tegeates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycaon, for whom Tegea is named"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Tegeates"
+   },
+   {
+    "name": "Aleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of the town and builder of the old temple"
+   },
+   {
+    "name": "Aphidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king after whom a ninth parish was named"
+   },
+   {
+    "name": "Ancæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycurgus, wounded by the boar"
+   },
+   {
+    "name": "Lycurgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Ancæus"
+   },
+   {
+    "name": "Atalanta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first to hit the Calydonian boar"
+   },
+   {
+    "name": "Echemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Tegean, son of Aeropus, who beat Hyllus"
+   },
+   {
+    "name": "Aeropus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Echemus"
+   },
+   {
+    "name": "Hyllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid beaten by Echemus"
+   },
+   {
+    "name": "Athene Alea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of the Tegean temple"
+   },
+   {
+    "name": "Scopas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Parian architect and sculptor"
+   },
+   {
+    "name": "Meleager",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hunter shown on the gable"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hunter shown on the gable"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hunter shown on the gable"
+   },
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hunter shown on the gable"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hunter shown on the gable"
+   },
+   {
+    "name": "Iolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "companion of Hercules"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero whose Labours Iolaus shared"
+   },
+   {
+    "name": "Prothous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Thestius, brother of Althæa"
+   },
+   {
+    "name": "Cometes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Thestius, brother of Althæa"
+   },
+   {
+    "name": "Thestius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Prothous and Cometes"
+   },
+   {
+    "name": "Althæa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sister of Prothous and Cometes"
+   },
+   {
+    "name": "Epochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "supports the wounded Ancæus"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hunter shown on the gable"
+   },
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Œcles, hunter shown"
+   },
+   {
+    "name": "Œcles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Amphiaraus"
+   },
+   {
+    "name": "Hippothous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hunter shown on the gable"
+   },
+   {
+    "name": "Pirithous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hunter shown on the gable"
+   },
+   {
+    "name": "Telephus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "fights Achilles on rear gable"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "fights Telephus on rear gable"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Tegeates",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Lycurgus",
+    "relation": "parent_of",
+    "b": "Ancæus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Aeropus",
+    "relation": "parent_of",
+    "b": "Echemus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Thestius",
+    "relation": "parent_of",
+    "b": "Prothous",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Thestius",
+    "relation": "parent_of",
+    "b": "Cometes",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Prothous",
+    "relation": "sibling_of",
+    "b": "Althæa",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Œcles",
+    "relation": "parent_of",
+    "b": "Amphiaraus",
+    "source": "text",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Pausanias praises the Tegean temple as the finest in the Peloponnese.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local pride: Tegea ties its identity to heroic myth and to victories over Sparta.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The temple, rebuilt after a fire in the 4th century BC with Scopas as architect, shows the era's art and wealth, combining three column orders.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias dates the fire by the Athenian archon and an Olympic victor, showing how Greeks reckoned dates.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Parishes\" translates the Greek divisions (demes or districts) of Tegea; here it means administrative districts, not church parishes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Dipæa was a battle fought in Arcadia in the early fifth century BC, in which the Tegeans and other Arcadians faced Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The Heraclidæ, descendants of Hercules, tried to return to the Peloponnese; Echemus of Tegea is said to have killed Hyllus, Hercules' son, in single combat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "The fire is dated by the Athenian archon and the Olympiad, the usual Greek dating method. \"The course\" means the foot-race.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Althæa was Meleager's mother, and her brothers, the sons of Thestius, took part in the Calydonian hunt; Meleager later killed them in a quarrel over the boar's spoils.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Telephus, king of Mysia, was wounded by Achilles' spear while fighting the Greeks on the plain of the Caicus river; the wound was later healed by rust from the same spear.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Atalanta was a famed huntress; in the Calydonian boar hunt, Greek heroes gathered to kill a monstrous boar sent by Artemis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Athene Alea was Tegea's chief goddess, and her sanctuary was a major religious centre in Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Scopas of Paros was a leading fourth-century BC sculptor and architect, known for work on the Mausoleum at Halicarnassus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "hyperbole",
+    "text": "Pausanias praises the temple as surpassing every other in the Peloponnese, emphasizing local pride and the building's grandeur.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "catalogue",
+    "text": "The long list of heroes arranged around the boar gives a visual sense of the sculpture and lends the hunt epic grandeur.",
+    "spoiler": false
+   }
+  ]
+ }
+}

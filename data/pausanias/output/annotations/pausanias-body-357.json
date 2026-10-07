@@ -1,0 +1,503 @@
+{
+ "section_id": "pausanias-body-357",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10764,
+  "output": 4383
+ },
+ "result": {
+  "summary": "Pausanias describes the land of the Ozolian Locrians, giving several explanations for the name Ozolian. He then tours Amphissa, Myonia, Oeanthea and Naupactus, noting temples, statues and local traditions, and ends with the story of Phalysius cured of blindness by Aesculapius.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Why the Locrians are Ozolian",
+    "summary": "Pausanias lists several traditions explaining the name Ozolian, including a vine from a piece of wood, the rotting Nessus, bad-smelling rivers or plants, and untanned hides.",
+    "stakes": "",
+    "present": [
+     "Orestheus",
+     "Nessus",
+     "Hercules"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "land of the Ozolian Locrians",
+     "modern_name": "Western Locris, Greece",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 22.0
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 17,
+    "title": "Amphissa and its sights",
+    "summary": "Pausanias describes Amphissa, its history, tombs, and the old statue of Athene, which he doubts came from Troy, and its rites of the Anactes.",
+    "stakes": "",
+    "present": [
+     "Amphissa",
+     "Andræmon",
+     "Gorge",
+     "Apollo",
+     "Athene",
+     "Thoas",
+     "Rhœcus",
+     "Theodorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Amphissa",
+     "modern_name": "Amfissa",
+     "certainty": "real",
+     "lat": 38.52,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 25,
+    "title": "Myonia and Oeanthea",
+    "summary": "Pausanias describes the shrines of Myonia and Oeanthea, and notes that these towns were granted to Patrae by Augustus.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Myonia and Oeanthea",
+     "modern_name": "Lidoriki area / Galaxidi",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 32,
+    "title": "Naupactus and its shrines",
+    "summary": "Pausanias gives the name's origin, the city's history, the dispute over the Naupactian poems, and its temples of Poseidon, Artemis and Aphrodite.",
+    "stakes": "",
+    "present": [
+     "Charon",
+     "Carcinus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Naupactus",
+     "modern_name": "Nafpaktos",
+     "certainty": "real",
+     "lat": 38.39,
+     "lon": 21.83
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 35,
+    "title": "Phalysius cured by Aesculapius",
+    "summary": "The god sends the poetess Anyte with a sealed letter to the nearly blind Phalysius, who is cured by looking at it and pays her.",
+    "stakes": "Phalysius risks permanent blindness.",
+    "present": [
+     "Phalysius",
+     "Anyte",
+     "Æsculapius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Naupactus",
+     "modern_name": "Nafpaktos",
+     "certainty": "real",
+     "lat": 38.39,
+     "lon": 21.83
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Orestheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Deucalion, king whose bitch bore a piece of wood"
+   },
+   {
+    "name": "Deucalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Orestheus"
+   },
+   {
+    "name": "Nessus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "ferryman at the Evenus wounded by Hercules"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wounded Nessus"
+   },
+   {
+    "name": "Amphissa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Macar, loved by Apollo"
+   },
+   {
+    "name": "Macar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Æolus, father of Amphissa"
+   },
+   {
+    "name": "Æolus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Macar"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "loved Amphissa"
+   },
+   {
+    "name": "Andræmon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "buried at Amphissa with his wife"
+   },
+   {
+    "name": "Gorge",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Œneus, wife of Andræmon"
+   },
+   {
+    "name": "Œneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Gorge"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a statue at Amphissa"
+   },
+   {
+    "name": "Thoas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have brought the statue from Ilium"
+   },
+   {
+    "name": "Rhœcus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Samian brass-founder, son of Philæus"
+   },
+   {
+    "name": "Philæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Rhœcus"
+   },
+   {
+    "name": "Theodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Samian brass-founder, son of Telecles"
+   },
+   {
+    "name": "Telecles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Theodorus"
+   },
+   {
+    "name": "Charon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Pytheus, of Lampsacus, historian"
+   },
+   {
+    "name": "Carcinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have composed the Naupactian poems"
+   },
+   {
+    "name": "Phalysius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "nearly blind man healed by the god"
+   },
+   {
+    "name": "Anyte",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poetess who carried the sealed letter"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [
+     "the god of Epidaurus"
+    ],
+    "kind": "god",
+    "description": "healing god who cured Phalysius"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Deucalion",
+    "relation": "parent_of",
+    "b": "Orestheus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Macar",
+    "relation": "parent_of",
+    "b": "Amphissa",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Æolus",
+    "relation": "parent_of",
+    "b": "Macar",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Amphissa",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Andræmon",
+    "relation": "spouse_of",
+    "b": "Gorge",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Œneus",
+    "relation": "parent_of",
+    "b": "Gorge",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Philæus",
+    "relation": "parent_of",
+    "b": "Rhœcus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Telecles",
+    "relation": "parent_of",
+    "b": "Theodorus",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the god of Epidaurus",
+    "canonical": "Æsculapius",
+    "explanation": "Epithet for Æsculapius, whose chief shrine was at Epidaurus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 35,
+    "reason": "Climax of the miraculous cure: faith in the god heals Phalysius through a letter.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs competing local traditions and criticizes them with his own evidence, such as dating statues by artists' styles.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows Augustus reshaping Greece, moving Ætolians to Nicopolis and granting Locrian towns to Patrae.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Ozolian is linked in Greek to ozein, 'to smell', which is why the ancient explanations focus on bad smells.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Ozolian is from a Greek root suggesting 'stinking' (ozein, to smell), which is why the name needs explaining.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Nessus, a centaur, was shot by Hercules with a poisoned arrow after trying to carry off Deianira at the river Evenus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Asphodel is a lily-like plant, here said to smell bad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Aborigines here means the earliest inhabitants of the land, not a particular people.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "A tan-yard is a place where hides are cured into leather, notorious for its stench.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length of roughly 180 metres, so 120 stades is about 22 km.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Nicopolis was founded by Augustus after Actium (31 BC), and populated by settlers drawn from nearby regions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Ephesian Artemis refers to the great temple of Artemis at Ephesus, a famous sanctuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The Cabiri were mysterious gods of a mystery cult, and the Curetes were divine attendants of the infant Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "The Mild Deities are a euphemistic title, probably for the Erinyes (Furies), whom the Greeks avoided naming directly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Under the Achæans of Patræ\" means these towns were made subject to Patræ, a city in Achaea, by imperial decree.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "The name is explained by Greek naus (ship) and pegnymi (to build): the 'ship-building' place. The sons of Aristomachus were Heraclid leaders of the Dorian invasion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Refers to the Messenian exiles settled by Athens after the Helot revolt, and to Athens' defeat at Ægos-potamoi in 405 BC, which ended the Peloponnesian War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"The native of Lampsacus\" is Charon, the historian, who came from Lampsacus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "\"Poetess Anyte\" refers to Anyte of Tegea, a Greek woman poet of the early third century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "word",
+    "text": "A stater was a gold coin; 2,000 of them is a very large fee, stressing the cure's value.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Deucalion was the Greek flood survivor, and his son Orestheus is linked with the Locrian region in this tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Thoas was an Ætolian leader in the Trojan War; Ilium is Troy. Athene was goddess of wisdom and war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Rhœcus and Theodorus of Samos were early sixth-century bronze-casters, credited with inventing hollow casting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Dedications of shields and other offerings by Greek cities were commonly set up at Olympia as thanks or displays of status.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Aphrodite here is worshipped as a helper in love and marriage, so widows seek new husbands from her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Æsculapius was the god of healing; his chief sanctuary was at Epidaurus, and people sought cures from him through dreams.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "Etiological myth",
+    "text": "The tale of a bitch bearing wood explains a place-name through a marvellous origin, with the vine's branches (ozoi) giving the name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Narrative voice",
+    "text": "Pausanias intrudes as a skeptical critic, weighing local legend against his own knowledge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Argument from evidence",
+    "text": "He reasons from comparison of dated statues to conclude the Athene is older than Trojan-era legend allows, a quiet rebuttal of the local claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "rhetorical question",
+    "text": "Pausanias uses a question to argue for his view, making the reader see the Milesian attribution as unreasonable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "irony",
+    "text": "A blind man is cured by merely looking at a letter, and the letter itself names the payment, which gives the miracle a wry, practical turn.",
+    "spoiler": false
+   }
+  ]
+ }
+}

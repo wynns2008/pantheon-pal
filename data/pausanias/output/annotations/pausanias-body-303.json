@@ -1,0 +1,506 @@
+{
+ "section_id": "pausanias-body-303",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9545,
+  "output": 4458
+ },
+ "result": {
+  "summary": "Pausanias tours the sights of Thebes: the tomb of Menoeceus, the site of the brothers' duel, Pindar's house and the temple of the Mother, and several shrines. He then describes the grove and temple of the Cabiri, giving Theban tradition about their mysteries and examples of their anger.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 12,
+    "title": "Sights near the Neistis gate",
+    "summary": "Pausanias lists the tomb of Menoeceus, the pomegranate tree, the brothers' duel pillar, Antigone's Dragging-ground, Pindar's house, the Mother's temple and shrines of Themis, the Fates, Zeus and Hercules.",
+    "stakes": "",
+    "present": [
+     "Menœceus",
+     "Polynices",
+     "Antigone",
+     "Hercules",
+     "Dirce",
+     "Pindar"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3217,
+     "lon": 23.3181
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 19,
+    "title": "Grove and temple of the Cabiri",
+    "summary": "Pausanias reaches the Cabirian grove and temple, declines to reveal the rites, and reports the Theban tradition of Demeter giving the mysteries to the Cabiri.",
+    "stakes": "",
+    "present": [
+     "Demeter",
+     "Prometheus",
+     "Ætnæus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Grove of the Cabiri near Thebes",
+     "modern_name": "Kabeirion, near Thebes",
+     "certainty": "real",
+     "lat": 38.3,
+     "lon": 23.25
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 28,
+    "title": "Revival of the mysteries and their wrath",
+    "summary": "After the Epigoni drove out the Cabiri, Pelarge restored the rites. Those who profaned the temple, including Persians and Macedonians, were destroyed.",
+    "stakes": "Those who mock or enter the temple with hostile intent face madness or death.",
+    "present": [
+     "Pelarge",
+     "Isthmiades",
+     "Alexiarous",
+     "Telondes",
+     "Mardonius",
+     "Alexander"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Temple of the Cabiri near Thebes",
+     "modern_name": "Kabeirion, near Thebes",
+     "certainty": "real",
+     "lat": 38.3,
+     "lon": 23.25
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Menœceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Creon who killed himself in obedience to the Delphic oracle"
+   },
+   {
+    "name": "Creon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Menœceus"
+   },
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Œdipus who attacked Thebes with an Argive army"
+   },
+   {
+    "name": "Eteocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Œdipus who died in single combat; his pyre received Polynices"
+   },
+   {
+    "name": "Œdipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Polynices and Eteocles"
+   },
+   {
+    "name": "Antigone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dragged Polynices' corpse to the pyre of Eteocles"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "said to have suckled baby Hercules"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Nose-cutter-off"
+    ],
+    "kind": "god",
+    "description": "hero suckled by Hera; cut off envoys' noses"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Zeus Agoræus"
+    ],
+    "kind": "god",
+    "description": "god who deceived Hera; has a temple at Thebes"
+   },
+   {
+    "name": "Dirce",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Lycus, killed by Antiope's sons; river named for her"
+   },
+   {
+    "name": "Lycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Dirce"
+   },
+   {
+    "name": "Antiope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "defamed by Dirce; mother of sons who killed her"
+   },
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet whose house and votive offering are at Thebes"
+   },
+   {
+    "name": "Aristomedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban sculptor of the goddess's statue"
+   },
+   {
+    "name": "Socrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban sculptor of the goddess's statue"
+   },
+   {
+    "name": "Themis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Thebes"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who gave the mysteries to the Cabiri"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "worshipped with Demeter in the Cabirian grove"
+   },
+   {
+    "name": "Cabiri",
+    "aliases": [],
+    "kind": "creature",
+    "description": "people of an old town, keepers of the mysteries"
+   },
+   {
+    "name": "Prometheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the Cabiri, father of Ætnæus"
+   },
+   {
+    "name": "Ætnæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Prometheus the Cabirus"
+   },
+   {
+    "name": "Pelarge",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Potneus who restored the mysteries"
+   },
+   {
+    "name": "Potneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pelarge"
+   },
+   {
+    "name": "Isthmiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Pelarge"
+   },
+   {
+    "name": "Alexiarous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "person taught the mysteries"
+   },
+   {
+    "name": "Telondes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cabirus who returned after the revival"
+   },
+   {
+    "name": "Mardonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian commander whose men profaned the temple"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "conqueror who burned Thebes"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king whose army is mentioned"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Creon",
+    "relation": "parent_of",
+    "b": "Menœceus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Œdipus",
+    "relation": "parent_of",
+    "b": "Polynices",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Œdipus",
+    "relation": "parent_of",
+    "b": "Eteocles",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Polynices",
+    "relation": "sibling_of",
+    "b": "Eteocles",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Lycus",
+    "relation": "spouse_of",
+    "b": "Dirce",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Antiope",
+    "relation": "parent_of",
+    "b": "Dirce",
+    "source": "outside",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Prometheus",
+    "relation": "parent_of",
+    "b": "Ætnæus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Potneus",
+    "relation": "parent_of",
+    "b": "Pelarge",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Isthmiades",
+    "relation": "spouse_of",
+    "b": "Pelarge",
+    "source": "text",
+    "evidence_sentence": 21
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Nose-cutter-off",
+    "canonical": "Hercules",
+    "explanation": "Epithet of a statue of Hercules, from cutting off the noses of Orchomenian envoys."
+   },
+   {
+    "alias": "Zeus Agoræus",
+    "canonical": "Zeus",
+    "explanation": "Zeus of the marketplace."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 28,
+    "reason": "Concise closing verdict on the temple's sanctity after the tales of punished intruders.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage ties sites to myths and shows divine punishment of impiety, especially against the Cabiri's mysteries.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias withholds details of the mysteries, reflecting the secrecy of initiation cults in the second century AD.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says he was present on the one day a year the temple of the Mother was opened.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Menoeceus sacrificed himself because Tiresias said Thebes would win the war against the Seven only if he died; the oracle is reported as Delphic here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Antigone defied the ban on burying Polynices; Pausanias here gives a version in which she places him on Eteocles' blazing pyre.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Dirce was killed by Antiope's sons Amphion and Zethus, who tied her to a bull, in revenge for her cruelty to their mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Agoræus means \"of the marketplace\" (agora), marking Zeus as protector of public assembly and trade.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Nose-cutter-off\" translates the Greek epithet Rhinokolustes, an explanatory cult title for this statue of Hercules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Stades are Greek units of distance; a stade was roughly 180–200 metres, so 25 stades is about 4.5–5 km.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Cabirian Demeter and Proserpine\": Demeter and her daughter are given the local title Cabirian. Proserpine is the Latin name for Persephone, the form this translation uses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "The Epigoni were the sons of the Seven who failed against Thebes; they later took the city and drove out its old inhabitants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "\"Beyond the ancient boundaries\" suggests she extended the rites beyond their old limits or restrictions. The wording is obscure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Big with young\" means a pregnant animal, here a pregnant victim chosen for sacrifice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Mardonius was the Persian general left in Boeotia by Xerxes; he was defeated at Plataea in 479 BC.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Eteocles and Polynices, sons of Oedipus, killed each other at Thebes in the war of the Seven against Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Hercules was Zeus' son by the Theban Alcmene; Hera hated him, and legend says she nursed him only through trickery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Pindar, the great Theban lyric poet of the fifth century BC, dedicated a temple to the Mother of the gods, called Dindymene after Mount Dindymon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Orchomenus was Thebes' neighbouring rival in Boeotia; Hercules in legend freed Thebes from its tribute to Orchomenus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Pausanias often refuses to describe mystery rites, since divulging them to the uninitiated was thought impious.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Dodona in Epirus was a very ancient oracle of Zeus, consulted by Greek states on religious matters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Alexander destroyed Thebes in 335 BC after its revolt, sparing little apart from temples and a few houses.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "simile",
+    "text": "The pomegranate's inner seeds are compared to blood, linking the tree to the youth's sacrificial death nearby.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "narrative voice",
+    "text": "Pausanias distances himself from local claims, showing his skeptical, reporting stance toward Theban tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "narrative voice",
+    "text": "The first-person eyewitness remark gives the guidebook personal authority and a vivid, travelling presence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "characterization",
+    "text": "Describing the Cabiri's wrath as implacable presents them as fearsome powers and prepares the examples that follow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "narrative voice",
+    "text": "Pausanias adds his own judgment, \"I think\", about the soldiers' motive, giving the account a personal, interpretive tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "irony",
+    "text": "The closing remark about the temple's holiness caps a series of impious invaders who met destruction, with the punishments fitting their sacrilege.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,295 @@
+{
+ "section_id": "pausanias-body-132",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7705,
+  "output": 2696
+ },
+ "result": {
+  "summary": "Aristomenes marries off his daughters, has his third daughter wed Damagetus of Rhodes, and dies before he can seek foreign help against Sparta. Sparta then takes Messenia, but the Helot Messenians later revolt after a violation of sanctuary at Tænarum and hold out on Ithome until they are allowed to leave under terms.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Aristomenes' marriages and death",
+    "summary": "Aristomenes marries off his sister and daughters, consults Delphi, and gives a third daughter to Damagetus of Rhodes. He dies in Rhodes before he can seek allies against Sparta.",
+    "stakes": "Aristomenes wants vengeance on the Lacedæmonians, but illness and death end his plan.",
+    "present": [
+     "Aristomenes",
+     "Agnagora",
+     "Tharyx",
+     "Damothoidas",
+     "Theopompus",
+     "Damagetus",
+     "Pythian Priestess"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Rhodes",
+     "modern_name": "Rhodes",
+     "certainty": "real",
+     "lat": 36.17,
+     "lon": 28.0
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 8,
+    "title": "Sparta divides Messenia",
+    "summary": "The Lacedæmonians share out Messenia, except the Asinæi land, and give Mothone to the exiles from Nauplia.",
+    "stakes": "",
+    "present": [
+     "Lacedæmonians",
+     "Argives"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messenia",
+     "modern_name": "Messenia, Greece",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 21.9
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 18,
+    "title": "Helot revolt and Ithome",
+    "summary": "After Spartans kill suppliants at Tænarum, the Messenian Helots revolt and hold Ithome. Athenian help is sent away, and the Messenians surrender on terms and are given Naupactus.",
+    "stakes": "The Messenians risk defeat and slavery; the Spartans risk divine vengeance for violating sanctuary.",
+    "present": [
+     "Lacedæmonians",
+     "Ephors",
+     "Poseidon",
+     "Cimon",
+     "Athenians",
+     "Messenians",
+     "Pythian Priestess",
+     "Zeus of Ithome"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Ithome",
+     "modern_name": "Mount Ithome, Messenia",
+     "certainty": "real",
+     "lat": 37.18,
+     "lon": 22.03
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian leader who refused to lead the colony and died in Rhodes"
+   },
+   {
+    "name": "Agnagora",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sister of Aristomenes, married to Tharyx"
+   },
+   {
+    "name": "Tharyx",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man of Phigalia who married Agnagora"
+   },
+   {
+    "name": "Damothoidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man of Lepreum who married a daughter of Aristomenes"
+   },
+   {
+    "name": "Theopompus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man of Heræum who married a daughter of Aristomenes"
+   },
+   {
+    "name": "Damagetus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Ialysus in Rhodes, married Aristomenes' daughter"
+   },
+   {
+    "name": "Pythian Priestess",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Priestess of Apollo at Delphi"
+   },
+   {
+    "name": "Diagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ancestor of the Diagoridæ in Rhodes"
+   },
+   {
+    "name": "Dorieus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Diagoras"
+   },
+   {
+    "name": "Cimon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian, son of Miltiades, friend of Sparta"
+   },
+   {
+    "name": "Miltiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Cimon"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "God whose sanctuary at Tænarum was violated"
+   },
+   {
+    "name": "Zeus of Ithome",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of Ithome who would avenge violated sanctuary"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Damagetus",
+    "relation": "spouse_of",
+    "b": "Aristomenes' daughter",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Aristomenes",
+    "relation": "sibling_of",
+    "b": "Agnagora",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Damagetus",
+    "relation": "parent_of",
+    "b": "Dorieus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Dorieus",
+    "relation": "parent_of",
+    "b": "Diagoras",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Miltiades",
+    "relation": "parent_of",
+    "b": "Cimon",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lacedæmonians",
+    "canonical": "Spartans",
+    "explanation": "The text uses both names for the people of Sparta."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "The oracle's reply that Damagetus should marry the noblest Greek's daughter leads to Aristomenes' family link with Rhodes.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows the end of the Messenian struggle: heroic leadership fades with Aristomenes' death, and the divine protection of suppliants shapes later events.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Helot revolt after the Tænarum killings and Sparta's dismissal of Cimon's Athenian troops reflect the 460s BC break between Sparta and Athens.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Messenians settled at Naupactus after leaving the Peloponnese, a place Athens had taken from the Ozolian Locrians.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "Damagetus asks where he should marry a wife from; the Pythian Priestess is the oracle's priestess at Delphi, speaking for Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Ardys of Lydia (Sardis) and Phraortes of Media (Ecbatana) were powerful eastern kings whom Aristomenes hoped to enlist against Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Helots were the state-owned serfs of Sparta, mostly descended from conquered Messenians and Laconians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Suppliants at an altar were under divine protection; dragging them away was sacrilege. Tænarum had a famous sanctuary of Poseidon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "Ozolæ: the Ozolian Locrians, whose land lay on the Gulf of Corinth; Naupactus was their port.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 9,
+    "text": "The 79th Olympiad is about 464 BC; Archons were Athens' yearly chief magistrates, used for dating.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "The Ephors were five annually elected Spartan magistrates with great power, including over the kings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Cimon, Athenian statesman and son of Miltiades, was pro-Spartan; he led Athenian troops to help Sparta against the Helot revolt around 462 BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "Irony",
+    "text": "The hero who fought Sparta for years dies of illness abroad, just before his plan; fate, not enemies, ends his hope.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Divine retribution",
+    "text": "Poseidon punishes the sacrilege with destruction, presenting Spartan misfortune as moral consequence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

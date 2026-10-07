@@ -1,0 +1,281 @@
+{
+ "section_id": "aeschylus-body-19",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8640,
+  "output": 2506
+ },
+ "result": {
+  "summary": "The Furies, won over by Athena, bless Athens with fertility, peace and concord. Athena then leads them in a torchlit procession to their new home beneath the earth, where they will be honoured as the Eumenides.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 34,
+    "title": "Blessings upon Athens",
+    "summary": "The Chorus of Furies pray for fertile fields, young women's marriages and civic peace, while Athena approves and rejoices in the outcome. She then promises to escort them to their home with torches and festal robes.",
+    "stakes": "Athens could suffer blight, bloodshed and civil strife if the Furies' anger returned; their goodwill secures its prosperity.",
+    "present": [
+     "Athena",
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 35,
+    "end_sentence": 45,
+    "title": "Procession to the caverns",
+    "summary": "The escort chorus sings the Furies on their way to their dwelling beneath the earth, calling for reverent silence and joyful shouts. They celebrate lasting peace.",
+    "stakes": "",
+    "present": [
+     "Chorus of the Processional Escort",
+     "Chorus",
+     "Athena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Athena",
+    "aliases": [
+     "Pallas",
+     "the Maiden"
+    ],
+    "kind": "goddess",
+    "description": "Patron goddess of Athens who persuades the Furies to accept a home there"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [
+     "Erinyes",
+     "Venerable Goddesses"
+    ],
+    "kind": "goddess",
+    "description": "The Furies, now kindly, who bless Athens"
+   },
+   {
+    "name": "Chorus of the Processional Escort",
+    "aliases": [],
+    "kind": "other",
+    "description": "Athenian escort who sing the Furies to their new home"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "the Father"
+    ],
+    "kind": "god",
+    "description": "King of the gods who aided the outcome"
+   },
+   {
+    "name": "Suasion",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Persuasion, credited with guiding Athena's words"
+   },
+   {
+    "name": "Night",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Mother of the Furies"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Legendary Athenian hero whose land is mentioned"
+   },
+   {
+    "name": "Cranaüs",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ancestor of the Athenians"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Night",
+    "relation": "parent_of",
+    "b": "Chorus",
+    "source": "text",
+    "evidence_sentence": 36
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Athena",
+    "source": "outside",
+    "evidence_sentence": 22
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pallas",
+    "canonical": "Athena",
+    "explanation": "A common epithet of Athena; 'Pallas' burgh' means Athens."
+   },
+   {
+    "alias": "Erinyes",
+    "canonical": "Chorus",
+    "explanation": "The Furies, renamed Eumenides ('kindly ones') after this reconciliation."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Athena celebrates the triumph of persuasion and shared goodwill over force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "reason": "Expresses the hope for common love and common hate as a cure for civic ills.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The play ends with reconciliation: old vengeful powers are integrated into the city's justice, replacing blood feud with law and persuasion.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The finale celebrates Athenian civic order and the Panathenaic-style procession, reflecting concerns about faction in 5th-century Athens.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Furies' red festal robes in the procession likely mirror the dress of metics (resident foreigners) at Athenian festivals.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Erinyes are the Furies, avenging spirits; the chorus is now being treated as honoured powers rather than terrors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The Fates are called sisters of the Furies; in Aeschylus both are ancient daughters of Night, linked with justice and the shaping of human lives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Suasion is Peitho, goddess of persuasion. Athena credits her for winning the Furies over by gentle argument instead of force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "'Sways men's tongues' renders Zeus as god of the assembly and of persuasion, whose will has prevailed in the settlement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "The dust drinking blood refers to civil bloodshed, where murders spawn vengeance killings; 'faction' means civil strife.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Pallas is Athena's title. The image of wings suggests the Athenians sheltered like chicks under her protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Cranaüs was a legendary early king of Athens, so 'children of Cranaüs' means the Athenians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "Theseus was the legendary hero-king of Athens; 'land of Theseus' means Attica.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "word",
+    "text": "Scarlet festal robes mark the Furies' new status; they were previously dressed in black.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "phrasing",
+    "text": "'Portioned with' means allotted: the Furies receive worship and offerings as their assigned honour in their underground home.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The Furies, once vengeful pursuers of Orestes, now bless Athens after Athena's court acquitted him and she persuaded them to stay.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Torch-lit processions were a familiar Athenian ritual; the play ends in one, joining the audience to the new cult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "The Furies are called children of Night, ancient goddesses older than the Olympians; this closing procession turns them into the Athenian Eumenides, 'kindly ones'.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "antithesis",
+    "text": "Song for some, tears for others sets the Furies' two-sided power in balance, showing why they must be honoured.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "paradox",
+    "text": "Hating 'with one accord' as a cure imagines shared hatred, directed outward, as a bond that unites the citizens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "irony",
+    "text": "Athena finds future profit in faces once terrifying; the horror of the Furies has become a source of civic benefit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "metaphor",
+    "text": "Athenians are pictured as nestlings under Athena's wings, expressing divine protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "refrain",
+    "text": "The call for hushed, auspicious words repeats in the procession, giving the finale a ritual rhythm.",
+    "spoiler": false
+   }
+  ]
+ }
+}

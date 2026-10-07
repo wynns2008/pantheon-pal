@@ -1,0 +1,461 @@
+{
+ "section_id": "pausanias-body-338",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9910,
+  "output": 4037
+ },
+ "result": {
+  "summary": "Pausanias finishes the Delphi statues with the diver Scyllis and his daughter Hydna, then tells how Methymna's fishermen found an olive-wood head of Dionysus. He describes the temple gables and golden arms, and begins his account of the Gallic (Galati) invasions of Greece under Cambaules and Brennus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Scyllis and Hydna the divers",
+    "summary": "Statues of the diver Scyllis and his daughter Hydna stand at Delphi. They cut Xerxes' ships' cables in a storm, and Nero later took Hydna's statue.",
+    "stakes": "",
+    "present": [
+     "Scyllis",
+     "Hydna",
+     "Xerxes",
+     "Nero"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 8,
+    "title": "The olive-wood head of Dionysus",
+    "summary": "Methymna fishermen net an olive-wood head. The Pythian priestess tells them to worship Phallenian Dionysus, and they send a bronze copy to Delphi.",
+    "stakes": "The Methymnians need to know which god the strange image represents.",
+    "present": [
+     "Dionysus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Methymna",
+     "modern_name": "Molyvos, Lesbos",
+     "certainty": "real",
+     "lat": 39.3702,
+     "lon": 26.1651
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 11,
+    "title": "Gables and golden arms",
+    "summary": "Pausanias describes the temple gables, their sculptors, and the shields offered on the architraves.",
+    "stakes": "",
+    "present": [
+     "Artemis",
+     "Leto",
+     "Apollo",
+     "Dionysus",
+     "Praxias",
+     "Androsthenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 18,
+    "title": "The Gallic expeditions begin",
+    "summary": "After Cambaules' first raid, a larger Celtic army splits in three. Bolgius defeats and kills Ptolemy of Macedon, but the Celts withdraw.",
+    "stakes": "Macedonia and Thrace face invasion and plunder.",
+    "present": [
+     "Cambaules",
+     "Cerethrius",
+     "Brennus",
+     "Acichorius",
+     "Bolgius",
+     "Ptolemy",
+     "Seleucus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Macedonia",
+     "modern_name": "Macedonia",
+     "certainty": "real",
+     "lat": 40.6,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 28,
+    "title": "Brennus musters the great army",
+    "summary": "Brennus persuades the Galati to invade Greece for its wealth. Pausanias describes their huge army and the Trimarcisia cavalry system.",
+    "stakes": "Greece and its rich temples face invasion.",
+    "present": [
+     "Brennus",
+     "Acichorius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Galatian lands",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Scyllis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Diver of Scione honored by the Amphictyones"
+   },
+   {
+    "name": "Hydna",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Scyllis, also a diver"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king whose fleet was wrecked"
+   },
+   {
+    "name": "Nero",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor who removed statues from Delphi"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Phallenian Dionysus"
+    ],
+    "kind": "god",
+    "description": "God worshipped in the olive-wood head"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Shown on the gables"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Shown on the gables"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "Shown on the gables"
+   },
+   {
+    "name": "Praxias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian sculptor, pupil of Calamis"
+   },
+   {
+    "name": "Calamis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor, teacher of Praxias"
+   },
+   {
+    "name": "Androsthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian sculptor who finished the gables"
+   },
+   {
+    "name": "Eucadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor, teacher of Androsthenes"
+   },
+   {
+    "name": "Cambaules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Led the first Celtic expedition"
+   },
+   {
+    "name": "Cerethrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Celtic leader against Thracians and Triballi"
+   },
+   {
+    "name": "Brennus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Celtic chieftain who led the invasion of Greece"
+   },
+   {
+    "name": "Acichorius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Celtic chieftain, colleague of Brennus"
+   },
+   {
+    "name": "Bolgius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Celtic leader against Macedonians and Illyrians"
+   },
+   {
+    "name": "Ptolemy",
+    "aliases": [
+     "Lightning"
+    ],
+    "kind": "mortal",
+    "description": "Macedonian king killed by Bolgius' army"
+   },
+   {
+    "name": "Seleucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Antiochus, murdered by Ptolemy"
+   },
+   {
+    "name": "Antiochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Seleucus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Scyllis",
+    "relation": "parent_of",
+    "b": "Hydna",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Antiochus",
+    "relation": "parent_of",
+    "b": "Seleucus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "outside",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Artemis",
+    "source": "outside",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lightning",
+    "canonical": "Ptolemy",
+    "explanation": "Nickname given for his audacity."
+   },
+   {
+    "alias": "Galati",
+    "canonical": "Celts",
+    "explanation": "Pausanias uses Galati and Celts for the same people."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 27,
+    "reason": "Gives the Celtic word marca for horse, explaining the name Trimarcisia.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias mixes dedications and sculptors with history, showing how Delphi's offerings record Greek memory, including war against outsiders.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Gallic invasion of 279 BC and its attack on Delphi became a defining Greek memory of resisting barbarians.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias' figures for the Gallic army are probably greatly exaggerated.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Amphictyones were the member states of the Amphictyonic League, which administered Delphi; here they dedicate the statue as a collective offering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "A bracketed line, apparently a later insertion or editor's aside, about divers; its sense is obscure and it is not clearly Pausanias' own.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Fished up\" means dragged up in the nets; the head was an unexpected catch, not a made offering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Phallenian is an epithet of Dionysus, linked to the phallus; Pausanias gives no explanation here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Architraves are the main beams resting on the columns; the shields were fixed along them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Galati are the Gauls (Celts), who invaded Greece and attacked Delphi in 279 BC; the Ætolians fought them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Refers to Pausanias' earlier account in Book 1, tied to the Athenian council-chamber (Metroon/bouleuterion), where he first mentioned the Galatian invasion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"Egged on\" means urged or incited; \"enamoured of the gains of looting\" means passionately fond of plunder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "\"Suppliant\" is someone seeking protection; killing one was a grave breach of religious and hospitality norms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "\"Durst\" is archaic for \"dared\"; \"adventure\" here means venture or risk going.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "The Immortals were the elite Persian royal infantry, kept always at 10,000 men by replacing any who fell.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "Trimarcisia means roughly \"three horses\" (tri- plus marca); related to the Celtic word for horse.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Xerxes, king of Persia, invaded Greece in 480 BC; his fleet suffered storms off Mount Pelion in Thessaly before the sea battles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "The Roman emperor Nero removed hundreds of statues from Delphi to adorn Rome, as Pausanias notes elsewhere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "The Pythian priestess was the oracle of Apollo at Delphi, consulted by cities and individuals on religious questions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Thyiades were frenzied female followers of Dionysus who held rites on Parnassus near Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "The Athenians' victory over the Persians at Marathon came in 490 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Brennus is the main Gallic leader of the invasion; the Triballi and Pæonians were peoples north of Macedonia and Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Ptolemy Ceraunus, exiled son of Ptolemy I of Egypt, seized Macedonia; he died fighting the Gauls in 279 BC. Ceraunus means \"Thunderbolt.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Ancient authors often gave very large army figures; Pausanias' numbers should be treated cautiously.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "characterization",
+    "text": "The diver pair are honored for a heroic though morally ambiguous act, showing Pausanias' interest in famous individuals who served Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "irony",
+    "text": "A foreign-looking god is hauled from the sea by ordinary fishermen, and he becomes an honored Greek cult figure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "characterization",
+    "text": "Ptolemy's treachery toward a suppliant and his nickname paint him as bold and impious, preparing for his downfall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "characterization",
+    "text": "Brennus appears as a cunning persuader who exploits Greek wealth and weakness, marking him as the driving force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "foreshadowing",
+    "text": "The closing line, stressing force and intentions, signals the coming clash at Delphi that the chapter promised.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -16,7 +16,7 @@ CARDINALS = ("ONE TWO THREE FOUR FIVE SIX SEVEN EIGHT NINE TEN ELEVEN TWELVE THI
 # Roman numerals must be uppercase so title words like "Civil" or "Mix" are not read as numbers.
 _NUM = r"(?:(?-i:[IVXLC]+)|\d+|" + "|".join(ORDINALS + CARDINALS) + r")(?![A-Za-z])"
 HEADING_RE = re.compile(
-    rf"^(?P<kind>{'|'.join(KINDS)})S?\.?\s+(?:THE\s+)?(?P<nums>{_NUM}(?:[.,]?\s+(?:AND\s+)?{_NUM})*)\.?"
+    rf"^(?P<kind>{'|'.join(KINDS)})S?\.?\s+(?:THE\s+)?(?P<nums>{_NUM}(?:[.,]?\s+(?:AND\s+)?{_NUM})*)[.:]?"
     rf"\s*(?:\[(?P<ref>[^\]]*)\])?(?:(?:(?<=\.)\s+|\s*[:\-—]\s*)(?P<title>.+))?\s*$", re.I)
 # Bare numerals ("IV." / "12." / "I. A SCANDAL IN BOHEMIA") with no CHAPTER/BOOK word. Only used as a
 # fallback, because lone numbers are ambiguous (page numbers, verse lines). A title needs a period after
@@ -80,8 +80,10 @@ def find_candidates(lines: list[str], bare: bool = False) -> list[Heading]:
             nums = [n for t in re.split(r"[\s.,]+", m.group("nums")) if t.upper() != "AND" and t
                     and (n := _to_int(t)) is not None]
             title = m.group("title")
-            # A title that holds another heading word is prose, e.g. "BOOK I. (Folio), CHAPTER I. (Sperm Whale)".
-            if title and _KIND_WORD_RE.search(title):
+            # A title that holds another heading word is prose, e.g. "BOOK I. (Folio), CHAPTER I. (Sperm Whale)". Not one
+            # that only ends in "PART II.": "BOOK VI.--ELIS. PART II." is the second part of Elis, still Book 6.
+            inner = _KIND_WORD_RE.search(title) if title else None
+            if inner and not (inner.group(0).upper().startswith("PART") and not title[inner.end():].strip(" .")):
                 continue
             # Several numbers are only valid in a list like "IV. V. AND VI."; otherwise it is a
             # table-of-contents line such as "Book I.    1" (page number).

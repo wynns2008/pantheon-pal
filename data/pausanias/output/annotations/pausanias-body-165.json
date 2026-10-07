@@ -1,0 +1,521 @@
+{
+ "section_id": "pausanias-body-165",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 13639,
+  "output": 4632
+ },
+ "result": {
+  "summary": "Pausanias begins his catalogue of statues and votive offerings at Olympia with the Zanes, bronze statues of Zeus paid for by fines on cheating athletes. He lists the bribery scandals behind them, from Eupolus to Callippus, wrestlers, boxers and Damonicus, and digresses on Alexandrian victors and the Portico of Echo.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Introduction to the votive offerings",
+    "summary": "Pausanias explains the difference between votive offerings and victor statues and begins at the path to the race-course.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 21,
+    "title": "The Zanes of Eupolus and Callippus",
+    "summary": "Bronze statues of Zeus were funded by fines on boxers who were bribed by Eupolus and on the Athenian Callippus and his rivals. Athens refused to pay until Delphi withheld oracles.",
+    "stakes": "Athletes risk fines and disgrace; Athens risks losing Delphic oracles.",
+    "present": [
+     "Eupolus",
+     "Agenor",
+     "Prytanis",
+     "Phormio",
+     "Callippus",
+     "Hyperides",
+     "Cleon",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 41,
+    "title": "Wrestlers, Alexandrians and Apollonius",
+    "summary": "Further fines on wrestlers are recorded, with a digression on Alexandrian victors, Nicostratus, and the boxer Apollonius who attacked Heraclides.",
+    "stakes": "Athletes risk disqualification and punishment; Nicostratus as a kidnapped child loses his freedom.",
+    "present": [
+     "Eudelus",
+     "Philostratus",
+     "Straton",
+     "Nicostratus",
+     "Apollonius",
+     "Heraclides",
+     "Caprus",
+     "Aristomenes",
+     "Protophanes",
+     "Marion",
+     "Aristeas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 42,
+    "end_sentence": 53,
+    "title": "Later bribes and the Portico",
+    "summary": "Pausanias lists more recent bribery cases, including Damonicus of Elis, and notes the Echo Portico and the cowardly Serapion.",
+    "stakes": "Parents and athletes face fines and shame for corruption or cowardice.",
+    "present": [
+     "Didas",
+     "Sarapammon",
+     "Damonicus",
+     "Polyctor",
+     "Sosander",
+     "Serapion"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Altis",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Olympian Zeus"
+    ],
+    "kind": "god",
+    "description": "god honoured by the statues paid for with fines"
+   },
+   {
+    "name": "Eupolus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thessalian boxer who bribed rivals"
+   },
+   {
+    "name": "Agenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian boxer bribed by Eupolus"
+   },
+   {
+    "name": "Prytanis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boxer from Cyzicus bribed by Eupolus"
+   },
+   {
+    "name": "Phormio",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boxer from Halicarnassus, earlier champion"
+   },
+   {
+    "name": "Cleon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicyonian sculptor of two Zanes"
+   },
+   {
+    "name": "Callippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian pentathlete who bribed rivals"
+   },
+   {
+    "name": "Hyperides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian envoy sent to Elis"
+   },
+   {
+    "name": "Eudelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "athlete bribed by Philostratus"
+   },
+   {
+    "name": "Philostratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Rhodian who bribed Eudelus"
+   },
+   {
+    "name": "Straton",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alexandrian who won pancratium and wrestling on one day"
+   },
+   {
+    "name": "Caprus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean double victor"
+   },
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Rhodian double victor"
+   },
+   {
+    "name": "Protophanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "double victor from Magnesia"
+   },
+   {
+    "name": "Marion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alexandrian double victor"
+   },
+   {
+    "name": "Aristeas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "double victor from Stratonice"
+   },
+   {
+    "name": "Nicostratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "kidnapped Phrygian boy who became a champion"
+   },
+   {
+    "name": "Apollonius",
+    "aliases": [
+     "Rhantes"
+    ],
+    "kind": "mortal",
+    "description": "Alexandrian boxer fined for arriving late"
+   },
+   {
+    "name": "Heraclides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alexandrian boxer who exposed Apollonius"
+   },
+   {
+    "name": "Didas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Egyptian boxer who took a bribe"
+   },
+   {
+    "name": "Sarapammon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Egyptian boxer who gave a bribe"
+   },
+   {
+    "name": "Damonicus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean who bribed for his son"
+   },
+   {
+    "name": "Polyctor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Damonicus, wrestler"
+   },
+   {
+    "name": "Sosander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wrestler of Smyrna, bribed"
+   },
+   {
+    "name": "Serapion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alexandrian pancratiast who fled from fear"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Damonicus",
+    "relation": "parent_of",
+    "b": "Polyctor",
+    "source": "text",
+    "evidence_sentence": 48
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Rhantes",
+    "canonical": "Apollonius",
+    "explanation": "A surname, as Alexandrians customarily had."
+   },
+   {
+    "alias": "Zanes",
+    "canonical": "Zeus",
+    "explanation": "Local dialect name for the bronze statues of Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Inscription stating prizes at Olympia are won by speed and strength, not money.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "reason": "Pausanias' astonishment at anyone bribing at Olympia.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage stresses piety and fair play: Olympic victory belonged to the god and had to be earned, and cheating was publicly shamed.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The cases span centuries, showing Elis enforcing rules even against Athens, and Pausanias' use of Elean records and local guides.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Zanes stood beside the entrance to the stadium, so athletes passed the warning inscriptions on their way to compete.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Prizemen\" means victorious athletes, the winners of prizes at the games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Zanes\" is the Elean dialect plural of Zeus; the statues were thus simply called \"Zeuses\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Modeller\" here means the sculptor who made the statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Elegiac lines are verses in alternating hexameter and pentameter couplets, often used for inscriptions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Panegyric\" is a speech or text of high praise; \"didactic precept\" means a teaching or moral instruction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "The pentathlum (pentathlon) was a five-event contest: running, jumping, discus, javelin and wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Hauteur\" means haughtiness or arrogant disdain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Antiquarians\" here means the Elean local guides and record-keepers who expounded the sanctuary's monuments and history.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "The pancratium was a brutal combined event of wrestling and boxing with few restrictions; winning it and wrestling in one day was exceptional.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "phrasing",
+    "text": "\"Greeks beyond the Ægean\" means the Greeks of Asia Minor, east of the Aegean Sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "\"Nominally\" means in name only: Nicostratus was called Cilician but had no real Cilician ancestry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "A truckle bed is a low bed on wheels that slides under a higher bed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "word",
+    "text": "A crown \"without a contest\" means a walkover victory, awarded because no opponent was left.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "word",
+    "text": "The cæstus was a boxer's glove of leather straps, often weighted, which made the attack dangerous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "allusion",
+    "text": "Arsinoites is the Egyptian district (nome) of Arsinoe, the Fayum, named for a Ptolemaic queen; hence 'latest formed' under Greek rule.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "word",
+    "text": "'Arena' translates the stadium or wrestling ground; 'descended' reflects the athletes' formal entry into the contest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "word",
+    "text": "'Umpires' are the Hellanodikai, the Elean judges of the games, who imposed fines.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "kind": "word",
+    "text": "'Altis' is the sacred precinct of Zeus at Olympia, containing temples, altars and statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "word",
+    "text": "A 'pancratiast' competed in the pancratium, a brutal combination of boxing and wrestling; 'absconded' means he secretly ran away.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "The Altis was the sacred precinct of Zeus at Olympia; the Temple of the Mother is the shrine of the Mother of the gods, and Mount Cronius rises beside it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Elis administered the Olympic games and acted as their judges, so it had authority to fine competitors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Hyperides was a famous Athenian orator of the fourth century BC, sent here as envoy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The Delphic oracle of Apollo was the most authoritative in Greece, so withholding responses was a serious pressure on Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Bribery scandals led Elis to fund bronze statues of Zeus, called Zanes, from athletes' fines; they stood on the way to the stadium.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Alexander the Great founded Alexandria in 331 BC; it became the great Hellenistic city of Egypt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "text": "The Umpires were the Hellanodicae, the Elean judges who ran the games and enforced penalties.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "text": "Fines from cheating athletes paid for bronze statues of Zeus, called Zanes, set along the approach to the stadium as warnings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "text": "The Echo Portico at Olympia was famed for its sevenfold echo, a well-known wonder of the site.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "contrast",
+    "text": "Comparing the Acropolis with the Altis clarifies the distinction between offerings to a god and memorials to human victors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "characterization",
+    "text": "The Athenians' proud refusal to pay, until divine pressure forces them, paints them as stubborn and haughty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "motif",
+    "text": "The recurring theme that Olympic victory is won by merit, not money, reinforces the moral purpose of the Zanes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "foreshadowing",
+    "text": "The dream of a lion's whelp hints that the slave boy is destined for greatness, anticipating his Olympic victories.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "understatement",
+    "text": "The curt closing remark treats a violent assault dryly, leaving the reader to infer the severity of the punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "device": "Authorial commentary",
+    "text": "Pausanias voices moral astonishment, escalating from foreigners to Eleans, who should most respect the god, building a pointed climax.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "device": "Irony",
+    "text": "The closing note makes cowardice the sole offense of its kind, a dry, almost humorous record that ends the list of disgraces.",
+    "spoiler": false
+   }
+  ]
+ }
+}

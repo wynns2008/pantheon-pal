@@ -1,0 +1,379 @@
+{
+ "section_id": "pausanias-body-305",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7836,
+  "output": 3252
+ },
+ "result": {
+  "summary": "Pausanias describes the cult of Eros at Thespiae, discussing early poets' views on his parentage and the history of his statues, which were carried off by Roman emperors. He then lists other sights of Thespiae and explains why the priestess of Hercules is a virgin.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Worship and parentage of Eros",
+    "summary": "Pausanias notes the Thespian and Pariani cults of Eros and cites Olen, Pamphus, Orpheus, Hesiod and Sappho on his origins.",
+    "stakes": "",
+    "present": [
+     "Eros",
+     "Olen",
+     "Pamphus",
+     "Orpheus",
+     "Hesiod",
+     "Sappho",
+     "Aphrodite",
+     "Ilithyia"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thespia",
+     "modern_name": "Thespies, Boeotia",
+     "certainty": "real",
+     "lat": 38.28,
+     "lon": 23.16
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 15,
+    "title": "Statues of Eros and the emperors",
+    "summary": "Statues of Eros by Lysippus and Praxiteles were removed by Gaius and Nero and burnt; Menodorus made a copy.",
+    "stakes": "The god's statue is taken from Thespia and destroyed.",
+    "present": [
+     "Eros",
+     "Lysippus",
+     "Praxiteles",
+     "Phryne",
+     "Gaius",
+     "Claudius",
+     "Nero",
+     "Menodorus",
+     "Aphrodite"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thespia",
+     "modern_name": "Thespies, Boeotia",
+     "certainty": "real",
+     "lat": 38.28,
+     "lon": 23.16
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 17,
+    "title": "Other sights of Thespia",
+    "summary": "Pausanias lists the temple of Black Aphrodite, theatre, market-place, statue of Hesiod, Victory and Muses' temple.",
+    "stakes": "",
+    "present": [
+     "Aphrodite",
+     "Hesiod"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thespia",
+     "modern_name": "Thespies, Boeotia",
+     "certainty": "real",
+     "lat": 38.28,
+     "lon": 23.16
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 25,
+    "title": "Hercules' virgin priestess",
+    "summary": "Pausanias gives the story of Hercules and Thestius' daughters, rejects the second version, and suggests the temple belongs to the Idaean Hercules.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Thestius",
+     "Amphitryon",
+     "Demeter"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thespia",
+     "modern_name": "Thespies, Boeotia",
+     "certainty": "real",
+     "lat": 38.28,
+     "lon": 23.16
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Eros",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of love, chief god of the Thespians"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess, thought by most to be mother of Eros"
+   },
+   {
+    "name": "Ilithyia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of childbirth, mother of Eros per Olen"
+   },
+   {
+    "name": "Olen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lycian author of the oldest Greek hymns"
+   },
+   {
+    "name": "Pamphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early poet who wrote verses to Eros"
+   },
+   {
+    "name": "Orpheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who wrote verses to Eros"
+   },
+   {
+    "name": "Hesiod",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet, with a bronze statue at Thespia"
+   },
+   {
+    "name": "Sappho",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lesbian poet who sang of Eros"
+   },
+   {
+    "name": "Lysippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of a bronze Eros"
+   },
+   {
+    "name": "Praxiteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of a marble Eros"
+   },
+   {
+    "name": "Phryne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman who tricked Praxiteles; subject of a statue"
+   },
+   {
+    "name": "Gaius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman emperor who removed the Eros"
+   },
+   {
+    "name": "Claudius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman emperor who restored the Eros"
+   },
+   {
+    "name": "Nero",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman emperor who removed the Eros again"
+   },
+   {
+    "name": "Menodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian sculptor of the present Eros"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Idæan Hercules"
+    ],
+    "kind": "god",
+    "description": "hero with a temple at Thespia"
+   },
+   {
+    "name": "Thestius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of fifty daughters, friend of Hercules"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hercules"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Mycalessian Demeter"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a temple at Mycalessus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Aphrodite",
+    "relation": "parent_of",
+    "b": "Eros",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Ilithyia",
+    "relation": "parent_of",
+    "b": "Eros",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Thestius",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "outside",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Amphitryon",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 24
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Idæan Hercules",
+    "canonical": "Hercules",
+    "explanation": "One of the Idaean Dactyli, a different, older Hercules than the son of Amphitryon."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 0,
+    "reason": "Opens with Thespian devotion to Eros and his ancient rough-stone image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "reason": "Cites the Theogony's order: Chaos, Earth, Tartarus, Eros, and doubts Hesiod's authorship.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs competing traditions about Eros and Hercules, using his own judgement to reject the less credible.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The removal of famous statues by Gaius and Nero shows Roman emperors plundering Greek art, and Pausanias' disapproval.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Praxiteles' Eros of Thespiae became one of the most famous statues of antiquity and was copied widely."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias says he read the hymns to Eros through a torch-bearer at the mysteries, since they were secret.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Rude stone\" means unworked, unshaped stone, a primitive cult object rather than a carved image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Not a whit less\" means not at all less; the Pariani honour Eros just as much.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Lycomidae were an Athenian priestly family who kept a mystery cult and sang hymns at its rites; the torch-bearer was a mystery official.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Foisted it on Hesiod\" means passed it off falsely as Hesiod's work; Pausanias doubts Hesiod's authorship of the Theogony.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Phryne, Praxiteles' lover, reportedly tricked him into revealing which of his works he valued most, so she could claim the Eros.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Gaius (Caligula) was killed in AD 41 by a Praetorian officer he had mocked with insulting watchwords; Nero killed his mother Agrippina and his wives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "The Idaean Dactyls were mythical beings of Mount Ida, associated with metalworking and magic; one was called Hercules.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Olen was a legendary early poet said to have come from Lycia and to have composed hymns sung at Delos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Lysippus and Praxiteles were famous fourth-century BC sculptors; Pentelic marble came from Mount Pentelicus near Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Thestius was a legendary king of Thespiae; in the myth Hercules fathered sons on his daughters during a lion hunt.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "narrative voice",
+    "text": "The parenthetical doubt about Hesiod shows Pausanias as a skeptical, scholarly guide who weighs sources.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "Calling Nero without \"true affinity with Eros\" is a sardonic understatement, condemning his cruelty and lust through the god of love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "characterization",
+    "text": "Pausanias reasons from Hercules' known piety and punishing of the insolent, using his character as evidence against the story.",
+    "spoiler": false
+   }
+  ]
+ }
+}

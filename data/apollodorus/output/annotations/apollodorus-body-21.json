@@ -1,0 +1,345 @@
+{
+ "section_id": "apollodorus-body-21",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6625,
+  "output": 2873
+ },
+ "result": {
+  "summary": "Catreus of Crete is told by an oracle that one of his children will kill him. His son Althaemenes flees to Rhodes, kills his sister Apemosyne by mistake about Hermes, and later unknowingly kills his own father when Catreus comes to Rhodes.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Althaemenes flees to Rhodes",
+    "summary": "Warned by the oracle, Althaemenes leaves Crete with Apemosyne and settles on Rhodes. There he kicks his sister to death after Hermes ravishes her.",
+    "stakes": "Althaemenes tries to avoid becoming his father's murderer; Apemosyne is in danger from Hermes and her brother's disbelief.",
+    "present": [
+     "Catreus",
+     "Althaemenes",
+     "Apemosyne",
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Rhodes",
+     "modern_name": "Rhodes",
+     "certainty": "real",
+     "lat": 36.17,
+     "lon": 28.0
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 7,
+    "title": "Catreus's other daughters",
+    "summary": "Catreus gives Aerope and Clymene to Nauplius to sell abroad; they marry and have famous sons.",
+    "stakes": "",
+    "present": [
+     "Catreus",
+     "Aerope",
+     "Clymene",
+     "Nauplius",
+     "Plisthenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Crete",
+     "modern_name": "Crete",
+     "certainty": "real",
+     "lat": 35.24,
+     "lon": 24.81
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 11,
+    "title": "Catreus killed by his son",
+    "summary": "Old Catreus sails to Rhodes to give Althaemenes the kingdom. Cowherds attack him, and Althaemenes kills him unknowingly, then vanishes into a chasm.",
+    "stakes": "Catreus risks his life landing unrecognized; Althaemenes unknowingly fulfils the oracle.",
+    "present": [
+     "Catreus",
+     "Althaemenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Rhodes",
+     "modern_name": "Rhodes",
+     "certainty": "real",
+     "lat": 36.17,
+     "lon": 28.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Catreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Minos, king of Crete"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Catreus"
+   },
+   {
+    "name": "Aerope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Catreus, wife of Plisthenes"
+   },
+   {
+    "name": "Clymene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Catreus, wife of Nauplius"
+   },
+   {
+    "name": "Apemosyne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Catreus, killed by her brother"
+   },
+   {
+    "name": "Althaemenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Catreus who settles Rhodes"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who ravishes Apemosyne"
+   },
+   {
+    "name": "Nauplius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "buyer of Catreus's daughters, husband of Clymene"
+   },
+   {
+    "name": "Plisthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Aerope"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aerope and Plisthenes"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aerope and Plisthenes"
+   },
+   {
+    "name": "Oeax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Nauplius and Clymene"
+   },
+   {
+    "name": "Palamedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Nauplius and Clymene"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Minos",
+    "relation": "parent_of",
+    "b": "Catreus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Catreus",
+    "relation": "parent_of",
+    "b": "Aerope",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Catreus",
+    "relation": "parent_of",
+    "b": "Clymene",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Catreus",
+    "relation": "parent_of",
+    "b": "Apemosyne",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Catreus",
+    "relation": "parent_of",
+    "b": "Althaemenes",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Althaemenes",
+    "relation": "sibling_of",
+    "b": "Apemosyne",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Plisthenes",
+    "relation": "spouse_of",
+    "b": "Aerope",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Plisthenes",
+    "relation": "parent_of",
+    "b": "Agamemnon",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Plisthenes",
+    "relation": "parent_of",
+    "b": "Menelaus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Nauplius",
+    "relation": "spouse_of",
+    "b": "Clymene",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Nauplius",
+    "relation": "parent_of",
+    "b": "Oeax",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Nauplius",
+    "relation": "parent_of",
+    "b": "Palamedes",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Hermes",
+    "relation": "lover_of",
+    "b": "Apemosyne",
+    "source": "text",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Atabyrian Zeus",
+    "canonical": "Zeus",
+    "explanation": "Zeus worshipped at Mount Atabyrium on Rhodes; the translation uses the Greek name Zeus here."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The story shows the inescapability of oracles: Althaemenes's flight from the prophecy leads straight to its fulfilment.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tale explains the Cretan origins of cult and settlement on Rhodes, including the worship of Zeus on Mount Atabyrium.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Mount Atabyrium is the highest peak on Rhodes, and its sanctuary of Zeus was famed in antiquity.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Descrying\" means catching sight of something far off; here Althaemenes sees Crete from the mountaintop.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Atabyrian Zeus was a Rhodian cult of Zeus on Mount Atabyrium. The translator's note marks this as an origin story for that shrine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Deflowered\" means she lost her virginity; the story presents it as a trick, so the act is a rape.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"To sell into foreign lands\" means selling them abroad as slaves or wives, a way of disposing of daughters Catreus feared or distrusted.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"The heroes\" here means the men of rank who sailed with Catreus, his armed retinue, which is why the cowherds mistook them for raiders.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Oracles, especially Apollo's at Delphi, often gave prophecies that came true however people tried to avoid them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Hermes is the messenger god, known for speed, trickery and amorous pursuits; here he uses a trick to overcome a swift girl.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Agamemnon and Menelaus are the Atreidae, leaders of the Greek expedition against Troy. Palamedes is a clever hero in the Trojan War legends.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "foreshadowing",
+    "text": "The oracle's prediction sets up the tragic ending, when Catreus dies by his son's hand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "irony",
+    "text": "Althaemenes flees to avoid killing his father, but his flight sets in motion the circumstances that bring it about.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "dramatic irony",
+    "text": "The reader knows the attacker is his son and the victim his father, but neither man knows it, so the oracle is fulfilled.",
+    "spoiler": false
+   }
+  ]
+ }
+}

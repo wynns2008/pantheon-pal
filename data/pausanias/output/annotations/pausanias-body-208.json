@@ -1,0 +1,208 @@
+{
+ "section_id": "pausanias-body-208",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7612,
+  "output": 2013
+ },
+ "result": {
+  "summary": "A Roman senator, Gallus, is sent to arbitrate between Lacedaemonians and Argives and treats them with contempt, and also lets towns leave the Achaean League. Athens plunders Oropus, is fined by Sicyon, and then holds Oropus by garrison; the Oropians bribe the Achaean general Menalcidas and Callicrates to help them, but the Athenians plunder again and withdraw.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Gallus arbitrates and splits the League",
+    "summary": "Gallus, sent by Rome, scorns the Lacedaemonians and Argives. He lets the Aetolians of Pleuron and other towns leave the Achaean League.",
+    "stakes": "The Achaean League risks being broken up by Roman favour.",
+    "present": [
+     "Gallus",
+     "Philip",
+     "Callicrates"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Greece",
+     "modern_name": "Greece",
+     "certainty": "real",
+     "lat": 38.0,
+     "lon": 23.0
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 8,
+    "title": "Athens plunders Oropus, fined",
+    "summary": "Poor Athens plunders Oropus. Rome has Sicyon fine Athens 500 talents, cut to 100, which Athens never pays, instead securing a garrison and hostages in Oropus.",
+    "stakes": "Athens faces a heavy fine; Oropus loses its independence.",
+    "present": [
+     "Athenians",
+     "Oropians",
+     "Sicyonians"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Oropus",
+     "modern_name": "Oropos",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.75
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 17,
+    "title": "Oropians bribe the Achaean general",
+    "summary": "After the garrison insults townsmen, Athens refuses to return the hostages. The Oropians bribe Menalcidas and Callicrates, but Athens plunders Oropus again and withdraws, and the Achaean army turns back.",
+    "stakes": "Oropus risks continued oppression by Athens.",
+    "present": [
+     "Oropians",
+     "Athenians",
+     "Menalcidas",
+     "Callicrates",
+     "Achaeans"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Oropus",
+     "modern_name": "Oropos",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.75
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Gallus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman senator sent to arbitrate in Greece"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amyntas, earlier arbitrator"
+   },
+   {
+    "name": "Amyntas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Philip"
+   },
+   {
+    "name": "Callicrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "pro-Roman Achaean with great influence, called the plague of Greece"
+   },
+   {
+    "name": "Menalcidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lacedaemonian-born general of the Achaeans"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Amyntas",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Shows Pausanias' harsh judgement of Callicrates as the plague of all Greece.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Greek cities squabble and take bribes while Rome increasingly decides their fate, a main thread of Pausanias' account of Greece's decline.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Rome used arbitration and the dismantling of the Achaean League to weaken Greek unity before 146 BC; the Oropus affair belongs to 156-155 BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Philip the son of Amyntas (Philip II of Macedon) had earlier arbitrated between Sparta and Argos over the border territory of Thyreatis and Cynuria.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Pleuron was an ancient town in Aetolia; its people sought to leave the Achaean League, a federation of Peloponnesian cities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The war with the Macedonians refers to Athens' earlier conflicts with Macedon, which left the city impoverished according to Pausanias.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "A talent was a large unit of weight in silver, so 500 talents was an enormous sum; 100 was still heavy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "Prevailed upon by promises and gifts means the Athenians persuaded or bribed the Oropians into accepting a garrison, instead of paying the fine.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Gallus was a Roman envoy, here handling disputes among Greek states as Rome extended its control over Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Sicyon, a neutral Peloponnesian city, was chosen by Rome as the court to judge the quarrel between Athens and Oropus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Callicrates was a pro-Roman Achaean politician, whom Pausanias elsewhere condemns as a betrayer of Greek interests.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "characterization",
+    "text": "Gallus' haughty speech and conduct show Roman arrogance toward the famous Greek cities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "epithet",
+    "text": "Calling Callicrates 'the plague of all Greece' is a harsh epithet that sums up Pausanias' moral judgment of him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "A Lacedaemonian serving as Achaean general is bribed to move the army, showing how money rules Greek politics.",
+    "spoiler": false
+   }
+  ]
+ }
+}

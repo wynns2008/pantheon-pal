@@ -1,0 +1,384 @@
+{
+ "section_id": "pausanias-body-26",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9445,
+  "output": 3518
+ },
+ "result": {
+  "summary": "Pausanias tells how Olympiodorus led the Athenians to expel the Macedonians and recalls his other services and honours. He then returns to the Acropolis, describing the Erechtheum with its altars and sea-water well, the old statue of Athene, and Callimachus' golden lamp.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Olympiodorus frees Athens",
+    "summary": "Olympiodorus leads old men and boys against the Macedonians, takes the Museum, and wins other successes. His honours at Athens, Eleusis and Delphi are listed.",
+    "stakes": "Athens' freedom from Macedonian rule and its lost glory.",
+    "present": [
+     "Olympiodorus",
+     "Leocritus",
+     "Cassander"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 13,
+    "title": "Endoeus and the seated Athene",
+    "summary": "Pausanias moves on and mentions Endoeus, pupil of Daedalus, and his seated statue of Athene.",
+    "stakes": "",
+    "present": [
+     "Endœus",
+     "Dædalus",
+     "Callias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Acropolis of Athens",
+     "modern_name": "Acropolis, Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 21,
+    "title": "The Erechtheum and its well",
+    "summary": "The Erechtheum holds altars, paintings, a sea-water well and a trident mark said to be Poseidon's proof.",
+    "stakes": "",
+    "present": [
+     "Poseidon",
+     "Erechtheus",
+     "Butes",
+     "Hephæstus",
+     "Athene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Erechtheum",
+     "modern_name": "Erechtheion, Athens",
+     "certainty": "real",
+     "lat": 37.9722,
+     "lon": 23.7263
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 29,
+    "title": "Athene's statue and the lamp",
+    "summary": "Athene is honoured throughout Attica, especially her ancient statue. Callimachus made her a golden lamp that burns a year on one filling.",
+    "stakes": "",
+    "present": [
+     "Athene",
+     "Callimachus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Acropolis of Athens",
+     "modern_name": "Acropolis, Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Olympiodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian general who expelled the Macedonians"
+   },
+   {
+    "name": "Leocritus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Protarchus, first over the wall into the Museum"
+   },
+   {
+    "name": "Protarchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Leocritus"
+   },
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian ruler who threatened Attica"
+   },
+   {
+    "name": "Themistocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler of the Magnesians, father of sons who dedicated Artemis' statue"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Leucophryene"
+    ],
+    "kind": "goddess",
+    "description": "Goddess worshipped by the Magnesians"
+   },
+   {
+    "name": "Endœus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian sculptor, pupil of Dædalus"
+   },
+   {
+    "name": "Dædalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Craftsman who fled to Crete after killing Calus"
+   },
+   {
+    "name": "Calus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Murdered by Dædalus"
+   },
+   {
+    "name": "Callias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Dedicator of the seated Athene"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Patron goddess of Athens"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Eleutherius",
+     "Supreme Zeus"
+    ],
+    "kind": "god",
+    "description": "God with shrine and altar at Athens"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "God who contested Attica with Athene"
+   },
+   {
+    "name": "Erechtheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero honoured with sacrifice at Poseidon's altar"
+   },
+   {
+    "name": "Butes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero with an altar in the Erechtheum"
+   },
+   {
+    "name": "Hephæstus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with an altar in the Erechtheum"
+   },
+   {
+    "name": "Callimachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor who made the golden lamp"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Protarchus",
+    "relation": "parent_of",
+    "b": "Leocritus",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Leucophryene",
+    "canonical": "Artemis",
+    "explanation": "Cult title of Artemis worshipped by the Magnesians."
+   },
+   {
+    "alias": "Eleutherius",
+    "canonical": "Zeus",
+    "explanation": "Epithet meaning 'of Freedom'."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Pausanias admits his need to keep moving through all of Greece.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "The passage recalls Athens' brief liberation from Macedonian garrisons in the early third century BC, showing Pausanias' interest in its later history.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Pausanias blends history with sacred objects and wonders, treating Athene's ancient worship as central to Attica.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias describes the Erechtheum as a double building, matching its split structure on the Acropolis.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Some time after\" is vague; Pausanias is continuing his narrative of Athens' struggles against Macedonian rule in the early third century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "The Museum was a hill southwest of the Acropolis, fortified by the Macedonians, not a building for study as in modern usage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Zeus Eleutherius means Zeus the Liberator; dedicating a shield to him fits a battle fought for Athens' freedom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "The Prytaneum was the town hall of Athens, where public honours such as meals and statues were granted to benefactors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Themistocles, exiled from Athens, was given Magnesia by the Persian king; his sons later honoured the local Artemis there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Calus was Dædalus' nephew (also called Talos or Perdix), whom Dædalus killed from jealousy of his inventions, causing his flight to Crete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Vestibule means the entrance porch or forecourt. 'Supreme Zeus' translates Zeus Hypatos, 'Highest Zeus'; bloodless offerings were made to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Erechtheus was an early legendary king of Athens, worshipped alongside Poseidon; the oracle ordered shared sacrifice. Butes was a legendary Athenian hero.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "The Aphrodisienses are people of Aphrodisias in Caria, in Asia Minor; Pausanias cites them as a parallel for inland salt-water wells.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Refers to the myth of the contest between Poseidon and Athene for Attica; Poseidon struck the rock with his trident, and Athene's olive won her the land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "Polis means 'city'; the Acropolis ('high city') was the original settlement before the townships united, a union traditionally credited to Theseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "The 'cotton flax' is probably asbestos-like Carpasian flax, which resists burning; Pausanias calls it imperishable by fire.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "'Comes behind the first artificers' means he was inferior to the earliest great sculptors. 'Perforated stone' means he used the drill in carving.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "The Piræus was Athens' main harbour, and Munychia a fortified hill beside it; Macedonian garrisons held both.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Cassander was the Macedonian ruler who controlled Athens and much of Greece after Alexander's death. The Ætolians were a strong federation of central Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Dædalus was the legendary Athenian craftsman who built the Labyrinth for King Minos of Crete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "The well's sea-like roar in a south wind was a marvel locals attributed to Poseidon, god of the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "This Callimachus was a late fifth-century BC Athenian sculptor, not the Hellenistic poet of the same name.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "antithesis",
+    "text": "\"Zeal rather than strength\" contrasts willpower with physical power, underlining the desperation and pathos of an army of old men and boys.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "narrative voice",
+    "text": "Pausanias speaks directly as guide and author, curtailing a digression to keep his vast survey of Greece moving.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "narrative voice",
+    "text": "Pausanias openly withholds judgment on the myth, showing his cautious, reporting voice as a traveller recording tradition rather than endorsing it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "imagery",
+    "text": "The bronze palm rising to the roof and carrying off smoke gives a concrete, vivid picture, joining beauty and function.",
+    "spoiler": false
+   }
+  ]
+ }
+}

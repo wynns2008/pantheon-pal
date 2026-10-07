@@ -1,0 +1,329 @@
+{
+ "section_id": "pausanias-body-300",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7435,
+  "output": 2936
+ },
+ "result": {
+  "summary": "Pausanias describes the temples, customs and famous people of Tanagra, including the cults of Hermes, the poet Corinna and the local cocks. He then moves on to Anthedon in Boeotia, noting its sanctuaries, the tombs of Otus and Ephialtes, and the legend of Glaucus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "Sights of Tanagra",
+    "summary": "Pausanias lists Tanagra's temples, the Hermes cults and their origins, Corinna's tomb and painting, and the local breeds of cock.",
+    "stakes": "",
+    "present": [
+     "Hermes",
+     "Corinna",
+     "Pindar",
+     "Calamis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tanagra",
+     "modern_name": "Tanagra, Boeotia",
+     "certainty": "real",
+     "lat": 38.3167,
+     "lon": 23.5333
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 19,
+    "title": "Anthedon and Glaucus",
+    "summary": "Pausanias describes Anthedon's name origins, sanctuaries, the tombs of Otus and Ephialtes, and the tale of the fisherman Glaucus.",
+    "stakes": "",
+    "present": [
+     "Anthedon",
+     "Anthas",
+     "Poseidon",
+     "Alcyone",
+     "Otus",
+     "Ephialtes",
+     "Glaucus",
+     "Apollo",
+     "Aeschylus",
+     "Pindar"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Anthedon",
+     "modern_name": "Anthedon, Boeotia",
+     "certainty": "real",
+     "lat": 38.4167,
+     "lon": 23.45
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god worshipped at Tanagra as Ram-carrier and Champion"
+   },
+   {
+    "name": "Corinna",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poetess of Tanagra who defeated Pindar"
+   },
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet defeated by Corinna at Thebes"
+   },
+   {
+    "name": "Calamis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the ram-carrying Hermes"
+   },
+   {
+    "name": "Anthedon",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nymph said to have named the city"
+   },
+   {
+    "name": "Anthas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "reputed ruler of Anthedon, son of Poseidon"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Anthas"
+   },
+   {
+    "name": "Alcyone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Atlas, mother of Anthas"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "other",
+    "description": "father of Alcyone"
+   },
+   {
+    "name": "Otus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "giant buried at Anthedon, slain by Apollo"
+   },
+   {
+    "name": "Ephialtes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "giant buried at Anthedon, brother of Otus"
+   },
+   {
+    "name": "Iphimedea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Otus and Ephialtes"
+   },
+   {
+    "name": "Aloeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Otus and Ephialtes"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple at Tanagra, slayer of Otus and Ephialtes"
+   },
+   {
+    "name": "Glaucus",
+    "aliases": [],
+    "kind": "god",
+    "description": "fisherman turned prophetic sea god"
+   },
+   {
+    "name": "Aeschylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tragedian who wrote a play on Glaucus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Anthas",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Alcyone",
+    "relation": "parent_of",
+    "b": "Anthas",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Atlas",
+    "relation": "parent_of",
+    "b": "Alcyone",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Iphimedea",
+    "relation": "parent_of",
+    "b": "Otus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Aloeus",
+    "relation": "parent_of",
+    "b": "Ephialtes",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Otus",
+    "relation": "sibling_of",
+    "b": "Ephialtes",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Glaucus",
+    "relation": "transformed_into",
+    "b": "marine god",
+    "source": "text",
+    "evidence_sentence": 18
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Ram-carrier",
+    "canonical": "Hermes",
+    "explanation": "Cult title from carrying a ram round the walls to end a pestilence."
+   },
+   {
+    "alias": "Champion",
+    "canonical": "Hermes",
+    "explanation": "Cult title from leading Tanagra's youths against the Eretrians."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Pausanias' rationalising explanation for Corinna's victory over Pindar.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links local cults to founding legends, showing how Boeotian towns explained their rites through divine help.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Corinna's fame and the dialect remark show women's poetry in Boeotia and regional rivalry with Pindar's Theban tradition.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Glaucus legend of the fisherman turned sea god was later retold by Ovid in the Metamorphoses."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Tanagra later gave its name to Tanagra figurines, small terracotta statuettes made there from the late 4th century BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Ram-carrier\" translates the cult title Kriophoros; the title is explained by the ram-carrying story that follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "The \"scraper\" is a strigil, the curved tool athletes used to scrape oil and sweat from the skin; it hints Hermes appeared as a young athlete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Purslane is a low, fleshy-leaved plant; the text calls it a tree, a loose usage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Pindar wrote in literary Doric, while Corinna, a Boeotian, used the Aeolic dialect of her region, so her audience at Thebes understood her more readily.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Gills\" here means the wattles hanging from the cock's throat; the anemone comparison refers to the flower's red colour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Otus and Ephialtes were giant brothers who tried to pile mountains up to heaven; Homer says Apollo killed them in youth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Glaucus ate a magical herb that made him immortal and a sea god; sailors reportedly saw him and consulted him as a prophet.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 7,
+    "text": "Corinna was a Boeotian lyric poet, traditionally said to have defeated Pindar in poetic contests; the fillet was a victor's headband.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "The Euripus is the narrow strait between Boeotia and the island of Euboea, known for its strong, changing currents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "The Cabiri were mystery deities, often linked with protection at sea and with initiation rites; Boeotia had a well-known cult of them.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "characterization",
+    "text": "Pausanias praises the Tanagrans' piety by describing how they separate sacred places from daily life, shaping a favourable picture of the whole people.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "narrative voice",
+    "text": "This curt sentence closes the digression with a guide's plain voice, signalling that the description is finished and he is moving on.",
+    "spoiler": false
+   }
+  ]
+ }
+}

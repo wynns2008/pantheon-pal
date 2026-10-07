@@ -1,0 +1,632 @@
+{
+ "section_id": "aeschylus-body-7",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 18670,
+  "output": 5991
+ },
+ "result": {
+  "summary": "After an argument summarizing the whole play, Orestes arrives at his father Agamemnon's tomb with Pylades, leaves a lock of hair, and hides when he sees Electra and a chorus of women bringing libations. Sent by Clytaemestra after a frightening dream, the women lament, and Electra, unsure how to pray, takes their advice and prays for Orestes' return and for vengeance.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 21,
+    "title": "Setting and argument of the play",
+    "summary": "Details of staging and date, followed by a summary of the plot: Clytaemestra's dream, Orestes' return, the vengeance and his madness.",
+    "stakes": "",
+    "present": [
+     "Clytaemestra",
+     "Aegisthus",
+     "Agamemnon",
+     "Electra",
+     "Orestes",
+     "Pylades",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 38,
+    "title": "Orestes at his father's tomb",
+    "summary": "Orestes prays to Hermes, offers two locks of hair, and sees mourning women led by Electra. He withdraws with Pylades to watch.",
+    "stakes": "Orestes risks being discovered while seeking vengeance for his father's murder.",
+    "present": [
+     "Orestes",
+     "Pylades",
+     "Hermes",
+     "Agamemnon",
+     "Electra"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tomb of Agamemnon, Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 39,
+    "end_sentence": 59,
+    "title": "The chorus's lament",
+    "summary": "The women describe being sent with libations after the queen's terrifying dream, and mourn the ruined house and the power of blood-guilt.",
+    "stakes": "The women fear the consequences of carrying out a hated, godless rite under a master they resent.",
+    "present": [
+     "Chorus",
+     "Clytaemestra",
+     "Agamemnon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tomb of Agamemnon, Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 60,
+    "end_sentence": 120,
+    "title": "Electra's prayer and libation",
+    "summary": "Electra asks the women how to pray; they urge her to ask for an avenger. She invokes Hermes, Earth and her father, prays for Orestes, and pours the libations.",
+    "stakes": "Electra, enslaved and dispossessed, seeks justice for her father and the return of Orestes.",
+    "present": [
+     "Electra",
+     "Chorus",
+     "Hermes",
+     "Agamemnon",
+     "Orestes",
+     "Aegisthus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tomb of Agamemnon, Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Exiled son of Agamemnon returning to avenge him"
+   },
+   {
+    "name": "Pylades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Orestes' cousin and companion"
+   },
+   {
+    "name": "Electra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Agamemnon, treated like a slave"
+   },
+   {
+    "name": "Clytaemestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Queen of Argos, murderer of Agamemnon"
+   },
+   {
+    "name": "Aegisthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Clytaemestra's lover and co-ruler"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Murdered king whose tomb is the scene"
+   },
+   {
+    "name": "Strophius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Uncle who sheltered Orestes in Phocis"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "Commanded Orestes to take vengeance"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Guide between worlds, invoked as nether helper"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Invoked by Orestes for aid"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "other",
+    "description": "Women serving the house who bring libations"
+   },
+   {
+    "name": "Inachus",
+    "aliases": [],
+    "kind": "other",
+    "description": "River of Argos, offered a lock of hair"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Electra",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "parent_of",
+    "b": "Electra",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Orestes",
+    "relation": "sibling_of",
+    "b": "Electra",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "spouse_of",
+    "b": "Agamemnon",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "lover_of",
+    "b": "Aegisthus",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Hermes of the nether world",
+    "canonical": "Hermes",
+    "explanation": "Hermes in his role as guide of the dead, called 'nether Hermes' by Electra."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 47,
+    "reason": "Chorus asks what can atone for spilled blood, a key theme of the trilogy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "reason": "Expresses the law of blood vengeance: life for life.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The opening sets the cycle of blood vengeance: spilled blood cannot be cleansed, and the murdered demand retribution.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The play was staged in 458 B.C. at the City Dionysia as the middle part of the Oresteia trilogy.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The recognition scene that follows, with a lock of hair, was parodied by Euripides in his Electra and influenced later drama."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Oresteia is the only surviving complete Greek tragic trilogy.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Wroth\" is an archaic word for angry; \"baleful\" means threatening harm or evil.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Noxious\" means harmful; \"clotted\" describes blood thickened into lumps.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"If haply she might placate\" means \"in case she might perhaps appease.\" \"Nether powers\" are the gods and spirits of the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Offering a lock of hair was a mourning custom, and it later serves as a token by which Electra recognizes her brother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The Erinyes are the Furies, avenging spirits who pursue those who shed kindred blood. Here they would act for his murdered father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "\"Powers that are thy sire's\": Hermes guards the authority once held by his father Zeus, and here also the dead below; the phrase is ambiguous and debated.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "The broken-off ending (\". . .\") marks a gap in the surviving text; the lines are damaged or missing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Inachus is the river god of Argos. Offering a lock of hair to a local river was a custom of thanks for a youth's upbringing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "\"Sable weeds\" means black mourning clothes; \"weeds\" is an old word for garments.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "\"Libations\" are liquids poured out as offerings to the dead or the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "word",
+    "text": "\"Of a surety\" means for certain; \"import\" here means signify or mean.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "word",
+    "text": "Libations are liquid offerings, here poured at Agamemnon's tomb to appease the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "phrasing",
+    "text": "\"Rendings\" means the tearing of garments in grief; the clause says the robe is torn because of sorrows far from any joy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "phrasing",
+    "text": "\"The inspiring power who divines for the house\" is the dream-spirit or prophetic force that sends warnings to the household in sleep.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "phrasing",
+    "text": "\"Graceless grace\" is a paradox: an offering meant as a favor, but given without goodwill and only out of fear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "kind": "allusion",
+    "text": "The speaker is a captive, probably taken after the fall of Troy, so her \"city\" is Troy and her slavery follows its capture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "kind": "phrasing",
+    "text": "\"Touching this\" means \"concerning this\"; Electra asks the women for advice about how to word her prayer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "kind": "phrasing",
+    "text": "\"Forsooth\" is archaic and sarcastic: she mocks the usual formula of asking the dead to repay the givers, since the givers are evil.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "kind": "allusion",
+    "text": "Refers to the custom of casting away the purification refuse and the vessel without looking back, so the polluting evil is not carried home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 70,
+    "kind": "phrasing",
+    "text": "\"Fated hour\" means death, which comes to free and enslaved alike; she tells the women to speak without fear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 81,
+    "kind": "phrasing",
+    "text": "The Chorus advises her to pray for herself and for all enemies of Aegisthus, so that the prayer also asks for vengeance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "kind": "phrasing",
+    "text": "\"Life for life\" expresses the law of blood retaliation: a killer must pay with his own death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 109,
+    "kind": "word",
+    "text": "\"Nether Hermes\": Hermes in his role as guide of souls to the underworld, here asked to carry her prayer to the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 110,
+    "kind": "word",
+    "text": "\"Lustral offerings\" are liquids poured in purification or ritual; here the libations for the dead Agamemnon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 112,
+    "kind": "phrasing",
+    "text": "\"Bartered away\": Clytemnestra is said to have sold her children, taking Aegisthus in exchange, as though they were goods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 113,
+    "kind": "phrasing",
+    "text": "\"Wanton bravely in the winnings of thy toil\" means they revel splendidly in wealth Agamemnon earned by his labors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 120,
+    "kind": "phrasing",
+    "text": "\"Crown them with flowers of lamentation\" asks the Chorus to follow the libation with a funeral song, as if with garlands.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "The \"heroic age\" is the legendary era of the Trojan War and its aftermath, when the story is set.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "The City Dionysia was Athens' spring festival of Dionysus, where tragedies were performed in competition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Pylades is Orestes' devoted friend and cousin, raised with him in Phocis; he is a mostly silent companion in the play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Agamemnon was killed by Clytaemestra, who entangled him in a robe or net while he bathed after returning from Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Hermes, as guide of souls, was invoked as a go-between with the dead. Orestes returns after years of exile to avenge Agamemnon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Agamemnon was murdered by his wife Clytemnestra and Aegisthus on his return from Troy, and buried without proper rites; Orestes was away in exile.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Electra is Orestes' sister, who has remained in the house under Clytemnestra's rule and mourns their father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "text": "Clytemnestra dreamed of terror after killing Agamemnon; this nightmare prompts her to send offerings to his grave.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "text": "Interpreters of dreams and portents were consulted in Greek households; here they read the dream as anger from the murdered dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "text": "The \"violation of a bridal bower\" refers to Clytemnestra's adultery and the crime against her husband's marriage bed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "text": "The Chorus are captive serving women sent by Clytemnestra with Electra to the tomb of Agamemnon after her frightening dream.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "text": "Electra's \"mother\" Clytemnestra murdered her husband Agamemnon, so Electra cannot honestly call the offerings a wife's gift.",
+    "spoiler": false
+   },
+   {
+    "sentence": 81,
+    "text": "Aegisthus is Clytemnestra's lover and co-murderer of Agamemnon, now ruling Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 89,
+    "text": "Orestes, Electra's brother, was sent away as a child and lives in exile; the women hope for his return as avenger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 109,
+    "text": "Hermes was herald of the gods and guide of the dead, so he links the living world with the world below.",
+    "spoiler": false
+   },
+   {
+    "sentence": 112,
+    "text": "Aegisthus was Clytemnestra's lover and co-murderer of Agamemnon; he now rules Argos with her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "text": "Electra seeks an avenger for Agamemnon; the audience understands this to mean Orestes, whose return she has just prayed for.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "symbolism",
+    "text": "The serpent suckled at her breast symbolizes Orestes, whom she bore and who will draw her blood in vengeance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "characterization",
+    "text": "Electra's slave-like treatment establishes her suffering and her loyalty to her father's memory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "foreshadowing",
+    "text": "The closing madness hints at the sequel, in which the Furies pursue Orestes (the next play, the Eumenides).",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "characterization",
+    "text": "His guilt at missing the funeral reveals Orestes' sense of filial duty and motivates the vengeance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "rhetorical question",
+    "text": "A string of questions shows Orestes' sudden surprise and builds suspense as he works out who the mourners are.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "apostrophe",
+    "text": "Orestes turns to Zeus in direct prayer, stating the avenging purpose that drives the play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "metaphor",
+    "text": "Nail-marks are called \"furrows\" and the heart \"fed\" with lamentation, turning grief into plowing and nourishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "device": "symbolism",
+    "text": "Darkness enshrouding the house stands for the moral and political gloom that follows the king's murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "device": "irony",
+    "text": "The chorus says men treat Success as more than God, implying such worship is misplaced as Justice still watches.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "device": "personification",
+    "text": "Justice is imagined as a watchful figure with a balanced scale who delivers punishment at different times in life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "device": "hyperbole",
+    "text": "Even every stream flowing together could not wash away the stain, stressing how permanent blood-guilt is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "device": "rhetorical question",
+    "text": "Electra's string of questions shows her perplexity and moral conflict about praying piously for a father whose murderers sent the gift.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "device": "irony",
+    "text": "The customary prayer, that the givers be repaid with good, becomes bitterly ironic because the givers are the murderers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "device": "characterization",
+    "text": "Electra treats the servants as friends and allies, showing shared hatred and her isolation within her own household.",
+    "spoiler": false
+   },
+   {
+    "sentence": 104,
+    "device": "characterization",
+    "text": "Electra's moral scruple about praying for vengeance shows her piety and hesitation, which the Chorus quickly overrides.",
+    "spoiler": false
+   },
+   {
+    "sentence": 109,
+    "device": "apostrophe",
+    "text": "Electra addresses Hermes and Earth directly, as if present, to carry her appeal to the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 113,
+    "device": "antithesis",
+    "text": "Her slavery and Orestes' exile are set against the killers' proud enjoyment, sharpening the injustice she describes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 118,
+    "device": "motif",
+    "text": "Justice crowned with victory invokes the play's recurring theme that blood demands blood under divine sanction.",
+    "spoiler": false
+   }
+  ]
+ }
+}

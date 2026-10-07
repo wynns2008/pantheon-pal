@@ -1,0 +1,791 @@
+{
+ "section_id": "apollodorus-body-34",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 14775,
+  "output": 6792
+ },
+ "result": {
+  "summary": "Apollodorus traces the Athenian royal house after Pandion: Erechtheus and his daughters, Procris and Cephalus, Orithyia and Boreas, Eumolpus and the war with Eleusis. It then follows Pandion II, Aegeus, the birth of Theseus's conception at Troezen, Minos's war on Athens and the tribute to the Minotaur.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Erechtheus's family and Procris",
+    "summary": "Erechtheus inherits the kingdom and has many children. His daughter Procris sleeps with Pteleon, flees to Minos, returns to Cephalus, and is accidentally killed by him.",
+    "stakes": "Procris risks death from Minos's curse and from Cephalus's anger; Cephalus risks exile.",
+    "present": [
+     "Erechtheus",
+     "Butes",
+     "Praxithea",
+     "Procris",
+     "Cephalus",
+     "Minos",
+     "Pasiphae",
+     "Pteleon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 23.72
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 14,
+    "title": "Orithyia, Boreas and Phineus",
+    "summary": "Boreas seizes Orithyia and fathers the Boreads and two daughters. Cleopatra marries Phineus, whose second wife Idaea slanders his sons, and he is punished by the Argonauts.",
+    "stakes": "Phineus's sons are blinded by a false accusation.",
+    "present": [
+     "Orithyia",
+     "Boreas",
+     "Cleopatra",
+     "Chione",
+     "Zetes",
+     "Calais",
+     "Phineus",
+     "Idaea",
+     "Plexippus",
+     "Pandion"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ilissus river, Athens",
+     "modern_name": "Ilissos, Athens",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 23.74
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 23,
+    "title": "Eumolpus and the Eleusinian war",
+    "summary": "Chione's son Eumolpus is cast into the sea, raised in Ethiopia, and becomes king in Thrace. He fights for Eleusis against Athens, where Erechtheus sacrifices a daughter and kills him.",
+    "stakes": "Athens risks defeat; Erechtheus must sacrifice his daughter for victory.",
+    "present": [
+     "Chione",
+     "Poseidon",
+     "Eumolpus",
+     "Benthesicyme",
+     "Ismarus",
+     "Tegyrius",
+     "Erechtheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eleusis",
+     "modern_name": "Elefsina",
+     "certainty": "real",
+     "lat": 38.04,
+     "lon": 23.54
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 31,
+    "title": "Succession to Aegeus",
+    "summary": "Poseidon destroys Erechtheus and his house. Cecrops and Pandion II reign, Pandion is exiled to Megara, and his sons retake Athens with Aegeus in full power.",
+    "stakes": "Pandion loses his throne to sedition; the sons fight to regain Athens.",
+    "present": [
+     "Poseidon",
+     "Erechtheus",
+     "Cecrops",
+     "Pandion",
+     "Pylas",
+     "Aegeus",
+     "Pallas",
+     "Nisus",
+     "Lycus",
+     "Scyrius",
+     "Meta",
+     "Chalciope"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 23.72
+    }
+   },
+   {
+    "start_sentence": 32,
+    "end_sentence": 37,
+    "title": "Aegeus at Troezen",
+    "summary": "Childless Aegeus consults the oracle, then is made drunk by Pittheus and lies with Aethra. He leaves a sword and sandals under a rock.",
+    "stakes": "Aegeus fears his brothers because he has no heir.",
+    "present": [
+     "Aegeus",
+     "Pittheus",
+     "Aethra",
+     "Poseidon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Troezen",
+     "modern_name": "Troizina",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 23.35
+    }
+   },
+   {
+    "start_sentence": 38,
+    "end_sentence": 41,
+    "title": "Death of Androgeus",
+    "summary": "Androgeus wins the Panathenian games and dies, by the bull or by murder. Minos mourns while sacrificing in Paros.",
+    "stakes": "Androgeus loses his life; Minos's grief leads toward war.",
+    "present": [
+     "Aegeus",
+     "Androgeus",
+     "Minos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 23.72
+    }
+   },
+   {
+    "start_sentence": 42,
+    "end_sentence": 55,
+    "title": "Minos's war and the Minotaur",
+    "summary": "Minos takes Megara through Scylla's betrayal and besieges Athens, which suffers famine and must send youths to the Minotaur. Daedalus's story and labyrinth are explained.",
+    "stakes": "Athens faces famine, pestilence and the loss of its young people.",
+    "present": [
+     "Minos",
+     "Nisus",
+     "Megareus",
+     "Scylla",
+     "Hyacinth",
+     "Minotaur",
+     "Daedalus",
+     "Talos",
+     "Pasiphae",
+     "Perdix"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Megara and Athens",
+     "modern_name": "Megara",
+     "certainty": "real",
+     "lat": 37.99,
+     "lon": 23.35
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Erechtheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Athens"
+   },
+   {
+    "name": "Butes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Brother of Erechtheus, priest"
+   },
+   {
+    "name": "Praxithea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Erechtheus"
+   },
+   {
+    "name": "Procris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Erechtheus, wife of Cephalus"
+   },
+   {
+    "name": "Cephalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Husband of Procris"
+   },
+   {
+    "name": "Pteleon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man Procris took to bed"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Crete"
+   },
+   {
+    "name": "Pasiphae",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Minos"
+   },
+   {
+    "name": "Orithyia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Erechtheus, carried off by Boreas"
+   },
+   {
+    "name": "Boreas",
+    "aliases": [],
+    "kind": "god",
+    "description": "North wind who abducts Orithyia"
+   },
+   {
+    "name": "Cleopatra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Boreas, wife of Phineus"
+   },
+   {
+    "name": "Chione",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Boreas, mother of Eumolpus"
+   },
+   {
+    "name": "Zetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Winged son of Boreas"
+   },
+   {
+    "name": "Calais",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Winged son of Boreas"
+   },
+   {
+    "name": "Phineus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Husband of Cleopatra"
+   },
+   {
+    "name": "Idaea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phineus's second wife"
+   },
+   {
+    "name": "Plexippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Phineus"
+   },
+   {
+    "name": "Pandion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Athens, father of Aegeus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sea god"
+   },
+   {
+    "name": "Eumolpus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Poseidon, Thracian king"
+   },
+   {
+    "name": "Benthesicyme",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Poseidon and Amphitrite"
+   },
+   {
+    "name": "Ismarus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Eumolpus"
+   },
+   {
+    "name": "Tegyrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Thrace"
+   },
+   {
+    "name": "Cecrops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Erechtheus, king"
+   },
+   {
+    "name": "Pylas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Megara"
+   },
+   {
+    "name": "Aegeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Athens"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Pandion"
+   },
+   {
+    "name": "Nisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Megara"
+   },
+   {
+    "name": "Lycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Pandion"
+   },
+   {
+    "name": "Scyrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alleged father of Aegeus"
+   },
+   {
+    "name": "Meta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "First wife of Aegeus"
+   },
+   {
+    "name": "Chalciope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Second wife of Aegeus"
+   },
+   {
+    "name": "Pittheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Troezen"
+   },
+   {
+    "name": "Aethra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Pittheus"
+   },
+   {
+    "name": "Androgeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Minos"
+   },
+   {
+    "name": "Megareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ally of Nisus, killed by Minos"
+   },
+   {
+    "name": "Scylla",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Nisus"
+   },
+   {
+    "name": "Hyacinth",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of sacrificed maidens"
+   },
+   {
+    "name": "Minotaur",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Bull-man in the labyrinth"
+   },
+   {
+    "name": "Daedalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Architect of the labyrinth"
+   },
+   {
+    "name": "Talos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daedalus's nephew and pupil"
+   },
+   {
+    "name": "Perdix",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sister of Daedalus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Erechtheus",
+    "relation": "parent_of",
+    "b": "Procris",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Erechtheus",
+    "relation": "spouse_of",
+    "b": "Praxithea",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Procris",
+    "relation": "spouse_of",
+    "b": "Cephalus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Boreas",
+    "relation": "lover_of",
+    "b": "Orithyia",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Boreas",
+    "relation": "parent_of",
+    "b": "Zetes",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Eumolpus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Chione",
+    "relation": "parent_of",
+    "b": "Eumolpus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Poseidon",
+    "relation": "lover_of",
+    "b": "Aethra",
+    "source": "text",
+    "evidence_sentence": 36
+   },
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Aegeus",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Minos",
+    "relation": "parent_of",
+    "b": "Androgeus",
+    "source": "text",
+    "evidence_sentence": 38
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 33,
+    "reason": "The riddling Delphic oracle that leads to the conception of Theseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "reason": "Grim detail of Minos's curse of wild beasts.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage links Athenian dynastic history through sacrifice, divine intervention and ill-fated family bonds, preparing Theseus's story.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It preserves Attic local traditions, such as Areopagus trials and the rite of the Graces in Paros, often explaining customs by myth.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The tale of Theseus, the Minotaur and the labyrinth became central to Greek and later European art and literature."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Library is attributed to Apollodorus but probably dates to the 1st or 2nd century AD.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"To wit\" is an archaic legal phrase meaning \"that is to say\" or \"namely\"; it introduces the list of children.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Cohabited with\" means had sexual relations with; \"discharged wild beasts at her joints\" means he released snakes and scorpions, a harm the women could not survive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The Circaean root is a drug associated with Circe, the sorceress known for potions; here it protects Procris from Minos's curse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "The Areopagus was the ancient Athenian court on the hill of Ares, which tried cases of homicide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The Harpies were winged female monsters that tormented Phineus; the Boreads chased them away during the Argonauts' voyage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Had connexion with\" is an old euphemism for sexual relations; Chione, a daughter of Erechtheus's line, hid the birth from her father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "Benthesicyme's name means roughly \"deep-sea wave\"; the parenthesis tells us she is Poseidon's own daughter, so Eumolpus is raised by his half-sister.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"Detected in a plot\" means discovered conspiring; the text gives no details of the plot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "\"Composed his old feud\" means settled or reconciled the quarrel.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "The oracle demanding a king's daughter as sacrifice for victory is a recurring Greek motif; the daughters' oath to die together is an alternative tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "\"Sedition\" means an uprising against authority; the Metionids were descendants of Metion, who had rival claims to Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "\"Repaired to\" means went to; Pylas left Megara and founded Pylus in the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"Passed off\" means falsely presented as his own child, a dispute over Aegeus's parentage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "Pythia was the priestess of Apollo at Delphi, who delivered the god's oracles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "phrasing",
+    "text": "The riddling oracle uses the wineskin as a metaphor for sexual restraint: Aegeus must not have intercourse until he returns to Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "phrasing",
+    "text": "\"Lie with\" means have sexual intercourse; Pittheus understood the wineskin riddle and used drink to fulfil it for his own family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "phrasing",
+    "text": "\"Had connexion with\" is an old, euphemistic phrase for sexual intercourse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "allusion",
+    "text": "The bull of Marathon was a savage bull ravaging the Athenian countryside; Theseus later captured it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "word",
+    "text": "\"To wit\" means \"that is to say\" and introduces the names of the daughters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "kind": "word",
+    "text": "\"Fodder\" means food; the Minotaur was a monster, part man and part bull, that devoured the victims.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "word",
+    "text": "\"Images\" here means statues; Daedalus was credited with inventing lifelike sculpture.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Pandion was a legendary king of Athens. The priesthood of Poseidon Erechtheus stayed with Butes's family, the Eteobutadai.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Boreas is the North Wind, often shown as a winged god. The Ilissus is a stream at Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Phineus was a Thracian king and seer, famous in the Argonaut story for being tormented by the Harpies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Poseidon is the god of the sea; Amphitrite was his wife, a sea goddess. Ethiopia here means a distant land at the edge of the known world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Thrace, north of Greece, was often portrayed as a land of kings and warlike peoples.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Eleusis, near Athens, was the site of the Eleusinian Mysteries; its war with Athens is told in myth as a struggle over the rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Poseidon's anger at Erechtheus is linked to the death of his son Eumolpus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Aegeus later becomes the father of Theseus, the great Athenian hero.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "The Panathenian festival was Athens' great festival in honor of Athena, with athletic contests.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "text": "The Graces were goddesses of charm and beauty; Minos' mourning gestures explained a local Parian ritual.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "text": "The Areopagus was the hill of Ares in Athens, seat of the court that tried homicide.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "irony",
+    "text": "Procris, who sold herself for a golden crown, now trades her favours for gifts from Minos, repeating her earlier bargain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "tragic irony",
+    "text": "A hunt meant to reunite the couple ends in her death by her husband's hand, unintended and unseen in the thicket.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "motif",
+    "text": "The slandering stepmother who falsely accuses stepsons is a recurring story pattern; Phineus's credulity makes him the cause of his own downfall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "foreshadowing",
+    "text": "The child cast into the sea and saved by his divine father anticipates a destiny of conflict with Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "irony",
+    "text": "Erechtheus wins the war only by sacrificing his own daughters, so victory is bought at terrible cost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "narrative voice",
+    "text": "The brisk, matter-of-fact report of Eumolpus's death after the sacrifice is typical of this compiler's compressed, catalogue-like style.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "device": "motif",
+    "text": "A hair that holds a ruler's life is a folktale motif, and Scylla's love for the enemy makes betrayal the cause of his fall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "device": "irony",
+    "text": "Minos punishes Scylla's treachery, though it won him the city; the betrayer is rewarded with death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "device": "characterization",
+    "text": "Daedalus' murder of his pupil from jealous fear shows his gifted skill joined to pride and ruthlessness.",
+    "spoiler": false
+   }
+  ]
+ }
+}

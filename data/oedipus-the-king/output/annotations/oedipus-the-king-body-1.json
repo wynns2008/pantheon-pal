@@ -1,0 +1,418 @@
+{
+ "section_id": "oedipus-the-king-body-1",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 14710,
+  "output": 3986
+ },
+ "result": {
+  "summary": "Suppliants gather before the palace at Thebes, begging King Oedipus to end a plague. Oedipus says he has sent Creon to Delphi, and Creon returns with Apollo's answer: the murderers of the old king Laius must be found. Oedipus vows to track them down.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 34,
+    "title": "The Priest's Plea",
+    "summary": "Oedipus finds suppliants at his door. The Priest describes the plague and asks him to save Thebes again. Oedipus says he has already sent Creon to Delphi.",
+    "stakes": "Thebes is dying of plague, and Oedipus's standing as saviour of the city is at risk.",
+    "present": [
+     "Oedipus",
+     "Priest of Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Before the Palace of Oedipus at Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 35,
+    "end_sentence": 127,
+    "title": "Creon Brings Apollo's Answer",
+    "summary": "Creon arrives and reports that Apollo demands the killers of Laius be driven out or punished. Oedipus questions him about Laius's death and vows to find the culprits.",
+    "stakes": "Until Laius's killers are found the plague continues, and Oedipus fears the killer may also strike at him.",
+    "present": [
+     "Oedipus",
+     "Creon",
+     "Priest of Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Before the Palace of Oedipus at Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Thebes, who once freed the city from the Sphinx"
+   },
+   {
+    "name": "Priest of Zeus",
+    "aliases": [
+     "Old Man"
+    ],
+    "kind": "mortal",
+    "description": "Spokesman of the suppliants"
+   },
+   {
+    "name": "Creon",
+    "aliases": [
+     "Menoikeus' son"
+    ],
+    "kind": "mortal",
+    "description": "Oedipus's brother-in-law, sent to Delphi"
+   },
+   {
+    "name": "Laius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Former king of Thebes, murdered on the road"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoebus",
+     "Loxias"
+    ],
+    "kind": "god",
+    "description": "God whose oracle at Delphi names the cause of the plague"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ancient founder of Thebes"
+   },
+   {
+    "name": "Menoikeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Creon"
+   },
+   {
+    "name": "Sphinx",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Riddling monster that once oppressed Thebes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Menoikeus",
+    "relation": "parent_of",
+    "b": "Creon",
+    "source": "text",
+    "evidence_sentence": 31
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phoebus",
+    "canonical": "Apollo",
+    "explanation": "Phoebus and Loxias are epithets of Apollo, god of the Delphic oracle."
+   },
+   {
+    "alias": "Loxias",
+    "canonical": "Apollo",
+    "explanation": "Loxias is a title of Apollo as speaker of oracles."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 22,
+    "reason": "Memorable statement that a city is nothing without its people.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The opening shows Oedipus as a confident, caring ruler, setting up the irony that the killer he hunts is himself.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Plague as divine pollution reflects Greek belief that unpunished bloodshed defiled a whole community, and oracles like Delphi guided public decisions.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Sophocles' play inspired Freud's term Oedipus complex and has been a model for dramatic irony."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "This is a verse translation by Gilbert Murray, using rhymed couplets rather than Sophocles' Greek metre.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Fruit of Cadmus' ancient tree\" means descendants of Cadmus, Thebes' legendary founder; \"wherefore\" means why, and \"ye\" is the plural \"you.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"The Slayer\" is the plague-god or death itself; the prayers and shrieks are meant to frighten it away. \"Withal\" means besides.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Athena's two temples and the ash at the shore of Ismenus refer to Theban holy places, where the fire-altars gave omens by their ashes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "The \"trough\" is the hollow between waves; the ship cannot lift its prow above them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "\"Hell's house\" is the underworld, the house of Hades, which grows rich with the dead the plague sends.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The Sphinx's song was her riddle; Thebes paid a tribute of lives to her until Oedipus solved it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Eke\" means also. The Priest suggests Oedipus may have heard divine voices or a man's advice, since the experienced find counsel in every event.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "The \"bird of old\" is the good omen, as birds were read for signs, that brought Oedipus' earlier success.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "Apollo's House in Delphi is the god's oracle, where questions about the gods' will were answered by the priestess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "phrasing",
+    "text": "\"At point of time\" means \"at the right moment\"; the Priest says Oedipus speaks just as Creon appears.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "phrasing",
+    "text": "\"His seemings\" means his outward appearance; Oedipus prays that the god's guidance will make Creon's news as happy as he looks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "allusion",
+    "text": "A wreath of fruited laurel, sacred to Apollo, signals good news from the god's oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "phrasing",
+    "text": "\"Clear-voiced\" means a person with a carrying voice; Oedipus says Creon is near enough to hear a shout.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "kind": "word",
+    "text": "\"Annoy\" here means harm or trouble, much stronger than the modern sense.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "kind": "word",
+    "text": "Phoebus is a title of Apollo, meaning \"bright\"; Loxias, used later, is another title linked to his oracles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 65,
+    "kind": "word",
+    "text": "\"Unclean thing\" means a pollution: the guilt of unavenged murder was thought to infect the land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 76,
+    "kind": "phrasing",
+    "text": "\"Pilot us\" means steer the city as a ship's captain would; Oedipus came to rule Thebes after Laius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 83,
+    "kind": "phrasing",
+    "text": "\"Withal\" means \"with it all\" or \"besides\"; \"blurred trail\" and \"ancient stain\" refer to the old, faded guilt of the murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 85,
+    "kind": "phrasing",
+    "text": "\"Amain\" means with full force or vigor; the sense is that diligent seekers find what they hunt, while neglected matters slip away.",
+    "spoiler": false
+   },
+   {
+    "sentence": 111,
+    "kind": "word",
+    "text": "\"Dark-songed\" refers to the Sphinx's riddling, ominous song; she plagued Thebes before Oedipus solved her riddle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "kind": "allusion",
+    "text": "Phoebus is Apollo, whose oracle at Delphi gave the answer Creon has brought.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "kind": "word",
+    "text": "\"Succour\" means to help or relieve someone in distress.",
+    "spoiler": false
+   },
+   {
+    "sentence": 119,
+    "kind": "word",
+    "text": "Suppliant boughs were olive or laurel branches, wreathed in wool, laid on altars by those begging the gods for help.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Suppliants carried olive branches wrapped in wool to show they were begging for help, and they sat at altars for protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Oedipus became king by defeating the Sphinx, which had terrorised Thebes; he was then a stranger to the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Creon is the brother of Jocasta, Oedipus' wife and queen of Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "text": "Creon is Jocasta's brother and thus Oedipus's brother-in-law; his father was Menoikeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "text": "Laius, former king of Thebes, was killed on a journey. His murderers were never found.",
+    "spoiler": false
+   },
+   {
+    "sentence": 91,
+    "text": "Delphi was Apollo's famous oracle site, where people sought divine guidance. Laius was travelling there when he was killed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "text": "One attendant survived the attack and later fled; he becomes an important witness in the play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 111,
+    "text": "The Sphinx was a monster that terrorized Thebes with a riddle and killed those who failed to answer, distracting the city from Laius's murder.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 10,
+    "device": "metaphor",
+    "text": "The city is a storm-battered ship sinking in waves of death, an image of a state in crisis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "personification",
+    "text": "The plague becomes a burning, loathly god that lights upon the land and sweeps it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "Praising Oedipus as a stranger who knew nothing yet saved them foreshadows the truth about his origins.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "antithesis",
+    "text": "Walls, towers and ships are set against men, stressing that a city is its people.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "characterization",
+    "text": "Oedipus presents himself as a king who suffers more than any subject, showing his sympathy and pride.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "dramatic irony",
+    "text": "Oedipus vows to follow any task the god gives, not knowing it will bring his own ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "device": "idiom",
+    "text": "Oedipus says he is neither hot nor cold, meaning Creon's vague, hopeful words leave him unmoved and impatient for plain facts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 62,
+    "device": "characterization",
+    "text": "Oedipus shows himself a ruler who cares more for his people's suffering than for his own safety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "device": "dramatic irony",
+    "text": "Oedipus says he never saw Laius's face, unaware that he met and killed Laius; the audience may sense the coming horror.",
+    "spoiler": false
+   },
+   {
+    "sentence": 104,
+    "device": "rhetorical question",
+    "text": "Oedipus reasons that only an inside plot could explain such bold robbers, unknowingly pointing toward the truth about himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "device": "dramatic irony",
+    "text": "Oedipus fears the killer may attack him too, unaware he is himself the killer and that his care for Laius is literally for his own kin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 122,
+    "device": "foreshadowing",
+    "text": "Oedipus's choice between greatness crowned or cast down anticipates his eventual fall.",
+    "spoiler": false
+   }
+  ]
+ }
+}

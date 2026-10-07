@@ -1,0 +1,283 @@
+{
+ "section_id": "apollodorus-body-22",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6417,
+  "output": 2362
+ },
+ "result": {
+  "summary": "Apollodorus lists the children of Deucalion, then tells how Minos's young son Glaucus drowned in a honey jar. The seer Polyidus finds and revives him using a herb a serpent used, but Minos forces him to teach Glaucus divination, and Polyidus makes him forget it.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Deucalion's children; Glaucus drowns",
+    "summary": "Deucalion's children are listed. The child Glaucus chases a mouse and drowns in a jar of honey.",
+    "stakes": "Glaucus's life, lost in a childhood accident.",
+    "present": [
+     "Deucalion",
+     "Idomeneus",
+     "Crete",
+     "Molus",
+     "Glaucus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Crete",
+     "modern_name": "Crete",
+     "certainty": "real",
+     "lat": 35.24,
+     "lon": 24.81
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 9,
+    "title": "Polyidus finds and revives Glaucus",
+    "summary": "Minos searches for Glaucus and the diviners, led by Polyidus, find him. Shut in with the corpse, Polyidus learns of a resurrecting herb from a serpent and revives the boy.",
+    "stakes": "Polyidus's life, since Minos demands the boy back alive.",
+    "present": [
+     "Minos",
+     "Curetes",
+     "Polyidus",
+     "Glaucus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Crete",
+     "modern_name": "Crete",
+     "certainty": "real",
+     "lat": 35.24,
+     "lon": 24.81
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 13,
+    "title": "Forgotten divination",
+    "summary": "Minos makes Polyidus teach Glaucus divination before leaving for Argos. Polyidus has Glaucus spit into his mouth, and the boy forgets the art.",
+    "stakes": "Polyidus's freedom to return home to Argos.",
+    "present": [
+     "Minos",
+     "Polyidus",
+     "Glaucus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Crete",
+     "modern_name": "Crete",
+     "certainty": "real",
+     "lat": 35.24,
+     "lon": 24.81
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Deucalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Idomeneus, Crete and Molus"
+   },
+   {
+    "name": "Idomeneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Deucalion"
+   },
+   {
+    "name": "Crete",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Child of Deucalion"
+   },
+   {
+    "name": "Molus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Bastard son of Deucalion"
+   },
+   {
+    "name": "Glaucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Young son of Minos who drowns in honey and is revived"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King whose son Glaucus is lost"
+   },
+   {
+    "name": "Curetes",
+    "aliases": [],
+    "kind": "other",
+    "description": "Advisers who tell Minos about the cow of three colors"
+   },
+   {
+    "name": "Polyidus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Diviner, son of Coeranus, from Argos"
+   },
+   {
+    "name": "Coeranus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Polyidus"
+   },
+   {
+    "name": "Europa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ancestor of the line being described"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Deucalion",
+    "relation": "parent_of",
+    "b": "Idomeneus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Deucalion",
+    "relation": "parent_of",
+    "b": "Molus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Minos",
+    "relation": "parent_of",
+    "b": "Glaucus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Coeranus",
+    "relation": "parent_of",
+    "b": "Polyidus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Minos",
+    "relation": "parent_of",
+    "b": "Deucalion",
+    "source": "outside",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "Memorable ending: Glaucus loses his divination by spitting, undoing Minos's forced lesson.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The tale shows the limits of royal power: Minos can compel a seer to act but cannot keep what is taught under compulsion.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Death and revival through a serpent's herb connects to wider Greek ideas of serpents as healers.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Polyidus and Glaucus was dramatized in lost tragedies, including one by Euripides."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The footnote numbers show this is a translation with notes, likely J. G. Frazer's 1921 edition.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Bastard\" here simply means a son born outside marriage; it carries no insult in this context.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Curetes were divine attendants associated with Crete and the infant Zeus; here they act as prophets. The riddle of the three-colored cow is the oracle's clue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Compared the color of the cow to the fruit of the bramble\": the blackberry changes color as it ripens (white, red, black), matching the cow's three colors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"He was shut up with the dead body\": Minos imprisons Polyidus in a tomb with the corpse until he succeeds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Argos was Polyidus' home, so Minos is keeping him from returning there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Europa, a Phoenician princess carried to Crete by Jove, was mother of Minos; this closes the account of her descendants.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Minos was the legendary king of Crete, known for his power and later as a judge of the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Polyidus was a seer from Argos, famed for interpreting signs and omens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Spitting was thought to pass or remove power, so the spittle transfers or cancels the seer's knowledge.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "irony",
+    "text": "A child's playful chase ends in a sweet, absurd death, a grim contrast with the sweetness of honey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "parallelism",
+    "text": "The second serpent's herb mirrors what Polyidus will do, so the animal's act prefigures and teaches the human one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "anticlimax",
+    "text": "The restoration of knowledge so hard won ends abruptly in a flat, ironic reversal: Minos's compulsion is undone by a trick.",
+    "spoiler": false
+   }
+  ]
+ }
+}

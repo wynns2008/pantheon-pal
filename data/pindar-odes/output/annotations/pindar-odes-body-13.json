@@ -1,0 +1,521 @@
+{
+ "section_id": "pindar-odes-body-13",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11802,
+  "output": 4880
+ },
+ "result": {
+  "summary": "Pindar praises Xenophon of Corinth, who won the stadion and pentathlon at Olympia, and his family's many victories. He celebrates Corinth's order and ingenuity, tells how Athene gave Bellerophon the bridle to tame Pegasos, and prays to Zeus for the family's continued fortune.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Editorial introduction",
+    "summary": "Notes give the date of the victory, the events won, and the ode's likely use at Xenophon's return to Corinth.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 21,
+    "title": "Praise of Corinth and the victors",
+    "summary": "Pindar praises Corinth, its virtues and inventions, and lists Xenophon's and his family's victories at the great games. He prays Zeus to keep the family fortunate and previews Corinthian heroes.",
+    "stakes": "Pindar's praise must stay truthful and fitting; the family's good fortune depends on Zeus.",
+    "present": [
+     "Xenophon",
+     "Zeus",
+     "Thessalos",
+     "Ptoiodoros",
+     "Terpsias",
+     "Eritimos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Corinth, Greece",
+     "certainty": "real",
+     "lat": 37.9056,
+     "lon": 22.8794
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 32,
+    "title": "Bellerophon and Pegasos",
+    "summary": "Glaukos at Troy recalls how his forebear Bellerophon, aided by Athene's dream and bridle, tamed Pegasos and used him against Amazons, Solymoi and the Chimaira.",
+    "stakes": "Bellerophon risks failure and hardship in taming Pegasos without divine help.",
+    "present": [
+     "Glaukos",
+     "Bellerophon",
+     "Athene",
+     "Pegasos",
+     "Poseidon",
+     "Polyidos"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Peirene's spring, Corinth",
+     "modern_name": "Acrocorinth, Corinth",
+     "certainty": "traditional",
+     "lat": 37.8908,
+     "lon": 22.8709
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 40,
+    "title": "Closing catalogue and prayer",
+    "summary": "Pindar returns to the Oligaithidai's victories across Hellas and prays Zeus to grant them swift, honoured lives.",
+    "stakes": "The family's future fortune rests with the gods.",
+    "present": [
+     "Zeus",
+     "Enyalios"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Corinth, Greece",
+     "certainty": "real",
+     "lat": 37.9056,
+     "lon": 22.8794
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Xenophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian victor in the stadion and pentathlon"
+   },
+   {
+    "name": "Thessalos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Xenophon's father, a swift runner"
+   },
+   {
+    "name": "Ptoiodoros",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Xenophon's ancestor, victor at the Isthmian games"
+   },
+   {
+    "name": "Terpsias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Family member honoured with victory hymns"
+   },
+   {
+    "name": "Eritimos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Family member honoured with victory hymns"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sovran lord of Olympia, addressed in prayer"
+   },
+   {
+    "name": "Themis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Mother of Order, Justice and Peace"
+   },
+   {
+    "name": "Bellerophon",
+    "aliases": [
+     "Aiolid king"
+    ],
+    "kind": "mortal",
+    "description": "Corinthian hero who tamed Pegasos"
+   },
+   {
+    "name": "Glaukos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lydian warrior at Troy, Bellerophon's descendant"
+   },
+   {
+    "name": "Pegasos",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Winged horse, son of the Gorgon"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Pallas"
+    ],
+    "kind": "goddess",
+    "description": "Goddess who gave Bellerophon the golden bridle"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Earth-enfolder"
+    ],
+    "kind": "god",
+    "description": "Horse-tamer to whom a bull was sacrificed"
+   },
+   {
+    "name": "Polyidos",
+    "aliases": [
+     "son of Koiranos"
+    ],
+    "kind": "mortal",
+    "description": "Seer who interpreted Bellerophon's dream"
+   },
+   {
+    "name": "Sisyphos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian of great cunning"
+   },
+   {
+    "name": "Medea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Saved the Argo and married against her father's will"
+   },
+   {
+    "name": "Enyalios",
+    "aliases": [],
+    "kind": "god",
+    "description": "War god invoked with Zeus"
+   },
+   {
+    "name": "Chimaira",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Fire-breathing monster slain by Bellerophon"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Themis",
+    "relation": "parent_of",
+    "b": "Justice",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Thessalos",
+    "relation": "parent_of",
+    "b": "Xenophon",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Athene",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Pegasos",
+    "source": "outside",
+    "evidence_sentence": 23
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pallas",
+    "canonical": "Athene",
+    "explanation": "Epithet of Athene; the text also calls her the maiden wielder of the aegis."
+   },
+   {
+    "alias": "Aiolid king",
+    "canonical": "Bellerophon",
+    "explanation": "Patronymic title: descendant of Aiolos."
+   },
+   {
+    "alias": "Earth-enfolder",
+    "canonical": "Poseidon",
+    "explanation": "Epithet; Bellerophon's 'father the tamer of horses' is also Poseidon."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 20,
+    "reason": "Pindar's maxim on due measure and fitting timing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "reason": "Claims Corinth invented the dithyramb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "reason": "Reflects human hope and divine control of outcomes.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Victory is tied to civic order, inherited excellence and divine favour, with Corinth's ingenuity embodied in Bellerophon.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Odes like this were commissioned to celebrate victors and their cities; this one was likely sung at Xenophon's return to Corinth in 464 B.C.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Pindar's account of Athene's golden bridle is a key early source for the myth of Bellerophon taming Pegasos."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Xenophon's double win in stadion and pentathlon was said to be unmatched, and Pindar lists his family's victories at many sites.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Stadion: a foot-race of one length of the stadium, about 200 yards; the Greek phrase quoted lists the pentathlon events: jump, running, discus, javelin, wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Portal of Isthmian Poseidon\": Corinth lay at the Isthmus, the gateway to the Peloponnese, where Poseidon's games were held.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Order (Eunomia), Justice (Dike) and Peace (Eirene) were the daughters of Themis, goddess of established right, in Greek myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Sons of Aletes: Corinthians, descended from Aletes, a Heraclid said to have conquered Corinth. The Hours are goddesses of seasons and natural order.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The dithyramb, a choral hymn to Dionysos, was said to have been first given its set form at Corinth; the ox was the prize.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Corinthians were credited with the bridle, and with the pediment (the 'twin eagles') on temple gables.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Customary escort of his crown\": the traditional victory procession and song accompanying the winner's olive wreath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Parsley-wreaths were the prize at the Isthmian and Nemean games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "\"Pastures of the Lion\" means Nemea, where Heracles killed the Nemean lion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Refers to Sisyphos, legendary founder-king of Corinth, and Medea, who helped Jason and the Argonauts win the Golden Fleece, against her father's will.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Danaoi is the Greek name for the Greeks, here the Greek army at Troy, named after the ancestor Danaos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"From a dream behold it was very deed\" means the dream proved real: the bridle he saw in sleep was physically there on waking.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "Aiolid means descendant of Aiolos; Bellerophon belongs to this Corinthian royal line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "The father who tames horses is Poseidon, god of horses; Athene tells Bellerophon to sacrifice a bull to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "The aegis is Athene's goat-skin shield or cloak, fringed with snakes; \"shadowy\" suggests its awe-inspiring darkness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "\"Earth-enfolder\" is an epithet of Poseidon, who encircles the earth with sea; \"strong-foot beast\" is the horse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "The gods' power easily makes forecasts \"forsworn\": it can fulfil what seems unlikely, proving human expectations false.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "phrasing",
+    "text": "Pindar compares himself to a javelin thrower who must not overthrow the mark, meaning he must not digress further from his theme.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "word",
+    "text": "Enyalios is a war-god, often identified with or linked to Ares.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "This is a catalogue of festival sites where the family won: Delphi, Argos, Thebes, Arcadia, Pallene, Sikyon, Megara, Aigina, Eleusis, Marathon and Sicily.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Glaukos tells Diomedes of his ancestor Bellerophon, the Corinthian hero who tamed Pegasus and fought the Chimaera.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "The Hellotia was an Athenian festival; Pytho is Delphi. The list shows the family's victories at all the major games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "The Trojan War is meant: Corinthians are said to have fought on both sides, with Atreus' son Menelaus and with the Trojans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Bellerophon, a Corinthian hero, tried to tame Pegasos at the spring of Peirene in Corinth. Pallas is Athene.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Koiranos's son is the seer Polyidos, who interpreted Bellerophon's dream.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Amazons, Solymoi and the Chimaira were Bellerophon's famous enemies, set as tasks by the Lycian king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "A herald announced victors' names at games, so his proclamations serve as proof of the family's wins.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "The \"well-fenced grove of the Aiakidai\" refers to Aigina, home of the descendants of Aiakos.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "personification",
+    "text": "Order, Justice and Peace are made living sisters and daughters of Themis, dwelling in Corinth as civic virtues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "personification",
+    "text": "Insolence is portrayed as a braggart mother of Loathing, making the vice a figure the city rejects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "apostrophe",
+    "text": "Pindar turns to address Zeus directly, praying for the family's continued fortune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "metaphor",
+    "text": "Good fortune is called a favourable gale, picturing life as a sea voyage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "hyperbole",
+    "text": "The honours are said to be as countless as pebbles on the shore, stressing the family's many victories.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "epithet",
+    "text": "\"Snaky Gorgon's son\" identifies Pegasos by his monstrous parentage, born from Medusa, a Homeric-style descriptive epithet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "metaphor",
+    "text": "The bridle is called a \"softening charm,\" treating the bit as magic that calms the wild horse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "aposiopesis",
+    "text": "Pindar deliberately refuses to tell Bellerophon's fate, his failed flight to Olympus, avoiding a note of ill omen in a victory ode.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "metaphor",
+    "text": "Javelin-throwing stands for composing the poem: overshooting the mark means straying from the praise due.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "device": "apostrophe",
+    "text": "Pindar directly addresses Zeus the Accomplisher in a closing prayer, ending the ode on hope for the family's future.",
+    "spoiler": false
+   }
+  ]
+ }
+}

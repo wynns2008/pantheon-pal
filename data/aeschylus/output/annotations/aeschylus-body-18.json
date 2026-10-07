@@ -1,0 +1,470 @@
+{
+ "section_id": "aeschylus-body-18",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 14078,
+  "output": 4503
+ },
+ "result": {
+  "summary": "The Furies, furious at losing the trial of Orestes, threaten to poison the land of Athens. Athena patiently persuades them with promises of honour and a home, and they agree to bless the city instead.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 15,
+    "title": "The Chorus threatens Athens",
+    "summary": "The Chorus laments its lost honour and threatens to blight the land. Athena warns them against excess and offers them honours and a home.",
+    "stakes": "The Furies stand to lose their ancient honours; Athens is threatened with blight and sterility.",
+    "present": [
+     "Chorus",
+     "Athena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 44,
+    "title": "Athena pleads and warns",
+    "summary": "The Chorus repeats its lament. Athena bears with their anger, asks them not to stir civil strife, and says they may stay or not, but must not harm the city.",
+    "stakes": "The Furies fear dishonour beneath the earth; Athena seeks to protect her people from civil war and wrath.",
+    "present": [
+     "Chorus",
+     "Athena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 45,
+    "end_sentence": 63,
+    "title": "The Chorus yields",
+    "summary": "In quick exchanges Athena assures the Chorus of honour, power and a pledge. Their anger leaves them.",
+    "stakes": "The Chorus risks being persuaded into a lesser place; Athena risks losing the chance to end the feud.",
+    "present": [
+     "Chorus",
+     "Athena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 64,
+    "end_sentence": 80,
+    "title": "Blessings upon the city",
+    "summary": "Athena tells the Chorus what blessings to invoke, and the Chorus promises them. Athena says the new divinities rule over mortal life.",
+    "stakes": "The city's prosperity and the safety of its people depend on the goddesses' goodwill.",
+    "present": [
+     "Chorus",
+     "Athena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [
+     "daughters of Night"
+    ],
+    "kind": "goddess",
+    "description": "the Furies, ancient goddesses angry at losing their honour"
+   },
+   {
+    "name": "Athena",
+    "aliases": [
+     "Pallas"
+    ],
+    "kind": "goddess",
+    "description": "patron goddess of Athens, who persuades the Furies"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, whose thunderbolt Athena guards"
+   },
+   {
+    "name": "Night",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of the Furies, invoked by them"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of war, a guardian of the city"
+   },
+   {
+    "name": "Erechtheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "legendary Athenian king whose house stands near the Furies' seat"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Night",
+    "relation": "parent_of",
+    "b": "Chorus",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Athena",
+    "source": "outside",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pallas",
+    "canonical": "Athena",
+    "explanation": "Pallas is a common epithet of Athena."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 61,
+    "reason": "Athena states that she will not promise what she cannot fulfil.",
+    "spoiler": false
+   },
+   {
+    "sentence": 79,
+    "reason": "Shows the Furies' new role as feared guardians of justice.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Persuasion replaces force: Athena wins the Furies over with promises, turning vengeance into a lasting civic blessing.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The play's ending honours Athenian law courts and warns against civil strife, speaking to Athens' political tensions in 458 BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "After this scene the Furies are renamed Eumenides, 'the kindly ones', which gives the play its title.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Ridden down\" means trampled over; the Furies accuse the Olympian gods of overriding the older, primal laws of blood-vengeance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Woe unto it\" is a parenthetical cry; the Chorus pities the land even as it threatens it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Ah! just return!\" is a parenthetical cry: the blight is called a just repayment for their lost honour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Canker\" is a spreading disease or blight that destroys plants and living tissue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Athena's claim to know the keys of Zeus's thunderbolt armoury recalls her place as his favourite daughter, born from his head.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Froward\" is archaic for wilful, contrary or unruly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"Black billow\" is a figure for the Furies' dark, surging anger, which Athena asks them to calm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Reft\" is the old past tense of \"reave\": robbed or deprived. \"Immemorial\" means beyond memory, extremely ancient.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Erechtheus was an early legendary king of Athens. His house is the shrine on the Acropolis, where the Furies are promised a home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "phrasing",
+    "text": "\"A fury not of wine\" means a madness not caused by drink. Athena fears the Furies will inspire murderous quarrels among citizens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "\"Birds' battling within the home\" refers to cockfighting, an image for Athenians killing one another in civil war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "phrasing",
+    "text": "This sentence is garbled in this translation. Athena says she will keep offering her gifts so the elder goddess cannot claim a younger one dishonoured her; her persuasion may win the Furies over.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "word",
+    "text": "\"Meed\" is an archaic word for reward or due share; \"full meed of honour\" means the full honour deserved.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "phrasing",
+    "text": "\"What manner of abode\" means what kind of dwelling; \"thou sayest\" is archaic second person singular.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "word",
+    "text": "\"Votaries\" are devoted worshippers; here, those who honour the Chorus with cult and sacrifice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "kind": "word",
+    "text": "\"Spells\" here means persuasive, charming words, not literal magic. \"Methinks\" means \"it seems to me.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "kind": "phrasing",
+    "text": "Blessings that look to no 'evil victory' means prayers for a triumph that harms no one, such as one won through civil strife or injustice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "kind": "phrasing",
+    "text": "The speaker compares herself to a gardener tending a plant; 'stock' means the family line or breed of the just men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 74,
+    "kind": "word",
+    "text": "Pallas is another name for Athena, used here by the Chorus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "kind": "word",
+    "text": "'Burgeon' means to sprout or grow forth; 'propitious auguries' are favourable omens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "kind": "word",
+    "text": "'Burghers' are citizens of the town; here, the people of Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "kind": "phrasing",
+    "text": "'Hale' means drag or haul; the sins of a man's ancestors drag him before the Furies for punishment.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The Furies (Erinyes) are ancient goddesses of vengeance for blood-guilt. They are angry because Apollo and Athena have acquitted Orestes of his mother's murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "The Furies are daughters of Night, so they belong to an older divine generation than the Olympians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Athena offers them cult worship, with first-fruit offerings at births and weddings. This points to their later role as the Eumenides, the \"Kindly Ones\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Night is the mother of the Furies in Aeschylus. They appeal to her as their primeval parent, older than the Olympian gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Athena concedes the Furies are older goddesses. Her respectful tone is part of her strategy of persuasion rather than force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "text": "The Chorus are the Furies, goddesses of vengeance, now offered a shrine in Athens beneath the Areopagus after Orestes' acquittal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "text": "Athena promises that Athenian households will need the Furies' favour to flourish, making them powerful guardians of prosperity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "text": "The stage direction points to the audience, so the Athenian spectators are addressed as the 'just men'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 74,
+    "text": "Ares was worshipped at Athens' Areopagus, 'hill of Ares', where the court that tried Orestes sits.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "text": "The Chorus, formerly the Furies, are now installed as Athenian divinities, the Eumenides or 'kindly ones', who oversee human fortune and punish wrongdoing.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "metaphor",
+    "text": "Their wrath becomes venom dripping onto the soil, turning anger into a poison that sickens the land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "imagery",
+    "text": "Blasted leaf and blasted child link crop failure with human infertility, making the threatened plague both agricultural and personal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "rhetorical question",
+    "text": "The Chorus's helpless question shows its anger giving way to uncertainty, and sets up Athena's persuasion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "persuasion",
+    "text": "Athena begins by flattering and denying their loss of honour, defusing their grievance before she asks for restraint.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "veiled threat",
+    "text": "Mentioning the thunderbolt while saying it is needless is a polite warning of the force behind her request.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "metaphor",
+    "text": "Rage is imagined as a stormy sea that Athena asks the Furies to lull, as one might calm a child.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "apostrophe",
+    "text": "The Chorus addresses absent Night directly, calling on its mother to witness its suffering and lend authority to its complaint.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "characterization",
+    "text": "Athena mixes deference with quiet assertion of her own wisdom from Zeus, showing her as a tactful but authoritative mediator.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "metaphor",
+    "text": "Plucking out the hearts of fighting-cocks stands for stirring citizens to brutal civil strife, turning people into aggressive birds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "motif",
+    "text": "The Chorus repeats its lament almost word for word, showing its stubborn grief and giving the scene a ritual, song-like rhythm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "device": "stichomythia",
+    "text": "The rapid line-by-line question and answer exchange, typical of Greek tragedy, quickens the pace as the Chorus's resistance gives way.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "device": "characterization",
+    "text": "Athena presents herself as truthful and bound by her word, which gives her promise credibility and wins the Chorus's trust.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "device": "irony",
+    "text": "The Furies, once fierce and threatening, are softened by gentle words; persuasion succeeds where force would not, a central theme of the trilogy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "device": "simile",
+    "text": "Athena likens her care for just men to a gardener nurturing plants, suggesting growth, protection and the weeding out of blight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 79,
+    "device": "irony",
+    "text": "Whoever has never found the Furies grievous is ignorant of the true source of his sufferings, so his ease is itself a blindness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "device": "personification",
+    "text": "Destruction acts like a silent, wrathful figure who levels the boaster, making ruin seem a patient, living power.",
+    "spoiler": false
+   }
+  ]
+ }
+}

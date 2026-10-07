@@ -1,0 +1,757 @@
+{
+ "section_id": "oedipus-the-king-body-6",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 26039,
+  "output": 7233
+ },
+ "result": {
+  "summary": "A messenger reports that Jocasta has hanged herself and that Oedipus, learning the truth, has blinded himself with her brooch. The blind Oedipus is led out, laments, asks Creon to exile him and to look after his daughters, and is led back into the house while the Chorus warns that no life can be called happy until it ends.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 19,
+    "title": "Chorus mourns Oedipus's fall",
+    "summary": "The Chorus reflects on the emptiness of human happiness, recalling how Oedipus rose by defeating the Sphinx and has now fallen.",
+    "stakes": "",
+    "present": [
+     "Chorus",
+     "Oedipus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "traditional",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 68,
+    "title": "Messenger reports Jocasta's death",
+    "summary": "A messenger tells how Jocasta hanged herself and how Oedipus found her and blinded himself with her gold pin.",
+    "stakes": "Oedipus has lost his wife, his sight and his kingdom, and plans to go into exile.",
+    "present": [
+     "Messenger",
+     "Leader",
+     "Jocasta",
+     "Oedipus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Palace at Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "traditional",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 69,
+    "end_sentence": 157,
+    "title": "Blinded Oedipus laments",
+    "summary": "Oedipus is led out blind and bleeding, blames Apollo, and curses the man who saved him as a baby.",
+    "stakes": "Oedipus faces shame, loneliness and the world's horror at his crimes.",
+    "present": [
+     "Oedipus",
+     "Chorus",
+     "Leader",
+     "Apollo",
+     "Polybus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Palace at Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "traditional",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 158,
+    "end_sentence": 258,
+    "title": "Oedipus and Creon",
+    "summary": "Creon arrives, has Oedipus's daughters brought to him, and refuses to banish Oedipus until Apollo's will is known. The girls are taken away.",
+    "stakes": "Oedipus risks losing his daughters and any hope of exile.",
+    "present": [
+     "Oedipus",
+     "Creon",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Palace at Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "traditional",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 259,
+    "end_sentence": 263,
+    "title": "Chorus's closing moral",
+    "summary": "The Chorus warns that no one should be called fortunate before the end of life, as Oedipus is led inside.",
+    "stakes": "",
+    "present": [
+     "Chorus",
+     "Oedipus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "traditional",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Thebes, who blinds himself after learning the truth"
+   },
+   {
+    "name": "Jocasta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the queen, who hangs herself"
+   },
+   {
+    "name": "Creon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Jocasta's kinsman, who takes charge of Thebes"
+   },
+   {
+    "name": "Messenger",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "servant who reports events inside the palace"
+   },
+   {
+    "name": "Leader",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the Chorus of Theban elders"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban elders"
+   },
+   {
+    "name": "Laius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the dead former king, Jocasta's first husband and Oedipus's father"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god Oedipus blames for his fate"
+   },
+   {
+    "name": "Polybus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Corinth, whom Oedipus took for his father"
+   },
+   {
+    "name": "Kithairon",
+    "aliases": [],
+    "kind": "place",
+    "description": "mountain where Oedipus was left as a baby"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Jocasta",
+    "relation": "spouse_of",
+    "b": "Oedipus",
+    "source": "text",
+    "evidence_sentence": 44
+   },
+   {
+    "a": "Jocasta",
+    "relation": "spouse_of",
+    "b": "Laius",
+    "source": "text",
+    "evidence_sentence": 40
+   },
+   {
+    "a": "Laius",
+    "relation": "parent_of",
+    "b": "Oedipus",
+    "source": "text",
+    "evidence_sentence": 143
+   },
+   {
+    "a": "Jocasta",
+    "relation": "parent_of",
+    "b": "Oedipus",
+    "source": "text",
+    "evidence_sentence": 126
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Oedipus",
+    "source": "text",
+    "evidence_sentence": 120
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "The Chorus's bleak verdict on the emptiness of human life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 262,
+    "reason": "Closing moral: call no man happy until his life is over.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows the collapse of Oedipus's pride and certainty; he blinds himself because he had been blind to the truth while he could see.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Greek tragedy often placed violent deaths offstage and had messengers report them, as here. The closing moral reflects the Greek idea that fortune can be judged only at life's end.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Freud drew on the Oedipus story for the term 'Oedipus complex' in his work around 1900."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "This is Gilbert Murray's verse translation, and the Chorus's closing moral echoes lines found in other Greek tragedies.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Less I count you\" means the Chorus values human lives at even less than nothing, whether people are awake or merely dreaming.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "No mortal has gained more than an appearance of happiness, and even that appearance then fades away.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Ensample\" is an archaic form of \"example\"; \"sore\" here means grievously.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The \"Maid of Death\" is the Sphinx, whose riddle Oedipus solved, freeing Thebes from her. \"Riddling breath\" refers to her riddle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"One haven\" means the same woman, Jocasta, received both father and son; the Chorus alludes to the incest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "Furrows and sown grain are an agricultural image for the mother's womb and Oedipus's fathering of children on her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"Him that sleepeth\" is the dead Laius, Oedipus's father; \"unfathered\" suggests the land lacks a rightful ruler.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Ye\" is the archaic plural \"you\"; \"sires\" are ancestors or forefathers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"I ween\" means \"I think\" or \"I am sure\"; an archaic expression, repeated in sentence 43.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Phasis (a river at the eastern edge of the Greek world) and Ister (the Danube) stand for the greatest rivers known; even they could not wash the house clean.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "word",
+    "text": "\"Howbeit\" means \"nevertheless\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "allusion",
+    "text": "Jocasta calls on Laius, her first husband, killed long ago; the \"field beneath the plough\" alludes to Laius's death and the incestuous bed that yielded Oedipus's children.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "phrasing",
+    "text": "\"Massacred\" is used for the eyeballs, meaning savagely destroyed; the sentence says blood streamed onto his beard.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "kind": "phrasing",
+    "text": "The messenger breaks off before saying \"his mother's murderer\" (or \"husband\"), refusing to speak the horror aloud.",
+    "spoiler": false
+   },
+   {
+    "sentence": 74,
+    "kind": "phrasing",
+    "text": "The Chorus wonders whether some demonic creature rising from the abyss has pounced on Oedipus, since no human madness seems enough to explain such an act.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "kind": "phrasing",
+    "text": "\"His\" with a capital means a god's, probably Apollo's; the leap is the sudden strike of fate that threw Oedipus down.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "kind": "word",
+    "text": "\"Fain\" means gladly or eagerly; the Leader wants to look and question but is too horrified.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "kind": "phrasing",
+    "text": "\"In ghastly case\" means in a horrible condition or plight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "kind": "word",
+    "text": "\"Whither\" is an archaic word for \"to where.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 90,
+    "kind": "phrasing",
+    "text": "\"Twofold hosts of torment\" means two armies of suffering: the physical pain now, and the shame of what he has done.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "kind": "word",
+    "text": "\"Orbs\" is a poetic word for eyes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "kind": "allusion",
+    "text": "Refers to the shepherd who unbound the infant Oedipus, whose ankles had been pierced and bound, and saved him from exposure on the mountain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 120,
+    "kind": "phrasing",
+    "text": "\"The child and the groom withal\": Oedipus was both son and husband to Jocasta; \"withal\" means \"as well.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 126,
+    "kind": "phrasing",
+    "text": "\"The place of shadows\" is the underworld, where Oedipus imagines meeting his dead parents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 134,
+    "kind": "word",
+    "text": "\"I trow not\" means \"I think not\" or \"I believe not.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 135,
+    "kind": "phrasing",
+    "text": "\"This fount that welleth in mine ear\" means the ear as a spring of sound; \"blenched\" means flinched or shrank back.",
+    "spoiler": false
+   },
+   {
+    "sentence": 137,
+    "kind": "allusion",
+    "text": "Kithairon is the mountain where the infant Oedipus was left to die and was rescued.",
+    "spoiler": false
+   },
+   {
+    "sentence": 140,
+    "kind": "allusion",
+    "text": "The place where three roads meet is where Oedipus killed Laius, his father, without knowing him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 159,
+    "kind": "phrasing",
+    "text": "Creon says he has not come to mock Oedipus or reproach him for past wrongs; the line breaks off as he sees the blinded king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 161,
+    "kind": "allusion",
+    "text": "Our Lord the Sun: the Sun was a god who sustains life. Creon says Oedipus's polluted sight would offend the sun, earth and rain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 164,
+    "kind": "phrasing",
+    "text": "Oedipus means that Creon, by coming with kindness and nobility to so vile a man, has relieved his fear that Creon would be harsh.",
+    "spoiler": false
+   },
+   {
+    "sentence": 175,
+    "kind": "word",
+    "text": "'Twas means 'it was'; 'sore strait' means painful, difficult predicament.",
+    "spoiler": false
+   },
+   {
+    "sentence": 186,
+    "kind": "allusion",
+    "text": "Kithairon is the mountain where the infant Oedipus was left to die by his parents, so he wishes to die there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 190,
+    "kind": "phrasing",
+    "text": "'Where it listeth' means wherever it chooses; Oedipus leaves his fate to chance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 197,
+    "kind": "phrasing",
+    "text": "The stage direction means Oedipus, being blind, assumes Creon is still beside him while Creon fetches the girls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 211,
+    "kind": "phrasing",
+    "text": "\"Who grew your garden\" is a euphemism: Oedipus fathered his daughters on his own mother, the same woman who bore him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 211,
+    "kind": "word",
+    "text": "\"Nowise\" means in no way; \"digged a ground\" refers to the marriage bed, the field he sowed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 213,
+    "kind": "phrasing",
+    "text": "\"Or ere\" means before; the girls will be sent home in tears before the feast or dancers even arrive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 227,
+    "kind": "word",
+    "text": "\"Repair\" here means go back or withdraw into the house.",
+    "spoiler": false
+   },
+   {
+    "sentence": 231,
+    "kind": "phrasing",
+    "text": "Creon means that things will seem better in their proper time; a proverb-like remark urging patience.",
+    "spoiler": false
+   },
+   {
+    "sentence": 247,
+    "kind": "phrasing",
+    "text": "Creon says he is without knowledge, so he will not swear to what he cannot yet see clearly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 260,
+    "kind": "allusion",
+    "text": "The riddle-word is the Sphinx's riddle, which Oedipus solved, saving Thebes and winning the throne.",
+    "spoiler": false
+   },
+   {
+    "sentence": 262,
+    "kind": "phrasing",
+    "text": "Counting no life as gain until it ends: call no one happy until he is dead and free of pain.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 8,
+    "text": "Oedipus became king of Thebes by answering the Sphinx's riddle and so ending her hold on the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The Chorus refers to the incestuous marriage of Oedipus and Jocasta, now revealed, and to the children born of it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Jocasta is Oedipus's wife and, unknown to him until now, his mother; she is also the widow of Laius, the former king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "text": "The gold pin was a brooch fastening Jocasta's robe; Oedipus uses it to put out his own eyes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 65,
+    "text": "Oedipus had himself pronounced a curse on Laius's killer and decreed banishment, so he now applies it to himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "text": "Oedipus has just learned that he killed his father Laius and married his mother Jocasta. She has hanged herself, and he has put out his own eyes with her brooches.",
+    "spoiler": false
+   },
+   {
+    "sentence": 86,
+    "text": "Strophe and antistrophe are the paired sections of a choral song, sung while moving in one direction and then the other. Here Oedipus shares the lyric lament.",
+    "spoiler": false
+   },
+   {
+    "sentence": 101,
+    "text": "Apollo's oracle had foretold that Oedipus would kill his father and marry his mother, so he blames the god for planning his ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "text": "The Leader is the head of the chorus of Theban elders, who respond to Oedipus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 139,
+    "text": "Polybus was king of Corinth and the man Oedipus believed to be his father; he actually raised him as an adopted son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 152,
+    "text": "Creon is Jocasta's brother and now becomes the effective ruler of Thebes, since Oedipus has been disgraced and blinded.",
+    "spoiler": false
+   },
+   {
+    "sentence": 173,
+    "text": "Apollo's oracle had ordered Thebes to drive out the unclean murderer of Laius, who turned out to be Oedipus himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 183,
+    "text": "The woman who lies within is Jocasta, Oedipus's wife and mother, who has killed herself. Her burial falls to her brother Creon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 193,
+    "text": "The two daughters are Antigone and Ismene. Oedipus's sons are old enough to fend for themselves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 239,
+    "text": "Exile of the polluted king must be sanctioned by Apollo's oracle, which Creon wants to consult first.",
+    "spoiler": false
+   },
+   {
+    "sentence": 258,
+    "text": "Creon now holds power as ruler and tells Oedipus his former mastery is over.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "apostrophe",
+    "text": "The Chorus addresses all humankind directly, turning Oedipus's private disaster into a universal lesson about the emptiness of life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "metaphor",
+    "text": "Oedipus's success is an arrow flying to the heart of life, and he becomes a \"tower\" standing out of the death-cloud.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "personification",
+    "text": "The furrows are made to \"shriek\" or stay silent, as if the field itself could witness and protest the crime.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "personification",
+    "text": "Time is given the power to expose and judge, as if it were a force that reveals Oedipus's truth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "simile",
+    "text": "Jocasta's flashing hands are compared to tearing blades, conveying her frenzy and foreshadowing violence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "device": "simile",
+    "text": "Oedipus is likened to a hunter or beast led to its prey by a pointing hand, stressing his animal rage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "device": "simile",
+    "text": "Likening the hanged queen to a dead bird makes her seem fragile and pitiable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "device": "irony",
+    "text": "Oedipus, who \"saw\" yet was blind to the truth, now blinds himself so the eyes shall not see his sins.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "device": "metaphor",
+    "text": "Blood from the eyes becomes \"wild rain\" and hail, turning the horrifying act into a storm image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "device": "antithesis",
+    "text": "The house's former riches are set against a list of miseries, showing how complete the reversal of fortune is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 87,
+    "device": "metaphor",
+    "text": "Blindness is imagined as a dark cloud that no wind can clear, making his permanent darkness vivid and inescapable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 88,
+    "device": "personification",
+    "text": "Pain and memories crawl and stab through his heart like living creatures, making inner anguish physical.",
+    "spoiler": false
+   },
+   {
+    "sentence": 93,
+    "device": "apostrophe",
+    "text": "Oedipus addresses the unseen Leader as a faithful friend, showing how isolation makes him rely on voices alone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 101,
+    "device": "repetition",
+    "text": "Repeating \"Apollo\" and \"evilly\" makes his accusation hammer, showing his bitter obsession with divine cruelty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 103,
+    "device": "irony",
+    "text": "His eyes were useless since nothing worth seeing remained. Earlier he saw physically yet was blind to the truth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 133,
+    "device": "irony",
+    "text": "The man famed for his clear sight now cannot meet others' eyes, even before he has lost sight in earnest; his blindness reverses his earlier pride.",
+    "spoiler": false
+   },
+   {
+    "sentence": 136,
+    "device": "paradox",
+    "text": "Being \"self-prisoned\" to find peace joins imprisonment with relief, showing his wish to shut out the world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 139,
+    "device": "metaphor",
+    "text": "A fair appearance \"rotted by the worm within\" pictures Oedipus's noble upbringing as fruit hiding corruption, showing the hidden truth of his birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 141,
+    "device": "apostrophe",
+    "text": "Oedipus addresses the crossroads, glen and footpath as if they could hear and remember the murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 186,
+    "device": "metaphor",
+    "text": "The mountain is called a 'living tomb', combining the places of his intended death and his survival in one image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 189,
+    "device": "irony",
+    "text": "Oedipus sees that his survival of exposure and calamity has been preserved only for a worse purpose, a bitter turn on being spared.",
+    "spoiler": false
+   },
+   {
+    "sentence": 200,
+    "device": "pathos",
+    "text": "Touching the children would let him feel he has not lost them, which deepens sympathy for the blinded king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 211,
+    "device": "metaphor",
+    "text": "Fatherhood is imagined as gardening, with the daughters as plants he grew, a tender image made terrible by the incest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 216,
+    "device": "metaphor",
+    "text": "The daughters are flowers doomed to wither barren, expressing their ruined prospects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 247,
+    "device": "irony",
+    "text": "Creon's \"I see no light\" echoes the blinded Oedipus, turning the king's own condition into a reason for caution.",
+    "spoiler": false
+   },
+   {
+    "sentence": 261,
+    "device": "metaphor",
+    "text": "Oedipus's fall is a ship overwhelmed by storms and the sea, picturing his ruin as a natural catastrophe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 262,
+    "device": "moral",
+    "text": "The chorus draws a general lesson from Oedipus's fate: human fortune is unstable, so no life can be judged before it ends.",
+    "spoiler": false
+   }
+  ]
+ }
+}

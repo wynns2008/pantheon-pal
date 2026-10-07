@@ -1,0 +1,421 @@
+{
+ "section_id": "aeschylus-body-27",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 17328,
+  "output": 4121
+ },
+ "result": {
+  "summary": "The Chorus of Persian elders recalls the peaceful greatness of Darius's reign, then Xerxes returns in tattered robes. Together they lament the loss of the fleet and name the dead commanders, ending with a ritual wail as they go to the city.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "The Chorus recalls Darius's reign",
+    "summary": "The elders praise Darius's peaceful rule and the many cities and islands he held, then admit the present defeat at sea.",
+    "stakes": "The Persian empire's glory and security, now lost through defeat.",
+    "present": [
+     "Chorus",
+     "Darius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Persian realm",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 187,
+    "title": "Xerxes returns; the great lament",
+    "summary": "Xerxes enters in rags and, with the Chorus, names the lost leaders and mourns the disaster at Salamis. They end in a ritual lament, moving off toward the city.",
+    "stakes": "Xerxes faces the ruin of his army, the grief of his people and the loss of Persia's power.",
+    "present": [
+     "Xerxes",
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Susa",
+     "modern_name": "Shush, Iran",
+     "certainty": "real",
+     "lat": 32.19,
+     "lon": 48.24
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian elders who counsel the realm and mourn"
+   },
+   {
+    "name": "Darius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "late Persian king, remembered as peaceful and godlike"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king returning defeated from Greece"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Darius",
+    "relation": "parent_of",
+    "b": "Xerxes",
+    "source": "outside",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Xerxes wishes he had died with his men, summing up his broken state.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The contrast between Darius's successful reign and Xerxes's disaster shows the play's theme of hubris and divine punishment.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Aeschylus, who may have fought at Salamis, presents the Persian side with sympathy for a recent enemy, in the earliest surviving Greek tragedy. The list of Persian names gives the lament a documentary weight.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The closing lament is written as a sung exchange, with short alternating cries, which is unusual for Greek tragedy.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"In sooth\" means \"truly\"; \"civil government\" here means settled, peaceful rule as opposed to war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Scatheless\" means unharmed; \"unworn\" means not exhausted.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The Halys was a river in Asia Minor, a traditional boundary. The claim is that Darius won Thracian-coast cities without crossing it or leaving home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "\"The broad stream of Helle\" is the Hellespont, named for Helle, who fell from the golden ram into it; Propontis and Pontus are the Sea of Marmara and Black Sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Salamis in Cyprus was named for the Greek island Salamis, whose \"mother-city\" is the site of the Persian defeat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Hellenes\" are the Greeks; \"demesne\" means domain or territory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Xerxes invokes Zeus, though Persians would more naturally name their own gods; this is the Greek translator's Greek flavour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Mariandynians, of northern Asia Minor, were known for professional mourning songs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "allusion",
+    "text": "The 'Eye' is a Persian court title for a trusted officer who watched for the king; here it refers to a single lost commander, then the list follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "kind": "word",
+    "text": "'Myriad' means ten thousand, the size of a major Persian army division.",
+    "spoiler": false
+   },
+   {
+    "sentence": 65,
+    "kind": "phrasing",
+    "text": "'The glance of Calamity' means ruin that strikes at once, as visible and sure as a look; Calamity is personified as a power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "kind": "word",
+    "text": "'Fordone' is archaic for destroyed or utterly exhausted.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "kind": "phrasing",
+    "text": "Xerxes' broken line refers to his quiver; the Chorus's interruptions and the half-finished phrase show his disordered state.",
+    "spoiler": false
+   },
+   {
+    "sentence": 94,
+    "kind": "allusion",
+    "text": "Ionia's Greeks, subjects of Persia in Asia Minor, fought on both sides; here the Persians praise the Ionians' courage as enemy fighters at Salamis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "kind": "word",
+    "text": "\"Ne'er\" is poetic contraction of \"never\"; \"behold\" means to see or witness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 101,
+    "kind": "allusion",
+    "text": "Tearing one's robe was a conventional sign of grief and mourning in the ancient East.",
+    "spoiler": false
+   },
+   {
+    "sentence": 103,
+    "kind": "word",
+    "text": "\"Alack\" is an archaic exclamation of sorrow or dismay.",
+    "spoiler": false
+   },
+   {
+    "sentence": 111,
+    "kind": "word",
+    "text": "\"Hath\" is archaic for \"has\"; \"maimed\" means crippled or badly damaged.",
+    "spoiler": false
+   },
+   {
+    "sentence": 131,
+    "kind": "phrasing",
+    "text": "\"Ply your strokes\" asks the Chorus to beat their breasts or heads rhythmically in mourning, as well as to groan.",
+    "spoiler": false
+   },
+   {
+    "sentence": 137,
+    "kind": "word",
+    "text": "\"Liege\" is a respectful title for a lord or sovereign owed loyalty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 142,
+    "kind": "phrasing",
+    "text": "\"Blackening blows\" refers to bruises from beating the breast and face in mourning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 144,
+    "kind": "allusion",
+    "text": "The Mysian wail: Mysia was a region of Asia Minor; its people were proverbial for mourning, so this names a foreign, Asiatic style of lament.",
+    "spoiler": false
+   },
+   {
+    "sentence": 180,
+    "kind": "phrasing",
+    "text": "\"Dainty steps\" is bitterly ironic: the elders are to walk delicately, in the soft Persian manner, while lamenting in procession.",
+    "spoiler": false
+   },
+   {
+    "sentence": 184,
+    "kind": "word",
+    "text": "Three-tiered galleys are triremes, warships with three banks of oars, the main fighting ships at Salamis.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Darius I, father of Xerxes, ruled Persia 522–486 BC and was remembered as a successful, stable king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Xerxes' torn robes were a conventional sign of grief and mark his fall from royal splendour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Ionians were Greeks of the Asia Minor coast and islands; many Ionians fought on the Greek side or under Persian rule.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "The long lists of Persian commanders' names mark the scale of loss and give the lament a ritual character.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "text": "Athens is 'hateful' to the Persians because it defeated them at Salamis in 480 BC; the dead lie on the shores there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 73,
+    "text": "Ionia's mariners were Greeks, from the Ionian coast and the Athenian fleet, whom the Persians fought at Salamis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "text": "Xerxes appears in torn royal robes, a visual sign of his fallen state, which the Persian audience would have found shocking.",
+    "spoiler": false
+   },
+   {
+    "sentence": 95,
+    "text": "Xerxes, king of Persia, has just returned in torn clothes after the defeat of his fleet by the Greeks at Salamis (480 BC).",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "text": "The Chorus are Persian elders, left to guard the realm while the army was away; they act as the king's counsellors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 148,
+    "text": "Tearing hair and beard and rending robes were standard ritual signs of grief in ancient mourning, shown here on stage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 187,
+    "text": "\"Exeunt omnes\" is a Latin stage direction meaning all leave; the play ends with the actors and Chorus processing out in lament.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "nostalgia",
+    "text": "The Chorus idealises Darius's reign, setting up a contrast with Xerxes' disastrous campaign.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "simile",
+    "text": "Civil institutions are compared to towers in strength, presenting law as a defensive fortress.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "After praising conquests made without leaving home, the Chorus blames Xerxes' overseas war and divine will for the sudden reversal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "peripeteia",
+    "text": "Xerxes' words confirm the sudden reversal of fortune, the tragic turning point the play has been building.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "personification",
+    "text": "Fortune is imagined as a savage figure physically trampling the Persian people.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "metaphor",
+    "text": "Xerxes is said to have gorged Death's realm, picturing the underworld as a creature fed on Persian dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "repetition",
+    "text": "The doubled \"piteously\" and the image of Asia bowed to her knees express grief and a whole continent's humiliation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "antiphony",
+    "text": "Question and answer between Chorus and Xerxes give the lament a ritual, call-and-response structure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "Pathos",
+    "text": "The image of men gasping on the shore, with the cry 'alas, alas', stirs pity for the defeated Persians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "device": "Catalogue",
+    "text": "The long list of names makes the loss concrete and gives the lament the weight of a roll of the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 65,
+    "device": "Personification",
+    "text": "Calamity is given a 'glance', as if disaster were a being that looks upon the Persians and destroys them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "device": "Symbolism",
+    "text": "The ragged robe stands for the ruin of royal power and Xerxes' fall from splendor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 105,
+    "device": "stichomythia",
+    "text": "Xerxes and the Chorus trade short lines, building a rapid, antiphonal lament that mirrors ritual mourning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 109,
+    "device": "antithesis",
+    "text": "\"Pain to us\" against \"exultation to our foes\" sharpens the humiliation by contrasting Persian suffering with Greek joy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 123,
+    "device": "repetition",
+    "text": "Repeating \"wretched\" three times makes the grief seem to pass back and forth between mourners, intensifying the sorrow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 150,
+    "device": "Repetition",
+    "text": "The doubled phrase \"with clenched nails\" imitates the rhythm of ritual wailing and beating, heightening the sense of mourning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 168,
+    "device": "Antiphony",
+    "text": "Xerxes commands and the Chorus echoes, a call-and-response lament that draws the king into shared grief with his people.",
+    "spoiler": false
+   },
+   {
+    "sentence": 182,
+    "device": "Apostrophe",
+    "text": "The Chorus addresses the Persian land directly, making the country itself a grieving, wounded presence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

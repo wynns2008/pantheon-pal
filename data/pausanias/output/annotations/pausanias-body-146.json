@@ -1,0 +1,276 @@
+{
+ "section_id": "pausanias-body-146",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7149,
+  "output": 2436
+ },
+ "result": {
+  "summary": "Pausanias explains why Elean athletes never compete at the Isthmian games. He tells how Hercules ambushed and killed the sons of Actor, how their mother Moline cursed the Argives, and he weighs two rival explanations, which he rejects.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Hercules slays the sons of Actor",
+    "summary": "Hercules, unable to defeat the sons of Actor in the war against Augeas, ambushes them at Cleonæ during the Isthmian truce. Moline seeks the killer, the Eleans demand compensation from the Argives, and Moline curses those who attend the games.",
+    "stakes": "Moline's sons are killed and she seeks justice; Elis and Argolis are set against each other.",
+    "present": [
+     "Hercules",
+     "Moline",
+     "Augeas",
+     "Actor"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Cleonæ",
+     "modern_name": "Cleones, near Nemea, Greece",
+     "certainty": "real",
+     "lat": 37.8,
+     "lon": 22.7
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 8,
+    "title": "The Cypselus tradition",
+    "summary": "One tradition says Corinth and Elis quarrelled over Cypselus' unnamed golden statue at Olympia. Pausanias rejects it, since Corinthians would then not have been admitted at Olympia.",
+    "stakes": "",
+    "present": [
+     "Cypselus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 13,
+    "title": "Prolaus' sons and Timon's epigram",
+    "summary": "A second tradition says Prolaus' sons were killed at the Isthmus and their mother Lysippe cursed Elis. Pausanias dismisses it, citing Timon's epitaph which blames the sons of Molione.",
+    "stakes": "",
+    "present": [
+     "Prolaus",
+     "Lysippe",
+     "Philanthus",
+     "Lampus",
+     "Timon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Isthmus of Corinth",
+     "modern_name": "Isthmus of Corinth, Greece",
+     "certainty": "real",
+     "lat": 37.92,
+     "lon": 22.99
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who killed the sons of Actor and lived at Tiryns"
+   },
+   {
+    "name": "Moline",
+    "aliases": [
+     "Molione"
+    ],
+    "kind": "mortal",
+    "description": "mother of the sons of Actor who cursed those attending the Isthmian games"
+   },
+   {
+    "name": "Augeas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Elis, enemy of Hercules"
+   },
+   {
+    "name": "Actor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the two young warriors"
+   },
+   {
+    "name": "Cypselus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant of Corinth who dedicated a golden statue"
+   },
+   {
+    "name": "Prolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "respected man of Elis"
+   },
+   {
+    "name": "Lysippe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Prolaus, who cursed Elis"
+   },
+   {
+    "name": "Philanthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Prolaus, a boy pancratiast"
+   },
+   {
+    "name": "Lampus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Prolaus, a wrestler"
+   },
+   {
+    "name": "Timon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean pentathlon victor with a statue at Olympia"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god at Olympia to whom the statue was offered"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Prolaus",
+    "relation": "spouse_of",
+    "b": "Lysippe",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Prolaus",
+    "relation": "parent_of",
+    "b": "Philanthus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Lysippe",
+    "relation": "parent_of",
+    "b": "Lampus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Moline",
+    "relation": "parent_of",
+    "b": "Actor",
+    "source": "outside",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Molione",
+    "canonical": "Moline",
+    "explanation": "The epigram spells the mother's name Molione; her sons are 'sons of Molione'."
+   },
+   {
+    "alias": "land of Sisyphus",
+    "canonical": "Isthmus of Corinth",
+    "explanation": "Poetic phrase in the epigram for the Corinthian Isthmus, where the Isthmian games were held."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Timon's epigram is contemporary-style evidence that the Elean boycott came from the Molione affair.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias explains a religious custom by its origin in a curse, then tests rival stories with logic and inscriptional evidence.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows rivalries between Greek cities over the panhellenic games and how sacred truces and curses shaped participation.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias uses a statue and its verse inscription at Olympia as evidence, typical of his method of checking tradition against monuments.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Win laurels\" means to gain glory; laurel wreaths were symbols of victory and honor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Scratched\" is a sporting term meaning struck off the list of entrants, so Argives would be barred from the games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Pancratium was a brutal combined contest of wrestling and boxing, here held in a boys' class.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Pentathlum (pentathlon) was a five-event contest: running, jumping, discus, javelin and wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "\"Land of Sisyphus\" means Corinth, whose legendary king was Sisyphus; the Isthmian games were held in its territory.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Augeas was king of Elis, whose filthy stables were one of Hercules' labours; Hercules later campaigned against him. The sons of Actor were Molione's twin sons.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Cypselus was tyrant of Corinth in the seventh century BC. Zeus' sanctuary at Olympia received many city offerings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Elegiac verses were the usual metre for epitaphs and dedications on statues.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "rhetorical question",
+    "text": "Pausanias refutes the tradition by asking a question whose answer is obvious, exposing the logical flaw.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "characterization",
+    "text": "Pausanias' blunt dismissal shows him as a critical historian who weighs rival traditions against evidence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

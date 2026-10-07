@@ -1,0 +1,655 @@
+{
+ "section_id": "apollodorus-body-19",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12447,
+  "output": 5707
+ },
+ "result": {
+  "summary": "After Hercules' death his sons are hounded by Eurystheus, who is defeated and killed at Athens. The Heraclids then misread oracles in their attempts to return to Peloponnese, and finally conquer it and divide Argos, Lacedaemon and Messene by lot, followed by murders and successions.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Heraclids flee Eurystheus to Athens",
+    "summary": "The sons of Hercules flee Eurystheus and take refuge at Athens. The Athenians fight for them, and Hyllus kills Eurystheus.",
+    "stakes": "The Heraclids risk being surrendered to Eurystheus and killed; the Athenians risk war.",
+    "present": [
+     "Hercules",
+     "Eurystheus",
+     "Ceyx",
+     "Hyllus",
+     "Alcmena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.98,
+     "lon": 23.73
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 12,
+    "title": "First failed return",
+    "summary": "The Heraclids seize Peloponnese but are driven out by plague. Hyllus misreads the oracle's 'third crop' and is defeated.",
+    "stakes": "The Heraclids risk losing their hoped-for homeland and their lives.",
+    "present": [
+     "Hyllus",
+     "Iole",
+     "Tlepolemus",
+     "Licymnius",
+     "Tisamenus",
+     "Aristomachus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Peloponnese",
+     "modern_name": "Peloponnese",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 27,
+    "title": "Naupactus and the Three-Eyed One",
+    "summary": "Temenus learns the oracle's true meaning and builds a fleet at Naupactus. After the soothsayer's death brings disaster, Oxylus guides them to victory.",
+    "stakes": "The army faces destruction by divine anger, famine and defeat.",
+    "present": [
+     "Temenus",
+     "Aristodemus",
+     "Eurysthenes",
+     "Procles",
+     "Argia",
+     "Hippotes",
+     "Oxylus",
+     "Tisamenus",
+     "Pamphylus",
+     "Dymas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Naupactus",
+     "modern_name": "Nafpaktos",
+     "certainty": "real",
+     "lat": 38.39,
+     "lon": 21.83
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 35,
+    "title": "Lots for the cities",
+    "summary": "The conquerors draw lots for Argos, Lacedaemon and Messene. Cresphontes cheats with a clod of earth, and signs on the altars are interpreted.",
+    "stakes": "Each leader competes for the best kingdom.",
+    "present": [
+     "Temenus",
+     "Procles",
+     "Eurysthenes",
+     "Cresphontes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Peloponnese",
+     "modern_name": "Peloponnese",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 36,
+    "end_sentence": 41,
+    "title": "Murders and successions",
+    "summary": "Temenus is murdered by his sons, and Cresphontes is killed. Aepytus later avenges his father by killing Polyphontes.",
+    "stakes": "Kingship and lives are lost in dynastic murder.",
+    "present": [
+     "Temenus",
+     "Agelaus",
+     "Eurypylus",
+     "Callias",
+     "Hyrnetho",
+     "Deiphontes",
+     "Cresphontes",
+     "Polyphontes",
+     "Merope",
+     "Aepytus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messene",
+     "modern_name": "Messenia",
+     "certainty": "real",
+     "lat": 37.18,
+     "lon": 21.92
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "deified hero whose sons are pursued"
+   },
+   {
+    "name": "Eurystheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king hostile to the Heraclids"
+   },
+   {
+    "name": "Ceyx",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Trachis who shelters the Heraclids"
+   },
+   {
+    "name": "Hyllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hercules, kills Eurystheus"
+   },
+   {
+    "name": "Alcmena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Hercules"
+   },
+   {
+    "name": "Iole",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Hyllus"
+   },
+   {
+    "name": "Tlepolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid who kills Licymnius and goes to Rhodes"
+   },
+   {
+    "name": "Licymnius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man accidentally killed"
+   },
+   {
+    "name": "Tisamenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Orestes, king of Peloponnesians"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Tisamenus"
+   },
+   {
+    "name": "Aristomachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid slain in battle"
+   },
+   {
+    "name": "Cleodaeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Temenus and others"
+   },
+   {
+    "name": "Temenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid leader who gets Argos"
+   },
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid killed by thunderbolt"
+   },
+   {
+    "name": "Eurysthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "twin son of Aristodemus"
+   },
+   {
+    "name": "Procles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "twin son of Aristodemus"
+   },
+   {
+    "name": "Argia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Aristodemus"
+   },
+   {
+    "name": "Autesion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Argia"
+   },
+   {
+    "name": "Hippotes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid who kills the soothsayer"
+   },
+   {
+    "name": "Oxylus",
+    "aliases": [
+     "the Three-Eyed One"
+    ],
+    "kind": "mortal",
+    "description": "guide on a one-eyed horse"
+   },
+   {
+    "name": "Andraemon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Oxylus"
+   },
+   {
+    "name": "Pamphylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ally slain in battle"
+   },
+   {
+    "name": "Dymas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ally slain in battle"
+   },
+   {
+    "name": "Aegimius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pamphylus and Dymas"
+   },
+   {
+    "name": "Cresphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid who tricks his way to Messene"
+   },
+   {
+    "name": "Agelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Temenus"
+   },
+   {
+    "name": "Eurypylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Temenus"
+   },
+   {
+    "name": "Callias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Temenus"
+   },
+   {
+    "name": "Hyrnetho",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Temenus"
+   },
+   {
+    "name": "Deiphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Hyrnetho"
+   },
+   {
+    "name": "Polyphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid usurper of Messene"
+   },
+   {
+    "name": "Merope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "widow of Cresphontes"
+   },
+   {
+    "name": "Aepytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Merope who regains the kingdom"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Hyllus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Hyllus",
+    "relation": "spouse_of",
+    "b": "Iole",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Orestes",
+    "relation": "parent_of",
+    "b": "Tisamenus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Aristodemus",
+    "relation": "parent_of",
+    "b": "Eurysthenes",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Aristodemus",
+    "relation": "parent_of",
+    "b": "Procles",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Aristodemus",
+    "relation": "spouse_of",
+    "b": "Argia",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Temenus",
+    "relation": "parent_of",
+    "b": "Hyrnetho",
+    "source": "text",
+    "evidence_sentence": 36
+   },
+   {
+    "a": "Hyrnetho",
+    "relation": "spouse_of",
+    "b": "Deiphontes",
+    "source": "text",
+    "evidence_sentence": 36
+   },
+   {
+    "a": "Cresphontes",
+    "relation": "spouse_of",
+    "b": "Merope",
+    "source": "text",
+    "evidence_sentence": 38
+   },
+   {
+    "a": "Merope",
+    "relation": "parent_of",
+    "b": "Aepytus",
+    "source": "text",
+    "evidence_sentence": 40
+   },
+   {
+    "a": "Alcmena",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "outside",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Three-Eyed One",
+    "canonical": "Oxylus",
+    "explanation": "The oracle's phrase is fulfilled by Oxylus riding a one-eyed horse, making three eyes."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 15,
+    "reason": "The god explains the riddling oracle: 'third crop' means a generation, a classic oracular misunderstanding.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Oracles are ambiguous and punish literal reading; the Heraclids suffer until they understand the god's words.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The chapter presents the legendary 'Return of the Heraclids', which explained the Dorian claim to Peloponnese and the origins of Spartan, Argive and Messenian royal houses.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Merope and Aepytus inspired Euripides' lost play Cresphontes and later dramas such as Voltaire's Mérope (1743)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The name Naupactus was explained by the text as 'ship-building' place, from the Greek words for ship and construct.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Translated\" here means carried up bodily to heaven, referring to Hercules' apotheosis (becoming a god), not translation between languages.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The altar of Mercy (Eleos) in Athens was a famous sanctuary for suppliants; those who sat at it could claim protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Bore the brunt of war\" means took on the main force and burden of the fighting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Heraclids are the descendants of Hercules, here his sons and their followers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Inadvertently\" means by accident; the killing was unintended, yet Tlepolemus still had to flee as an exile.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"The third crop\" is the oracle's ambiguous wording; it could mean a harvest, a generation, or a year, which sets up the misreading.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The sons of Cleodaeus are Temenus and his brothers, descendants of Hercules, seeking to return to the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The oracle's \"third crop\" and \"narrows\" were misread as a harvest and the Isthmus; the god meant a third generation and the sea route around the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Naupactus is explained by the Greek root for \"ship-building\"; the name is linked to the fleet built there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Soothsayer\" means a seer who foretells events; \"fine frenzy\" is prophetic ecstasy, which made the Heraclids suspect him of magic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "\"Banish the slayer\" means exile Hippotes for the killing; the \"Three-Eyed One\" is a riddling title for the guide they must find.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "A one-eyed horse carrying a man makes three eyes in total, which solves the oracle's riddle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "\"Made themselves masters of Peloponnese\" means they conquered the Peloponnese, the southern peninsula of Greece. The Heraclids (descendants of Hercules) are the conquerors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "\"Paternal Zeus\" is Zeus as ancestral protector of the family; Hercules' descendants claimed him as forebear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "\"Clod\" is a lump of earth or clay, which dissolves in water, unlike a stone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "phrasing",
+    "text": "The clod melts, so only the two stone lots can come up from the pitcher, leaving Messene to Cresphontes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "word",
+    "text": "\"Wily\" means cunning and crafty, fitting the fox and, ironically, Cresphontes' trick.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "\"True Heraclids\" refers to descendants of Hercules (Heracles); Polyphontes is one, so his claim to rule is legitimate.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Eurystheus was the king who imposed the twelve labours on Hercules and continued to persecute Hercules' children.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "The Scironian cliffs lie on the road between Megara and Corinth, on the coast of the Isthmus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Tisamenus, son of Orestes, was king of the Peloponnesians, so the Heraclids are returning to a land ruled by the Atreid line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Aristodemus was one of the three Heraclid brothers; his twin sons later became ancestors of the two Spartan royal houses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Tisamenus, son of Orestes, was the Achaean ruler of the Peloponnese, so his defeat opens the land to the Heraclids' return.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Procles and Eurysthenes were twin sons of Aristodemus, who died before the conquest; they share one lot and later become joint kings of Sparta (Lacedaemon).",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Temenus' favouring of his daughter and son-in-law over his own sons explains the sons' motive for hiring his murderers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "text": "Aepytus' revenge and return from hiding is a well-known story, later dramatized in ancient tragedy about Merope.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "irony",
+    "text": "Eurystheus, who long tormented Hercules' family, is reduced to a fleeing man whose head is given to Alcmena, a grim reversal of fortune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "foreshadowing",
+    "text": "The oracle's warning about returning \"before the proper time\" anticipates the later oracle about the third crop and Hyllus's failed attempt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "irony",
+    "text": "Hyllus follows the oracle's words literally and waits three years, but that very obedience leads him to misunderstand the god and fail.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "irony",
+    "text": "The Heraclids kill a true prophet fearing sabotage, and their own act destroys the army; protection becomes the cause of ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "riddle",
+    "text": "The oracle's puzzling phrase is resolved through a literal image, a one-eyed horse and rider, rewarding the reader who recalls the clue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "characterization",
+    "text": "Cresphontes' substitution of a clod reveals him as cunning and willing to cheat his own kin to win the richer prize.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "symbolism",
+    "text": "The toad, serpent and fox symbolize the future character of each realm: passive, fierce and cunning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "narrative voice",
+    "text": "The blunt, brief sentence passes swift judgment, showing the cycle of violence in a terse chronicle style.",
+    "spoiler": false
+   }
+  ]
+ }
+}

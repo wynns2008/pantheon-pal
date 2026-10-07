@@ -1,0 +1,938 @@
+{
+ "section_id": "aeschylus-body-20",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 32839,
+  "output": 8979
+ },
+ "result": {
+  "summary": "After an argument recounting the myth, Power and Force bring Prometheus to a Scythian crag, where a reluctant Hephaestus nails him down for stealing fire for mortals. Left alone, Prometheus laments, receives the Daughters of Oceanus, and tells how he aided Zeus and then saved mankind. Oceanus arrives offering to plead with Zeus, but Prometheus refuses his help and he departs.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 16,
+    "title": "Setting and Argument",
+    "summary": "The setting and the mythic background are given: the Titan war, Prometheus's aid to Zeus, his gift of fire and his coming punishment.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": true,
+    "place": {
+     "name": "Scythia",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 107,
+    "title": "Prometheus Is Chained",
+    "summary": "Power urges Hephaestus to rivet Prometheus to the rock despite Hephaestus's pity. Power mocks the captive and leaves.",
+    "stakes": "Prometheus faces endless torment; Hephaestus risks Zeus's wrath if he shows mercy.",
+    "present": [
+     "Power",
+     "Force",
+     "Hephaestus",
+     "Prometheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Scythian crag",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 108,
+    "end_sentence": 170,
+    "title": "Lament and Tale to the Chorus",
+    "summary": "Prometheus calls on nature to witness his wrongs. The Daughters of Oceanus arrive and he tells how he helped Zeus and then saved mankind.",
+    "stakes": "Prometheus suffers eternal bondage; he holds a secret that could unseat Zeus.",
+    "present": [
+     "Prometheus",
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Scythian crag",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 171,
+    "end_sentence": 217,
+    "title": "Gifts to Mankind",
+    "summary": "Prometheus tells the Chorus he gave mortals blind hopes and fire, and admits his error. He asks them to alight and hear more.",
+    "stakes": "Prometheus faces indefinite torment, ended only at Zeus's pleasure.",
+    "present": [
+     "Prometheus",
+     "Chorus",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Scythian crag",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 218,
+    "end_sentence": 290,
+    "title": "Oceanus Offers Help",
+    "summary": "Oceanus counsels submission and offers to plead with Zeus. Prometheus warns him off, citing Atlas and Typhon, and Oceanus leaves.",
+    "stakes": "Oceanus risks Zeus's anger; Prometheus risks worse punishment if he speaks too boldly.",
+    "present": [
+     "Prometheus",
+     "Oceanus",
+     "Atlas",
+     "Typhon",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Scythian crag",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Prometheus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Titan who gave fire to mortals and is chained for it"
+   },
+   {
+    "name": "Power",
+    "aliases": [],
+    "kind": "other",
+    "description": "Zeus's harsh enforcer who oversees the binding"
+   },
+   {
+    "name": "Force",
+    "aliases": [],
+    "kind": "other",
+    "description": "Silent companion of Power"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Smith god, ordered to chain Prometheus reluctantly"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "the Father",
+     "Prince of the Blessed"
+    ],
+    "kind": "god",
+    "description": "New tyrannical ruler of heaven"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [
+     "Daughters of Oceanus"
+    ],
+    "kind": "nymph",
+    "description": "Sea nymphs who come in sympathy"
+   },
+   {
+    "name": "Oceanus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Titan of the encircling stream, who offers help"
+   },
+   {
+    "name": "Themis",
+    "aliases": [
+     "Earth"
+    ],
+    "kind": "goddess",
+    "description": "Prophetic mother of Prometheus"
+   },
+   {
+    "name": "Cronus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Old king of heaven, cast into Tartarus"
+   },
+   {
+    "name": "Tethys",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Mother of the Chorus"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "god",
+    "description": "Brother of Prometheus, bearing the heavens"
+   },
+   {
+    "name": "Typhon",
+    "aliases": [
+     "Typho"
+    ],
+    "kind": "monster",
+    "description": "Hundred-headed monster buried under Aetna"
+   },
+   {
+    "name": "Uranus",
+    "aliases": [
+     "Heaven"
+    ],
+    "kind": "god",
+    "description": "Father of the Titans"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Themis",
+    "relation": "parent_of",
+    "b": "Prometheus",
+    "source": "text",
+    "evidence_sentence": 161
+   },
+   {
+    "a": "Oceanus",
+    "relation": "parent_of",
+    "b": "Chorus",
+    "source": "text",
+    "evidence_sentence": 134
+   },
+   {
+    "a": "Tethys",
+    "relation": "parent_of",
+    "b": "Chorus",
+    "source": "text",
+    "evidence_sentence": 134
+   },
+   {
+    "a": "Cronus",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 151
+   },
+   {
+    "a": "Uranus",
+    "relation": "parent_of",
+    "b": "Cronus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Prometheus",
+    "relation": "sibling_of",
+    "b": "Atlas",
+    "source": "text",
+    "evidence_sentence": 256
+   },
+   {
+    "a": "Oceanus",
+    "relation": "spouse_of",
+    "b": "Tethys",
+    "source": "text",
+    "evidence_sentence": 134
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Earth",
+    "canonical": "Themis",
+    "explanation": "Prometheus says his mother has one form but many names, Themis or Earth."
+   },
+   {
+    "alias": "the Father",
+    "canonical": "Zeus",
+    "explanation": "Power and Hephaestus refer to Zeus by this title."
+   },
+   {
+    "alias": "Typho",
+    "canonical": "Typhon",
+    "explanation": "Variant spelling of the same monster's name."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 33,
+    "reason": "Hephaestus's maxim that everyone whose power is new is harsh.",
+    "spoiler": false
+   },
+   {
+    "sentence": 164,
+    "reason": "Prometheus's diagnosis that tyranny breeds distrust of friends.",
+    "spoiler": false
+   },
+   {
+    "sentence": 238,
+    "reason": "Oceanus uses the proverb 'kick not against the pricks'.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The scene sets tyranny against compassion and defiance. Prometheus suffers for helping mankind and refuses to yield.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Zeus as a new ruler with arbitrary power may reflect Athenian fears of tyranny and debates about justice and power.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The play inspired Shelley's lyrical drama Prometheus Unbound (1820) and many later Romantic retellings of the rebel Titan."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Greek name Prometheus means 'forethought', which Power mocks in sentence 106.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Scythia was the Greeks' name for the vast steppe lands north and east of the Black Sea, regarded as the remote edge of the known world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "The 'official statement' is the didascalia, the ancient record of a play's date and production, which has not survived for this play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "'Prerogatives' means special rights or privileges belonging to a particular rank or office.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "'In their behoof' is archaic for 'for their benefit' or 'on their behalf'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Thetis was a sea nymph. In myth, it was prophesied that her son would surpass his father, so Zeus avoided marrying her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Tartarus is the deepest part of the underworld, a place of punishment far below Hades.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Scythia was the Greeks' name for the wild lands north of the Black Sea, imagined as the edge of the known world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "\"Miscreant\" means wrongdoer; \"high-beetling\" means overhanging; \"adamant\" is a legendary unbreakable metal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "\"Purloined\" means stolen. \"Thine own pride\" refers to fire, Hephaestus's own special possession as god of the forge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Lessoned to brook\" means taught to tolerate; \"requital\" means payment or penalty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "\"Amain\" means with full force; \"kindred god\" notes that Prometheus is a fellow immortal and related to Hephaestus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Themis, goddess of right order, is Prometheus's mother in this play; \"counselleth aright\" alludes to his gift of foresight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "\"Guerdon\" means reward, used here bitterly for punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "phrasing",
+    "text": "\"It boots naught\" means it profits nothing; \"bemoan this fellow\" means lament over this wretch.",
+    "spoiler": false
+   },
+   {
+    "sentence": 55,
+    "kind": "phrasing",
+    "text": "Power says every office is a burden except ruling heaven; only Zeus is truly free.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "kind": "phrasing",
+    "text": "\"With might and main\" means with all one's strength; \"cast them about his wrists\" refers to throwing the fetters around his wrists.",
+    "spoiler": false
+   },
+   {
+    "sentence": 76,
+    "kind": "word",
+    "text": "Adamantine means made of adamant, a legendary unbreakable metal; the wedge is driven through Prometheus's chest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 86,
+    "kind": "word",
+    "text": "Girths are bands or straps; here they bind Prometheus around his sides.",
+    "spoiler": false
+   },
+   {
+    "sentence": 90,
+    "kind": "phrasing",
+    "text": "\"Hound thee on\" means to drive Hephaestus forward relentlessly, as hunting dogs drive prey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "kind": "phrasing",
+    "text": "\"Play the woman an thou wilt\" means act softly and pitifully if you like; \"an\" means \"if\". \"Cast not in my teeth\" means do not reproach me with.",
+    "spoiler": false
+   },
+   {
+    "sentence": 104,
+    "kind": "word",
+    "text": "\"Creatures of aday\" means creatures of a day: mortals, whose lives are brief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 106,
+    "kind": "allusion",
+    "text": "A pun on the name Prometheus, which means \"Forethought\"; Power says he needs someone with forethought to free himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 109,
+    "kind": "word",
+    "text": "\"Multitudinous laughter\" renders a famous Greek phrase for the countless ripples of the sea, here the waves glittering and sounding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 112,
+    "kind": "word",
+    "text": "\"Ignominious\" means shameful or humiliating; \"the new Commander of the Blessed\" is Zeus, newly ruling the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 116,
+    "kind": "phrasing",
+    "text": "\"Brooketh no resistance\" is archaic for \"tolerates no resistance\"; Necessity is fate, which even the gods cannot defy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 119,
+    "kind": "allusion",
+    "text": "Prometheus stole fire from the gods, hiding it in a hollow fennel stalk, which burns slowly and so carries a spark.",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "kind": "phrasing",
+    "text": "\"Grave-miened modesty\" means her solemn, maidenly reserve; she left in such haste that she did not stop to put on sandals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 134,
+    "kind": "allusion",
+    "text": "Oceanus, the river thought to encircle the whole earth, and Tethys are Titans; the Chorus are their daughters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 139,
+    "kind": "allusion",
+    "text": "Tartarus is the deepest pit of the underworld, below Hades, where rebellious gods were imprisoned.",
+    "spoiler": false
+   },
+   {
+    "sentence": 144,
+    "kind": "allusion",
+    "text": "The race sprung from Uranus are the older gods, the Titans, whom Zeus has overthrown and now rules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 146,
+    "kind": "phrasing",
+    "text": "\"Prince of the Blessed\" is a periphrasis for Zeus, ruler of the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 149,
+    "kind": "phrasing",
+    "text": "\"Batest not a jot\" means you do not abate or lessen your defiance at all.",
+    "spoiler": false
+   },
+   {
+    "sentence": 160,
+    "kind": "word",
+    "text": "\"Forsooth\" is an archaic word meaning \"in truth\", here used sarcastically.",
+    "spoiler": false
+   },
+   {
+    "sentence": 161,
+    "kind": "allusion",
+    "text": "Themis (Law or Right) is identified with Earth; she is a prophetic goddess and Prometheus' mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 163,
+    "kind": "allusion",
+    "text": "Tartarus is the deep pit beneath the earth where Zeus imprisoned the defeated Titans, including Cronus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 179,
+    "kind": "allusion",
+    "text": "Prometheus spared humans from knowing the day of their death; the footnote marker [3] is the translator's. Foreknowledge of doom is the 'affliction' the Chorus asks about next.",
+    "spoiler": false
+   },
+   {
+    "sentence": 189,
+    "kind": "word",
+    "text": "'Creatures of a day' means mortals, whose lives are brief. 'Flame-eyed' describes fire as bright and gleaming.",
+    "spoiler": false
+   },
+   {
+    "sentence": 193,
+    "kind": "phrasing",
+    "text": "The Chorus breaks off mid-sentence, and Prometheus finishes the thought for them, showing how quickly the two speak in turn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 199,
+    "kind": "phrasing",
+    "text": "'When it seemeth to him good' means only when Zeus chooses; the 'him' is Zeus, left unnamed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 210,
+    "kind": "word",
+    "text": "'Succouring' means helping or relieving someone in need.",
+    "spoiler": false
+   },
+   {
+    "sentence": 217,
+    "kind": "word",
+    "text": "'Fain' means gladly willing or eager; 'draw nigh' means come near.",
+    "spoiler": false
+   },
+   {
+    "sentence": 223,
+    "kind": "word",
+    "text": "\"Glozing\" means flattering or deceitful; \"simple sooth\" means plain truth. Oceanus claims his words are honest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 228,
+    "kind": "allusion",
+    "text": "Oceanus's stream encircling the world bears his name; \"mother of iron\" refers to the iron-bearing Scythian land where Prometheus is chained.",
+    "spoiler": false
+   },
+   {
+    "sentence": 232,
+    "kind": "word",
+    "text": "\"Fain\" means willing or glad; \"for all that thou art subtle\" means \"although you are clever.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 236,
+    "kind": "word",
+    "text": "\"Outworn saw\" is a worn-out saying; \"vaunting\" means boastful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 238,
+    "kind": "allusion",
+    "text": "\"Kick against the pricks\" is a proverb: resisting a goad only hurts the one who kicks. It means fighting a stronger power is futile.",
+    "spoiler": false
+   },
+   {
+    "sentence": 241,
+    "kind": "word",
+    "text": "\"Froward\" means stubborn or perverse; a froward tongue is defiant, disobedient speech.",
+    "spoiler": false
+   },
+   {
+    "sentence": 243,
+    "kind": "phrasing",
+    "text": "Prometheus ironically \"envies\" Oceanus for staying blameless; he means Oceanus has not yet been punished for sympathizing with him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 256,
+    "kind": "word",
+    "text": "\"Burthen\" is an archaic form of \"burden\"; the pillar of heaven and earth is the weight Atlas must hold apart.",
+    "spoiler": false
+   },
+   {
+    "sentence": 259,
+    "kind": "word",
+    "text": "\"Levin brand\" means a lightning bolt; \"levin\" is an archaic word for lightning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 261,
+    "kind": "allusion",
+    "text": "Refers to eruptions of Aetna, which the Greeks explained as the buried monster Typho's rage; Sicily's fields were famously fertile.",
+    "spoiler": false
+   },
+   {
+    "sentence": 265,
+    "kind": "word",
+    "text": "\"Mediciners\" means healers or physicians; the line says words cure an angry temper.",
+    "spoiler": false
+   },
+   {
+    "sentence": 267,
+    "kind": "phrasing",
+    "text": "Prometheus answers with a condition: words heal only if applied at the right time, not by crushing anger with force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 274,
+    "kind": "phrasing",
+    "text": "Oceanus says that being thought a fool is useful for the truly wise; he asks Prometheus to let him be \"distempered\" in this way.",
+    "spoiler": false
+   },
+   {
+    "sentence": 278,
+    "kind": "phrasing",
+    "text": "\"Remands me home\" means sends me back home; Oceanus concedes Prometheus's words are telling him to leave.",
+    "spoiler": false
+   },
+   {
+    "sentence": 290,
+    "kind": "phrasing",
+    "text": "Oceanus rides a winged four-footed beast; he says it will be glad to return to its stall.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Cronus, a Titan, had seized power from his father Uranus (Heaven). His son Zeus later overthrew him in turn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Themis, a Titaness, was a goddess of divine law and prophecy. Here she is identified with Earth, Prometheus's mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Power (Kratos) and Force (Bia) are Zeus's personified enforcers. Force does not speak in this play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "\"The Father\" is Zeus. Hephaestus, god of fire and metalwork, is ordered to chain Prometheus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Zeus had recently overthrown the Titans and taken power, so his rule is new and harsh in this play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "text": "Power (Kratos) is Zeus's enforcer. Hephaestus, god of the forge, is reluctantly made to chain Prometheus as punishment for giving fire to mortals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "text": "Zeus is the new ruler of the gods. Prometheus is punished for defying him by helping humankind.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "text": "Hephaestus pities Prometheus because they are kin, both gods, and both associated with fire.",
+    "spoiler": false
+   },
+   {
+    "sentence": 123,
+    "text": "Prometheus is a Titan who sided with Zeus in the war against the other Titans, then angered Zeus by helping humans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 137,
+    "text": "Zeus has only recently seized power from Cronos, so the Chorus calls his rule new and arbitrary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 151,
+    "text": "Cronus' son is Zeus, who overthrew his father Cronus to become king of the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 168,
+    "text": "Prometheus refers to Zeus's plan to wipe out mankind; he saved humans, famously by giving them fire.",
+    "spoiler": false
+   },
+   {
+    "sentence": 183,
+    "text": "Blind hopes kept humans from despairing over their coming death. In the myth, hope is a mixed gift.",
+    "spoiler": false
+   },
+   {
+    "sentence": 187,
+    "text": "Fire was Zeus's possession. Prometheus stole it for humans, which is the offence for which he is punished.",
+    "spoiler": false
+   },
+   {
+    "sentence": 217,
+    "text": "The Chorus are the Ocean nymphs, who arrive on winged chariots through the air. Here they descend to the ground.",
+    "spoiler": false
+   },
+   {
+    "sentence": 220,
+    "text": "Oceanus, a Titan and river god, arrives riding a winged creature, often shown as a griffin. He is Prometheus's kinsman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 230,
+    "text": "Prometheus had aided Zeus against the Titans in the war that won him the throne, and is now punished by him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 233,
+    "text": "Zeus has recently seized power from the Titans, so his rule is new and, as Oceanus says, harsh and unaccountable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 256,
+    "text": "Atlas, a Titan and brother of Prometheus in this play, was punished by Zeus by being made to hold up the sky in the far west.",
+    "spoiler": false
+   },
+   {
+    "sentence": 257,
+    "text": "Typhon was a monstrous hundred-headed giant who challenged Zeus for rule and was defeated.",
+    "spoiler": false
+   },
+   {
+    "sentence": 260,
+    "text": "Hephaestus is the smith god; the myth places him at volcanic forges, here atop Aetna.",
+    "spoiler": false
+   },
+   {
+    "sentence": 282,
+    "text": "Zeus is newly established as ruler after overthrowing the Titans, so Oceanus fears his anger.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "epithet",
+    "text": "'The friend of mankind' defines Prometheus by his chief trait and prepares the sympathy the play invites for him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "irony",
+    "text": "Immortality is called a 'sad privilege': the gift that should be a blessing only prolongs his torment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "foreshadowing",
+    "text": "The closing summary anticipates the play's end, with Prometheus defiant as the world crashes around him and he falls to Tartarus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "personification",
+    "text": "Night veils the sun's brightness and the sun scatters the frost, giving the cycle of day and night human actions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "characterization",
+    "text": "The line depicts Zeus as a tyrant, supporting the play's theme that new rulers are cruel.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "irony",
+    "text": "Hephaestus's fellow-feeling for Prometheus is real but useless, since fear of Zeus will override it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "device": "apostrophe",
+    "text": "Hephaestus addresses his craft directly, expressing his anguish at having to use his skill for cruelty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "device": "characterization",
+    "text": "Power fears Prometheus's cunning and shows himself harsh and suspicious, in contrast to Hephaestus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "device": "irony",
+    "text": "Hephaestus coldly notes that Power's harsh speech suits his grim face, turning a rebuke into an insult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 106,
+    "device": "irony",
+    "text": "Power mocks Prometheus by playing on his name: the one called Forethought now lacks the foresight to save himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 109,
+    "device": "apostrophe",
+    "text": "Prometheus addresses sky, winds, rivers, Earth and sun as if they could hear, since no gods will witness his suffering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "device": "irony",
+    "text": "His complete foreknowledge brings no comfort: he knows all his torments in advance yet cannot escape them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 126,
+    "device": "onomatopoeia",
+    "text": "\"Whirs\" imitates the sound of wings, building suspense before the Chorus arrives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 136,
+    "device": "metaphor",
+    "text": "A \"mist all filled with tears\" conveys the Chorus's sympathy; their grief blurs their sight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 150,
+    "device": "metaphor",
+    "text": "The Chorus pictures Prometheus' fate as a ship's voyage seeking a harbour, expressing hope for an end to suffering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 164,
+    "device": "metaphor",
+    "text": "Tyranny is described as a disease, making distrust of friends seem an inevitable sickness of absolute power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 170,
+    "device": "irony",
+    "text": "The benefactor of mortals is denied pity himself, and his torment shames Zeus, reversing justice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 172,
+    "device": "metaphor",
+    "text": "A heart of iron and rock stands for utter hardness; the Chorus uses it to show that pity for Prometheus is natural.",
+    "spoiler": false
+   },
+   {
+    "sentence": 209,
+    "device": "repetition",
+    "text": "Repeating 'of mine own will' stresses that Prometheus accepts responsibility, which makes him a defiant, proud sufferer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 214,
+    "device": "personification",
+    "text": "Affliction is shown wandering and alighting on people in turn, like a traveler or bird, suggesting no one is safe from misfortune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 230,
+    "device": "irony",
+    "text": "The benefactor who helped establish Zeus's rule is tormented by Zeus himself, a bitter reversal of gratitude.",
+    "spoiler": false
+   },
+   {
+    "sentence": 234,
+    "device": "hyperbole",
+    "text": "Oceanus warns that present torments will seem \"childish sport\", stressing Zeus's power to punish more.",
+    "spoiler": false
+   },
+   {
+    "sentence": 238,
+    "device": "metaphor",
+    "text": "The goad proverb pictures defiance of Zeus as an ox kicking a sharp prod, and shows Oceanus's cautious character.",
+    "spoiler": false
+   },
+   {
+    "sentence": 248,
+    "device": "irony",
+    "text": "Oceanus turns Prometheus's warning back on him: the giver of advice cannot follow it himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 258,
+    "device": "imagery",
+    "text": "Hissing jaws and a hideous glare make Typhon vivid and serpent-like, heightening the scale of the threat Zeus overcame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 260,
+    "device": "symbolism",
+    "text": "Typhon crushed under Aetna stands for the fate of rebels against Zeus, a warning mirroring Prometheus's own punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 261,
+    "device": "foreshadowing",
+    "text": "The prophecy of future eruptions suggests defeated rage that cannot be wholly extinguished, hinting at Prometheus's own defiance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 265,
+    "device": "metaphor",
+    "text": "Anger is likened to a disease and words to medicine, framing Oceanus's counsel as healing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 288,
+    "device": "characterization",
+    "text": "Prometheus's curt commands show his impatience and his concern for his friend's safety, alongside his stubborn pride.",
+    "spoiler": false
+   }
+  ]
+ }
+}

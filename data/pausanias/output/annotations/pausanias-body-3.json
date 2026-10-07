@@ -1,0 +1,439 @@
+{
+ "section_id": "pausanias-body-3",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7725,
+  "output": 3493
+ },
+ "result": {
+  "summary": "Pausanias describes the Ceramicus district of Athens, with the royal portico, its statues and paintings. He corrects the popular belief that Theseus founded democracy, and lists works of art in the temples and council chamber nearby.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "The Royal Portico and statues",
+    "summary": "Pausanias explains the name Ceramicus and describes the royal portico, its roof statues and the nearby statues of Conon, Evagoras, Zeus and Adrian.",
+    "stakes": "",
+    "present": [
+     "Ceramus",
+     "Theseus",
+     "Sciron",
+     "Aurora",
+     "Cephalus",
+     "Conon",
+     "Timotheus",
+     "Evagoras",
+     "Zeus",
+     "Adrian"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ceramicus, royal portico",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9764,
+     "lon": 23.7218
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 15,
+    "title": "Paintings and the Theseus tradition",
+    "summary": "The portico has paintings of the twelve gods, Democracy, Demos and Theseus, and the battle of Mantinea. Pausanias criticizes popular beliefs about Theseus and early Athenian government.",
+    "stakes": "",
+    "present": [
+     "Theseus",
+     "Pisistratus",
+     "Menestheus",
+     "Gryllus",
+     "Epaminondas",
+     "Xenophon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Portico at the Ceramicus, Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9764,
+     "lon": 23.7218
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 21,
+    "title": "Temples and council chamber",
+    "summary": "Pausanias lists Apollo statues, the Mother of the Gods temple and the council chamber of the Five Hundred with its art.",
+    "stakes": "",
+    "present": [
+     "Euphranor",
+     "Apollo",
+     "Leochares",
+     "Calamis",
+     "Phidias",
+     "Zeus",
+     "Demos",
+     "Callippus",
+     "Protogenes",
+     "Olbiades"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athenian Agora",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9754,
+     "lon": 23.7225
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ceramus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who gave Ceramicus its name"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "reputed father of Ceramus"
+   },
+   {
+    "name": "Ariadne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "reputed mother of Ceramus"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero shown in statues and paintings"
+   },
+   {
+    "name": "Sciron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "thrown into the sea by Theseus"
+   },
+   {
+    "name": "Aurora",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "dawn goddess who carried off Cephalus"
+   },
+   {
+    "name": "Cephalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "handsome man carried off by Aurora"
+   },
+   {
+    "name": "Phaethon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cephalus"
+   },
+   {
+    "name": "Conon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian commander with a statue"
+   },
+   {
+    "name": "Timotheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Conon"
+   },
+   {
+    "name": "Evagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Cyprians"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Eleutherius",
+     "Zeus the Counsellor"
+    ],
+    "kind": "god",
+    "description": "god with statues here"
+   },
+   {
+    "name": "Adrian",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor, benefactor of Athens"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Patrous",
+     "Averter of Evil"
+    ],
+    "kind": "god",
+    "description": "god with several statues"
+   },
+   {
+    "name": "Pisistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian tyrant"
+   },
+   {
+    "name": "Menestheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Athens after Theseus"
+   },
+   {
+    "name": "Gryllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian cavalry officer, son of Xenophon"
+   },
+   {
+    "name": "Xenophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "historian, father of Gryllus"
+   },
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban cavalry commander"
+   },
+   {
+    "name": "Euphranor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "painter"
+   },
+   {
+    "name": "Leochares",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor"
+   },
+   {
+    "name": "Calamis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor"
+   },
+   {
+    "name": "Demos",
+    "aliases": [],
+    "kind": "other",
+    "description": "personified People of Athens"
+   },
+   {
+    "name": "Protogenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Caunian painter"
+   },
+   {
+    "name": "Olbiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "painter"
+   },
+   {
+    "name": "Callippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "led Athenians to Thermopylae"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Dionysus",
+    "relation": "parent_of",
+    "b": "Ceramus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Ariadne",
+    "relation": "parent_of",
+    "b": "Ceramus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Cephalus",
+    "relation": "parent_of",
+    "b": "Phaethon",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Aurora",
+    "relation": "lover_of",
+    "b": "Cephalus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Xenophon",
+    "relation": "parent_of",
+    "b": "Gryllus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Conon",
+    "relation": "parent_of",
+    "b": "Timotheus",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "Pausanias scorns popular belief drawn from choruses and tragedies, showing his critical method.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias uses art monuments to anchor Athenian history and myth, while correcting popular errors.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows the Athenian Agora as a civic center filled with art, and honors for Hadrian in the Roman period.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The royal portico (Stoa Basileios) was excavated in the Athenian Agora in the 1970s.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Kingdom\" here means the office of the king archon, an annual Athenian magistrate who kept some old religious duties of the kings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Aurora\" is the dawn goddess, the Greek Eos; this translation uses the Latin name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"He\" is unclear and seems to refer to Phaethon, with the earlier story left out. A \"sacristan\" is a temple keeper.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Hesiod's \"poem about women\" is the Catalogue of Women, an epic listing heroines and the heroes they bore to gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Triremes\" were warships with three banks of oars.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Take for gospel\" means accept as absolute truth; it is a loose idiom of the translator, not Greek religion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The battle of Mantinea (362 BC) saw Athens fight beside Sparta against the Thebans led by Epaminondas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "\"Galati\" are the Gauls, who invaded Greece in 279 BC.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Theseus, the Athenian hero, killed the brigand Sciron, who kicked travellers off a cliff, by throwing him into the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Conon, an Athenian admiral, commanded a Persian fleet that defeated Sparta at Cnidus in 394 BC. Evagoras ruled Salamis in Cyprus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Zeus Eleutherius means Zeus the Liberator. Emperor Hadrian greatly favoured Athens with buildings and gifts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Pisistratus seized power in Athens around 561 BC and ruled as tyrant, a ruler who took power outside normal law.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Euphranor was a celebrated fourth-century BC Athenian painter and sculptor. Apollo Patrous means Apollo the ancestral god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "A plague struck Athens in 430 BC early in the Peloponnesian war. Apollo Alexikakos is the Averter of Evil.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "The Five Hundred was the council that prepared Athenian public business, with fifty members from each tribe chosen annually.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "personification",
+    "text": "Democracy and Demos are painted as figures, making an abstract political idea visible as a person.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "characterization",
+    "text": "Pausanias presents himself as a careful researcher, contrasting himself with the credulous crowd who learned myth from poetry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "narrative voice",
+    "text": "The first-person remark about his own \"fancy\" shows the author choosing what to include and limiting his digression.",
+    "spoiler": false
+   }
+  ]
+ }
+}

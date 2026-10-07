@@ -1,0 +1,475 @@
+{
+ "section_id": "pausanias-body-14",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8542,
+  "output": 3770
+ },
+ "result": {
+  "summary": "Pausanias walks through Athens from the Odeum, noting the Nine Springs and the temples of Demeter and Proserpine, where he weighs Argive and Athenian claims about Triptolemus. He then describes the Eleusinium, the temple of Euclea, the temple of Hephaestus and the cult of Celestial Aphrodite.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Odeum and the Nine Springs",
+    "summary": "Pausanias notes a Dionysus near the Odeum and the spring built by Pisistratus, with its two temples.",
+    "stakes": "",
+    "present": [
+     "Pisistratus",
+     "Triptolemus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens, the Odeum",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 8,
+    "title": "Rival stories of Triptolemus",
+    "summary": "Argive, Athenian and poetic traditions about the parentage and deeds of Triptolemus are compared.",
+    "stakes": "",
+    "present": [
+     "Triptolemus",
+     "Demeter",
+     "Pelasgus",
+     "Chrysanthis",
+     "Trochilus",
+     "Agenor",
+     "Eubules",
+     "Celeus",
+     "Musæus",
+     "Orpheus",
+     "Dysaules",
+     "Chœrilus",
+     "Cercyon",
+     "Rharus",
+     "Poseidon",
+     "Proserpine"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos and Attica",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.6333,
+     "lon": 22.7333
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 13,
+    "title": "Eleusinium, Epimenides and Euclea",
+    "summary": "Pausanias is stopped by a vision from describing the Eleusinium, then notes statues there and the temple of Euclea, and Aeschylus' pride in Marathon.",
+    "stakes": "",
+    "present": [
+     "Epimenides",
+     "Thales",
+     "Polymnastus",
+     "Æschylus",
+     "Triptolemus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens, the Eleusinium",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 21,
+    "title": "Hephaestus and Celestial Aphrodite",
+    "summary": "Pausanias describes the temple of Hephaestus, the grey-eyed Athene, and the spread of Celestial Aphrodite's worship to Athens.",
+    "stakes": "",
+    "present": [
+     "Hephæstus",
+     "Athene",
+     "Erichthonius",
+     "Poseidon",
+     "Celestial Aphrodite",
+     "Ægeus",
+     "Phidias",
+     "Porphyrion"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens, near the Ceramicus",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9755,
+     "lon": 23.721
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Triptolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first to sow corn, taught by Demeter"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who taught corn-sowing"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Demeter's abducted daughter"
+   },
+   {
+    "name": "Pisistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "built the Nine Springs"
+   },
+   {
+    "name": "Pelasgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive who received Demeter"
+   },
+   {
+    "name": "Chrysanthis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "told Demeter of the rape"
+   },
+   {
+    "name": "Trochilus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "initiating priest who fled to Attica"
+   },
+   {
+    "name": "Agenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive whose hatred drove Trochilus out"
+   },
+   {
+    "name": "Eubules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Triptolemus"
+   },
+   {
+    "name": "Celeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Triptolemus in Athenian tradition"
+   },
+   {
+    "name": "Musæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet"
+   },
+   {
+    "name": "Orpheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet"
+   },
+   {
+    "name": "Dysaules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Eubules and Triptolemus in Orphic verse"
+   },
+   {
+    "name": "Chœrilus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian dramatist"
+   },
+   {
+    "name": "Cercyon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Triptolemus in Chœrilus"
+   },
+   {
+    "name": "Rharus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Triptolemus in Chœrilus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god, father of Cercyon and of Athene in Libyan story"
+   },
+   {
+    "name": "Epimenides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Gnossian who slept forty years"
+   },
+   {
+    "name": "Thales",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Gortynian who stopped plague at Lacedæmon"
+   },
+   {
+    "name": "Polymnastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Colyphonian poet"
+   },
+   {
+    "name": "Æschylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dramatist who fought the Persians"
+   },
+   {
+    "name": "Hephæstus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple in Athens"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "grey-eyed goddess with statue in his temple"
+   },
+   {
+    "name": "Erichthonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "figure in Athene's story"
+   },
+   {
+    "name": "Celestial Aphrodite",
+    "aliases": [
+     "Celestial One"
+    ],
+    "kind": "goddess",
+    "description": "Aphrodite worshipped in Athens"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who instituted her worship"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of her statue"
+   },
+   {
+    "name": "Porphyrion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early king claimed to have built her temple"
+   },
+   {
+    "name": "Amphictyon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "grandfather of Triptolemus in Chœrilus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Celeus",
+    "relation": "parent_of",
+    "b": "Triptolemus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Trochilus",
+    "relation": "parent_of",
+    "b": "Triptolemus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Trochilus",
+    "relation": "parent_of",
+    "b": "Eubules",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Dysaules",
+    "relation": "parent_of",
+    "b": "Triptolemus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Rharus",
+    "relation": "parent_of",
+    "b": "Triptolemus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Cercyon",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Athene",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Amphictyon",
+    "relation": "parent_of",
+    "b": "Cercyon",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Cercyon",
+    "relation": "sibling_of",
+    "b": "Triptolemus",
+    "source": "text",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Celestial One",
+    "canonical": "Celestial Aphrodite",
+    "explanation": "Short form for the Aphrodite worshipped as Celestial."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Aeschylus' epitaph boasted of Marathon, not his plays.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs competing local traditions and shows rivalry between cities over ancient claims.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "His reticence about the Eleusinian mysteries reflects the secrecy of the cult.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias doubts that the verses attributed to Orpheus are really by him.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Nine Springs\" translates Enneakrounos, the fountain-house Pisistratus was said to have built; it was fed by the spring Callirhoe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The rape of Proserpine refers to her abduction by Pluto (Hades); Demeter's search for her daughter is the foundation myth of the Mysteries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "Pausanias says a dream forbade him to describe the Eleusinium's secret rites, so he writes only what is lawful to reveal to everyone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Epimenides' forty-year sleep is a legend about the Cretan seer and purifier, who was said to have cleansed Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Euclea means good repute or fair fame, as the translator glosses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "The story of Erichthonius concerns Hephaestus and Athene: he was born from Hephaestus's seed that fell on the earth, and Athene reared him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Celestial\" renders Urania, Aphrodite as a heavenly goddess, distinct from the common Aphrodite.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The Odeum was a roofed building at Athens for musical performances. Dionysus was the god of wine and theatre.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Triptolemus was the hero who received grain from Demeter and spread agriculture. Proserpine is Demeter's daughter, called Persephone in Greek.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Aeschylus, the tragic poet, was said to have had an epitaph mentioning only his fighting at Marathon, not his plays.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Ægeus was a legendary king of Athens and father of Theseus; his childlessness explains why he sought the goddess's favour.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "narrative voice",
+    "text": "Pausanias's parenthetical doubts about authorship show him as a sceptical, critical scholar weighing sources.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "The famous dramatist's epitaph ignores his plays and boasts only of his soldiering, a surprising choice that shows Athenian values.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "narrative voice",
+    "text": "This closing remark neatly sums up his method: he reports rival local traditions without forcing them into agreement.",
+    "spoiler": false
+   }
+  ]
+ }
+}

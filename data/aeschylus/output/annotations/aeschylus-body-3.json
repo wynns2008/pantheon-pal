@@ -1,0 +1,599 @@
+{
+ "section_id": "aeschylus-body-3",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 19485,
+  "output": 5759
+ },
+ "result": {
+  "summary": "The Chorus sings of Helen's ruinous marriage, the lion cub parable and the curse of arrogance. Agamemnon arrives in triumph with Cassandra, and after a tense exchange Clytaemestra persuades him to walk on purple tapestries into the palace, then prays to Zeus.",
+  "scenes": [
+   {
+    "start_sentence": 1,
+    "end_sentence": 20,
+    "title": "Chorus sings of Helen's ruin",
+    "summary": "The Chorus reflects on Helen's name, the fall of Troy, the lion cub parable and how iniquity breeds more iniquity.",
+    "stakes": "Troy and its people are destroyed by the wrong done to hospitality and to Zeus.",
+    "present": [
+     "Chorus",
+     "Helen",
+     "Paris",
+     "Priam"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ilium",
+     "modern_name": "Troy (Hisarlik)",
+     "certainty": "traditional",
+     "lat": 39.957,
+     "lon": 26.239
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 50,
+    "title": "Agamemnon arrives at Argos",
+    "summary": "The Chorus welcomes Agamemnon, who greets the gods of Argos, recalls Troy's fall and praises Odysseus as his only loyal helper.",
+    "stakes": "Agamemnon's safe homecoming and the loyalty of his people are in question.",
+    "present": [
+     "Agamemnon",
+     "Cassandra",
+     "Chorus",
+     "Odysseus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.633,
+     "lon": 22.729
+    }
+   },
+   {
+    "start_sentence": 51,
+    "end_sentence": 118,
+    "title": "The purple tapestries",
+    "summary": "Clytaemestra declares her devotion and urges Agamemnon to walk on purple tapestries. He reluctantly yields, tells her to receive Cassandra, and enters the palace as she prays to Zeus.",
+    "stakes": "Agamemnon risks the gods' jealousy by treading on tapestries, a presumption that foreshadows his death.",
+    "present": [
+     "Clytaemestra",
+     "Agamemnon",
+     "Cassandra",
+     "Chorus",
+     "Orestes",
+     "Strophius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, before the palace",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.633,
+     "lon": 22.729
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elders of Argos who comment on events"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife who sailed to Troy and brought ruin"
+   },
+   {
+    "name": "Paris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan who took Helen, called evil-wed"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Troy"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [
+     "offspring of Atreus"
+    ],
+    "kind": "mortal",
+    "description": "King of Argos, returning conqueror of Troy"
+   },
+   {
+    "name": "Cassandra",
+    "aliases": [
+     "stranger damsel"
+    ],
+    "kind": "mortal",
+    "description": "Captive given to Agamemnon by the army"
+   },
+   {
+    "name": "Clytaemestra",
+    "aliases": [
+     "Offspring of Leda"
+    ],
+    "kind": "mortal",
+    "description": "Agamemnon's wife, who welcomes him deceitfully"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Agamemnon and Clytaemestra, absent in Phocis"
+   },
+   {
+    "name": "Strophius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ally in Phocis who shelters Orestes"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Praised as Agamemnon's loyal yoke-fellow"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of hospitality and fulfillment, invoked in prayer"
+   },
+   {
+    "name": "Geryon",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Three-bodied giant mentioned in comparison"
+   },
+   {
+    "name": "Leda",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Clytaemestra"
+   },
+   {
+    "name": "Atreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Agamemnon"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Atreus",
+    "relation": "parent_of",
+    "b": "Agamemnon",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Leda",
+    "relation": "parent_of",
+    "b": "Clytaemestra",
+    "source": "text",
+    "evidence_sentence": 72
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "spouse_of",
+    "b": "Clytaemestra",
+    "source": "text",
+    "evidence_sentence": 52
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 57
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 57
+   },
+   {
+    "a": "Helen",
+    "relation": "lover_of",
+    "b": "Paris",
+    "source": "outside",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Offspring of Leda",
+    "canonical": "Clytaemestra",
+    "explanation": "Agamemnon addresses her by her mother's name."
+   },
+   {
+    "alias": "offspring of Atreus",
+    "canonical": "Agamemnon",
+    "explanation": "Patronymic used by the Chorus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Famous pun on Helen's name as ruin (Hell) to ships, men and city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "reason": "Agamemnon asks to be honoured as a man, not a god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "reason": "Echoes the Greek maxim to call no man happy until his death.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Inherited guilt and hubris run through the ode: wrongdoing breeds more wrongdoing, preparing for Agamemnon's fall.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "The tapestry scene shows Agamemnon's pride giving way to Clytaemestra's persuasion, with dramatic irony as her words hide murderous intent.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The lion cub parable became a lasting image of a dangerous guest or ally nurtured in one's own house."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Purple dye was extremely costly in antiquity, so walking on purple cloth was a display of wasteful, god-like extravagance.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The Greek name Helene is played on as if from a root meaning 'to destroy' (helein), so Helen's name signals ruin of ships, men and city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Zephyrus is the west wind; 'earth-born' is an odd epithet, perhaps stressing a wind that blew from the land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "The Greeks follow like hunters tracing the 'vanished track' of oars; the quarry is Helen's ship, beached by the river Simoïs near Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Helen's marriage to Paris is called 'a mourning' (kedos, marriage-bond, punned with 'kêdos', grief). Zeus Xenios, protector of guests, punished Paris's violation of hospitality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "'I trow' means 'I believe'; 'burthen' is an archaic form of 'burden'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "'Ruth' means sorrow or pity; 'warder of host and guest' refers to Zeus as protector of hospitality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "'Arrogance' translates hybris, overweening pride that defies the gods; 'Recklessness' is its offspring.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "\"Offspring of Atreus\" means son of Atreus; Agamemnon is addressed by his lineage, a formal mode of greeting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "\"Ramament\" is a rare word for an armament, the assembled army and fleet sent against Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Refers to the sacrifice of Iphigenia and the war's heavy losses; the Chorus admits it once disapproved of the expedition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "Imagery of a voting court: the gods cast ballots into an urn for Troy's destruction, while the urn of acquittal stayed empty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "The \"brood of the horse\" is the Greek army that emerged from the wooden horse; the Pleiads setting marks the season, around late autumn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "allusion",
+    "text": "Odysseus reportedly feigned madness to avoid joining the expedition, hence \"sailed against his will.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "phrasing",
+    "text": "\"Cautery or the knife\" means burning or cutting out disease, here used for harsh remedies against disloyalty in the state.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "word",
+    "text": "Burghers are citizens of a town; here the Elders of Argos, the chorus, are addressed as representatives of the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "kind": "allusion",
+    "text": "Geryon was a mythical monster with three bodies, killed by Heracles. Clytaemestra says Agamemnon would have needed his three bodies to die as often as rumour claimed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "phrasing",
+    "text": "The 'high-hung halter' means a noose; she says she was nearly driven to hang herself by despair, and others cut her down.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "kind": "word",
+    "text": "'Forestay' is a rope bracing the ship's mast; 'saviour forestay' means the support that keeps the vessel safe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "kind": "word",
+    "text": "'Car' means chariot; 'liege' is a respectful address to a lord.",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "kind": "phrasing",
+    "text": "Agamemnon says her speech is as long as his absence, a dry jibe at her length.",
+    "spoiler": false
+   },
+   {
+    "sentence": 74,
+    "kind": "allusion",
+    "text": "'Barbarian' means non-Greek, especially Eastern; Greeks associated prostration before rulers with Persian custom, which Agamemnon rejects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 89,
+    "kind": "word",
+    "text": "\"Broideries\" means embroideries: here the richly dyed, embroidered tapestries laid out for Agamemnon to walk on.",
+    "spoiler": false
+   },
+   {
+    "sentence": 91,
+    "kind": "word",
+    "text": "\"Cavillings\" are petty, carping criticisms or objections.",
+    "spoiler": false
+   },
+   {
+    "sentence": 95,
+    "kind": "phrasing",
+    "text": "A paradox: one who is not envied has nothing enviable about him, so envy is the price of success.",
+    "spoiler": false
+   },
+   {
+    "sentence": 105,
+    "kind": "phrasing",
+    "text": "\"Slave-like\" because sandals are servile footwear; Agamemnon asks a servant to remove them before he treads the cloth, a gesture of humility.",
+    "spoiler": false
+   },
+   {
+    "sentence": 106,
+    "kind": "allusion",
+    "text": "Greeks believed the gods resented excessive human pride and prosperity; walking on costly cloth reserved for gods might provoke their jealous \"eye\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 109,
+    "kind": "phrasing",
+    "text": "\"Yon stranger damsel\" is Cassandra, the captive Trojan princess he brings home; he asks Clytaemestra to treat her kindly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "kind": "allusion",
+    "text": "Refers to a vow made at an oracle's shrine, promising to sacrifice precious things for Agamemnon's safe return.",
+    "spoiler": false
+   },
+   {
+    "sentence": 116,
+    "kind": "word",
+    "text": "\"Dog-star\" is Sirius, whose rising marks the hottest summer days.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Helen, wife of Menelaus, left Sparta with Paris, a prince of Troy, which caused the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Ilium is another name for Troy; Paris was Priam's son, and the Trojans had celebrated the wedding song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "The 'old saying' held that great prosperity inevitably brings misfortune; the Chorus will reject it in the next lines.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Argos is Agamemnon's kingdom; he thanks its local gods first, as a returning king would, before entering his palace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "text": "The purple tapestries prepare Clytaemestra's famous scene, in which she lures Agamemnon to walk on costly cloth, an act of hubris.",
+    "spoiler": false
+   },
+   {
+    "sentence": 59,
+    "text": "Strophius of Phocis was a friend of the family; Orestes, sent to him for safety, will later return to avenge his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "text": "Walking on purple dyed cloth was costly and reserved for gods; the act will be seen as arrogant (hubris).",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "text": "Leda was Clytaemestra's mother, by Tyndareus; Helen was her sister.",
+    "spoiler": false
+   },
+   {
+    "sentence": 87,
+    "text": "Priam was king of Troy, whom Agamemnon defeated. Clytaemestra suggests even a proud Eastern king would have accepted such honour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 111,
+    "text": "Cassandra, daughter of Priam, was given to Agamemnon as war-prize. Apollo had cursed her prophecies never to be believed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 114,
+    "text": "Purple dye came from sea-shellfish and was extremely costly, so trampling it was a conspicuous waste, and a ritual offence.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "Parable",
+    "text": "The lion cub story is an extended allegory: the charming guest who grows into a destroyer stands for Helen and the ruin she brings Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "Foreshadowing",
+    "text": "The cub's gentle early life sets up the coming violence, hinting that Helen's charm conceals disaster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Metaphor",
+    "text": "The lion becomes a 'priest of ruin', a sacrificial figure whose feast is slaughter, suggesting divine will behind the destruction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "Personification",
+    "text": "Righteousness is a goddess who shines in humble homes and turns away from corrupt wealth, voicing the Chorus's moral view.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "metaphor",
+    "text": "The king as a discerning shepherd of his flock presents rule as guardianship and warns that flatterers' eyes can deceive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "metaphor",
+    "text": "The Greek army becomes a ravening lion drinking princely blood, conveying savage violence in victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "metaphor",
+    "text": "\"Mirror of companionship\" and \"shadow of a shade\" depict false friends as empty reflections with no substance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "device": "dramatic irony",
+    "text": "Agamemnon credits the gods with bringing him home safely, while the audience knows death awaits him inside his palace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 55,
+    "device": "hyperbole",
+    "text": "The image of a net riddled with holes exaggerates the wounds rumour reported, showing her anxiety through vivid overstatement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "device": "metaphor",
+    "text": "The string of images (watch-dog, pillar, land seen at sea) piles up flattery, which seems excessive and hints at insincerity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "device": "irony",
+    "text": "Justice ushering him home is darkly ironic: Clytaemestra means his death, and Justice will indeed greet him as avenger of Iphigenia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "device": "foreshadowing",
+    "text": "Agamemnon's remark that no man is happy until his life ends well foreshadows his own imminent death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 89,
+    "device": "irony",
+    "text": "Agamemnon's quick reply gives away his own pride; he admits that even Priam would have done what he is hesitant to do.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "device": "stichomythia",
+    "text": "Rapid one-line exchanges let Clytaemestra's persuasion outmatch Agamemnon's resistance step by step.",
+    "spoiler": false
+   },
+   {
+    "sentence": 116,
+    "device": "metaphor",
+    "text": "Agamemnon is a root that revives the house's leaves and shade, and a summer coolness; the images of nature hide menace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "device": "dramatic irony",
+    "text": "Her prayer to Zeus the Fulfiller sounds pious, but the audience knows she means to fulfil his murder.",
+    "spoiler": false
+   }
+  ]
+ }
+}

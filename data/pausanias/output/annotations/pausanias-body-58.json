@@ -1,0 +1,299 @@
+{
+ "section_id": "pausanias-body-58",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6786,
+  "output": 2502
+ },
+ "result": {
+  "summary": "Pausanias describes the rites of Demeter at Celeae near Phlius, which the Phliasians say imitate the Eleusinian mysteries and were founded by Dysaules. He doubts their story of Dysaules' exile from Eleusis, noting that Homer does not name him, and then reports Phliasian traditions about Aras and the chariot of Pelops.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Rites of Demeter at Celeae",
+    "summary": "Celeae holds a Demeter festival every fourth year with a temporary priest. The Phliasians say Dysaules founded it after being driven out of Eleusis by Ion.",
+    "stakes": "",
+    "present": [
+     "Dysaules",
+     "Ion",
+     "Celeus",
+     "Demeter"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Celeæ",
+     "modern_name": "near Fliousia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.82,
+     "lon": 22.6
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 8,
+    "title": "Pausanias doubts the story",
+    "summary": "Pausanias argues the war ended by arbitration, with Eumolpus staying at Eleusis. He cites Homer's Hymn to Demeter, which omits Dysaules.",
+    "stakes": "",
+    "present": [
+     "Dysaules",
+     "Eumolpus",
+     "Triptolemus",
+     "Diocles",
+     "Celeus",
+     "Demeter",
+     "Ion"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eleusis",
+     "modern_name": "Elefsina",
+     "certainty": "real",
+     "lat": 38.04,
+     "lon": 23.54
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 13,
+    "title": "Tombs, Aras and Pelops' chariot",
+    "summary": "Dysaules named Celeae and has a tomb there, later than that of Aras. The chariot of Pelops is said to hang in the temple of the Anactorum.",
+    "stakes": "",
+    "present": [
+     "Dysaules",
+     "Aras",
+     "Prometheus",
+     "Pelasgus",
+     "Pelops"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Phlius",
+     "modern_name": "Fliousia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.85,
+     "lon": 22.65
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dysaules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Celeus, said to have founded the rites at Celeae"
+   },
+   {
+    "name": "Celeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eleusinian leader taught the mysteries by Demeter"
+   },
+   {
+    "name": "Ion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Xuthus, Athenian commander against Eleusis"
+   },
+   {
+    "name": "Xuthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Ion"
+   },
+   {
+    "name": "Eumolpus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eleusinian who stayed at Eleusis"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of the mysteries"
+   },
+   {
+    "name": "Triptolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "taught the mysteries by Demeter"
+   },
+   {
+    "name": "Diocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tamer of horses taught the mysteries"
+   },
+   {
+    "name": "Aras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early king of the Phliasian land"
+   },
+   {
+    "name": "Prometheus",
+    "aliases": [],
+    "kind": "god",
+    "description": "son of Iapetus, contemporary of Aras"
+   },
+   {
+    "name": "Iapetus",
+    "aliases": [],
+    "kind": "other",
+    "description": "father of Prometheus"
+   },
+   {
+    "name": "Pelasgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Arcas, later than Aras"
+   },
+   {
+    "name": "Arcas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pelasgus"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "owner of a chariot kept in the temple"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Dysaules",
+    "relation": "sibling_of",
+    "b": "Celeus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Xuthus",
+    "relation": "parent_of",
+    "b": "Ion",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Iapetus",
+    "relation": "parent_of",
+    "b": "Prometheus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Arcas",
+    "relation": "parent_of",
+    "b": "Pelasgus",
+    "source": "text",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Pausanias quotes the Homeric Hymn to Demeter listing those taught the mysteries.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs local tradition against literary evidence, trusting Homer over Phliasian claims.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Local cults claimed ties to Eleusis to gain prestige, and Pausanias shows how such founding stories were tested.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Homeric Hymn to Demeter, which Pausanias cites, is our main early source on the Eleusinian mysteries.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of about 600 feet (roughly 180 metres), so five stades is under a kilometre.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Mysteries\" are secret religious rites open only to initiates, here the cult of Demeter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Submitted to arbitration\" means the dispute was settled by agreement, not by fighting to a conclusion; Pausanias uses this to reject the exile story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Rights\" here is the translator's spelling for \"rites\", the ceremonies Demeter taught.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The Autochthons, \"sprung from the soil\", were Athens' earliest people, claimed to be born from the land itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Anactorum\" means \"of the lords\"; the temple's name refers to the divine lords, likely the Dioscuri.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Ion, son of Xuthus, was the legendary ancestor of the Ionians. Celeus was a king of Eleusis, who received Demeter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "These lines come from the Homeric Hymn to Demeter, which names the Eleusinian princes initiated by the goddess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Pelops was the hero for whom the Peloponnese is named. His chariot won him Hippodamia in a race.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "characterization",
+    "text": "Pausanias shows himself as a sceptical, rational critic who tests local legend against the wider historical record.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "argument from silence",
+    "text": "Pausanias uses Homer's omission of Dysaules as evidence, treating the poet as an authority that weighs against the local tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "narrative voice",
+    "text": "The closing summary distances Pausanias from the claims, attributing them to the Phliasians rather than vouching for them.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,236 @@
+{
+ "section_id": "pausanias-body-245",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6163,
+  "output": 2026
+ },
+ "result": {
+  "summary": "Pausanias travels from the springs of Ladon to the town of Clitor, noting the Aroanius river and its supposedly singing fish. He then describes Clitor's setting, its main temples, and the views of Olen and Homer on Ilithyia, and lists nearby shrines.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Road to Clitor and singing fish",
+    "summary": "Pausanias follows the Aroanius to Clitor, crossing the river Clitor. He describes the variegated fish said to sing like thrushes, which he never heard.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "River Aroanius",
+     "modern_name": "Aroanios river, Arcadia",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 12,
+    "title": "Clitor, its temples and Ilithyia",
+    "summary": "Pausanias describes the town, its temples, and Olen's view of Ilithyia. He adds shrines to Castor and Pollux and to Athene Coria nearby; the last two lines are editor's notes.",
+    "stakes": "",
+    "present": [
+     "Azan",
+     "Ilithyia",
+     "Olen",
+     "Homer",
+     "Castor",
+     "Pollux",
+     "Athene Coria"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Clitor",
+     "modern_name": "Kleitoria, Achaea",
+     "certainty": "real",
+     "lat": 37.98,
+     "lon": 22.1
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Azan",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of the man for whom Clitor was named"
+   },
+   {
+    "name": "Olen",
+    "aliases": [
+     "the Lycian Olen"
+    ],
+    "kind": "mortal",
+    "description": "Lycian poet earlier than Homer who wrote hymns"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet who mentions several Ilithyias"
+   },
+   {
+    "name": "Ilithyia",
+    "aliases": [
+     "Eulinus"
+    ],
+    "kind": "goddess",
+    "description": "Goddess worshipped at Clitor; Olen equates her with Fate"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "God said to be younger than Ilithyia"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "god",
+    "description": "Honoured with Pollux as the Great Gods"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "god",
+    "description": "Honoured with Castor as the Great Gods"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess with a notable temple at Clitor"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with a notable temple at Clitor"
+   },
+   {
+    "name": "Athene Coria",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Athene, worshipped on a hilltop near Clitor"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Castor",
+    "relation": "sibling_of",
+    "b": "Pollux",
+    "source": "outside",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Eulinus",
+    "canonical": "Ilithyia",
+    "explanation": "Olen's name for Ilithyia."
+   },
+   {
+    "alias": "Great Gods",
+    "canonical": "Castor",
+    "explanation": "Castor and Pollux are worshipped at Clitor under this title."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Pausanias candidly admits he never heard the fabled singing fish despite waiting.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias mixes personal observation with hearsay, separating what he saw from what he was told.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "He cites the early poet Olen to show how old and varied Greek ideas of Ilithyia were.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias's guide was written in the 2nd century AD, and his own note that he waited until sunset shows his habit of testing local claims.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–200 metres, so 60 stades is about seven miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Variegated\" means marked with patches or spots of different colours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Olen was a legendary early poet said to have written hymns for Delos; Pausanias treats him as older than Homer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Eulinus is an epithet of Ilithyia in Olen's hymn, apparently meaning \"of the good thread\", linking her to spinning Fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "\"Great Gods\" was a title of cult powers, here applied to Castor and Pollux, the twin Dioscuri.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Editor's note on a story that someone vowed to cut his hair as an offering to the river Alpheus, probably as a pretext.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Ilithyia was the goddess of childbirth; Æsculapius was the god of healing, and Demeter the goddess of grain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Athene Coria is Athene worshipped under the title Coria, which may be linked to the Greek word for maiden.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "This is an editor's cross-reference to other passages in Pausanias, Book 1 chapter 37 and Book 8 chapter 41.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as an eyewitness, patiently waiting until sunset, and honestly admits that he never heard the fish, which gives the account a sceptical credibility.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "characterization",
+    "text": "Pausanias appeals to the older authority of Olen over Homer, showing his scholarly habit of weighing sources and his interest in early religion.",
+    "spoiler": false
+   }
+  ]
+ }
+}

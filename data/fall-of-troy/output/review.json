@@ -1,0 +1,40 @@
+{
+ "work": "The Fall of Troy",
+ "model": "claude-sonnet-5-5",
+ "usage": {
+  "input": 8899,
+  "output": 341
+ },
+ "same": [
+  {
+   "names": [
+    "Aias",
+    "Ajax"
+   ],
+   "reason": "Ajax is the Latin spelling of Aias, son of Telamon.",
+   "change": true
+  },
+  {
+   "names": [
+    "Eris",
+    "Strife"
+   ],
+   "reason": "Strife is the English name of the goddess Eris.",
+   "change": true
+  }
+ ],
+ "different": [
+  {
+   "name": "Aias",
+   "other": "Locrian king",
+   "reason": "Locrian Aias, son of Oileus, is a separate hero from Telamon's son.",
+   "change": true
+  },
+  {
+   "name": "Aias",
+   "other": "Oileus' son",
+   "reason": "Oileus' son is the Locrian Aias, distinct from Telamon's son.",
+   "change": true
+  }
+ ]
+}

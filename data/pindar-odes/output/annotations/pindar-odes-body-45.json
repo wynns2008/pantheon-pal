@@ -1,0 +1,282 @@
+{
+ "section_id": "pindar-odes-body-45",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8083,
+  "output": 2521
+ },
+ "result": {
+  "summary": "A set of Pindar's fragments in different choral genres. A dithyramb invites the gods to Athens to honour Dionysos (Bromios), a processional hymn praises the island of Delos where Leto gave birth, and a dance-song addresses the Sun during an eclipse, praying that its omen be good for Thebes.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 0,
+    "title": "Editor's note on fragment classes",
+    "summary": "The editor explains the kinds of Pindar's lost songs into which the fragments are grouped.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 1,
+    "end_sentence": 6,
+    "title": "Dithyramb summoning gods to Athens",
+    "summary": "The singer calls the Olympian gods to the Athenian dance and sings of Bromios, the sons of Kadmeän mothers, and the spring festival with violets and songs for Semele.",
+    "stakes": "",
+    "present": [
+     "Bromios",
+     "Semele"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 11,
+    "title": "Hymn to Delos",
+    "summary": "Delos is hailed as the sea's daughter and the star of the gods; once it drifted, until four pillars rose to support it when Leto gave birth there.",
+    "stakes": "Leto in labour needs a fixed place to give birth.",
+    "present": [
+     "Delos",
+     "Leto"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delos",
+     "modern_name": "Delos",
+     "certainty": "real",
+     "lat": 37.3965,
+     "lon": 25.2678
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 15,
+    "title": "Prayer to the eclipsed Sun",
+    "summary": "The singer asks the Sun why it has hidden itself at midday, prays that the sign bring good to Thebes, and lists possible disasters he would endure.",
+    "stakes": "Thebes and all people may face war, famine, storm or the destruction of mankind.",
+    "present": [
+     "Sun"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.3213,
+     "lon": 23.3185
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Bromios",
+    "aliases": [
+     "ivy-crownëd god"
+    ],
+    "kind": "god",
+    "description": "god of clamorous shout, honoured with ivy crowns"
+   },
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "bright-filleted Kadmeän woman honoured in hymns"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "the Highest"
+    ],
+    "kind": "god",
+    "description": "chief god, in whose name the singer prays"
+   },
+   {
+    "name": "Leto",
+    "aliases": [
+     "she of Koios"
+    ],
+    "kind": "goddess",
+    "description": "bright-haired mother who gave birth on Delos"
+   },
+   {
+    "name": "Delos",
+    "aliases": [],
+    "kind": "place",
+    "description": "island hailed as a god-reared daughter of the sea"
+   },
+   {
+    "name": "Sun",
+    "aliases": [
+     "Light of the Sun",
+     "holy Light"
+    ],
+    "kind": "god",
+    "description": "all-seeing star addressed during an eclipse"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Bromios",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "outside",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Artemis",
+    "source": "outside",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "she of Koios",
+    "canonical": "Leto",
+    "explanation": "Leto is identified by her father's name, Koios."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Vivid address to the Sun during an eclipse, expressing awe and fear.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The fragments show how song joins gods, places and community, from Athenian festival to Delian birth-myth to civic fear.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The eclipse song probably reflects the eclipse of 463 BC, showing how Greeks read celestial events as omens for their city.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Nearly two-thirds of Pindar's fragments cannot be assigned to any genre.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Bromios means 'the roaring one', a title of Dionysus; the 'centre-stone' is the omphalos-like altar centre of Athens, filled with incense.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The offspring of the Highest (Zeus) and Kadmeän mothers are Dionysus (son of Semele) and Heracles (son of Alcmena), born of Theban women, descendants of Kadmos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "'Chamber of the Hours' is the opening of the seasons' storehouse; spring is imagined as released from a room guarded by the Hours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "'Earth-shoot' means an offshoot or sprout of the earth, here the island Delos, birthplace of Apollo and Artemis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "'She of Koios' is Leto, daughter of the Titan Koios. Delos once floated, and she found there the only refuge to bear Apollo and Artemis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "'Adamantine' means unbreakable, made of the hardest imagined substance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "'Wings of their strength' means men's powers of action, rendered useless by the sudden darkness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "'Emptying of the sea upon the earth' suggests a great flood. The list of calamities is what the eclipse might portend.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Pindar's surviving complete odes are victory odes; these fragments come from other genres, known only through quotations by later writers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Semele, mother of Dionysus by Zeus, was a Theban princess; the spring festival honours her and her son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "A hyporchema was a lively choral song with dance. This eclipse was visible at Thebes, Pindar's home city.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "anaphora",
+    "text": "The repeated 'then' builds a rhythm of spring's arrival, piling up flowers, roses, flutes and hymns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "personification",
+    "text": "The island is made to drift and then be fixed by pillars rising from the earth, a mythic image of Delos's stability.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "apostrophe",
+    "text": "The poet addresses the Sun directly, questioning it as a living being and giving his alarm a personal urgency.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "catalogue",
+    "text": "The long list of possible disasters, ending in resignation, shows the dread the eclipse inspires and the singer's courage.",
+    "spoiler": false
+   }
+  ]
+ }
+}

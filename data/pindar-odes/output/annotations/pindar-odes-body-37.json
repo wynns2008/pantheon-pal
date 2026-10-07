@@ -1,0 +1,305 @@
+{
+ "section_id": "pindar-odes-body-37",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7650,
+  "output": 2573
+ },
+ "result": {
+  "summary": "Pindar addresses Hestia, asking her to welcome Aristagoras at his installation as prytanis of Tenedos. He praises Aristagoras' athletic record and ancestry, and ends by reflecting on mortality, uncertain fortune and moderate ambition.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Editorial introduction",
+    "summary": "A note explains that this ode celebrates the installation of a prytanis, not an athletic victory.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Tenedos",
+     "modern_name": "Bozcaada",
+     "certainty": "real",
+     "lat": 39.83,
+     "lon": 26.07
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 8,
+    "title": "Prayer to Hestia",
+    "summary": "Pindar invokes Hestia to welcome Aristagoras and his colleagues, praises the island's worship, and reminds the wealthy of mortality.",
+    "stakes": "Aristagoras' year of office needs good fame and an untroubled heart.",
+    "present": [
+     "Hestia",
+     "Aristagoras",
+     "Arkesilas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tenedos",
+     "modern_name": "Bozcaada",
+     "certainty": "real",
+     "lat": 39.83,
+     "lon": 26.07
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 11,
+    "title": "Victories and missed chances",
+    "summary": "Aristagoras has won sixteen local victories; timid parents kept him from Pythian and Olympian contests, where he would likely have won.",
+    "stakes": "Lost glory through diffidence.",
+    "present": [
+     "Aristagoras"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tenedos",
+     "modern_name": "Bozcaada",
+     "certainty": "real",
+     "lat": 39.83,
+     "lon": 26.07
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 17,
+    "title": "Ancestry and uncertain fortune",
+    "summary": "Pindar traces the family to Sparta and Thebes, then reflects on how virtue recurs unevenly and hope blinds men; he urges moderation.",
+    "stakes": "Unappeasable desire leads to madness.",
+    "present": [
+     "Peisander",
+     "Orestes",
+     "Melanippos"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Amyklai",
+     "modern_name": "Amyklai, near Sparta",
+     "certainty": "real",
+     "lat": 37.03,
+     "lon": 22.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hestia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of the hearth and city hall, invoked in prayer"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Hestia"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "highest god, brother of Hestia, friend of strangers"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "shares Zeus' throne"
+   },
+   {
+    "name": "Aristagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "new prytanis of Tenedos, wrestler and pankratiast"
+   },
+   {
+    "name": "Arkesilas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aristagoras"
+   },
+   {
+    "name": "Peisander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan-born ancestor who came with Orestes"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the Aiolian migration from Amyklai"
+   },
+   {
+    "name": "Melanippos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother's brother of Aristagoras, of Theban blood"
+   },
+   {
+    "name": "Herakles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ordained the fifth-year festival"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Rhea",
+    "relation": "parent_of",
+    "b": "Hestia",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Hestia",
+    "relation": "sibling_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Arkesilas",
+    "relation": "parent_of",
+    "b": "Aristagoras",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "God of Truth",
+    "canonical": "Zeus",
+    "explanation": "Pindar swears by a god of truth, probably Zeus or Apollo; the text does not say which."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Reminds the strong and wealthy that the earth will be their final clothing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "reason": "Pindar's counsel of moderation against unappeasable desire.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode balances praise of excellence with reminders of human limits, uncertainty and the need for moderation.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It honours a civic office on Tenedos, showing how Pindar's poetry served political ceremonies as well as athletic victories.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "This is one of Pindar's odes not for an athletic win but for a magistrate's installation, and its date is unknown.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Eisitaeria were sacrifices or ceremonies of entry upon office; a prytanis was the presiding magistrate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Keep Tenedos in her place erect\" means the islanders' worship upholds the island's stability and standing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Raiment upon mortal limbs\" means the body is only a garment; at death the earth becomes his clothing, i.e. burial.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Pankration was a brutal combined wrestling and boxing contest with few restrictions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Castaly is the spring at Delphi, standing for the Pythian games; the hill of Kronos is Olympia. The fifth year's feast is the Olympic festival.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Shining shoots\" are the victor's wreath of olive leaves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Orestes, son of Agamemnon, was said to have led Aiolian colonists from Amyklai in Sparta; Ismenos is the river of Thebes, so the mother's line is Theban.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Hestia, goddess of the hearth, was honoured at the public hearth of a city's town hall, where magistrates took office.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Zeus Xenios, \"the stranger's friend,\" protected guests and hospitality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "The Pythian and Olympian games were the most prestigious Greek festivals, far above local contests.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "metaphor",
+    "text": "Body as clothing and earth as final garment turns a reminder of death into a vivid image checking pride.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "simile",
+    "text": "Fields and trees that bear fruit only in turns illustrate how family excellence skips generations.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "personification",
+    "text": "Hope is imagined as a master that enslaves the body, showing how it clouds judgment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "maxim",
+    "text": "The ode closes on a gnomic warning, typical of Pindar, that excessive desire brings ruin.",
+    "spoiler": false
+   }
+  ]
+ }
+}

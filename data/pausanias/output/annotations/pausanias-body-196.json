@@ -1,0 +1,273 @@
+{
+ "section_id": "pausanias-body-196",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7348,
+  "output": 2431
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Elis, describing a ruined Roman Emperors' colonnade and the temples of Aphrodite near the market-place. He explains why the Eleans alone honour Pluto and describes the temple of Fortune, the shrine of Sosipolis and a statue called Satrapes.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Market-place and Aphrodite's temples",
+    "summary": "Pausanias describes a ruined colonnade for the Roman Emperors and the temple and grove of Aphrodite, with statues by Phidias and Scopas.",
+    "stakes": "",
+    "present": [
+     "Aphrodite"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Elis market-place",
+     "modern_name": "Ancient Elis",
+     "certainty": "real",
+     "lat": 37.8997,
+     "lon": 21.3797
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 15,
+    "title": "The temple of Pluto",
+    "summary": "Pausanias explains that the Eleans honour Pluto because he helped Pylos against Hercules, citing Homer, and opens his temple yearly.",
+    "stakes": "Pluto and Pylos face Hercules' attack; Pluto is wounded by his arrow.",
+    "present": [
+     "Pluto",
+     "Hercules",
+     "Athene",
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pylos in Elis",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 21,
+    "title": "Fortune, Sosipolis and Satrapes",
+    "summary": "Pausanias describes the temple of Fortune, the shrine of the boy Sosipolis and the statue of Poseidon called Satrapes.",
+    "stakes": "",
+    "present": [
+     "Fortune",
+     "Sosipolis",
+     "Poseidon",
+     "Corybas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Ancient Elis",
+     "certainty": "real",
+     "lat": 37.8997,
+     "lon": 21.3797
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Celestial Aphrodite",
+     "Pandemian Aphrodite"
+    ],
+    "kind": "goddess",
+    "description": "goddess with two statues at Elis"
+   },
+   {
+    "name": "Pluto",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of the dead, honoured only at Elis"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who attacked Pylos"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "helped Hercules at Pylos"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Satrapes"
+    ],
+    "kind": "god",
+    "description": "sea god who helped the Greeks at Troy; statue at Elis"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Hercules in Homer's lines"
+   },
+   {
+    "name": "Fortune",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Elis"
+   },
+   {
+    "name": "Sosipolis",
+    "aliases": [],
+    "kind": "god",
+    "description": "local boy deity seen in a dream"
+   },
+   {
+    "name": "Corybas",
+    "aliases": [],
+    "kind": "other",
+    "description": "figure whose surname is Satrapes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Satrapes",
+    "canonical": "Poseidon",
+    "explanation": "Elis calls its statue of Poseidon Satrapes, a name learnt from Patrae and also a surname of Corybas."
+   },
+   {
+    "alias": "Celestial Aphrodite",
+    "canonical": "Aphrodite",
+    "explanation": "Epithet of the Phidias statue."
+   },
+   {
+    "alias": "Pandemian Aphrodite",
+    "canonical": "Aphrodite",
+    "explanation": "Epithet of the Scopas statue on the he-goat."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 6,
+    "reason": "Pausanias openly declines to explain the tortoise and goat symbolism.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links local cult practices to myth and Homer to explain unusual worship, such as Pluto's yearly-opened temple.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The section shows Roman imperial cult entering Greek towns and the fusion of local gods with foreign names like Satrapes.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says Pluto's Elean temple is opened only once a year, and only the priest may enter.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Corcyræan Portico was a colonnade in Elis, apparently named for spoils or a dedication from Corcyra (Corfu).",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Celestial\" translates Urania, the heavenly Aphrodite, in contrast to the Pandemian (\"of all the people\") Aphrodite of the grove.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Hercules' campaign against Elis and Pylos was a legendary war in which he punished King Augeas and others; Athene commonly aids him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Quoted from Iliad 5: Hercules wounded Hades at Pylos. Ægis-bearing Zeus is the translator's rendering of Jupiter/Zeus as father of Hercules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The horn of Amalthea is the cornucopia, the horn of plenty, named for the nurse of Zeus in myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "\"Particoloured\" means of several colours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Corybas was a divine attendant figure linked with the Great Mother's cult; the identification is Pausanias' own claim.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Phidias was the celebrated Athenian sculptor who also made the great gold-and-ivory Zeus at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Scopas of Paros was a famous fourth-century BC sculptor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Pluto is the god of the dead, called Hades by the Greeks, so his cult was rare and gloomy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Sosipolis, \"saviour of the city,\" was an Elean child-god who, in legend, appeared as a serpent to aid the Eleans in battle.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "narrative voice",
+    "text": "Pausanias openly declines to explain the symbols, addressing readers directly and showing his cautious, reticent attitude toward religious mysteries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "argument by analogy",
+    "text": "Pausanias defends the Elean tradition by comparing it with Poseidon helping the Greeks at Troy, using Homer as his authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "symbolism",
+    "text": "The yearly opening of Pluto's temple symbolises that death's realm is entered only once, by all men, in the end.",
+    "spoiler": false
+   }
+  ]
+ }
+}

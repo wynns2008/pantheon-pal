@@ -1,0 +1,348 @@
+{
+ "section_id": "pausanias-body-213",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9951,
+  "output": 3167
+ },
+ "result": {
+  "summary": "Mummius takes command of the Roman army and defeats the Achaeans at the Isthmus. Corinth is abandoned, sacked and burned, and Greece is reorganised under Roman control. Pausanias adds a contrast between Diaeus and the Athenian cavalry commander Callistratus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Battle at the Isthmus",
+    "summary": "Mummius takes command and the Achaeans, after an early success, are routed by Roman infantry and cavalry. Diaeus flees to Megalopolis.",
+    "stakes": "The Achaeans risk losing the war and the freedom of Greece.",
+    "present": [
+     "Mummius",
+     "Orestes",
+     "Metellus",
+     "Philopoemen",
+     "Diaeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the Isthmus",
+     "modern_name": "Isthmus of Corinth",
+     "certainty": "real",
+     "lat": 37.93,
+     "lon": 22.99
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 11,
+    "title": "Callistratus at the Asinarus",
+    "summary": "Pausanias recalls how Callistratus saved the Athenian cavalry in Sicily and died fighting.",
+    "stakes": "Callistratus gives his life to save his cavalry.",
+    "present": [
+     "Callistratus",
+     "Empedus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "river Asinarus, Sicily",
+     "modern_name": "Tellaro river, Sicily",
+     "certainty": "real",
+     "lat": 36.85,
+     "lon": 15.05
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 12,
+    "title": "Death of Diaeus",
+    "summary": "Diaeus warns Megalopolis, kills his wife and poisons himself.",
+    "stakes": "Diaeus faces capture and ruin.",
+    "present": [
+     "Diaeus",
+     "Menalcidas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Megalopolis",
+     "modern_name": "Megalopoli",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 22.14
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 16,
+    "title": "Corinth sacked",
+    "summary": "Corinth is emptied, then entered, burned and plundered by Mummius.",
+    "stakes": "Corinth's people face death, enslavement and destruction.",
+    "present": [
+     "Mummius",
+     "Philopoemen"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Ancient Corinth",
+     "certainty": "real",
+     "lat": 37.91,
+     "lon": 22.88
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 23,
+    "title": "Roman settlement of Greece",
+    "summary": "Mummius disarms cities and ends democracies. Later the Romans relax the rules and set up a praetor of Achaia.",
+    "stakes": "Greek self-government and property rights are lost.",
+    "present": [
+     "Mummius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Greece",
+     "modern_name": "Greece",
+     "certainty": "real",
+     "lat": 38.0,
+     "lon": 23.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Mummius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman commander who destroys Corinth"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman envoy sent to settle Spartan and Achaean disputes"
+   },
+   {
+    "name": "Metellus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman general sent back to Macedonia"
+   },
+   {
+    "name": "Philopoemen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Commander of Attalus' troops"
+   },
+   {
+    "name": "Diaeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean leader who flees and kills himself"
+   },
+   {
+    "name": "Callistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian cavalry commander in Sicily"
+   },
+   {
+    "name": "Empedus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Callistratus"
+   },
+   {
+    "name": "Menalcidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Earlier greedy, cowardly Achaean leader"
+   },
+   {
+    "name": "Attalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King whose troops served Rome"
+   },
+   {
+    "name": "Antitheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Archon at Athens at the war's end"
+   },
+   {
+    "name": "Diodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicyonian victor in the foot race"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Empedus",
+    "relation": "parent_of",
+    "b": "Callistratus",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 14,
+    "reason": "Records the burning of Corinth in 146 BC.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias contrasts Diaeus' cowardice with Callistratus' self-sacrifice, judging leaders by their courage.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage describes the end of Greek independence in 146 BC and Rome's province-style control through Achaia.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says the spoils of Corinth given to Philopoemen were still at Pergamus in his day.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Attalus was king of Pergamum, a Roman ally in Asia Minor; the Caicus is the river near that city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "A stade (stadium) was a Greek unit of about 600 feet, so 12 stades is roughly a mile and a half.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Wedge-like attack\" describes a compact, pointed infantry formation driving into the enemy line, and \"took them in flank\" means attacked from the side.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Refers to the Athenian disaster in Sicily in 413 BC, when Nicias and Demosthenes' army was destroyed at the Asinarus during its retreat from Syracuse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Menalcidas was an earlier Achaean leader who, accused of treachery and greed, also killed himself by poison; Pausanias compares the two men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Manumitted slaves are those freed by their masters; here freedmen who fought for the Achaeans were sold again.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "Votive offerings are gifts dedicated to gods, such as statues and paintings, which Mummius carried off as plunder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "Chief-magistrates according to property qualifications means offices were open only to the wealthy, replacing popular democratic government.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "Land over the borders means owning land outside one's own city's territory, which was forbidden.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "A talent was a large weight of silver, a major sum of money; 100 talents was a heavy fine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "Dating by the Athenian Archon and the Olympiad was the standard Greek way of fixing a year; the 160th Olympiad is 140s BC.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Mummius was the Roman consul who finished the Achaean War in 146 BC. Orestes headed an earlier Roman embassy to the Achaean League.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Diæus was the Achaean League's general. Megalopolis was a major Arcadian city, and the League's cause was collapsing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Lucius Mummius was the Roman consul who defeated the Achaean League and destroyed Corinth in 146 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Attalus was king of Pergamum, a Roman ally in Asia Minor; Pergamus is its city, where Pausanias saw the spoils.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Achaia became the Roman name for the province of Greece, taking its name from the defeated Achaean League.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "Counterfactual",
+    "text": "The imagined alternative of a siege underscores Diæus' failure of nerve and the missed opportunity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Comparison",
+    "text": "Pausanias contrasts Diæus' flight with Callistratus' courage, using the earlier hero to judge the Achaean leader.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "Characterization",
+    "text": "Callistratus' deeds, saving his men and then returning to kill five before dying, portray him as a selfless commander.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "characterization",
+    "text": "Diaeus is portrayed through his final acts: killing his wife and poisoning himself, which Pausanias judges as cowardly and avaricious, like Menalcidas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "The victorious general hesitates before open gates, fearing a trap, before finally burning a city that offers no resistance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "narrative voice",
+    "text": "Pausanias adds that a praetor is sent 'still', speaking from his own time and explaining a lasting name as a result of the conquest.",
+    "spoiler": false
+   }
+  ]
+ }
+}

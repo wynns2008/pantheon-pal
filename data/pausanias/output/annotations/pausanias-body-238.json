@@ -1,0 +1,433 @@
+{
+ "section_id": "pausanias-body-238",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10388,
+  "output": 3885
+ },
+ "result": {
+  "summary": "Pausanias describes the plain of Pheneus in Arcadia, its flood-pits and canal ascribed to Hercules, and its citadel with the statue of Poseidon Hippius said to be Odysseus's offering. He then covers the tomb of Iphicles, the cult of Hermes and the tomb of Myrtilus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Plain, pits and Hercules' canal",
+    "summary": "The plain of Pheneus drains into two pits that the locals say Hercules dug. He also cut a long canal for the river Olbius, which has since gone back to its old bed.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Laonome",
+     "Amphitryon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Plain of Pheneus",
+     "modern_name": "Feneos plain, Arcadia",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 18,
+    "title": "Citadel and Odysseus' horses",
+    "summary": "On the citadel stand a ruined temple and a bronze Poseidon said to be Odysseus's offering. Pausanias doubts this and discusses early bronze casting.",
+    "stakes": "",
+    "present": [
+     "Odysseus",
+     "Poseidon",
+     "Rhœcus",
+     "Theodorus",
+     "Polycrates"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Citadel of Pheneus",
+     "modern_name": "Ancient Pheneos, Arcadia",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 22.28
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 22,
+    "title": "Tomb of Iphicles",
+    "summary": "Iphicles, wounded fighting Augeas, was brought to Pheneus, cared for and buried there, and is honoured as a hero.",
+    "stakes": "Iphicles is dying of his wounds.",
+    "present": [
+     "Iphicles",
+     "Hercules",
+     "Buphagus",
+     "Promne"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pheneus",
+     "modern_name": "Ancient Pheneos, Arcadia",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 22.28
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 32,
+    "title": "Hermes and Myrtilus",
+    "summary": "Pheneus honours Hermes and keeps the tomb of Myrtilus, whose betrayal of Œnomaus and death at Pelops's hands is told. Pausanias rejects the claim that the Myrtoan Sea is named for him.",
+    "stakes": "Myrtilus risks his life by betraying his master and demanding his reward.",
+    "present": [
+     "Myrtilus",
+     "Œnomaus",
+     "Pelops",
+     "Hippodamia",
+     "Hermes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pheneus",
+     "modern_name": "Ancient Pheneos, Arcadia",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 22.28
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero said to have dug the pits and canal at Pheneus"
+   },
+   {
+    "name": "Laonome",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman of Pheneus, mother of Amphitryon"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Alcæus and Laonome"
+   },
+   {
+    "name": "Alcæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Amphitryon"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have found his lost horses at Pheneus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Poseidon Hippius"
+    ],
+    "kind": "god",
+    "description": "god whose bronze statue stands on the citadel"
+   },
+   {
+    "name": "Iphicles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Hercules, buried at Pheneus"
+   },
+   {
+    "name": "Iolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Iphicles, helper of Hercules"
+   },
+   {
+    "name": "Buphagus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man of Pheneus who nursed Iphicles"
+   },
+   {
+    "name": "Promne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Buphagus"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "chief god of Pheneus"
+   },
+   {
+    "name": "Myrtilus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "charioteer of Œnomaus, son of Hermes"
+   },
+   {
+    "name": "Œnomaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who killed his daughter's suitors"
+   },
+   {
+    "name": "Hippodamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Œnomaus"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "suitor who won Hippodamia and drowned Myrtilus"
+   },
+   {
+    "name": "Rhœcus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Samian, early caster of bronze"
+   },
+   {
+    "name": "Theodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Samian, early bronze caster and emerald seal maker"
+   },
+   {
+    "name": "Polycrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant of Samos who wore Theodorus's seal"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Laonome",
+    "relation": "parent_of",
+    "b": "Amphitryon",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Alcæus",
+    "relation": "parent_of",
+    "b": "Amphitryon",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Iphicles",
+    "relation": "sibling_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Iphicles",
+    "relation": "parent_of",
+    "b": "Iolaus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Hermes",
+    "relation": "parent_of",
+    "b": "Myrtilus",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Œnomaus",
+    "relation": "parent_of",
+    "b": "Hippodamia",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Rhœcus",
+    "relation": "parent_of",
+    "b": "Theodorus",
+    "source": "outside",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Aroanius",
+    "canonical": "Olbius",
+    "explanation": "Some Arcadians call the river Aroanius instead of Olbius."
+   },
+   {
+    "alias": "Poseidon Hippius",
+    "canonical": "Poseidon",
+    "explanation": "Epithet meaning Poseidon of horses."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 15,
+    "reason": "Pausanias critically rejects a local tradition on technical grounds about early bronze casting.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local tradition links Pheneus to heroes such as Hercules, Odysseus and Pelops, and Pausanias weighs these claims against evidence.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias uses the history of bronze casting to date objects and doubt the story of Odysseus's offering.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Pheneus plain still floods periodically, and its sinkholes have been linked to the ancient drainage Pausanias describes.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "A stade was a Greek measure of about 600 feet (roughly 180 metres), so 5 stades is a short distance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Hercules' stay at Pheneus ties into the myth of his family; Amphitryon became his earthly father, and Pausanias corrects a rival genealogy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Autochthon means 'sprung from the soil': a native founder claimed to have originated in the land itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Hippius means 'of horses'; it is a cult title of Poseidon as patron of horses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Heurippe means 'horse-finder', a title that fits the story of Odysseus finding his lost horses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Refers to Odysseus's herds kept on the mainland across from Ithaca, as mentioned in Homer's Odyssey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "'As you weave a garment' means joining separate pieces of metal, not casting in one piece; Pausanias argues such work came later.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Rhœcus and Theodorus of Samos were early sixth-century BC sculptors traditionally credited with inventing hollow bronze casting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet (about 180 metres); an \"eminence\" is a raised hillock.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "\"Honours they pay to heroes\" means cult worship with sacrifices, offered to dead figures of legend as lesser powers beneath the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Œnomaus challenged suitors of his daughter to a chariot race; losers were killed. Pausanias assumes the reader knows this story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Pelops, the winning suitor, is the hero for whom the Peloponnese is named. His oath to Myrtilus was broken.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "Pausanias refers to the Myrtoan Sea, between Attica, the Peloponnese and the Cyclades; a common story derived its name from Myrtilus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Hercules was driven from Tiryns by Eurystheus, his cousin and king, who later set him the twelve labours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Athene Tritonia is Athene with a title linked to Lake Triton or the river Triton; the epithet appears in several Greek cults.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Polycrates ruled Samos in the sixth century BC; a famous story tells of his ring thrown into the sea and recovered.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Hercules' war against Augeas, king of Elis, is linked to his Labour of cleaning the stables. The Molionidae were Actor's sons, associated with Augeas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Hermes was the messenger god, patron of athletes, travellers and herdsmen, so games in his honour were natural.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "narrative voice",
+    "text": "The travelling observer cites visible marks on the hills as evidence, giving the tale an eyewitness authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "Pausanias accepts the local story yet rejects its key object, quietly undercutting the legend through his own historical reasoning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "foreshadowing",
+    "text": "The shameful promise of a night with Hippodamia anticipates Pelops' treachery and Myrtilus' death in the next sentence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "irony",
+    "text": "Pausanias dryly dismisses the popular tale by pointing out the geographic implausibility, deflating the myth with practical argument.",
+    "spoiler": false
+   }
+  ]
+ }
+}

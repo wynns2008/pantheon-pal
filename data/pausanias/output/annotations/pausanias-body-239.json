@@ -1,0 +1,301 @@
+{
+ "section_id": "pausanias-body-239",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7810,
+  "output": 2638
+ },
+ "result": {
+  "summary": "Pausanias describes the Eleusinian rites at Pheneus, the Petroma stones, and local traditions about Demeter and beans. He then describes the ruined temple of Pythian Apollo, argues that the tombs of Telamon and Chalcodon cannot belong to the heroes of legend, and notes the borders of Pheneus and Mount Crathis.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Demeter's rites at Pheneus",
+    "summary": "Pausanias describes the temple of Eleusinian Demeter, the Petroma stones, and the traditions of Naus, Trisaules and Damithales.",
+    "stakes": "",
+    "present": [
+     "Naus",
+     "Demeter",
+     "Trisaules",
+     "Damithales"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pheneus",
+     "modern_name": "Feneos, Arcadia",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 22.28
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 18,
+    "title": "Temple of Pythian Apollo and tombs",
+    "summary": "Pausanias describes the ruined temple and the tombs of heroes, and argues that Telamon and Chalcodon cannot be buried here.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Telamon",
+     "Chalcodon",
+     "Teucer",
+     "Amphitryon",
+     "Apollo",
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Road from Pheneus toward Pellene",
+     "modern_name": "near Feneos, Arcadia",
+     "certainty": "real",
+     "lat": 37.95,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 23,
+    "title": "Boundaries and Mount Crathis",
+    "summary": "Pausanias notes the borders with Achaia and the river and mountain Crathis, with its temple of Artemis.",
+    "stakes": "",
+    "present": [
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Crathis",
+     "modern_name": "Mount Chelmos (Aroania)",
+     "certainty": "real",
+     "lat": 37.98,
+     "lon": 22.2
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Eleusinian Demeter",
+     "Cidarian Demeter",
+     "Demeter Thesmia"
+    ],
+    "kind": "goddess",
+    "description": "goddess worshipped with mysteries at Pheneus"
+   },
+   {
+    "name": "Naus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "great grandson of Eumolpus who brought the mysteries to Pheneus"
+   },
+   {
+    "name": "Eumolpus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of Naus"
+   },
+   {
+    "name": "Trisaules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "received Demeter hospitably"
+   },
+   {
+    "name": "Damithales",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "received Demeter hospitably"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Pythian Apollo"
+    ],
+    "kind": "god",
+    "description": "god with a ruined temple near Pheneus"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Pyronian Artemis"
+    ],
+    "kind": "goddess",
+    "description": "goddess with temples near Pheneus"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero said to have built the temple of Apollo"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Ajax and Teucer, said to be buried here"
+   },
+   {
+    "name": "Chalcodon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Elephenor, said to be buried here"
+   },
+   {
+    "name": "Elephenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "led the Eubœans to Ilium"
+   },
+   {
+    "name": "Ajax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Telamon"
+   },
+   {
+    "name": "Teucer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Telamon, founder of Salamis in Cyprus"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said by Thebans to have slain Chalcodon"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Chalcodon",
+    "relation": "parent_of",
+    "b": "Elephenor",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Telamon",
+    "relation": "parent_of",
+    "b": "Ajax",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Telamon",
+    "relation": "parent_of",
+    "b": "Teucer",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cidarian Demeter",
+    "canonical": "Demeter",
+    "explanation": "A cult epithet of Demeter at Pheneus, also Eleusinian and Thesmia."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends local religious tradition with critical reasoning, rejecting the tombs of Telamon and Chalcodon as belonging to the famous heroes.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Arcadian cities claimed mystery cults rivaling Eleusis, with secret writings and oaths that show how local religion preserved distinct ritual.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias refuses to say why beans were impure, calling it a sacred tradition; beans were widely taboo in Greek cults.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Petroma is from Greek petra, 'rock'; the name means roughly 'stone-thing', a pair of stones fitted together like a book or chest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "'Pulse' means edible legumes such as peas, lentils and beans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–200 metres, so 15 stades is under 3 km.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Elephenor led the Euboeans, and Ajax and Teucer were Telamon's sons, in Homer's Iliad; hence the heroes' dates conflict with Hercules' expedition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Amphitryon, Hercules' mortal stepfather and king at Thebes, is said by Pausanias' Theban sources to have killed Chalcodon in an earlier war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Argives fetched fire from this shrine for the cult of Lerne, presumably for rites there; 'Pyronian' means 'of fire'.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Eumolpus was the legendary founder of the Eleusinian Mysteries near Athens, so Naus is presented as bringing the cult from Eleusis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Demeter was goddess of grain and the harvest; her mysteries promised blessings, and rites calling on underworld powers fit her link with Persephone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Hercules' campaign against Elis was against King Augeas, who had cheated him of payment for cleaning the stables.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Teucer, half-brother of Ajax, was banished by Telamon for failing to protect Ajax, and founded Salamis in Cyprus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "narrative voice",
+    "text": "Pausanias defers to religious secrecy, withholding the explanation and showing his reverent, cautious attitude toward mystery cults.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "rhetorical question",
+    "text": "He argues by asking questions, leading the reader step by step to his conclusion that the tombs are of namesakes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "characterization",
+    "text": "Pausanias appears as a rational critic, weighing myth against chronology rather than accepting local tradition.",
+    "spoiler": false
+   }
+  ]
+ }
+}

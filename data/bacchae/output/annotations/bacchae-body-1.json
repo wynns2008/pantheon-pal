@@ -1,0 +1,762 @@
+{
+ "section_id": "bacchae-body-1",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 26815,
+  "output": 7375
+ },
+ "result": {
+  "summary": "Dionysus announces that he has come to Thebes in human form to punish those who deny his divinity, and he has driven the Theban women to the mountains. The Chorus of Asian Bacchae sings his worship, and old Teiresias and Cadmus prepare to join the dance. Pentheus rages against the new god, threatens the stranger, and orders Teiresias's seat destroyed, ignoring warnings.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 25,
+    "title": "Dionysus Declares His Purpose",
+    "summary": "Alone before the palace and Semele's tomb, Dionysus explains that he has come to Thebes disguised as a man. He will punish Pentheus and the women who mocked his birth, then leaves for Kithaeron.",
+    "stakes": "His divine honour and his mother's good name are at stake; Thebes denies he is a god.",
+    "present": [
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, before the castle of Pentheus",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3201,
+     "lon": 23.3185
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 60,
+    "title": "The Chorus Sings of Bromios",
+    "summary": "The Asian Bacchae enter and sing of Dionysus's birth, the origin of the timbrel and the joy of the mountain rites.",
+    "stakes": "",
+    "present": [
+     "Chorus",
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, before the castle of Pentheus",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3201,
+     "lon": 23.3185
+    }
+   },
+   {
+    "start_sentence": 61,
+    "end_sentence": 115,
+    "title": "Old Men Prepare to Dance",
+    "summary": "Teiresias calls for Cadmus, and the two old men, feeling rejuvenated, resolve to go to the mountain in Bacchic dress.",
+    "stakes": "They risk ridicule for honouring the god in old age.",
+    "present": [
+     "Teiresias",
+     "Cadmus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, before the castle of Pentheus",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3201,
+     "lon": 23.3185
+    }
+   },
+   {
+    "start_sentence": 116,
+    "end_sentence": 200,
+    "title": "Pentheus Defies the God",
+    "summary": "Pentheus denounces the new cult and his grandfather and Teiresias. They urge him to accept Dionysus, but he orders Teiresias's seat wrecked and the stranger captured, then departs.",
+    "stakes": "Pentheus risks the god's wrath and his own destruction; the old men risk his anger.",
+    "present": [
+     "Pentheus",
+     "Teiresias",
+     "Cadmus",
+     "Chorus",
+     "Dionysus",
+     "Soldier"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, before the castle of Pentheus",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3201,
+     "lon": 23.3185
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Bromios",
+     "Bacchios",
+     "Dionyse"
+    ],
+    "kind": "god",
+    "description": "God of wine and ecstasy, son of Zeus and Semele, disguised as a man"
+   },
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cadmus's daughter, mother of Dionysus, killed by Zeus's lightning"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Founder of Thebes, aged grandfather of Pentheus"
+   },
+   {
+    "name": "Pentheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Young king of Thebes, son of Echion, hostile to Dionysus"
+   },
+   {
+    "name": "Teiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Blind old seer of Thebes"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [
+     "Bacchae",
+     "Leader of the Chorus"
+    ],
+    "kind": "mortal",
+    "description": "Asian women followers of Dionysus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Jove"
+    ],
+    "kind": "god",
+    "description": "King of the gods, father of Dionysus"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who hated Semele"
+   },
+   {
+    "name": "Echion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Pentheus"
+   },
+   {
+    "name": "Actaeon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban killed by his own hounds after offending Artemis"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Dian"
+    ],
+    "kind": "goddess",
+    "description": "Goddess who punished Actaeon"
+   },
+   {
+    "name": "Soldier",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Commander of Pentheus's guard"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [
+     "Cybele"
+    ],
+    "kind": "goddess",
+    "description": "Mother goddess linked with the timbrel"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess of earth's grain"
+   },
+   {
+    "name": "Agenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Cadmus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Semele",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Cadmus",
+    "relation": "parent_of",
+    "b": "Semele",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Echion",
+    "relation": "parent_of",
+    "b": "Pentheus",
+    "source": "text",
+    "evidence_sentence": 112
+   },
+   {
+    "a": "Agenor",
+    "relation": "parent_of",
+    "b": "Cadmus",
+    "source": "text",
+    "evidence_sentence": 63
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Semele",
+    "source": "text",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Bromios",
+    "canonical": "Dionysus",
+    "explanation": "Cult title meaning roaring or thunderer."
+   },
+   {
+    "alias": "Bacchios",
+    "canonical": "Dionysus",
+    "explanation": "Title from his Bacchic rites."
+   },
+   {
+    "alias": "Zeus",
+    "canonical": "Jove",
+    "explanation": "This translation uses Zeus; Jove is the Roman name."
+   },
+   {
+    "alias": "Cybele",
+    "canonical": "Rhea",
+    "explanation": "The Phrygian mother goddess, identified with Rhea."
+   },
+   {
+    "alias": "Dian",
+    "canonical": "Artemis",
+    "explanation": "Dian is a Roman-derived form (Diana) of Artemis's name."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 163,
+    "reason": "Teiresias warns that force and cleverness are not true wisdom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 178,
+    "reason": "Cadmus urges Pentheus to honour Dionysus even if he is no god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 199,
+    "reason": "Teiresias plays on Pentheus's name, meaning sorrow, foreshadowing his fate.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The play opens with the conflict between reasoned authority and divine ecstasy. Pentheus's denial of the god sets up his downfall.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The play was written late in Euripides's life in Macedonia and draws on Dionysian cult practice, with its maenads, thyrsus and mountain rites.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Bacchae shaped later views of Dionysian ecstasy, notably Nietzsche's contrast of Apollonian and Dionysian in The Birth of Tragedy (1872)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Bacchae was produced after Euripides's death, around 405 BC, and won first prize at the Athenian festival.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Semele, daughter of Cadmus, was destroyed by Zeus's lightning when she asked to see him in his true form; Dionysus was born from her ashes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Hera, Zeus's wife, hated Semele as her husband's lover and was said to have tricked her into the fatal request.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Motley-wise\" means in a mixed, varied way; Greeks (Hellenes) and non-Greeks (Barbarians) live together in the Asian cities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Dian seed\" means divine seed, i.e. descent from a god (Zeus). The sisters denied that Dionysus had a divine father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Vaunt\" means boast or claim loudly; \"rod\" refers to the god's thyrsus, the wand with which he strikes them with madness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Tmolus is a mountain in Lydia, home of Dionysus's female followers. Rhea, mother of the gods, shared in inventing the timbrel (hand drum).",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "Dayspring means dawn; the chorus come from Asia, the East, where the sun rises.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "phrasing",
+    "text": "\"The toil is as the prize is\": the labour is as rewarding as its reward, because serving the god is itself the joy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "phrasing",
+    "text": "\"Lifted, pall-wise\": sins are removed like a funeral cloth or cloak being drawn off the worshipper.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "allusion",
+    "text": "Semele, pregnant by Zeus, asked to see him in his glory and was killed by his lightning; Dionysus was saved.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "phrasing",
+    "text": "Zeus tore his own thigh to hide the unborn child, fastening it with gold clasps; the Queen is Hera, who knew nothing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "kind": "allusion",
+    "text": "Corybants were armed attendants who clashed weapons to drown the infant Zeus's cries on Crete; the timbrel is a hand drum.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "kind": "allusion",
+    "text": "The timbrel passed from Rhea, mother of the gods, to the Satyrs and then to Dionysus's worship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "kind": "phrasing",
+    "text": "Eating the torn hill-goat's raw flesh refers to the Bacchic rite of omophagia, ritual eating of raw animal flesh.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "kind": "word",
+    "text": "Tmolus is a mountain in Lydia, here called golden for its rivers and wealth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "kind": "allusion",
+    "text": "Cadmus, son of Agenor, left Sidon in Phoenicia, searching for his sister Europa, and founded Thebes (the Cadmea, its citadel).",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "kind": "word",
+    "text": "A thyrsus is a staff wreathed in ivy and topped with a pine cone, carried by worshippers of Bacchus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "kind": "allusion",
+    "text": "Refers to Semele, Cadmus's daughter, killed by Jove's lightning while pregnant with Bacchus; her son is called the soul of that 'dead life' reborn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "kind": "word",
+    "text": "'Eld-worn' means worn by old age; 'eld' is an archaic word for age.",
+    "spoiler": false
+   },
+   {
+    "sentence": 108,
+    "kind": "phrasing",
+    "text": "'What recks it?' means 'What does it matter?' ('reck' means to care or heed).",
+    "spoiler": false
+   },
+   {
+    "sentence": 109,
+    "kind": "phrasing",
+    "text": "Teiresias says the God has set no rule on who may dance; he asks honour from all mortals, without exception.",
+    "spoiler": false
+   },
+   {
+    "sentence": 111,
+    "kind": "phrasing",
+    "text": "'This light thou canst not read' refers to Teiresias's blindness; Cadmus must act as his eyes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "kind": "phrasing",
+    "text": "\"Not of God\" means the meeting is for lust, not worship; Pentheus claims the women's rites are a cover for sex.",
+    "spoiler": false
+   },
+   {
+    "sentence": 118,
+    "kind": "word",
+    "text": "Bacchios is a name of Dionysus, meaning the raving or revelling god; here he sneers at the title.",
+    "spoiler": false
+   },
+   {
+    "sentence": 119,
+    "kind": "allusion",
+    "text": "Aphrodite is the goddess of love; Pentheus accuses the women of worshipping desire rather than Dionysus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 122,
+    "kind": "allusion",
+    "text": "\"The very Cyprian\" is Aphrodite, who was linked with Cyprus; the stranger's eyes are said to be charged with her allure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 124,
+    "kind": "allusion",
+    "text": "Semele, Dionysus's mother, was destroyed by Zeus's lightning after claiming Zeus fathered her child; Dionysus was then sewn into Zeus's thigh and born.",
+    "spoiler": false
+   },
+   {
+    "sentence": 128,
+    "kind": "phrasing",
+    "text": "\"God wot\" is archaic for \"God knows.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 130,
+    "kind": "phrasing",
+    "text": "\"Mine eyes are fond\" means his eyes are foolish or deceiving him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 139,
+    "kind": "allusion",
+    "text": "Cadmus founded Thebes by sowing dragon's teeth, from which armed men sprang; Echion was one of these and father of Pentheus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 146,
+    "kind": "allusion",
+    "text": "Teiresias identifies Demeter with Earth, as giver of grain, the \"things dry\"; Dionysus supplies the liquid counterpart, wine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 152,
+    "kind": "phrasing",
+    "text": "Teiresias says the god's \"blood,\" wine, is poured out as libation to the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 154,
+    "kind": "allusion",
+    "text": "Teiresias rationalizes the myth: Zeus gave Hera a phantom made of ether, which explains the tale of the god being torn or hidden in Zeus's flesh.",
+    "spoiler": false
+   },
+   {
+    "sentence": 160,
+    "kind": "allusion",
+    "text": "Ares is the Greek god of war; Teiresias claims Dionysus shares his power, since panic in battle is attributed to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 161,
+    "kind": "word",
+    "text": "Palsied means paralysed or made helpless; here the god strikes armies with sudden panic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 162,
+    "kind": "allusion",
+    "text": "Delphi's twin-peaked mountain is Parnassus, sacred to Apollo and also to Dionysus, whose torchlit revels were held there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 181,
+    "kind": "allusion",
+    "text": "Actaeon, Cadmus's grandson, was a hunter turned into a stag and torn apart by his own hounds after offending Artemis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 186,
+    "kind": "word",
+    "text": "Aroint thee is an archaic exclamation meaning 'begone'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 188,
+    "kind": "phrasing",
+    "text": "'In ward' means under guard or in keeping; here it refers to the seat where Teiresias watches birds for omens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 192,
+    "kind": "word",
+    "text": "Gyves are fetters or shackles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 199,
+    "kind": "allusion",
+    "text": "Pentheus's name resembles the Greek word penthos, 'grief'; Teiresias plays on it.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Thebes was a major Greek city; Pentheus is its young king, grandson of Cadmus, its founder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Dirce and Ismenus are the stream and river of Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Kithaeron is the mountain near Thebes where the Theban women have gone to worship Dionysus in ecstasy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "The thyrsus was the Bacchic wand, a fennel stalk wreathed in ivy, often tipped with a pine cone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Bromios, meaning roaring or thunderer, is a cult name of Dionysus, god of wine and ecstasy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "text": "Cybele was the Phrygian Great Mother goddess, whose ecstatic worship was linked with that of Dionysus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "text": "Thebes was Semele's city and Dionysus's birthplace, yet it has not honoured him; this is the play's conflict.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "text": "Teiresias is Thebes's famous blind prophet, said to see divine truths that ordinary people cannot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 112,
+    "text": "Pentheus is Cadmus's grandson, son of Agave and Echion, and the young king whose resistance to Bacchus drives the play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "text": "Pentheus is the young king of Thebes, returning to find the city's women gone to the mountains to worship Dionysus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 129,
+    "text": "Teiresias is the blind prophet of Thebes. He and Cadmus have put on fawn-skins and ivy to join the Dionysian rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 130,
+    "text": "Cadmus, the old founder of Thebes, is Pentheus's maternal grandfather, since Pentheus's mother is Agave.",
+    "spoiler": false
+   },
+   {
+    "sentence": 135,
+    "text": "Teiresias made his living as a seer reading bird omens and sacrificial fire, so Pentheus accuses him of profiting from a new cult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 174,
+    "text": "Phoebus is Apollo, god of prophecy; Bromios ('the roarer') is a title of Dionysus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 179,
+    "text": "Semele, Cadmus's daughter, was the mortal mother of Dionysus by Jove; Pentheus denies her son's divinity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 198,
+    "text": "Bacchios is another name for Dionysus, here called son of the All-Father, Jove.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "simile",
+    "text": "The undying fire is compared to Hera's undying hate, linking the visible ruin to the god's inherited grievance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "dramatic irony",
+    "text": "Pentheus is unaware that the stranger he will meet is the very god he opposes, foreshadowing his downfall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "antithesis",
+    "text": "The god's disguise is set against his true nature: \"wan form of the things that die\" contrasts mortality with divinity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "Motif",
+    "text": "The chorus warns outsiders to be silent, introducing the theme of mockery and resistance to the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "Imagery",
+    "text": "\"The white heart of the fire\" turns Zeus's lightning into a vivid, fatal image of Semele's death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "device": "Aetiology",
+    "text": "The passage explains why serpents appear in Bacchic wands and hair by tracing them to the god's birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "device": "Simile",
+    "text": "The Bacchante is compared to a colt beside a river, conveying joyful, untamed energy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 70,
+    "device": "simile",
+    "text": "Teiresias's voice is compared to mellow wisdom flowing from a fountain, praising him through a water image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "device": "metaphor",
+    "text": "Years falling away like a cast-off garment shows the god's power to rejuvenate his worshippers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 95,
+    "device": "irony",
+    "text": "The blind prophet claims sight while the seeing city is 'blinded'; true insight is reversed from physical vision.",
+    "spoiler": false
+   },
+   {
+    "sentence": 114,
+    "device": "foreshadowing",
+    "text": "Pentheus's hot-tempered entrance, after the old men's piety, anticipates the coming conflict between king and god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 121,
+    "device": "metaphor",
+    "text": "Pentheus pictures the women as birds to be trapped in iron nets, showing his contempt and wish to control them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 123,
+    "device": "dramatic irony",
+    "text": "Pentheus threatens to behead the stranger, but the audience knows the stranger is the god and that Pentheus will be destroyed, beheaded.",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "device": "apostrophe",
+    "text": "Pentheus addresses the absent or silent old man directly, his outrage breaking into broken, emotional exclamations.",
+    "spoiler": false
+   },
+   {
+    "sentence": 143,
+    "device": "irony",
+    "text": "Teiresias says Pentheus's words seem full of thought yet have none, turning the king's pride in his reason against him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 151,
+    "device": "rhetorical question",
+    "text": "Teiresias asks a question that presents wine's forgetfulness as man's greatest comfort, making his argument for Dionysus as benefactor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 163,
+    "device": "antithesis",
+    "text": "Teiresias contrasts force with power and thought with wisdom, condensing his charge against Pentheus into balanced opposites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 178,
+    "device": "paradox",
+    "text": "Cadmus urges Pentheus to pretend Dionysus exists, even if he is 'Naught', making that Naught 'Somewhat'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 195,
+    "device": "metaphor",
+    "text": "Sowing seed stands for Pentheus's actions, implying he will reap consequences from his defiance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 200,
+    "device": "foreshadowing",
+    "text": "Teiresias hints that Pentheus's name, 'sorrow', will be fulfilled, anticipating his coming destruction.",
+    "spoiler": false
+   }
+  ]
+ }
+}

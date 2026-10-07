@@ -1,0 +1,375 @@
+{
+ "section_id": "pausanias-body-76",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8442,
+  "output": 3107
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Trœzen, describing the precincts of Hippolytus, the places linked to Phædra's love, and many temples and sites tied to Theseus, Poseidon, Athene and other gods. He records local customs and beliefs, including the offering of maidens' hair and the local denial of Hippolytus' death.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Precincts of Hippolytus",
+    "summary": "Pausanias describes the temple, rites and nearby monuments of Hippolytus, including the race-course, Peeping Aphrodite, Phædra's myrtle and tomb.",
+    "stakes": "",
+    "present": [
+     "Hippolytus",
+     "Diomede",
+     "Phædra",
+     "Apollo",
+     "Aphrodite",
+     "Æsculapius",
+     "Lamia",
+     "Auxesia"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Trœzen",
+     "modern_name": "Troizen, Greece",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 23.35
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 19,
+    "title": "Sites around Trœzen",
+    "summary": "Pausanias lists the house of Hippolytus, the Well of Hercules and temples of Athene, Pan, Isis, Aphrodite, Poseidon and Demeter, with sites tied to Theseus.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Athene",
+     "Pan",
+     "Theseus",
+     "Poseidon",
+     "Demeter",
+     "Isis",
+     "Aphrodite",
+     "Zeus",
+     "Ægeus",
+     "Helen",
+     "Althepus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Trœzen and its environs",
+     "modern_name": "Troizen, Greece",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 23.35
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 24,
+    "title": "The Twisted Olive and Artemis",
+    "summary": "Near the Psiphæan sea is the olive tree where Hippolytus' chariot overturned, followed by the temple of Saronian Artemis.",
+    "stakes": "",
+    "present": [
+     "Hippolytus",
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Psiphæan sea, Trœzen",
+     "modern_name": "Troizen coast, Greece",
+     "certainty": "traditional",
+     "lat": 37.5,
+     "lon": 23.35
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hippolytus",
+    "aliases": [
+     "the Charioteer"
+    ],
+    "kind": "mortal",
+    "description": "son of Theseus, honoured with a temple at Trœzen"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero born at Trœzen, father of Hippolytus"
+   },
+   {
+    "name": "Diomede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who built the precincts and first sacrificed to Hippolytus"
+   },
+   {
+    "name": "Phædra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman who loved Hippolytus"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Apollo Epibaterius"
+    ],
+    "kind": "god",
+    "description": "god with a temple in the precincts"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Peeping Aphrodite",
+     "Aphrodite of the Height",
+     "Bridal Aphrodite"
+    ],
+    "kind": "goddess",
+    "description": "goddess with several Trœzen temples"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose statue is said to be Hippolytus"
+   },
+   {
+    "name": "Lamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan virgin honoured at Trœzen"
+   },
+   {
+    "name": "Auxesia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan virgin honoured at Trœzen"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who discovered a well"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Athene Sthenias"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a citadel temple"
+   },
+   {
+    "name": "Pan",
+    "aliases": [
+     "Pan the Deliverer"
+    ],
+    "kind": "god",
+    "description": "god who sent saving dreams during a plague"
+   },
+   {
+    "name": "Isis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple near Trœzen"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Sthenian Zeus"
+    ],
+    "kind": "god",
+    "description": "god whose altar became Theseus' rock"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "whose shoes and sword Theseus found"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman Theseus married"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Fruit-giving Poseidon"
+    ],
+    "kind": "god",
+    "description": "god who threatened the land with barrenness"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Law-giving Demeter"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a temple above Poseidon's"
+   },
+   {
+    "name": "Althepus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have built the Demeter temple"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Saronian Artemis"
+    ],
+    "kind": "goddess",
+    "description": "goddess honoured with the Saronia feast"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Theseus",
+    "relation": "parent_of",
+    "b": "Hippolytus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Ægeus",
+    "relation": "parent_of",
+    "b": "Theseus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Theseus",
+    "relation": "spouse_of",
+    "b": "Helen",
+    "source": "text",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Charioteer",
+    "canonical": "Hippolytus",
+    "explanation": "The Trœzenians say Hippolytus is honoured in heaven as this constellation."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local cult and memory at Trœzen reshape myth, as the people deny Hippolytus' violent death and claim him as a heavenly figure.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias shows how Greek towns anchored their identity in sacred places, hero cults and ties to Theseus and Athens.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Hippolytus and Phædra story told here inspired Euripides' Hippolytus and later plays by Seneca and Racine's Phèdre (1677)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes Halicarnassus was a colony of Trœzen, whose people built a temple there for their mother city.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Charioteer is the constellation Auriga, which some Greeks identified with Hippolytus, so the Trœzenians deny his death by horses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Epibaterius means 'of embarking' or 'disembarking', an Apollo invoked for safe passage by sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Peeping Aphrodite renders a title meaning 'the Watcher', from Phædra's gazing at Hippolytus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "'As I described before' points back to Pausanias' earlier mention of the myrtle leaves, pierced by Phædra's hairpin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Theseus found the shoes and sword left by his father Ægeus under a rock, the tokens that proved his parentage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "The Amazons invaded Attica to fight Theseus and the Athenians, a well-known legendary war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "The Greek words κοτινός, φυλίας and ἔλαιος are different names for wild or barren olive trees; Rhachus is the local term.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Hippolytus, son of Theseus, was a young hunter devoted to Artemis who died after his stepmother Phædra falsely accused him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Diomede was a Greek hero of the Trojan War; Ilium is Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Pan was a rustic god of flocks and wild places, here credited with sending helpful dreams.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Halicarnassus, a Greek city in Asia Minor, claimed Trœzen as its mother city, meaning it was founded by settlers from there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Poseidon, god of the sea, was the chief god of Trœzen and was linked with earthquakes and salt floods.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "motif",
+    "text": "The offering of hair before marriage is a ritual of mourning and devotion, tying the maidens' rite to Hippolytus' chastity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "imagery",
+    "text": "Phædra venting her agony on the myrtle leaves gives a vivid, physical picture of her despair.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "aetiology",
+    "text": "The tale explains the tree's name through the myth of the overturned chariot, linking landscape to legend.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,253 @@
+{
+ "section_id": "pausanias-body-293",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6937,
+  "output": 2331
+ },
+ "result": {
+  "summary": "Pausanias recounts the later career of the Theban general Epaminondas: he rescues Pelopidas from Alexander of Pherae, wins victories in the Peloponnese, spares Boeotian deserters at Phoebia, and is killed at Mantinea. The chapter ends with the elegiac inscription on his statue.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Rescue of Pelopidas in Thessaly",
+    "summary": "Alexander seizes Pelopidas, and the Thebans march against him. Trapped at Pylae, the army gives command to Epaminondas, and Alexander releases Pelopidas.",
+    "stakes": "The Theban army faces destruction in the pass, and Pelopidas remains a prisoner.",
+    "present": [
+     "Alexander",
+     "Pelopidas",
+     "Cleomenes",
+     "Hypatus",
+     "Epaminondas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pylae",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 9,
+    "title": "Campaigns and death at Mantinea",
+    "summary": "The Thebans expel the Orchomenians while Epaminondas is away. He wins victories in the Peloponnese, shames the deserters at Phoebia, and is killed near Mantinea.",
+    "stakes": "Epaminondas risks his life in battle and is killed at the moment of victory.",
+    "present": [
+     "Epaminondas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mantinea",
+     "modern_name": "Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 15,
+    "title": "Gryllus and the statue's epitaph",
+    "summary": "Pausanias names the killer as Gryllus, shown in a painting at Athens, and quotes the lines on the statue of Epaminondas.",
+    "stakes": "",
+    "present": [
+     "Gryllus",
+     "Xenophon",
+     "Epaminondas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.98,
+     "lon": 23.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler in Thessaly who imprisoned Pelopidas"
+   },
+   {
+    "name": "Pelopidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban imprisoned by Alexander"
+   },
+   {
+    "name": "Cleomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boeotarch leading the Thebans"
+   },
+   {
+    "name": "Hypatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boeotarch leading the Thebans"
+   },
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban general who freed Greece from Spartan dominance"
+   },
+   {
+    "name": "Chabrias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian commander defeated by Epaminondas"
+   },
+   {
+    "name": "Gryllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian said to have killed Epaminondas"
+   },
+   {
+    "name": "Xenophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Gryllus, who led the Greeks back from Cyrus's expedition"
+   },
+   {
+    "name": "Artaxerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Persia opposed by Cyrus"
+   },
+   {
+    "name": "Cyrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "prince whose expedition Xenophon joined"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Xenophon",
+    "relation": "parent_of",
+    "b": "Gryllus",
+    "source": "text",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 14,
+    "reason": "The epitaph's claim that Thebes made all Greece free sums up Epaminondas's legacy.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The chapter portrays Epaminondas as a model general whose skill, restraint and mercy brought freedom to Greek cities.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It reflects the brief Theban supremacy after Leuctra and the ending of Spartan power, including the refounding of Messene and Megalopolis.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Epaminondas was killed at the battle of Mantinea in 362 BC, and Pausanias cites a painting at Athens as evidence for who struck him.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"With a high hand\" means arrogantly or tyrannically; the treachery lay in seizing a man who had come as a guest and envoy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Bœotarchs were the chief magistrates and generals of the Boeotian federation, of which Thebes was the leading member.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "Giving each deserter the name of a different nationality was a public mark of disgrace, implying they belonged to no homeland.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Xenophon led the Ten Thousand Greek mercenaries back to the sea after Cyrus failed to seize the Persian throne from Artaxerxes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Messene was freed from Spartan domination and refounded under Epaminondas in 369 BC, after long subjection of the Messenians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Autonomous\" means self-governing, free to live under its own laws.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Alexander of Pherae was a harsh tyrant in Thessaly. Pelopidas, Epaminondas' close friend and fellow Theban leader, was seized while on a diplomatic mission.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Epaminondas was mortally wounded at the battle of Mantinea in 362 BC, fighting the Spartans and their allies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Megalopolis was founded in Arcadia with Theban backing to check Sparta's power in the Peloponnese.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "characterization",
+    "text": "Alexander's nerve fails at the mere sight of Epaminondas in command, showing the general's reputation as nearly decisive on its own.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "irony",
+    "text": "Epaminondas' absence on service for Thebes allows the disaster at home, suggesting how much depended on him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "He dies at the very moment of victory, so triumph and death arrive together.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "antithesis",
+    "text": "Sparta's cutting off of glory is set against Messene's recovery of her children, contrasting loss and restoration.",
+    "spoiler": false
+   }
+  ]
+ }
+}

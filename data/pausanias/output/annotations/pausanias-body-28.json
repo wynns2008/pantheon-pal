@@ -1,0 +1,607 @@
+{
+ "section_id": "pausanias-body-28",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10957,
+  "output": 5150
+ },
+ "result": {
+  "summary": "Pausanias finishes describing the Acropolis monuments, then descends to the cave of Apollo and Pan, the Areopagus with its shrine of the Venerable Ones and tomb of Oedipus, and finally surveys the Athenian law-courts and the stories behind them.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Statues and walls of the Acropolis",
+    "summary": "Pausanias discusses the statue of Cylon, the works of Phidias made from war spoil, and the Pelasgian-built walls.",
+    "stakes": "",
+    "present": [
+     "Cylon",
+     "Phidias",
+     "Mys",
+     "Parrhasius",
+     "Pericles",
+     "Cimon",
+     "Agrolas",
+     "Hyperbius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Acropolis",
+     "modern_name": "Acropolis of Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 13,
+    "title": "Cave of Apollo and Pan",
+    "summary": "Below the Propylaea stands a cave of Apollo, and Pan is honoured for the message Philippides received.",
+    "stakes": "Athens faces the Persian invasion at Marathon, with Sparta delaying help.",
+    "present": [
+     "Apollo",
+     "Creusa",
+     "Pan",
+     "Philippides"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Below the Propylaea",
+     "modern_name": "North slope of the Acropolis, Athens",
+     "certainty": "real",
+     "lat": 37.9724,
+     "lon": 23.7258
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 24,
+    "title": "The Areopagus and its shrines",
+    "summary": "Pausanias describes the Areopagus, the trials of Ares and Orestes, the Venerable Ones and the tomb of Oedipus.",
+    "stakes": "Orestes risks punishment for killing his mother.",
+    "present": [
+     "Ares",
+     "Halirrhothius",
+     "Orestes",
+     "Athene",
+     "Pluto",
+     "Hermes",
+     "Earth",
+     "Oedipus",
+     "Hesiod",
+     "Aeschylus",
+     "Sophocles",
+     "Homer",
+     "Mecisteus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Areopagus",
+     "modern_name": "Areopagus Hill, Athens",
+     "certainty": "real",
+     "lat": 37.9713,
+     "lon": 23.723
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 41,
+    "title": "The Athenian law-courts",
+    "summary": "Pausanias lists the courts and tells of Demophon, Theseus, the axe tried at the Prytaneum and Teucer's defence.",
+    "stakes": "Defendants such as Demophon and Theseus face trial for killing.",
+    "present": [
+     "Demophon",
+     "Diomede",
+     "Theseus",
+     "Pallas",
+     "Erechtheus",
+     "Ox-killer",
+     "Teucer",
+     "Telamon",
+     "Ajax",
+     "Cambyses"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens law-courts",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9755,
+     "lon": 23.7224
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cylon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Olympic victor who plotted to rule Athens"
+   },
+   {
+    "name": "Theagenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Megara, father-in-law of Cylon"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the bronze Athene"
+   },
+   {
+    "name": "Mys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "engraver of the shield"
+   },
+   {
+    "name": "Parrhasius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "painter who drew outlines for Mys"
+   },
+   {
+    "name": "Pericles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Xanthippus, honoured with a statue"
+   },
+   {
+    "name": "Xanthippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pericles"
+   },
+   {
+    "name": "Cimon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Miltiades, wall builder"
+   },
+   {
+    "name": "Miltiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cimon"
+   },
+   {
+    "name": "Agrolas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Pelasgian wall builder"
+   },
+   {
+    "name": "Hyperbius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Pelasgian wall builder"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a cave temple"
+   },
+   {
+    "name": "Creusa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Erechtheus, loved by Apollo"
+   },
+   {
+    "name": "Erechtheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Athens"
+   },
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who promised help at Marathon"
+   },
+   {
+    "name": "Philippides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "messenger sent to Lacedaemon"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "first tried at the Areopagus"
+   },
+   {
+    "name": "Halirrhothius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man slain by Ares"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tried for killing his mother"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Athene Area"
+    ],
+    "kind": "goddess",
+    "description": "goddess with statues and an altar"
+   },
+   {
+    "name": "Erinnyes",
+    "aliases": [
+     "Venerable Ones"
+    ],
+    "kind": "goddess",
+    "description": "goddesses with a temple by the Areopagus"
+   },
+   {
+    "name": "Pluto",
+    "aliases": [],
+    "kind": "god",
+    "description": "infernal god with a statue"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a statue"
+   },
+   {
+    "name": "Earth",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a statue"
+   },
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "his tomb is at the Areopagus"
+   },
+   {
+    "name": "Hesiod",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet of the Theogony"
+   },
+   {
+    "name": "Aeschylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tragedian who gave the Erinnyes snakes"
+   },
+   {
+    "name": "Sophocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tragedian on Oedipus's death"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet cited on Oedipus's funeral games"
+   },
+   {
+    "name": "Mecisteus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "competitor at Oedipus's funeral games"
+   },
+   {
+    "name": "Demophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first man tried at the Palladium"
+   },
+   {
+    "name": "Diomede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive leader returning from Troy"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "acquitted of killing Pallas and sons"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killed by Theseus"
+   },
+   {
+    "name": "Ox-killer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man who killed an ox and fled"
+   },
+   {
+    "name": "Teucer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "defended himself before Telamon"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father judging Teucer"
+   },
+   {
+    "name": "Ajax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man whose death Teucer was charged over"
+   },
+   {
+    "name": "Cambyses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king whose scimitar killed him"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Xanthippus",
+    "relation": "parent_of",
+    "b": "Pericles",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Miltiades",
+    "relation": "parent_of",
+    "b": "Cimon",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Erechtheus",
+    "relation": "parent_of",
+    "b": "Creusa",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Creusa",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Theagenes",
+    "relation": "parent_of",
+    "b": "Cylon",
+    "source": "outside",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "The Venerable Ones",
+    "canonical": "Erinnyes",
+    "explanation": "The Athenian cult name for the goddesses Hesiod calls the Erinnyes."
+   },
+   {
+    "alias": "Athene Area",
+    "canonical": "Athene",
+    "explanation": "Athene worshipped under the title Area at an altar set up by Orestes."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 18,
+    "reason": "Memorable names of the two stones in the court: Rigour-of-the-law and Impudence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "reason": "Describes the strange annual trial of an axe for killing an ox.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links monuments and institutions to myth, showing Athenian law as rooted in divine and heroic precedent.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage records Athenian homicide courts and ritual trials of objects, giving rare evidence of early legal practice.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Areopagus became a lasting name for a supreme council; Aeschylus's Eumenides had already dramatised its founding."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias doubts Sophocles' account of Oedipus's death, preferring Homer's mention of funeral games at Thebes.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Cylon, an Olympic victor, tried to seize tyranny at Athens around 632 BC; the plot failed and his followers were killed after leaving sanctuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "The \"double course\" was the diaulos, a foot race of two stadium lengths, up and back.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Mys and Parrhasius were artists; Parrhasius, a famous painter, is said to have drawn the designs that Mys engraved on the shield.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Votive offerings\" are gifts dedicated to a god in thanks or fulfilment of a vow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Pelasgians\" were a name for pre-Greek inhabitants; Greek writers used it vaguely for early peoples, and the walls were attributed to them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The Lacedæmonians (Spartans) delayed their march because of a religious rule about waiting for the full moon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "The stones' names are Greek personifications: Hybris (Impudence, insolent outrage) for the accused's stone and Anaideia, Ruthlessness, for the accuser's, here rendered 'Rigour-of-the-law' and 'Impudence'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "'The Venerable Ones' (Semnai) is a respectful, placating name for the Erinnyes, the Furies, avenging spirits of bloodguilt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "'Trumpery' means trivial or worthless; the Parabystum court dealt with petty cases, as its name 'Crush' suggests.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "Diomede, an Argive hero, returned from the Trojan War (Ilium is Troy). Phalerum was an Athenian harbour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "allusion",
+    "text": "The Bouphonia ritual: a man killed an ox at the altar, fled, and the axe was tried. 'Ox-killer' translates the name Bouphonos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "The scimetar of Cambyses refers to the Persian king's sword that wounded him fatally, according to Herodotus, as an accident.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "allusion",
+    "text": "Teucer returned from Troy to his father Telamon, who blamed him for not preventing the suicide of his half-brother Ajax.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "This bronze Athene is the Athene Promachos by Phidias, a colossal statue on the Acropolis funded by spoil from the Persian wars.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Sunium is the headland at the southern tip of Attica, with a famous temple of Poseidon, and sailors approaching Athens passed it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Creusa was a daughter of the Athenian king Erechtheus; in myth she bore Apollo's son Ion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Marathon (490 BC) was where the Athenians defeated the first Persian invasion; Philippides ran to Sparta to seek help beforehand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "The Areopagus, 'Hill of Ares', was a rocky hill near the Acropolis and the seat of Athens' oldest court, which tried homicide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Orestes killed his mother Clytemnestra to avenge his father Agamemnon; Athene's role in his acquittal is the subject of Aeschylus' Eumenides.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Aeschylus staged the Furies in his Eumenides, where their frightening appearance reportedly terrified the audience.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "The Palladium court was named for the Palladium, an ancient image of Athene; it judged unintentional killings and killings of non-citizens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Theseus, legendary king of Athens, killed his cousins the Pallantidae, who had revolted against him.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "narrative voice",
+    "text": "Pausanias openly admits ignorance, giving the guide a candid, personal voice that separates what he knows from what he guesses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "device": "characterization",
+    "text": "Cylon is sketched through beauty, athletic fame and marriage, which suggests why Athenians might honour him despite his treason.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "Pan gains a cult from a brief, reported encounter, and the plain closing line makes a divine honour seem small and dryly practical.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "contrast",
+    "text": "Pausanias sets the dramatist's frightening Furies against the calm cult statues, correcting literary imagination with what he has actually seen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a critical traveller, weighing Sophocles against Homer and his own inquiries to settle where Oedipus lies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "irony",
+    "text": "Trying lifeless objects as if they were people has a strange, almost absurd legalism, showing the Athenians' intense dread of bloodguilt.",
+    "spoiler": false
+   }
+  ]
+ }
+}

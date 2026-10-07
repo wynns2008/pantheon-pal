@@ -1,0 +1,483 @@
+{
+ "section_id": "pausanias-body-324",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11652,
+  "output": 4279
+ },
+ "result": {
+  "summary": "Pausanias describes the road from Daulis toward Delphi, the Phocicum assembly hall and the Cross-roads where Œdipus killed Laius. He then recounts varying traditions about the Delphic oracle's founders and the successive temples of Apollo.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Daulis road and the Phocicum",
+    "summary": "Pausanias describes the ascent of Parnassus from Daulis and the Phocian assembly hall with its statues of Zeus, Athene and Hera.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Athene",
+     "Hera"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phocicum, near Daulis",
+     "modern_name": "Daulis, Phocis",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 22.7
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 13,
+    "title": "The Cross-roads of Œdipus",
+    "summary": "At the meeting of three roads Œdipus killed his father; Laius and his attendant are buried there by Damasistratus.",
+    "stakes": "Œdipus is fated to suffer woes after killing his father.",
+    "present": [
+     "Œdipus",
+     "Laius",
+     "Damasistratus",
+     "Eteocles"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "the Cross-roads",
+     "modern_name": "Schiste junction, near Davleia",
+     "certainty": "traditional",
+     "lat": 38.5,
+     "lon": 22.65
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 28,
+    "title": "Who first held the oracle",
+    "summary": "Pausanias reports traditions that the oracle belonged to Earth, then Poseidon, Themis and Apollo, and about its first prophets.",
+    "stakes": "",
+    "present": [
+     "Earth",
+     "Daphnis",
+     "Musæus",
+     "Poseidon",
+     "Pyrcon",
+     "Themis",
+     "Apollo",
+     "Phemonoe",
+     "Bœo",
+     "Olen",
+     "Pegasus",
+     "Aguieus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 29,
+    "end_sentence": 41,
+    "title": "The five temples of Apollo",
+    "summary": "Pausanias lists the temples at Delphi: laurel, wax and wings, brass, stone, and the present one, doubting some legends.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Pteras",
+     "Pindar",
+     "Trophonius",
+     "Agamedes",
+     "Spintharus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose statue stands enthroned in the Phocicum"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a statue in the Phocicum"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a statue in the Phocicum"
+   },
+   {
+    "name": "Œdipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man who killed his father at the Cross-roads"
+   },
+   {
+    "name": "Laius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Œdipus, killed and buried at the Cross-roads"
+   },
+   {
+    "name": "Damasistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Platæa who buried Laius"
+   },
+   {
+    "name": "Eteocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban whose injustice made Thebes famous"
+   },
+   {
+    "name": "Earth",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "earliest holder of the Delphic oracle"
+   },
+   {
+    "name": "Daphnis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Mountain Nymph, priestess of Earth's oracle"
+   },
+   {
+    "name": "Musæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "reputed author of the Eumolpia, son of Antiophemus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "shared the oracle with Earth, later received Calauria"
+   },
+   {
+    "name": "Pyrcon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poseidon's priest and interpreter"
+   },
+   {
+    "name": "Themis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "received the oracle from Earth"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phœbus"
+    ],
+    "kind": "god",
+    "description": "god of the Delphic oracle"
+   },
+   {
+    "name": "Phemonoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first priestess of Apollo, first to use hexameters"
+   },
+   {
+    "name": "Bœo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phocian woman who composed a Hymn for Delphi"
+   },
+   {
+    "name": "Olen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hyperborean, said to be Apollo's first prophet"
+   },
+   {
+    "name": "Pegasus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hyperborean who helped found the oracle"
+   },
+   {
+    "name": "Aguieus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hyperborean who helped found the oracle"
+   },
+   {
+    "name": "Pteras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Delphian said to have built the second temple"
+   },
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who sang of golden songsters"
+   },
+   {
+    "name": "Trophonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "builder of the stone temple with Agamedes"
+   },
+   {
+    "name": "Agamedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "builder of the stone temple with Trophonius"
+   },
+   {
+    "name": "Spintharus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian architect of the present temple"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Laius",
+    "relation": "parent_of",
+    "b": "Œdipus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Antiophemus",
+    "relation": "parent_of",
+    "b": "Musæus",
+    "source": "text",
+    "evidence_sentence": 16
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phœbus",
+    "canonical": "Apollo",
+    "explanation": "Phœbus is a title of Apollo used in Bœo's hymn."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 27,
+    "reason": "Bœo's claim that Olen was first prophet and first to versify oracles.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs competing local traditions and rejects those he finds implausible, showing his critical method.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The succession of temples and oracle owners reflects Delphi's prestige and how Greeks explained its origins, including links to the Hyperboreans.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias dates the fourth temple's burning by the Athenian archon and the Olympic victor, about 548 BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Phocicum is the Phocians' common council hall, named from Phocis, the region whose towns sent delegates to it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Oedipus's name, 'swollen foot', comes from this piercing; the infant was exposed because of a prophecy that he would kill his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "'Polluted' means ritually defiled by bloodshed, especially the killing of a kinsman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Refers to Oedipus's unwitting marriage to his mother Jocasta, and to his son Eteocles's wrongdoing in the quarrel with Polynices over the throne of Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "'Unhewn stones' are rough, uncut stones piled up as a simple grave marker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The Eumolpia is a lost epic poem about Eumolpus, founder of the Eleusinian Mysteries; it was attributed to Musæus, a legendary early poet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Meeting with the oracle\" means coming upon the chasm by chance; the vapour was said to rise from a cleft in the ground.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Hexameters are lines of six metrical feet, the standard verse form of epic poetry and of Delphic oracles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "The Hyperboreans were a legendary people living far to the north, said to be especially beloved by Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Tempe is a valley in Thessaly; Apollo was said to have been purified there, and laurel from it was used in Delphic ritual.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "The Hyperboreans were a legendary people dwelling far north, beyond the north wind, and were favoured by Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "phrasing",
+    "text": "Pausanias derives the name from Pteras (Greek pteron, wing); adding a letter, Apteræi, a Cretan city, is said to be named similarly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "allusion",
+    "text": "Acrisius, king of Argos, shut his daughter Danaë in a bronze chamber, yet Jove reached her as a shower of gold.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "Hephæstus is the divine smith, so a bronze temple by him is a legend Pausanias rejects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "word",
+    "text": "Charmers translates the Greek Keledones, enchanting singers; here they are golden figures, perhaps statues, singing above the pediment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "phrasing",
+    "text": "Dating is by the Athenian archon and Olympic victor, the Greek way of naming years; this corresponds to about 548 BC.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Zeus, Athene and Hera were major Greek gods; placing them in the assembly hall put the Phocian meetings under divine protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Damasistratus, king of Plataea, is said to have given the unburied Laius and his attendant proper burial.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Themis is a goddess of divine law and order. Calauria was a small island off Trœzen in the Argolid, sacred to Poseidon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Aguieus is a title of Apollo as guardian of streets and roads; here it is also the name of a Hyperborean.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "The Lacedæmonians are the Spartans; their bronze-housed Athene Chalciœcus temple stood on the Spartan acropolis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "text": "Trophonius and Agamedes were legendary architect brothers, said to have built Apollo's stone temple at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "text": "The Amphictyones were the league of neighbouring peoples that administered Delphi's sanctuary.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "fate",
+    "text": "This brief remark frames Oedipus's story as predestined, echoing the tragic theme that his doom could not be avoided.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "symbolism",
+    "text": "The crossroads, where three roads meet, marks the point where Oedipus's life turns to disaster, and the stone-heaped graves make it a lasting monument to that moment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "narrative voice",
+    "text": "Pausanias frames himself as a careful collector of competing traditions, signalling that he reports rather than endorses any single account.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "irony",
+    "text": "The closing remark quietly undercuts Bœo's claim that a man, Olen, came first, reasserting the tradition of female prophets.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "characterization",
+    "text": "Pausanias' dry rationalizing comment shows his narrative voice: he sets legend beside practical reasoning rather than simply repeating it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "narrative voice",
+    "text": "The first-person rejection shows the author weighing sources and judging myth critically.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "allusion",
+    "text": "Linking Pindar's golden singers to Homer's Sirens offers a literary explanation for a myth, treating it as poetic invention.",
+    "spoiler": false
+   }
+  ]
+ }
+}

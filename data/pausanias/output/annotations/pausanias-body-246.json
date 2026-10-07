@@ -1,0 +1,304 @@
+{
+ "section_id": "pausanias-body-246",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7988,
+  "output": 2749
+ },
+ "result": {
+  "summary": "Pausanias describes Stymphelus in Arcadia, its ancient founder and the tradition of Hera's three temples, and its spring and river that goes underground. He discusses the man-eating Stymphelian birds and Hercules, the Arabian birds of the same name, the temple of Stymphelian Artemis, and a flood that ended when a hunter and deer vanished into a chasm.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Stymphelus and Hera's temples",
+    "summary": "Pausanias returns to Stymphelus, notes its Arcadian origin, and tells how Temenus raised Hera and built three temples to her.",
+    "stakes": "",
+    "present": [
+     "Temenus",
+     "Hera",
+     "Zeus",
+     "Stymphelus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Stymphelus",
+     "modern_name": "Stymfalia, Corinthia",
+     "certainty": "real",
+     "lat": 37.85,
+     "lon": 22.46
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 17,
+    "title": "The spring, river and birds",
+    "summary": "Pausanias describes the spring, the river that sinks and reappears as the Erasinus, and the birds that Hercules killed or scared away, comparing them with Arabian birds.",
+    "stakes": "People on the river banks are in danger from the man-eating birds.",
+    "present": [
+     "Hercules",
+     "Pisander of Camirus",
+     "Adrian"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Stymphelus",
+     "modern_name": "Stymfalia, Corinthia",
+     "certainty": "real",
+     "lat": 37.85,
+     "lon": 22.46
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 21,
+    "title": "Temple of Stymphelian Artemis",
+    "summary": "Pausanias describes the old temple, its gilded wooden statue, the bird images on the roof and the bird-legged maidens behind.",
+    "stakes": "",
+    "present": [
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Stymphelus",
+     "modern_name": "Stymfalia, Corinthia",
+     "certainty": "real",
+     "lat": 37.85,
+     "lon": 22.46
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 26,
+    "title": "The flood and the hunter",
+    "summary": "During a careless festival a fallen tree blocks the river's chasm and floods the plain, until a hunter and deer fall in and the water drains. The festival is afterwards kept with more zeal.",
+    "stakes": "The plain is flooded, and the hunter is swallowed by the chasm.",
+    "present": [],
+    "told_as_story": true,
+    "place": {
+     "name": "Plain of Stymphelus",
+     "modern_name": "Stymfalia, Corinthia",
+     "certainty": "real",
+     "lat": 37.85,
+     "lon": 22.46
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Stymphelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of the town, great grandson of Arcas"
+   },
+   {
+    "name": "Arcas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of the Arcadians, son of Callisto"
+   },
+   {
+    "name": "Callisto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Arcas"
+   },
+   {
+    "name": "Temenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Pelasgus, who brought up Hera"
+   },
+   {
+    "name": "Pelasgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Temenus"
+   },
+   {
+    "name": "Hera",
+    "aliases": [
+     "Child-goddess",
+     "Full-grown",
+     "Widow"
+    ],
+    "kind": "goddess",
+    "description": "goddess raised at Stymphelus, worshipped under three titles"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "husband of Hera"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who drove off the birds"
+   },
+   {
+    "name": "Pisander of Camirus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who said Hercules scared the birds with rattles"
+   },
+   {
+    "name": "Adrian",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor who brought water to Corinth"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Stymphelian Artemis"
+    ],
+    "kind": "goddess",
+    "description": "goddess worshipped in a temple at Stymphelus"
+   },
+   {
+    "name": "Stymphelides",
+    "aliases": [],
+    "kind": "creature",
+    "description": "man-eating birds of Stymphelus and Arabia"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Callisto",
+    "relation": "parent_of",
+    "b": "Arcas",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Pelasgus",
+    "relation": "parent_of",
+    "b": "Temenus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Widow",
+    "canonical": "Hera",
+    "explanation": "Title Temenus gave Hera after she left Zeus."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs local myth against rational explanation, such as whether the birds came from Arabia, while recording cult details and religious duty.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The mention of Hadrian's aqueduct to Corinth shows Roman imperial building in Greece, and the Argolic League note shows Arcadia's changed political ties.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Stymphalian birds became one of the labours of Hercules, often depicted in Greek and later art."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias admits he cannot tell whether the roof birds are wood or plaster, a sign of his careful eyewitness style.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "The Argolic League means the federation centred on Argos; the Stymphelians had chosen to join it rather than the Arcadian communities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "The three titles are the cult epithets of Hera: Child (Pais), Full-grown (Teleia), and Widow (Chera). The text gives the names in English translation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Pisander of Camirus was an early Greek epic poet who wrote a Heracles poem. Pausanias cites him for a rival version of the labour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Bird-lime is a sticky substance smeared on twigs to trap small birds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "A stade (stadion) was a Greek unit of length, roughly 180–200 metres, so the flooded area is described by its circuit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "The italicised clause explains the draining: the hunter and deer, by falling in, cleared the blocked passage so the water could escape.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 7,
+    "text": "Adrian is the Roman emperor Hadrian (ruled AD 117–138), who built many public works, including aqueducts, in Greek cities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Pausanias reports the belief that the river flows underground and re-emerges in Argolis as the Erasinus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Killing the Stymphalian birds was one of the labours of Hercules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Artemis was the goddess of hunting and wild places, so her cult at a marshy, bird-haunted spring is fitting.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 14,
+    "device": "simile",
+    "text": "The wings of little birds stuck in bird-lime vividly compare easy penetration of thick matting to helpless entanglement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "narrative voice",
+    "text": "Pausanias reasons cautiously as a scholar-traveller, admitting ignorance and offering a speculative theory about the birds' origin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "irony",
+    "text": "The flood punishes careless worship, and the closing note of renewed zeal gives the story a moral about piety.",
+    "spoiler": false
+   }
+  ]
+ }
+}

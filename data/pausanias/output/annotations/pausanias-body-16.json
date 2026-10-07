@@ -1,0 +1,288 @@
+{
+ "section_id": "pausanias-body-16",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6619,
+  "output": 2549
+ },
+ "result": {
+  "summary": "Pausanias describes statues of Solon and Seleucus near the portico at Athens. He tells of Seleucus's omens, his wars against Antigonus and Demetrius, and his murder by Ptolemy Lightning. He ends by praising Seleucus as pious.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Statues and the omen at Pella",
+    "summary": "Pausanias notes the statues of Solon and Seleucus, then tells how the wood on the altar at Pella flared up by itself when Seleucus sacrificed.",
+    "stakes": "",
+    "present": [
+     "Seleucus",
+     "Solon",
+     "Zeus",
+     "Alexander"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pella",
+     "modern_name": "Pella, Greece",
+     "certainty": "real",
+     "lat": 40.76,
+     "lon": 22.52
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 4,
+    "title": "Rise and murder of Seleucus",
+    "summary": "After Alexander's death Seleucus flees, returns and defeats Antigonus and captures Demetrius. He then marches to Macedonia, where Ptolemy Lightning murders him at Lysimachia.",
+    "stakes": "Seleucus risks his life and kingdom against Antigonus, and is finally killed by Ptolemy.",
+    "present": [
+     "Seleucus",
+     "Antigonus",
+     "Ptolemy son of Lagus",
+     "Demetrius",
+     "Lysimachus",
+     "Antiochus",
+     "Ptolemy Lightning",
+     "Lysandra"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lysimachia",
+     "modern_name": "near Bolayır, Gallipoli peninsula, Turkey",
+     "certainty": "real",
+     "lat": 40.5,
+     "lon": 26.75
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 6,
+    "title": "Seleucus's piety",
+    "summary": "Pausanias argues that Seleucus was upright and religious, citing the return of the Apollo to Branchidæ and his sparing of Babylon's wall and temple.",
+    "stakes": "",
+    "present": [
+     "Seleucus",
+     "Xerxes",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Branchidæ",
+     "modern_name": "Didyma, Turkey",
+     "certainty": "real",
+     "lat": 37.39,
+     "lon": 27.26
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Solon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian legislator with a bronze statue"
+   },
+   {
+    "name": "Seleucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Successor of Alexander, pious king, founder of Seleucia"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king whom Seleucus accompanied"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God to whom Seleucus sacrificed at Pella"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Rival defeated and killed by Seleucus"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Antigonus, captured by Seleucus"
+   },
+   {
+    "name": "Ptolemy son of Lagus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler to whom Seleucus fled"
+   },
+   {
+    "name": "Lysimachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King whose power collapsed"
+   },
+   {
+    "name": "Antiochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Seleucus, given power in Asia Minor"
+   },
+   {
+    "name": "Ptolemy Lightning",
+    "aliases": [
+     "Lightning"
+    ],
+    "kind": "mortal",
+    "description": "Bold brother of Lysandra who murdered Seleucus"
+   },
+   {
+    "name": "Lysandra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sister of Ptolemy Lightning"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king who carried off the bronze Apollo"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "God whose bronze statue was returned to Branchidæ"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Antigonus",
+    "relation": "parent_of",
+    "b": "Demetrius",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Seleucus",
+    "relation": "parent_of",
+    "b": "Antiochus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Lagus",
+    "relation": "parent_of",
+    "b": "Ptolemy son of Lagus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Lysandra",
+    "relation": "sibling_of",
+    "b": "Ptolemy Lightning",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lightning",
+    "canonical": "Ptolemy Lightning",
+    "explanation": "Nickname given to Ptolemy for his boldness and daring."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Vivid omen of Seleucus's future greatness: wood bursts into flame without fire.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links divine omens and piety to worldly success, presenting Seleucus as a model of religious conduct.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage compresses the Wars of the Successors after Alexander and the Gallic invasion of Macedonia around 280 BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Ptolemy Lightning, called Keraunos in Greek, died fighting the Gauls in 279 BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "The wood moving \"of its own accord\" and igniting \"without fire\" describes a miraculous omen, taken as a sign of divine favour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Galati\" is this translation's form for the Gauls (Galatians), Celtic invaders who attacked Macedonia and Greece in the 270s BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Lightning\" translates the Greek Keraunos, a nickname for Ptolemy Ceraunus, expressing his violent, sudden nature.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Xerxes, the Persian king who invaded Greece in 480 BC, was said to have carried off the Apollo statue from Branchidæ near Miletus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The portico stands in Athens; Solon (c. 640–560 BC) was the lawgiver who reformed Athenian government and law.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Antigonus and Demetrius were rival successors (Diadochi) fighting over Alexander's empire; Ptolemy, son of Lagus, ruled Egypt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Bel was the chief god of Babylon; the Chaldæans were its priestly class, known for astronomy and astrology.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "foreshadowing",
+    "text": "The self-kindling altar fire prefigures Seleucus's later rise to kingship, as the opening sentence announces.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "epithet",
+    "text": "The nickname \"Lightning\" sums up Ptolemy's rashness and sudden violence, matching his act of murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "narrative voice",
+    "text": "Pausanias steps in with a personal judgment (\"I am persuaded\"), then supports it with evidence in the next sentence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

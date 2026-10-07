@@ -1,0 +1,296 @@
+{
+ "section_id": "pausanias-body-105",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8386,
+  "output": 2558
+ },
+ "result": {
+  "summary": "Pausanias describes the coast of Laconia around Bœæ, Cythera, Malea and Epidaurus Limera. He tells how the statue of Apollo came from Delos to Epidelium after Menophanes sacked Delos, and how Epidaurians settled Epidaurus Limera after their sacred dragon escaped.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Cythera and the coast",
+    "summary": "Pausanias gives distances and sights at Cythera, with its ancient temple of Celestial Aphrodite, and the harbour Nymphæum on the way to Malea.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Cythera",
+     "modern_name": "Kythira",
+     "certainty": "real",
+     "lat": 36.15,
+     "lon": 22.99
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 10,
+    "title": "The statue from Delos",
+    "summary": "At Epidelium he explains the name: Menophanes, a general of Mithridates, sacked Delos and a barbarian threw the statue of Apollo into the sea. Menophanes and Mithridates both met punishment from the god.",
+    "stakes": "Delos and its people face massacre and plunder; the offenders face the god's wrath.",
+    "present": [
+     "Menophanes",
+     "Mithridates",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delos",
+     "modern_name": "Delos",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 25.27
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 20,
+    "title": "Epidaurus Limera and the dragon",
+    "summary": "Epidaurians bound for Cos settled here after their dragon of Æsculapius dived into a hole. Pausanias describes the water of Ino, used for divination, and compares it with Ætna.",
+    "stakes": "",
+    "present": [
+     "Æsculapius",
+     "Ino"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Epidaurus Limera",
+     "modern_name": "Epidavros Limera (Monemvasia area)",
+     "certainty": "real",
+     "lat": 36.77,
+     "lon": 23.03
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 25,
+    "title": "Sights of Epidaurus Limera",
+    "summary": "He lists the temples, the promontory Minoa and the pebbled shore.",
+    "stakes": "",
+    "present": [
+     "Artemis",
+     "Aphrodite",
+     "Æsculapius",
+     "Athene",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Epidaurus Limera",
+     "modern_name": "Epidavros Limera (Monemvasia area)",
+     "certainty": "real",
+     "lat": 36.77,
+     "lon": 23.03
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Menophanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "general of Mithridates who sacked Delos"
+   },
+   {
+    "name": "Mithridates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who was driven by the Romans to death"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose wooden statue was cast from Delos to Epidelium"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "healing god honoured with altars at Epidaurus Limera"
+   },
+   {
+    "name": "Ino",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "honoured at a water where barley cakes are thrown"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Celestial Aphrodite"
+    ],
+    "kind": "goddess",
+    "description": "goddess with an ancient armed statue on Cythera"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "statue at Nymphæum"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Limnas"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a temple on the road"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "temple in the citadel"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Zeus Soter"
+    ],
+    "kind": "god",
+    "description": "temple before the harbour"
+   }
+  ],
+  "relationships": [],
+  "alias_notes": [
+   {
+    "alias": "Limnas",
+    "canonical": "Artemis",
+    "explanation": "Epidaurians' cult title for Artemis, 'of the marsh'."
+   },
+   {
+    "alias": "Zeus Soter",
+    "canonical": "Zeus",
+    "explanation": "Zeus the Saviour."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 6,
+    "reason": "Vivid account of the sack of Delos, with the remark that divine things come after gain.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Divine punishment of impiety recurs: those who outrage Apollo's sanctuary come to ruin.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The sack of Delos in 88 BC under Mithridates' general ended its role as a great trading centre.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias compares the Ino pool's barley-cake omen to offerings thrown into Ætna's craters.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade is a Greek unit of length, roughly 180–200 metres, so 4 stades is under a kilometre.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Double the promontory\" means to sail around it and past it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Epidelium means roughly \"upon Delos\" or \"after Delos\"; the name marks where the statue from Delos came ashore.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Emporium\" means a trading centre or market; \"lucre\" is money, usually with a sense of greed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Delos was sacked in 88 BC during the Mithridatic wars; Mithridates was king of Pontus and fought Rome.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Æsculapius was the healing god; his chief shrine was at Epidaurus, and Cos also had a famous healing sanctuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Ino was a mortal woman who became the sea goddess Leucothea; barley cakes were a common offering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Eminence\" here means a raised piece of ground.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Aphrodite Urania (\"Celestial\") was worshipped as a heavenly goddess of love. An armed Aphrodite was unusual and was linked to Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Delos was the sacred island of Apollo and a major trading hub, protected by the god's sanctity and without walls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Æsculapius's sacred animal was the serpent, so the dragon (a large snake) counted as the god's presence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Ætna is the volcano in Sicily, which Pausanias compares for its power of divination.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "aside",
+    "text": "The parenthetical moral comment on greed shows Pausanias' voice judging the general, putting profit above religion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "symbolism",
+    "text": "The statue cast into the sea and washed ashore shows the god's presence surviving the sacrilege.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "irony",
+    "text": "The plunderers of the god's island are hunted down by the god himself, and Mithridates is made his own executioner.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "narrative voice",
+    "text": "A brief moral summary closes the story, showing Pausanias' belief that impiety is punished.",
+    "spoiler": false
+   }
+  ]
+ }
+}

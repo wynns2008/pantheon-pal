@@ -1,0 +1,450 @@
+{
+ "section_id": "aeschylus-body-8",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 16335,
+  "output": 4363
+ },
+ "result": {
+  "summary": "Electra finds a lock of hair and footprints at her father's tomb and hopes her brother Orestes has come. Orestes reveals himself, and the two, with the Chorus, pray to Zeus and the dead Agamemnon and resolve on vengeance, backed by Apollo's oracle.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 53,
+    "title": "The lock of hair and footprints",
+    "summary": "After the libations, Electra finds a shorn lock and footprints at the tomb. She reasons that they must be Orestes' and is overwhelmed with hope and doubt.",
+    "stakes": "Electra risks false hope about her absent brother while living under her hated mother's rule.",
+    "present": [
+     "Electra",
+     "Chorus",
+     "Orestes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the tomb of Agamemnon",
+     "modern_name": "Mycenae",
+     "certainty": "traditional",
+     "lat": 37.73,
+     "lon": 22.76
+    }
+   },
+   {
+    "start_sentence": 54,
+    "end_sentence": 98,
+    "title": "Orestes revealed",
+    "summary": "Orestes steps forward and proves who he is with the hair and Electra's weaving. Electra greets him with joy, and both appeal to Zeus to save the orphaned family.",
+    "stakes": "The last children of Agamemnon's house may be destroyed, and Orestes' identity could be betrayed by enemies.",
+    "present": [
+     "Orestes",
+     "Electra",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the tomb of Agamemnon",
+     "modern_name": "Mycenae",
+     "certainty": "traditional",
+     "lat": 37.73,
+     "lon": 22.76
+    }
+   },
+   {
+    "start_sentence": 99,
+    "end_sentence": 138,
+    "title": "Oracle and lament",
+    "summary": "The Chorus urges quiet. Orestes recounts Loxias' oracle commanding vengeance and threatening him with horrors if he fails, and the three join in lament for Agamemnon.",
+    "stakes": "Orestes faces the god's punishment of disease, madness and exile if he fails to avenge his father.",
+    "present": [
+     "Orestes",
+     "Chorus",
+     "Electra",
+     "Loxias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the tomb of Agamemnon",
+     "modern_name": "Mycenae",
+     "certainty": "traditional",
+     "lat": 37.73,
+     "lon": 22.76
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Electra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of the murdered king, mourning at his tomb"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Exiled son of the dead king, returned to avenge him"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Women attendants who bring libations to the tomb"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Supreme god invoked to aid the cause"
+   },
+   {
+    "name": "Loxias",
+    "aliases": [],
+    "kind": "god",
+    "description": "God whose oracle commands Orestes to avenge his father"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Orestes",
+    "relation": "sibling_of",
+    "b": "Electra",
+    "source": "text",
+    "evidence_sentence": 83
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Loxias",
+    "canonical": "Apollo",
+    "explanation": "Loxias is a title of Apollo as god of oracles; this translation uses only Loxias."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 113,
+    "reason": "A proverb of retribution: what one does will be done to one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 112,
+    "reason": "Justice's cry for blood for blood sums up the play's moral logic.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The recognition scene joins grief to resolve. Orestes is driven by divine command, family loyalty and shame at being ruled by women.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The oracle's threats show Greek belief in the Furies and in blood-guilt that falls on those who neglect a murdered kinsman.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The recognition by a lock of hair was much discussed and parodied; Euripides' Electra mocks it, and Aristotle's Poetics discusses recognition scenes."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Euripides' Electra ridicules this recognition by a lock and footprints as too naive.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "The libations are meant to ward off the pollution of the murder; the Chorus hopes the offering will turn evil away from the innocent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The Scythian bow refers to the archers of the northern steppe, famed for archery; the Chorus longs for a warrior-deliverer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Brand means sword; hilted means fitted with a handle or hilt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Deep-girdled describes a woman wearing her belt low, a Homeric-style epithet for a mature, full-robed woman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "Let my age be lessoned by thy youth: the older Chorus asks the younger Electra to teach it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "The Chorus means Electra's foes would never offer their hair in mourning, so the giver must be a friend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "phrasing",
+    "text": "Electra rules out Clytemnestra: a mother who murdered her husband and mistreats her children would not give mourning hair.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "phrasing",
+    "text": "The seed and stock image means a small sign could grow into great deliverance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "word",
+    "text": "Tendons' markings refers to the impressions of the foot's shape in the earth, which Electra compares with her own.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "kind": "word",
+    "text": "\"Empassioned\" means deeply moved or full of passionate feeling; Orestes says she feels intense longing for Orestes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "kind": "phrasing",
+    "text": "\"Weaving a snare\" is figurative: Electra suspects a trick being plotted, using the language of the loom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 82,
+    "kind": "allusion",
+    "text": "Refers to the lock of hair and footprints Electra found at the tomb earlier in the scene, which made her suspect Orestes had come.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "kind": "word",
+    "text": "A \"batten\" is the loom's beam used to beat the weft threads tight; \"batten strokes\" means the woven pattern Electra made.",
+    "spoiler": false
+   },
+   {
+    "sentence": 86,
+    "kind": "phrasing",
+    "text": "\"Our nearest kin\" are the mother Clytemnestra and her partner Aegisthus, who are hostile to both children; \"us twain\" means us two.",
+    "spoiler": false
+   },
+   {
+    "sentence": 89,
+    "kind": "allusion",
+    "text": "The sister is Iphigenia, sacrificed by Agamemnon at Aulis so the Greek fleet could sail to Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 90,
+    "kind": "allusion",
+    "text": "Electra names Might, Justice and Zeus as a trio of allies; the footnote marks this as a notable grouping of powers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 100,
+    "kind": "phrasing",
+    "text": "The Chorus prays that their masters (Clytemnestra and Aegisthus) may be seen burning in pitch-black flames; 'pitchy ooze of flame' is a vivid image of fiery destruction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "kind": "word",
+    "text": "Loxias is a title of Apollo, god of prophecy, whose Delphic oracle ordered Orestes to avenge his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 104,
+    "kind": "phrasing",
+    "text": "The 'white down' sprouting on the flesh describes a disease of leprous ulcers, with white hair growing over the sores.",
+    "spoiler": false
+   },
+   {
+    "sentence": 105,
+    "kind": "word",
+    "text": "Avenging Spirits translates the Erinyes (Furies), who punish the shedding of kindred blood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 109,
+    "kind": "phrasing",
+    "text": "'Pinch of poverty' refers to Orestes' lost inheritance; 'a brace of women' contemptuously means two women, Clytemnestra and Aegisthus, whom he calls womanish.",
+    "spoiler": false
+   },
+   {
+    "sentence": 113,
+    "kind": "phrasing",
+    "text": "The 'precept thrice-aged' is an ancient proverb of retributive justice: the doer must suffer the same deed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 118,
+    "kind": "word",
+    "text": "'Bewrayeth' means reveals or discloses; the dead man's anger shows itself after burning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 131,
+    "kind": "allusion",
+    "text": "Lycian allies fought for Troy against the Greeks, so Orestes wishes his father had died gloriously in the war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 137,
+    "kind": "allusion",
+    "text": "Scamander is the river of the Trojan plain, where many Greeks were buried.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 13,
+    "text": "Cutting and offering hair was a Greek mourning custom for the dead, often left at the tomb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Orestes is Electra's brother, sent away in childhood after Agamemnon's murder and now in exile.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "text": "Footprints as recognition tokens are a famous feature of this scene; later playwrights mocked its logic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "text": "Orestes, Agamemnon's son, has returned from exile in secret to avenge his father's murder by Clytemnestra and Aegisthus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 82,
+    "text": "Shorn hair was a traditional mourning offering placed on a grave.",
+    "spoiler": false
+   },
+   {
+    "sentence": 93,
+    "text": "The eagle is Agamemnon, king and Zeus's bird; the viper is Clytemnestra, who killed him with a net-like robe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "text": "Eagles were Zeus's sacred bird, and their flight was read as a sign (omen) from him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 116,
+    "text": "The Atreidae are the descendants of Atreus, including Agamemnon and Menelaus; the house is the royal house of Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 135,
+    "text": "Agamemnon is imagined as a king among the dead, ruling beside the gods of the underworld.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "foreshadowing",
+    "text": "The Chorus's heart dancing with fear hints that this discovery will set the plot of vengeance moving.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "metaphor",
+    "text": "Tears become a stormy flood, with thirsty drops, conveying overwhelming grief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "device": "personification",
+    "text": "Hope is given the power to flatter, showing Electra's fear of believing too readily.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "apostrophe",
+    "text": "Electra addresses the lock as if it could speak like a messenger, revealing her longing for certainty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "device": "simile",
+    "text": "Their distress is compared to men tossed upon a stormy sea, a common image of helpless suffering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "device": "irony",
+    "text": "Electra longs for Orestes yet distrusts him when he stands before her, so her hope blocks her recognition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 89,
+    "device": "characterization",
+    "text": "Electra's fourfold love shows her isolation: she has lost father and sister, hates her mother, and has only Orestes to fill every bond.",
+    "spoiler": false
+   },
+   {
+    "sentence": 93,
+    "device": "metaphor",
+    "text": "The children are eaglets and the murderer a viper, turning the family's tragedy into an animal image of noble victims and a venomous killer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 96,
+    "device": "rhetorical question",
+    "text": "Orestes bargains with Zeus by asking who else will give him sacrifices, pressing the god's own interest in saving the family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 98,
+    "device": "antithesis",
+    "text": "Contrasting low and great, and overthrown and raised, ends the prayer on hope that the ruined house can rise again.",
+    "spoiler": false
+   },
+   {
+    "sentence": 104,
+    "device": "imagery",
+    "text": "Grotesque images of fanged ulcers and white down make the oracle's threat physical and horrifying, justifying Orestes' compulsion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 112,
+    "device": "personification",
+    "text": "Justice speaks aloud and exacts a debt, turning the law of retaliation into a voice demanding blood for blood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "device": "apostrophe",
+    "text": "Orestes addresses his dead father directly, and the image of light against darkness expresses his longing to reach him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 119,
+    "device": "antithesis",
+    "text": "The balanced clauses set the honoured dead against the exposed guilty, compactly stating the play's moral logic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "device": "irony",
+    "text": "Orestes wishes his father had died honourably at Troy, contrasting the glory he might have had with his shameful murder at home.",
+    "spoiler": false
+   }
+  ]
+ }
+}

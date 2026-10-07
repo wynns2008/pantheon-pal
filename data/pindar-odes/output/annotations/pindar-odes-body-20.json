@@ -1,0 +1,377 @@
+{
+ "section_id": "pindar-odes-body-20",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7336,
+  "output": 3113
+ },
+ "result": {
+  "summary": "Pindar celebrates Xenokrates of Akragas' Pythian chariot victory, likening the ode to a treasure house at Delphi that no storm can destroy. He praises Xenokrates' son Thrasyboulos as a devoted son, comparing him to Antilochos, who died saving his father Nestor from Memnon.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Editor's introduction",
+    "summary": "A note gives the date of the victory and background on Xenokrates and the ode.",
+    "stakes": "",
+    "present": [
+     "Xenokrates",
+     "Pindar"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi, Greece",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 8,
+    "title": "The treasure house of song",
+    "summary": "Pindar says the ode is a song-treasure at Apollo's valley for Xenokrates and Akragas, safe from storms, proclaiming the victory.",
+    "stakes": "The victory's fame could be swept away like a treasure by storm, but the song will endure.",
+    "present": [
+     "Pindar",
+     "Xenokrates",
+     "Thrasyboulos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi, Greece",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 9,
+    "title": "Cheiron's charge to Achilles",
+    "summary": "Thrasyboulos keeps the precept that the centaur gave Achilles: honour Zeus and honour one's parents.",
+    "stakes": "",
+    "present": [
+     "Thrasyboulos",
+     "Philyra's son",
+     "Achilles",
+     "Kronos' son"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mount Pelion",
+     "modern_name": "Mount Pelion, Greece",
+     "certainty": "traditional",
+     "lat": 39.4,
+     "lon": 23.05
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 13,
+    "title": "Antilochos dies for Nestor",
+    "summary": "Antilochos saves his father Nestor from Memnon by dying in his place.",
+    "stakes": "Antilochos risks death to save his father Nestor.",
+    "present": [
+     "Antilochos",
+     "Nestor",
+     "Memnon",
+     "Paris"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.9575,
+     "lon": 26.2389
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 17,
+    "title": "Praise of Thrasyboulos",
+    "summary": "Pindar says Thrasyboulos matches the ancient example, uses wealth wisely, honours Poseidon and is a sweet host.",
+    "stakes": "",
+    "present": [
+     "Thrasyboulos",
+     "Poseidon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Akragas",
+     "modern_name": "Agrigento, Sicily",
+     "certainty": "real",
+     "lat": 37.3111,
+     "lon": 13.5766
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Xenokrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Victor of Akragas, honoured by the ode"
+   },
+   {
+    "name": "Thrasyboulos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Xenokrates, dutiful and generous"
+   },
+   {
+    "name": "Antilochos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son who died saving his father Nestor"
+   },
+   {
+    "name": "Nestor",
+    "aliases": [
+     "the old man of Messene"
+    ],
+    "kind": "mortal",
+    "description": "Aged father rescued by his son"
+   },
+   {
+    "name": "Memnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Leader of the Ethiopians"
+   },
+   {
+    "name": "Paris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Archer who struck Nestor's horse"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [
+     "son of Peleas"
+    ],
+    "kind": "mortal",
+    "description": "Mighty youth taught by Philyra's son"
+   },
+   {
+    "name": "Philyra's son",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Teacher who advised Achilles on the mountains"
+   },
+   {
+    "name": "Kronos' son",
+    "aliases": [],
+    "kind": "god",
+    "description": "Lord of lightning and thunder, most to be revered"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Earthshaker"
+    ],
+    "kind": "god",
+    "description": "God who devised horse ventures"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of the Delphic valley"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess of the glancing eyes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Xenokrates",
+    "relation": "parent_of",
+    "b": "Thrasyboulos",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Nestor",
+    "relation": "parent_of",
+    "b": "Antilochos",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Philyra's son",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "outside",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Ainesidamos",
+    "relation": "parent_of",
+    "b": "Xenokrates",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Xenokrates",
+    "relation": "sibling_of",
+    "b": "Theron",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Philyra's son",
+    "canonical": "Cheiron",
+    "explanation": "The centaur Cheiron, not named here, is identified by his mother Philyra."
+   },
+   {
+    "alias": "Earthshaker",
+    "canonical": "Poseidon",
+    "explanation": "Epithet of Poseidon."
+   },
+   {
+    "alias": "Kronos' son",
+    "canonical": "Zeus",
+    "explanation": "Patronymic for Zeus, who is not named in this translation."
+   },
+   {
+    "alias": "son of Peleas",
+    "canonical": "Achilles",
+    "explanation": "Patronymic for Achilles."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Memorable image of the ode as a treasure house safe from storms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "reason": "Sweet closing image of hospitality, sweeter than honeycomb.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode links athletic victory with filial duty, using myth to show that honouring parents is a noble virtue.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Treasuries at Delphi held city offerings; Pindar's song-treasure image presents poetry as a lasting dedication.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "This is among Pindar's earliest surviving poems, dated to 494 B.C.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The \"everlasting centre-stone\" is the omphalos at Delphi, thought to mark the earth's centre; the \"pilgrimage\" is the journey to the Pythian games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Emmenidai\" are the family of Emmenes, to which Theron and Xenokrates of Akragas belonged.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Krisa is the plain near Delphi where the Pythian chariot race was run.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "\"Son of Philyra\" is the centaur Cheiron; \"son of Peleas\" is Achilles; \"Kronos' son\" is Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"Bought his father's flight by his own death\" means Antilochos's death let Nestor escape.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"Our fathers' gauge\" means the standard or measure set by the ancients.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Pierides\" are the Muses, so the phrase means learning and poetry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Earthshaker\" is Poseidon, credited with creating the horse.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Theron was the powerful tyrant of Akragas, a Sicilian city; Xenokrates won the chariot race.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Thrasyboulos is Xenokrates' son and charioteer, addressed here as the one who keeps the precept.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Antilochos, Nestor's son, fought at Troy; Memnon, king of the Ethiopians, came to help Troy.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "metaphor",
+    "text": "Composing and travelling to sing is figured as ploughing the field of Aphrodite or the Graces, making song a cultivated harvest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "metaphor",
+    "text": "The ode is a built treasure house, suggesting lasting and guarded value, like offerings stored at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "simile",
+    "text": "The storm is compared to a fierce army born of the thunderous cloud, stressing how safe the song-treasure is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "simile",
+    "text": "Thrasyboulos's kindness is compared to honeycomb, ending the ode with sweetness and hospitality.",
+    "spoiler": false
+   }
+  ]
+ }
+}

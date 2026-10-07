@@ -1,0 +1,416 @@
+{
+ "section_id": "pindar-odes-body-2",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9247,
+  "output": 3554
+ },
+ "result": {
+  "summary": "Pindar praises Theron of Akragas for his Olympic chariot victory of 476 B.C. He reflects on how good fortune can follow grief, recalls the house of Laïos and Theron's descent from Thersander, and describes judgment after death and the islands of the blest. He ends by defending his art and Theron's generosity.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Praise of Theron's victory",
+    "summary": "The poet introduces Theron's family and his chariot win at Olympia, and prays to Zeus to protect their land.",
+    "stakes": "",
+    "present": [
+     "Theron",
+     "Zeus",
+     "Herakles",
+     "Kronos",
+     "Rhea"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pisa, Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 16,
+    "title": "Fortune after grief",
+    "summary": "Pindar shows how sorrow gives way to joy, citing Semele, Ino and the house of Laïos, down to Thersander and Ainesidamos.",
+    "stakes": "Mortals face uncertain turns of fortune, and the house of Laïos suffers ruin.",
+    "present": [
+     "Semele",
+     "Ino",
+     "Laïos",
+     "Polyneikes",
+     "Thersander",
+     "Ainesidamos",
+     "Zeus",
+     "Pallas",
+     "Erinys",
+     "Kadmos"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 20,
+    "title": "Judgment and islands of the blest",
+    "summary": "Wealth and victory are good only if one knows that the guilty are punished after death while the righteous reach the islands of the blest, where Peleus, Kadmos and Achilles dwell.",
+    "stakes": "Souls face punishment for sin or reward for righteousness.",
+    "present": [
+     "Rhadamanthos",
+     "Kronos",
+     "Peleus",
+     "Kadmos",
+     "Achilles",
+     "Hector",
+     "Kyknos",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Islands of the blest",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 26,
+    "title": "The poet's arrows",
+    "summary": "Pindar defends his art against lesser poets and envious critics and swears that Theron is unmatched in generosity.",
+    "stakes": "Envy and slander threaten to obscure a good man's deeds.",
+    "present": [
+     "Theron"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Akragas",
+     "modern_name": "Agrigento, Sicily",
+     "certainty": "real",
+     "lat": 37.31,
+     "lon": 13.58
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Theron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Tyrant of Akragas, winner of the Olympic chariot race"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Father Zeus"
+    ],
+    "kind": "god",
+    "description": "Chief god, lord of Olympia"
+   },
+   {
+    "name": "Herakles",
+    "aliases": [],
+    "kind": "god",
+    "description": "Hero who founded the Olympic feast"
+   },
+   {
+    "name": "Kronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Son-father figure ruling the islands of the blest"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Wife of Kronos, mother of Zeus"
+   },
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Kadmos, killed by thunder, now among the Olympians"
+   },
+   {
+    "name": "Ino",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Kadmos, made a sea-maid"
+   },
+   {
+    "name": "Kadmos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of daughters; dwells among the blest"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who cherishes Semele"
+   },
+   {
+    "name": "Laïos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Killed by his own son"
+   },
+   {
+    "name": "Polyneikes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Laïos' line who fell in battle"
+   },
+   {
+    "name": "Thersander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Survivor who won honour and founded Theron's line"
+   },
+   {
+    "name": "Erinys",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Fury who caused the brothers' deaths"
+   },
+   {
+    "name": "Ainesidamos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theron's father"
+   },
+   {
+    "name": "Rhadamanthos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Just judge beside Kronos"
+   },
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Among the blest"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero carried to the islands of the blest"
+   },
+   {
+    "name": "Hector",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan pillar slain by Achilles"
+   },
+   {
+    "name": "Kyknos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Slain by Achilles"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Kronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Rhea",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Kronos",
+    "relation": "spouse_of",
+    "b": "Rhea",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Kadmos",
+    "relation": "parent_of",
+    "b": "Semele",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Kadmos",
+    "relation": "parent_of",
+    "b": "Ino",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Peleus",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "outside",
+    "evidence_sentence": 20
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Famous opening question of the ode.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "reason": "Pindar contrasts natural genius with learned poets, likened to chattering crows.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode sets human uncertainty against divine reversal: suffering can be redeemed, and virtue is rewarded after death.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage reflects Orphic and Pythagorean ideas of rebirth and judgment, probably influenced by Sicilian Greek religion.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The ode's victory was won in 476 B.C., the year Pindar also wrote Olympian 3 for Theron.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Lords of the lute\" addresses the songs themselves as rulers of the lyre; the poet asks whom the song should celebrate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Pisa is the district of Olympia; the Olympic festival was said to be founded by Herakles from the spoils of his war against Augeas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"The eye of Sicily\" means its brightest ornament; \"clave to them\" means stayed closely with them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Alpheos is the river flowing past Olympia; the \"ford\" stands for the Olympic site.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Kadmos' daughters include Semele and Ino, both of whom suffered disaster before being honoured with immortality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Laïos was killed unknowingly by his son Oedipus, fulfilling an oracle at Pytho (Delphi); this began the family's woes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Erinys is the avenging Fury; Laïos' grandsons Eteocles and Polyneikes killed each other. Thersander was Polyneikes' son, who fought in the later war of the Epigoni.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Olympia, Pytho and the Isthmus are sites of the great games: Olympic, Pythian and Isthmian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "\"Thrice on either side of death\" refers to living three lives, in this world and the next, with purity each time.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Achilles' mother Thetis carried him to the blessed isles; he killed Hector, Kyknos and Memnon, the Ethiopian son of Dawn.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Theron was tyrant of Akragas in Sicily; his family claimed descent from the Theban line through Thersander.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Semele, mother of Dionysos by Zeus, was killed by Zeus' lightning and later received among the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Ino leaped into the sea and became the sea goddess Leukothea, among the Nereids.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Rhadamanthos, a just judge, rules in the blessed isles under Kronos in Pindar's vision of the afterlife.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "metaphor",
+    "text": "Life's changing fortunes are \"currents\" running now this way, now that, and days are called children of the Sun.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "simile",
+    "text": "Wealth made glorious is compared to a far-seen star, a guiding light for the one who understands judgment after death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "metaphor",
+    "text": "Pindar's songs become arrows in a quiver, understood by the wise but needing interpreters for the crowd.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "simile",
+    "text": "Lesser poets are crows chattering against Zeus' eagle, contrasting learned imitation with inborn genius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "hyperbole",
+    "text": "Theron's kindnesses are said to be as countless as the sea-sand, closing the ode with exaggerated praise.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,381 @@
+{
+ "section_id": "pausanias-body-160",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8920,
+  "output": 3313
+ },
+ "result": {
+  "summary": "Pausanias describes the temple of Hera at Olympia and the quadrennial festival in which sixteen matrons weave a robe and oversee a girls' footrace. He gives the traditions of its origin with Hippodamia, the matrons' role in settling the quarrel with Pisa, and the dances of Physcoa and Hippodamia.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "The temple of Hera",
+    "summary": "Pausanias describes the Doric temple, its date of building, its oak pillar and size.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Hera, Olympia",
+     "modern_name": "Heraion, Olympia",
+     "certainty": "real",
+     "lat": 37.6385,
+     "lon": 21.6285
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 10,
+    "title": "The Hera festival and maidens' race",
+    "summary": "Sixteen matrons weave a robe and run the girls' footraces; victors receive olive crowns and a share of the heifer.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 13,
+    "title": "Hippodamia founds the games",
+    "summary": "The Eleans say Hippodamia thanked Hera for her marriage to Pelops by founding the games; Chloris won.",
+    "stakes": "",
+    "present": [
+     "Hippodamia",
+     "Chloris",
+     "Hera",
+     "Pelops",
+     "Amphion",
+     "Niobe"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 17,
+    "title": "Damophon and the sixteen cities",
+    "summary": "After the tyrant Damophon's injuries, sixteen cities each chose a matron to arbitrate peace with Pisa; they later ran the festival.",
+    "stakes": "Peace between Elis and Pisa after the tyrant's wrongs.",
+    "present": [
+     "Damophon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pisa and Elis",
+     "modern_name": "Elis region",
+     "certainty": "real",
+     "lat": 37.65,
+     "lon": 21.5
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 20,
+    "title": "Physcoa and her dance",
+    "summary": "Physcoa of Elis bore Narcaeus to Dionysus; he built a temple of Athene Narcaea and they first worshipped Dionysus.",
+    "stakes": "",
+    "present": [
+     "Physcoa",
+     "Dionysus",
+     "Narcæus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Orthia, Elis",
+     "modern_name": "Elis",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 25,
+    "title": "Later matrons and lustration",
+    "summary": "Two matrons are now chosen from each of eight tribes, and rites begin with a pig sacrifice and washing at the fountain Piera.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Fountain Piera",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess honoured with the temple and games"
+   },
+   {
+    "name": "Hippodamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "bride of Pelops who founded the games"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Hippodamia"
+   },
+   {
+    "name": "Chloris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "surviving daughter of Amphion, first victor"
+   },
+   {
+    "name": "Amphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Chloris"
+   },
+   {
+    "name": "Niobe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of children discussed in the account of Argos"
+   },
+   {
+    "name": "Damophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant of Pisa who wronged Elis"
+   },
+   {
+    "name": "Physcoa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman of Elis, mother of Narcæus"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Narcæus"
+   },
+   {
+    "name": "Narcæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Physcoa, powerful ruler who built a temple"
+   },
+   {
+    "name": "Oxylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Elis"
+   },
+   {
+    "name": "Athene Narcæa",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of the temple built by Narcæus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hippodamia",
+    "relation": "spouse_of",
+    "b": "Pelops",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Amphion",
+    "relation": "parent_of",
+    "b": "Chloris",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Physcoa",
+    "relation": "parent_of",
+    "b": "Narcæus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Dionysus",
+    "relation": "parent_of",
+    "b": "Narcæus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Niobe",
+    "relation": "parent_of",
+    "b": "Chloris",
+    "source": "outside",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Athene Narcæa",
+    "canonical": "Athene",
+    "explanation": "Athene worshipped under a cult title from Narcæus, who founded her temple."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Vivid detail of the runners' dress and loose hair at the Heraean games.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "The Heraean games were a women's athletic festival alongside the men's Olympics, showing female ritual roles in Elis.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Pausanias links ritual practices to rival local traditions, explaining customs through myth and politics.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Heraean games are often cited as the earliest known organised women's athletic competition in Greece."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Heraion at Olympia is one of the oldest known Doric temples; Pausanias saw one original oak pillar still standing.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Oxylus was the Aetolian leader who, in legend, became king of Elis after the Dorian invasion; the date is counted from his accession.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Shawl\" translates the peplos, a woven robe offered to the goddess. Every fifth year means the four-year cycle counted inclusively.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "A stade was the length of the Olympic track, about 600 Greek feet (roughly 190 metres); the maidens' course was one sixth shorter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Chloris was a daughter of Amphion and Niobe; most of Niobe's children were killed by Apollo and Artemis. Her original name was Meliboea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Annul their charges\" means the Eleans were willing to drop their claims against Pisa, since the Pisans had not officially approved Damophon's crimes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "\"Told off\" is old-fashioned for appointed or assigned to a task.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Parish\" renders a local district or township; Orthia was a locality in Elis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Lustration\" is ritual purification, here by washing with water.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Umpires of Elis\" are the Hellanodicae, the judges who presided over the Olympic games.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Doric is the plainest Greek architectural order, with sturdy fluted columns. An oak pillar surviving in the rear chamber suggests the temple's very early, wooden origins.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Hippodamia won Pelops as husband after he defeated her father Oenomaus in a chariot race. Pelops gave his name to the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The Heraea was a festival with footraces for girls at Olympia; the robe woven for Hera's image was a main offering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Dionysus is the god of wine and ecstatic worship; Athene is the goddess of wisdom and war, so the temple title Narcæa honours Narcæus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Olympia lay in the territory once held by Pisa, and Elis was the city that came to control the games.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "narrative voice",
+    "text": "The traveller-historian's candid admission of missing information shows his careful, source-conscious tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "cross-reference",
+    "text": "Pausanias links this passage to his earlier Argos account, giving the work a connected, encyclopedic structure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "narrative voice",
+    "text": "Repeated \"the tradition goes\" and \"they say\" show Pausanias distancing himself from the story, reporting local belief without vouching for it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "narrative voice",
+    "text": "The curt closing line shows the writer's authority as eyewitness, ending the digression with a plain assertion of accuracy.",
+    "spoiler": false
+   }
+  ]
+ }
+}

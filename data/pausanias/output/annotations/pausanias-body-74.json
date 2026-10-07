@@ -1,0 +1,735 @@
+{
+ "section_id": "pausanias-body-74",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12103,
+  "output": 6111
+ },
+ "result": {
+  "summary": "Pausanias finishes describing Ægina's temples and cults, including Hecate and Aphæa, and then turns to Trœzen. He gives the early kings of Trœzen, its gods, its colonies and its subjection to Argos.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Temples and Hecate at Ægina",
+    "summary": "Pausanias describes the temples and statues of Apollo, Artemis, Dionysus and Æsculapius, and the Æginetan worship of Hecate.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Artemis",
+     "Dionysus",
+     "Hecate",
+     "Orpheus",
+     "Myron",
+     "Alcamenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ægina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 11,
+    "title": "Aphæa and Britomartis",
+    "summary": "Pausanias tells the Cretan story of Britomartis, who fled Minos and became a goddess, called Aphæa in Ægina and Dictynna in Crete.",
+    "stakes": "Britomartis flees the pursuit of Minos and risks being caught.",
+    "present": [
+     "Britomartis",
+     "Minos",
+     "Artemis",
+     "Carmanor",
+     "Eubulus",
+     "Carme",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Crete",
+     "modern_name": "Crete",
+     "certainty": "real",
+     "lat": 35.24,
+     "lon": 24.81
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 14,
+    "title": "Auxesia, Lamia and Herodotus",
+    "summary": "Pausanias refers readers to Herodotus for the story of the statues of Auxesia and Lamia and ends his account of Ægina.",
+    "stakes": "",
+    "present": [
+     "Auxesia",
+     "Lamia",
+     "Æacus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ægina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 25,
+    "title": "Early Trœzen and Saron",
+    "summary": "Trœzenian traditions name Orus and Althepus as early kings and tell how Athene and Poseidon shared the land. Saron drowned chasing a stag.",
+    "stakes": "Saron chases a stag out to sea and is exhausted by the waves.",
+    "present": [
+     "Orus",
+     "Althepus",
+     "Athene",
+     "Poseidon",
+     "Zeus",
+     "Saron",
+     "Leis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Trœzen",
+     "modern_name": "Troezen (Troizina)",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 23.35
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 40,
+    "title": "Later kings and Argive rule",
+    "summary": "Later kings, Pittheus's union of the cities, colonies, and Argive overlordship are recounted before Pausanias turns to Trœzen's monuments.",
+    "stakes": "",
+    "present": [
+     "Hyperes",
+     "Anthas",
+     "Alcyone",
+     "Aetius",
+     "Trœzen",
+     "Pittheus",
+     "Anaphlystus",
+     "Sphettus",
+     "Theseus",
+     "Diomede",
+     "Euryalus",
+     "Cyanippus",
+     "Sthenelus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Trœzen",
+     "modern_name": "Troezen (Troizina)",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 23.35
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a native wooden statue at Ægina"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess, friend of Britomartis"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "bearded, draped statue at Ægina"
+   },
+   {
+    "name": "Hecate",
+    "aliases": [
+     "Hecate Epipurgidia"
+    ],
+    "kind": "goddess",
+    "description": "goddess most honoured at Ægina"
+   },
+   {
+    "name": "Orpheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thracian said to have introduced Hecate's rites"
+   },
+   {
+    "name": "Myron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of a wooden Hecate"
+   },
+   {
+    "name": "Alcamenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the three-bodied Hecate"
+   },
+   {
+    "name": "Britomartis",
+    "aliases": [
+     "Aphæa",
+     "Dictynna"
+    ],
+    "kind": "goddess",
+    "description": "Cretan huntress who fled Minos"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who desired Britomartis"
+   },
+   {
+    "name": "Carmanor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "purified Apollo of the killing of Python"
+   },
+   {
+    "name": "Eubulus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Carmanor"
+   },
+   {
+    "name": "Carme",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Eubulus, mother of Britomartis"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Britomartis; his temple is on Pan-Hellenium"
+   },
+   {
+    "name": "Æacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "built the temple of Zeus on Pan-Hellenium"
+   },
+   {
+    "name": "Auxesia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "deity with a wooden statue at Ægina"
+   },
+   {
+    "name": "Lamia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "deity with a wooden statue at Ægina"
+   },
+   {
+    "name": "Orus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early king of Trœzen"
+   },
+   {
+    "name": "Leis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Orus, mother of Althepus"
+   },
+   {
+    "name": "Althepus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king, son of Poseidon"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "worshipped at Trœzen as king"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Polias",
+     "Sthenias"
+    ],
+    "kind": "goddess",
+    "description": "shares Trœzen with Poseidon"
+   },
+   {
+    "name": "Saron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hunter king who drowned"
+   },
+   {
+    "name": "Hyperes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king, son of Poseidon"
+   },
+   {
+    "name": "Anthas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king, son of Poseidon"
+   },
+   {
+    "name": "Alcyone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Atlas"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "other",
+    "description": "father of Alcyone"
+   },
+   {
+    "name": "Aetius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king, son of Anthas"
+   },
+   {
+    "name": "Trœzen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Pittheus, eponym of the city"
+   },
+   {
+    "name": "Pittheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who united Hyperea and Anthea"
+   },
+   {
+    "name": "Anaphlystus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Trœzen, migrated to Attica"
+   },
+   {
+    "name": "Sphettus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Trœzen, migrated to Attica"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Pittheus' daughter"
+   },
+   {
+    "name": "Diomede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler over Trœzen in Homer"
+   },
+   {
+    "name": "Euryalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Mecisteus, regent"
+   },
+   {
+    "name": "Mecisteus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Euryalus"
+   },
+   {
+    "name": "Cyanippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive king, ward of regents"
+   },
+   {
+    "name": "Ægialeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cyanippus"
+   },
+   {
+    "name": "Sthenelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "of the Anaxagoridæ, rightful Argive ruler"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Carmanor",
+    "relation": "parent_of",
+    "b": "Eubulus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Eubulus",
+    "relation": "parent_of",
+    "b": "Carme",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Britomartis",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Carme",
+    "relation": "parent_of",
+    "b": "Britomartis",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Orus",
+    "relation": "parent_of",
+    "b": "Leis",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Althepus",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Leis",
+    "relation": "parent_of",
+    "b": "Althepus",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Hyperes",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Anthas",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Alcyone",
+    "relation": "parent_of",
+    "b": "Hyperes",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Atlas",
+    "relation": "parent_of",
+    "b": "Alcyone",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Anthas",
+    "relation": "parent_of",
+    "b": "Aetius",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Trœzen",
+    "relation": "sibling_of",
+    "b": "Pittheus",
+    "source": "text",
+    "evidence_sentence": 30
+   },
+   {
+    "a": "Trœzen",
+    "relation": "parent_of",
+    "b": "Anaphlystus",
+    "source": "text",
+    "evidence_sentence": 32
+   },
+   {
+    "a": "Trœzen",
+    "relation": "parent_of",
+    "b": "Sphettus",
+    "source": "text",
+    "evidence_sentence": 32
+   },
+   {
+    "a": "Pittheus",
+    "relation": "parent_of",
+    "b": "Theseus",
+    "source": "text",
+    "evidence_sentence": 33
+   },
+   {
+    "a": "Mecisteus",
+    "relation": "parent_of",
+    "b": "Euryalus",
+    "source": "text",
+    "evidence_sentence": 37
+   },
+   {
+    "a": "Ægialeus",
+    "relation": "parent_of",
+    "b": "Cyanippus",
+    "source": "text",
+    "evidence_sentence": 37
+   },
+   {
+    "a": "Britomartis",
+    "relation": "transformed_into",
+    "b": "Aphæa",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Aphæa",
+    "canonical": "Britomartis",
+    "explanation": "Her name in Ægina; in Crete she is Dictynna."
+   },
+   {
+    "alias": "Dictynna",
+    "canonical": "Britomartis",
+    "explanation": "Her Cretan name."
+   },
+   {
+    "alias": "Hecate Epipurgidia",
+    "canonical": "Hecate",
+    "explanation": "Athenian name for the three-bodied statue near Wingless Victory."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Pausanias declines to repeat Herodotus and gives a rare personal claim of sacrificing to the statues.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links cults and statues to local legend, showing how places explain themselves through myth and ritual.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Trœzenian king-lists and colonies reflect local traditions about migration, Dorian conquest and Argive dominance after the return of the Heraclidæ.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes that he sacrificed to the statues of Auxesia and Lamia in the same manner as at Eleusis.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Draped\" means clothed in robes, in contrast to the naked Apollo; \"native art\" means in the old local style.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Epipurgidia means \"on the tower\" (bastion); the Athenian Hecate stood by the Acropolis bastion near the temple of Wingless Victory (Athena Nike).",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Pindar's ode for the Æginetans is lost; Aphæa was Ægina's local goddess, whose temple survives on the island.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Purged Apollo of the murder of Python\" refers to ritual purification after Apollo killed the serpent Python, as told in Cretan tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Britomartis's leap into fishing nets explains her Cretan name Dictynna, from Greek diktyon, \"net\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Herodotus (Histories 5.82-88) tells how Epidaurus, in famine, made olive-wood statues of Damia and Auxesia, and how Athenian attackers on Ægina perished.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Sacrificing 'as at Eleusis' refers to the rites of Demeter and Persephone, which the cult of these goddesses resembled.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "Pausanias suggests the name Orus is Egyptian, perhaps thinking of Horus; he gives his own opinion, not a firm etymology.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Polias means 'of the city' and Sthenias 'of strength', both titles of Athene; Poseidon is called 'king' here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Phœbæan marsh: a marshy inlet near Trœzen, named here from the Phœbæan name; Pausanias says it was later renamed after Saron.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "\"The sons of Pelops were the stronger\" means Pittheus and Trœzen, sons of Pelops, held more power than Aetius, so they shared the rule.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"This proves it\" introduces the evidence given in the next sentence: Pittheus alone could merge the two cities and rename them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "Halicarnassus in Caria and Myndus were Greek cities on the southwest coast of Asia Minor; Trœzenian settlers are said to have founded them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "The Heraclidæ were descendants of Heracles who invaded the Peloponnese, bringing in Dorian Greeks; this is the so-called Dorian settlement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "Homer's catalogue is the list of Greek contingents at Troy in the Iliad, Book 2, which places Trœzen under Diomede.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "\"As I have shown before\" refers to Pausanias's earlier account of the Argive royal houses, which treated Sthenelus's ancestry.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Hecate was a goddess of crossroads, night and magic. Orpheus was the legendary Thracian singer, credited with founding mystic rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Myron was a famous fifth-century BC sculptor, best known for bronze works such as the Discobolus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Æacus was the legendary king of Ægina, son of Zeus, later a judge of the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Trœzen lay in the Argolid on the Saronic Gulf; it was linked with Theseus's birth and its people prided themselves on ancient lineage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Athene and Poseidon also contested Athens; here the Trœzenian version has them sharing the land by Zeus's order, not one winning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "The trident was Poseidon's emblem, and Athene's head appeared on coins, so the coinage supports the shared-patron tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Poseidon was god of the sea and earthquakes and was the chief god of Trœzen. Atlas was the Titan who held up the sky.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Theseus, the Athenian hero, was born at Trœzen, where his mother Aethra was Pittheus's daughter. Pausanias assumes readers know his story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Diomede was a leading Greek hero at Troy. Cyanippus was a young Argive king, so regents led his troops.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "aetiology",
+    "text": "The tale explains the goddess's name and cult through a mythic event, her escape into the nets.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "The dry qualifier 'if any people are' gently mocks Trœzenian local pride while seeming to praise it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "narrative voice",
+    "text": "The accumulating clauses ('further and further', 'tired', 'too much for him') build the hunter's doom step by step toward the drowning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "aetiology",
+    "text": "The story explains a place name: the marsh's renaming after Saron's burial turns the myth into a local origin account.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "narrative voice",
+    "text": "The terse, almost conversational line shows Pausanias acting as a guide who stops to prove a claim before going on.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "narrative voice",
+    "text": "Pausanias addresses his readers directly and openly decides what to leave out, which shows his selective method as a historian.",
+    "spoiler": false
+   }
+  ]
+ }
+}

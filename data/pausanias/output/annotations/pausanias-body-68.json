@@ -1,0 +1,470 @@
+{
+ "section_id": "pausanias-body-68",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9360,
+  "output": 3870
+ },
+ "result": {
+  "summary": "Pausanias describes the temples and monuments on and around Larissa, the citadel of Argos, including a three-eyed wooden Zeus. He then follows the road toward Tegea past Mount Lycone, Mount Chaon, the source of the Erasinus, Cenchreæ and Hysiæ.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 19,
+    "title": "The citadel Larissa at Argos",
+    "summary": "Pausanias lists the temples, race-course and tombs on the way up Larissa, and explains the three-eyed Zeus.",
+    "stakes": "",
+    "present": [
+     "Pausanias",
+     "Pythæus",
+     "Diomede",
+     "Priam",
+     "Sthenelus",
+     "Zeus",
+     "Apollo",
+     "Athene",
+     "Hera"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Larissa",
+     "modern_name": "Larissa castle, Argos",
+     "certainty": "real",
+     "lat": 37.6411,
+     "lon": 22.7261
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 31,
+    "title": "The road to Tegea",
+    "summary": "Along the road to Tegea he notes Lycone, Chaon, the Erasinus spring, Cenchreæ and the battle tomb at Hysiæ.",
+    "stakes": "",
+    "present": [
+     "Pausanias",
+     "Artemis",
+     "Apollo",
+     "Leto",
+     "Dionysus",
+     "Pan",
+     "Cenchreus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Road from Argos to Tegea",
+     "modern_name": "Argolid, near Mount Parthenion",
+     "certainty": "real",
+     "lat": 37.55,
+     "lon": 22.65
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the author and traveller describing the sites"
+   },
+   {
+    "name": "Pelasgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Larissa"
+   },
+   {
+    "name": "Larissa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Pelasgus, namesake of the citadel"
+   },
+   {
+    "name": "Pythæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "came from Delphi and built the temple of Apollo"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Apollo of the Ridgeway"
+    ],
+    "kind": "god",
+    "description": "god with an oracle at Argos"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess honoured with temple and games"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Sharp-eyed"
+    ],
+    "kind": "goddess",
+    "description": "goddess who cleared a mist from Diomede's eyes"
+   },
+   {
+    "name": "Diomede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who dedicated a temple to Athene"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Nemean Zeus",
+     "Larissæan Zeus"
+    ],
+    "kind": "god",
+    "description": "king of the gods, shown with three eyes"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Troy who fled to the altar of Zeus"
+   },
+   {
+    "name": "Laomedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Priam"
+   },
+   {
+    "name": "Sthenelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Capaneus who took the statue as spoil"
+   },
+   {
+    "name": "Capaneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Sthenelus"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet quoted as evidence"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "queen of the underworld"
+   },
+   {
+    "name": "Æschylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet, son of Euphorion"
+   },
+   {
+    "name": "Euphorion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Æschylus"
+   },
+   {
+    "name": "Ægyptus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the murdered sons"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Orthian Artemis"
+    ],
+    "kind": "goddess",
+    "description": "goddess with temples near Lycone"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother shown in a statue group"
+   },
+   {
+    "name": "Polycletus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor credited with the statues"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god honoured at the Erasinus source"
+   },
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "god honoured at the Erasinus source"
+   },
+   {
+    "name": "Cenchreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Pirene, source of the name Cenchreæ"
+   },
+   {
+    "name": "Pirene",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "mother of Cenchreus"
+   },
+   {
+    "name": "Pisistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Athens, used to date the battle"
+   },
+   {
+    "name": "Eurybotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian Olympic winner used for dating"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Pelasgus",
+    "relation": "parent_of",
+    "b": "Larissa",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Laomedon",
+    "relation": "parent_of",
+    "b": "Priam",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Capaneus",
+    "relation": "parent_of",
+    "b": "Sthenelus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Euphorion",
+    "relation": "parent_of",
+    "b": "Æschylus",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Pirene",
+    "relation": "parent_of",
+    "b": "Cenchreus",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "outside",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Artemis",
+    "source": "outside",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Apollo",
+    "relation": "sibling_of",
+    "b": "Artemis",
+    "source": "outside",
+    "evidence_sentence": 22
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Apollo of the Ridgeway",
+    "canonical": "Apollo",
+    "explanation": "Cult title from the place called Ridge."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Homeric line used to show Zeus rules the underworld, explaining the three eyes.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows Pausanias's habit of pairing monuments with local legend and explaining odd cult images rationally.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "He dates the battle at Hysiæ by Athenian rulers and Olympiads, showing how Greeks fixed events chronologically.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Larissa, the Argos citadel, is still crowned by a medieval fortress built on ancient foundations.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Ridge\" and \"Ridgeway\" translate a Greek place-name; the epithet Apollo of the Ridgeway comes from the spot where the temple stands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Debarred from marriage\" means the prophetess must stay unmarried, kept chaste for the god's service.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Alludes to the Iliad, where Athene clears the mist from Diomede's eyes so he can recognise gods on the battlefield.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Refers to the Danaids, who killed their cousins, the sons of Ægyptus, on their wedding night at their father Danaus's command.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Tutelary\" means serving as guardian or protector.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "Proserpine is the Roman name for Persephone, queen of the dead; the translator uses it where Greek text would say Persephone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Orthian Artemis was a cult title of the goddess, probably meaning 'upright'; the epithet is attached to her worship at several places.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "The text says the Erasinus rises here, then compares it to the Rheti, which flow underground and re-emerge. Pausanias is referring to a belief that the river flows underground from Stymphalus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "'Medley' translates the festival's Greek name, Tyrbe, meaning confusion or disorder; the name suggests a mixed or tumultuous celebration.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "phrasing",
+    "text": "Dating by Olympiad: Greeks counted years in four-year cycles from the first Olympic games. 'The course' means the foot race.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "'The reverse happened' means the Lacedæmonians were defeated here, contrasting with their earlier victory claimed elsewhere.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Larissa was the citadel of Argos; the name is Pelasgian-sounding and also borne by several Thessalian towns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "The Nemean games honoured Zeus and were one of the great Panhellenic festivals; Argos held its own games for Hera.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Sthenelus was Diomede's companion at Troy and an Argive leader, so bringing the statue to Argos is natural.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Æschylus was the Athenian tragic playwright, born at Eleusis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Tegea lay in eastern Arcadia and was an important route between Argos and Sparta territory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Polycletus was a famous Argive sculptor of the fifth century BC, best known for bronze statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Hysiæ was fought between Argos and Sparta; Pausanias treats it as an Argive victory, commemorated by a shared tomb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Pisistratus was the tyrant of Athens in the sixth century BC, which helps place the battle in time.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "imagery",
+    "text": "The odd third eye in the forehead is a striking visual detail that prompts the explanation which follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a cautious traveller-scholar, offering a reasoned guess (\"one might conjecture\") instead of asserting a fact.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "symbolism",
+    "text": "The three eyes symbolise Zeus's rule over heaven, the underworld and the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "narrative voice",
+    "text": "Pausanias adopts a guidebook tone, addressing the traveller directly and organising the account by directions along a road.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "characterization",
+    "text": "The author's candour about local ignorance shows his careful, sceptical habit of reporting only what informants can support.",
+    "spoiler": false
+   }
+  ]
+ }
+}

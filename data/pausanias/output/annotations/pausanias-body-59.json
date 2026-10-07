@@ -1,0 +1,354 @@
+{
+ "section_id": "pausanias-body-59",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7436,
+  "output": 2873
+ },
+ "result": {
+  "summary": "Pausanias travels from Corinth toward Argos, describing Cleonæ, the roads through the mountains, and Nemea with its Zeus temple and the legend of Opheltes. He then reaches Mycenæ and starts on early Argive history, recounting Phoroneus and the dispute between Poseidon and Hera.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Cleonæ and its monuments",
+    "summary": "Pausanias describes Cleonæ, its name, the temple of Athene and the tomb of Eurytus and Cteatus.",
+    "stakes": "",
+    "present": [
+     "Cleone",
+     "Scyllis",
+     "Dipœnus",
+     "Dædalus",
+     "Eurytus",
+     "Cteatus",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cleonæ",
+     "modern_name": "Kleonai",
+     "certainty": "real",
+     "lat": 37.82,
+     "lon": 22.75
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 12,
+    "title": "Roads and Nemea",
+    "summary": "The two roads to Argos lead past the Nemean lion's lair to Nemea, with its temple, the tomb of Opheltes and local names.",
+    "stakes": "Opheltes was killed by a dragon while left on the grass by his nurse.",
+    "present": [
+     "Opheltes",
+     "Lycurgus",
+     "Adrastus",
+     "Nemea",
+     "Perseus",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Nemea",
+     "modern_name": "Nemea",
+     "certainty": "real",
+     "lat": 37.81,
+     "lon": 22.71
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 19,
+    "title": "Mycenæ and early Argolis",
+    "summary": "Pausanias sights Mycenæ and turns to early Argive history: Inachus, the rivers' judgement for Hera, and Phoroneus gathering men.",
+    "stakes": "Poseidon, angered at losing the land, dried up the rivers.",
+    "present": [
+     "Inachus",
+     "Phoroneus",
+     "Cephisus",
+     "Asterion",
+     "Poseidon",
+     "Hera",
+     "Perseus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argolis",
+     "modern_name": "Argolis",
+     "certainty": "real",
+     "lat": 37.7,
+     "lon": 22.8
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cleone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "eponym of Cleonæ, daughter of Pelops or Asopus"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "possible father of Cleone"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river by Sicyon, father of Cleone or Nemea"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Cleonæ"
+   },
+   {
+    "name": "Scyllis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor, pupil of Dædalus"
+   },
+   {
+    "name": "Dipœnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor, pupil of Dædalus"
+   },
+   {
+    "name": "Dædalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "legendary craftsman"
+   },
+   {
+    "name": "Eurytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man of Elis shot by Hercules"
+   },
+   {
+    "name": "Cteatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man of Elis shot by Hercules"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero who killed Eurytus and Cteatus"
+   },
+   {
+    "name": "Augeas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king against whom Hercules fought"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Nemean Zeus",
+     "Apesantian Zeus"
+    ],
+    "kind": "god",
+    "description": "god worshipped at Nemea and Mount Apesas"
+   },
+   {
+    "name": "Opheltes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "child devoured by a dragon at Nemea"
+   },
+   {
+    "name": "Lycurgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Opheltes"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have found the fountain Adrastea"
+   },
+   {
+    "name": "Nemea",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of Asopus who gave her name to the place"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of Mycenæ"
+   },
+   {
+    "name": "Inachus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river and king of Argolis, father of Phoroneus"
+   },
+   {
+    "name": "Phoroneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first mortal in the land, gathered men into communities"
+   },
+   {
+    "name": "Cephisus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river who judged for Hera"
+   },
+   {
+    "name": "Asterion",
+    "aliases": [],
+    "kind": "other",
+    "description": "river who judged for Hera"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "lost the land dispute and dried the rivers"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "won the land of Argolis"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Pelops",
+    "relation": "parent_of",
+    "b": "Cleone",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Asopus",
+    "relation": "parent_of",
+    "b": "Nemea",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Lycurgus",
+    "relation": "parent_of",
+    "b": "Opheltes",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Inachus",
+    "relation": "parent_of",
+    "b": "Phoroneus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Dædalus",
+    "relation": "parent_of",
+    "b": "Dipœnus",
+    "source": "text",
+    "evidence_sentence": 3
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias ties landmarks to local legends, explaining names and rituals through myth.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Rivers that run dry in summer are explained as Poseidon's punishment, a myth explaining the Argive landscape.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The death of Opheltes was said to be the origin of the Nemean Games."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes the Nemean temple had lost its roof and statue, showing its state in the 2nd century AD.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Dædalus was the legendary Cretan craftsman; \"pupils of Dædalus\" marks Scyllis and Dipœnus as early sculptors of wooden images.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Hercules' war against Augeas, king of Elis, whose stables he cleansed; the Elean sons of Molione had fought against him in it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "A stade was a Greek measure of about 600 feet; \"Tretus\" means \"bored\" or perforated, perhaps for the road's cut-through character.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Adrastus was the legendary king of Argos who led the Seven against Thebes; the name Adrastea may recall him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The dispute between Poseidon and Hera over Argos's land is a local myth explaining why the rivers run dry.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "The Nemean lion was a monster killed by Hercules as the first of his labours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Nemea hosted the Nemean Games, one of the four great Panhellenic festivals, held in honour of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Opheltes was the infant whose death, according to legend, led to the founding of the Nemean Games; Lycurgus here is his father.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "narrative voice",
+    "text": "Pausanias lists rival traditions with \"some say... others\", showing a cautious, report-style voice that avoids choosing between them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "aetiology",
+    "text": "The myth explains a natural fact, the rivers' seasonal dryness, as divine punishment by Poseidon.",
+    "spoiler": false
+   }
+  ]
+ }
+}

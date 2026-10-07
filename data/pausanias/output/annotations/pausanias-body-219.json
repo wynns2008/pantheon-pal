@@ -1,0 +1,413 @@
+{
+ "section_id": "pausanias-body-219",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9915,
+  "output": 3548
+ },
+ "result": {
+  "summary": "Pausanias describes the Achaian towns of Pharae and Tritea, including the oracle of Hermes of the Market-place, a grove of Castor and Pollux, a painted tomb and the founding legends of Tritea. He ends with the coastal route from Patrae to Aegium and two local rivers.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 18,
+    "title": "Pharae and its oracle",
+    "summary": "Pausanias describes Pharae, its river, plane-trees, the market-place Hermes with its curious oracle, sacred well, square stones and the grove of Castor and Pollux.",
+    "stakes": "",
+    "present": [
+     "Hermes",
+     "Castor",
+     "Pollux",
+     "Phares",
+     "Simylus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pharae",
+     "modern_name": "near Kalamaki, Achaia",
+     "certainty": "real",
+     "lat": 38.1,
+     "lon": 21.6
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 29,
+    "title": "Road to Tritea and its founding",
+    "summary": "On the way to Tritea stands a tomb painted by Nicias. Pausanias gives two accounts of the town's founding and describes its temples and cults.",
+    "stakes": "",
+    "present": [
+     "Nicias",
+     "Celbidas",
+     "Ares",
+     "Tritea",
+     "Triton",
+     "Melanippus",
+     "Athene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tritea",
+     "modern_name": "near Kalliftheas, Achaia",
+     "certainty": "real",
+     "lat": 38.1,
+     "lon": 21.9
+    }
+   },
+   {
+    "start_sentence": 30,
+    "end_sentence": 34,
+    "title": "Coast road to Aegium",
+    "summary": "Pausanias lists distances along the coast from Patrae to Aegium and mentions the rivers Milichus and Charadrus.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Coast between Patrae and Aegium",
+     "modern_name": "Gulf of Patras coast",
+     "certainty": "real",
+     "lat": 38.3,
+     "lon": 21.9
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Hermes of the Market-place"
+    ],
+    "kind": "god",
+    "description": "god whose square statue gives oracles at Pharae"
+   },
+   {
+    "name": "Simylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian who dedicated the Hermes statue"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "god",
+    "description": "honoured with a grove near Pharae"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "god",
+    "description": "honoured with a grove near Pharae"
+   },
+   {
+    "name": "Phares",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "possible founder of Pharae, son of Phylodamia"
+   },
+   {
+    "name": "Phylodamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Danaus, mother of Phares"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Phylodamia"
+   },
+   {
+    "name": "Nicias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "painter of the tomb paintings"
+   },
+   {
+    "name": "Celbidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to be founder of Tritea, from Cumae"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "said to be father of Melanippus; worshipped at Tritea"
+   },
+   {
+    "name": "Tritea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "priestess of Athene, daughter of Triton, namesake of the town"
+   },
+   {
+    "name": "Triton",
+    "aliases": [],
+    "kind": "other",
+    "description": "father of Tritea"
+   },
+   {
+    "name": "Melanippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ares and Tritea, founder of Tritea"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Tritea"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Phylodamia",
+    "relation": "parent_of",
+    "b": "Phares",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Danaus",
+    "relation": "parent_of",
+    "b": "Phylodamia",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Ares",
+    "relation": "parent_of",
+    "b": "Melanippus",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Tritea",
+    "relation": "parent_of",
+    "b": "Melanippus",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Triton",
+    "relation": "parent_of",
+    "b": "Tritea",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Ares",
+    "relation": "lover_of",
+    "b": "Tritea",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Castor",
+    "relation": "sibling_of",
+    "b": "Pollux",
+    "source": "outside",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Hermes of the Market-place",
+    "canonical": "Hermes",
+    "explanation": "Cult title of the square statue at Pharae."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Climax of the unusual oracle ritual: the first words overheard are the answer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "reason": "Records that early Greeks worshipped unhewn stones rather than statues.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias records local cults, oracles and founding legends, showing how Greek towns tied identity to gods and heroes.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Mentions of towns joined to Patrae by Augustus and statues taken to Rome reflect Roman rule's effect on Achaia.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Pharae oracle works by cledonomancy, interpreting the first chance words overheard as an answer.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet (about 180 metres), so 150 stades is around 17 miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Olenus was an ancient Achaian city, already in ruins in Pausanias' day. He mentions it to identify the river by a known landmark.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"The ordinary piece of money, a brass coin\" means the standard local small coin, the fee for consulting the oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "The first words overheard by chance, after unstopping the ears, are taken as the god's answer. This kind of divination is called cledonomancy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Apis was the sacred bull of Egypt, worshipped at Memphis. Pausanias compares the oracle to Egyptian practice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Unhewn stones\" are rough, uncarved stones. Pausanias notes that early Greeks worshipped such stones instead of carved images.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"Reckoned with Patræ by Imperial order\" means the Roman emperor made Tritea part of the territory of Patræ.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "A stade was a Greek measure of about 600 feet (roughly 185 metres), so 120 stades is around 14 miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "A sun-shade is a parasol, carried by attendants to shield a lady of rank.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Cumæ in the Opic land is the Greek colony in Campania, Italy; Opici was a Greek name for the early inhabitants there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The Greatest Gods are a cult of uncertain identity. The festival comparison points to Dionysus's wine festivals, which were widespread.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "\"Sail along the coast\" gives the sea distance; the land route to Ægium is 40 stades shorter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "Triclaria was a cult of Artemis at Patræ, linked to the story of Melanippus and Comaetho.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Augustus, the first Roman emperor, reorganised Achaia after 31 BC and joined Pharæ to the territory of Patræ.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Hermes, god of messengers, travellers and trade, suits a market-place statue. Square, bearded pillar-like forms of him were common.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Castor and Pollux were twin sons of Leda, worshipped as protectors of sailors and horsemen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Rome carried off many Greek statues as spoils or treasures, so such reports of removed statues were common.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Nicias of Athens was a famous painter of the later fourth century BC, so a tomb painted by him would be notable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Ares is the Greek god of war. Triton is a sea god, and Athene's epithet Tritonis is linked to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Rome carried off many Greek statues as spoils or decoration, which Pausanias often records.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Rhium is the promontory at the mouth of the Gulf of Corinth, the narrowest point of the gulf.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "hyperbole",
+    "text": "The claim that a person can eat and sleep inside the trees stresses their huge age and size, though it may be literal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "The god's answer depends on pure chance, which gives the ritual an ironic mix of careful ceremony and randomness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "narrative voice",
+    "text": "Pausanias openly admits the limits of his knowledge, showing the cautious, personal voice of a traveller-historian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "narrative voice",
+    "text": "Pausanias openly admits his ignorance and reports only the common inference, showing the cautious, honest traveller-historian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "etiology",
+    "text": "Two rival founding stories explain the town's name and origin, one human and one mythic, left side by side without judgment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "digression",
+    "text": "The aside on the river's effect on cattle adds local marvel and curiosity to a dry list of distances.",
+    "spoiler": false
+   }
+  ]
+ }
+}

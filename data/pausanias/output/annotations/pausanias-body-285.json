@@ -1,0 +1,361 @@
+{
+ "section_id": "pausanias-body-285",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6936,
+  "output": 2968
+ },
+ "result": {
+  "summary": "Pausanias recounts how Cassander restored Thebes after Alexander had expelled its people, and how Cassander and his sons came to bad ends. He then tells how Thebes sided with Mithridates, was punished by Sulla, and declined until only the citadel was inhabited.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Cassander restores Thebes",
+    "summary": "Thebans driven out by Alexander flee to Athens and are restored by Cassander with Athenian and Arcadian-Messenian help. Cassander's motive was hatred of Alexander's house, whose members he killed.",
+    "stakes": "The Thebans risk permanent loss of their city and homeland.",
+    "present": [
+     "Alexander",
+     "Cassander",
+     "Olympias",
+     "Hercules",
+     "Roxana"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 7,
+    "title": "Cassander's family punished",
+    "summary": "Cassander dies of disease, and his sons destroy one another, with Demetrius's help turning on Alexander. Pausanias sees divine punishment.",
+    "stakes": "Cassander's family faces ruin through murder and betrayal.",
+    "present": [
+     "Cassander",
+     "Philip",
+     "Antipater",
+     "Thessalonice",
+     "Alexander",
+     "Demetrius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Macedonia",
+     "modern_name": "Macedonia, northern Greece",
+     "certainty": "real",
+     "lat": 40.6,
+     "lon": 22.0
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 14,
+    "title": "Sulla and the decline of Thebes",
+    "summary": "Thebes joins Mithridates against Rome, and Sulla punishes it by taking half its land as payment for plundered temple treasures. The city later dwindles to its citadel.",
+    "stakes": "Thebes faces Roman vengeance, loss of land and lasting decline.",
+    "present": [
+     "Mithridates",
+     "Sulla"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alexander the Great, who expelled the Thebans; also a son of Cassander of the same name"
+   },
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Antipater, who restored Thebes and killed Alexander's family"
+   },
+   {
+    "name": "Antipater",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Cassander; also Cassander's son who killed his mother"
+   },
+   {
+    "name": "Olympias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Alexander, stoned to death"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Alexander by Barsine, poisoned"
+   },
+   {
+    "name": "Barsine",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Alexander's son Hercules"
+   },
+   {
+    "name": "Roxana",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Alexander's son Alexander"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eldest son of Cassander, died of consumption; also son of Amyntas"
+   },
+   {
+    "name": "Thessalonice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cassander's wife, killed by her son Antipater"
+   },
+   {
+    "name": "Amyntas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Philip, Thessalonice's father"
+   },
+   {
+    "name": "Nicasipolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Thessalonice"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Antigonus, called in by young Alexander"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Demetrius"
+   },
+   {
+    "name": "Mithridates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King who fought Rome"
+   },
+   {
+    "name": "Sulla",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman general who punished Thebes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Antipater",
+    "relation": "parent_of",
+    "b": "Cassander",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Alexander",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Barsine",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Roxana",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Olympias",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Cassander",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Thessalonice",
+    "relation": "parent_of",
+    "b": "Antipater",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Amyntas",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "outside",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Antigonus",
+    "relation": "parent_of",
+    "b": "Demetrius",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Philip",
+    "relation": "sibling_of",
+    "b": "Antipater",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Thebais",
+    "canonical": "Thebes",
+    "explanation": "The territory of Thebes."
+   },
+   {
+    "alias": "Cadmea",
+    "canonical": "Thebes",
+    "explanation": "The old citadel of Thebes, whose name the inhabited remnant no longer bore."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Pausanias's moral verdict on Cassander's family fate.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias sees divine retribution in the downfall of Cassander's house and in Thebes's repeated misfortunes.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage reflects Hellenistic succession wars and Rome's Mithridatic War, when Sulla used Greek temple treasure to pay his troops.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Sulla's seizure of Greek temple treasures in the 80s BC financed his army during the First Mithridatic War.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Alexander (the Great) destroyed Thebes in 335 BC after a revolt; survivors were scattered or enslaved. Cassander refounded it in 316 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Dropsy is an old term for edema, painful swelling from fluid retention. Pausanias presents the illness as a grim punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Consumption is tuberculosis or a similar wasting disease.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Matricide means the killing of one's own mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Mithridates VI of Pontus fought Rome in the early first century BC; Athens sided with him in 88 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The Phocians had earlier plundered Delphi in the Sacred War (4th century BC), so little was left there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Cadmea was the name of Thebes' citadel, named for the founder Cadmus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Olympias was Alexander the Great's mother. Cassander had her put to death in 316 BC, and later had Alexander's young son and Roxana killed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Demetrius Poliorcetes, son of Antigonus, was a powerful Macedonian general who later killed Alexander and seized the Macedonian throne.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Sulla was the Roman general who campaigned in Greece against Mithridates in 87–85 BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "Irony",
+    "text": "Alexander seeks an ally and finds a murderer, so his rescuer becomes his destroyer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "Moral commentary",
+    "text": "Pausanias interrupts the narrative to state his view that the family's ruin was divine retribution, drawing a moral from the events.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "Elegy",
+    "text": "The closing image of a deserted lower city, with the citadel keeping the name Thebes, conveys the city's long decline.",
+    "spoiler": false
+   }
+  ]
+ }
+}

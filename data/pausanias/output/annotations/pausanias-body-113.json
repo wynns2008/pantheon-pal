@@ -1,0 +1,304 @@
+{
+ "section_id": "pausanias-body-113",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8551,
+  "output": 2769
+ },
+ "result": {
+  "summary": "Pausanias gives the Lacedaemonian and Messenian accounts of the causes of the First Messenian War. The Messenians debate giving up Polychares, civil strife kills Androcles, and Sparta secretly swears an oath and takes Amphea by night attack.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Rival accounts of the war's causes",
+    "summary": "Pausanias reports the Spartan grievances and the Messenian replies, which accuse Sparta of ambition, greed and bribery.",
+    "stakes": "",
+    "present": [
+     "Polychares",
+     "Teleclus",
+     "Cresphontes",
+     "Æpytus",
+     "Euæphnus",
+     "Crœsus",
+     "Apollodorus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Messenia and Laconia",
+     "modern_name": "Peloponnese, Greece",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 16,
+    "title": "Messenian assembly and civil strife",
+    "summary": "Sparta demands Polychares. The Messenian kings split, Antiochus' party kills Androcles, and Antiochus offers arbitration, which Sparta ignores. Antiochus dies and Euphaes succeeds.",
+    "stakes": "Polychares faces surrender and punishment; Messenia faces division and Spartan hostility.",
+    "present": [
+     "Androcles",
+     "Antiochus",
+     "Polychares",
+     "Euæphnus",
+     "Euphaes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messenia",
+     "modern_name": "Messenia, Greece",
+     "certainty": "real",
+     "lat": 37.1,
+     "lon": 21.9
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 24,
+    "title": "Sparta's secret oath; Amphea falls",
+    "summary": "Sparta swears to conquer Messenia and storms Amphea at night, massacring its people. Pausanias dates this by the Olympiad and Athenian archon.",
+    "stakes": "The people of Amphea are slaughtered, including suppliants; Messenia loses its border base.",
+    "present": [
+     "Alcamenes",
+     "Xenodocus",
+     "Æsimides"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Amphea",
+     "modern_name": "near Ampheia, Messenia",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 22.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Polychares",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian whom Sparta demanded for punishment"
+   },
+   {
+    "name": "Teleclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king whose murder is a cause of war"
+   },
+   {
+    "name": "Cresphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Early Messenian ruler, father of Æpytus"
+   },
+   {
+    "name": "Æpytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Cresphontes, restored by the Aristodemids"
+   },
+   {
+    "name": "Euæphnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man wronged by Polychares, whose punishment is debated"
+   },
+   {
+    "name": "Crœsus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Barbarian king who befriended Sparta"
+   },
+   {
+    "name": "Apollodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Tyrant of Cassandrea allied with Sparta"
+   },
+   {
+    "name": "Androcles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian king who urged surrendering Polychares"
+   },
+   {
+    "name": "Antiochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian king who opposed surrender; father of Euphaes"
+   },
+   {
+    "name": "Euphaes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Antiochus, succeeded him as king"
+   },
+   {
+    "name": "Alcamenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan general, son of Teleclus"
+   },
+   {
+    "name": "Xenodocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian Olympic race victor"
+   },
+   {
+    "name": "Æsimides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian ruler, son of Æschylus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cresphontes",
+    "relation": "parent_of",
+    "b": "Æpytus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Antiochus",
+    "relation": "parent_of",
+    "b": "Euphaes",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Teleclus",
+    "relation": "parent_of",
+    "b": "Alcamenes",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Æschylus",
+    "relation": "parent_of",
+    "b": "Æsimides",
+    "source": "text",
+    "evidence_sentence": 24
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs partisan national accounts of the war's origins, showing how each side shapes history to its own advantage.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Synchronizing events with Olympiads and Athenian rulers reflects Greek chronology, tying the war to a datable year.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Polychares, Teleclus and Cresphontes refer to earlier episodes Pausanias told before: a cattle dispute, the killing of the Spartan king at Limnae, and the Dorian division of Messenia by lot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The Argives were kin to both peoples as fellow Dorian descendants of Heracles; Amphictyonia refers to the Amphictyonic council, a religious league of Greek states.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Crœsus, the wealthy king of Lydia, conquered the Greek cities of Asia Minor in the mid-sixth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Phocians seized Delphi's treasures in the Sacred War of the fourth century BC; the Messenians accuse Spartans of complicity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Apollodorus made himself tyrant of Cassandrea in the third century BC, ruling cruelly; the Messenians cite Sparta's alliance with him as proof of greed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Lucre\" means money or profit, usually in a disparaging sense; \"twitted\" means taunted.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Bandied about\" means tossed back and forth in debate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Dating by Olympiad counts years from the first recorded Olympic games; the ninth Olympiad corresponds to the 740s BC.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "The Areopagus was Athens' ancient council on a hill that tried homicide cases, so the Messenians propose a neutral and respected tribunal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Ephors were five annually elected Spartan magistrates; the senators were the council of elders (gerousia).",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Greek custom normally required a herald to declare war, so Sparta's secret preparation and oath breach convention.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "The Medontidæ were descendants of Medon, line of Athenian rulers who descended from Melanthus; their office was gradually cut back into a ten-year term.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "narrative voice",
+    "text": "Pausanias interrupts with a personal, skeptical aside, showing his role as a critical historian who weighs the partisan claims.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "characterization",
+    "text": "The swift slaughter of Androcles and his supporters shows how brutally Messenian faction divided the state before Sparta struck.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "foreshadowing",
+    "text": "The Spartan oath never to stop until Messenia is won anticipates the long, grinding war that follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "irony",
+    "text": "Suppliants are killed at the very altars meant to protect them, a bitter reversal of sacred custom.",
+    "spoiler": false
+   }
+  ]
+ }
+}

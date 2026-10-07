@@ -1,0 +1,365 @@
+{
+ "section_id": "pausanias-body-36",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7284,
+  "output": 3246
+ },
+ "result": {
+  "summary": "Pausanias describes Salamis, with its temples, trophy and the nearby islet of Psyttalea. He then moves along the Sacred Way from Athens to Eleusis, listing tombs and the stories behind them, ending with Cephisodorus and the Athenian appeal to Rome against Philip of Macedonia.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Salamis and Psyttalea",
+    "summary": "Pausanias notes the temple of Artemis, the trophy of Themistocles and the temple of Cychreus on Salamis. He also describes Psyttalea, where Persians were slain and crude images of Pan stand.",
+    "stakes": "",
+    "present": [
+     "Themistocles",
+     "Cychreus",
+     "Artemis",
+     "Pan"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Salamis",
+     "modern_name": "Salamis Island, Greece",
+     "certainty": "real",
+     "lat": 37.95,
+     "lon": 23.5
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 7,
+    "title": "Tombs on the Sacred Way",
+    "summary": "Along the road to Eleusis stand the tombs of Anthemocritus, killed by the Megarians, and of Molottus. Megara is said to remain under the goddesses' wrath.",
+    "stakes": "Anthemocritus is killed as a herald; the Megarians suffer the lasting wrath of the goddesses.",
+    "present": [
+     "Anthemocritus",
+     "Molottus",
+     "Adrian"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sacred Way",
+     "modern_name": "Iera Odos, Attica",
+     "certainty": "real",
+     "lat": 38.0,
+     "lon": 23.6
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 10,
+    "title": "The Village of Scirus",
+    "summary": "The village and torrent are named for the prophet Scirus from Dodona, who fell fighting for Eleusis against Erechtheus.",
+    "stakes": "Scirus dies in battle in the war between Eleusis and Erechtheus.",
+    "present": [
+     "Scirus",
+     "Erechtheus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Scirus, near Eleusis",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 15,
+    "title": "Cephisodorus and Philip",
+    "summary": "Cephisodorus's tomb leads to an account of how he gathered allies against Philip and finally sought Roman help, which ended Macedonian power under Perseus.",
+    "stakes": "Athens faces defeat by Philip of Macedonia; Perseus later loses his kingdom.",
+    "present": [
+     "Cephisodorus",
+     "Philip",
+     "Attalus",
+     "Ptolemy",
+     "Perseus",
+     "Demetrius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Road to Eleusis",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Themistocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian son of Neocles who won the victory at Salamis"
+   },
+   {
+    "name": "Neocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Themistocles"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple on Salamis"
+   },
+   {
+    "name": "Cychreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero seen as a dragon in the Athenian fleet"
+   },
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with rude images on Psyttalea"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king whose fleet was defeated"
+   },
+   {
+    "name": "Anthemocritus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian herald killed by the Megarians"
+   },
+   {
+    "name": "Adrian",
+    "aliases": [
+     "Emperor Adrian"
+    ],
+    "kind": "mortal",
+    "description": "Roman emperor who favoured Greeks except the Megarians"
+   },
+   {
+    "name": "Molottus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian general buried on the Sacred Way"
+   },
+   {
+    "name": "Plutarch",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man in Eubœa whom the Athenians aided"
+   },
+   {
+    "name": "Scirus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "prophet from Dodona who died fighting for Eleusis"
+   },
+   {
+    "name": "Erechtheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian king at war with Eleusis"
+   },
+   {
+    "name": "Cephisodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian popular leader who opposed Philip"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king, son of Demetrius"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first of his family to be king of Macedonia"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Philip, lost his kingdom to Rome"
+   },
+   {
+    "name": "Attalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mysian king allied with Athens"
+   },
+   {
+    "name": "Ptolemy",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Egyptian king allied with Athens"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cassander, slain by Demetrius"
+   },
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Alexander"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Neocles",
+    "relation": "parent_of",
+    "b": "Themistocles",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Demetrius",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Perseus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Cassander",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Cychreus",
+    "relation": "transformed_into",
+    "b": "dragon",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the two goddesses",
+    "canonical": "Demeter and Persephone",
+    "explanation": "The goddesses of Eleusis, Demeter and Kore, are meant."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links monuments to local memory, mixing heroic cult, battle history and moral lessons about punishment for impiety.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The account of Cephisodorus shows Athens turning to Rome against Macedonia around 200 BC, a step toward Roman control of Greece.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The dragon seen at Salamis was linked to Cychreus, a local snake hero worshipped on the island.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Psyttalea lay in the strait where the Greeks beat Xerxes' fleet at Salamis in 480 BC; Persians stranded there were killed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Acted most unscrupulously\" means the Megarians committed a serious wrong; killing a herald violated the sacred immunity of envoys.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The two goddesses are Demeter and Kore (Persephone), whose sacred land at Eleusis the Megarians were accused of cultivating.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Aggrandise\" means to enrich or raise in power; the emperor Adrian (Hadrian) favoured Greek cities but not Megara, in Pausanias' view.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Dodona was the ancient oracle of Zeus in Epirus, so a prophet from there carried high prestige.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Heavy-armed soldiers\" are hoplites or phalanx infantry, against whom naval power was of little use.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Themistocles was the Athenian commander whose strategy won the naval battle of Salamis against Xerxes' Persians in 480 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Cychreus was a legendary Salaminian hero said to have taken serpent form; here he is credited with aiding the Greek fleet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Pan was the goat-footed god of shepherds and wild places, often honoured with simple, rustic images.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "The Romans defeated Perseus at Pydna in 168 BC, ending the Macedonian kingdom; he was later displayed in triumph in Rome.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "symbolism",
+    "text": "The dragon seen among the ships marks divine, heroic aid for Athens, turning a local hero's cult into a sign of victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "characterization",
+    "text": "Pausanias presents Megara as a place still suffering divine anger, showing his view that sacrilege has lasting consequences.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "Athens seeks Roman help against Macedon, an act that foreshadows Rome's own later domination of Greece.",
+    "spoiler": false
+   }
+  ]
+ }
+}

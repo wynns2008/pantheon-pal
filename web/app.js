@@ -60,7 +60,7 @@ async function siteApi(path) {
   const [, slug, what, id, sub] = route.split("/");
   const base = `books/${slug}/`;
   switch (what) {
-    case "toc": case "about": case "places": case "journey": return siteFile(base + what);
+    case "toc": case "about": case "places": case "items": case "journey": return siteFile(base + what);
     case "books": return siteFile(base + "book-starts");
     case "sections": return siteFile(!id ? base + "boilerplate" : base + (sub === "annotations" ? "annotations/" : "sections/") + id);
     case "people": return siteFile(base + "people/" + decodeURIComponent(id));
@@ -133,8 +133,10 @@ async function openBook(slug, sectionId) {
   state.journey = null;
   state.about = null;
   state.places = [];
+  state.items = [];
   loadJourney(slug);
   loadPlaces(slug);
+  loadItems(slug);
   loadAbout(slug);
   els.toc.replaceChildren(...tree.map((n) => renderNode(n)));
   const first = el("a", { href: `#${slug}/${ABOUT}`, textContent: "About this book" });
@@ -159,13 +161,20 @@ async function loadLegal(slug) {
   const numbers = [...new Set([...text.matchAll(/\[eBook #(\d+)\]/g)].map((m) => m[1]))];
   const title = els.select.selectedOptions[0]?.textContent || slug;
   const author = (text.match(/^Author:\s*(.+)$/m) || [])[1];
-  const note = [document.createTextNode(`Text: ${title}${author ? ", " + author : ""}, Project Gutenberg eBook `)];
+  const source = (text.match(/^Source:\s*(.+)$/m) || [])[1];             // a text from another open source (litparse.perseus)
+  const licence = (text.match(/^Licence:\s*(.+)$/m) || [])[1];
+  const note = [document.createTextNode(`Text: ${title}${author ? ", " + author : ""}, ${source ? "from " + source.split(": ")[0] : "Project Gutenberg eBook "}`)];
+  if (source) {
+    const url = (source.match(/https?:\/\/\S+/) || [])[0];
+    if (url) note.push(document.createTextNode(" ("), Object.assign(document.createElement("a"), { href: url, target: "_blank", rel: "noopener", textContent: "source" }), document.createTextNode(")"));
+    note.push(document.createTextNode(`. ${licence || ""}. `));
+  }
   numbers.forEach((num, i) => {
     if (i) note.push(document.createTextNode(", "));
     note.push(Object.assign(document.createElement("a"), { href: `https://www.gutenberg.org/ebooks/${num}`, target: "_blank", rel: "noopener", textContent: "#" + num }));
   });
-  note.push(document.createTextNode(", unmodified. Public domain in the United States; if you are elsewhere, check your local laws. "
-    + "Not affiliated with or endorsed by Project Gutenberg. Notes, analysis may contain errors. "
+  note.push(document.createTextNode((source ? "" : ", unmodified. Public domain in the United States; if you are elsewhere, check your local laws. "
+    + "Not affiliated with or endorsed by Project Gutenberg. ") + "Notes, analysis may contain errors. "
     + "Summaries, themes and history are excerpted from Wikipedia ("),
     Object.assign(document.createElement("a"), { href: "https://creativecommons.org/licenses/by-sa/4.0/", target: "_blank", rel: "noopener", textContent: "CC BY-SA 4.0" }),
     document.createTextNode("); character descriptions are from Wikidata."));
@@ -433,6 +442,7 @@ function renderSentences(s, a) {
     const capitals = letters.length > 8 && letters === letters.toUpperCase();
     // So is the translator's argument in ordinary case (Butler's Iliad), which the server recognises by its pattern.
     const heading = capitals || (p === 0 && s.argument && !hasSummary(s));
+    let italic = false;          // an italic stretch (_..._) of a stage direction can run over a sentence break
     sentences.forEach((sentence, k) => {
       const span = document.createElement("span");
       span.className = "s";
@@ -443,7 +453,10 @@ function renderSentences(s, a) {
         span.tabIndex = 0;
         span.setAttribute("role", "button");
       }
-      withMarkers(span, capitals ? normalCase(sentence.text, s) : sentence.text);
+      // Close an italic stretch at the end of the sentence it starts in, and open it again in the next.
+      let text = (italic ? "_" : "") + (capitals ? normalCase(sentence.text, s) : sentence.text);
+      italic = (text.match(/_/g) || []).length % 2 === 1;
+      withMarkers(span, italic ? text + "_" : text);
       para.append(span, k < sentences.length - 1 ? " " : "");
     });
     if (heading) para.className = "argument";
@@ -624,7 +637,7 @@ async function showAbout() {
   const fact = (label, value) => (value ? [el("p", { className: "facts" }, el("strong", { textContent: label + ": " }), value)] : []);
   const page = el("div", { className: "about" },
     ...fact("Author", field("Author")), ...fact("Translator", field("Translator")),
-    ...fact("This edition", field("Release date") ? "Project Gutenberg, released " + field("Release date") : ""));
+    ...fact("This edition", field("Source") ? field("Source").split(": ")[0] + ", " + (field("Licence") || "") : field("Release date") ? "Project Gutenberg, released " + field("Release date") : ""));
   const works = [...new Map(Object.values(about.works || {}).map((w) => [w.url, w])).values()];     // one block per article
   for (const work of works) {
     page.append(el("h3", { textContent: works.length > 1 ? work.title : "About the work" }), ...[picture(work.url)].filter(Boolean),
@@ -695,6 +708,7 @@ async function loadAbout(slug) {
   // A profile opened before this arrived (a search result in another book) is drawn again, now with its picture.
   const info = $("person-info");
   if ($("person-dialog").open && info.dataset.place) openPlace(info.dataset.place);
+  else if ($("person-dialog").open && info.dataset.item) openItem(info.dataset.item);
   else if ($("person-dialog").open && info.dataset.person && state.treeData) openProfile(info.dataset.person);
 }
 
@@ -809,9 +823,9 @@ function renderScene() {
   parts.push(...summaries);
   if (sc) {
     parts.push(el("h4", { textContent: list.length > 1 ? `Scene ${state.scene + 1} of ${list.length}: ${sc.title}` : sc.title }),
-      el("p", { className: "note" }, ...withPeople(sc.summary, sc.present)),
-      el("p", { className: "note" }, el("span", { className: "label", textContent: "Where:" }), " ",
-        placeLink(sc.place.name, placeText(sc.place)), sc.told_as_story ? " \u2013 told as a story" : ""));
+      el("p", { className: "note" }, ...withPeople(sc.summary, sc.present)));
+    if (sc.place && sc.place.name) parts.push(el("p", { className: "note" }, el("span", { className: "label", textContent: "Where:" }), " ",
+      placeLink(sc.place.name, placeText(sc.place)), sc.told_as_story ? " \u2013 told as a story" : ""));
     if (sc.stakes) parts.push(el("p", { className: "note" }, el("span", { className: "label", textContent: "At stake:" }), " ", ...withPeople(sc.stakes, sc.present)));
     if (sc.present.length) {
       const names = sc.present.flatMap((name, k) => [k ? ", " : " ", personLink(name)]);
@@ -922,6 +936,17 @@ async function loadPlaces(slug) {
   if (wanted && wanted.book === slug) { state.pendingPlace = null; openPlace(wanted.id); }
 }
 
+// The book's notable things (python -m annotate.items): the Golden Fleece, the aegis, Achilles' shield. Each has a
+// profile like a place's.
+async function loadItems(slug) {
+  let items = [];
+  try { items = await api(`books/${slug}/items`); } catch { /* not made for this book yet */ }
+  if (state.slug !== slug) return;
+  state.items = items;
+  const wanted = state.pendingItem;                    // a search result in another book
+  if (wanted && wanted.book === slug) { state.pendingItem = null; openItem(wanted.id); }
+}
+
 // The place of the book that a name (as a scene gives it, or another of its names) belongs to, or undefined.
 function placeNamed(name) {
   const key = (name || "").trim().toLowerCase();
@@ -939,10 +964,28 @@ function placeLink(name, text) {
 
 const CERTAINTY = { real: "real", traditional: "legendary", mythical: "mythical" };
 
-// A place's profile, in the same window as a character's: what it is, its picture and Wikipedia's account, the
-// scenes set there and the sections that name it (each a link that opens the section there).
-function openPlace(id) {
-  const p = (state.places || []).find((x) => x.id === id);
+// Each drawing of a profile has a number. A profile can be drawn twice in a row (when a book's list of places or
+// things comes in, then again when its pictures do), and an answer that arrives for an older drawing is dropped,
+// so that "Also in:" or the key moments are not added twice.
+let renders = 0;
+
+// The other names worth listing under "Also called": not the name itself in other letters ("Laius" for Laïus,
+// "the golden fleece" for the Golden Fleece), and each only once.
+const plainName = (n) => n.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/æ/gi, "ae").replace(/œ/gi, "oe")
+  .toLowerCase().replace(/^the\s+/, "").trim();
+function otherNames(name, names) {
+  const seen = new Set([plainName(name)]);
+  return names.filter((n) => !seen.has(plainName(n)) && seen.add(plainName(n)));
+}
+
+function openPlace(id) { openThing("place", id); }
+function openItem(id) { openThing("item", id); }
+
+// A place's or a thing's profile, in the same window as a character's: what it is, its picture and Wikipedia's
+// account, who owns a thing, the scenes set at a place or telling of a thing, and the sections that name it (each a
+// link that opens the section there).
+function openThing(type, id) {
+  const p = ((type === "place" ? state.places : state.items) || []).find((x) => x.id === id);
   if (!p) return;
   const info = $("person-info");
   info.dataset.person = "";                 // so that a character's references still loading do not land here
@@ -950,9 +993,14 @@ function openPlace(id) {
   const add = (label, text) => { if (text) rows.push(el("p", { className: "note" }, el("span", { className: "label", textContent: label + ":" }), " " + text)); };
   const pic = p.wikipedia && picture(p.wikipedia.url);
   if (pic) rows.push(pic);
-  add("What", `${p.kind === "other" ? "place" : p.kind} · ${CERTAINTY[p.certainty] || p.certainty}`);
+  add("What", type === "place" ? `${p.kind === "other" ? "place" : p.kind} · ${CERTAINTY[p.certainty] || p.certainty}`
+                                  : (p.kind === "other" ? "thing" : p.kind));
   add("In the book", p.description);
-  add("Also called", (p.aliases || []).slice(0, 6).join(", "));
+  if ((p.owners || []).length) {
+    rows.push(el("p", { className: "note" }, el("span", { className: "label", textContent: "Owned by:" }),
+      ...p.owners.flatMap((name, k) => [k ? ", " : " ", personLink(name)])));
+  }
+  add("Also called", otherNames(p.name, p.aliases || p.names || []).slice(0, 6).join(", "));
   if (p.wikipedia) {
     rows.push(el("p", { className: "note" }, el("span", { className: "label", textContent: "Wikipedia:" }), " " + p.wikipedia.lead + " ",
       el("a", { href: p.wikipedia.url, target: "_blank", rel: "noopener", textContent: "Read more" })));
@@ -968,7 +1016,7 @@ function openPlace(id) {
     return el("li", {}, a, after);
   };
   if (p.scenes.length) {
-    rows.push(el("h4", { textContent: "Scenes set here:" }),
+    rows.push(el("h4", { textContent: type === "place" ? "Scenes set here:" : "Scenes it appears in:" }),
       el("ul", { className: "moments" }, ...p.scenes.map((m) => item(m, `${m.title} › ${m.scene_title}`))));
   }
   if (p.named.length) {
@@ -978,9 +1026,11 @@ function openPlace(id) {
       el("ul", { className: "moments" }, ...p.named.map((m) => item(m, m.title, ` (${m.count})`)))));
   }
   info.className = "tree-info";
-  info.dataset.place = id;
+  info.dataset.place = type === "place" ? id : "";
+  info.dataset.item = type === "item" ? id : "";
+  info.dataset.render = ++renders;
   info.replaceChildren(el("strong", { textContent: p.name }), ...rows);
-  loadElsewhere(info, "place", id, p.name);
+  loadElsewhere(info, type, id, p.name);
   const dialog = $("person-dialog");
   if (!dialog.open) dialog.showModal();
   dialog.scrollTop = 0;
@@ -990,8 +1040,9 @@ function openPlace(id) {
 // Added under a profile once the server answers.
 async function loadElsewhere(info, type, id, name) {
   let others = [];
+  const render = info.dataset.render;
   try { others = await api(`books/${state.slug}/elsewhere?type=${type}&id=${encodeURIComponent(id)}`); } catch { return; }
-  if ((type === "place" ? info.dataset.place : info.dataset.person) !== id || !others.length) return;   // closed or moved on
+  if (info.dataset.render !== render || info.dataset[type] !== id || !others.length) return;   // closed, moved on or drawn again
   const links = others.flatMap((o, k) => {
     // Another book's name for it, where that differs: "The Iliad (as Jove)".
     const label = o.book === state.slug ? o.name : o.book_title + (o.name !== name ? ` (as ${o.name})` : "");
@@ -1395,7 +1446,7 @@ function showPerson(info, id, data, inTree = true) {
   const add = (label, text) => { if (text) rows.push(el("p", { className: "note" }, el("span", { className: "label", textContent: label + ":" }), " " + text)); };
   add(KIND_SHOWN.has(p.kind) ? "Domain" : "Who", p.about);
   add("In the book", p.in_book && p.description !== p.about ? p.description : "");
-  add("Also called", p.aliases.slice(0, 6).join(", "));
+  add("Also called", otherNames(p.name, p.aliases).slice(0, 6).join(", "));
   add("Parents", related("parent_of", "b", "a").join(", "));
   add("Children", related("parent_of", "a", "b").join(", "));
   add("Spouse", [...related("spouse_of", "a", "b"), ...related("spouse_of", "b", "a")].join(", "));
@@ -1419,6 +1470,8 @@ function showPerson(info, id, data, inTree = true) {
   info.className = "tree-info";
   info.dataset.person = id;
   info.dataset.place = "";
+  info.dataset.item = "";
+  info.dataset.render = ++renders;
   // The name, then how it is said ("yoo-LISS-eez"), where a pronunciation has been made for it.
   info.replaceChildren(el("strong", { textContent: p.name }),
     ...(p.say ? [" ", el("span", { className: "say", textContent: p.say, title: "How the name is usually said in English" })] : []), ...rows);
@@ -1450,9 +1503,10 @@ function showFound() {
 // books of the library. Each one is a link that opens the section at that scene.
 async function loadReferences(info, id, names) {
   let refs;
+  const render = info.dataset.render;
   try { refs = await api(`books/${state.slug}/people/${encodeURIComponent(id)}/references`); } catch { return; }
   const all = refs.scenes || [];
-  if (info.dataset.person !== id || (!refs.here.length && !refs.elsewhere.length && !all.length)) return;     // closed, or nothing to show
+  if (info.dataset.render !== render || info.dataset.person !== id || (!refs.here.length && !refs.elsewhere.length && !all.length)) return;     // closed, or nothing to show
   const item = (slug, m, label) => {
     const a = el("a", { href: `#${slug}/${m.section}`, textContent: label });
     a.addEventListener("click", () => {
@@ -1490,7 +1544,7 @@ async function loadReferences(info, id, names) {
 
 // ---------- Search ----------
 
-// Find a character or a place by any of its names: this book's first, then the other books'. A result opens the
+// Find a character, a place or a thing by any of its names: this book's first, then the other books'. A result opens the
 // profile; one in another book opens that book first.
 async function runSearch() {
   const q = $("search").value.trim(), list = $("search-results");
@@ -1498,12 +1552,12 @@ async function runSearch() {
   let found = [];
   try { found = await api(`search?q=${encodeURIComponent(q)}&book=${encodeURIComponent(state.slug || "")}`); } catch { /* the server is unreachable */ }
   if ($("search").value.trim() !== q) return;                     // the reader has typed on meanwhile
-  // One row per being or place: it opens in this book if it is here, and says how many books it is in.
+  // One row per being, place or thing: it opens in this book if it is here, and says how many books it is in.
   list.replaceChildren(...(found.length ? found.slice(0, 30).map((f) => {
     const books = new Set(f.books.map((b) => b.book)).size;
     const where = [f.book !== state.slug ? f.book_title : "", books > 1 ? `in ${books} books` : ""].filter(Boolean).join(", ");
     const item = el("li", { tabIndex: -1 }, el("strong", { textContent: f.name }), f.as ? ` (${f.as})` : "",
-      f.type === "place" ? el("span", { className: "tag", textContent: "place" }) : "",
+      f.type !== "person" ? el("span", { className: "tag", textContent: f.type === "item" ? "thing" : f.type }) : "",
       where ? el("span", { className: "where", textContent: " · " + where }) : "",
       f.about ? el("span", { className: "what", textContent: f.about }) : "");
     item.addEventListener("click", () => openResult(f));
@@ -1521,6 +1575,9 @@ function openResult(f) {
   if (f.type === "place") {
     if (f.book === state.slug) return openPlace(f.id);
     state.pendingPlace = { book: f.book, id: f.id };     // loadPlaces opens it once that book's places are in
+  } else if (f.type === "item") {
+    if (f.book === state.slug) return openItem(f.id);
+    state.pendingItem = { book: f.book, id: f.id };      // loadItems opens it once that book's things are in
   } else {
     if (f.book === state.slug && state.treeData) return openProfile(f.id);
     state.pendingProfile = { book: f.book, id: f.id };   // loadTree opens it once that book's tree is in

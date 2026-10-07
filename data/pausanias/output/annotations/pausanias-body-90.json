@@ -1,0 +1,339 @@
+{
+ "section_id": "pausanias-body-90",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8470,
+  "output": 2897
+ },
+ "result": {
+  "summary": "Pausanias recounts Agis's reign: the Spartan war against Elis, the fortification of Decelea and the fall of Athens. He then tells how Agis doubted his son Leotychides, and how Agesilaus won the throne with Lysander's help.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Agis succeeds; Cynisca's victories",
+    "summary": "Agis succeeds Archidamus. His sister Cynisca becomes the first woman to win at Olympia, and Pausanias remarks on Spartan neglect of poetry.",
+    "stakes": "",
+    "present": [
+     "Archidamus",
+     "Agis",
+     "Cynisca"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta, Greece",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 9,
+    "title": "War against Elis",
+    "summary": "Sparta demands freedom for Elis's subject cities and invades. Xenias's plot fails and Elis yields.",
+    "stakes": "Elis risks ruin and the loss of its subject cities and walls.",
+    "present": [
+     "Agis",
+     "Xenias",
+     "Thrasydæus",
+     "Lysistratus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Elis, Peloponnese",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 11,
+    "title": "Decelea and Athens' fall",
+    "summary": "Agis fortifies Decelea against Athens. After Ægos-potamoi he and Lysander agree to destroy Athens.",
+    "stakes": "Athens faces destruction.",
+    "present": [
+     "Agis",
+     "Lysander"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Decelea",
+     "modern_name": "Dekeleia, Attica",
+     "certainty": "real",
+     "lat": 38.1,
+     "lon": 23.78
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 19,
+    "title": "Succession dispute: Leotychides",
+    "summary": "Agis doubts Leotychides's legitimacy, then retracts on his deathbed. Agesilaus, backed by Lysander and a Delphic oracle, takes the throne.",
+    "stakes": "Leotychides risks losing the kingship as illegitimate.",
+    "present": [
+     "Agis",
+     "Leotychides",
+     "Agesilaus",
+     "Lysander",
+     "Aristo",
+     "Demaratus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta, Greece",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Archidamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, father of Agis and Cynisca"
+   },
+   {
+    "name": "Agis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king who warred on Elis and Athens"
+   },
+   {
+    "name": "Agesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "lame half-brother of Agis who became king"
+   },
+   {
+    "name": "Cynisca",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first woman to win at Olympia"
+   },
+   {
+    "name": "Xenias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean friendly to Sparta who conspired and failed"
+   },
+   {
+    "name": "Thrasydæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the Elean populace"
+   },
+   {
+    "name": "Lysistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan left to ravage Elis"
+   },
+   {
+    "name": "Lysander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aristocritus, Spartan commander"
+   },
+   {
+    "name": "Aristo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who doubted his son Demaratus"
+   },
+   {
+    "name": "Demaratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aristo"
+   },
+   {
+    "name": "Leotychides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Agis's disputed son"
+   },
+   {
+    "name": "Aristocritus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Lysander"
+   },
+   {
+    "name": "Simonides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who wrote an epigram on Pausanias"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Archidamus",
+    "relation": "parent_of",
+    "b": "Agis",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Archidamus",
+    "relation": "parent_of",
+    "b": "Cynisca",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Archidamus",
+    "relation": "parent_of",
+    "b": "Agesilaus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Agis",
+    "relation": "parent_of",
+    "b": "Leotychides",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Aristo",
+    "relation": "parent_of",
+    "b": "Demaratus",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Aristocritus",
+    "relation": "parent_of",
+    "b": "Lysander",
+    "source": "text",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "The Delphic oracle warning Sparta against a lame king, central to the succession quarrel.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Personal words and ambition shape Sparta's fate, as a rash remark by Agis unsettles the succession.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage covers the late Peloponnesian War, including the Elean War and Decelea, showing Spartan power and rivalries.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Cynisca's Olympic victories were won as owner of the chariot team, since women could not compete in person.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Ultimatum\" here means a formal demand with a threat of war; \"resident aliens\" are the perioikoi-like dependents of Elis, such as the people of Lepreum.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Root and branch\" means utterly, completely: the allies agreed to destroy Athens entirely.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Refers to Aristo, an earlier Spartan king, who said Demaratus was not his son, then regretted it; Demaratus was later deposed over this doubt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"Evil genius\" means a malign guiding spirit (daimon) that prompted his rash words.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Lame of one leg\" is ambiguous: it can mean literal lameness or a flawed, illegitimate kingship, which is the point of the dispute.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"Privilege to refer the question to Delphi\" means they could have asked the oracle to explain its own meaning, but did not.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Cynisca won the four-horse chariot race; as a woman she could not compete in person, since the owner of the horses was credited with the victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Elis administered the Olympic Games and the sanctuary of Zeus; Sparta had been barred from them, which fuelled the conflict, often dated around 402-400 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Decelea in Attica was fortified by Sparta in 413 BC, allowing year-round raids on Athens. Ægos-potamoi (405 BC) destroyed the Athenian fleet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "The Ephors were five annually elected Spartan magistrates who could supervise the kings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Agesilaus was indeed lame; he became king around 399 BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "narrative voice",
+    "text": "Pausanias intrudes with a personal judgment (\"seems to me\"), turning a record of events into a cultural observation about Spartan values.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "foreshadowing",
+    "text": "The comparison with Aristo's rash words anticipates the coming dispute over Leotychides' legitimacy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "metaphor",
+    "text": "War is imagined as a mortal-slaying wave, an image of overwhelming, destructive force sweeping over Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "irony",
+    "text": "Both claimants read the oracle's ambiguous words to favor themselves, showing how a prophecy's vagueness serves political ends.",
+    "spoiler": false
+   }
+  ]
+ }
+}

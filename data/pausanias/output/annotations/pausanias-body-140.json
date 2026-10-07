@@ -1,0 +1,301 @@
+{
+ "section_id": "pausanias-body-140",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7777,
+  "output": 2694
+ },
+ "result": {
+  "summary": "Pausanias describes monuments in Messene: the Sacrificial Chamber, the gymnasium statues, and the tomb of Aristomenes with its bull-sacrifice omen. He then relates how Aristomenes was said to have aided the Thebans at Leuctra through the oracle of Trophonius and his shield.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Sacrificial Chamber and gymnasium statues",
+    "summary": "Pausanias lists statues and tripods at Messene, including the wealthy Æthidas, honoured as a hero, and a possible namesake ancestor who was general when Demetrius attacked.",
+    "stakes": "",
+    "present": [
+     "Æthidas",
+     "Epaminondas",
+     "Demetrius",
+     "Hermes",
+     "Hercules",
+     "Theseus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messene",
+     "modern_name": "Ancient Messene, Mavromati",
+     "certainty": "real",
+     "lat": 37.1767,
+     "lon": 21.9188
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 15,
+    "title": "Tomb of Aristomenes",
+    "summary": "The Messenians say Aristomenes' remains were fetched from Rhodes on Delphi's order, and they use a bull sacrifice as an omen. They claim he fought for Thebes at Leuctra.",
+    "stakes": "",
+    "present": [
+     "Aristomenes",
+     "Plato"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messene",
+     "modern_name": "Ancient Messene, Mavromati",
+     "certainty": "real",
+     "lat": 37.1767,
+     "lon": 21.9188
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 23,
+    "title": "Trophonius' oracle and the shield",
+    "summary": "The Thebans tell that before Leuctra Trophonius ordered a trophy made of Aristomenes' shield. Epaminondas had it fetched and displayed, and it was later returned.",
+    "stakes": "The Thebans face the Lacedæmonians in a decisive battle at Leuctra.",
+    "present": [
+     "Epaminondas",
+     "Xenocrates",
+     "Aristomenes",
+     "Trophonius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Leuctra",
+     "modern_name": "Leuktra, Boeotia",
+     "certainty": "real",
+     "lat": 38.2,
+     "lon": 23.15
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 25,
+    "title": "Statue and temple of Serapis",
+    "summary": "Pausanias notes a bronze statue of Aristomenes in the race-course and the temple of Serapis and Isis.",
+    "stakes": "",
+    "present": [
+     "Aristomenes",
+     "Serapis",
+     "Isis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messene",
+     "modern_name": "Ancient Messene, Mavromati",
+     "certainty": "real",
+     "lat": 37.1767,
+     "lon": 21.9188
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban general with a brass effigy at Messene"
+   },
+   {
+    "name": "Æthidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wealthy Messenian honoured as a hero"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Philip who stole into Messene by night"
+   },
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian hero with a tomb, statue and shield"
+   },
+   {
+    "name": "Plato",
+    "aliases": [
+     "son of Aristo"
+    ],
+    "kind": "mortal",
+    "description": "Greek philosopher who believed in the immortal soul"
+   },
+   {
+    "name": "Xenocrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man who sent for the shield of Aristomenes"
+   },
+   {
+    "name": "Trophonius",
+    "aliases": [],
+    "kind": "god",
+    "description": "oracular power at Lebadea"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a statue in the gymnasium"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero-god with a statue in the gymnasium"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a statue in the gymnasium"
+   },
+   {
+    "name": "Serapis",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple in Messene"
+   },
+   {
+    "name": "Isis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple in Messene"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Demetrius",
+    "source": "text",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 19,
+    "reason": "The oracle of Trophonius tells the Thebans to use Aristomenes' shield as a trophy before Leuctra.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends monuments, ritual and local tradition, showing how Messenians kept Aristomenes' memory alive as a hero after liberation.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Leuctra story reflects Theban-Messenian alliance after 371 BC and the founding of Messene under Epaminondas.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias cites Homer's unfired tripods, which he compares with ancient objects still shown in the Messene temple.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Homer (Iliad 9 and 23) describes tripods 'untouched by fire', meaning new, never yet used for cooking; they were prized as gifts and prizes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Palæstras were wrestling schools, often attached to or part of gymnasiums.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Honoured as a hero means receiving cult worship normally given to semi-divine figures, an extraordinary honour for a wealthy private man.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Demetrius, son of Philip V of Macedon, attacked Messene by night in 214 BC and was repulsed; he was killed in the attempt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "A cenotaph is an empty tomb built in memory of someone buried elsewhere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "At Leuctra in 371 BC the Thebans under Epaminondas defeated Sparta (the Lacedæmonians), ending Spartan dominance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Plato, son of Aristo, argued for the soul's immortality in works such as the Phaedo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "Hexameter is the six-beat verse line of epic and oracular poetry.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Epaminondas was the Theban general who defeated Sparta and helped found Messene in 369 BC, freeing the Messenians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Aristomenes was the Messenian hero of the second war against Sparta; tradition says he died at Rhodes in exile.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Trophonius' oracle at Lebadea in Boeotia was consulted by descending into an underground chamber.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Serapis and Isis were Egyptian deities whose cults spread widely through the Greek world in Hellenistic times.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "irony",
+    "text": "The dead hero's supposed fighting at Leuctra suggests posthumous vengeance; Pausanias's word 'amuse' signals mild skepticism toward the Messenian claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "hyperbole",
+    "text": "Calling his hatred 'eternal' turns Aristomenes' enmity into something that outlasts death, supporting the legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "apostrophe",
+    "text": "The god speaks in the first person through the oracle, giving the command authority and presenting the shield as a sacred object.",
+    "spoiler": false
+   }
+  ]
+ }
+}

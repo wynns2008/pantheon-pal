@@ -1,0 +1,385 @@
+{
+ "section_id": "bacchae-body-4",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 13794,
+  "output": 3782
+ },
+ "result": {
+  "summary": "After Dionysus takes Pentheus into the castle, the Chorus sings of freedom, of the slow but sure judgment of God, and of simple happiness. Dionysus then brings Pentheus out, maddened and dressed as a Bacchanal, and dresses him for the trip to Mount Kithaeron, where Pentheus will spy on the Maenads. Pentheus leaves, and Dionysus announces his doom.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 26,
+    "title": "Choral song of freedom and judgment",
+    "summary": "The Chorus longs for the wild dances, warns that God's justice awaits the proud, and praises the happy life.",
+    "stakes": "",
+    "present": [
+     "Chorus",
+     "Leader"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Before the castle at Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 113,
+    "title": "Pentheus dressed as a Maenad",
+    "summary": "Dionysus brings out Pentheus, crazed and dressed as a woman. He tends his costume and leads him to spy on the Maenads, flattering his pride.",
+    "stakes": "Pentheus is being lured to his death, though he does not know it.",
+    "present": [
+     "Dionysus",
+     "Pentheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Before the castle at Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 114,
+    "end_sentence": 116,
+    "title": "Dionysus foretells the doom",
+    "summary": "Alone, Dionysus gloats that Pentheus goes to a terrible fate and calls on Agave and her sisters to receive him.",
+    "stakes": "Pentheus faces destruction at the hands of his own mother.",
+    "present": [
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Before the castle at Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Dionyse"
+    ],
+    "kind": "god",
+    "description": "god of the Bacchic rites, leading Pentheus to his doom"
+   },
+   {
+    "name": "Pentheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Thebes, driven mad and dressed as a Bacchanal"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "other",
+    "description": "Bacchic maidens who sing of wisdom and God's judgment"
+   },
+   {
+    "name": "Leader",
+    "aliases": [],
+    "kind": "other",
+    "description": "leader of the Chorus"
+   },
+   {
+    "name": "Agave",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Pentheus' mother, a Theban queen among the Maenads"
+   },
+   {
+    "name": "Ino",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban woman whom Pentheus imagines he resembles"
+   },
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who pipes among the rocks"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Agave",
+    "relation": "parent_of",
+    "b": "Pentheus",
+    "source": "text",
+    "evidence_sentence": 96
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Dionyse",
+    "canonical": "Dionysus",
+    "explanation": "A variant spelling of the god's name used by the translator."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "The Chorus's refrain questioning what true wisdom is, central to the play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "reason": "Expresses the slow but sure justice of God.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The Chorus contrasts peaceful reverence for the gods with proud defiance, while Pentheus's madness shows divine punishment of the proud.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pentheus' cross-dressing and the dissolving of his identity reflect Dionysian ritual, in which the god's followers cast off ordinary roles.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Wane\" means fade; the dances last all night until the stars dim toward dawn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Deadly press\" means the crush of hunters closing in on the fleeing animal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Coucheth\" means lays low or ambushes; Time, like a hunter hidden in cover, snares the impious man as he strides on.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "The chorus asks whether it is really so hard to accept that divine law is eternal, unchanging and rooted in nature.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "\"Orb of life\" is the circle of life; \"strangely graven\" suggests its pattern is oddly marked, giving some men more gold and power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "\"Leaven\" is yeast, which makes dough swell and ferment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "\"Dionyse\" is this translation's spelling of Dionysus; \"guise\" means outward appearance or dress.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "phrasing",
+    "text": "\"Methinks\" means \"it seems to me\"; \"like to\" means \"like.\" Cadmus was the founder of Thebes and Pentheus's grandfather.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "Pentheus's double vision shows his madness. The Wall of Seven Gates refers to the seven gates of Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "word",
+    "text": "\"Erst\" means formerly; \"wrath\" means angry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "allusion",
+    "text": "Ino was Pentheus's aunt, a sister of his mother Agave and daughter of Cadmus. \"She who bore me\" is Agave.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "word",
+    "text": "A \"coif\" is a close-fitting cap or head covering; \"lock\" means a strand of hair.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "word",
+    "text": "A \"zone\" is a woman's belt or girdle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "kind": "word",
+    "text": "The \"wand\" is the thyrsus, a fennel stalk tipped with ivy or a pine cone, carried by Bacchic worshippers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "kind": "allusion",
+    "text": "Pan, the goat-footed god of shepherds and wild places, was said to pipe at noon; the Nymphs' rocks are sacred haunts Pentheus would be violating.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "kind": "phrasing",
+    "text": "Dionysus plays on 'spy': Pentheus will indeed lie hidden, but as one watching sacred rites, which is forbidden and dangerous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 86,
+    "kind": "phrasing",
+    "text": "'Methinks' means 'it seems to me'; Pentheus imagines the women as birds caught in the nets of love, revealing his lewd suspicions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 94,
+    "kind": "phrasing",
+    "text": "'Unscathed' means unharmed; the line is ambiguous, since 'another bear thee home' hints he will be carried back dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "kind": "word",
+    "text": "'Fell' means cruel or deadly; 'Cadmeian' means descended from Cadmus, founder of Thebes, so the sisters are Agave and her sisters.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Dionysus leads Pentheus, now under the god's spell, into the palace to dress as a woman, so the Chorus sings alone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Pentheus, king of Thebes, is the proud man who rejects the new god Dionysus; the Chorus foretells his punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "Thebes is Pentheus's city, which he rules. Seeing it doubled suggests Dionysus's divine madness has already unsettled his mind.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "The bull is one of Dionysus's sacred forms. Pentheus is seeing the god's true nature, or his madness is projecting it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 70,
+    "text": "Mount Kithaeron is where the Maenads are celebrating the rites, and where Pentheus will meet his death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 92,
+    "text": "Pentheus is king of Thebes, and his boast of being the city's 'one Man' shows the pride that Dionysus is exploiting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "text": "Agave is Pentheus's mother and a Maenad; in the coming scene she will tear him apart in Bacchic frenzy, not recognizing him.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "metaphor",
+    "text": "The Chorus imagines themselves as a hunted fawn escaping the hounds, expressing their longing for freedom and their fear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "rhetorical question",
+    "text": "The question, repeated as a refrain, invites the answer that true wisdom is peaceful freedom and not clever striving.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "personification",
+    "text": "Time is a hunter who stalks the proud man with slow steps, making divine justice patient yet inevitable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "simile",
+    "text": "Men seething with hopes like fermenting leaven conveys the restless, swelling energy of human ambition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "Apostrophe",
+    "text": "Dionysus addresses Pentheus's eye and heart directly, condemning his forbidden curiosity and insatiable desire to spy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "Dramatic irony",
+    "text": "Pentheus sees the god as a bull while Dionysus stays calm. The audience knows the god is leading him to destruction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "Irony",
+    "text": "Dionysus says Pentheus's eyes are \"unsealed\" to see truly, though the god has actually deluded his sight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 62,
+    "device": "Foreshadowing",
+    "text": "The phrase \"more than true\" hints that Pentheus will learn the Bacchic madness all too well, to his cost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 70,
+    "device": "Hyperbole",
+    "text": "Pentheus's boast of lifting the whole mountain shows his delusion of strength, ironic given his coming helplessness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 94,
+    "device": "dramatic irony",
+    "text": "Pentheus hears a promise of safety and glory, but the audience knows 'another bear thee home' foretells his mangled body being carried back.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "device": "foreshadowing",
+    "text": "Being 'borne on high' anticipates Pentheus in the pine tree and later his head carried aloft on Agave's thyrsus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "device": "irony",
+    "text": "The 'shining' name and 'sign for ever' sound like glory but mean lasting infamy as a warning of divine vengeance.",
+    "spoiler": false
+   }
+  ]
+ }
+}

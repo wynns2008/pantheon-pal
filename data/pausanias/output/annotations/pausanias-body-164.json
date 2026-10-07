@@ -1,0 +1,386 @@
+{
+ "section_id": "pausanias-body-164",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9297,
+  "output": 3461
+ },
+ "result": {
+  "summary": "Pausanias describes more offerings at Olympia: the bed of Hippodamia, the quoit of Iphitus, the ivory and gold table, and a relief of the gods. He tells of a dead soldier found in the roof of Hera's temple, the surviving pillar of Oenomaus' house, and the Philippeum with its statues of Philip's family.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Offerings and the games relief",
+    "summary": "Pausanias lists the bed, quoit and table, and the statues and carved scene of gods, including Pluto with his key.",
+    "stakes": "",
+    "present": [
+     "Hippodamia",
+     "Iphitus",
+     "Colotes",
+     "Pluto",
+     "Æsculapius",
+     "Hygiea",
+     "Ares",
+     "Dionysus",
+     "Proserpine"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 12,
+    "title": "Soldier in the temple roof",
+    "summary": "Aristarchus tells of a wounded armoured man found dead in the roof of Hera's temple, a combatant in the old battle in the Altis. He was buried with his armour.",
+    "stakes": "The wounded man was dying of his wounds in a hiding place.",
+    "present": [
+     "Aristarchus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Temple of Hera, Altis",
+     "modern_name": "Heraion, Olympia",
+     "certainty": "real",
+     "lat": 37.6385,
+     "lon": 21.6285
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 20,
+    "title": "Pillar of Œnomaus",
+    "summary": "The one pillar saved from Œnomaus' burnt house stands near Zeus' temple, and a Roman senator's builders dig up ancient arms and bridles beside it.",
+    "stakes": "The house of Œnomaus was destroyed by lightning.",
+    "present": [
+     "Œnomaus",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis, Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 26,
+    "title": "Temple of the Mother, Philippeum",
+    "summary": "Pausanias describes the Temple of the Mother and Philip's round house, built after Chaeronea and holding ivory and gold statues by Leochares.",
+    "stakes": "",
+    "present": [
+     "Philip",
+     "Alexander",
+     "Amyntas",
+     "Olympias",
+     "Eurydice",
+     "Leochares"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Philippeum, Altis",
+     "modern_name": "Philippeion, Olympia",
+     "certainty": "real",
+     "lat": 37.6385,
+     "lon": 21.6297
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hippodamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Owner of the ivory bed as a plaything"
+   },
+   {
+    "name": "Iphitus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Owner of the inscribed quoit"
+   },
+   {
+    "name": "Colotes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Artist who designed the ivory and gold table"
+   },
+   {
+    "name": "Pluto",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with the key of Hades"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "Healing god shown in the relief"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Daughter of Æsculapius"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "God shown beside Contest"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God shown in the relief"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess shown in the relief"
+   },
+   {
+    "name": "Aristarchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Interpreter of Antiquities at Olympia"
+   },
+   {
+    "name": "Œnomaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Former owner of the burnt house"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God who struck the house with lightning"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King for whom the round house was built"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Statue in the Philippeum"
+   },
+   {
+    "name": "Amyntas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Philip"
+   },
+   {
+    "name": "Olympias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Subject of a statue by Leochares"
+   },
+   {
+    "name": "Eurydice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Subject of a statue by Leochares"
+   },
+   {
+    "name": "Leochares",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor of the statues"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Æsculapius",
+    "relation": "parent_of",
+    "b": "Hygiea",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Amyntas",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "outside",
+    "evidence_sentence": 25
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "The pillar's own inscribed voice, recording the survival of Œnomaus' house.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Relics link Olympia to myth and history, from Hippodamia and Œnomaus to Philip, making the sanctuary a living memory.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Philippeum shows Macedonian rulers placing themselves in Greek sanctuaries after Chaeronea, and Roman-era emperors' statues show later powers doing likewise.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Philippeum's foundations survive at Olympia and were excavated in the 19th century.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "The inscribed armistice runs in a circle around the quoit, not in straight lines. It is the sacred truce of Olympia, traditionally tied to Iphitus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "The sentence breaks off at a gap in the text; the name of Pasiteles' teacher is lost. The bracketed [73] is the translator's footnote marker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Pluto is the god of the dead. Hades here means the underworld, not the god, and the key shows it is locked against return.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Interpreter of Antiquities translates the Greek exegetes, a local guide who explained the sanctuary's monuments and history to visitors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "The sham roof is a false ceiling, so the body lay hidden in the space between it and the tiled roof.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "This refers to an earlier battle between Spartans (Lacedæmonians) and Eleans fought inside the sacred Altis, the precinct at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Œnomaus was the legendary king of Pisa, father of Hippodamia, who killed her suitors in chariot races; his house stood at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "Elegiac lines are verse in couplets of a long hexameter line and a shorter pentameter, often used for inscriptions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"Won the prize\" means he was an Olympic victor; the statue and inscription would commemorate the win.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Altis was the sacred grove and precinct of Zeus at Olympia, containing the temples, altars and treasuries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Chæronea (338 BC) was where Philip II of Macedon defeated Athens and Thebes, ending the independence of the Greek cities.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Iphitus was the traditional king of Elis who revived the Olympic games and the sacred truce. Hippodamia was the bride won by Pelops.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Æsculapius is the god of healing and Hygiea (Health) his daughter. Pluto rules the underworld, and Proserpine is his queen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "High buildings gave defenders a vantage point against attackers, so the Eleans used even temples as strongholds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Arms and bridles found here would fit the old legend of Œnomaus' chariot racing and his slain suitors, which is probably why Pausanias mentions them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Philip II ruled Macedon; Alexander is Alexander the Great, his son; Amyntas III was Philip's father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Olympias was Philip's wife and Alexander's mother; Eurydice was Philip's mother. Leochares was a leading Athenian sculptor of the fourth century BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "symbolism",
+    "text": "The key stands for the finality of death: the underworld is locked and none return.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "characterization",
+    "text": "Pausanias shows himself as a rational inquirer, offering a plausible explanation for why the body was so well preserved.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "symbolism",
+    "text": "The lone pillar spared by the god's lightning stands for divine judgment on Œnomaus' house and for memory outlasting ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "personification",
+    "text": "The pillar speaks in the first person as a surviving witness, addressing the visitor directly and giving the relic a voice.",
+    "spoiler": false
+   }
+  ]
+ }
+}

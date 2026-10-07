@@ -1,0 +1,369 @@
+{
+ "section_id": "pausanias-body-123",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8176,
+  "output": 3210
+ },
+ "result": {
+  "summary": "The Messenians rise in a second war against Sparta in the 39th year after Ithome fell. Pausanias dates it, Aristomenes is made king and dedicates a shield in Sparta, and the Spartans receive Tyrtæus from Athens. The armies then gather with allies at Boar's Memorial.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Dating the second war",
+    "summary": "Pausanias gives the year of the revolt and argues from Tyrtæus which Spartan kings reigned, rejecting Rhianus' claim about Leotychides.",
+    "stakes": "",
+    "present": [
+     "Tyrtæus",
+     "Rhianus",
+     "Leotychides",
+     "Anaxander",
+     "Anaxidamus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Messenia",
+     "modern_name": "Messenia, Greece",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 21.9
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 11,
+    "title": "Deræ and Aristomenes' shield",
+    "summary": "The first battle at Deræ is indecisive, but Aristomenes' bravery wins him kingship and command. He slips into Sparta by night and hangs a shield in the temple of Athene.",
+    "stakes": "Aristomenes risks capture and death inside enemy Sparta.",
+    "present": [
+     "Aristomenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lacedæmon",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 15,
+    "title": "Tyrtæus sent from Athens",
+    "summary": "Following a Delphic oracle, the Spartans ask Athens for an adviser. The Athenians send the lame schoolmaster Tyrtæus, who recites his verses to the Spartans.",
+    "stakes": "Sparta's chance of winning depends on obeying the oracle; Athens fears disobeying the god.",
+    "present": [
+     "Tyrtæus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lacedæmon",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 20,
+    "title": "Armies gather at Boar's Memorial",
+    "summary": "Both sides muster allies at Boar's Memorial near Stenyclerus, named from a covenant of Hercules with the sons of Neleus.",
+    "stakes": "Each side risks defeat in a pitched battle.",
+    "present": [
+     "Aristomenes",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Boar's Memorial, near Stenyclerus",
+     "modern_name": "near Stenyklaros, Messenia",
+     "certainty": "traditional",
+     "lat": 37.2,
+     "lon": 22.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian hero of the Æpytidæ, made king and commander"
+   },
+   {
+    "name": "Tyrtæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian lame schoolmaster and poet sent to Sparta"
+   },
+   {
+    "name": "Rhianus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet who named Leotychides as king"
+   },
+   {
+    "name": "Leotychides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, after Demaratus"
+   },
+   {
+    "name": "Anaxander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Eurycrates"
+   },
+   {
+    "name": "Anaxidamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king of the other family, son of Zeuxidamus"
+   },
+   {
+    "name": "Zeuxidamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Grandson of Theopompus, father of Anaxidamus"
+   },
+   {
+    "name": "Archidamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Theopompus, died before his father"
+   },
+   {
+    "name": "Theopompus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Earlier Spartan king"
+   },
+   {
+    "name": "Demaratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Aristo"
+   },
+   {
+    "name": "Aristo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Demaratus"
+   },
+   {
+    "name": "Eurycrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Anaxander"
+   },
+   {
+    "name": "Polydorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Eurycrates"
+   },
+   {
+    "name": "Icarus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hyperesian victor in the stadium"
+   },
+   {
+    "name": "Tlesias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian archon of the year"
+   },
+   {
+    "name": "Athene Chalciœcus",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess of the Spartan temple"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "Hero who made a covenant at Boar's Memorial"
+   },
+   {
+    "name": "Neleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of sons who covenanted with Hercules"
+   },
+   {
+    "name": "Androcles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ancestor of exiled Messenians"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Eurycrates",
+    "relation": "parent_of",
+    "b": "Anaxander",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Polydorus",
+    "relation": "parent_of",
+    "b": "Eurycrates",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Zeuxidamus",
+    "relation": "parent_of",
+    "b": "Anaxidamus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Archidamus",
+    "relation": "parent_of",
+    "b": "Zeuxidamus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Theopompus",
+    "relation": "parent_of",
+    "b": "Archidamus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Aristo",
+    "relation": "parent_of",
+    "b": "Demaratus",
+    "source": "text",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Athene Chalciœcus",
+    "canonical": "Athene",
+    "explanation": "Athene of the Brazen House, Sparta's patron goddess."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Tyrtæus' line on the first war's length, used to date the second.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "reason": "Aristomenes' bold inscription defying Sparta in its own temple.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "Pausanias reasons about chronology using Olympiad dates, Athenian archons, Spartan king lists and the poet Tyrtæus as evidence.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "The passage shows courage and divine guidance: Aristomenes' daring contrasts with Sparta's reliance on an oracle.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Tyrtæus' war poems became a model of martial verse, and his name is used for poetry that urges soldiers on."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias dates the revolt to the 23rd Olympiad, about 685 BC, using the Olympic victor list.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Dating by Olympiad: Greeks counted years in four-year cycles from the first Olympic games; the stadium race winner named each Olympiad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Athens named each year after its annual archon, a chief magistrate, so this gives a second dating system.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "'Third generation' counts from the fathers' war: those who fought it, their sons, then the present generation, matching Tyrtæus' 'fathers of our fathers'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "'Preterhuman' means beyond what is natural to humans, superhuman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "The first clause is obscure: Aristomenes seems to mean he would let none disown, that is deny honour to, any man valiant in war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Anapæsts are verse in a marching rhythm, suited to rousing soldiers; elegiac verses are in couplets.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "A covenant 'over a boar's entrails' refers to a sacrifice in which the entrails sealed an oath.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 11,
+    "text": "Athene Chalciœcus ('of the Bronze House') was Sparta's chief goddess, with a bronze-clad temple on the acropolis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Tyrtæus became famous for war poems that inspired Spartan courage; the tradition of him as a lame schoolmaster is ironic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "The Great Goddesses are Demeter and Persephone, honoured in the Eleusinian mysteries near Athens.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "characterization",
+    "text": "The nighttime dedication in the enemy's temple shows Aristomenes' daring and flair for psychological warfare.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "Athens obeys the god yet sends an apparently foolish, lame man; the unlikely helper proves the oracle's good adviser.",
+    "spoiler": false
+   }
+  ]
+ }
+}

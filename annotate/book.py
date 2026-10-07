@@ -10,6 +10,7 @@
     python -m annotate.book <name> --yes --no-pronounce ... without the pronunciations of the characters' names
     python -m annotate.book <name> --yes --no-pictures ... without the pictures from Wikimedia Commons
     python -m annotate.book <name> --yes --no-places  ... without the places and their profiles
+    python -m annotate.book <name> --yes --no-items   ... without the notable things and their profiles
     python -m annotate.book <name> --yes --wikidata   ... and check the tree against Wikidata (a few cents)
     python -m annotate.book <name> --yes --wikidata --tradition "Greek and Roman mythology"   with a hint for that check
 
@@ -67,6 +68,7 @@ def main() -> None:
     ap.add_argument("--no-pronounce", action="store_true", help="skip the pronunciations of the characters' names")
     ap.add_argument("--no-pictures", action="store_true", help="skip the pictures from Wikimedia Commons")
     ap.add_argument("--no-places", action="store_true", help="skip the places and their profiles")
+    ap.add_argument("--no-items", action="store_true", help="skip the notable things and their profiles")
     ap.add_argument("--wikidata", action="store_true", help="also check the family tree against Wikidata")
     ap.add_argument("--tradition", default="", help='a hint for the Wikidata check, e.g. "Greek and Roman mythology"')
     ap.add_argument("--workers", type=int, default=4, help="sections annotated at the same time")
@@ -113,6 +115,8 @@ def main() -> None:
             print("Plus a few cents for how each character's name is said (--no-pronounce to skip).")
         if not args.no_places:
             print("Plus about 5 to 20 cents for the places (--no-places to skip).")
+        if not args.no_items:
+            print("Plus about 2 to 15 cents for the notable things (--no-items to skip).")
         if not args.yes:
             return print(f"\nNothing spent. To annotate and build the tree: python -m annotate.book {slug} --yes")
         cmd_run(Namespace(slug=slug, limit=None, only=None, workers=args.workers, yes=True))
@@ -142,6 +146,11 @@ def main() -> None:
         build_tree(slug)
     else:
         print("The review did not finish; the tree was left as it was. Run the same command again to retry.")
+    # Different people who share a name (several kings called Ptolemy) are kept apart; a few cents, and only where the
+    # tree gives someone three or more parents.
+    if args.yes and not args.no_review and not (ROOT / "data" / slug / "output" / "namesakes.json").exists():
+        if subprocess.run([sys.executable, "-m", "annotate.namesakes", slug, "--yes"], cwd=ROOT).returncode == 0:
+            build_tree(slug)
     print("\n7/10 Checking the family tree against Wikidata")
     if not args.wikidata:
         print("Not asked for (add --wikidata to run it).")
@@ -170,7 +179,7 @@ def main() -> None:
     elif subprocess.run([sys.executable, "-m", "annotate.pronounce", slug, "--yes"], cwd=ROOT).returncode != 0:
         print("That did not finish. Run the same command again to retry.")
     print("\n10/10 The library index (characters shared between books; free), Wikipedia's summaries, themes and history,"
-          " the places, and pictures from Wikimedia Commons (free)")
+          " the places and things, and pictures from Wikimedia Commons (free)")
     subprocess.run([sys.executable, "-m", "annotate.library"], cwd=ROOT)
     output = ROOT / "data" / slug / "output"
     if args.yes and not (output / "about.json").exists():
@@ -180,6 +189,11 @@ def main() -> None:
     elif args.yes and not (output / "places.json").exists():
         if subprocess.run([sys.executable, "-m", "annotate.places", slug, "--yes"], cwd=ROOT).returncode != 0:
             print("The places did not finish. Run the same command again to retry.")
+    if args.no_items:
+        print("Things skipped (--no-items).")
+    elif args.yes and not (output / "items.json").exists():
+        if subprocess.run([sys.executable, "-m", "annotate.items", slug, "--yes"], cwd=ROOT).returncode != 0:
+            print("The things did not finish. Run the same command again to retry.")
     if args.no_pictures:
         print("Pictures skipped (--no-pictures).")
     elif args.yes and (output / "about.json").exists():

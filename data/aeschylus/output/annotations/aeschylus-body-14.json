@@ -1,0 +1,443 @@
+{
+ "section_id": "aeschylus-body-14",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 13156,
+  "output": 4156
+ },
+ "result": {
+  "summary": "The Ghost of Clytaemestra rouses the sleeping Furies, who wake furious that Orestes has escaped. Apollo drives them from his shrine, and they argue over whether killing a mother is worse than killing a husband. The scene then moves to Athens, where Orestes clasps Athena's image and awaits judgment.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 29,
+    "title": "The Ghost Wakes the Furies",
+    "summary": "Clytaemestra's ghost urges the sleeping Furies to hunt Orestes. They wake, find him gone, and accuse Apollo of theft and pollution.",
+    "stakes": "The Furies risk losing their quarry, and Clytaemestra's wrong stays unavenged.",
+    "present": [
+     "Chorus",
+     "Ghost of Clytaemestra"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Apollo's sanctuary at Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 30,
+    "end_sentence": 92,
+    "title": "Apollo Confronts the Furies",
+    "summary": "Apollo orders the Furies out of his shrine. They debate their duties, matricide against killing a husband, and he sends the case to Athena. Both depart, and Apollo vows to protect Orestes.",
+    "stakes": "Apollo's honor as protector of his suppliant, and the Furies' ancient privileges, are both at risk.",
+    "present": [
+     "Apollo",
+     "Chorus",
+     "Orestes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Apollo's sanctuary at Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 93,
+    "end_sentence": 98,
+    "title": "Orestes Seeks Athena",
+    "summary": "Hermes brings Orestes to Athens, where he embraces Athena's image and waits for his trial.",
+    "stakes": "Orestes' life and freedom from the Furies depend on the goddess's judgment.",
+    "present": [
+     "Orestes",
+     "Hermes",
+     "Athena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Athena, Athens",
+     "modern_name": "Athens (Acropolis)",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [
+     "Furies"
+    ],
+    "kind": "goddess",
+    "description": "The Furies, ancient avengers of kin-murder"
+   },
+   {
+    "name": "Ghost of Clytaemestra",
+    "aliases": [],
+    "kind": "other",
+    "description": "Murdered queen who urges the Furies to pursue her son"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Loxias"
+    ],
+    "kind": "god",
+    "description": "Prophetic god who protects Orestes"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Matricide seeking refuge and judgment"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Escorts Orestes to Athens"
+   },
+   {
+    "name": "Athena",
+    "aliases": [
+     "Pallas"
+    ],
+    "kind": "goddess",
+    "description": "Goddess of Athens who will review the case"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Apollo, ruler of the gods"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Fulfiller, guardian of marriage"
+   },
+   {
+    "name": "Cypris",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess of love"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 21
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Loxias",
+    "canonical": "Apollo",
+    "explanation": "A title of Apollo as oracular god."
+   },
+   {
+    "alias": "Pallas",
+    "canonical": "Athena",
+    "explanation": "A common epithet of Athena."
+   },
+   {
+    "alias": "Cypris",
+    "canonical": "Aphrodite",
+    "explanation": "Title of the love goddess, from Cyprus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 73,
+    "reason": "Apollo argues marriage bond is mightier than an oath, with Justice as guardian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "reason": "The Furies voice the clash between older and younger gods.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The scene stages the conflict between old blood-vengeance and the new order of Olympian justice.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Moving the action to Athens prepares for the founding of the Areopagus court, which Aeschylus presents as the city's civic institution.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "The Furies are likened to dreaming hounds whimpering as they chase prey in sleep; 'game' means the quarry, Orestes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "'Prelude' refers to the ghost's urging, a preliminary warning; 'aught in vain' means anything useless.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "'Sooth' means truly, in truth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "'Toils' are hunting nets; the image continues the Furies' role as hounds hunting Orestes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "A 'goad' is a pointed stick used to drive animals, here wielded like a charioteer's.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "'Doomster' means one who pronounces judgment or doom; here the scourge of the avenging reproach.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "The 'centre-stone' is the omphalos at Delphi, believed to mark the earth's center and Apollo's shrine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "'Eld' means old age or ancient times; 'apportionments of eld' are the ancient divine allotments of honors and powers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "\"Avaunt\" is an archaic command meaning \"be gone!\" or \"get away from here!\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "phrasing",
+    "text": "\"Smitten by a winged glistering snake\" refers to Apollo's golden arrows, imagined as flying serpents; \"spume\" is foam or froth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "word",
+    "text": "\"Meet\" means fitting or suitable; \"in sooth\" means truly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "phrasing",
+    "text": "\"Abettor\" means one who aids or encourages a crime; the Furies say Apollo is the real author of the killing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "word",
+    "text": "\"Red-handed\" means stained with fresh blood; \"engage thyself\" means you pledged yourself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "word",
+    "text": "\"Expiation\" is ritual purification or atonement for a crime such as murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "kind": "word",
+    "text": "\"Forsooth\" is an archaic, here sarcastic, word for \"indeed.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "kind": "phrasing",
+    "text": "\"In good sooth\" means \"truly\"; \"pledges\" are the marriage vows that Hera and Zeus guard as gods of marriage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "kind": "allusion",
+    "text": "Cypris is Aphrodite, named for Cyprus; she presides over love and desire, hence over the union of man and woman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 73,
+    "kind": "phrasing",
+    "text": "\"’Twixt\" is \"betwixt\", meaning between. Apollo argues that the marriage bond, guarded by Justice, outweighs any sworn oath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "kind": "phrasing",
+    "text": "\"Takest it sore to heart\" means you take it very seriously; \"remiss in act\" means careless in action. He accuses her of inconsistency.",
+    "spoiler": false
+   },
+   {
+    "sentence": 91,
+    "kind": "phrasing",
+    "text": "\"Him who seeketh purification\" is the suppliant Orestes; Apollo says abandoning him would bring terrible divine anger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 96,
+    "kind": "phrasing",
+    "text": "Orestes says his guilt's \"edge\" is blunted by time and travel, meaning the pollution of his crime has worn down through ritual purification and wandering.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 19,
+    "text": "Zeus's son is Apollo, who had sheltered Orestes at Delphi and purified him after the murder of Clytaemestra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "The Furies are older goddesses, daughters of Night, who see the Olympian gods such as Apollo as upstart younger deities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "The conflict between older and younger gods is central to the play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Apollo, god of prophecy, owns the Delphic shrine where Orestes has taken refuge; the Furies, who pursue murderers, have followed him inside and fallen asleep.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "text": "Apollo had commanded Orestes to kill his mother Clytemnestra to avenge her murder of his father Agamemnon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "text": "Hera, the Fulfiller (Teleia), presided over marriage. Zeus and Hera were the divine model of the marriage bond.",
+    "spoiler": false
+   },
+   {
+    "sentence": 76,
+    "text": "Pallas Athena, goddess of wisdom and patron of Athens, will judge the case, which leads to the founding of the Areopagus court.",
+    "spoiler": false
+   },
+   {
+    "sentence": 94,
+    "text": "Embracing the god's image made a suppliant sacred; he could not be seized without offending the deity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 96,
+    "text": "Loxias is a title of Apollo as prophetic god. Orestes was ordered by his oracle to go to Athens and Athena.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "repetition",
+    "text": "Fourfold repetition imitates urgent hunting cries and the Furies' muttering in sleep.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "simile",
+    "text": "The sleeping Furies are compared to dogs, stressing their animal, relentless pursuit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "simile",
+    "text": "The sting of reproach is compared to a charioteer's goad, making the ghost's words physically painful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "imagery",
+    "text": "The blood-dripping throne is a vivid image accusing the younger gods of rule built on pollution.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "imagery",
+    "text": "A catalogue of gruesome tortures paints the Furies' world as one of violence and pollution, set against Apollo's clean shrine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "metaphor",
+    "text": "Likening the Furies to beasts in a lion's den dehumanizes them and stresses their bloodthirst and impurity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "metaphor",
+    "text": "Calling the Furies a \"herd without a shepherd\" mocks them as lawless creatures that no god guides or claims.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "device": "stichomythia",
+    "text": "Rapid one-line exchanges between Apollo and the Chorus sharpen the quarrel and expose each side's argument.",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "device": "characterization",
+    "text": "Apollo turns the Furies' argument against them by presenting Cypris as a wronged deity, showing him as a skilled, partisan debater.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "device": "characterization",
+    "text": "The Chorus's repeated, defiant \"never, never\" shows their single-minded, relentless nature as pursuers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 91,
+    "device": "hyperbole",
+    "text": "Apollo stresses the suppliant's wrath as \"appalling in heaven and on earth,\" raising the stakes of his promise to protect Orestes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "device": "apostrophe",
+    "text": "Orestes addresses the absent goddess directly as \"O goddess,\" making his plea a formal prayer.",
+    "spoiler": false
+   }
+  ]
+ }
+}

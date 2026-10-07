@@ -1,0 +1,308 @@
+{
+ "section_id": "pausanias-body-294",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7256,
+  "output": 2592
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Thebes, describing the temples of Ammon, Fortune, Aphrodite, Demeter and Dionysus. He explains the three titles of Aphrodite and notes tombs and ruins, including those of Semele and the house of Lycus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Temples of Ammon and Fortune",
+    "summary": "Pausanias describes the temple of Ammon with Pindar's hymn, Tiresias' tower, and the statue of Fortune carrying Wealth.",
+    "stakes": "",
+    "present": [
+     "Pindar",
+     "Ptolemy",
+     "Xenophon",
+     "Callistonicus",
+     "Cephisodotus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3217,
+     "lon": 23.3181
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 8,
+    "title": "The three Aphrodites",
+    "summary": "Wooden statues said to be offerings of Harmonia are explained as three kinds of love, with examples of lawless passion.",
+    "stakes": "",
+    "present": [
+     "Harmonia",
+     "Aphrodite",
+     "Cadmus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3217,
+     "lon": 23.3181
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 18,
+    "title": "Demeter, Dionysus and tombs",
+    "summary": "Pausanias notes the temple of Demeter, shields from Leuctra, the temple of Lysian Dionysus, the tomb of Semele and monuments of Amphion's children.",
+    "stakes": "",
+    "present": [
+     "Demeter",
+     "Dionysus",
+     "Semele",
+     "Alcmene",
+     "Lycus",
+     "Amphion"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3217,
+     "lon": 23.3181
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ammon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god worshipped in Libya and at Thebes"
+   },
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who dedicated a statue and wrote a hymn to Ammon"
+   },
+   {
+    "name": "Ptolemy",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lagus who dedicated an altar to Ammon"
+   },
+   {
+    "name": "Xenophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian sculptor of parts of Fortune's statue"
+   },
+   {
+    "name": "Callistonicus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban sculptor"
+   },
+   {
+    "name": "Cephisodotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Peace holding Wealth"
+   },
+   {
+    "name": "Harmonia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicator of ancient Aphrodite statues"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban founder whose ships' wood was used"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Celestial Aphrodite",
+     "Pandemian",
+     "Heart-Turner"
+    ],
+    "kind": "goddess",
+    "description": "goddess of love in three aspects"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Law-giving Demeter"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a Theban temple"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Lysian Dionysus"
+    ],
+    "kind": "god",
+    "description": "god who freed captive Thebans"
+   },
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman with a sepulchre at Thebes"
+   },
+   {
+    "name": "Alcmene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have turned to stone at death"
+   },
+   {
+    "name": "Lycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "former owner of a ruined house"
+   },
+   {
+    "name": "Amphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of children with monuments at Thebes"
+   },
+   {
+    "name": "Tiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "seer whose tower observed omens"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lagus",
+    "relation": "parent_of",
+    "b": "Ptolemy",
+    "source": "text",
+    "evidence_sentence": 0
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lysian Dionysus",
+    "canonical": "Dionysus",
+    "explanation": "Lysian means 'loosing', from freeing the captive Thebans."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Clear statement of the three kinds of Aphrodite: pure, common and corrupting love.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links monuments to moral and mythic explanations, as with the three loves of Aphrodite.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows Thebes' religious sites and the spread of Ammon's cult from Libya to Greece.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes that Greek traditions mostly vary, showing his awareness of local rival accounts.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Ammon is the Libyan oracular god identified with Zeus (Jove); Pindar's hymn to him is mentioned as a dedication sent to the Ammonians in Libya.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"To observe the omens\" means the tower was used by Tiresias, the blind Theban seer, for watching birds and other signs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Gunwales are the upper edges of a ship's sides; the claim ties the statues to Cadmus's legendary voyage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Pandemian means \"of all the people\"; Heart-Turner translates the title of the goddess who turns hearts away from right.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Examples of lawless passion: Myrrha, mother of Adonis, loved her father; Phædra loved her stepson Hippolytus; Tereus assaulted his sister-in-law Philomela.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Leuctra was the Theban victory over Sparta in 371 BC, led by Epaminondas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Semele was Dionysus' mother, destroyed by Jove's lightning; Alcmene, mother of Hercules, has a rival burial tradition at Megara.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Cephisodotus' Peace carrying the child Wealth was a famous Athenian statue; both works suggest prosperity comes from fortune or peace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Harmonia was the wife of Cadmus, founder of Thebes, and daughter of Aphrodite and Ares.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "The Prœtis gate was one of the seven gates of Thebes.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "symbolism",
+    "text": "Wealth as a child in the arms of Fortune or Peace symbolizes prosperity as dependent and nurtured, a gift of chance or peace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "personification",
+    "text": "Love is divided into three aspects of one goddess, turning abstract moral categories into divine figures.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "narrative voice",
+    "text": "Pausanias' dry, skeptical aside shows his habit of weighing local traditions against each other.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,363 @@
+{
+ "section_id": "pausanias-body-2",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8748,
+  "output": 2988
+ },
+ "result": {
+  "summary": "Pausanias walks from the Piraeus into Athens, noting the tomb of Antiope, the rebuilt walls, and the tombs of Menander and Euripides. He digresses on poets at kings' courts, then describes temples and statues near the gates and Ceramicus, ending with an account of the early Athenian kings.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Road from the Piraeus",
+    "summary": "Pausanias notes Antiope's monument, the walls of Conon, and the tombs of Menander and Euripides. He digresses on poets who lived at kings' courts.",
+    "stakes": "",
+    "present": [
+     "Antiope",
+     "Theseus",
+     "Pirithous",
+     "Hercules",
+     "Molpadia",
+     "Euripides",
+     "Menander"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Road from the Piraeus to Athens",
+     "modern_name": "Piraeus to Athens, Greece",
+     "certainty": "real",
+     "lat": 37.96,
+     "lon": 23.7
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 20,
+    "title": "Shrines near the gates",
+    "summary": "Pausanias describes the tomb with Praxiteles' soldier and horse, the temple of Demeter, Poseidon's statue, the porticoes and the shrine of Dionysus.",
+    "stakes": "",
+    "present": [
+     "Demeter",
+     "Iacchus",
+     "Poseidon",
+     "Polybotes",
+     "Dionysus",
+     "Amphictyon",
+     "Pegasus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens, near the gates and the Ceramicus",
+     "modern_name": "Athens, Greece",
+     "certainty": "real",
+     "lat": 37.976,
+     "lon": 23.72
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 26,
+    "title": "Early kings of Athens",
+    "summary": "Pausanias recounts how Amphictyon came to the throne after Actaeus, Cecrops and Cranaus, and was in turn ousted by Erichthonius.",
+    "stakes": "Kings hold the throne only until rivals depose them.",
+    "present": [
+     "Actaeus",
+     "Cecrops",
+     "Cranaus",
+     "Amphictyon",
+     "Erichthonius",
+     "Atthis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Attica",
+     "modern_name": "Attica, Greece",
+     "certainty": "real",
+     "lat": 38.0,
+     "lon": 23.8
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Antiope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Amazon whose monument stands at Athens"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian hero who fought the Amazons"
+   },
+   {
+    "name": "Pirithous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Companion of Theseus in Pindar's account"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Besieged Themiscyra"
+   },
+   {
+    "name": "Molpadia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Amazon said to have shot Antiope"
+   },
+   {
+    "name": "Euripides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet buried in Macedonia, with a cenotaph at Athens"
+   },
+   {
+    "name": "Menander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet, son of Diopeithes, with a tomb here"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess with a temple near the gates"
+   },
+   {
+    "name": "Iacchus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Statue with a torch beside Demeter"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Statue on horseback hurling a spear"
+   },
+   {
+    "name": "Polybotes",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant targeted by Poseidon's statue"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Melpomenos"
+    ],
+    "kind": "god",
+    "description": "God with a shrine in the portico"
+   },
+   {
+    "name": "Amphictyon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Athens who feasted the gods"
+   },
+   {
+    "name": "Pegasus",
+    "aliases": [
+     "Pegasus Eleutherensis"
+    ],
+    "kind": "mortal",
+    "description": "Man who brought Dionysus to Athens"
+   },
+   {
+    "name": "Actaeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "First king of Attica"
+   },
+   {
+    "name": "Cecrops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King who married Actaeus' daughter"
+   },
+   {
+    "name": "Erysichthon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Cecrops who died before his father"
+   },
+   {
+    "name": "Cranaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King after Cecrops"
+   },
+   {
+    "name": "Atthis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Cranaus, source of the name Attica"
+   },
+   {
+    "name": "Erichthonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King born of Hephaestus and Earth"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Erichthonius"
+   },
+   {
+    "name": "Earth",
+    "aliases": [
+     "Mother Earth"
+    ],
+    "kind": "goddess",
+    "description": "Mother of Erichthonius"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cecrops",
+    "relation": "parent_of",
+    "b": "Erysichthon",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Cranaus",
+    "relation": "parent_of",
+    "b": "Atthis",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Hephaestus",
+    "relation": "parent_of",
+    "b": "Erichthonius",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Earth",
+    "relation": "parent_of",
+    "b": "Erichthonius",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Antiope",
+    "relation": "lover_of",
+    "b": "Theseus",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Melpomenos",
+    "canonical": "Dionysus",
+    "explanation": "Cult title of Dionysus, likened to Apollo Musagetes."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias mixes monuments with competing local traditions, weighing sources such as Pindar and Hegias against Athenian belief.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The mention of Conon's walls and the Thirty Tyrants reflects Athens' fifth and fourth century political turmoil.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Euripides' cenotaph here is an empty memorial, since he died in Macedonia.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The sea-fight off Cnidus (394 BC) was Conon's Athenian-backed victory over Sparta, which allowed Athens to rebuild its walls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "A cenotaph is an empty tomb, a memorial to someone buried elsewhere; hence \"without the body\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "Pausanias declines to repeat the stories of Euripides' death, saying readers may believe whichever version they like.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Demodocus is the bard at Alcinous' court in the Odyssey; the poet left with Agamemnon's wife Clytemnestra is also from the Odyssey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Polybotes was a giant said to have been buried under a piece of the island of Cos, which Poseidon threw at him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Melpomenos means \"singing\" or \"songful\"; Musagetes means \"leader of the Muses\". Both are cult titles.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The Amazons were a legendary race of warrior women; Antiope was associated with Theseus, king of Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "The Thirty Tyrants were the oligarchs imposed on Athens by Sparta in 404 BC, who demolished the city's walls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Demeter and her daughter (Persephone) were central to the Eleusinian mysteries; Iacchus was a god linked to their procession.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Cecrops was the legendary early king of Athens, often shown as half man, half serpent.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "characterization",
+    "text": "Pausanias explains Hesiod's and Homer's absence from courts by their temperaments, sketching Hesiod as rustic and Homer as proud of his fame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "foreshadowing",
+    "text": "The divine birth of Erichthonius ends the royal list on a marvel, hinting at the myths about Athens' origins to come.",
+    "spoiler": false
+   }
+  ]
+ }
+}

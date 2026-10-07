@@ -1,0 +1,559 @@
+{
+ "section_id": "pausanias-body-111",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8987,
+  "output": 4556
+ },
+ "result": {
+  "summary": "Pausanias traces Messenian kingship from the fall of the house of Aphareus to Nestor, then to the Dorian conquest, when Cresphontes won Messenia by a trick with lots. His line, the Æpytidæ, ruled after Æpytus avenged him, and later kings founded cults and a harbour.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "From Aphareus's sons to Nestor",
+    "summary": "After the sons of Aphareus die, Nestor inherits the kingdom. Pausanias argues the sons of Æsculapius were Messenians and notes the Dorians later expelled Nestor's descendants.",
+    "stakes": "The kingdom passes as the male line of Aphareus dies out; the Neleids are later driven out.",
+    "present": [
+     "Lynceus",
+     "Pollux",
+     "Idas",
+     "Castor",
+     "Nestor",
+     "Machaon",
+     "Æsculapius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Messenia",
+     "modern_name": "Messenia, Greece",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 21.9
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 14,
+    "title": "Cresphontes wins Messenia by lots",
+    "summary": "Cresphontes claims Messenia, Theras objects for the sons of Aristodemus, and Temenus rigs the lots with unbaked clay. The Messenians accept Cresphontes.",
+    "stakes": "Control of Messenia, contested between Cresphontes and the sons of Aristodemus.",
+    "present": [
+     "Cresphontes",
+     "Temenus",
+     "Theras",
+     "Aristodemus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 19,
+    "title": "Murder of Cresphontes, return of Æpytus",
+    "summary": "Cresphontes moves the court to Stenyclerus and is killed by wealthy rebels with his sons. Æpytus survives, is restored, and punishes the murderers.",
+    "stakes": "Cresphontes's life and his family line; Æpytus's survival.",
+    "present": [
+     "Cresphontes",
+     "Merope",
+     "Cypselus",
+     "Æpytus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Stenyclerus",
+     "modern_name": "Messenia, Greece",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 22.0
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 24,
+    "title": "Later kings and their cults",
+    "summary": "Glaucus, Isthmius, Dotadas and Sybotas promote religious cults, and Dotadas builds a harbour at Mothone.",
+    "stakes": "",
+    "present": [
+     "Glaucus",
+     "Isthmius",
+     "Dotadas",
+     "Sybotas",
+     "Machaon",
+     "Messene"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Messenia",
+     "modern_name": "Messenia, Greece",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 21.9
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aphareus, slain by Pollux"
+   },
+   {
+    "name": "Idas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aphareus, killed by lightning"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "uncle who killed Lynceus"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "uncle of the sons of Aphareus"
+   },
+   {
+    "name": "Aphareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian king, founder of Arene"
+   },
+   {
+    "name": "Nestor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Neleus, king of the Messenians"
+   },
+   {
+    "name": "Neleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Nestor"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to be son of Arsinoe"
+   },
+   {
+    "name": "Arsinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Leucippus, mother of Æsculapius"
+   },
+   {
+    "name": "Leucippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Arsinoe"
+   },
+   {
+    "name": "Coronis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "traditional mother of Æsculapius, rejected here"
+   },
+   {
+    "name": "Machaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Æsculapius, wounded at Troy"
+   },
+   {
+    "name": "Temenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Dorian leader given Argos"
+   },
+   {
+    "name": "Cresphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Dorian king of Messenia"
+   },
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dead Dorian, father of sons contesting"
+   },
+   {
+    "name": "Theras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Autesion, guardian of Aristodemus's sons"
+   },
+   {
+    "name": "Autesion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Theras and Argia"
+   },
+   {
+    "name": "Argia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Aristodemus"
+   },
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Œdipus, ancestor of Theras"
+   },
+   {
+    "name": "Œdipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Polynices"
+   },
+   {
+    "name": "Merope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Cresphontes"
+   },
+   {
+    "name": "Cypselus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Arcadians, father of Merope"
+   },
+   {
+    "name": "Æpytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "youngest son of Cresphontes, avenger and king"
+   },
+   {
+    "name": "Isthmius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Temenus; also a son of Glaucus"
+   },
+   {
+    "name": "Glaucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "pious king, son of Æpytus"
+   },
+   {
+    "name": "Dotadas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who built harbour at Mothone"
+   },
+   {
+    "name": "Sybotas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who decreed annual sacrifices"
+   },
+   {
+    "name": "Messene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Triopas, honoured as hero"
+   },
+   {
+    "name": "Triopas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Messene"
+   },
+   {
+    "name": "Polycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early ruler who neglected Zeus's worship"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god worshipped on Ithome"
+   },
+   {
+    "name": "Gorgasus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "honoured at Pharæ"
+   },
+   {
+    "name": "Nicomachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "honoured at Pharæ"
+   },
+   {
+    "name": "Eurytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Melaneus, honoured in Œchalia"
+   },
+   {
+    "name": "Melaneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Eurytus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Aphareus",
+    "relation": "parent_of",
+    "b": "Idas",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Aphareus",
+    "relation": "parent_of",
+    "b": "Lynceus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Neleus",
+    "relation": "parent_of",
+    "b": "Nestor",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Arsinoe",
+    "relation": "parent_of",
+    "b": "Æsculapius",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Leucippus",
+    "relation": "parent_of",
+    "b": "Arsinoe",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Æsculapius",
+    "relation": "parent_of",
+    "b": "Machaon",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Cresphontes",
+    "relation": "spouse_of",
+    "b": "Merope",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Cypselus",
+    "relation": "parent_of",
+    "b": "Merope",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Cresphontes",
+    "relation": "parent_of",
+    "b": "Æpytus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Æpytus",
+    "relation": "parent_of",
+    "b": "Glaucus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Aristodemus",
+    "relation": "spouse_of",
+    "b": "Argia",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Autesion",
+    "relation": "parent_of",
+    "b": "Argia",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Autesion",
+    "relation": "parent_of",
+    "b": "Theras",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Triopas",
+    "relation": "parent_of",
+    "b": "Messene",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Dotadas",
+    "relation": "parent_of",
+    "b": "Sybotas",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Melaneus",
+    "relation": "parent_of",
+    "b": "Eurytus",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Œdipus",
+    "relation": "parent_of",
+    "b": "Polynices",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Æpytidæ",
+    "canonical": "Æpytus",
+    "explanation": "Dynastic name for the descendants of Æpytus, used instead of Heraclidæ."
+   },
+   {
+    "alias": "Heraclidæ",
+    "canonical": "Temenus",
+    "explanation": "Descendants of Heracles, the Dorian kings, including Temenus and Cresphontes."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "The clay lots trick by which Cresphontes won Messenia.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Kingship passes through trickery, violence and restoration, showing how Messenian legitimacy is claimed through lineage and piety.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias draws on Messenian local tradition to present Messenia as a Dorian-ruled land with older heroic roots, countering Spartan-centred accounts.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Cresphontes, Merope and Æpytus inspired Euripides's lost tragedy Cresphontes and later Voltaire's Mérope (1743)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The lot trick with clay dissolving in water is a famous folk-motif of cheating in drawing lots.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Castor and Pollux, the Dioscuri, were cousins of Idas and Lynceus; the cattle-raiding quarrel ended with Lynceus and Idas dead. Pausanias calls them 'uncles', loosely.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Homer's Iliad (Book 11) has Nestor tend the wounded Machaon, a healer and son of Æsculapius; Pausanias uses Tricca as evidence for Messenian ties.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "'Return of the Heraclidæ' means the descendants of Heracles reclaiming the Peloponnese, conquering with the Dorians; 'two generations afterwards' dates it after the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "The lots were tokens dropped into a water-filled jar; the first lot to emerge would win Messenia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Minyæ were an old Greek people linked with Iolcus, home of the Argonauts; Nestor's Neleid line was of this stock.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "Æpytidæ means 'descendants of Æpytus', a dynastic name replacing Heraclidæ.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Pausanias gives Æsculapius (the healing hero) a Messenian mother, Arsinoe, rejecting the version making Coronis his mother, to claim him for Messenia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Theras, a Theban descendant of Polynices, guarded his nephews, the sons of Aristodemus, who were Spartan founders. He later led settlers to the island Thera.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Cypselus was king of Arcadia, so the boy Æpytus found refuge with his maternal grandfather.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Mothone was a coastal town in southwest Messenia, so a harbour there aided sea trade.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "irony",
+    "text": "Cresphontes' lot 'came out' only because Temenus cheated, so the apparently fair verdict of chance is a fraud.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "foreshadowing",
+    "text": "The lone surviving boy, raised abroad, prepares the later restoration and revenge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "characterization",
+    "text": "Glaucus is defined by imitation of his father and by exceeding him in piety.",
+    "spoiler": false
+   }
+  ]
+ }
+}

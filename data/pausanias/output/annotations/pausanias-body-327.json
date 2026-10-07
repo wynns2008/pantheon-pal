@@ -1,0 +1,350 @@
+{
+ "section_id": "pausanias-body-327",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8437,
+  "output": 3068
+ },
+ "result": {
+  "summary": "Pausanias explains the origin and changing membership of the Amphictyonic Council, listing its 30 members in his day. He then describes the temples at the entrance to Delphi, the gymnasium area and the Castalian spring with its legends.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "The Amphictyonic Council's history",
+    "summary": "Pausanias gives theories of the Council's name and traces its changing membership through the Sacred War, Brennus' invasion and Augustus, to the 30 members of his day.",
+    "stakes": "",
+    "present": [
+     "Amphictyon",
+     "Androtion",
+     "Brennus",
+     "Augustus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 14,
+    "title": "Temples and precincts at Delphi",
+    "summary": "Pausanias describes the four temples at the entrance, the Massaliote offering, the lost shield of Croesus and the precinct of Phylacus. He also mentions the gymnasium where Odysseus was wounded by a boar.",
+    "stakes": "",
+    "present": [
+     "Philomelus",
+     "Phylacus",
+     "Odysseus",
+     "Croesus",
+     "Harpagus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 22,
+    "title": "The Plistus and Castalia spring",
+    "summary": "Pausanias notes the river Plistus and the Castalian spring, giving rival origins for its name and the belief that it is fed by the Cephisus.",
+    "stakes": "",
+    "present": [
+     "Castalia",
+     "Castalius",
+     "Panyasis",
+     "Hercules",
+     "Achelous",
+     "Alcæus",
+     "Cephisus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Castalia spring, Delphi",
+     "modern_name": "Castalian Spring, Delphi",
+     "certainty": "real",
+     "lat": 38.4837,
+     "lon": 22.5052
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Amphictyon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Deucalion, said to have founded the Council"
+   },
+   {
+    "name": "Deucalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Amphictyon"
+   },
+   {
+    "name": "Androtion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "historian of Attica"
+   },
+   {
+    "name": "Brennus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the Galati against Delphi"
+   },
+   {
+    "name": "Augustus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor who added Nicopolis to the Council"
+   },
+   {
+    "name": "Philomelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have taken the golden shield"
+   },
+   {
+    "name": "Croesus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lydian king who gave a golden shield"
+   },
+   {
+    "name": "Harpagus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mede who drove the Phocaeans from Phocaea"
+   },
+   {
+    "name": "Phylacus",
+    "aliases": [],
+    "kind": "other",
+    "description": "hero said to have defended Delphi against the Persians"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wounded by a boar while hunting with Autolycus' sons"
+   },
+   {
+    "name": "Autolycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "whom Odysseus visited"
+   },
+   {
+    "name": "Castalia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "woman or daughter of Achelous, name source of the spring"
+   },
+   {
+    "name": "Castalius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man proposed as source of the spring's name"
+   },
+   {
+    "name": "Panyasis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet, son of Polyarchus, who wrote about Hercules"
+   },
+   {
+    "name": "Polyarchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Panyasis"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero in Panyasis' poem who visits Castalia"
+   },
+   {
+    "name": "Achelous",
+    "aliases": [],
+    "kind": "god",
+    "description": "river, father of Castalia in Panyasis"
+   },
+   {
+    "name": "Alcæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet of a Prelude to Apollo"
+   },
+   {
+    "name": "Cephisus",
+    "aliases": [],
+    "kind": "god",
+    "description": "river said to supply Castalia"
+   },
+   {
+    "name": "Athene Pronoia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Delphi"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Deucalion",
+    "relation": "parent_of",
+    "b": "Amphictyon",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Polyarchus",
+    "relation": "parent_of",
+    "b": "Panyasis",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Achelous",
+    "relation": "parent_of",
+    "b": "Castalia",
+    "source": "text",
+    "evidence_sentence": 18
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Amphictiones",
+    "canonical": "Amphictyones",
+    "explanation": "Pausanias cites Androtion that 'neighbours' (Amphictiones) gave the council members their name, later Amphictyones."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 20,
+    "reason": "Quoted verse of Panyasis linking Hercules and the Castalian fountain.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "The Amphictyonic Council was a league of peoples guarding Delphi; its changing membership mirrors Greek politics from the Sacred War to Macedonian and Roman power.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Pausanias blends antiquarian record, local tradition and poetry, giving rival explanations without always choosing between them.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Castalian spring became a literary symbol of poetic inspiration, giving rise to the phrase 'Castalian' for the Muses' fountain."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Augustus founded Nicopolis after Actium and gave it votes on the Council, a sign of Roman control of Delphi's religious institutions.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Amphictyones (\"dwellers around\") is the name for members of the council; the passage offers two explanations, one from a founder Amphictyon, one from the neighbouring peoples (Amphictiones).",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The Sacred War is the Phocian seizure of Delphi's temple and treasury (mid-4th century BC), ended by Philip of Macedon, who then gained the Phocians' council seats.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Brennus led the Gallic invasion of Greece in 279 BC, which was repelled at Delphi. The Galati are the Gauls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Ozolæ means the Ozolian Locrians of western Locris, distinguished from the Locrians opposite Eubœa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Athene Pronoia means Athene \"of the forethought\" or \"before the temple\"; her shrine stood before Apollo's temple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The Phocæans fled Harpagus, the Persian general of Cyrus, in the 6th century BC; Massalia is modern Marseille.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "In the Odyssey, young Odysseus was wounded on the knee by a boar while hunting on Parnassus with his grandfather Autolycus' sons; the scar later identified him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "The belief is that the Cephisus flows underground from Lilæa to emerge at Castalia.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Nicopolis (\"Victory City\") was founded by Augustus after his victory at Actium in 31 BC and was given a prominent place in the council.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Philomelus was the Phocian leader who seized Delphi and used its treasures to pay mercenaries in the Sacred War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Castalia was a spring at Delphi where visitors and pilgrims purified themselves, and it was sacred to Apollo and the Muses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Panyasis was an epic poet of the 5th century BC, said to be related to Herodotus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "characterization",
+    "text": "The Phocians are presented as redeemed by courage, their bravery against the Gauls wiping away the earlier disgrace of sacrilege.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "epithet",
+    "text": "\"Snow-crown'd\" and \"rapid feet\" are Homeric-style descriptive phrases that give the quoted epic verse its heroic tone.",
+    "spoiler": false
+   }
+  ]
+ }
+}

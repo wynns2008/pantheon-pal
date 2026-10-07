@@ -1,0 +1,608 @@
+{
+ "section_id": "apollodorus-body-32",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10608,
+  "output": 4986
+ },
+ "result": {
+  "summary": "Peleus is purified twice after killing Eurytion, escapes Astydamia's slander, marries Thetis with Chiron's help, and fathers Achilles. Thetis tries to make the child immortal, Achilles is raised by Chiron, hidden at Lycomedes' court, and finally goes to Troy with Phoenix and Patroclus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Peleus flees to Phthia, then Iolcus",
+    "summary": "Peleus is purified by Eurytion and marries Antigone, then accidentally kills him on the boar hunt and flees to Acastus.",
+    "stakes": "Peleus risks exile and blood-guilt after killing his host.",
+    "present": [
+     "Peleus",
+     "Eurytion",
+     "Antigone",
+     "Polydora",
+     "Borus",
+     "Acastus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phthia",
+     "modern_name": "Phthiotis, Greece",
+     "certainty": "real",
+     "lat": 39.1,
+     "lon": 22.4
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 11,
+    "title": "Astydamia's slander and Pelion",
+    "summary": "Astydamia's advances are refused and she slanders Peleus. Acastus abandons him on Pelion, but Chiron saves him.",
+    "stakes": "Peleus faces death from the centaurs after being abandoned unarmed.",
+    "present": [
+     "Peleus",
+     "Astydamia",
+     "Acastus",
+     "Atalanta",
+     "Sterope",
+     "Chiron"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Iolcus and Mount Pelion",
+     "modern_name": "Volos and Mount Pelion, Greece",
+     "certainty": "real",
+     "lat": 39.4,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 17,
+    "title": "Marriage to Thetis",
+    "summary": "Peleus marries Polydora, then wins Thetis by holding her through her transformations. The gods celebrate and give gifts.",
+    "stakes": "Peleus must hold Thetis through her changes or lose her.",
+    "present": [
+     "Peleus",
+     "Thetis",
+     "Chiron",
+     "Poseidon",
+     "Zeus",
+     "Themis",
+     "Prometheus",
+     "Hera",
+     "Nereus",
+     "Polydora",
+     "Menesthius",
+     "Sperchius",
+     "Balius",
+     "Xanthus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pelion",
+     "modern_name": "Mount Pelion, Greece",
+     "certainty": "real",
+     "lat": 39.4,
+     "lon": 23.05
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 21,
+    "title": "Infant Achilles and Iolcus sacked",
+    "summary": "Thetis tests the baby in fire and leaves when Peleus cries out. Chiron raises Achilles, and Peleus later destroys Iolcus.",
+    "stakes": "The child's immortality, and Astydamia's life.",
+    "present": [
+     "Thetis",
+     "Peleus",
+     "Achilles",
+     "Chiron",
+     "Jason",
+     "Dioscuri",
+     "Astydamia",
+     "Acastus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pelion",
+     "modern_name": "Mount Pelion, Greece",
+     "certainty": "real",
+     "lat": 39.4,
+     "lon": 23.05
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 30,
+    "title": "Achilles hidden and sent to Troy",
+    "summary": "Achilles is hidden at Lycomedes' court, discovered by Ulysses, and goes to Troy with Phoenix and Patroclus.",
+    "stakes": "Achilles is fated to die if he goes to Troy.",
+    "present": [
+     "Achilles",
+     "Thetis",
+     "Calchas",
+     "Lycomedes",
+     "Deidamia",
+     "Pyrrhus",
+     "Ulysses",
+     "Phoenix",
+     "Patroclus",
+     "Peleus",
+     "Chiron"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Scyros",
+     "modern_name": "Skyros, Greece",
+     "certainty": "traditional",
+     "lat": 38.9,
+     "lon": 24.55
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero, husband of Thetis, father of Achilles"
+   },
+   {
+    "name": "Eurytion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Actor, king who purified Peleus"
+   },
+   {
+    "name": "Antigone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eurytion's daughter, Peleus' first wife"
+   },
+   {
+    "name": "Polydora",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Perieres, wife of Peleus"
+   },
+   {
+    "name": "Borus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Perieres, married Polydora"
+   },
+   {
+    "name": "Acastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Iolcus"
+   },
+   {
+    "name": "Astydamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Acastus who slandered Peleus"
+   },
+   {
+    "name": "Atalanta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wrestled Peleus at the games"
+   },
+   {
+    "name": "Sterope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Acastus"
+   },
+   {
+    "name": "Chiron",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Centaur who helped Peleus and raised Achilles"
+   },
+   {
+    "name": "Menesthius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Putative son of Peleus"
+   },
+   {
+    "name": "Sperchius",
+    "aliases": [],
+    "kind": "god",
+    "description": "River, true father of Menesthius"
+   },
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nereid, wife of Peleus, mother of Achilles"
+   },
+   {
+    "name": "Nereus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Thetis"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Rival suitor of Thetis"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Suitor of Thetis, gave horses"
+   },
+   {
+    "name": "Themis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Prophesied about Thetis' son"
+   },
+   {
+    "name": "Prometheus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Said to have warned Zeus"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Raised Thetis"
+   },
+   {
+    "name": "Balius",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Immortal horse"
+   },
+   {
+    "name": "Xanthus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Immortal horse"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [
+     "Ligyron"
+    ],
+    "kind": "mortal",
+    "description": "Son of Peleus and Thetis"
+   },
+   {
+    "name": "Jason",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ally in sacking Iolcus"
+   },
+   {
+    "name": "Dioscuri",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Twin heroes allied with Peleus"
+   },
+   {
+    "name": "Calchas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Seer who declared Troy needs Achilles"
+   },
+   {
+    "name": "Lycomedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King who sheltered Achilles"
+   },
+   {
+    "name": "Deidamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Lycomedes, mother of Pyrrhus"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [
+     "Neoptolemus"
+    ],
+    "kind": "mortal",
+    "description": "Son of Achilles"
+   },
+   {
+    "name": "Ulysses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Found Achilles by trumpet"
+   },
+   {
+    "name": "Phoenix",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Amyntor, blinded then healed"
+   },
+   {
+    "name": "Amyntor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Phoenix"
+   },
+   {
+    "name": "Phthia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Concubine of Amyntor"
+   },
+   {
+    "name": "Patroclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Menoetius, companion of Achilles"
+   },
+   {
+    "name": "Menoetius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Patroclus"
+   },
+   {
+    "name": "Clitonymus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boy killed by Patroclus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Peleus",
+    "relation": "spouse_of",
+    "b": "Thetis",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Peleus",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Thetis",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Nereus",
+    "relation": "parent_of",
+    "b": "Thetis",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Pyrrhus",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Achilles",
+    "relation": "lover_of",
+    "b": "Deidamia",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Eurytion",
+    "relation": "parent_of",
+    "b": "Antigone",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Peleus",
+    "relation": "spouse_of",
+    "b": "Antigone",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Sperchius",
+    "relation": "parent_of",
+    "b": "Menesthius",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Menoetius",
+    "relation": "parent_of",
+    "b": "Patroclus",
+    "source": "text",
+    "evidence_sentence": 29
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Neoptolemus",
+    "canonical": "Pyrrhus",
+    "explanation": "Pyrrhus was later called Neoptolemus."
+   },
+   {
+    "alias": "Ligyron",
+    "canonical": "Achilles",
+    "explanation": "Achilles' name before Chiron renamed him."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 15,
+    "reason": "Classic account of Peleus holding the shape-shifting Thetis.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Exile, purification and false accusation shape Peleus' life, setting up Achilles' birth and fate.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage gathers variant traditions, showing how Apollodorus compiled competing myths.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The wedding of Peleus and Thetis became the setting for the Judgment of Paris story and inspired Catullus 64."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The 'Achilles' name is explained here by a folk etymology: a-cheile, 'no lips'.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Purified\" means ritually cleansed of the guilt of bloodshed. Peleus had killed his half-brother Phocus, so he needed this rite before he could live among others.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Involuntarily\" means by accident. Even an unintended killing brought pollution and required exile and purification.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Betook him\" is archaic for \"went\"; \"flying\" here means fleeing, not travelling through the air.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Atalanta was the famed huntress and athlete; wrestling with her at funeral games shows her reputation for physical prowess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Strung herself up\" means she hanged herself. \"Attempted her virtue\" in the next sentence means tried to seduce her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Bagged his game\" means killed animals and collected them; the party mocked Peleus as if he had caught nothing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Putative means supposed or reputed; Menesthius was believed to be Peleus's son but was really fathered by the river god Sperchius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Shape-shifting: Thetis, a sea goddess, could change form at will, so holding on was the test of the suitor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "Achilles' name is explained as 'a-cheilē', 'without lips (on the breast)'. This is an ancient folk etymology.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "Led the army through her: he marched his troops between the dismembered halves of her body, a ritual of purification and triumph.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Ulysses is said to have disguised himself as a peddler and sounded a trumpet; Achilles seized weapons instead of the women's goods, revealing himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "Minion here means favorite or beloved companion, not a servile follower.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "The Calydonian boar was a huge beast sent by Artemis to ravage Calydon. Many heroes joined the hunt to kill it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Chiron was the wise, kindly centaur who lived on Pelion and later raised Peleus's son Achilles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Zeus and Poseidon withdrew because Themis, goddess of divine law, prophesied that Thetis's son would surpass his father, a threat to the gods' rule.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The ashen spear later becomes Achilles' famous weapon at Troy, and the immortal horses Balius and Xanthus pull his chariot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Calchas was the Greek seer who advised the army at Troy.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "Peleus turns the mockery around: the tongues prove his kills, since each animal has only one tongue, so his rivals' ridicule rebounds on them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "characterization",
+    "text": "Hiding the sword while Peleus sleeps shows Acastus's treachery: he avoids the guilt of direct killing yet leaves Peleus defenseless.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Anaphora",
+    "text": "The repeated 'now into... now into...' piles up Thetis's transformations and conveys her struggle and Peleus's endurance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "Irony",
+    "text": "Peleus's act of concern ruins Thetis's attempt to make Achilles immortal, so his love costs the child his immortality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "Foreshadowing",
+    "text": "Thetis's fear that Achilles will perish if he goes to war anticipates his early death at Troy.",
+    "spoiler": false
+   }
+  ]
+ }
+}

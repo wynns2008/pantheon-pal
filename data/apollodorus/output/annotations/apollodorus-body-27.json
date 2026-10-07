@@ -1,0 +1,377 @@
+{
+ "section_id": "apollodorus-body-27",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7334,
+  "output": 3184
+ },
+ "result": {
+  "summary": "The section traces Pelasgus and his son Lycaon, whose fifty impious sons test Zeus by serving him human flesh and are struck down. It then tells how Callisto, a companion of Artemis, is seduced by Zeus, turned into a bear and killed, and how her son Arcas is saved.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Lycaon's impious sons",
+    "summary": "Lycaon's fifty sons serve Zeus, disguised as a laborer, a slaughtered child. Zeus overturns the table and blasts them with thunderbolts, sparing only Nyctimus.",
+    "stakes": "Lycaon and his sons risk destruction by Zeus's wrath for their impiety; only Nyctimus survives.",
+    "present": [
+     "Pelasgus",
+     "Lycaon",
+     "Zeus",
+     "Maenalus",
+     "Nyctimus",
+     "Earth"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Arcadia",
+     "modern_name": "Arcadia, Peloponnese, Greece",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 4,
+    "title": "The flood of Deucalion",
+    "summary": "Nyctimus inherits the kingdom, and the flood of Deucalion's age follows, which some blame on Lycaon's sons.",
+    "stakes": "",
+    "present": [
+     "Nyctimus",
+     "Deucalion"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Arcadia",
+     "modern_name": "Arcadia, Peloponnese, Greece",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 10,
+    "title": "Callisto and Zeus",
+    "summary": "Callisto, a sworn maiden hunter of Artemis, is seduced by Zeus and turned into a bear. She is shot by Artemis, her son Arcas goes to Maia, and she becomes the constellation of the Bear.",
+    "stakes": "Callisto loses her maidenhood, her human form and finally her life.",
+    "present": [
+     "Callisto",
+     "Artemis",
+     "Zeus",
+     "Hera",
+     "Apollo",
+     "Arcas",
+     "Maia"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Arcadia",
+     "modern_name": "Arcadia, Peloponnese, Greece",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.3
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pelasgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early king, father of Lycaon, said to be a son of the soil"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Arcadians with fifty sons"
+   },
+   {
+    "name": "Meliboea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Ocean, mother of Lycaon"
+   },
+   {
+    "name": "Cyllene",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph named by some as Lycaon's mother"
+   },
+   {
+    "name": "Maenalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "eldest son of Lycaon who urged the crime"
+   },
+   {
+    "name": "Nyctimus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "youngest son of Lycaon, spared and made king"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods who tests the brothers and loves Callisto"
+   },
+   {
+    "name": "Earth",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "seizes Zeus's hand to calm his wrath"
+   },
+   {
+    "name": "Deucalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero of the flood"
+   },
+   {
+    "name": "Callisto",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "companion of Artemis, loved by Zeus, turned into a bear and a star"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "huntress goddess who shoots Callisto"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose likeness Zeus some say assumed"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "wife of Zeus, jealous of Callisto"
+   },
+   {
+    "name": "Arcas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Callisto raised in Arcadia"
+   },
+   {
+    "name": "Maia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "raises Arcas in Arcadia"
+   },
+   {
+    "name": "Niobe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to be the mother of Pelasgus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Pelasgus",
+    "relation": "parent_of",
+    "b": "Lycaon",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Meliboea",
+    "relation": "parent_of",
+    "b": "Lycaon",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Nyctimus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Maenalus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Callisto",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Pelasgus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Niobe",
+    "relation": "parent_of",
+    "b": "Pelasgus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Callisto",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Callisto",
+    "relation": "parent_of",
+    "b": "Arcas",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Arcas",
+    "source": "outside",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Callisto",
+    "relation": "transformed_into",
+    "b": "bear",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "outside",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Memorable image of Lycaon's sons serving a murdered child to Zeus.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Human impiety is tested and punished by Zeus, while divine desire leads to the suffering of mortals like Callisto.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Arcadian genealogies and cult tales, such as the Lycaon story, explain local names like Trapezus and link the region to its founders.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Callisto's story explains the constellation Ursa Major, and Lycaon's story lies behind the word lycanthropy in later tradition, as told by Ovid."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The text records several competing ancestries for Callisto, from Hesiod, Asius and Pherecydes, showing how varied Greek myth traditions were.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Pelasgus is the legendary first man or ancestor of the Arcadians; the sources disagree about his parentage, as Acusilaus and Hesiod are cited against each other.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Son of the soil\" means born from the earth itself, an autochthonous (native-born) ancestor with no human parents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Mixed his bowels with the sacrifices\" means the boy's entrails were put among the animal meats served to the guest, so he would unknowingly eat human flesh.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Trapezus means \"table\" in Greek, so the place name preserves the story of the overturned table.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The flood of Deucalion is the Greek flood myth in which Zeus destroyed the bronze race; Deucalion and Pyrrha survived.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Maid\" means virgin; followers of Artemis were bound to chastity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The Bear is the constellation Ursa Major; Callisto's son Arcas gave his name to Arcadia.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Lycaon was a legendary king of Arcadia, a mountainous region of the central Peloponnese. The long list of sons includes names of Arcadian towns and places.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Hera, Zeus's wife, was habitually jealous of his lovers and often punished them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Maia, a nymph and daughter of Atlas, was the mother of Hermes by Zeus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "catalogue",
+    "text": "The long list of names is a traditional epic and genealogical device, conveying the scale of Lycaon's line and the extent of the coming destruction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "personification",
+    "text": "Earth acts as a person, seizing Zeus's hand to calm him, which explains why one son survives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "irony",
+    "text": "Zeus takes the form of Artemis, the goddess of chastity, to violate Callisto's vow, which makes the deception crueler.",
+    "spoiler": false
+   }
+  ]
+ }
+}

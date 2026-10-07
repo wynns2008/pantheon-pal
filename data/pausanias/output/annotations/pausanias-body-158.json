@@ -1,0 +1,269 @@
+{
+ "section_id": "pausanias-body-158",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8862,
+  "output": 2320
+ },
+ "result": {
+  "summary": "Pausanias finishes describing the great altar of Zeus at Olympia, noting that kites spare its sacrifices and that Hercules drove away flies and brought the white poplar from Thesprotia. He then lists the many altars at Olympia in the order in which the Eleans sacrifice at them.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Wonders of the great altar",
+    "summary": "Kites never harm the sacrifices, and Hercules is said to have driven off flies with a sacrifice to Zeus the Averter of flies. Pausanias also explains the white poplar wood used in sacrifice.",
+    "stakes": "",
+    "present": [
+     "Hercules"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 33,
+    "title": "Catalogue of the altars",
+    "summary": "Pausanias lists the altars of Olympia in the order of the Elean sacrifices, with their gods, founders and traditions.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Œnomaus",
+     "Alpheus",
+     "Phidias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Alcmena, sacrificed at Olympia and brought the white poplar to Greece"
+   },
+   {
+    "name": "Alcmena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Hercules"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "chief god honoured with the great altar at Olympia"
+   },
+   {
+    "name": "Œnomaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who set a horse-race for his daughter's suitors"
+   },
+   {
+    "name": "Hippodamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Œnomaus"
+   },
+   {
+    "name": "Alpheus",
+    "aliases": [],
+    "kind": "god",
+    "description": "river honoured with altars at Olympia"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor whose descendants cleanse the statue of Zeus"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with several altars, said to have invented the lyre"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "shares an altar with Hermes"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with several altars at Olympia"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess honoured as Goddess of Booty and Ergane"
+   },
+   {
+    "name": "Ion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Chian poet who wrote a hymn to Opportunity"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Alcmena",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Opportunity",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Œnomaus",
+    "relation": "parent_of",
+    "b": "Hippodamia",
+    "source": "text",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Acherois",
+    "canonical": "white poplar",
+    "explanation": "Homer's name for the white poplar, linked by Pausanias to the river Acheron."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Memorable wonder: birds of prey never harm the sacrifices at Olympia.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows how ritual, local tradition and explanations of origins shaped Greek sacred sites.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The long altar list shows the Eleans' ordered cult practice at Olympia and Pausanias' reliance on local guides and poets.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias admits he lists the altars in the order of Elean sacrifice, not by their position on the site.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Zeus the Averter of flies (Zeus Apomyios) was a cult title; Hercules' sacrifice supposedly drove the flies across the river Alpheus, Olympia's main river.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Homer calls the Acheron-linked tree 'Acherois'; the name was understood to mean the white poplar, named for the Thesprotian river.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "'Cleansers' (Phaidryntai) were the hereditary attendants who kept Phidias' statue of Zeus clean, polishing it with oil.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Refers to Pausanias' earlier account of Letrini in Elis, where he told the story of Alpheus's love for Artemis, drawn from Pindar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Œnomaus made suitors of Hippodamia race him in chariots; losers were killed. Pelops eventually won, the founding story of Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "'Débris' means an altar built from accumulated ash and remains of earlier sacrifices, not from quarried stone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "The 'lute' here translates a stringed instrument distinct from the lyre; the tradition credits Apollo with its invention.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Hercules is traditionally credited with founding the Olympic festival and its sacrifices, so many Olympia customs are traced to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The Mæander in Asia Minor, the Asopus in Bœotia and the Nile are cited as rivers known for particular plants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Vesta (Hestia) was goddess of the hearth, honored first in Greek ritual sequence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Ion of Chios was a fifth-century BC poet and tragedian.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "symbolism",
+    "text": "A kite touching the offering is read as a bad omen, showing how bird behavior signified divine favor or displeasure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "generalization",
+    "text": "Pausanias moves from a single case to a general claim about rivers, using it to support his explanation of the poplar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "narrative voice",
+    "text": "Pausanias addresses the reader directly, explaining his method and admitting the catalogue's 'rambling' order.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,370 @@
+{
+ "section_id": "pausanias-body-4",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9861,
+  "output": 3422
+ },
+ "result": {
+  "summary": "Pausanias describes the Galati (Celts) of the far west, their invasion of Macedonia and Greece, and the Athenian stand at Thermopylae. They are repulsed at Delphi with divine help, then cross to Asia Minor, where Pergamum drives them into Galatia.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "The Galati and their land",
+    "summary": "Pausanias locates the Galati at the edge of Europe by a strange sea and the Eridanus, and notes they were once called Celts.",
+    "stakes": "",
+    "present": [
+     "Galati",
+     "Phaethon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "remotest parts of Europe",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 11,
+    "title": "Invasion and Thermopylae",
+    "summary": "The Celtic army overruns Illyria, Macedonia and Thessaly. Most Greeks stand aside, but the Athenians under Callippus hold the pass until the Celts outflank them by the Persians' old route.",
+    "stakes": "The Athenians risk destruction defending Greece when other Greeks abandon it.",
+    "present": [
+     "Galati",
+     "Athenians",
+     "Callippus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thermopylae",
+     "modern_name": "Thermopylae",
+     "certainty": "real",
+     "lat": 38.7966,
+     "lon": 22.5367
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 16,
+    "title": "Defence of Delphi",
+    "summary": "The Galati seek the treasures at Delphi but are met by Delphians, Phocians and Ætolians, and are routed with storms, rockfalls and heroic helpers.",
+    "stakes": "The god's treasure and the people of Delphi face plunder by the invaders.",
+    "present": [
+     "Galati",
+     "Hyperochus",
+     "Amadocus",
+     "Pyrrhus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 26,
+    "title": "Galati in Asia Minor",
+    "summary": "The Galati ravage Asia, are driven by Pergamum into Galatia and capture Ancyra and Pessinus. Pausanias recounts Midas lore and the Pergamenes' origins and exploits.",
+    "stakes": "",
+    "present": [
+     "Galati",
+     "Midas",
+     "Telephus",
+     "Silenus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Galatia",
+     "modern_name": "Ankara region, Turkey",
+     "certainty": "real",
+     "lat": 39.93,
+     "lon": 32.86
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Galati",
+    "aliases": [
+     "Celts"
+    ],
+    "kind": "other",
+    "description": "Celtic people from the far west who invade Greece"
+   },
+   {
+    "name": "Phaethon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of the daughters of the sun, mourned by them"
+   },
+   {
+    "name": "Callippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian general at Thermopylae"
+   },
+   {
+    "name": "Ephialtes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trachinian who led the Persians by the defile"
+   },
+   {
+    "name": "Hyperochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hyperborean helper at Delphi"
+   },
+   {
+    "name": "Amadocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hyperborean helper at Delphi"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Achilles, now honoured at Delphi"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pyrrhus"
+   },
+   {
+    "name": "Midas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Gordias, builder of Ancyra"
+   },
+   {
+    "name": "Gordias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Midas"
+   },
+   {
+    "name": "Silenus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "captured by Midas with wine"
+   },
+   {
+    "name": "Telephus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "led Arcadians to Asia Minor"
+   },
+   {
+    "name": "Atte",
+    "aliases": [],
+    "kind": "other",
+    "description": "said to be buried at Pessinus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Pyrrhus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Gordias",
+    "relation": "parent_of",
+    "b": "Midas",
+    "source": "text",
+    "evidence_sentence": 19
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Celts",
+    "canonical": "Galati",
+    "explanation": "The Galati were originally called Celts by themselves and others."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Divine and heroic aid decides the defence of Delphi, and the Athenians are praised for courage when others hold back.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage reflects the Celtic invasion of Greece in 279 BC and the later Pergamene victories over the Galatians.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Celtic migration into Asia Minor gave Galatia its name, the region addressed in Paul's Letter to the Galatians."
+   }
+  ],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Phaethon, son of the Sun, drove his father's chariot, lost control and was struck down by Zeus into the Eridanus; his sisters wept and became poplars, their tears amber.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Refers to Macedonian domination: Philip II and Alexander conquered Greece, and later Antipater and Cassander, Alexander's successors, ruled it harshly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Individually\" means each city on its own: they felt no shame in abandoning a common defence given their weakness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Ephialtes betrayed the Greeks at Thermopylae in 480 BC by showing the Persians the mountain path around the pass.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Defile\" means a narrow mountain pass; \"unbeknown\" means without their knowledge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "The Lamiac Gulf is the sea inlet near Lamia, beside Thermopylae (now the Malian Gulf).",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Pylæ is Thermopylae, the narrow pass into central Greece. The Galati (Gauls) forced their way through it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"A contingency\" is an old use meaning a contingent, that is, a body of troops sent to help.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The Hyperboreans were a legendary people living far north, beloved of Apollo. Hyperochus and Amadocus appear here as supernatural helpers of the god's shrine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Pyrrhus (Neoptolemus) was said to have been killed at Delphi, so the Delphians had treated his tomb as an enemy's.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "In legend Midas caught the satyr Silenus by mixing wine into a spring, since Silenus loved drink.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "The Cabiri were mystery-cult deities, often linked with protection of sailors and with the island of Samothrace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Telephus, king of Mysia, was wounded by Achilles. The Greeks mistakenly landed in Mysia on their way to Troy and he fought them.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The Galati are Gauls, Celtic peoples. Pausanias refers to their invasion of Greece in 279 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Callippus commanded the Athenian force at Thermopylae against the Gauls in 279 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "The Phocians guarded the mountain path, as they had failed to do against the Persians in 480 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Delphi, sacred to Apollo, held rich offerings, and the Gallic invasion of Greece took place in 279 BC. Greeks credited divine intervention with the defence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Ancyra is modern Ankara. The Galati settled the region that took their name, Galatia, in central Asia Minor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Pessinus was a Phrygian cult centre of the Mother of the gods, called Agdistis or Cybele; Atte (Attis) was her beloved.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "contrast",
+    "text": "\"Although\" and \"yet\" set Athenian losses against their resolve, making their decision seem more noble than the others' passivity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "allusion",
+    "text": "The Celts repeating the Persians' flanking route echoes the earlier defeat at Thermopylae, giving the Greeks' fate a sense of grim repetition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "characterization",
+    "text": "The Athenians are praised as most worthy, showing their courage despite earlier suffering and the others' reluctance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Foreshadowing",
+    "text": "The list of storms, rockfalls and heroes builds the idea that the god himself defends his shrine, a pattern of divine protection the narrative treats as established.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Irony",
+    "text": "The Delphians now honour the man whose tomb they had despised, a reversal brought about by the very enemy they feared.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "Narrative voice",
+    "text": "Pausanias openly admits his digression and steers back, showing his conversational, wandering guide-like manner.",
+    "spoiler": false
+   }
+  ]
+ }
+}

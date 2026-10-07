@@ -1,0 +1,679 @@
+{
+ "section_id": "apollodorus-body-10",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 15663,
+  "output": 5923
+ },
+ "result": {
+  "summary": "The section traces the royal line of Inachus at Argos: Phoroneus, Apis, Argus, and the story of Io, whom Zeus turns into a cow. It then follows Io's descendants to Egypt and Libya, and tells how Danaus and his fifty daughters fled Egyptus's fifty sons to Argos, where the daughters murdered their husbands.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 13,
+    "title": "Early kings of Argos",
+    "summary": "The line of Inachus runs through Phoroneus, Apis and Argus to Argus the All-seeing, who kills monsters and avenges Apis.",
+    "stakes": "",
+    "present": [
+     "Inachus",
+     "Phoroneus",
+     "Apis",
+     "Niobe",
+     "Zeus",
+     "Argus",
+     "Pelasgus",
+     "Echidna"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Peloponnese",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 27,
+    "title": "Io the cow",
+    "summary": "Zeus seduces Io, turns her into a cow, and Hera sets Argus to guard her. Hermes kills Argus, and Io wanders to Egypt, where she gives birth to Epaphus.",
+    "stakes": "Io is hounded by Hera's gadfly across lands and seas and loses her human form and her child.",
+    "present": [
+     "Io",
+     "Zeus",
+     "Hera",
+     "Argus",
+     "Hermes",
+     "Epaphus",
+     "Telegonus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Egypt",
+     "modern_name": "Egypt",
+     "certainty": "real",
+     "lat": 30.04,
+     "lon": 31.24
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 38,
+    "title": "Danaus flees to Argos",
+    "summary": "The line of Epaphus leads to Belus's twins Egyptus and Danaus. After a quarrel Danaus flees by ship to Argos and takes the kingdom, and Amymone finds the springs of Lerna with Poseidon's help.",
+    "stakes": "Danaus fears the sons of Egyptus and must find a new kingdom and water for his people.",
+    "present": [
+     "Epaphus",
+     "Libya",
+     "Poseidon",
+     "Belus",
+     "Egyptus",
+     "Danaus",
+     "Athena",
+     "Gelanor",
+     "Amymone"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Peloponnese",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 39,
+    "end_sentence": 58,
+    "title": "The Danaids' wedding murders",
+    "summary": "The sons of Egyptus marry the daughters of Danaus by lot, and on the wedding night all but Hypermnestra kill their husbands. The daughters are purified, and Nauplius, son of Amymone, is introduced.",
+    "stakes": "The brides must obey Danaus or spare their husbands; Hypermnestra risks her father's anger by saving Lynceus.",
+    "present": [
+     "Danaus",
+     "Egyptus",
+     "Hypermnestra",
+     "Lynceus",
+     "Athena",
+     "Hermes",
+     "Zeus",
+     "Amymone",
+     "Poseidon",
+     "Nauplius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Peloponnese",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Inachus",
+    "aliases": [],
+    "kind": "god",
+    "description": "son of Ocean and Tethys, river and father of Phoroneus"
+   },
+   {
+    "name": "Phoroneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Peloponnese, son of Inachus"
+   },
+   {
+    "name": "Apis",
+    "aliases": [
+     "Sarapis"
+    ],
+    "kind": "mortal",
+    "description": "tyrant slain by Thelxion and Telchis, later deified"
+   },
+   {
+    "name": "Niobe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Phoroneus, first mortal woman loved by Zeus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, lover of Niobe and Io"
+   },
+   {
+    "name": "Argus",
+    "aliases": [
+     "the All-seeing"
+    ],
+    "kind": "mortal",
+    "description": "many-eyed guardian of Io; also an earlier king of Argos"
+   },
+   {
+    "name": "Pelasgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of the Pelasgians"
+   },
+   {
+    "name": "Echidna",
+    "aliases": [],
+    "kind": "monster",
+    "description": "monster slain asleep by Argus"
+   },
+   {
+    "name": "Io",
+    "aliases": [
+     "Isis"
+    ],
+    "kind": "mortal",
+    "description": "priestess of Hera turned into a cow"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "wife of Zeus, persecutes Io"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Argiphontes"
+    ],
+    "kind": "god",
+    "description": "kills Argus and purifies the Danaids"
+   },
+   {
+    "name": "Epaphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Io, king of Egypt"
+   },
+   {
+    "name": "Telegonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Egypt who married Io"
+   },
+   {
+    "name": "Libya",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Epaphus, mother of Agenor and Belus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god, father of Belus, Agenor and Nauplius"
+   },
+   {
+    "name": "Belus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Egypt, father of Danaus and Egyptus"
+   },
+   {
+    "name": "Egyptus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Belus, king in Arabia with fifty sons"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Belus, father of fifty daughters, king of Argos"
+   },
+   {
+    "name": "Athena",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "advises Danaus and purifies the Danaids"
+   },
+   {
+    "name": "Gelanor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Argos who yields to Danaus"
+   },
+   {
+    "name": "Amymone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Danaus, lover of Poseidon"
+   },
+   {
+    "name": "Hypermnestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Danaus who spared Lynceus"
+   },
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Egyptus, husband of Hypermnestra"
+   },
+   {
+    "name": "Nauplius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amymone and Poseidon, lured sailors to death"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Inachus",
+    "relation": "parent_of",
+    "b": "Phoroneus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Phoroneus",
+    "relation": "parent_of",
+    "b": "Niobe",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Argus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Niobe",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Io",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Io",
+    "relation": "transformed_into",
+    "b": "cow",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Io",
+    "relation": "parent_of",
+    "b": "Epaphus",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Belus",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Belus",
+    "relation": "parent_of",
+    "b": "Danaus",
+    "source": "text",
+    "evidence_sentence": 31
+   },
+   {
+    "a": "Belus",
+    "relation": "parent_of",
+    "b": "Egyptus",
+    "source": "text",
+    "evidence_sentence": 31
+   },
+   {
+    "a": "Egyptus",
+    "relation": "sibling_of",
+    "b": "Danaus",
+    "source": "text",
+    "evidence_sentence": 31
+   },
+   {
+    "a": "Poseidon",
+    "relation": "lover_of",
+    "b": "Amymone",
+    "source": "text",
+    "evidence_sentence": 38
+   },
+   {
+    "a": "Hypermnestra",
+    "relation": "spouse_of",
+    "b": "Lynceus",
+    "source": "text",
+    "evidence_sentence": 53
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Nauplius",
+    "source": "text",
+    "evidence_sentence": 54
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Sarapis",
+    "canonical": "Apis",
+    "explanation": "Apis was deified and called Sarapis."
+   },
+   {
+    "alias": "Argiphontes",
+    "canonical": "Hermes",
+    "explanation": "Epithet meaning Argus-slayer, from his killing of Argus."
+   },
+   {
+    "alias": "Isis",
+    "canonical": "Io",
+    "explanation": "The Egyptians called Io Isis, and called Demeter by that name too."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Hesiod's remark that lovers' oaths do not anger the gods became proverbial.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "reason": "The Danaids' wedding-night murders, with Hypermnestra the lone exception.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage links Greek, Egyptian and Libyan royal houses through descent, explaining places and peoples by founders' names.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Apollodorus cites many variant traditions, showing a mythographer compiling rival sources. The Io and Isis identification reflects Greek interpretation of Egyptian religion.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Danaids, forced to carry water in leaky jars in the underworld in later tradition, became a standard image of futile labor."
+   },
+   {
+    "kind": "history",
+    "text": "Aeschylus drew on the Danaus story for his Suppliants, and Io appears in his Prometheus Bound."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The name Bosphorus, meaning ox-crossing, is explained here by Io's crossing as a cow.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Deucalion was the Greek flood survivor; the preceding section covered his descendants. Inachus begins the next genealogical branch, leading to Argive kings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Begat\" is archaic for \"fathered\"; it is the standard verb of genealogy here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Sarapis was a Greek-Egyptian god of the Hellenistic period; the text identifies the deified Apis with him, a late etymological link.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Cohabited\" means had sexual relations with; Zeus is the father of Argus by a mortal woman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Son of the soil\" means born from the earth itself, i.e. autochthonous, with no human parents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The bull's hide worn as clothing echoes the heroic habit of wearing a slain beast's skin, as Heracles does with the lion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Echidna here is the half-woman, half-snake monster who ambushed travellers, mother of many monsters in Greek myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "An annalist is a writer who records events year by year; Castor of Rhodes wrote chronological works.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Hesiod's remark became proverbial: gods forgive perjury sworn in love. Zeus swears he never slept with her to deceive Hera.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "\"Blabbed\" means revealed the secret. Hierax, probably a bird or informer, gave away Hermes' plan.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Argiphontes means \"Argus-slayer\", a traditional epithet of Hermes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "A gadfly is a biting fly that torments cattle, driving them to frantic wandering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Bosphorus means \"cow-crossing\" or \"ox-ford\", so the name is explained by Io's crossing as a cow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "The Curetes were mythical armed attendants who guarded the infant Zeus; here they act as Hera's agents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "\"Begat\" is archaic for \"fathered\"; here it describes Epaphus having a child.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "Egypt was said to take its name from Egyptus; the bracketed words are an editor's addition to the text.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "Lindian Athena was the goddess worshipped at Lindos on Rhodes, where Danaus's shrine was traditionally placed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "allusion",
+    "text": "Inachus, Argos's river-god, had judged that Hera held the land, angering Poseidon, who had also claimed it; hence the drought.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "word",
+    "text": "\"Damsels\" means young unmarried women; \"professions\" means declared intentions, here their claim of goodwill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "phrasing",
+    "text": "\"To wit\" means \"that is to say\"; it introduces the list of names.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "allusion",
+    "text": "Purification was needed because killing kin brought ritual pollution; Zeus ordered it carried out by Athena and Hermes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 55,
+    "kind": "phrasing",
+    "text": "\"Such as he fell in with\" means any sailors he happened to meet; he lured their ships onto rocks with false lights.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Inachus is a river god of Argos; Ocean and Tethys are Titan parents of rivers and waters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "The Peloponnese is the southern peninsula of Greece; Aegialia (\"coastland\") is an old name for the northern region.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Acusilaus was an early Greek mythographer from Argos, cited here for a variant genealogy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Hesiod was an early Greek poet whose genealogies were a major source for myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "This later Argus, called Panoptes, is distinct from Niobe's son Argus; the name repeats within the family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "This is one of several conflicting genealogies of Io, whose family belongs to the royal line of Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Hera, Zeus's wife, was the goddess of marriage; Io served as her priestess at Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Isis was the great Egyptian goddess; Greeks identified her with Demeter and with Io, giving Egyptian cult a Greek origin story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Poseidon is the god of the sea, earthquakes and horses; he fathers many heroes in Greek myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Athena, goddess of wisdom and crafts, often helps heroes with skills; here she guides the first ship's building.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "Lerna, near Argos, was a spring-fed marshy region, later known as the home of the Hydra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "text": "Ancient writers disagreed about Nauplius's wife; the author lists the rival versions from tragedians and epic poets.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "characterization",
+    "text": "Apis is defined in a phrase: a \"stern tyrant\". His rule and violent death show a pattern of overreaching power ending in downfall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "epithet",
+    "text": "\"The All-seeing\" is a fixed descriptive title that identifies this Argus and anticipates the eyes described next.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "poetic justice",
+    "text": "Argus's killing of Apis's murderers closes the earlier story with a just retribution, and presents him as a defender of order.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "irony",
+    "text": "Zeus, the god who guards oaths, swears falsely, and the proverb excuses it, showing the gods' double standard.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "epithet",
+    "text": "\"The All-seeing\" names Argus by his chief trait, making him a fitting guard.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "hyperbole",
+    "text": "Great stretches of land and sea convey Io's endless, exhausting wandering across two continents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "Wordplay",
+    "text": "Matching brides and grooms by similar names, such as Clitus and Clite, gives a neat symmetry to the catalogue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "device": "Dramatic irony",
+    "text": "The feast looks like a wedding celebration, but the reader knows Danaus has armed his daughters to murder the grooms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "device": "Irony",
+    "text": "Nauplius dies by the same trick of false lights he used on others, a fitting poetic justice.",
+    "spoiler": false
+   }
+  ]
+ }
+}

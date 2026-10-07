@@ -1,0 +1,494 @@
+{
+ "section_id": "pausanias-body-69",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10098,
+  "output": 4067
+ },
+ "result": {
+  "summary": "Pausanias describes roads out of Argos: to Mantinea with the temple of Aphrodite and Ares, Oenoe and Mount Artemisium; to Lyrceia and Orneae; and toward Epidaurus, with the monument of Proetus and Acrisius, Tiryns, Midea and Lessa. He mixes local legends with notes on ruins.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Road to Mantinea and Oenoe",
+    "summary": "A double-entranced temple holds statues of Aphrodite and Ares. Oenoe is named for Oeneus, who died at Argos with Diomede; above lies Mount Artemisium, source of the Inachus.",
+    "stakes": "",
+    "present": [
+     "Polynices",
+     "Oeneus",
+     "Diomede",
+     "Agrius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Oenoe",
+     "modern_name": "Argolid, near Argos",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 22.7
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 23,
+    "title": "Lyrceia and Orneae",
+    "summary": "Lyrceia is where Lynceus signalled his escape, a memory kept in an annual torch procession. Orneae is named for Orneus and has temples of Artemis and of all the gods.",
+    "stakes": "Lynceus must escape Danaus and signal safety to Hypermnestra.",
+    "present": [
+     "Lynceus",
+     "Hypermnestra",
+     "Danaus",
+     "Lyrcus",
+     "Orneus",
+     "Peteos",
+     "Menestheus",
+     "Homer"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lyrceia",
+     "modern_name": "near Achladokampos, Argolid",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 40,
+    "title": "Road to Epidaurus",
+    "summary": "A pyramid-like monument marks the drawn battle of Proetus and Acrisius. Pausanias then describes Tiryns' Cyclopean walls, Midea, and Lessa with the altars on Mount Arachnaeum.",
+    "stakes": "Proetus and Acrisius fight for supremacy over Argos.",
+    "present": [
+     "Proetus",
+     "Acrisius",
+     "Tiryns",
+     "Argus",
+     "Electryon",
+     "Alcmena"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tiryns",
+     "modern_name": "Tiryns",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.8
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of an expedition whose offerings are in the temple"
+   },
+   {
+    "name": "Oeneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Aetolia, expelled and buried at Oenoe"
+   },
+   {
+    "name": "Diomede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive who sheltered his grandfather Oeneus"
+   },
+   {
+    "name": "Agrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the sons who expelled Oeneus"
+   },
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "only one of the 50 brothers to escape"
+   },
+   {
+    "name": "Hypermnestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "agreed to signal with Lynceus"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "pursuer from whom Lynceus escaped"
+   },
+   {
+    "name": "Lyrcus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "illegitimate son of Abas, namesake of Lyrceia"
+   },
+   {
+    "name": "Abas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Lyrcus"
+   },
+   {
+    "name": "Orneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Erechtheus, namesake of Orneae"
+   },
+   {
+    "name": "Erechtheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Orneus"
+   },
+   {
+    "name": "Peteos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Orneus"
+   },
+   {
+    "name": "Menestheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who aided Agamemnon at Troy"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the expedition against Priam"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Troy"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet whose catalogue mentions Orneae"
+   },
+   {
+    "name": "Proetus",
+    "aliases": [
+     "Prœtus"
+    ],
+    "kind": "mortal",
+    "description": "fought Acrisius for supremacy"
+   },
+   {
+    "name": "Acrisius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "rival of Proetus"
+   },
+   {
+    "name": "Tiryns",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who named the city, son of Argus"
+   },
+   {
+    "name": "Argus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Zeus, father of Tiryns"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Argus; honoured with altars"
+   },
+   {
+    "name": "Electryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Midea, father of Alcmena"
+   },
+   {
+    "name": "Alcmena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Electryon"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue in the temple"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "statue in the temple"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "has temples on Artemisium and at Orneae"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "temple at Lessa"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "altar on Arachnaeum"
+   },
+   {
+    "name": "Inachus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river, also king in old times"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Orneus",
+    "relation": "parent_of",
+    "b": "Peteos",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Peteos",
+    "relation": "parent_of",
+    "b": "Menestheus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Erechtheus",
+    "relation": "parent_of",
+    "b": "Orneus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Argus",
+    "relation": "parent_of",
+    "b": "Tiryns",
+    "source": "text",
+    "evidence_sentence": 30
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Argus",
+    "source": "text",
+    "evidence_sentence": 30
+   },
+   {
+    "a": "Abas",
+    "relation": "parent_of",
+    "b": "Lyrcus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Electryon",
+    "relation": "parent_of",
+    "b": "Alcmena",
+    "source": "text",
+    "evidence_sentence": 35
+   },
+   {
+    "a": "Oeneus",
+    "relation": "parent_of",
+    "b": "Diomede",
+    "source": "outside",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lynceia",
+    "canonical": "Lyrceia",
+    "explanation": "Older name of the place, before Lyrcus lived there."
+   },
+   {
+    "alias": "Sapyselaton",
+    "canonical": "Arachnaeum",
+    "explanation": "Old name of the mountain in Inachus' day."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Place names are explained by founders and heroes, tying the landscape to myth and local pride.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias records ruins left by Argive conquests of neighbouring cities, such as Tiryns and Orneae.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Greeks believed the huge stone walls of Tiryns were built by Cyclopes; they are Bronze Age and still stand.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Polynices led the Argive expedition of the Seven against Thebes to regain his throne from his brother Eteocles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Torrent\" means a seasonal stream that flows only in winter; \"Ravine\" is the name given to it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Oeneus was Diomede's grandfather through Diomede's father Tydeus, Oeneus's son, hence the grandfatherly care.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The fifty brothers are the sons of Aegyptus, who were killed by the Danaids on their wedding night; Lynceus was spared by Hypermnestra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180-190 metres, so 60 stades is about 11 km.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Homer's catalogue is the list of ships and contingents in the Iliad, Book 2.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "\"Naturalized\" means admitted as citizens of Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "\"Argolic\" means belonging to the Argolid, the region around Argos. The shields are a design carved on the monument.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"Aggrandize Argos\" means to enlarge and strengthen Argos by adding the Tirynthians to its population.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "The Cyclopes were mythical giants. Greeks attributed massive prehistoric walls to them, since later people could not imagine moving such stones.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "phrasing",
+    "text": "\"Dovetail\" means the small stones were fitted into the gaps between the large blocks to make the wall tight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "The daughters of Prœtus were, in myth, driven mad; the chambers are traditionally linked with them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "Inachus was the legendary first king of Argos and river god, so this marks a very remote age.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Pausanias often describes temples as he walks a route, moving from one landmark to the next.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The Inachus was the chief river of the Argolid, named for a legendary river-god and early king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Torch festivals were common in Greek religion, commemorating a founding event through a repeated ritual.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Menestheus led the Athenian contingent to Troy in the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Prœtus and Acrisius were legendary brothers and rival kings of the Argolid, said to have quarrelled even in the womb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "Electryon, king of Mycenaean Midea, was the father of Alcmena, who became mother of Heracles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "text": "Offering sacrifice to Zeus, the sky and weather god, for rain was a common Greek practice in drought.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 10,
+    "device": "narrative voice",
+    "text": "The flat, dismissive remark shows Pausanias as a selective traveller-guide who reports only what he finds worth seeing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "The lovers' signal fires turn a story of murder into one of survival, joined by fire across the landscape.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "pathos",
+    "text": "The shared tomb for fellow citizens and kinsmen gives the civil strife a sorrowful, humane touch amid plain reporting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "contrast",
+    "text": "The terse statement that only the site remains contrasts with Midea's earlier royal past mentioned just before.",
+    "spoiler": false
+   }
+  ]
+ }
+}

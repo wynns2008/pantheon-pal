@@ -1,0 +1,377 @@
+{
+ "section_id": "pausanias-body-40",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7794,
+  "output": 3227
+ },
+ "result": {
+  "summary": "Pausanias describes the sights of Megara: Theagenes' conduit, the temple of Artemis Saviour with its origin story, and the unfinished Olympieum with its statue of Zeus. He then covers the dispute over Salamis and the temples on the Carian Acropolis.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Theagenes' conduit and temple",
+    "summary": "Pausanias describes the conduit of Theagenes, the Sithnidian Nymphs and the tale of Megarus, then a nearby ancient temple with imperial statues and a brass Artemis.",
+    "stakes": "",
+    "present": [
+     "Theagenes",
+     "Megarus",
+     "Sithnidian Nymphs",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Megara",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9959,
+     "lon": 23.3463
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 9,
+    "title": "Artemis the Saviour",
+    "summary": "Men of Mardonius' army lose their way at night, waste their arrows on an echoing rock and are slain by the Megarians. Hence the image of Artemis Saviour; works by Praxiteles are noted.",
+    "stakes": "Mardonius' stragglers face destruction after being misled and left without arrows.",
+    "present": [
+     "Mardonius",
+     "Artemis",
+     "Praxiteles"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Megaris",
+     "modern_name": "Megarid, Greece",
+     "certainty": "real",
+     "lat": 38.0,
+     "lon": 23.2
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 16,
+    "title": "The Olympieum and Salamis",
+    "summary": "The Zeus statue in the Olympieum was left unfinished because of the war with Athens. A ram from Salamis prompts the rival Athenian and Megarian accounts of how Salamis was lost.",
+    "stakes": "Control of Salamis is contested between Megara and Athens.",
+    "present": [
+     "Zeus",
+     "Theocosmus",
+     "Phidias",
+     "Solon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympieum, Megara",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9959,
+     "lon": 23.3463
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 19,
+    "title": "The Carian Acropolis",
+    "summary": "Pausanias lists temples and statues on the Acropolis, named after Car, including the Hall of Demeter.",
+    "stakes": "",
+    "present": [
+     "Car",
+     "Phoroneus",
+     "Dionysus",
+     "Aphrodite",
+     "Zeus",
+     "Æsculapius",
+     "Hygiea",
+     "Bryaxis",
+     "Demeter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Carian Acropolis",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9959,
+     "lon": 23.3463
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Theagenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Megara who built the conduit"
+   },
+   {
+    "name": "Cylon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian married to Theagenes' daughter"
+   },
+   {
+    "name": "Megarus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Zeus and a Sithnidian Nymph, survivor of the flood"
+   },
+   {
+    "name": "Sithnidian Nymphs",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Native nymphs of Megara"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Chief god, with a statue in the Olympieum"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Saviour"
+    ],
+    "kind": "goddess",
+    "description": "Goddess who misled Mardonius' men"
+   },
+   {
+    "name": "Mardonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian commander"
+   },
+   {
+    "name": "Praxiteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor of the twelve gods"
+   },
+   {
+    "name": "Theocosmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Megarian sculptor of the Zeus statue"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor who assisted Theocosmus"
+   },
+   {
+    "name": "Solon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who roused Athens to retake Salamis"
+   },
+   {
+    "name": "Car",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King, son of Phoroneus, who gave the Acropolis its name"
+   },
+   {
+    "name": "Phoroneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Car"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Nyctelian Dionysus"
+    ],
+    "kind": "god",
+    "description": "God with a temple on the Acropolis"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "the Procuress"
+    ],
+    "kind": "goddess",
+    "description": "Goddess with a temple on the Acropolis"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "Healing god with a statue"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess of health with a statue"
+   },
+   {
+    "name": "Bryaxis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor of the statues"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess whose Hall is on the Acropolis"
+   },
+   {
+    "name": "Deucalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero of the flood"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Megarus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Phoroneus",
+    "relation": "parent_of",
+    "b": "Car",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Theagenes",
+    "relation": "parent_of",
+    "b": "Cylon",
+    "source": "outside",
+    "evidence_sentence": 0
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Saviour",
+    "canonical": "Artemis",
+    "explanation": "Cult title of Artemis at Megara."
+   },
+   {
+    "alias": "Nyctelian Dionysus",
+    "canonical": "Dionysus",
+    "explanation": "Cult epithet of Dionysus, of the night."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Vivid story of soldiers shooting arrows at an echoing rock and wasting them.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local cult images are explained by stories of divine help and civic pride, especially against Persians and Athens.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The rival Megarian and Athenian accounts of Salamis show how cities shaped history to support their claims.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Zeus statue was left unfinished because of the Athenian ravaging of Megarian land in the Peloponnesian War.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Theagenes was Megara's tyrant in the seventh century BC; Cylon, his son-in-law, tried to seize Athens as tyrant, as Pausanias noted earlier.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Deucalion's flood is the Greek flood myth, survived by Deucalion and Pyrrha; Megarus here escapes it on a mountain, with the name explained by cranes (geranoi in Greek).",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Minus\" is the Latin for lacking; the translator means the Persians had no arrows left.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"So-called 12 gods\" refers to the traditional Olympian twelve, whose exact membership varied by place.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Of the Strongylii\" is obscure; it probably means an Artemis of a type or dedicator named Strongylion, though the phrase is ambiguous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Solon, the Athenian lawgiver, is said to have roused Athens with a war-poem urging recovery of Salamis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "\"Procuress\" translates an epithet of Aphrodite as matchmaker; \"Nyctelian\" ties Dionysus to night rites; \"dusty\" Zeus is a cult title for the roofless, open-air shrine.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Mardonius commanded the Persian army in Greece in 479 BC, before his defeat at Plataea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Ivory and gold (chryselephantine) was the costly technique used for great cult statues, most famously by Phidias.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "A trireme's bronze ram was fixed on the prow to sink enemy ships, so it served as a war trophy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Æsculapius was the god of healing, and Hygiea, his daughter, personified health.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "irony",
+    "text": "The Persians, guided astray by a goddess, attack an echoing rock and take its groan for an enemy, a futile and comic misfire.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "parenthesis",
+    "text": "The aside underlines the reversal: the armed, prepared Megarians face disarmed enemies, making the slaughter seem inevitable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "symbolism",
+    "text": "The Seasons and Fates above Zeus's head symbolize his command over time and destiny.",
+    "spoiler": false
+   }
+  ]
+ }
+}

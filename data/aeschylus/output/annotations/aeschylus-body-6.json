@@ -1,0 +1,567 @@
+{
+ "section_id": "aeschylus-body-6",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 20185,
+  "output": 6338
+ },
+ "result": {
+  "summary": "After Agamemnon's murder, the Chorus laments him and blames Helen and the house's Fiend, while Clytaemestra claims the deed was vengeance for Iphigenia. Aegisthus arrives, explains his father Thyestes' wrong at the hands of Atreus, and threatens the Chorus until Clytaemestra calms the quarrel.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 68,
+    "title": "Lament and Clytaemestra's defence",
+    "summary": "The Chorus mourns Agamemnon and blames Helen and the house's Fiend. Clytaemestra answers that Atreus' old crime and Iphigenia's death justify the killing.",
+    "stakes": "Clytaemestra's claim to justice and the house's fate hang on whether the killing is seen as vengeance or murder.",
+    "present": [
+     "Chorus",
+     "Clytaemestra",
+     "Agamemnon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, before the palace",
+     "modern_name": "Argos, Greece",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 69,
+    "end_sentence": 84,
+    "title": "Aegisthus claims the vengeance",
+    "summary": "Aegisthus enters and tells how Atreus fed Thyestes his own children, and says he planned the murder.",
+    "stakes": "Aegisthus seeks to complete his family's revenge after exile.",
+    "present": [
+     "Aegisthus",
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, before the palace",
+     "modern_name": "Argos, Greece",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 85,
+    "end_sentence": 151,
+    "title": "Threats and Clytaemestra's peace",
+    "summary": "The Chorus defies Aegisthus and hopes for Orestes' return. Armed men prepare to fight, but Clytaemestra stops the bloodshed and sends the Elders home.",
+    "stakes": "The Elders risk death by the sword; Aegisthus risks the people's curses and Orestes' vengeance.",
+    "present": [
+     "Aegisthus",
+     "Chorus",
+     "Clytaemestra"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, before the palace",
+     "modern_name": "Argos, Greece",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [
+     "Elders"
+    ],
+    "kind": "mortal",
+    "description": "Elders of Argos mourning their king"
+   },
+   {
+    "name": "Clytaemestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Queen who killed her husband Agamemnon"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Slain king of Argos"
+   },
+   {
+    "name": "Aegisthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Thyestes who planned the murder"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Blamed for the many deaths at Troy"
+   },
+   {
+    "name": "Iphigenia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter sacrificed by Agamemnon"
+   },
+   {
+    "name": "Atreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Agamemnon, who served Thyestes his children"
+   },
+   {
+    "name": "Thyestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aegisthus' father, brother of Atreus"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Exiled son hoped to return as avenger"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Ruler of the gods, author of all"
+   },
+   {
+    "name": "Pleisthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ancestor of the cursed house"
+   },
+   {
+    "name": "Orpheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Singer whose voice charmed all things"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Atreus",
+    "relation": "parent_of",
+    "b": "Agamemnon",
+    "source": "text",
+    "evidence_sentence": 73
+   },
+   {
+    "a": "Thyestes",
+    "relation": "parent_of",
+    "b": "Aegisthus",
+    "source": "text",
+    "evidence_sentence": 73
+   },
+   {
+    "a": "Atreus",
+    "relation": "sibling_of",
+    "b": "Thyestes",
+    "source": "text",
+    "evidence_sentence": 73
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Iphigenia",
+    "source": "text",
+    "evidence_sentence": 40
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "spouse_of",
+    "b": "Agamemnon",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "lover_of",
+    "b": "Aegisthus",
+    "source": "text",
+    "evidence_sentence": 97
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "outside",
+    "evidence_sentence": 111
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Danaan",
+    "canonical": "Greek",
+    "explanation": "Danaans is a name for the Greeks."
+   },
+   {
+    "alias": "Fiend",
+    "canonical": "evil genius of the house",
+    "explanation": "The Chorus and Clytaemestra name the family's avenging spirit, linked to Atreus and Pleisthenes."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 19,
+    "reason": "Expresses the belief that all events come by Zeus' will.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "reason": "States the law that the doer must suffer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 94,
+    "reason": "Proverb about resisting authority, still used.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows the cycle of inherited bloodguilt: each killing in the house answers an earlier one.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Aegisthus' tyranny contrasts with the Chorus' civic voice, reflecting Athenian worries about one-man rule.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The scene's killing and its demand for vengeance lead into Aeschylus' Libation Bearers and Eumenides, which end the cycle with a court of law."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Sentence 76 is marked in the translation as a gap in the Greek text.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "'In a woman's cause' means for Helen's sake; 'by a woman's hand' refers to Clytaemestra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Tantalus' twain descendants: Atreus and Pleisthenes' line, i.e. the two sons of the cursed house; the Fiend (avenging spirit) afflicts the whole family descended from Tantalus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Thrice-gorged: the Fiend has glutted itself on three generations' or three crimes' blood; the sense is of a spirit never satisfied.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "Maw means the throat or stomach of a voracious animal, here of the Fiend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Atreus served his brother Thyestes the flesh of Thyestes' own children at a banquet; the 'slain babes' refer to this crime.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "Evil genius translates a spirit of vengeance (alastor) that pursues a family for past bloodshed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "word",
+    "text": "\"Meed\" means reward or due; \"worthy meed of worthy deed\" means he got a fitting return for what he did.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "allusion",
+    "text": "Clytaemestra's \"sweet flower\" is Iphigenia, whom Agamemnon sacrificed to win winds for the fleet sailing to Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "phrasing",
+    "text": "Destiny whetting justice on other whetstones means fate is sharpening a new blade: further vengeance for this killing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "word",
+    "text": "\"Laver\" means washing basin; here the silver-sided bath in which Agamemnon was killed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "phrasing",
+    "text": "\"Graceless grace\" is a paradox: a funeral honour given without goodwill, which cannot truly honour him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "kind": "allusion",
+    "text": "The \"ford of sorrows\" is the river of the underworld, probably Acheron, which the dead cross.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "allusion",
+    "text": "The law that the doer must suffer is a Greek principle of retributive justice, upheld by Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "kind": "allusion",
+    "text": "Pleisthenes is a name in the house's lineage, linked to Atreus' family. The Fiend is the house's avenging spirit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "kind": "allusion",
+    "text": "The robe is the entangling cloth in which Clytemnestra trapped and killed Agamemnon; Aegisthus calls it the work of the Avenging Spirits (Furies).",
+    "spoiler": false
+   },
+   {
+    "sentence": 74,
+    "kind": "phrasing",
+    "text": "Thyestes returned as a suppliant and was spared death, but the sentence is ironic: his 'safety' was only exile's end before Atreus' trick.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "kind": "phrasing",
+    "text": "'More hearty than kind' means the welcome was lavish but false, hiding Atreus' murderous plan.",
+    "spoiler": false
+   },
+   {
+    "sentence": 76,
+    "kind": "phrasing",
+    "text": "The dots mark a gap in the text; the line is corrupt or incomplete. Atreus served the children's flesh but kept back the hands and feet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "kind": "allusion",
+    "text": "Pelops was father of Atreus and Thyestes. 'Pleisthenes' is a name linked to this family; its exact relation is unclear, so the curse falls on the whole house.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "kind": "word",
+    "text": "'Anon' means soon or presently; 'unhallowed' means impious, violating sacred law.",
+    "spoiler": false
+   },
+   {
+    "sentence": 88,
+    "kind": "phrasing",
+    "text": "Death by stoning was a communal punishment; the Chorus threatens public vengeance by the citizens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 90,
+    "kind": "phrasing",
+    "text": "Ship metaphor: rowers on the lower bench (thranites' opposite) have less status than those on the higher thwart; Aegisthus calls the Elders subordinates.",
+    "spoiler": false
+   },
+   {
+    "sentence": 94,
+    "kind": "phrasing",
+    "text": "A proverb: an ox that kicks against the goad only hurts itself. It means do not resist authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 100,
+    "kind": "allusion",
+    "text": "Orpheus, the legendary singer whose music drew beasts, trees and stones after him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 107,
+    "kind": "word",
+    "text": "Trace-colt: a young horse yoked beside the shaft horse; 'high-fed' means well fed and spirited, so hard to control.",
+    "spoiler": false
+   },
+   {
+    "sentence": 111,
+    "kind": "allusion",
+    "text": "Orestes is Agamemnon's son, in exile, expected to return and avenge his father.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Helen, wife of Menelaus, fled to Troy with Paris; the Greek expedition to recover her cost many lives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Zeus is seen as the ultimate cause of all events, including the working out of the house's curse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "The spider's web refers to the robe or net in which Clytaemestra entangled Agamemnon before striking him in the bath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "The Chorus of Argive elders speaks over the body of Agamemnon, killed by Clytaemestra in his bath with a net-like robe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "text": "Clytaemestra alludes to the curse on the house of Atreus, including Atreus' crime of feeding his brother's children to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "text": "The curse on the house descends through generations, each murder prompting another.",
+    "spoiler": false
+   },
+   {
+    "sentence": 73,
+    "text": "Atreus and Thyestes, sons of Pelops, quarrelled over the throne of Argos. This feud is the root of the curse on the house of Atreus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 81,
+    "text": "Aegisthus was Thyestes' third child, born after the feast; here he says he was exiled as an infant with his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "text": "Aegisthus is Clytaemestra's lover and cousin of Agamemnon; he stayed home during the Trojan war while Agamemnon fought.",
+    "spoiler": false
+   },
+   {
+    "sentence": 106,
+    "text": "Aegisthus's father Thyestes was wronged by Atreus, Agamemnon's father, giving Aegisthus an old family feud.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 10,
+    "device": "simile",
+    "text": "Clytaemestra is likened to a hateful raven croaking over the corpse, making her triumph ugly and ominous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "personification",
+    "text": "The Fiend's thirst for blood is described as a bodily appetite, making the family curse a living, feeding creature.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "metaphor",
+    "text": "The spider's web figures the entangling robe, casting Clytaemestra as a predator and Agamemnon as helpless prey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "irony",
+    "text": "Clytaemestra disclaims being Agamemnon's wife and shifts blame to the Fiend, an evasion the Chorus half-doubts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "refrain",
+    "text": "The repeated lament echoes the earlier cry, framing the scene's argument with unresolved grief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "metaphor",
+    "text": "The spider's web pictures the entangling robe as a trap, making Clytaemestra a predatory spider and Agamemnon her prey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "device": "metaphor",
+    "text": "A storm of bloody rain stands for gathering violence; the shift from drops to downpour suggests escalating bloodshed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "device": "irony",
+    "text": "Clytaemestra's grim picture of a loving daughter's welcome mocks Agamemnon, turning the victim of his sacrifice into his greeter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "device": "antithesis",
+    "text": "Balanced phrases, spoiler spoiled and slayer atoning, compress the play's theme of retribution.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "device": "refrain",
+    "text": "The Chorus repeats its lament word for word, giving a ritual, song-like effect and showing its inability to move beyond grief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "device": "apostrophe",
+    "text": "Aegisthus addresses the daylight directly, greeting it as a witness to his triumph and giving his entrance a ritual, exultant tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "device": "irony",
+    "text": "Atreus' feigned festive hospitality turns a feast into a horror, contrasting the show of kindness with the cannibal banquet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "device": "characterization",
+    "text": "Aegisthus' readiness to die content shows his vengeful obsession, though the chorus will mock him as a coward who let a woman act.",
+    "spoiler": false
+   },
+   {
+    "sentence": 90,
+    "device": "metaphor",
+    "text": "The state is a ship, with Aegisthus's faction commanding and the old men as lowly rowers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 101,
+    "device": "antithesis",
+    "text": "Orpheus's voice 'hauls' by delight, the Elder's yelping by force; the repeated 'haled' sharpens the contrast.",
+    "spoiler": false
+   },
+   {
+    "sentence": 107,
+    "device": "metaphor",
+    "text": "Citizens become unruly horses to be yoked and broken, showing Aegisthus's tyrannical outlook.",
+    "spoiler": false
+   },
+   {
+    "sentence": 111,
+    "device": "foreshadowing",
+    "text": "The Chorus's hope for Orestes anticipates the avenger's return in the next play, the Libation Bearers.",
+    "spoiler": false
+   }
+  ]
+ }
+}

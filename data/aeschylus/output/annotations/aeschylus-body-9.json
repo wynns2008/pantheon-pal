@@ -1,0 +1,602 @@
+{
+ "section_id": "aeschylus-body-9",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 17821,
+  "output": 5650
+ },
+ "result": {
+  "summary": "At Agamemnon's tomb Orestes, Electra and the Chorus pray to the dead king and the powers below to aid their vengeance. Learning of Clytemnestra's dream of nursing a serpent, Orestes reads it as foretelling that he will kill her. He then lays out his plan to enter the palace disguised as a Phocian stranger with Pylades.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 69,
+    "title": "Lament and invocation at the tomb",
+    "summary": "The three recall the wrongs done to Agamemnon and call on him and the powers below to help them avenge him.",
+    "stakes": "The exiled children risk failing to avenge their father and losing their house and his honours.",
+    "present": [
+     "Orestes",
+     "Electra",
+     "Chorus",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Agamemnon's tomb",
+     "modern_name": "Mycenae",
+     "certainty": "traditional",
+     "lat": 37.73,
+     "lon": 22.76
+    }
+   },
+   {
+    "start_sentence": 70,
+    "end_sentence": 101,
+    "title": "Prayer to the dead Agamemnon",
+    "summary": "Orestes and Electra beg their father to send help, recalling his murder in the bath and the net, and promising offerings.",
+    "stakes": "The line of Pelops could be blotted out and Agamemnon left without honour.",
+    "present": [
+     "Orestes",
+     "Electra",
+     "Agamemnon",
+     "Persephassa"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Agamemnon's tomb",
+     "modern_name": "Mycenae",
+     "certainty": "traditional",
+     "lat": 37.73,
+     "lon": 22.76
+    }
+   },
+   {
+    "start_sentence": 102,
+    "end_sentence": 145,
+    "title": "Clytemnestra's serpent dream",
+    "summary": "The Chorus tells why Clytemnestra sent libations: she dreamed she nursed a serpent that drew blood. Orestes interprets himself as the serpent.",
+    "stakes": "Clytemnestra faces death at her son's hand, as the dream foretells.",
+    "present": [
+     "Orestes",
+     "Chorus",
+     "Clytemnestra"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Palace of Clytemnestra",
+     "modern_name": "Mycenae",
+     "certainty": "traditional",
+     "lat": 37.73,
+     "lon": 22.76
+    }
+   },
+   {
+    "start_sentence": 146,
+    "end_sentence": 156,
+    "title": "Orestes' plan of disguise",
+    "summary": "Orestes tells Electra to wait within and the Chorus to keep silent, while he and Pylades pose as Phocian strangers to kill Aegisthus.",
+    "stakes": "If the ruse fails, Orestes and Pylades are discovered and the vengeance ordered by Apollo fails.",
+    "present": [
+     "Orestes",
+     "Electra",
+     "Chorus",
+     "Pylades",
+     "Aegisthus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Agamemnon's tomb",
+     "modern_name": "Mycenae",
+     "certainty": "traditional",
+     "lat": 37.73,
+     "lon": 22.76
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Agamemnon's exiled son, come to avenge him"
+   },
+   {
+    "name": "Electra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Orestes' sister, mistreated by their mother"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Captive women who brought libations to the tomb"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Chief god, invoked to bring retribution"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Murdered king, father of Orestes and Electra"
+   },
+   {
+    "name": "Clytemnestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Their mother, who killed her husband and dreamed of a serpent"
+   },
+   {
+    "name": "Aegisthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Usurper ruling in Agamemnon's house"
+   },
+   {
+    "name": "Pylades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Orestes' companion and ally"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Loxias"
+    ],
+    "kind": "god",
+    "description": "God whose oracle ordered the vengeance"
+   },
+   {
+    "name": "Persephassa",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Queen of the underworld, invoked by Electra"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 50
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Electra",
+    "source": "text",
+    "evidence_sentence": 97
+   },
+   {
+    "a": "Clytemnestra",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 139
+   },
+   {
+    "a": "Orestes",
+    "relation": "sibling_of",
+    "b": "Electra",
+    "source": "text",
+    "evidence_sentence": 148
+   },
+   {
+    "a": "Clytemnestra",
+    "relation": "spouse_of",
+    "b": "Agamemnon",
+    "source": "text",
+    "evidence_sentence": 32
+   },
+   {
+    "a": "Clytemnestra",
+    "relation": "lover_of",
+    "b": "Aegisthus",
+    "source": "outside",
+    "evidence_sentence": 73
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Loxias",
+    "canonical": "Apollo",
+    "explanation": "Loxias is a title of Apollo as the god of oracles."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "States the law of blood vengeance: blood spilt demands more blood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "reason": "Memorable image of children as corks keeping a dead father's name afloat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 140,
+    "reason": "Orestes identifies himself with the serpent of the dream.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The kommos binds the living and the dead in a cycle of blood vengeance, with prayer used to rouse Agamemnon's spirit to action.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The concern for funeral rites and offerings reflects Greek belief that the dead's honour depended on their descendants.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Clytemnestra's serpent dream was a model for later dream-omens in drama, and Orestes' fate shaped later Orestes plays by Sophocles and Euripides."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Orestes' remark that the dream-serpent drew clotted blood with milk was echoed in the Oresteia's recurring snake imagery.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Double scourge\" refers to the two blows of lament, from Orestes and Electra, striking the dead; \"the other side\" means Clytemnestra and Aegisthus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "Zeus is invoked as sender of retribution from below, a reference to his role as Zeus of the underworld; vengeance long delayed will still come.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Heart's prow\" imagines the heart as a ship's bow facing a keen wind of hatred; \"rancorous\" means bitterly resentful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The Spirit of Vengeance (Erinys) is the avenging Fury; murder is thought to call down further ruin on the killer's line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "\"Remnants of the line of Atreus\": Orestes and Electra are the last of the cursed house of Atreus, Agamemnon's father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Reins\" is an archaic word for the kidneys or inward parts, then seen as the seat of emotion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Arian and Cissian refer to Asiatic peoples (Cissia is in Persia), famed for professional mourning women and fierce funeral laments.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "word",
+    "text": "\"Mangled\" refers to maschalismos, the mutilation of a murdered man's extremities, done so the dead man's ghost could not take revenge. The note [22] marks an editor's footnote.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "word",
+    "text": "\"Burthen\" is an old form of \"burden\"; the idea is a weight of guilt and grief placed on the son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "phrasing",
+    "text": "\"Kennelled\" like a vicious dog: Electra was shut away in the house, treated as a dangerous animal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "phrasing",
+    "text": "\"Enter the lists\" borrows the language of medieval tournaments to mean 'step into the contest.'",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "kind": "phrasing",
+    "text": "\"War-god shall encounter War-god\": Ares stands for deadly strife, so the line means that violence will meet violence, and the claim of right will meet the opposing claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "kind": "phrasing",
+    "text": "\"Trouble inbred in the race\" means the curse and bloodshed inherited by the house of Atreus, passed down through the family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "kind": "allusion",
+    "text": "The gods beneath the earth are the powers of the underworld, invoked to help the dead Agamemnon's cause.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "kind": "phrasing",
+    "text": "\"Unroyal death\" means a death unworthy of a king: Agamemnon was killed in his bath by his wife, not in battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "kind": "phrasing",
+    "text": "\"Wonted\" means customary. Without the living heir, the usual funeral offerings to Agamemnon would lapse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 81,
+    "kind": "word",
+    "text": "Persephassa is Persephone, queen of the dead, who could help the dead man's spirit act.",
+    "spoiler": false
+   },
+   {
+    "sentence": 85,
+    "kind": "allusion",
+    "text": "Clytemnestra entangled Agamemnon in a robe or net-like cloth in the bath before striking him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 87,
+    "kind": "word",
+    "text": "\"Gyves\" are fetters or shackles; here they are the entangling robe, not made of metal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 95,
+    "kind": "phrasing",
+    "text": "\"Like grip\" refers to a wrestling hold: Orestes asks that the killers be thrown as Agamemnon was.",
+    "spoiler": false
+   },
+   {
+    "sentence": 98,
+    "kind": "allusion",
+    "text": "Pelops was the ancestor of the house of Atreus; the \"seed of Pelops\" means this royal family line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "kind": "word",
+    "text": "\"Corks\" are floats on a fishing net, keeping it from sinking.",
+    "spoiler": false
+   },
+   {
+    "sentence": 110,
+    "kind": "word",
+    "text": "\"Saw\" means an old saying or proverb; the idea is that no payment can wash out a murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 111,
+    "kind": "phrasing",
+    "text": "\"Resolve me\" means \"explain it to me\"; \"I am fain\" means \"I am eager.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "kind": "word",
+    "text": "\"Sooth\" is an archaic word for \"truly\"; Orestes means the dream is meaningful and points to a man, himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 148,
+    "kind": "allusion",
+    "text": "Loxias is a title of Apollo as prophet. Apollo's oracle had commanded Orestes to avenge his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 150,
+    "kind": "allusion",
+    "text": "Parnassus is the mountain above Delphi in Phocis. Speaking a Phocian dialect would make the disguise believable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 152,
+    "kind": "word",
+    "text": "\"Spit\" means to run through with a sword, like meat on a spit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 153,
+    "kind": "allusion",
+    "text": "The \"third draught\" refers to the custom of a third libation, and hints at earlier bloodshed in the house of Atreus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Orestes is Agamemnon's exiled son, who has returned to avenge his father's murder by Clytemnestra and Aegisthus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Earth and the powers below were thought to hold the dead and could be asked to aid the living.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Clytemnestra killed Agamemnon on his return from Troy and buried him without proper mourning rites, a grave dishonour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Orestes speaks of killing Clytemnestra, his mother, who murdered his father Agamemnon. The act of vengeance will cost him his own life, a cost the play goes on to explore.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "text": "Electra was kept confined and mistreated by her mother and Aegisthus after Agamemnon was killed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "text": "Orestes, Electra and the Chorus are at Agamemnon's tomb, calling on his spirit to aid his children.",
+    "spoiler": false
+   },
+   {
+    "sentence": 73,
+    "text": "Aegisthus was Clytemnestra's lover and co-murderer of Agamemnon, and now rules Argos with her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "text": "Electra promises libations at her marriage, showing that she is currently kept from a normal life and inheritance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 79,
+    "text": "Earth was believed to hold the dead and could send spirits upward to aid the living.",
+    "spoiler": false
+   },
+   {
+    "sentence": 103,
+    "text": "The Chorus are captive serving women who side with Orestes and Electra against Clytemnestra and Aegisthus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 114,
+    "text": "Clytemnestra murdered her husband Agamemnon. She sent the libations to the grave to calm the dead king's angry spirit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 149,
+    "text": "Pylades is Orestes' loyal friend and companion, who comes with him to Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 156,
+    "text": "The bracketed note marks an editorial reference; Orestes appeals to a god, probably Apollo, for success.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "metaphor",
+    "text": "Wrath becomes a wind filling a ship's prow, picturing the Chorus's hatred as a force driving it forward.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "motif",
+    "text": "Blood demanding blood restates the play's recurring theme of the cycle of vengeance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "simile",
+    "text": "Comparing the mother to a savage wolf shows her children's view of her as pitiless and untameable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "imagery",
+    "text": "Vivid description of rhythmic blows and the resounding head makes the grief physical and visible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "device": "simile",
+    "text": "Electra compares herself to a vicious cur kept in a kennel, showing how degraded and confined she felt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "device": "parallelism",
+    "text": "The balanced repetition of the phrase makes the conflict between the sides feel inevitable and evenly matched.",
+    "spoiler": false
+   },
+   {
+    "sentence": 62,
+    "device": "foreshadowing",
+    "text": "The Chorus's shudder and the claim that doom must come hint at the coming bloodshed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "device": "irony",
+    "text": "The house's cure for its woes is more bloodshed: the remedy for violence is itself violent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 87,
+    "device": "irony",
+    "text": "The \"gyves\" were no smith's work yet bound him fully, bitterly contrasting a domestic robe with chains.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "device": "metaphor",
+    "text": "Calling themselves \"fledglings\" stresses their helplessness and need for their father's protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "device": "simile",
+    "text": "Children are compared to net-floats: they keep the father's name afloat, saving his memory from sinking into oblivion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 101,
+    "device": "paradox",
+    "text": "Helping the children is presented as saving the dead father himself, which gives him a selfish motive to act.",
+    "spoiler": false
+   },
+   {
+    "sentence": 118,
+    "device": "symbolism",
+    "text": "The serpent stands for Orestes, the child Clytemnestra bore who will turn on her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 130,
+    "device": "imagery",
+    "text": "Clotted blood mixed with milk joins nurture and violence, foreshadowing the matricide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 140,
+    "device": "metaphor",
+    "text": "Orestes calls himself a serpent, identifying himself with the dream's image of vengeance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 148,
+    "device": "irony",
+    "text": "Craft will be repaid with craft: the killers of Agamemnon will be trapped by the same deceit they used.",
+    "spoiler": false
+   },
+   {
+    "sentence": 153,
+    "device": "personification",
+    "text": "Vengeance is imagined as a spirit that drinks blood, making the killing seem like a ritual demand.",
+    "spoiler": false
+   }
+  ]
+ }
+}

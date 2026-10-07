@@ -1,0 +1,546 @@
+{
+ "section_id": "pausanias-body-155",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10347,
+  "output": 4383
+ },
+ "result": {
+  "summary": "Pausanias describes Phidias' gold and ivory statue of Zeus at Olympia, its throne, and the paintings and carvings on it. He also tells how the statue was cared for with oil and compares this with the statues at Athens and Epidaurus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "The god and his throne",
+    "summary": "The statue of Zeus is described, with its crown, Victory, sceptre, robes and richly adorned throne.",
+    "stakes": "",
+    "present": [
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6379,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 15,
+    "title": "Feet, divisions and pillars",
+    "summary": "Victories, Sphinxes, the children of Niobe, and scenes of ancient contests and Hercules fighting the Amazons decorate the throne's feet and divisions.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Artemis",
+     "Hercules",
+     "Theseus",
+     "Pantarces",
+     "Phidias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6379,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 20,
+    "title": "Paintings by Panaenus",
+    "summary": "Panaenus, brother of Phidias, painted mythological scenes on the panels around the throne.",
+    "stakes": "",
+    "present": [
+     "Panænus",
+     "Atlas",
+     "Hercules",
+     "Theseus",
+     "Pirithous",
+     "Prometheus",
+     "Penthesilea",
+     "Achilles",
+     "Ajax",
+     "Cassandra",
+     "Hippodamia"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6379,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 29,
+    "title": "Top, footstool and platform",
+    "summary": "The Graces, Seasons and many gods appear on the throne's top, footstool and platform.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Hera",
+     "Hermes",
+     "Vesta",
+     "Eros",
+     "Aphrodite",
+     "Persuasion",
+     "Apollo",
+     "Artemis",
+     "Athene",
+     "Hercules",
+     "Amphitrite",
+     "Poseidon",
+     "Selene",
+     "Theseus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6379,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 30,
+    "end_sentence": 37,
+    "title": "Size, lightning and upkeep",
+    "summary": "Pausanias criticises the measurements, tells of Zeus' lightning sign, and compares oil and water care for ivory statues at Olympia, Athens and Epidaurus.",
+    "stakes": "The ivory could be damaged by damp or dryness.",
+    "present": [
+     "Zeus",
+     "Phidias",
+     "Athene",
+     "Æsculapius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6379,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, subject of the statue"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the statue"
+   },
+   {
+    "name": "Pantarces",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean youth, beloved of Phidias, wrestling victor"
+   },
+   {
+    "name": "Panænus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "painter, brother of Phidias"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero shown fighting and freeing Prometheus"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian hero shown fighting Amazons"
+   },
+   {
+    "name": "Pirithous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "companion of Theseus"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "creature",
+    "description": "bearer of Earth and Heaven"
+   },
+   {
+    "name": "Prometheus",
+    "aliases": [],
+    "kind": "god",
+    "description": "chained on Caucasus, freed by Hercules"
+   },
+   {
+    "name": "Penthesilea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dying Amazon"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "supports dying Penthesilea"
+   },
+   {
+    "name": "Ajax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "violator of Cassandra"
+   },
+   {
+    "name": "Cassandra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan princess"
+   },
+   {
+    "name": "Hippodamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Œnomaus"
+   },
+   {
+    "name": "Œnomaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hippodamia"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "shoots Niobe's children"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "shoots Niobe's children"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "shown with Zeus"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "on the platform"
+   },
+   {
+    "name": "Vesta",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "on the platform"
+   },
+   {
+    "name": "Eros",
+    "aliases": [],
+    "kind": "god",
+    "description": "receives Aphrodite"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "rising from the sea"
+   },
+   {
+    "name": "Persuasion",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "crowns Aphrodite"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "on the platform; statue at Athens"
+   },
+   {
+    "name": "Amphitrite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sea goddess on the platform"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god on the platform"
+   },
+   {
+    "name": "Selene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Moon riding a horse"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a statue at Epidaurus"
+   },
+   {
+    "name": "Niobe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of the slain children"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Graces",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Panænus",
+    "relation": "sibling_of",
+    "b": "Phidias",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Œnomaus",
+    "relation": "parent_of",
+    "b": "Hippodamia",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "outside",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Phidias",
+    "relation": "lover_of",
+    "b": "Pantarces",
+    "source": "text",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 32,
+    "reason": "Zeus' lightning is said to have approved Phidias' work.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias catalogues the statue's imagery, joining myth, art and cult into one monument.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The statue was a famous wonder, and Pausanias records upkeep practices and details of Greek craftsmanship.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Phidias' Zeus at Olympia became one of the Seven Wonders of the Ancient World."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The statue's lost original is known mainly from descriptions like this and from coins.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "A tiara is a headband or turban-like headdress; here it describes the Victory figure's head ornaments.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Niobe boasted of her many children against Leto; Apollo and Artemis, Leto's children, killed them in punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Instep here means the part of the throne's foot or leg between the feet, like a human foot's arch.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Darling of Phidias\" means his beloved favourite; Greek men commonly had such attachments to youths, and Pantarces was said to be Phidias' beloved.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Amyclæ near Sparta had a famous throne of Apollo, built so that visitors could walk beneath it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Sky blue\" renders a dark blue or cyan colour; the panel was simply painted one colour, without a scene.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"Unknightly violation\" is the translator's mild phrase for Ajax's outrage on Cassandra, whom he dragged from Athena's statue at Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "Θρανίον (thranion) is the Attic word for a footstool or low bench; Pausanias glosses it for readers using other dialects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "\"Grace\" here is Charis, a single personified goddess of charm, not the three Graces mentioned earlier.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "Persuasion is the goddess Peitho, a regular attendant of Aphrodite.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "The \"silly tale\" concerns a mule that Selene was said to ride; Pausanias does not repeat it here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "phrasing",
+    "text": "\"Brazen urn\" means a bronze vessel; it marked the spot where the lightning was said to have struck.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "word",
+    "text": "\"Sacristans\" are the temple attendants who looked after the sanctuary.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "This is the colossal chryselephantine (gold and ivory) statue of Zeus at Olympia, made by Phidias and counted among the Seven Wonders.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Sphinxes were winged monsters associated with Thebes, where the Sphinx posed riddles and devoured those who failed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "The 86th Olympiad corresponds to 436 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Hercules' fight with the Amazons was a favourite Greek subject, symbolising Greeks against barbarian foes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Atlas held up the sky; Hercules once took his burden briefly while Atlas fetched the golden apples of the Hesperides.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "The Painted Stoa (Stoa Poikile) in Athens was a colonnade decorated with paintings, including the Battle of Marathon (490 BC).",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "The Amazons were a mythical race of warrior women; Theseus's defeat of them was a celebrated Athenian legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "The Athene called the Maiden is the Parthenos, Phidias's gold-and-ivory statue in the Parthenon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Æsculapius (Asclepius) was the god of healing, worshipped at Epidaurus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "symbolism",
+    "text": "The Victory in Zeus' hand and the eagle on his sceptre signify his triumph and sovereign power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "simile",
+    "text": "The Victories are likened to dancers, giving the sculpted figures a sense of grace and movement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "narrative voice",
+    "text": "The guide admits uncertainty about the vanished eighth model, giving Pausanias' voice the honesty of an eyewitness antiquarian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "simile",
+    "text": "The Seasons are compared to palace guards, picturing Heaven as a royal court with Zeus as king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "characterization",
+    "text": "Pausanias shows himself as an independent, critical observer, willing to dismiss earlier writers' measurements from his own eyewitness impression.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "symbolism",
+    "text": "The lightning bolt serves as divine approval, showing Zeus himself accepting Phidias's image of him.",
+    "spoiler": false
+   }
+  ]
+ }
+}

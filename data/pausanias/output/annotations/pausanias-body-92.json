@@ -1,0 +1,328 @@
+{
+ "section_id": "pausanias-body-92",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8213,
+  "output": 2838
+ },
+ "result": {
+  "summary": "Pausanias finishes the career of Agesilaus, then covers his successors Archidamus, Agis and Eudamidas, including the Phocian seizure of Delphi. He then begins a road tour north of Sparta, describing sanctuaries at Scotitas, Caryæ, Sellasia and Thornax.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Agesilaus' later campaigns and death",
+    "summary": "Agesilaus campaigns around Corinth, Ætolia and Egypt. He dies on the voyage home and is buried with great honour.",
+    "stakes": "Agesilaus risks his army and, in old age, his life on foreign campaigns.",
+    "present": [
+     "Agesilaus",
+     "Iphicrates"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Corinth",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 22.88
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 17,
+    "title": "Archidamus and later Spartan kings",
+    "summary": "Archidamus helps the Phocians at Delphi, saves Delphi from destruction and dies in Italy. His sons and successors are briefly noted.",
+    "stakes": "Delphi and its people face destruction; Archidamus risks his reputation and later his life.",
+    "present": [
+     "Archidamus",
+     "Theopompus",
+     "Dinichas",
+     "Agis",
+     "Eudamidas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.48,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 24,
+    "title": "Road tour: Scotitas to Thornax",
+    "summary": "Pausanias describes shrines and monuments along the roads north of Sparta, including Caryæ, Sellasia and Thornax.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Hercules",
+     "Artemis",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thornax",
+     "modern_name": "near Sparta, Laconia",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 22.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Agesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king who campaigned widely and died returning from Egypt"
+   },
+   {
+    "name": "Iphicrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian commander who destroyed the Amyclæan detachment"
+   },
+   {
+    "name": "Archidamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Agesilaus, who aided the Phocians"
+   },
+   {
+    "name": "Theopompus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Historian, son of Damasistratus, cited on bribery"
+   },
+   {
+    "name": "Dinichas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Archidamus, said to have taken a bribe"
+   },
+   {
+    "name": "Agis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elder son of Archidamus, killed fighting the Macedonians"
+   },
+   {
+    "name": "Eudamidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Younger son of Archidamus, a king in peaceful times"
+   },
+   {
+    "name": "Antipater",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian commander"
+   },
+   {
+    "name": "Cleomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Leonidas, defeated at Sellasia"
+   },
+   {
+    "name": "Leonidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Cleomenes"
+   },
+   {
+    "name": "Crœsus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lydian king who sent gold to Apollo"
+   },
+   {
+    "name": "Hippocoon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Killed by Hercules with his sons"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "Hero who set up a trophy after defeating Hippocoon"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Scotitas"
+    ],
+    "kind": "god",
+    "description": "God worshipped as Scotitas near Sparta"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess honoured at Caryæ"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Pythæan Apollo"
+    ],
+    "kind": "god",
+    "description": "God of Delphi, Amyclæ and Thornax"
+   },
+   {
+    "name": "Hyacinthus",
+    "aliases": [],
+    "kind": "other",
+    "description": "Honoured at a festival at Amyclæ"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Agesilaus",
+    "relation": "parent_of",
+    "b": "Archidamus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Archidamus",
+    "relation": "parent_of",
+    "b": "Agis",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Archidamus",
+    "relation": "spouse_of",
+    "b": "Dinichas",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Leonidas",
+    "relation": "parent_of",
+    "b": "Cleomenes",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Archidamus",
+    "relation": "parent_of",
+    "b": "Eudamidas",
+    "source": "text",
+    "evidence_sentence": 16
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Scotitas",
+    "canonical": "Zeus",
+    "explanation": "Epithet meaning 'dark', giving the place its name."
+   },
+   {
+    "alias": "Pythæan Apollo",
+    "canonical": "Apollo",
+    "explanation": "Cult title of Apollo."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Pausanias openly condemns taking sacred money and aiding the plunderers of Delphi.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias judges rulers by piety: aiding temple robbers is blamed, while saving Delphi is praised, and Archidamus' death is explained as Apollo's wrath.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage covers Sparta's decline from Agesilaus through the Sacred War and Macedonian dominance, before turning to a topographical tour.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias' Spartan road descriptions are valuable to archaeologists for locating Laconian sanctuaries.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The Hyacinthia was a Spartan festival at Amyclæ honouring Hyacinthus and Apollo; Spartans were bound to attend, even on campaign.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Mercenary aid\" means paid troops; the sense is that offers of help came, the Thebans being at war with the Phocians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Deprecated\" here means argued against and averted, not merely disapproved.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Tarentum was a Spartan colony in southern Italy; the \"barbarians\" are the native Italian peoples fighting it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "Scotitas is Greek for \"dark\"; Pausanias gives an etymology from Zeus's title rather than the oak shade.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Sellasia was where Cleomenes was defeated by the Achæans and Macedonians in 222 BC, ending Spartan power.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Iphicrates was an Athenian general famed for his light troops, who destroyed a Spartan regiment near Corinth in 390 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "The Phocians' seizure of Delphi began the Sacred War (356–346 BC), in which they used temple treasure to pay mercenaries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Hercules is said to have killed Hippocoon and his sons after they drove out Tyndareus and killed his kinsman.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "narrative voice",
+    "text": "Pausanias intrudes with a personal moral judgment, condemning the use of sacred money, which shows his piety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "foreshadowing",
+    "text": "The death abroad and the unburied body, attributed to Apollo's wrath, suggest divine punishment for Archidamus's earlier dealings with Delphi's plunderers.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,443 @@
+{
+ "section_id": "pausanias-body-66",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8512,
+  "output": 3585
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Argos, describing temples, tombs and statues near the temple of Leto and along the road to the gymnasium of Cylarabis. He mixes in local traditions about Tantalus, Poseidon's flood, Helen's child and the flute-player Sacadas.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Temples and tombs near Leto",
+    "summary": "Pausanias describes the temples of Flowery Hera and Demeter, the tomb of the Marines and Pelasgus, and the brazen shrine said to hold Tantalus.",
+    "stakes": "",
+    "present": [
+     "Pelasgus",
+     "Tantalus",
+     "Lyceas",
+     "Pelops",
+     "Ilus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 15,
+    "title": "Trench rites, Poseidon, Dioscuri",
+    "summary": "He records the torch rites for Proserpine, Poseidon's flood after the land was awarded to Hera, the tomb of Argos and the ebony statues of the Dioscuri.",
+    "stakes": "",
+    "present": [
+     "Nicostratus",
+     "Proserpine",
+     "Poseidon",
+     "Hera",
+     "Inachus",
+     "Argos",
+     "Dioscuri",
+     "Anaxis",
+     "Mnasinous",
+     "Hilaira",
+     "Phœbe"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 20,
+    "title": "Ilithyia and Hecate temples",
+    "summary": "Helen's temple to Ilithyia is explained by her giving birth at Argos to Theseus' child, raised as Clytæmnestra's; nearby stand statues of Hecate by famous sculptors.",
+    "stakes": "",
+    "present": [
+     "Helen",
+     "Theseus",
+     "Clytæmnestra",
+     "Iphigenia",
+     "Hecate"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 25,
+    "title": "Gymnasium of Cylarabis",
+    "summary": "Pausanias lists tombs near the gymnasium, including Licymnius and Sacadas, and a monument to Argives lost at Syracuse.",
+    "stakes": "",
+    "present": [
+     "Licymnius",
+     "Tleptolemus",
+     "Sacadas",
+     "Apollo",
+     "Sthenelus",
+     "Cylarabus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pelasgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Triopas, built the temple of Demeter"
+   },
+   {
+    "name": "Tantalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "legendary king, said to be buried in the brazen shrine or at Sipylus"
+   },
+   {
+    "name": "Lyceas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who wrote about the shrine"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "driven from Sipylus by Ilus"
+   },
+   {
+    "name": "Ilus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phrygian who attacked Pelops"
+   },
+   {
+    "name": "Nicostratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "local man who instituted the trench rites"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Demeter, honoured with torches"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "flooded the land of Argos"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "won the land of Argos"
+   },
+   {
+    "name": "Inachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "arbitrator in the dispute over the land"
+   },
+   {
+    "name": "Argos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "reputed son of Zeus and Niobe"
+   },
+   {
+    "name": "Dioscuri",
+    "aliases": [],
+    "kind": "god",
+    "description": "twin heroes with a temple at Argos"
+   },
+   {
+    "name": "Anaxis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of a Dioscurus"
+   },
+   {
+    "name": "Mnasinous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of a Dioscurus"
+   },
+   {
+    "name": "Hilaira",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of one of the sons"
+   },
+   {
+    "name": "Phœbe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of one of the sons"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicated the temple of Ilithyia"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Helen's child"
+   },
+   {
+    "name": "Clytæmnestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Agamemnon, raised Helen's child"
+   },
+   {
+    "name": "Iphigenia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to be Theseus' daughter by Helen"
+   },
+   {
+    "name": "Hecate",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with statues at Argos"
+   },
+   {
+    "name": "Licymnius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Electryon, buried at Argos"
+   },
+   {
+    "name": "Tleptolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hercules who killed Licymnius"
+   },
+   {
+    "name": "Sacadas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "flute-player who played the Hymn to Apollo"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "angered at flute-players after Marsyas"
+   },
+   {
+    "name": "Sthenelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cylarabus, buried at Argos"
+   },
+   {
+    "name": "Cylarabus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Sthenelus, gymnasium named for him"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Triopas",
+    "relation": "parent_of",
+    "b": "Pelasgus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Sthenelus",
+    "relation": "parent_of",
+    "b": "Cylarabus",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Electryon",
+    "relation": "parent_of",
+    "b": "Licymnius",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Tleptolemus",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Theseus",
+    "relation": "parent_of",
+    "b": "Iphigenia",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Helen",
+    "relation": "parent_of",
+    "b": "Iphigenia",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "spouse_of",
+    "b": "Clytæmnestra",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Theseus",
+    "relation": "lover_of",
+    "b": "Helen",
+    "source": "text",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Flood-god",
+    "canonical": "Poseidon",
+    "explanation": "Cult title of Poseidon at Argos."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs rival local traditions, as with the two Tantaluses, using his own travel observation as evidence.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows Argive civic memory: tombs and shrines tie myth, Trojan War and the Sicilian expedition to the city's topography.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says he personally saw Tantalus' tomb at Sipylus.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "The women who followed Dionysus from the Ægean islands fought Perseus at Argos; hence the name Marines, meaning 'of the sea'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "A votive offering is a gift dedicated to a god, often in fulfilment of a vow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Ilium is Troy. The Argives' oath refers to the Trojan War expedition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Pelops was Tantalus' son; Pausanias uses his later flight from Sipylus to argue Tantalus, son of Zeus, was not buried at Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Poseidon and Hera competed for Argos' patronage; the arbitrators' verdict for Hera angered him, causing the flood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Theseus and Pirithous went to Thesprotia to seize Persephone; meanwhile Helen's brothers, the Dioscuri, took Aphidna and brought Helen home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Apollo defeated the satyr Marsyas, who played the flute, in a contest; flute-players thereafter incurred his anger, as Pausanias says.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 10,
+    "text": "Proserpine is the Roman name for Persephone, Demeter's daughter, queen of the underworld; torches suit her night rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Dipœnus and Scyllis were early Cretan sculptors, famous for working in wood and marble.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Ilithyia was the goddess of childbirth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Polycletus was a celebrated Argive bronze sculptor of the fifth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Tleptolemus, son of Hercules, later led Rhodians to Troy, according to Homer.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "narrative voice",
+    "text": "Pausanias abruptly closes a disputed question, showing his cautious, skeptical guide-like manner.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "irony",
+    "text": "Helen's child by Theseus is raised as Clytæmnestra's, so a famous adulterous wife's daughter grows up in the household of another.",
+    "spoiler": false
+   }
+  ]
+ }
+}

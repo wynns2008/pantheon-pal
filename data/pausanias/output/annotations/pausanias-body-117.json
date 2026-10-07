@@ -1,0 +1,278 @@
+{
+ "section_id": "pausanias-body-117",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8425,
+  "output": 2594
+ },
+ "result": {
+  "summary": "After their defeat the Messenians suffer from costly garrisons, desertions and a plague, and withdraw to Mount Ithome. An oracle from Delphi demands the sacrifice of a maiden of the Æpytidæ, and after the lot and a substitution fail, Aristodemus kills his own daughter. King Euphaes persuades the people that this fulfilled the oracle.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Messenians retreat to Ithome",
+    "summary": "Ruined by costs, desertions and plague, the Messenians abandon their inland towns and fortify Mount Ithome.",
+    "stakes": "The Messenians risk ruin and loss of their country to the Lacedæmonians.",
+    "present": [
+     "Messenians",
+     "Lacedæmonians"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ithome",
+     "modern_name": "Mount Ithome, Messenia",
+     "certainty": "real",
+     "lat": 37.1767,
+     "lon": 21.9217
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 10,
+    "title": "Tisis brings the oracle",
+    "summary": "Tisis is sent to Delphi and is ambushed by Lacedæmonians on his return. A voice lets him go, and he delivers the oracle to the king before dying of his wounds.",
+    "stakes": "Tisis risks death in ambush before delivering the oracle.",
+    "present": [
+     "Tisis",
+     "Euphaes",
+     "Lacedæmonians"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Amphea",
+     "modern_name": "near Amphia, Messenia",
+     "certainty": "real",
+     "lat": 37.1,
+     "lon": 22.0
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 16,
+    "title": "The lot and Lyciscus' flight",
+    "summary": "The oracle demands a virgin sacrifice. The lot falls on Lyciscus' supposed daughter, but Epebolus exposes her as a substitute and Lyciscus flees to Sparta. Aristodemus offers his own daughter.",
+    "stakes": "The Messenians fear the gods' anger and the loss of their country if the oracle is not obeyed.",
+    "present": [
+     "Euphaes",
+     "Epebolus",
+     "Lyciscus",
+     "Aristodemus",
+     "Messenians",
+     "Æpytidæ"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ithome",
+     "modern_name": "Mount Ithome, Messenia",
+     "certainty": "real",
+     "lat": 37.1767,
+     "lon": 21.9217
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 27,
+    "title": "Aristodemus kills his daughter",
+    "summary": "A jealous suitor falsely claims the girl is pregnant, and Aristodemus kills her in a rage. Euphaes persuades the people the oracle is fulfilled.",
+    "stakes": "Messene's safety depends on the oracle being satisfied; the suitor risks being killed by the crowd.",
+    "present": [
+     "Aristodemus",
+     "Epebolus",
+     "Euphaes",
+     "Messenians",
+     "Æpytidæ"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ithome",
+     "modern_name": "Mount Ithome, Messenia",
+     "certainty": "real",
+     "lat": 37.1767,
+     "lon": 21.9217
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Tisis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian seer, son of Alcis, sent to Delphi"
+   },
+   {
+    "name": "Alcis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Tisis"
+   },
+   {
+    "name": "Euphaes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of the Messenians"
+   },
+   {
+    "name": "Epebolus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian seer"
+   },
+   {
+    "name": "Lyciscus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æpytid whose supposed daughter was drawn by lot; fled to Sparta"
+   },
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Illustrious Æpytid who killed his own daughter"
+   },
+   {
+    "name": "Messenians",
+    "aliases": [],
+    "kind": "other",
+    "description": "People under siege on Ithome"
+   },
+   {
+    "name": "Lacedæmonians",
+    "aliases": [],
+    "kind": "other",
+    "description": "Spartans at war with the Messenians"
+   },
+   {
+    "name": "Æpytidæ",
+    "aliases": [],
+    "kind": "other",
+    "description": "Messenian noble family"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Alcis",
+    "relation": "parent_of",
+    "b": "Tisis",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Aristodemus",
+    "relation": "parent_of",
+    "b": "Aristodemus' daughter",
+    "source": "text",
+    "evidence_sentence": 16
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Memorable image of Fate secretly directing human desires like pebbles on a river bottom.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Fate and oracles drive the Messenians to human sacrifice, and Aristodemus' good intention ends in a useless tragedy.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias draws on the Messenian war tradition, which glorifies Messenian resistance to Sparta, and relates it with Homeric and Delphic authority.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Mount Ithome in Messenia is the same Ithome Homer names in the Catalogue of Ships (Iliad 2).",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Homer's catalogue is the list of Greek forces in the Iliad, Book 2, where 'rocky Ithome' appears among the places that sent troops.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "'Without any appearance of the speaker' means a disembodied voice, implying divine intervention.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "'Gods below' are the underworld deities, who received sacrifices made by night.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "'Palmed off' means passed off by trickery; the barren wife had pretended another child was her own.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "'Amour' means a love affair; here the suitor falsely claims intimacy with her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "Epebolus argues the killing was not a valid sacrifice, since it was done in anger rather than as a ritual offering to the gods.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Ithome is a steep mountain in Messenia, a natural fortress; it became the centre of Messenian resistance against Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Delphi's oracle of Apollo, speaking through the Pythian priestess, was consulted by Greek states before major decisions, especially in war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "The Æpytidæ were a Messenian royal-descended family, which is why the oracle limits the victim to it.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "characterization",
+    "text": "Tisis' refusal to be taken alive despite his wounds shows his courage and devotion, marking him as a worthy envoy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "simile",
+    "text": "Fate's hidden direction of human desires is compared to pebbles on a riverbed, unseen beneath the surface yet shaping the flow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "irony",
+    "text": "Aristodemus kills his daughter in rage over a lie, and the cutting open proves her innocent, making his act cruelly pointless.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "irony",
+    "text": "Euphaes shields his friend by declaring the oracle fulfilled, so a personal motive shapes the public interpretation of the god's command.",
+    "spoiler": false
+   }
+  ]
+ }
+}

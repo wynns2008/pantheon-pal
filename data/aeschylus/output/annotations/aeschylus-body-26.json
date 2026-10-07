@@ -1,0 +1,668 @@
+{
+ "section_id": "aeschylus-body-26",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 23370,
+  "output": 6675
+ },
+ "result": {
+  "summary": "The Chorus laments the destruction of the Persian army and, with Atossa's offerings, calls up the ghost of Darius. Darius learns of Xerxes' defeat, blames his son's hubris, foretells the disaster at Plataea, and warns the Persians never to invade Greece again. He tells Atossa to bring fresh clothes for the ragged Xerxes, then returns to the tomb.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 16,
+    "title": "The Chorus laments Persia's fall",
+    "summary": "The Chorus mourns the ruin of Xerxes' fleet and army, and the grief of Persian wives and parents. It predicts that Asian subjects will throw off Persian rule.",
+    "stakes": "Persia's empire and the lives of its people are collapsing after the defeat.",
+    "present": [
+     "Chorus",
+     "Xerxes",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Susa",
+     "modern_name": "Shush, Iran",
+     "certainty": "real",
+     "lat": 32.19,
+     "lon": 48.25
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 46,
+    "title": "Libations and the summoning of Darius",
+    "summary": "Atossa brings offerings to Darius's tomb. The Chorus invokes the gods below to send up his spirit.",
+    "stakes": "Persia's hope of counsel depends on the dead king being willing to rise.",
+    "present": [
+     "Atossa",
+     "Chorus",
+     "Darius",
+     "Hermes",
+     "Aïdoneus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tomb of Darius, Susa",
+     "modern_name": "Shush, Iran",
+     "certainty": "traditional",
+     "lat": 32.19,
+     "lon": 48.25
+    }
+   },
+   {
+    "start_sentence": 47,
+    "end_sentence": 128,
+    "title": "Darius learns of the disaster",
+    "summary": "The ghost of Darius rises and questions Atossa about Xerxes' campaign, the bridged Hellespont and the destroyed army. He sees the fulfilment of oracles and Xerxes' folly.",
+    "stakes": "Darius fears the Persian treasure and the empire may be lost through Xerxes' folly.",
+    "present": [
+     "Darius",
+     "Atossa",
+     "Chorus",
+     "Xerxes",
+     "Zeus",
+     "Poseidon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tomb of Darius, Susa",
+     "modern_name": "Shush, Iran",
+     "certainty": "traditional",
+     "lat": 32.19,
+     "lon": 48.25
+    }
+   },
+   {
+    "start_sentence": 129,
+    "end_sentence": 188,
+    "title": "Darius's warning and farewell",
+    "summary": "Darius recounts the Persian kings, foretells defeat at Plataea, and warns against hubris. He sends Atossa to fetch clothes for Xerxes and descends.",
+    "stakes": "The remaining army faces destruction at Plataea, and Persia risks further divine punishment.",
+    "present": [
+     "Darius",
+     "Atossa",
+     "Chorus",
+     "Xerxes",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tomb of Darius, Susa",
+     "modern_name": "Shush, Iran",
+     "certainty": "traditional",
+     "lat": 32.19,
+     "lon": 48.25
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elders of Persia who counsel the realm"
+   },
+   {
+    "name": "Atossa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Queen mother, widow of Darius, mother of Xerxes"
+   },
+   {
+    "name": "Darius",
+    "aliases": [
+     "Darian"
+    ],
+    "kind": "mortal",
+    "description": "Dead Persian king whose ghost is summoned"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Reckless young king who invaded Greece"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Chief god, punisher of overweening pride"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Guide of the dead, invoked by the Chorus"
+   },
+   {
+    "name": "Aïdoneus",
+    "aliases": [
+     "Lord of the dead"
+    ],
+    "kind": "god",
+    "description": "Ruler of the underworld"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sea god Xerxes is said to have defied"
+   },
+   {
+    "name": "Cyrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Earlier Persian king, blessed and right-minded"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Darius",
+    "relation": "parent_of",
+    "b": "Xerxes",
+    "source": "text",
+    "evidence_sentence": 76
+   },
+   {
+    "a": "Atossa",
+    "relation": "parent_of",
+    "b": "Xerxes",
+    "source": "text",
+    "evidence_sentence": 177
+   },
+   {
+    "a": "Darius",
+    "relation": "spouse_of",
+    "b": "Atossa",
+    "source": "text",
+    "evidence_sentence": 63
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Darian",
+    "canonical": "Darius",
+    "explanation": "A variant form of the king's name used by the Chorus in this translation."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 127,
+    "reason": "Darius names Xerxes' folly: a mortal who thought he could master the gods, even Poseidon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 172,
+    "reason": "Summarizes the play's moral: pride bears a harvest of calamity and tears.",
+    "spoiler": false
+   },
+   {
+    "sentence": 124,
+    "reason": "Expresses the idea that god joins in when man rushes toward his own ruin.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The scene shows hubris punished by divine justice: Xerxes' bridge over the Hellespont and his desecration of Greek temples bring ruin.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Performed in 472 BC, only eight years after Salamis, the play shows the Athenian view of the war through the eyes of the defeated Persians.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The raising of Darius's ghost is an early example of a ghost scene in drama, a model for later necromancy scenes in literature."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Persians is the oldest surviving Greek tragedy and one of few based on recent history rather than myth.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Multitudinous\" means very numerous; \"high-vaunting\" means boastful or arrogant. Together they describe the Persian host's pride and size.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Agbatana is the Median capital, better known as Ecbatana. It was one of the Persian royal cities, alongside Susa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Satiety\" means fullness or satisfaction; their mourning knows no end. \"Joyance\" means delight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Burthen\" is an old form of \"burden\", here meaning the refrain or weight of a lament.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Scatheless\" means unharmed. Darius brought his people no harm, in contrast to Xerxes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Dark-eyed\" refers to the eyes painted on ship bows; \"linen-winged\" refers to the linen sails.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Ionians were Greeks, including those of Athens, who fought at Salamis. Many Ionians in Asia were Persian subjects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Thrace lay on Xerxes' land route home from Greece, which the Persians crossed in winter hardship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The Cychrean strand is the shore of Salamis, named for the hero Cychreus, where Persian corpses drifted.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"Voiceless children of the stainless sea\" is a periphrasis for fish, which feed on the drowned bodies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Ajax' isle is Salamis, the home of the hero Ajax, where the Persian fleet was destroyed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"For aye\" means forever; \"wont\" means accustomed. Atossa states a general truth: the unfortunate fear everything, the fortunate trust their luck will last.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "\"Propitiatory libations\" are liquid offerings poured out to appease the dead; \"lustral\" means used for purification.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"The father of my son\" is a circumlocution for her dead husband Darius; \"its mother in the fields\" means the vine that bore the wine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Hermes was the god who guided souls to the underworld; \"Lord of the dead\" is Hades, here called Aïdoneus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "\"Barbaric speech\" is the Chorus calling its own Persian language foreign, from a Greek viewpoint.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "word",
+    "text": "\"Soldan\" is an old form of Sultan, used here by the translator for a Persian king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "allusion",
+    "text": "Styx was a river of the underworld, so the comparison evokes the darkness of death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "phrasing",
+    "text": "\"Trusty of the Trusty\" is a Persian-style honorific for the chief loyal counselors; \"travail\" means toil or distress, repeated in the verb for emphasis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "phrasing",
+    "text": "Darius says the underworld gods are quicker to keep the dead than to let them go, so his return is difficult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "phrasing",
+    "text": "He asks for haste so he will not be blamed for overstaying the time allowed him above ground.",
+    "spoiler": false
+   },
+   {
+    "sentence": 65,
+    "kind": "phrasing",
+    "text": "\"Span of life\" means length of life; the sense is that the longer one lives, the more sea and land disasters one meets.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "kind": "phrasing",
+    "text": "\"Unpeopling\" means emptying the land of its men, since Xerxes drew the whole continent's manpower into his army.",
+    "spoiler": false
+   },
+   {
+    "sentence": 86,
+    "kind": "allusion",
+    "text": "The firth of Helle is the Hellespont, named for Helle, who in myth fell from the golden ram into it. Xerxes bridged it with boats.",
+    "spoiler": false
+   },
+   {
+    "sentence": 88,
+    "kind": "allusion",
+    "text": "The Bosporus is here used loosely for the Hellespont, the strait Xerxes bridged with boats near Abydos; the translation treats the names interchangeably.",
+    "spoiler": false
+   },
+   {
+    "sentence": 92,
+    "kind": "phrasing",
+    "text": "'Came upon him' means a divine force possessed him; 'sober judgment' is his sound reason, which the god overturned.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "kind": "phrasing",
+    "text": "Elliptical wording: Xerxes reached the bridge 'yoking the two continents' (Europe and Asia), to his joy; the subject is carried over from the previous line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 123,
+    "kind": "allusion",
+    "text": "The oracles foretold disaster for the Persian house; Darius thinks their fulfilment should have come much later, not in his son's reign.",
+    "spoiler": false
+   },
+   {
+    "sentence": 124,
+    "kind": "phrasing",
+    "text": "Archaic verb endings ('hasteneth', 'taketh') give a gnomic maxim: a god aids a man who rushes toward his own ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 126,
+    "kind": "allusion",
+    "text": "Xerxes was said to have bound the Hellespont with fetters, treating the sea as a disobedient slave; the bridge's cables are the 'hammer-wrought fetters'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 127,
+    "kind": "allusion",
+    "text": "Poseidon is the god of the sea, whose domain Xerxes' bridge offended.",
+    "spoiler": false
+   },
+   {
+    "sentence": 135,
+    "kind": "allusion",
+    "text": "Susa was a principal Persian royal capital. Darius, as a Persian, calls Zeus 'our Lord'; the translator equates the Persian supreme god with Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 136,
+    "kind": "allusion",
+    "text": "Medus is the first ruler in Aeschylus's own list of Persian kings, which does not match the historical record.",
+    "spoiler": false
+   },
+   {
+    "sentence": 140,
+    "kind": "allusion",
+    "text": "Mardus is Aeschylus's name for the usurper Smerdis (Bardiya), killed by a conspiracy of nobles; this is Aeschylus's version of the story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 162,
+    "kind": "phrasing",
+    "text": "Helle's firth is the Hellespont, the strait crossed by Xerxes' bridge of boats. It was named for Helle, who fell into it in myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 166,
+    "kind": "allusion",
+    "text": "The Asopus river in Boeotia lies near Plataea, where the Persians were defeated in 479 BC. Darius prophesies this battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 171,
+    "kind": "allusion",
+    "text": "The 'Dorian lance' refers to the Spartans, who led the Greek army at Plataea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 181,
+    "kind": "word",
+    "text": "'Joyance' means enjoyment; 'profiteth no jot' means is of no benefit at all.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Susa was a principal Persian capital. The Chorus of elders speaks after the messenger's report of defeat at Salamis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Darius was Xerxes' father and the earlier king. His ghost has just appeared in the play and condemned his son's rashness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Subject peoples paid tribute and performed proskynesis, prostration before the king, a mark of Persian royal authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Milk, honey, water, wine and olive were traditional offerings to the dead in Greek ritual, poured onto the earth or tomb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Susa was one of the main royal cities of the Persian empire.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "A saffron-dyed sandal and a tiara marked Persian royal dress; the king is imagined rising from his tomb mound.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "text": "Three-tiered galleys are triremes, warships with three banks of oars; the Persian fleet was destroyed at Salamis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "text": "Darius I, Xerxes' father and Atossa's husband, founded Persian imperial power. He is summoned by the Chorus with rites at his tomb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "text": "Atossa notes that Persians revered their kings as nearly divine, so Darius was \"in Persian eyes a god.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 74,
+    "text": "Athens was the target of Xerxes' invasion of Greece, which ended in defeat at Salamis in 480 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "text": "Susa was one of the chief capitals of the Persian empire, where the Elders and Atossa await news.",
+    "spoiler": false
+   },
+   {
+    "sentence": 106,
+    "text": "The Bactrians came from Bactria, a distant eastern province of the empire, and supplied troops to the army.",
+    "spoiler": false
+   },
+   {
+    "sentence": 138,
+    "text": "Cyrus the Great founded the Persian empire and conquered Lydia and the Greek cities of Ionia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 168,
+    "text": "The Persians burned Athenian temples and the Acropolis in 480 BC; Greeks saw this as sacrilege that justified divine punishment.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "imagery",
+    "text": "Tearing veils and tear-soaked robes give a vivid picture of women's grief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "repetition",
+    "text": "Repeating \"Xerxes led forth, Xerxes laid low\" with cries of woe makes a ritual lament and stresses the king's reversal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "imagery",
+    "text": "The gruesome picture of bodies torn by water and eaten by fish makes the death more horrible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "metaphor",
+    "text": "The yoke stands for oppressive rule, and the broken yoke suggests liberation like freed animals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "irony",
+    "text": "Calling the place where the Persians died \"all that once was Persia\" turns the empire's greatness into a small bloodstained island.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "gnomic generalization",
+    "text": "Atossa opens with a maxim, using sea imagery of troubles and tides to frame her fear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "personification",
+    "text": "Flowers are called children of the bounteous earth, presenting the earth as a fertile mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "repetition",
+    "text": "The repeated \"dear\" gives the lament a ritual, incantatory tone and shows the Chorus's love for Darius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "characterization",
+    "text": "Darius is remembered as a wise, prudent leader, implicitly contrasting him with his son Xerxes, whose war brought ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "simile",
+    "text": "Comparing the gloom to that of Styx makes the nation's grief feel like death's own darkness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "device": "imagery",
+    "text": "The groaning, furrowed earth conveys the stamping of the mourners and the unnatural disturbance of the ghost's rising.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "device": "irony",
+    "text": "Atossa calls Darius happy for being dead, a bitter reversal that shows how great the Persian calamity is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "device": "characterization",
+    "text": "Darius calls Xerxes \"mad\" and \"reckless\" at once, setting the cautious old king against his rash son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 82,
+    "device": "parallelism",
+    "text": "\"Twofold front of double armament\" repeats the idea of two, stressing the vast scale of the expedition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 123,
+    "device": "foreshadowing fulfilled",
+    "text": "Darius confirms that earlier oracles are now realised, giving the disaster a sense of divine design rather than mere chance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 126,
+    "device": "metaphor",
+    "text": "The sea is imagined as a slave to be shackled, expressing Xerxes' arrogance in treating nature as property.",
+    "spoiler": false
+   },
+   {
+    "sentence": 127,
+    "device": "hubris",
+    "text": "Xerxes' mortal presumption to master the gods is the central tragic fault, explaining the punishment he suffers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 128,
+    "device": "rhetorical question",
+    "text": "Darius asks a question with an obvious answer, summing up his judgment that Xerxes' action was madness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 150,
+    "device": "metaphor",
+    "text": "The land is called an 'ally', personifying Greece's barren terrain as a fighting partner that starves invaders.",
+    "spoiler": false
+   },
+   {
+    "sentence": 170,
+    "device": "metaphor",
+    "text": "Woes are imagined as a spring that still wells forth, suggesting suffering that continues to flow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 172,
+    "device": "extended metaphor",
+    "text": "Pride is a plant that blossoms, bears fruit and yields a harvest of tears, expressing the play's moral theme of hubris and punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 180,
+    "device": "characterization",
+    "text": "Darius's calm, solemn farewell shows him as a wise, authoritative ghost, in contrast to his reckless son.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,361 @@
+{
+ "section_id": "pausanias-body-85",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8563,
+  "output": 3160
+ },
+ "result": {
+  "summary": "Pausanias traces the Spartan Eurypontid and Agiad kings from Polydorus onward, noting the Messenian wars and the murder of Polydorus. He tells how Lichas found the bones of Orestes at Tegea by reading an oracle, and how Cleomenes became king over his half-brother Dorieus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Polydorus and the Messenian revolt",
+    "summary": "Polydorus succeeds Alcamenes and is later murdered by Polemarchus. Under Anaxander the Messenians revolt, lose, and leave the Peloponnese or become slaves.",
+    "stakes": "Polydorus risks his life despite his good repute; the Messenians risk freedom and homeland.",
+    "present": [
+     "Polydorus",
+     "Alcamenes",
+     "Theopompus",
+     "Polemarchus",
+     "Eurycrates",
+     "Anaxander"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lacedæmon",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 19,
+    "title": "Lichas finds the bones of Orestes",
+    "summary": "Sparta defeats Tegea under Anaxandrides when Lichas deciphers the oracle and finds Orestes' bones in a smithy. Pausanias adds Theseus' bones and evidence that heroic arms were bronze.",
+    "stakes": "Sparta needs the bones of Orestes to end its losing war with Tegea.",
+    "present": [
+     "Lichas",
+     "Orestes",
+     "Anaxandrides",
+     "Leo",
+     "Cimon",
+     "Theseus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tegea",
+     "modern_name": "Tegea (near Alea)",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.42
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 23,
+    "title": "Anaxandrides' two wives",
+    "summary": "Anaxandrides takes a second wife; after his death Cleomenes receives the kingdom by primogeniture over Dorieus.",
+    "stakes": "Dorieus loses the kingdom despite being thought the better man.",
+    "present": [
+     "Anaxandrides",
+     "Cleomenes",
+     "Dorieus",
+     "Leonidas",
+     "Cleombrotus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lacedæmon",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Polydorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, popular and just, murdered by Polemarchus"
+   },
+   {
+    "name": "Alcamenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, father of Polydorus"
+   },
+   {
+    "name": "Theopompus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king of the other house, son of Nicander"
+   },
+   {
+    "name": "Polemarchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hotheaded Spartan who murdered Polydorus"
+   },
+   {
+    "name": "Eurycrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Polydorus"
+   },
+   {
+    "name": "Anaxander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king in whose reign Messenia was lost"
+   },
+   {
+    "name": "Leo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of the second Eurycrates"
+   },
+   {
+    "name": "Anaxandrides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king with two wives, son of Leo"
+   },
+   {
+    "name": "Lichas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan who found the bones of Orestes"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero whose bones lay at Tegea"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero whose bones were brought from Scyrus"
+   },
+   {
+    "name": "Cimon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian son of Miltiades who found Theseus' bones"
+   },
+   {
+    "name": "Cleomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elder son of Anaxandrides, became king"
+   },
+   {
+    "name": "Dorieus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Anaxandrides, passed over for kingship"
+   },
+   {
+    "name": "Leonidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Anaxandrides"
+   },
+   {
+    "name": "Cleombrotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Anaxandrides"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Alcamenes",
+    "relation": "parent_of",
+    "b": "Polydorus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Polydorus",
+    "relation": "parent_of",
+    "b": "Eurycrates",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Eurycrates",
+    "relation": "parent_of",
+    "b": "Anaxander",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Leo",
+    "relation": "parent_of",
+    "b": "Anaxandrides",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Anaxandrides",
+    "relation": "parent_of",
+    "b": "Cleomenes",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Anaxandrides",
+    "relation": "parent_of",
+    "b": "Dorieus",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Anaxandrides",
+    "relation": "parent_of",
+    "b": "Leonidas",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Anaxandrides",
+    "relation": "parent_of",
+    "b": "Cleombrotus",
+    "source": "text",
+    "evidence_sentence": 22
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 14,
+    "reason": "Shows how Lichas decoded the Delphic oracle through the smithy's tools.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Oracles and fate shape Spartan fortunes, as Messenia's fall and Tegea's defeat are tied to divine signs and cleverness.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The recovery of heroes' bones reflects Greek hero cult, where relics were thought to secure a city's success.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Herodotus also tells of Lichas and the bones of Orestes; the story became a standard example of oracle interpretation."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias uses surviving relics like Achilles' spear to argue that heroic-age weapons were bronze, an early archaeological argument.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Croton and Zephyrium were Greek colonies in southern Italy; Zephyrium was a Locrian settlement near the promontory of that name, so the Lacedæmonians' part is stated loosely.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Upon conditions of war\" means under terms of surrender; the defeated left the Peloponnese by agreement. The mention of the Argive people here appears to be a slip for the Messenians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "The oracle spoke of two winds blowing, blow and counter-blow, and woe lying upon woe. Lichas read these as bellows, hammer, anvil and iron.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Brass\" here translates the Greek word for bronze, the heroic-age metal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Pausanias cites Homer's Iliad, where Pisander's axe and Meriones' arrow are described with bronze.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Primogeniture\" is succession by the eldest son's right; Cleomenes was born first, though to the second wife.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Polydorus was a Spartan king of the Eurypontid line; Polemarchus's name here is only known from this account.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Orestes, son of Agamemnon, was a legendary figure. Sparta was told to recover his bones to gain victory over Tegea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Cimon, the Athenian general, took Scyrus around 475 BC and brought back bones believed to be Theseus'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "The ephors were five annually elected Spartan magistrates with power even over kings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Leonidas is the later king who died at Thermopylae.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "characterization",
+    "text": "A run of virtues, mildness in word, deed and judgment, builds Polydorus as a model king, sharpening the contrast with his murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "personification",
+    "text": "Fate is described as driving the Messenians out, treating destiny as an active force and anticipating the outcome.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "The riddling oracle's mysterious phrases refer to ordinary smithy tools, so the solution lies in everyday things.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "irony",
+    "text": "The first wife, long barren, bears three sons after the second wife's child, reversing the expectation that prompted the second marriage.",
+    "spoiler": false
+   }
+  ]
+ }
+}

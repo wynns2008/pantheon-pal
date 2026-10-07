@@ -1,0 +1,424 @@
+{
+ "section_id": "pausanias-body-55",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10092,
+  "output": 3738
+ },
+ "result": {
+  "summary": "Pausanias finishes describing the shrines near Sicyon's Holy Gate, then follows the roads to Phlius and Titane. At Titane he describes the sanctuary of Æsculapius, its statues, rites and sacred dragons.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Temples near the Holy Gate",
+    "summary": "Shrines and altars around Sicyon's Holy Gate and down toward the plain: Athene, Hera, Artemis, Apollo, Pan, the Sun God, Demeter and Carnean Apollo.",
+    "stakes": "",
+    "present": [
+     "Epopeus",
+     "Adrastus",
+     "Plemnæus",
+     "Phalces"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sicyon, Holy Gate",
+     "modern_name": "Sikyona, Corinthia",
+     "certainty": "real",
+     "lat": 37.9906,
+     "lon": 22.7236
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 10,
+    "title": "Grove Pyræa on the Phlius road",
+    "summary": "A grove with a temple of Demeter Prostasia and Proserpine, where men yield the Nymphon to women for their festival.",
+    "stakes": "",
+    "present": [
+     "Demeter",
+     "Proserpine",
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Grove Pyræa",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 15,
+    "title": "Road to Titane",
+    "summary": "Beyond the Asopus stand a grove of the Eumenides and an altar of the Fates, then the hill where Titan lived.",
+    "stakes": "",
+    "present": [
+     "Titan"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Titane",
+     "modern_name": "Titani, Corinthia",
+     "certainty": "real",
+     "lat": 37.88,
+     "lon": 22.67
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 31,
+    "title": "Sanctuary of Æsculapius at Titane",
+    "summary": "Alexanor founded the temple; the statues of Æsculapius, Hygiea, Alexanor, Euamerion and Coronis, the rites, the dragons and the athlete Granianus are described.",
+    "stakes": "",
+    "present": [
+     "Alexanor",
+     "Æsculapius",
+     "Hygiea",
+     "Euamerion",
+     "Coronis",
+     "Granianus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Titane",
+     "modern_name": "Titani, Corinthia",
+     "certainty": "real",
+     "lat": 37.88,
+     "lon": 22.67
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Epopeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early builder of the Athene shrine and temples, buried at Sicyon"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "built the temple of Hera and altars"
+   },
+   {
+    "name": "Plemnæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "built the temple of Demeter in gratitude"
+   },
+   {
+    "name": "Phalces",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Temenus, built the temple of Hera the Guide"
+   },
+   {
+    "name": "Temenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Phalces"
+   },
+   {
+    "name": "Titan",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early dweller at Titane, called brother of the Sun"
+   },
+   {
+    "name": "Alexanor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Machaon, founded the temple at Titane, honoured as a hero"
+   },
+   {
+    "name": "Machaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Æsculapius, father of Alexanor"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [
+     "Gortynian Æsculapius"
+    ],
+    "kind": "god",
+    "description": "god of healing worshipped at Titane"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of health with a statue at Titane"
+   },
+   {
+    "name": "Euamerion",
+    "aliases": [
+     "Telesphorus",
+     "Acesis"
+    ],
+    "kind": "god",
+    "description": "deity honoured at Titane"
+   },
+   {
+    "name": "Coronis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "wooden statue carried to Athene's temple during sacrifices"
+   },
+   {
+    "name": "Granianus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicyonian athlete with a bronze statue"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with shrines at Sicyon"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with temples at Sicyon"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with temples near Sicyon"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess worshipped with Demeter"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with statues in the Nymphon and at Titane"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Temenus",
+    "relation": "parent_of",
+    "b": "Phalces",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Machaon",
+    "relation": "parent_of",
+    "b": "Alexanor",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Æsculapius",
+    "relation": "parent_of",
+    "b": "Machaon",
+    "source": "text",
+    "evidence_sentence": 16
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Eumenides",
+    "canonical": "Venerable Goddesses",
+    "explanation": "Sicyonian name for the goddesses the Athenians call the Venerable."
+   },
+   {
+    "alias": "Telesphorus",
+    "canonical": "Euamerion",
+    "explanation": "Name used at Pergamum; Epidaurus says Acesis."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias catalogues shrines and ruins, showing how local cult and founders' legends shaped Sicyonian identity.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The healing cult of Æsculapius, with votive hair and dragons, reflects Greek temple medicine in the Roman era.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias remarks that many temples had lost statues, roofs and walls, showing how much was already ruined in his day.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"The Averters of Evil\" translates a cult title for gods invoked to turn away harm; such protective deities were widely worshipped.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"The Guide\" is the cult title of Hera here; the temple name comes from Phalces' claim that she led him to Sicyon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "The Nymphon was a building, probably a bridal or nymph-related chamber, which the men vacate so the women can hold their festival there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "A stade was a Greek unit of about 185 metres, so sixty stades is roughly eleven kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Carriage and pair\" means a vehicle drawn by two horses; the road was too narrow for it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"Ewes big with young\" means pregnant sheep; such offerings suited deities of fertility and the underworld. Libations without wine are called sober offerings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Shear to the goddess\" means women cut off their hair as an offering to Hygiea; the hair hangs over the statue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "The sentence is ambiguous: whichever statue a worshipper wants to propitiate, he is told to worship Hygiea, perhaps because both statues are covered and hard to tell apart.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Coronis was the mother of Æsculapius by Apollo. Her statue is carried to the temple of Athene only when sacrifices to the goddess are made.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "Normally only the thighs were burned for the gods and the rest eaten; here whole victims are burned on the ground, a sign of unusual ritual.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "Pentathlum is the five-event contest; the stadium was a single-length foot race, and the double course was a race there and back.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Epopeus was a legendary king of Sicyon, here credited with building temples; Athene is the goddess of crafts and war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Adrastus was a legendary king of Sicyon, later leader of the Argive expedition against Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "The Eumenides, the Venerable Goddesses, are the Furies under a placating name, honoured to avoid their wrath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "In myth the Titans were an older generation of gods; Pausanias gives a local version in which Titan is a man.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Machaon was a physician in the Trojan War and son of Æsculapius, the god of healing. Sicyon was a city near Corinth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "The covered statue, with only face and extremities showing, was typical of ancient cult images dressed in real garments.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Hygiea was the goddess of health and a daughter of Æsculapius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "A hero received sacrifice after sunset as a dead figure; a god received it by day. The two modes of worship differ here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Telesphorus was a child-like healing deity at Pergamum, closely linked with Æsculapius. Acesis is a name meaning healing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Sacred dragons, meaning snakes, were associated with Æsculapius and his healing cult.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "personification",
+    "text": "Time is made an agent that dims the temple's fame, a gentle way to describe its ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "device": "irony",
+    "text": "The lightning destroys the building but spares the altar, leaving a small survivor beside the great loss.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "narrative voice",
+    "text": "Pausanias speaks personally with \"seems to me\", rationalizing myth: Titan becomes a clever observer of seasons, not a god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "imagery",
+    "text": "The old cypress trees and a few suppliants give the sanctuary a quiet, venerable atmosphere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "imagery",
+    "text": "Offered hair and heavy foreign cloth together create a picture of a goddess almost buried in devotion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "characterization",
+    "text": "The dragons are shown as dangerous yet orderly, which makes them seem sacred and awe-inspiring.",
+    "spoiler": false
+   }
+  ]
+ }
+}

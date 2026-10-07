@@ -1,0 +1,443 @@
+{
+ "section_id": "pausanias-body-317",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11145,
+  "output": 3791
+ },
+ "result": {
+  "summary": "Pausanias describes Lebadea, its founding, the grove and sights of Trophonius, and the ritual for consulting the oracle. He gives the preparations, the descent into the cave, and the return, drawing on his own experience of consulting it.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Lebadea and its founding",
+    "summary": "Pausanias places Lebadea relative to Orchomenus and tells how the town moved to the plain and took its name from Lebadus.",
+    "stakes": "",
+    "present": [
+     "Lebadus",
+     "Laonice"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lebadea",
+     "modern_name": "Livadeia",
+     "certainty": "real",
+     "lat": 38.4365,
+     "lon": 22.8747
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 14,
+    "title": "The grove and river Hercyna",
+    "summary": "The story of Hercyna and the goose explains the river's name; Pausanias lists the temples, statues and tombs in the grove.",
+    "stakes": "",
+    "present": [
+     "Hercyna",
+     "Proserpine",
+     "Trophonius",
+     "Æsculapius",
+     "Hygiea",
+     "Arcesilaus",
+     "Leitus",
+     "Demeter",
+     "Zeus",
+     "Apollo",
+     "Cronos",
+     "Hera"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Grove of Trophonius",
+     "modern_name": "Livadeia",
+     "certainty": "real",
+     "lat": 38.4365,
+     "lon": 22.8747
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 25,
+    "title": "Preparations for consulting the oracle",
+    "summary": "The consultant lodges in the temple, purifies himself, sacrifices, drinks Lethe and Memory, and goes to the oracle.",
+    "stakes": "The consultant risks Trophonius's disfavour, shown by the entrails, and must ritually prepare to descend safely.",
+    "present": [
+     "Trophonius",
+     "Agamedes",
+     "Hercyna",
+     "Demeter",
+     "Apollo",
+     "Cronos",
+     "Zeus",
+     "Hera"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Oracle of Trophonius",
+     "modern_name": "Livadeia",
+     "certainty": "real",
+     "lat": 38.4365,
+     "lon": 22.8747
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 37,
+    "title": "The cave and the descent",
+    "summary": "Pausanias describes the oven-shaped chamber and how the consultant is sucked in feet first; a soldier who came to steal died.",
+    "stakes": "The descent is dangerous; the thief died and his corpse was not ejected by the usual outlet.",
+    "present": [
+     "Trophonius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cave of Trophonius",
+     "modern_name": "Livadeia",
+     "certainty": "real",
+     "lat": 38.4365,
+     "lon": 22.8747
+    }
+   },
+   {
+    "start_sentence": 38,
+    "end_sentence": 43,
+    "title": "Return and the Seat of Memory",
+    "summary": "Priests question the shaken consultant, who later recovers and writes down his vision. Pausanias says he consulted the oracle himself.",
+    "stakes": "The consultant returns terrified and disoriented.",
+    "present": [
+     "Trophonius",
+     "Aristomenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Oracle of Trophonius",
+     "modern_name": "Livadeia",
+     "certainty": "real",
+     "lat": 38.4365,
+     "lon": 22.8747
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Lebadus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian settler who gave Lebadea its name"
+   },
+   {
+    "name": "Laonice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Lebadus"
+   },
+   {
+    "name": "Aspledon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "person whose mother was Midea"
+   },
+   {
+    "name": "Hercyna",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "girl who played with Proserpine; the river is named for her"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Demeter who found the goose"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Europa"
+    ],
+    "kind": "goddess",
+    "description": "mother of Proserpine; nurse of Trophonius"
+   },
+   {
+    "name": "Trophonius",
+    "aliases": [],
+    "kind": "god",
+    "description": "oracular figure of the cave at Lebadea"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "healing god with sacred dragons"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of health"
+   },
+   {
+    "name": "Arcesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero buried near the river"
+   },
+   {
+    "name": "Leitus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brought Arcesilaus's remains home from Troy"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Zeus Hyetius",
+     "Zeus the King"
+    ],
+    "kind": "god",
+    "description": "king of the gods, worshipped with several titles"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a statue and sacrifices"
+   },
+   {
+    "name": "Hera",
+    "aliases": [
+     "Hera the Chariot-driver"
+    ],
+    "kind": "goddess",
+    "description": "goddess honoured in the rites"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple and sacrifices"
+   },
+   {
+    "name": "Agamedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "figure invoked at the ram sacrifice"
+   },
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero whose shield is kept there"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Proserpine",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Lebadus",
+    "relation": "spouse_of",
+    "b": "Laonice",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Europa",
+    "canonical": "Demeter",
+    "explanation": "Title under which Demeter is worshipped at Lebadea."
+   },
+   {
+    "alias": "Zeus Hyetius",
+    "canonical": "Zeus",
+    "explanation": "Zeus as giver of rain, a cult title."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 24,
+    "reason": "The drinks of Lethe and Memory are a famous detail of the ritual.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "reason": "Pausanias states he consulted the oracle himself.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows how ritual, purification and sacrifice structure contact with the divine, with fear and forgetting marking the transition.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It is a rare eyewitness account of an ancient oracle by someone who used it, valuable for Greek religion in the 2nd century AD.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Lethe and Memory in the ritual echo in later literature about forgetting and recollection in the underworld."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias says those who consulted the oracle were left so shaken that they later recovered and could laugh.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Aspledon was the legendary founder of Orchomenian Aspledon; Midea is named from his mother, so the old hill town had a mythic genealogy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Unwittingly\" means without meaning to or noticing; Hercyna lets the goose slip accidentally.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "Pausanias admits uncertainty, guessing at identity from the dragons (serpents) held with the sceptres, which both Æsculapius and Trophonius shared.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Leitus was a Boeotian leader at Troy; bringing Arcesilaus' bones home refers to the Trojan War story in the Iliad's catalogue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Hyetius means \"of the rain\"; Zeus was worshipped as sender of rain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Chase\" here means a hunting-ground or place of pursuit, a spot linked to Proserpine's story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Cronos, Zeus the King, Hera the Chariot-driver and Demeter Europa are local cult titles of the gods worshipped at Lebadea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Hermæ: here the name of the two boy attendants, apparently after Hermes, the god of guides and messengers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Lethe means forgetfulness and Memory (Mnemosyne) recollection; the drinks make him forget ordinary cares and retain the revelation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "A cubit is roughly the length of a forearm, about 18 inches, so the wall is under three feet high.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "A span is the width of an outstretched hand, about nine inches.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "Demetrius is probably the Macedonian king Demetrius, whose bodyguard is said to have tried to rob the shrine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "phrasing",
+    "text": "\"Fit persons\" means the appointed attendants who are suitable to take charge of the shaken consultant.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Trophonius was a hero with a famous oracle at Lebadea, where inquirers descended into a cave to receive prophecy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Æsculapius (Asclepius) was the god of healing, often shown with a serpent-entwined staff.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Praxiteles was a celebrated Athenian sculptor of the fourth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Trophonius's oracle was at Lebadea in Boeotia. Consultants lodged in a building dedicated to the Good Deity and Good Fortune before descending.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Agamedes was the brother of Trophonius in legend, and the two were said to be builders; he is invoked as a partner in the cult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Dædalus was the legendary craftsman, so the statue was held to be extremely ancient and sacred.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "narrative voice",
+    "text": "Pausanias openly states the limits of local knowledge, showing his careful, reporting guide-book manner.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "etiology",
+    "text": "The tale of the goose and the stone explains the river's name through a myth, a typical origin story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "simile",
+    "text": "The sucking in of the consultant is compared to a river's whirlpool, conveying the force and danger of the descent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "device": "irony",
+    "text": "The terrified man soon laughs at the experience, a sharp contrast with his earlier dread.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "narrative voice",
+    "text": "Pausanias asserts his own authority as eyewitness and participant, distinguishing his account from hearsay.",
+    "spoiler": false
+   }
+  ]
+ }
+}

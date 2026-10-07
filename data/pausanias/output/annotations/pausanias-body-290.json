@@ -1,0 +1,323 @@
+{
+ "section_id": "pausanias-body-290",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6976,
+  "output": 2735
+ },
+ "result": {
+  "summary": "Pausanias describes Theban sacrificial custom and the legend of Cadmus following a cow to found Thebes. He then lists sights in the citadel: the altar of Athene Onga, the ruined chambers of Harmonia and Semele, a statue of Dionysus, and statues of the flute-player Pronomus and Epaminondas.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 0,
+    "title": "Sacrifice of oxen to Apollo",
+    "summary": "The Thebans explain why they sacrifice working oxen to Apollo Spodius instead of bulls.",
+    "stakes": "",
+    "present": [
+     "Apollo Spodius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 1,
+    "end_sentence": 5,
+    "title": "Cadmus and the cow",
+    "summary": "Cadmus is guided by a marked cow and settles where it lies down; the altar of Athene Onga stands there and is used to argue Cadmus came from Phoenicia.",
+    "stakes": "Cadmus and his army need a place to settle, as the oracle commanded.",
+    "present": [
+     "Cadmus",
+     "Pelagon",
+     "Athene"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "traditional",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 10,
+    "title": "House of Cadmus and Dionysus",
+    "summary": "Pausanias describes the ruined bridal chambers, the sacred wood of Dionysus Cadmus, and the bronze statue of Dionysus.",
+    "stakes": "",
+    "present": [
+     "Cadmus",
+     "Harmonia",
+     "Semele",
+     "Polydorus",
+     "Dionysus",
+     "Onasimedes",
+     "Pronomus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Citadel of Thebes",
+     "modern_name": "Cadmea, Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 14,
+    "title": "Pronomus and Epaminondas",
+    "summary": "Pronomus's innovations in flute-playing are described, and statues of him and Epaminondas are noted.",
+    "stakes": "",
+    "present": [
+     "Pronomus",
+     "Epaminondas",
+     "Polymnis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Apollo Spodius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god honored with sacrifices at Thebes"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of Thebes, guided by a cow"
+   },
+   {
+    "name": "Pelagon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "owner of the herds from which the cow came"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Onga",
+     "Sais"
+    ],
+    "kind": "goddess",
+    "description": "goddess with an altar and statue at Thebes"
+   },
+   {
+    "name": "Harmonia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "bride of Cadmus, whose bridal chamber is shown"
+   },
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "struck by lightning in her bridal chamber"
+   },
+   {
+    "name": "Polydorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "adorned the sacred wood with brass"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Dionysus Cadmus"
+    ],
+    "kind": "god",
+    "description": "god with a statue and altar at Thebes"
+   },
+   {
+    "name": "Onasimedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the bronze Dionysus"
+   },
+   {
+    "name": "Pronomus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "famous Theban flute-player"
+   },
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban honored with a statue"
+   },
+   {
+    "name": "Polymnis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Epaminondas"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Polymnis",
+    "relation": "parent_of",
+    "b": "Epaminondas",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Cadmus",
+    "relation": "spouse_of",
+    "b": "Harmonia",
+    "source": "outside",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Cadmus",
+    "relation": "parent_of",
+    "b": "Polydorus",
+    "source": "outside",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Semele",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "outside",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Onga",
+    "canonical": "Athene",
+    "explanation": "Phoenician name of Athene at Thebes, versus Egyptian Sais."
+   },
+   {
+    "alias": "Dionysus Cadmus",
+    "canonical": "Dionysus",
+    "explanation": "Name given to the sacred wood adorned by Polydorus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "Credits Pronomus with a major innovation in flute-playing.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Sacred places in Thebes are tied to founding legends, linking cult practice to Cadmus and his family.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias uses religious names and etymology to argue over Cadmus's origin, reflecting ancient debates on Greek ties with Phoenicia and Egypt.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The tale of Cadmus following a cow to found Thebes is a classic foundation myth, retold by Ovid and many later writers."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pronomus of Thebes was a real aulos player of the 5th century BC, and the Pronomos Vase is named after him.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Spodius means \"of the ashes\"; it is a Theban cult title of Apollo, linked to ash-altars.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Greeks debated whether Cadmus was Egyptian or Phoenician. Sais was the Egyptian city of Neith, whom Greeks identified with Athene; Pausanias argues from the goddess's name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The Muses' song at the wedding of Harmonia and Cadmus was a famous Theban legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Semele, mother of Dionysus, was destroyed by Zeus's lightning when she asked to see him in his glory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Measure\" means a musical mode or scale; Dorian, Phrygian and Lydian were the main Greek modes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Is extant for\" means the song survives as one composed for the Chalcidians who went to Delos, presumably for a sacred embassy.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Cadmus, founder of Thebes, consulted the Delphic oracle, which told him to follow a cow and found a city where it lay down.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Praxiteles was the famous Athenian sculptor; his sons continued his workshop.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Epaminondas was the Theban general who defeated Sparta at Leuctra in 371 BC and made Thebes briefly dominant in Greece.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "simile",
+    "text": "The cow's white flank marks are compared to the full moon, giving the guiding animal a quasi-divine look.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "imagery",
+    "text": "The ruined bridal chambers and the forbidden room of Semele evoke a sense of sacred, lingering myth in the present landscape.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "characterization",
+    "text": "Pronomus is presented as an innovator, defined by being twice \"the first\" in his art.",
+    "spoiler": false
+   }
+  ]
+ }
+}

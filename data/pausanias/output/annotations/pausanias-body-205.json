@@ -1,0 +1,260 @@
+{
+ "section_id": "pausanias-body-205",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8055,
+  "output": 2380
+ },
+ "result": {
+  "summary": "Flaminius defeats Philip's garrison at Eretria and besieges Corinth, and the Achaeans reluctantly join the Romans and become their steady allies. The Achaeans then humble Sparta after Nabis falls, while Philip is beaten at Cynoscephalae and the Sibyl's oracle about the two Philips is quoted.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Flaminius besieges Corinth",
+    "summary": "Flaminius takes Eretria and besieges Corinth, and the Achaeans after debate join him. Corinth joins the Achaean League and the Achaeans become faithful Roman allies.",
+    "stakes": "The Achaeans risk exchanging Macedonian domination for Roman domination of Greece.",
+    "present": [
+     "Flaminius",
+     "Philip",
+     "Aratus",
+     "Persæus",
+     "Antigonus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Corinth",
+     "certainty": "real",
+     "lat": 37.9056,
+     "lon": 22.8803
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 11,
+    "title": "Achaeans humble Sparta",
+    "summary": "After Nabis falls, the Achaeans take Sparta into their League, raze its walls and end its Lycurgan training. The Spartans appeal to Metellus and the Roman envoys.",
+    "stakes": "Sparta stands to lose its independence and its ancestral customs.",
+    "present": [
+     "Nabis",
+     "Lycurgus",
+     "Metellus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.0742,
+     "lon": 22.4297
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 18,
+    "title": "Philip's defeat and the oracle",
+    "summary": "Philip loses at Cynoscephalae and must give up his garrisons and buy peace. The Sibyl's oracle foretold the rise and fall of Macedon under two Philips.",
+    "stakes": "Philip stands to lose his army, his Greek holdings and Macedonian power.",
+    "present": [
+     "Philip",
+     "Flaminius",
+     "Attalus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cynoscephalae",
+     "modern_name": "Cynoscephalae, near Pharsala",
+     "certainty": "real",
+     "lat": 39.3,
+     "lon": 22.5
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Flaminius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman commander who besieges Corinth and defeats Philip"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king beaten by the Romans"
+   },
+   {
+    "name": "Nabis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "cruel ruler of Sparta"
+   },
+   {
+    "name": "Metellus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman envoy appealed to by the Spartans"
+   },
+   {
+    "name": "Aratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean leader who expelled the garrison from Corinth"
+   },
+   {
+    "name": "Persæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "commander of the garrison, slain"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king who appointed Persaeus"
+   },
+   {
+    "name": "Lycurgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan lawgiver whose training was ordained"
+   },
+   {
+    "name": "Attalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "eastern ally of the Romans"
+   },
+   {
+    "name": "Sibyl",
+    "aliases": [],
+    "kind": "other",
+    "description": "prophetess who foretold Macedon's rise and fall"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Amyntas",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "The Sibyl's oracle foretelling Macedon's fall to men from West and East.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Greek freedom is repeatedly exchanged for new masters, as Macedonian control gives way to Roman.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage reflects Roman intervention in Greece in the early second century BC and the Achaean League's role in it.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Dictators\" here means simply those who dictate orders, i.e. masters or overlords, not the Roman office of dictator.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Refers to Aratus's famous capture of the Acrocorinth in 243 BC, when Corinth was freed from Antigonus's Macedonian garrison and joined the Achaean League.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Rased\" is an old spelling of \"razed\": demolished to the ground.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Threw themselves into the arms of\" means they sought protection from Metellus and his fellow envoys by appealing to them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Specious\" means looking fair or favourable on the surface, but not truly so.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"Not without the god\" means the prophecy was divinely inspired.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Argeadæ\" is the name of the Macedonian royal house, claiming descent from Argos.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Flaminius (Titus Quinctius Flamininus) was the Roman general who fought Philip V of Macedon in the Second Macedonian War, around 198–197 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Nabis was the tyrant of Sparta, defeated by Rome and the Achaeans and killed by Aetolians in 192 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Lycurgus was the traditional Spartan lawgiver; his rigorous training system for youths was central to Spartan identity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Cynoscephalae in Thessaly (197 BC) was where Roman legions defeated Philip V's phalanx.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "The Sibyl was a prophetess of Greek tradition. Philip son of Amyntas is Philip II, father of Alexander the Great.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "contrast",
+    "text": "The sentence sets Achaean motives against each other: disinterested friendship toward Rome versus old personal hatred of the Aetolians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "foreshadowing",
+    "text": "The prophecy is introduced as a divine frame that makes Macedon's rise and fall seem fated.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "antithesis",
+    "text": "The oracle balances the first Philip's gain of rule against the last Philip's loss of all honour, mirroring Macedon's arc.",
+    "spoiler": false
+   }
+  ]
+ }
+}

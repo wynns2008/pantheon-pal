@@ -1,0 +1,464 @@
+{
+ "section_id": "pausanias-body-141",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9635,
+  "output": 4076
+ },
+ "result": {
+  "summary": "Pausanias describes the route around Mount Ithome in Messenia, with the spring Clepsydra, the local claim that Zeus was raised there, and the statue and feast of Zeus of Ithome. He then follows the road toward Arcadia and Andania, noting rivers, groves and shrines, and the story of the blinded singer Thamyris.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Ithome, Clepsydra and Zeus",
+    "summary": "Pausanias describes the spring Clepsydra and the Messenian tradition that Zeus was nursed on Ithome. He also covers the statue by Ageladas and the annual feast with its musical contest.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Ithome",
+     "Neda",
+     "Curetes",
+     "Cronos",
+     "Eumelus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ithome",
+     "modern_name": "Mount Ithome, Messenia",
+     "certainty": "real",
+     "lat": 37.1792,
+     "lon": 21.9253
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 14,
+    "title": "The Balyra and Thamyris",
+    "summary": "Outside the Megalopolis gate Pausanias notes a Hermes statue and the river Balyra, named for Thamyris throwing away his lyre when blinded. He tells of Thamyris' parentage.",
+    "stakes": "Thamyris loses his sight and his art.",
+    "present": [
+     "Thamyris",
+     "Philammon",
+     "Argiope",
+     "Hermes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "River Balyra",
+     "modern_name": "Messenia, near Messene",
+     "certainty": "real",
+     "lat": 37.17,
+     "lon": 21.92
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 22,
+    "title": "Carnasian grove and Andania",
+    "summary": "Pausanias passes the plain of Stenyclerus and the Carnasian grove with its gods and mysteries. He then reaches the ruins of Andania, declining to reveal some secrets.",
+    "stakes": "Pausanias risks offending the gods by revealing secret rites.",
+    "present": [
+     "Stenyclerus",
+     "Carnean Apollo",
+     "Hermes",
+     "Demeter",
+     "Eurytus",
+     "Andania"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Carnasian grove",
+     "modern_name": "Near Messene, Messenia",
+     "certainty": "traditional",
+     "lat": 37.2,
+     "lon": 21.95
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 29,
+    "title": "Dorium and Thamyris' blindness",
+    "summary": "On the road to Cyparissiae Pausanias names rivers and reaches Dorium, where Thamyris was blinded. He gives Homer's and Prodicus' accounts and his own view that disease caused it.",
+    "stakes": "Thamyris is punished or overcome by blindness and gives up his song.",
+    "present": [
+     "Thamyris",
+     "Homer",
+     "Prodicus",
+     "Electra",
+     "Cœus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Dorium",
+     "modern_name": "Near Malthi, Messenia",
+     "certainty": "traditional",
+     "lat": 37.2,
+     "lon": 21.78
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Zeus of Ithome"
+    ],
+    "kind": "god",
+    "description": "Said to have been reared on Ithome"
+   },
+   {
+    "name": "Ithome",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nymph nurse of Zeus who gave her name to the mountain"
+   },
+   {
+    "name": "Neda",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nymph nurse of Zeus who gave her name to the river"
+   },
+   {
+    "name": "Curetes",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Stole Zeus away from fear of Cronos"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father Zeus was hidden from"
+   },
+   {
+    "name": "Eumelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet cited for his hymn at Delos"
+   },
+   {
+    "name": "Ageladas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor of the statue of Zeus"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Statues at the gate and the Carnasian grove"
+   },
+   {
+    "name": "Thamyris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thracian singer who was blinded"
+   },
+   {
+    "name": "Philammon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Thamyris"
+   },
+   {
+    "name": "Argiope",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Mother of Thamyris"
+   },
+   {
+    "name": "Stenyclerus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero who gave his name to a plain"
+   },
+   {
+    "name": "Carnean Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with a statue in the Carnasian grove"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Mother of the Virgin"
+   },
+   {
+    "name": "Eurytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Melaneus, remains kept in a bronze urn"
+   },
+   {
+    "name": "Melaneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Eurytus"
+   },
+   {
+    "name": "Andania",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Woman for whom the town was named"
+   },
+   {
+    "name": "Electra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Atlas, possibly the river's namesake"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Electra"
+   },
+   {
+    "name": "Cœus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Leto"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Daughter of Cœus"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet who described Thamyris' blinding and was himself blinded"
+   },
+   {
+    "name": "Prodicus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phocaean poet, supposed author of the Minyad"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Philammon",
+    "relation": "parent_of",
+    "b": "Thamyris",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Argiope",
+    "relation": "parent_of",
+    "b": "Thamyris",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Cœus",
+    "relation": "parent_of",
+    "b": "Leto",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Atlas",
+    "relation": "parent_of",
+    "b": "Electra",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Melaneus",
+    "relation": "parent_of",
+    "b": "Eurytus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "outside",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Carnean Apollo",
+    "canonical": "Apollo",
+    "explanation": "Apollo worshipped under a local cult title."
+   },
+   {
+    "alias": "the Virgin",
+    "canonical": "Persephone",
+    "explanation": "Local name for the daughter of Demeter."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Pausanias notes the many places claiming to be Zeus' birthplace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "reason": "Contrasts Homer's persistence with Thamyris' defeat after blindness.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local tradition and rival claims shape sacred geography, and Pausanias weighs them with his own judgment.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The chapter shows the Messenians reasserting their identity after liberation from Sparta, tying their land to Zeus and to old poetry.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says a dream stopped him from revealing details of the urn of Eurytus.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Clepsydra means 'water-stealer', the Greek name for a water clock; the spring's name is explained here by the Curetes' 'theft' of the infant Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "'Free sandals' is a poetic phrase for the Muse, suggesting a light, unconstrained step, perhaps the dancing movement of the hymn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "'Busts of Hermes' are herms: square stone pillars topped with a head of Hermes, often set at gates and crossroads.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Thamyris was a Thracian singer who challenged the Muses to a contest and was blinded by them. The river's name is linked to 'throwing' (ballein).",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Odrysian refers to the Odrysae, a Thracian people, so his mother's move to Odrysae explains his epithets.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "The daughter of Demeter is Persephone (Core), here called simply the Virgin; the Greek word is Kore, 'maiden'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "A cinerary urn is a vessel holding the ashes or remains of the dead; here a brass one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet (about 185 metres), so 8 stades is under two kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Antiquarians are scholars of local history and old traditions, whom Pausanias often cites as authorities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Homer (Iliad 2) says the Muses blinded Thamyris, the Thracian singer, after he boasted he could beat them in song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The Minyad is an early epic poem about a descent to the underworld; Pausanias doubts that Prodicus really wrote it.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Messenians claimed Zeus's birth for Ithome, competing with Crete and Arcadia. Nymphs as nurses of Zeus are a common motif.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "The Curetes were attendants who hid the infant Zeus, clashing weapons to cover his cries, so his father Cronos could not swallow him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Ageladas was a famous Argive sculptor of the late sixth and early fifth centuries BC. Naupactus housed Messenian exiles after the Spartan conquest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Eumelus was an early Corinthian poet; his hymn for Delos survives only in fragments such as this quotation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "The Eleusinian Mysteries, held near Athens for Demeter and Persephone, were the most revered secret rites in Greece; participants swore not to disclose them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Electra was a daughter of Atlas, and Cœus was a Titan, father of Leto, who bore Apollo and Artemis.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "hyperbole",
+    "text": "The difficulty of counting every claimant to Zeus's birth gently exaggerates, and wryly mocks, the many local rivalries over the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "narrative voice",
+    "text": "Pausanias speaks in the first person as a critical scholar, reasoning from poetic evidence to support a local custom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "irony",
+    "text": "The blinded singer discards the very instrument of his art, so a place-name preserves the loss of his gift.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "characterization",
+    "text": "Pausanias shows himself a rationalizing critic, replacing divine punishment with a natural cause, disease.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "contrast",
+    "text": "Homer's perseverance is set against Thamyris's surrender, turning the blindness into a lesson about character.",
+    "spoiler": false
+   }
+  ]
+ }
+}

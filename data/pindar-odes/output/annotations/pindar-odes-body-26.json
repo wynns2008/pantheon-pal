@@ -1,0 +1,312 @@
+{
+ "section_id": "pindar-odes-body-26",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6946,
+  "output": 2801
+ },
+ "result": {
+  "summary": "Pindar's ode for Midas of Akragas, a victor in the flute-playing contest at Pytho, begins with a prayer to the city of Akragas to welcome the crown. It then tells how Perseus slew Medusa and how Athena invented flute music from the Gorgon's lament. It ends with a reflection that human success needs toil and that fortune is unpredictable.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Editor's introductory notes",
+    "summary": "A note dates the victory to 494 or 450 and explains that the ode was probably sung in a procession at Akragas.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Akragas",
+     "modern_name": "Agrigento",
+     "certainty": "real",
+     "lat": 37.31,
+     "lon": 13.58
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 3,
+    "title": "Prayer to Akragas",
+    "summary": "The poet asks the city of Akragas to welcome the victory crown from Pytho and the flute-player Midas who won it.",
+    "stakes": "",
+    "present": [
+     "Midas",
+     "Persephone",
+     "Pallas Athene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Akragas",
+     "modern_name": "Agrigento",
+     "certainty": "real",
+     "lat": 37.31,
+     "lon": 13.58
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 6,
+    "title": "Perseus slays Medusa",
+    "summary": "Perseus kills Medusa and blinds the children of Phorkos, then brings her head to Seriphos for Polydektes' wedding. Athena hears the Gorgon's lament and makes the flute.",
+    "stakes": "Perseus risks death in facing the Gorgons and must rescue his mother from Polydektes' mistreatment.",
+    "present": [
+     "Perseus",
+     "Medusa",
+     "Euryale",
+     "Pallas Athene",
+     "Polydektes",
+     "Danaë"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Seriphos",
+     "modern_name": "Serifos",
+     "certainty": "real",
+     "lat": 37.15,
+     "lon": 24.51
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 7,
+    "title": "Athena's gift of the flute",
+    "summary": "Athena gives the flute to mortals and names its tune the many-headed air, played by the reeds of Kephisos' nymph near the city of the Graces.",
+    "stakes": "",
+    "present": [
+     "Pallas Athene"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lake Kopais, Boeotia",
+     "modern_name": "Lake Kopais",
+     "certainty": "traditional",
+     "lat": 38.45,
+     "lon": 23.05
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 8,
+    "title": "Reflection on fortune",
+    "summary": "Pindar says happiness comes only with labour, and that time brings unexpected gains.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Midas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "flute-player of Akragas who won at Pytho"
+   },
+   {
+    "name": "Persephone",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose haunt is Akragas"
+   },
+   {
+    "name": "Pallas Athene",
+    "aliases": [
+     "the Maiden"
+    ],
+    "kind": "goddess",
+    "description": "goddess who devised flute music"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who killed Medusa"
+   },
+   {
+    "name": "Medusa",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Gorgon killed by Perseus"
+   },
+   {
+    "name": "Euryale",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Gorgon sister whose lament Athena imitated"
+   },
+   {
+    "name": "Polydektes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Seriphos who wronged Perseus' mother"
+   },
+   {
+    "name": "Danaë",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Perseus"
+   },
+   {
+    "name": "Phorkos",
+    "aliases": [],
+    "kind": "creature",
+    "description": "father of the blinded brood"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Danaë",
+    "relation": "parent_of",
+    "b": "Perseus",
+    "source": "text",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Maiden",
+    "canonical": "Pallas Athene",
+    "explanation": "Epithet for Athena as the virgin goddess."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Memorable closing maxim that happiness needs toil and fortune is unforeseeable.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode links victory in music to the hero's labour: art arises from suffering, and success follows toil.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pindar celebrates a flute victory, showing that musical contests at the Pythian games were honoured like athletic ones.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pythian 12 is the only surviving victory ode for an aulos (flute) player rather than an athlete.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Pytho is the older name of Delphi, where the Pythian Games were held; the crown is the victor's wreath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Tutelar\"-style address aside, \"haunt of Persephone\" refers to Sicily, a land sacred to Persephone; \"inhabitest\" and \"nourisheth\" are archaic second- and third-person verb forms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The third sister is Medusa, the mortal one of the three Gorgons; her death caused the lament Athena heard.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Bare thence their doom\" means Perseus carried Medusa's head to Seriphos, bringing ruin to its people through its petrifying power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Polydektes, king of Seriphos, tried to force Perseus' mother Danaë into marriage; Perseus' gift of the Gorgon's head turned him to stone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Zeus visited Danaë as a shower of gold, hence Perseus is said to be sprung from a stream of gold.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"The Maiden\" is Athena, called Pallas Athene earlier; Euryale is one of the two immortal Gorgon sisters, mourning Medusa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The \"many-headed air\" is a flute melody whose name recalls the Gorgons' snaky heads; it may also refer to a many-parted tune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"The thing ordained is not avoidable\" means what fate has fixed cannot be escaped; \"unaware\" means unexpectedly.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Pindar's Pythian Games victories were won at Delphi; the ode honours a flute-player, unusual since most victors were athletes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Akragas (Agrigentum) was a wealthy Greek city in Sicily, famous for its grand temples.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "The Graces' city is Orchomenos in Boeotia, near the river Kephisos; the Graces were goddesses of charm and beauty.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "apostrophe",
+    "text": "The poet directly addresses the city as a queen, treating Akragas as a divine, personified being who can receive the crown.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "imagery",
+    "text": "Serpent heads and anguished pouring sound make the Gorgon's death vivid, linking horror to the origin of music.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "repetition",
+    "text": "\"Grievous\" is repeated to stress the harm Perseus' gift brought upon Polydektes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "personification",
+    "text": "The reeds and dancing-ground are called faithful witnesses, giving place and instrument a human role in honouring the music.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "aphorism",
+    "text": "The closing general truth about labour and time turns the myth into a moral about fortune and hope.",
+    "spoiler": false
+   }
+  ]
+ }
+}

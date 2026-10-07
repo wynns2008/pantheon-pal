@@ -1,0 +1,493 @@
+{
+ "section_id": "pausanias-body-351",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 13172,
+  "output": 4431
+ },
+ "result": {
+  "summary": "Pausanias finishes Delphi with its theatre, Dionysus statue and stadium, then describes the Corycian cavern on Parnassus and compares it with other famous caves. He then turns to Tithorea in Phocis, its shrines, the temple of Aesculapius and the holy shrine of Isis with its festival, and ends with the town's olives.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Last sights of Delphi",
+    "summary": "Pausanias lists the theatre, the Cnidian statue of Dionysus and the stadium improved by Herodes.",
+    "stakes": "",
+    "present": [
+     "Herodes",
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 15,
+    "title": "The Corycian cavern",
+    "summary": "He describes the cavern on Parnassus and compares it with caves in Phrygia and Magnesia, ending with the revels of the Thyiades.",
+    "stakes": "",
+    "present": [
+     "Corycia",
+     "Hercules",
+     "Apollo",
+     "Hermes",
+     "Pan"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Corycian cavern",
+     "modern_name": "Corycian Cave, Mount Parnassus",
+     "certainty": "real",
+     "lat": 38.5236,
+     "lon": 22.5736
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 27,
+    "title": "Tithorea and its name",
+    "summary": "Pausanias discusses the town's name and sights, including the tomb of Antiope and Phocus.",
+    "stakes": "",
+    "present": [
+     "Tithorea",
+     "Antiope",
+     "Phocus",
+     "Bacis",
+     "Herodotus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tithorea",
+     "modern_name": "Tithorea (Velitsa), Phocis",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 22.67
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 44,
+    "title": "Aesculapius and Isis shrines",
+    "summary": "He describes the shrine of Aesculapius and the secluded shrine of Isis, its festival, and the deadly fate of intruders.",
+    "stakes": "Profane intruders into the Isis shrine die.",
+    "present": [
+     "Æsculapius",
+     "Isis",
+     "Osiris"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Shrine of Isis near Tithorea",
+     "modern_name": "near Tithorea",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 22.67
+    }
+   },
+   {
+    "start_sentence": 45,
+    "end_sentence": 46,
+    "title": "Olives of Tithorea",
+    "summary": "He remarks on the quality of Tithorea's olives.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Tithorea",
+     "modern_name": "Tithorea (Velitsa), Phocis",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 22.67
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god honoured by the Thyiades; his statue stands at Delphi"
+   },
+   {
+    "name": "Herodes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who adorned the stadium with Pentelican marble"
+   },
+   {
+    "name": "Corycia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nymph who gave the cavern its name"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "one of the Cavern-Gods of the Phrygians"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a cavern statue among the Magnesians"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "one of the Cavern-Gods"
+   },
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "god to whom Parnassus dwellers hold the cavern sacred"
+   },
+   {
+    "name": "Tithorea",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "tree-born Nymph from whom the town is said to be named"
+   },
+   {
+    "name": "Antiope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "driven mad by Dionysus; married Phocus"
+   },
+   {
+    "name": "Phocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ornytion, husband of Antiope"
+   },
+   {
+    "name": "Ornytion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Phocus"
+   },
+   {
+    "name": "Bacis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "oracle-giver cited on the town's name"
+   },
+   {
+    "name": "Herodotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "historian cited on the town's name"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [
+     "Archegetes"
+    ],
+    "kind": "god",
+    "description": "god honoured with a temple near Tithorea"
+   },
+   {
+    "name": "Isis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Egyptian goddess with a holy shrine at Tithorea"
+   },
+   {
+    "name": "Osiris",
+    "aliases": [],
+    "kind": "god",
+    "description": "Egyptian god whom Isis mourns"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with grove, shrine and statue at Tithorea"
+   },
+   {
+    "name": "Zethus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "buried at Thebes with Amphion"
+   },
+   {
+    "name": "Amphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "buried at Thebes with Zethus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ornytion",
+    "relation": "parent_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Antiope",
+    "relation": "spouse_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Isis",
+    "relation": "spouse_of",
+    "b": "Osiris",
+    "source": "outside",
+    "evidence_sentence": 42
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Archegetes",
+    "canonical": "Æsculapius",
+    "explanation": "Epithet meaning founder or leader, used for Æsculapius at his temple near Tithorea."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 44,
+    "reason": "Pausanias concludes the intruder stories with Homer's warning that gods are not seen unpunished.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links sacred places to strong divine presence, from caves to the forbidden shrine of Isis. Seeing the divine uninvited is deadly.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Isis cult at Tithorea shows Egyptian religion spread in Roman-era Greece, with festival markets combining worship and trade.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Corycian Cave on Parnassus can still be visited today and has yielded ancient offerings.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Embellished\" means adorned or improved; Herodes (Herodes Atticus) refaced the stadium seating with white marble from Mount Pentelicus near Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "A stade (stadium) was a Greek unit of length of roughly 180–200 metres, so 60 stades is about 11 kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Brazen\" means made of bronze.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"A little back\" refers to an earlier passage; the bracketed number [141] is the translator's footnote marker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The Galati are the Gauls (Galatians), who invaded Greece and Asia Minor in the 3rd century BC; here they raid Ionia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"Made holy by the god\" means those inspired or possessed by Apollo, who gain superhuman strength.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Thyiades were women worshippers who went in ecstatic frenzy on Parnassus in winter rites for Dionysus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet (about 185 metres), so 80 stades is around ten miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Viâ\" is Latin for \"by way of\": the short route goes directly over the mountain on foot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Herodotus's history describes the Persian invasion of Greece; \"the Medes\" is the Greek habit of calling Persians by the name of their neighbours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Nymphs born of trees are Dryads or Hamadryads; oak-born nymphs appear in early poetry such as Hesiod.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"The deity\" means unspecified divine power; Pausanias attributes the town's decline to fate or a god, not to a named cause.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Pausanias refers back to his earlier book on Boeotia (Thebes), where he told Antiope's story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "Archegetes means 'founder' or 'leader', a cult title given to gods or heroes honoured as founders of a community.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "Suppliants are people who seek the god's help or protection, often staying within the sanctuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "Refers to the Plutonia near the Mæander in Asia Minor, where gods of the underworld were said to control who could approach.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "word",
+    "text": "Guineafowls are the African birds Pausanias mentions; the translation uses this name for the bird he describes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "phrasing",
+    "text": "'Gave up the ghost' is an archaic idiom meaning he died.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "allusion",
+    "text": "Alludes to Homer's Iliad (20.131), where a god says the gods are dangerous when they appear openly to mortals.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Dionysus was the god of wine, ecstasy and the theatre; Cnidos was a Greek city in Asia Minor that dedicated offerings at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "The Mother of the Gods is Cybele, the Phrygian mother goddess, often worshipped in caves and on mountains.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Pan was the goat-footed god of shepherds and wild places; Nymphs were female nature spirits often linked to caves and springs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Bacis was a legendary Boeotian prophet whose oracles circulated widely in Greece; Pausanias often cites him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Athene was the goddess of wisdom and war, and was worshipped in many Greek towns with sacred groves and shrines.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Antiope was mother of Zethus and Amphion by Zeus; Dionysus drove her mad in some versions, and Phocus married and healed her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Isis was an Egyptian goddess whose worship spread throughout the Greek and Roman world; her cult often involved dream revelation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "text": "In Egyptian myth Isis mourned her husband Osiris; the Nile's annual flood was linked to her tears.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "text": "Coptos was a city in Upper Egypt with an important temple of Isis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "text": "Olive oil was used for food, lamps and ointments, so quality olives were valuable enough to send to the emperor.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a traveller-guide, selecting the 'most remarkable' examples, which sets up the comparison that follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "comparison",
+    "text": "The Corycian cavern is ranked above the Phrygian and Magnesian caves, giving the catalogue a climax at the Delphic site.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "inference",
+    "text": "Pausanias reasons from conflicting sources to a probable conclusion, showing his scholarly, comparative method as narrator.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "understatement",
+    "text": "The brief, restrained remark about a decline in fortunes conveys loss without describing it, giving the town a melancholy tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "foreshadowing",
+    "text": "The intruder's fate illustrates the sanctuary's danger, warning the reader what happens to those who violate sacred boundaries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "device": "allusion",
+    "text": "Pausanias ends the two anecdotes by citing Homer, giving the stories literary authority and a moral conclusion.",
+    "spoiler": false
+   }
+  ]
+ }
+}

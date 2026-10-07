@@ -1,0 +1,295 @@
+{
+ "section_id": "pausanias-body-276",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7030,
+  "output": 2466
+ },
+ "result": {
+  "summary": "Pausanias surveys the great benefactors of Greece from Miltiades to Philopoemen, declaring Philopoemen the last. He ends with the Tegean inscription praising Philopoemen as a general and liberator.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Greece's benefactors surveyed",
+    "summary": "Pausanias lists Greek leaders from Miltiades to Aratus, judging who truly served all Greece rather than a single state.",
+    "stakes": "",
+    "present": [
+     "Miltiades",
+     "Philopœmen",
+     "Codrus",
+     "Polydorus",
+     "Aristomenes",
+     "Leonidas",
+     "Themistocles",
+     "Xerxes",
+     "Aristides",
+     "Pausanias",
+     "Xanthippus",
+     "Leotychides",
+     "Cimon",
+     "Conon",
+     "Epaminondas",
+     "Leosthenes",
+     "Aratus",
+     "Alexander"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Greece",
+     "modern_name": "Greece",
+     "certainty": "real",
+     "lat": 39.0,
+     "lon": 22.0
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 13,
+    "title": "Inscription for Philopœmen at Tegea",
+    "summary": "Pausanias quotes the verses on Philopoemen's statue, praising his wisdom, cavalry command, victories over Spartan tyrants and defence of freedom.",
+    "stakes": "",
+    "present": [
+     "Philopœmen"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tegea",
+     "modern_name": "Tegea",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.42
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Miltiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cimon, victor at Marathon, first benefactor of Greece"
+   },
+   {
+    "name": "Cimon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Miltiades; also a leader who inspired emulation"
+   },
+   {
+    "name": "Philopœmen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Craugis, last benefactor of Greece"
+   },
+   {
+    "name": "Craugis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Philopoemen"
+   },
+   {
+    "name": "Codrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "valiant son of Melanthus"
+   },
+   {
+    "name": "Polydorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "valiant Spartan"
+   },
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "valiant Messenian"
+   },
+   {
+    "name": "Leonidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Anaxandrides, fought at Thermopylae"
+   },
+   {
+    "name": "Themistocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Neocles, won two sea-fights"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king expelled from Greece"
+   },
+   {
+    "name": "Aristides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lysimachus, taxed the islanders"
+   },
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cleombrotus, commander at Plataea, later criminal"
+   },
+   {
+    "name": "Xanthippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ariphron, destroyed Persian fleet at Mycale"
+   },
+   {
+    "name": "Leotychides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Sparta"
+   },
+   {
+    "name": "Conon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Timotheus, recovered islands and coasts"
+   },
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Polymnis, expelled Spartan garrisons"
+   },
+   {
+    "name": "Leosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brought 50,000 Greek mercenaries home"
+   },
+   {
+    "name": "Aratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "benefactor of Greece, treated under Sicyon"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler whose wishes Leosthenes opposed"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cimon",
+    "relation": "parent_of",
+    "b": "Miltiades",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Craugis",
+    "relation": "parent_of",
+    "b": "Philopœmen",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 0,
+    "reason": "Stark declaration that Greece no longer bred distinguished men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "reason": "Closing epitaph hailing Philopoemen as winner of his country's freedom.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias judges greatness by service to all Greece, mourning the decline of Greek independence after Philopoemen.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Writing under Roman rule, Pausanias treats Philopoemen's era, ended by Rome's conquest in 146 BC, as the close of Greek heroism.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Codrus was a legendary Athenian king who died to save Athens; Aristomenes led the Messenians against Sparta. Their battles were for their own people.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Pausanias (son of Cleombrotus), the Spartan victor at Platæa, later plotted with Persia; this is the 'subsequent crimes'. He is not the author.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Decemvirates were ruling boards of ten men, set up in cities under Spartan influence; Epaminondas ended them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Leosthenes led Greek forces in the Lamian War after Alexander's death; Pausanias refers to Aratus' earlier treatment in his Sicyon section.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "'When slavery was growing' means when subjection to tyrants was spreading; Philopœmen checked it, as the verse claims.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Miltiades commanded the Athenians at Marathon in 490 BC. Philopœmen of Megalopolis (died 183 BC) was called 'the last of the Greeks'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Leonidas, king of Sparta, died holding Thermopylæ in 480 BC; Themistocles built the Athenian fleet and won at Salamis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Messene (369 BC) and Megalopolis were founded with Epaminondas' help to check Spartan power.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "narrative voice",
+    "text": "The blunt, elegiac opening shows the author's judgment, framing the whole survey as a decline of Greek greatness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "hyperbole",
+    "text": "Saying the war's famous victors almost ruined Greece with their own hands exaggerates to condemn civil strife.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "parallelism",
+    "text": "'As wise in the council-chamber as brave in the field' balances civil and military excellence to praise Philopœmen.",
+    "spoiler": false
+   }
+  ]
+ }
+}

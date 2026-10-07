@@ -1,0 +1,270 @@
+{
+ "section_id": "pausanias-body-136",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7581,
+  "output": 2315
+ },
+ "result": {
+  "summary": "After returning home, the Messenians are safe from Sparta until the Phocian War removes the Thebans, and then they fight Sparta with help from Argives, Arcadians and Philip of Macedon. Later they take Elis by a trick, bearing Spartan-marked shields. Pausanias compares the ruse to Homeric stratagems.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Messenia's wars after the return",
+    "summary": "The Messenians are left alone while Thebes protects them, then fight Sparta once the Phocian War draws the Thebans away. They seek allies and take sides in the wider Greek conflicts.",
+    "stakes": "The newly rebuilt Messene could be crushed again by Sparta.",
+    "present": [
+     "Messenians",
+     "Lacedaemonians",
+     "Thebans",
+     "Philip",
+     "Athenians",
+     "Argives",
+     "Arcadians",
+     "Cleonymus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messenia",
+     "modern_name": "Messenia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.18,
+     "lon": 21.92
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 13,
+    "title": "The Messenians seize Elis",
+    "summary": "Elis falls into faction after Philip's bribes. Messenian soldiers carrying Spartan-marked shields are admitted by pro-Spartans and expel them.",
+    "stakes": "The Messenians risk exposure and defeat if the disguise fails; the Elean Spartan party risks losing the city.",
+    "present": [
+     "Messenians",
+     "Lacedaemonians",
+     "Philip",
+     "Eleans"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Elis, Peloponnese",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 18,
+    "title": "Homeric stratagems compared",
+    "summary": "Pausanias compares the Messenian trick to Patroclus in Achilles' armour and lists other Homeric military ruses.",
+    "stakes": "",
+    "present": [
+     "Homer",
+     "Patroclus",
+     "Achilles"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.96,
+     "lon": 26.24
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amyntas, Macedonian king who helped the Messenians and corrupted Elis"
+   },
+   {
+    "name": "Cleonymus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan leader who refused a treaty with the Messenians"
+   },
+   {
+    "name": "Amyntas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Philip"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king whose death led to a second Greek war on Macedon"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet of the Iliad, source of stratagems"
+   },
+   {
+    "name": "Patroclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wore Achilles' armour in the Iliad"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek hero whose armour Patroclus wore"
+   },
+   {
+    "name": "Messenians",
+    "aliases": [],
+    "kind": "other",
+    "description": "people of Messenia"
+   },
+   {
+    "name": "Lacedaemonians",
+    "aliases": [
+     "Spartans"
+    ],
+    "kind": "other",
+    "description": "people of Sparta"
+   },
+   {
+    "name": "Thebans",
+    "aliases": [],
+    "kind": "other",
+    "description": "people of Thebes"
+   },
+   {
+    "name": "Athenians",
+    "aliases": [],
+    "kind": "other",
+    "description": "people of Athens"
+   },
+   {
+    "name": "Argives",
+    "aliases": [],
+    "kind": "other",
+    "description": "people of Argos"
+   },
+   {
+    "name": "Arcadians",
+    "aliases": [],
+    "kind": "other",
+    "description": "people of Arcadia"
+   },
+   {
+    "name": "Eleans",
+    "aliases": [
+     "people of Elis"
+    ],
+    "kind": "other",
+    "description": "people of Elis, split into factions"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Amyntas",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 3
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lacedæmonians",
+    "canonical": "Lacedaemonians",
+    "explanation": "The Spartans, named after their region Lacedaemon."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 18,
+    "reason": "Pausanias' closing tribute to Homer's practical usefulness.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Messenian survival depends on shifting alliances and cunning against the stronger Sparta.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage reflects fourth-century Greek politics, with Theban decline, the Sacred War and Macedonian rise, and shows Homer treated as a military authority.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Messenian ruse of using enemy-marked shields resembles tricks recorded elsewhere in ancient warfare, and Pausanias explicitly ties it to the Iliad.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Pricked up their courage\" and \"keep their hands off\" are idioms: the Spartans regained boldness and could no longer refrain from attacking.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The battle of Chæronea (338 BC) was where Philip of Macedon defeated the Greek states, including Athens and Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The Galati are the Gauls who invaded Greece in 279 BC. Cleonymus was a Spartan prince.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"For the nonce\" means for the occasion, for that one purpose.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Refers to Iliad 10, where Diomedes and Ulysses go as spies, and to Dolon, the Trojan spy sent to the Greek camp.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The Phocian or Sacred War (356–346 BC) was fought over Phocis' seizure of Delphi's temple, and it kept Thebes busy in central Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "In the Iliad, Patroclus, Achilles' close friend, wore his armour to rally the Greeks and scare the Trojans. Hector later killed him.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "metaphor",
+    "text": "Taking \"the first plunge\" and \"drifting\" into civil war picture political strife as water, suggesting a gradual, easy slide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "narrative voice",
+    "text": "Pausanias closes with a personal verdict, showing his admiration for Homer as a practical authority, not merely a poet.",
+    "spoiler": false
+   }
+  ]
+ }
+}

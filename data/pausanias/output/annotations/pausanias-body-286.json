@@ -1,0 +1,338 @@
+{
+ "section_id": "pausanias-body-286",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7258,
+  "output": 2776
+ },
+ "result": {
+  "summary": "Pausanias describes the road from the Asopus to Thebes, starting with the ruins of Potniae, its cults and local marvels, and the spot where Amphiaraus was swallowed. He then lists the seven gates of Thebes and explains their names.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Ruins and Cults of Potniae",
+    "summary": "Pausanias describes the grove of Demeter and Proserpine, the Potnian goddesses, the temple of Dionysus Aegobolus with its origin story, and a well that maddens horses.",
+    "stakes": "The people of Potniae face plague after killing a priest in drunkenness, cured only by sacrifice.",
+    "present": [
+     "Dionysus",
+     "Demeter",
+     "Proserpine"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Potniæ",
+     "modern_name": "near Thebes, Boeotia",
+     "certainty": "real",
+     "lat": 38.3,
+     "lon": 23.3
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 6,
+    "title": "Where Amphiaraus Vanished",
+    "summary": "On the road back to Thebes stands an enclosure with pillars where the earth swallowed Amphiaraus; birds and animals avoid it.",
+    "stakes": "",
+    "present": [
+     "Amphiaraus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Road from Potniæ to Thebes",
+     "modern_name": "",
+     "certainty": "traditional",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 17,
+    "title": "The Seven Gates of Thebes",
+    "summary": "Pausanias names the seven gates and gives the origins of their names, including the return of Thebans from Homole and the death of Capaneus.",
+    "stakes": "Thebans defeated by the Argives are exiled until Thersander restores them.",
+    "present": [
+     "Electra",
+     "Prœtus",
+     "Amphion",
+     "Zethus",
+     "Neis",
+     "Laodamas",
+     "Eteocles",
+     "Thersander",
+     "Polynices",
+     "Capaneus",
+     "Hipponous",
+     "Cadmus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.3226,
+     "lon": 23.3181
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess honored in a grove at Potniæ"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess honored with Demeter at Potniæ"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Dionysus Ægobolus"
+    ],
+    "kind": "god",
+    "description": "god worshipped at Potniæ, whose priest was killed"
+   },
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero swallowed by the earth"
+   },
+   {
+    "name": "Electra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sister of Cadmus, gate named for her"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban, brother of Electra"
+   },
+   {
+    "name": "Prœtus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban for whom a gate is named"
+   },
+   {
+    "name": "Amphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "discovered the lyre chord nete at a gate"
+   },
+   {
+    "name": "Zethus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Amphion, father of Neis"
+   },
+   {
+    "name": "Neis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Zethus, possible namesake of gate"
+   },
+   {
+    "name": "Laodamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Eteocles, led Theban exiles"
+   },
+   {
+    "name": "Eteocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Laodamas"
+   },
+   {
+    "name": "Thersander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Polynices who restored the Thebans"
+   },
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Thersander"
+   },
+   {
+    "name": "Capaneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "attacker struck by lightning at the walls"
+   },
+   {
+    "name": "Hipponous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Capaneus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Electra",
+    "relation": "sibling_of",
+    "b": "Cadmus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Zethus",
+    "relation": "sibling_of",
+    "b": "Amphion",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Zethus",
+    "relation": "parent_of",
+    "b": "Neis",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Eteocles",
+    "relation": "parent_of",
+    "b": "Laodamas",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Polynices",
+    "relation": "parent_of",
+    "b": "Thersander",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Hipponous",
+    "relation": "parent_of",
+    "b": "Capaneus",
+    "source": "text",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Ægobolus",
+    "canonical": "Dionysus",
+    "explanation": "Epithet meaning Goat-killer, from the goat sacrificed in place of a boy."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Pausanias's wry skepticism about a local ritual claim.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links places to myths and cult practices, explaining names through local tradition while sometimes voicing doubt.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage records Boeotian cult customs, including a substitution of animal for human sacrifice, and Theban civic memory of the Seven against Thebes.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias gives several rival explanations for the gate Neiste, showing his habit of reporting competing local traditions.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 185 metres, so about 10 stades is a little over a mile.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Believe it who likes\" is Pausanias' way of signalling doubt about a local claim he reports without endorsing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Ægobolus means \"goat-killer\"; the title refers to the goat sacrificed in place of a boy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "The wordplay links the gate name Neiste to the lyre string nete; Pausanias reports the etymology without vouching for it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Highest Zeus\" is the cult title Hypsistos; Pausanias here uses the name Zeus, though elsewhere the translation sometimes says Jove.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Refers to the legendary aftermath of the Seven against Thebes, when the Epigoni's victory drove Thebans from their city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Capaneus, one of the Seven against Thebes, boasted that not even Zeus could stop him as he scaled the wall, and was struck down.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The Potnian goddesses were Demeter and Proserpine (Persephone), worshipped locally at Potniae.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Delphi's oracle, sacred to Apollo, was consulted across Greece for remedies to plagues and other afflictions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Amphiaraus, the seer of Argos, fled the defeat of the Seven against Thebes and was swallowed by the earth with his chariot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Cadmus was the legendary founder of Thebes.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "narrative voice",
+    "text": "The sceptical aside gives Pausanias a personal, wry presence as a traveller weighing local stories.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "symbolism",
+    "text": "The avoided ground, untouched by birds and animals, marks the spot as sacred and set apart by the supernatural event.",
+    "spoiler": false
+   }
+  ]
+ }
+}

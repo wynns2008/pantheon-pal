@@ -1,0 +1,546 @@
+{
+ "section_id": "pindar-odes-body-7",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11911,
+  "output": 4726
+ },
+ "result": {
+  "summary": "Pindar's ode for the boxer Diagoras of Rhodes opens with a wine-cup gift image, then tells of Tlepolemos and the founding of Rhodes. It recounts the island's rising from the sea as Helios's portion, lists Diagoras's victories, and prays to Zeus to honour him.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Introduction: Rhodes and Diagoras",
+    "summary": "The editor explains the colonisation of Rhodes, the Eratidai family, the gold inscription, and Athens freeing Dorieus.",
+    "stakes": "",
+    "present": [
+     "Diagoras",
+     "Dorieus",
+     "Tlepolemos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Rhodes",
+     "modern_name": "Rhodes",
+     "certainty": "real",
+     "lat": 36.17,
+     "lon": 28.0
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 17,
+    "title": "The Poet's Gift to Diagoras",
+    "summary": "Pindar compares his song to a wine cup given to a son-in-law and announces he will praise Diagoras and Rhodes.",
+    "stakes": "",
+    "present": [
+     "Diagoras",
+     "Demegetos",
+     "Rhodes",
+     "Aphrodite",
+     "Helios"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Rhodes",
+     "modern_name": "Rhodes",
+     "certainty": "real",
+     "lat": 36.17,
+     "lon": 28.0
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 26,
+    "title": "Tlepolemos's Crime and the Oracle",
+    "summary": "Tlepolemos kills Likymnios in anger, consults the oracle, and is sent to the island where Athene was born. The Rhodians forget fire in their sacrifice, yet Zeus rains gold and Athene grants skill.",
+    "stakes": "Tlepolemos faces exile and guilt for killing Likymnios.",
+    "present": [
+     "Tlepolemos",
+     "Likymnios",
+     "Zeus",
+     "Athene",
+     "Hephaistos",
+     "Hyperion"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tiryns",
+     "modern_name": "Tiryns",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.8
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 33,
+    "title": "Rhodes Rises for Helios",
+    "summary": "Helios, left without a portion when the gods divided the earth, receives the island rising from the sea. He fathers sons by Rhodos, and Tlepolemos is honoured with games.",
+    "stakes": "Helios stands to be left without any land.",
+    "present": [
+     "Zeus",
+     "Helios",
+     "Lachesis",
+     "Rhodos",
+     "Kameiros",
+     "Ialysos",
+     "Lindos",
+     "Tlepolemos"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Rhodes",
+     "modern_name": "Rhodes",
+     "certainty": "traditional",
+     "lat": 36.17,
+     "lon": 28.0
+    }
+   },
+   {
+    "start_sentence": 34,
+    "end_sentence": 39,
+    "title": "Victories and Prayer to Zeus",
+    "summary": "Pindar lists Diagoras's many victories and asks Zeus to honour him and his family.",
+    "stakes": "Diagoras's fame could be darkened by fortune's changing winds.",
+    "present": [
+     "Diagoras",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Rhodes",
+     "modern_name": "Rhodes",
+     "certainty": "real",
+     "lat": 36.17,
+     "lon": 28.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Diagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Rhodian boxer and Olympic victor honoured by the ode"
+   },
+   {
+    "name": "Demegetos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Diagoras"
+   },
+   {
+    "name": "Dorieus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Diagoras, athlete freed by the Athenians"
+   },
+   {
+    "name": "Tlepolemos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Herakles, founder of Rhodian settlement"
+   },
+   {
+    "name": "Likymnios",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alkmene's half-brother, killed by Tlepolemos"
+   },
+   {
+    "name": "Herakles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero from whom the Rhodians claim descent"
+   },
+   {
+    "name": "Astydameia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Tlepolemos, daughter of Amyntor"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "son of Kronos",
+     "Father Zeus"
+    ],
+    "kind": "god",
+    "description": "king of the gods"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Glaukopis"
+    ],
+    "kind": "goddess",
+    "description": "goddess born from Zeus's head"
+   },
+   {
+    "name": "Hephaistos",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose craft split Zeus's head"
+   },
+   {
+    "name": "Helios",
+    "aliases": [
+     "Hyperion"
+    ],
+    "kind": "god",
+    "description": "sun god, lord of Rhodes"
+   },
+   {
+    "name": "Lachesis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Fate who confirmed the oath"
+   },
+   {
+    "name": "Rhodos",
+    "aliases": [
+     "Rhodes"
+    ],
+    "kind": "nymph",
+    "description": "the island personified, bride of Helios"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "called mother of Rhodes"
+   },
+   {
+    "name": "Kameiros",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Helios and Rhodos"
+   },
+   {
+    "name": "Ialysos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "eldest son of Helios and Rhodos"
+   },
+   {
+    "name": "Lindos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Helios and Rhodos"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Helios",
+    "relation": "parent_of",
+    "b": "Kameiros",
+    "source": "text",
+    "evidence_sentence": 32
+   },
+   {
+    "a": "Helios",
+    "relation": "parent_of",
+    "b": "Ialysos",
+    "source": "text",
+    "evidence_sentence": 32
+   },
+   {
+    "a": "Helios",
+    "relation": "parent_of",
+    "b": "Lindos",
+    "source": "text",
+    "evidence_sentence": 32
+   },
+   {
+    "a": "Rhodos",
+    "relation": "parent_of",
+    "b": "Lindos",
+    "source": "text",
+    "evidence_sentence": 32
+   },
+   {
+    "a": "Helios",
+    "relation": "lover_of",
+    "b": "Rhodos",
+    "source": "text",
+    "evidence_sentence": 32
+   },
+   {
+    "a": "Herakles",
+    "relation": "parent_of",
+    "b": "Tlepolemos",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Astydameia",
+    "relation": "parent_of",
+    "b": "Tlepolemos",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Diagoras",
+    "relation": "parent_of",
+    "b": "Dorieus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Demegetos",
+    "relation": "parent_of",
+    "b": "Diagoras",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Athene",
+    "source": "text",
+    "evidence_sentence": 21
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Glaukopis",
+    "canonical": "Athene",
+    "explanation": "Epithet meaning 'grey-eyed' or 'bright-eyed' for Athene."
+   },
+   {
+    "alias": "Hyperion",
+    "canonical": "Helios",
+    "explanation": "Hyperion is used here as a name for the sun god, father of the Rhodian sons."
+   },
+   {
+    "alias": "son of Kronos",
+    "canonical": "Zeus",
+    "explanation": "Patronymic for Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Reflects on human folly and the difficulty of knowing what will turn out best.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "reason": "Closing image of shifting fortune, like winds blowing different ways.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode links an athlete's victories to his island's divine origins, showing how fortune, foresight and forgetfulness shape glory.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Rhodians' gold-lettered inscription of the ode at Lindos shows how highly victory odes were valued; Athens freeing Dorieus shows the family's wide fame.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The ode was said to have been engraved in gold letters in the temple of Athene at Lindos.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Herakleidai means descendants of Herakles, the Dorian leaders who by tradition returned to the Peloponnese and conquered it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The year 406 falls during the last years of the Peloponnesian war between Athens and Sparta, when Athens was near defeat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "The long sentence is one extended simile that is left open until 'So also I' in the next sentence; 'dew of the vine' means wine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "'Largess' means a generous gift; 'spouse' here is the son-in-law, the bridegroom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "'Pytho' is Delphi, site of the Pythian games; Olympia hosted the Olympic games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "'Grace that quickeneth' refers to Charis, the divine favour that brings life and success to a victor's song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Alpheos is the river at Olympia and Kastalia the spring at Delphi, so the phrase names the victor's wins at both games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "'Fain' means gladly; 'puissant' means powerful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Diagoras's father line is traced to Herakles (son of Zeus) and his mother's line to Astydameia, daughter of Amyntor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Likymnios was half-brother of Alkmene (mother of Herakles). Tlepolemos, Herakles' son, killed his great-uncle in a quarrel; this is why he fled to Rhodes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"He of the golden hair\" is Apollo, whose oracle is consulted; \"God\" here means the deity speaking at the shrine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Athene sprang fully armed from the head of Zeus, split open by Hephaistos' axe; the golden snow marks her birth-honour for Rhodes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "The Rhodians sacrificed without fire, a legendary lapse; they forgot to bring fire to the altar, yet were still rewarded.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "Glaukopis is an epithet of Athene, \"bright-eyed\" or \"grey-eyed\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "allusion",
+    "text": "Lachesis is one of the Fates, who assigns lots and makes the gods' oath binding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "word",
+    "text": "Isthmos is the Isthmian games at Corinth; Nemea and Athens likewise hosted famous athletic festivals.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Athene (Athena) was patron goddess of Lindos, whose temple was a major Rhodian sanctuary; gold lettering marked exceptional honour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Spared by the Athenians without ransom, Dorieus was an unusual case of mercy in a brutal war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Helios, the sun god, was Rhodes's divine patron in myth, which is why the island is called his bride.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Tlepolemos was a son of Herakles who, in tradition, led the Rhodian Greeks to the island.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Hyperion is the sun-god, here father of the Heliadai, the sons of Helios, who were the ancestors of the Rhodians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Helios is the sun god; he was absent when the gods drew lots, so received no share.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Kameiros, Ialysos and Lindos became the three ancient cities of Rhodes, named for the sons.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Atabyrios is the highest mountain on Rhodes, with a sanctuary of Zeus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "simile",
+    "text": "Pindar compares his poem to a golden wine cup given to a son-in-law, showing the ode as a precious gift that binds giver and receiver.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "metaphor",
+    "text": "The song becomes 'liquid nectar', the Muses' gift and 'fruit of my soul', presenting poetry as a divine drink and offering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "personification",
+    "text": "Rhodes is called child of Aphrodite and bride of Helios, turning the island into a divine figure with a mythic family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "gnomic reflection",
+    "text": "The sudden general statement about human folly and uncertainty shifts from celebration to moral reflection, a typical Pindaric turn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "gnomic statement",
+    "text": "Pindar turns the story into a general moral: even the wise can err under strong emotion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "personification",
+    "text": "Reverence is called Forethought's child, and forgetfulness is a cloud, making abstract qualities act like persons and weather.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "epithet",
+    "text": "Helios is described by epithets such as \"lord of fire-breathing steeds\", linking his rule to the sun's chariot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "metaphor",
+    "text": "Varying breezes stand for changing fortunes, ending the ode on the uncertainty of human life.",
+    "spoiler": false
+   }
+  ]
+ }
+}

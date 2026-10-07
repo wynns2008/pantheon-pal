@@ -1,0 +1,391 @@
+{
+ "section_id": "pausanias-body-335",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7088,
+  "output": 3134
+ },
+ "result": {
+  "summary": "Pausanias describes votive offerings at Delphi: the iron bowl-base of Alyattes, the navel stone, and statues and animal figures given by various Greek peoples. He also tells how the Liparaeans, following the Pythian Priestess, defeated the Tyrrhenians at sea and dedicated statues of Apollo.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Alyattes' base and the navel",
+    "summary": "Pausanias describes the welded iron stand made by Glaucus of Chios and the white stone navel of the world.",
+    "stakes": "",
+    "present": [
+     "Glaucus of Chios",
+     "Alyattes",
+     "Pindar"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 12,
+    "title": "Statues and animal offerings",
+    "summary": "Various peoples' dedications are listed, including Hermione's statue, Eurydamus, the Elyrian goat suckling Apollo's sons, and the Carystian ox.",
+    "stakes": "",
+    "present": [
+     "Hermione",
+     "Menelaus",
+     "Orestes",
+     "Agamemnon",
+     "Neoptolemus",
+     "Achilles",
+     "Eurydamus",
+     "Phylacides",
+     "Philander",
+     "Apollo",
+     "Acacallis",
+     "Carmanor",
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 17,
+    "title": "Liparaeans defeat the Tyrrhenians",
+    "summary": "Told to follow the oracle, the Liparaeans fight with few ships, win repeatedly, and dedicate Apollo statues.",
+    "stakes": "The Liparaeans risk defeat by the Tyrrhenians at sea.",
+    "present": [
+     "Pythian Priestess",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Liparaean waters",
+     "modern_name": "Aeolian Islands",
+     "certainty": "real",
+     "lat": 38.46,
+     "lon": 14.95
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 18,
+    "title": "The first offering",
+    "summary": "The small Apollo of Echecratides is said by the Delphians to be the earliest offering.",
+    "stakes": "",
+    "present": [
+     "Echecratides of Larissa",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Glaucus of Chios",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "craftsman who first welded iron"
+   },
+   {
+    "name": "Alyattes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lydian king who gave a bowl"
+   },
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who mentions the navel"
+   },
+   {
+    "name": "Hermione",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Menelaus, wife of Orestes and earlier Neoptolemus"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hermione"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Agamemnon, husband of Hermione"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Orestes"
+   },
+   {
+    "name": "Neoptolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Achilles, earlier husband of Hermione"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Neoptolemus"
+   },
+   {
+    "name": "Eurydamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ætolian general against the Galati"
+   },
+   {
+    "name": "Phylacides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Apollo per the Elyrians"
+   },
+   {
+    "name": "Philander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Apollo per the Elyrians"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of Delphi who receives the offerings"
+   },
+   {
+    "name": "Acacallis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph, mother of Phylacides and Philander"
+   },
+   {
+    "name": "Carmanor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "owner of the house in Tarrha"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess depicted in Ætolian offering"
+   },
+   {
+    "name": "Pythian Priestess",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Delphic oracle who advised the Liparaeans"
+   },
+   {
+    "name": "Echecratides of Larissa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicator of the small Apollo"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Menelaus",
+    "relation": "parent_of",
+    "b": "Hermione",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Orestes",
+    "relation": "spouse_of",
+    "b": "Hermione",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Neoptolemus",
+    "relation": "spouse_of",
+    "b": "Hermione",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Neoptolemus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Phylacides",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Philander",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Acacallis",
+    "relation": "parent_of",
+    "b": "Phylacides",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Acacallis",
+    "relation": "parent_of",
+    "b": "Philander",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Acacallis",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Apollo",
+    "relation": "sibling_of",
+    "b": "Artemis",
+    "source": "outside",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "Delphi's navel stone as the centre of the world, backed by Pindar.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The catalogue shows Delphi as a shared sanctuary where cities displayed victories, piety and local pride.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Offerings commemorate wars like the Persian and Galatian conflicts, showing how dedications recorded political memory.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Delphic omphalos became a lasting symbol of Delphi as the centre of the world."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Glaucus of Chios is credited by ancient writers with inventing iron welding.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Welded\" here means fused by heat. Pausanias stresses that the iron is joined without rivets, bolts or nails, which was a remarkable technique.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The navel (omphalos) marked Delphi as the world's centre. Pindar, the Greek lyric poet, also refers to it in his odes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The Galati are the Gauls, who invaded Greece and attacked Delphi in 279 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Intrigue\" means a secret love affair, here between Apollo and the Nymph Acacallis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The Median war is the Persian invasion of Greece, which Greek states repelled in the early fifth century BC.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Alyattes was a king of Lydia, in Asia Minor, and father of Croesus. Lydian kings gave rich gifts to Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Hermione was the daughter of Menelaus and Helen. Calamis was a celebrated early Greek sculptor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "The Liparaeans lived on the Lipari islands north of Sicily. The Tyrrhenians were Etruscans, known as sea raiders.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "The Pythian Priestess was Apollo's prophetess at Delphi, who delivered oracles.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "simile",
+    "text": "The base is compared to a turret, giving a picture of its tapering, tower-like shape.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "narrative voice",
+    "text": "Pausanias speaks in the first person as a traveller, marking this tale as the most astonishing thing he was told.",
+    "spoiler": false
+   }
+  ]
+ }
+}

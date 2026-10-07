@@ -1,0 +1,370 @@
+{
+ "section_id": "pausanias-body-53",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8432,
+  "output": 2992
+ },
+ "result": {
+  "summary": "Pausanias recounts the career of the Spartan king Cleomenes, his war with the Achaeans and Antigonus, and his death in Egypt. He then tells of Philip's poisonings and the fate of his family, and begins describing the monuments of Sicyon.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Cleomenes' rise and fall",
+    "summary": "Cleomenes seizes autocratic power in Sparta, poisons Eurydamidas, fights the Achaeans, is beaten at Sellasia by Antigonus, and dies in Egypt.",
+    "stakes": "Cleomenes risks his kingdom and life in pursuit of supremacy over Greece.",
+    "present": [
+     "Cleomenes",
+     "Eurydamidas",
+     "Epiclidas",
+     "Aratus",
+     "Antigonus",
+     "Ptolemy"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 14,
+    "title": "Philip's poisonings",
+    "summary": "Philip poisons Aratus and two Athenian orators, and his own son Demetrius is later poisoned by Perseus, as Hesiod's saying predicts.",
+    "stakes": "Aratus and others lose their lives to Philip's anger.",
+    "present": [
+     "Antigonus",
+     "Aratus",
+     "Philip",
+     "Euryclides",
+     "Micon",
+     "Demetrius",
+     "Perseus",
+     "Hesiod"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ægium",
+     "modern_name": "Aigio",
+     "certainty": "real",
+     "lat": 38.25,
+     "lon": 22.08
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 25,
+    "title": "Monuments of Sicyon",
+    "summary": "Pausanias describes shrines, statues and buildings in the Sicyonian market-place, including the temple of Lycian Apollo.",
+    "stakes": "",
+    "present": [
+     "Poseidon Isthmius",
+     "Milichian Zeus",
+     "Tutelary Artemis",
+     "Clisthenes",
+     "Lysippus",
+     "Apollo",
+     "Hercules",
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sicyon",
+     "modern_name": "Sikyona",
+     "certainty": "real",
+     "lat": 37.9936,
+     "lon": 22.7213
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cleomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Leonidas, who made himself autocrat"
+   },
+   {
+    "name": "Leonidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Cleomenes and Epiclidas"
+   },
+   {
+    "name": "Epiclidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Brother of Cleomenes, killed in battle"
+   },
+   {
+    "name": "Eurydamidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Young king of the other royal house, poisoned"
+   },
+   {
+    "name": "Aratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean general, poisoned by Philip"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler who aided the Achaeans against Cleomenes"
+   },
+   {
+    "name": "Ptolemy",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Egyptian king who honoured Cleomenes"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler who poisoned Aratus and others"
+   },
+   {
+    "name": "Euryclides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian orator poisoned by Philip"
+   },
+   {
+    "name": "Micon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian orator poisoned by Philip"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Philip's son, poisoned by Perseus"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Philip's youngest son, who poisoned Demetrius"
+   },
+   {
+    "name": "Hesiod",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet quoted for a saying"
+   },
+   {
+    "name": "Clisthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Builder of the Clisthenic Porch"
+   },
+   {
+    "name": "Lysippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor of Sicyon"
+   },
+   {
+    "name": "Poseidon Isthmius",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with an altar at Sicyon"
+   },
+   {
+    "name": "Milichian Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Zeus shown as a pyramid"
+   },
+   {
+    "name": "Tutelary Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Artemis shown as a pillar"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Lycian Apollo"
+    ],
+    "kind": "god",
+    "description": "Wolf-god who showed how to kill wolves"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "Subject of a bronze statue"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Hermes of the Market"
+    ],
+    "kind": "god",
+    "description": "Statue in the market-place"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Leonidas",
+    "relation": "parent_of",
+    "b": "Cleomenes",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Leonidas",
+    "relation": "parent_of",
+    "b": "Epiclidas",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Cleomenes",
+    "relation": "sibling_of",
+    "b": "Epiclidas",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Demetrius",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Perseus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Demetrius",
+    "relation": "sibling_of",
+    "b": "Perseus",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lycian Apollo",
+    "canonical": "Apollo",
+    "explanation": "Wolf-god epithet of Apollo at Sicyon."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 14,
+    "reason": "Pausanias cites Hesiod's saying that plotting mischief against another harms the plotter first.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Ambition and treachery bring ruin on those who practise them, as Cleomenes and Philip's family show.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage reflects Hellenistic Peloponnesian politics of the third century BC, including Sparta's reforms and Macedonian intervention.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias admits that local antiquaries could not identify the tree whose bark killed wolves.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Ephors\" were the annually elected Spartan magistrates who checked the kings; Cleomenes concentrated their power in his brother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Polity\" means constitution or form of government.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"On his own pate\" means on his own head; Hesiod's proverb says evil planned for another harms the planner most.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The war against Cirrha is the First Sacred War, in which the Amphictyones, a league of neighbouring peoples guarding Delphi, fought for Apollo's sanctuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "The daughters of Prœtus, in myth, were driven mad and wandered the land until cured; the statues' inscriptions apparently name others.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Aratus of Sicyon led the Achaean League, and he called in Antigonus, king of Macedon, against Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Sellasia, fought around 222 BC, ended Cleomenes' reforming rule at Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Hero-chapels honoured notable dead; Aratus received such cult at Sicyon as its liberator.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Lycian Apollo was worshipped as a wolf-god, protector of flocks against wolves.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "simile",
+    "text": "\"Brave as a lion\" stresses Cleomenes' fierce courage and sets him above the earlier Pausanias.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "Philip, who used poison on others, loses his son to poison, and the son's death kills him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "digression",
+    "text": "Pausanias openly admits leaving his subject to draw a moral, giving the narrative a reflective voice.",
+    "spoiler": false
+   }
+  ]
+ }
+}

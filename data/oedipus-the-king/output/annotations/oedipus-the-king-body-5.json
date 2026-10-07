@@ -1,0 +1,472 @@
+{
+ "section_id": "oedipus-the-king-body-5",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 15168,
+  "output": 4432
+ },
+ "result": {
+  "summary": "The Chorus sings of Oedipus as a possible child of the gods born on Mount Kithairon. The old shepherd of Laius is brought in and, under threat of torture, admits he gave away the infant that Jocasta had told him to destroy. Oedipus understands that he is that child and that the prophecy has come true.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Chorus sings of Kithairon",
+    "summary": "The Chorus imagines Oedipus as a foundling of Mount Kithairon, child of a mountain nymph and a god such as Pan, Apollo, Hermes or Dionysus.",
+    "stakes": "",
+    "present": [
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Kithairon",
+     "modern_name": "Mount Kithaeron",
+     "certainty": "real",
+     "lat": 38.2,
+     "lon": 23.2
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 69,
+    "title": "The shepherd is questioned",
+    "summary": "Oedipus identifies the old shepherd, and the Corinthian stranger reminds him of the baby he once received on Kithairon. The shepherd grows terrified and tries to silence the stranger.",
+    "stakes": "The shepherd fears revealing a terrible secret; Oedipus risks learning the truth about his birth.",
+    "present": [
+     "Oedipus",
+     "Shepherd",
+     "Stranger",
+     "Leader"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 70,
+    "end_sentence": 152,
+    "title": "The truth is forced out",
+    "summary": "Threatened with torture, the shepherd confesses the child came from Laius' house, and Jocasta gave it to be destroyed because of a prophecy. Oedipus cries out that he has sinned.",
+    "stakes": "Oedipus faces the revelation that he killed his father and married his mother; the shepherd faces death.",
+    "present": [
+     "Oedipus",
+     "Shepherd",
+     "Stranger"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Thebes, learning who he is"
+   },
+   {
+    "name": "Shepherd",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "old servant of Laius who gave away the baby"
+   },
+   {
+    "name": "Stranger",
+    "aliases": [
+     "Corinthian messenger"
+    ],
+    "kind": "mortal",
+    "description": "Corinthian messenger who received the baby"
+   },
+   {
+    "name": "Leader",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the Theban elders"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "other",
+    "description": "Theban elders who sing and comment"
+   },
+   {
+    "name": "Laius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "former king of Thebes"
+   },
+   {
+    "name": "Jocasta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Oedipus' wife, who gave the baby to be killed"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who loves the herds on the mountains"
+   },
+   {
+    "name": "Pan",
+    "aliases": [
+     "Crag-walker"
+    ],
+    "kind": "god",
+    "description": "mountain god"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose home is the heights"
+   },
+   {
+    "name": "Kithairon",
+    "aliases": [],
+    "kind": "place",
+    "description": "mountain of Thebes, addressed by the Chorus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Laius",
+    "relation": "parent_of",
+    "b": "Oedipus",
+    "source": "text",
+    "evidence_sentence": 122
+   },
+   {
+    "a": "Jocasta",
+    "relation": "parent_of",
+    "b": "Oedipus",
+    "source": "text",
+    "evidence_sentence": 127
+   },
+   {
+    "a": "Jocasta",
+    "relation": "spouse_of",
+    "b": "Oedipus",
+    "source": "text",
+    "evidence_sentence": 123
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lord of Cyllene",
+    "canonical": "Hermes",
+    "explanation": "The Chorus means Hermes, born on Mount Cyllene; the text does not name him."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 97,
+    "reason": "The shepherd says speaking the truth is worse than death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 148,
+    "reason": "Oedipus accepts that the prophecy is fulfilled.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Truth is drawn out step by step through questioning, and Oedipus' search for the killer becomes a discovery of his own identity.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Threatening a slave with torture reflects the Greek practice of treating a slave's testimony as reliable only under compulsion.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "This recognition scene was praised by Aristotle in the Poetics as a model of recognition and reversal occurring together."
+   }
+  ],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "The Chorus says that if it has any prophetic insight, then by tomorrow's full moon Kithairon's story will be told: Oedipus will be claimed as its child.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "An Oread is a mountain nymph. 'Unaging, unweeping' marks her as a divine being free of age and sorrow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The lord of Cyllene is Hermes (Mercury), born on Mount Cyllene. The White Brides of Helicon are the nymphs or Muses who attend Dionysus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "'Not bought with gold' means he was born a slave in Laius' household, not purchased later.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "'Kine' is an old plural for cows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "phrasing",
+    "text": "\"All Kithairon through\" means throughout Mount Kithairon; \"neighboured one another\" means they pastured their flocks near each other.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "phrasing",
+    "text": "\"From spring to autumn stars\" means from spring until the autumn rising of certain stars, roughly half a year of the grazing season.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "phrasing",
+    "text": "\"At winter's fall\" means at the onset of winter; the herdsmen then took their flocks down from the mountain to their masters' folds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "phrasing",
+    "text": "\"'Tis\" is a contraction of \"it is\"; the shepherd pleads that the events are too distant to recall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "kind": "phrasing",
+    "text": "\"In the name of death\" is an oath of desperation, like \"for pity's sake\" but darker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "kind": "phrasing",
+    "text": "Oedipus turns the Shepherd's gesture around: the 'offences' needing correction are the Shepherd's own, not the Corinthian's. 'Mend' means set right by punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 79,
+    "kind": "phrasing",
+    "text": "The sentence breaks off. 'Pain maybe' implies torture will make him talk, since kindness has not.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "kind": "word",
+    "text": "Bondmen: slaves or servants bound to serve; here the king's attendants, who carry out the torture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 93,
+    "kind": "phrasing",
+    "text": "'Would God that I had died this day' is a wish for death rather than speaking the truth he dreads.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "kind": "phrasing",
+    "text": "He means that telling the truth will bring a fate worse than death, one darker than the death Oedipus threatens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 106,
+    "kind": "phrasing",
+    "text": "'Never crossed my door' means the child was never born in his household; he was only the messenger who handed it on.",
+    "spoiler": false
+   },
+   {
+    "sentence": 112,
+    "kind": "phrasing",
+    "text": "\"If once I ask again\" means: if I have to repeat the question even one more time, you will be put to death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 122,
+    "kind": "word",
+    "text": "'Twas is a contraction of \"it was\"; the shepherd reports only what others said, hedging his own responsibility.",
+    "spoiler": false
+   },
+   {
+    "sentence": 123,
+    "kind": "phrasing",
+    "text": "\"Its fathering\" means its parentage; Jocasta, the child's mother, would know best whose child it was.",
+    "spoiler": false
+   },
+   {
+    "sentence": 139,
+    "kind": "phrasing",
+    "text": "\"So 'Twas written\" means it was decreed by fate or the oracle, as if inscribed beforehand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 146,
+    "kind": "word",
+    "text": "\"Verily\" means truly; \"sore\" means grievous. The shepherd warns that Oedipus was born to terrible suffering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 149,
+    "kind": "phrasing",
+    "text": "Oedipus asks the heavens to give his eyes no more light, foreshadowing his blinding; he cannot bear to see.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Apollo was god of prophecy, music and herds, and was often invoked in Theban worship. The cry 'I-e' is a ritual shout.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Pan was the goat-footed god of shepherds and wild places, who roamed the mountains.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Laius was Oedipus' predecessor as king of Thebes, killed on the road. This shepherd served him and may know the truth about the infant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "text": "The shepherd served the royal household of Laius at Thebes, while the stranger served the household of Corinth's king, so each had a master.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "text": "The baby was Oedipus, given away to be exposed on the mountain; the stranger took him to Corinth, where he was raised as a prince.",
+    "spoiler": false
+   },
+   {
+    "sentence": 86,
+    "text": "Thralls are slaves. Pulling the arms back was a typical way of restraining someone before torture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "text": "Calling someone a dog was a harsh insult, showing Oedipus's mounting anger and impatience.",
+    "spoiler": false
+   },
+   {
+    "sentence": 114,
+    "text": "Laius was the former king of Thebes, killed before Oedipus arrived. The shepherd's answer reveals the child's royal origin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 135,
+    "text": "An oracle had told Laius and Jocasta their son would kill his father, so they ordered the baby destroyed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 141,
+    "text": "\"This old man\" is the Corinthian messenger, who received the infant and brought him to Corinth, where Oedipus was raised.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "dramatic irony",
+    "text": "The Chorus hopes Oedipus is of divine birth, while the audience knows the truth is darker, with his parentage about to be revealed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "apostrophe",
+    "text": "The Chorus addresses the mountain directly as a person, praising it as a nurse and mother who will be honored with dances.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "foreshadowing",
+    "text": "The shepherd's terror signals that his knowledge is dangerous and the truth will be painful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "device": "dramatic irony",
+    "text": "The audience already suspects the baby is Oedipus, so the stranger's plain statement lands heavily as the truth begins to surface.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "device": "stage direction",
+    "text": "The shepherd's slow realisation and frozen horror show the revelation through his body, not words.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "device": "characterization",
+    "text": "The shepherd's sudden violence and \"Fool\" show fear of the truth he has long hidden, and his attempt to silence the stranger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "device": "irony",
+    "text": "Oedipus, seeking another man's guilt, speaks of 'mending' offences; the real offence he will uncover is his own.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "device": "foreshadowing",
+    "text": "The Shepherd's dread of the truth hints at the catastrophe to come, which is worse than death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 110,
+    "device": "dramatic irony",
+    "text": "The audience knows what Oedipus does not: the answer he demands will destroy him, which explains the Shepherd's plea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 118,
+    "device": "dramatic tension",
+    "text": "The shepherd's dread of speaking and Oedipus's dread of hearing show both men sensing the horror before it is named.",
+    "spoiler": false
+   },
+   {
+    "sentence": 145,
+    "device": "irony",
+    "text": "The shepherd's mercy, meant to save the child, led to a fate worse than death, reversing his intention.",
+    "spoiler": false
+   },
+   {
+    "sentence": 149,
+    "device": "apostrophe",
+    "text": "Oedipus addresses the \"everlasting skies\" as witnesses to his guilt, heightening his anguish.",
+    "spoiler": false
+   },
+   {
+    "sentence": 152,
+    "device": "repetition",
+    "text": "The refrain \"I have sinned\" in three clauses hammers home his guilt: birth, incest and the killing of his father.",
+    "spoiler": false
+   }
+  ]
+ }
+}

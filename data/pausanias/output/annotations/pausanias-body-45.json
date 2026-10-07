@@ -1,0 +1,550 @@
+{
+ "section_id": "pausanias-body-45",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10661,
+  "output": 4655
+ },
+ "result": {
+  "summary": "Pausanias opens his account of Corinth with its disputed founding legends, its destruction by Mummius and refounding by Julius Caesar. He then walks the road to the Isthmus, recalling Theseus' slaying of robbers, the Isthmian games, the failed canal projects, and the statues in Poseidon's sanctuary.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Origins and fall of Corinth",
+    "summary": "Pausanias gives Eumelus' legendary genealogy of Corinth and Sicyon, then tells how Corinth was destroyed by Mummius and resettled under Julius Caesar.",
+    "stakes": "Corinth's survival: its people and fortifications are lost after revolt against Rome.",
+    "present": [
+     "Eumelus",
+     "Ephyre",
+     "Marathon",
+     "Epopeus",
+     "Sicyon",
+     "Corinthus",
+     "Critolaus",
+     "Mummius",
+     "Julius Cæsar"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Corinthian territory",
+     "modern_name": "Corinthia, Greece",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 22.88
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 11,
+    "title": "Crommyon and Theseus' robbers",
+    "summary": "Along the road Pausanias notes Crommyon, the pine and the altar of Melicerta, the origin of the Isthmian games, and Theseus' killing of Sinis and other robbers.",
+    "stakes": "Travellers' lives threatened by Sinis, who tears victims apart between pines.",
+    "present": [
+     "Cromus",
+     "Poseidon",
+     "Theseus",
+     "Pityocamptes",
+     "Melicerta",
+     "Sisyphus",
+     "Sinis",
+     "Periphetes",
+     "Hephæstus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Crommyon and the Isthmus",
+     "modern_name": "Kineta / Isthmus of Corinth",
+     "certainty": "traditional",
+     "lat": 37.97,
+     "lon": 23.0
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 22,
+    "title": "The Isthmus and the canal",
+    "summary": "Pausanias describes the Isthmus, the abandoned canal attempts forbidden by Delphi, and the Corinthian claim that Poseidon won the Isthmus from the Sun.",
+    "stakes": "Those who defy divine ordinance fail, as canal-diggers died or were stopped.",
+    "present": [
+     "Alexander",
+     "Poseidon",
+     "Briareus",
+     "Sun"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Isthmus of Corinth",
+     "modern_name": "Isthmus of Corinth",
+     "certainty": "real",
+     "lat": 37.91,
+     "lon": 22.99
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 33,
+    "title": "Sanctuary of Poseidon",
+    "summary": "Pausanias describes the theatre, stadium, and the temple of Poseidon with its gold and ivory statues given by Herod.",
+    "stakes": "",
+    "present": [
+     "Poseidon",
+     "Amphitrite",
+     "Palæmon",
+     "Herod",
+     "Aphrodite",
+     "Ino",
+     "Bellerophon",
+     "Pegasus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Isthmian sanctuary of Poseidon",
+     "modern_name": "Isthmia, Greece",
+     "certainty": "real",
+     "lat": 37.92,
+     "lon": 23.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Eumelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Bacchid poet, said to have written a History of Corinth"
+   },
+   {
+    "name": "Ephyre",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of Oceanus, first dweller in the land"
+   },
+   {
+    "name": "Oceanus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Ephyre"
+   },
+   {
+    "name": "Marathon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Epopeus who fled to Attica and returned"
+   },
+   {
+    "name": "Epopeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king, father of Marathon, son of Aloeus"
+   },
+   {
+    "name": "Aloeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of the Sun, father of Epopeus"
+   },
+   {
+    "name": "Sun",
+    "aliases": [],
+    "kind": "god",
+    "description": "ancestor of Aloeus; disputed with Poseidon over Corinth"
+   },
+   {
+    "name": "Sicyon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Marathon, eponym of Sicyonia"
+   },
+   {
+    "name": "Corinthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Marathon, eponym of Corinth"
+   },
+   {
+    "name": "Critolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achæan commander who provoked war with Rome"
+   },
+   {
+    "name": "Mummius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman general who destroyed Corinth"
+   },
+   {
+    "name": "Julius Cæsar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have rebuilt Corinth and founded the Empire"
+   },
+   {
+    "name": "Cromus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Poseidon, namesake of Crommyon"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god, patron of the Isthmus"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who cleared the road of robbers"
+   },
+   {
+    "name": "Pityocamptes",
+    "aliases": [
+     "Sinis"
+    ],
+    "kind": "mortal",
+    "description": "Pinebender, a robber killed by Theseus"
+   },
+   {
+    "name": "Sinis",
+    "aliases": [
+     "Pityocamptes"
+    ],
+    "kind": "mortal",
+    "description": "robber who tore victims apart with bent pines"
+   },
+   {
+    "name": "Periphetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "club-wielding robber at Epidaurus"
+   },
+   {
+    "name": "Hephæstus",
+    "aliases": [],
+    "kind": "god",
+    "description": "putative father of Periphetes"
+   },
+   {
+    "name": "Melicerta",
+    "aliases": [
+     "Palæmon"
+    ],
+    "kind": "mortal",
+    "description": "boy carried by a dolphin, honoured at the Isthmus"
+   },
+   {
+    "name": "Palæmon",
+    "aliases": [
+     "Melicerta"
+    ],
+    "kind": "god",
+    "description": "son of Poseidon and Amphitrite in the statue group"
+   },
+   {
+    "name": "Sisyphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "buried Melicerta and founded the Isthmian games"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Philip, who wished to dig a canal"
+   },
+   {
+    "name": "Briareus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "arbitrator between Poseidon and the Sun"
+   },
+   {
+    "name": "Herod",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who dedicated the gold and ivory statues"
+   },
+   {
+    "name": "Amphitrite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sea goddess, wife of Poseidon in statue"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "shown rising from the sea in the statue base"
+   },
+   {
+    "name": "Ino",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "figure among the statues"
+   },
+   {
+    "name": "Bellerophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero statue with Pegasus"
+   },
+   {
+    "name": "Pegasus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "winged horse statue"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Oceanus",
+    "relation": "parent_of",
+    "b": "Ephyre",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Epopeus",
+    "relation": "parent_of",
+    "b": "Marathon",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Aloeus",
+    "relation": "parent_of",
+    "b": "Epopeus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Marathon",
+    "relation": "parent_of",
+    "b": "Sicyon",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Marathon",
+    "relation": "parent_of",
+    "b": "Corinthus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Cromus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Palæmon",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Amphitrite",
+    "relation": "parent_of",
+    "b": "Palæmon",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Poseidon",
+    "relation": "spouse_of",
+    "b": "Amphitrite",
+    "source": "outside",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Melicerta",
+    "relation": "transformed_into",
+    "b": "Palæmon",
+    "source": "outside",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pityocamptes",
+    "canonical": "Sinis",
+    "explanation": "Pinebender, nickname of the robber Sinis."
+   },
+   {
+    "alias": "Palæmon",
+    "canonical": "Melicerta",
+    "explanation": "Melicerta was worshipped as Palæmon at the Isthmus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 19,
+    "reason": "Pausanias' moral on the futility of opposing divine will.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends local legend, history and sights, showing how myth explains place and how the divine limits human ambition.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The account of Corinth's destruction in 146 BC and refounding by Caesar as a Roman colony shows the city's Roman character in Pausanias' day.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Isthmian games described here were one of the four great Panhellenic festivals, and the canal Pausanias mentions was finally dug in 1881–93."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Herod who gave the statues is probably Herodes Atticus, the wealthy 2nd-century AD Athenian benefactor.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Eumelus was an early Corinthian epic poet; the Bacchidæ were the aristocratic clan that ruled Corinth. Pausanias doubts the attribution with \"if indeed he is the author\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Achæan War of 146 BC: the Achæan League, led by Critolaus, fought Rome and lost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Razed the fortifications\" means they pulled down the city walls. \"The Imperial\" glosses the government as rule by emperors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The Phæan boar was a monstrous sow Theseus killed near Crommyon. Pityocamptes is another name for the robber Sinis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Melicerta is the child who drowned and was carried ashore by a dolphin; the Isthmian games were founded in his honour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Putative\" means supposed or reputed: Periphetes was only said to be Hephæstus' son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Mimas is a mountainous peninsula in Ionia; the sentence is odd, as Alexander's canal project there is a different case from the Isthmus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "Navvies are labourers who dig canals; this is a modern English word for the workmen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "\"Used tall talk\" means boasted extravagantly, here about legendary claims for their own land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Briareus was one of the hundred-handed giants, called here to judge between the god and the Sun.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "A peplus is a woman's robe or mantle; this one was said to be the robe Eriphyle took as a bribe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "The sons of Tyndareus are Castor and Pollux, the Dioscuri, who were believed to help sailors in storms.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Mummius sacked Corinth in 146 BC. Julius Caesar refounded it as a Roman colony in 44 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Sinis was one of the robbers Theseus killed on his road from Trœzen to Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "The Isthmian games were a major festival held at the Isthmus in honour of Poseidon, with athletic and musical contests.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Herod is Herodes Atticus, a wealthy Athenian of the second century AD who gave many benefactions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Palæmon was a sea deity, formerly the child of Ino, linked with the Isthmian games.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "contrast",
+    "text": "The blunt statement that no ancient Corinthians remain sets the city's present against its mythic past.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "imagery",
+    "text": "The vivid picture of the victim pulled apart by two pines makes the robber's cruelty concrete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "irony",
+    "text": "Sinis dies by his own method, a fitting poetic justice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "moral commentary",
+    "text": "Pausanias steps in with a general maxim, turning the failed canal projects into a lesson about human limits before the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "allusion",
+    "text": "The scene of the sea holding up the newly risen Aphrodite evokes her birth from the sea, linking the sculpture to myth.",
+    "spoiler": false
+   }
+  ]
+ }
+}

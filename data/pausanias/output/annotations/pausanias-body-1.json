@@ -1,0 +1,427 @@
+{
+ "section_id": "pausanias-body-1",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8272,
+  "output": 3523
+ },
+ "result": {
+  "summary": "Pausanias begins his tour of Greece at Attica's coast: Sunium, Laurium, and the harbours of Phalerum, Piraeus and Munychia. He recounts the history of the harbours, Themistocles' tomb and the sights and temples near them.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Sunium and Laurium coast",
+    "summary": "The promontory of Sunium, its temple of Athene, Laurium's silver mines and Patroclus' island are described. The island's name leads to a note on the Ptolemaic fleet sent against Athens.",
+    "stakes": "",
+    "present": [
+     "Patroclus",
+     "Ptolemy",
+     "Antigonus",
+     "Demetrius",
+     "Lagus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sunium",
+     "modern_name": "Cape Sounion",
+     "certainty": "real",
+     "lat": 37.65,
+     "lon": 24.02
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 5,
+    "title": "Harbours of Athens and Themistocles",
+    "summary": "Phalerum was the old port; Themistocles made the Piraeus the port. His tomb is there, and his sons returned from exile.",
+    "stakes": "",
+    "present": [
+     "Themistocles",
+     "Menestheus",
+     "Theseus",
+     "Minos",
+     "Androgeos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Piraeus",
+     "modern_name": "Piraeus",
+     "certainty": "real",
+     "lat": 37.94,
+     "lon": 23.65
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 10,
+    "title": "Sights of the Piraeus",
+    "summary": "The gold statues of Athene and Zeus, a painting of Leosthenes, the portico and Conon's temple of Aphrodite are described, with a note on Aphrodite at Cnidus.",
+    "stakes": "",
+    "present": [
+     "Athene",
+     "Zeus",
+     "Leosthenes",
+     "Demos",
+     "Aphrodite",
+     "Conon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Piraeus",
+     "modern_name": "Piraeus",
+     "certainty": "real",
+     "lat": 37.94,
+     "lon": 23.65
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 18,
+    "title": "Munychia, Phalerum and Colias",
+    "summary": "Pausanias lists shrines at Munychia and Phalerum, the altar of Androgeos, the promontory of Colias and the burnt temple of Hera on the road to Athens.",
+    "stakes": "",
+    "present": [
+     "Artemis",
+     "Demeter",
+     "Athene",
+     "Zeus",
+     "Phalerus",
+     "Jason",
+     "Androgeos",
+     "Aphrodite",
+     "Mardonius",
+     "Alcamenes",
+     "Hera"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phalerum",
+     "modern_name": "Palaio Faliro",
+     "certainty": "real",
+     "lat": 37.93,
+     "lon": 23.69
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Patroclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Egyptian admiral who fortified an island"
+   },
+   {
+    "name": "Ptolemy",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lagus, sent a fleet against Athens"
+   },
+   {
+    "name": "Lagus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Ptolemy"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Demetrius, raided Attica"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Antigonus"
+   },
+   {
+    "name": "Themistocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian ruler who made the Piræus the port"
+   },
+   {
+    "name": "Menestheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sailed from Phalerum to Troy"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sailed to punish Minos"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king whose son Androgeos died"
+   },
+   {
+    "name": "Androgeos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Minos, honoured with an altar"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Athene of Sunium",
+     "Sciradian Athene",
+     "Athene of Cnidus"
+    ],
+    "kind": "goddess",
+    "description": "goddess with temples around the coast"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a gold statue in the Piræus"
+   },
+   {
+    "name": "Leosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian general who defeated the Macedonians"
+   },
+   {
+    "name": "Demos",
+    "aliases": [],
+    "kind": "other",
+    "description": "personified People, statue by Leochares"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Doritis",
+     "Acræa",
+     "Aphrodite of Colias"
+    ],
+    "kind": "goddess",
+    "description": "goddess worshipped at Cnidus and Colias"
+   },
+   {
+    "name": "Conon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "admiral who won at Cnidus and built a temple"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Artemis of Munychia"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a temple at Munychia"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple near Phalerum"
+   },
+   {
+    "name": "Phalerus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who sailed with Jason"
+   },
+   {
+    "name": "Jason",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the voyage to Colchis"
+   },
+   {
+    "name": "Mardonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian, son of Gobryas, burnt Hera's temple"
+   },
+   {
+    "name": "Gobryas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Mardonius"
+   },
+   {
+    "name": "Alcamenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the Hera statue"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose temple lacks doors and roof"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lagus",
+    "relation": "parent_of",
+    "b": "Ptolemy",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Demetrius",
+    "relation": "parent_of",
+    "b": "Antigonus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Minos",
+    "relation": "parent_of",
+    "b": "Androgeos",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Gobryas",
+    "relation": "parent_of",
+    "b": "Mardonius",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Theseus",
+    "relation": "parent_of",
+    "b": "Phalerus",
+    "source": "outside",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Athene of the Fair Voyage",
+    "canonical": "Athene",
+    "explanation": "The Cnidians' name for the temple others call Athene of Cnidus."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The opening sets the book's method: a traveller's tour that mixes monuments with local history and tradition.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias writes in the Roman period and treats Athens' wars, Persian, Macedonian and Egyptian, as fading history recorded in monuments.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The temple of Athene at Sunium survives as ruins, and the cape remains a famous landmark.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "A palisade is a fence of stakes; Patroclus fortified the island as a naval base during this campaign.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Township\" means a small settlement or deme, not a harbour town.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Exhumed\" means dug up. Themistocles died in exile in Magnesia in Asia Minor, so his bones were brought back secretly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Leosthenes led the Greeks in the Lamian War (323–322 BC) against Macedonian rule after Alexander's death; he was killed besieging Lamia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Conon's victory off Cnidus in 394 BC destroyed Spartan sea power; Lacedæmonians means Spartans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Tutelary saint\" is the translator's phrase for a guardian deity. Doritis, Acræa and Fair Voyage are cult titles of the goddess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Jason sailed to Colchis on the Argo to fetch the Golden Fleece; Phalerus is said to have been among the Argonauts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "The Persian fleet was wrecked after the battle of Salamis (480 BC); a stade is about 200 metres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Mardonius was the Persian general who occupied and burnt Athens in 479 BC.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The silver mines at Laurium financed Athens' fleet; the temple at Sunium was a landmark for sailors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Themistocles, the Athenian statesman who built up the fleet before Salamis, developed the Piraeus as Athens' main harbour around 493 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Demos means the Athenian People, personified as a deity. Leochares was a famous fourth-century BC sculptor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Androgeos, son of Minos, was killed in Attica, which led to Athens paying tribute to Crete.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "irony",
+    "text": "Athens regrets mistreating the man it exiled, and honours his bones only after his death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "characterization",
+    "text": "Pausanias flatters himself and knowledgeable readers as scholars, showing his pride in antiquarian learning and his authorial voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "irony",
+    "text": "The closing remark suggests the surviving statue escaped the burning, a wry, skeptical aside on local tradition.",
+    "spoiler": false
+   }
+  ]
+ }
+}

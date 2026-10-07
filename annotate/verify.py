@@ -24,7 +24,7 @@ import urllib.parse
 import urllib.request
 from collections import Counter
 
-from annotate.merge import is_proper_name, judge, merge, norm
+from annotate.merge import apply_namesakes, is_proper_name, judge, merge, norm
 from annotate.run import ROOT, get_client
 
 MODEL = "claude-haiku-4-5"       # choosing one of a few candidates is simple work
@@ -126,8 +126,9 @@ def book_names(slug: str) -> tuple[str, dict[str, dict], list[tuple[str, str, st
     names: dict[str, dict] = {}
     stated = []
     files = sorted((out_dir(slug) / "annotations").glob(f"{slug}-body-*.json"), key=lambda f: order.get(f.stem, 0))
-    for f in files:
-        result = json.loads(f.read_text(encoding="utf-8"))["result"]
+    results = {f.stem: json.loads(f.read_text(encoding="utf-8"))["result"] for f in files}
+    apply_namesakes(out_dir(slug), results)          # each of several people who share a name under their own name
+    for result in results.values():
         for c in result["characters"]:
             key = norm(c["name"])
             if not key or c["kind"] in SKIP_KINDS:

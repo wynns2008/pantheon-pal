@@ -1,0 +1,408 @@
+{
+ "section_id": "pausanias-body-271",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7177,
+  "output": 3172
+ },
+ "result": {
+  "summary": "Pausanias describes the temple of Athene Alea at Tegea, its statues, relics and altar, the nearby race-course and spring, and other Tegean sanctuaries. He gives local legends about Athene Poliatis protecting the city and about Artemis Hegemone and Aristomelidas.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Temple of Athene Alea",
+    "summary": "Pausanias lists the statue, offerings, altar, race-course and spring at the Tegean temple of Athene, and the nearby temple of Hermes.",
+    "stakes": "",
+    "present": [
+     "Athene",
+     "Æsculapius",
+     "Hygiea",
+     "Scopas",
+     "Marpessa",
+     "Melampus",
+     "Auge",
+     "Hercules",
+     "Rhea",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tegea",
+     "modern_name": "Tegea (near Alea), Arcadia",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.42
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 11,
+    "title": "Athene Poliatis and Medusa's lock",
+    "summary": "The temple of Athene Poliatis is entered by the priest once a year; Athene gave Cepheus a lock of Medusa to keep Tegea safe.",
+    "stakes": "Tegea's safety from capture.",
+    "present": [
+     "Athene",
+     "Cepheus",
+     "Medusa"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tegea",
+     "modern_name": "Tegea (near Alea), Arcadia",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.42
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 15,
+    "title": "Artemis Hegemone legend",
+    "summary": "Aristomelidas seizes a Tegean maiden, who kills herself. Artemis sends Chronius a dream, he kills the tyrant and founds her temple at Tegea.",
+    "stakes": "The maiden's honour and life; Aristomelidas's life.",
+    "present": [
+     "Aristomelidas",
+     "Chronius",
+     "Artemis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Orchomenus in Arcadia",
+     "modern_name": "Orchomenos, Arcadia",
+     "certainty": "real",
+     "lat": 37.68,
+     "lon": 22.3
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Athene",
+    "aliases": [
+     "Hippia",
+     "Alea",
+     "Poliatis"
+    ],
+    "kind": "goddess",
+    "description": "goddess worshipped at Tegea under several titles"
+   },
+   {
+    "name": "Enceladus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "giant whose chariot Athene drove"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "statue beside Athene"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue beside Athene"
+   },
+   {
+    "name": "Scopas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Parian sculptor"
+   },
+   {
+    "name": "Auge",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman violated by Hercules"
+   },
+   {
+    "name": "Marpessa",
+    "aliases": [
+     "the Widow"
+    ],
+    "kind": "mortal",
+    "description": "Tegean woman, once priestess of Athene"
+   },
+   {
+    "name": "Melampus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amythaon, made the altar"
+   },
+   {
+    "name": "Amythaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Melampus"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "shown on the altar"
+   },
+   {
+    "name": "Œnoe",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph with infant Zeus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "shown as a baby on the altar"
+   },
+   {
+    "name": "Glauce",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph on the altar"
+   },
+   {
+    "name": "Neda",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph on the altar"
+   },
+   {
+    "name": "Thisoa",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph on the altar"
+   },
+   {
+    "name": "Anthracia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph on the altar"
+   },
+   {
+    "name": "Ida",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph on the altar"
+   },
+   {
+    "name": "Hagno",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph on the altar"
+   },
+   {
+    "name": "Alcinoe",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph on the altar"
+   },
+   {
+    "name": "Phrixa",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph on the altar"
+   },
+   {
+    "name": "Mnemosyne",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue in the temple"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "violated Auge by the spring"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Æpytus"
+    ],
+    "kind": "god",
+    "description": "god with a temple near the spring"
+   },
+   {
+    "name": "Cepheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aleus, given protection for Tegea"
+   },
+   {
+    "name": "Aleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cepheus"
+   },
+   {
+    "name": "Medusa",
+    "aliases": [],
+    "kind": "monster",
+    "description": "her lock protects Tegea"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Hegemone"
+    ],
+    "kind": "goddess",
+    "description": "goddess who avenged the maiden"
+   },
+   {
+    "name": "Aristomelidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant of Orchomenus"
+   },
+   {
+    "name": "Chronius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "guardian who killed Aristomelidas"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Amythaon",
+    "relation": "parent_of",
+    "b": "Melampus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Aleus",
+    "relation": "parent_of",
+    "b": "Cepheus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Hercules",
+    "relation": "lover_of",
+    "b": "Auge",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Rhea",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "outside",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Alea",
+    "canonical": "Athene",
+    "explanation": "Title of Athene used by most Greeks; Manthurii call her Hippia."
+   },
+   {
+    "alias": "Hippia",
+    "canonical": "Athene",
+    "explanation": "'Of the horse', the Manthurian title."
+   },
+   {
+    "alias": "Æpytus",
+    "canonical": "Hermes",
+    "explanation": "Cult title of Hermes at Tegea."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Sacred objects and local legends tie Tegea's identity to Athene, its war victories and its protection from capture.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The fetters and the Halotia games commemorate Tegea's capture of Spartan prisoners, a point of civic pride against Sparta.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Calydonian boar hide was a famous relic at Tegea, which Pausanias saw decayed with age.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Alludes to the Gigantomachy, the gods' war against the giants; Enceladus was one giant, and Hippia means 'of the horse' or chariot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The Calydonian boar was the monster hunted by Meleager and others; its hide was a famous relic kept at Tegea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Halotia derives from the Greek word for 'captured', referring to the Lacedæmonian prisoners taken in battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Auge was priestess of Athene and mother of Telephus by Hercules; Hecatæus was an early historian who told her story differently.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Medusa was the Gorgon whose severed head Athene bore; her hair was a talisman, here guarding the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Somehow or other\" is Pausanias' vague way of saying he does not know how the maiden was seized.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Scopas of Paros was a celebrated fourth-century BC sculptor who worked on temples at Tegea; Æsculapius is the healing god and Hygiea his daughter, Health.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Melampus was a legendary Greek seer and healer, credited with founding various cults and rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Poliatis means 'protectress of the city'; the restricted entry shows the shrine's special sanctity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Artemis Hegemone means 'Artemis the Leader'; the tale gives an origin for her cult at Tegea.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "symbolism",
+    "text": "Medusa's lock stands for divine protection: a dreadful object turned into a talisman guaranteeing the city's safety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "characterization",
+    "text": "The maiden's suicide shows her virtue and fear in a single brief clause, giving the tyrant's lust a tragic result.",
+    "spoiler": false
+   }
+  ]
+ }
+}

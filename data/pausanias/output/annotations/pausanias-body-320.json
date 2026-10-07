@@ -1,0 +1,314 @@
+{
+ "section_id": "pausanias-body-320",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8426,
+  "output": 2818
+ },
+ "result": {
+  "summary": "Pausanias explains how Phocis got its name and where it lies. He then recounts the Phocians' wars against the Thessalians, won by buried pots, a desperate resolve, an oracle, and a night attack in white plaster.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Naming and geography of Phocis",
+    "summary": "Pausanias tells how Phocis took its name from Phocus and describes its borders and ports.",
+    "stakes": "",
+    "present": [
+     "Phocus",
+     "Ornytion",
+     "Æacus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phocis",
+     "modern_name": "Phocis, central Greece",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 6,
+    "title": "The buried pots at Hyampolis",
+    "summary": "The Phocians bury pots to cripple the Thessalian cavalry, which is lamed and unhorsed.",
+    "stakes": "The Phocians risk being overrun by the superior Thessalian cavalry.",
+    "present": [
+     "Phocians",
+     "Thessalians"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Hyampolis",
+     "modern_name": "near Kalapodi, Phocis",
+     "certainty": "real",
+     "lat": 38.6,
+     "lon": 22.97
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 11,
+    "title": "Oracle and Phocian Resolution",
+    "summary": "The Phocians consult Delphi, lose 300 men under Gelon, and prepare a funeral pile for their families, giving rise to the phrase Phocian Resolution.",
+    "stakes": "The Phocians face destruction and the loss of their families and property.",
+    "present": [
+     "Phocians",
+     "Thessalians",
+     "Gelon",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Phocis",
+     "modern_name": "Phocis, central Greece",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 17,
+    "title": "The battle won and statues at Delphi",
+    "summary": "Led by Tellias, Rhœus and Daiphantes, the Phocians win; the passwords reveal the oracle's meaning, and statues are dedicated at Delphi.",
+    "stakes": "Defeat would mean the death of the Phocians' families and the loss of their land.",
+    "present": [
+     "Tellias",
+     "Rhœus",
+     "Daiphantes",
+     "Apollo",
+     "Aristomedon",
+     "Phocians",
+     "Thessalians"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Phocis",
+     "modern_name": "Phocis, central Greece",
+     "certainty": "real",
+     "lat": 38.5,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 21,
+    "title": "The night attack in plaster",
+    "summary": "Five hundred Phocians whiten themselves with plaster and terrify the Thessalians in a night attack devised by Tellias.",
+    "stakes": "The Phocians risk defeat by the Thessalian camp at the entrance to Phocis.",
+    "present": [
+     "Tellias",
+     "Phocians",
+     "Thessalians"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Entrance to Phocis",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Phocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian son of Ornytion who gave Phocis its name; another Phocus was son of Æacus"
+   },
+   {
+    "name": "Ornytion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the Corinthian Phocus"
+   },
+   {
+    "name": "Æacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Phocus who came with the Æginetans"
+   },
+   {
+    "name": "Gelon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the 300 picked Phocians killed by the Thessalians"
+   },
+   {
+    "name": "Rhœus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phocian commander of infantry from Ambrosus"
+   },
+   {
+    "name": "Daiphantes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phocian cavalry commander from Hyampolis"
+   },
+   {
+    "name": "Tellias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "seer of Elis, commander in chief of the Phocians"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose oracle at Delphi advised the Phocians"
+   },
+   {
+    "name": "Aristomedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive sculptor of the statues at Delphi"
+   },
+   {
+    "name": "Itonian Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess invoked as the Thessalian watchword"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ornytion",
+    "relation": "parent_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Æacus",
+    "relation": "parent_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Athene",
+    "canonical": "Itonian Athene",
+    "explanation": "The Thessalian watchword names Athene by her Itonian cult title."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "The ambiguous Delphic oracle about mortal and immortal that the battle later explains.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "reason": "Explains the origin of the Greek phrase Phocian Resolution.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows cunning and desperation winning against a stronger foe, with an oracle's riddle explained only afterwards.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias records Phocian traditions from before the Persian invasion, tying them to Delphi's dedications and to a proverbial phrase.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The phrase Phocian Resolution became proverbial among the Greeks for a desperate, all-or-nothing decision."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Herodotus also tells of the Phocian pots and the whitened men in his account of the Thessalian wars.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The Epicnemidian Locrians were a Locrian people living by Mount Cnemis; they held a strip of coast that cut Phocis off from the Lamiac Gulf.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "The oracle's riddle speaks of a 'mortal and immortal' fighting together; the Phocians do not understand it until the battle passwords are revealed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "'Phocian Resolution' became a Greek proverb for a desperate, all-or-nothing decision made out of despair.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Itonian Athene was a goddess worshipped by the Thessalians at Itonus. Phocus was a human hero, so the immortal and mortal of the oracle are the two watchwords.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "'Plaster' means a white gypsum or lime coating. 'At its full' means the moon was full, making the white figures look eerie and bright.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "The war against Ilium is the Trojan War. The Persian invasion of Greece occurred in 480 BC, so the Thessalian war was earlier.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Seers were prophets who interpreted omens and sacrifices; armies often took them on campaign, and Elis was famed for its seer families.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Delphi, sacred to Apollo, was where Greek cities dedicated statues and offerings to commemorate victories.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "irony",
+    "text": "The Thessalians charge confidently at the ground, and their own cavalry, their great strength, is turned against them by a simple trick.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "foreshadowing",
+    "text": "The enigmatic oracle hints that the battle will bring both mortal and divine victory, and the passwords later explain it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "characterization",
+    "text": "The funeral pile and orders to kill their own families show the Phocians' grim determination and desperation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "irony",
+    "text": "The Thessalians mistake human plaster for a divine apparition, so superstition defeats them.",
+    "spoiler": false
+   }
+  ]
+ }
+}

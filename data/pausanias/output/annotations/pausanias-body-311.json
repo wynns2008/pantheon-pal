@@ -1,0 +1,278 @@
+{
+ "section_id": "pausanias-body-311",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7429,
+  "output": 2389
+ },
+ "result": {
+  "summary": "Pausanias describes Haliartus and nearby sites: Tilphusa spring where Tiresias died, the temple of the Praxidicae, and the origin of the river Lophis. He then visits Alalcomenae, its temple of Athene, the statue Sulla removed and the temple's decay.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Haliartus and Tilphusa spring",
+    "summary": "Monuments at Haliartus and the tale of Tiresias dying at the fountain Tilphusa, and Manto's journey to Colophon.",
+    "stakes": "",
+    "present": [
+     "Tiresias",
+     "Manto",
+     "Rhacius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Haliartus",
+     "modern_name": "Haliartos",
+     "certainty": "real",
+     "lat": 38.37,
+     "lon": 23.08
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 11,
+    "title": "The death of Lophis",
+    "summary": "A ruler seeking water is told by Delphi to slay the first person he meets; he kills his son Lophis, and water gushes from his blood.",
+    "stakes": "The ruler's own son is sacrificed to obtain water for the dry land.",
+    "present": [
+     "Lophis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "district of Haliartus",
+     "modern_name": "Haliartos",
+     "certainty": "traditional",
+     "lat": 38.37,
+     "lon": 23.08
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 18,
+    "title": "Alalcomenae and Athene's temple",
+    "summary": "The village's name origins, Sulla's removal of the ivory statue, the temple's decay, and the river Triton.",
+    "stakes": "The temple falls into ruin after losing its statue.",
+    "present": [
+     "Alalcomeneus",
+     "Athene",
+     "Sulla"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Alalcomenae",
+     "modern_name": "Alalkomenes",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 23.15
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Tiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban seer who died drinking from Tilphusa"
+   },
+   {
+    "name": "Manto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Tiresias, sent by Apollo to Colophon"
+   },
+   {
+    "name": "Rhacius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan who married Manto"
+   },
+   {
+    "name": "Lophis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of a ruler, killed so water would flow"
+   },
+   {
+    "name": "Alalcomeneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Autochthon who reared Athene"
+   },
+   {
+    "name": "Alalcomenia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Ogygus, alternative namesake of the village"
+   },
+   {
+    "name": "Ogygus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Alalcomenia"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess worshipped at Alalcomenae"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of Delphi who directed Manto"
+   },
+   {
+    "name": "Sulla",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman general who took the statue and died of lice"
+   },
+   {
+    "name": "Cecrops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Pandion, honored with a hero-chapel"
+   },
+   {
+    "name": "Pandion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Cecrops"
+   },
+   {
+    "name": "Lysander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Buried at Haliartus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Tiresias",
+    "relation": "parent_of",
+    "b": "Manto",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Manto",
+    "relation": "spouse_of",
+    "b": "Rhacius",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Cecrops",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Ogygus",
+    "relation": "parent_of",
+    "b": "Alalcomenia",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 15,
+    "reason": "Pausanias gives Sulla's lice-ridden death as divine retribution for plundering Greek gods.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links places to myths and shows divine punishment for those who plunder sanctuaries.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Sulla's sack of Greek cities and temples in the Mithridatic War (86 BC) is remembered here through the stolen cult statue.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Ancient writers reported that Sulla died of a wasting disease, and tradition said it involved lice.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The sons of Polynices (the Epigoni) attacked Thebes a generation after the failed Seven against Thebes; Tiresias was a Theban seer, so he was taken captive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Colophonia is the territory of Colophon, an Ionian city in Asia Minor where Apollo had a famous oracle at Claros.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Tiresias was said to have been changed into a woman and back after striking snakes; in the Odyssey Circe sends Ulysses to consult his ghost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Praxidicæ were goddesses of exacted justice or vengeance, linked with punishing oath-breakers, which explains the caution about oaths.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Autochthon means 'sprung from the soil itself', a native-born original inhabitant of the land.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 11,
+    "text": "The Pythian Priestess was Apollo's prophetess at Delphi, whose oracles were often cryptic and fatal to those who obeyed them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Sulla, the Roman general, sacked Athens in 86 BC during the Mithridatic War and plundered Greek sanctuaries, including Boeotian ones.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Several places claimed to be Athene's birthplace by a river Triton; the best known is in Libya, near Lake Tritonis.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "tragic irony",
+    "text": "The oracle's vague command leads the ruler to kill his own son, and the grim miracle of water springing from blood follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "Sulla, who humiliated gods and cities, dies in humiliating fashion; Pausanias presents the disease as divine retribution.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "symbolism",
+    "text": "Ivy slowly prying apart the stones suggests nature reclaiming a sanctuary abandoned by the people and its goddess.",
+    "spoiler": false
+   }
+  ]
+ }
+}

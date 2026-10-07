@@ -13,7 +13,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from annotate.merge import norm
+from annotate.merge import apply_namesakes, norm
 from litparse.sentences import split_sentences
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -74,7 +74,9 @@ def short_title(slug: str) -> str:
     author = re.search(r"^Author:\s*(.+)$", header, re.M)
     if author:       # "of Ovid" only when Ovid is the author: "The Count of Monte Cristo" keeps its ending
         ending = re.search(r"\s+(?:of|by)\s+(.+)$", title)
-        if ending and ending.group(1).strip().lower() in author.group(1).lower():
+        # ...and not when what is left is only "The Extant Odes" or "The Plays": then the author is part of the name.
+        generic = re.search(r"\b(?:odes|poems|works|hymns|plays|tragedies|fragments)$", title[:ending.start()], re.I) if ending else None
+        if ending and not generic and ending.group(1).strip().lower() in author.group(1).lower():
             title = title[:ending.start()]
     return title.strip(" ,.") or slug
 
@@ -97,10 +99,13 @@ def welcome():
 
 @app.get("/api/books")
 def list_books():
-    """Every parsed book with its title and section counts."""
+    """Every annotated book with its title and section counts. A book that is parsed but not annotated yet (no
+    tree.json) is left out of the picker, the search and the published site until its annotations are done."""
     books = []
     for f in sorted(DATA.glob("*/output/sections.json")):
         slug = f.parent.parent.name
+        if not (f.parent / "tree.json").exists():
+            continue
         book = load(slug)
         books.append({"slug": slug, "title": short_title(slug), "sections": book["report"]["sections"],
                       "by_category": book["report"]["by_category"]})
@@ -129,13 +134,13 @@ _entries: tuple[tuple, list] = ((), [])
 
 
 def entries() -> list[dict]:
-    """Every character and place of every book, each with a `key` shared by all entries for one being or place:
-    entries matched to the same Wikipedia article, or joined by the library index (python -m annotate.library: Jove
-    in the Iliad is Zeus in Hesiod), share a key; a name alone never joins two books. Characters join only
-    characters and places only places, so Tartarus the god (Hesiod) and Tartarus the place stay apart, though
-    they share an article. Re-read when any book changes."""
+    """Every character, place and thing of every book, each with a `key` shared by all entries for one being, place
+    or thing: entries matched to the same Wikipedia article, or joined by the library index (python -m
+    annotate.library: Jove in the Iliad is Zeus in Hesiod), share a key; a name alone never joins two books.
+    Characters join only characters, places only places and things only things, so Tartarus the god (Hesiod) and
+    Tartarus the place stay apart, though they share an article. Re-read when any book changes."""
     global _entries
-    files = [f for f in sorted(DATA.glob("*/output/*.json")) if f.name in ("tree.json", "about.json", "places.json")]
+    files = [f for f in sorted(DATA.glob("*/output/*.json")) if f.name in ("tree.json", "about.json", "places.json", "items.json")]
     files += [DATA / "library.json"] if (DATA / "library.json").exists() else []
     stamp = tuple((str(f), f.stat().st_mtime) for f in files)
     if _entries[0] == stamp:
@@ -180,6 +185,13 @@ def entries() -> list[dict]:
             found.append({"type": "place", "book": slug, "book_title": title, "id": p["id"], "name": p["name"],
                           "names": [p["name"], *place_aliases(p, cast)], "kind": p["kind"],
                           "weight": len(p["scenes"]) + len(p["named"]), "about": p["description"]})
+        file = DATA / slug / "output" / "items.json"
+        for t in json.loads(file.read_text(encoding="utf-8"))["items"] if file.exists() else []:
+            if t["wikipedia"]:
+                links.append((len(found), ("item", t["wikipedia"]["url"])))
+            found.append({"type": "item", "book": slug, "book_title": title, "id": t["id"], "name": t["name"],
+                          "names": [t["name"], *t["names"]], "kind": t["kind"],
+                          "weight": len(t["scenes"]) + len(t["named"]), "about": t["description"]})
     # Entries sharing any piece of evidence are one being or place (union-find).
     parent = list(range(len(found)))
 
@@ -206,8 +218,8 @@ def entry_row(e: dict) -> dict:
 
 @app.get("/api/search")
 def search(q: str, book: str = ""):
-    """Characters and places with a name, or another name, containing the words typed, spelling-insensitive
-    ("aeneas" finds Æneas). One row per being or place, however many books it is in (see entries): it opens in
+    """Characters, places and things with a name, or another name, containing the words typed, spelling-insensitive
+    ("aeneas" finds Æneas). One row per being, place or thing, however many books it is in (see entries): it opens in
     `book`, the book being read, if it is there, and lists its `books`. Names that start with the words come first,
     then names with a word that does, then the rest; within each the most present first."""
     key = norm(q)
@@ -232,7 +244,7 @@ def search(q: str, book: str = ""):
 
 @app.get("/api/books/{slug}/elsewhere")
 def get_elsewhere(slug: str, type: str, id: str):
-    """The same character, or the same place, in the other books (see entries): [{type, book, book_title, id, name, kind}]."""
+    """The same character, place or thing in the other books (see entries): [{type, book, book_title, id, name, kind}]."""
     mine = next((e for e in entries() if e["book"] == slug and e["type"] == type and e["id"] == id), None)
     if mine is None:
         return []
@@ -254,14 +266,14 @@ NOTE_LISTS = {"footnotes", "endnotes", "notes"}      # lists of notes that the r
 
 def in_contents(s: dict) -> bool:
     """What the contents list offers: the text itself, the translator's commentary on it, and the introductions.
-    Left out: the Gutenberg header and licence, tables of contents, indexes, lists of footnotes and stubs."""
+    Left out: the Gutenberg header and licence, title pages, tables of contents, indexes, lists of footnotes and stubs."""
     if s["category"] == "body":
         return True
     if len(s["text"]) < 200:
         return False
     if s["category"] == "commentary":
         return s["path"][-1].lower() not in NOTE_LISTS and s["path"][0].lower() not in NOTE_LISTS
-    return s["category"] == "front_matter" and s["path"][0] != "Contents"
+    return s["category"] == "front_matter" and s["path"][0] not in ("Contents", "Title page")
 
 
 @app.get("/api/books/{slug}/toc")
@@ -342,6 +354,7 @@ def get_annotations(slug: str, section_id: str, spoilers: bool = True):
     if not file.exists():
         return {"sentences": sentences, "annotated": False, "annotations": None, "hidden": 0}
     result = json.loads(file.read_text(encoding="utf-8"))["result"]
+    apply_namesakes(DATA / slug / "output", {section_id: result})     # "Ptolemy" here is "Ptolemy, son of Lagus"
     for key in ("literary_notes", "analysis", "notable_quotes", "scenes", "legacy"):
         result.setdefault(key, [])         # files made by an older prompt do not have these
     result.setdefault("summary", "")
@@ -464,6 +477,21 @@ def get_places(slug: str):
                               "scene_title": scene_titles.get((sc["section"], sc["scene"]), "")} for sc in p["scenes"]],
              "named": [{**n, "title": titles.get(n["section"], "")} for n in p["named"]]}
             for p in json.loads(file.read_text(encoding="utf-8"))["places"]]
+
+
+@app.get("/api/books/{slug}/items")
+def get_items(slug: str):
+    """The book's notable things (python -m annotate.items), each with the scenes that tell of it and the sections
+    that name it, with their titles for the links. An empty list when the step has not been run."""
+    file = DATA / slug / "output" / "items.json"
+    if not file.exists():
+        return []
+    titles = {s["id"]: " › ".join(s["path"]) for s in load(slug)["sections"]}
+    scene_titles = {(sc["section"], sc["scene"]): sc["title"] for sc in scene_index(slug)}
+    return [{**t, "scenes": [{**sc, "title": titles.get(sc["section"], ""),
+                              "scene_title": scene_titles.get((sc["section"], sc["scene"]), "")} for sc in t["scenes"]],
+             "named": [{**n, "title": titles.get(n["section"], "")} for n in t["named"]]}
+            for t in json.loads(file.read_text(encoding="utf-8"))["items"]]
 
 
 @app.get("/api/books/{slug}/about")

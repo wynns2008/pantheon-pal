@@ -1,0 +1,490 @@
+{
+ "section_id": "pausanias-body-223",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10370,
+  "output": 4160
+ },
+ "result": {
+  "summary": "Pausanias describes Ægira, its name from the goat stratagem against the Sicyonians, and its temples and statues. He then covers the road to Phelloe and the neighbouring Pellene with its seaport Aristonautæ.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Ægira and the goats",
+    "summary": "Pausanias gives the distances at Ægira and tells how Hyperesia became Ægira, when goats with torches frightened off Sicyonian invaders.",
+    "stakes": "The Hyperesians risk being invaded and overcome by the Sicyonians.",
+    "present": [
+     "Sicyonians",
+     "Hyperesians",
+     "Artemis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ægira",
+     "modern_name": "Aigeira, Achaea",
+     "certainty": "real",
+     "lat": 38.1,
+     "lon": 22.37
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 21,
+    "title": "Temples and statues of Ægira",
+    "summary": "Pausanias describes the temples of Zeus, Artemis, Apollo and others, and a statue group of a grieving old man.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Artemis",
+     "Iphigenia",
+     "Apollo",
+     "Æsculapius",
+     "Serapis",
+     "Isis",
+     "Aphrodite",
+     "Fortune",
+     "Cupid",
+     "Euclides",
+     "Laphaes",
+     "Pindar"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ægira",
+     "modern_name": "Aigeira, Achaea",
+     "certainty": "real",
+     "lat": 38.1,
+     "lon": 22.37
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 27,
+    "title": "The road to Phelloe",
+    "summary": "A mountain road leads from Ægira to Phelloe, a well-watered place with temples of Dionysus and Artemis.",
+    "stakes": "",
+    "present": [
+     "Dionysus",
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phelloe",
+     "modern_name": "near Seliana, Achaea",
+     "certainty": "real",
+     "lat": 38.05,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 36,
+    "title": "Pellene and Donussa",
+    "summary": "Pausanias discusses the origin of Pellene's name, Donussa and Homer's text, and the seaport Aristonautæ.",
+    "stakes": "",
+    "present": [
+     "Pallas",
+     "Pellen",
+     "Phorbas",
+     "Triopas",
+     "Homer",
+     "Pisistratus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pellene",
+     "modern_name": "Pellene, Achaea",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 22.5
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Artemis the Huntress"
+    ],
+    "kind": "goddess",
+    "description": "goddess worshipped at Ægira and Phelloe"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a seated statue at Ægira"
+   },
+   {
+    "name": "Iphigenia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Agamemnon, said to be the old statue"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Iphigenia"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with an ancient temple at Ægira"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with statues at Ægira"
+   },
+   {
+    "name": "Serapis",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a statue at Ægira"
+   },
+   {
+    "name": "Isis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a statue at Ægira"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Celestial Aphrodite"
+    ],
+    "kind": "goddess",
+    "description": "chiefly worshipped goddess at Ægira"
+   },
+   {
+    "name": "Fortune",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue holding the horn of Amalthea"
+   },
+   {
+    "name": "Cupid",
+    "aliases": [],
+    "kind": "god",
+    "description": "winged statue beside Fortune"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple at Phelloe"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "other",
+    "description": "Titan from whom Pellene is said to be named"
+   },
+   {
+    "name": "Pellen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive, son of Phorbas, eponym of Pellene"
+   },
+   {
+    "name": "Phorbas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pellen"
+   },
+   {
+    "name": "Triopas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "grandfather of Pellen"
+   },
+   {
+    "name": "Euclides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian sculptor of the Zeus statue"
+   },
+   {
+    "name": "Laphaes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Phlius"
+   },
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who made Fortune one of the Fates"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet cited for place names"
+   },
+   {
+    "name": "Pisistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "collector of Homer's verses"
+   },
+   {
+    "name": "Sicyonians",
+    "aliases": [],
+    "kind": "other",
+    "description": "people of Sicyon who invaded"
+   },
+   {
+    "name": "Hyperesians",
+    "aliases": [],
+    "kind": "other",
+    "description": "early people of Ægira"
+   },
+   {
+    "name": "Sympathetic",
+    "aliases": [],
+    "kind": "other",
+    "description": "name given to the grieving old man statue"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Iphigenia",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Phorbas",
+    "relation": "parent_of",
+    "b": "Pellen",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Triopas",
+    "relation": "parent_of",
+    "b": "Phorbas",
+    "source": "text",
+    "evidence_sentence": 29
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Hyperesia",
+    "canonical": "Ægira",
+    "explanation": "Homer's name for the town, replaced by Ægira (from the goats)."
+   },
+   {
+    "alias": "Donoessa",
+    "canonical": "Donussa",
+    "explanation": "Pausanias thinks Pisistratus' editors altered the name in Homer."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 18,
+    "reason": "Pausanias' symbolic reading of Fortune and winged Cupid: success in love is chance, not beauty.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links place names to local legends and cult, showing how Greek towns explained themselves.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The mention of Serapis, Isis and a Syrian goddess shows Egyptian and eastern cults reaching Achaea by Pausanias' time.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias suggests Pisistratus' editors altered Homer's text, an early remark on how the Iliad was transmitted.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–185 metres, so 72 stades is about 13 km.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Homer's Iliad (2.573) lists Hyperesia among the cities under Agamemnon's command; Pausanias identifies it with the later Ægira.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Stratagem\" means a military trick or ruse; here the lit goats pass for an army's campfires.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Oreus in Euboea was formerly called Hestiaea; Pausanias shows that old names can survive alongside new ones.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Pentelican marble came from Mount Pentelicus near Athens and was prized for statuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "Ivory head and extremities on a wood core, gilded, describes a chryselephantine-style statue, though here only the extremities are ivory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Iphigenia was Agamemnon's daughter, whose sacrifice at Aulis and later service as Artemis's priestess link her with the goddess's cults.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Serapis and Isis were Egyptian deities whose cults spread widely through the Greek and Roman world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "The horn of Amalthea is the cornucopia, the horn of plenty, a symbol of abundance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Pindar, the Theban lyric poet, called Fortune (Tyche) a Fate, one of the Moirai who govern human destiny.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Stades (singular stade) were Greek units of length, roughly 180–200 metres; 40 stades is about 7–8 km.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "The Ionians held the northern Peloponnese before the Achæans expelled them; this marks the period before Achæan settlement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "Vermilion is a bright red pigment; painting a Dionysus statue red was an old cult practice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The goat's crouching refers to a local legend about Ægira's name, derived from the Greek word for goat; the story is not given here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "Donoessa is Homer's spelling in the quoted line; Pausanias argues it is the same place as Donussa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "Pisistratus, tyrant of Athens, was said to have had Homer's poems gathered and edited; Pausanias blames this for the supposed name change.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Sicyon was a neighbouring city across the Corinthian Gulf region, often at odds with the Achaean towns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Laphaes of Phlius was an early sculptor; Pausanias often guesses at attribution by comparing styles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Celestial Aphrodite (Urania) was the heavenly aspect of the goddess, associated with pure love; her restricted temple reflects that sanctity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The Syrian goddess was a Near Eastern deity, often identified with Atargatis, whose cult required ritual purity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Pellene was the easternmost town of Achæa, bordering Sicyon, so it marks the edge of Achæan territory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Titans were the older divine generation overthrown by Zeus; Phorbas and Triopas are Argive heroes of early genealogies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "The Argonauts were Jason's crew who sailed to fetch the Golden Fleece; the name Aristonautæ means roughly 'best sailors'.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "irony",
+    "text": "The weak townspeople turn their lack of soldiers into a victory through a simple ruse, using goats as an army.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "repetition",
+    "text": "Repeating \"ancient\" three times stresses the temple's great age and venerable authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "symbolism",
+    "text": "The winged Cupid beside Fortune symbolizes love's fickleness, which depends on chance rather than beauty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "characterization",
+    "text": "The father's visible grief gives him his name, Sympathetic, showing how the statue conveys his character through emotion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "hyperbole",
+    "text": "Praise of Phelloe's water is emphatic and general, making a small, unimportant place memorable through its natural abundance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "narrative voice",
+    "text": "Pausanias presents rival local traditions side by side, showing his careful, comparative antiquarian stance without choosing between them.",
+    "spoiler": false
+   }
+  ]
+ }
+}

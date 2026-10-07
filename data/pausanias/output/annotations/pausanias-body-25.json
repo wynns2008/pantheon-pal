@@ -1,0 +1,457 @@
+{
+ "section_id": "pausanias-body-25",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8806,
+  "output": 3777
+ },
+ "result": {
+  "summary": "Pausanias lists statues and paintings on the Athenian Acropolis, then digresses into the history of Athens after Chaeronea: the Lamian War, Macedonian garrisons, and the tyranny of Lachares. It ends with Demetrius son of Antigonus fortifying the Museum hill.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Statues and paintings on the Acropolis",
+    "summary": "Pausanias notes statues of Pericles, Xanthippus, Anacreon, Io and Callisto, and Attalus' paintings of battles. He also mentions Olympiodorus.",
+    "stakes": "",
+    "present": [
+     "Pericles",
+     "Xanthippus",
+     "Anacreon",
+     "Io",
+     "Callisto",
+     "Olympiodorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Acropolis at Athens",
+     "modern_name": "Acropolis of Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 14,
+    "title": "Chaeronea and the Lamian War",
+    "summary": "After Chaeronea Philip crushes Greece. After Alexander's death Athens leads a revolt under Leosthenes, who dies, and the Macedonians garrison Athens' ports.",
+    "stakes": "Athens' freedom from Macedonian rule.",
+    "present": [
+     "Philip",
+     "Alexander",
+     "Antipater",
+     "Aridæus",
+     "Leosthenes",
+     "Darius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens and Greece",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 20,
+    "title": "Cassander and Lachares",
+    "summary": "Olympias is killed by Cassander, who installs Demetrius of Phalerum and then Lachares as tyrant. Demetrius son of Antigonus overthrows Lachares, who is killed in Boeotia for his wealth.",
+    "stakes": "Athenian self-rule under tyrants and conquerors.",
+    "present": [
+     "Olympias",
+     "Aridæus",
+     "Cassander",
+     "Demetrius the son of Phanostratus",
+     "Demetrius the son of Antigonus",
+     "Lachares"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 24,
+    "title": "Demetrius fortifies the Museum",
+    "summary": "Demetrius garrisons the Piraeus and fortifies the Museum hill, where Musaeus was said to be buried.",
+    "stakes": "Athens remains under garrison.",
+    "present": [
+     "Demetrius the son of Antigonus",
+     "Musæus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Museum hill, Athens",
+     "modern_name": "Hill of the Muses (Philopappos)",
+     "certainty": "real",
+     "lat": 37.9672,
+     "lon": 23.7203
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pericles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian statesman, son of Xanthippus"
+   },
+   {
+    "name": "Xanthippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who fought the Persians at Mycale"
+   },
+   {
+    "name": "Anacreon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet of Teos who wrote erotic verse"
+   },
+   {
+    "name": "Sappho",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lesbian poet of love"
+   },
+   {
+    "name": "Io",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Inachus, changed into a cow"
+   },
+   {
+    "name": "Inachus",
+    "aliases": [],
+    "kind": "other",
+    "description": "Father of Io"
+   },
+   {
+    "name": "Callisto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Lycaon, changed into a she-bear"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Callisto"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Loved Io and Callisto"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Hated Io and Callisto"
+   },
+   {
+    "name": "Attalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Dedicator of paintings on the southern wall"
+   },
+   {
+    "name": "Olympiodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian leader who inspired hope"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king who won at Chaeronea"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king after Philip"
+   },
+   {
+    "name": "Aridæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alexander's successor, put to death by Olympias"
+   },
+   {
+    "name": "Antipater",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian who held real power"
+   },
+   {
+    "name": "Leosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian general of the Greek confederacy"
+   },
+   {
+    "name": "Darius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king whose mercenaries Leosthenes shipped back"
+   },
+   {
+    "name": "Olympias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruled after Antipater's death, besieged by Cassander"
+   },
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king hostile to Athens"
+   },
+   {
+    "name": "Demetrius the son of Phanostratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wise man made king of Athens by Cassander"
+   },
+   {
+    "name": "Phanostratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Demetrius"
+   },
+   {
+    "name": "Demetrius the son of Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Conqueror who deposed Lachares"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Demetrius"
+   },
+   {
+    "name": "Lachares",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Savage tyrant of Athens, killed at Corone"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess whose statue Lachares stripped"
+   },
+   {
+    "name": "Musæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Legendary singer buried on the Museum hill"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Xanthippus",
+    "relation": "parent_of",
+    "b": "Pericles",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Inachus",
+    "relation": "parent_of",
+    "b": "Io",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Callisto",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Io",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Callisto",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Io",
+    "relation": "transformed_into",
+    "b": "cow",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Callisto",
+    "relation": "transformed_into",
+    "b": "she-bear",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Phanostratus",
+    "relation": "parent_of",
+    "b": "Demetrius the son of Phanostratus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Antigonus",
+    "relation": "parent_of",
+    "b": "Demetrius the son of Antigonus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "outside",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Galati",
+    "canonical": "Gauls",
+    "explanation": "The Galatians, Celtic invaders defeated in Mysia."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "Pausanias' judgment that Chaeronea began sorrows for all Greeks.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Art and monuments prompt a history of Athenian decline under Macedonian power, a recurring concern in Pausanias.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias, writing under Rome, treats Hellenistic conquests as the end of Greek liberty, focusing on Athens.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Attalus' paintings celebrated victories over Gauls, linking Athens to Pergamene royal propaganda.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Erotic poetry mainly\" means Anacreon wrote chiefly love poetry; \"in liquor\" means drunk, as in his reputation for wine songs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Pourtrayed\" is an old spelling of \"portrayed\"; a cubit is roughly 18 inches (about half a metre), so these paintings were small.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Galati\" are the Gauls (Celts) who invaded Asia Minor; Attalus, king of Pergamon, defeated them in Mysia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Chæronea (338 BC) was where Philip of Macedon defeated Athens and Thebes, ending Greek independence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Generalissimo\" means supreme commander of the combined forces.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "The long walls linked Athens to its harbour at the Piræus; Munychia was a fortified hill above the harbour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Musæus was a legendary early poet and seer, often linked with Orpheus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Io and Callisto were mortal women loved by Zeus and persecuted by Hera, his jealous wife.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "After Alexander died in 323 BC, Athens led the Greek rising now called the Lamian War against Antipater.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Olympias was Alexander's mother; Cassander had her put to death in 316 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Demetrius of Phalerum, a philosopher and orator, governed Athens for Cassander from 317 to 307 BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "metaphor",
+    "text": "\"A beginning of sorrows\" presents a single defeat as the start of a long suffering, and \"made slaves\" figures lost freedom as slavery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "characterization",
+    "text": "Lachares is condemned through a superlative, \"most savage to men and most reckless to the gods\", which sums up his tyranny.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "irony",
+    "text": "Lachares's plunder of the sacred treasures makes him a rich target, and the wealth he stole brings about his death.",
+    "spoiler": false
+   }
+  ]
+ }
+}

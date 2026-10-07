@@ -1,0 +1,510 @@
+{
+ "section_id": "pausanias-body-48",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9564,
+  "output": 4492
+ },
+ "result": {
+  "summary": "Pausanias describes the temple of Athene the Bridler at Corinth and uses it to discuss Bellerophon and the Corinthian kings from Sisyphus to Cypselus. He then tours Corinth's theatre, gymnasium and the temples on the way up Acro-Corinthus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 15,
+    "title": "Bellerophon and Corinth's kings",
+    "summary": "Pausanias describes the temple of Athene the Bridler, then sets out the line of Corinthian rulers from Sisyphus, through the Dorian conquest under Aletes, to Cypselus.",
+    "stakes": "",
+    "present": [
+     "Athene",
+     "Bellerophon",
+     "Pegasus",
+     "Sisyphus",
+     "Glaucus",
+     "Aletes",
+     "Cypselus",
+     "Melas",
+     "Telestes",
+     "Bacchis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Ancient Corinth",
+     "certainty": "real",
+     "lat": 37.9056,
+     "lon": 22.8803
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 21,
+    "title": "Theatre, statues and gymnasium",
+    "summary": "Near the theatre Pausanias notes a wooden Hercules by Dædalus, a temple of Jupiter Capitolinus, and an old gymnasium with the well Lerna and shrines.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Dædalus",
+     "Jupiter Capitolinus",
+     "Æsculapius",
+     "Hygiea",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Ancient Corinth",
+     "certainty": "real",
+     "lat": 37.9056,
+     "lon": 22.8803
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 27,
+    "title": "Ascent to Acro-Corinthus",
+    "summary": "Going up the hill, Pausanias lists temples of Isis, Serapis, the Sun, Necessity and Force, the Mother of the Gods, the Fates, Demeter, Proserpine and Bunæan Hera.",
+    "stakes": "",
+    "present": [
+     "Briareus",
+     "Sun",
+     "Aphrodite",
+     "Isis",
+     "Serapis",
+     "Bunus",
+     "Hermes",
+     "Hera"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Acro-Corinthus",
+     "modern_name": "Acrocorinth",
+     "certainty": "real",
+     "lat": 37.8908,
+     "lon": 22.8719
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who helped Bellerophon and gave him the bridled Pegasus"
+   },
+   {
+    "name": "Bellerophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero of Corinth, son of Glaucus, who went to Lycia"
+   },
+   {
+    "name": "Pegasus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Winged horse bridled by Athene"
+   },
+   {
+    "name": "Sisyphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian king with sons Glaucus, Ornytion, Thersander and Almus"
+   },
+   {
+    "name": "Glaucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Sisyphus, father of Bellerophon"
+   },
+   {
+    "name": "Ornytion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Sisyphus"
+   },
+   {
+    "name": "Phocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Ornytion, nominally of Poseidon; colonized Tithorea"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Nominal father of Phocus"
+   },
+   {
+    "name": "Thoas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Younger son of Ornytion who stayed at Corinth"
+   },
+   {
+    "name": "Aletes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Dorian leader who took Corinth, descendant of Hercules"
+   },
+   {
+    "name": "Hippotas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Aletes"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "Hero whose descendant led the Dorians; subject of a wooden statue"
+   },
+   {
+    "name": "Bacchis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian king, son of Prumnis, ancestor of the Bacchidæ"
+   },
+   {
+    "name": "Telestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Last king of the Bacchidæ, slain by Arieus and Perantas"
+   },
+   {
+    "name": "Cypselus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Eetion who drove out the Bacchidæ and became king"
+   },
+   {
+    "name": "Melas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ancestor of Cypselus who joined the Dorians"
+   },
+   {
+    "name": "Dædalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Craftsman said to have made a wooden Hercules"
+   },
+   {
+    "name": "Jupiter Capitolinus",
+    "aliases": [
+     "Zeus Coryphæus"
+    ],
+    "kind": "god",
+    "description": "God with a temple above the theatre"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with a shrine and bronze statue in the gymnasium"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of healing with shrine and statue"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [
+     "Health"
+    ],
+    "kind": "goddess",
+    "description": "Goddess of health, with a white stone statue"
+   },
+   {
+    "name": "Briareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Gave Acro-Corinthus to the Sun after litigation"
+   },
+   {
+    "name": "Sun",
+    "aliases": [],
+    "kind": "god",
+    "description": "Received Acro-Corinthus and yielded it to Aphrodite"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Received Acro-Corinthus from the Sun"
+   },
+   {
+    "name": "Isis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess with two temples"
+   },
+   {
+    "name": "Serapis",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with two temples"
+   },
+   {
+    "name": "Bunus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Hermes who built the temple of Bunæan Hera"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Bunus"
+   },
+   {
+    "name": "Hera",
+    "aliases": [
+     "Bunæan Hera"
+    ],
+    "kind": "goddess",
+    "description": "Goddess titled Bunæan from Bunus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Sisyphus",
+    "relation": "parent_of",
+    "b": "Glaucus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Glaucus",
+    "relation": "parent_of",
+    "b": "Bellerophon",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Sisyphus",
+    "relation": "parent_of",
+    "b": "Ornytion",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Ornytion",
+    "relation": "parent_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Ornytion",
+    "relation": "parent_of",
+    "b": "Thoas",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Thoas",
+    "relation": "parent_of",
+    "b": "Demophon",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Hippotas",
+    "relation": "parent_of",
+    "b": "Aletes",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Hermes",
+    "relation": "parent_of",
+    "b": "Bunus",
+    "source": "text",
+    "evidence_sentence": 26
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Jupiter Capitolinus",
+    "canonical": "Zeus Coryphæus",
+    "explanation": "The text gives the Roman name and says the Greek equivalent is Zeus Coryphæus."
+   },
+   {
+    "alias": "Bridler",
+    "canonical": "Athene",
+    "explanation": "Cult title of Athene, from her bridling of Pegasus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Pausanias's well-known remark on the odd yet inspired look of Dædalus's works.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "Pausanias reconstructs Corinthian royal lineages, showing Greek interest in descent, the Dorian return of the Heraclids, and use of Homer as historical evidence.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "The tour mixes myth, cult and civic history, with Roman-era Corinth shown through temples of Greek and Egyptian gods.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Athene's taming of Pegasus with a bridle became a familiar motif in later Greek and Roman art and poetry."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias writes that Jupiter Capitolinus is Zeus Coryphæus in Greek, reflecting Corinth's Roman refoundation in 44 BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Bridler\" translates the goddess's cult title (Chalinitis in Greek), referring to the bridle she gave Bellerophon to tame Pegasus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Refers to the Iliad's story of Bellerophon, who was sent by Prœtus of Argos to Lycia; Homer shows him subject to Argive power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Contingent\" means a group of troops supplied as part of a larger force; the sentence ends abruptly, as if clause is incomplete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Nominally the son of Poseidon\" means he was claimed as the god's child by tradition, though his human father was Ornytion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Presidents\" renders the Greek prytaneis, annual magistrates who held royal power after kingship ended.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Bridler\" translates Athene's cult title Chalinitis; tradition said she helped Bellerophon bridle Pegasus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "\"In the Roman diction\" means in Latin; Capitolinus refers to Jupiter's Capitoline temple at Rome. Coryphæus means \"of the summit\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Briareus, a hundred-handed giant, served as arbiter between the Sun and Poseidon over Corinth's land; the Sun received the height, later ceded to Aphrodite.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Litigation\" here means the legal dispute settled by Briareus as judge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Not customary to enter\" means the temple was closed to ordinary worshippers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "The cult title Bunæan is explained by the founder Bunus; Pausanias gives the etymology in the next sentence.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Bellerophon is the hero who tamed the winged horse Pegasus and killed the Chimera; Athene was patron of horse-taming crafts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The Dorian invasion, the return of the Heraclidae (descendants of Hercules), was the traditional account of Dorians settling the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Cypselus became tyrant of Corinth in the seventh century BC, founding a dynasty that ended with his descendants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Dædalus was the legendary Athenian craftsman; early wooden statues were attributed to him, with stiff, archaic forms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Æsculapius was the god of healing, and Hygiea (Health) was his daughter, so their statues were commonly paired.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Isis and Serapis were Egyptian deities whose cults spread through the Greek and Roman world; Canobus was an Egyptian city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "The Fates were goddesses who controlled each person's destiny; Demeter and Proserpine were linked in the Eleusinian cult.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 15,
+    "device": "narrative voice",
+    "text": "Pausanias closes in the first person as a researcher, reminding readers his account rests on his own inquiry and sources.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "characterization",
+    "text": "Pausanias reveals his own taste: he finds Dædalus' crude archaic works strange yet spiritually powerful, favoring sacred feeling over polish.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "narrative voice",
+    "text": "The long parenthesis and hedge \"as the Corinthians say\" show Pausanias as a traveler distancing himself from local legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "symbolism",
+    "text": "Pairing Necessity and Force in a closed shrine suggests inescapable power, something to be feared rather than approached.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,629 @@
+{
+ "section_id": "pausanias-body-329",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7942,
+  "output": 4661
+ },
+ "result": {
+  "summary": "Pausanias continues describing offerings at Delphi. He lists the Athenian Marathon statues by Phidias and the Argive offerings for Thebes, Epigoni and Messenia. He then tells how Phalanthus founded Tarentum after a Delphic oracle about rain from a clear sky.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Athenian Marathon statues at Delphi",
+    "summary": "Pausanias lists the statues paid for from the tenth of the Marathon spoils, the eponymous heroes, and later additions of Antigonus, Demetrius and Ptolemy.",
+    "stakes": "",
+    "present": [
+     "Athene",
+     "Apollo",
+     "Miltiades",
+     "Erechtheus",
+     "Cecrops",
+     "Pandion",
+     "Leos",
+     "Antiochus",
+     "Ægeus",
+     "Acamas",
+     "Codrus",
+     "Theseus",
+     "Phyleus",
+     "Phidias",
+     "Antigonus",
+     "Demetrius",
+     "Ptolemy"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 12,
+    "title": "Argive offerings at Delphi",
+    "summary": "Pausanias describes Argive statues of the Seven against Thebes, the Epigoni, Argive heroes, and Tarentine offerings.",
+    "stakes": "",
+    "present": [
+     "Adrastus",
+     "Tydeus",
+     "Capaneus",
+     "Eteoclus",
+     "Polynices",
+     "Hippomedon",
+     "Amphiaraus",
+     "Baton",
+     "Alitherses",
+     "Sthenelus",
+     "Alcmæon",
+     "Amphilochus",
+     "Promachus",
+     "Thersander",
+     "Ægialeus",
+     "Diomede",
+     "Euryalus",
+     "Danaus",
+     "Hypermnestra",
+     "Lynceus",
+     "Epaminondas",
+     "Hypatodorus",
+     "Aristogiton",
+     "Ageladas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 17,
+    "title": "Phalanthus founds Tarentum",
+    "summary": "Phalanthus is told to found a city where he sees rain from a clear sky. His wife Æthra weeps on his head, and he takes Tarentum.",
+    "stakes": "Phalanthus risks failing to win land in Italy and doubts the god's oracle.",
+    "present": [
+     "Phalanthus",
+     "Æthra",
+     "Taras",
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tarentum",
+     "modern_name": "Taranto",
+     "certainty": "real",
+     "lat": 40.4644,
+     "lon": 17.247
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose statue was dedicated"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose statue was dedicated"
+   },
+   {
+    "name": "Miltiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian commander at Marathon"
+   },
+   {
+    "name": "Erechtheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, eponym of a tribe"
+   },
+   {
+    "name": "Cecrops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, eponym of a tribe"
+   },
+   {
+    "name": "Pandion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, eponym of a tribe"
+   },
+   {
+    "name": "Leos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, eponym of a tribe"
+   },
+   {
+    "name": "Antiochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hercules and Meda, eponym"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Antiochus"
+   },
+   {
+    "name": "Meda",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Phylas, mother of Antiochus"
+   },
+   {
+    "name": "Phylas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Meda"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, eponym of a tribe"
+   },
+   {
+    "name": "Acamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Theseus, eponym"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, father of Acamas"
+   },
+   {
+    "name": "Codrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Melanthus, no longer an Eponymus"
+   },
+   {
+    "name": "Melanthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Codrus"
+   },
+   {
+    "name": "Phyleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero no longer an Eponymus"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the Marathon statues"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king whose statue was sent to Delphi"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Antigonus"
+   },
+   {
+    "name": "Ptolemy",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Egyptian king honoured at Delphi"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Talaus, leader against Thebes"
+   },
+   {
+    "name": "Talaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Adrastus"
+   },
+   {
+    "name": "Tydeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Œneus, against Thebes"
+   },
+   {
+    "name": "Œneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Tydeus"
+   },
+   {
+    "name": "Capaneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hipponous"
+   },
+   {
+    "name": "Hipponous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Capaneus"
+   },
+   {
+    "name": "Eteoclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Iphis"
+   },
+   {
+    "name": "Iphis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Eteoclus"
+   },
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the Theban expedition"
+   },
+   {
+    "name": "Hippomedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Adrastus' sister's son"
+   },
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a chariot statue"
+   },
+   {
+    "name": "Baton",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "charioteer and kinsman of Amphiaraus"
+   },
+   {
+    "name": "Alitherses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "figure in the Argive group"
+   },
+   {
+    "name": "Hypatodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor"
+   },
+   {
+    "name": "Aristogiton",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor"
+   },
+   {
+    "name": "Sthenelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the Epigoni"
+   },
+   {
+    "name": "Alcmæon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the Epigoni"
+   },
+   {
+    "name": "Amphilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the Epigoni"
+   },
+   {
+    "name": "Promachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the Epigoni"
+   },
+   {
+    "name": "Thersander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the Epigoni"
+   },
+   {
+    "name": "Ægialeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the Epigoni"
+   },
+   {
+    "name": "Diomede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the Epigoni"
+   },
+   {
+    "name": "Euryalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the Epigoni"
+   },
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban general who restored the Messenians"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "powerful king at Argos"
+   },
+   {
+    "name": "Hypermnestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Danaus' daughter who spared her husband"
+   },
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive hero beside Hypermnestra"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of the Heraclids"
+   },
+   {
+    "name": "Ageladas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive sculptor"
+   },
+   {
+    "name": "Phalanthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan founder of Tarentum"
+   },
+   {
+    "name": "Æthra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Phalanthus, name means clear sky"
+   },
+   {
+    "name": "Taras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, son of Poseidon and a Nymph"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Taras"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Antiochus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Meda",
+    "relation": "parent_of",
+    "b": "Antiochus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Phylas",
+    "relation": "parent_of",
+    "b": "Meda",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Theseus",
+    "relation": "parent_of",
+    "b": "Acamas",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Melanthus",
+    "relation": "parent_of",
+    "b": "Codrus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Talaus",
+    "relation": "parent_of",
+    "b": "Adrastus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Œneus",
+    "relation": "parent_of",
+    "b": "Tydeus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Hipponous",
+    "relation": "parent_of",
+    "b": "Capaneus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Iphis",
+    "relation": "parent_of",
+    "b": "Eteoclus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Antigonus",
+    "relation": "parent_of",
+    "b": "Demetrius",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Phalanthus",
+    "relation": "spouse_of",
+    "b": "Æthra",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Taras",
+    "source": "text",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "The oracle is solved by the wife's name Æthra, meaning clear sky.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Offerings at Delphi record civic pride and rivalry, while the Phalanthus story shows oracles being understood only in hindsight.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Athenian and Argive dedications used Delphi to advertise military victories and political alliances.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Tarentum is the modern Taranto in southern Italy, traditionally a Spartan colony founded around 706 BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Basement\" means the base or pedestal on which the bronze horse stood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Tribes\" are the ten political divisions of Athenian citizens, each named after a hero.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Eponymi\" are the eponymous heroes, those who gave their names to the Athenian tribes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Epigoni\" means \"the descendants\": the sons of the Seven, who later took Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "Picking out lice was a common act of intimacy and care; she lays his head in her lap to do so.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "Æthra is glossed by the translator as meaning \"clear sky\", which makes the oracle's riddle work.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Miltiades commanded the Athenians at Marathon in 490 BC, where they defeated the Persians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Antigonus, Demetrius and Ptolemy were Macedonian-era rulers, successors of Alexander, who courted Greek favour with such gifts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Epaminondas, the Theban general, helped free the Messenians from Spartan rule and refounded Messene around 369 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Hypermnestra alone spared her husband Lynceus when the Danaids were ordered to kill their husbands on their wedding night.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 14,
+    "device": "Irony",
+    "text": "Phalanthus judges the oracle impossible, yet it is fulfilled in an unexpected way, showing the god's meaning was misread.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Characterization",
+    "text": "Her tender, practical comfort and sympathetic weeping portray the wife as devoted, and unknowingly the agent of the prophecy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Pun",
+    "text": "The oracle's \"clear sky\" turns on his wife's name, Æthra: wordplay resolves the riddle and the tears become the rain.",
+    "spoiler": false
+   }
+  ]
+ }
+}

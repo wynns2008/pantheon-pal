@@ -1,0 +1,284 @@
+{
+ "section_id": "pausanias-body-231",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7277,
+  "output": 2548
+ },
+ "result": {
+  "summary": "Pausanias describes the plain Argum near Mantinea, where rain water vanishes underground and reappears at Dine in Argolis, and lists other wonders of sweet or hot water. He then notes Philip's camp on a mountain beside the plain and digresses on Philip's treachery and the early deaths of his family.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "The plain Argum and its waters",
+    "summary": "The plain Argum swallows rain water, which reappears at Dine in Argolis. Pausanias compares other springs of sweet or hot water elsewhere.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Argum, plain of Mantinea",
+     "modern_name": "Plain of Mantinea, Arcadia",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 15,
+    "title": "Philip's camp and his oracle",
+    "summary": "Ruins of Philip's camp at Nestane are noted. Pausanias condemns Philip's faithlessness and says the Delphic oracle about the bull referred to his own death.",
+    "stakes": "Philip's life, which the oracle shows is ended as divine vengeance for his broken oaths.",
+    "present": [
+     "Philip"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Nestane, mountain by Argum",
+     "modern_name": "Mountains near Mantinea, Arcadia",
+     "certainty": "real",
+     "lat": 37.65,
+     "lon": 22.35
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 24,
+    "title": "Fate of Philip's family",
+    "summary": "Olympias kills Philip's infant son and Aridæus. Pausanias sees the gods ending the line and Macedonian supremacy, then admits a digression.",
+    "stakes": "The survival of Philip's descendants, who are destroyed by untimely deaths.",
+    "present": [
+     "Olympias",
+     "Cleopatra",
+     "Aridæus",
+     "Cassander",
+     "Thessalonica",
+     "Alexander",
+     "Philip"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Macedonia",
+     "modern_name": "Macedonia",
+     "certainty": "real",
+     "lat": 40.6,
+     "lon": 22.5
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king, son of Amyntas, who camped near Nestane and broke his oaths"
+   },
+   {
+    "name": "Amyntas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Philip"
+   },
+   {
+    "name": "Olympias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Killed Cleopatra's baby and Aridæus"
+   },
+   {
+    "name": "Cleopatra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Niece of Attalus, mother of Philip's baby boy"
+   },
+   {
+    "name": "Attalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Uncle of Cleopatra"
+   },
+   {
+    "name": "Aridæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Killed by Olympias"
+   },
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Married Thessalonica; his family died early"
+   },
+   {
+    "name": "Thessalonica",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Philip, wife of Cassander"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Died young"
+   },
+   {
+    "name": "Glaucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan praised in an oracle"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Received bridled horses from the Argives at Dine"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Amyntas",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Thessalonica",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Cassander",
+    "relation": "spouse_of",
+    "b": "Thessalonica",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "outside",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Olympias",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "outside",
+    "evidence_sentence": 20
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Mede",
+    "canonical": "Persians",
+    "explanation": "The Medes stand for the Persians, as Greeks often used the names interchangeably."
+   },
+   {
+    "alias": "Dicæarchia",
+    "canonical": "Puteoli",
+    "explanation": "The Greek name of the town the Romans called Puteoli."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 14,
+    "reason": "The ambiguous Delphic oracle Philip took to mean Persia's fall but which foretold his own death.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links geography to moral lessons, showing divine vengeance on oath-breakers like Philip.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Philip's push into Arcadia reflects Macedonian efforts to divide the Greek states in the fourth century BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Dicæarchia was the Greek name for Puteoli, near Naples, known in antiquity for hot springs and baths.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Argum is glossed by Pausanias as 'unfruitful'; the name is rendered here from a Greek word meaning idle or unproductive land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Dicæarchia is the Greek name of Puteoli, near Naples, famous for volcanic hot springs; Tyrrhenia means Etruscan Italy, loosely the western Italian coast.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "The oracle's bull is ambiguous: Philip took it to mean the Persian king, but it was the sacrificial victim, Philip himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "'Mow down' pictures the family cut off like grain; 'untimely ends' means early deaths.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Glaucus the Spartan was known from Herodotus's story: he sought to keep a deposit dishonestly, consulted Delphi, and his line perished. The oracle warned that oath-breaking brings ruin on descendants.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Poseidon was god of the sea and of horses, so bridled horses, sometimes cast into water, were fitting offerings to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Philip II of Macedon, father of Alexander the Great, campaigned in the Peloponnese in the 340s and 330s BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Olympias was Alexander's mother and Philip's rival wife. After Philip's death in 336 BC she had Cleopatra and her infant killed.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "personification",
+    "text": "The deity's 'vengeance' coming 'early' treats divine justice as an active pursuer, reinforcing Pausanias's moral view of history.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "Philip read the oracle as promising Persian defeat, but it foretold his own death; the god's meaning reverses his hope.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "moral reflection",
+    "text": "Pausanias links Philip's broken oaths to the fall of his line, presenting history as divine retribution for impiety.",
+    "spoiler": false
+   }
+  ]
+ }
+}

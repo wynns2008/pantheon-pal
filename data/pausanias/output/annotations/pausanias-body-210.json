@@ -1,0 +1,211 @@
+{
+ "section_id": "pausanias-body-210",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7321,
+  "output": 1919
+ },
+ "result": {
+  "summary": "The Achaeans march on Sparta under Damocritus and win a battle but fail to press it, and Damocritus is fined and exiles himself. His successor Diaeus agrees to wait for Roman arbitrators, but Menalcidas, the Spartan general, breaks the truce by sacking Iasus and then poisons himself.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Damocritus attacks Sparta",
+    "summary": "The Achaeans march on Sparta; Metellus, busy against Andriscus in Macedonia, has Roman envoys forbid the war, but they are ignored. The Spartans are beaten, Damocritus fails to follow up, and he is fined and flees.",
+    "stakes": "Damocritus risks his reputation and a heavy fine; the Spartans risk losing their city.",
+    "present": [
+     "Damocritus",
+     "Metellus",
+     "Andriscus",
+     "Achaeans",
+     "Lacedaemonians"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lacedaemon",
+     "modern_name": "Sparta, Laconia",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 12,
+    "title": "Diaeus, Menalcidas and Iasus",
+    "summary": "Diaeus agrees to wait for the arbitrators and garrisons the towns around Sparta. Menalcidas violates the truce by sacking Iasus, is accused, and poisons himself.",
+    "stakes": "Menalcidas faces accusation by his own citizens; Sparta faces renewed war.",
+    "present": [
+     "Diaeus",
+     "Menalcidas",
+     "Metellus",
+     "Achaeans",
+     "Lacedaemonians"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Iasus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Damocritus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean general who failed to besiege Sparta and was fined"
+   },
+   {
+    "name": "Metellus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman commander sent against Andriscus in Macedonia"
+   },
+   {
+    "name": "Andriscus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian rebel against Rome, son of Perseus"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Andriscus"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Grandfather of Andriscus"
+   },
+   {
+    "name": "Diaeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean general succeeding Damocritus"
+   },
+   {
+    "name": "Menalcidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan general who broke the truce and killed himself"
+   },
+   {
+    "name": "Achaeans",
+    "aliases": [],
+    "kind": "other",
+    "description": "Peoples of the Achaean League"
+   },
+   {
+    "name": "Lacedaemonians",
+    "aliases": [
+     "Spartans"
+    ],
+    "kind": "other",
+    "description": "People of Sparta"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Perseus",
+    "relation": "parent_of",
+    "b": "Andriscus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Perseus",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "Pausanias' blunt verdict on Menalcidas, summing up his role in the Achaean-Spartan quarrel.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Poor leadership and rash choices push Greek states toward disaster on the eve of Roman conquest.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Rome arbitrates Greek disputes while fighting in Macedonia, showing its growing control just before the destruction of Corinth in 146 BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Arbitrate\" means to judge the dispute and settle it by decision, rather than by war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Out of spirit rather than from strength\" means they acted from pride and courage, not from real military capacity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "A talent was a large weight of silver, so 50 talents was a heavy fine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Points d'appui\" is French for strongpoints or bases from which to support an attack.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The Achaeans were a league of Peloponnesian cities; Sparta's resistance to membership caused repeated conflict, which Rome then intervened in.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "Andriscus was a pretender who claimed to be Philip's descendant and king of Macedonia. Metellus defeated him in 148 BC, leading to Macedonia becoming a Roman province.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Iasus lay on the Laconian border and was held by the Achaeans, so Menalcidas's attack broke the truce.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "characterization",
+    "text": "Damocritus is shown as a hesitant commander who wastes a victory, preparing for his punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "irony",
+    "text": "Menalcidas is condemned as both imprudent and unjust, and his own reckless act brings about his ruin.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,293 @@
+{
+ "section_id": "pausanias-body-265",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7873,
+  "output": 2669
+ },
+ "result": {
+  "summary": "Pausanias describes Phigalia: a hero-shrine in the market-place, the rivers Lymax and Neda, and the ancient temple of Eurynome with its fish-tailed statue. He then describes Mount Cotilius and the beautiful temple of Apollo the Helper at Bassæ, built by Ictinus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Phigalia's market and rivers",
+    "summary": "Pausanias notes the hero-shrine of the 100 men from Oresthasium and the rivers Lymax and Neda, explaining the Lymax's name from Rhea's purification.",
+    "stakes": "",
+    "present": [
+     "Rhea",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phigalia",
+     "modern_name": "Phigaleia, Arcadia",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 21.85
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 18,
+    "title": "Temple of Eurynome",
+    "summary": "Pausanias describes the cypress-ringed temple of Eurynome, opened only once a year, and the fish-tailed statue he knows only by report. He doubts it is Artemis.",
+    "stakes": "",
+    "present": [
+     "Eurynome",
+     "Artemis",
+     "Thetis",
+     "Hephæstus",
+     "Oceanus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Eurynome near Phigalia",
+     "modern_name": "Near the Lymax-Neda confluence, Phigaleia",
+     "certainty": "real",
+     "lat": 37.37,
+     "lon": 21.82
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 28,
+    "title": "Cotilius and Apollo at Bassæ",
+    "summary": "Pausanias describes the mountains around Phigalia, the temple of Apollo the Helper at Bassæ built by Ictinus, the spring on Cotilius and the roofless temple of Aphrodite.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Ictinus",
+     "Pericles",
+     "Aphrodite"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Bassæ on Mount Cotilius",
+     "modern_name": "Bassae, Arcadia",
+     "certainty": "real",
+     "lat": 37.43,
+     "lon": 21.9
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Zeus, purified by the Nymphs after childbirth"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "born to Rhea"
+   },
+   {
+    "name": "Eurynome",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess worshipped at Phigalia; said to be Artemis or Oceanus' daughter"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess some Phigalians identify with Eurynome"
+   },
+   {
+    "name": "Oceanus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Eurynome according to the antiquarians"
+   },
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "sea goddess who received Hephæstus with Eurynome"
+   },
+   {
+    "name": "Hephæstus",
+    "aliases": [],
+    "kind": "god",
+    "description": "received by Thetis and Eurynome in Homer"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "the Helper",
+     "Averter of Ill"
+    ],
+    "kind": "god",
+    "description": "god with a temple at Bassæ who ended a pestilence"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a roofless temple at Cotilum"
+   },
+   {
+    "name": "Ictinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "architect of the temple at Bassæ and the Parthenon"
+   },
+   {
+    "name": "Pericles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian statesman, contemporary of Ictinus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Rhea",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Oceanus",
+    "relation": "parent_of",
+    "b": "Eurynome",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Helper",
+    "canonical": "Apollo",
+    "explanation": "Title Apollo got for helping Phigalia in a pestilence."
+   },
+   {
+    "alias": "Averter of Ill",
+    "canonical": "Apollo",
+    "explanation": "Athenian title for Apollo, for turning away a pestilence."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 21,
+    "reason": "Pausanias ranks the Bassæ temple second in the Peloponnese for stone and craftsmanship.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends local cult, etymology and Homeric citation, and tests hearsay against what he has seen himself.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Bassæ temple's link to a plague and to Ictinus reflects fifth-century dedications during the Peloponnesian War era.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Pausanias' praise helped bring attention to the Bassæ temple, rediscovered by travellers in 1765 and later studied for its frieze, now in the British Museum."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Bassae temple is a UNESCO World Heritage site and is now covered by a large protective tent.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A mortuary chapel is a small shrine at a burial place; the offerings are funeral rites paid annually, as to heroes (honored dead).",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Lymata is a Greek word for refuse or purifications; the river's name Lymax is derived from it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Refers to the Iliad, Book 1, where the Greeks cleanse themselves after Apollo's plague and throw the washings into the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "Shearing off their hair 'to the river' means cutting locks as an offering to the river-god, a common Greek custom at coming of age.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "In Iliad 18, Eurynome and Thetis took in Hephæstus (the Greek smith god) when he was thrown from heaven.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Apollo 'Averter of Ill' (Alexikakos) was worshipped at Athens after the plague of the Peloponnesian War period.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "The Parthenon is Athena's temple on the Athenian Acropolis, built in the time of Pericles, the statesman who led Athens.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 8,
+    "text": "The Mæander, a river in Asia Minor, was so famously winding that the word 'meander' comes from it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "A stade was a Greek unit of length of roughly 180–200 metres, so 12 stades is about two kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Bassæ's temple of Apollo still stands and is famous for its remote mountain setting and its early use of Corinthian column design.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "imagery",
+    "text": "The dense ring of cypresses, trees associated with mourning, gives the shrine a secluded, solemn atmosphere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "narrative voice",
+    "text": "Pausanias openly admits what he did not see, marking the difference between his own observation and hearsay.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "characterization",
+    "text": "Pausanias's skeptical, rationalizing habit shows as he weighs the fish-tailed image against myth and rejects the Artemis identification.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "irony",
+    "text": "His brief, dry rebuttal of the earlier writer implies that author's claim was careless, while stressing his own firsthand checking.",
+    "spoiler": false
+   }
+  ]
+ }
+}

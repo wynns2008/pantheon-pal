@@ -1,0 +1,381 @@
+{
+ "section_id": "pindar-odes-body-24",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9877,
+  "output": 3470
+ },
+ "result": {
+  "summary": "Pindar praises the young Hippokleas of Thessaly for winning the boys' double race at the Pythian games, and links his family to Olympic victors. He digresses to Perseus feasting among the blessed Hyperboreans, then returns to praise his host Thorax and his brothers.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Editor's introduction",
+    "summary": "A note explains the Perseus digression, the Aleuadai, and the ode's early date.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 15,
+    "title": "Praise of Hippokleas and his house",
+    "summary": "Pindar celebrates Hippokleas's Pythian victory, his father's Olympic wins, and prays that the gods' envy may spare them.",
+    "stakes": "The family's prosperity could be lost to the envy of the gods.",
+    "present": [
+     "Hippokleas",
+     "Apollo",
+     "Phrikias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pytho, valley beneath Parnassos",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 23,
+    "title": "Perseus among the Hyperboreans",
+    "summary": "Perseus, led by Athene, feasts with the blessed Hyperboreans and slays the Gorgon.",
+    "stakes": "Perseus risks the perilous quest against the Gorgon.",
+    "present": [
+     "Perseus",
+     "Apollo",
+     "Athene"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Land of the Hyperboreans",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 30,
+    "title": "Return to praise of host",
+    "summary": "Pindar turns back to Hippokleas's future fame and praises Thorax and his brothers.",
+    "stakes": "",
+    "present": [
+     "Hippokleas",
+     "Thorax"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thessaly",
+     "modern_name": "Thessaly, Greece",
+     "certainty": "real",
+     "lat": 39.6,
+     "lon": 22.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hippokleas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Young Thessalian winner of the boys' double race at Pytho"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "God who favours victors and delights in Hyperborean feasts"
+   },
+   {
+    "name": "Phrikias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Victor at Kirrha, kinsman of Hippokleas"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [
+     "son of Danaë"
+    ],
+    "kind": "mortal",
+    "description": "Hero who visited the Hyperboreans and slew the Gorgon"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who guided Perseus"
+   },
+   {
+    "name": "Herakles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ancestor of the rulers of Lakedaimon and Thessaly"
+   },
+   {
+    "name": "Thorax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Pindar's host who commissioned the ode"
+   },
+   {
+    "name": "Danaë",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Perseus"
+   },
+   {
+    "name": "Aleuas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ancestor of the Aleuadai"
+   },
+   {
+    "name": "Nemesis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Divine retribution, absent from the Hyperboreans"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Danaë",
+    "relation": "parent_of",
+    "b": "Perseus",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Aleuas",
+    "relation": "parent_of",
+    "b": "Thorax",
+    "source": "outside",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "son of Danaë",
+    "canonical": "Perseus",
+    "explanation": "Metronymic used for Perseus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 23,
+    "reason": "Memorable statement that nothing is impossible when gods work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "reason": "Famous touchstone image for testing a true soul.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Human success has limits: mortals may reach great glory but not heaven, and must avoid divine envy.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The ode shows aristocratic Thessalian families using Pindar's praise and mythic ancestry to assert prestige.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Tradition says Pindar composed this ode at twenty, making it his earliest dated surviving poem.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Lakedaimon is Sparta. Its Dorian kings and Thessaly's Aleuadai both claimed descent from Herakles, hence the 'race sprung from one sire'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "Pindar checks himself: his boast about royal lineages seems out of place, so he returns to the victor's praise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Pytho is the older name of Delphi, site of the Pythian games. Pelinnaion was a Thessalian town, Hippokleas's home.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "The 'double race' was the diaulos, a two-length footrace. 'Valley beneath Parnassos' means Delphi's games, here personified as proclaiming the winner.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "Meaning: success is sweet when achieved, and a start counts for more when a god speeds it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "'Panoply of war-affronting arms' means the full armour worn in the Olympic race in armour (hoplitodromos).",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "'Envious repentings of the gods' means divine resentment that reverses good fortune, a Greek fear of excessive prosperity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "Mortals cannot reach the bronze heaven of the gods, but may attain every human glory; the 'utmost harbourage' is the limit of human achievement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Shalt thou\" is archaic address to the listener: no one, by sea or land, can discover the route to the Hyperboreans; only the favoured reach them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Hecatombs were large public sacrifices, originally of a hundred oxen; here the offering is asses, a strange rite that marks the Hyperboreans as unusual.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "\"Eld\" means old age. \"Wasting eld\" is the decline that comes with advanced years.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Nemesis is the goddess of retribution, who punishes excessive pride or fortune. Escaping her marks the Hyperboreans' exceptional happiness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "The Gorgon is Medusa, whose gaze turned people to stone. Perseus used her head against the people of Seriphos, the \"island folk.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"I ween\" is archaic for \"I think\" or \"I believe.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Ephyra is a city in Thessaly, and the Peneus is its river. Pindar imagines the victor's countrymen singing the ode there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The Pierides are the Muses. The poet's song is pictured as a chariot lent by Thorax, who commissioned the ode.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 8,
+    "text": "The Aleuadai, descendants of Aleuas, were the ruling noble family of Thessaly, who commissioned the ode.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Apollo was the god of Delphi and presided over the Pythian games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Kirrha was the port near Delphi; the Pythian games' racecourse lay on the plain below it. Phrikias is Hippokleas's father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Perseus is the hero son of Danaë and Zeus, who killed the Gorgon Medusa. Pindar here places him among the Hyperboreans, a legendary people in the far north.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Apollo was said to spend winters among the Hyperboreans, so their rites pleased him, including their raucous festivity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Thorax of Larissa was a Thessalian nobleman who hosted Pindar and arranged this commission for Hippokleas, his young relative's victory.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "rhetorical question",
+    "text": "Pindar interrupts himself, a typical device to break off a digression and return to the occasion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "metaphor",
+    "text": "Valour 'treading in the footsteps' of his father pictures inherited excellence as following a path.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "hyperbole",
+    "text": "Climbing the brazen heaven marks the boundary of mortal limits; the image makes human success seem close to godlike, yet bounded.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "imagery",
+    "text": "Dancing maidens, pipes and golden bay-leaves create a vivid picture of festive, musical Hyperborean life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "metaphor",
+    "text": "Pindar compares his song to a ship that must stop, an image of ending a digression and steering back to praise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "simile",
+    "text": "His praise darts from tale to tale like a honey-bee, describing the ode's associative movement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "simile",
+    "text": "A true soul is tested as gold is by touchstone, so Thorax's character is proved by his deeds.",
+    "spoiler": false
+   }
+  ]
+ }
+}

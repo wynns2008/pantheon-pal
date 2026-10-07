@@ -1,0 +1,292 @@
+{
+ "section_id": "pausanias-body-82",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7393,
+  "output": 2444
+ },
+ "result": {
+  "summary": "Pausanias follows the coast south from Lerna through Temenium, Nauplia and Genesium to Thyrea and Mount Parnon. He records temples, local traditions and the old border dispute between Argos and Sparta.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Temenium and Nauplia",
+    "summary": "Pausanias describes Temenium, named for Temenus, and the deserted town of Nauplia with its temples, harbour and the well Canathus.",
+    "stakes": "",
+    "present": [
+     "Temenus",
+     "Nauplius",
+     "Hera",
+     "Poseidon",
+     "Aphrodite"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Nauplia",
+     "modern_name": "Nafplio",
+     "certainty": "real",
+     "lat": 37.567,
+     "lon": 22.8
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 8,
+    "title": "Genesium and Anigraea",
+    "summary": "A coastal road leads to Genesium, the Landing-place where Danaus landed, and the fertile Anigraea.",
+    "stakes": "",
+    "present": [
+     "Danaus",
+     "Poseidon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Genesium",
+     "modern_name": "Astros coast",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 22.75
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 13,
+    "title": "Thyrea and its villages",
+    "summary": "The battle of the 300 for Thyrea is recalled, with the district's later history and the villages Athene, Neris and Eua.",
+    "stakes": "Control of the land of Thyrea was fought over by Argives and Spartans.",
+    "present": [
+     "Polemocrates",
+     "Machaon",
+     "Alexanor"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thyrea",
+     "modern_name": "Astros area",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 17,
+    "title": "Mount Parnon and the Tanaus",
+    "summary": "Mount Parnon forms the border, marked by stone Hermae, and the Tanaus flows from it to the Thyreatic gulf.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Parnon",
+     "modern_name": "Parnon",
+     "certainty": "real",
+     "lat": 37.25,
+     "lon": 22.6
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Temenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aristomachus who fortified Temenium"
+   },
+   {
+    "name": "Aristomachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Temenus"
+   },
+   {
+    "name": "Nauplius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of Nauplia"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with temples at Temenium, Nauplia and Genesium"
+   },
+   {
+    "name": "Amymone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Nauplius"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "said to bathe in Canathus and become a virgin again"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "has a temple at Temenium"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "landed in Argolis with his sons"
+   },
+   {
+    "name": "Polemocrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "healer honoured as divine at Eua"
+   },
+   {
+    "name": "Machaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Polemocrates"
+   },
+   {
+    "name": "Alexanor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Polemocrates"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Aristomachus",
+    "relation": "parent_of",
+    "b": "Temenus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Nauplius",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Amymone",
+    "relation": "parent_of",
+    "b": "Nauplius",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Machaon",
+    "relation": "parent_of",
+    "b": "Polemocrates",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Polemocrates",
+    "relation": "sibling_of",
+    "b": "Alexanor",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias mixes geography with local cult and tradition, noting borders and who held land.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Thyrea dispute reflects long Argive-Spartan rivalry over border territory.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Temenus, a descendant of Heracles, led the Dorian invasion of the Peloponnese (the 'return of the Heracleidae'), fighting Tisamenus, son of Orestes, who led the Achæans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, about 600 feet (roughly 185 metres), so 50 stades is about six miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Hera's yearly bath renewing her virginity was an Argive ritual; Pausanias treats it as a sacred tradition and gives no explanation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "Pausanias says he passes over the ass story as unworthy; it is a folk aetiology explaining how vine pruning was supposedly discovered.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "This refers to the famous 'Battle of the Champions' between Argos and Sparta, about 546 BC, fought for control of Thyrea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The Æginetans were expelled from Ægina by the Athenians in 431 BC, and Sparta then settled them at Thyrea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Hermæ were stone pillars topped with the head of Hermes, often used as boundary markers; the place-name apparently derives from them.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Nauplius was the legendary founder of Nauplia, the port of Argos, and father of Palamedes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Danaus, legendary king of Argos, fled Egypt with his fifty daughters, the Danaids, and landed in Argolis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Machaon and Alexanor belong to the family of Asclepius, the healing god, so Polemocrates' healing role fits a hero-cult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Mount Parnon is a range separating Argolis from Laconia and Arcadia, where Tegea lay.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "narrative voice",
+    "text": "Pausanias openly dismisses a local legend as unworthy, showing his skeptical, selective voice as a travel guide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "irony",
+    "text": "The champions' heroic combat settled nothing: Sparta later held the land, then gave it away, and the Argives eventually regained it.",
+    "spoiler": false
+   }
+  ]
+ }
+}

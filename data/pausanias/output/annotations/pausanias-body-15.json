@@ -1,0 +1,281 @@
+{
+ "section_id": "pausanias-body-15",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6989,
+  "output": 2511
+ },
+ "result": {
+  "summary": "Pausanias describes the Painted Portico (Stoa Poikile) at Athens, its statue, trophy and four famous paintings: Oenoe, Theseus and the Amazons, the fall of Troy, and Marathon. He also notes captured shields hung there.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Entrance and the Oenoe painting",
+    "summary": "Pausanias notes the Hermes statue and a trophy over Plistarchus, then describes the painting of Athenians facing Lacedaemonians at Oenoe.",
+    "stakes": "",
+    "present": [
+     "Plistarchus",
+     "Cassander"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The Painted Chamber",
+     "modern_name": "Stoa Poikile, Athenian Agora, Athens",
+     "certainty": "real",
+     "lat": 37.9755,
+     "lon": 23.7225
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 4,
+    "title": "Amazons and the fall of Troy",
+    "summary": "The paintings show Theseus fighting the Amazons and the Greeks at Ilium, with Ajax and Cassandra.",
+    "stakes": "",
+    "present": [
+     "Theseus",
+     "Hercules",
+     "Ajax",
+     "Cassandra"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The Painted Chamber",
+     "modern_name": "Stoa Poikile, Athenian Agora, Athens",
+     "certainty": "real",
+     "lat": 37.9755,
+     "lon": 23.7225
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 9,
+    "title": "The battle of Marathon",
+    "summary": "The Marathon painting shows the Greeks routing the barbarians into the marsh and at the Phoenician ships, with heroes and commanders.",
+    "stakes": "",
+    "present": [
+     "Marathon",
+     "Theseus",
+     "Athene",
+     "Hercules",
+     "Callimachus",
+     "Miltiades",
+     "Echetlus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The Painted Chamber",
+     "modern_name": "Stoa Poikile, Athenian Agora, Athens",
+     "certainty": "real",
+     "lat": 37.9755,
+     "lon": 23.7225
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 10,
+    "title": "Captured shields",
+    "summary": "Shields taken from Scionaeans and from Lacedaemonians captured at Sphacteria hang in the portico.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "The Painted Chamber",
+     "modern_name": "Stoa Poikile, Athenian Agora, Athens",
+     "certainty": "real",
+     "lat": 37.9755,
+     "lon": 23.7225
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Hermes of the Market-Place"
+    ],
+    "kind": "god",
+    "description": "god whose bronze statue stands at the portico"
+   },
+   {
+    "name": "Plistarchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Cassander, defeated by Athenian cavalry"
+   },
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Plistarchus"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian hero shown fighting Amazons and at Marathon"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero, held a god first by the people of Marathon"
+   },
+   {
+    "name": "Ajax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek who wronged Cassandra at Troy"
+   },
+   {
+    "name": "Cassandra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan captive woman"
+   },
+   {
+    "name": "Marathon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero for whom the plain is named"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess shown in the Marathon painting"
+   },
+   {
+    "name": "Callimachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian Polemarch at Marathon"
+   },
+   {
+    "name": "Miltiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian general at Marathon"
+   },
+   {
+    "name": "Echetlus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who fought at Marathon"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cassander",
+    "relation": "sibling_of",
+    "b": "Plistarchus",
+    "source": "text",
+    "evidence_sentence": 0
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "The Painted Chamber",
+    "canonical": "Stoa Poikile",
+    "explanation": "The Painted Portico, named for its paintings."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The paintings join myth and recent history, placing Marathon beside Troy and the Amazons as equal Athenian glories.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Painted Stoa served as a civic monument displaying Athenian victories and captured arms, shaping public memory.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Stoa Poikile gave its name to Stoicism, since Zeno taught there."
+   }
+  ],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Brazen\" means made of bronze or brass; the \"Market-Place\" Hermes presided over trade and the agora.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Heady fight\" means a rash, intoxicating combat; Pausanias notes the painter chose the moment just before the fighting, not its height.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Themiscyra was the Amazons' home on the Thermodon; Hercules' raid there for the girdle, and their later invasion of Athens, are the earlier defeats alluded to.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Ajax (the lesser) dragged Cassandra from Athena's altar during Troy's sack, an outrage that made the Greek kings assemble to judge him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Theseus \"in the guise of putting out to sea\" probably shows him rising from or going into the earth; the heroes' presence implies divine aid at Marathon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "The Polemarch was the Athenian archon in charge of the army; Callimachus held this office at Marathon.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Plistarchus was a brother of Cassander, king of Macedonia, who succeeded Alexander's regent Antipater; this cavalry fight belongs to the late fourth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "The Plataeans alone of the Boeotians fought beside the Athenians at Marathon in 490 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Spartans surrendered on Sphacteria in 425 BC, a shock because Spartans were thought never to yield; Scione revolted from Athens in 423 BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "characterization",
+    "text": "The Amazons are praised as unbroken by defeat, showing Pausanias' admiration for courage and framing them as worthy opponents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "imagery",
+    "text": "Barbarians shoving one another into the marsh gives a vivid picture of panicked rout and contrasts with the earlier equal valour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "symbolism",
+    "text": "The pitch-coated Spartan shields preserved against rust symbolize Athens' wish to keep the memory of the victory permanent.",
+    "spoiler": false
+   }
+  ]
+ }
+}

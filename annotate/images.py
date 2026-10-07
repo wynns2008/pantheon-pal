@@ -1,6 +1,6 @@
 """Pictures for a book from Wikipedia and Wikimedia Commons (free, no Claude). For every Wikipedia article that
-annotate.about found (the work, its author, and each character the Wikidata check matched), and for each place
-annotate.places found, the article's lead image,
+annotate.about found (the work, its author, and each character the Wikidata check matched), for each place
+annotate.places found and each thing annotate.items found, the article's lead image,
 but only one Wikipedia marks as free (PageImages' "free" choice). Commons supplies a small copy, the artist and the
 licence, which the reader shows as a credit line under the picture.
 
@@ -83,6 +83,9 @@ def pictures(slug: str) -> dict[str, dict]:
     places = ROOT / "data" / slug / "output" / "places.json"       # python -m annotate.places
     if places.exists():
         urls += [p["wikipedia"]["url"] for p in json.loads(places.read_text(encoding="utf-8"))["places"] if p["wikipedia"]]
+    items = ROOT / "data" / slug / "output" / "items.json"         # python -m annotate.items
+    if items.exists():
+        urls += [t["wikipedia"]["url"] for t in json.loads(items.read_text(encoding="utf-8"))["items"] if t["wikipedia"]]
     by_title = {title_of(u): u for u in urls if u}
     leads = lead_images(sorted(by_title))
     info = file_info(sorted(set(leads.values())))

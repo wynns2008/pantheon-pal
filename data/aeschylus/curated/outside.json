@@ -1,0 +1,931 @@
+{
+ "model": "claude-sonnet-5-5",
+ "work": "Aeschylus",
+ "requested": [
+  "Actor",
+  "Adrastus",
+  "Aegisthus",
+  "Aegyptus",
+  "Agamemnon",
+  "Antigone",
+  "Apis",
+  "Apollo",
+  "Ares",
+  "Argus",
+  "Artemis",
+  "Athamas",
+  "Athena",
+  "Atlas",
+  "Atossa",
+  "Atreus",
+  "Belus",
+  "Cassandra",
+  "Chorus",
+  "Clytaemestra",
+  "Clytaemnestra",
+  "Clytemnestra",
+  "Creon",
+  "Cronus",
+  "Cypris",
+  "Danaüs",
+  "Darius",
+  "Electra",
+  "Epaphus",
+  "Eteocles",
+  "Helen",
+  "Helle",
+  "Hephaestus",
+  "Hera",
+  "Herald",
+  "Hermes",
+  "Hesione",
+  "Hyperbius",
+  "Inachus",
+  "Io",
+  "Iphigenia",
+  "Ismene",
+  "Justice",
+  "King",
+  "Laïus",
+  "Leda",
+  "Leto",
+  "Libya",
+  "Megareus",
+  "Menelaüs",
+  "Messenger",
+  "Night",
+  "Oceanus",
+  "Oedipus",
+  "Orestes",
+  "Palaechthon",
+  "Paris",
+  "Persuasion",
+  "Phoebe",
+  "Polynices",
+  "Poseidon",
+  "Priam",
+  "Prometheus",
+  "Pylades",
+  "Servant",
+  "Sphinx",
+  "Strophius",
+  "Tethys",
+  "Themis",
+  "Theseus",
+  "Thyestes",
+  "Typhon",
+  "Uranus",
+  "Xerxes",
+  "Zeus"
+ ],
+ "people": [
+  {
+   "name": "Chaos",
+   "other_name": "",
+   "description": "Primordial void, first being of Greek mythology"
+  },
+  {
+   "name": "Gaia",
+   "other_name": "Earth",
+   "description": "Primordial Earth goddess"
+  },
+  {
+   "name": "Uranus",
+   "other_name": "Heaven",
+   "description": "Primordial sky god, husband of Gaia"
+  },
+  {
+   "name": "Cronus",
+   "other_name": "",
+   "description": "Titan king, father of the Olympian gods"
+  },
+  {
+   "name": "Rhea",
+   "other_name": "",
+   "description": "Titaness, mother of the Olympians"
+  },
+  {
+   "name": "Zeus",
+   "other_name": "Jupiter",
+   "description": "King of the gods, ruler of sky and thunder"
+  },
+  {
+   "name": "Hera",
+   "other_name": "Juno",
+   "description": "Queen of the gods, goddess of marriage"
+  },
+  {
+   "name": "Ares",
+   "other_name": "Mars",
+   "description": "God of war"
+  },
+  {
+   "name": "Hephaestus",
+   "other_name": "Vulcan",
+   "description": "God of fire and smithing"
+  },
+  {
+   "name": "Leto",
+   "other_name": "",
+   "description": "Titaness, mother of Apollo and Artemis"
+  },
+  {
+   "name": "Apollo",
+   "other_name": "",
+   "description": "God of prophecy, music, and the sun"
+  },
+  {
+   "name": "Artemis",
+   "other_name": "Diana",
+   "description": "Goddess of the hunt and the moon"
+  },
+  {
+   "name": "Metis",
+   "other_name": "",
+   "description": "Titaness of wisdom, first wife of Zeus"
+  },
+  {
+   "name": "Athena",
+   "other_name": "Minerva",
+   "description": "Goddess of wisdom and war strategy"
+  },
+  {
+   "name": "Oceanus",
+   "other_name": "",
+   "description": "Titan of the encircling world-river"
+  },
+  {
+   "name": "Tethys",
+   "other_name": "",
+   "description": "Titaness of fresh water, wife of Oceanus"
+  },
+  {
+   "name": "Phoebe",
+   "other_name": "",
+   "description": "Titaness of brightness and prophecy"
+  },
+  {
+   "name": "Themis",
+   "other_name": "",
+   "description": "Titaness of divine law and order"
+  },
+  {
+   "name": "Iapetus",
+   "other_name": "",
+   "description": "Titan, father of Prometheus"
+  },
+  {
+   "name": "Clymene",
+   "other_name": "",
+   "description": "Oceanid, mother of Prometheus"
+  },
+  {
+   "name": "Prometheus",
+   "other_name": "",
+   "description": "Titan who gave fire to mankind"
+  },
+  {
+   "name": "Poseidon",
+   "other_name": "Neptune",
+   "description": "God of the sea and earthquakes"
+  },
+  {
+   "name": "Coeus",
+   "other_name": "",
+   "description": "Titan of intellect, father of Leto"
+  },
+  {
+   "name": "Maia",
+   "other_name": "",
+   "description": "Pleiad nymph, mother of Hermes"
+  },
+  {
+   "name": "Hermes",
+   "other_name": "Mercury",
+   "description": "Messenger god of the Olympians"
+  },
+  {
+   "name": "Inachus",
+   "other_name": "",
+   "description": "River god and first king of Argos"
+  },
+  {
+   "name": "Io",
+   "other_name": "",
+   "description": "Argive maiden loved by Zeus, turned into a heifer"
+  },
+  {
+   "name": "Epaphus",
+   "other_name": "",
+   "description": "Son of Zeus and Io, king of Egypt"
+  },
+  {
+   "name": "Libya",
+   "other_name": "",
+   "description": "Daughter of Epaphus, mother of Belus and Agenor"
+  },
+  {
+   "name": "Priam",
+   "other_name": "",
+   "description": "Last king of Troy"
+  },
+  {
+   "name": "Paris",
+   "other_name": "Alexander",
+   "description": "Trojan prince who abducted Helen"
+  },
+  {
+   "name": "Hesione",
+   "other_name": "",
+   "description": "Daughter of Laomedon, sister of Priam"
+  },
+  {
+   "name": "Laomedon",
+   "other_name": "",
+   "description": "King of Troy, father of Priam"
+  },
+  {
+   "name": "Leda",
+   "other_name": "",
+   "description": "Spartan queen, mother of Helen and Clytemnestra"
+  },
+  {
+   "name": "Tyndareus",
+   "other_name": "",
+   "description": "King of Sparta, husband of Leda"
+  },
+  {
+   "name": "Helen",
+   "other_name": "",
+   "description": "Wife of Menelaus, cause of the Trojan War"
+  },
+  {
+   "name": "Clytemnestra",
+   "other_name": "",
+   "description": "Queen of Mycenae, killed Agamemnon"
+  },
+  {
+   "name": "Atreus",
+   "other_name": "",
+   "description": "King of Mycenae, father of Agamemnon and Menelaus"
+  },
+  {
+   "name": "Aerope",
+   "other_name": "",
+   "description": "Wife of Atreus"
+  },
+  {
+   "name": "Agamemnon",
+   "other_name": "",
+   "description": "King of Mycenae, leader of the Greeks at Troy"
+  },
+  {
+   "name": "Menelaüs",
+   "other_name": "Menelaus",
+   "description": "King of Sparta, husband of Helen"
+  },
+  {
+   "name": "Iphigenia",
+   "other_name": "",
+   "description": "Daughter of Agamemnon, sacrificed at Aulis"
+  },
+  {
+   "name": "Orestes",
+   "other_name": "",
+   "description": "Son of Agamemnon who avenged his father"
+  },
+  {
+   "name": "Strophius",
+   "other_name": "",
+   "description": "King of Phocis, father of Pylades"
+  },
+  {
+   "name": "Pylades",
+   "other_name": "",
+   "description": "Friend of Orestes"
+  },
+  {
+   "name": "Laïus",
+   "other_name": "",
+   "description": "King of Thebes, father of Oedipus"
+  },
+  {
+   "name": "Jocasta",
+   "other_name": "",
+   "description": "Queen of Thebes, mother and wife of Oedipus"
+  },
+  {
+   "name": "Oedipus",
+   "other_name": "",
+   "description": "King of Thebes who killed his father"
+  },
+  {
+   "name": "Polynices",
+   "other_name": "",
+   "description": "Son of Oedipus, attacked Thebes"
+  },
+  {
+   "name": "Ismene",
+   "other_name": "",
+   "description": "Daughter of Oedipus"
+  },
+  {
+   "name": "Tartarus",
+   "other_name": "",
+   "description": "Primordial deep abyss beneath the earth"
+  },
+  {
+   "name": "Typhon",
+   "other_name": "Typhoeus",
+   "description": "Monstrous storm giant defeated by Zeus"
+  },
+  {
+   "name": "Pelops",
+   "other_name": "",
+   "description": "King of Pisa, son of Tantalus, father of Atreus and Thyestes"
+  },
+  {
+   "name": "Tantalus",
+   "other_name": "",
+   "description": "Lydian king punished by the gods, son of Zeus"
+  },
+  {
+   "name": "Thyestes",
+   "other_name": "",
+   "description": "Brother of Atreus, father of Aegisthus, cursed house of Pelops"
+  }
+ ],
+ "relationships": [
+  {
+   "a": "Chaos",
+   "relation": "parent_of",
+   "b": "Gaia",
+   "note": "Hesiod: Gaia arose from Chaos"
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Uranus",
+   "note": "Hesiod: Gaia bore Uranus alone"
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Cronus",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Cronus",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Rhea",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Rhea",
+   "note": ""
+  },
+  {
+   "a": "Cronus",
+   "relation": "spouse_of",
+   "b": "Rhea",
+   "note": ""
+  },
+  {
+   "a": "Cronus",
+   "relation": "parent_of",
+   "b": "Zeus",
+   "note": ""
+  },
+  {
+   "a": "Rhea",
+   "relation": "parent_of",
+   "b": "Zeus",
+   "note": ""
+  },
+  {
+   "a": "Cronus",
+   "relation": "parent_of",
+   "b": "Hera",
+   "note": ""
+  },
+  {
+   "a": "Rhea",
+   "relation": "parent_of",
+   "b": "Hera",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "spouse_of",
+   "b": "Hera",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Ares",
+   "note": ""
+  },
+  {
+   "a": "Hera",
+   "relation": "parent_of",
+   "b": "Ares",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Hephaestus",
+   "note": "Hesiod: Hera bore Hephaestus alone"
+  },
+  {
+   "a": "Hera",
+   "relation": "parent_of",
+   "b": "Hephaestus",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Apollo",
+   "note": ""
+  },
+  {
+   "a": "Leto",
+   "relation": "parent_of",
+   "b": "Apollo",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Artemis",
+   "note": ""
+  },
+  {
+   "a": "Leto",
+   "relation": "parent_of",
+   "b": "Artemis",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Athena",
+   "note": ""
+  },
+  {
+   "a": "Metis",
+   "relation": "parent_of",
+   "b": "Athena",
+   "note": "Born from Zeus's head after he swallowed Metis"
+  },
+  {
+   "a": "Gaia",
+   "relation": "spouse_of",
+   "b": "Uranus",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Oceanus",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Oceanus",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Tethys",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Tethys",
+   "note": ""
+  },
+  {
+   "a": "Oceanus",
+   "relation": "spouse_of",
+   "b": "Tethys",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Phoebe",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Phoebe",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Themis",
+   "note": "Aeschylus makes Themis mother of Prometheus"
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Themis",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Iapetus",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Iapetus",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Coeus",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Coeus",
+   "note": ""
+  },
+  {
+   "a": "Oceanus",
+   "relation": "parent_of",
+   "b": "Clymene",
+   "note": ""
+  },
+  {
+   "a": "Tethys",
+   "relation": "parent_of",
+   "b": "Clymene",
+   "note": ""
+  },
+  {
+   "a": "Iapetus",
+   "relation": "spouse_of",
+   "b": "Clymene",
+   "note": ""
+  },
+  {
+   "a": "Iapetus",
+   "relation": "parent_of",
+   "b": "Prometheus",
+   "note": "Aeschylus: Themis is his mother"
+  },
+  {
+   "a": "Clymene",
+   "relation": "parent_of",
+   "b": "Prometheus",
+   "note": "Aeschylus: Themis is his mother"
+  },
+  {
+   "a": "Cronus",
+   "relation": "parent_of",
+   "b": "Poseidon",
+   "note": ""
+  },
+  {
+   "a": "Rhea",
+   "relation": "parent_of",
+   "b": "Poseidon",
+   "note": ""
+  },
+  {
+   "a": "Coeus",
+   "relation": "parent_of",
+   "b": "Leto",
+   "note": ""
+  },
+  {
+   "a": "Phoebe",
+   "relation": "parent_of",
+   "b": "Leto",
+   "note": ""
+  },
+  {
+   "a": "Coeus",
+   "relation": "spouse_of",
+   "b": "Phoebe",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Hermes",
+   "note": ""
+  },
+  {
+   "a": "Maia",
+   "relation": "parent_of",
+   "b": "Hermes",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "spouse_of",
+   "b": "Maia",
+   "note": ""
+  },
+  {
+   "a": "Inachus",
+   "relation": "parent_of",
+   "b": "Io",
+   "note": "Some say Iasus or Peiren"
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Epaphus",
+   "note": ""
+  },
+  {
+   "a": "Io",
+   "relation": "parent_of",
+   "b": "Epaphus",
+   "note": ""
+  },
+  {
+   "a": "Epaphus",
+   "relation": "parent_of",
+   "b": "Libya",
+   "note": ""
+  },
+  {
+   "a": "Laomedon",
+   "relation": "parent_of",
+   "b": "Priam",
+   "note": ""
+  },
+  {
+   "a": "Laomedon",
+   "relation": "parent_of",
+   "b": "Hesione",
+   "note": ""
+  },
+  {
+   "a": "Priam",
+   "relation": "parent_of",
+   "b": "Paris",
+   "note": ""
+  },
+  {
+   "a": "Tyndareus",
+   "relation": "spouse_of",
+   "b": "Leda",
+   "note": ""
+  },
+  {
+   "a": "Leda",
+   "relation": "parent_of",
+   "b": "Clytemnestra",
+   "note": ""
+  },
+  {
+   "a": "Tyndareus",
+   "relation": "parent_of",
+   "b": "Clytemnestra",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Helen",
+   "note": "Some say Nemesis was her mother"
+  },
+  {
+   "a": "Leda",
+   "relation": "parent_of",
+   "b": "Helen",
+   "note": ""
+  },
+  {
+   "a": "Atreus",
+   "relation": "spouse_of",
+   "b": "Aerope",
+   "note": ""
+  },
+  {
+   "a": "Atreus",
+   "relation": "parent_of",
+   "b": "Agamemnon",
+   "note": "Some say Pleisthenes was father"
+  },
+  {
+   "a": "Aerope",
+   "relation": "parent_of",
+   "b": "Agamemnon",
+   "note": ""
+  },
+  {
+   "a": "Atreus",
+   "relation": "parent_of",
+   "b": "Menelaüs",
+   "note": ""
+  },
+  {
+   "a": "Aerope",
+   "relation": "parent_of",
+   "b": "Menelaüs",
+   "note": ""
+  },
+  {
+   "a": "Menelaüs",
+   "relation": "spouse_of",
+   "b": "Helen",
+   "note": ""
+  },
+  {
+   "a": "Agamemnon",
+   "relation": "spouse_of",
+   "b": "Clytemnestra",
+   "note": ""
+  },
+  {
+   "a": "Agamemnon",
+   "relation": "parent_of",
+   "b": "Iphigenia",
+   "note": ""
+  },
+  {
+   "a": "Clytemnestra",
+   "relation": "parent_of",
+   "b": "Iphigenia",
+   "note": ""
+  },
+  {
+   "a": "Agamemnon",
+   "relation": "parent_of",
+   "b": "Orestes",
+   "note": ""
+  },
+  {
+   "a": "Clytemnestra",
+   "relation": "parent_of",
+   "b": "Orestes",
+   "note": ""
+  },
+  {
+   "a": "Strophius",
+   "relation": "parent_of",
+   "b": "Pylades",
+   "note": ""
+  },
+  {
+   "a": "Laïus",
+   "relation": "spouse_of",
+   "b": "Jocasta",
+   "note": ""
+  },
+  {
+   "a": "Laïus",
+   "relation": "parent_of",
+   "b": "Oedipus",
+   "note": ""
+  },
+  {
+   "a": "Jocasta",
+   "relation": "parent_of",
+   "b": "Oedipus",
+   "note": ""
+  },
+  {
+   "a": "Oedipus",
+   "relation": "spouse_of",
+   "b": "Jocasta",
+   "note": ""
+  },
+  {
+   "a": "Oedipus",
+   "relation": "parent_of",
+   "b": "Polynices",
+   "note": ""
+  },
+  {
+   "a": "Jocasta",
+   "relation": "parent_of",
+   "b": "Polynices",
+   "note": ""
+  },
+  {
+   "a": "Oedipus",
+   "relation": "parent_of",
+   "b": "Ismene",
+   "note": ""
+  },
+  {
+   "a": "Jocasta",
+   "relation": "parent_of",
+   "b": "Ismene",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Typhon",
+   "note": "Some versions make Hera his mother"
+  },
+  {
+   "a": "Tartarus",
+   "relation": "parent_of",
+   "b": "Typhon",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "spouse_of",
+   "b": "Tartarus",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Tantalus",
+   "note": "Mother is the nymph Plouto"
+  },
+  {
+   "a": "Tantalus",
+   "relation": "parent_of",
+   "b": "Pelops",
+   "note": ""
+  },
+  {
+   "a": "Pelops",
+   "relation": "parent_of",
+   "b": "Thyestes",
+   "note": "Mother is Hippodamia"
+  }
+ ],
+ "report": {
+  "people": 55,
+  "relationships": 87,
+  "requested": 75,
+  "requested_missing": [
+   "Actor",
+   "Adrastus",
+   "Aegisthus",
+   "Aegyptus",
+   "Antigone",
+   "Apis",
+   "Argus",
+   "Athamas",
+   "Atlas",
+   "Atossa",
+   "Belus",
+   "Cassandra",
+   "Chorus",
+   "Clytaemestra",
+   "Clytaemnestra",
+   "Creon",
+   "Cypris",
+   "Danaüs",
+   "Darius",
+   "Electra",
+   "Eteocles",
+   "Helle",
+   "Herald",
+   "Hyperbius",
+   "Justice",
+   "King",
+   "Megareus",
+   "Messenger",
+   "Night",
+   "Palaechthon",
+   "Persuasion",
+   "Servant",
+   "Sphinx",
+   "Theseus",
+   "Xerxes"
+  ],
+  "added_ancestors": 15,
+  "dropped": {
+   "unknown_endpoint": [],
+   "self_link": [],
+   "cycle": [],
+   "duplicate": 19
+  }
+ }
+}

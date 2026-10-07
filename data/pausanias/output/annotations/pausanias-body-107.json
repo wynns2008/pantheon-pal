@@ -1,0 +1,305 @@
+{
+ "section_id": "pausanias-body-107",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8347,
+  "output": 2664
+ },
+ "result": {
+  "summary": "Pausanias continues along the Laconian coast, describing the river Scyras, Pyrrhichus, Teuthrone, Taenarum and Oetylus. He discusses local legends such as Silenus, the Amazons and Cerberus, and notes temples, statues and a vanished marvel of a fountain.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Scyras river and Pyrrhichus",
+    "summary": "Pausanias describes the river Scyras, the inland town of Pyrrhichus, its name origins, Silenus tradition, conduit and Amazon-linked temples.",
+    "stakes": "",
+    "present": [
+     "Pyrrhus",
+     "Silenus",
+     "Pindar"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pyrrhichus",
+     "modern_name": "Pyrrichos, Laconia",
+     "certainty": "real",
+     "lat": 36.65,
+     "lon": 22.37
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 23,
+    "title": "Teuthrone and Taenarum",
+    "summary": "Moving to the coast, Pausanias describes Teuthrone and the cave temple at Taenarum, debunks the Cerberus story and mentions Arion, a grateful dolphin and a spoiled fountain.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Cerberus",
+     "Arion",
+     "Hecataeus",
+     "Homer",
+     "Eurystheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Taenarum",
+     "modern_name": "Cape Matapan (Tainaron)",
+     "certainty": "real",
+     "lat": 36.38,
+     "lon": 22.48
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 29,
+    "title": "Caenepolis to Oetylus",
+    "summary": "Pausanias lists places further along the coast: Caenepolis, Thyrides, Hippola, Messa and Oetylus with its temples.",
+    "stakes": "",
+    "present": [
+     "Oetylus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Oetylus",
+     "modern_name": "Itylo",
+     "certainty": "real",
+     "lat": 36.67,
+     "lon": 22.37
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Achilles who sailed from Scyrus to marry Hermione"
+   },
+   {
+    "name": "Silenus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "dance-loving figure said to have been reared at Malea"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero said to have dragged Cerberus to Eurystheus"
+   },
+   {
+    "name": "Cerberus",
+    "aliases": [],
+    "kind": "monster",
+    "description": "dog of Hades, or a deadly serpent per Hecataeus"
+   },
+   {
+    "name": "Arion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "harpist shown in bronze riding a dolphin"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pyrrhus"
+   },
+   {
+    "name": "Hermione",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman Pyrrhus sailed to marry"
+   },
+   {
+    "name": "Eurystheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler to whom the serpent was dragged"
+   },
+   {
+    "name": "Hecataeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Milesian writer with a probable legend"
+   },
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet quoted on Silenus"
+   },
+   {
+    "name": "Oetylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive hero, son of Amphianax, namesake of the town"
+   },
+   {
+    "name": "Amphianax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Oetylus"
+   },
+   {
+    "name": "Antimachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Amphianax"
+   },
+   {
+    "name": "Teuthras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian said to have built Teuthrone"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Pyrrhus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Amphianax",
+    "relation": "parent_of",
+    "b": "Oetylus",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Antimachus",
+    "relation": "parent_of",
+    "b": "Amphianax",
+    "source": "text",
+    "evidence_sentence": 28
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cenepolis",
+    "canonical": "Taenarum",
+    "explanation": "Caenepolis was formerly also called Taenarum."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 15,
+    "reason": "Pausanias rationally doubts that an underground road to Hades exists.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs local tradition against reason, rejecting the literal underworld and offering a rationalised Cerberus.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows Roman-era Laconia as a coast of small towns whose identity rested on cults, myths and monuments.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Taenarum, today Cape Matapan, is the southernmost point of mainland Greece.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Pyrrhus (also called Neoptolemus) married Hermione, daughter of Menelaus and Helen, after the Trojan War; Scyrus was his home island.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "A stade was a Greek measure of about 600 feet (roughly 180 metres).",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Curetes were mythic attendants of the infant Zeus in Crete, known for armed dancing; the name Pyrrhichus recalls the war-dance called the pyrrhic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "The long epithet translates a cult title of Artemis; the Amazons are said to have ceased fighting here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Votive offerings are gifts dedicated to a god in thanks or fulfilment of a vow. Thermodon was the Amazons' river in Asia Minor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Hecatæus is an early Greek historian who rationalised myth. Eurystheus was the king who set Hercules his twelve labours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Homer's Chimæra, a fire-breathing hybrid monster, is described in the Iliad; Pausanias contrasts it with his vaguer reference to Hades' dog.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Arion, a poet-musician, was said to have escaped sailors who threatened him by leaping into the sea and being carried ashore by a dolphin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "The tale ends on a bathetic note: ordinary washing ruined the water's marvel.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 14,
+    "text": "Tænarum (Cape Matapan) is the southernmost point of mainland Greece and was reputed an entrance to the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Pausanias often explains a place-name through a founding hero, here Œtylus, with an Argive genealogy.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 15,
+    "device": "rationalism",
+    "text": "Pausanias critically tests the myth against geography and belief, rejecting an underground road and a literal underworld dwelling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "narrative voice",
+    "text": "Pausanias asserts personal eyewitness testimony, lending authority to the dolphin story and making the earlier tale of Arion seem plausible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "irony",
+    "text": "A once-marvellous fountain now shows nothing; the wonder survives only as report, which gently undercuts reliance on tradition.",
+    "spoiler": false
+   }
+  ]
+ }
+}

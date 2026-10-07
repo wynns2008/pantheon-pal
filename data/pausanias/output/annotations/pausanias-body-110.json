@@ -1,0 +1,463 @@
+{
+ "section_id": "pausanias-body-110",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7623,
+  "output": 3760
+ },
+ "result": {
+  "summary": "Pausanias searches the old epics for the sons of Polycaon and Messene and finds nothing. He then traces the Messenian kings from Perieres to Aphareus, discusses rival claims about the location of Œchalia, and records the arrival of Neleus and Lycus and the family of Aphareus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Searching the poets for Polycaon",
+    "summary": "Pausanias consults the epic poems and genealogists but finds no mention of Messene's husband or sons. The poems list Polycaon's line and then introduce King Perieres.",
+    "stakes": "",
+    "present": [
+     "Pausanias",
+     "Polycaon",
+     "Perieres"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messenia",
+     "modern_name": "Messenia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 21.9
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 7,
+    "title": "Melaneus and the disputed Œchalia",
+    "summary": "Messenians say Melaneus came to Perieres and received Carnasium, once called Œchalia. Thessalians, Eubœans and Hecatæus place Œchalia elsewhere, but Pausanias favors the Messenian account.",
+    "stakes": "",
+    "present": [
+     "Melaneus",
+     "Perieres",
+     "Hecatæus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Carnasium (Œchalia)",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 14,
+    "title": "Aphareus and his guests",
+    "summary": "Aphareus rules Messenia, builds Arene, and receives Neleus, who settles at Pylos. Lycus arrives from Athens and teaches the mysteries of the Great Goddesses.",
+    "stakes": "Neleus and Lycus are exiles fleeing powerful kinsmen, Pelias and Ægeus.",
+    "present": [
+     "Perieres",
+     "Gorgophone",
+     "Aphareus",
+     "Leucippus",
+     "Œbalus",
+     "Arene",
+     "Neleus",
+     "Lycus",
+     "Caucon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Arene, Messenia",
+     "modern_name": "Messenia, Peloponnese",
+     "certainty": "traditional",
+     "lat": 37.1,
+     "lon": 21.7
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 18,
+    "title": "Idas, Lynceus and their descendants",
+    "summary": "Idas and Lynceus are described, with Lynceus's keen sight. Idas's daughter Cleopatra and the wives Marpessa and Polydora are linked, and all three are said to have died by suicide.",
+    "stakes": "",
+    "present": [
+     "Idas",
+     "Lynceus",
+     "Marpessa",
+     "Cleopatra",
+     "Meleager",
+     "Protesilaus",
+     "Polydora"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Messenia",
+     "modern_name": "Messenia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 21.9
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the author and traveler"
+   },
+   {
+    "name": "Polycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Butes, husband of Euæchme in the epics"
+   },
+   {
+    "name": "Euæchme",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Hyllus, wife of Polycaon"
+   },
+   {
+    "name": "Hyllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hercules"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hyllus"
+   },
+   {
+    "name": "Perieres",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Æolus, king of Messenia"
+   },
+   {
+    "name": "Melaneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "skilled archer, thought a son of Apollo"
+   },
+   {
+    "name": "Gorgophone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Perseus, wife of Perieres then Œbalus"
+   },
+   {
+    "name": "Aphareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Messenia, founder of Arene"
+   },
+   {
+    "name": "Leucippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Perieres, co-king"
+   },
+   {
+    "name": "Œbalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Gorgophone"
+   },
+   {
+    "name": "Arene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Œbalus, wife and half-sister of Aphareus"
+   },
+   {
+    "name": "Neleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cretheus, exile who settled Pylos"
+   },
+   {
+    "name": "Lycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Pandion, exile from Athens"
+   },
+   {
+    "name": "Idas",
+    "aliases": [
+     "Ides"
+    ],
+    "kind": "mortal",
+    "description": "elder son of Aphareus"
+   },
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "younger son of Aphareus, keen-sighted"
+   },
+   {
+    "name": "Marpessa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Idas"
+   },
+   {
+    "name": "Cleopatra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Idas, wife of Meleager"
+   },
+   {
+    "name": "Meleager",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Œneus"
+   },
+   {
+    "name": "Protesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first Greek to land at Troy"
+   },
+   {
+    "name": "Polydora",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Protesilaus"
+   },
+   {
+    "name": "Caucon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "initiated Messene into the mysteries"
+   },
+   {
+    "name": "Hecatæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Milesian writer"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "surname given to Cretheus's father Æolus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Perieres",
+    "relation": "parent_of",
+    "b": "Aphareus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Gorgophone",
+    "relation": "parent_of",
+    "b": "Aphareus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Perieres",
+    "relation": "parent_of",
+    "b": "Leucippus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Aphareus",
+    "relation": "spouse_of",
+    "b": "Arene",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Aphareus",
+    "relation": "parent_of",
+    "b": "Idas",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Aphareus",
+    "relation": "parent_of",
+    "b": "Lynceus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Idas",
+    "relation": "spouse_of",
+    "b": "Marpessa",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Idas",
+    "relation": "parent_of",
+    "b": "Cleopatra",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Cleopatra",
+    "relation": "spouse_of",
+    "b": "Meleager",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Meleager",
+    "relation": "parent_of",
+    "b": "Polydora",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Polydora",
+    "relation": "spouse_of",
+    "b": "Protesilaus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Hyllus",
+    "relation": "parent_of",
+    "b": "Euæchme",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Gorgophone",
+    "relation": "spouse_of",
+    "b": "Œbalus",
+    "source": "text",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Poseidon",
+    "canonical": "Æolus",
+    "explanation": "The text says Æolus was surnamed Poseidon."
+   },
+   {
+    "alias": "Ides",
+    "canonical": "Idas",
+    "explanation": "Variant spelling of Idas in the text."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 15,
+    "reason": "Pausanias skeptically reports Pindar's claim that Lynceus could see through a tree trunk.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "reason": "Pausanias remarks that Greek events are almost always the subject of disputed accounts.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs conflicting traditions and epic sources, favoring local Messenian accounts when they seem most probable.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The chapter shows how Greek genealogies were assembled from lost epics such as the Eœæ and linked heroic families across regions.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Great Eœæ, Cyprian Poems and works of Cinæthon and Asius cited here survive only in fragments, so Pausanias preserves information about them.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "The Great Eœæ (Catalogue of Women) and the Naupactian Poems were early Greek epics on heroines and genealogies; Cinæthon and Asius were early genealogical poets.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Melaneus was thought Apollo's son because of his archery; Apollo was the archer god. Œchalia was supposedly named for his wife.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Uterine sister means a sister by the same mother, not the same father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "Neleus is called the son of Cretheus, but Poseidon is given as his surname-father: Pausanias reports the tradition that Æolus was surnamed Poseidon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The Great Goddesses are Demeter and Persephone, whose mysteries were secret rites open only to initiates.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Believe it who will\" signals Pausanias' open scepticism toward Pindar's marvellous claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Protesilaus was reputed the first Greek to die at Troy, leaping ashore first; the Cyprian Poems told of events before the Iliad.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Hecatæus of Miletus was an early historian and geographer, active around 500 BC. Eretria was a city on Eubœa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Lycus, son of Pandion, was exiled from Athens in a dispute with his brother Ægeus, according to Athenian tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Meleager was the Calydonian hero known for the boar hunt; Cleopatra was his wife.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "narrative voice",
+    "text": "Pausanias' aside shows his habit of weighing rival traditions as a critical, slightly weary researcher.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "hyperbole",
+    "text": "Lynceus' ability to see through a tree trunk exaggerates keen sight to legendary extremes.",
+    "spoiler": false
+   }
+  ]
+ }
+}

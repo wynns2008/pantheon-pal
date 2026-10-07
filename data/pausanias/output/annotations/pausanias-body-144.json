@@ -1,0 +1,384 @@
+{
+ "section_id": "pausanias-body-144",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7755,
+  "output": 3178
+ },
+ "result": {
+  "summary": "Pausanias describes Pylos in Messenia, its founders, and Nestor's remains. He digresses on the ancient love of cattle, then on places that gain fame, such as Sphacteria. He ends with sites along the coast to the river Neda.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Pylos and its founders",
+    "summary": "Pausanias describes Pylos, its founding by Pylos son of Cleson, its expulsion by Neleus, and the sights of Nestor's city.",
+    "stakes": "",
+    "present": [
+     "Pylos",
+     "Neleus",
+     "Nestor",
+     "Thrasymedes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pylos",
+     "modern_name": "Pylos (Old Navarino), Messenia",
+     "certainty": "real",
+     "lat": 36.9635,
+     "lon": 21.6955
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 12,
+    "title": "Oxen of Neleus",
+    "summary": "Pausanias explains the oxen of Neleus and cites other myths and Homer to show ancient love of cattle.",
+    "stakes": "Melampus is bound by herdsmen while trying to win the oxen; Eryx stakes his kingdom.",
+    "present": [
+     "Neleus",
+     "Melampus",
+     "Bias",
+     "Iphiclus",
+     "Hercules",
+     "Eurystheus",
+     "Geryon",
+     "Eryx",
+     "Iphidimas",
+     "Antenor",
+     "Nestor"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thessaly",
+     "modern_name": "Thessaly",
+     "certainty": "real",
+     "lat": 39.6,
+     "lon": 22.0
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 18,
+    "title": "Sphacteria and fame of places",
+    "summary": "Pausanias describes the island Sphacteria and notes how places become famous suddenly.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Sphacteria",
+     "modern_name": "Sphacteria island, Pylos bay",
+     "certainty": "real",
+     "lat": 36.9167,
+     "lon": 21.6667
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 23,
+    "title": "Coast toward the Neda",
+    "summary": "Springs and temples at Cyparissiae and Aulon, ending at the river Neda boundary.",
+    "stakes": "",
+    "present": [
+     "Dionysus",
+     "Apollo",
+     "Athene",
+     "Æsculapius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cyparissiae",
+     "modern_name": "Kyparissia",
+     "certainty": "real",
+     "lat": 37.2514,
+     "lon": 21.6786
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pylos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cleson, founder of Pylos"
+   },
+   {
+    "name": "Cleson",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pylos"
+   },
+   {
+    "name": "Neleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who drove out Pylos and made the city renowned"
+   },
+   {
+    "name": "Nestor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Pylos with a house and tomb there"
+   },
+   {
+    "name": "Thrasymedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have a tomb near Pylos"
+   },
+   {
+    "name": "Iphiclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "owner of famous oxen, father of Protesilaus"
+   },
+   {
+    "name": "Protesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Iphiclus"
+   },
+   {
+    "name": "Melampus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "went to Thessaly to win the oxen for Bias"
+   },
+   {
+    "name": "Bias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Melampus"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ordered to drive off Geryon's herd"
+   },
+   {
+    "name": "Eurystheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ordered Hercules to fetch Geryon's cattle"
+   },
+   {
+    "name": "Geryon",
+    "aliases": [],
+    "kind": "monster",
+    "description": "owner of famed oxen in Spain"
+   },
+   {
+    "name": "Eryx",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king in Sicily who wrestled Hercules for the oxen"
+   },
+   {
+    "name": "Iphidimas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Antenor, gave 100 oxen as wedding present"
+   },
+   {
+    "name": "Antenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Iphidimas"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of Greeks returning from Ilium"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "said to have struck the ground making a spring"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "has a temple at Cyparissiae"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Coryphasia",
+     "Cyparissian Athene"
+    ],
+    "kind": "goddess",
+    "description": "goddess worshipped at Pylos and Cyparissiae"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [
+     "Aulonian Æsculapius"
+    ],
+    "kind": "god",
+    "description": "god with a temple at Aulon"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cleson",
+    "relation": "parent_of",
+    "b": "Pylos",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Iphiclus",
+    "relation": "parent_of",
+    "b": "Protesilaus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Melampus",
+    "relation": "sibling_of",
+    "b": "Bias",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Antenor",
+    "relation": "parent_of",
+    "b": "Iphidimas",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Neleus",
+    "relation": "parent_of",
+    "b": "Nestor",
+    "source": "outside",
+    "evidence_sentence": 3
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Coryphasia",
+    "canonical": "Athene",
+    "explanation": "Epithet of Athene at Pylos, from the promontory Coryphasium."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 14,
+    "reason": "Pausanias' general remark that places, like men, are obscure and then become famous.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links Pylos to Homeric legend, using local monuments and Homer as evidence for the heroic past.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The mention of Sphacteria alludes to the Athenian victory of 425 BC over the Spartans, commemorated in a statue of Victory at Athens.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias reasons from Homer's epithet 'sandy Pylos' that Neleus's cattle must have grazed outside Pylian territory.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek measure of about 180–200 metres, so 100 stades is roughly 11 miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "The Leleges were an ancient people of the Aegean region, often counted among its earliest inhabitants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Melampus, a seer, tried to steal Iphiclus' cattle for his brother Bias, who wished to marry Neleus' daughter Pero. He was caught, then freed after he gave a prophecy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Hercules' tenth labour, set by Eurystheus, was to fetch the cattle of the three-bodied Geryon from the far west.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Eryx, king in Sicily, wagered his kingdom in a wrestling match with Hercules over the cattle and lost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Sandy Pylos\" is Homer's recurring description of the city; the Greek word is ēmatoeis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Rhenea is the island close to Delos; Pausanias compares how it lies off the harbour there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Psyttalea is the islet where Persian troops were slaughtered after the battle of Salamis in 480 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "In 425 BC Spartan hoplites were trapped and forced to surrender on Sphacteria, a shock to Greek opinion.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Homer calls Pylos the city of Neleus in the Iliad; Neleus was the father of Nestor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "The thyrsus was a staff tipped with a pine cone and carried by Dionysus and his followers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Æsculapius is the Greek god of healing, worshipped in temples to which the sick came for cures.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "Epithet",
+    "text": "Homer's fixed phrase \"sandy Pylos\" is used as evidence, showing how Pausanias reads poetry as historical testimony.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "Aphorism",
+    "text": "Pausanias states a general truth about fortune, using it to introduce several examples of places suddenly made famous.",
+    "spoiler": false
+   }
+  ]
+ }
+}

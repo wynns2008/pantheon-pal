@@ -1,0 +1,416 @@
+{
+ "section_id": "pausanias-body-259",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7974,
+  "output": 3298
+ },
+ "result": {
+  "summary": "Pausanias describes roads leading out of Megalopolis toward Messenia, Lacedaemon and the interior of Arcadia. He lists villages, ruins, temples and founders along the way, including Hermaeum, Tricoloni and the tomb of Callisto.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Road to Messenia and Hermaeum",
+    "summary": "The road from Megalopolis to Carnasium follows the Alpheus and Malus and reaches Hermaeum, the border with Messenia, with its statues.",
+    "stakes": "",
+    "present": [
+     "Despoena",
+     "Demeter",
+     "Hermes",
+     "Hercules",
+     "Daedalus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hermæum",
+     "modern_name": "",
+     "certainty": "real",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 6,
+    "title": "Road to Lacedaemon",
+    "summary": "The route to Lacedaemon passes the Alpheus, Thius and Phalaesiae to Belemina, whose ownership is disputed.",
+    "stakes": "",
+    "present": [
+     "Arcadians",
+     "Lacedaemonians",
+     "Thebans",
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Belemina",
+     "modern_name": "",
+     "certainty": "real",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 14,
+    "title": "Road to Methydrium and Tricoloni",
+    "summary": "Along the road to Methydrium are ruined places and towns founded by the sons of Lycaon and of Tricolonus.",
+    "stakes": "",
+    "present": [
+     "Aristodemus",
+     "Artemis",
+     "Poseidon",
+     "Lycaon",
+     "Zoeteus",
+     "Tricolonus",
+     "Paroreus",
+     "Demeter",
+     "Thyraeus",
+     "Hypsus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tricoloni",
+     "modern_name": "",
+     "certainty": "real",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 20,
+    "title": "Callisto's tomb and Phalanthum",
+    "summary": "Pausanias describes the tomb of Callisto with its temple of Artemis, then Phalanthum, Polus, Schoenus and Atalanta's Course.",
+    "stakes": "",
+    "present": [
+     "Callisto",
+     "Artemis",
+     "Pamphus",
+     "Phalanthus",
+     "Agelaus",
+     "Stymphelus",
+     "Schoeneus",
+     "Atalanta"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tomb of Callisto",
+     "modern_name": "",
+     "certainty": "traditional",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Despoena",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple and statue at Hermaeum"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with statue at Hermaeum and a temple at Zoetia"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a statue at Hermaeum and a temple at Belemina"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero whose statue stood at Hermaeum"
+   },
+   {
+    "name": "Daedalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "maker of a wooden statue of Hercules"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Sciadian Artemis",
+     "The Most Beautiful"
+    ],
+    "kind": "goddess",
+    "description": "goddess worshipped at several Arcadian sites"
+   },
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant said to have built the temple of Sciadian Artemis"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple and statue at Tricoloni"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the founders of Tricoloni, Thyraeus and Hypsus"
+   },
+   {
+    "name": "Tricolonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Zoeteus and Paroreus"
+   },
+   {
+    "name": "Zoeteus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of Zoetia"
+   },
+   {
+    "name": "Paroreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "younger son of Tricolonus, founder of Paroria"
+   },
+   {
+    "name": "Thyraeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycaon"
+   },
+   {
+    "name": "Hypsus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycaon"
+   },
+   {
+    "name": "Callisto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "buried in a high mound in Arcadia"
+   },
+   {
+    "name": "Pamphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who called Artemis The Most Beautiful"
+   },
+   {
+    "name": "Phalanthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of Phalanthum"
+   },
+   {
+    "name": "Agelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Phalanthus"
+   },
+   {
+    "name": "Stymphelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "grandfather of Phalanthus"
+   },
+   {
+    "name": "Schoeneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boeotian for whom Schoenus is named"
+   },
+   {
+    "name": "Atalanta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Schoeneus, linked to Atalanta's Course"
+   },
+   {
+    "name": "Arcadians",
+    "aliases": [],
+    "kind": "other",
+    "description": "people of Arcadia"
+   },
+   {
+    "name": "Lacedaemonians",
+    "aliases": [],
+    "kind": "other",
+    "description": "Spartans accused of taking Belemina"
+   },
+   {
+    "name": "Thebans",
+    "aliases": [],
+    "kind": "other",
+    "description": "people who supported Arcadia"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Tricolonus",
+    "relation": "parent_of",
+    "b": "Zoeteus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Tricolonus",
+    "relation": "parent_of",
+    "b": "Paroreus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Thyraeus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Hypsus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Agelaus",
+    "relation": "parent_of",
+    "b": "Phalanthus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Stymphelus",
+    "relation": "parent_of",
+    "b": "Agelaus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Schoeneus",
+    "relation": "parent_of",
+    "b": "Atalanta",
+    "source": "text",
+    "evidence_sentence": 19
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "The Most Beautiful",
+    "canonical": "Artemis",
+    "explanation": "Epithet of Artemis at Callisto's tomb."
+   },
+   {
+    "alias": "Sciadian Artemis",
+    "canonical": "Artemis",
+    "explanation": "Epithet of Artemis at Scias."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage is a travel guide that ties places to founders, cults and local tradition, characteristic of Pausanias' Arcadia.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Many sites are described as ruined or deserted, showing Arcadia's depopulation after Megalopolis was founded.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade (stadium) was a Greek unit of length, roughly 185 metres; Pausanias measures all distances this way.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Despœna means 'the Mistress', a cult title of the daughter of Demeter, worshipped especially in Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "'Could they with justice have righted them' means the Thebans would have restored Belemina had the Arcadian claim been just.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "A 'square statue' is a rough, four-sided pillar-like image, typical of very old cult figures.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Callisto was the Arcadian nymph loved by Zeus and turned into a bear; her tomb is a local Arcadian tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Pamphus was an early Athenian poet whose hymns Pausanias often cites; he is credited with calling Artemis 'Most Beautiful'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "The asterisks mark a gap in the text; the place name is lost or uncertain.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Dædalus was the legendary craftsman, to whom many very ancient wooden statues were attributed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Belemina was a border district disputed between Arcadia and Sparta (Lacedæmon).",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "The Thebans under Epaminondas founded Megalopolis and weakened Sparta in the 370s BC, so they would have favoured Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Lycaon was the legendary early king of Arcadia, whose many sons were credited with founding its towns.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 13,
+    "device": "imagery",
+    "text": "The hilly, beast-filled landscape gives a brief, vivid picture of wild Arcadia between the ruined towns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "speculation",
+    "text": "Pausanias's cautious 'if... may have' shows his habit of reasoning from place names to legendary origins.",
+    "spoiler": false
+   }
+  ]
+ }
+}

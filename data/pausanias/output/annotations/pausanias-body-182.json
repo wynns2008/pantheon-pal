@@ -1,0 +1,337 @@
+{
+ "section_id": "pausanias-body-182",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7681,
+  "output": 2889
+ },
+ "result": {
+  "summary": "Pausanias finishes listing offerings at Olympia, then describes the statue of the Thasian athlete Theagenes. He tells of the boy's strength, his many victories, and how his statue killed an enemy, was thrown into the sea, and was recovered on Delphi's advice to be worshipped as a god.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Royal offerings at Olympia",
+    "summary": "Pausanias notes statues dedicated by the Eleans of Philip, Alexander, Seleucus and Antigonus, and then a statue of Theagenes.",
+    "stakes": "",
+    "present": [
+     "Philip",
+     "Alexander",
+     "Seleucus",
+     "Antigonus",
+     "Theagenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis, Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 5,
+    "title": "Theagenes' boyhood feat",
+    "summary": "The Thasians say Hercules fathered Theagenes. At nine he carried off a bronze statue from the market-place and was made to return it, and his fame spread.",
+    "stakes": "The boy risks being killed by angry citizens for taking the statue.",
+    "present": [
+     "Theagenes",
+     "Hercules",
+     "Timosthenes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thasos",
+     "modern_name": "Thasos",
+     "certainty": "real",
+     "lat": 40.78,
+     "lon": 24.7
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 12,
+    "title": "Victories of Theagenes",
+    "summary": "Pausanias lists Theagenes' wins over Euthymus and Dromeus and his victories at the Pythian, Nemean and Isthmian games and in the race at Phthia, 1400 crowns in all.",
+    "stakes": "",
+    "present": [
+     "Theagenes",
+     "Euthymus",
+     "Dromeus",
+     "Achilles"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympia and other Greek games",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 23,
+    "title": "The statue's fate and cult",
+    "summary": "An enemy who whipped the statue is killed by it, the Thasians throw it into the sea, famine follows, and Delphi tells them to recover it. Fishermen net it, and Theagenes is worshipped as a healer.",
+    "stakes": "The Thasians face famine and the gods' wrath until they restore Theagenes' statue.",
+    "present": [
+     "Theagenes",
+     "Draco",
+     "Glaucias"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thasos and Delphi",
+     "modern_name": "Thasos",
+     "certainty": "real",
+     "lat": 40.78,
+     "lon": 24.7
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king, son of Amyntas, honored with a statue at Olympia"
+   },
+   {
+    "name": "Amyntas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Philip"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king, son of Philip"
+   },
+   {
+    "name": "Seleucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king with a mounted statue"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king whose statue is on foot"
+   },
+   {
+    "name": "Theagenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thasian athlete, later worshipped as a healing hero"
+   },
+   {
+    "name": "Timosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "priest of Hercules at Thasos, reputed father of Theagenes"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero-god said to have fathered Theagenes"
+   },
+   {
+    "name": "Euthymus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boxer beaten by Theagenes"
+   },
+   {
+    "name": "Dromeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "athlete of Mantinea, pancratium winner"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "swiftest of heroes, Theagenes' model"
+   },
+   {
+    "name": "Draco",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian lawgiver"
+   },
+   {
+    "name": "Glaucias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æginetan sculptor of the Olympia statue"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Amyntas",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Timosthenes",
+    "relation": "parent_of",
+    "b": "Theagenes",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Theagenes",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 19,
+    "reason": "The Pythian priestess's terse reply that solves the Thasians' famine.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Athletic greatness shades into divinity: Theagenes' strength, supposed divine father and posthumous cult make him a hero.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The trial of the statue and the appeal to Draco's code show the Greek belief that even objects could carry guilt, and that neglected hero-cult brought divine anger.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says Theagenes won 1400 crowns, a figure that shows how heroic athletes' records were inflated in tradition.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Had an intrigue with\" means had a secret sexual affair with; the Thasians claim a divine father for their hero.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Fancied\" here means took a liking to, so the boy simply wanted the statue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "Winning \"without a contest\" means no opponent faced him, so he was crowned by walkover.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "The pancratium was a brutal combined event of boxing and wrestling with few rules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "The \"long course\" was the long-distance foot race, in contrast to the single-length sprint.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Draco was the Athenian lawgiver (about 621 BC) famed for harsh laws; Athenian law tried and banished objects that caused a death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "The oracle's reply is terse and accusing; it names the cause of the famine without explaining it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "The Altis was the sacred precinct of Zeus at Olympia where victor statues stood.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Philip II of Macedon, his son Alexander the Great, and the successors Seleucus and Antigonus were royal figures whose statues the Eleans set up at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Theagenes' boxing bout with Euthymus, and the fine the Eleans imposed on him, were told earlier in Pausanias' account.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Phthia in Thessaly was the homeland of Achilles, who was famous for his swiftness of foot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Delphi's oracle of Apollo was consulted by Greek cities in crises; the Pythian Priestess delivered the god's answers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Theagenes became a hero-cult figure, honored by sacrifice and credited with healing.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "foreshadowing",
+    "text": "The boy's early strength and instant fame anticipate the athletic career and heroic cult that follow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "The enemy beats a dead man's bronze image, yet the statue itself later takes revenge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "personification",
+    "text": "The statue is treated as a killer and tried for murder, as if it had a will.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "narrative voice",
+    "text": "The oracle's brief, blunt reply contrasts with the Thasians' long, anxious efforts, giving the story a sudden resolution.",
+    "spoiler": false
+   }
+  ]
+ }
+}

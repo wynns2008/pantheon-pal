@@ -1,0 +1,459 @@
+{
+ "section_id": "pausanias-body-109",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9298,
+  "output": 3888
+ },
+ "result": {
+  "summary": "Pausanias opens Book 4 by describing the Messenian border and the country's earliest rulers, Polycaon and his wife Messene. He argues from Homer that no city called Messene existed in early times. He then traces how Caucon and Lycus brought the mysteries of the Great Goddesses to Andania.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "The Messenian border",
+    "summary": "Pausanias gives the border of Messenia with Laconia and says the land was first empty of people.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Gerenia, the Chœrian dell",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 5,
+    "title": "Polycaon and Messene settle the land",
+    "summary": "Polycaon, a private man, marries the proud Messene. They raise an army, invade the country and name it Messene after her.",
+    "stakes": "Polycaon's status as a mere private person, and Messene's pride in her father's rank.",
+    "present": [
+     "Lelex",
+     "Myles",
+     "Polycaon",
+     "Messene",
+     "Triopas",
+     "Phorbas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Messene",
+     "modern_name": "Messenia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 21.9
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 15,
+    "title": "Homer and the name Messene",
+    "summary": "Pausanias uses Homer to argue that Messene was a people's name, not a city's, before the Theban victory at Leuctra. He concludes that Polycaon and Messene were the first rulers.",
+    "stakes": "",
+    "present": [
+     "Homer",
+     "Ortilochus",
+     "Diocles",
+     "Pisistratus",
+     "Menelaus",
+     "Iphitus",
+     "Polycaon",
+     "Messene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pheræ",
+     "modern_name": "Kalamata area",
+     "certainty": "real",
+     "lat": 37.04,
+     "lon": 22.11
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 31,
+    "title": "The mysteries of the Great Goddesses",
+    "summary": "Caucon brings the mysteries from Eleusis. Lycus and Methapus later reform them, and Methapus's inscription shows they were celebrated at Andania.",
+    "stakes": "",
+    "present": [
+     "Caucon",
+     "Celænus",
+     "Phlyus",
+     "Lycus",
+     "Pandion",
+     "Methapus",
+     "Messene",
+     "Polycaon",
+     "Rhianus",
+     "Musæus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Andania",
+     "modern_name": "Andania, Messenia",
+     "certainty": "real",
+     "lat": 37.19,
+     "lon": 21.92
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Lelex",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early king of Laconia, called Lelegia after him"
+   },
+   {
+    "name": "Myles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "elder son of Lelex who succeeded him"
+   },
+   {
+    "name": "Polycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "younger son of Lelex, husband of Messene"
+   },
+   {
+    "name": "Messene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive daughter of Triopas, who gave her name to the land"
+   },
+   {
+    "name": "Triopas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Messene, son of Phorbas"
+   },
+   {
+    "name": "Phorbas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Triopas"
+   },
+   {
+    "name": "Caucon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brought the mysteries of the Great Goddesses from Eleusis"
+   },
+   {
+    "name": "Celænus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phlyus, father of Caucon"
+   },
+   {
+    "name": "Phlyus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said by Athenians to be a son of Mother Earth"
+   },
+   {
+    "name": "Lycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Pandion who raised the honour of the rites"
+   },
+   {
+    "name": "Pandion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Lycus"
+   },
+   {
+    "name": "Methapus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian organizer of mystic rites who reformed them"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet cited as evidence"
+   },
+   {
+    "name": "Ortilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "owner of a house in Messene, father of Diocles"
+   },
+   {
+    "name": "Diocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ortilochus, host of Pisistratus at Pheræ"
+   },
+   {
+    "name": "Pisistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "visitor to Menelaus in Homer"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king visited by Pisistratus"
+   },
+   {
+    "name": "Iphitus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "owner of a famous bow"
+   },
+   {
+    "name": "Rhianus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan poet quoted"
+   },
+   {
+    "name": "Musæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "author of a hymn for the Lycomidæ"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lelex",
+    "relation": "parent_of",
+    "b": "Myles",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Lelex",
+    "relation": "parent_of",
+    "b": "Polycaon",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Polycaon",
+    "relation": "spouse_of",
+    "b": "Messene",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Triopas",
+    "relation": "parent_of",
+    "b": "Messene",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Phorbas",
+    "relation": "parent_of",
+    "b": "Triopas",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Phlyus",
+    "relation": "parent_of",
+    "b": "Celænus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Celænus",
+    "relation": "parent_of",
+    "b": "Caucon",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Lycus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Ortilochus",
+    "relation": "parent_of",
+    "b": "Diocles",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Myles",
+    "relation": "sibling_of",
+    "b": "Polycaon",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Great Goddesses",
+    "canonical": "Demeter",
+    "explanation": "The text links their rites with Demeter and her daughter, so the title probably refers to these two goddesses."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 31,
+    "reason": "Pausanias's common-sense argument that the mysteries belong where Messene and Polycaon lived.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias works out origins by combining genealogy, place names, poetry and inscriptions. Here the question is how Messenia got its name and its cult.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The chapter reflects the refounding of Messene after Leuctra and Pausanias's use of Homer and inscriptions as historical evidence.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A dell is a small wooded valley; the Chœrian dell is the name used in Pausanias' day for the border place Gerenia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"A private person\" means a man without royal office or rank, in contrast to his elder brother who became king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Lacedæmon is another name for Sparta and its territory, here the Laconian side of the army.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"_viz._\" is an abbreviation of Latin videlicet, meaning \"namely\"; it introduces the royal seat, Andania.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The catalogue is the list of Greek ships and contingents in the Iliad, Book 2; Ilium is Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "This refers to Odysseus (Ulysses) and Iphitus meeting and Iphitus giving him his great bow, in Odyssey 21.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Pisistratus, Nestor's son, travelled with Telemachus to Sparta to visit Menelaus, passing through Pheræ.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The Great Goddesses are Demeter and her daughter Persephone (Kore). Their mysteries were secret initiation rites, here said to be modelled on those at Eleusis in Attica.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Musæus was a legendary early poet associated with Eleusinian religion; the Lycomidæ were an Athenian priestly clan who used his hymns in their rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Purged the initiated means ritually purified those being initiated, a cleansing before they received the mysteries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "The firstborn daughter of Demeter is Persephone, called Kore, the Maiden; Hermes was linked with paths and with the underworld journey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "Atthis means Attic, or Athenian; the rites are those of Attica, brought to Andania in Messenia.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Augustus, the first Roman emperor, settled provincial boundaries in Greece after his victory over Antony and Cleopatra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Lelex was the legendary early king of Laconia, which was called Lelegia after him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "At Leuctra in 371 BC the Thebans under Epaminondas defeated Sparta; Messene was then refounded near Mount Ithome, freeing the Messenians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Rhianus of Crete was a Hellenistic poet who wrote an epic on Messenian history, which Pausanias often cites as a source.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "The Cabiri were minor deities with mystery cults, notably at Thebes and on the island of Samothrace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Messene was the wife of Polycaon, and the Messenian land was named after her. Pausanias reasons from the founders' residence.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "characterization",
+    "text": "Messene's pride in her father's merit and power explains her ambition and drives the whole conquest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "argument from evidence",
+    "text": "Pausanias uses the absence of a name in Homer's catalogue as proof, reasoning like a historian from silence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "Epithet",
+    "text": "Phrases like illustrious descendant of Phlyus give the ancestor a formal honorific, in keeping with the solemn tone of a votive inscription.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "Characterization",
+    "text": "Pausanias shows himself as a rational antiquarian, backing his argument with plausibility, 'common sense', as well as with texts.",
+    "spoiler": false
+   }
+  ]
+ }
+}

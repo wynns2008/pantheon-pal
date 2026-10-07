@@ -1,0 +1,274 @@
+{
+ "section_id": "pausanias-body-247",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7733,
+  "output": 2333
+ },
+ "result": {
+  "summary": "Pausanias describes Alea, Caphyae and the roads beyond. He records local temples, festivals, the Caphyae reservoir and river Tragus, the old plane-tree of Menelaus, and the story of how Artemis became Apanchomene. He ends with the road to Psophis through the oak-coppice Soron.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Alea and its festivals",
+    "summary": "Alea is described, with its founder, temples and the flogging festival of Dionysus.",
+    "stakes": "",
+    "present": [
+     "Aleus",
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Alea",
+     "modern_name": "Alea, near Stymphalos",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 22.45
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 10,
+    "title": "Caphyae, its waters and plane-tree",
+    "summary": "The plain's reservoir, the river Tragus, the town's origins and Menelaus' plane-tree are described.",
+    "stakes": "",
+    "present": [
+     "Cepheus",
+     "Aegeus",
+     "Menelaus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Caphyae",
+     "modern_name": "Kafyes, Arcadia",
+     "certainty": "real",
+     "lat": 37.68,
+     "lon": 22.35
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 15,
+    "title": "Artemis the Strangled",
+    "summary": "Children bind the statue of Artemis with a rope, are stoned, and the women are afflicted until the oracle orders rites.",
+    "stakes": "The children are killed unjustly, and the women suffer stillbirths until the dead are honoured.",
+    "present": [
+     "Artemis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Condylea",
+     "modern_name": "near Kafyes, Arcadia",
+     "certainty": "real",
+     "lat": 37.68,
+     "lon": 22.35
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 19,
+    "title": "Road to Psophis",
+    "summary": "The route passes Nasi, the Ladon and the oak-coppice Soron, ending at the boundary of Clitor and Psophis.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Soron",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of Alea, son of Aphidas and father of Cepheus"
+   },
+   {
+    "name": "Aphidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aleus"
+   },
+   {
+    "name": "Cepheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aleus, namesake of Caphyae"
+   },
+   {
+    "name": "Aegeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Athens who expelled the settlers"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have planted the plane-tree"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Apanchomene"
+    ],
+    "kind": "goddess",
+    "description": "goddess worshipped at Alea and Caphyae"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god honoured at Alea with the Scieria"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "worshipped at Alea as Alean Athene"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple at Caphyae"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Aphidas",
+    "relation": "parent_of",
+    "b": "Aleus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Aleus",
+    "relation": "parent_of",
+    "b": "Cepheus",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Apanchomene",
+    "canonical": "Artemis",
+    "explanation": "Title meaning 'strangled', given to Artemis at Caphyae after the children's act."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "The children's mock strangling of the goddess's statue starts the aetiological tale.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Cult titles and customs are explained by origin stories, showing how religion marks local memory and guilt.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias records local oracles, rites and ancient trees, preserving Arcadian traditions of the 2nd century AD.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias compares Arcadian tortoise shells to those of Indian tortoises used for lyres.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Argolic league\" is an odd phrase; Alea is in Arcadia, so this probably means it was counted with Argive territory or allies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Spartan boys were flogged at the altar of Artemis Orthia in a ritual endurance test; Pausanias compares it to the women's flogging here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Absorbed in the ground\" describes a katavothra, a natural sinkhole where water disappears underground and resurfaces elsewhere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "The town's name is said to derive from Cepheus, with \"Caphyae\" a dialect shortening of the name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Menelaus, king of Sparta and brother of Agamemnon, gathered the Greek forces against Troy to recover his wife Helen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "The Pythian Priestess was the priestess of Apollo at Delphi who delivered oracles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Apanchomene means \"strangled\" or \"hanged\", recalling the children's act in the story.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Scieria was a festival of Dionysus. Pausanias reports that its flogging of women was ordered by a Delphic oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Ægeus was a legendary king of Athens and father of Theseus, so the Attic origin story is placed in the heroic age.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Pausanias ranks famous ancient trees by age, a common ancient interest; sacred trees were treated as living relics of the past.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Large tortoise shells were used to make the sound-boxes of lyres.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "The children's game of mock strangling turns into a real tragedy, with trivial play leading to grave punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "foreshadowing",
+    "text": "The stoning of the children sets up the disaster for the women, showing that the crime was a sacrilege and the punishment an injustice.",
+    "spoiler": false
+   }
+  ]
+ }
+}

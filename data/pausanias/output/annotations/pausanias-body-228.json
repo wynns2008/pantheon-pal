@@ -1,0 +1,607 @@
+{
+ "section_id": "pausanias-body-228",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9792,
+  "output": 4868
+ },
+ "result": {
+  "summary": "Pausanias traces the Arcadian royal line from Arcas, who teaches agriculture and gives the land its name, through his sons and their descendants. He notes city foundings, the death of Aepytus by a serpent, and the story of Auge, daughter of Aleus, and ends with the sons of Lycurgus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Arcas rules and teaches crafts",
+    "summary": "Arcas succeeds Nyctimus, introduces bread and weaving, renames the country Arcadia, and has sons by the Dryad Erato.",
+    "stakes": "",
+    "present": [
+     "Arcas",
+     "Nyctimus",
+     "Triptolemus",
+     "Adristas",
+     "Erato"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Arcadia",
+     "modern_name": "Arcadia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 16,
+    "title": "Arcas's sons divide the land",
+    "summary": "Azan, Aphidas and Elatus receive shares; their sons found cities, funeral games begin, and the kingdom passes to Aepytus.",
+    "stakes": "",
+    "present": [
+     "Arcas",
+     "Azan",
+     "Aphidas",
+     "Elatus",
+     "Clitor",
+     "Aleus",
+     "Aepytus",
+     "Cyllen",
+     "Stymphelus",
+     "Ischys",
+     "Pereus",
+     "Neaera",
+     "Autolycus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Arcadia",
+     "modern_name": "Arcadia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 19,
+    "title": "Death of Aepytus by serpent",
+    "summary": "Aepytus is killed by a small serpent while hunting, and Pausanias describes the creature he has seen.",
+    "stakes": "Aepytus's life, lost to an unexpected small serpent.",
+    "present": [
+     "Aepytus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Arcadia",
+     "modern_name": "Arcadia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 26,
+    "title": "Aleus, Tegea and Auge",
+    "summary": "Aleus becomes king and builds the temple at Tegea. According to Hecataeus, his daughter Auge bears a child to Hercules, is set adrift in a chest, and marries Teuthras.",
+    "stakes": "Auge and her child are cast into the sea.",
+    "present": [
+     "Aleus",
+     "Auge",
+     "Hercules",
+     "Teuthras",
+     "Gortys",
+     "Agamedes",
+     "Lycurgus",
+     "Amphidamas",
+     "Cepheus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tegea",
+     "modern_name": "Tegea, Arcadia",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.42
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 30,
+    "title": "Lycurgus and his sons",
+    "summary": "Lycurgus succeeds Aleus, kills Areithous by guile, and outlives his sons Epochus and Ancaeus.",
+    "stakes": "",
+    "present": [
+     "Lycurgus",
+     "Areithous",
+     "Epochus",
+     "Ancaeus",
+     "Jason",
+     "Meleager"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tegea",
+     "modern_name": "Tegea, Arcadia",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.42
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Arcas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Callisto, king who named Arcadia"
+   },
+   {
+    "name": "Nyctimus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "previous king of Arcadia"
+   },
+   {
+    "name": "Callisto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Arcas"
+   },
+   {
+    "name": "Triptolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "taught Arcas sowing corn"
+   },
+   {
+    "name": "Adristas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "taught Arcas spinning"
+   },
+   {
+    "name": "Erato",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Dryad mother of Arcas's three legitimate sons"
+   },
+   {
+    "name": "Azan",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Arcas"
+   },
+   {
+    "name": "Aphidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Arcas, got Tegea"
+   },
+   {
+    "name": "Elatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Arcas, founder of Elatea"
+   },
+   {
+    "name": "Autolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "bastard son of Arcas"
+   },
+   {
+    "name": "Clitor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Azan, founded Clitor"
+   },
+   {
+    "name": "Aleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aphidas, king, built Tegea's temple"
+   },
+   {
+    "name": "Aepytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Elatus, killed by a serpent"
+   },
+   {
+    "name": "Pereus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Elatus"
+   },
+   {
+    "name": "Cyllen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Elatus, namesake of Mount Cyllene"
+   },
+   {
+    "name": "Ischys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Elatus"
+   },
+   {
+    "name": "Stymphelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Elatus, father of Agamedes and Gortys"
+   },
+   {
+    "name": "Neaera",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Pereus, wife of Autolycus"
+   },
+   {
+    "name": "Autolycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "of Parnassus, reputed son of Hermes"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "reputed father of Autolycus"
+   },
+   {
+    "name": "Daedalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "real father of Autolycus"
+   },
+   {
+    "name": "Agamedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Stymphelus"
+   },
+   {
+    "name": "Gortys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Stymphelus, founded Gortys"
+   },
+   {
+    "name": "Lycurgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aleus, king of Tegea"
+   },
+   {
+    "name": "Amphidamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aleus"
+   },
+   {
+    "name": "Cepheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aleus"
+   },
+   {
+    "name": "Auge",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Aleus, loved by Hercules"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, father of Auge's child"
+   },
+   {
+    "name": "Teuthras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wealthy man who married Auge"
+   },
+   {
+    "name": "Areithous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "warrior killed by Lycurgus"
+   },
+   {
+    "name": "Epochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycurgus, died of illness"
+   },
+   {
+    "name": "Ancaeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycurgus, Argonaut killed by the boar"
+   },
+   {
+    "name": "Jason",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the voyage to Colchis"
+   },
+   {
+    "name": "Meleager",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hunter of the Calydonian boar"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Callisto",
+    "relation": "parent_of",
+    "b": "Arcas",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Arcas",
+    "relation": "parent_of",
+    "b": "Azan",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Arcas",
+    "relation": "parent_of",
+    "b": "Aphidas",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Arcas",
+    "relation": "parent_of",
+    "b": "Elatus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Erato",
+    "relation": "parent_of",
+    "b": "Azan",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Arcas",
+    "relation": "lover_of",
+    "b": "Erato",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Azan",
+    "relation": "parent_of",
+    "b": "Clitor",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Aphidas",
+    "relation": "parent_of",
+    "b": "Aleus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Elatus",
+    "relation": "parent_of",
+    "b": "Aepytus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Pereus",
+    "relation": "parent_of",
+    "b": "Neaera",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Neaera",
+    "relation": "spouse_of",
+    "b": "Autolycus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Aleus",
+    "relation": "parent_of",
+    "b": "Auge",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Aleus",
+    "relation": "parent_of",
+    "b": "Lycurgus",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Hercules",
+    "relation": "lover_of",
+    "b": "Auge",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Teuthras",
+    "relation": "spouse_of",
+    "b": "Auge",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Lycurgus",
+    "relation": "parent_of",
+    "b": "Ancaeus",
+    "source": "text",
+    "evidence_sentence": 29
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage builds an Arcadian genealogy that explains place names and cities through eponymous founders, tying the land to its people.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias blends genealogy, local tradition and personal observation, such as the serpent he saw, typical of his travel-guide method.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Triptolemus was the Eleusinian hero who spread the cultivation of grain, taught by Demeter; here he instructs Arcas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Pelasgi were the old pre-Greek inhabitants Pausanias imagines in early Arcadia; the country is renamed after Arcas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Dryades are tree nymphs, Naiades water nymphs; Epimeliades were nymphs of flocks and fields (the word suggests care of sheep).",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"The lot of Aphidas\" refers to the share of land allotted to him; poets used the phrase for Tegea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "Pausanias hedges: he is unsure whether other contests existed, but claims horse races were certainly the first funeral games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Refers back to Pausanias' earlier book on Argolis (Book 2), where Ischys's death was recounted.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Autolycus, the famous thief, was reputed son of Hermes, patron of thieves; Pausanias gives a rival paternity, Dædalion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Worm\" here means a small crawling creature or snake; the horned serpent is a viper with horn-like projections above the eyes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Athene Alea\" is Athene worshipped under the local title Alea at Tegea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "\"Had an intrigue with\" means had a secret love affair with; \"let it drift to sea\" means the chest was cast into the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Areithous was a known warrior, famed in Homer's Iliad for fighting with an iron club; he was killed in a narrow pass.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Refers to Jason's voyage on the Argo to Colchis for the Golden Fleece, and to the Calydonian boar hunt led by Meleager.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Nyctimus was the previous king of Arcadia; Arcas was son of Callisto, the nymph Jove loved, and eponym of the Arcadians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Elatea was the major city of Phocis; the Phlegyes were a warlike people of central Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Clitor was a real Arcadian city, here explained by a founder bearing the same name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Hecatæus was an early Greek historian and geographer, here cited as Pausanias' source for the story of Auge and Hercules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Pergamus was a city in Mysia, near the river Caicus, in Asia Minor; Auge was honored there with a tomb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Ancæus was one of the Argonauts, the heroes who sailed with Jason.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "etiology",
+    "text": "The sentence explains the origin of a name, Arcadia from Arcas, a common mythic way of accounting for places and peoples.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "narrative voice",
+    "text": "The flat, genealogical close shows Pausanias' chronicle style, compressing royal succession into a single plain statement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "irony",
+    "text": "A hunter expecting danger from wild beasts is killed by a tiny snake, making his death unexpectedly humble.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "simile",
+    "text": "The creature's sideways movement is compared to a crab's, giving readers a vivid picture of an unfamiliar animal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "irony",
+    "text": "Lycurgus's long life is bittersweet: he lives to old age but outlives both sons, who died young.",
+    "spoiler": false
+   }
+  ]
+ }
+}

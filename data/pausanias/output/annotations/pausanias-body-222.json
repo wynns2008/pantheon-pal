@@ -1,0 +1,406 @@
+{
+ "section_id": "pausanias-body-222",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10796,
+  "output": 3511
+ },
+ "result": {
+  "summary": "Pausanias gives examples of divine vengeance on those who wrong suppliants, then continues his tour of Achaia. He describes Cerynea with its temple of the Eumenides, Bura with its temples and the dice oracle of Hercules, the river Crathis, the lost town of Ægæ, and the temple of Earth at Gaius.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 13,
+    "title": "Vengeance for wronged suppliants",
+    "summary": "Pausanias recalls the Dodona oracle, Codrus and the Lacedæmonian suppliants at Athens, and later punishments for killing suppliants, including Helice's destruction.",
+    "stakes": "Those who violate suppliants risk divine punishment, such as curses and earthquakes.",
+    "present": [
+     "Codrus",
+     "Zeus",
+     "Asteus",
+     "Damon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 20,
+    "title": "Cerynea and the Eumenides",
+    "summary": "Pausanias describes Cerynea, its Mycenæan settlers, and the temple of the Eumenides whose power drives the guilty mad.",
+    "stakes": "Blood-stained visitors are driven frantic with fear in the temple.",
+    "present": [
+     "Orestes",
+     "Eumenides"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cerynea",
+     "modern_name": "near Kerynia, Achaia",
+     "certainty": "real",
+     "lat": 38.2,
+     "lon": 22.1
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 33,
+    "title": "Bura and the dice oracle",
+    "summary": "Pausanias describes Bura, its earthquake, temples and statues, and the oracle of Hercules by dice, then the river Crathis.",
+    "stakes": "",
+    "present": [
+     "Bura",
+     "Ion",
+     "Helice",
+     "Hercules",
+     "Euclides"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Bura",
+     "modern_name": "Bura, Achaia",
+     "certainty": "real",
+     "lat": 38.2,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 34,
+    "end_sentence": 43,
+    "title": "Ægæ and the temple at Gaius",
+    "summary": "He notes the deserted Ægæ, a tomb, and the temple of Earth at Gaius with its priestess test of bull's blood.",
+    "stakes": "A priestess who lies is detected and punished by the bull's blood test.",
+    "present": [
+     "Hera",
+     "Poseidon",
+     "Earth"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Gaius",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose oracle at Dodona protected suppliants"
+   },
+   {
+    "name": "Codrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian king who devoted himself to death"
+   },
+   {
+    "name": "Melanthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Codrus"
+   },
+   {
+    "name": "Asteus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian Archon in the year Helice fell"
+   },
+   {
+    "name": "Damon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "victor from Thuria in the 101st Olympiad"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have built the temple at Cerynea"
+   },
+   {
+    "name": "Eumenides",
+    "aliases": [
+     "the August"
+    ],
+    "kind": "goddess",
+    "description": "goddesses honoured at Athens and Cerynea"
+   },
+   {
+    "name": "Bura",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Ion, namesake of the town"
+   },
+   {
+    "name": "Ion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Xuthus by Helice"
+   },
+   {
+    "name": "Xuthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Ion"
+   },
+   {
+    "name": "Helice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Ion, namesake of the destroyed town"
+   },
+   {
+    "name": "Euclides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian sculptor of statues at Bura"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Buraicus"
+    ],
+    "kind": "god",
+    "description": "god with a dice oracle in a cave near Bura"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "speaker in a Homeric line mentioning Helice and Ægæ"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god honoured at Helice, Ægæ and Tænarum"
+   },
+   {
+    "name": "Earth",
+    "aliases": [
+     "Broad-breasted"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a temple at Gaius"
+   },
+   {
+    "name": "Cylo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of a party that seized the Acropolis"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Melanthus",
+    "relation": "parent_of",
+    "b": "Codrus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Xuthus",
+    "relation": "parent_of",
+    "b": "Ion",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Helice",
+    "relation": "parent_of",
+    "b": "Ion",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Ion",
+    "relation": "parent_of",
+    "b": "Bura",
+    "source": "text",
+    "evidence_sentence": 22
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the August",
+    "canonical": "Eumenides",
+    "explanation": "The Eumenides are called the August goddesses at Athens."
+   },
+   {
+    "alias": "Buraicus",
+    "canonical": "Hercules",
+    "explanation": "Surname of Hercules from the river and town of Bura."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "Concise statement of the oracle's principle that suppliants are inviolable.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows that outraging suppliants brings divine retribution, tying Helice's fall to other examples.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Local cults, oracles and rituals like the dice oracle and bull's blood test show everyday religion in Roman-era Achaia.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The river Crathis in Achaia is said to have given its name to the Crathis near Croton in Italy.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Eumenides are the Furies, appeased under this kindly name; their shrine lay beside the Areopagus, the Athenian hill-court, a place of sanctuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Codrus, Athens' king, disguised himself and got killed, because an oracle said the side whose king died would win.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"August\" here translates Semnai, a title of the Eumenides meaning venerable or revered.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Cylo tried to seize Athens as tyrant; his followers were killed after leaving Athene's sanctuary, bringing a curse on the killers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Scot-free\" means unharmed and unpunished.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Mycenæ was abandoned after Argive attack, traditionally in the 460s BC. Mardonius' mission to the Athenians (479 BC) dates the event; Alexander is Alexander I of Macedon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "\"Driven frantic by his fears\" means the guilty are made mad, as the Furies were said to madden Orestes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "\"The god\" is Poseidon, who was held to have destroyed Helice by earthquake and flood in 373 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "\"Robed\" means the statue of Demeter is draped in clothing, unlike the others, which are presumably not.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "\"Dice\" here is used as a singular; the figures on the dice match written interpretations on the board.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "A quotation from Homer's Iliad, where Hera speaks of Poseidon being offered gifts at Helice and Ægæ.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 11,
+    "text": "Tænarum, the southern tip of the Peloponnese, had a famed sanctuary of Poseidon; Spartans killed helots who had fled there, and an earthquake followed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Helice, an Achaean city, was swallowed by the sea after an earthquake in 373 BC, dated here by Athenian archon and Olympiad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The Cyclopes were legendary giants said to have built the massive walls of Mycenæ and Tiryns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The Eumenides (\"Kindly Ones\") are the Furies, avenging spirits who pursued Orestes after he killed his mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Ilithyia was the goddess of childbirth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "text": "Earth, the goddess Gaia, was worshipped under the title Broad-breasted.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "Apostrophe",
+    "text": "The oracle addresses the Athenians directly in the imperative, giving its command divine authority and urgency.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "Aphorism",
+    "text": "The short, absolute statement distills the moral lesson of the whole passage into a memorable maxim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Foreshadowing",
+    "text": "The earthquake on Sparta anticipates the later earthquake that destroys Helice, reinforcing the pattern of divine retribution.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "Characterization",
+    "text": "Calling the offender a \"wretch\" shows the narrator's moral stance and the temple's feared supernatural power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "Motif",
+    "text": "Divine tests of truth and guilt recur here, as with the Eumenides' madness, linking these shrines through ordeal and justice.",
+    "spoiler": false
+   }
+  ]
+ }
+}

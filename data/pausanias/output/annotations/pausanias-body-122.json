@@ -1,0 +1,353 @@
+{
+ "section_id": "pausanias-body-122",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7645,
+  "output": 3029
+ },
+ "result": {
+  "summary": "After the fall of Ithome, the Messenians scatter and the Lacedaemonians raze their cities, dedicate tripods and impose harsh terms on them. Pausanias quotes Tyrtaeus on their misery. Young men led by Aristomenes of Andania then begin secretly planning a revolt.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Messenia dispersed and cities razed",
+    "summary": "Messenians flee to friends or disperse. Sparta razes Ithome, takes the other cities, dedicates tripods at Amyclae and gives land to the Asinaei and Androcles' descendants.",
+    "stakes": "The Messenians lose their homeland and independence.",
+    "present": [
+     "Messenians",
+     "Lacedæmonians",
+     "Asinæi",
+     "Androcles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ithome and Messenia",
+     "modern_name": "Mount Ithome, Messenia",
+     "certainty": "real",
+     "lat": 37.18,
+     "lon": 21.92
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 11,
+    "title": "Spartan terms and Tyrtaeus",
+    "summary": "Sparta imposes an oath, half the produce as tribute and compulsory black mourning at Spartan funerals. Tyrtaeus is quoted on this servitude.",
+    "stakes": "The Messenians face punishment and the loss of half their produce.",
+    "present": [
+     "Messenians",
+     "Lacedæmonians",
+     "Tyrtæus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messenia",
+     "modern_name": "Messenia",
+     "certainty": "real",
+     "lat": 37.1,
+     "lon": 21.9
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 19,
+    "title": "Aristomenes and the plan to revolt",
+    "summary": "Young Messenians decide on revolt. Aristomenes, said to be born of a dragon, helps lead it and they secretly seek help from Argos and Arcadia.",
+    "stakes": "The rebels risk death in battle or exile, preferring that to slavery.",
+    "present": [
+     "Aristomenes",
+     "Nicotelea",
+     "Messenians"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Andania",
+     "modern_name": "Andania, Messenia",
+     "certainty": "real",
+     "lat": 37.17,
+     "lon": 22.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "young Messenian leader honoured as a hero"
+   },
+   {
+    "name": "Nicotelea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Aristomenes"
+   },
+   {
+    "name": "Tyrtæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who described Messenian servitude"
+   },
+   {
+    "name": "Androcles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian whose grandsons fled to Sparta"
+   },
+   {
+    "name": "Olympias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian mother said to have had a divine lover"
+   },
+   {
+    "name": "Aristodama",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicyonian mother of Aratus"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said by Macedonians to be son of Ammon"
+   },
+   {
+    "name": "Aratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said by Sicyonians to be son of Æsculapius"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "named as father of Aristomenes by most Greeks"
+   },
+   {
+    "name": "Nicomedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aristomenes in Messenian libations"
+   },
+   {
+    "name": "Messenians",
+    "aliases": [],
+    "kind": "other",
+    "description": "people of Messenia, conquered by Sparta"
+   },
+   {
+    "name": "Lacedæmonians",
+    "aliases": [],
+    "kind": "other",
+    "description": "Spartans, the conquerors"
+   },
+   {
+    "name": "Asinæi",
+    "aliases": [],
+    "kind": "other",
+    "description": "people expelled by Argives, given coastal land"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of Amyclae who receives tripods"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue beneath a tripod"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue beneath a tripod"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Demeter, statue beneath a tripod"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Proserpine"
+   },
+   {
+    "name": "Ammon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god said to father Alexander"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god said to father Aratus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Proserpine",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Nicotelea",
+    "relation": "parent_of",
+    "b": "Aristomenes",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Nicomedes",
+    "relation": "parent_of",
+    "b": "Aristomenes",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Ammon",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Æsculapius",
+    "relation": "parent_of",
+    "b": "Aratus",
+    "source": "text",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "Tyrtaeus' image of Messenians as overburdened asses captures their servitude.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Conquest turns Messenians into near-slaves, and the wish for freedom over comfortable servitude drives the next revolt.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias cites Tyrtaeus as contemporary evidence and notes rival traditions of divine births for heroes.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias compares the dragon-father tale of Aristomenes to similar stories about Alexander and Aratus.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "The Great Goddesses are Demeter and Persephone, whose mysteries were celebrated at Eleusis; Messenian priestly families had a role in their rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Brazen means made of bronze. A tripod is a three-legged cauldron or stand, a common dedication to gods from war spoils.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Proserpine is the Latin form of Persephone, daughter of Demeter, queen of the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Raiment means clothing; black clothing was the mark of mourning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Tyrtæus was a Spartan war poet of the period; his elegiac verses are the source Pausanias cites for Messenian servitude.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Had an intrigue with\" means had a secret love affair with; the dragon is said to have fathered Aristomenes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Ammon is the Egyptian god identified with Zeus; Alexander claimed him as his father. Aratus of Sicyon was said to be Æsculapius' son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"Bonâ fide\" is Latin for in good faith, meaning sincerely rather than half-heartedly.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Ithome was the mountain stronghold of the Messenians and their last refuge in the first war against Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Amyclæ was a Spartan town near Sparta with a famous sanctuary of Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Andania was an inland Messenian town and early royal seat, so it makes a natural center for the revolt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Argos and the Arcadians had helped Messenia in the first war, so the rebels hope for similar aid.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 10,
+    "device": "simile",
+    "text": "Messenians are compared to overburdened asses, conveying humiliation and forced labor for masters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "characterization",
+    "text": "The young men are shown as idealistic and inexperienced, valuing freedom over safe slavery; this motivates the revolt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "narrative voice",
+    "text": "Pausanias weighs rival traditions and asserts his own knowledge, showing a cautious, comparative historian's voice.",
+    "spoiler": false
+   }
+  ]
+ }
+}

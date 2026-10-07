@@ -1,0 +1,370 @@
+{
+ "section_id": "pausanias-body-183",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8070,
+  "output": 3204
+ },
+ "result": {
+  "summary": "Pausanias continues describing victor statues at Olympia. He covers the chariot offerings of the Syracusan tyrants Hiero and Hiero II, then statues of Areus, Aratus and several boxers and chariot victors, and corrects a claim that Tritæa was Arcadian.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Chariot of Hiero, son of Dinomenes",
+    "summary": "Pausanias describes a bronze chariot with race-horses and boys, offered by Dinomenes in honour of his father Hiero's victories. It is the work of Onatas and Calamis.",
+    "stakes": "",
+    "present": [
+     "Hiero son of Dinomenes",
+     "Dinomenes son of Hiero",
+     "Onatas",
+     "Calamis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 10,
+    "title": "Hiero II of Syracuse",
+    "summary": "Pausanias tells how Hiero son of Hierocles became tyrant, allied with Pyrrhus, then joined Rome against Carthage, and was killed by Dinomenes. His statues were made by Mico.",
+    "stakes": "Hiero's power and life; Dinomenes risks death in attacking tyranny.",
+    "present": [
+     "Hiero son of Hierocles",
+     "Agathocles",
+     "Pyrrhus",
+     "Gelon",
+     "Nereis",
+     "Dinomenes the Syracusan",
+     "Hippocrates",
+     "Epicydes",
+     "Mico"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Syracuse",
+     "modern_name": "Syracuse, Sicily",
+     "certainty": "real",
+     "lat": 37.0755,
+     "lon": 15.2866
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 21,
+    "title": "Other victors and Tritæa",
+    "summary": "Pausanias lists statues of Areus, Aratus, Timon, Callon, Hippomachus, Theochrestus and Agesarchus. He rejects an inscription's claim that Tritæa was Arcadian.",
+    "stakes": "",
+    "present": [
+     "Areus",
+     "Aratus",
+     "Timon",
+     "Callon",
+     "Hippomachus",
+     "Theochrestus",
+     "Agesarchus",
+     "Daippus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hiero son of Dinomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant of Syracuse after Gelon, Olympic victor"
+   },
+   {
+    "name": "Dinomenes son of Hiero",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicated the chariot to the god"
+   },
+   {
+    "name": "Hiero son of Hierocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "later tyrant of Syracuse, ally of Rome"
+   },
+   {
+    "name": "Gelon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hiero II, married Nereis"
+   },
+   {
+    "name": "Nereis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Pyrrhus"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Æacides, king allied with Hiero"
+   },
+   {
+    "name": "Dinomenes the Syracusan",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "assassin of Hiero who hated tyranny"
+   },
+   {
+    "name": "Hippocrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Epicydes, attacked by Dinomenes"
+   },
+   {
+    "name": "Epicydes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Hippocrates"
+   },
+   {
+    "name": "Agathocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "former tyrant of Syracuse"
+   },
+   {
+    "name": "Onatas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æginetan sculptor"
+   },
+   {
+    "name": "Calamis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of horses and boys"
+   },
+   {
+    "name": "Mico",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Syracusan sculptor, son of Niceratus"
+   },
+   {
+    "name": "Areus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Acrotatus"
+   },
+   {
+    "name": "Aratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Clinias, Olympic chariot victor"
+   },
+   {
+    "name": "Timon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean horse-owner with a bronze chariot"
+   },
+   {
+    "name": "Callon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean boy boxing victor"
+   },
+   {
+    "name": "Hippomachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean boy boxing victor"
+   },
+   {
+    "name": "Daippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Callon's statue"
+   },
+   {
+    "name": "Theochrestus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cyrenian horse-trainer and victor"
+   },
+   {
+    "name": "Agesarchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boxer of Tritæa"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Dinomenes son of Hiero",
+    "relation": "parent_of",
+    "b": "Hiero son of Dinomenes",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Hiero son of Dinomenes",
+    "relation": "parent_of",
+    "b": "Dinomenes son of Hiero",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Hiero son of Hierocles",
+    "relation": "parent_of",
+    "b": "Gelon",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Pyrrhus",
+    "relation": "parent_of",
+    "b": "Nereis",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Gelon",
+    "relation": "spouse_of",
+    "b": "Nereis",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Hippocrates",
+    "relation": "sibling_of",
+    "b": "Epicydes",
+    "source": "text",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias uses statues as prompts for history, recounting the careers of those honoured and checking inscriptions against his own research.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Syracusan material reflects Sicilian politics in the Punic Wars, when Hiero II shifted from Carthage to Rome.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Brazen\" means made of bronze; \"race-horses\" here are single riding horses (keles), ridden by boys, as opposed to chariot teams.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "Dating by Olympiad: the 126th Olympiad fell in the 270s BC. The winner in the stadium (foot race) names the Olympiad's year.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Kinsman by marriage\" means related through the marriage of their children, here Gelon and Nereis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Talk over the people\" means win the citizens round by persuasion, probably to stir them to support his cause.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "An elegiac couplet is a two-line verse form, hexameter then pentameter, commonly used for inscriptions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "\"Commonalty\" means the common people; the Arcadian assembly decreed the small towns be merged into Megalopolis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Pausanias suggests Tritæa, in Achaia, was once counted as Arcadian by political association, just as some Arcadian places now belong to Argolis.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Hiero I ruled Syracuse after his brother Gelon, in the early fifth century BC, and won Olympic victories with horses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Onatas of Aegina and Calamis were famous bronze sculptors of the fifth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "This refers to the First Punic War (264–241 BC), when Hiero II first sided with Carthage, then allied with Rome.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Hippocrates and Epicydes were Syracusan brothers of Carthaginian sympathies who later played a leading role in Syracuse's break from Rome.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Victory (Nike) was commonly shown as a winged maiden on victory monuments.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The Isthmian games were held near Corinth, one of the four great Panhellenic festivals.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "characterization",
+    "text": "Pausanias distinguishes the two Hieros by naming their fathers, a careful antiquarian habit that organizes the narrative of monuments.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "Dinomenes, killer of a tyrant, is himself hacked down by the guards of another man he attacked.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "hyperbole",
+    "text": "The claim that Hippomachus won without taking a blow is a reported tradition, likely exaggerated to heighten his glory.",
+    "spoiler": false
+   }
+  ]
+ }
+}

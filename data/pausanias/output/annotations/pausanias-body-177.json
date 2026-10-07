@@ -1,0 +1,432 @@
+{
+ "section_id": "pausanias-body-177",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10458,
+  "output": 3882
+ },
+ "result": {
+  "summary": "Pausanias lists more Olympic victor statues at Olympia, including Arcadian, Athenian, Rhodian, Theban and Elean athletes. He then tells of the Locrian boxer Euthymus, his rivalry with Theagenes, and his defeat of the ghost haunting Temesa.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "More victor statues at Olympia",
+    "summary": "Pausanias lists statues of boxers, wrestlers and pancratiasts and their sculptors, along with the victors' families.",
+    "stakes": "",
+    "present": [
+     "Protolaus",
+     "Narycidas",
+     "Callias",
+     "Androsthenes",
+     "Eucles",
+     "Agenor",
+     "Damoxenidas",
+     "Lastratidas",
+     "Paraballon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 19,
+    "title": "Euthymus and Theagenes",
+    "summary": "Euthymus of Locri, said to be the son of the river Cæcinus, wins at Olympia. Theagenes outboxes him once, is fined, and later gives up boxing.",
+    "stakes": "Euthymus risks losing Olympic victories to Theagenes; Theagenes risks fines and disgrace.",
+    "present": [
+     "Euthymus",
+     "Theagenes",
+     "Astycles",
+     "Cæcinus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 30,
+    "title": "Euthymus fights the Hero of Temesa",
+    "summary": "Euthymus learns of the ghost of Odysseus' sailor, who demands a girl each year. He fights and drives it off and marries the maiden.",
+    "stakes": "The maiden faces being given to the ghost; the people of Temesa face its slaughter.",
+    "present": [
+     "Euthymus",
+     "Odysseus",
+     "Hero of Temesa"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Temesa",
+     "modern_name": "near Campora San Giovanni, Calabria",
+     "certainty": "traditional",
+     "lat": 39.05,
+     "lon": 16.2
+    }
+   },
+   {
+    "start_sentence": 31,
+    "end_sentence": 35,
+    "title": "The painting of the ghost",
+    "summary": "Pausanias describes a painting showing Temesa and the ghost, called Lycas, dressed in a wolfskin.",
+    "stakes": "",
+    "present": [
+     "Lycas",
+     "Sybaris",
+     "Calabrus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temesa",
+     "modern_name": "near Campora San Giovanni, Calabria",
+     "certainty": "traditional",
+     "lat": 39.05,
+     "lon": 16.2
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Protolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mantinean boy boxing victor, son of Dialces"
+   },
+   {
+    "name": "Narycidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wrestler from Phigalia, son of Damaretus"
+   },
+   {
+    "name": "Callias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian pancratiast"
+   },
+   {
+    "name": "Androsthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Pancratiast from Mænalus, son of Lochæus"
+   },
+   {
+    "name": "Eucles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Rhodian boxer, grandson of Diagoras"
+   },
+   {
+    "name": "Agenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban boy wrestler, son of Theopompus"
+   },
+   {
+    "name": "Damoxenidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boxer from Mænalus"
+   },
+   {
+    "name": "Lastratidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean boy wrestler"
+   },
+   {
+    "name": "Paraballon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean runner, father of Lastratidas, who recorded victors"
+   },
+   {
+    "name": "Euthymus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Locrian boxer who defeated the ghost of Temesa"
+   },
+   {
+    "name": "Astycles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Reputed human father of Euthymus"
+   },
+   {
+    "name": "Cæcinus",
+    "aliases": [],
+    "kind": "other",
+    "description": "River said to be Euthymus' true father"
+   },
+   {
+    "name": "Theagenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boxer from Thasos who beat Euthymus"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero whose sailor was stoned at Temesa"
+   },
+   {
+    "name": "Hero of Temesa",
+    "aliases": [
+     "Lycas"
+    ],
+    "kind": "creature",
+    "description": "Ghost of the stoned sailor who killed people of Temesa"
+   },
+   {
+    "name": "Lycas",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Name given to the ghost in the painting"
+   },
+   {
+    "name": "Sybaris",
+    "aliases": [],
+    "kind": "other",
+    "description": "Young man shown in the painting"
+   },
+   {
+    "name": "Calabrus",
+    "aliases": [],
+    "kind": "other",
+    "description": "River shown in the painting"
+   },
+   {
+    "name": "Theopompus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Agenor, friend of the Phocians"
+   },
+   {
+    "name": "Diagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Maternal grandfather of Eucles"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Astycles",
+    "relation": "parent_of",
+    "b": "Euthymus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Cæcinus",
+    "relation": "parent_of",
+    "b": "Euthymus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Theopompus",
+    "relation": "parent_of",
+    "b": "Agenor",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Paraballon",
+    "relation": "parent_of",
+    "b": "Lastratidas",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lycas",
+    "canonical": "Hero of Temesa",
+    "explanation": "The painting labels the ghost Euthymus expelled with this name."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Memorable detail: grasshoppers sing only on the Locrian side of the river Cæcinus.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Athletic fame blends with legend: Euthymus is both a record-winning boxer and a hero who defeats a ghost.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows Olympia as a record of victors, with statues, sculptors and sponsors, and reflects the cult of heroes and appeasing ghosts via oracles.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Temesa ghost story is a notable ancient parallel of a monster demanding a maiden, later echoed in similar tales of rescued maidens."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias says he did not see the story himself but relied on a merchant and on a painting copied from an older one.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Maternal grandfather\" means Diagoras, the famous Rhodian boxer, was his mother's father; the family name Diagoridæ comes from him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "The \"double course\" (diaulos) was a footrace of two stadium lengths, down the track and back.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"Has a peculiarity in respect to grasshoppers\" is Pausanias' way of introducing the river's odd local wonder, explained in the next sentence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "The wild olive crown was the only prize at Olympia, cut from the sacred tree near the temple of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "A talent was a large weight of silver, so each fine was a heavy sum. \"Umpires\" are the Elean judges (Hellanodicae).",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "\"Hero\" here means a dead man worshipped with cult honours, not a warrior. Here it is a vengeful spirit receiving offerings at a shrine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "\"In drink\" means while drunk; \"violated\" means raped.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Wholesale flitting\" means a mass departure or emigration of the whole community from Italy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Pythian Priestess\" is the Pythia, the priestess of Apollo at Delphi, who delivered oracles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Propitiate\" means to appease or win over the anger of a spirit or god through offerings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"Left mankind some other way\" means he vanished rather than died, as heroes were said to be taken away.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "\"Swarthy\" means dark-skinned; here it makes the ghost look grim and fearsome.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Pythagoras of Rhegium and Micon of Athens were famous artists; Micon was known mainly as a painter, though he also made statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Paraballon's list of victors at Olympia is the sort of record later writers used to date events by Olympiads.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "The pancratium combined boxing and wrestling with few rules. Winning both events in one Games was a rare feat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Odysseus is the hero of Homer's Odyssey, who wandered for years after the Trojan War (the capture of Ilium, i.e. Troy). This translation uses the name Odysseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Sybaris and Calabrus are named as a youth and a river, and Lyca as a spring, all places or figures associated with the region of Temesa in southern Italy.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "allusion to myth",
+    "text": "The claim that a river fathered Euthymus gives the hero a semi-divine origin, typical of the legends that gathered around great athletes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "narrative voice",
+    "text": "Pausanias closes the episode with a brief, judging remark about the statue, showing his guidebook manner of mixing record and opinion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "Antithesis",
+    "text": "Pity turns into love in a short sequence, economically showing why Euthymus risks his life for the girl.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "Anticlimax",
+    "text": "The fight is told in one swift sentence; the terrifying ghost is simply defeated and dives into the sea, stressing Euthymus' near-superhuman strength.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "Narrative voice",
+    "text": "Pausanias cites a merchant as his informant, giving the traveller-historian's characteristic air of careful, sceptical reporting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "Imagery",
+    "text": "The dark skin and wolfskin clothing build a vivid, frightening picture of the ghost, linking him to the wolf-name Lycas.",
+    "spoiler": false
+   }
+  ]
+ }
+}

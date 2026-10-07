@@ -1,0 +1,317 @@
+{
+ "section_id": "pausanias-body-189",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7466,
+  "output": 2687
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of statues at Olympia, noting the chariot of Cratisthenes of Cyrene and the statue of the historian Anaximenes, with anecdotes of how he saved Lampsacus from Alexander and ruined Theopompus. He ends with Sotades's change of city and the earliest athlete statues, made of wood.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Cratisthenes and Anaximenes statues",
+    "summary": "Pausanias describes the chariot of Cratisthenes, its sculptor, and the statue of the historian Anaximenes.",
+    "stakes": "",
+    "present": [
+     "Cratisthenes",
+     "Mnaseas",
+     "Pythagoras of Rhegium",
+     "Anaximenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 11,
+    "title": "Anaximenes tricks Alexander",
+    "summary": "Sent to plead for Lampsacus, Anaximenes asks Alexander to do the very things the king has sworn to do the opposite of, so Alexander spares the city.",
+    "stakes": "The people of Lampsacus risk enslavement and the destruction of their town.",
+    "present": [
+     "Anaximenes",
+     "Alexander",
+     "Philip"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lampsacus",
+     "modern_name": "Lapseki, Turkey",
+     "certainty": "real",
+     "lat": 40.34,
+     "lon": 26.69
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 17,
+    "title": "Anaximenes and Theopompus",
+    "summary": "Anaximenes forges a slanderous book in Theopompus's style, turning Greece against him. Pausanias doubts the verses on Alexander are his.",
+    "stakes": "Theopompus's reputation across Greece.",
+    "present": [
+     "Anaximenes",
+     "Theopompus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Greece",
+     "modern_name": "Greece",
+     "certainty": "real",
+     "lat": 39.07,
+     "lon": 21.82
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 21,
+    "title": "Sotades and wooden effigies",
+    "summary": "Sotades changes his city for a bribe and is exiled; the first athlete statues, of Praxidamas and Rhexibius, are of wood.",
+    "stakes": "Sotades loses his homeland through exile.",
+    "present": [
+     "Sotades",
+     "Praxidamas",
+     "Rhexibius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cratisthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cyrenean chariot-race victor at Olympia"
+   },
+   {
+    "name": "Mnaseas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "runner surnamed Libyan, said to be Cratisthenes's father"
+   },
+   {
+    "name": "Pythagoras of Rhegium",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the votive offerings"
+   },
+   {
+    "name": "Anaximenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "historian and sophist of Lampsacus"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "passionate king who nearly destroyed Lampsacus"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amyntas, king whose deeds Anaximenes recorded"
+   },
+   {
+    "name": "Amyntas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Philip"
+   },
+   {
+    "name": "Theopompus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "historian, son of Damasistratus, victim of Anaximenes's forgery"
+   },
+   {
+    "name": "Damasistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Theopompus"
+   },
+   {
+    "name": "Sotades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan runner who registered as an Ephesian"
+   },
+   {
+    "name": "Praxidamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aeginetan boxer with an early wooden statue"
+   },
+   {
+    "name": "Rhexibius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Opuntian pancratium victor with a figwood statue"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Mnaseas",
+    "relation": "parent_of",
+    "b": "Cratisthenes",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Amyntas",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Damasistratus",
+    "relation": "parent_of",
+    "b": "Theopompus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "outside",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "Anaximenes's clever request that turns Alexander's oath against him.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias uses statues as prompts for digressions on cleverness, rivalry and honour, showing how reputations were won and lost.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows Greek intellectuals dealing with Macedonian power and the early development of athlete statues at Olympia.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says the earliest Olympic athlete statues were wooden, unlike the bronze and stone later common.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Condign\" means fitting or deserved; here it ironically signals severe punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Espoused the cause\" means took the side of; the Lampsacenes were accused of supporting Persia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Sophist\" means a professional teacher of rhetoric and argument, often suspected of clever trickery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Extempore\" means speaking without preparation, improvised.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "\"Long course\" is the dolichos, a long-distance foot race.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "The pancratium was a brutal combined contest of wrestling and boxing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "\"Effigies\" here means statues or likenesses.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Pythagoras of Rhegium was a celebrated early fifth-century BC sculptor in bronze.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Anaximenes of Lampsacus was a rhetorician and historian who taught Alexander and accompanied his campaigns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Theopompus of Chios was a well-known historian and orator, famous for his bitter, critical writing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Dating by Olympiads counted four-year cycles from 776 BC; the 59th and 61st fall in the mid-500s BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "characterization",
+    "text": "Alexander is shown as violent and passionate, setting up the contrast with Anaximenes' cunning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "irony",
+    "text": "Anaximenes turns Alexander's oath against him by requesting the very horrors he wants to prevent, a clever verbal trap.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "Theopompus is ruined by a book he never wrote, imitating his own abusive style; the punishment fits the man.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "narrative voice",
+    "text": "Pausanias turns to concrete antiquarian detail, noting materials and condition like an eyewitness.",
+    "spoiler": false
+   }
+  ]
+ }
+}

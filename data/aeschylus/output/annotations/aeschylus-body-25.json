@@ -1,0 +1,762 @@
+{
+ "section_id": "aeschylus-body-25",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 25220,
+  "output": 7168
+ },
+ "result": {
+  "summary": "The Chorus advises Atossa to pray after her dream, and she asks about Athens. A Messenger then arrives and reports the destruction of the Persian fleet at Salamis, the slaughter on the island, and the army's ruinous retreat. Atossa realises the dream foretold this and goes to make offerings.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 43,
+    "title": "Atossa questions the Chorus",
+    "summary": "The Chorus advises prayers and libations to Darius. Atossa asks about Athens, its army and its wealth, and a courier is seen approaching.",
+    "stakes": "Atossa fears her dream foretells harm to her son Xerxes and the Persian realm.",
+    "present": [
+     "Chorus",
+     "Atossa"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Susa, before the palace",
+     "modern_name": "Susa, Iran",
+     "certainty": "real",
+     "lat": 32.19,
+     "lon": 48.25
+    }
+   },
+   {
+    "start_sentence": 44,
+    "end_sentence": 105,
+    "title": "News of the disaster",
+    "summary": "The Messenger announces the loss of the host, says Xerxes lives, lists the dead leaders and compares the fleets' numbers, blaming a god.",
+    "stakes": "The Persian realm has lost its army and its leaders.",
+    "present": [
+     "Messenger",
+     "Atossa",
+     "Chorus",
+     "Xerxes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Susa, before the palace",
+     "modern_name": "Susa, Iran",
+     "certainty": "real",
+     "lat": 32.19,
+     "lon": 48.25
+    }
+   },
+   {
+    "start_sentence": 106,
+    "end_sentence": 139,
+    "title": "The battle of Salamis",
+    "summary": "The Messenger tells how a Greek deceived Xerxes, how the fleet was trapped in the narrows and how the Greeks destroyed it.",
+    "stakes": "The Persian fleet faces being crushed in the narrow straits.",
+    "present": [
+     "Messenger",
+     "Xerxes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Straits of Salamis",
+     "modern_name": "Salamis Strait, Greece",
+     "certainty": "real",
+     "lat": 37.95,
+     "lon": 23.55
+    }
+   },
+   {
+    "start_sentence": 140,
+    "end_sentence": 162,
+    "title": "Slaughter on the island",
+    "summary": "Xerxes's chosen troops sent to the island are killed by the Greeks while Xerxes watches.",
+    "stakes": "The elite Persian troops are trapped on the island and killed.",
+    "present": [
+     "Messenger",
+     "Xerxes",
+     "Pan"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Island fronting Salamis (Psyttaleia)",
+     "modern_name": "Psyttaleia, Greece",
+     "certainty": "real",
+     "lat": 37.93,
+     "lon": 23.58
+    }
+   },
+   {
+    "start_sentence": 163,
+    "end_sentence": 183,
+    "title": "The ruinous retreat",
+    "summary": "Atossa laments, and the Messenger describes the army's death by hunger, thirst and the breaking ice of the Strymon.",
+    "stakes": "The surviving Persian army is perishing in retreat.",
+    "present": [
+     "Messenger",
+     "Atossa"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "River Strymon",
+     "modern_name": "Struma River, Greece",
+     "certainty": "real",
+     "lat": 40.8,
+     "lon": 23.9
+    }
+   },
+   {
+    "start_sentence": 184,
+    "end_sentence": 193,
+    "title": "Atossa goes to pray",
+    "summary": "Atossa admits the dream was true, leaves to fetch offerings and asks the Chorus to comfort Xerxes if he comes.",
+    "stakes": "Atossa fears Xerxes may harm himself in despair.",
+    "present": [
+     "Atossa",
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Susa, before the palace",
+     "modern_name": "Susa, Iran",
+     "certainty": "real",
+     "lat": 32.19,
+     "lon": 48.25
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Atossa",
+    "aliases": [
+     "Queen",
+     "Mother"
+    ],
+    "kind": "mortal",
+    "description": "Persian queen, mother of Xerxes and widow of Darius"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aged Persian counsellors"
+   },
+   {
+    "name": "Messenger",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian courier and eyewitness of Salamis"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian King, son of Atossa, who led the invasion"
+   },
+   {
+    "name": "Darius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Dead former King, Atossa's husband"
+   },
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "Dance-loving god who treads the island shore"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Atossa",
+    "relation": "parent_of",
+    "b": "Xerxes",
+    "source": "text",
+    "evidence_sentence": 117
+   },
+   {
+    "a": "Atossa",
+    "relation": "spouse_of",
+    "b": "Darius",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Darius",
+    "relation": "parent_of",
+    "b": "Xerxes",
+    "source": "outside",
+    "evidence_sentence": 37
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Hellenes",
+    "canonical": "Greeks",
+    "explanation": "Hellenes and Hellas are the Greeks' own names for themselves and their land."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 128,
+    "reason": "The Greeks' battle cry at Salamis, calling them to free their land and families.",
+    "spoiler": false
+   },
+   {
+    "sentence": 139,
+    "reason": "The Messenger stresses the unprecedented scale of the one-day slaughter.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The Messenger's report shows divine jealousy and human overreach bringing down Xerxes, and the play treats Persian defeat as tragedy.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Aeschylus fought at Salamis and staged this play in 472 BC, giving an eyewitness account from the defeated side's view.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Persians is the oldest surviving Greek tragedy and a key source for the battle of Salamis."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Persians is the only surviving Greek tragedy based on recent history rather than myth.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Libations are liquid offerings poured out to gods or the dead; \"propitiatory\" means meant to win favour; \"durance\" means confinement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Would fain learn\" means gladly or eagerly wish to learn; \"according to report\" means as people say, since she has no firsthand knowledge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "Hellas is the Greek name for Greece; the Chorus means the Greek lands as a whole.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "\"Medes\" is often used for the Persians. The reference is to Persian defeat at Marathon, which the Chorus recalls here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Refers to the silver mines at Laurium in Attica, which funded Athens' fleet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "allusion",
+    "text": "Refers to the Persian defeat at Marathon (490 BC), when Darius' army was beaten by the Athenians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "phrasing",
+    "text": "Atossa means that the families of the soldiers now marching to Greece will have grim cause for worry after hearing this.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "word",
+    "text": "\"Weal or woe\" means good fortune or misfortune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "word",
+    "text": "\"Weal\" means prosperity or well-being; \"plenteous weal\" is abundant wealth and happiness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "phrasing",
+    "text": "\"Evil office\" means a painful duty; the messenger's task is to be the first to announce bad news.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "phrasing",
+    "text": "\"I needs must\" is archaic for \"I must of necessity.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "kind": "phrasing",
+    "text": "The messenger says he sees his homecoming day beyond all hope: he has survived when he expected to die.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "kind": "phrasing",
+    "text": "The old men say their long lives have lasted too long, since they live to hear such misery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "word",
+    "text": "\"Hellas\" is the Greek name for Greece; the Persians fought against the Greek states.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "kind": "word",
+    "text": "\"Brine\" is salt seawater; \"mantles\" are the cloaks the dead still wear as they float.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "kind": "phrasing",
+    "text": "\"Stood us in no stead\" means were of no use to us.",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "kind": "word",
+    "text": "\"Dames\" here means noble married women; \"reft\" is an archaic past form of \"bereaved\" or \"robbed.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "kind": "phrasing",
+    "text": "The 'truncheon of command' is the commander's baton or staff of office; the sentence asks which leaders are lost, leaving their posts leaderless.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "kind": "allusion",
+    "text": "Silenia is a shore near Salamis, where the Persian fleet was destroyed; the bodies of the dead wash against it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 86,
+    "kind": "allusion",
+    "text": "The isle of Ajax is Salamis, home of the Greek hero Ajax, so the Persian dead drift around a Greek hero's island.",
+    "spoiler": false
+   },
+   {
+    "sentence": 87,
+    "kind": "word",
+    "text": "'Buffeting' here means being battered repeatedly by waves against the rocky shore.",
+    "spoiler": false
+   },
+   {
+    "sentence": 89,
+    "kind": "word",
+    "text": "'Ten thousand' marks command of a Persian division, a rank also given to Artembares; the Black Horse is Matallus's cavalry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 90,
+    "kind": "word",
+    "text": "A Magian was a member of the Persian priestly class, so Arabus was a priest as well as a warrior.",
+    "spoiler": false
+   },
+   {
+    "sentence": 100,
+    "kind": "phrasing",
+    "text": "'Ten times thirty' means 300 Greek ships, with an extra ten chosen ships in reserve, so 310 in total.",
+    "spoiler": false
+   },
+   {
+    "sentence": 101,
+    "kind": "phrasing",
+    "text": "'Twice a hundred, and seven more' means 207 fast ships among Xerxes' thousand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 105,
+    "kind": "allusion",
+    "text": "Pallas is Athena, patron goddess of Athens; the Messenger speaks wryly of the city that his people failed to take.",
+    "spoiler": false
+   },
+   {
+    "sentence": 116,
+    "kind": "phrasing",
+    "text": "\"Evil spirit\" translates the Greek alastor or daimon: a vengeful supernatural power that brings ruin, blamed here instead of human error.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "kind": "word",
+    "text": "\"Hellenes\" is the Greeks' own name for themselves; \"Hellas\" is Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 118,
+    "kind": "phrasing",
+    "text": "\"The gods grudged him success\" reflects the Greek belief that the gods resent excessive human prosperity and power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 118,
+    "kind": "word",
+    "text": "\"Serried\" means closely packed in ranks; \"precincts of the sky\" means the heavens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 120,
+    "kind": "word",
+    "text": "A thole-pin is a peg on the ship's side that serves as a pivot for the oar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 124,
+    "kind": "word",
+    "text": "\"Coursers\" are swift horses; Day is pictured driving a chariot of white horses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 125,
+    "kind": "word",
+    "text": "A paean was a Greek hymn, sung to Apollo or before battle; \"barbarians\" here simply means non-Greeks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 129,
+    "kind": "word",
+    "text": "\"Fanes\" are temples or sacred places.",
+    "spoiler": false
+   },
+   {
+    "sentence": 137,
+    "kind": "word",
+    "text": "Tunnies are tuna, caught in nets and clubbed, so the comparison is brutal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 141,
+    "kind": "phrasing",
+    "text": "\"In sooth\" means truly. \"Barbarian\" here is the Greek term for non-Greeks, used by Persians of themselves in this translation, not as an insult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 144,
+    "kind": "phrasing",
+    "text": "The calamity was so great that it outweighed the earlier ills twice over, as if weights on a scale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 149,
+    "kind": "phrasing",
+    "text": "\"In their life's prime\" means in the full strength of manhood; the sentence delays its verb \"have fallen\" until the end.",
+    "spoiler": false
+   },
+   {
+    "sentence": 154,
+    "kind": "allusion",
+    "text": "The island is Psyttaleia, near Salamis. Pan, the goat-footed god of wild places, was said to dance on such shores.",
+    "spoiler": false
+   },
+   {
+    "sentence": 155,
+    "kind": "word",
+    "text": "\"Hellenic\" and \"Hellenes\" mean Greek and Greeks. \"Narrows of the sea\" refers to the strait between Salamis and the mainland.",
+    "spoiler": false
+   },
+   {
+    "sentence": 157,
+    "kind": "phrasing",
+    "text": "\"Some god had given the glory\" means a divine power granted the Greeks victory; the messenger does not name which god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 161,
+    "kind": "allusion",
+    "text": "Tearing one's robes was a standard Persian sign of grief and despair.",
+    "spoiler": false
+   },
+   {
+    "sentence": 165,
+    "kind": "allusion",
+    "text": "Marathon was the Athenian victory of 490 BC over the first Persian invasion under Darius, Xerxes' father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 172,
+    "kind": "allusion",
+    "text": "The place names trace the army's retreat route through central Greece; the Spercheus is a river near the Melian gulf.",
+    "spoiler": false
+   },
+   {
+    "sentence": 175,
+    "kind": "phrasing",
+    "text": "The long list of places makes the retreat feel like an endless march.",
+    "spoiler": false
+   },
+   {
+    "sentence": 176,
+    "kind": "allusion",
+    "text": "The Strymon is a river in Thrace; its freezing is the pivotal disaster of the retreat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 190,
+    "kind": "word",
+    "text": "\"Fain\" means willing or glad; the sacrificial cake is an offering poured or placed for Earth and the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 192,
+    "kind": "word",
+    "text": "\"Rede\" means counsel or advice; \"the Trusty\" addresses the Chorus of faithful elders.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Darius, Atossa's late husband, is dead and honored as a semi-divine figure; offerings to the dead were thought to win their help.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "To Persians, Greece lay far to the west, toward the setting sun.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Athenians were proudly free citizens, in contrast to the Persian subjects of a king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 59,
+    "text": "Salamis is an island near Athens. The Greek fleet defeated the Persian navy in the strait beside it in 480 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "text": "Athens led the Greek naval resistance, and Persia had burned the city shortly before Salamis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 74,
+    "text": "Atossa is Xerxes' mother and the widow of Darius, so she is queen of Persia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "text": "Xerxes was the Persian king who led the invasion of Greece; Atossa, speaking here, is his mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 91,
+    "text": "Sardis was the Persian regional capital in Lydia, so Ariomardus's death was mourned there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 92,
+    "text": "Cilicia was a province in southeast Asia Minor, part of the Persian empire and a supplier of ships.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "text": "Historically, this Greek messenger was sent by the Athenian commander Themistocles to trick Xerxes into trapping his fleet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 118,
+    "text": "The island of Ajax is Salamis, near Athens, named for the Greek hero Ajax. The battle there in 480 BC was a great Greek victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "text": "Phoenicians, from the coast of modern Lebanon, supplied some of the best ships and crews in the Persian fleet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 149,
+    "text": "These were elite Persian nobles, the King's trusted companions, so their loss was a heavy blow to the Persian ruling class.",
+    "spoiler": false
+   },
+   {
+    "sentence": 160,
+    "text": "Xerxes watched the battle from a throne set on a hill overlooking the strait, according to Greek tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 164,
+    "text": "Atossa is Xerxes' mother and Darius' widow, queen of Persia; she blames divine hostility for the defeat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 190,
+    "text": "Offerings to Earth and the dead are meant to win favor from the underworld, including Darius' spirit.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 25,
+    "device": "metaphor",
+    "text": "Silver is likened to a fountain springing from the earth, suggesting Athens' wealth is endless and natural.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "metaphor",
+    "text": "The ruler is called a shepherd, reflecting Persian ideas of kings leading their people like a flock.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "irony",
+    "text": "The Chorus's answer overturns Atossa's assumption of kingship and quietly marks the contrast between free Greeks and Persian subjects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "foreshadowing",
+    "text": "The courier's arrival with news of \"weal or woe\" prepares for the report of Persian disaster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "device": "apostrophe",
+    "text": "The messenger addresses the cities and the realm directly, as if they could hear, heightening the grandeur and grief of the news.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "device": "irony",
+    "text": "\"In vain\" is stated bitterly: the huge, richly equipped host set out for conquest and met only failure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "device": "imagery",
+    "text": "The bodies tossing in the waves in their cloaks make the disaster vivid and physical.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "device": "apostrophe",
+    "text": "He addresses the very name of Salamis, showing how the place has become a symbol of horror to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 82,
+    "device": "metaphor",
+    "text": "Joy is described as light, and Xerxes' survival as bright day after night, contrasting with the gloom of the previous news.",
+    "spoiler": false
+   },
+   {
+    "sentence": 89,
+    "device": "imagery",
+    "text": "The vivid picture of a beard dyed purple-red with blood makes the leader's death concrete and gruesome.",
+    "spoiler": false
+   },
+   {
+    "sentence": 91,
+    "device": "irony",
+    "text": "A once handsome man lies in 'uncomeliness', and the repeated word stresses how far death has reduced him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 104,
+    "device": "theme",
+    "text": "Blaming a divine power presents the defeat as fate and not as Greek superiority, a central idea of the play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 118,
+    "device": "dramatic irony",
+    "text": "The audience knows Xerxes' confident orders will bring disaster, and that the \"deserters\" tale is a trap he cannot see.",
+    "spoiler": false
+   },
+   {
+    "sentence": 124,
+    "device": "personification",
+    "text": "Day drives white horses and Echo answers in kind, giving nature a part in the Greek triumph.",
+    "spoiler": false
+   },
+   {
+    "sentence": 134,
+    "device": "irony",
+    "text": "Persia's huge numbers, once its pride, become its weakness as ships crowd and ram one another.",
+    "spoiler": false
+   },
+   {
+    "sentence": 137,
+    "device": "simile",
+    "text": "Likening Persian men to hauled fish conveys the helpless slaughter and reverses the invaders' expected dominance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 139,
+    "device": "hyperbole",
+    "text": "The messenger stresses the scale of loss, emphasizing unprecedented, overwhelming disaster for the Persian audience.",
+    "spoiler": false
+   },
+   {
+    "sentence": 141,
+    "device": "metaphor",
+    "text": "Troubles are imagined as a mighty sea bursting upon the Persians, fitting the naval disaster of Salamis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 156,
+    "device": "irony",
+    "text": "The short, blunt sentence stresses that Xerxes' clever plan to trap Greek survivors turned out to be his own undoing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 159,
+    "device": "imagery",
+    "text": "Vivid images of the shout, charge and hacked limbs make the slaughter graphic and immediate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 160,
+    "device": "characterization",
+    "text": "Xerxes appears as a helpless spectator on his lofty seat, groaning at ruin he cannot stop.",
+    "spoiler": false
+   },
+   {
+    "sentence": 164,
+    "device": "apostrophe",
+    "text": "Atossa addresses the hateful divinity directly, voicing her grief and blaming the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 176,
+    "device": "irony",
+    "text": "Men who once ignored the gods now pray desperately; the sacred river then betrays them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 179,
+    "device": "pathos",
+    "text": "Calling the quickest death fortunate shows how terrible the suffering was.",
+    "spoiler": false
+   },
+   {
+    "sentence": 188,
+    "device": "foreshadowing",
+    "text": "Atossa recognizes that her earlier dream foretold the disaster, confirming the omen.",
+    "spoiler": false
+   }
+  ]
+ }
+}

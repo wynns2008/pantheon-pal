@@ -1,0 +1,349 @@
+{
+ "section_id": "apollodorus-body-11",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7128,
+  "output": 2764
+ },
+ "result": {
+  "summary": "The chapter traces the Argive royal line from Lynceus to the feuding twins Acrisius and Proetus, who divide the kingdom between Argos and Tiryns. Proetus's daughters go mad, and the seer Melampus cures them in exchange for shares of the kingdom.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Acrisius and Proetus divide Argos",
+    "summary": "The twins quarrel from the womb and fight over the kingdom, inventing shields. Proetus is exiled to Lycia, returns with an army, and the kingdom is split between Argos and Tiryns.",
+    "stakes": "Proetus risks losing his birthright and place in the kingdom after being driven out by his brother.",
+    "present": [
+     "Lynceus",
+     "Abas",
+     "Acrisius",
+     "Proetus",
+     "Iobates",
+     "Stheneboea"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 14,
+    "title": "Melampus cures the Proetides",
+    "summary": "Proetus's daughters go mad and wander the Peloponnese. Melampus cures them after Proetus agrees to pay with land, and he and Bias marry them.",
+    "stakes": "The maidens and other Argive women risk madness and death; Proetus risks losing his kingdom to the cure's price.",
+    "present": [
+     "Proetus",
+     "Lysippe",
+     "Iphinoe",
+     "Iphianassa",
+     "Melampus",
+     "Bias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argive land and Sicyon",
+     "modern_name": "Argolid and Sicyon, Greece",
+     "certainty": "real",
+     "lat": 37.99,
+     "lon": 22.72
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Argos after Danaus"
+   },
+   {
+    "name": "Abas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Lynceus, father of the twins"
+   },
+   {
+    "name": "Hypermnestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Lynceus, mother of Abas"
+   },
+   {
+    "name": "Acrisius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Twin son of Abas, king of Argos"
+   },
+   {
+    "name": "Proetus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Twin son of Abas, king of Tiryns"
+   },
+   {
+    "name": "Iobates",
+    "aliases": [
+     "Amphianax"
+    ],
+    "kind": "mortal",
+    "description": "Lycian king, father-in-law of Proetus"
+   },
+   {
+    "name": "Stheneboea",
+    "aliases": [
+     "Antia"
+    ],
+    "kind": "mortal",
+    "description": "Wife of Proetus, daughter of Iobates"
+   },
+   {
+    "name": "Danae",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Acrisius"
+   },
+   {
+    "name": "Lysippe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Proetus, goes mad"
+   },
+   {
+    "name": "Iphinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eldest daughter of Proetus, dies in the pursuit"
+   },
+   {
+    "name": "Iphianassa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Proetus, goes mad"
+   },
+   {
+    "name": "Melampus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Seer and healer who cures the maidens"
+   },
+   {
+    "name": "Bias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Brother of Melampus"
+   },
+   {
+    "name": "Megapenthes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son born to Proetus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lynceus",
+    "relation": "parent_of",
+    "b": "Abas",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Hypermnestra",
+    "relation": "parent_of",
+    "b": "Abas",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Abas",
+    "relation": "parent_of",
+    "b": "Acrisius",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Abas",
+    "relation": "parent_of",
+    "b": "Proetus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Acrisius",
+    "relation": "sibling_of",
+    "b": "Proetus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Acrisius",
+    "relation": "parent_of",
+    "b": "Danae",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Proetus",
+    "relation": "parent_of",
+    "b": "Lysippe",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Proetus",
+    "relation": "parent_of",
+    "b": "Iphinoe",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Proetus",
+    "relation": "parent_of",
+    "b": "Iphianassa",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Proetus",
+    "relation": "spouse_of",
+    "b": "Stheneboea",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Melampus",
+    "relation": "sibling_of",
+    "b": "Bias",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Proetus",
+    "relation": "parent_of",
+    "b": "Megapenthes",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Antia",
+    "canonical": "Stheneboea",
+    "explanation": "Homer calls Proetus's wife Antia; the tragic poets call her Stheneboea."
+   },
+   {
+    "alias": "Amphianax",
+    "canonical": "Iobates",
+    "explanation": "Some authorities name Proetus's Lycian host Amphianax instead of Iobates."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Rivalry within a royal family and the cost of rejecting the gods or paying a healer shape the story; refusal brings worse trouble.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Apollodorus cites Hesiod and Acusilaus for competing explanations of the madness, showing how he compiled variant traditions.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The text credits the twins with inventing shields, an ancient explanation for the Argive shield.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Shields were credited to the twins' rivalry; the quarrel in the womb is a mythic sign of their lifelong enmity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Homer (Iliad 6) tells of Proetus's wife Antia, who falsely accused Bellerophon; tragedians named her Stheneboea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"His in-law\" means his father-in-law, the Lycian king Iobates (or Amphianax).",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Hesiod and Acusilaus were early Greek poets/mythographers; the author cites rival versions of why the women went mad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Seer\" means a prophet; Melampus was also a healer who used drugs and purifying rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Raved\" means behaved in wild, frenzied madness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Bevy\" means a group; \"stalwart\" means strong and sturdy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Expired\" here means died.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "The Cyclopes were legendary builders; massive walls of Tiryns were attributed to them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Dionysus was god of wine and ecstatic rites; Hera was the chief goddess, especially honored at Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Megapenthes later became king of Tiryns and figures in the story of Perseus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "foreshadowing",
+    "text": "Prenatal strife anticipates the brothers' lifelong conflict and the later division of the kingdom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "Proetus's refusal to pay a price meant to save money causes worse madness and a costlier cure.",
+    "spoiler": false
+   }
+  ]
+ }
+}

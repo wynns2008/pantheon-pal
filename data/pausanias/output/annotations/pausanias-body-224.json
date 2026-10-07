@@ -1,0 +1,362 @@
+{
+ "section_id": "pausanias-body-224",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8418,
+  "output": 2893
+ },
+ "result": {
+  "summary": "Pausanias describes the hill town of Pellene in Achaia, its temples, statues, gymnasium and the athlete Promachus. He then covers the Mysæum of Demeter, the healing shrine of Æsculapius and the rivers rising above Pellene.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Pellene's town and temples",
+    "summary": "Pausanias describes the steep hill town, the statues of Hermes, Athene, Artemis, Dionysus and Apollo, and the water supply.",
+    "stakes": "",
+    "present": [
+     "Hermes",
+     "Athene",
+     "Phidias",
+     "Artemis",
+     "Dionysus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pellene",
+     "modern_name": "Pellene, near Zugra, Achaea",
+     "certainty": "real",
+     "lat": 37.99,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 19,
+    "title": "Gymnasium and Promachus",
+    "summary": "The gymnasium holds a statue of the victorious athlete Promachus. Pausanias also mentions Polydamas, the traitor Chæron, and the shrines of Ilithyia and Poseidon.",
+    "stakes": "",
+    "present": [
+     "Promachus",
+     "Polydamas",
+     "Chæron",
+     "Alexander",
+     "Ilithyia",
+     "Poseidon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pellene",
+     "modern_name": "Pellene, near Zugra, Achaea",
+     "certainty": "real",
+     "lat": 37.99,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 26,
+    "title": "Mysæum and shrine of Æsculapius",
+    "summary": "Outside the town lie the grove of Mysian Demeter with its women's rites and the healing shrine of Æsculapius.",
+    "stakes": "",
+    "present": [
+     "Demeter",
+     "Mysius",
+     "Æsculapius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mysæum",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 29,
+    "title": "Rivers above Pellene",
+    "summary": "Pausanias names the rivers Crius and Sythas and notes another Crius in Asia.",
+    "stakes": "",
+    "present": [
+     "Crius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hills above Pellene",
+     "modern_name": "Northern Peloponnese, Achaea",
+     "certainty": "real",
+     "lat": 37.98,
+     "lon": 22.45
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a square bearded statue on the road Dolios"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a gold and ivory statue at Pellene"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Athene's statues"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "the Saviour"
+    ],
+    "kind": "goddess",
+    "description": "goddess whose grove is sworn by"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "the Lighter"
+    ],
+    "kind": "god",
+    "description": "god honoured with a torch festival"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Theoxenius"
+    ],
+    "kind": "god",
+    "description": "god with bronze statue and games"
+   },
+   {
+    "name": "Promachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Pellene athlete, son of Dryon, pancratium victor"
+   },
+   {
+    "name": "Dryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Promachus"
+   },
+   {
+    "name": "Polydamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "athlete of Scotussa"
+   },
+   {
+    "name": "Chæron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wrestler who became tyrant of Pellene"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Philip who bribed Chæron"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Alexander"
+   },
+   {
+    "name": "Ilithyia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Pellene"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a chapel under the gymnasium"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Mysian Demeter"
+    ],
+    "kind": "goddess",
+    "description": "goddess honoured at Mysæum"
+   },
+   {
+    "name": "Mysius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive who built the temple and received Demeter"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "healing god with a shrine called Cyros"
+   },
+   {
+    "name": "Crius",
+    "aliases": [],
+    "kind": "other",
+    "description": "Titan who gave his name to a river"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Dryon",
+    "relation": "parent_of",
+    "b": "Promachus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "text",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Saviour",
+    "canonical": "Artemis",
+    "explanation": "Cult title of Artemis at Pellene."
+   },
+   {
+    "alias": "Theoxenius",
+    "canonical": "Apollo",
+    "explanation": "Cult title of Apollo, linked to the Theoxenia games."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias tours local cults, statues and customs, showing how civic identity rests on religion and athletic fame.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The bribing of Chæron by Alexander shows Macedonian interference in Greek cities through tyrants.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The women's night rites at Mysæum excluded even male dogs.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Dolios means 'wily' or crafty; the epithet suits Hermes, god of cunning, and the road is named after it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "A 'square statue' is a herm: a squared pillar topped with the god's head, here bearded and wearing a traveller's hat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "'Ivory and gold' describes a chryselephantine statue: ivory for the flesh, gold for the dress and ornaments, over a core of wood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "'The Lighter' translates a cult title of Dionysus tied to the torches carried in his festival.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Theoxenius refers to 'entertaining the gods'; the Theoxenia was a festival at which gods were treated as guests.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "The pancratium was a brutal combination of wrestling and boxing with very few rules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Polydamas was a huge athlete said to have killed a lion and to have been summoned by the Persian king, where he defeated Persian warriors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "'Parish room' is the translator's rendering of a local meeting hall used for public business.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Crius was one of the Titans, the older generation of gods overthrown by Zeus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Artemis the Saviour was worshipped as protector of the city; an oath by her was the most solemn local pledge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Alexander is Alexander the Great. Putting friendly tyrants in Greek cities was a way for Macedon to control them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Rites of Demeter were often women-only mysteries; excluding men, even male animals, preserved their secrecy and purity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Æsculapius was the god of healing; sick people visited his shrines hoping for cures.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 15,
+    "device": "epithet",
+    "text": "Calling Polydamas 'invincible' in the quoted verse supports the Thessalian claim that he was never beaten.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "characterization",
+    "text": "Pausanias' remark that Chæron is left unmentioned shows his moral judgment; a victor's glory is cancelled by betraying his city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "irony",
+    "text": "After the men's exclusion, the ritual ends in mutual mockery, a playful reversal of the earlier solemn separation.",
+    "spoiler": false
+   }
+  ]
+ }
+}

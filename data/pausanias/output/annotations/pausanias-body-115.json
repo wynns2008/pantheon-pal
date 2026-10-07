@@ -1,0 +1,246 @@
+{
+ "section_id": "pausanias-body-115",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8402,
+  "output": 2111
+ },
+ "result": {
+  "summary": "Euphaes drills the Messenians and both sides raid each other's lands. In a first battle across a ravine, Euphaes' fortified camp makes the Lacedæmonians give up and go home. A year later two Spartan kings lead a second campaign, and the commanders exhort their armies before the battle.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Training and raiding",
+    "summary": "Euphaes keeps the Messenians armed and trained. The Lacedæmonians raid Messenia without taking any towns, while the Messenians plunder Laconia.",
+    "stakes": "The Messenians risk losing their land and towns to Spartan raids.",
+    "present": [
+     "Euphaes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messenia and Laconia",
+     "modern_name": "Messenia and Laconia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.0,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 10,
+    "title": "Battle at the ravine",
+    "summary": "Euphaes marches out and draws up his army behind a ravine. His slaves fortify the camp while the cavalry fight, and the Lacedæmonians give up and go home.",
+    "stakes": "Defeat in open battle could end Messenian resistance.",
+    "present": [
+     "Euphaes",
+     "Cleonnis",
+     "Pytharatus",
+     "Antander"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "A place in Messenia with a ravine",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 21,
+    "title": "Second campaign and speeches",
+    "summary": "Both Spartan kings lead a second campaign and the armies form up. Theopompus and Euphaes exhort their men, Euphaes warning of the horrors of defeat.",
+    "stakes": "The Messenians face slavery, death and destruction of their country if defeated.",
+    "present": [
+     "Theopompus",
+     "Polydorus",
+     "Euryleon",
+     "Euphaes",
+     "Antander",
+     "Pytharatus",
+     "Cleonnis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messenia battlefield",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Euphaes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian king and commander"
+   },
+   {
+    "name": "Cleonnis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian given chief command"
+   },
+   {
+    "name": "Pytharatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian commander of cavalry and light troops"
+   },
+   {
+    "name": "Antander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian commander of cavalry and light troops"
+   },
+   {
+    "name": "Theopompus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Nicander"
+   },
+   {
+    "name": "Polydorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Alcamenes"
+   },
+   {
+    "name": "Alcamenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Dead father of Polydorus"
+   },
+   {
+    "name": "Nicander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Theopompus"
+   },
+   {
+    "name": "Euryleon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban-born Spartan commander of the centre"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Nicander",
+    "relation": "parent_of",
+    "b": "Theopompus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Alcamenes",
+    "relation": "parent_of",
+    "b": "Polydorus",
+    "source": "text",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Shows Euphaes' tactical cunning in fortifying the camp so the Spartans cannot fight.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Careful preparation and strategy let the weaker Messenians hold off Sparta.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Speeches before battle are a standard device of Greek historiography, here placed in the mouths of leaders of the early Messenian War.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "The Spartans spared trees and houses because they claimed Messenia as their own future possession, and took only movable goods such as livestock and crops.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Dawned upon\" means became clear to them; the army's cleverness was realized the next morning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Siege train: the heavy equipment and engines needed to assault a fortified position.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"The old man\" is Euphaes' taunting of the Spartans; the phrase appears to refer to him, though he is a king, and is loosely used.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"For the nonce\" means for the occasion; Euryleon was a Theban by origin but was serving Sparta at that time.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "Harangue: a forceful speech meant to rouse an audience.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Mount Taygetus is the mountain range west of Sparta, separating Laconia from Messenia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Sparta had two hereditary kings at once, who commonly led the army together.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Amphea was a Messenian town seized by Sparta at the start of the war, and its captives were mistreated.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "metaphor",
+    "text": "Messenians \"boiling over with rage\" compares anger to a liquid heated until it spills, conveying their eagerness for war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "personification",
+    "text": "Euphaes' skill \"dawned upon\" the Spartans like daylight, giving the realization a sense of gradual, inescapable revelation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "rhetoric",
+    "text": "Euphaes builds a list of escalating horrors, captives, death, outrage, plunder, fire, to make defeat feel unbearable and spur courage.",
+    "spoiler": false
+   }
+  ]
+ }
+}

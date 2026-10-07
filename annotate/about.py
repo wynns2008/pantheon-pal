@@ -123,6 +123,8 @@ def article(title: str) -> dict | None:
         "titles": title, "format": "json", "formatversion": "2"}))["query"]["pages"][0]
     if page.get("missing") or "disambiguation" in page.get("pageprops", {}) or not page.get("extract"):
         return None
+    if re.search(r"\bmay (also )?refer to\b", page["extract"][:600]):     # a list of people of one name ("Apollodorus")
+        return None
     name = page["title"]
     url = "https://en.wikipedia.org/wiki/" + urllib.parse.quote(name.replace(" ", "_"))
     parts = re.split(r"^(==+)\s*(.+?)\s*==+\s*$", page["extract"], flags=re.M)      # [lead, level, heading, text, ...]
@@ -159,6 +161,28 @@ def article(title: str) -> dict | None:
                             found["paragraphs"].append({"text": paragraph, "url": item["url"]})
                 break
     return found
+
+
+def search_articles(query: str, skip: set[str], limit: int = 3) -> list[dict]:
+    """The first few articles a Wikipedia search finds, leaving out the titles in skip."""
+    hits = fetch(WIKIPEDIA + "?" + urllib.parse.urlencode({
+        "action": "query", "list": "search", "srsearch": query, "srlimit": "8", "format": "json"}))
+    found = []
+    for hit in (h["title"] for h in hits.get("query", {}).get("search", [])):
+        if hit not in skip and (a := article(hit)) and a["title"] not in skip:
+            found.append(a)
+            if len(found) == limit:
+                break
+    return found
+
+
+def authorship(title: str) -> tuple[str, str] | None:
+    """The part of a work's article on who wrote it ("Authorship"), for an author with no page of their own: (heading, text)."""
+    text = fetch(WIKIPEDIA + "?" + urllib.parse.urlencode({
+        "action": "query", "prop": "extracts", "explaintext": "1", "exsectionformat": "wiki", "redirects": "1",
+        "titles": title, "format": "json", "formatversion": "2"}))["query"]["pages"][0].get("extract", "")
+    m = re.search(r"^==\s*(Authorship|Author|Attribution)\s*==\s*$(.*?)(?=^==[^=]|\Z)", text, re.M | re.S)
+    return (m.group(1), " ".join(m.group(2).split())) if m else None
 
 
 def roman(number: str) -> int:
@@ -260,14 +284,17 @@ def main() -> None:
             continue
         if title not in articles:
             articles[title] = article(title)
+            if articles[title] is None:     # a missing page or a disambiguation ("Bibliotheca"): search for it with the author
+                articles[title] = next(iter(search_articles(f"{title} {author}", {title}, 1)), None)
             print(f"  {name} -> {title}: " + ("no such article" if articles[title] is None else ", ".join(
                 f"{len(articles[title][k])} {k}" for k in ("summaries", "themes", "history", "primary", "secondary", "tertiary"))),
                   flush=True)
     # A title can redirect to something else altogether ("Hymn to Pan" is a modern poem): check each article found.
     client = get_client()
     pairs = [(name, chosen.get(n, "")) for n, name in enumerate(names, 1) if articles.get(chosen.get(n, ""))]
+    bare = lambda name: re.sub(r"^\d+\.\s*", "", name)      # "1. Agamemnon" -> "Agamemnon", not mistaken for the item number
     if pairs:
-        listing = "\n".join(f"{n}. Work: {name}\n   Article \"{articles[title]['title']}\": {articles[title]['lead'][:300]}"
+        listing = "\n".join(f"{n}. Work: {bare(name)}\n   Article \"{articles[title]['title']}\": {articles[title]['lead'][:300]}"
                             for n, (name, title) in enumerate(pairs, 1))
         check = client.messages.create(
             model=MODEL, max_tokens=4000, system=CHECK_PROMPT,
@@ -279,6 +306,22 @@ def main() -> None:
                 print(f"  {name}: the article \"{articles[title]['title']}\" is about something else; left out", flush=True)
             else:
                 of_section.update({sid: articles[title]["title"] for sid in works[name]})
+        # A rejected article ("Thebaid" is a region of Egypt) may have a namesake that is the work: try what a search finds.
+        retry = [(name, title, found) for n, (name, title) in enumerate(pairs, 1) if n in wrong
+                 for found in search_articles(f"{bare(name)} {author}", {title, articles[title]["title"], author})]
+        if retry:
+            listing = "\n".join(f"{n}. Work: {bare(name)}\n   Article \"{found['title']}\": {found['lead'][:300]}"
+                                for n, (name, _, found) in enumerate(retry, 1))
+            check = client.messages.create(
+                model=MODEL, max_tokens=4000, system=CHECK_PROMPT,
+                messages=[{"role": "user", "content": f"Book: {book.get('title')}\nAuthor: {author}\n\n{listing}"}],
+                output_config={"format": {"type": "json_schema", "schema": CHECK_SCHEMA}})
+            right = {a["n"] for a in json.loads(next(b.text for b in check.content if b.type == "text"))["pairs"] if a["about"]}
+            for n, (name, title, found) in enumerate(retry, 1):
+                if n in right and not any(sid in of_section for sid in works[name]):
+                    articles[title] = found
+                    of_section.update({sid: found["title"] for sid in works[name]})
+                    print(f"  {name}: found \"{found['title']}\" instead", flush=True)
     used = set(of_section.values())
     # A synopsis in plain paragraphs: ask which sections each paragraph covers.
     for name in names:
@@ -297,6 +340,13 @@ def main() -> None:
     if writer is None and len(author.split()) == 2:      # catalogues sometimes print the name the wrong way round ("Rhodius Apollonius")
         writer = article(" ".join(reversed(author.split())))
         author = writer["title"] if writer else author
+    if writer and any(a and a["title"] == writer["title"] for a in articles.values()):
+        writer = None       # no page of the author's own: the name leads to the work's page ("Pseudo-Apollodorus")
+    if writer is None:      # then say what the work's article says of its author
+        for a in (a for a in articles.values() if a and a["title"] in used):
+            if found := authorship(a["title"]):
+                writer = {"title": a["title"], "url": a["url"] + "#" + found[0], "lead": found[1], "primary": []}
+                break
     saved = {"source": "Wikipedia", "license": "CC BY-SA 4.0",
              "author": {"name": author, "url": writer["url"], "lead": writer["lead"], "primary": writer["primary"]} if writer else None,
              "works": {a["title"]: a for a in articles.values() if a and a["title"] in used},

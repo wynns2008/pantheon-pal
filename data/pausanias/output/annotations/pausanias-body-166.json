@@ -1,0 +1,522 @@
+{
+ "section_id": "pausanias-body-166",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9263,
+  "output": 4292
+ },
+ "result": {
+  "summary": "Pausanias continues describing the statues of Zeus at Olympia. He covers the altar near the course entrance, the Apollonian group of Thetis and Aurora with the Trojan War heroes, and offerings from Metapontum, Phlius and Leontini.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Altar near the course",
+    "summary": "Pausanias notes other statues of Zeus and the altar where heralds stand. Offerings from Cynætha and Cleolas of Phlius stand there.",
+    "stakes": "",
+    "present": [
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 17,
+    "title": "Apollonian group by Lycius",
+    "summary": "A semicircular basement shows Zeus, Thetis and Aurora pleading for their sons, with Greek and Trojan heroes paired as opponents. The inscription leads Pausanias to explain Thronium and Abantis.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Thetis",
+     "Aurora",
+     "Achilles",
+     "Memnon",
+     "Odysseus",
+     "Helenus",
+     "Paris",
+     "Menelaus",
+     "Æneas",
+     "Diomede",
+     "Deiphobus",
+     "Ajax",
+     "Lycius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hippodamium, Altis",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 21,
+    "title": "Zeus of Metapontum",
+    "summary": "A Zeus looking east holds an eagle and thunderbolt, made by Aristonous of Ægina.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Aristonous"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 27,
+    "title": "Phliasian group of Asopus",
+    "summary": "The Phliasians dedicated Zeus, Asopus and his daughters, whose myths of union with gods are recounted.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Asopus",
+     "Nemea",
+     "Ægina",
+     "Harpina",
+     "Ares",
+     "Œnomaus",
+     "Corcyra",
+     "Thebe",
+     "Poseidon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 30,
+    "title": "Private offering of Leontini",
+    "summary": "The men of Leontini privately set up a seven-cubit Zeus with eagle and javelin.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Hippagoras",
+     "Phrynon",
+     "Ænesidemus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, shown in many statues"
+   },
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Achilles, pleading for her son"
+   },
+   {
+    "name": "Aurora",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "dawn goddess, mother of Memnon"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek hero opposed to Memnon"
+   },
+   {
+    "name": "Memnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan-side hero opposed to Achilles"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek famed for wisdom"
+   },
+   {
+    "name": "Helenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan famed for wisdom"
+   },
+   {
+    "name": "Paris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan opposed to Menelaus"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek opposed to Paris"
+   },
+   {
+    "name": "Æneas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan opposed to Diomede"
+   },
+   {
+    "name": "Diomede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek opposed to Æneas"
+   },
+   {
+    "name": "Deiphobus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan opposed to Ajax"
+   },
+   {
+    "name": "Ajax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Telamon, Greek hero"
+   },
+   {
+    "name": "Lycius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor, son of Myron"
+   },
+   {
+    "name": "Aristonous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æginetan sculptor"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river-father of the daughters, shown in statue"
+   },
+   {
+    "name": "Nemea",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of Asopus"
+   },
+   {
+    "name": "Ægina",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of Asopus seized by Zeus"
+   },
+   {
+    "name": "Harpina",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of Asopus, mother of Œnomaus"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of war, father of Œnomaus"
+   },
+   {
+    "name": "Œnomaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Pisa"
+   },
+   {
+    "name": "Corcyra",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of Asopus loved by Poseidon"
+   },
+   {
+    "name": "Thebe",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of Asopus, linked with Zeus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god, lover of Corcyra"
+   },
+   {
+    "name": "Hippagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicator from Leontini"
+   },
+   {
+    "name": "Phrynon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicator from Leontini"
+   },
+   {
+    "name": "Ænesidemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicator from Leontini, not the tyrant"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Harpina",
+    "relation": "lover_of",
+    "b": "Ares",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Ares",
+    "relation": "parent_of",
+    "b": "Œnomaus",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Harpina",
+    "relation": "parent_of",
+    "b": "Œnomaus",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Corcyra",
+    "relation": "lover_of",
+    "b": "Poseidon",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Thebe",
+    "relation": "lover_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Asopus",
+    "relation": "parent_of",
+    "b": "Nemea",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Asopus",
+    "relation": "parent_of",
+    "b": "Ægina",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Thetis",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Aurora",
+    "relation": "parent_of",
+    "b": "Memnon",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Pairs Trojan War opponents, choosing Odysseus and Helenus as wisest on each side.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Offerings at Olympia show cities displaying pride, piety and local myth through dedications to Zeus.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Apollonian inscription records colonial rivalries and settlement, linking Greek colonies in the west with Trojan War heritage.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias admits he does not know when or from whom the sculptor Aristonous learned his craft.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "Refers to the bronze statues of Zeus paid for by fines levied on athletes who cheated, described in the preceding chapter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "A cubit was roughly 18 inches (about 45 cm), so the statue stood around nine feet tall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"In the attitude of antagonists\" means posed as opposing fighters, facing each other.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Helenus was a Trojan prophet son of Priam; Ulysses-type cunning is paired with his wisdom. Names follow the Trojan War epics.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Elegiac lines\" are verse in alternating hexameter and pentameter couplets, commonly used for inscriptions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Phœbus\" is Apollo, here called long-haired as the ever-youthful god; he is credited with founding Apollonia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "\"Laying hold of\" means seizing or carrying off; in myth Zeus abducted Ægina, so the statue shows the abduction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "\"Amour\" means a love affair; \"bare\" is the archaic past tense of \"bore.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Pindar, the Greek lyric poet, wrote odes that told of Thebe's union with Zeus; Pausanias cites him as the authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "\"Privately and not publicly\" means paid for by individual citizens, not by the city of Leontini as a state.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "A cubit is an ancient measure from elbow to fingertip, roughly 18 inches, so the statue is about 10 or 11 feet tall.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "The Hippodamium was a precinct at Olympia sacred to Hippodamia, wife of Pelops. Thetis was Achilles' mother; Aurora (Dawn) was Memnon's mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Memnon, king of the Ethiopians, fought for Troy and was killed by Achilles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "The Ceraunian mountains lie on the coast of Epirus, facing Italy across the Ionian sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Apollonia was a colony founded from Corcyra with Corinthian involvement, in what is now Albania.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Lilies in a crown are an unusual attribute for Zeus, who is more often shown wreathed in olive or oak.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Phlius was a city in the northeastern Peloponnese near the river Asopus, which is why its people honoured Asopus and his daughters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Œnomaus was the king of Pisa, the district around Olympia, whose chariot race against Pelops is a well-known Olympian legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Leontini was a Greek city in Sicily, which had tyrants. Pausanias separates the dedicator from a tyrant of the same name.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "allusion",
+    "text": "The group recalls the Iliad's scenes where divine mothers plead with Zeus for their sons' fates, turning epic into sculpture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "symbolism",
+    "text": "Pairing opponents symbolically sets Greek against Trojan, with wisdom, hostility and strength matched as equal rivals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "narrative voice",
+    "text": "Pausanias openly admits the limits of his knowledge, a candid, scholarly voice that sets him apart from a mere guidebook.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "allusion",
+    "text": "The statue's eagle and javelin are said to follow the poets' descriptions, showing how literature shaped sculptural convention.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,455 @@
+{
+ "section_id": "pausanias-body-304",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7237,
+  "output": 3632
+ },
+ "result": {
+  "summary": "Pausanias describes sites near the temple of the Cabiri in Boeotia: the plain of Tenerus, the Sphinx's mountain with rival tales of her origin, and Onchestus. He then turns to Thespia, its name, and the story of Cleostratus who killed a dragon with a hooked breastplate.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 0,
+    "title": "Plain of Tenerus and Hercules",
+    "summary": "Pausanias notes the plain named for the seer Tenerus and a temple of Hercules Hippodetes, who bound the Orchomenians' horses to their chariots.",
+    "stakes": "",
+    "present": [
+     "Tenerus",
+     "Apollo",
+     "Melia",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Plain of Tenerus",
+     "modern_name": "near Thebes, Boeotia",
+     "certainty": "traditional",
+     "lat": 38.3,
+     "lon": 23.3
+    }
+   },
+   {
+    "start_sentence": 1,
+    "end_sentence": 5,
+    "title": "The Sphinx's mountain",
+    "summary": "Different accounts of the Sphinx: a riddling monster, a pirate from Anthedon, or Laius's illegitimate daughter who tested her brothers with Cadmus's oracle. Oedipus learnt the oracle in a dream and defeated her.",
+    "stakes": "Claimants to the throne of Thebes risk death if they cannot give the oracle.",
+    "present": [
+     "Sphinx",
+     "Oedipus",
+     "Laius",
+     "Cadmus",
+     "Epicaste"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mountain of the Sphinx",
+     "modern_name": "Phikion (Mount Sphingion), Boeotia",
+     "certainty": "traditional",
+     "lat": 38.3,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 6,
+    "title": "Ruins of Onchestus",
+    "summary": "About 15 stades on lie the ruins of Onchestus, with a statue of Poseidon and the grove Homer mentions.",
+    "stakes": "",
+    "present": [
+     "Onchestus",
+     "Poseidon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Onchestus",
+     "modern_name": "Onchestos, near Thebes",
+     "certainty": "real",
+     "lat": 38.35,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 9,
+    "title": "Thespia and its name",
+    "summary": "Thespia lies under Mount Helicon; its name is derived either from Asopus's daughter or from Thespius of Athens.",
+    "stakes": "",
+    "present": [
+     "Thespia",
+     "Thespius",
+     "Asopus",
+     "Erechtheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thespia",
+     "modern_name": "Thespies, Boeotia",
+     "certainty": "real",
+     "lat": 38.28,
+     "lon": 23.15
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 14,
+    "title": "Zeus Soter and the dragon",
+    "summary": "A dragon demanded a youth each year until Menestratus armed his lover Cleostratus with a hooked breastplate, killing the monster. Pausanias then lists other statues.",
+    "stakes": "Cleostratus faces death as the dragon's last victim.",
+    "present": [
+     "Zeus",
+     "Cleostratus",
+     "Menestratus",
+     "Dionysus",
+     "Fortune",
+     "Hygiea",
+     "Athene",
+     "Plutus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thespia",
+     "modern_name": "Thespies, Boeotia",
+     "certainty": "real",
+     "lat": 38.28,
+     "lon": 23.15
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Tenerus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "seer, said to be son of Apollo and Melia"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Tenerus"
+   },
+   {
+    "name": "Melia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "mother of Tenerus"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Hippodetes"
+    ],
+    "kind": "god",
+    "description": "hero who tied up the Orchomenians' horses"
+   },
+   {
+    "name": "Sphinx",
+    "aliases": [],
+    "kind": "monster",
+    "description": "riddling brigand on the mountain"
+   },
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "slayer of the Sphinx"
+   },
+   {
+    "name": "Laius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Thebes, father of the Sphinx in one account"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "recipient of the Delphic oracle"
+   },
+   {
+    "name": "Epicaste",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Laius"
+   },
+   {
+    "name": "Onchestus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Poseidon who dwelt at Onchestus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Onchestus"
+   },
+   {
+    "name": "Thespia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Asopus, eponym of the town"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Thespia"
+   },
+   {
+    "name": "Thespius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Erechtheus, alternative namesake of Thespia"
+   },
+   {
+    "name": "Erechtheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Thespius"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Saviour"
+    ],
+    "kind": "god",
+    "description": "honoured at Thespia as Soter"
+   },
+   {
+    "name": "Cleostratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "last youth given to the dragon"
+   },
+   {
+    "name": "Menestratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "lover of Cleostratus who devised the breastplate"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "statue at Thespia"
+   },
+   {
+    "name": "Fortune",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue at Thespia"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue at Thespia"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "the Worker"
+    ],
+    "kind": "goddess",
+    "description": "statue of Athene the Worker"
+   },
+   {
+    "name": "Plutus",
+    "aliases": [],
+    "kind": "god",
+    "description": "statue near Athene"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Tenerus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Melia",
+    "relation": "parent_of",
+    "b": "Tenerus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Laius",
+    "relation": "parent_of",
+    "b": "Sphinx",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Laius",
+    "relation": "spouse_of",
+    "b": "Epicaste",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Onchestus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Asopus",
+    "relation": "parent_of",
+    "b": "Thespia",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Erechtheus",
+    "relation": "parent_of",
+    "b": "Thespius",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Menestratus",
+    "relation": "lover_of",
+    "b": "Cleostratus",
+    "source": "text",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Hippodetes",
+    "canonical": "Hercules",
+    "explanation": "Means 'horse-binder', from tying the Orchomenians' horses to their chariots."
+   },
+   {
+    "alias": "Soter",
+    "canonical": "Zeus",
+    "explanation": "Saviour, from the rescue of Thespia from the dragon."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "The clever hooked breastplate by which Cleostratus ensured he would kill the dragon.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias pairs landmarks with competing local traditions, showing how myth explains place names and cult titles.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The rationalised Sphinx as a pirate or royal bastard reflects Greek habit of turning monsters into plausible history.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Sphinx's riddle and Oedipus's victory became central to Greek tragedy, notably Sophocles' Oedipus Rex."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias cites Homer's mention of the grove of Onchestus, in the Iliad's Catalogue of Ships.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Hippodetes means \"horse-binder\" in Greek, which explains the epithet from the story of the tied horses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Superior force\" means a larger army; this rationalizing version replaces the riddle-monster with a human pirate defeated in war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Used subtlety\" means she tricked them with a test; \"doubtful claimants of the blood royal\" means men whose royal birth was uncertain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Homer mentions the grove of Poseidon at Onchestus in the Iliad's Catalogue of Ships, calling it a \"bright grove\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Soter means \"Saviour\", a common cult title of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "The hooked plates would catch and wound the dragon as it swallowed him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Hygiea is the goddess of health; Plutus personifies wealth.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The Orchomenians were from Orchomenus, a rival Boeotian city, which in myth was defeated by Hercules and made to pay tribute to Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Laius was king of Thebes and father of Oedipus; Cadmus was the city's founder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Erechtheus was a legendary king of Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Greek lovers were often an older man and a younger beloved, so Menestratus's devotion fits that custom.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "characterization",
+    "text": "The Sphinx is defined by her riddle, which she uses as a weapon against captives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "foreshadowing",
+    "text": "The dream briefly hints at Oedipus's coming victory over the Sphinx.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "irony",
+    "text": "The youth goes cheerfully to the monster, and his seeming sacrifice becomes the means of its destruction.",
+    "spoiler": false
+   }
+  ]
+ }
+}

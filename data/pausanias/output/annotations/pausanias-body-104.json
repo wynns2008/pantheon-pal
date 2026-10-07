@@ -1,0 +1,577 @@
+{
+ "section_id": "pausanias-body-104",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11800,
+  "output": 5057
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of coastal and inland Laconia, starting at Gythium and moving through Acriae, Geronthrae, Marius, Asopus and ending at Boeae. He records temples, tombs, local legends and the foundings of towns.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Gythium, Cranae and Migonium",
+    "summary": "Pausanias notes the White Stone of Orestes, the island Cranae, Aphrodite's temple at Migonium and the mountain Larysium sacred to Dionysus.",
+    "stakes": "",
+    "present": [
+     "Orestes",
+     "Paris",
+     "Helen",
+     "Menelaus",
+     "Dionysus",
+     "Aphrodite Migonitis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Gythium",
+     "modern_name": "Gytheio",
+     "certainty": "real",
+     "lat": 36.7564,
+     "lon": 22.5667
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 12,
+    "title": "Trinasus, Helus and Acriae",
+    "summary": "He describes Trinasus, the ruins of Helus and Acriae with its ancient temple of the Mother of the Gods and the tomb of the Olympic victor Nicocles.",
+    "stakes": "",
+    "present": [
+     "Mother of the Gods",
+     "Nicocles",
+     "Broteas",
+     "Tantalus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Acriae",
+     "modern_name": "Kokkinia (ancient Akriai)",
+     "certainty": "real",
+     "lat": 36.8,
+     "lon": 22.78
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 24,
+    "title": "Geronthrae and Marius",
+    "summary": "He describes Geronthrae, its history under the Dorians, the grove of Ares, the temple of Apollo, and the watery town Marius.",
+    "stakes": "",
+    "present": [
+     "Ares",
+     "Apollo",
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Geronthrae",
+     "modern_name": "Geraki",
+     "certainty": "real",
+     "lat": 36.99,
+     "lon": 22.72
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 32,
+    "title": "Asopus and the Ass' Jawbone",
+    "summary": "He lists sanctuaries around Asopus and the roofless temple of Athene built by Agamemnon, with the monument of Cinadus.",
+    "stakes": "",
+    "present": [
+     "Æsculapius",
+     "Athene",
+     "Agamemnon",
+     "Cinadus",
+     "Menelaus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Asopus",
+     "modern_name": "Plytra area",
+     "certainty": "real",
+     "lat": 36.65,
+     "lon": 22.97
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 39,
+    "title": "Boeae and its founding",
+    "summary": "He tells how Boeus founded Boeae and how a hare led settlers to their site, then lists the city's temples and nearby ruins.",
+    "stakes": "The displaced townspeople needed a new place to settle.",
+    "present": [
+     "Bœus",
+     "Hercules",
+     "Æneas",
+     "Etias",
+     "Sida",
+     "Danaus",
+     "Artemis",
+     "Apollo",
+     "Æsculapius",
+     "Serapis",
+     "Isis",
+     "Hermes",
+     "Hygiea"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Bœæ",
+     "modern_name": "Neapoli",
+     "certainty": "real",
+     "lat": 36.5,
+     "lon": 23.05
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sat on the White Stone to cure his madness"
+   },
+   {
+    "name": "Paris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Carried off Helen and built a temple"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Carried off by Paris"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Returned home and set up statues"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God honoured on Mount Larysium"
+   },
+   {
+    "name": "Aphrodite Migonitis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess with a temple at Migonium"
+   },
+   {
+    "name": "Mother of the Gods",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess with an ancient temple at Acriae"
+   },
+   {
+    "name": "Nicocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Olympic chariot victor from Acriae"
+   },
+   {
+    "name": "Broteas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Tantalus, said to have made a statue"
+   },
+   {
+    "name": "Tantalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Broteas"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "Has a grove at Geronthrae"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "Has temples at Geronthrae and Boeae"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Saviour"
+    ],
+    "kind": "goddess",
+    "description": "Guided the settlers of Boeae"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [
+     "Philolaus"
+    ],
+    "kind": "god",
+    "description": "Healing god with several temples"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Cyparissia"
+    ],
+    "kind": "goddess",
+    "description": "Goddess with temples in Laconia"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Said to have built a temple of Athene"
+   },
+   {
+    "name": "Cinadus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Pilot of Menelaus' ship"
+   },
+   {
+    "name": "Bœus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Hercules, founder of Boeae"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Boeus"
+   },
+   {
+    "name": "Æneas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Said to have built two towns when storm-driven"
+   },
+   {
+    "name": "Etias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Aeneas, gave name to Etis"
+   },
+   {
+    "name": "Sida",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Danaus, namesake of a town"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Sida"
+   },
+   {
+    "name": "Serapis",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with a temple at Boeae"
+   },
+   {
+    "name": "Isis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess with a temple at Boeae"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Stone statue on the road"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess with a temple among the ruins"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Tantalus",
+    "relation": "parent_of",
+    "b": "Broteas",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Bœus",
+    "source": "text",
+    "evidence_sentence": 34
+   },
+   {
+    "a": "Æneas",
+    "relation": "parent_of",
+    "b": "Etias",
+    "source": "text",
+    "evidence_sentence": 35
+   },
+   {
+    "a": "Danaus",
+    "relation": "parent_of",
+    "b": "Sida",
+    "source": "text",
+    "evidence_sentence": 35
+   },
+   {
+    "a": "Paris",
+    "relation": "lover_of",
+    "b": "Helen",
+    "source": "outside",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Menelaus",
+    "relation": "spouse_of",
+    "b": "Helen",
+    "source": "outside",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Philolaus",
+    "canonical": "Æsculapius",
+    "explanation": "Local name of the god at Asopus."
+   },
+   {
+    "alias": "Cyparissia",
+    "canonical": "Athene",
+    "explanation": "Cult title of Athene at Asopus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 37,
+    "reason": "Charming foundation legend of Boeae: a hare guides settlers to a myrtle tree.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage is a periegesis, linking places to myths and cults, anchoring Homeric heroes in Laconian landscape.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The temple of the Roman Emperors and cults of Serapis and Isis show Roman-era religion in Laconia; the Eleutherolacones were free Laconian towns.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias wrote in the second century AD, and his guide is a main source for the sites of ancient Greece.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–200 metres, so 3 stades is a short walk.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "Zeus Cappotas: in the Doric dialect the name apparently means 'Zeus who fell down', linking the stone to Orestes' relief from madness. The explanation is Pausanias' own.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Homer's Iliad (3.445) has Paris say he first lay with Helen on the isle of Cranae, after carrying her off from Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Menelaus, Helen's husband, wandered for years after Troy (Ilium) before reaching home. Thetis was the mother of Achilles; Praxidice was a goddess of justice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "Pausanias derives the name Trinasus from the Greek for 'three islands', a folk etymology offered with 'I think'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "Two Olympiads means two Olympic festivals, held four years apart, so Nicocles won five chariot-race victories across two festivals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "A stade was a Greek measure of length, roughly 600 feet or about 180 metres, so 120 stades is around 13 miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "The Heraclidæ are the descendants of Heracles, whose return to the Peloponnese traditionally led to the Dorian settlement of Laconia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Eleutherolacones means 'free Laconians': coastal towns freed from Spartan rule by Augustus and organized as a league.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "Only the head of the statue was ivory and survived; the rest, presumably of other materials, burned with the old temple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–200 metres; sixty stades is about eleven kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "\"They call the god Philolaus there\" means Æsculapius has a local cult title in Asopus, not his usual name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "The bones are said to be large yet still human-sized, so Pausanias rejects the idea that they belonged to a giant or hero beyond mortals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "\"Ass' jawbone\" translates the Greek name of the promontory, Onou Gnathos, named for its shape.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "phrasing",
+    "text": "\"Hercules\" here means the descendants of Hercules, the Heraclidae; Bœus is said to have gathered settlers from three older towns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "Æneas fleeing to Italy refers to the Trojan hero's wanderings after Troy's fall; local Greek tradition claims he landed here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "allusion",
+    "text": "Artemis as Saviour (Soteira) reflects her local cult title; the hare was sacred to her as goddess of wild animals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "Serapis and Isis are Egyptian deities whose cults spread through the Greek and Roman world in later centuries.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Orestes killed his mother Clytemnestra and was driven mad by the Furies. Many places in Greece claimed to be where he was cured.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Dionysus was the god of wine, and his spring festival here is tied to grapes ripening unusually early.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "The Mother of the Gods is Cybele, a Phrygian goddess whose worship spread to Greece. Sipylus is a mountain in Asia Minor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Achæans here are the pre-Dorian inhabitants of the Peloponnese, displaced when the Dorians took over Laconia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Ares was the Greek god of war. Barring women from his grove reflects a ritual exclusion common in some cults.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "A temple common to all the gods was unusual; most Greek temples were dedicated to a single deity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Agamemnon, king of Mycenae, led the Greeks against Troy; Menelaus of Sparta was his brother, so the temple ties this coast to the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Cinadus is said to have been Menelaus' helmsman, buried here after the return voyage from Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "text": "Hygiea was the goddess of health and is often worshipped alongside Æsculapius, the god of healing.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "narrative voice",
+    "text": "Pausanias gives his own judgment ('seems to me'), showing the traveller-scholar who weighs evidence rather than just repeating local tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "characterization",
+    "text": "The rival claims of Acriae and the Magnesians show local pride in antiquity, and Pausanias reports both without deciding between them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "understatement",
+    "text": "The qualifying 'if any place' playfully stresses Marius's abundance of water by implying it rivals or surpasses every other town.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "narrative voice",
+    "text": "The closing summary shows Pausanias's guidebook manner, marking the end of one itinerary section before he moves on.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "foreshadowing",
+    "text": "The oracle's vague promise that Artemis will show the place prepares the reader for the hare that guides the settlers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "symbolism",
+    "text": "The hare and the myrtle act as divine signs marking the city's foundation, and lasting veneration of the tree preserves the sacred origin.",
+    "spoiler": false
+   }
+  ]
+ }
+}

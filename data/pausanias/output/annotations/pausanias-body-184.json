@@ -1,0 +1,535 @@
+{
+ "section_id": "pausanias-body-184",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9910,
+  "output": 4332
+ },
+ "result": {
+  "summary": "Pausanias continues his catalogue of Olympic victor statues. He tells of Astylus of Croton, whose house became a prison, and of runners such as Chionis, Polites and Leonidas. He also notes boxers, pancratiasts, and a mare named Aura whose race ended in victory without a rider.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Astylus and Chionis statues",
+    "summary": "Astylus is punished by Croton for running as a Syracusan. Pausanias then corrects those who think Chionis set up his own pillar and statue.",
+    "stakes": "Astylus loses his statue and house at home after switching his allegiance to please Hiero.",
+    "present": [
+     "Astylus",
+     "Hiero",
+     "Chionis",
+     "Pythagoras",
+     "Myro"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 11,
+    "title": "Famous Olympic runners",
+    "summary": "Hermogenes, Polites and Leonidas are praised for their running victories.",
+    "stakes": "",
+    "present": [
+     "Hermogenes",
+     "Polites",
+     "Leonidas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 20,
+    "title": "Boxers, pancratiasts and sculptors",
+    "summary": "Pausanias lists statues of Scaeus, Diallus, Thersilochus, Aristion, Bycelus, Mnaseas, Agemachus and Tisander, with their sculptors.",
+    "stakes": "",
+    "present": [
+     "Scaeus",
+     "Diallus",
+     "Thersilochus",
+     "Aristion",
+     "Bycelus",
+     "Mnaseas",
+     "Agemachus",
+     "Tisander",
+     "Hippias",
+     "Polycletus",
+     "Canachus",
+     "Pythagoras"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 28,
+    "title": "Horses and further victors",
+    "summary": "The mare Aura wins after losing her rider, and the sons of Phidolas honour the horse Lycus. Other statues of Agathinus, Telemachus and Aristophon are noted.",
+    "stakes": "",
+    "present": [
+     "Phidolas",
+     "Aura",
+     "Lycus",
+     "Agathinus",
+     "Telemachus",
+     "Aristophon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Isthmus of Corinth",
+     "modern_name": "Isthmus of Corinth, Greece",
+     "certainty": "real",
+     "lat": 37.91,
+     "lon": 22.99
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Astylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "runner of Croton, three-time Olympic victor"
+   },
+   {
+    "name": "Hiero",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Dinomenes, ruler of Syracuse"
+   },
+   {
+    "name": "Dinomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hiero"
+   },
+   {
+    "name": "Chionis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lacedaemonian Olympic victor"
+   },
+   {
+    "name": "Myro",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian sculptor"
+   },
+   {
+    "name": "Pythagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Rhegium"
+   },
+   {
+    "name": "Hermogenes",
+    "aliases": [
+     "Hermogenes Xanthius",
+     "Horse"
+    ],
+    "kind": "mortal",
+    "description": "Lycian runner nicknamed Horse"
+   },
+   {
+    "name": "Polites",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "swift runner from Ceramus in Caria"
+   },
+   {
+    "name": "Leonidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Rhodian runner with twelve victories"
+   },
+   {
+    "name": "Scaeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Samian boy boxing victor"
+   },
+   {
+    "name": "Duris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Scaeus"
+   },
+   {
+    "name": "Hippias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Scaeus's statue"
+   },
+   {
+    "name": "Diallus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Smyrnaean, first Ionian boys' pancratium victor"
+   },
+   {
+    "name": "Pollis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Diallus"
+   },
+   {
+    "name": "Thersilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boy boxing victor from Corcyra"
+   },
+   {
+    "name": "Aristion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "men's boxing victor of Epidaurus"
+   },
+   {
+    "name": "Theophiles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aristion"
+   },
+   {
+    "name": "Polycletus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive sculptor"
+   },
+   {
+    "name": "Bycelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first Sicyonian boys' boxing victor"
+   },
+   {
+    "name": "Canachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicyonian sculptor, pupil of Polycletus"
+   },
+   {
+    "name": "Mnaseas",
+    "aliases": [
+     "Libyan"
+    ],
+    "kind": "mortal",
+    "description": "hoplite runner of Cyrene"
+   },
+   {
+    "name": "Agemachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "victor from Cyzicus"
+   },
+   {
+    "name": "Tisander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boxer of Naxos, son of Cleocritus"
+   },
+   {
+    "name": "Cleocritus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Tisander"
+   },
+   {
+    "name": "Phidolas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian owner of the mare Aura"
+   },
+   {
+    "name": "Aura",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Phidolas's mare that won without her rider"
+   },
+   {
+    "name": "Lycus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "race-horse of the sons of Phidolas"
+   },
+   {
+    "name": "Agathinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Thrasybulus, honoured by Pellene Achaeans"
+   },
+   {
+    "name": "Thrasybulus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Agathinus"
+   },
+   {
+    "name": "Telemachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "victor with horses"
+   },
+   {
+    "name": "Aristophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian pancratium victor, son of Lycinus"
+   },
+   {
+    "name": "Lycinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aristophon"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Dinomenes",
+    "relation": "parent_of",
+    "b": "Hiero",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Duris",
+    "relation": "parent_of",
+    "b": "Scaeus",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Pollis",
+    "relation": "parent_of",
+    "b": "Diallus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Theophiles",
+    "relation": "parent_of",
+    "b": "Aristion",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Cleocritus",
+    "relation": "parent_of",
+    "b": "Tisander",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Phidolas",
+    "relation": "parent_of",
+    "b": "Lycus",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Thrasybulus",
+    "relation": "parent_of",
+    "b": "Agathinus",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Lycinus",
+    "relation": "parent_of",
+    "b": "Aristophon",
+    "source": "text",
+    "evidence_sentence": 28
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Horse",
+    "canonical": "Hermogenes",
+    "explanation": "Nickname given by the Greeks for his speed."
+   },
+   {
+    "alias": "Libyan",
+    "canonical": "Mnaseas",
+    "explanation": "Surname of Mnaseas of Cyrene."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 21,
+    "reason": "The vivid tale of the mare Aura winning after her rider fell.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Statues at Olympia record civic pride and rivalry, and Pausanias uses them to show how cities honoured or punished athletes.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Athletes switching city allegiance for a tyrant's favour, as Astylus did, shows how politics intruded on Greek games.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes that Corinth and Argos kept no early victor lists for their games, unlike Elis for Olympia.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "The stade was the single-length footrace (about 190 metres); the double course (diaulos) was one length there and back.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Hiero, son of Dinomenes, was the tyrant of Syracuse. Astylus's switch of allegiance to flatter him was treated as betrayal by Croton.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "The race in heavy armour (hoplite race) was added to the Olympic programme later; Pausanias argues Chionis could not have anticipated it, so the pillar's list proves nothing about authorship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "The wild olive crown was the Olympic prize, cut from a sacred tree at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "Pausanias describes a second-day contest among four runners chosen by lot, apparently the winners of earlier races, a rule that is obscure to modern readers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "The inscription links the victory to the Samians' exile from their island; they later returned, and the statue was set up then.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "The pancratium was a brutal combined contest of wrestling and boxing, with few rules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "'The tyrant' refers to a statue mentioned just before this passage, presumably of a tyrant whom Pausanias has described.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "A hoplite here means a runner in the race in armour, the hoplite race.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "Pausanias means that no victor lists survived for these games, so he cannot check Tisander's wins there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "Aura means 'breeze' in Greek, a fitting name for a swift mare.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Lacinian Hera was worshipped at a famous sanctuary near Croton in southern Italy. Removing the statue was a formal public disgrace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Myro was a renowned Athenian bronze sculptor of the fifth century BC, best known for his Discus Thrower.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Ceramus was a city in Caria, in southwestern Asia Minor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Polycletus of Argos was one of the most famous Greek sculptors of the fifth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Naxos in Sicily was an early Greek colony, said to be founded from Chalcis; it was later destroyed by Dionysius of Syracuse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "The Pythian games were held at Delphi in honour of Apollo, and ranked just below Olympia.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "irony",
+    "text": "Pausanias sharply calls the mistaken 'simple', using mild scorn to correct earlier opinion and assert his authority as a careful observer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "rhetorical question",
+    "text": "The question exposes the flaw in the opposing view by logic rather than assertion, as no one could list a race not yet created.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "epithet",
+    "text": "The nickname 'Horse' vividly conveys Hermogenes's speed and endurance in a single word.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "personification",
+    "text": "The mare is given human awareness and purpose, finishing the course, hearing the trumpet and knowing she had won.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "narrative voice",
+    "text": "Pausanias steps back with a dry, skeptical aside, leaving the discrepancy for readers instead of resolving it.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,447 @@
+{
+ "section_id": "pausanias-body-60",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8418,
+  "output": 3526
+ },
+ "result": {
+  "summary": "Pausanias traces the Argive kings from Argos to Acrisius, and tells how Perseus accidentally killed Acrisius and founded Mycenae. He gives the explanations of the city's name, its destruction by the Argives, and its ruins and tombs.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Argive royal succession",
+    "summary": "The line of Argive kings runs from Argos through Danaus and Lynceus to the sons of Abas, who divide the kingdom.",
+    "stakes": "",
+    "present": [
+     "Argos",
+     "Phorbas",
+     "Triopas",
+     "Iasus",
+     "Agenor",
+     "Crotopus",
+     "Sthenelas",
+     "Danaus",
+     "Lynceus",
+     "Acrisius",
+     "Prœtus",
+     "Io"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 9,
+    "title": "Perseus kills Acrisius",
+    "summary": "Acrisius retires to Larissa, and Perseus visits him. Acrisius is accidentally killed by Perseus' quoit, fulfilling the oracle.",
+    "stakes": "Acrisius' life, which he has tried to protect from the prophecy.",
+    "present": [
+     "Acrisius",
+     "Perseus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Larissa",
+     "modern_name": "Larissa, Thessaly",
+     "certainty": "real",
+     "lat": 39.64,
+     "lon": 22.42
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 16,
+    "title": "Founding and naming of Mycenae",
+    "summary": "Perseus swaps kingdoms with Megapenthes and founds Mycenae. Pausanias gives rival explanations of the name and rejects Acusilaus' genealogy.",
+    "stakes": "",
+    "present": [
+     "Perseus",
+     "Megapenthes",
+     "Mycene",
+     "Acusilaus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mycenæ",
+     "modern_name": "Mycenae",
+     "certainty": "real",
+     "lat": 37.73,
+     "lon": 22.76
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 27,
+    "title": "Destruction and ruins of Mycenae",
+    "summary": "The Argives destroy Mycenae out of jealousy. Pausanias describes the surviving remains and the tombs of Agamemnon's family.",
+    "stakes": "",
+    "present": [
+     "Atreus",
+     "Agamemnon",
+     "Ægisthus",
+     "Cassandra",
+     "Electra",
+     "Orestes",
+     "Pylades",
+     "Clytæmnestra"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mycenæ",
+     "modern_name": "Mycenae",
+     "certainty": "real",
+     "lat": 37.73,
+     "lon": 22.76
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Argos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who named Argos"
+   },
+   {
+    "name": "Phoroneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "earlier king of Argos"
+   },
+   {
+    "name": "Phorbas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Argos"
+   },
+   {
+    "name": "Triopas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phorbas"
+   },
+   {
+    "name": "Iasus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Triopas"
+   },
+   {
+    "name": "Agenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Triopas"
+   },
+   {
+    "name": "Io",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Iasus who went to Egypt"
+   },
+   {
+    "name": "Crotopus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Agenor, king"
+   },
+   {
+    "name": "Sthenelas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Crotopus"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "came from Egypt and seized the kingdom"
+   },
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king after Danaus"
+   },
+   {
+    "name": "Abas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Acrisius and Prœtus"
+   },
+   {
+    "name": "Acrisius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Argos, killed by Perseus"
+   },
+   {
+    "name": "Prœtus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Tiryns and the coast"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "grandson of Acrisius, founder of Mycenae"
+   },
+   {
+    "name": "Megapenthes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Prœtus"
+   },
+   {
+    "name": "Mycene",
+    "aliases": [
+     "Myceneus"
+    ],
+    "kind": "mortal",
+    "description": "woman or hero said to name Mycenae"
+   },
+   {
+    "name": "Acusilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "writer whose tradition Pausanias rejects"
+   },
+   {
+    "name": "Atreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "buried at Mycenae"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king murdered on return from Ilium"
+   },
+   {
+    "name": "Ægisthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "murderer of Agamemnon's party"
+   },
+   {
+    "name": "Cassandra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of twins; tomb claimed by Amyclae"
+   },
+   {
+    "name": "Electra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "married Pylades"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "gave Electra in marriage"
+   },
+   {
+    "name": "Pylades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Electra"
+   },
+   {
+    "name": "Clytæmnestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "buried outside the walls"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Phorbas",
+    "relation": "parent_of",
+    "b": "Triopas",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Triopas",
+    "relation": "parent_of",
+    "b": "Iasus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Iasus",
+    "relation": "parent_of",
+    "b": "Io",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Agenor",
+    "relation": "parent_of",
+    "b": "Crotopus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Crotopus",
+    "relation": "parent_of",
+    "b": "Sthenelas",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Abas",
+    "relation": "parent_of",
+    "b": "Acrisius",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Prœtus",
+    "relation": "parent_of",
+    "b": "Megapenthes",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Electra",
+    "relation": "spouse_of",
+    "b": "Pylades",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Electra",
+    "source": "outside",
+    "evidence_sentence": 25
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Acrisius cannot escape the oracle despite his precautions, a classic fate-fulfilled story.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Fate cannot be avoided: Acrisius' efforts to escape the oracle lead directly to his accidental death.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias mixes genealogy, rival traditions and visible ruins, and he argues with earlier writers. Mycenae's destruction by Argos reflects real rivalry in the 460s BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias saw Mycenae's Lion Gate and the underground treasuries, which are still visible today.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Io, loved by Zeus in myth, was turned into a cow and wandered to Egypt; Herodotus gives a rationalizing, Persian-Phoenician version of her story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Refers to the fifty daughters of Danaus, who on their father's orders killed their cousin-husbands, the sons of Aegyptus, all but Hypermnestra, who spared Lynceus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "A quoit is a heavy disc thrown in athletic contests, like the discus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The oracle told Acrisius he would be killed by his daughter Danae's son; he shut her up, but Perseus was born anyway.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Greek mykes means both 'fungus' and 'scabbard cap'; the bracketed note is the translator's explanation of the name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "The 'Great Eoeae' is a lost poem attributed to Hesiod, listing heroines; the title comes from its repeated 'or like her who...' formula.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Refers to the Persian invasion of 480 BC, when Leonidas and his 300 Spartans with allies held Thermopylae.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "The Lion Gate survives; the Cyclopes were legendary giant builders to whom huge masonry was attributed, hence 'Cyclopean' walls.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 21,
+    "text": "The 'underground buildings' are beehive-shaped tholos tombs, which Pausanias takes for treasuries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Aegisthus, lover of Clytaemnestra, killed Agamemnon's company at a feast after their return from Troy (Ilium).",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Cassandra was the Trojan princess taken as Agamemnon's captive and murdered with him.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "Acrisius's efforts to avoid the oracle bring it about; his precautions cannot turn aside his fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "irony",
+    "text": "The Mycenaeans' honourable conduct leads directly to their ruin, a bitter reversal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "characterization",
+    "text": "Burial outside the walls marks the adulterous murderers as unworthy, giving a moral verdict through the tomb's position.",
+    "spoiler": false
+   }
+  ]
+ }
+}

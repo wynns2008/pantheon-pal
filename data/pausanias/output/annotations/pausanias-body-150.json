@@ -1,0 +1,284 @@
+{
+ "section_id": "pausanias-body-150",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7696,
+  "output": 2524
+ },
+ "result": {
+  "summary": "Pausanias travels the road toward Olympia, discussing Samicum and the lost town of Arene. He then describes Scillus, where Xenophon lived in exile, and ends with Mount Typaeum and the story of Callipatira, a woman who sneaked into the Olympic games.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Samia, Samicum and Arene",
+    "summary": "Pausanias describes the hill town of Samia and debates whether Samicum was the ancient Arene of the Iliad.",
+    "stakes": "",
+    "present": [
+     "Polysperchon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Samicum",
+     "modern_name": "Samikon, Elis",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 21.6
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 19,
+    "title": "Xenophon at Scillus",
+    "summary": "Pausanias describes Scillus and how Xenophon, exiled from Athens, was given it by the Lacedaemonians and built a temple to Artemis there.",
+    "stakes": "Xenophon faces exile and a trial for accepting Scillus.",
+    "present": [
+     "Xenophon",
+     "Cyrus",
+     "Lysander",
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Scillus",
+     "modern_name": "near Skillountia, Elis",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 21.62
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 24,
+    "title": "Callipatira and Mount Typaeum",
+    "summary": "Pausanias tells of the custom of hurling women from Typaeum and of Callipatira, who was spared after attending her son's victory, after which athletes competed naked.",
+    "stakes": "Callipatira risks being hurled from Mount Typaeum.",
+    "present": [
+     "Callipatira",
+     "Pisirodus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mount Typaeum",
+     "modern_name": "near Olympia, Elis",
+     "certainty": "traditional",
+     "lat": 37.6,
+     "lon": 21.65
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Polysperchon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aetolian said to have made Samia a fortress against the Arcadians"
+   },
+   {
+    "name": "Xenophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Gryllus, exiled Athenian who lived at Scillus"
+   },
+   {
+    "name": "Gryllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Xenophon"
+   },
+   {
+    "name": "Cyrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "prince who fought the Persian king and gave money to Lysander"
+   },
+   {
+    "name": "Lysander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aristocritus, Lacedaemonian commander"
+   },
+   {
+    "name": "Aristocritus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Lysander"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Ephesian Artemis"
+    ],
+    "kind": "goddess",
+    "description": "goddess honored by Xenophon with a temple and grove"
+   },
+   {
+    "name": "Callipatira",
+    "aliases": [
+     "Pherenice"
+    ],
+    "kind": "mortal",
+    "description": "woman of Elis who entered the Olympic games disguised as an athlete"
+   },
+   {
+    "name": "Pisirodus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Callipatira, victor at Olympia"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Gryllus",
+    "relation": "parent_of",
+    "b": "Xenophon",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Aristocritus",
+    "relation": "parent_of",
+    "b": "Lysander",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Callipatira",
+    "relation": "parent_of",
+    "b": "Pisirodus",
+    "source": "text",
+    "evidence_sentence": 23
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pherenice",
+    "canonical": "Callipatira",
+    "explanation": "Some traditions give this as her name."
+   },
+   {
+    "alias": "Minyeius",
+    "canonical": "Aniger",
+    "explanation": "The Arcadians say Minyeius was the river Aniger's ancient name."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 24,
+    "reason": "Gives the origin of athletes competing naked at Olympia.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs rival local traditions and Homeric evidence to identify ruined places, showing his habit of mixing topography, history and anecdote.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Callipatira story reflects the male-only Olympic games and the strict rules about women's access to the festival.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Xenophon's estate at Scillus is also described by Xenophon himself in the Anabasis, which mentions a shrine to Artemis.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Offensive fortress\" means a stronghold used as a base for attacking the Arcadians, not merely for defence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The return of the Heraclidae is the legendary Dorian conquest of the Peloponnese by Heracles' descendants, which fixed old tribal boundaries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Sliced\" is a blunt rendering: the Lacedaemonians (Spartans) detached Scillus from Elis by force of their power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "Cyrus was the Persian prince who rebelled against his brother, the king. Calling the king a \"friend\" of Athens reflects Athens' position, not warm affection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "\"Scot free\" means free of penalty; here Xenophon was allowed to stay without punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "Pentelican marble is the fine white marble quarried at Mount Pentelicus near Athens.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 7,
+    "text": "This is a citation of Homer's Iliad, Book 11, in Nestor's account of an old war between Pylians and Epeans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Xenophon, the Athenian soldier and writer, led the Greek mercenaries home after Cyrus's failed expedition and later settled near Olympia under Spartan favour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Xenophon himself wrote that he built this sanctuary of Artemis with money from the sale of spoils.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Married women were barred from the Olympic Games as spectators on the days of the contests, according to Pausanias' account of the rule.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Pausanias explains the later custom of nude athletic competition through this story; other ancient traditions gave different origins.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "narrative voice",
+    "text": "Pausanias leaves the dispute open with dry irony, inviting guesswork while showing his own cautious, evidence-weighing manner.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "irony",
+    "text": "The law threatens death for women, yet only one was ever caught, and she was spared, undercutting the severity of the custom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "characterization",
+    "text": "Callipatira's disguise as a trainer shows her as bold and devoted to her son's success.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "irony",
+    "text": "Her triumph causes her exposure, and the rule that follows, nakedness for all athletes, springs from her own unmasking.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,466 @@
+{
+ "section_id": "pausanias-body-185",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10923,
+  "output": 3825
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of victor statues at Olympia, noting athletes such as Pherias, Nicasylus, Artemidorus and especially Milo of Croton, with tales of his feats and his death. He then lists pipers, boxers, runners and other winners with their sculptors.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Young victors and age rules",
+    "summary": "Pausanias describes statues of Pherias, Nicasylus and Artemidorus, whose age affected their entry to the games, and then a horse offering and Telestas.",
+    "stakes": "",
+    "present": [
+     "Pherias",
+     "Nicasylus",
+     "Artemidorus",
+     "Crocon",
+     "Telestas",
+     "Silanion"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 25,
+    "title": "Milo of Croton",
+    "summary": "Milo's statue and victories are described, along with his feats of strength and his death, trapped in a split tree and eaten by wolves.",
+    "stakes": "Milo's life, as his hands are trapped in the tree and wolves attack.",
+    "present": [
+     "Milo",
+     "Timasitheus",
+     "Dameas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Croton",
+     "modern_name": "Crotone, Italy",
+     "certainty": "real",
+     "lat": 39.08,
+     "lon": 17.13
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 45,
+    "title": "Pipers and other statues",
+    "summary": "Pausanias lists the statues of Pyrrhus, pipers, boxers, runners and pentathletes, with their sculptors.",
+    "stakes": "",
+    "present": [
+     "Pyrrhus",
+     "Thrasybulus",
+     "Sacadas",
+     "Pythocritus",
+     "Cylon",
+     "Gorgus",
+     "Damaretus",
+     "Anauchidas",
+     "Anochus",
+     "Xenombrotus",
+     "Xenodicus",
+     "Pythes",
+     "Hieronymus",
+     "Tisamenus",
+     "Procles",
+     "Æschines",
+     "Lysippus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis, Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pherias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æginetan boy wrestler"
+   },
+   {
+    "name": "Nicasylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Rhodian wrestler who died young"
+   },
+   {
+    "name": "Artemidorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "pancratiast of Tralles"
+   },
+   {
+    "name": "Crocon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eretrian who dedicated a bronze horse"
+   },
+   {
+    "name": "Telestas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian boy boxing victor"
+   },
+   {
+    "name": "Silanion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor"
+   },
+   {
+    "name": "Milo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Crotonian wrestler of legendary strength"
+   },
+   {
+    "name": "Diotimus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Milo"
+   },
+   {
+    "name": "Dameas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Milo's statue"
+   },
+   {
+    "name": "Timasitheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "young Crotonian who avoided Milo"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king in Thesprotia, Epirus"
+   },
+   {
+    "name": "Æacides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pyrrhus"
+   },
+   {
+    "name": "Thrasybulus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean who set up Pyrrhus's statue"
+   },
+   {
+    "name": "Sacadas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive piper"
+   },
+   {
+    "name": "Pythocritus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicyonian piper"
+   },
+   {
+    "name": "Callinicus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pythocritus"
+   },
+   {
+    "name": "Cylon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "freed Elis from Aristotimus"
+   },
+   {
+    "name": "Aristotimus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant of Elis"
+   },
+   {
+    "name": "Gorgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian pentathlon winner"
+   },
+   {
+    "name": "Damaretus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian boy boxer"
+   },
+   {
+    "name": "Anauchidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean wrestler"
+   },
+   {
+    "name": "Anochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Tarentine runner"
+   },
+   {
+    "name": "Xenombrotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "horse-race victor of Cos"
+   },
+   {
+    "name": "Xenodicus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boy boxing victor"
+   },
+   {
+    "name": "Pythes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Abderite leader of soldiers"
+   },
+   {
+    "name": "Lysippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor"
+   },
+   {
+    "name": "Hieronymus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boy runner from Andros"
+   },
+   {
+    "name": "Tisamenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean prophet at Platæa"
+   },
+   {
+    "name": "Procles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boy wrestler from Andros"
+   },
+   {
+    "name": "Æschines",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean pentathlete"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Diotimus",
+    "relation": "parent_of",
+    "b": "Milo",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Æacides",
+    "relation": "parent_of",
+    "b": "Pyrrhus",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Callinicus",
+    "relation": "parent_of",
+    "b": "Pythocritus",
+    "source": "text",
+    "evidence_sentence": 33
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 24,
+    "reason": "Memorable account of Milo's death, trapped in a tree and devoured by wolves.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows the pride of athletic fame and its limits, as even the strongest man, Milo, is undone by overconfidence.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias catalogues statues as a record of victors, showing how Olympia served as a monument of Greek civic and athletic honour.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Milo's death in the split tree became a famous cautionary tale, depicted in art such as Pierre Puget's sculpture Milo of Croton (1682)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Age classes at Olympia were judged by officials, so a young athlete could be moved between boys' and men's contests.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Unbearded\" (Greek ageneioi) was a separate age class of beardless youths, between boys and men, used at some games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Brazen\" means made of bronze; a votive offering is a gift dedicated to a god in thanks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "Timasitheus declined to come to grips, so Milo won no victory; the seventh attempt failed by refusal, not by defeat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "Altis was the sacred grove enclosing Olympia's temples and statues; Milo reportedly carried his statue into it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "A quoit is a discus-like disc; here it is oiled so that standing on it is slippery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "A fillet is a headband worn by victors and priests, which Milo imitates with a cord.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "Altis is the sacred grove at Olympia, the precinct enclosing the temples, altars and statues of victors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "The Amphictyonic games are the Pythian games at Delphi, run by the Amphictyonic League; early on they gave no prize to pipers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "Pentathlum here likely means the pentathlon-era Olympic contest; the text is odd, since pipers did not compete in it, probably meaning piping during the pentathlum.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "phrasing",
+    "text": "The 'latter' and 'former' refer to Xenodicus and Xenombrotus respectively, so the sculptors are Pantias and Philotimus in that order.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "allusion",
+    "text": "Tisamenus the Elean seer served the Greeks at Plataea (479 BC), where they defeated the Persian general Mardonius.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Aegina was an island state near Athens. Boys' wrestling had its own age class, so being judged too young could bar an entrant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Smyrna was an Ionian Greek city on the coast of Asia Minor, and it held its own games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Croton was a Greek city in southern Italy, famous for its athletes. Milo was its most celebrated wrestler, in the late sixth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Pyrrhus, king of Epirus, invaded Italy and Sicily and later died fighting at Argos in 272 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Aristotimus was a tyrant of Elis in the 3rd century BC, overthrown with Aetolian help.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "text": "Lysippus of Sicyon was among the most famous Greek bronze sculptors, court sculptor to Alexander the Great.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "comparison",
+    "text": "Pausanias judges Artemidorus's feat greater than Nicasylus's, adding his personal opinion to the narration.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "characterization",
+    "text": "The oiled quoit anecdote shows Milo's balance and strength in a humorous way, making him seem almost superhuman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "irony",
+    "text": "The man famed for strength is trapped by his own strength and eaten by wolves, a reversal of his glory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "narrative voice",
+    "text": "The curt closing line ends the digression with a plain, moralizing finality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "narrative voice",
+    "text": "Pausanias frankly admits ignorance, showing his careful, honest guide-like persona rather than inventing a sculptor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "narrative voice",
+    "text": "The hedge 'seems to have been' shows the author reasoning from evidence and marking his inference as uncertain.",
+    "spoiler": false
+   }
+  ]
+ }
+}

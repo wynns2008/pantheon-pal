@@ -1,0 +1,357 @@
+{
+ "section_id": "pausanias-body-21",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9417,
+  "output": 3276
+ },
+ "result": {
+  "summary": "Pausanias describes the theatre of Athens, its statues of the tragedians and the tales of Sophocles and Aeschylus, then the monuments on the way to the Acropolis. He visits the temple of Aesculapius, where he digresses at length on Sarmatian armour made from horse hoofs.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Theatre statues and poets' dreams",
+    "summary": "Pausanias notes the poets' statues, the dreams of Sophocles' Spartan foe and young Aeschylus, and the Medusa head and tripod above the theatre. He recalls the Niobe rock on Sipylus.",
+    "stakes": "",
+    "present": [
+     "Sophocles",
+     "Aeschylus",
+     "Dionysus",
+     "Medusa",
+     "Apollo",
+     "Artemis",
+     "Niobe"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Theatre at Athens",
+     "modern_name": "Theatre of Dionysus, Athens",
+     "certainty": "real",
+     "lat": 37.9704,
+     "lon": 23.7281
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 13,
+    "title": "Tomb of Calus and Aesculapius' temple",
+    "summary": "On the way to the Acropolis is the tomb of Calus, murdered by Daedalus. At the temple of Aesculapius a spring marks where Halirrhothius was killed by Ares.",
+    "stakes": "Calus was murdered by his uncle out of jealousy; Halirrhothius was killed for seducing Ares' daughter.",
+    "present": [
+     "Calus",
+     "Daedalus",
+     "Cocalus",
+     "Aesculapius",
+     "Halirrhothius",
+     "Poseidon",
+     "Ares"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Temple of Aesculapius, Athens",
+     "modern_name": "Asclepieion, Athens",
+     "certainty": "real",
+     "lat": 37.9696,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 25,
+    "title": "Sarmatian coat of mail",
+    "summary": "A Sarmatian hoof-scale corselet in the temple prompts a description of Sarmatian weapons and mail. Pausanias ends with linen corselets at the Gryneum.",
+    "stakes": "",
+    "present": [
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Land of the Sarmatians",
+     "modern_name": "Pontic steppe",
+     "certainty": "real",
+     "lat": 47.0,
+     "lon": 38.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Sophocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "great tragic poet of Athens"
+   },
+   {
+    "name": "Aeschylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tragic poet called to write by Dionysus"
+   },
+   {
+    "name": "Euripides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "great tragic poet"
+   },
+   {
+    "name": "Menander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "foremost comic poet"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who appears in dreams to the leader and to Aeschylus"
+   },
+   {
+    "name": "Medusa",
+    "aliases": [
+     "the Gorgon"
+    ],
+    "kind": "monster",
+    "description": "Gorgon whose golden head is on the wall"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who slays Niobe's sons; has a grove at Gryneum"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who kills Niobe's sons"
+   },
+   {
+    "name": "Niobe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mourning mother turned to rock on Sipylus"
+   },
+   {
+    "name": "Calus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daedalus' nephew and pupil, murdered"
+   },
+   {
+    "name": "Daedalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "craftsman who murdered Calus and fled"
+   },
+   {
+    "name": "Cocalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler in Sicily who received Daedalus"
+   },
+   {
+    "name": "Aesculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of healing with a temple at Athens"
+   },
+   {
+    "name": "Halirrhothius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Poseidon drowned by Ares"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Halirrhothius"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who killed Halirrhothius"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Halirrhothius",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Daedalus",
+    "relation": "sibling_of",
+    "b": "Calus",
+    "source": "outside",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Aesculapius",
+    "relation": "parent_of",
+    "b": "Aesculapius",
+    "source": "outside",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Dream calling Sophocles the new Siren, honoured like the dead.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links monuments to stories of gods and dreams, and wanders into curiosities from foreign lands.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The account of Sarmatian horse-hoof armour shows Greek interest in the peoples of the northern steppe.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Sophocles was called the new Siren because his poetry was sweetly enchanting; the Spartan leader is told to honour him with the rites given to the dead (heroic honours).",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The painting of the battle of Marathon is in the Painted Stoa; Pausanias uses it to date Aeschylus' statue, which Aeschylus himself had fought in the battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "The ægis is a goatskin shield or breastplate associated with Athena, here bearing the Gorgon's head as a protective emblem.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Dædalus, the legendary craftsman, killed his nephew and pupil out of jealousy at his inventions; he then fled to Crete and later to Sicily, to King Cocalus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The trial of Ares was held on the Areopagus, the hill of Ares, which tradition made the origin of Athens' homicide court.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Sarmatic: relating to the Sarmatians, a nomadic people living north of the Black Sea and Caucasus; \"not a whit behind\" means not at all inferior.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Less idea of barter\" means they knew less about trade than neighbouring barbarians, so they could not acquire iron by exchange.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Cornel wood: the hard wood of the cornelian cherry tree, commonly used for spear shafts and arrows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "Nomadic tribe: people who wander with their herds, without fixed homes or privately owned land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Point-blank\" means at close range; \"proof\" means resistant to penetration.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "\"Admit the keen thrust of steel\" means linen corselets let sharp blades pierce through them.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The theatre is the Theatre of Dionysus on the south slope of the Acropolis, where tragedies and comedies were performed at festivals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Niobe boasted of her many children against Leto, so Leto's children Apollo and Artemis killed Niobe's sons and daughters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Mount Sipylus in Lydia has a rock formation said to be Niobe turned to stone and weeping, according to the myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Æsculapius (the Greek Asclepius) was the god of healing, and his sons were also worshipped as healers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Lassoes were a typical steppe-warrior weapon; Pausanias describes the tactic of entangling and dragging down enemies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "The Gryneum was a sanctuary of Apollo at Gryneion in Aeolis, Asia Minor, known for its grove and oracle.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "metaphor",
+    "text": "Likening Sophocles' persuasive verse to a Siren's song makes his art an irresistible enchantment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "motif",
+    "text": "Dionysus appearing in a dream to call a poet to his art repeats the motif of divine inspiration also found in the Sophocles story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "imagery",
+    "text": "The rock's shifting appearance, shapeless close up but a weeping woman from afar, makes the transformation vivid and personal as eyewitness testimony.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "The surprising claim that so-called barbarians rival Greek craftsmanship challenges the usual Greek assumption of superiority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "simile",
+    "text": "Pausanias compares the cut hoofs to a green pine cone's scales to help readers picture the armour, as most have never seen a dragon.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,614 @@
+{
+ "section_id": "pausanias-body-43",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10418,
+  "output": 5066
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Megara, describing hero-shrines, tombs and temples, with their local legends. He recounts the origin of the Æsymnian council chamber, the temples of Dionysus and Aphrodite with works by Praxiteles, Scopas and Lysippus, and the story of Corœbus, who killed Punishment.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Hero-cults of Megara",
+    "summary": "Pausanias notes Megarian claims about Iphigenia's chapel, with other accounts, and honours for Adrastus, Agamemnon's altar and burials in the Prytaneum.",
+    "stakes": "",
+    "present": [
+     "Iphigenia",
+     "Adrastus",
+     "Agamemnon",
+     "Artemis",
+     "Calchas",
+     "Euippus",
+     "Ischepolis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Megara",
+     "modern_name": "Megara",
+     "certainty": "real",
+     "lat": 37.9936,
+     "lon": 23.3469
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 7,
+    "title": "The Calling Rock",
+    "summary": "A rock near the Prytaneum is said to be where Demeter called for her daughter; women still mimic it.",
+    "stakes": "",
+    "present": [
+     "Demeter"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Megara",
+     "modern_name": "Megara",
+     "certainty": "real",
+     "lat": 37.9936,
+     "lon": 23.3469
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 12,
+    "title": "Æsymnus and the council chamber",
+    "summary": "After the king Hyperion was killed, Æsymnus consulted Delphi and the Megarians built a council chamber over the heroes' tomb.",
+    "stakes": "The Megarians seek prosperity after ending kingship.",
+    "present": [
+     "Hyperion",
+     "Sandion",
+     "Æsymnus",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 23,
+    "title": "Tombs and temples of Megara",
+    "summary": "Pausanias describes tombs of Alcathous's family, the temple of Dionysus, and Aphrodite's shrine with statues by famous sculptors.",
+    "stakes": "",
+    "present": [
+     "Pyrgo",
+     "Alcathous",
+     "Iphinoe",
+     "Polyidus",
+     "Astycratea",
+     "Manto",
+     "Dionysus",
+     "Euchenor",
+     "Aphrodite",
+     "Praxiteles",
+     "Scopas",
+     "Lysippus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Megara",
+     "modern_name": "Megara",
+     "certainty": "real",
+     "lat": 37.9936,
+     "lon": 23.3469
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 31,
+    "title": "Corœbus and Punishment",
+    "summary": "Pausanias tells how Corœbus killed the monster Punishment, went to Delphi, founded Tripodisci, and was buried at Megara.",
+    "stakes": "Corœbus risks the god's wrath for killing Punishment.",
+    "present": [
+     "Corœbus",
+     "Psamathe",
+     "Crotopus",
+     "Apollo",
+     "Punishment"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.6333,
+     "lon": 22.7289
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Iphigenia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Agamemnon, said to have died at Megara or become Hecate"
+   },
+   {
+    "name": "Hecate",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess Iphigenia was said to become"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with an altar at Megara"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who raised an altar at Megara"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader honoured at Megara"
+   },
+   {
+    "name": "Ægialeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "whose death grieved Adrastus"
+   },
+   {
+    "name": "Calchas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Megarian seer"
+   },
+   {
+    "name": "Euippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Megareus, buried in the Prytaneum"
+   },
+   {
+    "name": "Megareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Euippus and Euæchma"
+   },
+   {
+    "name": "Ischepolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Alcathous"
+   },
+   {
+    "name": "Alcathous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Megarian hero, father of Iphinoe and Callipolis"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sought her daughter here"
+   },
+   {
+    "name": "Hyperion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "last king of Megara, killed by Sandion"
+   },
+   {
+    "name": "Sandion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killer of Hyperion"
+   },
+   {
+    "name": "Æsymnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Megarian who consulted Delphi"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of Delphi, father of Psamathe's child"
+   },
+   {
+    "name": "Pyrgo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first wife of Alcathous"
+   },
+   {
+    "name": "Euæchma",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "later wife of Alcathous"
+   },
+   {
+    "name": "Iphinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alcathous's daughter, died unmarried"
+   },
+   {
+    "name": "Callipolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Alcathous, murdered"
+   },
+   {
+    "name": "Polyidus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "seer who purged Alcathous"
+   },
+   {
+    "name": "Astycratea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Polyidus"
+   },
+   {
+    "name": "Manto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Polyidus"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Tutelary Dionysus",
+     "Dionysus Dasyllius"
+    ],
+    "kind": "god",
+    "description": "god with a temple at Megara"
+   },
+   {
+    "name": "Euchenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "descendant of Polyidus who set up a statue"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Praxis"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a shrine at Megara"
+   },
+   {
+    "name": "Praxiteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor"
+   },
+   {
+    "name": "Scopas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor"
+   },
+   {
+    "name": "Lysippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor"
+   },
+   {
+    "name": "Corœbus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who killed Punishment"
+   },
+   {
+    "name": "Crotopus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Argos"
+   },
+   {
+    "name": "Psamathe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Crotopus, mother of Apollo's child"
+   },
+   {
+    "name": "Punishment",
+    "aliases": [],
+    "kind": "monster",
+    "description": "child-snatching monster sent by Apollo"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Iphigenia",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Iphigenia",
+    "relation": "transformed_into",
+    "b": "Hecate",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Hyperion",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Alcathous",
+    "relation": "parent_of",
+    "b": "Iphinoe",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Alcathous",
+    "relation": "parent_of",
+    "b": "Callipolis",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Alcathous",
+    "relation": "parent_of",
+    "b": "Ischepolis",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Megareus",
+    "relation": "parent_of",
+    "b": "Euippus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Megareus",
+    "relation": "parent_of",
+    "b": "Euæchma",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Alcathous",
+    "relation": "spouse_of",
+    "b": "Euæchma",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Alcathous",
+    "relation": "spouse_of",
+    "b": "Pyrgo",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Polyidus",
+    "relation": "parent_of",
+    "b": "Manto",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Polyidus",
+    "relation": "parent_of",
+    "b": "Astycratea",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Crotopus",
+    "relation": "parent_of",
+    "b": "Psamathe",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Psamathe",
+    "source": "text",
+    "evidence_sentence": 25
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Praxis",
+    "canonical": "Aphrodite",
+    "explanation": "Title meaning 'Action' for Aphrodite's oldest statue at Megara."
+   },
+   {
+    "alias": "Dionysus Dasyllius",
+    "canonical": "Dionysus",
+    "explanation": "Title 'the Vine-ripener' for a statue of Dionysus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 31,
+    "reason": "Pausanias claims these are the oldest Greek stone statues he has personally seen.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local cults and tombs tie Megara to heroic myth, with Pausanias weighing rival traditions about figures like Iphigenia.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows how Greek cities explained institutions, such as annual magistrates, through oracles and hero-cult, and displayed famous sculptors' works in temples.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias cites Hesiod's Catalogue of Women and Herodotus to compare versions of Iphigenia's fate.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Hesiod's Catalogue of Women was an early Greek poem on heroines and their offspring; here it makes Iphigenia immortal as the goddess Hecate rather than a dead girl.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The Tauric people lived in the Crimea; in legend Iphigenia served as priestess of Artemis among them, a cult linked to sacrifice of shipwrecked strangers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Adrastus led the failed expedition of the Seven against Thebes; his son Ægialeus died in the later attack by the Epigoni, after which Adrastus returned.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Calchas was the seer who served the Greek army at Troy (Ilium); Agamemnon sought him out to enlist him for the expedition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"The majority\" is an oracular pun: in Greek it can mean the dead, who are the majority, rather than a vote of the living.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Hero-chapel\" renders a heroon, a shrine honouring a deceased hero; here it has been converted to an archive building.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Hecaerge and Opis were legendary maidens from the far north who brought offerings to Delos; Delian girls cut their hair for them before marriage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Purged\" means ritually cleansed of the pollution of bloodshed, a purification performed by Polyidus, the seer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "\"Tutelary\" means protecting or guarding; it is a title for the god as guardian of the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "\"Argive intelligence\" means the story is also part of Argive local tradition, so Pausanias will not repeat it at length.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "\"Vexed them sore\" is archaic for afflicted them severely.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "\"Tripodisci\" means little tripods, a name taken from the tripod that fell there.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "The Prytaneum was a city's public hall with the common hearth, where officials dined and honoured figures were commemorated.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Demeter, goddess of grain, wandered searching for her daughter Persephone, who had been carried off to the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "The Medes here stand for the Persians, whom the Greeks fought in the early fifth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Praxiteles was a famous fourth-century BC Athenian sculptor; Parian marble, from the island of Paros, was the most prized statuary stone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Scopas was a celebrated fourth-century BC sculptor from Paros, known for expressive emotion in his figures.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Lysippus of Sicyon was a famous fourth-century BC bronze sculptor, court sculptor to Alexander the Great.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "The Pythian priestess was the oracle of Apollo at Delphi. A tripod was a sacred three-legged bronze vessel associated with Apollo.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "narrative voice",
+    "text": "Pausanias' hedge \"if there is any truth in the tale\" shows his careful, skeptical stance toward local myth while still reporting it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "irony",
+    "text": "The oracle's ambiguous wording leads the Megarians to a literal reading, a typical Delphic irony of misunderstood advice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "personification",
+    "text": "Abstract feelings such as Love, Desire and Yearning are given statues as if they were divine persons, showing how the Greeks worshipped abstractions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "personification",
+    "text": "Punishment is treated as a child-snatching monster, turning divine retribution into a physical creature that Corœbus can kill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "irony",
+    "text": "The tripod falls by chance, yet the fall fulfils the oracle, so the exile's new home is settled by divine will rather than his own.",
+    "spoiler": false
+   }
+  ]
+ }
+}

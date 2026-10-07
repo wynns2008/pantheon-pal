@@ -1,0 +1,539 @@
+{
+ "section_id": "pausanias-body-193",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10276,
+  "output": 4424
+ },
+ "result": {
+  "summary": "Pausanias describes Pelops' remains and the destroyed city of Pisa and its wars with Elis. He then notes the ruins of Pylos in Elis, the Nymphs' healing spring near Heraclea, and the temple of Alphean Artemis at Letrini.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Pelops' coffer and site of Pisa",
+    "summary": "Near Olympia lie traces of a temple of Artemis Cordace, the brazen coffer with Pelops' remains, and vineyards over the ruins of Pisa.",
+    "stakes": "",
+    "present": [
+     "Pelops",
+     "Artemis",
+     "Pisus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pisa",
+     "modern_name": "Near Olympia, Elis",
+     "certainty": "real",
+     "lat": 37.64,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 10,
+    "title": "Pisa's wars with Elis",
+    "summary": "Pisa contests control of the Olympian games with Elis, rebels under Pyrrhus, and is finally razed by the Eleans.",
+    "stakes": "Pisa risks destruction by Elis for its rebellion and its claim to the games.",
+    "present": [
+     "Pisus",
+     "Phido",
+     "Pantaleon",
+     "Damophon",
+     "Pyrrhus",
+     "Dysponteus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pisa",
+     "modern_name": "Near Olympia, Elis",
+     "certainty": "real",
+     "lat": 37.64,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 19,
+    "title": "Ruins of Pylos in Elis",
+    "summary": "Pausanias describes the ruined Pylos, its destruction by Hercules, and accepts the Elean claim that Homer's lines on the Alpheus refer to it.",
+    "stakes": "",
+    "present": [
+     "Pylon",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pylos in Elis",
+     "modern_name": "Near Kalogria, Elis",
+     "certainty": "traditional",
+     "lat": 37.8,
+     "lon": 21.5
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 24,
+    "title": "Spring of the Ionides",
+    "summary": "Near Heraclea a spring with a Nymphs' temple cures pains and aches; the Nymphs are named from Ion.",
+    "stakes": "",
+    "present": [
+     "Calliphæa",
+     "Synallaxis",
+     "Pegæa",
+     "Iasis",
+     "Ion"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Heraclea",
+     "modern_name": "Near Olympia, Elis",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 21.75
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 32,
+    "title": "Letrini and Alphean Artemis",
+    "summary": "At Letrini Pausanias tells how Artemis tricked Alpheus with mud, explains her Elean cult name, and notes a nearby lake.",
+    "stakes": "Artemis must escape Alpheus' attempt to force her.",
+    "present": [
+     "Artemis",
+     "Alpheus",
+     "Letreus",
+     "Elaphius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Letrini",
+     "modern_name": "Near Pyrgos, Elis",
+     "certainty": "real",
+     "lat": 37.7,
+     "lon": 21.4
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero whose remains lie in a brazen coffer"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Cordace",
+     "Alphean Artemis",
+     "Elaphiæan Artemis"
+    ],
+    "kind": "goddess",
+    "description": "goddess worshipped under several surnames"
+   },
+   {
+    "name": "Pisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of Pisa"
+   },
+   {
+    "name": "Perieres",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pisus"
+   },
+   {
+    "name": "Æolus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "grandfather of Pisus"
+   },
+   {
+    "name": "Phido",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive tyrant made patron of the games"
+   },
+   {
+    "name": "Pantaleon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Pisa"
+   },
+   {
+    "name": "Omphalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pantaleon"
+   },
+   {
+    "name": "Damophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Pisa, son of Pantaleon"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Pisa who made war on Elis"
+   },
+   {
+    "name": "Dysponteus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of the Dyspontii"
+   },
+   {
+    "name": "Œnomaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Dysponteus"
+   },
+   {
+    "name": "Pylon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Megarian who built Pylos, son of Cleson"
+   },
+   {
+    "name": "Cleson",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pylon"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who destroyed Pylos"
+   },
+   {
+    "name": "Calliphæa",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "one of the Ionides"
+   },
+   {
+    "name": "Synallaxis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "one of the Ionides"
+   },
+   {
+    "name": "Pegæa",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "one of the Ionides"
+   },
+   {
+    "name": "Iasis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "one of the Ionides"
+   },
+   {
+    "name": "Ionides",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "collective name of the four Nymphs"
+   },
+   {
+    "name": "Ion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Gargettus, migrant from Athens"
+   },
+   {
+    "name": "Gargettus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Ion"
+   },
+   {
+    "name": "Alpheus",
+    "aliases": [],
+    "kind": "god",
+    "description": "river-god in love with Artemis"
+   },
+   {
+    "name": "Letreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of Letrini, son of Pelops"
+   },
+   {
+    "name": "Elaphius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman said to be Artemis' nurse"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Perieres",
+    "relation": "parent_of",
+    "b": "Pisus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Pantaleon",
+    "relation": "parent_of",
+    "b": "Damophon",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Pantaleon",
+    "relation": "parent_of",
+    "b": "Pyrrhus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Omphalion",
+    "relation": "parent_of",
+    "b": "Pantaleon",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Œnomaus",
+    "relation": "parent_of",
+    "b": "Dysponteus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Cleson",
+    "relation": "parent_of",
+    "b": "Pylon",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Gargettus",
+    "relation": "parent_of",
+    "b": "Ion",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Pelops",
+    "relation": "parent_of",
+    "b": "Letreus",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Damophon",
+    "relation": "sibling_of",
+    "b": "Pyrrhus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Alpheus",
+    "relation": "lover_of",
+    "b": "Artemis",
+    "source": "text",
+    "evidence_sentence": 28
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cordace",
+    "canonical": "Artemis",
+    "explanation": "Surname from the cordax dance performed for her."
+   },
+   {
+    "alias": "Alphean",
+    "canonical": "Artemis",
+    "explanation": "Surname from Alpheus' passion for her."
+   },
+   {
+    "alias": "Elaphiæan",
+    "canonical": "Artemis",
+    "explanation": "Elean surname, from deer hunting or from her nurse Elaphius."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows how local cults and ruins are explained by legends and by political history, with Pausanias weighing traditions critically.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The rivalry of Pisa and Elis over presiding at Olympia reflects real disputes over control of the sanctuary and its games.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Elis did not count the Olympiads run by Pisa or the Arcadians in its official register.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–200 metres, so about a furlong.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "The cordax was a lively, often boisterous dance; Pausanias ties it to Pelops' Lydian homeland near Mount Sipylus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Coffer: a chest or box, here of bronze, used as a container for Pelops' bones.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Olympiad: a four-year period between Olympic festivals, used by Greeks to date events.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Tyrant: a ruler who held power outside normal hereditary or constitutional rule, not necessarily cruel.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "Kept no register: the Eleans did not record these festivals or their winners, treating them as illegitimate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Razed: levelled completely, destroyed down to the ground.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Hercules' sack of Pylos belongs to his legendary campaigns in the Peloponnese, which Pausanias treats as history.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Quoted from Homer's Iliad, describing a warrior's descent from the river Alpheus; the Pylos named there was disputed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "The Pylos near Sphacteria is the Messenian Pylos, famous as Nestor's city and a battle site in 425 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–200 metres, so 50 stades is about six miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Ionides is the collective name; the individual names describe healing: Calliphæa (fair-flowing), Iasis (from a Greek word for healing).",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "\"Nightly revel\" translates a pannychis, an all-night festival of song and dance held in honour of a deity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "phrasing",
+    "text": "Elaphiæan suggests Greek elaphos, \"deer\"; Pausanias's story derives it from the older name Alphea, which was altered over time.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Pelops was the hero who gave the Peloponnese its name; his bones were venerated at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Pisa was the old city of the district around Olympia, whose territory was called Pisæa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Elis traditionally presided over the Olympian games, so Pisa's claim was a rival bid for prestige and control.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "The Ladon and Peneus are rivers of Elis; the Ladon is also known in Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Ion, legendary ancestor of the Ionians, was associated with Athens; Gargettus was an Attic place-name, here used as his father's name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Letreus was a son of Pelops, the hero for whom the Peloponnese is named.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Alpheus is the river of Elis and Olympia, here told as a man or river-god who pursued Artemis, a virgin huntress goddess.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "imagery",
+    "text": "Vines growing over the vanished town give a stark picture of how completely Pisa has disappeared.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "Pylos is repopulated only to be emptied again, the word 'destined' stressing a fate of repeated desolation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "narrative voice",
+    "text": "Pausanias speaks in the first person, weighing evidence like a traveller-scholar and explaining why he accepts the Elean claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "irony",
+    "text": "The god's forceful plan is defeated by a simple trick: muddy faces make the goddess indistinguishable, showing her cleverness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "narrative voice",
+    "text": "Pausanias offers his own rational opinion against local tradition, showing his habit of weighing rival explanations.",
+    "spoiler": false
+   }
+  ]
+ }
+}

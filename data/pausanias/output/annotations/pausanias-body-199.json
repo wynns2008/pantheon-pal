@@ -1,0 +1,519 @@
+{
+ "section_id": "pausanias-body-199",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10527,
+  "output": 4361
+ },
+ "result": {
+  "summary": "Medon and Nileus, sons of Codrus, dispute the Athenian throne and Delphi gives it to Medon. Nileus leads the Ionian colony to Asia Minor and settles Miletus, and Pausanias tells of the early histories of Miletus, Ephesus, Priene and Myus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Medon and Nileus quarrel",
+    "summary": "The sons of Codrus dispute the kingship; the Pythian Priestess gives it to Medon, and Nileus leaves with a colony.",
+    "stakes": "Nileus risks losing the Athenian kingship to his lame brother.",
+    "present": [
+     "Medon",
+     "Nileus",
+     "Codrus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 9,
+    "title": "Earlier colonies and the Ionian host",
+    "summary": "Pausanias lists earlier expeditions under Iolaus and Theras and the peoples who joined the Ionian expedition.",
+    "stakes": "",
+    "present": [
+     "Iolaus",
+     "Theras",
+     "Philotas",
+     "Philogenes",
+     "Damon",
+     "Nileus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 16,
+    "title": "Nileus at Miletus",
+    "summary": "Nileus reaches Miletus, whose early history the Milesians relate; the Ionians kill the men and marry the women.",
+    "stakes": "The old inhabitants of Miletus are slaughtered or driven out.",
+    "present": [
+     "Nileus",
+     "Anax",
+     "Asterius",
+     "Miletus",
+     "Minos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Miletus",
+     "modern_name": "Miletus, Turkey",
+     "certainty": "real",
+     "lat": 37.53,
+     "lon": 27.28
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 26,
+    "title": "Ephesus and Androclus",
+    "summary": "Pausanias corrects Pindar on the founding of Artemis' temple at Ephesus, and tells how Androclus took the city and died fighting for Priene.",
+    "stakes": "Androclus risks his life in battle and dies.",
+    "present": [
+     "Androclus",
+     "Coresus",
+     "Ephesus",
+     "Pindar"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ephesus",
+     "modern_name": "Ephesus, Turkey",
+     "certainty": "real",
+     "lat": 37.9395,
+     "lon": 27.3417
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 34,
+    "title": "Myus and Priene",
+    "summary": "The Ionians settle Myus and Priene, but mosquitoes from a marsh drive the people of Myus to Miletus.",
+    "stakes": "The people of Myus lose their town to mosquitoes.",
+    "present": [
+     "Cyaretus",
+     "Philotas",
+     "Æpytus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Myus",
+     "modern_name": "Myus, Turkey",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 27.4
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Medon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "lame eldest son of Codrus, awarded the Athenian kingship"
+   },
+   {
+    "name": "Nileus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Codrus who led the Ionian colony to Miletus"
+   },
+   {
+    "name": "Codrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "former Athenian king, father of Medon and Nileus"
+   },
+   {
+    "name": "Iolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban nephew of Hercules who led colonists to Sardinia"
+   },
+   {
+    "name": "Theras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban son of Autesion who led colonists to Calliste"
+   },
+   {
+    "name": "Philotas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "descendant of Peneleus, led Thebans"
+   },
+   {
+    "name": "Philogenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who led Phocians to the colony"
+   },
+   {
+    "name": "Damon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who led Phocians to the colony"
+   },
+   {
+    "name": "Euctemon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Philogenes and Damon"
+   },
+   {
+    "name": "Anax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Autochthon king of early Miletus"
+   },
+   {
+    "name": "Asterius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Anax"
+   },
+   {
+    "name": "Miletus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan leader who gave the city his name"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Europa, from whom Miletus fled"
+   },
+   {
+    "name": "Europa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Minos"
+   },
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet criticised by Pausanias"
+   },
+   {
+    "name": "Coresus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Autochthon who built the Ephesian temple"
+   },
+   {
+    "name": "Ephesus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "co-founder, thought son of Cayster"
+   },
+   {
+    "name": "Cayster",
+    "aliases": [],
+    "kind": "other",
+    "description": "river, father of Ephesus"
+   },
+   {
+    "name": "Androclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Codrus, king of the Ionians at Ephesus"
+   },
+   {
+    "name": "Cyaretus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Codrus who colonized Myus"
+   },
+   {
+    "name": "Æpytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Nileus, co-founder of Priene"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Ephesian goddess with an ancient temple"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple and oracle at Didymi"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple at Myus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Codrus",
+    "relation": "parent_of",
+    "b": "Medon",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Codrus",
+    "relation": "parent_of",
+    "b": "Nileus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Codrus",
+    "relation": "parent_of",
+    "b": "Androclus",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Codrus",
+    "relation": "parent_of",
+    "b": "Cyaretus",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Nileus",
+    "relation": "parent_of",
+    "b": "Æpytus",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Anax",
+    "relation": "parent_of",
+    "b": "Asterius",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Europa",
+    "relation": "parent_of",
+    "b": "Minos",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Cayster",
+    "relation": "parent_of",
+    "b": "Ephesus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Autesion",
+    "relation": "parent_of",
+    "b": "Theras",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Euctemon",
+    "relation": "parent_of",
+    "b": "Philogenes",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Euctemon",
+    "relation": "parent_of",
+    "b": "Damon",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pythian Priestess",
+    "canonical": "Pythia",
+    "explanation": "The priestess of Apollo at Delphi who delivered oracles."
+   },
+   {
+    "alias": "Anactoria",
+    "canonical": "Miletus",
+    "explanation": "Earlier name of the Milesian country before Miletus arrived."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage traces how Greek cities of Ionia were founded through migration, conquest and mixing with older peoples.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It reflects the tradition of the Ionian migration from Athens after the Dorian invasions, and Pausanias' habit of correcting earlier authors such as Pindar.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The silting of the Maeander that ruined Myus also gradually cut Miletus off from the sea in later centuries.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "The Pythian Priestess was the Pythia, Apollo's mouthpiece at Delphi, whose oracular rulings were widely treated as binding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Contingent\" means the body of people sent out together as one company in the colonising expedition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Pelasgi were an ancient pre-Greek people of the Aegean; Greek writers often blamed them for early expulsions and migrations.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Autochthon\" means sprung from the soil itself, a native of the land, not an immigrant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Minos, king of Crete, was son of Europa and Zeus (here the translation avoids naming him); his harsh power drove Miletus out.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Didymi was the site near Miletus of the famous temple and oracle of Apollo, reached by a road from the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "Autochthon means 'sprung from the soil': a native inhabitant, not an immigrant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "'For the purpose of supplication' means they lived there as suppliants seeking the goddess's protection and sanctuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "'No apprehensions were entertained' means the Ionians feared nothing from the temple dwellers, so they exchanged pledges (assurances of peace) with them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "The Olympiæum is a sanctuary of Olympian Zeus (Jove) at Ephesus, used here as a landmark on the route.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "word",
+    "text": "Atarnitæ are the people of Atarneus, a town in Asia Minor opposite Lesbos, here placed near Pergamum.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Codrus was the last legendary king of Athens, said to have died to save the city, leaving his sons to contest the succession.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Iolaus was Hercules' nephew and companion in his labours; tradition made him a leader of colonists to Sardinia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Taking the conquered men's wives was a traditional foundation story for Ionian Miletus, explaining the mixed Carian and Greek origin of its people.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Didymi was the famous oracle of Apollo near Miletus. Pausanias says it predates the Ionian migration from Greece to Asia Minor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Pindar was a Greek lyric poet of the 5th century BC. Pausanias is correcting his account of the temple's founding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Thermodon was the river in the Amazons' homeland. Their flight from Hercules and Dionysus refers to older myths.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Codrus was the legendary last king of Athens, whose sons led the Ionian colonization of Asia Minor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "The Mæander was a winding river in Asia Minor whose silt famously altered the coast, turning harbours into land.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "characterization",
+    "text": "Nileus's objection to Medon's lameness shows his pride and prejudice, briefly sketching the rivalry between the brothers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "irony",
+    "text": "The Ionians are led by men who are not Ionian by race, an unexpected twist in a migration named for them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "symbolism",
+    "text": "The armed man on the tomb signals Androclus's identity as a warrior king who died in battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "pathos",
+    "text": "'The poor people of Myus' invites sympathy, and tiny mosquitoes defeating a whole city make the disaster feel ironic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "irony",
+    "text": "Only a temple of Dionysus remains in the abandoned town, a lone relic of a once-thriving city.",
+    "spoiler": false
+   }
+  ]
+ }
+}

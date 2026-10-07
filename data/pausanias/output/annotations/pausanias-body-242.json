@@ -1,0 +1,382 @@
+{
+ "section_id": "pausanias-body-242",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8893,
+  "output": 3304
+ },
+ "result": {
+  "summary": "Pausanias discusses what poets said about the Styx, then describes the deadly water near Nonacris and its effects on materials. He ends with the cure of the daughters of Proetus at Lusi by Melampus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "Poets on the Styx",
+    "summary": "Pausanias reviews Hesiod, Linus, Epimenides and Homer on the Styx's parentage and nature, as a dripping spring and a river of Hades.",
+    "stakes": "",
+    "present": [
+     "Styx",
+     "Oceanus",
+     "Pallas",
+     "Piras",
+     "Echidna",
+     "Hera",
+     "Athene",
+     "Zeus",
+     "Hercules",
+     "Eurystheus",
+     "Cerberus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Styx",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 21,
+    "title": "The deadly water of Nonacris",
+    "summary": "Pausanias describes the Styx water near Nonacris, which breaks or melts most materials except a horse's hoof, and mentions the tale of Alexander's death.",
+    "stakes": "The water kills men and beasts and destroys vessels.",
+    "present": [
+     "Alexander",
+     "Sappho"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Nonacris",
+     "modern_name": "Mavroneri waterfall, Mount Chelmos",
+     "certainty": "real",
+     "lat": 37.98,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 25,
+    "title": "Melampus cures Proetus' daughters",
+    "summary": "The mad daughters of Proetus flee to a cave in Aroania and are cured by Melampus at Lusi, in Artemis' temple.",
+    "stakes": "The daughters of Proetus suffer madness.",
+    "present": [
+     "Melampus",
+     "Artemis",
+     "Agesilaus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lusi",
+     "modern_name": "Lousoi, Arcadia",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 22.12
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Styx",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of Oceanus; the water that drips near Nonacris"
+   },
+   {
+    "name": "Oceanus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Styx"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "god",
+    "description": "husband of Styx in Hesiod"
+   },
+   {
+    "name": "Piras",
+    "aliases": [],
+    "kind": "other",
+    "description": "husband of Styx in Epimenides"
+   },
+   {
+    "name": "Echidna",
+    "aliases": [],
+    "kind": "monster",
+    "description": "child of Styx and Piras"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "swears an oath by the Styx"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "says she saved Hercules"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "forgets Athene's help"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero sent to fetch Cerberus"
+   },
+   {
+    "name": "Eurystheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "imposed the Labours"
+   },
+   {
+    "name": "Cerberus",
+    "aliases": [],
+    "kind": "monster",
+    "description": "hound of Hades"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Philip, said to have died of Styx water"
+   },
+   {
+    "name": "Sappho",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lesbian poetess"
+   },
+   {
+    "name": "Melampus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "healer of the daughters of Proetus"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Hemerasia"
+    ],
+    "kind": "goddess",
+    "description": "goddess whose temple at Lusi was the site of the cure"
+   },
+   {
+    "name": "Agesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "native of Lusi, victor in horse race"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Oceanus",
+    "relation": "parent_of",
+    "b": "Styx",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Pallas",
+    "relation": "spouse_of",
+    "b": "Styx",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Piras",
+    "relation": "spouse_of",
+    "b": "Styx",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Styx",
+    "relation": "parent_of",
+    "b": "Echidna",
+    "source": "text",
+    "evidence_sentence": 3
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Hemerasia",
+    "canonical": "Artemis",
+    "explanation": "Cult title of Artemis at Clitor, meaning roughly 'the soother', from the healing of the maidens."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 18,
+    "reason": "Pausanias' reflection that the least valued things master the most valued.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends myth, poetry and physical observation, weighing poets' accounts against the real Arcadian spring.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Styx's reputation as poison, linked to Alexander's death, shows how legends attached to real landscape features.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Styx as the river of the underworld shaped later literature, including Virgil and Dante."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The real Styx is traditionally identified with a waterfall on Mount Chelmos in Arcadia.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Pausanias hedges because the Theogony's authorship was disputed in antiquity; Hesiod's authorship is doubted by some, hence the parenthesis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Epimenides was a semi-legendary Cretan seer and poet. Echidna is the half-woman, half-serpent monster, here given Styx as mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Trickles down\" renders Homer's phrase for the Styx's dripping water, which Pausanias takes to describe the real spring in Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Guneus leads troops in the Iliad's Catalogue of Ships; the Titaresius is a Thessalian river said to join the Styx's water.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Athene refers to Hercules' twelfth Labour, fetching Cerberus from Hades; Eurystheus was the king who imposed the Labours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Nonacris in Arcadia was the traditional site of the Styx, the waterfall whose name Greeks also gave to the river of the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Porcelain\" is the translator's term; the Greek likely meant some fine ceramic ware, so the word may not be exact.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Sappho, the poet of Lesbos, is cited as authority that gold can be cleaned of rust; the verse is not given here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Adamant\" is a legendary unbreakable stone, often identified with diamond; the claim about goat's blood was a common ancient belief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Ancient rumor held that Alexander the Great was poisoned with Styx water, carried in a horse's hoof, which resisted it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "The Amphictyones governed the Delphic games; the Pythiad was the four-year cycle of the Pythian Games, here the eleventh, giving a date for Agesilaus' victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "Hemerasia comes from a Greek root meaning \"soothing\" or \"tamer,\" fitting the cure of the madness.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Styx was an Oceanid, daughter of Oceanus; Pallas is a Titan. Oaths sworn by her water bound even the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Linus was a legendary early poet and musician; works attributed to him circulated in antiquity, and Pausanias doubts their authenticity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Hera swears this oath in the Iliad (book 15), calling on Earth, Heaven and the Styx, the gods' most solemn oath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Melampus was a legendary seer and healer. The daughters of Proetus, king of Argos, were said to have been driven mad, and he cured them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Artemis was the goddess of wild places and maidens; here she appears as a healer through her temple at Lusi.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a critical, well-read traveller, asserting personal judgment after reading the verses himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "irony",
+    "text": "Athene's lament shows divine foresight failing; Zeus now forgets the help she once gave his son Hercules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "irony",
+    "text": "The humble things overpowering the precious is a paradox, which the author attributes to divine design.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "narrative voice",
+    "text": "Pausanias reports a tradition but disclaims belief, showing his careful, skeptical habit as a traveling historian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "motif",
+    "text": "The vanished town of Lusi recalls a recurring theme in Pausanias: former glory now lost, with no ruins left.",
+    "spoiler": false
+   }
+  ]
+ }
+}

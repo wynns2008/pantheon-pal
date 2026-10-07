@@ -1,0 +1,400 @@
+{
+ "section_id": "pausanias-body-33",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8276,
+  "output": 3418
+ },
+ "result": {
+  "summary": "Pausanias describes Brauron, with its old statue of Artemis, and Rhamnus, with Phidias' statue of Nemesis made from marble the Persians brought to Marathon. He digresses on Oceanus, the Ethiopians and Mount Atlas, then describes the statue's base, which shows Helen brought to Nemesis and a group of Greek heroes.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Brauron and Iphigenia's statue",
+    "summary": "Pausanias reports that Iphigenia landed at Brauron with the statue of Artemis from the Tauri and left it there. He says he will treat the Tauric statue elsewhere.",
+    "stakes": "",
+    "present": [
+     "Iphigenia",
+     "Artemis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Brauron",
+     "modern_name": "Vravrona",
+     "certainty": "real",
+     "lat": 37.9242,
+     "lon": 23.9977
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 7,
+    "title": "Temple of Nemesis at Rhamnus",
+    "summary": "Pausanias describes the temple and Phidias' statue made from Persian marble, with its crown, apple branch and bowl. He doubts the explanation of the Ethiopians carved on the bowl.",
+    "stakes": "The Persians were punished for arrogance and lost their marble trophy.",
+    "present": [
+     "Nemesis",
+     "Phidias",
+     "Oceanus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Rhamnus",
+     "modern_name": "Rhamnous",
+     "certainty": "real",
+     "lat": 38.2386,
+     "lon": 24.0764
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 21,
+    "title": "Digression on Ethiopians and Atlas",
+    "summary": "Pausanias explains that Oceanus is a sea and describes the Ethiopians and Nasamones, who have no river, and Mount Atlas and its waters.",
+    "stakes": "",
+    "present": [
+     "Oceanus",
+     "Herodotus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ethiopia and Libya",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 29,
+    "title": "The base of the statue",
+    "summary": "Pausanias notes that Nemesis is wingless in old statues and explains the myth of Helen's parentage. He lists the figures on the base.",
+    "stakes": "",
+    "present": [
+     "Nemesis",
+     "Helen",
+     "Leda",
+     "Tyndareus",
+     "Hippeus",
+     "Agamemnon",
+     "Menelaus",
+     "Pyrrhus",
+     "Hermione",
+     "Orestes",
+     "Epochus",
+     "Oenoe",
+     "Phidias",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Rhamnus",
+     "modern_name": "Rhamnous",
+     "certainty": "real",
+     "lat": 38.2386,
+     "lon": 24.0764
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Iphigenia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Agamemnon who fled from the Tauri"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Iphigenia, shown on the base"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose ancient statue is at Brauron"
+   },
+   {
+    "name": "Nemesis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess implacable to haughty men"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the statue of Nemesis"
+   },
+   {
+    "name": "Oceanus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Nemesis"
+   },
+   {
+    "name": "Herodotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "historian who calls the Nasamones Atlantes"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to be Nemesis' daughter, raised by Leda"
+   },
+   {
+    "name": "Leda",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "suckled and raised Helen"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "thought by the Greeks to be Helen's father"
+   },
+   {
+    "name": "Tyndareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Leda's husband, shown with his sons"
+   },
+   {
+    "name": "Hippeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man shown with a horse"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "figure on the base"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Achilles, first husband of Hermione"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pyrrhus"
+   },
+   {
+    "name": "Hermione",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Helen, wife of Pyrrhus then Orestes"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killer of his mother, husband of Hermione"
+   },
+   {
+    "name": "Epochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Oenoe, on the base"
+   },
+   {
+    "name": "Oenoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "gave her name to a township"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Iphigenia",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Oceanus",
+    "relation": "parent_of",
+    "b": "Nemesis",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Nemesis",
+    "relation": "parent_of",
+    "b": "Helen",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Pyrrhus",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Helen",
+    "relation": "parent_of",
+    "b": "Hermione",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Pyrrhus",
+    "relation": "spouse_of",
+    "b": "Hermione",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Orestes",
+    "relation": "spouse_of",
+    "b": "Hermione",
+    "source": "text",
+    "evidence_sentence": 27
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Atlantes",
+    "canonical": "Nasamones",
+    "explanation": "Herodotus' name for the Nasamones; geographers call them Lixitae."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Defines Nemesis as most implacable to haughty men.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The Persian marble turned into Nemesis' statue illustrates divine retribution for arrogance.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias' geographical digression shows how ancient writers tried to reconcile Homeric myth with known geography and Herodotus.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Phidias' Nemesis at Rhamnus was a famous work, and the story of its Persian marble became a standard tale of hubris punished."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The temple of Nemesis at Rhamnous survives in ruins and fragments of the statue have been found there.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Iphigenia was to be sacrificed at Aulis, then taken by Artemis to the Tauri, where she served as priestess. She later fled with Orestes, carrying the goddess's image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180-200 metres; sixty stades is about eleven kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Refers to the Persian invasion defeated at Marathon in 490 BC. The Persians reportedly carried marble to set up a victory monument.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The Table of the Sun was a legendary meadow of Ethiopian meats, mentioned by Herodotus, which was said to replenish itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Atlantes and Lixitæ are alternative names for the same Libyan people; the names are Pausanias's report, and Herodotus is his source for the first.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "A cubit is the length from elbow to fingertip, about 45 cm, so these crocodiles are roughly a metre long.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "In one tradition Zeus, as a swan, fathered Helen on Nemesis; Leda reared the egg's child. Tyndareus was Leda's husband and Helen's reputed father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "Pausanias means the tradition omitted Orestes' matricide as a reason to exclude him; Hermione still became his wife, bearing Tisamenus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Nemesis personifies retribution against arrogance (hubris). Her sanctuary at Rhamnus was a major cult site in Attica.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Phidias was the most celebrated Athenian sculptor, who also made the Athena Parthenos and the Zeus at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Nemesis was closely linked with Love in later art, so winged images appeared; the Smyrna statues were the famous exception.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Pyrrhus is Neoptolemus, son of Achilles, whose marriage to Hermione appears in Greek tragedy and myth.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "epithet",
+    "text": "Calling Nemesis the most implacable toward haughty men defines her character and sets up the moral of the Persian story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "irony",
+    "text": "The Persians' arrogance in preparing a victory monument before winning is turned against them, showing the very retribution Nemesis embodies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "narrative voice",
+    "text": "The curt dismissal shows Pausanias as a judicious guide, closing a long digression and returning to his description.",
+    "spoiler": false
+   }
+  ]
+ }
+}

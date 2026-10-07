@@ -1,0 +1,315 @@
+{
+ "section_id": "pausanias-body-88",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8081,
+  "output": 2836
+ },
+ "result": {
+  "summary": "Pausanias traces the Spartan Eurypontid and Agiad succession from Cleombrotus, killed at Leuctra, down to Cleomenes son of Leonidas. Along the way he recounts Cleonymus's grudge, the Spartan response to Antigonus's siege of Athens, and the deposition and recall of Leonidas.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Succession from Cleombrotus to Areus",
+    "summary": "Cleombrotus falls at Leuctra and the kingship passes through his sons to Areus. Cleonymus, passed over, becomes an enemy and invites Pyrrhus.",
+    "stakes": "Cleonymus loses the throne; Sparta is endangered by his resentment.",
+    "present": [
+     "Cleombrotus",
+     "Agesipolis",
+     "Cleomenes",
+     "Acrotatus",
+     "Cleonymus",
+     "Areus",
+     "Pyrrhus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Leuctra",
+     "modern_name": "Leuktra, Boeotia",
+     "certainty": "real",
+     "lat": 38.2,
+     "lon": 23.2
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 14,
+    "title": "Antigonus besieges Athens",
+    "summary": "Antigonus attacks Athens; Patroclus asks the Spartans to engage him, but Areus leads his army home for lack of supplies. Athens finally makes peace, accepting a garrison at the Museum.",
+    "stakes": "Athens risks conquest; Sparta risks wasting its resources.",
+    "present": [
+     "Antigonus",
+     "Patroclus",
+     "Areus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 23.72
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 23,
+    "title": "Leonidas, Cleombrotus and Cleomenes",
+    "summary": "After young Areus dies, Leonidas is made king, deposed through Lysander and Cleombrotus, then exiled to Arcadia and recalled. Pausanias refers to his son Cleomenes, treated elsewhere.",
+    "stakes": "Leonidas risks losing his throne and exile.",
+    "present": [
+     "Areus",
+     "Leonidas",
+     "Lysander",
+     "Cleombrotus",
+     "Cleonymus",
+     "Cleomenes",
+     "Demaratus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cleombrotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king killed at Leuctra; also a later king, son-in-law of Leonidas"
+   },
+   {
+    "name": "Agesipolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king who died childless; also elder son of Cleombrotus"
+   },
+   {
+    "name": "Cleomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king; also Cleomenes son of Leonidas, last Spartan king"
+   },
+   {
+    "name": "Acrotatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan prince, father of Areus"
+   },
+   {
+    "name": "Cleonymus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan claimant who invited Pyrrhus against Sparta"
+   },
+   {
+    "name": "Areus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king who led the army toward Athens"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King invited by Cleonymus, grandson of Aeacus"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Demetrius who besieged Athens"
+   },
+   {
+    "name": "Patroclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Egyptian fleet commander aiding Athens"
+   },
+   {
+    "name": "Leonidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elderly Spartan king, deposed and restored"
+   },
+   {
+    "name": "Lysander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan who disliked Leonidas and had him deposed"
+   },
+   {
+    "name": "Demaratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Earlier Spartan king who joined a foreign king"
+   },
+   {
+    "name": "Hippocrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian general killed at Delium"
+   },
+   {
+    "name": "Leosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian general in Thessaly"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cleombrotus",
+    "relation": "parent_of",
+    "b": "Agesipolis",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Cleombrotus",
+    "relation": "parent_of",
+    "b": "Cleomenes",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Acrotatus",
+    "relation": "parent_of",
+    "b": "Areus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Cleomenes",
+    "relation": "parent_of",
+    "b": "Cleonymus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Leonidas",
+    "relation": "parent_of",
+    "b": "Cleomenes",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Hippocrates",
+    "relation": "parent_of",
+    "b": "Leosthenes",
+    "source": "outside",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Pausanias' remark that the Deity removes the general first in great reverses.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows the decline of Sparta through dynastic quarrels, failed leadership and reluctance to spend resources.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It covers Sparta from Leuctra (371 BC) to the Hellenistic era, when Macedonian and Egyptian powers dominated Greek politics.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Hippocrates fell at Delium (424 BC) fighting Boeotians; Leosthenes died in 323 BC besieging Lamia in Thessaly, in the Lamian War against Macedon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "The Senate here is the Gerousia, Sparta's council of elders, which could judge disputed succession.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Ephors were five annually elected Spartan magistrates who held great power, even over the kings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Pyrrhus, king of Epirus, claimed descent from Æacus; he invaded the Peloponnese and attacked Sparta around 272 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "The Museum was a fortified hill in Athens near the Acropolis, useful for holding the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Eurysthenes founded Sparta's Agiad royal house, one of its two royal families.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Demaratus, an earlier Spartan king, was deposed and fled to the Persian king, not Macedonia or Egypt; the comparison is to going into exile abroad.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Leuctra (371 BC) was the Theban victory under Epaminondas that ended Spartan dominance in Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Antigonus Gonatas, king of Macedonia, besieged Athens in the Chremonidean War, about 266-262 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Cleomenes III, last Spartan king of the line, reformed Sparta and fought Aratus and the Achaean League.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "Moral commentary",
+    "text": "Pausanias interrupts the narrative with a generalization about divine will, backed by Athenian examples, giving the history a providential flavor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Characterization",
+    "text": "Areus' practical reasoning shows him as cautious and self-interested, undercutting the Spartans' earlier noble motives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "Counterfactual",
+    "text": "Pausanias imagines Leonidas choosing exile in anger, which highlights his restraint and prudence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,474 @@
+{
+ "section_id": "pausanias-body-145",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10189,
+  "output": 4142
+ },
+ "result": {
+  "summary": "Pausanias opens his Elean book by surveying the peoples of the Peloponnese, then traces the early kings of Elis from Aethlius and Endymion through Epeus, Pelops, Aetolus and Eleus. It ends with Augeas and his quarrel with Hercules over the cleaning of his dung-filled land.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Peoples of the Peloponnese",
+    "summary": "Pausanias describes the divisions of the Peloponnese and which peoples are native or immigrant, including the origin of the Eleans.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "the Peloponnese",
+     "modern_name": "Peloponnese, Greece",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 15,
+    "title": "Endymion and his sons",
+    "summary": "Aethlius and Endymion are the first kings of Elis; Endymion's sons race for the kingdom and Epeus wins, while Paeon leaves.",
+    "stakes": "Rule of the kingdom is decided by the footrace.",
+    "present": [
+     "Aethlius",
+     "Endymion",
+     "Epeus",
+     "Paeon",
+     "Aetolus",
+     "Anaxiroe"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 21,
+    "title": "Pelops and Aetolus",
+    "summary": "Pelops deposes Oenomaus and takes Pisaea and Olympia, and Aetolus flees after accidentally killing Apis.",
+    "stakes": "Aetolus faces punishment for the killing and must go into exile.",
+    "present": [
+     "Oenomaus",
+     "Pelops",
+     "Aetolus",
+     "Apis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pisaea",
+     "modern_name": "Pisa near Olympia, Elis",
+     "certainty": "real",
+     "lat": 37.65,
+     "lon": 21.6
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 33,
+    "title": "Augeas and Hercules",
+    "summary": "Eleus and Augeas rule Elis; Hercules clears Augeas' dung with a river but is cheated of his reward, and Augeas makes allies.",
+    "stakes": "Augeas risks war with Hercules for refusing payment.",
+    "present": [
+     "Eleus",
+     "Augeas",
+     "Hercules",
+     "Phyleus",
+     "Amarynceus",
+     "Actor"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Elis, Greece",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aethlius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first king of Elis, son of Zeus"
+   },
+   {
+    "name": "Endymion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Elis, loved by the Moon"
+   },
+   {
+    "name": "Epeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Endymion who won the kingdom"
+   },
+   {
+    "name": "Paeon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Endymion who left, giving name to Paeonia"
+   },
+   {
+    "name": "Aetolus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Endymion, exiled for killing Apis"
+   },
+   {
+    "name": "Anaxiroe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Epeus"
+   },
+   {
+    "name": "Oenomaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Pisaea deposed by Pelops"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lydian who seized Pisaea and Olympia"
+   },
+   {
+    "name": "Apis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian killed by Aetolus' chariot"
+   },
+   {
+    "name": "Eleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Epeans, who became Eleans"
+   },
+   {
+    "name": "Augeas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Elis with vast herds"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero who cleaned Augeas' land"
+   },
+   {
+    "name": "Phyleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "eldest son of Augeas, banished for his protest"
+   },
+   {
+    "name": "Amarynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thessalian-descended military ally of Augeas"
+   },
+   {
+    "name": "Actor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean sharing rule, founder of Hyrmina"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Aethlius"
+   },
+   {
+    "name": "Protogenea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Aethlius"
+   },
+   {
+    "name": "Hyrmina",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Epeus, mother of Actor"
+   },
+   {
+    "name": "Eurycyde",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Endymion, mother of Eleus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "said to be father of Eleus"
+   },
+   {
+    "name": "Helius",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sun-god, claimed father of Augeas"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Aethlius",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Aethlius",
+    "relation": "parent_of",
+    "b": "Endymion",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Endymion",
+    "relation": "parent_of",
+    "b": "Epeus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Endymion",
+    "relation": "parent_of",
+    "b": "Paeon",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Endymion",
+    "relation": "parent_of",
+    "b": "Aetolus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Endymion",
+    "relation": "parent_of",
+    "b": "Eurycyde",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Epeus",
+    "relation": "spouse_of",
+    "b": "Anaxiroe",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Epeus",
+    "relation": "parent_of",
+    "b": "Hyrmina",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Eurycyde",
+    "relation": "parent_of",
+    "b": "Eleus",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Eleus",
+    "relation": "parent_of",
+    "b": "Augeas",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Augeas",
+    "relation": "parent_of",
+    "b": "Phyleus",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Hyrmina",
+    "relation": "parent_of",
+    "b": "Actor",
+    "source": "text",
+    "evidence_sentence": 33
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Helius",
+    "canonical": "Augeas",
+    "explanation": "Some who wish to exalt Augeas call the Sun-god Helius his father instead of Eleus."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "Pausanias mixes migration history with genealogy, using eponymous heroes to explain names like Epeans, Eleans, Aetolia and Paeonia.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "The passage shows how Greek local traditions linked a region's identity to founding kings and to the great myths of Pelops and Hercules.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The cleaning of the Augean stables, one of Hercules' labours, gave English the phrase 'Augean stables' for a hopelessly filthy place or huge corrupt task."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias dates the Roman refounding of Corinth to about 217 years before his writing, placing this book in the later 2nd century AD.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Ægialus means \"coastland\"; it was the old name of the northern Peloponnesian shore later called Achaia. \"Evacuate\" here means to leave entirely.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "\"The Roman Emperor\" refers to the refounding of Corinth as a Roman colony, after its destruction in 146 BC, by Julius Caesar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "The Dryopes were an ancient people, said to have migrated south from the region of Mount Parnassus into the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The Moon (Selene) loved the sleeping shepherd Endymion in myth; the fifty daughters probably stand for the fifty months of an Olympiad cycle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"Contend in running\" means a footrace for the throne; the Epeans take their name from the winner Epeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "The Heracleotæ are people of Heraclea under Latmus, near Miletus, who claimed Endymion's shrine on Mount Latmus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "The parenthesis gives two fathers for Œnomaus: Alxion, or the god Ares as poets say. Pausanias notes the more common tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Indicted\" means formally charged; \"involuntary murder\" is what we would call accidental killing, manslaughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "\"If we may believe the tradition\" signals Pausanias' doubt about the claim that Poseidon fathered Eleus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "Changing the father's name to Helius is flattery: a divine parentage was claimed to make Augeas seem greater.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "This is the famous labour of Hercules, cleaning the Augean stables, here told as clearing the whole country of dung.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Pausanias opens by discussing rival schemes for dividing the Peloponnese, setting up his account of Elis and its peoples.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Zeus is named here in the text, though the translator elsewhere often uses Jove. Deucalion was the survivor of the great flood in Greek myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Pæonia lay in the north, in Macedonian lands beyond the Axius, a river flowing into the Thermaic Gulf.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Pisæa is the district around Olympia. Pelops won Œnomaus' kingdom and his daughter Hippodamia after defeating him in a chariot race.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Myrtilus was Œnomaus' charioteer, whom Pelops threw into the sea after he helped him win. Hermes was his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Aetolia, in central Greece, took its name from Ætolus, a common Greek pattern of naming regions after exiled heroes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Thessaly is a region of northern Greece, so Amarynceus' family were immigrants to Elis.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "narrative voice",
+    "text": "Pausanias weighs variant genealogies, calling one \"more probable\", which shows his cautious, scholarly voice as a collector of rival traditions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "etiology",
+    "text": "The tale explains a place-name through a legendary figure: Pæon's angry exile accounts for Pæonia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "hyperbole",
+    "text": "The herds are so numerous that dung makes land unfarmable, a comic exaggeration that sets up the labour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "irony",
+    "text": "Augeas dismisses the feat for being cleverness rather than toil, yet he himself set the task and profits from it, and he punishes his own just son.",
+    "spoiler": false
+   }
+  ]
+ }
+}

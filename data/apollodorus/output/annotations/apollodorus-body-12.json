@@ -1,0 +1,360 @@
+{
+ "section_id": "apollodorus-body-12",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6515,
+  "output": 2959
+ },
+ "result": {
+  "summary": "Bellerophon, exiled for a killing, is purified by Proetus but falsely accused by Stheneboea. Sent to Iobates with a letter ordering his death, he kills the Chimera on Pegasus, defeats the Solymi, Amazons and Lycian ambushers, and wins Iobates' daughter and kingdom.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Slander at the court of Proetus",
+    "summary": "Bellerophon is purified by Proetus. Stheneboea falsely accuses him after he rejects her, and Proetus sends him off with a letter ordering his death.",
+    "stakes": "Bellerophon risks death through a false accusation and a sealed order for his execution.",
+    "present": [
+     "Bellerophon",
+     "Proetus",
+     "Stheneboea"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Proetus' court",
+     "modern_name": "Tiryns",
+     "certainty": "traditional",
+     "lat": 37.5997,
+     "lon": 22.8
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 5,
+    "title": "Iobates sets the Chimera task",
+    "summary": "Iobates reads the letter and sends Bellerophon against the Chimera, a three-headed fire-breathing beast whose parentage is variously told.",
+    "stakes": "Bellerophon faces a beast stronger than many men.",
+    "present": [
+     "Iobates",
+     "Bellerophon",
+     "Chimera"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lycia",
+     "modern_name": "Lycia, southwest Turkey",
+     "certainty": "real",
+     "lat": 36.5,
+     "lon": 29.5
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 9,
+    "title": "Trials and triumph in Lycia",
+    "summary": "Bellerophon kills the Chimera from Pegasus, then defeats the Solymi, the Amazons and the Lycian ambushers. Iobates shows him the letter, gives him Philonoe and leaves him the kingdom.",
+    "stakes": "Bellerophon must survive a series of tasks meant to kill him.",
+    "present": [
+     "Bellerophon",
+     "Pegasus",
+     "Chimera",
+     "Iobates",
+     "Philonoe"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lycia",
+     "modern_name": "Lycia, southwest Turkey",
+     "certainty": "real",
+     "lat": 36.5,
+     "lon": 29.5
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Bellerophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, son of Glaucus, who kills the Chimera"
+   },
+   {
+    "name": "Glaucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Bellerophon"
+   },
+   {
+    "name": "Sisyphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Glaucus"
+   },
+   {
+    "name": "Deliades",
+    "aliases": [
+     "Piren",
+     "Alcimenes"
+    ],
+    "kind": "mortal",
+    "description": "brother Bellerophon accidentally killed"
+   },
+   {
+    "name": "Proetus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who purifies Bellerophon"
+   },
+   {
+    "name": "Stheneboea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Proetus' wife who falsely accuses Bellerophon"
+   },
+   {
+    "name": "Iobates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lycian king who sets Bellerophon tasks"
+   },
+   {
+    "name": "Chimera",
+    "aliases": [],
+    "kind": "monster",
+    "description": "fire-breathing lion, goat and dragon beast"
+   },
+   {
+    "name": "Amisodarus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have bred the Chimera"
+   },
+   {
+    "name": "Typhon",
+    "aliases": [],
+    "kind": "monster",
+    "description": "said to be father of the Chimera"
+   },
+   {
+    "name": "Echidna",
+    "aliases": [],
+    "kind": "monster",
+    "description": "said to be mother of the Chimera"
+   },
+   {
+    "name": "Pegasus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "winged steed of Bellerophon"
+   },
+   {
+    "name": "Medusa",
+    "aliases": [],
+    "kind": "monster",
+    "description": "mother of Pegasus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Pegasus"
+   },
+   {
+    "name": "Philonoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Iobates, given to Bellerophon"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Glaucus",
+    "relation": "parent_of",
+    "b": "Bellerophon",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Sisyphus",
+    "relation": "parent_of",
+    "b": "Glaucus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Glaucus",
+    "relation": "parent_of",
+    "b": "Deliades",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Typhon",
+    "relation": "parent_of",
+    "b": "Chimera",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Echidna",
+    "relation": "parent_of",
+    "b": "Chimera",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Medusa",
+    "relation": "parent_of",
+    "b": "Pegasus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Pegasus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Iobates",
+    "relation": "parent_of",
+    "b": "Philonoe",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Bellerophon",
+    "relation": "spouse_of",
+    "b": "Philonoe",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Proetus",
+    "relation": "spouse_of",
+    "b": "Stheneboea",
+    "source": "outside",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Piren",
+    "canonical": "Deliades",
+    "explanation": "Variant tradition names the brother Piren or Alcimenes."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Describes the Chimera's composite form and the plan to destroy Bellerophon with it.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "A false accusation sends a hero on a series of lethal tasks, each of which he survives, so the plot against him turns into his rise to a kingdom.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Apollodorus records competing versions of names and parentage, showing the Library's habit of collecting variant traditions.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The letter ordering the bearer's death gave rise to the phrase 'Bellerophontic letter' for a message carried unknowingly to one's own doom."
+   },
+   {
+    "kind": "history",
+    "text": "The Chimera gave English the word 'chimera' for a fanciful or impossible idea."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Homer mentions the Chimera and the sealed letter in the Iliad, Book 6.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "Variant names for the brother killed reflect competing traditions; the compiler simply lists them rather than choosing one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Purified\": ritually cleansed of the pollution of bloodshed, required before a killer could be received socially and religiously.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Vicious proposal\": she claims he tried to seduce her, reversing what actually happened.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"More than a match for many\": stronger than many men together, so sending one man seemed certain death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Homer (Iliad 16) says the Chimera was reared by Amisodarus; Hesiod (Theogony) makes it the offspring of Typhon and Echidna, monstrous parents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "The Solymi were a warlike people of the Lycian region, neighbours of Lycia.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Proetus, wary of violating guest-right by killing Bellerophon himself, sends him to Iobates, Stheneboea's father, carrying the sealed message.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Pegasus, the winged horse, sprang from Medusa's neck when Perseus beheaded her; Poseidon was his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "The Amazons were a legendary nation of women warriors.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "irony",
+    "text": "Bellerophon unknowingly carries his own death warrant, trusting the king who sends him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "description",
+    "text": "The Chimera is a composite monster of lion, goat and dragon, emphasizing its unnatural, overwhelming danger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "reversal",
+    "text": "The intended victim ends as king: the letter meant to destroy him becomes the proof of his triumph.",
+    "spoiler": false
+   }
+  ]
+ }
+}

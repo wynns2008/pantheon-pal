@@ -1,0 +1,622 @@
+{
+ "section_id": "pausanias-body-108",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11654,
+  "output": 5327
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of coastal Laconia, describing Thalamæ, Pephnos, Leuctra, Cardamyle, Gerenia and Alagonia. He records temples, oracles, statues and local claims, including Messenian assertions that Leuctra and Pephnos once belonged to them, and tales of Machaon and Nestor.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Ino's oracle at Thalamæ",
+    "summary": "Pausanias describes the dream oracle of Ino, its statues and the sacred spring of the Moon.",
+    "stakes": "",
+    "present": [
+     "Ino",
+     "Pasiphae",
+     "Sun"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thalamæ",
+     "modern_name": "Koutifari",
+     "certainty": "real",
+     "lat": 36.82,
+     "lon": 22.35
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 13,
+    "title": "Pephnos and the Dioscuri",
+    "summary": "At Pephnos, the islet is said to be the birthplace of Castor and Pollux, whose tiny bronze statues the sea cannot move. The Messenians claim the island.",
+    "stakes": "",
+    "present": [
+     "Castor",
+     "Pollux",
+     "Hermes",
+     "Alcman"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pephnos",
+     "modern_name": "Boka, near Platsa",
+     "certainty": "real",
+     "lat": 36.8,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 23,
+    "title": "Leuctra and its shrines",
+    "summary": "Pausanias lists Leuctra's temples and tells how a fire revealed a statue of Ithomatan Zeus, which the Messenians took as proof of their claim.",
+    "stakes": "",
+    "present": [
+     "Æsculapius",
+     "Ino",
+     "Cassandra",
+     "Carnean Apollo",
+     "Athene",
+     "Eros",
+     "Ithomatan Zeus",
+     "Leucippus",
+     "Arsinoe"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Leuctra",
+     "modern_name": "Leuktro",
+     "certainty": "real",
+     "lat": 36.88,
+     "lon": 22.25
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 27,
+    "title": "Cardamyle and the Nereids",
+    "summary": "Cardamyle, taken from Messenia by Augustus, has a grove where the Nereids came to see Pyrrhus.",
+    "stakes": "",
+    "present": [
+     "Nereids",
+     "Pyrrhus",
+     "Hermione",
+     "Athene",
+     "Carnean Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cardamyle",
+     "modern_name": "Kardamyli",
+     "certainty": "real",
+     "lat": 36.89,
+     "lon": 22.23
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 39,
+    "title": "Gerenia, Machaon and Alagonia",
+    "summary": "Pausanias describes Gerenia, Machaon's shrine and the stories of Machaon's death and Podalirius, then nearby Calathium and Alagonia.",
+    "stakes": "",
+    "present": [
+     "Nestor",
+     "Machaon",
+     "Eurypylus",
+     "Podalirius",
+     "Æsculapius",
+     "Clæa"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Gerenia",
+     "modern_name": "Kambos area, Gerolimena region",
+     "certainty": "traditional",
+     "lat": 36.9,
+     "lon": 22.2
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ino",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a dream oracle at Thalamæ"
+   },
+   {
+    "name": "Pasiphae",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "deity with a bronze statue at Ino's temple"
+   },
+   {
+    "name": "Sun",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a bronze statue at the temple"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "god",
+    "description": "Dioscurus said to be born at Pephnos"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "god",
+    "description": "Dioscurus said to be born at Pephnos"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "took the twins to Pellana"
+   },
+   {
+    "name": "Alcman",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who gives the same account"
+   },
+   {
+    "name": "Leucippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Perieres, father of Arsinoe"
+   },
+   {
+    "name": "Perieres",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Leucippus"
+   },
+   {
+    "name": "Arsinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Leucippus, mother of Æsculapius"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "healing god honoured at Leuctra"
+   },
+   {
+    "name": "Cassandra",
+    "aliases": [
+     "Alexandra"
+    ],
+    "kind": "mortal",
+    "description": "daughter of Priam, with a temple at Leuctra"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cassandra"
+   },
+   {
+    "name": "Carnean Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "worshipped in Dorian fashion"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "has temples at Leuctra and Cardamyle"
+   },
+   {
+    "name": "Eros",
+    "aliases": [],
+    "kind": "god",
+    "description": "has a temple and grove at Leuctra"
+   },
+   {
+    "name": "Ithomatan Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "statue found after a fire"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who promised gifts in Homer"
+   },
+   {
+    "name": "Nereids",
+    "aliases": [
+     "daughters of Nereus"
+    ],
+    "kind": "nymph",
+    "description": "sea nymphs who came to see Pyrrhus"
+   },
+   {
+    "name": "Nereus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of the Nereids"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Achilles, went to marry Hermione"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pyrrhus"
+   },
+   {
+    "name": "Hermione",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Pyrrhus's bride at Sparta"
+   },
+   {
+    "name": "Nestor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to be raised or sheltered at Gerenia"
+   },
+   {
+    "name": "Machaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "healer son of Æsculapius, with a tomb at Gerenia"
+   },
+   {
+    "name": "Eurypylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Telephus, killer of Machaon"
+   },
+   {
+    "name": "Telephus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Eurypylus"
+   },
+   {
+    "name": "Podalirius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "carried to Syrnum in Caria after Troy"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "captured Pylos"
+   },
+   {
+    "name": "Clæa",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "has a temple on Mount Calathium"
+   },
+   {
+    "name": "Augustus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor who detached Cardamyle from Messenia"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "has a temple at Alagonia"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "has a temple at Alagonia"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Leucippus",
+    "relation": "parent_of",
+    "b": "Arsinoe",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Arsinoe",
+    "relation": "parent_of",
+    "b": "Æsculapius",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Perieres",
+    "relation": "parent_of",
+    "b": "Leucippus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Priam",
+    "relation": "parent_of",
+    "b": "Cassandra",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Pyrrhus",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Nereus",
+    "relation": "parent_of",
+    "b": "Nereids",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Æsculapius",
+    "relation": "parent_of",
+    "b": "Machaon",
+    "source": "text",
+    "evidence_sentence": 30
+   },
+   {
+    "a": "Telephus",
+    "relation": "parent_of",
+    "b": "Eurypylus",
+    "source": "text",
+    "evidence_sentence": 33
+   },
+   {
+    "a": "Castor",
+    "relation": "sibling_of",
+    "b": "Pollux",
+    "source": "outside",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Machaon",
+    "relation": "sibling_of",
+    "b": "Podalirius",
+    "source": "outside",
+    "evidence_sentence": 36
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Alexandra",
+    "canonical": "Cassandra",
+    "explanation": "Cassandra is called Alexandra by the people of Leuctra."
+   },
+   {
+    "alias": "Gerenia",
+    "canonical": "Enope",
+    "explanation": "Homer's Enope is called Gerenia in Pausanias's time."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Describes Ino's dream oracle, an example of incubation divination.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias catalogues local cults, marvels and myths, showing how sacred places anchor local identity.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Messenian and Spartan rival claims over border towns show territorial disputes persisting into Roman times, with Augustus settling them.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes that the hymns of Telephus are sung at Pergamum's Asclepieion, but Eurypylus is never named.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–200 metres, so 80 stades is about 15 kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Brazen\" means made of bronze or brass; the translator uses it for bronze statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Indigenous\" means native to the place; Pausanias suggests Pasiphae's cult there was not originally local.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Alcman was a Spartan lyric poet of the seventh century BC, cited here as support for the local tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Pellana is a town in Laconia; the tradition has Hermes carrying the infants there to be raised.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "A stade was a Greek unit of distance, roughly 600 feet (about 180 metres), so twenty stades is a little over two miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Alexandra is another name for Cassandra, the Trojan prophetess whose true prophecies were never believed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "In the Iliad, Agamemnon offers Achilles seven cities, including Cardamyle, if he will end his wrath and return to the fighting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "\"Dorian fashion\" means in the manner of the Dorian Greeks, the stock to which the Spartans and Messenians belonged.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Homer's Enope is a place named in the Iliad, where Agamemnon offers it to Achilles; Pausanias identifies it with later Gerenia, though this identification is uncertain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "Eleutherolacones means 'free Laconians': the coastal communities freed from Spartan control by Rome and organized as a league.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "_ciphos_ is the Messenian local word for the garland or headband on the statue; Pausanias is giving the dialect term.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "The Little Iliad is a lost epic of the Trojan cycle, covering events after Homer's Iliad; Pausanias cites it for Machaon's death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "phrasing",
+    "text": "'The Continent of Caria' means the mainland of Caria in Asia Minor, as opposed to the islands; Syrnum is a place there.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Incubation, sleeping in a sanctuary to receive a divine answer in a dream, was a common form of Greek oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Castor and Pollux, the Dioscuri, were Spartan heroes, twin sons of Leda; their birthplace was claimed by several places.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Messenia and Laconia (Lacedæmon) were old rivals, and both claimed border places and cults such as that of the Dioscuri.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Æsculapius (the Greek Asclepius) was the god of healing. The Messenians claimed him as their own through a Messenian mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Ithomatan Zeus was the chief god of the Messenians, worshipped on Mount Ithome. His statue here supports their claim that the land was theirs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Augustus gave Cardamyle and nearby towns to Sparta after Actium, as a reward for Spartan loyalty to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Pyrrhus, also called Neoptolemus, was the son of Achilles. He took Hermione, daughter of Menelaus, as his bride at Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Nestor was the aged king of Pylos in Homer. Hercules' sack of Pylos killed most of Nestor's family, and he alone survived.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Machaon was a physician-hero in the Trojan War, and a son of Æsculapius, the god of healing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Pergamum had a famous healing sanctuary of Æsculapius. Eurypylus, son of Telephus, was a Trojan ally, so his name was avoided in the rites.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "imagery",
+    "text": "The tiny statues standing firm against the winter sea's violent dashing make a vivid picture of divine protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "narrative voice",
+    "text": "Pausanias the traveller's curiosity shows in his comment on wonders and odd local details, such as the whiter ants, presented as personal observation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "motif",
+    "text": "The leaves that water cannot carry away are presented as a marvel, one of Pausanias' many notes on strange natural wonders at sacred sites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a first-hand witness, claiming the fire happened in his own time, which lends the account authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "irony",
+    "text": "Pausanias dryly turns the Messenians' proof against them. A shared cult could belong to either people, so the statue proves little.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "characterization",
+    "text": "Machaon is defined through his father and his healing skill, implying a lineage of medicine that links hero cult to practical benefit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "narrative voice",
+    "text": "Pausanias interjects 'as I myself know', asserting personal eyewitness authority as a traveller and distinguishing his own observation from reported tradition.",
+    "spoiler": false
+   }
+  ]
+ }
+}

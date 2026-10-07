@@ -1,0 +1,279 @@
+{
+ "section_id": "pausanias-body-167",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8115,
+  "output": 2410
+ },
+ "result": {
+  "summary": "Pausanias describes several statues of Zeus near the council chamber at Olympia. He lists the states that fought at Plataea and what became of some of them, and he notes a bronze pillar recording a thirty years' peace. He then discusses the statues offered by Megara, Hybla and Cleitor.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Zeus statue from Plataea victory",
+    "summary": "Pausanias describes the Greeks' dedication after Plataea and lists the states named on its base. He says which cities were later deserted, and describes the bronze pillar bearing the thirty years' peace.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Mardonius",
+     "Augustus",
+     "Philip",
+     "Cassander",
+     "Anaxagoras",
+     "Crison"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 21,
+    "title": "Statues from Megara, Hybla, Cleitor",
+    "summary": "Pausanias describes further statues of Zeus given by the Megarians, the people of Hybla and the people of Cleitor. He discusses their makers and the Hybla in Sicily.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Phylacus",
+     "Onæthus",
+     "Philistus",
+     "Aristo",
+     "Telestas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Chief god, shown in many statues at Olympia"
+   },
+   {
+    "name": "Mardonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian commander defeated at Plataea"
+   },
+   {
+    "name": "Augustus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman Emperor who founded Nicopolis"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Amyntas, who expelled the Potidaeans"
+   },
+   {
+    "name": "Amyntas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Philip"
+   },
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Restored Potidaea and renamed it Cassandrea"
+   },
+   {
+    "name": "Anaxagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aeginetan sculptor of the Greek votive statue"
+   },
+   {
+    "name": "Crison",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Olympic victor of Himera, used to date the peace"
+   },
+   {
+    "name": "Phylacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor, brother of Onæthus"
+   },
+   {
+    "name": "Onæthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor, brother of Phylacus"
+   },
+   {
+    "name": "Philistus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Archomenides, historian quoted on Hybla"
+   },
+   {
+    "name": "Archomenides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Philistus"
+   },
+   {
+    "name": "Aristo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Laconian sculptor, brother of Telestas"
+   },
+   {
+    "name": "Telestas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Laconian sculptor, brother of Aristo"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Amyntas",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Archomenides",
+    "relation": "parent_of",
+    "b": "Philistus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Phylacus",
+    "relation": "sibling_of",
+    "b": "Onæthus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Aristo",
+    "relation": "sibling_of",
+    "b": "Telestas",
+    "source": "text",
+    "evidence_sentence": 20
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias uses dedications as evidence for history, tracing the fates of cities and the obscurity of artists.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Plataea monument and the thirty years' peace show how Olympia served as a public archive of interstate politics.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Plataea dedication is probably a statue of Zeus, set up after the 479 BC victory, while the famous Serpent Column went to Delphi.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Plataea (479 BC) was the decisive land victory over the Persians; Mardonius was the Persian commander, and 'Medes' is used loosely for Persians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "'Basement' means the base or pedestal of the statue; the names inscribed there match the famous Plataea victory lists.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Nicopolis ('Victory City') was founded by Augustus after his victory at Actium (31 BC), populated by settlers drawn from nearby Greek communities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Potidaea was seized by Philip II of Macedon in 356 BC; Cassander refounded it as Cassandrea around 316 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The Thirty Years' Peace (446/445 BC) followed Athens' reconquest of Euboea; dating by Olympiad winners was the Greek method.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "The parenthetical promises a later discussion of the chariot of Cleosthenes; Pausanias often cross-refers within his work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "'Elegiac lines' are verse in alternating hexameter and pentameter couplets, commonly used for inscriptions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "'Tithe' is a tenth part of the spoils, dedicated to the god.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "The list of allied states is a record of Greek unity against Persia; Pausanias cites it as evidence from the monument itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Gelon was the tyrant of Syracuse in the early fifth century BC, famed for his victory over Carthage at Himera.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Philistus of Syracuse was a Sicilian historian, born c. 430 BC, cited here for the Hyblaeans' reputation for piety.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "narrative voice",
+    "text": "Pausanias openly admits ignorance of the sculptors' date and origin, showing the cautious, scholarly persona of a traveler-historian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "irony",
+    "text": "Pausanias reasons that the sculptors' obscurity proves they were not famous, even though they were fellow citizens of the Lacedaemonians; the argument rests on silence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

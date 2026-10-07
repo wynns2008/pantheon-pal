@@ -1,0 +1,373 @@
+{
+ "section_id": "pausanias-body-260",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8189,
+  "output": 3003
+ },
+ "result": {
+  "summary": "Pausanias finishes his tour of Arcadian places, beginning with Methydrium and its legend of Rhea hiding Zeus from Cronos. He then describes the road from Megalopolis to Mænalus, listing temples, tombs and shrines, and ends at Acacesium and the story of Hermes.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Methydrium and Rhea's legend",
+    "summary": "Pausanias describes Methydrium, its temple of Poseidon, Mt Thaumasium and the local claim that Rhea tricked Cronos here with a stone.",
+    "stakes": "Rhea's child Zeus is in danger of being swallowed by Cronos.",
+    "present": [
+     "Rhea",
+     "Zeus",
+     "Cronos",
+     "Hoplodamus",
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Methydrium",
+     "modern_name": "Methydrio, Arcadia",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.1
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 16,
+    "title": "Road from Megalopolis to Mænalus",
+    "summary": "Along the road Pausanias notes the temple of the Good God, Aristodemus' tomb, shrines of Athene, Boreas and Demeter, and the tomb of Œcles.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Aristodemus",
+     "Athene",
+     "Boreas",
+     "Œcles",
+     "Demeter",
+     "Pan"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Road from Megalopolis to Mænalus",
+     "modern_name": "Megalopoli area, Arcadia",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 22.14
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 21,
+    "title": "Mount Mænalium",
+    "summary": "On Mænalium are ruins, a temple of Artemis, the Three Roads and the sacred haunt of Pan.",
+    "stakes": "",
+    "present": [
+     "Artemis",
+     "Arcas",
+     "Pan",
+     "Athene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Mænalium",
+     "modern_name": "Mainalo mountains",
+     "certainty": "real",
+     "lat": 37.65,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 24,
+    "title": "Acacesium and Hermes",
+    "summary": "Pausanias traces the road to Acacesium, where Arcadians say Hermes was raised by Acacus.",
+    "stakes": "",
+    "present": [
+     "Hermes",
+     "Acacus",
+     "Lycaon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Acacesium",
+     "modern_name": "near Megalopoli, Arcadia",
+     "certainty": "real",
+     "lat": 37.3,
+     "lon": 22.2
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Zeus who hid him from Cronos"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Good God"
+    ],
+    "kind": "god",
+    "description": "chief of the gods"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "father threatening to devour his child"
+   },
+   {
+    "name": "Hoplodamus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant who protected Rhea"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Poseidon Hippius"
+    ],
+    "kind": "god",
+    "description": "god with a temple at Methydrium"
+   },
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant called the Good, buried near Megalopolis"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "called Inventive at her temple"
+   },
+   {
+    "name": "Boreas",
+    "aliases": [
+     "North Wind"
+    ],
+    "kind": "god",
+    "description": "honoured by Megalopolis as preserver"
+   },
+   {
+    "name": "Œcles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Amphiaraus"
+   },
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Œcles"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "worshipped as Demeter of the Marsh"
+   },
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of Mænalium who plays pipes"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "worshipped at Lycoa"
+   },
+   {
+    "name": "Arcas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Callisto"
+   },
+   {
+    "name": "Callisto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Arcas"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "said to be raised at Acacesium"
+   },
+   {
+    "name": "Acacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycaon, Hermes' nurse"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Acacus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Œcles",
+    "relation": "parent_of",
+    "b": "Amphiaraus",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Callisto",
+    "relation": "parent_of",
+    "b": "Arcas",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Acacus",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Rhea",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "outside",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Good God",
+    "canonical": "Zeus",
+    "explanation": "Pausanias conjectures this temple title refers to Zeus."
+   },
+   {
+    "alias": "North Wind",
+    "canonical": "Boreas",
+    "explanation": "Boreas is the North Wind, worshipped as a god."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 21,
+    "reason": "Memorable local belief that Pan's pipe music can be heard on the mountain.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows how local cults claim famous myths, such as Zeus's birth, for their own landscape.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Megalopolis honouring Boreas for saving it from Agis and the Spartans shows civic gratitude to a natural force.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Women-only sacred places, like Rhea's Cave and Demeter's grove, appear repeatedly in Pausanias' Arcadia.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Rhea hid her newborn Zeus from her husband Cronos, who swallowed his children. Hoplodamus and the Giants are her guards in this local version.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The stone offered instead of the child is the one Cronos swallowed, thinking it was the infant Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "Pausanias reasons by syllogism: if the gods give good things and Zeus rules them, 'the Good God' is probably a title of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "'Inventive' renders an epithet of Athene as a goddess of contrivance and skill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Agis was a Spartan king who attacked Megalopolis; the people credited Boreas, the North Wind, with saving them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Hercules' expedition against Laomedon was the sack of Troy before the Trojan War. Œcles was said to have died there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Arcas was the legendary ancestor of the Arcadians. Callisto, his mother, was turned into a bear in myth.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Poseidon Hippius means Poseidon of horses, a cult title linking the god to horse-breeding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Pan, the goat-footed god of shepherds, was especially honoured in Arcadia, and mountains there were thought to echo his pipes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Hermes was the messenger god, son of Zeus and Maia. Several places claimed to be where he was raised.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 10,
+    "device": "irony",
+    "text": "A tyrant who still kept the title 'Good' is an unexpected, mildly ironic detail about Aristodemus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "folk belief",
+    "text": "Pausanias reports locals hearing Pan's pipes, giving the mountain a sense of living divine presence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "narrative voice",
+    "text": "The terse closing remark on rival Theban and Tanagran legends shows Pausanias as a detached compiler of competing traditions.",
+    "spoiler": false
+   }
+  ]
+ }
+}

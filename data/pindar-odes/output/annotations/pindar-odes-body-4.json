@@ -1,0 +1,247 @@
+{
+ "section_id": "pindar-odes-body-4",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6594,
+  "output": 2162
+ },
+ "result": {
+  "summary": "An editorial note dates the ode to Psaumis' mule-chariot victory at Olympia in 452 B.C. The poet then invokes Zeus, presents the victory song, praises Psaumis, and begins a myth of Erginos, son of Klymenos, who won the Lemnian race in bronze armour.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Editor's introductory note",
+    "summary": "The editor dates the ode, explains the mule-chariot race, and describes how the ode was probably sung that night.",
+    "stakes": "",
+    "present": [
+     "Psaumis",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 8,
+    "title": "Hymn to Zeus and praise",
+    "summary": "The poet calls on Zeus to receive the victory song and praises Psaumis for horse-rearing, hospitality and civic peace. He introduces a tale proving that trial tests men.",
+    "stakes": "Psaumis' glory and Kamarina's honour depend on the god's favour and the song's truthful praise.",
+    "present": [
+     "Zeus",
+     "Psaumis",
+     "Typhon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 10,
+    "title": "Son of Klymenos on Lemnos",
+    "summary": "After winning the armoured foot-race, the son of Klymenos tells Hypsipyle that his hands and heart match his speed, and that young men can have grey hair.",
+    "stakes": "His reputation among the Lemnian women who had slighted him.",
+    "present": [
+     "Son of Klymenos",
+     "Hypsipyle"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lemnos",
+     "modern_name": "Lemnos, Greece",
+     "certainty": "real",
+     "lat": 39.92,
+     "lon": 25.15
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [
+     "son of Kronos"
+    ],
+    "kind": "god",
+    "description": "Highest god, hurler of thunderbolts, lord of Ætna"
+   },
+   {
+    "name": "Kronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Zeus"
+   },
+   {
+    "name": "Typhon",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Hundred-headed monster crushed beneath Ætna"
+   },
+   {
+    "name": "Psaumis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man of Kamarina who won the mule-chariot race"
+   },
+   {
+    "name": "Son of Klymenos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Winner of the Lemnian foot-race in bronze armour"
+   },
+   {
+    "name": "Hypsipyle",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lemnian woman addressed by the victor"
+   },
+   {
+    "name": "Graces",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddesses who aided the victory"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Kronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Klymenos",
+    "relation": "parent_of",
+    "b": "Son of Klymenos",
+    "source": "text",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "son of Kronos",
+    "canonical": "Zeus",
+    "explanation": "A patronymic title for Zeus."
+   },
+   {
+    "alias": "Son of Klymenos",
+    "canonical": "Erginos",
+    "explanation": "The ode does not name him; tradition identifies him as Erginos."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Memorable statement of the ode's moral that trial tests men.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode joins victory, divine favour and truthful praise, using the Lemnian myth to show that proof comes through trial.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Mule-chariot races were run at Olympia only from 500 to 444 B.C., and this ode is among Pindar's latest datable work.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias is the source cited for the brief life of the mule-chariot race at Olympia.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Thy chosen hour recurrent\" means the festival season that returns at its appointed time; the poet is sent by Zeus's recurring festival.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Typhon was a hundred-headed monster said to be pinned beneath Ætna by Zeus; the \"wind-beaten burden\" is the mountain itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Good hap\" means good fortune; \"forthwith\" means immediately.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Pisan olive\" refers to the wild-olive crown given at Olympia, which lay in the territory of Pisa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The Lemnian women had killed their husbands and slighted the Argonauts' men; the son of Klymenos (Erginos) was mocked by them for his grey hair before winning the race.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Hypsipyle was queen of Lemnos; the race was held there in her honour, with prizes of cloaks.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Pausanias was a Greek travel writer of the 2nd century A.D. who described Olympia and its history.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Zeus, son of Kronos, was king of the gods and patron of the Olympic games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Kamarina was a Greek city in Sicily, Psaumis' home.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "apostrophe",
+    "text": "The poet addresses Zeus directly, opening the ode as a prayer and making the victory song an offering to the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "aphorism",
+    "text": "The compact saying \"trial is the test of men\" states the ode's theme and introduces the myth as proof.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "irony",
+    "text": "Grey hairs on young men reverses the expectation that age brings slowness; the boast shows that appearance misleads about prowess.",
+    "spoiler": false
+   }
+  ]
+ }
+}

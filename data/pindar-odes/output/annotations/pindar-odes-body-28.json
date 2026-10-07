@@ -1,0 +1,212 @@
+{
+ "section_id": "pindar-odes-body-28",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6502,
+  "output": 1950
+ },
+ "result": {
+  "summary": "A short victory ode for Timodemos of Athens, winner in the pankration at Nemea. Pindar compares the poem's opening to the Homeric singers who begin with Zeus, and predicts further Isthmian and Pythian wins. He praises Salamis, Acharnai and the Timodemidai clan for their many victories, then calls on the citizens to sing the victor home.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Editor's introductory notes",
+    "summary": "The editor notes the uncertain date, the Athenian performance, the victor's clan and deme, and the nature of the pankration.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 13,
+    "title": "Hymn to Timodemos' victory",
+    "summary": "Pindar begins with Zeus as the Homeric bards do, praises Timodemos and his clan's many victories, and bids the citizens sing him home.",
+    "stakes": "",
+    "present": [
+     "Timodemos",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Nemea",
+     "modern_name": "Nemea, Greece",
+     "certainty": "real",
+     "lat": 37.8064,
+     "lon": 22.7106
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Timodemos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian pankration victor at Nemea, son of Timonoös"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Nemeaian Zeus"
+    ],
+    "kind": "god",
+    "description": "Chief god, patron of the Nemean games, invoked in preludes"
+   },
+   {
+    "name": "Timonoös",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Timodemos"
+   },
+   {
+    "name": "Hektor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan hero who faced Aias at Troy"
+   },
+   {
+    "name": "Aias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero of Salamis who fought at Troy"
+   },
+   {
+    "name": "Orion",
+    "aliases": [],
+    "kind": "other",
+    "description": "Constellation that rises after the Pleiads, used as a comparison"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Timonoös",
+    "relation": "parent_of",
+    "b": "Timodemos",
+    "source": "text",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Nemeaian Zeus",
+    "canonical": "Zeus",
+    "explanation": "Zeus as worshipped at Nemea, where the games in his honour were held."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Links Pindar's ode to Homeric singers who begin with a prelude to Zeus.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Athletic victory is tied to family and city glory, and to the hope of further wins at the Isthmian and Pythian games.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The ode was apparently sung at Athens on the victor's return; the editor notes that the pankration combined wrestling and boxing with few rules.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Homerid bards were a guild of rhapsodes in Chios who claimed descent from Homer, and they opened recitations with hymns to the gods.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Dict. Ant.\" abbreviates a Dictionary of Antiquities, a reference work the editor cites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Homerid bards: the Homeridai, a guild of rhapsodes on Chios who recited Homer's poems; their hymns, or preludes, often began by invoking Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Hath attained unto laying\" is archaic: he has now succeeded in laying the first foundation of his victories at Nemea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The Pleiads' rising precedes Orion's in the sky; the image says the son will follow his clan's victories, as the star follows the Pleiades.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Aias (Ajax), the Greek hero at Troy, came from Salamis; Hektor learned his strength in battle. Salamis thus produces warriors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The valleys of Pelops are the Peloponnese; Corinth held the Isthmian games. Games of Zeus at home are probably the Athenian festival Olympieia or Panathenaia.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "A deme was a local district of Attica and the basic unit of Athenian citizenship; Acharnai was a large one north of Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Nemea, in the Argolid, was the site of games to Zeus; they were among the four great Greek festivals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Parnassos overlooks Delphi, where the Pythian games were held.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "allusion",
+    "text": "Pindar likens his own opening to Homeric bards' conventional invocation of Zeus, tying his victory ode to epic tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "metaphor",
+    "text": "Victory is a flower to be plucked, picturing athletic triumph as natural bloom and a prize to be gathered.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "metaphor",
+    "text": "Stars stand for generations of a family: Timodemos, the rising Orion, will follow his ancestors, the Pleiads, in glory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "apostrophe",
+    "text": "The poet turns to address the citizens directly, making the ode a summons to communal celebration.",
+    "spoiler": false
+   }
+  ]
+ }
+}

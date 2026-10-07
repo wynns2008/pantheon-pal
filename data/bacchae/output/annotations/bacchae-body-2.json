@@ -1,0 +1,613 @@
+{
+ "section_id": "bacchae-body-2",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 18607,
+  "output": 5907
+ },
+ "result": {
+  "summary": "The Chorus sings in praise of Dionysus and the simple life of faith, and longs for holy places. Guards bring in the bound Dionysus, disguised as a Lydian stranger, and Pentheus mocks him, questions him, cuts his hair, takes his staff and orders him imprisoned in the stable. Dionysus warns that the god will take vengeance.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 24,
+    "title": "The Chorus sings of Dionysus",
+    "summary": "The Maidens of the Chorus pray against the King's scorn, praise Dionysus as the giver of joy and peace, and long for Cyprus, Paphos and Olympus.",
+    "stakes": "",
+    "present": [
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, before the Castle",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 43,
+    "title": "The prisoner is brought in",
+    "summary": "The Soldier brings in the calm, bound Dionysus and reports that the imprisoned Maidens escaped by miracle. Pentheus orders him freed of the guards' grip and mocks his looks.",
+    "stakes": "Dionysus is a captive; the Soldier fears the wonders and Pentheus's anger.",
+    "present": [
+     "Soldier",
+     "Dionysus",
+     "Pentheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, before the Castle",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 44,
+    "end_sentence": 112,
+    "title": "Pentheus questions the stranger",
+    "summary": "Dionysus says he comes from Lydia and was taught his rites by the god. Pentheus scoffs and condemns him; each accuses the other of blindness.",
+    "stakes": "Dionysus faces Pentheus's sentence; Pentheus risks the god's wrath through impiety.",
+    "present": [
+     "Pentheus",
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, before the Castle",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 113,
+    "end_sentence": 162,
+    "title": "Hair cut, staff taken, prison",
+    "summary": "Pentheus has Dionysus's curl cut, takes his wand, binds him and sends him to the stables, threatening his followers. Dionysus warns of the god's coming vengeance.",
+    "stakes": "Dionysus is bound and imprisoned; Pentheus invites divine retribution.",
+    "present": [
+     "Pentheus",
+     "Dionysus",
+     "Soldier"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, before the Castle",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Bromios"
+    ],
+    "kind": "god",
+    "description": "god of wine, disguised as a Lydian stranger and priest of his own rites"
+   },
+   {
+    "name": "Pentheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Thebes, hostile to the new worship"
+   },
+   {
+    "name": "Soldier",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "guard captain who arrests Dionysus"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [
+     "Maidens"
+    ],
+    "kind": "mortal",
+    "description": "Asian women followers of Dionysus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Dionysus"
+   },
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban woman, mother of Dionysus"
+   },
+   {
+    "name": "Agave",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Pentheus"
+   },
+   {
+    "name": "Echion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pentheus"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose home is Cyprus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "text",
+    "evidence_sentence": 56
+   },
+   {
+    "a": "Agave",
+    "relation": "parent_of",
+    "b": "Pentheus",
+    "source": "text",
+    "evidence_sentence": 153
+   },
+   {
+    "a": "Echion",
+    "relation": "parent_of",
+    "b": "Pentheus",
+    "source": "text",
+    "evidence_sentence": 153
+   },
+   {
+    "a": "Semele",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "outside",
+    "evidence_sentence": 60
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Bromios",
+    "canonical": "Dionysus",
+    "explanation": "A cult title of Dionysus meaning roughly 'the roaring one'."
+   },
+   {
+    "alias": "Lord of Many Voices",
+    "canonical": "Dionysus",
+    "explanation": "A descriptive title the Chorus uses for the god."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "The Chorus warns that clever wisdom claiming more than human limits is not true wisdom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "reason": "Expresses the Chorus's preference for simple popular faith over elite learning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 155,
+    "reason": "Ironic foreshadowing: Pentheus's name suggests grief (penthos).",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Reason and authority clash with ecstatic religion; Pentheus cannot see the god standing before him, a blindness the play punishes.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The play reflects Athenian unease about foreign cults and the limits of rationalism, written late in Euripides's life in Macedonia.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Pentheus's interrogation of a disguised god is a model for later stories of tyrants confronting hidden divinity."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pentheus's name is linked by Greek wordplay to penthos, 'grief', as Dionysus hints here.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Lord of Many Voices\" is an epithet for Dionysus; \"sovranty\" is an archaic form of sovereignty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "\"Him of mortal mother born\" refers to Dionysus's birth from Semele, a mortal woman, which Pentheus denies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Loose thy lips from out the rein\" means: speak without restraint, like a horse slipping its bridle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Things of clay\" means mortals, who were traditionally imagined as made of earth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"I ween\" is archaic for \"I think\" or \"I suppose\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The Nile's mouths enrich Egypt's fields; the poet imagines the river flowing under the sea to Paphos, which has no rain of its own.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"Spirit of Guiding Fire\" addresses Dionysus, linked with fire and the lightning at his birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "\"Wine-red cheek\" suggests the flush of Dionysus, god of wine; the Soldier means his face showed no pallor of fear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "\"Wreak\" means carry out; \"hest\" is an archaic word for command or bidding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "\"Withal\" means besides, also; \"Maids\" are the Bacchic women Pentheus had imprisoned.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "Bromios, \"the Roaring One,\" is a name of Dionysus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "word",
+    "text": "\"Toils\" are hunting nets, continuing the hunt imagery of the Soldier's report.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "word",
+    "text": "\"Marry\" is an old exclamation meaning \"indeed\"; \"ween\" in the next sentence means suppose.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "phrasing",
+    "text": "Pentheus sneers that long curls show the stranger is no wrestler; athletes wore their hair short.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "word",
+    "text": "\"Sirrah\" is an archaic, contemptuous form of address to an inferior, showing Pentheus's disdain for the stranger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "allusion",
+    "text": "Tmolus is a mountain in Lydia, in Asia Minor, near Sardis; it was associated with Dionysus's worship and its vineyards.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "word",
+    "text": "\"Hellas\" is the Greek name for Greece; \"revelations\" means the religious rites or mysteries being revealed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "kind": "phrasing",
+    "text": "\"Oped\" is \"opened\"; the god disclosed the rites' purpose and use to him. The word order is inverted for the verse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "kind": "allusion",
+    "text": "Pentheus mocks the myth that Zeus fathered Dionysus, asking sarcastically whether Zeus still begets new gods in the womb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "kind": "allusion",
+    "text": "\"Whose seal was set on Semele\" refers to Zeus's union with Semele, Dionysus's mother, a Theban princess killed by his lightning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 65,
+    "kind": "word",
+    "text": "\"Emblems\" are the sacred objects or tokens of the rites, revealed only to initiates.",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "kind": "word",
+    "text": "\"His Elect\" means those chosen and initiated into Dionysus's mysteries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 84,
+    "kind": "phrasing",
+    "text": "\"Deftly turned again\" means cleverly deflected; Pentheus says Dionysus has dodged the question with a neat twist.",
+    "spoiler": false
+   },
+   {
+    "sentence": 85,
+    "kind": "word",
+    "text": "\"Jape\" means a joke or trick; \"idle\" means empty. Pentheus calls the answer a meaningless quip.",
+    "spoiler": false
+   },
+   {
+    "sentence": 91,
+    "kind": "word",
+    "text": "\"Barbary\" here means the non-Greek lands, the \"barbarian\" world, not North Africa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 93,
+    "kind": "word",
+    "text": "\"Ween\" is archaic for \"think\" or \"suppose\"; \"Hellenes\" means Greeks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "kind": "phrasing",
+    "text": "\"Craft and rottenness\" means cunning deceit and corruption; Pentheus assumes the women's night rites are a cover for immorality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 110,
+    "kind": "word",
+    "text": "\"Brazen-browed\" means shameless, with a face of brass; \"knave\" is a rogue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "kind": "word",
+    "text": "'Tis holy hair: the uncut curl is consecrated to Dionysus, so cutting it is an offence against the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 130,
+    "kind": "phrasing",
+    "text": "Pentheus sneers: the god may free him only if he ever hears Dionysus's voice again among his bands (companies) of devotees. 'Saints' here means worshippers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 153,
+    "kind": "word",
+    "text": "'Hight' is archaic for 'called' or 'named'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 155,
+    "kind": "phrasing",
+    "text": "'Fore-written to calamity' means the name is destined for disaster; Pentheus' name is linked to the Greek word for grief (penthos).",
+    "spoiler": false
+   },
+   {
+    "sentence": 157,
+    "kind": "allusion",
+    "text": "Tying Dionysus in the horses' stable and manger is a deliberate humiliation, treating the god like an animal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 158,
+    "kind": "word",
+    "text": "Distaffs are spindles for spinning wool, women's work; timbrels are hand drums used in Bacchic worship.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "The King is Pentheus of Thebes, who opposes the worship of Dionysus and has scorned the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Cyprus was the island sacred to Aphrodite, said to have risen from the sea-foam; the Loves are her attendant winged spirits.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Olympus was the home of the gods; the Muses, goddesses of song and the arts, were associated with its slopes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "The miraculous escape shows the power of Dionysus, though Pentheus refuses to see it as divine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "Pentheus does not know the prisoner is Dionysus himself, disguised as a mortal priest from Lydia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "text": "Lydia, in Asia Minor, is where Dionysus says he comes from; in the play he has led his Asian followers to Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "text": "Mystery cults kept their rites secret from the uninitiated, and the impure were barred from them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 93,
+    "text": "Greeks regarded non-Greeks as inferior \"barbarians\"; Pentheus voices this prejudice, which Dionysus overturns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "text": "Dionysian rites were often held at night on mountains, by torchlight, which fed Pentheus's suspicions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 123,
+    "text": "The staff is the thyrsus, a wand wreathed in ivy and carried by worshippers of Dionysus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 153,
+    "text": "Pentheus is king of Thebes, son of Agave and Echion, one of the Sown Men who sprang from the dragon's teeth.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "apostrophe",
+    "text": "The Chorus directly addresses a divine Purity, invoking it with epithets and appealing for it to hear Pentheus's anger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "metaphor",
+    "text": "\"Grape-blood\" turns wine into blood, linking the god's gift with life and divine feasting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "paradox",
+    "text": "\"The world's Wise are not wise\" contrasts worldly cleverness with true wisdom, a central theme of the play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "imagery",
+    "text": "Rainless meadows and the Nile streaming beneath the waves create a vivid, dreamlike picture of abundance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "antithesis",
+    "text": "The god gives wine to all, great and humble, yet his anger falls only on those who spurn joy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "characterization",
+    "text": "The Chorus defines itself as simple and faithful, setting popular belief against the proud skepticism of Pentheus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "metaphor",
+    "text": "The stranger is called a \"wild thing\" and \"prey\", casting the arrest as a hunt, with irony in how tame he is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "irony",
+    "text": "The captive comforts his captors and laughs, so the bound man seems the one in control.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "device": "characterization",
+    "text": "Pentheus's mocking focus on appearance and women reveals his contempt, suspicion and blindness to the god before him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "irony",
+    "text": "Dionysus's evasive answer hides that he is a god, so his claim of no glory or disgrace is quietly ironic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "device": "sarcasm",
+    "text": "Pentheus's mocking question shows his scorn and disbelief, and marks his impiety against the god before him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "device": "characterization",
+    "text": "Pentheus's angry accusation reveals his suspicious, rash temper, which prepares for his downfall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 87,
+    "device": "irony",
+    "text": "Dionysus hints that Pentheus's spiritual blindness prevents understanding; the stranger is the god himself, though Pentheus cannot see it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 108,
+    "device": "antithesis",
+    "text": "Dionysus turns Pentheus's charge back on him with \"Not mine; but thine,\" a sharp reversal of accusation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 112,
+    "device": "dramatic irony",
+    "text": "The disguised god calmly invites punishment from a king who will soon suffer far worse at his hands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 138,
+    "device": "dramatic irony",
+    "text": "The audience knows the stranger is the god, so Pentheus' blindness to him, and Dionysus' claim that impurity veils him, is ironic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 146,
+    "device": "antithesis",
+    "text": "Seeing is set against blindness: Dionysus has true vision while his captors, and Pentheus, are blind to the truth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 155,
+    "device": "foreshadowing",
+    "text": "The 'name fore-written to calamity' hints at Pentheus' coming ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 162,
+    "device": "irony",
+    "text": "By imprisoning the stranger Pentheus believes he has beaten the god, yet he has actually bound himself to his doom.",
+    "spoiler": false
+   }
+  ]
+ }
+}

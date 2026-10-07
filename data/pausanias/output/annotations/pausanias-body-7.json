@@ -1,0 +1,334 @@
+{
+ "section_id": "pausanias-body-7",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6967,
+  "output": 2850
+ },
+ "result": {
+  "summary": "Pausanias describes how Ptolemy Philadelphus married his sister Arsinoe and killed his plotting brothers. He then recounts the revolt of his half-brother Magas of Cyrene, the destruction of the Galati mercenaries, and Ptolemy's defence against Antiochus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Ptolemy's marriage and brothers",
+    "summary": "Ptolemy marries his sister Arsinoe, kills his brother Argæus, brings Alexander's body from Memphis, and kills another brother over Cyprus.",
+    "stakes": "Ptolemy's hold on his throne against plotting brothers.",
+    "present": [
+     "Ptolemy",
+     "Arsinoe",
+     "Argæus",
+     "Alexander"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Egypt",
+     "modern_name": "Egypt",
+     "certainty": "real",
+     "lat": 30.04,
+     "lon": 31.24
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 8,
+    "title": "Magas revolts; Galati destroyed",
+    "summary": "Magas turns Cyrene against Ptolemy and marches on Egypt but turns back when the Marmaridæ revolt. Ptolemy strands his plotting Galati mercenaries on a desert island of the Nile, where they die.",
+    "stakes": "Egypt's safety from invasion and from treacherous mercenaries.",
+    "present": [
+     "Magas",
+     "Ptolemy",
+     "Berenice",
+     "Philip",
+     "Galati",
+     "Marmaridæ"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Cyrene and Egypt",
+     "modern_name": "Shahhat, Libya",
+     "certainty": "real",
+     "lat": 32.82,
+     "lon": 21.86
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 12,
+    "title": "Antiochus checked; Ptolemy's heirs",
+    "summary": "Magas urges Antiochus to invade Egypt, but Ptolemy's raiders and army stop him. Pausanias notes Ptolemy's sons were by Lysimachus' daughter, and Arsinoe died childless.",
+    "stakes": "Egypt faces invasion by Antiochus.",
+    "present": [
+     "Magas",
+     "Antiochus",
+     "Seleucus",
+     "Ptolemy",
+     "Apame",
+     "Arsinoe"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Egypt and Antiochus' dominions",
+     "modern_name": "Egypt and Syria",
+     "certainty": "real",
+     "lat": 30.04,
+     "lon": 31.24
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ptolemy",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Egypt who married his sister"
+   },
+   {
+    "name": "Arsinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ptolemy's sister and wife, died childless"
+   },
+   {
+    "name": "Argæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ptolemy's brother, killed for plotting"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alexander the Great, whose corpse was moved from Memphis"
+   },
+   {
+    "name": "Eurydice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of another of Ptolemy's brothers"
+   },
+   {
+    "name": "Magas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ptolemy's half-brother, governor of Cyrene, rebel"
+   },
+   {
+    "name": "Berenice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Magas and Ptolemy"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Obscure Macedonian, father of Magas"
+   },
+   {
+    "name": "Apame",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Magas, daughter of Antiochus"
+   },
+   {
+    "name": "Antiochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King, son of Seleucus, urged to invade Egypt"
+   },
+   {
+    "name": "Seleucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Antiochus, made a treaty with Ptolemy"
+   },
+   {
+    "name": "Lysimachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of the woman who bore Ptolemy's sons"
+   },
+   {
+    "name": "Galati",
+    "aliases": [],
+    "kind": "other",
+    "description": "Gallic mercenaries who plotted and perished"
+   },
+   {
+    "name": "Marmaridæ",
+    "aliases": [],
+    "kind": "other",
+    "description": "Libyan nomad tribe that revolted from Magas"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ptolemy",
+    "relation": "spouse_of",
+    "b": "Arsinoe",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Ptolemy",
+    "relation": "sibling_of",
+    "b": "Arsinoe",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Ptolemy",
+    "relation": "sibling_of",
+    "b": "Argæus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Berenice",
+    "relation": "parent_of",
+    "b": "Magas",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Magas",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Berenice",
+    "relation": "parent_of",
+    "b": "Ptolemy",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Magas",
+    "relation": "spouse_of",
+    "b": "Apame",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Antiochus",
+    "relation": "parent_of",
+    "b": "Apame",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Seleucus",
+    "relation": "parent_of",
+    "b": "Antiochus",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 0,
+    "reason": "Notes Ptolemy's sibling marriage, un-Macedonian but Egyptian custom.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows dynastic violence and suspicion among Alexander's successors, where brothers and allies are constant threats.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Sibling marriage reflects Egyptian royal custom adopted by the Ptolemies, a sign of Hellenistic rulers blending local traditions with Macedonian ones.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Arsinoite district (the Fayum) was named after Arsinoe, as Pausanias notes.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Sister on both sides\" means full sister, sharing both father and mother, unlike a half-sister.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Observing that\" means he noticed or discovered that his brother was trying to stir revolt in Cyprus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Uterine brother\" means half-brother through the same mother, here Berenice, but with a different father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Nomads are wandering herding peoples without fixed towns; the Marmaridæ lived in the desert west of Egypt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Galati are Gauls (Celts), who often served as mercenaries in Hellenistic armies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Guerilla troops\" are light raiding forces; the translator uses a modern term for irregular raiders.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Alexander's body was first taken toward Macedon but diverted to Egypt; Memphis was an old Egyptian capital, and it was later placed in Alexandria.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Cyrene was a Greek city in Libya, which Magas governed and later ruled as king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "The Arsinoite nome (district) is the Fayum region of Egypt, renamed in honor of Arsinoe.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "characterization",
+    "text": "The marriage shows Ptolemy adopting Egyptian custom over Macedonian norms, hinting at his political adaptability.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "irony",
+    "text": "The mercenaries brought to defend Egypt are left to destroy themselves, a grim reversal of their plan to seize it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "narrative voice",
+    "text": "Pausanias closes with a flat, matter-of-fact correction, typical of his antiquarian tone.",
+    "spoiler": false
+   }
+  ]
+ }
+}

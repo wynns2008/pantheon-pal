@@ -1,0 +1,281 @@
+{
+ "section_id": "pausanias-body-131",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8470,
+  "output": 2512
+ },
+ "result": {
+  "summary": "After the fall of Eira, the Spartans make Helots of the Messenians they capture, and the rest go into exile at Cyllene. Led by Gorgus and Manticlus, they accept Anaxilas' offer, take Zancle in Sicily and rename it Messene.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Exile begins after Eira",
+    "summary": "Captured Messenians become Helots, while others gather at Cyllene. Aristomenes refuses to lead the colony, Euergetidas dies in a last raid, and the war ends.",
+    "stakes": "The Messenians risk slavery or permanent loss of their homeland.",
+    "present": [
+     "Aristomenes",
+     "Gorgus",
+     "Manticlus",
+     "Euergetidas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cyllene",
+     "modern_name": "Kyllini",
+     "certainty": "real",
+     "lat": 37.94,
+     "lon": 21.14
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 14,
+    "title": "Choosing a new home",
+    "summary": "At Cyllene Gorgus proposes Zacynthus and Manticlus proposes Sardinia. Anaxilas invites them to Rhegium and carries them over to Sicily.",
+    "stakes": "The exiles need a safe city or they remain homeless.",
+    "present": [
+     "Gorgus",
+     "Manticlus",
+     "Anaxilas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Rhegium",
+     "modern_name": "Reggio Calabria",
+     "certainty": "real",
+     "lat": 38.11,
+     "lon": 15.65
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 25,
+    "title": "Capture of Zancle",
+    "summary": "The Zancleans, founded by pirates, are beaten by land and sea. Gorgus and Manticlus spare the suppliants, the town is renamed Messene, and Manticlus builds a temple of Hercules.",
+    "stakes": "The Zancleans face slaughter and enslavement; the Messenians risk acting with cruelty.",
+    "present": [
+     "Anaxilas",
+     "Gorgus",
+     "Manticlus",
+     "Cratæmenes",
+     "Perieres"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Zancle",
+     "modern_name": "Messina",
+     "certainty": "real",
+     "lat": 38.19,
+     "lon": 15.55
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian leader who refuses to found the colony"
+   },
+   {
+    "name": "Gorgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian colony leader who favours Zacynthus"
+   },
+   {
+    "name": "Manticlus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian colony leader who favours Sardinia and builds the temple of Hercules"
+   },
+   {
+    "name": "Euergetidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian who raids the Spartans at Eira and dies"
+   },
+   {
+    "name": "Anaxilas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Rhegium who invites the Messenians"
+   },
+   {
+    "name": "Alcidamidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian who migrated to Rhegium, ancestor of Anaxilas"
+   },
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian king who died before Ithome fell"
+   },
+   {
+    "name": "Cratæmenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Samian leader of the Zancle pirates"
+   },
+   {
+    "name": "Perieres",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Chalcidian leader of the Zancle pirates"
+   },
+   {
+    "name": "Chionis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Laconian Olympic victor used for dating"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Hercules Manticlus"
+    ],
+    "kind": "god",
+    "description": "God honoured with a temple and statue at the new colony"
+   },
+   {
+    "name": "Belus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Egyptian from whom Babylon's Belus took his name"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Alcidamidas",
+    "relation": "parent_of",
+    "b": "Anaxilas",
+    "source": "outside",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Hercules Manticlus",
+    "canonical": "Hercules",
+    "explanation": "The statue was called Hercules Manticlus after its founder Manticlus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Vivid image of Euergetidas turning Spartan victory song into mourning.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows exile and the search for a new home, ending with the Messenians showing mercy to fellow Greeks because of their own suffering.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It reflects Greek colonization in Sicily and Italy, where displaced groups founded or seized cities, as in the renaming of Zancle as Messene.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The city of Messina in Sicily takes its name from this Messenian settlement."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias dates events by Olympiad, Athenian archon and Olympic victor, here Chionis the Laconian.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Helots were the Spartans' state-owned serfs, mostly Messenians and others, who farmed the land and were bound to it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Eira was the Messenian hill fortress held for years against Sparta; its fall ended the second war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "Dating by the Athenian Archon and the Olympiad; Olympic victor lists were the Greeks' standard way of fixing years.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Zacynthus is an island off the western coast of Greece, south of Cephallenia, which would suit raids by sea on Laconia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Zancle was the earlier name of the Sicilian city later called Messene (modern Messina).",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Quarter\" means mercy. Suppliants at altars were traditionally protected, so killing them was an impiety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Pausanias compares the god's surname to Belus and Ammon, deities named after men, to explain a hero-founder cult name.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Aristomenes was the Messenian hero-general of the second war against Sparta, famed for daring raids.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Anaxilas ruled Rhegium, on the toe of Italy facing Sicily, and was of Messenian descent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Chalcis and Samos were Greek cities whose adventurers took part in early western colonizing.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "metaphor",
+    "text": "Turning a victory chant into a dirge expresses the sudden reversal of the Spartans' celebration into mourning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "irony",
+    "text": "The Messenians, themselves cruelly wronged, are asked to spare fellow Greeks; their suffering shapes their mercy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "narrative voice",
+    "text": "The brief closing line sums up the long exile, giving the story a calm sense of finality.",
+    "spoiler": false
+   }
+  ]
+ }
+}

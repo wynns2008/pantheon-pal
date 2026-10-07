@@ -2,8 +2,9 @@
 
     python -m annotate.places <name>          show what would be sent and what it costs; spends nothing
     python -m annotate.places <name> --yes    ask Claude, then save data/<name>/output/places.json
-    python -m annotate.places <name> --recheck   apply data/<name>/curated/places.json to the saved places (free):
-                                                 corrected Wikipedia articles, and places added by hand
+    python -m annotate.places <name> --recheck   fetch the saved places' Wikipedia articles again and apply
+                                                 data/<name>/curated/places.json (free): corrected Wikipedia
+                                                 articles, and places added by hand
 
 Two lists go to Claude in one request: the place of every scene (written freely while annotating, so one place
 has several spellings: "Plain of Troy", "the plain before Ilius"), and the capitalised names of the text that are
@@ -35,6 +36,9 @@ WORD = r"[A-ZÆŒ][a-zæœÀ-ſ]+"
 NAME = re.compile(rf"{WORD}(?:\s+(?:of\s+(?:the\s+)?)?{WORD})*")
 LEADING = re.compile(r"^(?:The|And|Then|When|But|If|Now|So|For|King|Queen|Father|Mother|Mount|Mt)\s+")
 KINDS = ["realm", "region", "city", "island", "mountain", "river", "sea", "building", "other"]
+# Wikipedia's page for a name that several things share, and the titles its ancient Greek place usually has.
+DISAMBIGUATION = re.compile(r"\bmay (?:also )?refer to\b")
+QUALIFIED = ("{} (ancient Greece)", "Ancient {}", "{} (Greece)", "{} (region)", "{}, Greece", "{} (ancient city)")
 
 SYSTEM_PROMPT = """You are listing the places of one book for a reading companion, so that each place can have a
 profile. You are given the book's title and two lists. SCENE PLACES are where the scenes of the book happen, as a
@@ -109,14 +113,17 @@ def request_text(title: str, places: Counter, names: Counter) -> str:
                      + ["", "NAMES (how often used)"] + [f"- {n} ({c})" for n, c in names.most_common()])
 
 
-def wikipedia_leads(titles: list[str]) -> dict[str, dict]:
-    """{title asked for: {url, lead}} for the titles that are real articles (redirects followed)."""
-    found = {}
+def wikipedia_leads(titles: list[str], resolve: bool = True) -> dict[str, dict]:
+    """{title asked for: {url, lead}} for the titles that are real articles (redirects followed). A title that is a
+    list of things of that name ("Corinth may refer to: ...") gets the ancient place's own article when Wikipedia has
+    one under a usual qualified title ("Ancient Corinth", "Aulis (ancient Greece)", "Mount Ossa (Greece)"), and no
+    article otherwise."""
+    found, ambiguous = {}, []
     for start in range(0, len(titles), 20):
         answer = fetch(WIKIPEDIA + "?" + urllib.parse.urlencode({
-            "action": "query", "prop": "extracts|info", "inprop": "url", "exintro": "1", "explaintext": "1",
-            "exsentences": "2", "exlimit": "20", "redirects": "1", "titles": "|".join(titles[start:start + 20]),
-            "format": "json", "formatversion": "2"}))["query"]
+            "action": "query", "prop": "extracts|info|pageprops", "ppprop": "disambiguation", "inprop": "url",
+            "exintro": "1", "explaintext": "1", "exsentences": "2", "exlimit": "20", "redirects": "1",
+            "titles": "|".join(titles[start:start + 20]), "format": "json", "formatversion": "2"}))["query"]
         renamed = {r["to"]: r["from"] for r in answer.get("normalized", []) + answer.get("redirects", [])}
         for page in answer.get("pages", []):
             if page.get("missing") or not page.get("extract"):
@@ -124,9 +131,33 @@ def wikipedia_leads(titles: list[str]) -> dict[str, dict]:
             title = page["title"]
             while title not in titles and title in renamed:
                 title = renamed[title]
+            if "disambiguation" in page.get("pageprops", {}) or DISAMBIGUATION.search(page["extract"][:300]):
+                ambiguous.append(title)
+                continue
             lead = re.sub(r"\s*\((?=[^()]*(?:;|[^\x00-\x7f]))(?:[^()]|\([^()]*\))*\)", "", page["extract"], count=1)
             found[title] = {"url": page["fullurl"], "lead": " ".join(EMPTY_BRACKETS.sub("", lead).split())}
+    if ambiguous and resolve:
+        tries = {t: [q.format(t) for q in QUALIFIED] for t in ambiguous}
+        pages = wikipedia_leads(sorted({q for qs in tries.values() for q in qs}), resolve=False)
+        for t, qs in tries.items():
+            if page := next((pages[q] for q in qs if q in pages), None):
+                found[t] = page
     return found
+
+
+def relink(found: list[dict]) -> int:
+    """Fetch the Wikipedia article of each saved place or thing again (free), so that a list of things of one name
+    saved earlier is replaced by the right article, or by none. Returns how many changed."""
+    titles = {p["id"]: urllib.parse.unquote(p["wikipedia"]["url"].rsplit("/", 1)[1]).replace("_", " ")
+              for p in found if p.get("wikipedia")}
+    pages = wikipedia_leads(sorted(set(titles.values())))
+    changed = 0
+    for p in found:
+        if p["id"] in titles:
+            new = pages.get(titles[p["id"]])
+            changed += (new or {}).get("url") != p["wikipedia"]["url"]
+            p["wikipedia"] = new
+    return changed
 
 
 def build(answer: dict, body: list[dict], scenes: list[dict], cast: set[str] = frozenset()) -> list[dict]:
@@ -256,14 +287,16 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("name")
     ap.add_argument("--yes", action="store_true", help="confirm that you want to spend money")
-    ap.add_argument("--recheck", action="store_true", help="apply curated/places.json to the saved places again (free)")
+    ap.add_argument("--recheck", action="store_true", help="re-fetch the saved places' Wikipedia articles and apply curated/places.json (free)")
     args = ap.parse_args()
     out = ROOT / "data" / args.name / "output"
     if args.recheck:
         saved = json.loads((out / "places.json").read_text(encoding="utf-8"))
+        changed = relink(saved["places"])
         saved["places"] = apply_curated(saved["places"], args.name)
         (out / "places.json").write_text(json.dumps(saved, ensure_ascii=False, indent=1), encoding="utf-8")
-        return print(f"Applied curated/places.json to {len(saved['places'])} saved places (free).")
+        return print(f"Re-linked {changed} Wikipedia articles and applied curated/places.json to {len(saved['places'])} "
+                     f"saved places (free).")
     title = json.loads((out / "sections.json").read_text(encoding="utf-8")).get("title") or args.name
     body, scenes, places, names = gather(args.name)
     text = request_text(title, places, names)

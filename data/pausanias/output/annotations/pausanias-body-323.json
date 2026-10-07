@@ -1,0 +1,317 @@
+{
+ "section_id": "pausanias-body-323",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8313,
+  "output": 2654
+ },
+ "result": {
+  "summary": "Pausanias travels from Chæronea to Panopeus, describing its poor town, its relics of Prometheus and the tomb of Tityus. He then goes to Daulis, recounting its name, the Tereus and Philomela legend, and local temples and hero cult.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 17,
+    "title": "Panopeus and its curiosities",
+    "summary": "Pausanias describes the poor town of Panopeus, its Homeric connections, the Thyiades, the clay of Prometheus and the tomb of Tityus, with Cleon's tale of a huge sea monster.",
+    "stakes": "",
+    "present": [
+     "Pausanias",
+     "Cleon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Panopeus",
+     "modern_name": "Agios Vlasios, Phocis",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 22.85
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 28,
+    "title": "Daulis and Tereus",
+    "summary": "Pausanias describes Daulis, its name, the legend of Tereus, Procne and Philomela, its temple of Athene and the hero cult at Tronis.",
+    "stakes": "",
+    "present": [
+     "Pausanias",
+     "Daulis",
+     "Tereus",
+     "Philomela",
+     "Procne"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Daulis",
+     "modern_name": "Davleia",
+     "certainty": "real",
+     "lat": 38.49,
+     "lon": 22.8
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the narrator, traveller and writer"
+   },
+   {
+    "name": "Tityus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "giant buried near Panopeus"
+   },
+   {
+    "name": "Prometheus",
+    "aliases": [],
+    "kind": "god",
+    "description": "said to have fashioned humans from clay"
+   },
+   {
+    "name": "Cleon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Magnesian who claimed to have seen a huge sea monster"
+   },
+   {
+    "name": "Daulis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph, daughter of Cephisus, namesake of the town"
+   },
+   {
+    "name": "Cephisus",
+    "aliases": [],
+    "kind": "other",
+    "description": "father of the nymph Daulis"
+   },
+   {
+    "name": "Tereus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "served his son as food, later changed into a hoopoe"
+   },
+   {
+    "name": "Philomela",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "became a bird fearing Tereus"
+   },
+   {
+    "name": "Procne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brought an old wooden statue from Athens"
+   },
+   {
+    "name": "Schedius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Iphitus, Phocian king slain by Hector"
+   },
+   {
+    "name": "Iphitus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Schedius"
+   },
+   {
+    "name": "Phocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "possible hero-founder, son of Ornytion"
+   },
+   {
+    "name": "Xanthippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "possible hero-founder famed in war"
+   },
+   {
+    "name": "Ornytion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Phocus"
+   },
+   {
+    "name": "Sisyphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "grandfather of Phocus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cephisus",
+    "relation": "parent_of",
+    "b": "Daulis",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Iphitus",
+    "relation": "parent_of",
+    "b": "Schedius",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Ornytion",
+    "relation": "parent_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Sisyphus",
+    "relation": "parent_of",
+    "b": "Ornytion",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Tereus",
+    "relation": "transformed_into",
+    "b": "hoopoe",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Philomela",
+    "relation": "transformed_into",
+    "b": "bird",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Tereus",
+    "relation": "spouse_of",
+    "b": "Procne",
+    "source": "outside",
+    "evidence_sentence": 23
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 23,
+    "reason": "Claims Daulis saw the first recorded cannibalism, in the Tereus legend.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias tests Homer and local tradition against what he sees, explaining epithets and relics through ritual and landscape.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows a declined Phocis in Roman times, where a poor town like Panopeus still kept ancient cults and myths.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The myth of Tereus, Procne and Philomela was retold by Ovid in the Metamorphoses and influenced later poetry about the nightingale."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias says Panopeus lacked a town hall, gymnasium, theatre, market-place and fountain, yet he doubts it deserves to be called a town.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek measure of about 180–200 metres, so Panopeus lies roughly four kilometres from Chæronea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Homeric lines about Tityus refer to the Odyssey's tale of the giant punished in the underworld; Panopeus is mentioned there as the place from which Rhadamanthus went to see him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Orgies here means secret ritual rites of Dionysus, not the modern sense of the word.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "In one myth Prometheus moulded the first humans from clay, which is why the smelly stones are claimed as leftovers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Roods translates the Greek plethra, a land measure; nine of them would make Tityus enormous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Gades is modern Cadiz in Spain; Hercules' Pillars and shrine there marked the edge of the known world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Daulus means thick or bushy, so Æschylus uses it of a shaggy beard.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Procne and Philomela killed Itys, Tereus' son, and served him to his father in revenge for Tereus' crime against Philomela.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "The Thyiades were women devotees of Dionysus who went up Parnassus every other year for nocturnal dances in his honour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Pentelican marble came from Mount Pentelicus near Athens and was prized for fine sculpture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "In the myth Tereus, Procne and Philomela were turned into a hoopoe, a swallow and a nightingale; the hoopoe's crest suits Tereus the king.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "characterization",
+    "text": "The long list of what Panopeus lacks, built up by repetition of 'no', paints the town as poor and barely a city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "irony",
+    "text": "Cleon's boastful proof of giants relies on a single marvellous sighting, which sounds like a traveller's tall tale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "narrative voice",
+    "text": "Pausanias' curt 'So at least he said' distances himself from the story and signals polite scepticism.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,313 @@
+{
+ "section_id": "pausanias-body-250",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7222,
+  "output": 2595
+ },
+ "result": {
+  "summary": "Pausanias describes Heraea in Arcadia, its temples, its athlete Damaretus, and its borders with Elis. He then covers Aliphera with its Athene cult, and the sites of Melaeneae and Buphagium.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Heraea and its borders",
+    "summary": "Heraea's founder, buildings and temples are described, along with Damaretus and the disputed boundary with Elis, marked by the tomb of Coroebus.",
+    "stakes": "",
+    "present": [
+     "Heraeus",
+     "Damaretus",
+     "Coroebus",
+     "Iphitus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Heræa",
+     "modern_name": "Agios Ioannis, near Heraia, Arcadia",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 21.97
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 16,
+    "title": "Aliphera and Athene",
+    "summary": "Aliphera is reached over a mountain. Its people claim Athene was born there and sacrifice to Muiagrus to be free of flies.",
+    "stakes": "",
+    "present": [
+     "Alipherus",
+     "Athene",
+     "Zeus Lecheates",
+     "Hypatodorus",
+     "Muiagrus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aliphera",
+     "modern_name": "Alifeira",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 21.85
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 19,
+    "title": "Melaeneae and Buphagium",
+    "summary": "Melaeneae is deserted and flooded, and Buphagium lies above it, where the Buphagus rises and marks a boundary.",
+    "stakes": "",
+    "present": [
+     "Melæneus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Melæneæ",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Heræus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycaon, founder of Heraea"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Heraeus, Alipherus and Melaeneus"
+   },
+   {
+    "name": "Alipherus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycaon, namesake of Aliphera"
+   },
+   {
+    "name": "Melæneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycaon, founder of Melaeneae"
+   },
+   {
+    "name": "Damaretus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "athlete of Heraea, first winner of the armed race at Olympia"
+   },
+   {
+    "name": "Corœbus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first Olympic victor, buried on Elis's border"
+   },
+   {
+    "name": "Iphitus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "restored the Olympian games"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "chief goddess of Aliphera"
+   },
+   {
+    "name": "Zeus Lecheates",
+    "aliases": [],
+    "kind": "god",
+    "description": "Zeus worshipped at Aliphera as giver of birth to Athene"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "worshipped at Heraea as Polites and Auxites"
+   },
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "Arcadian god with a temple at Heraea"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose ruined temple stands at Heraea"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple at Aliphera"
+   },
+   {
+    "name": "Muiagrus",
+    "aliases": [
+     "Flycatcher"
+    ],
+    "kind": "god",
+    "description": "fly-driving deity receiving first sacrifice at Aliphera"
+   },
+   {
+    "name": "Hypatodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the bronze Athene"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Heræus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Alipherus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Melæneus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Zeus Lecheates",
+    "relation": "parent_of",
+    "b": "Athene",
+    "source": "text",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Zeus Lecheates",
+    "canonical": "Zeus",
+    "explanation": "Epithet of Zeus meaning roughly 'of childbed', from his giving birth to Athene."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Memorable custom of sacrificing to the Flycatcher to be rid of flies.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local claims shape the account: Aliphera claims Athene's birth and Elis and Arcadia dispute a boundary.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Olympic victor Coroebus and Iphitus's refounding of the games show how Greeks dated their past through athletic records.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Coroebus of Elis is traditionally recorded as the first Olympic victor, in 776 BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Polites means 'of the citizen'; Auxites means 'the increaser' (giver of growth). Both are cult titles of Dionysus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Orgies here means secret ritual rites, not the modern sense of the word.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "The race in heavy armour was the hoplite race, run by competitors carrying shield and armour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "A stade is a Greek measure of length, roughly 600 feet or about 180 metres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Iphitus of Elis traditionally revived the Olympic games; Coroebus is recorded as the first Olympic victor, in the footrace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Lecheates is a title apparently meaning 'of the childbed', hence Zeus 'who gave birth' to Athene.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Tritonis recalls the Triton, a river or lake linked to Athene's birth in other traditions; Aliphera claims that story for itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "Muiagrus is Greek for 'fly-catcher', a hero or god invoked to keep flies away.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Lycaon was the legendary early king of Arcadia, and many Arcadian towns are said to be named for his sons.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Megalopolis was founded around 370 BC, and many small Arcadian towns lost people to it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Æsculapius is the god of healing.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 16,
+    "device": "irony",
+    "text": "The fly-averting rite is told with gentle detachment, and the sacrifice to a minor power comes before the main god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "motif",
+    "text": "Towns named after Lycaon's sons recur, reinforcing Arcadia's founding genealogy.",
+    "spoiler": false
+   }
+  ]
+ }
+}

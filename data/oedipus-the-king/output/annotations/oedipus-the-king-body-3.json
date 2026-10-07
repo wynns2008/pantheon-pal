@@ -1,0 +1,964 @@
+{
+ "section_id": "oedipus-the-king-body-3",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 35500,
+  "output": 10209
+ },
+ "result": {
+  "summary": "The Chorus sing of the unknown murderer and their doubt of the seer. Oedipus accuses Creon of plotting with Tiresias until Jocasta stops the quarrel. She tells of the oracle given to Laius and the killing at the crossing of three ways, and Oedipus, terrified, tells how he fled Corinth and killed a man there, and waits for the herdsman.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 22,
+    "title": "Chorus sing of murderer and seer",
+    "summary": "The Chorus sing of the hunted murderer and their doubt of the prophet's charge, yet vow to stand by Oedipus.",
+    "stakes": "The city's loyalty to Oedipus is tested by the prophet's accusation.",
+    "present": [
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.3213,
+     "lon": 23.3182
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 179,
+    "title": "Oedipus accuses Creon",
+    "summary": "Creon protests his innocence, and Oedipus accuses him of bribing Tiresias and condemns him. Creon argues he has no reason to want the throne.",
+    "stakes": "Creon risks death or banishment on a false charge; Oedipus risks wrongly destroying a loyal kinsman.",
+    "present": [
+     "Creon",
+     "Oedipus",
+     "Leader"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, before the palace",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.3213,
+     "lon": 23.3182
+    }
+   },
+   {
+    "start_sentence": 180,
+    "end_sentence": 288,
+    "title": "Jocasta stops the quarrel",
+    "summary": "Jocasta halts the fight, Creon swears his innocence, and Oedipus lets him go. She tells Oedipus of the oracle to Laius and the exposure of their son.",
+    "stakes": "Oedipus's rule and the peace of Thebes; Creon's life and honour.",
+    "present": [
+     "Jocasta",
+     "Oedipus",
+     "Creon",
+     "Leader",
+     "Laius",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, before the palace",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.3213,
+     "lon": 23.3182
+    }
+   },
+   {
+    "start_sentence": 289,
+    "end_sentence": 359,
+    "title": "The crossing of three ways",
+    "summary": "Oedipus questions Jocasta about Laius's death and grows afraid. She says a surviving servant was sent to the mountains, and Oedipus asks for him.",
+    "stakes": "Oedipus fears he is Laius's murderer.",
+    "present": [
+     "Oedipus",
+     "Jocasta",
+     "Laius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, before the palace",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.3213,
+     "lon": 23.3182
+    }
+   },
+   {
+    "start_sentence": 360,
+    "end_sentence": 388,
+    "title": "Oedipus tells of Corinth",
+    "summary": "Oedipus tells of the taunt, the oracle at Pytho, his flight from Corinth and his killing of the travellers at the crossroads.",
+    "stakes": "He fears he has killed his father and married his mother.",
+    "present": [
+     "Oedipus",
+     "Polybus",
+     "Merope",
+     "Laius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Phokis, crossing of three ways",
+     "modern_name": "Schiste crossroads near Delphi",
+     "certainty": "traditional",
+     "lat": 38.4,
+     "lon": 22.6
+    }
+   },
+   {
+    "start_sentence": 389,
+    "end_sentence": 424,
+    "title": "Waiting for the herdsman",
+    "summary": "Oedipus clings to hope that the herdsman will say a band of robbers killed Laius. Jocasta dismisses prophecy and promises to send for him.",
+    "stakes": "Whether Oedipus is the murderer depends on the herdsman's testimony.",
+    "present": [
+     "Oedipus",
+     "Jocasta",
+     "Leader"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, before the palace",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.3213,
+     "lon": 23.3182
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Thebes, raised in Corinth"
+   },
+   {
+    "name": "Creon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Jocasta's brother, accused of plotting"
+   },
+   {
+    "name": "Jocasta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Queen of Thebes, wife of Oedipus, widow of Laius"
+   },
+   {
+    "name": "Laius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "former King of Thebes, murdered"
+   },
+   {
+    "name": "Polybus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Corinth, Oedipus's supposed father"
+   },
+   {
+    "name": "Merope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Queen of Corinth, Oedipus's supposed mother"
+   },
+   {
+    "name": "Tiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the seer who accused Oedipus"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Loxias"
+    ],
+    "kind": "god",
+    "description": "god of the Delphic oracle"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [
+     "Leader"
+    ],
+    "kind": "mortal",
+    "description": "Theban elders"
+   },
+   {
+    "name": "Leader",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the Chorus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Polybus",
+    "relation": "spouse_of",
+    "b": "Merope",
+    "source": "text",
+    "evidence_sentence": 360
+   },
+   {
+    "a": "Jocasta",
+    "relation": "spouse_of",
+    "b": "Oedipus",
+    "source": "text",
+    "evidence_sentence": 263
+   },
+   {
+    "a": "Jocasta",
+    "relation": "sibling_of",
+    "b": "Creon",
+    "source": "text",
+    "evidence_sentence": 113
+   },
+   {
+    "a": "Laius",
+    "relation": "spouse_of",
+    "b": "Jocasta",
+    "source": "text",
+    "evidence_sentence": 280
+   },
+   {
+    "a": "Laius",
+    "relation": "parent_of",
+    "b": "Oedipus",
+    "source": "outside",
+    "evidence_sentence": 283
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Loxias",
+    "canonical": "Apollo",
+    "explanation": "A title of Apollo as god of prophecy."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 147,
+    "reason": "Creon says only Time can show which hearts are true.",
+    "spoiler": false
+   },
+   {
+    "sentence": 286,
+    "reason": "Jocasta's ironic scorn for prophecy, which will be proved wrong for her.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Oedipus's rash anger contrasts with Creon's calm reasoning. Jocasta's dismissal of prophecy ironically leads Oedipus toward the truth.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The play questions faith in oracles, a live debate in Athens in the fifth century BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Oedipus's fear of having killed his father fed Freud's idea of the Oedipus complex."
+   }
+  ],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Delphi's cell is the shrine of Apollo's oracle at Delphi, whose voice declared that Laius's murderer must be found.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The team of North-Wind's spell recalls the mythic horses said to be begotten by the North Wind; the Chorus wish the murderer had such speed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Child of God is Apollo, son of Zeus; the Sin-Hounds are the Furies, avenging spirits who pursue those guilty of blood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The mountain is Parnassus, home of Delphi; its snows frame the oracle's command as a voice from the heights.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Augur: a seer who interprets signs and omens; here the prophet Tiresias.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Cadmus was Thebes's legendary founder, so Cadmus's house means the Theban royal line; the Chorus ask if Corinth, Oedipus's supposed home, had a feud with it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "List not: do not wish or care to; I will not listen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "The riddling singer is the Sphinx, whom Oedipus defeated by solving her riddle and so saved Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "\"Here am come\" is archaic for \"I have come\"; \"Indignant\" means angry at unjust treatment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "Creon asks whether, if Oedipus is raving, he can truly claim to have received any injury from Creon, in deed or thought.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "\"Groaning name\" means a reputation heavy with accusation; Creon would rather die than live branded a traitor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "word",
+    "text": "\"Demonstrate\" here means openly shown or manifest: Oedipus calls Creon a plotter plainly revealed against his life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "word",
+    "text": "\"Butt\" means target or object of scorn; Oedipus asks why he was chosen as Creon's victim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "word",
+    "text": "\"Betimes\" means in good time, early; \"smite\" means strike down.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "word",
+    "text": "\"Quarry\" is prey in a hunt; a throne is something hunted down with friends and gold.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "word",
+    "text": "\"Wreak\" means to inflict or carry out; Creon asks Oedipus to judge only after hearing him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 70,
+    "kind": "phrasing",
+    "text": "\"That man of prophecies\" is Tiresias, the blind seer whom Creon had advised Oedipus to consult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 81,
+    "kind": "phrasing",
+    "text": "This line is the end of Oedipus' question about Laius; it asks how long ago the king vanished, 'passed' meaning died or disappeared in the violent attack.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "kind": "word",
+    "text": "'Wot' is archaic for 'know'; Oedipus says Creon can speak with full knowledge on one point.",
+    "spoiler": false
+   },
+   {
+    "sentence": 106,
+    "kind": "phrasing",
+    "text": "Oedipus claims Tiresias named him Laius' murderer only after consulting Creon, implying Creon prompted the accusation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "kind": "word",
+    "text": "'Gainsay' means to deny or contradict; Oedipus admits he cannot deny that Creon's sister is his wife.",
+    "spoiler": false
+   },
+   {
+    "sentence": 119,
+    "kind": "word",
+    "text": "'Minister' here means to serve or attend to; Oedipus says he always yields to Jocasta's wishes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 127,
+    "kind": "phrasing",
+    "text": "Creon's question is rhetorical: a ruler who is anxious gains nothing over one who sleeps untroubled, so he has no motive to seek the crown.",
+    "spoiler": false
+   },
+   {
+    "sentence": 130,
+    "kind": "phrasing",
+    "text": "\"I compass at thy hand\" means I obtain everything I want from you, since Oedipus grants Creon all he desires.",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "kind": "phrasing",
+    "text": "\"Were that as sweet\" asks whether kingship, with all its burdens, would be as pleasant as Creon's present untroubled position.",
+    "spoiler": false
+   },
+   {
+    "sentence": 133,
+    "kind": "word",
+    "text": "\"Fain\" means gladly or willingly; Creon asks if he is so foolish as to want to exchange his ease for kingship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 134,
+    "kind": "phrasing",
+    "text": "\"God-speed\" is a wish for success and good fortune, a friendly greeting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 140,
+    "kind": "allusion",
+    "text": "Pytho is Delphi, site of Apollo's oracle. Creon went there and brought back the god's answer about Laius's murderer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 141,
+    "kind": "phrasing",
+    "text": "\"Plots entwined\" means a conspiracy jointly woven; Creon invites a search for evidence of collusion with Tiresias.",
+    "spoiler": false
+   },
+   {
+    "sentence": 149,
+    "kind": "phrasing",
+    "text": "The Leader says one who fears making a mistake speaks wisely; hasty judgments are unsafe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 168,
+    "kind": "phrasing",
+    "text": "\"Born knave\" means a villain by nature; Oedipus insults Creon's character.",
+    "spoiler": false
+   },
+   {
+    "sentence": 183,
+    "kind": "phrasing",
+    "text": "\"Standeth\" is an archaic verb ending; the sentence is inverted for verse, meaning 'the Queen Jocasta stands on the Castle stair.'",
+    "spoiler": false
+   },
+   {
+    "sentence": 188,
+    "kind": "phrasing",
+    "text": "\"Ply your privy hates\" means to busy yourselves with private grudges while the city suffers from plague.",
+    "spoiler": false
+   },
+   {
+    "sentence": 189,
+    "kind": "word",
+    "text": "\"Alack\" is an old exclamation of regret or distress.",
+    "spoiler": false
+   },
+   {
+    "sentence": 204,
+    "kind": "word",
+    "text": "\"Conjure\" here means to appeal to solemnly, as if under oath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 208,
+    "kind": "word",
+    "text": "\"Troth\" means pledged word or fidelity; Creon has never broken faith.",
+    "spoiler": false
+   },
+   {
+    "sentence": 216,
+    "kind": "phrasing",
+    "text": "The Leader asks Oedipus not to condemn to dishonour a sworn kinsman on an unproved charge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 222,
+    "kind": "word",
+    "text": "\"Malison\" means a curse; the speaker calls down utter ruin on himself if he wished such an end.",
+    "spoiler": false
+   },
+   {
+    "sentence": 242,
+    "kind": "phrasing",
+    "text": "The Leader means some groundless, half-formed suspicion arose between Oedipus and Creon, not a clear charge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 245,
+    "kind": "word",
+    "text": "\"Twain\" is an archaic word for \"two\"; \"both the twain\" means both men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 254,
+    "kind": "phrasing",
+    "text": "Oedipus sarcastically tells the Leader to dull his anger before it strikes; \"smite\" means strike.",
+    "spoiler": false
+   },
+   {
+    "sentence": 258,
+    "kind": "allusion",
+    "text": "Refers to Oedipus saving Thebes from the Sphinx and its plague, here pictured as a storm that he calmed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 275,
+    "kind": "phrasing",
+    "text": "\"Priest\" and \"seer\" refer to Tiresias, the blind prophet whom Oedipus accuses of inventing the story at Creon's urging.",
+    "spoiler": false
+   },
+   {
+    "sentence": 280,
+    "kind": "allusion",
+    "text": "Jocasta recalls an oracle given to Laius, her former husband and Oedipus's predecessor as king, that his son would kill him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 282,
+    "kind": "allusion",
+    "text": "The crossing of three ways is where Laius was reportedly killed; Oedipus will recognise this place with alarm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 284,
+    "kind": "allusion",
+    "text": "The child's feet were pierced to expose him. This explains the name Oedipus, \"swollen foot\", though Jocasta does not yet see the link.",
+    "spoiler": false
+   },
+   {
+    "sentence": 290,
+    "kind": "word",
+    "text": "\"Hath\" and \"wrought\" are archaic: \"has\" and \"caused/worked\". The turmoil is what Jocasta's story has stirred up in him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 295,
+    "kind": "phrasing",
+    "text": "\"'Twas\" means \"it was\". Oedipus is checking a detail from Jocasta's earlier account of how Laius died.",
+    "spoiler": false
+   },
+   {
+    "sentence": 305,
+    "kind": "phrasing",
+    "text": "\"A road on either hand\" means a road branches off each side, one from Delphi and one from Daulia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 309,
+    "kind": "phrasing",
+    "text": "\"Proclaim was made of thee for king\" means Oedipus was publicly declared king shortly after the news of Laius's death arrived.",
+    "spoiler": false
+   },
+   {
+    "sentence": 319,
+    "kind": "phrasing",
+    "text": "\"The white new gleaming on his brow\" means his hair had only recently begun to turn grey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 325,
+    "kind": "phrasing",
+    "text": "\"How sayst thou?\" is archaic for \"What do you say?\" It asks Oedipus to repeat or explain what he just said.",
+    "spoiler": false
+   },
+   {
+    "sentence": 328,
+    "kind": "phrasing",
+    "text": "\"If the blind can see\" refers to the blind prophet Tiresias, whose accusation Oedipus now fears may be true.",
+    "spoiler": false
+   },
+   {
+    "sentence": 333,
+    "kind": "word",
+    "text": "\"Scant array\" means a small, plain retinue. \"Lord of land\" means a landholding nobleman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 337,
+    "kind": "phrasing",
+    "text": "\"Aye me!\" is an old exclamation of distress, like \"Alas!\"; \"'Tis\" is \"It is.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 340,
+    "kind": "word",
+    "text": "A \"house-thrall\" is a household slave or servant, here the sole survivor of Laius's party.",
+    "spoiler": false
+   },
+   {
+    "sentence": 348,
+    "kind": "word",
+    "text": "\"Boon\" means a favour or reward; she says the servant deserved more than the request he made.",
+    "spoiler": false
+   },
+   {
+    "sentence": 351,
+    "kind": "word",
+    "text": "\"Herd\" here means herdsman, the shepherd-servant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 357,
+    "kind": "phrasing",
+    "text": "\"Work thee this despite\" means cause you this distress or torment; \"methinks\" means \"it seems to me.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 393,
+    "kind": "phrasing",
+    "text": "'Tis no more: Oedipus means this hope is all he has left, only a shred.",
+    "spoiler": false
+   },
+   {
+    "sentence": 398,
+    "kind": "phrasing",
+    "text": "\"Mark him close\" means watch him closely; \"speak as thou hast\" means tell the story as Jocasta has told it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 404,
+    "kind": "phrasing",
+    "text": "\"The guilt comes not my way\" means he would not be the killer, since he was alone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 406,
+    "kind": "word",
+    "text": "\"Loin-girt\" means with a belt around the loins, dressed for travel; here it means a lone traveller.",
+    "spoiler": false
+   },
+   {
+    "sentence": 415,
+    "kind": "allusion",
+    "text": "Loxias is a title of Apollo, god of prophecy, whose oracle at Delphi spoke the prophecy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 416,
+    "kind": "allusion",
+    "text": "The \"poor deserted one\" is her infant son, left exposed on a mountain to die so the prophecy could not come true.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "The Chorus of Theban elders sing between episodes, commenting on the action and voicing the city's fears.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Zeus and Apollo, king of the gods and god of prophecy, are said to know all; the Chorus contrast divine knowledge with fallible human seers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Creon is Oedipus's brother-in-law, brother of Jocasta. He was sent to Delphi and has learned that Oedipus accuses him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Tiresias, the blind prophet of Thebes, had just named Oedipus as the polluter of the city. Oedipus suspects Creon bribed him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "text": "Laius was the former king of Thebes, killed years earlier. Oedipus begins to turn the questioning onto Creon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 86,
+    "text": "The seer is Tiresias, the blind prophet of Thebes, whom Oedipus believes Creon bribed to accuse him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 113,
+    "text": "Creon is Jocasta's brother, so as Oedipus' brother-in-law he already shares royal honour and power, which underlies his argument.",
+    "spoiler": false
+   },
+   {
+    "sentence": 129,
+    "text": "Creon is Oedipus's brother-in-law, Jocasta's brother. Oedipus suspects him of conspiring with Tiresias to seize the throne.",
+    "spoiler": false
+   },
+   {
+    "sentence": 143,
+    "text": "Oedipus's accusation rests only on Tiresias's charge and his own suspicion; Creon objects that no real proof exists.",
+    "spoiler": false
+   },
+   {
+    "sentence": 177,
+    "text": "Oedipus calls on the Thebans as his own people, appealing to them as their ruler.",
+    "spoiler": false
+   },
+   {
+    "sentence": 180,
+    "text": "Oedipus has accused Creon of plotting with the seer Tiresias to seize the throne, and threatens him with death or exile.",
+    "spoiler": false
+   },
+   {
+    "sentence": 192,
+    "text": "Creon is Jocasta's brother, and so Oedipus's brother-in-law; he calls her \"Sister\" and Oedipus her \"lord\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 221,
+    "text": "The Sun was invoked as an all-seeing witness to oaths in Greek belief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 236,
+    "text": "Creon, Jocasta's brother, leaves after being accused of plotting to seize the throne. The Chorus Leader speaks for the Theban elders.",
+    "spoiler": false
+   },
+   {
+    "sentence": 285,
+    "text": "Apollo was the god of prophecy, whose oracles at Delphi were believed infallible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 304,
+    "text": "Phokis is a region of central Greece. Delphi, site of Apollo's oracle, lay within it, and Daulia was a nearby town.",
+    "spoiler": false
+   },
+   {
+    "sentence": 316,
+    "text": "Laius was the former king of Thebes, Jocasta's first husband, whose murderer Oedipus has sworn to find.",
+    "spoiler": false
+   },
+   {
+    "sentence": 335,
+    "text": "Laius was Jocasta's first husband and the former king of Thebes. He was killed at a place where three roads meet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 345,
+    "text": "The servant asked to leave Thebes once Oedipus became king, since he could not bear to see another man on Laius's throne.",
+    "spoiler": false
+   },
+   {
+    "sentence": 389,
+    "text": "The Leader is the chorus leader, speaking for the elders of Thebes, who fear what the herdsman may reveal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 403,
+    "text": "The herdsman is the sole survivor of Laius' party and earlier reported that robbers, not one man, attacked.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "metaphor",
+    "text": "The pursuing god is thunder-shod and girt with fire, vividly picturing divine vengeance as a fearsome warrior.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "apostrophe",
+    "text": "The Chorus address the absent murderer directly as an angry bull, imagining him as an outcast beast.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "personification",
+    "text": "The oracle's word floats about him, living, like a haunting presence he cannot shake from his ears.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "repetition",
+    "text": "Repeated words like strange and float mimic the Chorus's uneasy wavering between belief and doubt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "dramatic irony",
+    "text": "The Chorus's loyalty to Oedipus is touching because the audience knows he is the murderer they seek.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "hyperbole",
+    "text": "Creon says the wound is a \"multitude\", stressing how widely the slander would damage his name among all Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "device": "characterization",
+    "text": "The Leader's deference, \"my masters\", shows a cautious citizen unwilling to judge rulers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "device": "irony",
+    "text": "Oedipus, who seeks a murderer, calls Creon \"assassin\" with no proof, while he himself is the one unknowingly guilty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "device": "metaphor",
+    "text": "Oedipus speaks of the throne as game to be hunted, picturing Creon's supposed plot as a hunt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "device": "dramatic irony",
+    "text": "Oedipus speaks of blind eyes, though the audience knows he is blind to the truth about himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 121,
+    "device": "rhetorical question",
+    "text": "Creon uses leading questions to build a logical case that he already shares power and has no reason to plot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 126,
+    "device": "dramatic irony",
+    "text": "Oedipus rejects the truth he is told; the audience knows he is indeed Laius' killer, so his accusations rebound upon him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 136,
+    "device": "rhetorical question",
+    "text": "Creon asks questions that answer themselves, making the idea that he would give up his comfort to plot seem absurd.",
+    "spoiler": false
+   },
+   {
+    "sentence": 147,
+    "device": "personification",
+    "text": "Time is treated as an agent that brings truth back and reveals which hearts are loyal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 151,
+    "device": "antithesis",
+    "text": "Repeating \"swift\" and \"plot\" mirrors Oedipus's logic: he will answer plotting with quicker plotting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 179,
+    "device": "irony",
+    "text": "Creon's reply turns the king's cry back on him, asserting that the city belongs to all its citizens, not to one ruler.",
+    "spoiler": false
+   },
+   {
+    "sentence": 188,
+    "device": "metaphor",
+    "text": "The city \"bleeding\" pictures the plague as a wound, reminding the quarrelers of the greater suffering around them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 227,
+    "device": "characterization",
+    "text": "Oedipus yields only reluctantly and promises lasting hatred, showing his stubborn, suspicious temper.",
+    "spoiler": false
+   },
+   {
+    "sentence": 229,
+    "device": "paradox",
+    "text": "\"Mercy moving full of hate\" joins opposites to expose that Oedipus's pardon is grudging.",
+    "spoiler": false
+   },
+   {
+    "sentence": 258,
+    "device": "metaphor",
+    "text": "Thebes' plague and troubles become a storm, and Oedipus's past help becomes blue sky and summer seas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 286,
+    "device": "dramatic irony",
+    "text": "Jocasta cites the exposed child as proof that prophecy fails, but the audience knows the oracle came true.",
+    "spoiler": false
+   },
+   {
+    "sentence": 288,
+    "device": "irony",
+    "text": "Jocasta's confident dismissal of seers will be undone by the play's events, as the gods make their truths clear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 311,
+    "device": "dramatic irony",
+    "text": "The audience senses what Oedipus is only beginning to fear: that he himself may be the killer he is hunting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 320,
+    "device": "foreshadowing",
+    "text": "Jocasta's casual remark that Laius resembled Oedipus hints at the truth, though she does not grasp it yet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 323,
+    "device": "tragic irony",
+    "text": "Oedipus fears he has cursed himself unknowingly, recalling his own proclamation against Laius's killer, which now condemns him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 327,
+    "device": "aside",
+    "text": "Oedipus speaks to himself, letting the audience hear his private dread that Jocasta cannot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 337,
+    "device": "dramatic irony",
+    "text": "Oedipus begins to see the truth about the killing, while Jocasta still does not grasp what her answers imply.",
+    "spoiler": false
+   },
+   {
+    "sentence": 355,
+    "device": "characterization",
+    "text": "Oedipus fears his own words, showing a man who has pronounced a curse and may have condemned himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 406,
+    "device": "foreshadowing",
+    "text": "Oedipus names the very outcome, a lone man as killer, that will prove true, hinting at his guilt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 416,
+    "device": "dramatic irony",
+    "text": "Jocasta presents the child's death as proof against the oracle, but the audience suspects that child is Oedipus himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 417,
+    "device": "characterization",
+    "text": "Jocasta's dismissal of prophecy shows her skeptical, impatient nature, and her confidence soon looks tragically misplaced.",
+    "spoiler": false
+   }
+  ]
+ }
+}

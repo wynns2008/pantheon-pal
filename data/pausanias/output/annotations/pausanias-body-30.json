@@ -1,0 +1,341 @@
+{
+ "section_id": "pausanias-body-30",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7132,
+  "output": 2754
+ },
+ "result": {
+  "summary": "Pausanias describes the Academy outside Athens, with its altars, the torch race and the story of Anteros. He then covers Plato's tomb and the swan dream, Timon's tower, and Colonus with its sacred precincts.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Altars of Eros and Anteros",
+    "summary": "An altar of Eros stands before the Academy. Pausanias tells how Meles and Timagoras died and why aliens worship Anteros.",
+    "stakes": "Timagoras risks his life to please Meles; Meles is destroyed by remorse.",
+    "present": [
+     "Meles",
+     "Timagoras",
+     "Charmus",
+     "Eros",
+     "Anteros"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 12,
+    "title": "Academy altars and torch race",
+    "summary": "Pausanias describes the altar of Prometheus, the torch race to the city, and other altars and an olive-tree.",
+    "stakes": "",
+    "present": [
+     "Prometheus",
+     "Hermes",
+     "Athene",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The Academy",
+     "modern_name": "Akadimia Platonos, Athens",
+     "certainty": "real",
+     "lat": 37.9916,
+     "lon": 23.7119
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 16,
+    "title": "Plato's tomb and the swan",
+    "summary": "Plato's tomb is near. Socrates dreamed of a swan, and Pausanias recounts Cycnus and doubts the transformation.",
+    "stakes": "",
+    "present": [
+     "Plato",
+     "Socrates",
+     "Cycnus",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ligyan land across the Eridanus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 20,
+    "title": "Timon's tower and Colonus",
+    "summary": "Pausanias notes Timon's tower, Colonus with its Poseidon and Athene altars, and hero-chapels. Antigonus burned Poseidon's grove.",
+    "stakes": "Poseidon's grove and temple are destroyed by Antigonus's invasion.",
+    "present": [
+     "Timon",
+     "Poseidon",
+     "Athene",
+     "Œdipus",
+     "Pirithous",
+     "Theseus",
+     "Adrastus",
+     "Antigonus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Colonus",
+     "modern_name": "Kolonos, Athens",
+     "certainty": "real",
+     "lat": 37.9934,
+     "lon": 23.7164
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Charmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who first made offerings to Eros"
+   },
+   {
+    "name": "Eros",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of love, with an altar at the Academy"
+   },
+   {
+    "name": "Anteros",
+    "aliases": [],
+    "kind": "god",
+    "description": "avenger of Timagoras, worshipped by resident aliens"
+   },
+   {
+    "name": "Meles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian youth who killed himself from remorse"
+   },
+   {
+    "name": "Timagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "resident alien who leapt from the rock for Meles"
+   },
+   {
+    "name": "Prometheus",
+    "aliases": [],
+    "kind": "god",
+    "description": "has an altar from which the torch race runs"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "has an altar in the Academy"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "has altars at the Academy and Colonus"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "has an altar in the Academy"
+   },
+   {
+    "name": "Plato",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "philosopher buried near the Academy"
+   },
+   {
+    "name": "Socrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dreamed of a swan before Plato became his pupil"
+   },
+   {
+    "name": "Cycnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "musical king of the Ligyans, said to become a swan"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "changed Cycnus into a bird"
+   },
+   {
+    "name": "Timon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "misanthrope with a tower"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of horses, honoured at Colonus"
+   },
+   {
+    "name": "Œdipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have come first to Colonus"
+   },
+   {
+    "name": "Pirithous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a chapel"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a chapel"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a chapel"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "invader who burned Poseidon's grove"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cycnus",
+    "relation": "transformed_into",
+    "b": "swan",
+    "source": "text",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Pausanias's rationalist doubt about myths of transformation.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links cult sites with local stories, mixing piety with skeptical comment on myth.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Academy was Plato's school site, and its cults and torch race show Athenian civic religion.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The word Academy for a place of learning derives from Plato's school at this site."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The torch race described is the lampadedromia, a real Athenian festival relay.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Resident aliens\" translates metics: free foreigners living in Athens without citizen rights. \"Enamoured\" means in love; the rock is the Acropolis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Stripling\" means a youth, here the young Meles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Anteros means \"love returned\" or counter-love; here he avenges unrequited love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"The Deity\" is the translator's generic term for the divine power, here sending Socrates a prophetic dream.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Cycnus is Greek for swan. The Eridanus is a legendary northern river, and the Ligyans were a people of the west; Pausanias places them in Celtic lands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Homer does not bring Œdipus to Colonus; the Athenian tradition, known from Sophocles' Œdipus at Colonus, differs, as Pausanias admits.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The Academy was a grove and gymnasium outside Athens, later the site of Plato's philosophical school.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Prometheus stole fire for mankind in myth, so the torch race fittingly starts from his altar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Timon of Athens was a proverbial misanthrope of the Peloponnesian War era, later the subject of Shakespeare's play.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "irony",
+    "text": "Meles's cruel command ends in his own death through remorse, a reversal that makes the altar's story a moral tale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "symbolism",
+    "text": "The swan, a bird linked with music and Apollo, signifies Plato's coming gifts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "narrative voice",
+    "text": "Pausanias's dry skepticism appears as he accepts the king but rejects the metamorphosis.",
+    "spoiler": false
+   }
+  ]
+ }
+}

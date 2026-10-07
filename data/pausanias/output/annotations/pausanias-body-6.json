@@ -1,0 +1,423 @@
+{
+ "section_id": "pausanias-body-6",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9237,
+  "output": 3597
+ },
+ "result": {
+  "summary": "Pausanias recounts how the first Ptolemy came to rule Egypt after Alexander's death, his wars with Perdiccas and Antigonus, and the part played by Demetrius, Cassander and Lysimachus. He ends with Ptolemy's parentage and the family of Berenice.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Ptolemy's origin and rise",
+    "summary": "Pausanias explains why he records these kings' deeds, then gives Ptolemy's parentage and his role after Alexander's death.",
+    "stakes": "",
+    "present": [
+     "Ptolemy",
+     "Alexander",
+     "Aridæus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Asia Minor and Oxydracæ",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 9,
+    "title": "Ptolemy secures Egypt",
+    "summary": "Ptolemy kills Cleomenes, takes Alexander's body, and fends off Perdiccas, who is murdered. Ptolemy then seizes Syria and Phoenicia and recruits allies against Antigonus.",
+    "stakes": "Ptolemy risks losing Egypt to Perdiccas and then to Antigonus.",
+    "present": [
+     "Ptolemy",
+     "Cleomenes",
+     "Perdiccas",
+     "Aridæus",
+     "Alexander",
+     "Seleucus",
+     "Antigonus",
+     "Cassander",
+     "Lysimachus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Egypt",
+     "modern_name": "Egypt",
+     "certainty": "real",
+     "lat": 30.04,
+     "lon": 31.24
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 22,
+    "title": "War with Antigonus and Demetrius",
+    "summary": "Antigonus and Demetrius take Syria, defeat Ptolemy at Cyprus and blockade Egypt, then fail at Rhodes. Antigonus is finally defeated and dies, and Ptolemy regains Syria and Cyprus.",
+    "stakes": "Ptolemy's kingdom is besieged; Antigonus risks everything on conquest.",
+    "present": [
+     "Antigonus",
+     "Demetrius",
+     "Ptolemy",
+     "Menelaus",
+     "Cassander",
+     "Lysimachus",
+     "Seleucus",
+     "Pyrrhus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Syria, Cyprus, Pelusium, Rhodes",
+     "modern_name": "Eastern Mediterranean",
+     "certainty": "real",
+     "lat": 33.5,
+     "lon": 33.0
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 24,
+    "title": "Cyrene and Ptolemy's father",
+    "summary": "Magas retakes Cyrene. Pausanias notes Philip's passion for Berenice, from whom Ptolemy was born.",
+    "stakes": "",
+    "present": [
+     "Magas",
+     "Berenice",
+     "Philip",
+     "Eurydice",
+     "Ptolemy"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Cyrene",
+     "modern_name": "Shahhat, Libya",
+     "certainty": "real",
+     "lat": 32.82,
+     "lon": 21.86
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ptolemy",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian ruler of Egypt, said to be Philip's son"
+   },
+   {
+    "name": "Attalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king whose deeds Pausanias mentions"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amyntas, alleged father of Ptolemy"
+   },
+   {
+    "name": "Lagus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "putative father of Ptolemy"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alexander the Great, whose body Ptolemy buries; also his young son"
+   },
+   {
+    "name": "Aridæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Philip, proposed heir"
+   },
+   {
+    "name": "Cleomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "satrap of Egypt killed by Ptolemy"
+   },
+   {
+    "name": "Perdiccas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "general who attacked Ptolemy and was assassinated"
+   },
+   {
+    "name": "Roxana",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of young Alexander"
+   },
+   {
+    "name": "Oxyartes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Roxana"
+   },
+   {
+    "name": "Seleucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "exile helped by Ptolemy"
+   },
+   {
+    "name": "Antiochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Seleucus"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "rival king, opponent of Ptolemy"
+   },
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Antipater, ally against Antigonus"
+   },
+   {
+    "name": "Antipater",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cassander and Eurydice"
+   },
+   {
+    "name": "Lysimachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Thrace, ally of Ptolemy"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Antigonus, able young commander"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ptolemy's satrap in Cyprus"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "restored to Epirus by Ptolemy"
+   },
+   {
+    "name": "Magas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Berenice, retook Cyrene"
+   },
+   {
+    "name": "Berenice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Ptolemy, mother of Magas; also Philip's beloved"
+   },
+   {
+    "name": "Eurydice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Antipater, wife of Philip"
+   },
+   {
+    "name": "Eumenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "enemy in Antigonus' long war"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Ptolemy",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Lagus",
+    "relation": "parent_of",
+    "b": "Ptolemy",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Antipater",
+    "relation": "parent_of",
+    "b": "Cassander",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Antigonus",
+    "relation": "parent_of",
+    "b": "Demetrius",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Berenice",
+    "relation": "parent_of",
+    "b": "Magas",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Philip",
+    "relation": "spouse_of",
+    "b": "Eurydice",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Philip",
+    "relation": "lover_of",
+    "b": "Berenice",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Antipater",
+    "relation": "parent_of",
+    "b": "Eurydice",
+    "source": "text",
+    "evidence_sentence": 24
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Memorable description of Demetrius as a boy in years, a man in intellect.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "The passage summarizes the Wars of the Successors after Alexander, showing how Hellenistic kingdoms like Ptolemaic Egypt arose.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Pausanias writes history to preserve deeds he thinks are being forgotten, and he adds moral judgments such as on Cassander's ingratitude.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Ptolemy founded the Ptolemaic dynasty, which ruled Egypt until Cleopatra VII's death in 30 BC."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias gives the tradition that Ptolemy was Philip's son, a story reported by Macedonians that may have helped legitimize his rule.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Putatively\" means supposedly or reputedly. Ptolemy was officially Lagus's son, though the Macedonians held that Philip was his real father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "At Oxydracæ (the Malli town in India) Alexander was gravely wounded storming a wall, and his companions rushed to save him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "A satrap was a provincial governor under the Persian system, which Alexander kept for his conquered territories.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Specious\" means seeming right or plausible but actually false. Perdiccas used the kings as a pretext for his expedition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Coup-de-main\" is French for a sudden, vigorous surprise attack that succeeds at once.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"On the qui vive\" means on the alert, watching for any sign of attack.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Pyrrhus is the later king of Epirus. Thesprotian Epirus names the region where the Thesprotians lived.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "After Alexander died in 323 BC, his generals divided his empire. Aridæus, Philip's son, was Alexander's half-brother, and some wanted him as sole ruler.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Alexander's body was being carried toward Macedonia (Ægæ), the royal burial place. Ptolemy diverted it to Egypt, which gave him great prestige.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Perdiccas died in 321 BC after failing to cross the Nile against Ptolemy; his own officers killed him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Antigonus was defeated and killed at the battle of Ipsus in 301 BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "antithesis",
+    "text": "\"A boy in years a man in intellect\" balances opposites to praise Demetrius's precocity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "irony",
+    "text": "Cassander's ingratitude is condemned as the worst, since he fought the very man who had preserved his rule.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "characterization",
+    "text": "Philip's passion is presented as an inherited trait, and the remark about \"madness for women\" colours Ptolemy's line.",
+    "spoiler": false
+   }
+  ]
+ }
+}

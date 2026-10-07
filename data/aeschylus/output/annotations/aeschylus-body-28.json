@@ -1,0 +1,513 @@
+{
+ "section_id": "aeschylus-body-28",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 13157,
+  "output": 4533
+ },
+ "result": {
+  "summary": "After a prefatory list of characters and an Argument recounting the story of Laius, Oedipus and his cursed sons, the play opens on Thebes under siege. Eteocles rallies the citizens to man the walls, a Scout reports that seven champions have sworn an oath and are casting lots for the gates, and Eteocles prays to the gods to spare the city.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 23,
+    "title": "Cast list and Argument",
+    "summary": "The cast, setting and a summary of the curse on the house of Laïus are given, ending with the brothers killing each other.",
+    "stakes": "",
+    "present": [
+     "Laïus",
+     "Oedipus",
+     "Eteocles",
+     "Polynices",
+     "Antigone",
+     "Ismene"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3223,
+     "lon": 23.3181
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 41,
+    "title": "Eteocles rallies the citizens",
+    "summary": "Eteocles calls the Thebans to defend the walls, citing the seer's warning of a great assault.",
+    "stakes": "The fall of Thebes and Eteocles' own name blamed for disaster.",
+    "present": [
+     "Eteocles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The Acropolis of Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3223,
+     "lon": 23.3181
+    }
+   },
+   {
+    "start_sentence": 42,
+    "end_sentence": 54,
+    "title": "The Scout's report",
+    "summary": "The Scout reports that seven warriors have sworn an oath and cast lots for the gates, and urges Eteocles to prepare.",
+    "stakes": "Thebes faces an imminent attack by sworn, death-resolved enemies.",
+    "present": [
+     "Scout",
+     "Eteocles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The Acropolis of Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3223,
+     "lon": 23.3181
+    }
+   },
+   {
+    "start_sentence": 55,
+    "end_sentence": 60,
+    "title": "Eteocles prays",
+    "summary": "Eteocles prays to Zeus, Earth and the Curse to spare the city from slavery.",
+    "stakes": "Destruction and enslavement of Thebes.",
+    "present": [
+     "Eteocles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "The Acropolis of Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3223,
+     "lon": 23.3181
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Eteocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Oedipus, king of Thebes and defender of the city"
+   },
+   {
+    "name": "Scout",
+    "aliases": [
+     "Messenger"
+    ],
+    "kind": "mortal",
+    "description": "spy who reports on the Argive army"
+   },
+   {
+    "name": "Laïus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Cadmeans, warned by Apollo to die childless"
+   },
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Laïus who killed his father and married his mother"
+   },
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Oedipus who leads Argos against Thebes"
+   },
+   {
+    "name": "Antigone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Oedipus"
+   },
+   {
+    "name": "Ismene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Oedipus"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Argos, father-in-law of Polynices"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "lord of Delphi who warned Laïus"
+   },
+   {
+    "name": "Teiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "seer who warned Eteocles"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Zeus the Averter"
+    ],
+    "kind": "god",
+    "description": "chief god invoked to protect Thebes"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "war god by whom the oath is sworn"
+   },
+   {
+    "name": "Enyo",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "war goddess invoked in the oath"
+   },
+   {
+    "name": "Sphinx",
+    "aliases": [],
+    "kind": "monster",
+    "description": "monster that ravaged Thebes, destroyed by Oedipus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Laïus",
+    "relation": "parent_of",
+    "b": "Oedipus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Eteocles",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Polynices",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Antigone",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Ismene",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Eteocles",
+    "relation": "sibling_of",
+    "b": "Polynices",
+    "source": "text",
+    "evidence_sentence": 18
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cadmeans",
+    "canonical": "Thebans",
+    "explanation": "Thebans are called Cadmeans after the city's founder Cadmus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 47,
+    "reason": "Vivid image of the attackers' silent, iron resolve, like lions.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The opening sets duty to the city against the inherited family curse, a tension that drives the whole play.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The play was staged in 467 B.C. at the City Dionysia, and its stress on defending a free Greek-speaking city would resonate after the Persian Wars.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Theban cycle of Laïus, Oedipus and their sons, which this play closes, shaped later tragedies such as Sophocles' Antigone."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "This play was the last of a connected trilogy about the house of Laïus; the earlier plays are lost.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Acropolis: the fortified high ground of a Greek city, here Thebes, where temples and altars stood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The City Dionysia was Athens' spring festival of Dionysus, where tragedies were performed in competition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Cadmeans: the Thebans, named after Cadmus, the legendary founder of Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Exposed to his death\" means abandoned outdoors as an infant to die, a practice in the ancient Greek world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Misdoubt\" means to be suspicious or uncertain about; Oedipus began to doubt who his parents were.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Unbeknown to himself\" means without his knowing; he did not know the man he killed was his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"Treated him sore ill\" is archaic for treating him very badly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Burghers are citizens of a town; here, the Theban men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "\"Burghers of Cadmus\" means citizens of Thebes, which Cadmus founded; Thebans are also called Cadmeans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"Bruited\" means spread about as rumor; the sense is that Eteocles' name would be on everyone's lips in blame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "allusion",
+    "text": "Zeus the Averter: Zeus in his role as warder-off of evil; \"true to his name\" plays on the title's meaning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "\"Cumber\" means burden or trouble; the earth bore the labor of raising them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "phrasing",
+    "text": "The seer judges omens by hearing and thought, \"with no help from fire,\" meaning without divination by burnt offerings; he relies on bird signs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "phrasing",
+    "text": "\"Bootless quest\" means a fruitless errand; Eteocles trusts his scouts will not return empty-handed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "word",
+    "text": "Cadmeans are the people of Thebes, named after Cadmus, the legendary founder of the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "word",
+    "text": "\"Imbrue\" means to stain or drench, here with blood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "allusion",
+    "text": "Adrastus was king of Argos and leader of the expedition; the warriors leave keepsakes on his chariot to be sent home if they die.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "phrasing",
+    "text": "\"Marshal thee amain\" means \"draw up for battle at once, with full force.\" \"Thee\" is the reflexive \"yourself.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "word",
+    "text": "\"Ports\" and \"outlets of the gates\" refer to the city's gateways, where each attacker will be matched with a defender.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "kind": "allusion",
+    "text": "The Curse is the one Oedipus laid on his sons Eteocles and Polynices, that they would divide their inheritance by the sword.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "kind": "word",
+    "text": "\"Extirpate\" means to destroy completely, root out.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "The Messenger is also called a scout; he reports on the Argive army outside the walls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Apollo's oracle at Delphi was the most authoritative prophetic shrine in Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "The Sphinx was a monster that killed Thebans who could not answer her riddle; Oedipus solved it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Argos was a major city of the Peloponnese; Polynices gained its king Adrastus as ally and father-in-law.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Teiresias was the famous blind seer of Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Eteocles, son of Oedipus, is king of Thebes; Polynices, his brother, leads the besieging army.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "The seer is Amphiaraus' fellow prophet figure in Thebes' camp lore; here he reads bird omens. Achaeans is a name for the Argive attackers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "text": "Enyo is a goddess of war, a companion of Ares. Rout is the personified panic that drives armies to flight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "text": "Eteocles is Oedipus' son and king of Thebes. His brother Polynices leads the Argive army besieging the city.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "foreshadowing",
+    "text": "The oracle's condition sets up the inherited doom that drives the whole tragedy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "irony",
+    "text": "Oedipus blinds himself over what he failed to see; the self-inflicted blindness answers his earlier ignorance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "characterization",
+    "text": "Eteocles is shown as caught between inherited doom and martial pride, choosing honour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "fate",
+    "text": "The closing line shows the curse and the oracle converging, giving the story a sense of inevitability.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "metaphor",
+    "text": "The state is a ship and the ruler its steersman, staying awake to guide it safely.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "personification",
+    "text": "Mother Earth is a nurse who reared the citizens, making defense of the land a duty to a parent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "metaphor",
+    "text": "The seer is called the \"shepherd of birds,\" picturing him as tending the flocks whose flight he interprets.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "characterization",
+    "text": "Eteocles shows himself as cautious and self-assured, confident he cannot be tricked.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "simile",
+    "text": "The silent, grieving warriors are compared to lions, stressing their fierce, controlled courage and making them seem terrifying.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "device": "metaphor",
+    "text": "The king is a helmsman and war a storm, an extended image of the city as a ship; it recurs through the play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "device": "apostrophe",
+    "text": "Eteocles addresses the gods and the Curse directly, a formal prayer. Invoking the Curse among protectors hints ironically at the doom it brings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "device": "characterization",
+    "text": "Eteocles' practical, bargaining tone shows a pragmatic leader who frames piety as civic interest.",
+    "spoiler": false
+   }
+  ]
+ }
+}

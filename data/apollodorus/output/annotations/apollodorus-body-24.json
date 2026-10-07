@@ -1,0 +1,934 @@
+{
+ "section_id": "apollodorus-body-24",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 17059,
+  "output": 7960
+ },
+ "result": {
+  "summary": "Apollodorus follows Dionysus as he spreads his worship and punishes those who refuse him, then turns to the Theban royal house: Cadmus's end, the rise of Amphion and Zethus, Niobe's pride, and the story of Laius and Oedipus, who solves the Sphinx's riddle and ends in exile.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Dionysus and Lycurgus",
+    "summary": "Mad Dionysus wanders to Phrygia, is initiated by Rhea, and is driven out by Lycurgus. Dionysus drives Lycurgus mad and he kills his son; the Edonians then put him to death.",
+    "stakes": "Lycurgus risks the god's wrath for rejecting him; Dionysus risks his mission and his followers.",
+    "present": [
+     "Dionysus",
+     "Hera",
+     "Proteus",
+     "Rhea",
+     "Lycurgus",
+     "Dryas",
+     "Thetis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thrace, Edonians by the Strymon",
+     "modern_name": "Thrace, northern Greece",
+     "certainty": "real",
+     "lat": 41.0,
+     "lon": 23.8
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 17,
+    "title": "Dionysus at Thebes, Argos, sea",
+    "summary": "Dionysus makes the Theban women rave, and Pentheus is torn apart by Agave. He drives the Argive women mad, turns pirates into dolphins, and brings his mother to heaven.",
+    "stakes": "Pentheus and the pirates risk destruction for defying a god.",
+    "present": [
+     "Dionysus",
+     "Pentheus",
+     "Agave",
+     "Echion",
+     "Cadmus",
+     "Thyone"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes and Cithaeron",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 22,
+    "title": "Cadmus and Harmonia leave",
+    "summary": "Cadmus and Harmonia lead the Encheleans to victory over the Illyrians. They are turned into serpents and sent to the Elysian Fields.",
+    "stakes": "",
+    "present": [
+     "Cadmus",
+     "Harmonia",
+     "Illyrius",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Illyria",
+     "modern_name": "Western Balkans",
+     "certainty": "real",
+     "lat": 42.5,
+     "lon": 19.0
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 38,
+    "title": "Antiope and the twins",
+    "summary": "Lycus usurps Thebes; Antiope's sons Zethus and Amphion kill Lycus, bind Dirce to a bull, fortify Thebes and expel Laius.",
+    "stakes": "Antiope suffers captivity; Lycus and Dirce face vengeance.",
+    "present": [
+     "Polydorus",
+     "Labdacus",
+     "Laius",
+     "Lycus",
+     "Nycteus",
+     "Antiope",
+     "Zeus",
+     "Epopeus",
+     "Zethus",
+     "Amphion",
+     "Dirce",
+     "Hermes",
+     "Pelops",
+     "Chrysippus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 39,
+    "end_sentence": 44,
+    "title": "Niobe's boast",
+    "summary": "Niobe boasts she has more children than Latona. Artemis and Apollo kill the children, and Niobe turns to stone at Sipylus.",
+    "stakes": "Niobe's children and her own life.",
+    "present": [
+     "Zethus",
+     "Thebe",
+     "Amphion",
+     "Niobe",
+     "Latona",
+     "Artemis",
+     "Apollo",
+     "Tantalus",
+     "Chloris",
+     "Neleus",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes and Mount Sipylus",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 45,
+    "end_sentence": 55,
+    "title": "Laius, Oedipus and the crossroads",
+    "summary": "Laius ignores the oracle and exposes his infant son, who is raised in Corinth as Oedipus. Warned at Delphi, he kills Laius on the road.",
+    "stakes": "Oedipus is fated to kill his father and marry his mother.",
+    "present": [
+     "Laius",
+     "Jocasta",
+     "Polybus",
+     "Periboea",
+     "Oedipus",
+     "Polyphontes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Narrow road in Phocis",
+     "modern_name": "Schiste crossroads, Phocis",
+     "certainty": "traditional",
+     "lat": 38.5,
+     "lon": 22.6
+    }
+   },
+   {
+    "start_sentence": 56,
+    "end_sentence": 67,
+    "title": "The Sphinx and Oedipus's fall",
+    "summary": "Oedipus solves the Sphinx's riddle, becomes king and marries Jocasta. When the truth emerges, she hangs herself and he blinds himself and goes into exile, dying at Colonus.",
+    "stakes": "Thebes is losing its people to the Sphinx; Oedipus risks the fate foretold.",
+    "present": [
+     "Creon",
+     "Sphinx",
+     "Oedipus",
+     "Haemon",
+     "Jocasta",
+     "Antigone",
+     "Theseus",
+     "Polynices",
+     "Eteocles",
+     "Ismene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of the vine who spreads his rites"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "drives Dionysus mad and sends the Sphinx"
+   },
+   {
+    "name": "Proteus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Egypt"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "purifies and initiates Dionysus"
+   },
+   {
+    "name": "Lycurgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Edonian king who expelled Dionysus"
+   },
+   {
+    "name": "Dryas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycurgus, killed by him"
+   },
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "sea goddess, daughter of Nereus"
+   },
+   {
+    "name": "Pentheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Thebes torn apart by his mother"
+   },
+   {
+    "name": "Agave",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Pentheus"
+   },
+   {
+    "name": "Echion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pentheus"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "former Theban king, turned into a serpent"
+   },
+   {
+    "name": "Harmonia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Cadmus"
+   },
+   {
+    "name": "Thyone",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Dionysus's mother, brought from Hades"
+   },
+   {
+    "name": "Illyrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cadmus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Antiope's sons"
+   },
+   {
+    "name": "Polydorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Thebes, father of Labdacus"
+   },
+   {
+    "name": "Nycteis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Polydorus"
+   },
+   {
+    "name": "Nycteus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Antiope"
+   },
+   {
+    "name": "Labdacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Thebes, father of Laius"
+   },
+   {
+    "name": "Laius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Thebes, killed by his son"
+   },
+   {
+    "name": "Lycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "usurper of Thebes"
+   },
+   {
+    "name": "Antiope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Zethus and Amphion"
+   },
+   {
+    "name": "Epopeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Sicyon who married Antiope"
+   },
+   {
+    "name": "Zethus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "cattle-breeding twin, co-king of Thebes"
+   },
+   {
+    "name": "Amphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "lyre-playing twin, co-king of Thebes"
+   },
+   {
+    "name": "Dirce",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Lycus, killed by the twins"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "gave Amphion a lyre"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "host of Laius in Peloponnese"
+   },
+   {
+    "name": "Chrysippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Pelops, carried off by Laius"
+   },
+   {
+    "name": "Thebe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Zethus"
+   },
+   {
+    "name": "Niobe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Amphion, boasted of her children"
+   },
+   {
+    "name": "Tantalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Niobe"
+   },
+   {
+    "name": "Latona",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Artemis and Apollo"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "kills Niobe's daughters"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "kills Niobe's sons"
+   },
+   {
+    "name": "Chloris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "surviving daughter of Niobe"
+   },
+   {
+    "name": "Neleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Chloris"
+   },
+   {
+    "name": "Jocasta",
+    "aliases": [
+     "Epicasta"
+    ],
+    "kind": "mortal",
+    "description": "wife of Laius, then of Oedipus"
+   },
+   {
+    "name": "Polybus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Corinth"
+   },
+   {
+    "name": "Periboea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Polybus who adopted Oedipus"
+   },
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Laius who kills him and weds his mother"
+   },
+   {
+    "name": "Polyphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "herald of Laius"
+   },
+   {
+    "name": "Creon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Thebes after Laius"
+   },
+   {
+    "name": "Sphinx",
+    "aliases": [],
+    "kind": "monster",
+    "description": "riddling monster sent by Hera"
+   },
+   {
+    "name": "Haemon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Creon eaten by the Sphinx"
+   },
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Oedipus"
+   },
+   {
+    "name": "Eteocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Oedipus"
+   },
+   {
+    "name": "Ismene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Oedipus"
+   },
+   {
+    "name": "Antigone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Oedipus who accompanies him"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "receives Oedipus at Colonus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Echion",
+    "relation": "parent_of",
+    "b": "Pentheus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Agave",
+    "relation": "parent_of",
+    "b": "Pentheus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Cadmus",
+    "relation": "parent_of",
+    "b": "Illyrius",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Cadmus",
+    "relation": "transformed_into",
+    "b": "serpent",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Antiope",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Antiope",
+    "relation": "parent_of",
+    "b": "Amphion",
+    "source": "text",
+    "evidence_sentence": 31
+   },
+   {
+    "a": "Antiope",
+    "relation": "parent_of",
+    "b": "Zethus",
+    "source": "text",
+    "evidence_sentence": 31
+   },
+   {
+    "a": "Amphion",
+    "relation": "spouse_of",
+    "b": "Niobe",
+    "source": "text",
+    "evidence_sentence": 39
+   },
+   {
+    "a": "Niobe",
+    "relation": "transformed_into",
+    "b": "stone",
+    "source": "text",
+    "evidence_sentence": 44
+   },
+   {
+    "a": "Laius",
+    "relation": "parent_of",
+    "b": "Oedipus",
+    "source": "text",
+    "evidence_sentence": 48
+   },
+   {
+    "a": "Oedipus",
+    "relation": "spouse_of",
+    "b": "Jocasta",
+    "source": "text",
+    "evidence_sentence": 64
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Antigone",
+    "source": "text",
+    "evidence_sentence": 64
+   },
+   {
+    "a": "Typhon",
+    "relation": "parent_of",
+    "b": "Sphinx",
+    "source": "text",
+    "evidence_sentence": 58
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Epicasta",
+    "canonical": "Jocasta",
+    "explanation": "Some sources give Laius's wife this name instead."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 60,
+    "reason": "The Sphinx's famous riddle about the stages of human life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "reason": "The Delphic oracle's prophecy that drives Oedipus's tragedy.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Denying a god's power brings ruin, as Lycurgus, Pentheus and Niobe all find. Fate also works through attempts to avoid it, as with Laius and Oedipus.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Apollodorus gathers rival versions, such as Hesiod's and Homer's counts of Niobe's children, showing a mythographer's concern for variants.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Oedipus story shaped Sophocles' tragedies and Freud's 'Oedipus complex'."
+   },
+   {
+    "kind": "history",
+    "text": "Euripides' The Bacchae dramatizes the death of Pentheus."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Oedipus means 'swollen foot', which Apollodorus explains from the pierced ankles.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Rhea, mother of the gods, here purifies Dionysus of his madness; the 'costume' is the Bacchic dress he later wears when leading his followers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Bacchanals are the followers of Dionysus (Bacchus), mainly women who worship him in ecstatic rites; Satyrs are woodland creatures in his train.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "'Extremities' means hands and feet; the king mutilated his son's body, mistaking him for vine-wood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "'Declared oracularly' means the god announced it through an oracle, a divine pronouncement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The pillars set up in India recall boundary markers erected by conquerors such as Heracles, marking the limit of Dionysus' travels.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "'Howbeit' is archaic for 'however' or 'nevertheless'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Dionysus' mother is Semele, killed by Zeus' lightning; he fetched her from Hades and renamed her Thyone, making her immortal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "The Encheleans (\"eel-men\") were a people of the region of Illyria, north-west of Greece, where Cadmus was said to have gone after leaving Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"The god\" is left unnamed; it refers to the oracular god, usually Apollo, who speaks through an oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "The Elysian Fields were the blessed afterlife abode of favored heroes; Cadmus's transformation into a serpent is told in other versions as well.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Like-minded with him\" means Labdacus shared Pentheus's attitude of hostility to Dionysus, hence his ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "\"Usurped\" means seized power without right; Lycus acted as regent but took the throne for himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "\"Compassed the supreme power\" means he obtained or gained full rule.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "A neatherd is a cowherd, a herdsman who tends cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "phrasing",
+    "text": "\"Treated her despitefully\" means treated her with cruelty and contempt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "allusion",
+    "text": "Amphion's lyre was so magical that stones moved of their own accord into place to form the walls of Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "allusion",
+    "text": "Hesiod, Herodorus and Homer are cited as ancient authorities who gave different numbers of Niobe's children, showing that the myth had varying versions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "word",
+    "text": "\"Incited\" means urged or stirred them to take action against Niobe's children.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "allusion",
+    "text": "Telesilla was a Greek poet of Argos whose version of the story differs from the main account, here saving different children.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "word",
+    "text": "\"Expose\" means to abandon a newborn outdoors to die, a practice known in the ancient Greek world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "word",
+    "text": "\"Neatherds\" are cattle herdsmen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "kind": "allusion",
+    "text": "The name Oedipus is commonly explained as meaning \"swollen foot\", from the injury to his ankles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "kind": "word",
+    "text": "\"Supposititious\" means falsely substituted; they taunted him that he was not the true son of his parents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "kind": "allusion",
+    "text": "The riddle's answer is 'man': the voice is the same throughout life, while the number of feet changes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "kind": "phrasing",
+    "text": "'Read her riddle' means interpret or solve it; 'gobble him up' is a blunt, colloquial rendering of the Sphinx's devouring.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "kind": "word",
+    "text": "'Unwittingly' means without knowing; Oedipus did not know Jocasta was his mother. 'Begat' is archaic for 'fathered'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "kind": "word",
+    "text": "A 'suppliant' is one who seeks protection at a sacred place, which made harming him an offence against the gods.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Hera hated Dionysus as the son of Zeus and Semele, so she afflicted him with madness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "The Edonians were a Thracian people living near the Strymon river, in northern Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Pentheus' death is the subject of Euripides' play The Bacchae; Cithaeron is a mountain near Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Tyrrhenians were often portrayed in Greek myth as pirates.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Zeus (Greek god, king of the gods) frequently fathered heroes by mortal women; Antiope's twins are his sons.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Dirce's punishment, being dragged by a bull, was repaid for her cruelty to Antiope; the spring at Thebes bore her name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "text": "Laius later became father of Oedipus; his abduction of Chrysippus was traditionally seen as bringing a curse on his house.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "text": "Latona (Leto) had only two children, Apollo and Artemis, so Niobe's boast was an insult to the goddess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "text": "Sipylus is a mountain in Lydia, Asia Minor; a weeping rock there was identified with Niobe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "text": "Delphi was the site of Apollo's oracle, where the Pythia gave prophecies consulted across Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "text": "Phocis is the region of central Greece containing Delphi; the narrow road where the two met is the famous crossroads.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "text": "Hera is the queen of the gods. The Sphinx was a monster with a woman's face and a lion's body, sent to plague Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "text": "The Eumenides, 'the kindly ones', are the Furies under a softened name. Theseus was the legendary king of Athens.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "irony",
+    "text": "Lycurgus destroys his son while thinking he is pruning the vine he scorned, a cruel reversal of his hatred of Dionysus' gift.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "irony",
+    "text": "Pentheus goes to spy on the rites and is killed by his own mother, who mistakes him for an animal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "metaphor",
+    "text": "The pirates' transformation into dolphins gives their punishment a fitting form: they leap into the sea and become its creatures.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "Divine intervention",
+    "text": "Bonds loosing \"of themselves\" implies unseen divine help, rescuing Antiope and setting up the sons' revenge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "Poetic justice",
+    "text": "Dirce suffers the same cruelty she inflicted on Antiope, giving the story a sense of fitting retribution.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "device": "metaphor",
+    "text": "Niobe's transformation into weeping stone turns her endless grief into a lasting image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "foreshadowing",
+    "text": "The oracle's warning about the son killing his father sets up the later murder, and Laius's drunken disobedience starts the tragedy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 55,
+    "device": "irony",
+    "text": "Oedipus, fleeing his prophecy, fulfills it by killing Laius, his real father, on the road.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "device": "Metaphor",
+    "text": "Calling a staff a 'third support' treats it as a foot, which resolves the riddle's image of a creature with three feet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "device": "Dramatic irony",
+    "text": "The reader knows the woman is Oedipus's mother while he does not, so his reward is already tragic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "device": "Irony",
+    "text": "The man who solved the riddle of humanity is ruined by ignorance of his own identity, and his sons offer him no help.",
+    "spoiler": false
+   }
+  ]
+ }
+}

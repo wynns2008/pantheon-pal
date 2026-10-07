@@ -1,0 +1,537 @@
+{
+ "section_id": "pausanias-body-46",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9773,
+  "output": 4564
+ },
+ "result": {
+  "summary": "Pausanias finishes describing the Isthmus sanctuary with Palæmon's temple and tombs, then tours the Corinthian harbours Lechæum and Cenchreæ. He then goes up to Corinth, noting tombs, the Craneum grove and the story of Lais, and begins the market-place with its temples and statues.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Isthmus sanctuary and its tombs",
+    "summary": "Temple of Palæmon with its crypt, the altar of the Cyclopes, the unknown tombs of Sisyphus and Neleus, and the fate of the Isthmian games. The names of the ports are explained.",
+    "stakes": "Perjurers at Palæmon's crypt cannot escape punishment.",
+    "present": [
+     "Palæmon",
+     "Poseidon",
+     "Leucothea",
+     "Sisyphus",
+     "Neleus",
+     "Nestor",
+     "Mummius",
+     "Leches",
+     "Cenchrias",
+     "Pirene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the Isthmus",
+     "modern_name": "Isthmus of Corinth",
+     "certainty": "real",
+     "lat": 37.91,
+     "lon": 22.99
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 11,
+    "title": "The harbours Lechæum and Cenchreæ",
+    "summary": "Temples and statues at the two ports, including shrines of Artemis, Aphrodite, Poseidon, Æsculapius and Isis, and the bath of Helen.",
+    "stakes": "",
+    "present": [
+     "Poseidon",
+     "Artemis",
+     "Aphrodite",
+     "Æsculapius",
+     "Isis",
+     "Helen"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cenchreæ",
+     "modern_name": "Kechries",
+     "certainty": "real",
+     "lat": 37.88,
+     "lon": 22.99
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 16,
+    "title": "Road to Corinth and Lais",
+    "summary": "Tombs along the road, including Diogenes, and the Craneum grove with the tomb of Lais, whose origins are told.",
+    "stakes": "",
+    "present": [
+     "Diogenes",
+     "Bellerophon",
+     "Aphrodite",
+     "Lais",
+     "Hippostratus",
+     "Nicias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Craneum, Corinth",
+     "modern_name": "Ancient Corinth",
+     "certainty": "real",
+     "lat": 37.91,
+     "lon": 22.88
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 28,
+    "title": "Corinth market-place statues",
+    "summary": "Temples and statues in the market-place, with the story of the Dionysus statues made from Pentheus's tree.",
+    "stakes": "Pentheus is torn apart for spying on the women.",
+    "present": [
+     "Artemis",
+     "Dionysus",
+     "Pentheus",
+     "Apollo",
+     "Aphrodite",
+     "Hermes",
+     "Zeus",
+     "Poseidon",
+     "Hermogenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Corinth market-place",
+     "modern_name": "Ancient Corinth",
+     "certainty": "real",
+     "lat": 37.906,
+     "lon": 22.88
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Palæmon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sea deity buried in a crypt at the Isthmus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sea god honoured throughout Corinthian territory"
+   },
+   {
+    "name": "Leucothea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Sea goddess with a statue at the Isthmus"
+   },
+   {
+    "name": "Sisyphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Buried at the Isthmus, tomb site hidden"
+   },
+   {
+    "name": "Neleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Died at Corinth and was buried near the Isthmus"
+   },
+   {
+    "name": "Nestor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Not shown Neleus's tomb"
+   },
+   {
+    "name": "Mummius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman who took Corinth"
+   },
+   {
+    "name": "Leches",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Poseidon, port named for him"
+   },
+   {
+    "name": "Cenchrias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Poseidon, port named for him"
+   },
+   {
+    "name": "Pirene",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Mother of Leches and Cenchrias"
+   },
+   {
+    "name": "Achelous",
+    "aliases": [],
+    "kind": "god",
+    "description": "River god, father of Pirene in one account"
+   },
+   {
+    "name": "Œbalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Pirene per Hesiod"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Ephesian Artemis"
+    ],
+    "kind": "goddess",
+    "description": "Goddess with temples at Cenchreæ and Corinth"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Melænian Aphrodite"
+    ],
+    "kind": "goddess",
+    "description": "Goddess with several shrines"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "Healing god with a temple at Cenchreæ"
+   },
+   {
+    "name": "Isis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Egyptian goddess with a temple at Cenchreæ"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Her name is given to a bath"
+   },
+   {
+    "name": "Diogenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cynic philosopher of Sinope buried at the gate"
+   },
+   {
+    "name": "Bellerophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero with a temple at Corinth"
+   },
+   {
+    "name": "Lais",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Famous courtesan with a tomb at Corinth"
+   },
+   {
+    "name": "Hippostratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man Lais loved"
+   },
+   {
+    "name": "Nicias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who captured Lais"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Lysian Dionysus",
+     "Dionysus the Reveller"
+    ],
+    "kind": "god",
+    "description": "God with two wooden statues"
+   },
+   {
+    "name": "Pentheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Torn apart after spying on the women"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "the Clarian"
+    ],
+    "kind": "god",
+    "description": "God with a brazen statue"
+   },
+   {
+    "name": "Hermogenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor of Cythera"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with two brass statues"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Three open-air statues"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Leches",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Cenchrias",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Pirene",
+    "relation": "parent_of",
+    "b": "Leches",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Pirene",
+    "relation": "parent_of",
+    "b": "Cenchrias",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Achelous",
+    "relation": "parent_of",
+    "b": "Pirene",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Œbalus",
+    "relation": "parent_of",
+    "b": "Pirene",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Neleus",
+    "relation": "parent_of",
+    "b": "Nestor",
+    "source": "outside",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Lais",
+    "relation": "lover_of",
+    "b": "Hippostratus",
+    "source": "text",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Cynic",
+    "canonical": "Diogenes",
+    "explanation": "Nickname of Diogenes of Sinope."
+   },
+   {
+    "alias": "the Clarian",
+    "canonical": "Apollo",
+    "explanation": "Epithet from Apollo's shrine at Claros."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Shows the oath-guarding power of Palæmon's crypt.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links places to myth and cult, showing how Corinth's monuments preserve local tradition.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The note on the Isthmian games reflects Corinth's destruction by Mummius in 146 BC and its later refounding as a Roman colony.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Diogenes the Cynic's burial at Corinth feeds the long tradition about him; the Pentheus tale was dramatised in Euripides' Bacchae."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias wrote in the second century AD, when Corinth had been refounded by Rome about two centuries earlier.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "A crypt is an underground chamber; here a hidden burial place reached by a passage, tied to oaths sworn at Palæmon's tomb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "The temple is oddly 'called the altar of the Cyclopes'; the name belongs to the whole site, where sacrifice is made on the altar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Eumelus was an early Corinthian epic poet, whose poems are lost. Pausanias says they gave no means of locating these tombs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Nestor was Neleus' son. Sisyphus is said to have hidden the tomb from him, probably out of old enmity, so it stayed secret.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Mummius, the Roman general, sacked Corinth in 146 BC. The games moved to Sicyon until Corinth was refounded as a Roman colony.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The Eœæ, or Catalogue of Women, is a poem attributed to Hesiod. It differs here on Pirene's father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "'With the chill off' means lukewarm: a warm spring of salt water running from the rock into the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Diogenes the Cynic, a philosopher famed for living in extreme simplicity; 'Cynic' means 'dog-like', hence the Greeks' nickname.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Nicias led the Athenian expedition to Sicily (415–413 BC); Hyccara was captured then, and Lais was said to be a child captive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "'Courtesans' means high-class prostitutes, often famous and wealthy, who were a notable feature of Corinth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Pentheus, king of Thebes, opposed Dionysus and spied on the Bacchic women on Mount Cithæron; they tore him apart in frenzy, as in Euripides' Bacchae.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "The Pythian Priestess is the Pythia, Apollo's oracle at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "A conduit is a channel or fountain carrying water; here the dolphin spouts the water.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Palæmon was the sea-god Corinthians honored at the Isthmus; Leucothea was his mother, once the mortal Ino. The Isthmian games were held in his honor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Lechæum was Corinth's port on the western Gulf; Cenchreæ lay on the eastern, Saronic side. Pirene was the famous Corinthian spring.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Æsculapius was the god of healing; Isis was the Egyptian goddess, whose worship spread widely through the Greek and Roman world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Bellerophon was the hero who tamed the winged horse Pegasus at Corinth; Aphrodite was the city's major goddess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Dionysus is the god of wine and ecstatic revelry; 'Lysian' means 'releaser', and the Reveller title refers to his festivals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Poseidon, god of the sea, was especially honoured at Corinth, which sat on the Isthmus where his games were held.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "motif",
+    "text": "Divine punishment of perjurers at a sacred tomb gives the oath its force and shows the site's religious power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "irony",
+    "text": "A tomb deliberately kept unknown to all, even the dead man's son, makes its secrecy the only thing remembered about it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "symbolism",
+    "text": "The lioness gripping a ram suggests Lais's power over her lovers, a predator and its prey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a guide, sorting sights by age and splendour, and hints at Corinth's rebuilding after its destruction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "irony",
+    "text": "Pentheus, who spies on the women, is himself caught; his punishment mirrors his offence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

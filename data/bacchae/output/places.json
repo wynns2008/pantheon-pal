@@ -1,0 +1,798 @@
+{
+ "work": "The Bacchae of Euripides",
+ "model": "claude-sonnet-5-5",
+ "usage": {
+  "input": 7221,
+  "output": 2255
+ },
+ "places": [
+  {
+   "id": "thebes",
+   "name": "Thebes",
+   "names": [
+    "Thebes, before the castle of Pentheus",
+    "Thebes, before the Castle",
+    "Thebes, before the palace",
+    "Before the castle at Thebes",
+    "Of Thebes",
+    "of Thebes",
+    "To Thebes",
+    "Corrupting Thebes",
+    "From Thebes",
+    "Cadmeian",
+    "Theban",
+    "Thebans"
+   ],
+   "kind": "city",
+   "certainty": "real",
+   "description": "the Boeotian city ruled by Pentheus, where Dionysus returns to establish his worship",
+   "lat": 38.32,
+   "lon": 23.32,
+   "scenes": [
+    {
+     "section": "bacchae-body-1",
+     "scene": 0
+    },
+    {
+     "section": "bacchae-body-1",
+     "scene": 1
+    },
+    {
+     "section": "bacchae-body-1",
+     "scene": 2
+    },
+    {
+     "section": "bacchae-body-1",
+     "scene": 3
+    },
+    {
+     "section": "bacchae-body-2",
+     "scene": 0
+    },
+    {
+     "section": "bacchae-body-2",
+     "scene": 1
+    },
+    {
+     "section": "bacchae-body-2",
+     "scene": 2
+    },
+    {
+     "section": "bacchae-body-2",
+     "scene": 3
+    },
+    {
+     "section": "bacchae-body-3",
+     "scene": 0
+    },
+    {
+     "section": "bacchae-body-4",
+     "scene": 0
+    },
+    {
+     "section": "bacchae-body-4",
+     "scene": 1
+    },
+    {
+     "section": "bacchae-body-4",
+     "scene": 2
+    },
+    {
+     "section": "bacchae-body-5",
+     "scene": 0
+    },
+    {
+     "section": "bacchae-body-5",
+     "scene": 1
+    },
+    {
+     "section": "bacchae-body-5",
+     "scene": 3
+    },
+    {
+     "section": "bacchae-body-5",
+     "scene": 4
+    },
+    {
+     "section": "bacchae-body-5",
+     "scene": 5
+    },
+    {
+     "section": "bacchae-body-5",
+     "scene": 6
+    }
+   ],
+   "named": [
+    {
+     "section": "bacchae-body-1",
+     "count": 14
+    },
+    {
+     "section": "bacchae-body-2",
+     "count": 4
+    },
+    {
+     "section": "bacchae-body-3",
+     "count": 6
+    },
+    {
+     "section": "bacchae-body-4",
+     "count": 3
+    },
+    {
+     "section": "bacchae-body-5",
+     "count": 6
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Thebes,_Greece",
+    "lead": "Thebes is a city in Boeotia, Central Greece, and one of the oldest continuously inhabited cities in the world. It is the largest city in Boeotia and a major center for the region."
+   }
+  },
+  {
+   "id": "palace-of-pentheus",
+   "name": "Palace of Pentheus",
+   "names": [
+    "Palace"
+   ],
+   "kind": "building",
+   "certainty": "traditional",
+   "description": "the royal house of Thebes, where Pentheus imprisons the stranger and is later destroyed",
+   "lat": 38.32,
+   "lon": 23.32,
+   "scenes": [
+    {
+     "section": "bacchae-body-3",
+     "scene": 1
+    },
+    {
+     "section": "bacchae-body-3",
+     "scene": 3
+    },
+    {
+     "section": "bacchae-body-3",
+     "scene": 5
+    },
+    {
+     "section": "bacchae-body-3",
+     "scene": 6
+    }
+   ],
+   "named": [
+    {
+     "section": "bacchae-body-5",
+     "count": 1
+    }
+   ],
+   "wikipedia": null
+  },
+  {
+   "id": "kithaeron",
+   "name": "Kithaeron",
+   "names": [
+    "Mount Kithaeron",
+    "Amid Kithaeron"
+   ],
+   "kind": "mountain",
+   "certainty": "real",
+   "description": "the mountain near Thebes where the Bacchanals revel and Pentheus is killed",
+   "lat": 38.2,
+   "lon": 23.2,
+   "scenes": [
+    {
+     "section": "bacchae-body-3",
+     "scene": 4
+    },
+    {
+     "section": "bacchae-body-5",
+     "scene": 2
+    }
+   ],
+   "named": [
+    {
+     "section": "bacchae-body-1",
+     "count": 1
+    },
+    {
+     "section": "bacchae-body-3",
+     "count": 3
+    },
+    {
+     "section": "bacchae-body-4",
+     "count": 1
+    },
+    {
+     "section": "bacchae-body-5",
+     "count": 6
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Cithaeron",
+    "lead": "Cithaeron or Kithairon is a mountain and mountain range about sixteen kilometres (ten miles) long in Central Greece. The range is the physical boundary between Boeotia region in the north and Attica region in the south."
+   }
+  },
+  {
+   "id": "pentheus-prison-stall",
+   "name": "Pentheus' prison stall",
+   "names": [],
+   "kind": "building",
+   "certainty": "traditional",
+   "description": "the stable-prison in the palace where Pentheus bound the supposed stranger",
+   "lat": 38.32,
+   "lon": 23.32,
+   "scenes": [
+    {
+     "section": "bacchae-body-3",
+     "scene": 2
+    }
+   ],
+   "named": [],
+   "wikipedia": null
+  },
+  {
+   "id": "hellas",
+   "name": "Hellas",
+   "names": [
+    "He In Hellas",
+    "Greece"
+   ],
+   "kind": "region",
+   "certainty": "real",
+   "description": "Greece, which Dionysus is converting to his rites",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-1",
+     "count": 3
+    },
+    {
+     "section": "bacchae-body-2",
+     "count": 1
+    },
+    {
+     "section": "bacchae-body-5",
+     "count": 3
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Greece",
+    "lead": "Greece, officially the Hellenic Republic, is a country located mostly on the Balkan peninsula of Southeastern Europe, with thousands of islands extending geographically to Asia Minor. It has a population of around 10 million."
+   }
+  },
+  {
+   "id": "olympus",
+   "name": "Olympus",
+   "names": [
+    "Where Olympus"
+   ],
+   "kind": "mountain",
+   "certainty": "mythical",
+   "description": "the home of the gods",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-1",
+     "count": 1
+    },
+    {
+     "section": "bacchae-body-2",
+     "count": 1
+    },
+    {
+     "section": "bacchae-body-3",
+     "count": 2
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Mount_Olympus",
+    "lead": "Mount Olympus is an extensive massif near the Thermaic Gulf of the Aegean Sea, in Greece, located on the border between Thessaly and Macedonia, between the regional units of Larissa and Pieria, about 80 km (50 mi) southwest from Thessaloniki. Mount Olympus has 52 peaks and deep gorges."
+   }
+  },
+  {
+   "id": "asia",
+   "name": "Asia",
+   "names": [
+    "From Asia"
+   ],
+   "kind": "region",
+   "certainty": "real",
+   "description": "the eastern lands from which Dionysus and his followers come",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-1",
+     "count": 2
+    },
+    {
+     "section": "bacchae-body-5",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Asia",
+    "lead": "Asia is the largest continent in the world by both land area and population. It covers an area of more than 44 million square kilometres, about 30% of Earth's total land area and 8% of Earth's total surface area."
+   }
+  },
+  {
+   "id": "dirce",
+   "name": "Dirce",
+   "names": [
+    "Holy Dirce"
+   ],
+   "kind": "river",
+   "certainty": "real",
+   "description": "spring of Thebes",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-1",
+     "count": 1
+    },
+    {
+     "section": "bacchae-body-3",
+     "count": 2
+    }
+   ],
+   "wikipedia": null
+  },
+  {
+   "id": "tmolus",
+   "name": "Tmolus",
+   "names": [
+    "Brood of Tmolus"
+   ],
+   "kind": "mountain",
+   "certainty": "real",
+   "description": "Lydian mountain, home of the Bacchic followers",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-1",
+     "count": 2
+    },
+    {
+     "section": "bacchae-body-2",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Mount_Tmolus",
+    "lead": "Mount Tmolus or Bozdağ is in \"a mountain range on the south of Sardis, forming the watershed between the basins of the Hermus in the north and the Cayster in the south, and being connected in the east with Mount Messogis.\" It is named after Tmolus, King of Lydia. It is situated in Lydia in western Turkey with the ancient Lydian capital Sardis at its foot and Hypaepa on its southern slope."
+   }
+  },
+  {
+   "id": "asopus",
+   "name": "Asopus",
+   "names": [],
+   "kind": "river",
+   "certainty": "real",
+   "description": "river of Boeotia near Thebes",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-3",
+     "count": 1
+    },
+    {
+     "section": "bacchae-body-5",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Asopos_(Boeotia)",
+    "lead": "The Asopos is a river in Boeotia and northern Attica, Greece. In antiquity, it formed the border between the cities of Thebes and Plataea."
+   }
+  },
+  {
+   "id": "cyprus",
+   "name": "Cyprus",
+   "names": [
+    "Paphos"
+   ],
+   "kind": "island",
+   "certainty": "real",
+   "description": "island of Aphrodite, with Paphos",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-2",
+     "count": 2
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Cyprus",
+    "lead": "Cyprus, officially the Republic of Cyprus, is an island country in the eastern Mediterranean Sea, located off the coast of the Levant mainland in West Asia. The island of Cyprus, which is the third largest and third most populous island in the Mediterranean, is divided along the United Nations Buffer Zone between the internationally recognised Republic of Cyprus and the Turkish Republic of Northern Cyprus, which is recognised only by Turkey."
+   }
+  },
+  {
+   "id": "tomb-of-semele",
+   "name": "Tomb of Semele",
+   "names": [
+    "Tomb of the Lightning"
+   ],
+   "kind": "other",
+   "certainty": "traditional",
+   "description": "the smoking ruin where Semele was struck by lightning, near the palace",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-1",
+     "count": 1
+    },
+    {
+     "section": "bacchae-body-3",
+     "count": 1
+    }
+   ],
+   "wikipedia": null
+  },
+  {
+   "id": "acheloues",
+   "name": "Acheloues",
+   "names": [],
+   "kind": "river",
+   "certainty": "real",
+   "description": "Greek river",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-3",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Achelous_River",
+    "lead": "The Achelous, also Acheloos, is a river in Epirus, western Greece. It is 220 km (137 mi) long."
+   }
+  },
+  {
+   "id": "acheron",
+   "name": "Acheron",
+   "names": [],
+   "kind": "river",
+   "certainty": "mythical",
+   "description": "river of underworld",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-5",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Acheron",
+    "lead": "The Acheron is a river in the Epirus region of northwest Greece. In Greek mythology, Acheron is often depicted as the entrance to the Greek Underworld where souls must be ferried across by Charon (although some later sources, such as Roman poets, assign this role to the river Styx)."
+   }
+  },
+  {
+   "id": "axios",
+   "name": "Axios",
+   "names": [],
+   "kind": "river",
+   "certainty": "real",
+   "description": "Macedonian river",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-3",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Vardar",
+    "lead": "The Vardar or Axios (Greek: Αξιός, romanized: Aksiós, Albanian: Asi (historically)) is the longest river in North Macedonia and a major river in Greece, where it reaches the Aegean Sea at Thessaloniki. It is 388 km (241 mi) long, out of which 76 km (47 mi) are in Greece, and drains an area of around 25,000 km2 (9,653 sq mi)."
+   }
+  },
+  {
+   "id": "corycian-cave",
+   "name": "Corycian Cave",
+   "names": [],
+   "kind": "other",
+   "certainty": "real",
+   "description": "cave on Parnassus",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-3",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Corycian_Cave",
+    "lead": "The Corycian Cave is located in central Greece on the southern slopes of Mount Parnassus, in Parnassus National Park, which is situated north of Delphi. The Corycian Cave has been a sacred space since the Neolithic era, and its name comes from the mythological nature spirits the Corycian nymphs, which were depicted as looking like beautiful maidens and were said to inhabit the cave."
+   }
+  },
+  {
+   "id": "delphi",
+   "name": "Delphi",
+   "names": [],
+   "kind": "city",
+   "certainty": "real",
+   "description": "Apollo's oracle site",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-1",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Delphi",
+    "lead": "Delphi, in legend previously called Pytho (Πυθώ), was an ancient sacred precinct in central Greece. It was the seat of Pythia, the major oracle who was consulted about important decisions throughout the ancient classical world."
+   }
+  },
+  {
+   "id": "electran-gate",
+   "name": "Electran Gate",
+   "names": [],
+   "kind": "other",
+   "certainty": "traditional",
+   "description": "Gate of Thebes",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-3",
+     "count": 1
+    }
+   ],
+   "wikipedia": null
+  },
+  {
+   "id": "erythrae",
+   "name": "Erythrae",
+   "names": [],
+   "kind": "city",
+   "certainty": "real",
+   "description": "Village on Kithaeron",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-3",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Erythrae_(Boeotia)",
+    "lead": "Erythrae or Erythrai was a town in ancient Boeotia, mentioned by Homer among the Boeotians ruled by Thersander in the Catalogue of Ships in the Iliad. It lay a little south of the Asopus, at the foot of Mount Cithaeron."
+   }
+  },
+  {
+   "id": "hysiae",
+   "name": "Hysiae",
+   "names": [
+    "On Hysiae"
+   ],
+   "kind": "city",
+   "certainty": "real",
+   "description": "Village on Kithaeron",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-3",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Hysiae_(Boeotia)",
+    "lead": "Hysiae or Hysiai, also Hysia (Ὑσία), was a town of ancient Boeotia, in the Parasopia, at the northern foot of Mount Cithaeron, and on the high road from Thebes to Athens. It was said to have been a colony from Hyria, and to have been founded by Nycteus, father of Antiope."
+   }
+  },
+  {
+   "id": "ismenus",
+   "name": "Ismenus",
+   "names": [],
+   "kind": "river",
+   "certainty": "real",
+   "description": "river of Thebes",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-1",
+     "count": 1
+    }
+   ],
+   "wikipedia": null
+  },
+  {
+   "id": "lydia",
+   "name": "Lydia",
+   "names": [],
+   "kind": "region",
+   "certainty": "real",
+   "description": "Anatolian land",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-2",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Lydia",
+    "lead": "Lydia was a powerful Iron Age civilization prominent in western Anatolia in the 8th to 6th centuries BCE. Its capital and only city at Sardis. They are known in part for the world's first coinage, and rapid expansion based on their immense wealth in gold."
+   }
+  },
+  {
+   "id": "lydias",
+   "name": "Lydias",
+   "names": [],
+   "kind": "river",
+   "certainty": "real",
+   "description": "Macedonian river",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-3",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Haliacmon",
+    "lead": "The Haliacmon is the longest river of Greece, flowing entirely on Greek soil in the region of Macedonia, with a total length of 297 km (185 mi). In Greece there are three rivers longer than Haliacmon: Evros (Greek: Έβρος), Strymonas (Greek: Στρυμόνας), both coming from Bulgaria, and Axios (Greek: Αξιός) coming from North Macedonia, but the length of each one of them in Greek territory is less than that of Haliacmon, which flows entirely in Greece."
+   }
+  },
+  {
+   "id": "nile",
+   "name": "Nile",
+   "names": [],
+   "kind": "river",
+   "certainty": "real",
+   "description": "Egyptian river",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-2",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Nile",
+    "lead": "The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088 kilometers (4,404 mi) long, it is the longest river in the world, although the volume of water it carries is much smaller than other major rivers such as the Amazon or the Congo."
+   }
+  },
+  {
+   "id": "nysa",
+   "name": "Nysa",
+   "names": [],
+   "kind": "mountain",
+   "certainty": "traditional",
+   "description": "Dionysus's mountain",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-3",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Nysa_(mythology)",
+    "lead": "In Greek mythology, the mountainous district of Nysa, variously associated with Ethiopia, Libya, Boeotia, Thrace, India, or Arabia by Greek mythographers, was the traditional place where the rain nymphs, the Hyades, raised the infant god Dionysus, the \"God of Nysa.\" Nysa is also the name of Macris, one the daughters of Aristaeus."
+   }
+  },
+  {
+   "id": "pierie",
+   "name": "Pierie",
+   "names": [
+    "Blessed Land of Pierie"
+   ],
+   "kind": "region",
+   "certainty": "real",
+   "description": "Muses' land in Macedonia",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-3",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Pieria_(regional_unit)",
+    "lead": "Pieria is one of the regional units of Greece located in the southern part of the Region of Central Macedonia, within the historical province of Macedonia. Its capital is the town of Katerini."
+   }
+  },
+  {
+   "id": "sardis",
+   "name": "Sardis",
+   "names": [],
+   "kind": "city",
+   "certainty": "real",
+   "description": "Lydian city",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-2",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Sardis",
+    "lead": "Sardis ( SAR-diss) or Sardes was an ancient city best known as the capital of the Lydian Empire. After the fall of the Lydian Empire, it became the capital of the Persian satrapy of Lydia and later a major center of Hellenistic and Byzantine culture."
+   }
+  },
+  {
+   "id": "sidon",
+   "name": "Sidon",
+   "names": [
+    "From Sidon"
+   ],
+   "kind": "city",
+   "certainty": "real",
+   "description": "Phoenician city",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [
+    {
+     "section": "bacchae-body-1",
+     "count": 1
+    }
+   ],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Sidon",
+    "lead": "Sidon, or Saida ( SY-də, SAH-id-ə; Arabic: صيدا, romanized: Ṣaydā), is the third-largest city in Lebanon. It is located on the Mediterranean coast in the South Governorate, of which it is the capital."
+   }
+  },
+  {
+   "id": "islands-of-the-blest",
+   "name": "Islands of the Blest",
+   "names": [],
+   "kind": "realm",
+   "certainty": "mythical",
+   "description": "paradise of the blessed",
+   "lat": null,
+   "lon": null,
+   "scenes": [],
+   "named": [],
+   "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Fortunate_Isles",
+    "lead": "The Fortunate Isles or Isles of the Blessed were semi-legendary islands in the Atlantic Ocean, variously treated as a simple geographical location and as a winterless earthly paradise inhabited by the heroes of Greek mythology. In the time of Hesiod, the Fortunate Isles were associated with the concept of Elysium, a utopian location in the Greek underworld thought to be found in the Western ocean on the edge of the known world."
+   }
+  }
+ ]
+}

@@ -1,0 +1,336 @@
+{
+ "section_id": "pausanias-body-301",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7610,
+  "output": 3040
+ },
+ "result": {
+  "summary": "Pausanias describes sights outside Thebes: the gymnasium of Iolaus and the tomb of Pindar, with stories of the poet's bees and his dream of Proserpine. He then travels to Acræphnium, the sanctuary of Ptoan Apollo and its oracle, and on to Larymna.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Thebes: Iolaus and the Hippodrome",
+    "summary": "Outside the Prœtis gate are the gymnasium and hero-chapel of Iolaus, a race-course, and the Hippodrome with Pindar's tomb.",
+    "stakes": "",
+    "present": [
+     "Iolaus",
+     "Pindar"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, gate Prœtis",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.3217,
+     "lon": 23.3181
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 12,
+    "title": "Pindar's bees and dream",
+    "summary": "Young Pindar sleeps on the road to Thespiæ and bees feed on his lips, leading him to poetry. Later Proserpine appears in a dream, and after his death he recites a hymn to a relative.",
+    "stakes": "Pindar is near death and has left Proserpine uncelebrated in his poems.",
+    "present": [
+     "Pindar",
+     "Proserpine",
+     "Apollo",
+     "Pluto"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Road to Thespiæ and Thebes",
+     "modern_name": "Thespiai, Boeotia",
+     "certainty": "real",
+     "lat": 38.2889,
+     "lon": 23.1544
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 19,
+    "title": "Acræphnium and Ptoan Apollo",
+    "summary": "Pausanias goes to Acræphnium on Mount Ptoum, where Theban refugees settled, and to the oracle of Ptoan Apollo, where Mys received an answer in Carian.",
+    "stakes": "The oracle was lost with the destruction of Thebes.",
+    "present": [
+     "Ptous",
+     "Mys",
+     "Apollo",
+     "Dionysus",
+     "Mardonius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Acræphnium and Mount Ptoum",
+     "modern_name": "Akraiphnio, Boeotia",
+     "certainty": "real",
+     "lat": 38.4506,
+     "lon": 23.2236
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 23,
+    "title": "Larymna",
+    "summary": "Beyond Mount Ptoum lies the coastal town of Larymna, with a temple of Dionysus, a deep harbour and good boar hunting.",
+    "stakes": "",
+    "present": [
+     "Larymna",
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Larymna",
+     "modern_name": "Larymna, Boeotia",
+     "certainty": "real",
+     "lat": 38.5719,
+     "lon": 23.28
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Iolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a chapel at Thebes who died in Sardinia"
+   },
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet of Thebes, honoured by the Pythian Priestess"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Ptoan Apollo"
+    ],
+    "kind": "god",
+    "description": "god of Delphi and the Ptoan oracle"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who appeared to Pindar in a dream"
+   },
+   {
+    "name": "Pluto",
+    "aliases": [],
+    "kind": "god",
+    "description": "god praised in Pindar's hymn as Golden-reined"
+   },
+   {
+    "name": "Ptous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Athamas and Themisto, eponym of the mountain and Apollo's title"
+   },
+   {
+    "name": "Athamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Ptous"
+   },
+   {
+    "name": "Themisto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Ptous"
+   },
+   {
+    "name": "Mys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "European sent by Mardonius to the oracle"
+   },
+   {
+    "name": "Mardonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian commander who sent Mys"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "conqueror who destroyed Thebes"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with temples at Acræphnium and Larymna"
+   },
+   {
+    "name": "Larymna",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Cynus, namesake of the city"
+   },
+   {
+    "name": "Cynus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Larymna"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Athamas",
+    "relation": "parent_of",
+    "b": "Ptous",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Themisto",
+    "relation": "parent_of",
+    "b": "Ptous",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Cynus",
+    "relation": "parent_of",
+    "b": "Larymna",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Athamas",
+    "relation": "spouse_of",
+    "b": "Themisto",
+    "source": "text",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "The famous legend of bees making honey on Pindar's lips as a sign of poetic gift.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "reason": "Delphi's priestess grants Pindar an equal share of Apollo's firstfruits.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Divine favour marks the poet: bees, Apollo's priestess and Proserpine's dream show poetry as gift and duty to the gods.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias records local tombs, oracles and the effects of Alexander's destruction of Thebes, showing the sanctuaries' decline after 335 BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The bees on the lips of a sleeping poet became a common ancient and later image of inspired eloquence."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Carian-speaking oracle story for Mys is also told by Herodotus, who describes the Ptoan oracle consultation before Plataea.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Gymnasium here means a public exercise ground, not a school; the Theban mound served as a running track, like the stadia at Olympia and Epidaurus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Hippodrome is the course for horse and chariot races.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "Firstfruits were the first portion of offerings, given to a god; Pindar is granted a share equal to Apollo's, a great honour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Proserpine (the Greek Persephone) is the queen of the underworld; 'when he came to her' means when he died and reached the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Pluto, Proserpine's husband, carried her off to the underworld; this is the Rape of Proserpine. 'Dearly' is likely a misprint for 'clearly'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Mardonius was the Persian general in Greece in 479 BC; Mys, a Carian, was sent to test the oracles, and the god answered in his own language.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "'So called from' means the city took its name from Larymna, daughter of Cynus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Iolaus was the nephew and helper of Heracles, and was honoured at Thebes with a hero-cult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Alexander the Great destroyed Thebes in 335 BC after its revolt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Athamas was a legendary Boeotian king; the Ptoan sanctuary was a major oracle of Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Dionysus was the god of wine and festivity, widely worshipped in Boeotia.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "symbolism",
+    "text": "Bees making honey on the sleeping boy's lips symbolize sweet speech and divine poetic gift, a common ancient sign of eloquence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "foreshadowing",
+    "text": "Proserpine's words about celebrating her 'when he came to her' foretell Pindar's coming death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "The promise to praise her in an Ode is fulfilled only after death, an irony underscored by his dying so soon after the dream.",
+    "spoiler": false
+   }
+  ]
+ }
+}

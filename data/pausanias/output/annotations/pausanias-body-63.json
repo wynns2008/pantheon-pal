@@ -1,0 +1,497 @@
+{
+ "section_id": "pausanias-body-63",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9580,
+  "output": 4138
+ },
+ "result": {
+  "summary": "Pausanias finishes the Heraclid kings of Argos, noting how the Argives cut royal power down. He then describes the temple of Lycian Apollo at Argos, its founding by Danaus after a wolf and bull omen, and the statues and tombs around it.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Decline of the Argive kings",
+    "summary": "Temenus favours Deiphontes and is killed by his sons. The Argives then reduce the kings' power until Meltas is deposed.",
+    "stakes": "Temenus risks his life by favouring his son-in-law over his sons.",
+    "present": [
+     "Temenus",
+     "Deiphontes",
+     "Hyrnetho",
+     "Cisus",
+     "Medon",
+     "Meltas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.6333,
+     "lon": 22.7333
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 14,
+    "title": "Danaus and the wolf omen",
+    "summary": "Danaus and Gelanor compete for the kingdom. A wolf defeats a bull, and the Argives read it as a sign for Danaus, who builds the temple.",
+    "stakes": "Danaus and Gelanor compete for the kingship of Argos.",
+    "present": [
+     "Danaus",
+     "Gelanor",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.6333,
+     "lon": 22.7333
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 27,
+    "title": "Temple contents and monuments",
+    "summary": "Pausanias lists the statues, the fire of Phoroneus, Hypermnestra's offering, tombs and altars near the temple.",
+    "stakes": "Hypermnestra was tried by her father for disobeying him.",
+    "present": [
+     "Biton",
+     "Phoroneus",
+     "Hypermnestra",
+     "Danaus",
+     "Lynceus",
+     "Ladas",
+     "Hermes",
+     "Linus",
+     "Psamathe",
+     "Artemis",
+     "Polynices",
+     "Prometheus",
+     "Aphrodite",
+     "Apollo",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Lycian Apollo, Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.6333,
+     "lon": 22.7333
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cresphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid, mentioned briefly"
+   },
+   {
+    "name": "Temenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid king of Argos, killed by his sons"
+   },
+   {
+    "name": "Deiphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Antimachus, Temenus's general and son-in-law"
+   },
+   {
+    "name": "Hyrnetho",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Temenus's favourite daughter"
+   },
+   {
+    "name": "Cisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "eldest son of Temenus, became king"
+   },
+   {
+    "name": "Medon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cisus, king with reduced power"
+   },
+   {
+    "name": "Meltas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "last king of Argos, deposed"
+   },
+   {
+    "name": "Lacedas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Meltas"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "became king of Argos and built the temple"
+   },
+   {
+    "name": "Gelanor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Sthenelas, rival of Danaus"
+   },
+   {
+    "name": "Sthenelas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Gelanor"
+   },
+   {
+    "name": "Hypermnestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Danaus who disobeyed him"
+   },
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man Hypermnestra spared"
+   },
+   {
+    "name": "Biton",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man who carried a bull to the altar"
+   },
+   {
+    "name": "Phoroneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "credited by Argives with inventing fire"
+   },
+   {
+    "name": "Prometheus",
+    "aliases": [],
+    "kind": "other",
+    "description": "traditional giver of fire, disputed by Argives"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Lycian Apollo",
+     "Wolf-God"
+    ],
+    "kind": "god",
+    "description": "god of the temple"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Victorious Aphrodite"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a statue in the temple"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with statues in the temple"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Rainy Zeus"
+    ],
+    "kind": "god",
+    "description": "god honoured at Nemea and with an altar"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "possibly the maiden in the bull relief"
+   },
+   {
+    "name": "Ladas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "famous runner"
+   },
+   {
+    "name": "Linus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Apollo, poet, has a tomb"
+   },
+   {
+    "name": "Psamathe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Crotopus, has a tomb"
+   },
+   {
+    "name": "Crotopus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Psamathe"
+   },
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "exile whose return to Thebes was sworn"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of Deiphontes"
+   },
+   {
+    "name": "Attalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian sculptor of the statue"
+   },
+   {
+    "name": "Epeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "maker of the wooden Hermes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Temenus",
+    "relation": "parent_of",
+    "b": "Hyrnetho",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Temenus",
+    "relation": "parent_of",
+    "b": "Cisus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Cisus",
+    "relation": "parent_of",
+    "b": "Medon",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Deiphontes",
+    "relation": "spouse_of",
+    "b": "Hyrnetho",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Danaus",
+    "relation": "parent_of",
+    "b": "Hypermnestra",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Linus",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Crotopus",
+    "relation": "parent_of",
+    "b": "Psamathe",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Sthenelas",
+    "relation": "parent_of",
+    "b": "Gelanor",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Hypermnestra",
+    "relation": "spouse_of",
+    "b": "Lynceus",
+    "source": "outside",
+    "evidence_sentence": 18
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lycian Apollo",
+    "canonical": "Apollo",
+    "explanation": "Epithet meaning Wolf-God, linked here to the wolf omen."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Argives deny Prometheus gave fire, crediting Phoroneus instead.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The chapter links kingship and religion: an omen decides the throne and a temple commemorates it.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Argives' fondness for equality and the erosion of kingship reflects Argos's move to a civic polity.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias remarks that early statues were all wooden, especially Egyptian ones.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Temenus, Cresphontes and the sons of Aristodemus were the Heraclid (descendants of Hercules) leaders who shared the Peloponnese after the Dorian conquest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Home rule\" means self-government by the citizens themselves, rather than rule by a monarch; \"left the royal title only\" means kings kept the name without real power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Lycian\" is linked by Pausanias to the Greek word for wolf, lykos; hence the gloss \"Wolf-God\". Ancient writers also connected it to Lycia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Ingratiating words\" are flattering, favour-seeking speeches meant to win the people's goodwill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Nemea, in the Argolid, hosted the Nemean Games and a famous sanctuary of Zeus; Biton's feat was thus tied to a major Argive festival.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Prometheus is the Titan who in common myth stole fire for mankind; the Argives claim their own hero Phoroneus discovered it instead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Danaus ordered his fifty daughters to kill their cousins, the sons of Aegyptus, on their wedding night. Hypermnestra spared her husband Lynceus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "The bull-and-wolf fight refers to the Argive legend of Danaus and Gelanor, where a wolf defeating a bull was read as an omen for Danaus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Linus is a legendary early poet and musician, said to be killed by Apollo; Psamathe, his mother in Argive tradition, was Crotopus' daughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "This refers to the Seven against Thebes, who marched to restore Polynices to the city; the oath bound them to die if they failed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The Opuntians, from Opus in Locris, also claimed to hold Prometheus' tomb, so the two claims compete.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Meltas was the last Argive king; after his deposition Argos became a government without kings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Attalus is the Athenian sculptor who made the temple's statue in Pausanias' time; Danaus's wooden image was the original offering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Danaus was a legendary Egyptian prince who fled to Argos with his fifty daughters, and claimed rule there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Epeus is the Greek who built the Trojan Horse in legend; statues attributed to him are ancient wooden images.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Ladas was a celebrated runner, said to have won the long foot race at Olympia. Hermes was credited with inventing the lyre from a tortoise shell.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "irony",
+    "text": "Temenus's favouritism toward his daughter and son-in-law brings about his own death at the hands of his sons.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "symbolism",
+    "text": "The wolf and bull stand for the rival men; the wolf's wildness mirrors Danaus the outsider, the bull the native, established Gelanor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "foreshadowing",
+    "text": "The animal fight is read as predicting the political contest's outcome, a typical omen story in which nature signals the result.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "characterization",
+    "text": "Danaus's motives, self-protection and shame at being outshone, show him as a cruel, self-interested ruler rather than a just father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "narrative voice",
+    "text": "Pausanias openly weighs rival local claims and states his own skepticism, giving the guide-book a critical, personal tone.",
+    "spoiler": false
+   }
+  ]
+ }
+}

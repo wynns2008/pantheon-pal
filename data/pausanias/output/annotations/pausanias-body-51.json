@@ -1,0 +1,492 @@
+{
+ "section_id": "pausanias-body-51",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10336,
+  "output": 4215
+ },
+ "result": {
+  "summary": "Pausanias finishes the history of Sicyon and then walks from Corinth to the city, describing tombs, temples and statues along the way. He gives the Sicyonian story of how Apollo and Artemis were persuaded to return after a pestilence, which explains the temple of Persuasion.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Sicyon's history and earthquake",
+    "summary": "Sicyon becomes Dorian, Demetrius rebuilds the city on the old citadel, and an earthquake empties it of men and art.",
+    "stakes": "The city is declining and loses its people and works of art.",
+    "present": [
+     "Demetrius",
+     "Ægialeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sicyon",
+     "modern_name": "Sikyona, Greece",
+     "certainty": "real",
+     "lat": 37.9912,
+     "lon": 22.7198
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 14,
+    "title": "Tombs on the road to Sicyon",
+    "summary": "Pausanias lists tombs along the road, Sicyonian burial customs, and the Dripping Well.",
+    "stakes": "",
+    "present": [
+     "Lycus",
+     "Eupolis",
+     "Xenodice"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Road from Corinth to Sicyon",
+     "modern_name": "near Sikyona, Greece",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 22.75
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 22,
+    "title": "Citadel, theatre and Dionysus",
+    "summary": "He describes the temples of Fortune, the Dioscuri and Dionysus, and the night procession of statues.",
+    "stakes": "",
+    "present": [
+     "Aratus",
+     "Dionysus",
+     "Baccheus",
+     "Lysius",
+     "Androdamas",
+     "Phanes",
+     "Aristomachus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Citadel of Sicyon",
+     "modern_name": "Sikyona, Greece",
+     "certainty": "real",
+     "lat": 37.9912,
+     "lon": 22.7198
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 27,
+    "title": "Ruined shrines near the market",
+    "summary": "The shrine of Artemis Limnæa has lost its roof and statue, and the temple of Persuasion has no statue.",
+    "stakes": "",
+    "present": [
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Market-place of Sicyon",
+     "modern_name": "Sikyona, Greece",
+     "certainty": "real",
+     "lat": 37.9912,
+     "lon": 22.7198
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 33,
+    "title": "Apollo and Artemis persuaded",
+    "summary": "After fleeing in panic, the gods are brought back by youths and maidens, and the rite is still reenacted.",
+    "stakes": "The people of Ægialea suffer a pestilence until the gods are appeased.",
+    "present": [
+     "Apollo",
+     "Artemis",
+     "Carmanor",
+     "Prœtus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ægialea",
+     "modern_name": "Sicyon region, Greece",
+     "certainty": "traditional",
+     "lat": 37.99,
+     "lon": 22.72
+    }
+   },
+   {
+    "start_sentence": 34,
+    "end_sentence": 36,
+    "title": "Votive offerings and rebuilding",
+    "summary": "Meleager's spear and Marsyas' flutes were said to be kept in the temple, but burned; Pythocles rebuilt it.",
+    "stakes": "",
+    "present": [
+     "Meleager",
+     "Marsyas",
+     "Pythocles",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Apollo, Sicyon",
+     "modern_name": "Sikyona, Greece",
+     "certainty": "real",
+     "lat": 37.9912,
+     "lon": 22.7198
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Antigonus, who razed and rebuilt Sicyon"
+   },
+   {
+    "name": "Ægialeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "builder of the old city"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Demetrius"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "brings down the pride of cities, per Homer"
+   },
+   {
+    "name": "Lycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian buried on the road"
+   },
+   {
+    "name": "Eupolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian comic poet with a tomb at Sicyon"
+   },
+   {
+    "name": "Xenodice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman who died in childbirth"
+   },
+   {
+    "name": "Aratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Clinias, shown on the stage-curtain"
+   },
+   {
+    "name": "Clinias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aratus"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a gold and ivory statue"
+   },
+   {
+    "name": "Baccheus",
+    "aliases": [],
+    "kind": "other",
+    "description": "leader of the procession"
+   },
+   {
+    "name": "Lysius",
+    "aliases": [],
+    "kind": "other",
+    "description": "second in the procession, brought from Thebes"
+   },
+   {
+    "name": "Androdamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phlias, appointed Baccheus"
+   },
+   {
+    "name": "Phlias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Androdamas"
+   },
+   {
+    "name": "Phanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban who brought Lysius to Sicyon"
+   },
+   {
+    "name": "Aristomachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cleodæus, misread the oracle"
+   },
+   {
+    "name": "Cleodæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aristomachus"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Artemis Limnæa"
+    ],
+    "kind": "goddess",
+    "description": "goddess who with Apollo was appeased"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who slew Pytho and was brought to Sicyon"
+   },
+   {
+    "name": "Carmanor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man in Crete who purified the gods"
+   },
+   {
+    "name": "Prœtus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have built the temple of Apollo"
+   },
+   {
+    "name": "Meleager",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killer of the Calydonian boar"
+   },
+   {
+    "name": "Marsyas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "flute player who died awfully; also a river"
+   },
+   {
+    "name": "Pythocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "rebuilt the temple in Pausanias' time"
+   },
+   {
+    "name": "Pytho",
+    "aliases": [],
+    "kind": "monster",
+    "description": "monster slain by Apollo and Artemis"
+   },
+   {
+    "name": "Persuasion",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Sicyon"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Antigonus",
+    "relation": "parent_of",
+    "b": "Demetrius",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Clinias",
+    "relation": "parent_of",
+    "b": "Aratus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Phlias",
+    "relation": "parent_of",
+    "b": "Androdamas",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Cleodæus",
+    "relation": "parent_of",
+    "b": "Aristomachus",
+    "source": "text",
+    "evidence_sentence": 22
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Homeric line used to explain the decline of Sicyon.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows how decline, ruin and lost statues mark the city's past, while rituals keep memory alive.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias records local customs, tombs and festivals, preserving Sicyonian religion under Roman rule.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Sicyonian tombs gave only the name of the dead, with no epitaph or parentage.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Demetrius the son of Antigonus is Demetrius Poliorcetes, who around 303 BC moved Sicyon to the old acropolis, a stronger and more defensible site.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "A line quoted from Homer's Iliad, where Zeus is said to have brought down the pride of many cities and will bring down more.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Sibyl was a prophetess whose oracles were collected and quoted; the prophecy about Rhodes is not quoted here, so its wording is unknown.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Pentathlum: the pentathlon, a contest of five events: running, jumping, discus, javelin and wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Bid the dead farewell\" refers to the inscription's closing salutation, a common funerary formula, not to a spoken rite.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "The 'stage-curtain' is the painted or woven hanging at the theatre; the figure shown on it is said to be Aratus, Sicyon's famous statesman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "Baccheus and Lysius are cult titles of Dionysus; Lysius means 'Releaser', the god who frees from care.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Aristomachus, a descendant of Heracles, misread the oracle about the 'narrow passage' and failed in his attempt to return to the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Pytho is the serpent killed by Apollo at Delphi; the killing required ritual purification.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "'Pageant' here means a ritual reenactment of the myth performed by the Sicyonians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "allusion",
+    "text": "Marsyas was the satyr flayed by Apollo after losing a music contest; this is his 'awful death'. Meleager's boar-hunt is the Calydonian story.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Sicyon was said to have been taken over by Dorians who came with the Heraclidae, and it then became part of the Argive sphere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Eupolis was a poet of Athenian Old Comedy, a rival of Aristophanes. Pausanias notes his tomb near Sicyon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Pellene, Dyme, Megalopolis and Sellasia were battle sites in Greek wars. Pausanias says he will describe them later.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "The Dioscuri are Castor and Pollux, twin sons of Zeus (Jove), honoured as protectors of travellers and sailors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Prœtus was king of Argos; his daughters were said to have been driven mad and then cured.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Pausanias writes as a traveller who saw these places himself, in the second century AD.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "allusion",
+    "text": "Pausanias admits he cannot explain Sicyon's decline and defers to Homer, giving the city's fall a divine, proverbial explanation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "personification",
+    "text": "The earthquake is described as acting on purpose, making the city bare and robbing it, as if it were a thief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "narrative voice",
+    "text": "The traveller's frank \"whoever this Lycus was\" shows Pausanias as a candid, investigating guide who admits the limits of his knowledge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "narrative voice",
+    "text": "The parenthetical '(if destroyed)' shows Pausanias' cautious, sceptical voice, reporting local tradition without claiming certainty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "personification",
+    "text": "Fear is treated as a place name arising from the gods' panic, giving a mythic origin for the local name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "irony",
+    "text": "Relics said to commemorate legendary heroes and gods perished in an ordinary fire, leaving only the tale.",
+    "spoiler": false
+   }
+  ]
+ }
+}

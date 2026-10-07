@@ -1,0 +1,469 @@
+{
+ "section_id": "pausanias-body-79",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9953,
+  "output": 3993
+ },
+ "result": {
+  "summary": "Pausanias describes the sights of Hermione: temples of Dionysus, Artemis, Apollo, Fortune, wells, and especially the temple of Demeter Chthonia. He details its founding legend, the secret heifer sacrifice by four old women, and nearby sites linked to Clymenus, the underworld, and Ilithyia.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Temples and wells of Hermione",
+    "summary": "Pausanias lists temples of Dionysus, Artemis, Poseidon, Vesta, Apollo and Fortune, plus two wells.",
+    "stakes": "",
+    "present": [
+     "Dionysus Melanægis",
+     "Artemis",
+     "Poseidon",
+     "Vesta",
+     "Apollo",
+     "Telesilla",
+     "Pythæus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hermione",
+     "modern_name": "Ermioni",
+     "certainty": "real",
+     "lat": 37.3846,
+     "lon": 23.2517
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 12,
+    "title": "Founding of Demeter's temple",
+    "summary": "Hermione and Argos tell how Chthonia built the temple after her father Colontas refused Demeter hospitality.",
+    "stakes": "Colontas is burnt with his house for refusing the goddess.",
+    "present": [
+     "Demeter",
+     "Clymenus",
+     "Chthonia",
+     "Colontas",
+     "Atheras",
+     "Mysius",
+     "Phoroneus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argolis",
+     "modern_name": "Argolis",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 23.0
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 25,
+    "title": "The Chthonia festival sacrifice",
+    "summary": "A procession leads heifers to the temple where four old women kill them; the cult object remains secret.",
+    "stakes": "The heifers are sacrificed.",
+    "present": [
+     "Demeter",
+     "Chthonia"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Demeter on the Pron",
+     "modern_name": "Ermioni",
+     "certainty": "real",
+     "lat": 37.3846,
+     "lon": 23.2517
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 34,
+    "title": "Clymenus, Echo, and Ilithyia",
+    "summary": "Nearby are the temple of Clymenus, a temple of Ares, the Echo porch, the entrance Hercules used for Cerberus, and Ilithyia's temple.",
+    "stakes": "",
+    "present": [
+     "Clymenus",
+     "Ares",
+     "Hercules",
+     "Cerberus",
+     "Ilithyia",
+     "Pluto"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hermione",
+     "modern_name": "Ermioni",
+     "certainty": "real",
+     "lat": 37.3846,
+     "lon": 23.2517
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dionysus Melanægis",
+    "aliases": [],
+    "kind": "god",
+    "description": "Dionysus honoured with music and diving contests"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Iphigenia"
+    ],
+    "kind": "goddess",
+    "description": "Goddess with a temple under the name Iphigenia"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Bronze statue with foot on a dolphin"
+   },
+   {
+    "name": "Vesta",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Honoured with an altar, no statue"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Pythæan Apollo",
+     "Apollo of the Borders"
+    ],
+    "kind": "god",
+    "description": "God with three temples in Hermione"
+   },
+   {
+    "name": "Pythæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Apollo who came to Argive land"
+   },
+   {
+    "name": "Telesilla",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet cited by Pausanias"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Chthonia"
+    ],
+    "kind": "goddess",
+    "description": "Goddess worshipped in Hermione"
+   },
+   {
+    "name": "Clymenus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Founder, or underworld king-god"
+   },
+   {
+    "name": "Phoroneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Clymenus"
+   },
+   {
+    "name": "Chthonia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sister of Clymenus, or daughter of Colontas, who built the temple"
+   },
+   {
+    "name": "Colontas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man burnt for refusing Demeter hospitality"
+   },
+   {
+    "name": "Atheras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Host of Demeter"
+   },
+   {
+    "name": "Mysius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Host of Demeter"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Has a statue in Demeter's temple"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "Has a temple and statue"
+   },
+   {
+    "name": "Pluto",
+    "aliases": [],
+    "kind": "god",
+    "description": "Place named for him"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Said to have brought up Cerberus here"
+   },
+   {
+    "name": "Cerberus",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Hound of the underworld"
+   },
+   {
+    "name": "Ilithyia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess whose statue only priestesses may see"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Pythæus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Phoroneus",
+    "relation": "parent_of",
+    "b": "Clymenus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Phoroneus",
+    "relation": "parent_of",
+    "b": "Chthonia",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Clymenus",
+    "relation": "sibling_of",
+    "b": "Chthonia",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Colontas",
+    "relation": "parent_of",
+    "b": "Chthonia",
+    "source": "text",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Chthonia",
+    "canonical": "Demeter",
+    "explanation": "Demeter's cult title at Hermione, also the festival's name, from the founder."
+   },
+   {
+    "alias": "Iphigenia",
+    "canonical": "Artemis",
+    "explanation": "Artemis worshipped under the name Iphigenia."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 30,
+    "reason": "Charming description of the Echo porch repeating a whisper thrice.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows local cult and secrecy: sacred things are known only to initiated old women, and local legends compete with Argive ones.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias records rural Greek ritual, including animal sacrifice and links to underworld entrances, in the Roman period.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says the flower in the boys' garlands resembles the hyacinth, with its mournful markings.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Melanægis means 'of the black goatskin' (Greek aigis, goatskin); an epithet of Dionysus, probably tied to a myth or cult garment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Vesta is the Roman name for Hestia, goddess of the hearth; her cult often had no statue, only an altar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Telesilla was a poetess of Argos, famed for her poems and for rallying the city's women against the Spartans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "'Litigation' here means a legal dispute settled by arbitration, as opposed to war, over boundaries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Parian marble came from the island of Paros and was prized for its fine white quality, used for statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "The Pron is a hill ('the Prow' or headland) at Hermione on which Demeter's temple stood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "'Burnt house and all' means he was burned together with his house, a punishment for refusing the goddess hospitality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The hyacinth's petals were said to bear markings 'AI AI', letters of mourning, from the myth of Apollo's slain beloved Hyacinthus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "'Curvetting' means leaping and prancing; here the heifer bounds about wildly against its ropes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "'Finish' is used for 'kill'; the euphemism avoids stating the slaughter bluntly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "'Fresh wonder' means a further marvel: all the later heifers are said to fall on the same side as the first.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "phrasing",
+    "text": "'Thrice' means three times: the porch is said to echo a whisper back three times.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "Pluto is the god of the dead, and the Acherusian marsh recalls a marsh or lake of the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "Refers to Hercules' twelfth labour, bringing the hound Cerberus up from Hades; Hermione claimed this as the exit point.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Iphigenia was the daughter of Agamemnon, whose sacrifice at Aulis was linked to Artemis; some traditions made her a form of the goddess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Demeter, goddess of grain, wandered searching for her lost daughter Persephone; hosts who received her were rewarded, those who refused were punished.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Chthonia means 'of the earth', a fitting title for Demeter, goddess of the fruitful earth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Annual magistrates joining the procession shows the festival was a state cult, not merely private worship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Demeter was goddess of grain and also had underground, chthonic aspects, which suits this cult of Chthonia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Clymenus, 'the Famous One', is here a title of Pluto, the king of the dead, not a mortal's name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Ilithyia was the goddess of childbirth, so offerings to her would come largely from women.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "hyperbole",
+    "text": "The claim that the old well would not run dry even if the whole population drank stresses its marvellous abundance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "characterization",
+    "text": "Colontas's rudeness is contrasted with his daughter's piety and with the welcoming Atheras and Mysius, shaping a moral lesson.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "poetic justice",
+    "text": "The impious father is destroyed by fire while the pious daughter is rescued and honored, rewarding each by their deeds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "characterization",
+    "text": "The terse description makes the old women efficient and unsentimental ritual killers, adding a grim, uncanny tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a cautious eyewitness, stressing what he has not seen and so marking the limits of his knowledge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "motif",
+    "text": "Secrecy runs through the mystery cult; only the old women hold the knowledge, which heightens the sense of awe.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,510 @@
+{
+ "section_id": "pausanias-body-29",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12779,
+  "output": 4615
+ },
+ "result": {
+  "summary": "Pausanias describes the ship of the Panathenaic procession, then the road to the Academy with its temples and its public tombs. He lists the Athenian war dead and famous men buried there, with short accounts of the battles and alliances behind them.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "The Panathenaic ship and shrines",
+    "summary": "Pausanias notes the ship made for the Panathenaic procession, compares it with the ship at Delos, and mentions temples and tombs outside the city.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Areopagus",
+     "modern_name": "Areopagus, Athens",
+     "certainty": "real",
+     "lat": 37.9738,
+     "lon": 23.7232
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 7,
+    "title": "The Academy and its precincts",
+    "summary": "He describes the Academy, now a gymnasium, the precincts of Artemis, and the small temple of Dionysus Eleuthereus.",
+    "stakes": "",
+    "present": [
+     "Artemis",
+     "Dionysus Eleuthereus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Academy",
+     "modern_name": "Akadimia Platonos, Athens",
+     "certainty": "real",
+     "lat": 37.992,
+     "lon": 23.712
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 26,
+    "title": "Tombs along the Academy road",
+    "summary": "Pausanias lists the tombs of Thrasybulus, Pericles and others, and the war dead of many campaigns.",
+    "stakes": "",
+    "present": [
+     "Thrasybulus",
+     "Pericles",
+     "Chabrias",
+     "Phormio",
+     "Leagrus",
+     "Sophanes",
+     "Clisthenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Road to the Academy",
+     "modern_name": "Kerameikos area, Athens",
+     "certainty": "real",
+     "lat": 37.978,
+     "lon": 23.711
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 32,
+    "title": "Origin of the Argive alliance",
+    "summary": "Told as a story: after a Spartan earthquake and Helot revolt, Athenian help under Cimon was sent home, so Athens allied with Argos, which fought at Tanagra.",
+    "stakes": "Athenian honour after being sent away, and the outcome of the battle at Tanagra.",
+    "present": [
+     "Cimon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lacedaemon",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.0734,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 50,
+    "title": "More famous dead and Lycurgus",
+    "summary": "Pausanias lists further tombs of soldiers and famous men, and praises the public works of Lycurgus.",
+    "stakes": "",
+    "present": [
+     "Apollodorus",
+     "Eubulus",
+     "Nicias",
+     "Demosthenes",
+     "Conon",
+     "Timotheus",
+     "Harmodius",
+     "Aristogiton",
+     "Ephialtes",
+     "Lycurgus",
+     "Lachares"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Road to the Academy",
+     "modern_name": "Kerameikos area, Athens",
+     "certainty": "real",
+     "lat": 37.978,
+     "lon": 23.711
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with precincts near the Academy"
+   },
+   {
+    "name": "Dionysus Eleuthereus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose statue is carried yearly to a small temple"
+   },
+   {
+    "name": "Thrasybulus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycus, who put down the Thirty Tyrants"
+   },
+   {
+    "name": "Pericles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian buried on the road, son of Xanthippus"
+   },
+   {
+    "name": "Chabrias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian buried on the road"
+   },
+   {
+    "name": "Phormio",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian buried on the road"
+   },
+   {
+    "name": "Leagrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian general given great power"
+   },
+   {
+    "name": "Sophanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "of Decelea, killed the Argive Eurybates"
+   },
+   {
+    "name": "Clisthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who made the tribal regulations"
+   },
+   {
+    "name": "Cimon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Miltiades, Athenian commander"
+   },
+   {
+    "name": "Miltiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cimon"
+   },
+   {
+    "name": "Apollodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian leader of mercenaries"
+   },
+   {
+    "name": "Eubulus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Spintharus, buried here"
+   },
+   {
+    "name": "Nicias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "general omitted from the pillar because he surrendered"
+   },
+   {
+    "name": "Demosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "general who made terms for others and tried to kill himself"
+   },
+   {
+    "name": "Conon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian commander, father of Timotheus"
+   },
+   {
+    "name": "Timotheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian commander, son of Conon"
+   },
+   {
+    "name": "Harmodius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killed Hipparchus with Aristogiton"
+   },
+   {
+    "name": "Aristogiton",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killed Hipparchus with Harmodius"
+   },
+   {
+    "name": "Hipparchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Pisistratus, murdered"
+   },
+   {
+    "name": "Pisistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hipparchus"
+   },
+   {
+    "name": "Ephialtes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "orator who opposed the Areopagus"
+   },
+   {
+    "name": "Lycurgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "orator and financier, son of Lycophron"
+   },
+   {
+    "name": "Lachares",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant who plundered Lycurgus' metalwork"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lycus",
+    "relation": "parent_of",
+    "b": "Thrasybulus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Miltiades",
+    "relation": "parent_of",
+    "b": "Cimon",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Conon",
+    "relation": "parent_of",
+    "b": "Timotheus",
+    "source": "text",
+    "evidence_sentence": 46
+   },
+   {
+    "a": "Pisistratus",
+    "relation": "parent_of",
+    "b": "Hipparchus",
+    "source": "text",
+    "evidence_sentence": 47
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 35,
+    "reason": "Pausanias' moral that bravery counts for nothing without good fortune, citing Sparta's defeat at Leuctra.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The road of tombs turns Athens' history into a guided walk, praising valour and noting how fortune and betrayal shape outcomes.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Public burial of war dead with named inscriptions was a distinctive Athenian civic custom, and the passage records many monuments.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Academy later became the site of Plato's school, but Pausanias here describes it only as a gymnasium.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "The Panathenaea was Athens' great festival for Athena; its procession carried a new robe (peplos) to her, hoisted on a ship-shaped wheeled float.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "'Nine banks of rowers from the decks' means nine tiers of oarsmen, a huge warship type; the wording is obscure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Pausanias hints at lines of Sappho on these epithets of Artemis, but declines to explain, as he often does with matters he considers sacred or tangential.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Eleuthereus means 'of Eleutherae', the Boeotian town from which this Dionysus statue was brought to Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The Thirty Tyrants were the oligarchs ruling Athens after its defeat in 404 BC; Thrasybulus began the democratic restoration from Phyle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The Edoni were a Thracian people; the Athenians were attacked near Drabescus around 465 BC while trying to colonize the area.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Clisthenes reorganized Athens into ten tribes in 508 BC, a foundation of Athenian democracy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "'I ween' is archaic for 'I think'; the decree concerns slaves who fought for Athens, probably at Arginusae.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Ithome was a mountain stronghold in Messenia where the rebel Helots made their stand against Sparta, c. 464 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "phrasing",
+    "text": "\"Offensive and defensive alliance\" means a treaty binding both sides to fight together in attack and to defend each other.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "A satrap was a Persian provincial governor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "Leuctra (371 BC) was the Theban victory over Sparta under Epaminondas, which ended Spartan dominance in Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "word",
+    "text": "Elegiac lines are verses in elegiac couplets, the usual metre for epitaphs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "Nicias and Demosthenes led the failed Athenian expedition to Sicily (413 BC); both were captured and executed by Syracuse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "allusion",
+    "text": "Harmodius and Aristogiton killed Hipparchus in 514 BC and were honoured by Athens as tyrant-slayers.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "The Academy, outside Athens' walls, later became Plato's school; it was a public gymnasium with sacred olive trees and gardens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Thrasybulus was an Athenian general and democratic leader who overthrew the Thirty Tyrants in 403 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Pericles led Athens in its golden age; Chabrias and Phormio were famous Athenian generals of the fourth and fifth centuries BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "The Marathon dead were buried on the battlefield in a great mound, an exceptional honour for their victory over the Persians in 490 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Pausanias counts Athens' overseas expeditions, contrasting them with the pan-Greek Trojan expedition under Agamemnon against King Priam.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Helots were the enslaved population of Spartan territory, who farmed the land for their Spartan masters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Sparta dismissed Cimon's Athenian force, probably fearing they would sympathise with the Helots. Athens was deeply offended.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "The battle of Tanagra was fought about 457 BC in Boeotia between Sparta with allies and Athens with Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "text": "Lycurgus was the Athenian statesman who managed the city's finances c. 338–326 BC and carried out major public works.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "text": "Lachares was an Athenian tyrant c. 295 BC who stripped the gold from Athene's statue and other treasures.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "hyperbole",
+    "text": "Calling the Delos ship the finest 'I have ever heard of' stresses its size, though the claim rests only on report.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "narrative voice",
+    "text": "The selective, personal guide's voice appears here: Pausanias chooses what to include and signals his restraint.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "characterization",
+    "text": "Thrasybulus is defined by one decisive feat: toppling tyranny with sixty men, then reconciling factions, showing both force and statesmanship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "personification",
+    "text": "Night is described as acting: it \"took away\" certainty of victory, so fortune appears as an agent in the battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "irony",
+    "text": "Sparta's past conquests make its collapse at Leuctra a reversal, and Pausanias uses it to argue that bravery depends on fortune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "characterization",
+    "text": "Nicias's omission from the pillar shows how Athens judged him: surrender, in the writer's account, outweighed his earlier command.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "device": "contrast",
+    "text": "The plundered metalwork is set against the surviving buildings, suggesting that lasting works outlive movable wealth and tyranny.",
+    "spoiler": false
+   }
+  ]
+ }
+}

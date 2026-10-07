@@ -1,0 +1,545 @@
+{
+ "section_id": "pausanias-body-169",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10646,
+  "output": 4540
+ },
+ "result": {
+  "summary": "Pausanias finishes the statues of Zeus at Olympia and begins other offerings in the Altis. He describes the votive bronzes of the drowned Messenian boys' chorus, Agrigentum's offerings, and groups of Hercules and the Achaean heroes who drew lots against Hector, with notes on their sculptors.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Transition from statues of Zeus",
+    "summary": "Pausanias ends his list of Zeus statues and says other statues will be covered, with athletes' statues described later.",
+    "stakes": "",
+    "present": [
+     "Alexander",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 11,
+    "title": "The drowned Messenian chorus",
+    "summary": "A chorus of boys sent from the Sicilian Strait to Rhegium perished at sea, and the Messenians set up bronze images at Olympia by Callon of Elis.",
+    "stakes": "The boys, their choir-master and piper are lost in the stormy strait.",
+    "present": [
+     "Odysseus",
+     "Hippias",
+     "Callon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sicilian Strait",
+     "modern_name": "Strait of Messina",
+     "certainty": "real",
+     "lat": 38.2,
+     "lon": 15.6
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 19,
+    "title": "Agrigentum's boys and Sicily's peoples",
+    "summary": "Agrigentum dedicated bronze praying boys from the spoil of Motye; Pausanias lists Sicily's peoples.",
+    "stakes": "",
+    "present": [
+     "Calamis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Motye",
+     "modern_name": "Mozia, Sicily",
+     "certainty": "real",
+     "lat": 37.87,
+     "lon": 12.48
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 22,
+    "title": "Two boyish Hercules statues",
+    "summary": "Two naked boy Hercules statues stand on the wall, by Hippotion and Anaxippus.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Hippotion",
+     "Nicodamus",
+     "Anaxippus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 32,
+    "title": "Achaean heroes drawing lots",
+    "summary": "Statues show the Greeks who drew lots to fight Hector, with Nestor and Idomeneus; Onatas made them.",
+    "stakes": "",
+    "present": [
+     "Nestor",
+     "Hector",
+     "Odysseus",
+     "Agamemnon",
+     "Idomeneus",
+     "Onatas",
+     "Nero"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 41,
+    "title": "More Hercules offerings",
+    "summary": "Hercules fights an Amazon, and the Thasians dedicate a bronze Hercules by Onatas, praised as a great sculptor.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Evagoras",
+     "Aristocles",
+     "Thasus",
+     "Onatas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "chief god honored at Olympia"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Philip, shown imitating Zeus"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero; one who drew lots against Hector"
+   },
+   {
+    "name": "Hippias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "called the Wise, wrote elegiac lines"
+   },
+   {
+    "name": "Callon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor from Elis"
+   },
+   {
+    "name": "Calamis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor thought to have made the boys"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero shown in several statues"
+   },
+   {
+    "name": "Hippotion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Tarentine dedicator"
+   },
+   {
+    "name": "Nicodamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mænalian designer"
+   },
+   {
+    "name": "Anaxippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mendæan dedicator"
+   },
+   {
+    "name": "Hector",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan champion who challenged a Greek"
+   },
+   {
+    "name": "Nestor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek elder throwing lots into helmet"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek leader, name inscribed on statue"
+   },
+   {
+    "name": "Idomeneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan hero with cock device"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of Idomeneus"
+   },
+   {
+    "name": "Pasiphae",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of the Sun"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of the Achaeans"
+   },
+   {
+    "name": "Tantalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pelops"
+   },
+   {
+    "name": "Onatas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æginetan sculptor, son of Micon"
+   },
+   {
+    "name": "Micon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Onatas"
+   },
+   {
+    "name": "Nero",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "emperor who took a statue to Rome"
+   },
+   {
+    "name": "Evagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicator from Zancle"
+   },
+   {
+    "name": "Aristocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancient sculptor from Cydonia"
+   },
+   {
+    "name": "Thasus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phœnician son of Agenor who led Thasians"
+   },
+   {
+    "name": "Agenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Thasus"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hercules in Greek belief"
+   },
+   {
+    "name": "Dædalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "legendary sculptor"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Alexander"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Minos",
+    "relation": "parent_of",
+    "b": "Idomeneus",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Tantalus",
+    "relation": "parent_of",
+    "b": "Pelops",
+    "source": "text",
+    "evidence_sentence": 30
+   },
+   {
+    "a": "Micon",
+    "relation": "parent_of",
+    "b": "Onatas",
+    "source": "text",
+    "evidence_sentence": 32
+   },
+   {
+    "a": "Agenor",
+    "relation": "parent_of",
+    "b": "Thasus",
+    "source": "text",
+    "evidence_sentence": 36
+   },
+   {
+    "a": "Amphitryon",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 38
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Zancle",
+    "canonical": "Messene",
+    "explanation": "The Sicilian city Zancle was later renamed Messene (modern Messina)."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Pausanias' pious remark that Providence brings consolation even after disaster.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows how votive offerings turn grief, victory and civic pride into lasting monuments at Olympia.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Offerings from Sicily, Thasos and Zancle show Olympia as a pan-Hellenic stage where colonies displayed their identity.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes Nero took one of the Achaean heroes' statues to Rome, showing Roman looting of Greek art.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Altis is the sacred grove and precinct of Zeus at Olympia, which contained the temples, altars and statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "The sentence is garbled: the text seems to say the Corinthian's offering is a statue of Alexander son of Philip, made in imitation of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Effigies means statues or images; here it refers to athlete statues, which Pausanias treats in Books 5 and 6.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Refers to Odysseus' (Ulysses') wanderings in Homer's Odyssey, where he swims after shipwreck; Homer's Scylla and Charybdis were traditionally located in this strait.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "Providence here means divine care; the sentence says the gods somehow soften every misfortune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Elegiac lines are verses in elegiac couplets, a common meter for inscriptions and epitaphs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Motye was a Phoenician (Carthaginian) settlement on a small island off western Sicily; \"Libya\" here means North Africa generally.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "The Altis was the sacred precinct of Zeus at Olympia, enclosing the temples, altars and votive statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "Siceli is this translation's form of the Sicels; the Troad is the region around Troy, so these settlers claim Trojan origins.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Nero carried off many Greek artworks to Rome; \"Odysseus\" here is the translator's form, and the Odysseus statue was taken as plunder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "Writing from right to left is an archaic style of inscription, suggesting great age.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "Zancle was renamed Messene (Messina) after Anaxilas of Rhegium resettled it in the early fifth century BC, giving a latest date for Aristocles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "word",
+    "text": "A cubit is roughly a forearm's length, about 18 inches, so the statue is around fifteen feet tall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "The Tyrian Hercules is the Phoenician god Melqart, whom Greeks identified with Hercules.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Corinth was destroyed by Rome in 146 BC and refounded by Julius Caesar in 44 BC as a Roman colony.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Rhegium (modern Reggio Calabria) lay on the Italian side of the strait of Messina; the Messenians there were of Greek descent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Hippias of Elis was a famous sophist of the late fifth century BC, known for his wide learning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Hercules' first labour was killing the Nemean lion, which he shot and then strangled.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "In the Iliad, Hector challenges the Greeks to single combat and nine champions draw lots; Ajax is chosen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Idomeneus was king of Crete and a Greek leader at Troy; Minos was his grandfather.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Taking the Amazon queen Hippolyte's belt was one of Hercules' twelve labours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "text": "Onatas of Aegina was a leading early fifth-century BC bronze sculptor, working in the Aeginetan school.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "pathos",
+    "text": "The detailed loss of every boy, choir-master and piper, all 'boys and all', stresses the scale of the tragedy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "personification",
+    "text": "Winds 'lash' the sea to fury, giving the elements violent, human-like agency and heightening the strait's danger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "allusion",
+    "text": "Comparing the strait to Odysseus' trials makes its dangers seem greater than even the hero could survive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "symbolism",
+    "text": "The cock, heralding the dawn, symbolizes the Sun and gives the shield device a meaningful tie to Idomeneus' ancestry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "characterization",
+    "text": "Pausanias closes with a superlative judgment, ranking Onatas beside Daedalus and the Attic school and shaping the reader's regard for the artist.",
+    "spoiler": false
+   }
+  ]
+ }
+}

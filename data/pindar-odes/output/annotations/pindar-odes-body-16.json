@@ -1,0 +1,440 @@
+{
+ "section_id": "pindar-odes-body-16",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11933,
+  "output": 3824
+ },
+ "result": {
+  "summary": "Pindar praises Hieron of Syracuse for a chariot victory and for protecting the Lokrians. He tells how Ixion, punished for ingratitude and lust for Hera, fathered the Centaurs. He closes by condemning slander and flattery and praising honest speech.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Editor's introduction",
+    "summary": "The editor discusses the ode's date, setting and obscure purpose.",
+    "stakes": "",
+    "present": [
+     "Hieron",
+     "Anaxilaos",
+     "Polyzelos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Syracuse",
+     "modern_name": "Syracuse",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 15.29
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 13,
+    "title": "Praise of Hieron's victory",
+    "summary": "Pindar brings the song from Thebes to Syracuse, praising Hieron's chariot win and his rescue of the Lokrians.",
+    "stakes": "",
+    "present": [
+     "Hieron",
+     "Artemis",
+     "Hermes",
+     "Kinyras"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Syracuse",
+     "modern_name": "Syracuse",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 15.29
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 21,
+    "title": "The punishment of Ixion",
+    "summary": "Ixion, guest of the gods, lusts after Hera, embraces a cloud and is bound to a wheel. His union with the cloud produces Kentauros and the Centaurs.",
+    "stakes": "Ixion risks eternal punishment for ingratitude and desire for Hera.",
+    "present": [
+     "Ixion",
+     "Hera",
+     "Zeus",
+     "Kentauros"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Heaven and Mount Pelion",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 39,
+    "title": "Against slander, for honesty",
+    "summary": "Pindar praises Hieron's wealth and wisdom, rejects slander and flattery, and urges submission to the gods and honest speech.",
+    "stakes": "The poet risks the harm of slander and envy.",
+    "present": [
+     "Hieron",
+     "Archilochos",
+     "Rhadamanthos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Syracuse",
+     "modern_name": "Syracuse",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 15.29
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hieron",
+    "aliases": [
+     "son of Deinomenes"
+    ],
+    "kind": "mortal",
+    "description": "ruler of Syracuse and victorious charioteer"
+   },
+   {
+    "name": "Ixion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero punished on a winged wheel for desiring Hera"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "wife of Zeus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods who made a cloud-snare"
+   },
+   {
+    "name": "Kentauros",
+    "aliases": [],
+    "kind": "creature",
+    "description": "monstrous son of Ixion and the cloud"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "archer maiden who helps tame horses"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of games"
+   },
+   {
+    "name": "Kinyras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cyprian king, priest of Aphrodite, loved by Apollo"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "golden-haired god who loved Kinyras"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose house Kinyras served"
+   },
+   {
+    "name": "Archilochos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet of bitter abuse"
+   },
+   {
+    "name": "Rhadamanthos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "example of truthful good fortune"
+   },
+   {
+    "name": "Anaxilaos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant of Rhegium and Messana"
+   },
+   {
+    "name": "Polyzelos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hieron's brother"
+   },
+   {
+    "name": "Kronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Hera"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Ixion",
+    "relation": "parent_of",
+    "b": "Kentauros",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Kronos",
+    "relation": "parent_of",
+    "b": "Hera",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Hieron",
+    "relation": "sibling_of",
+    "b": "Polyzelos",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "son of Deinomenes",
+    "canonical": "Hieron",
+    "explanation": "A patronymic for Hieron."
+   },
+   {
+    "alias": "Kronidai",
+    "canonical": "Zeus",
+    "explanation": "Sons of Kronos, the gods of Zeus's generation."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 14,
+    "reason": "Ixion's wheel proclaims the lesson of gratitude.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "reason": "Memorable proverb against kicking against the goad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "reason": "Contrasts flattery with truthfulness; the fawning ape image.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Ingratitude and excess bring ruin, while honest speech and acceptance of the gods' order bring lasting fortune.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The ode reflects Sicilian tyrants' use of poets for praise, with veiled advice mixed in.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Ixion's wheel became a lasting image of eternal punishment in later literature."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pindar's phrase 'Be what thou art' became a widely quoted maxim.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Epizephyrian Lokrians were Greek colonists of Locri in southern Italy; the name means 'of the western promontory'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Artemis of the river\" refers to a cult title of Artemis at Syracuse, tied to the Alpheus river and the spring Arethusa. Ortygia is the island part of the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"The wide-ruling god, the trident-wielder\" is Poseidon, patron of horses, named by epithet rather than by name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Kinyras was a legendary king of Cyprus and priest of Aphrodite, here an example of a king honoured in song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"The maiden daughter of the Lokrian in the west\" means a young woman of Epizephyrian Lokri, who sings Hieron's praise for saving her city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Kronidai are the sons of Kronos, the Olympian gods. Ixion was welcomed at their table after his crime, then abused their hospitality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Ixion was the first to kill a kinsman treacherously, murdering his father-in-law Deioneus by trapping him in a pit of fire.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "The 'cloud' is Nephele, shaped by Zeus to look like Hera; 'the sweet lie' means the false pleasure of an illusion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Archilochos was a poet of Paros famed for savage invective; tradition said he lived in poverty and was bitter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "'Kaster in Aeolian mood' refers to a tune named for Kastor, sung in the Aeolian musical mode.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Rhadamanthos, son of Zeus, was a just judge, later a judge of the dead, so he stands for honesty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "phrasing",
+    "text": "'Kick against the goad' means resist a driver's prod, a proverb for futile resistance to authority or the gods.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Hieron became ruler of Syracuse in 478 B.C., so the ode is dated between 478 and 476 B.C.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Ixion was a mythical king who tried to seduce Hera and was punished by being bound to a turning wheel. The myth appears later in the ode.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Pindar was from Thebes, so he writes as an outsider sending a song to a Sicilian patron.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Hermes presided over athletic contests, which is why he appears beside Artemis at Hieron's chariot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Ixion, king of the Lapiths, was punished by Zeus by being bound to a perpetually spinning fiery wheel.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Pelion is a mountain in Thessaly, in Magnesia. Centaurs were creatures with a man's upper body and a horse's lower body.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "The addressee is Hieron, tyrant of Syracuse in Sicily, whose chariot victory the ode celebrates.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "apostrophe",
+    "text": "Pindar addresses the city of Syracuse directly, as if it were a person, to open the ode on a grand note.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "epithet",
+    "text": "\"The archer maiden\" stands for Artemis, and \"the trident-wielder\" for Poseidon. Both give divine honour to Hieron's horsemanship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "personification",
+    "text": "The Lokrian maiden stands for the whole city, now free of fear, so one voice speaks for the people Hieron rescued.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "Personification",
+    "text": "Ixion on the wheel is made a speaker, a living warning whose punishment itself teaches the moral.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Irony",
+    "text": "Ixion seeks the queen of heaven but embraces a false cloud; his desire is mocked by a trick.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "Metaphor",
+    "text": "The flattering ape pleasing children stands for insincere courtiers, set against the genuine fruit of Rhadamanthos's soul.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "Simile",
+    "text": "Slander is compared to foxes, suggesting cunning, stealth and ruthless harm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "Simile",
+    "text": "The poet is like a cork floating above the net while the rest sinks, showing he stays unharmed by envy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "Metaphor",
+    "text": "The slanderer is likened to a wolf treading crooked paths, implying predatory deceit.",
+    "spoiler": false
+   }
+  ]
+ }
+}

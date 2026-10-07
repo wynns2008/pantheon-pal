@@ -1,0 +1,391 @@
+{
+ "section_id": "aeschylus-body-37",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10571,
+  "output": 3483
+ },
+ "result": {
+  "summary": "The Danaids thank the Pelasgian king and ask him to send their father Danaus. Danaus tells them to honour the Argives and guard their chastity among strangers. The Danaids and their handmaidens then sing to the local gods, pray against marriage to the sons of Aegyptus, and trust in Zeus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Chorus thanks the king",
+    "summary": "The chorus blesses the king, asks him to send Danaus, and tells the handmaidens to keep good conduct.",
+    "stakes": "The women risk hostility from the natives if they behave badly as foreigners.",
+    "present": [
+     "Chorus",
+     "King"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, before the altar",
+     "modern_name": "Argos",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 25,
+    "title": "Danaus counsels his daughters",
+    "summary": "Danaus returns with a guard and urges gratitude to the Argives. He warns his daughters to protect their chastity and reputation.",
+    "stakes": "The daughters' honour, and the family's safety, if slander or desire disgrace them before the Argives.",
+    "present": [
+     "Danaus",
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, before the altar",
+     "modern_name": "Argos",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 26,
+    "end_sentence": 61,
+    "title": "Hymn and prayers against marriage",
+    "summary": "The Danaids and handmaidens sing praise to the gods of the city and debate the power of Aphrodite and Zeus. They pray to escape marriage to the Egyptians.",
+    "stakes": "The Danaids face forced marriage to Aegyptus' sons.",
+    "present": [
+     "Chorus",
+     "Handmaidens"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, before the altar",
+     "modern_name": "Argos",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [
+     "Danaids"
+    ],
+    "kind": "mortal",
+    "description": "The daughters of Danaus, suppliants seeking refuge"
+   },
+   {
+    "name": "Danaüs",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of the suppliant maidens, their adviser"
+   },
+   {
+    "name": "King",
+    "aliases": [
+     "Pelasgus"
+    ],
+    "kind": "mortal",
+    "description": "Pelasgian ruler who grants protection"
+   },
+   {
+    "name": "Handmaidens",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Attendants of the Danaids"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Supreme god whose will cannot be overcome"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Pure goddess invoked to protect the maidens"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Cytherea",
+     "Cypris"
+    ],
+    "kind": "goddess",
+    "description": "Goddess of love and wedlock"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess with great power near Zeus"
+   },
+   {
+    "name": "Harmonia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Given a share of Aphrodite's gifts"
+   },
+   {
+    "name": "Persuasion",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Attendant in Aphrodite's train"
+   },
+   {
+    "name": "Io",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Woman delivered from pain by Zeus"
+   },
+   {
+    "name": "Aegyptus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler whose sons would wed the Danaids"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Danaüs",
+    "relation": "parent_of",
+    "b": "Chorus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Aphrodite",
+    "relation": "parent_of",
+    "b": "Persuasion",
+    "source": "text",
+    "evidence_sentence": 35
+   },
+   {
+    "a": "Aegyptus",
+    "relation": "sibling_of",
+    "b": "Danaüs",
+    "source": "outside",
+    "evidence_sentence": 42
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cytherea",
+    "canonical": "Aphrodite",
+    "explanation": "Title of Aphrodite, from the island of Cythera."
+   },
+   {
+    "alias": "Cypris",
+    "canonical": "Aphrodite",
+    "explanation": "Title of Aphrodite, linked with Cyprus."
+   },
+   {
+    "alias": "Pelasgus",
+    "canonical": "King",
+    "explanation": "The king's name, used by Danaus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 22,
+    "reason": "Danaus's central command: chastity must be valued above life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "reason": "Expresses the play's belief in Zeus's irresistible will.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage balances fear of male violence and forced marriage with trust in divine justice, central to the play's concern with female autonomy and suppliant protection.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Danaus's worry about slander against foreigners reflects Greek attitudes toward outsiders and the importance of women's reputation.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Suppliants was once thought the earliest surviving Greek tragedy, until papyrus evidence in 1952 suggested a later date.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Pelasgian refers to the king, Pelasgus, ruler of Argos; the name also designates the early inhabitants of Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Meet\" is archaic for fitting or proper.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"An ever-living burthen\" means a lasting burden of guilt (blood-pollution) that would fall on Argos if a stranger were murdered there. \"Burthen\" is an old form of burden.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"An unknown company is proved by time\" means strangers' character can only be judged after time has passed; until then they are suspect.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"Makes bruit abroad\" means proclaims or spreads word of; ripe fruit is a metaphor for maidens ready for love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"That in fear whereof\" refers to the forced marriage with their cousins, the Egyptians, which they fled across the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "\"Double sort\" means two dwellings: one offered by Pelasgus personally, the other provided by the city, both rent-free.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Erasinus is a river of Argos. The Danaids, now in Argos, honour its local gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "Pelasgians is the name this play gives to the people of Argos, ruled by King Pelasgus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "Cytherea is a title of Aphrodite, linked to the island of Cythera.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "phrasing",
+    "text": "The Danaids wish that the 'prize' of forced marriage fall to their enemies instead, meaning the Egyptians; a curse turned back on them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "word",
+    "text": "Cypris is another name for Aphrodite, from her association with Cyprus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "Desire, Persuasion, Harmonia and the Loves are figures in Aphrodite's retinue, representing the forces of love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "phrasing",
+    "text": "'What boots it' means 'what good is it'; the handmaidens doubt that escaping by sea has helped.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "kind": "allusion",
+    "text": "Io was a maiden loved by Zeus and turned into a cow; he restored her gently in Egypt. The Danaids descend from her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "kind": "phrasing",
+    "text": "Two parts good to one bad: they hope for a mostly favourable outcome, accepting some hardship.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Danaüs is the father of the fifty Danaids, who fled Egypt with him to avoid marrying their cousins, the sons of Aegyptus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "The Argives have just voted to protect the suppliants, so Danaus urges honoring them with the rites normally given to the Olympian gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Love's goddess is Aphrodite (Cypris), goddess of desire.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "The chorus is split: the Danaids, the king's suppliant daughters, and their handmaidens, who answer in alternating song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Artemis is the virgin goddess of the hunt, so the maidens appeal to her to protect their unmarried state.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "text": "The Danaids flee forced marriage to their cousins, the sons of Aegyptus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 16,
+    "device": "metaphor",
+    "text": "The maidens are likened to ripe summer fruit, vulnerable to beasts and men alike, expressing fear for their chastity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "metaphor",
+    "text": "Glances become arrows shot by desire, picturing male gazes as an attack on the girls' beauty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "foreshadowing",
+    "text": "The qualifier \"unless some evil hath been devised of Heaven\" hints that their resolve will be tested by the coming pursuit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "foreshadowing",
+    "text": "The handmaiden's fears of cruel distress and bloody wars hint at the violence that follows in the trilogy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "fatalism",
+    "text": "The handmaidens' blunt maxim voices the tragic theme that human wishes yield to what is fated.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "device": "stichomythia",
+    "text": "Quick single-line exchanges between Danaid and handmaiden dramatise their disagreement about how far prayer can go.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,269 @@
+{
+ "section_id": "pausanias-body-77",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7144,
+  "output": 2365
+ },
+ "result": {
+  "summary": "Pausanias describes the island of Sphæria near Trœzen and its link to Æthra, Poseidon and Athene. He then turns to Calaurea, its temple of Poseidon, and the tomb of Demosthenes, defending Demosthenes from the charge of taking Harpalus' money.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "The Sacred Island near Trœzen",
+    "summary": "The island of Sphæria holds the tomb of Sphærus. Æthra, after Athene's dream, crossed over, met Poseidon, and founded a temple of Injurious Athene.",
+    "stakes": "",
+    "present": [
+     "Sphærus",
+     "Athene",
+     "Æthra",
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sphæria",
+     "modern_name": "Poros (Sphairia islet)",
+     "certainty": "traditional",
+     "lat": 37.5,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 9,
+    "title": "Calaurea and its Temple",
+    "summary": "Calaurea was once sacred to Apollo, who exchanged it with Poseidon for Delphi. It has a temple of Poseidon and the tomb of Demosthenes.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Poseidon",
+     "Demosthenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Calaurea",
+     "modern_name": "Poros (Kalaureia)",
+     "certainty": "real",
+     "lat": 37.51,
+     "lon": 23.46
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 16,
+    "title": "Demosthenes and Harpalus' Money",
+    "summary": "Pausanias laments Demosthenes' fate and shows from Philoxenus' letters that he took no money from Harpalus.",
+    "stakes": "Demosthenes' reputation and life against the charge of bribery.",
+    "present": [
+     "Demosthenes",
+     "Homer",
+     "Harpalus",
+     "Philoxenus",
+     "Pausanias",
+     "Alexander"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.98,
+     "lon": 23.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Sphærus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "charioteer of Pelops, buried on the island"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "master of Sphærus"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Injurious Athene"
+    ],
+    "kind": "goddess",
+    "description": "goddess who sent Sphærus a dream"
+   },
+   {
+    "name": "Æthra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman who crossed to the island and lay with Poseidon"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who lay with Æthra and held Delphi"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "owner of Calaurea, exchanged it for Delphi"
+   },
+   {
+    "name": "Demosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian orator, exiled, buried at Calaurea"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "blind poet, poor and wandering"
+   },
+   {
+    "name": "Harpalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "fugitive who brought money from Asia, murdered in Crete"
+   },
+   {
+    "name": "Philoxenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian who arrested the dispenser and wrote to Athens"
+   },
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian accused of murdering Harpalus"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who bitterly hated Demosthenes"
+   }
+  ],
+  "relationships": [],
+  "alias_notes": [
+   {
+    "alias": "Injurious Athene",
+    "canonical": "Athene",
+    "explanation": "Cult title of Athene at Æthra's temple on the island."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "The oracle declaring Calaurea as good a home for a god as Delos, Pytho or Tænarus.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage ties local cult and divine swaps of place to myth, and shows Pausanias' habit of mixing legend with historical defence.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Calaurea was the site of an amphictyony centred on Poseidon, and Demosthenes died there in 322 BC after fleeing Antipater's agents.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Demosthenes is said to have taken poison at the temple of Poseidon at Calaurea rather than be captured.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "The italicised _Sacred_ translates the island's later name Hiera; the explanation follows in the next sentences.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "'Had an intrigue with her' means Poseidon slept with Æthra; by tradition this union is linked to the birth of Theseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Maiden-girdle: a girl's belt, dedicated before marriage as a symbol of her virginity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Pytho is Delphi's old name; Tænarus is the southern Peloponnesian cape with a Poseidon sanctuary. The oracle lists places sacred to the two gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Harpalus was Alexander's treasurer who absconded with funds and came to Athens, where bribery accusations later ruined Demosthenes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "'The dispenser of the money' is Harpalus' steward who handed out the bribes; 'this lad' in the next sentence refers to him as a slave.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Extradition: formal surrender of a person to another authority.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Pelops was the legendary hero who gave the Peloponnese its name; Sphærus was his charioteer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Demosthenes, the great Athenian orator, died on Calaurea in 322 BC by taking poison while fleeing Macedonian pursuers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Alexander is Alexander the Great, whose Macedonian power Demosthenes had long opposed in Athens.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 10,
+    "device": "personification",
+    "text": "Fortune is described as acting with deliberate malice, treating chance misfortune as a hostile will.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "allusion",
+    "text": "Comparing Demosthenes with Homer places the orator among the great men whom fate treated cruelly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "The silence of Demosthenes' bitter enemy becomes the strongest proof of his innocence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,476 @@
+{
+ "section_id": "pausanias-body-261",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10210,
+  "output": 4069
+ },
+ "result": {
+  "summary": "Pausanias describes the sanctuary of Despoena near Acacesium in Arcadia: its portico, the monumental statue group by Damophon, local rites and sacrifices, and nearby shrines including the temple of Pan. He adds digressions on the Titans, Aeschylus, and Despoena's parentage.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Approach and portico of Despoena",
+    "summary": "Pausanias walks from Acacesium to the sanctuary, noting the temple of Artemis the Leader, the portico's reliefs, the painted tablet of the mysteries, the portrait of Polybius and the altars.",
+    "stakes": "",
+    "present": [
+     "Despœna",
+     "Artemis",
+     "Polybius",
+     "Demeter",
+     "Zeus",
+     "Hercules",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Despœna near Acacesium",
+     "modern_name": "Lykosoura, Arcadia",
+     "certainty": "real",
+     "lat": 37.3787,
+     "lon": 22.0559
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 23,
+    "title": "Damophon's statues and Anytus",
+    "summary": "He describes the single-block statues of Despoena and Demeter by Damophon, with Artemis and Anytus beside the throne, and digresses on the Titans, Onomacritus and Aeschylus.",
+    "stakes": "",
+    "present": [
+     "Despœna",
+     "Demeter",
+     "Artemis",
+     "Anytus",
+     "Damophon",
+     "Homer",
+     "Onomacritus",
+     "Æschylus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Despœna near Acacesium",
+     "modern_name": "Lykosoura, Arcadia",
+     "certainty": "real",
+     "lat": 37.3787,
+     "lon": 22.0559
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 31,
+    "title": "Mirror, Hall and sacred grove",
+    "summary": "He describes the mirror, the Hall where mystic rites and sacrifices occur, Despoena's parentage and names, the grove and altars.",
+    "stakes": "",
+    "present": [
+     "Despœna",
+     "Poseidon",
+     "Demeter",
+     "Persephone",
+     "Pamphus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sanctuary of Despœna near Acacesium",
+     "modern_name": "Lykosoura, Arcadia",
+     "certainty": "real",
+     "lat": 37.3787,
+     "lon": 22.0559
+    }
+   },
+   {
+    "start_sentence": 32,
+    "end_sentence": 38,
+    "title": "Temple of Pan and other shrines",
+    "summary": "He climbs to the temple of Pan, recounts its former oracle through Erato, and lists nearby altars and statues.",
+    "stakes": "",
+    "present": [
+     "Pan",
+     "Erato",
+     "Arcas",
+     "Callisto",
+     "Ares",
+     "Aphrodite",
+     "Apollo",
+     "Athene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Pan near Acacesium",
+     "modern_name": "Lykosoura, Arcadia",
+     "certainty": "real",
+     "lat": 37.3787,
+     "lon": 22.0559
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Despœna",
+    "aliases": [
+     "Persephone"
+    ],
+    "kind": "goddess",
+    "description": "Arcadian goddess worshipped above all, said to be daughter of Poseidon and Demeter"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess seated beside Despœna in the statue group"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Artemis the Leader"
+    ],
+    "kind": "goddess",
+    "description": "goddess with torches and statue beside Demeter's throne"
+   },
+   {
+    "name": "Anytus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Titan who reared Despœna, in armour"
+   },
+   {
+    "name": "Damophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the statues"
+   },
+   {
+    "name": "Polybius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycortas, honoured with a statue"
+   },
+   {
+    "name": "Lycortas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Polybius"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Master of the Fates in a relief"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "shown robbing Apollo of the tripod"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "robbed of tripod; wooden statue"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Poseidon Hippius"
+    ],
+    "kind": "god",
+    "description": "father of Despœna"
+   },
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with temple and former oracle"
+   },
+   {
+    "name": "Erato",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nymph who interpreted Pan's oracles"
+   },
+   {
+    "name": "Arcas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Callisto, husband of Erato"
+   },
+   {
+    "name": "Callisto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Arcas"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "traditional mother of Artemis"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who introduced the Titans"
+   },
+   {
+    "name": "Onomacritus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet of Dionysus's orgies"
+   },
+   {
+    "name": "Æschylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Euphorion, poet"
+   },
+   {
+    "name": "Pamphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early poet who gave Persephone's name"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "has an altar"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "two statues in a temple"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "wooden statue and temple"
+   },
+   {
+    "name": "Persephone",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "private name of Despœna"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Despœna",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Despœna",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Erato",
+    "relation": "spouse_of",
+    "b": "Arcas",
+    "source": "text",
+    "evidence_sentence": 35
+   },
+   {
+    "a": "Callisto",
+    "relation": "parent_of",
+    "b": "Arcas",
+    "source": "text",
+    "evidence_sentence": 35
+   },
+   {
+    "a": "Lycortas",
+    "relation": "parent_of",
+    "b": "Polybius",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Artemis",
+    "source": "text",
+    "evidence_sentence": 21
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Persephone",
+    "canonical": "Despœna",
+    "explanation": "Despœna means 'Mistress'; Persephone is her private name, which Pausanias avoids writing."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Inscription praising Polybius as Greece's missed savior.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends description with religious reticence, withholding mystery cult details from the uninitiated.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Arcadian cult differs from Panhellenic myth, making Despoena daughter of Poseidon and honouring Polybius, showing local pride in the Achaean statesman.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Fragments of Damophon's statue group survive and are displayed in the National Archaeological Museum in Athens.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of about 600 feet (roughly 180 metres), so the temple is less than a kilometre away.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Hercules robbing Apollo of his tripod refers to the myth of Hercules seizing the Delphic tripod; Pausanias promises to tell it at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Dove-tailed in\" means joined by interlocking cuts; Pausanias stresses that no piece was added to the sculpture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "A cist is a sacred basket or chest used in mystery rites, holding secret sacred objects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Refers to Iliad 14, where Hera swears by the gods below in Tartarus, called Titans, to deceive Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Æschylus made Artemis a daughter of Demeter, following an Egyptian identification with Bubastis; Greeks usually called her daughter of Leto.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Curetes and Corybantes were ecstatic attendants of the Great Mother and the infant Zeus; Pausanias declines to explain, out of religious reticence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "\"Hall\" translates the Greek megaron, a sacred building for the mysteries, distinct from the temple proper.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Pausanias withholds Despœna's secret name because it belonged to the mystery cult. Pamphus was an early Athenian poet who wrote hymns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "Olive and oak growing from one root: a natural marvel, seen as beyond what a gardener could contrive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "Hippius means \"of horses\"; Poseidon was worshipped in Arcadia as a horse-god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "Arcas, son of Callisto, was the legendary ancestor of the Arcadians, so Erato's marriage ties Pan's oracle to the nation's origins.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Polybius, son of Lycortas, was the Arcadian statesman and historian from Megalopolis, who led the Achaean League in the second century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Damophon of Messene was a celebrated sculptor of the second century BC, known for cult statues in the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Onomacritus was a sixth-century BC Athenian compiler of oracles and Orphic poetry, in which Titans tear apart the infant Dionysus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Dismembering rather than throat-cutting marks this as an unusual local rite, differing from the standard Greek sacrificial practice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "In Arcadian legend, Poseidon pursued Demeter, who took the form of a mare; Despœna (\"the Mistress\") was their daughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "A perpetual fire was a mark of special honor in a sanctuary and required constant tending.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Ares and Aphrodite are named together here; the wooden statue is older, as early Greek cult images were often carved from wood.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "irony",
+    "text": "The inscription's flattering claim, that Greece's ruin came from ignoring Polybius, carries a bitter note, since the statue honours a man whose advice failed to save it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a discreet initiate, declaring he knows more but withholds it, which adds religious authority and mystery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "irony",
+    "text": "The mirror shows the goddesses' statues clearly but the viewer poorly, suggesting the divine is more real than the human onlooker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a cautious, pious first-person witness, openly respecting religious secrecy and citing earlier authorities.",
+    "spoiler": false
+   }
+  ]
+ }
+}

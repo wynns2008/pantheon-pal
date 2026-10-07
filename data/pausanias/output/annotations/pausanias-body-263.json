@@ -1,0 +1,310 @@
+{
+ "section_id": "pausanias-body-263",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7121,
+  "output": 2722
+ },
+ "result": {
+  "summary": "Pausanias describes the road from Lycosura to Phigalia and recounts how the Lacedaemonians took the town in the 30th Olympiad. An oracle at Delphi told the exiles to enlist 100 picked men from Oresthasium, who died and so won back the town. He then describes Phigalia's site and its sanctuaries and statues.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Road to Phigalia and its founders",
+    "summary": "The route from Lycosura crosses the Plataniston and climbs to Phigalia. Pausanias recalls the town's founder Phigalus and rejects other traditions.",
+    "stakes": "",
+    "present": [
+     "Phigalus",
+     "Phialus",
+     "Lycaon",
+     "Bucolion"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phigalia",
+     "modern_name": "Phigaleia, near Figalia",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 21.85
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 8,
+    "title": "Spartan capture and the oracle",
+    "summary": "Sparta takes Phigalia and the Phigalians flee. Delphi tells them to use 100 men of Oresthasium, who die fighting and free the town.",
+    "stakes": "The Phigalians risk permanent exile from their native town; the hundred men risk their lives.",
+    "present": [
+     "Lacedaemonians",
+     "Phigalians",
+     "Pythian Priestess",
+     "Miltiades",
+     "Chionis",
+     "Oresthasians"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Phigalia",
+     "modern_name": "Phigaleia, near Figalia",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 21.85
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 15,
+    "title": "The town and its sanctuaries",
+    "summary": "Pausanias describes the hilltop town, the temple of Artemis the Preserver, a cloaked Hermes and the vermilion Dionysus Acratophorus.",
+    "stakes": "",
+    "present": [
+     "Artemis",
+     "Hermes",
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phigalia",
+     "modern_name": "Phigaleia, near Figalia",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 21.85
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Phigalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Founder of Phigalia, said to be son of Lycaon"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Phigalus"
+   },
+   {
+    "name": "Phialus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Bucolion, whose name briefly replaced the town's"
+   },
+   {
+    "name": "Bucolion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Phialus"
+   },
+   {
+    "name": "Phigalia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Said by some to be a Dryad"
+   },
+   {
+    "name": "Pythian Priestess",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Delphic oracle who gave the Phigalians their answer"
+   },
+   {
+    "name": "Miltiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian chief magistrate used to date the event"
+   },
+   {
+    "name": "Chionis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Laconian Olympic victor"
+   },
+   {
+    "name": "Lacedaemonians",
+    "aliases": [
+     "Spartans"
+    ],
+    "kind": "other",
+    "description": "Spartans who took Phigalia"
+   },
+   {
+    "name": "Phigalians",
+    "aliases": [],
+    "kind": "other",
+    "description": "Inhabitants of Phigalia, driven out then restored"
+   },
+   {
+    "name": "Oresthasians",
+    "aliases": [],
+    "kind": "other",
+    "description": "People of Oresthasium who gave 100 men"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Artemis the Preserver"
+    ],
+    "kind": "goddess",
+    "description": "Goddess with a temple at Phigalia"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Statue in the gymnasium"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Acratophorus"
+    ],
+    "kind": "god",
+    "description": "God with a temple and statue at Phigalia"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Phigalus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Bucolion",
+    "relation": "parent_of",
+    "b": "Phialus",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Acratophorus",
+    "canonical": "Dionysus",
+    "explanation": "Local cult title of Dionysus at Phigalia."
+   },
+   {
+    "alias": "Lacedaemonians",
+    "canonical": "Spartans",
+    "explanation": "Another name for the Spartans."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "The hundred Oresthasians' self-sacrifice fulfils the oracle and wins back Phigalia.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Oracles fulfilled by self-sacrifice and local zeal show Pausanias' interest in piety and the memory of small cities.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The dating by Athenian archon and Olympiad, and the Spartan conquest, reflect early Spartan expansion in the Peloponnese.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Phigalia is near Bassae, site of the well-preserved temple of Apollo Epicurius.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of about 600 feet (roughly 180 metres), so 30 stades is a little under 4 miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Autochthon means 'sprung from the soil': a native who was not descended from immigrants, and was often said to have been born from the earth itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "'Upon conditions of war' means on terms of surrender: the Phigalians left under a truce, not as unconditionally conquered captives.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Greeks dated events by the Athenian chief magistrate (archon) and by Olympiad. The 30th Olympiad falls around 660 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "The Pythian Priestess was the Pythia, the priestess who spoke Apollo's oracles at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Acratophorus is a cult title of Dionysus, probably meaning 'giver of unmixed wine'. The name is given here without explanation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The Iberes are the Iberians of Spain, a source of gold and cinnabar in antiquity. Vermilion is the red pigment made from cinnabar.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Pausanias refers back to his earlier account of Phigalus, Lycaon's son, and of the town's renaming, which he gave elsewhere in his Arcadian narrative.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Lacedæmonians is another name for the Spartans, who were often at war with their Arcadian neighbours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Chionis of Sparta was a famous early Olympic runner who won several times. Pausanias uses his victories to fix the date.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Artemis the Preserver is an epithet of the goddess as a protector. Here she is shown standing, carved in stone.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "irony",
+    "text": "The oracle's remedy is paradoxical: the town will be recovered only through a hundred men who die, so the victory comes from their deaths.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "characterization",
+    "text": "The men of Oresthasium compete eagerly for a place in a mission that means death, which presents them as zealous and heroic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "imagery",
+    "text": "The cloaked, square-shaped Hermes gives a concrete visual picture of an archaic cult image whose body is hidden under its covering.",
+    "spoiler": false
+   }
+  ]
+ }
+}

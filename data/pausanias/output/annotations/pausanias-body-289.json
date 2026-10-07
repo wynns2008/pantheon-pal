@@ -1,0 +1,290 @@
+{
+ "section_id": "pausanias-body-289",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7411,
+  "output": 2502
+ },
+ "result": {
+  "summary": "Pausanias describes sites in Thebes near the Electran gate: the ruins of Amphitryon's house, Alcmena's bridal-bed, and the tomb of Hercules' children. He relates Theban stories of Hercules' madness, the Sorceresses, and the temple of Hercules with its Daedalus statue, and ends with the altar of Apollo Spodius.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Amphitryon's house and Alcmena's bed",
+    "summary": "Pausanias describes the ruins of Amphitryon's house, the bridal-bed, the monument of Hercules' sons, and the stories of the madness and the Sorceresses.",
+    "stakes": "",
+    "present": [
+     "Amphitryon",
+     "Alcmena",
+     "Trophonius",
+     "Agamedes",
+     "Hercules",
+     "Athene",
+     "Hera",
+     "Historis",
+     "Tiresias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, left of the gate Electris",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 16,
+    "title": "Temple of Hercules Champion",
+    "summary": "Pausanias describes the temple, its statues and carvings, the Daedalus story, nearby buildings, and the altar of Apollo Spodius.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Daedalus",
+     "Icarus",
+     "Minos",
+     "Praxiteles",
+     "Thrasybulus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Fugitive from Tiryns who lived in Thebes"
+   },
+   {
+    "name": "Alcmena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Woman married to Amphitryon, mother of a boy"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero worshipped at Thebes, who went mad"
+   },
+   {
+    "name": "Trophonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Builder of the bridal-bed"
+   },
+   {
+    "name": "Agamedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Builder of the bridal-bed"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Threw the stone Composer"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Sent the Sorceresses against Alcmena"
+   },
+   {
+    "name": "Historis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Tiresias who tricked the Sorceresses"
+   },
+   {
+    "name": "Tiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Historis"
+   },
+   {
+    "name": "Daedalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Craftsman who fled Crete and made the wooden statue"
+   },
+   {
+    "name": "Icarus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Daedalus, drowned at sea"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan king with rowed boats"
+   },
+   {
+    "name": "Praxiteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor of the Labours on the gables"
+   },
+   {
+    "name": "Thrasybulus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Lycus who put down the Thirty Tyrants"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Apollo Spodius"
+    ],
+    "kind": "god",
+    "description": "God with an ash altar at Thebes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Tiresias",
+    "relation": "parent_of",
+    "b": "Historis",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Daedalus",
+    "relation": "parent_of",
+    "b": "Icarus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Hercules' sons by Megara",
+    "source": "text",
+    "evidence_sentence": 3
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Apollo Spodius",
+    "canonical": "Apollo",
+    "explanation": "Epithet meaning of the ashes, from his altar made of sacrificial ashes."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local monuments preserve myths of Hercules' birth and family, tying Theban places to the hero's story.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias records Theban local tradition and dedications, such as the Athenian offering after the fall of the Thirty Tyrants.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Amphitryon fled Tiryns after accidentally killing his uncle Electryon, Alcmena's father; at Thebes he later married Alcmena.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Stesichorus and Panyasis were poets who told how Hercules, in madness sent by Hera, killed his children by Megara.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Composer\" translates the stone's name, Sophronister: it was said to bring the raving Hercules to his senses by putting him to sleep.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Sorceresses\" are the Pharmakides, women supposed to use drugs or charms; here they delay Alcmena's labour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Champion\" renders the cult title of Hercules as a defender or fighter in the front line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Dædalus fled Crete after helping Pasiphae and Ariadne's cause against King Minos; Icarus's death gave the Icarian Sea its name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The Stymphelian birds and the cleansing of Elis' stables were two of the Twelve Labours; Antæus was a giant wrestler killed by Hercules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Spodius means \"of the ashes\"; the altar is built from the ashes of sacrificial victims.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Trophonius and Agamedes were legendary Boeotian architects, famed for building temples and treasuries, including Apollo's temple at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Tiresias was Thebes' famous blind seer; his daughter's quick-wittedness helps Alcmena bear Hercules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Thrasybulus led the democratic exiles from Thebes in 403 BC to overthrow the Thirty Tyrants at Athens, helped by Theban support.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "irony",
+    "text": "The goddess's agents are defeated by a simple trick, so Hera's malice is undone by a mortal woman's cry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "narrative voice",
+    "text": "Pausanias adds his own judgment, \"and I think so too,\" showing his role as a critical, personal guide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "foreshadowing",
+    "text": "Icarus's clumsy steering and drowning, set against his father's escape, contrasts invention with its cost.",
+    "spoiler": false
+   }
+  ]
+ }
+}

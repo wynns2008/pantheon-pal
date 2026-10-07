@@ -1,0 +1,361 @@
+{
+ "section_id": "pausanias-body-277",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9706,
+  "output": 3162
+ },
+ "result": {
+  "summary": "Pausanias tells why Tegea honours Apollo Aguieus, recounting the killing of Scephrus by his brother Limon and the later festival. He then notes the Cretan version of the brothers' descent and lists Tegea's tribes, temples, statues and sights, ending on the road toward Laconia.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "Scephrus, Limon and the famine",
+    "summary": "Apollo and Artemis visit Tegea; Limon kills Scephrus and is shot by Artemis. A famine follows and Delphi orders mourning, now commemorated in a festival. Pausanias adds the Cretan accounts of the brothers.",
+    "stakes": "Scephrus is killed by his brother, and the land suffers famine unless the gods are honoured.",
+    "present": [
+     "Apollo",
+     "Artemis",
+     "Scephrus",
+     "Limon",
+     "Tegeates",
+     "Mera"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tegea",
+     "modern_name": "Tegea, Arcadia",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.42
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 22,
+    "title": "Sights of Tegea",
+    "summary": "Pausanias lists the four statues, tribes, temples, altars, and the legend of the snow that helped Tegea beat the Lacedaemonians.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Chirisophus",
+     "Hercules",
+     "Laodice"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tegea",
+     "modern_name": "Tegea, Arcadia",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.42
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 26,
+    "title": "The road toward Laconia",
+    "summary": "Going out from Tegea, Pausanias notes altars of Pan and Lycaean Zeus and temples of Artemis.",
+    "stakes": "",
+    "present": [
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Road from Tegea to Laconia",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Apollo Aguieus"
+    ],
+    "kind": "god",
+    "description": "god honoured at Tegea who visited with Artemis"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who shot Limon"
+   },
+   {
+    "name": "Scephrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Tegeates, killed by his brother"
+   },
+   {
+    "name": "Limon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Tegeates who killed Scephrus"
+   },
+   {
+    "name": "Tegeates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Scephrus and Limon"
+   },
+   {
+    "name": "Mera",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sacrificed with Tegeates"
+   },
+   {
+    "name": "Cydon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Tegeates, migrated to Crete"
+   },
+   {
+    "name": "Archedius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Tegeates"
+   },
+   {
+    "name": "Gortys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Tegeates, or of Rhadamanthus in Cretan story"
+   },
+   {
+    "name": "Catreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan founder, son of Minos in Cretan account"
+   },
+   {
+    "name": "Rhadamanthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "figure in the Elysian fields, father of Gortys"
+   },
+   {
+    "name": "Chirisophus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan sculptor of Apollo's statue"
+   },
+   {
+    "name": "Laodice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Agapenor, built the Aphrodite temple"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero whose wounded statue stands at Tegea"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Tegeates",
+    "relation": "parent_of",
+    "b": "Scephrus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Tegeates",
+    "relation": "parent_of",
+    "b": "Limon",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Scephrus",
+    "relation": "sibling_of",
+    "b": "Limon",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Rhadamanthus",
+    "relation": "parent_of",
+    "b": "Gortys",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Agapenor",
+    "relation": "parent_of",
+    "b": "Laodice",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Apollo Aguieus",
+    "canonical": "Apollo",
+    "explanation": "Aguieus is a cult title meaning protector of streets."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Pausanias admits Greek traditions, especially genealogies, often conflict.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local ritual is explained by a founding story of crime, divine punishment and atonement.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias compares rival local traditions, showing how cities claimed ancestry and links such as Tegea with Crete.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Aguieus means 'of the streets'; Apollo Aguieus was worshipped as protector of ways and doorways, usually as a pillar or cone-shaped statue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "'Transfixed' means pierced through, here shot dead with an arrow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "'They say' marks the Tegean version; Pausanias repeatedly distances himself from local traditions he reports.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Homer's passage is in Odyssey 4, where Proteus tells Menelaus he will go to the Elysian plain, where Rhadamanthus dwells. Pausanias loosely calls the speakers' conversation Proteus and Menelaus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Aguieus means 'of the streets' or 'guardian of the ways'; Apollo was honored as protector of roads and doorways.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "'The two former' means Clareotis and Hippothœtis. Clareotis comes from the Greek klēros, 'lot'; Hippothœtis from Hippothous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Dædalus is the legendary craftsman who worked for King Minos of Crete, and was credited with lifelike statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Hercules fought Hippocoon's sons at Sparta, after they killed his kinsman, in a conflict Pausanias treats elsewhere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "'Incommoded' is archaic for troubled or inconvenienced.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180-200 metres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "'Æginætan' means in the style of Aegina, an island famed for its early sculptors.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Leto, pregnant by Zeus, was hunted by Hera and wandered Greece seeking a place to give birth to Apollo and Artemis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Delphi was Apollo's chief oracle, consulted by Greek cities on how to end plagues, famines and similar disasters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Minos was the legendary king of Crete; Rhadamanthus was his brother, famed as a just judge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Proserpine is the Roman name for Persephone, daughter of Demeter, linked with grain and the growth of crops.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Echemus was king of Tegea and, in legend, killed Hyllus, son of Hercules, in single combat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Artemis Limnatis means 'of the marsh' or 'lake', a cult title for the goddess.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "Irony",
+    "text": "Limon kills his brother over a suspected accusation, and the swift divine punishment answers his hasty violence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "Ritual reenactment",
+    "text": "The myth is tied to a living festival, where the priestess's mock pursuit repeats the killer's punishment as an etiology.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Narrative voice",
+    "text": "Pausanias closes with a skeptical, judicious remark, showing his habit of weighing conflicting local traditions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "digression",
+    "text": "Pausanias breaks from listing statues to compare artists, showing his habit of weighing fame against actual knowledge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "narrative voice",
+    "text": "Pausanias reports the legend at second hand ('they say'), keeping distance from its truth while recording local pride in divine help.",
+    "spoiler": false
+   }
+  ]
+ }
+}

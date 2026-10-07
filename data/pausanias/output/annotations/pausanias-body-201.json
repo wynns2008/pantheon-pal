@@ -1,0 +1,427 @@
+{
+ "section_id": "pausanias-body-201",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8416,
+  "output": 3473
+ },
+ "result": {
+  "summary": "Pausanias describes the Ionian settlement of Samos, its early kings, the expulsion and return of the Samians, and the Heraion with its statue by Smilis. He digresses on Dædalus, then recounts the legendary and early history of Chios.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Early Samos and its rulers",
+    "summary": "Asius's genealogy of Samos is given, and the earlier inhabitants are said to have received the Ionians reluctantly.",
+    "stakes": "",
+    "present": [
+     "Asius",
+     "Ancæus",
+     "Poseidon",
+     "Astypalæa"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Samos",
+     "modern_name": "Samos, Greece",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 26.97
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 6,
+    "title": "Ionians take and lose Samos",
+    "summary": "Procles leads Epidaurian Ionians to Samos; Androclus and the Ephesians expel Leogorus's Samians, who later recover the island.",
+    "stakes": "The Samians risk losing their island to the Ephesians.",
+    "present": [
+     "Procles",
+     "Leogorus",
+     "Androclus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Samos",
+     "modern_name": "Samos, Greece",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 26.97
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 9,
+    "title": "The Heraion of Samos",
+    "summary": "Rival traditions on the origin of Hera's temple and statue; the statue is by Smilis.",
+    "stakes": "",
+    "present": [
+     "Hera",
+     "Smilis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Hera, Samos",
+     "modern_name": "Heraion of Samos",
+     "certainty": "real",
+     "lat": 37.6875,
+     "lon": 26.8869
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 15,
+    "title": "Dædalus digression",
+    "summary": "Dædalus's exile, work for Minos, flight to Sicily and fame, contrasted with Smilis.",
+    "stakes": "Dædalus faces vengeance and then imprisonment by Minos.",
+    "present": [
+     "Dædalus",
+     "Minos",
+     "Cocalus",
+     "Smilis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Crete and Sicily",
+     "modern_name": "Crete",
+     "certainty": "real",
+     "lat": 35.2,
+     "lon": 24.9
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 24,
+    "title": "Early history of Chios",
+    "summary": "Chios is named by Poseidon, settled by Œnopion and later Amphiclus, and Hector defeats the Abantes and Carians.",
+    "stakes": "The Carians and Abantes are driven out or subdued by Hector.",
+    "present": [
+     "Poseidon",
+     "Œnopion",
+     "Amphiclus",
+     "Hector",
+     "Ion"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Chios",
+     "modern_name": "Chios, Greece",
+     "certainty": "real",
+     "lat": 38.37,
+     "lon": 26.14
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Asius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Samian poet, son of Amphiptolemus"
+   },
+   {
+    "name": "Phœnix",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Astypalæa and Europe"
+   },
+   {
+    "name": "Perimede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Œneus"
+   },
+   {
+    "name": "Astypalæa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Ancæus by Poseidon"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god, father of Ancæus and Chios"
+   },
+   {
+    "name": "Ancæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Leleges on Samos"
+   },
+   {
+    "name": "Samia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of the river Mæander, wife of Ancæus"
+   },
+   {
+    "name": "Mæander",
+    "aliases": [],
+    "kind": "god",
+    "description": "river-god"
+   },
+   {
+    "name": "Parthenope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Ancæus, mother of Lycomedes"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Lycomedes"
+   },
+   {
+    "name": "Lycomedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Parthenope and Apollo"
+   },
+   {
+    "name": "Procles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ionian leader, king of Samos"
+   },
+   {
+    "name": "Leogorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Procles, king of Samos"
+   },
+   {
+    "name": "Androclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ephesian leader"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of the Samian temple"
+   },
+   {
+    "name": "Smilis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æginetan sculptor of Hera's statue"
+   },
+   {
+    "name": "Dædalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian artist and exile"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Crete"
+   },
+   {
+    "name": "Cocalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicilian king at Inycus"
+   },
+   {
+    "name": "Ion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tragedian who wrote on Chios"
+   },
+   {
+    "name": "Chios",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Poseidon and a nymph, island's namesake"
+   },
+   {
+    "name": "Œnopion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan settler king of Chios"
+   },
+   {
+    "name": "Amphiclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Chios from Histiæa"
+   },
+   {
+    "name": "Hector",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Chios who fought the Abantes and Carians"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Phœnix",
+    "relation": "parent_of",
+    "b": "Astypalæa",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Ancæus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Ancæus",
+    "relation": "spouse_of",
+    "b": "Samia",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Lycomedes",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Procles",
+    "relation": "parent_of",
+    "b": "Leogorus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Chios",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Œnopion",
+    "relation": "parent_of",
+    "b": "Talus",
+    "source": "text",
+    "evidence_sentence": 18
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "Memorable summary of Dædalus as most remarkable for his art and misfortunes.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage traces how Ionian cities took shape through migration, conquest and mixed local traditions.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias relies on poets like Asius and Ion, showing how early Greek history was reconstructed from verse and local tradition.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Heraion of Samos became one of the largest Greek temples; its site is now a UNESCO World Heritage Site.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Asius of Samos was an early epic poet whose genealogies are known mostly from quotations in Pausanias; this lineage links Samos to Phœnix and Poseidon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Deiphontes, a descendant of Heracles, held Argos and Epidauria; Procles' exile reflects the Dorian upheavals that sent Ionians overseas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"On the pretext\" signals Pausanias' doubt: the Ephesians' stated reason, a Samian-Carian plot, may not be the real motive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Homer's Iliad mentions Dædalus making a dancing-floor for Ariadne, Minos' daughter. The sister's son killed was Talos (or Perdix).",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Out of favour to Dædalus\" means the daughters acted from affection for him; in the tradition they killed Minos when he came seeking Dædalus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The name Chios is linked to Greek chion, \"snow\"; Ion of Chios was a fifth-century BC tragic poet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "The Pan-Ionic league was the Ionian cities' religious federation, which met at the Panionion on Mycale.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Mycale is a mainland promontory facing Samos; Mimas is a mountain headland on the coast opposite Chios.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "The Argonauts were Jason's crew who sailed for the Golden Fleece; Hera's Samian temple, the Heraion, was among the great Greek sanctuaries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Smilis of Ægina was an early sculptor, and his Hera was a very old cult image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Inycus was a Sicilian city under King Cocalus, where Dædalus found refuge after leaving Crete.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 10,
+    "device": "characterization",
+    "text": "Dædalus is introduced as supreme in both skill and suffering, preparing the digression that dwarfs Smilis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "contrast",
+    "text": "Smilis' narrow fame is set against Dædalus' wide renown, showing that the statue's maker was little known.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "etiology",
+    "text": "The tale explains Chios' name through a snowfall at the birth, a folk-etymology blending myth and language.",
+    "spoiler": false
+   }
+  ]
+ }
+}

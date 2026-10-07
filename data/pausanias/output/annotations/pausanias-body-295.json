@@ -1,0 +1,423 @@
+{
+ "section_id": "pausanias-body-295",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7419,
+  "output": 3360
+ },
+ "result": {
+  "summary": "Pausanias describes monuments in Thebes: the temple of Artemis Euclea with the tomb of Antipoenus' self-sacrificing daughters, nearby statues and offerings, and the tombs of Amphion and Zethus. He explains the rival Theban and Tithorean beliefs about the fertility-giving earth of the tomb, drawing on Bacis' oracle.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Temple of Artemis Euclea",
+    "summary": "Pausanias describes the temple, the tomb of Antipoenus' daughters, and the nearby lion and statues. He tells how the daughters died to win the war against Orchomenus.",
+    "stakes": "",
+    "present": [
+     "Artemis Euclea",
+     "Antipœnus",
+     "Androclea",
+     "Alcis",
+     "Hercules",
+     "Erginus",
+     "Apollo Boedromius",
+     "Hermes Agoræus",
+     "Pindar"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 13,
+    "title": "Tombs of Amphion's Family",
+    "summary": "Pausanias notes the funeral pile, the statues of Athene Zosteria, and the mound of Zethus and Amphion. He explains the Tithorean earth-taking custom and Bacis' oracle.",
+    "stakes": "The Thebans fear losing their land's fertility to Tithorea.",
+    "present": [
+     "Amphitryon",
+     "Athene Zosteria",
+     "Agamemnon",
+     "Zethus",
+     "Amphion",
+     "Antiope",
+     "Bacis",
+     "Phocus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 18,
+    "title": "Antiope, Phocus and the Stones",
+    "summary": "The story of Antiope's madness, cure by Phocus, and their shared tomb is told. Pausanias adds the legend of stones following Amphion's music.",
+    "stakes": "Antiope suffers madness from Dionysus' anger.",
+    "present": [
+     "Dirce",
+     "Lycus",
+     "Dionysus",
+     "Antiope",
+     "Phocus",
+     "Ornytion",
+     "Sisyphus",
+     "Amphion",
+     "Orpheus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Greece",
+     "modern_name": "Greece",
+     "certainty": "real",
+     "lat": 38.0,
+     "lon": 23.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Artemis Euclea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple in Thebes"
+   },
+   {
+    "name": "Antipœnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "illustrious Theban who refused to die for the people"
+   },
+   {
+    "name": "Androclea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Antipœnus who died for victory"
+   },
+   {
+    "name": "Alcis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Antipœnus who died for victory"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who fought the Orchomenians"
+   },
+   {
+    "name": "Erginus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Orchomenus, son of Clymenus"
+   },
+   {
+    "name": "Clymenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Erginus"
+   },
+   {
+    "name": "Apollo Boedromius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a statue at Thebes"
+   },
+   {
+    "name": "Hermes Agoræus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a statue given by Pindar"
+   },
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who dedicated a statue"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "armed here to fight the Euboeans"
+   },
+   {
+    "name": "Athene Zosteria",
+    "aliases": [
+     "the Girder"
+    ],
+    "kind": "goddess",
+    "description": "goddess with two statues"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Homer's king with a belt like Ares"
+   },
+   {
+    "name": "Zethus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "buried with Amphion"
+   },
+   {
+    "name": "Amphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "musician whose music moved stones"
+   },
+   {
+    "name": "Antiope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "driven mad, cured by Phocus"
+   },
+   {
+    "name": "Bacis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "oracle-giver"
+   },
+   {
+    "name": "Phocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ornytion who married Antiope"
+   },
+   {
+    "name": "Ornytion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Phocus, son of Sisyphus"
+   },
+   {
+    "name": "Sisyphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "grandfather of Phocus"
+   },
+   {
+    "name": "Dirce",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Lycus who honoured Dionysus"
+   },
+   {
+    "name": "Lycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Dirce"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god angry over Dirce's death"
+   },
+   {
+    "name": "Orpheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "harper whom animals followed"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Antipœnus",
+    "relation": "parent_of",
+    "b": "Androclea",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Antipœnus",
+    "relation": "parent_of",
+    "b": "Alcis",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Clymenus",
+    "relation": "parent_of",
+    "b": "Erginus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Ornytion",
+    "relation": "parent_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Sisyphus",
+    "relation": "parent_of",
+    "b": "Ornytion",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Phocus",
+    "relation": "spouse_of",
+    "b": "Antiope",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Lycus",
+    "relation": "spouse_of",
+    "b": "Dirce",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Amphion",
+    "relation": "sibling_of",
+    "b": "Zethus",
+    "source": "outside",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Girder",
+    "canonical": "Athene Zosteria",
+    "explanation": "English rendering of Zosteria, from girding on armour."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Memorable legend that stones followed Amphion's music.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links local monuments to myth, showing how sacrifice, oracles and tombs shaped Theban identity.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The rivalry over tomb earth shows ancient belief that heroes' graves held power over a land's fertility.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias cites the oracles of Bacis, a semi-legendary seer whose verses circulated widely in Greece.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Euclea is a cult title of Artemis, meaning roughly 'of good repute' or 'glory'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Hercules and the Thebans fought the Orchomenians, who had been exacting tribute from Thebes; the war ended Theban subjection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Boedromius means 'helper in battle' (literally 'running to the cry'); Agoræus means 'of the marketplace'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet (about 180 metres).",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Zosteria comes from a Greek word for girding; the epithet links the goddess to putting on armour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Refers to Homer's Iliad, where Agamemnon's belt is compared to Ares; Pausanias reads 'belt' as meaning armour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "'When the Sun is in Taurus' means in the spring season, when the sun passes through the zodiac sign Taurus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Dirce was killed by Amphion and Zethus, who tied her to a bull, as punishment for her cruelty to their mother Antiope.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Amphion's lyre was said to have drawn stones into place to build the walls of Thebes.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Scopas was a famous sculptor of the fourth century BC, born on Paros.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Bacis was a legendary Boeotian seer whose oracles were widely quoted in Greek tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Phocus is the eponymous hero of Phocis, the region where Tithorea lies, which explains the Tithoreans' interest in this tomb.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "characterization",
+    "text": "The father's reluctance is contrasted with his daughters' willingness, making the girls heroic and Antipœnus self-serving.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "aphorism",
+    "text": "The brief generalization about divine wrath gives a moral explanation for Antiope's suffering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "allusion",
+    "text": "The comparison with Orpheus places Amphion's music among familiar legends of music that moves nature.",
+    "spoiler": false
+   }
+  ]
+ }
+}

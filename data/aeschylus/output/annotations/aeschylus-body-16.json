@@ -1,0 +1,627 @@
+{
+ "section_id": "aeschylus-body-16",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 20138,
+  "output": 6085
+ },
+ "result": {
+  "summary": "The Furies warn that acquitting Orestes will destroy respect for justice. Athena founds the Areopagus court, and Orestes admits the killing but blames Apollo's command, while Apollo argues that the father matters more than the mother. Athena establishes the court's rules and the jurors begin voting while the Furies and Apollo trade threats.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 22,
+    "title": "The Furies' warning song",
+    "summary": "The Chorus warns that if the matricide goes unpunished, all fear of justice will vanish. They praise reverent fear and moderation and describe the downfall of the unjust.",
+    "stakes": "The Furies fear losing their ancient honour and the moral order that rests on fear of punishment.",
+    "present": [
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens, before the court",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 43,
+    "title": "The court assembles",
+    "summary": "Athena arrives with the jurors and orders silence. Apollo appears as Orestes' witness and advocate, and the Furies begin their questioning.",
+    "stakes": "Orestes' life and freedom depend on the coming trial.",
+    "present": [
+     "Athena",
+     "Apollo",
+     "Chorus",
+     "Orestes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hill of Ares",
+     "modern_name": "Areopagus, Athens",
+     "certainty": "real",
+     "lat": 37.9733,
+     "lon": 23.7222
+    }
+   },
+   {
+    "start_sentence": 44,
+    "end_sentence": 90,
+    "title": "Orestes questioned",
+    "summary": "Orestes admits stabbing his mother on Apollo's command. The Furies argue that blood-kinship with a mother is the closest bond, and Orestes asks Apollo to speak.",
+    "stakes": "Orestes risks condemnation for matricide.",
+    "present": [
+     "Orestes",
+     "Chorus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hill of Ares",
+     "modern_name": "Areopagus, Athens",
+     "certainty": "real",
+     "lat": 37.9733,
+     "lon": 23.7222
+    }
+   },
+   {
+    "start_sentence": 91,
+    "end_sentence": 122,
+    "title": "Apollo's defence",
+    "summary": "Apollo says Zeus commanded the act and recounts Agamemnon's murder in the bath. He argues that the father alone is the true parent and offers an Argive alliance with Athens.",
+    "stakes": "Apollo's oracular authority and Orestes' acquittal are at stake.",
+    "present": [
+     "Apollo",
+     "Chorus",
+     "Athena",
+     "Orestes",
+     "Zeus",
+     "Clytemnestra",
+     "Agamemnon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos, Agamemnon's palace",
+     "modern_name": "Mycenae/Argos",
+     "certainty": "traditional",
+     "lat": 37.7308,
+     "lon": 22.7567
+    }
+   },
+   {
+    "start_sentence": 123,
+    "end_sentence": 159,
+    "title": "Athena founds the court",
+    "summary": "Athena establishes the Areopagus as a lasting court and calls on the jurors to vote. The Furies and Apollo trade threats as the ballots are cast.",
+    "stakes": "Athens' new justice and each side's honour depend on the verdict.",
+    "present": [
+     "Athena",
+     "Chorus",
+     "Apollo",
+     "Orestes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hill of Ares",
+     "modern_name": "Areopagus, Athens",
+     "certainty": "real",
+     "lat": 37.9733,
+     "lon": 23.7222
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [
+     "the Furious Ones",
+     "Spirits of Vengeance"
+    ],
+    "kind": "goddess",
+    "description": "the Furies, who prosecute Orestes for killing his mother"
+   },
+   {
+    "name": "Athena",
+    "aliases": [
+     "Pallas"
+    ],
+    "kind": "goddess",
+    "description": "goddess who founds the court and presides over the trial"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "oracular god who defends Orestes"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the accused, who killed his mother"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of the Olympians, whose command Apollo claims to follow"
+   },
+   {
+    "name": "Cronus",
+    "aliases": [],
+    "kind": "god",
+    "description": "aged father of Zeus, bound by him"
+   },
+   {
+    "name": "Clytemnestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Orestes' mother, who killed her husband (not named here)"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Orestes' father, killed in his bath (not named here)"
+   },
+   {
+    "name": "Ixion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first shedder of kindred blood, purified by Zeus"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian hero attacked by the Amazons"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Athena",
+    "source": "text",
+    "evidence_sentence": 121
+   },
+   {
+    "a": "Cronus",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 103
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 75
+   },
+   {
+    "a": "Clytemnestra",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 85
+   },
+   {
+    "a": "Clytemnestra",
+    "relation": "spouse_of",
+    "b": "Agamemnon",
+    "source": "text",
+    "evidence_sentence": 75
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pallas",
+    "canonical": "Athena",
+    "explanation": "Apollo addresses Athena by her epithet Pallas."
+   },
+   {
+    "alias": "Furious Ones",
+    "canonical": "Chorus",
+    "explanation": "The Chorus calls itself the Furies, the avenging spirits."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "The Furies' maxim that wisdom is learned through suffering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 118,
+    "reason": "Apollo's controversial claim that the mother is only the nurse of the child.",
+    "spoiler": false
+   },
+   {
+    "sentence": 138,
+    "reason": "Athena argues that justice needs a measure of fear.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The trial sets old blood-vengeance against new civic justice, and both sides claim fear and reverence are needed for order.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Athena's speech gives a mythical origin for the Areopagus, the Athenian homicide court, in the period when its powers were being reformed.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The scene is a founding story of trial by jury and of law replacing private vengeance, often cited in later writing on justice."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Apollo's argument that only the father is a true parent reflects an ancient Greek biological theory also found in Aristotle.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"New ordinances\" refers to the new gods' laws, such as Apollo's and Minerva's, which the Furies see as overthrowing the old order they guard.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Licence\" means unrestrained freedom to act, lawlessness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Peradventure\" is archaic for \"perhaps.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "The phrase \"put in front place of\" is an awkward gloss: the man should give honour first place to piety toward his parents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"Strike his sail\" means lower the sail in surrender, as a ship does in a storm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "\"Wight\" is an archaic word for a person, here with contempt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "Tyrrhene means Etruscan; the Etruscan trumpet was a famed bronze war instrument, here anachronistically used to summon the Athenian court.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "\"Appellants\" here means the litigants, the parties bringing and answering the case, especially the Furies as prosecutors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "The Furies tell Apollo to govern only his own sphere, resenting his interference in their domain of avenging blood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "allusion",
+    "text": "Orestes came to Apollo's sanctuary at Delphi as a suppliant, and Apollo ritually cleansed him of blood-guilt; this occurred earlier in the play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "word",
+    "text": "\"Plaintiff\" is the prosecuting party, the Furies; \"issue\" means the central question the court must decide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "allusion",
+    "text": "A wrestling image: a contest was won by three throws. The Chorus counts Orestes' admission as the first fall already won.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "phrasing",
+    "text": "Orestes retorts that the boast is premature: the Furies claim a fall while their opponent is not yet beaten.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "allusion",
+    "text": "'This god' is Apollo, who stands beside Orestes at the trial and ordered the killing through his oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 70,
+    "kind": "word",
+    "text": "'Attainted' means stained with guilt; the twofold defilement is that Clytemnestra killed both her husband and Orestes' father, who were one man.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "kind": "phrasing",
+    "text": "The Chorus means Clytemnestra's death has paid her debt, so Orestes lives while she is quit of guilt; they mock his argument.",
+    "spoiler": false
+   },
+   {
+    "sentence": 85,
+    "kind": "word",
+    "text": "'Zone' is the girdle or belt; 'beneath her zone' means in her womb.",
+    "spoiler": false
+   },
+   {
+    "sentence": 98,
+    "kind": "allusion",
+    "text": "Amazons were legendary warrior women famed as archers; Apollo contrasts honourable battle-killing with Clytemnestra's treacherous murder in the bath.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "kind": "phrasing",
+    "text": "\"Curtained the laver with a tented cloak\": she draped a cloak over the bath like a canopy, trapping Agamemnon in its folds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 103,
+    "kind": "allusion",
+    "text": "Zeus overthrew his father Cronus and bound him, so the Chorus accuses Apollo of inconsistency in claiming Zeus honours fathers above all.",
+    "spoiler": false
+   },
+   {
+    "sentence": 109,
+    "kind": "phrasing",
+    "text": "\"The dust hath drained the blood\": the earth soaks up spilled blood, a standard image for irreversible death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "kind": "word",
+    "text": "\"Lustral rite\" means a purification ceremony; a killer of kin was barred from these until cleansed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 121,
+    "kind": "allusion",
+    "text": "The witness is Athena, who sprang fully grown from Zeus's head, with no mother's womb involved.",
+    "spoiler": false
+   },
+   {
+    "sentence": 126,
+    "kind": "phrasing",
+    "text": "The Chorus's archery image means they have no arguments left to use.",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "kind": "phrasing",
+    "text": "\"Ye have heard what ye have heard\" means the arguments are done and cannot be changed; the jurors must now judge by them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 135,
+    "kind": "allusion",
+    "text": "\"People of Aegeus\" means the Athenians, after Aegeus, legendary king of Athens and father of Theseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 136,
+    "kind": "allusion",
+    "text": "The Amazons, warrior women, were said to have attacked Athens to avenge Theseus's seizing of their queen; they camped on this hill, giving the Areopagus its name, \"Hill of Ares.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 139,
+    "kind": "allusion",
+    "text": "\"Pelops' realm\" is the Peloponnese, southern Greece, including rival Argos and Sparta; the Scythians stand for distant barbarian peoples.",
+    "spoiler": false
+   },
+   {
+    "sentence": 153,
+    "kind": "allusion",
+    "text": "Ixion was the first man to kill a kinsman. Zeus purified him when he begged for mercy, though he later offended again. Apollo cites this as precedent.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "The Furies (Erinyes) were avenging spirits who hounded those who shed kindred blood, especially murderers of family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Respect for parents and for guests (strangers) were two of the most sacred duties in Greek religion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "The Areopagites are the jurors of the Areopagus, Athens' ancient council that tried homicide cases; the play presents its founding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Apollo, god of prophecy and purification, had commanded Orestes to avenge his father Agamemnon, so he shares responsibility.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "text": "The verdict will be given by the Athenian court, the Areopagus, which Athena has set up to judge Orestes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 66,
+    "text": "Orestes' father is Agamemnon, murdered by Clytemnestra on his return from Troy; Orestes hopes his spirit will help him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 81,
+    "text": "The Furies punish kindred bloodshed. They hold that husband and wife are not blood relatives, so Clytemnestra's crime fell outside their charge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 92,
+    "text": "Apollo, god of prophecy at Delphi, had commanded Orestes to avenge his father and now appears as his advocate at the trial.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "text": "Agamemnon, king of Argos, returned from the Trojan War and was murdered by his wife Clytemnestra, who was Orestes' mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 118,
+    "text": "This is Apollo's famous argument that the father alone begets the child; it was a contemporary theory used here to excuse matricide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 122,
+    "text": "Argos was Orestes' home city; his promised alliance with Athens reflects the real Athenian-Argive alliance of Aeschylus' day.",
+    "spoiler": false
+   },
+   {
+    "sentence": 134,
+    "text": "Athena is founding the Areopagus, Athens's real court for homicide cases. This is the first trial for bloodshed, and Orestes is being tried for killing his mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 146,
+    "text": "The Chorus are the Furies, avenging spirits who pursue those who shed kindred blood. Their threat is to blight the land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 148,
+    "text": "Apollo is the god of prophecy, whose oracles at Delphi claimed to speak for his father Zeus. He had commanded Orestes to avenge Agamemnon.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "apostrophe",
+    "text": "The Chorus imagines future sufferers crying out to Justice, showing what will be lost if the Furies lose their power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "extended metaphor",
+    "text": "The wicked man's ruin is imagined as a ship wrecked in a storm, with sail and yard-arm splintering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "personification",
+    "text": "Heaven is made to laugh, giving the divine order a mocking, human reaction to human pride.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "metaphor",
+    "text": "Justice becomes a reef on which a man's lifelong prosperity is wrecked, ending in a lonely death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "Imagery",
+    "text": "The trumpet \"filled with human breath\" and its shrill blare give a vivid sound image of public ceremony and solemnity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "device": "Characterization",
+    "text": "The Furies' blunt, economical claim reveals their confidence and singleminded rigor as prosecutors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "Rhetorical question",
+    "text": "The direct question cuts to the central fact, forcing Orestes to confront the deed that the whole trial turns on.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "metaphor",
+    "text": "The trial is figured as a wrestling match, turning legal argument into a physical contest of throws and falls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "device": "irony",
+    "text": "The Chorus mockingly tells Orestes to trust the dead, sneering at the hope he has just voiced.",
+    "spoiler": false
+   },
+   {
+    "sentence": 86,
+    "device": "rhetorical question",
+    "text": "The Chorus frames its central principle, the primacy of maternal blood, as a challenge, forcing Orestes to face the issue of kinship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 99,
+    "device": "imagery",
+    "text": "The vivid picture of the entangling robe and the bath conveys the treachery of the killing and sways the jurors' emotions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 107,
+    "device": "invective",
+    "text": "Apollo's outburst of abuse at the Furies reveals his anger and turns their argument aside with scorn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 120,
+    "device": "paradox",
+    "text": "The seemingly impossible claim of fatherhood without a mother is offered as proof, setting up Athena as living evidence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 126,
+    "device": "metaphor",
+    "text": "The Furies' arguments are described as bolts shot from a quiver, casting their case as a hunt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 136,
+    "device": "aetiology",
+    "text": "Athena explains the origin of the hill's name and shrine, tying the myth to a real Athenian institution.",
+    "spoiler": false
+   },
+   {
+    "sentence": 136,
+    "device": "metaphor",
+    "text": "Muddied water becomes laws polluted by evil influence; once corrupted, justice cannot be pure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 140,
+    "device": "personification",
+    "text": "The tribunal is given human traits (august, vigilant, quick to avenge) as an ever-watchful guardian of sleeping citizens.",
+    "spoiler": false
+   }
+  ]
+ }
+}

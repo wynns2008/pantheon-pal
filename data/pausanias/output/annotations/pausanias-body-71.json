@@ -1,0 +1,263 @@
+{
+ "section_id": "pausanias-body-71",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7845,
+  "output": 2309
+ },
+ "result": {
+  "summary": "Pausanias describes the sanctuary of Aesculapius at Epidaurus: its rules, the cult statue, paintings, healing pillars and Polycletus's theatre. He also records the Hippolytus tradition at Aricia and the buildings added by the senator Antonine.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "The grove, statue and Rotunda",
+    "summary": "Pausanias describes the walled grove, its rules, the ivory and gold statue and the paintings of Pausias in the Rotunda.",
+    "stakes": "",
+    "present": [
+     "Æsculapius",
+     "Thrasymede",
+     "Pausias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sacred grove of Æsculapius, Epidaurus",
+     "modern_name": "Sanctuary of Asklepios, Epidaurus",
+     "certainty": "real",
+     "lat": 37.5967,
+     "lon": 23.0791
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 15,
+    "title": "Healing pillars and Hippolytus",
+    "summary": "The pillars record cures, and one records Hippolytus's horses. The Aricians say Æsculapius revived him and he became king in Italy.",
+    "stakes": "Hippolytus has died through his father's curse and is restored to life.",
+    "present": [
+     "Hippolytus",
+     "Æsculapius",
+     "Theseus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Aricia",
+     "modern_name": "Ariccia, Italy",
+     "certainty": "real",
+     "lat": 41.7206,
+     "lon": 12.5016
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 25,
+    "title": "Theatre and Antonine's buildings",
+    "summary": "Pausanias praises Polycletus's theatre, lists other buildings in the grove, and the works of Antonine, including the sanctuary on Mount Cynortion.",
+    "stakes": "",
+    "present": [
+     "Polycletus",
+     "Antonine",
+     "Maleatian Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sanctuary of Epidaurus",
+     "modern_name": "Sanctuary of Asklepios, Epidaurus",
+     "certainty": "real",
+     "lat": 37.5967,
+     "lon": 23.0791
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of healing worshipped at Epidaurus"
+   },
+   {
+    "name": "Thrasymede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Parian sculptor of the statue"
+   },
+   {
+    "name": "Pausias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "painter of pictures in the Rotunda"
+   },
+   {
+    "name": "Hippolytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "revived by Æsculapius, became king at Aricia"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hippolytus who cursed him"
+   },
+   {
+    "name": "Polycletus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "architect of the theatre and Rotunda"
+   },
+   {
+    "name": "Antonine",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman senator who built in the sanctuary"
+   },
+   {
+    "name": "Maleatian Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "Apollo worshipped on Mount Cynortion"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Theseus",
+    "relation": "parent_of",
+    "b": "Hippolytus",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Maleatian Apollo",
+    "canonical": "Apollo",
+    "explanation": "Apollo under a local cult title at Mount Cynortion."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Pausanias ranks theatres and praises Polycletus's sense of proportion.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows Epidaurus as a healing sanctuary, with ritual purity rules and recorded cures.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Antonine's restorations show Roman patrons maintaining Greek sanctuaries in Pausanias's time.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The theatre of Epidaurus is still used for performances and is famed for its acoustics.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Delos, Apollo's sacred island, was ritually purified so that no one was allowed to be born or die there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Titane was a place in Sicyonia with a sanctuary of Æsculapius, mentioned earlier in Pausanias.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Pausias was a celebrated painter of Sicyon, in the fourth century BC, known for encaustic work and for his paintings of Cupid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Doric is the Greek dialect spoken in Epidaurus and much of the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Hippolytus was cursed by his father Theseus after a false accusation by Phaedra; Aricia was a town in Latium with a cult of Artemis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "Senator here means a Roman senator; Pausanias names him only as Antonine, a benefactor of Epidaurus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "Porch means a colonnade or portico, not a small entrance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "Reservoir translates a cistern built to catch rainwater.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "The Olympian Zeus at Athens was the huge temple statue of Zeus, so this Æsculapius is large, though half its size.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "The staff, serpent and dog are Æsculapius's usual attributes; he was the god of healing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Suppliants slept in the sanctuary hoping the god would send healing dreams or cures.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "This is probably the younger Polycletus, an architect of the fourth century BC; the famous sculptor was an earlier man.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Epione was the wife of Æsculapius in cult, and Hygiea was his daughter, a goddess of health.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 10,
+    "device": "imagery",
+    "text": "The reflected woman's face in the glass bowl is a vivid visual detail showing Pausias's skill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "rhetorical question",
+    "text": "Pausanias ends a ranked comparison of theatres with a question, stressing that Polycletus's work is unrivalled in harmony.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "irony",
+    "text": "The building where it is lawful both to die and bear children contrasts the earlier taboo, and gently marks Antonine's practical remedy.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,380 @@
+{
+ "section_id": "pausanias-body-336",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9369,
+  "output": 3205
+ },
+ "result": {
+  "summary": "Pausanias describes Sardinia: its name, size, and the successive peoples who settled it (Libyans, Greeks, Iberians, Trojans, Corsicans, Carthaginians). He then turns to its geography, climate, animals and the deadly plant behind the 'Sardonic laugh'.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "First settlers: Libyans and Greeks",
+    "summary": "Sardus leads Libyans to the island and names it; later Aristæus brings Greeks. Pausanias rejects the claim that Dædalus joined them.",
+    "stakes": "",
+    "present": [
+     "Sardus",
+     "Maceris",
+     "Aristæus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sardinia (Ichnusa)",
+     "modern_name": "Sardinia",
+     "certainty": "real",
+     "lat": 40.0,
+     "lon": 9.0
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 22,
+    "title": "Later colonists and conflicts",
+    "summary": "Iberians, Thespians, Athenians and Trojans arrive, then Libyans, Corsicans and Carthaginians reshape the island, leaving the Ilians, Corsi and Balari in the mountains.",
+    "stakes": "Settlers risk destruction or enslavement by stronger invaders.",
+    "present": [
+     "Norax",
+     "Iolaus",
+     "Ogrylus",
+     "Æneas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sardinia",
+     "modern_name": "Sardinia",
+     "certainty": "real",
+     "lat": 40.0,
+     "lon": 9.0
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 31,
+    "title": "Geography, climate and wildlife",
+    "summary": "Pausanias describes the mountains, winds, unhealthy air, animals and the poisonous plant causing Sardonic laughter, and explains why he included it.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Sardinia",
+     "modern_name": "Sardinia",
+     "certainty": "real",
+     "lat": 40.0,
+     "lon": 9.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Sardus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Libyan leader who gave Sardinia its name"
+   },
+   {
+    "name": "Maceris",
+    "aliases": [
+     "Hercules"
+    ],
+    "kind": "mortal",
+    "description": "Father of Sardus, called Hercules by Egyptians and Libyans, who journeyed to Delphi"
+   },
+   {
+    "name": "Aristæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Apollo and Cyrene who led Greeks to Sardinia"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Aristæus"
+   },
+   {
+    "name": "Cyrene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Aristæus"
+   },
+   {
+    "name": "Actæon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Whose death grieved Aristæus"
+   },
+   {
+    "name": "Dædalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Craftsman said by some to have joined the colony"
+   },
+   {
+    "name": "Autonoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Cadmus, wife of Aristæus"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Autonoe"
+   },
+   {
+    "name": "Norax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Leader of the Iberes, founder of Nora"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Norax"
+   },
+   {
+    "name": "Erythea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Geryon, mother of Norax"
+   },
+   {
+    "name": "Geryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Erythea"
+   },
+   {
+    "name": "Iolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Led Thespians and Athenians to Sardinia, still honoured there"
+   },
+   {
+    "name": "Ogrylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Possible member of the Athenian expedition"
+   },
+   {
+    "name": "Æneas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan who escaped after the fall of Ilium"
+   },
+   {
+    "name": "Œdipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Thebes, contemporary of Dædalus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Maceris",
+    "relation": "parent_of",
+    "b": "Sardus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Aristæus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Cyrene",
+    "relation": "parent_of",
+    "b": "Aristæus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Aristæus",
+    "relation": "spouse_of",
+    "b": "Autonoe",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Cadmus",
+    "relation": "parent_of",
+    "b": "Autonoe",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Hermes",
+    "relation": "parent_of",
+    "b": "Norax",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Erythea",
+    "relation": "parent_of",
+    "b": "Norax",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Geryon",
+    "relation": "parent_of",
+    "b": "Erythea",
+    "source": "text",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Hercules",
+    "canonical": "Maceris",
+    "explanation": "Egyptians and Libyans called Maceris Hercules."
+   },
+   {
+    "alias": "Ichnusa",
+    "canonical": "Sardinia",
+    "explanation": "Greek traders' name for the island, from its footprint shape."
+   },
+   {
+    "alias": "Cyrnus",
+    "canonical": "Corsica",
+    "explanation": "Greek name for Corsica; the Libyan inhabitants called it Corsica."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 28,
+    "reason": "Describes the deadly plant whose victims die laughing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "reason": "Gives the origin of the phrase 'Sardonic laughter'.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias traces the island's population through successive migrations, linking it to Greek myth and the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias digresses because Greeks knew little of Sardinia; the passage reflects ancient ethnography and Carthaginian and Roman-era knowledge.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The phrase 'sardonic laughter' and the English word 'sardonic' are traditionally linked to the Sardinian plant story."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias says Sardinia has no wolves or snakes, and describes its wild rams as like those in Ægina's sculptures.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Ichnusa derives from the Greek word for a footprint or track (ichnos), hence the shape explanation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180-200 metres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Dædalus, the legendary Athenian craftsman, fled Crete to Sicily, where King Cocalus ruled at Camicus. Pausanias argues the chronology cannot fit Aristæus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Iolaus was the nephew and companion of Hercules; Greek tradition made him a colonizer of Sardinia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "Balari is explained as a Corsican word for exiles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "Pausanias compares the rams to a sculptor's idea of a wild ram, meaning they look wild and untamed rather than domestic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Sardonic laughter is a forced, grim grin. Homer uses the related word in the Odyssey for a bitter smile; the poison explanation was a popular ancient one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "Pausanias is explaining why a digression on Sardinia sits in the Phocis book: Greeks knew little about it.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Maceris is a Libyan-Egyptian figure identified with Hercules; the Greeks often equated foreign gods with their own heroes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Aristæus was a divine figure associated with bee-keeping and farming. Actæon, his grandson, was torn apart by his own hounds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Trojans scattered after the fall of Ilium (Troy); Æneas is the one who famously reached Italy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Carthage, a Phoenician colony in north Africa, controlled much of Sardinia from about the sixth century BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "characterization",
+    "text": "The settlers' reluctant acceptance by the natives shows the uneasy mix of peoples that marks the island's early history.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "etiology",
+    "text": "The tale explains the later name Ilians by tracing the mountain people to Trojan refugees, giving origin to an existing name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "irony",
+    "text": "Death comes with laughter, an ironic pairing of mirth and poison that explains the proverb.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,369 @@
+{
+ "section_id": "pindar-odes-body-29",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9034,
+  "output": 3122
+ },
+ "result": {
+  "summary": "Pindar invokes the Muse to come to Aigina and celebrate Aristokleides, victor in the pankration at Nemea. He praises the heroes of the Aiakid line, Peleus, Telamon and Achilles, and ends by sending the song as a drink of honey and milk.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Invocation and praise of Aristokleides",
+    "summary": "Pindar calls on the Muse to come to Aigina and celebrates Aristokleides' pankration victory. He compares it to the limits of Herakles and turns his song toward the Aiakidai.",
+    "stakes": "",
+    "present": [
+     "Aristokleides",
+     "Muse",
+     "Herakles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 17,
+    "title": "Heroes of the Aiakid house",
+    "summary": "Pindar recounts deeds of Peleus, Telamon and the boy Achilles, and Cheiron's fostering of heroes. He links the house's glory to Zeus and to Aristokleides' win.",
+    "stakes": "Achilles is to fight at Troy and slay Memnon.",
+    "present": [
+     "Peleus",
+     "Telamon",
+     "Achilles",
+     "Cheiron",
+     "Jason",
+     "Asklepios",
+     "Memnon",
+     "Thetis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Cheiron's cave",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 23,
+    "title": "The gift of song",
+    "summary": "Pindar reflects on excellence across ages and sends the ode as a honeyed drink, though late. He contrasts the eagle with chattering daws and praises Aristokleides' victories.",
+    "stakes": "",
+    "present": [
+     "Aristokleides",
+     "Kleio"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aristokleides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aiginetan victor in the pankration at Nemea"
+   },
+   {
+    "name": "Aristophanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aristokleides"
+   },
+   {
+    "name": "Muse",
+    "aliases": [
+     "Kleio"
+    ],
+    "kind": "goddess",
+    "description": "divine inspirer of song, daughter of Zeus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of heaven, ancestor of the Aiakidai"
+   },
+   {
+    "name": "Herakles",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero-god who set the pillars"
+   },
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who took Iolkos and won Thetis"
+   },
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of the sea, wife of Peleus"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who sacked Laomedon's city"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Peleus, boyhood hunter"
+   },
+   {
+    "name": "Cheiron",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Centaur who reared heroes"
+   },
+   {
+    "name": "Jason",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero reared by Cheiron"
+   },
+   {
+    "name": "Asklepios",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "healer taught by Cheiron"
+   },
+   {
+    "name": "Memnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ethiopian chieftain, to be slain by Achilles"
+   },
+   {
+    "name": "Aiakos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of the Aiginetan heroes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Peleus",
+    "relation": "spouse_of",
+    "b": "Thetis",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Peleus",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Thetis",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Muse",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Aristophanes",
+    "relation": "parent_of",
+    "b": "Aristokleides",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Aiakos",
+    "relation": "parent_of",
+    "b": "Peleus",
+    "source": "outside",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Kleio",
+    "canonical": "Muse",
+    "explanation": "Kleio is the particular Muse named at the close."
+   },
+   {
+    "alias": "Nereus' daughter",
+    "canonical": "Thetis",
+    "explanation": "Thetis is described as daughter of Nereus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "Pindar's view that inborn worth surpasses mere teaching.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "reason": "Eagle image contrasting true poet with chattering daws.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode links athletic victory to heroic ancestry, arguing that inborn worth, celebrated in song, outlasts mere learning.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Victory odes were commissioned by victors' families and performed at celebrations, tying Aigina's prestige to its mythic heroes.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The opening note says the ode was probably composed long after the victory, which explains the apology that the song comes full late.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Dorian isle: Aigina was settled by Dorian Greeks. 'Stranger-thronged' means crowded with visitors, here the festival guests.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Pankration was a brutal combined boxing and wrestling contest with very few rules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The pillars of Herakles (Gibraltar region) marked the limit of the known western world; the point is that Aristokleides has reached the limit of human achievement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Peleus cut his spear from Pelion's ash, a gift linked to his heroic life; he also captured Iolkos and wrestled the sea-goddess Thetis into marriage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Telamon joined Herakles (with Iolaos) in sacking Troy under Laomedon, and in the expedition against the Amazons.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "'The Centaur, son of Kronos' is Cheiron, who raised heroes; Philyra was his mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The passage anticipates Achilles' later Trojan War career, including his killing of Memnon, leader of the Ethiopians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "The 'four virtues' are not named here; commonly understood as the cardinal virtues, though the text leaves this unclear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "Honey mixed with milk, with froth ('dew of the mixing'), stands for the song itself, offered as a drink; 'full late' apologizes for the delay.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "The Nemean games, held in honor of Zeus, were one of the four great Panhellenic festivals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Aiakos, son of Zeus, was the ancestral king of Aigina and grandfather of Achilles and Ajax; his descendants are the Aiakidai.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The Theoroi were sacred envoys sent to Delphi, here from Aigina to the shrine of Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Kleio is the Muse of history and celebration; the places named are sites of other athletic victories by Aristokleides.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "hyperbole",
+    "text": "Describing the pillars of Herakles as the limit of voyaging exalts the athlete's excellence as unsurpassable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "apostrophe",
+    "text": "Pindar addresses his own soul, and compares his song to a ship drifting off course, to explain his return to the theme.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "antithesis",
+    "text": "Inborn worth is set against mere teaching, contrasting the natural aristocrat with the unsteady man of borrowed precepts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "characterization",
+    "text": "The child Achilles hunting lions makes his heroic nature vivid and shows innate excellence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "metaphor",
+    "text": "Song becomes a sweet drink of honey and milk, conveying its pleasure and its offering as a gift.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "metaphor",
+    "text": "The eagle stands for the poet or noble, and the chattering daws for lesser, noisy rivals.",
+    "spoiler": false
+   }
+  ]
+ }
+}

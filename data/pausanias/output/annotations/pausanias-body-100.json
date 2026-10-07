@@ -1,0 +1,358 @@
+{
+ "section_id": "pausanias-body-100",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11528,
+  "output": 3299
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Sparta and Amyclae, noting statues, temples of Athene the Eye-preserver, Ammon and Cnagian Artemis, and the river Tiasa. He then describes the tripods at Amyclae and, at length, the carved scenes on Bathycles' throne of Amyclaean Apollo.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 14,
+    "title": "Sparta's temples and their stories",
+    "summary": "Pausanias lists statues and temples near Sparta: Aphrodite, Sleep and Death, Athene the Eye-preserver, Ammon and Cnagian Artemis. He tells the founding tales and doubts the Aphidna story.",
+    "stakes": "",
+    "present": [
+     "Lycurgus",
+     "Alcander",
+     "Lysander",
+     "Ammon",
+     "Cnageus",
+     "Theseus",
+     "Menestheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.0742,
+     "lon": 22.4297
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 23,
+    "title": "Road to Amyclae and its tripods",
+    "summary": "On the road to Amyclae lie the river Tiasa and the temple of the Graces. At Amyclae are the statue of Aenetus and the tripods by several sculptors.",
+    "stakes": "",
+    "present": [
+     "Tiasa",
+     "Eurotas",
+     "Aenetus",
+     "Gitiadas",
+     "Callon",
+     "Bathycles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Amyclae",
+     "modern_name": "Amykles, near Sparta",
+     "certainty": "real",
+     "lat": 37.0333,
+     "lon": 22.4167
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 46,
+    "title": "The throne of Amyclaean Apollo",
+    "summary": "Pausanias describes the many mythological scenes carved on Bathycles' throne, outside and underneath.",
+    "stakes": "",
+    "present": [
+     "Bathycles",
+     "Hercules",
+     "Theseus",
+     "Perseus",
+     "Castor",
+     "Pollux"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Amyclae",
+     "modern_name": "Amykles, near Sparta",
+     "certainty": "real",
+     "lat": 37.0333,
+     "lon": 22.4167
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Lycurgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan lawgiver who lost an eye to Alcander"
+   },
+   {
+    "name": "Alcander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man who knocked out Lycurgus' eye"
+   },
+   {
+    "name": "Lysander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan commander besieging Aphytis"
+   },
+   {
+    "name": "Ammon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Libyan oracular god honoured by Spartans"
+   },
+   {
+    "name": "Cnageus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan said to have taken Artemis' image from Crete"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian hero, detained in Thesprotia; shown on the throne"
+   },
+   {
+    "name": "Menestheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian favoured over Theseus"
+   },
+   {
+    "name": "Tiasa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Eurotas, for whom the river is named"
+   },
+   {
+    "name": "Eurotas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Tiasa"
+   },
+   {
+    "name": "Aenetus",
+    "aliases": [
+     "Ænetus"
+    ],
+    "kind": "mortal",
+    "description": "pentathlon victor who died after being crowned"
+   },
+   {
+    "name": "Gitiadas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of two tripod statues"
+   },
+   {
+    "name": "Callon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor from Aegina"
+   },
+   {
+    "name": "Bathycles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Magnesian maker of the throne of Amyclaean Apollo"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero shown in many scenes on the throne"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero shown defeating Medusa"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "horseman shown on the throne"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "horseman shown on the throne"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Eurotas",
+    "relation": "parent_of",
+    "b": "Tiasa",
+    "source": "text",
+    "evidence_sentence": 16
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 24,
+    "reason": "Pausanias stresses he writes as an eyewitness of the throne.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias pairs sacred sites with local aetiological stories, and he critically tests them, as with the Aphidna tale.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The throne's crowded myth scenes show how Archaic Greek art served as a catalogue of shared legend.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Amyclae throne, known only from Pausanias' description, has prompted much scholarly reconstruction.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Homer calls Sleep and Death twin brothers in the Iliad (Book 16), where they carry Sarpedon's body home. The footnote marks the cited lines.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Alpium is a place name near Sparta. Alcander is the young Spartan said to have struck out Lycurgus' eye in a quarrel over his laws.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"From time immemorial\" means from a time beyond memory. Ammon's oracle was in the Libyan desert, at the oasis of Siwa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The expedition against Aphidna was the Dioscuri's (Castor and Pollux) campaign to recover their sister Helen, whom Theseus had carried off.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Theseus was held captive while visiting Thesprotia, and Menestheus gained Athenian support in his absence. Pausanias uses this to doubt that a battle happened.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "The pentathlum (pentathlon) was a five-event contest: running, jumping, discus, javelin and wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "The Messenian War refers to Sparta's early wars of conquest against Messenia; the tripods are thus claimed to be very old.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Ægos-potamoi was the 405 BC naval battle where Sparta's Lysander destroyed the Athenian fleet, effectively ending the Peloponnesian War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "\"To make therefore a short summary\" means Pausanias will list only the scenes, since most myths are well known.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "Pausanias notes oddly that the Minotaur is shown alive and fettered, rather than slain, and admits he cannot explain it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "allusion",
+    "text": "Hera bound by Hephæstus refers to the story that he trapped her in a magic throne as revenge for being cast out of heaven.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Aphrodite is the goddess of love. Sleep and Death are personified deities, children of Night in Greek tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Lysander was the Spartan admiral who defeated Athens in 404 BC. Aphytis was a town in Pallene, the Chalcidic peninsula.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Alcman was a Spartan lyric poet of the seventh century BC who wrote choral songs for Spartan festivals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Tripods were bronze cauldrons on three legs, often dedicated to gods as victory offerings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Bathycles of Magnesia was the sculptor of the Amyclaean throne, a famous archaic monument near Sparta housing Apollo's statue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "text": "Tityus was a giant punished for attacking Leto; Apollo and Artemis, her children, shot him.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "characterization",
+    "text": "The story presents Lycurgus as a lawgiver who met violent opposition, yet responded with gratitude to the goddess rather than revenge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "narrative voice",
+    "text": "Pausanias steps in with his own judgment, showing his critical, skeptical habit toward local Spartan traditions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as an eyewitness, openly choosing what to omit, which gives the guide authority and a personal tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "narrative voice",
+    "text": "The author's concern about tiring readers shows him shaping the catalogue for an audience, turning description into selective guidance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "device": "symbolism",
+    "text": "Ending with the Trojans' offerings at Hector's grave closes the catalogue of heroic deeds with mourning, a reminder of mortality.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,658 @@
+{
+ "section_id": "aeschylus-body-13",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 18120,
+  "output": 6294
+ },
+ "result": {
+  "summary": "The Pythia prays, enters Apollo's shrine at Delphi, and returns horrified at the sight of a bloodstained suppliant and sleeping Furies. Apollo promises Orestes protection and sends him with Hermes to Athens. Clytaemestra's ghost then rouses the sleeping Furies to chase him.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 19,
+    "title": "Prefatory notes and argument",
+    "summary": "Setting, date and an argument summarizing the whole play.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Apollo at Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 35,
+    "title": "The Prophetess's prayer",
+    "summary": "The priestess recounts the line of gods who held the Delphic oracle and invokes them before taking her seat.",
+    "stakes": "",
+    "present": [
+     "Prophetess"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Apollo at Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 36,
+    "end_sentence": 49,
+    "title": "The priestess sees horrors",
+    "summary": "She comes out terrified, describing a bloody suppliant and a throng of hideous sleeping women.",
+    "stakes": "The priestess is overcome by fear and frailty.",
+    "present": [
+     "Prophetess",
+     "Orestes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Apollo at Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 50,
+    "end_sentence": 70,
+    "title": "Apollo sends Orestes away",
+    "summary": "Apollo promises protection, tells Orestes to flee to Athens and clasp Athena's image, and charges Hermes to guide him.",
+    "stakes": "Orestes is hunted by the Furies and needs release from his pollution.",
+    "present": [
+     "Apollo",
+     "Orestes",
+     "Hermes",
+     "Furies"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Apollo at Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 71,
+    "end_sentence": 95,
+    "title": "Clytaemestra's ghost rouses Furies",
+    "summary": "The ghost reproaches the sleeping Furies for letting Orestes escape and urges them to wake.",
+    "stakes": "Clytaemestra is dishonoured among the dead and her vengeance is lost.",
+    "present": [
+     "Ghost of Clytaemestra",
+     "Furies"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Apollo at Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Prophetess",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "aged priestess of Apollo at Delphi"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoebus",
+     "Loxias"
+    ],
+    "kind": "god",
+    "description": "god of Delphi who protects Orestes"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "matricide suppliant pursued by the Furies"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Apollo's brother, made Orestes' guide"
+   },
+   {
+    "name": "Ghost of Clytaemestra",
+    "aliases": [
+     "Clytaemestra"
+    ],
+    "kind": "other",
+    "description": "murdered mother of Orestes, seeking vengeance"
+   },
+   {
+    "name": "Furies",
+    "aliases": [
+     "Erinyes",
+     "Chorus"
+    ],
+    "kind": "goddess",
+    "description": "avenging spirits of the underworld, asleep"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Apollo, source of his prophecy"
+   },
+   {
+    "name": "Themis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "earlier holder of the Delphic oracle"
+   },
+   {
+    "name": "Phoebe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Titan who gave the oracle to Phoebus"
+   },
+   {
+    "name": "Earth",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "first prophet of Delphi"
+   },
+   {
+    "name": "Delphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler who honoured Apollo"
+   },
+   {
+    "name": "Bromius",
+    "aliases": [],
+    "kind": "god",
+    "description": "Bacchic god who held the region"
+   },
+   {
+    "name": "Pentheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killed like a hunted hare through Bromius"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Athena, whose image Orestes is to clasp"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Earth",
+    "relation": "parent_of",
+    "b": "Themis",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Earth",
+    "relation": "parent_of",
+    "b": "Phoebe",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Apollo",
+    "relation": "sibling_of",
+    "b": "Hermes",
+    "source": "text",
+    "evidence_sentence": 68
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 76
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Loxias",
+    "canonical": "Apollo",
+    "explanation": "A cult title of Apollo as spokesman of Zeus."
+   },
+   {
+    "alias": "Phoebus",
+    "canonical": "Apollo",
+    "explanation": "Said here to take his name from Phoebe."
+   },
+   {
+    "alias": "Pallas",
+    "canonical": "Athena",
+    "explanation": "Another name for Athena."
+   },
+   {
+    "alias": "Bromius",
+    "canonical": "Dionysus",
+    "explanation": "Title of Dionysus, 'the roarer'."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 35,
+    "reason": "The priestess states that her prophecy follows the god's lead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "reason": "A striking claim that the sleeping mind sees more clearly than the waking one.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The opening sets the old, vengeful order of the Furies against the newer Olympian order of Apollo, preparing the move from blood-vengeance to law.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Pythia's list of Delphi's divine owners reflects the city's claim to ancient, peaceful succession of its oracle, and the play was staged in 458 B.C.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Eumenides is the last play of the Oresteia, the only surviving complete Greek tragic trilogy.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The City Dionysia was Athens' spring festival of Dionysus, where tragedies were performed in competition before the citizens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Erinyes are the avenging spirits (Furies) who pursue those who shed kindred blood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "A suppliant is one who seeks protection at a sacred place, which made him inviolable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Pallas is another name for Athena, here used as her title.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Blood-kin\" means related by blood; the argument turns on whether a mother counts as a true blood relative of her child.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "The Hill of Ares is the Areopagus in Athens, where the court of homicide sat; the Erinyes are given a shrine beneath it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "\"Took second this oracular seat of her mother\" means Themis received the oracle as the second holder, inheriting it from her mother Earth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Phoebus (\"bright one\") is Apollo's title; the text links it to Phoebe's name, a play on the name rather than a strict etymology.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "\"Pallas' ship-frequented shores\" refers to Attica, land of Athena (Pallas), where Apollo landed on his way from Delos to Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Hephaestus' children are the Athenians, who road-building Apollo's journey; they cleared a route for his procession to Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "\"Loxias\" is a cult title of Apollo, linked to his oracular, obscure speech. \"Stablished\" means established.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "Bromius (\"roaring one\") is Dionysus. Pentheus, king of Thebes, resisted his worship and was torn apart by Bacchants, here compared to a hunted hare.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "phrasing",
+    "text": "Consultants entered \"by lot\": the order of those seeking the oracle was decided by drawing lots.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "allusion",
+    "text": "Loxias is a title of Apollo, god of Delphi, whose oracle the priestess serves. 'House' means his temple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "word",
+    "text": "The 'centre-stone' is the omphalos, the navel-stone marking Delphi as the center of the world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "word",
+    "text": "'Suppliants' are people who seek protection or purification at a sacred place.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "allusion",
+    "text": "Gorgons were monstrous winged women with snakes for hair, whose gaze turned people to stone; Medusa was one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "allusion",
+    "text": "Phineus was a king tormented by the Harpies, winged creatures that snatched or fouled his food. She had seen them in paintings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "word",
+    "text": "'Puissant' means powerful; 'purgeth' is archaic for 'purges', meaning cleanses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "word",
+    "text": "\"Beldames\" are old women, often hags; the phrase \"aged children\" is a paradox, since the Furies are ancient yet childlike in mind.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "kind": "word",
+    "text": "Tartarus is the deepest part of the underworld, a gloomy pit below Hades where the Furies dwell.",
+    "spoiler": false
+   },
+   {
+    "sentence": 61,
+    "kind": "allusion",
+    "text": "\"Pallas' burgh\" is Athens, city of Pallas Athena; her \"ancient image\" is her old wooden statue on the Acropolis, where suppliants could seek protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 62,
+    "kind": "phrasing",
+    "text": "\"Judges of thy cause\" anticipates the trial Athena will set up at Athens; \"at my behest\" means Apollo commanded the matricide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "kind": "phrasing",
+    "text": "Orestes urges Apollo not to forget him: knowing himself righteous, Apollo must also care for, not neglect, his suppliant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "kind": "allusion",
+    "text": "The footnote marks a pun: Hermes is the \"Conductor\" (Greek hegemonios), the god who guides travellers and souls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 74,
+    "kind": "phrasing",
+    "text": "\"Because of him I slew\" means because of Orestes' act of killing her; the dead reproach her for a murder left unavenged.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "kind": "phrasing",
+    "text": "She means that in sleep the mind sees truly, as in dreams, while waking people cannot foresee their fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 79,
+    "kind": "word",
+    "text": "\"Wineless libations\" are offerings of water, honey and milk, poured to the Furies instead of wine; \"sober appeasement\" means a calming gift.",
+    "spoiler": false
+   },
+   {
+    "sentence": 79,
+    "kind": "phrasing",
+    "text": "\"An hour unshared by any god\" means a night hour when no Olympian receives worship, so the offerings belonged to the Furies alone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 95,
+    "kind": "phrasing",
+    "text": "\"Dragoness\" refers to the Furies, here imagined as serpent-like; \"travail\" means toil, so sleep and weariness are called conspirators.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The heroic age is the legendary era of Greek heroes, after the gods' rule and before recorded history, when the Trojan War took place.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Clytaemestra killed her husband Agamemnon on his return from Troy; her son Orestes later killed her to avenge him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The Areopagus was historically Athens' court for homicide; Aeschylus gives it a mythic origin in Athena's founding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Athena's casting vote for acquittal in a tied ballot reflected the Athenian principle that a tie favoured the accused.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Earth (Gaia) and Themis, goddess of established right, are the first two holders of the Delphic oracle in this legendary succession.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Delos was Apollo's birthplace island; Parnassus is the mountain above Delphi, site of his oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Delphus is the legendary eponymous king of the region, from whom Delphi was said to take its name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "The Corycian cave on Parnassus was sacred to the Nymphs and Pan, near Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Pleistus is the river of the Delphi area. Zeus the Fulfiller (Teleios) is the god who brings prayers and plans to completion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "text": "The olive branch wrapped in wool was the traditional sign of a suppliant seeking protection. Blood on his hands and sword shows he has just killed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "text": "These sleeping women are the Furies, ancient goddesses who pursue those who shed kindred blood. Here they hound Orestes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "text": "Apollo, god of prophecy, had ordered Orestes to avenge his father Agamemnon by killing his mother Clytemnestra, and now protects him at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "text": "The Furies are ancient avenging goddesses who pursue those who shed kindred blood; here they sleep inside Apollo's temple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "text": "Hermes is Apollo's half-brother, both being sons of Zeus (here sometimes Jove), and is the divine messenger and guide of travellers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "text": "Clytaemestra was killed by her son Orestes in revenge for her murder of Agamemnon, his father. The Furies pursue those who shed kindred blood.",
+    "spoiler": false
+   },
+   {
+    "sentence": 81,
+    "text": "Orestes has fled to Athens after being purified at Delphi by Apollo, who protects him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 82,
+    "text": "The Furies, goddesses of the underworld, avenge murder within the family, which is why Clytaemestra appeals to them.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "imagery",
+    "text": "The sleeping, fearsome Erinyes create a vivid, eerie opening image of guilt that pursues relentlessly yet is momentarily exhausted.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "transformation",
+    "text": "The Erinyes' change from Spirits of Wrath to Spirits of Blessing (Eumenides) resolves the play, symbolizing vengeance giving way to civic justice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "characterization",
+    "text": "The priestess's careful, pious ordering of the gods establishes her reverent character and the oracle's legitimate, peaceful lineage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "theme",
+    "text": "Apollo as mere spokesman of Zeus introduces the play's theme of Zeus's supreme authority behind Apollo's later actions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "foreshadowing",
+    "text": "Her hope for good fortune beyond past visits anticipates the terrifying sight inside the temple that she is about to meet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "device": "simile",
+    "text": "The aged priestess compares herself to a child, conveying how fear has stripped her of strength and dignity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "correction",
+    "text": "She names the women, then retracts it. The self-correction shows her struggle to find words for something beyond ordinary experience.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "device": "imagery",
+    "text": "Snorting breath and oozing rheum create a repulsive sensory picture of the Furies, stressing their foulness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "device": "irony",
+    "text": "She praises Apollo as healer and purifier of houses, while the polluted Orestes and the monstrous Furies already sit in his shrine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "device": "oxymoron",
+    "text": "\"Aged children\" joins opposites to show the Furies as primitive, ancient beings, and to mark Apollo's contempt for them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "device": "hyperbole",
+    "text": "The pursuit across continent, sea and island cities stresses the Furies' relentlessness and the long wandering Orestes faces.",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "device": "simile",
+    "text": "Hermes is compared to a shepherd guiding Orestes, showing gentle, watchful care for the vulnerable suppliant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 73,
+    "device": "irony",
+    "text": "The ghost's bitter command to sleep on mocks the Furies, who are supposed to be tireless pursuers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "device": "imagery",
+    "text": "The ghost points to the wounds in her heart, a vivid image that supports her claim to vengeance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 81,
+    "device": "simile",
+    "text": "Orestes is compared to a fawn bounding free of a snare, casting the Furies as hunters and him as hunted prey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 95,
+    "device": "personification",
+    "text": "Slumber and travail are treated as conspirators who have defeated the Furies' power, blaming the sleep itself.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pantheon Pal: read the Greek and Roman myths without losing track of who's who</title>
-  <meta name="description" content="A free reading companion for the Iliad, the Odyssey, the Aeneid, Ovid's Metamorphoses and more: every name, family tree and place, right beside the text.">
+  <meta name="description" content="A free reading companion for fourteen Greek and Roman classics, from the Iliad and the Odyssey to Ovid, Aeschylus and Pausanias: every name, family tree and place, right beside the text.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%238a3b12'/%3E%3Cpath d='M16 10C13 8.5 10 8 7 8.4V21.4C10 21 13 21.5 16 23M16 10C19 8.5 22 8 25 8.4V21.4C22 21 19 21.5 16 23M16 10V23' fill='none' stroke='%23f7f0e1' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E">
   <!-- The reader's light or dark choice carries over; light otherwise. Seeing this page once is remembered, so
        pantheonpal.com then opens the reader itself. -->
@@ -85,6 +85,20 @@
     .book:hover { transform: translateY(-2px); border-color: var(--accent); }
     .book strong { font-family: var(--serif); font-size: 1.15rem; display: block; }
     .book span { font-size: 0.88rem; color: var(--muted); }
+    .book em { font-style: normal; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;
+               color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: 1px 8px; margin-left: 6px;
+               vertical-align: 2px; white-space: nowrap; }
+    .group { font-family: var(--serif); font-size: 1.15rem; margin: 26px 0 0; color: var(--muted); }
+
+    /* Where to start: reading paths, each a numbered list of books */
+    .paths { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 18px; }   /* two by two, never three and one */
+    @media (max-width: 640px) { .paths { grid-template-columns: 1fr; } }
+    .path { background: var(--surface); border: 1px solid var(--border); border-top: 3px solid var(--accent); border-radius: 12px; padding: 18px; }
+    .path h3 { font-family: var(--serif); font-size: 1.15rem; margin: 0 0 4px; }
+    .path p { font-size: 0.92rem; color: var(--muted); margin: 0 0 10px; }
+    .path ol { margin: 0; padding-left: 1.3em; font-size: 0.95rem; }
+    .path li { margin: 3px 0; }
+    .path li span { color: var(--muted); font-size: 0.86rem; }
 
     .note { max-width: 62ch; }
     .note p { color: var(--muted); }
@@ -99,7 +113,7 @@
       <p class="tagline">Read the Greek and Roman myths without losing track of who's who.</p>
       <div class="buttons">
         <a class="button primary" href="/#odyssey">Start reading</a>
-        <a class="button secondary" href="#books">Pick a book &darr;</a>
+        <a class="button secondary" href="#start">Where to start &darr;</a>
       </div>
     </header>
 
@@ -156,15 +170,57 @@
       <p>No Greek or Latin needed. No sign-up. Free.</p>
     </section>
 
+    <section id="start">
+      <h2>Where to start</h2>
+      <p>Fourteen books is a lot. Pick a path:</p>
+      <div class="paths">
+        <div class="path"><h3>New to the myths?</h3>
+          <p>One hero, one journey, then the myths themselves one story at a time.</p>
+          <ol><li><a href="/#odyssey/about">The Odyssey</a> <span>(Homer)</span></li>
+              <li><a href="/#metamorphoses/about">The Metamorphoses</a> <span>(Ovid)</span></li></ol></div>
+        <div class="path"><h3>The whole Trojan War, in order</h3>
+          <p>From the quarrel at Troy to the founding of Rome.</p>
+          <ol><li><a href="/#iliad/about">The Iliad</a> <span>(Homer)</span></li>
+              <li><a href="/#fall-of-troy/about">The Fall of Troy</a> <span>(Quintus Smyrnaeus: what happens between the two Homers)</span></li>
+              <li><a href="/#aeschylus/aeschylus-body-1">Agamemnon</a> <span>(Aeschylus: the king comes home)</span></li>
+              <li><a href="/#odyssey/about">The Odyssey</a> <span>(Homer)</span></li>
+              <li><a href="/#aeneid/about">The &AElig;neid</a> <span>(Virgil)</span></li></ol></div>
+        <div class="path"><h3>Where the gods come from</h3>
+          <p>The family of the gods first, then the ancient handbook to every myth.</p>
+          <ol><li><a href="/#hesiod/hesiod-body-14">The Theogony</a> <span>(Hesiod)</span></li>
+              <li><a href="/#apollodorus/about">The Library</a> <span>(Apollodorus: dense, so look things up rather than read it straight through)</span></li></ol></div>
+        <div class="path"><h3>Prefer plays?</h3>
+          <p>Short, sharp and made for the stage.</p>
+          <ol><li><a href="/#oedipus-the-king/about">Oedipus the King</a> <span>(Sophocles)</span></li>
+              <li><a href="/#bacchae/about">The Bacchae</a> <span>(Euripides)</span></li>
+              <li><a href="/#aeschylus/aeschylus-body-1">The Oresteia</a> <span>(Aeschylus: Agamemnon, the Libation-Bearers, the Eumenides)</span></li></ol></div>
+      </div>
+    </section>
+
     <section id="books">
-      <h2>The books</h2>
+      <h2>All 14 books</h2>
+      <h3 class="group">Epic poems</h3>
       <div class="books" id="book-list">
-        <a class="book" href="/#iliad"><strong>The Iliad</strong><span>Homer: the wrath of Achilles and the fall of Hector.</span></a>
-        <a class="book" href="/#odyssey"><strong>The Odyssey</strong><span>Homer: ten years, one very long trip home.</span></a>
-        <a class="book" href="/#aeneid"><strong>The &AElig;neid</strong><span>Virgil: from burning Troy to the founding of Rome.</span></a>
-        <a class="book" href="/#argonautica"><strong>The Argonautica</strong><span>Apollonius: Jason, Medea and the Golden Fleece.</span></a>
-        <a class="book" href="/#metamorphoses"><strong>The Metamorphoses</strong><span>Ovid: two hundred-odd myths of things changing shape.</span></a>
-        <a class="book" href="/#hesiod"><strong>Hesiod &amp; the Homeric Hymns</strong><span>Where the gods come from, and songs in their honour.</span></a>
+        <a class="book" href="/#iliad/about"><strong>The Iliad</strong><span>Homer: the wrath of Achilles and the fall of Hector.</span></a>
+        <a class="book" href="/#odyssey/about"><strong>The Odyssey <em>good first read</em></strong><span>Homer: ten years, one very long trip home.</span></a>
+        <a class="book" href="/#aeneid/about"><strong>The &AElig;neid</strong><span>Virgil: from burning Troy to the founding of Rome.</span></a>
+        <a class="book" href="/#argonautica/about"><strong>The Argonautica</strong><span>Apollonius: Jason, Medea and the Golden Fleece.</span></a>
+        <a class="book" href="/#fall-of-troy/about"><strong>The Fall of Troy</strong><span>Quintus Smyrnaeus: the Amazons, Achilles' death and the wooden horse.</span></a>
+        <a class="book" href="/#statius-thebaid/about"><strong>The Thebaid</strong><span>Statius: Oedipus' sons go to war over Thebes.</span></a>
+      </div>
+      <h3 class="group">Myths and handbooks</h3>
+      <div class="books">
+        <a class="book" href="/#metamorphoses/about"><strong>The Metamorphoses <em>good first read</em></strong><span>Ovid: two hundred-odd myths of things changing shape.</span></a>
+        <a class="book" href="/#hesiod/about"><strong>Hesiod &amp; the Homeric Hymns</strong><span>Hesiod and unknown poets: where the gods come from, and songs in their honour.</span></a>
+        <a class="book" href="/#apollodorus/about"><strong>The Library <em>challenging</em></strong><span>Apollodorus: every myth packed into family lines; dense, best for looking things up.</span></a>
+        <a class="book" href="/#pausanias/about"><strong>Description of Greece <em>travel guide</em></strong><span>Pausanias: a Roman-era travel guide to Greece's temples, statues and legends.</span></a>
+      </div>
+      <h3 class="group">Plays and poems</h3>
+      <div class="books">
+        <a class="book" href="/#oedipus-the-king/about"><strong>Oedipus the King</strong><span>Sophocles: the riddle, the plague and the terrible truth.</span></a>
+        <a class="book" href="/#bacchae/about"><strong>The Bacchae</strong><span>Euripides: Dionysus comes home to Thebes, and is not welcomed.</span></a>
+        <a class="book" href="/#aeschylus/about"><strong>Aeschylus</strong><span>Aeschylus: seven plays, including the Oresteia and Prometheus Bound.</span></a>
+        <a class="book" href="/#pindar-odes/about"><strong>The Odes of Pindar <em>challenging</em></strong><span>Pindar: victory songs for the champions of the ancient games.</span></a>
       </div>
     </section>
 
@@ -176,7 +232,7 @@
     </section>
   </main>
   <footer class="wrap">
-    Texts from Project Gutenberg (public domain in the US). Summaries and background excerpted from Wikipedia (CC BY-SA 4.0) and Wikidata.
+    Texts from Project Gutenberg and Wikisource (public domain in the US) and the Perseus Digital Library (CC BY-SA 4.0). Summaries and background excerpted from Wikipedia (CC BY-SA 4.0) and Wikidata.
     Map &copy; MapTiler &copy; OpenStreetMap contributors. Not affiliated with Project Gutenberg.
   </footer>
 </body>

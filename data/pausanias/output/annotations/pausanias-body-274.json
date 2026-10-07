@@ -1,0 +1,267 @@
+{
+ "section_id": "pausanias-body-274",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8182,
+  "output": 2537
+ },
+ "result": {
+  "summary": "Pausanias continues his life of Philopoemen, the Achaean general. He reforms the Achaean infantry, kills the Spartan tyrant Machanidas at Mantinea, is honoured at the Nemean games, and campaigns against Nabis, who is finally assassinated by an Aetolian agent.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Army reform and Mantinea",
+    "summary": "Philopoemen re-arms the Achaean infantry, then defeats the Spartans at Mantinea and kills Machanidas, freeing Sparta of its tyrant.",
+    "stakes": "Achaean defeat by Machanidas and Sparta's tyranny.",
+    "present": [
+     "Philopoemen",
+     "Machanidas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mantinea",
+     "modern_name": "Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 6,
+    "title": "Honour at the Nemean games",
+    "summary": "At the harpers' contest Pylades sings of freedom for Hellas and the Greeks applaud Philopoemen. Pausanias compares an honour given to Themistocles.",
+    "stakes": "",
+    "present": [
+     "Philopoemen",
+     "Pylades",
+     "Timotheus",
+     "Themistocles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos (Nemean games)",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 12,
+    "title": "Plots, rescues and Nabis",
+    "summary": "Philip tries to have Philopoemen killed, the Thebans flee from Megara, Nabis takes Messene until Philopoemen comes, and Philopoemen goes to Crete and then joins the Romans at sea.",
+    "stakes": "Philopoemen's life and the safety of Greek cities.",
+    "present": [
+     "Philip",
+     "Philopoemen",
+     "Nabis",
+     "Aratus",
+     "Demetrius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Messene",
+     "modern_name": "Ancient Messene",
+     "certainty": "real",
+     "lat": 37.18,
+     "lon": 21.92
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 16,
+    "title": "Night attack and Nabis's death",
+    "summary": "Philopoemen burns the Spartan camp at Gythium and wins a night fight against Nabis. Nabis is later assassinated by an Aetolian-hired man from Calydon.",
+    "stakes": "Philopoemen's small force is trapped; Nabis's life under truce.",
+    "present": [
+     "Philopoemen",
+     "Nabis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Gythium",
+     "modern_name": "Gytheio",
+     "certainty": "real",
+     "lat": 36.76,
+     "lon": 22.57
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Philopoemen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian general of the Achaeans"
+   },
+   {
+    "name": "Machanidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan tyrant killed at Mantinea"
+   },
+   {
+    "name": "Nabis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan tyrant, attacked Messene, assassinated"
+   },
+   {
+    "name": "Pylades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "harper of Megalopolis, Pythian victor"
+   },
+   {
+    "name": "Timotheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Milesian composer of the Persae"
+   },
+   {
+    "name": "Themistocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian honoured at Olympia"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king, son of Demetrius, poisoned Aratus"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of the Macedonians, father of Philip"
+   },
+   {
+    "name": "Aratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man of Sicyon poisoned by Philip"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Demetrius",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Line from Timotheus's Persae that the audience applied to Philopoemen.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias presents Philopoemen as the last great champion of Greek freedom, shown by military skill and public acclaim.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage reflects Hellenistic Greece, where Achaean League, Sparta, Macedon, Aetolia and Rome contended, and tyrants like Nabis rose and fell.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Plutarch also tells the Nemean games story of Pylades singing Timotheus's Persae and the audience turning to Philopoemen.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Thyrei and gerrha: the thyreos was a large oblong shield; the gerron was a lighter wicker shield, associated with Persians. Both contrast with the round Argive shield.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Hoplites: heavily armed infantry soldiers, carrying spear and shield, as opposed to the light-armed troops.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Timotheus of Miletus was a famous poet-musician; his Persae, a lyric piece on the Greek victory at Salamis, was performed to harp accompaniment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Referred to him the words\": the audience applied the line to Philopoemen, treating him as the liberator of Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"On conditions of war\": he withdrew under a negotiated agreement, not by being destroyed or driven out outright.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Homer's Catalogue of Ships says the Arcadians, an inland people, had to be given ships by Agamemnon because they were unfamiliar with the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "Suborned: secretly bribed or induced to commit a crime.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Machanidas was tyrant of Sparta; the battle of Mantinea (207 BC) ended his rule and checked Spartan power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Themistocles, the Athenian general at Salamis, was said to have been honoured by the Olympic crowd for his role in saving Greece from Persia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Philip V of Macedon was king of Macedon and an enemy of the Achaean League's rivals and allies alike; Aratus was an Achaean statesman said to have been poisoned by him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The Aetolians were a rival league of central Greece, at various times allied with Rome and hostile to Nabis.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "Dramatic irony",
+    "text": "The audience hears a song about freeing Hellas and turns it into praise of a living man, so the poem's words take on a new meaning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Irony",
+    "text": "The Arcadian general eager for the sea embarks unwittingly on a rotten ship, fulfilling Homer's joke about Arcadians and ships.",
+    "spoiler": false
+   }
+  ]
+ }
+}

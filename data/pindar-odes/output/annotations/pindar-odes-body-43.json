@@ -1,0 +1,369 @@
+{
+ "section_id": "pindar-odes-body-43",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7744,
+  "output": 3093
+ },
+ "result": {
+  "summary": "Pindar opens by asking which of Thebes' glorious deeds pleased her most, listing the births of Dionysos and Herakles and other Theban heroes. He then celebrates Strepsiades, a pankratiast victor at the Isthmus, and his namesake uncle who died in battle. He ends with a warning against reaching for the gods' heights, citing Bellerophon, and a prayer to Apollo.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Editor's note on date",
+    "summary": "The editor says the ode's date is uncertain and links it conjecturally to the battle of Oinophyta.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Oinophyta",
+     "modern_name": "Oinofyta, Boeotia",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.65
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 6,
+    "title": "Glories of Thebes",
+    "summary": "Pindar asks Thebe which of her famous deeds pleased her most, recalling Dionysos, Herakles, Teiresias, Adrastos and the Spartoi. He notes that old glory sleeps unless song preserves it.",
+    "stakes": "Old glory is forgotten unless kept alive by song.",
+    "present": [
+     "Thebe",
+     "Dionysos",
+     "Demeter",
+     "Jove",
+     "Amphitryon",
+     "Herakles",
+     "Teiresias",
+     "Iolaos",
+     "Adrastos"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thiva, Greece",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 11,
+    "title": "Strepsiades and his uncle",
+    "summary": "Pindar praises Strepsiades' Isthmian pankration victory and shares the glory with his uncle, who died fighting for his country.",
+    "stakes": "The uncle gave his life in battle; renown is the recompense.",
+    "present": [
+     "Strepsiades",
+     "Diodotos",
+     "Ares"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Isthmos",
+     "modern_name": "Isthmus of Corinth",
+     "certainty": "real",
+     "lat": 37.91,
+     "lon": 22.99
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 18,
+    "title": "Calm, mortality, Bellerophon, prayer",
+    "summary": "Pindar says his grief has passed, warns against aiming at the gods' realm using Bellerophon, and prays Apollo for a Pythian crown.",
+    "stakes": "Overreaching mortals meet a bitter end, as Bellerophon was thrown.",
+    "present": [
+     "Bellerophon",
+     "Pegasos",
+     "Loxias"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympos",
+     "modern_name": "",
+     "certainty": "mythical",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Thebe",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "personified city of Thebes, addressed by the poet"
+   },
+   {
+    "name": "Dionysos",
+    "aliases": [],
+    "kind": "god",
+    "description": "god born at Thebes, seated beside Demeter"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess honoured with cymbals"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban whose wife the greatest god beguiled"
+   },
+   {
+    "name": "Herakles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero begotten at Thebes"
+   },
+   {
+    "name": "Teiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wise Theban counsellor"
+   },
+   {
+    "name": "Iolaos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "cunning charioteer"
+   },
+   {
+    "name": "Adrastos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive leader sent home bereft of his company"
+   },
+   {
+    "name": "Strepsiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban pankratiast victor at the Isthmus, and his namesake uncle who died in war"
+   },
+   {
+    "name": "Diodotos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the slain Strepsiades"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of war"
+   },
+   {
+    "name": "Meleagros",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "warrior hero of praise"
+   },
+   {
+    "name": "Hektor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "warrior hero of praise"
+   },
+   {
+    "name": "Amphiaraos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "warrior hero of praise"
+   },
+   {
+    "name": "Bellerophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "rider thrown by Pegasos when he tried to reach heaven"
+   },
+   {
+    "name": "Pegasos",
+    "aliases": [],
+    "kind": "creature",
+    "description": "winged horse of Bellerophon"
+   },
+   {
+    "name": "Loxias",
+    "aliases": [],
+    "kind": "god",
+    "description": "Apollo, addressed in prayer"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of gods whose company Bellerophon sought"
+   },
+   {
+    "name": "Jove",
+    "aliases": [],
+    "kind": "god",
+    "description": "unnamed mightiest god who visited Amphitryon's wife"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Diodotos",
+    "relation": "parent_of",
+    "b": "Strepsiades",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Herakles",
+    "source": "outside",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Loxias",
+    "canonical": "Apollo",
+    "explanation": "Title of Apollo, god of Pytho and the Pythian games."
+   },
+   {
+    "alias": "earth-grasper",
+    "canonical": "Poseidon",
+    "explanation": "Epithet of Poseidon, lord of the Isthmian games."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 14,
+    "reason": "A plain statement of human mortality despite differing fortunes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "reason": "Song alone preserves the glory of the past.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Song gives lasting fame to deeds, and heroic death in defence of one's city earns renown for both the dead and the community.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "The Bellerophon example teaches mortals to accept limits and not strive for the gods' realm.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Bellerophon's fall on Pegasos became a lasting image of human pride and overreach in later literature."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The editor notes that the date is uncertain and the link to Oinophyta (457 BC) is only a guess.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Wherewithal of\" means roughly \"in which of\"; Pindar asks which of Thebe's fine deeds pleased her most.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Zeus came to Alkmene, Amphitryon's wife, in a night of golden snow, disguised as her husband, and so fathered Herakles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Spartoi, \"sown men\", sprang from dragon's teeth sown by Kadmos and became ancestors of Theban nobility.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Meed\" means reward or due recompense.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Iris-haired\" refers to the Muses' violet or rainbow-coloured hair, a conventional epithet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Earth-grasper\" translates a title of Poseidon, the earth-holder, who is god of the Isthmian games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Bellerophon tried to ride the winged horse Pegasos to Olympos and was thrown for his presumption.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "Loxias is a title of Apollo, god of prophecy.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Oinophyta was a battle in which Athens defeated the Boiotians, including Thebes, in 457 B.C.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "The pankration combined wrestling and boxing, and was among the toughest events at the Isthmian games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Meleagros, Hektor and Amphiaraos are legendary warriors; Pindar compares the dead uncle with them.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "apostrophe",
+    "text": "Pindar addresses Thebe, the city personified as a goddess, opening the ode by speaking directly to her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "metaphor",
+    "text": "Song is imagined as a spouse to whom a man is married, giving him the lasting reward of fame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "metaphor",
+    "text": "Grief is a storm and renewed joy is a calm after it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "allusion",
+    "text": "Bellerophon serves as a mythic warning example, illustrating the limits of mortal ambition.",
+    "spoiler": false
+   }
+  ]
+ }
+}

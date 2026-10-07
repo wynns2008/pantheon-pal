@@ -1,0 +1,508 @@
+{
+ "section_id": "pausanias-body-328",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10647,
+  "output": 4290
+ },
+ "result": {
+  "summary": "Pausanias begins his tour of Delphi's sanctuary of Apollo, noting its hilly terrain and listing votive offerings. He describes the Corcyraean bull, the Tegean and Spartan monuments, the statues of Lysander's allies, and claims about Athenian defeat at Aegospotami and an Argive horse.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Delphi's layout and Phayllus",
+    "summary": "Pausanias describes the hilly sanctuary and states his selection rule. He mentions the statue of Phayllus of Croton.",
+    "stakes": "",
+    "present": [
+     "Phayllus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 9,
+    "title": "The Corcyraean bull",
+    "summary": "The story is told of a bull that went bellowing to the sea and revealed a shoal of tunny. After an oracle the Corcyraeans sacrificed it to Poseidon and dedicated the bull.",
+    "stakes": "The Corcyraeans want to catch the tunny fish.",
+    "present": [
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Corcyra",
+     "modern_name": "Corfu",
+     "certainty": "real",
+     "lat": 39.62,
+     "lon": 19.92
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 12,
+    "title": "Tegean offerings",
+    "summary": "The Tegeans dedicated statues of Apollo, Victory and Arcadian heroes after capturing invading Spartans, made by various artists.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Callisto",
+     "Arcas",
+     "Elatus",
+     "Aphidas",
+     "Azan",
+     "Triphylus",
+     "Erasus",
+     "Laodamia",
+     "Amyclas",
+     "Erato",
+     "Lycaon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 21,
+    "title": "Spartan victory monuments",
+    "summary": "The Spartans' offering for defeating the Athenians includes gods, Lysander, his prophet, his pilot and his allied commanders, with sculptors listed.",
+    "stakes": "",
+    "present": [
+     "Castor",
+     "Pollux",
+     "Zeus",
+     "Apollo",
+     "Artemis",
+     "Poseidon",
+     "Lysander",
+     "Abas",
+     "Hermon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 27,
+    "title": "Aegospotami and the Argive horse",
+    "summary": "Athenians claim their commanders were bribed by Lysander and cite oracles. The Argives dedicated a bronze horse after a drawn battle.",
+    "stakes": "Athenian fleet and state were ruined by betrayal.",
+    "present": [
+     "Tydeus",
+     "Adimantus",
+     "Lysander",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Aegospotami",
+     "modern_name": "Gallipoli peninsula, Dardanelles",
+     "certainty": "real",
+     "lat": 40.4,
+     "lon": 26.6
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Phayllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "athlete of Croton who fought the Medes with his own ship"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god to whom the bull was sacrificed"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of Delphi"
+   },
+   {
+    "name": "Callisto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Lycaon, Arcadian heroine"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Callisto"
+   },
+   {
+    "name": "Arcas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "eponym of Arcadia"
+   },
+   {
+    "name": "Elatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Arcas"
+   },
+   {
+    "name": "Aphidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Arcas"
+   },
+   {
+    "name": "Azan",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Arcas"
+   },
+   {
+    "name": "Triphylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian hero, son of Laodamia"
+   },
+   {
+    "name": "Erasus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Triphylus"
+   },
+   {
+    "name": "Laodamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Amyclas, mother of Triphylus"
+   },
+   {
+    "name": "Amyclas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king at Lacedaemon"
+   },
+   {
+    "name": "Erato",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "named as a rival tradition for Triphylus' mother"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "god",
+    "description": "Spartan divine twin"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "god",
+    "description": "Spartan divine twin"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess in the Spartan offering"
+   },
+   {
+    "name": "Lysander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan admiral, son of Aristocritus"
+   },
+   {
+    "name": "Aristocritus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Lysander"
+   },
+   {
+    "name": "Abas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lysander's prophet"
+   },
+   {
+    "name": "Hermon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "pilot of Lysander's flagship"
+   },
+   {
+    "name": "Tydeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian admiral accused of bribery"
+   },
+   {
+    "name": "Adimantus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian admiral accused of bribery"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Callisto",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Arcas",
+    "relation": "parent_of",
+    "b": "Elatus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Arcas",
+    "relation": "parent_of",
+    "b": "Aphidas",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Arcas",
+    "relation": "parent_of",
+    "b": "Azan",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Laodamia",
+    "relation": "parent_of",
+    "b": "Triphylus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Amyclas",
+    "relation": "parent_of",
+    "b": "Laodamia",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Triphylus",
+    "relation": "parent_of",
+    "b": "Erasus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Aristocritus",
+    "relation": "parent_of",
+    "b": "Lysander",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Callisto",
+    "relation": "parent_of",
+    "b": "Arcas",
+    "source": "outside",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "Delphi was a showcase where Greek states displayed victories, often over other Greeks, so offerings record rivalries such as Sparta against Athens.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Pausanias mixes monuments with local tradition and oracles, showing how Greeks explained events through religion.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias skips mediocre athletes, selecting only offerings he considers most worth mentioning.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Pentathlum: the pentathlon, a five-event contest (running, jumping, discus, javelin, wrestling). Phayllus's \"course\" is the footrace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The naval engagement against the Medes is the battle of Salamis (480 BC), where Phayllus is said to have fought with his own ship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"The tenth of their catch\" means a tithe, a tenth part offered to the gods as thanks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Callisto, Arcas and the rest are Arcadian mythical ancestors; Tegea was an Arcadian city, so it honored its own legendary founders.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Refers to a Spartan invasion of Tegea in which the invaders were captured; the offerings were paid for from their spoils.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Lacedæmonians is the usual name for the Spartans; Castor and Pollux are the Dioscuri, twin sons of Zeus (Pausanias' Pollux is the Greek Polydeuces).",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Votive offerings are gifts dedicated to a god, here commemorating a victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Ægos-potamoi (Aegospotami) was the 405 BC naval battle on the Hellespont that destroyed the Athenian fleet and ended the Peloponnesian War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "\"Foul play\" means treachery: the Athenians blamed betrayal by their own generals rather than Spartan skill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "Sibylline oracle: a prophecy attributed to a Sibyl, an inspired prophetess whose verses were collected and quoted as authoritative.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Musæus was a legendary early poet-seer to whom oracular verses were attributed; such verses circulated in Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The battle beyond Thyrea refers to the contest over the border region of Thyreatis between Sparta and Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The Trojan Horse was the wooden horse by which the Greeks entered Troy; the Argives' bronze horse echoes it.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Delphi lies on the steep slopes of Mount Parnassus, so its buildings and terraces climb the hillside.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Poseidon, god of the sea, was a fitting recipient of a sacrifice tied to a catch of sea fish.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Tegea was an Arcadian city that often fought Sparta (Lacedæmon), its southern neighbor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Lysander was the Spartan admiral who defeated Athens in 405 BC; this monument at Delphi honoured him almost like a hero, crowned by Poseidon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Megara was a city between Athens and Corinth; claiming Hermon as a citizen shows how cities competed for credit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Tydeus and Adimantus were among the Athenian generals at Aegospotami; Adimantus alone was spared by Lysander, which fed the bribery rumour.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "narrative voice",
+    "text": "Pausanias speaks in the first person as a selective guide, stating his method and shaping the reader's trust in his choices.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "transition",
+    "text": "A brief closing formula ends the digression on Phayllus and moves the tour on to the next monument.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "imagery",
+    "text": "The bellowing bull going to the sea daily creates a vivid, almost miraculous picture that leads to the discovery of the fish.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "foreshadowing",
+    "text": "The oracle, presented as predating the disaster, casts the defeat as divinely ordained and blames the commanders' treachery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "irony",
+    "text": "The oracle promises comfort and vengeance, softening the foretold storm with a hope of later Athenian recovery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "irony",
+    "text": "The Argives read a drawn battle as victory and commemorate it grandly, while Pausanias' \"doubtless\" gently mocks their pretension.",
+    "spoiler": false
+   }
+  ]
+ }
+}

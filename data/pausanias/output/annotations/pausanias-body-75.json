@@ -1,0 +1,399 @@
+{
+ "section_id": "pausanias-body-75",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9991,
+  "output": 3439
+ },
+ "result": {
+  "summary": "Pausanias tours the market-place and sacred sites of Troezen, recording temples, altars and statues and the local legends tied to them. Many link to Theseus, Pittheus, Hippolytus and Orestes, whose purification at Troezen is explained.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Market-place temples and Pittheus",
+    "summary": "Pausanias describes the temple of Artemis the Saviour, the altars of the underworld gods, Pittheus' monument and the temple of the Muses.",
+    "stakes": "",
+    "present": [
+     "Theseus",
+     "Asterion",
+     "Pittheus",
+     "Ardalus",
+     "Semele",
+     "Dionysus",
+     "Hercules",
+     "Cerberus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Troezen market-place",
+     "modern_name": "Troizina, Greece",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 23.35
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 19,
+    "title": "Artemis Lycea and Apollo's temple",
+    "summary": "He describes the temple of Lycean Artemis, the holy stone, altars, and the old temple of Thearian Apollo.",
+    "stakes": "",
+    "present": [
+     "Hippolytus",
+     "Orestes",
+     "Pittheus",
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Troezen",
+     "modern_name": "Troizina, Greece",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 23.35
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 31,
+    "title": "Orestes' tent and other sights",
+    "summary": "He describes the Athenian women's statues, the tent where Orestes was purified, Hippocrene, Hermes Polygius, the temple of Zeus Soter and the Chrysorrhoe.",
+    "stakes": "Orestes needs purification from the blood of his mother before he can be received.",
+    "present": [
+     "Orestes",
+     "Hercules",
+     "Bellerophon",
+     "Pegasus",
+     "Pittheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Troezen",
+     "modern_name": "Troizina, Greece",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 23.35
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who killed Asterion and built the temple of Artemis the Saviour"
+   },
+   {
+    "name": "Asterion",
+    "aliases": [],
+    "kind": "monster",
+    "description": "son of Minos, killed by Theseus"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Asterion"
+   },
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Zeus, said to be brought from Hades by Dionysus"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who brought Semele from Hades"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who brought Cerberus from Hades and dedicated his club"
+   },
+   {
+    "name": "Cerberus",
+    "aliases": [],
+    "kind": "monster",
+    "description": "hound of Hades"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "husband of Semele"
+   },
+   {
+    "name": "Pittheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Troezenian ruler and teacher of language"
+   },
+   {
+    "name": "Ardalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hephæstus, flute inventor, built the Muses' temple"
+   },
+   {
+    "name": "Hephæstus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Ardalus"
+   },
+   {
+    "name": "Hippolytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "built the temple of Lycean Artemis"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "matricide purified at Troezen"
+   },
+   {
+    "name": "Pegasus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "winged horse whose hoof raised a spring"
+   },
+   {
+    "name": "Bellerophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "came to Troezen to seek Æthra as wife"
+   },
+   {
+    "name": "Æthra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Pittheus"
+   },
+   {
+    "name": "Aetius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king, son of Anthas, built the temple of Zeus Soter"
+   },
+   {
+    "name": "Anthas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aetius"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Minos",
+    "relation": "parent_of",
+    "b": "Asterion",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Hephæstus",
+    "relation": "parent_of",
+    "b": "Ardalus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Anthas",
+    "relation": "parent_of",
+    "b": "Aetius",
+    "source": "text",
+    "evidence_sentence": 30
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Semele",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Pittheus",
+    "relation": "parent_of",
+    "b": "Æthra",
+    "source": "outside",
+    "evidence_sentence": 28
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 29,
+    "reason": "Pausanias' sceptical aside about Hercules' club sprouting into a tree.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local cult sites anchor myths to places, tying Troezen to heroes like Theseus, Hippolytus and Orestes.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias mixes local tradition with his own doubts, and mentions the Athenian evacuation to Troezen before the Persian invasion.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says he read a book attributed to Pittheus, given to him by an Epidaurian.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Theseus killed Asterion, the Minotaur, in the Cretan labyrinth; Asterion is the name Pausanias uses for the monster, son of Minos in his account.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Semele, mother of Dionysus, was said to have been raised from the underworld by her son; Hercules' capture of Cerberus was his last labour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "Pausanias rejects the myth on rational grounds: as a wife of Zeus, Semele would be immortal in his view, so could not have died.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Ardalus is credited with inventing the flute; the epithet Ardalian for the Muses derives from his name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Orestes killed his mother Clytemnestra to avenge Agamemnon; Trœzen claimed to have purified him of the murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The Trœzenians had abandoned their city when Xerxes invaded Greece in 480 BC, and later returned free.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Harpagus was the Persian general who conquered the Ionian Greek cities for Cyrus in the 540s BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Refers to the Athenian evacuation before Xerxes' Persian invasion of 480 BC; 'the Mede' is a common Greek term for the Persians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "'Cleared of his mother's blood' means ritually purified of the pollution of murdering his mother Clytemnestra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "'Expiations' are the materials or offerings used in purification rites, which were buried afterwards.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Pegasus, the winged horse, struck Mount Helicon with his hoof and made the Boeotian Hippocrene spring; Bellerophon, who tamed him, was exiled from Corinth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "'Polygius' is an epithet of Hermes; its exact meaning is uncertain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "word",
+    "text": "Chrysorrhoe is Greek for 'golden stream', which the author glosses in italics.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Artemis, goddess of hunting and wild places, was often worshipped as a protector, hence the title Saviour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Pittheus was legendary king of Trœzen and grandfather of Theseus, famed for wisdom and judgment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Hippolytus, son of Theseus and an Amazon, was a devotee of Artemis and was honoured at Trœzen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "The Dioscuri are Castor and Pollux, twin sons of Zeus, widely worshipped in Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Orestes killed his mother Clytemnestra to avenge his father Agamemnon, and was pursued by the Furies until purified.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Hercules is famed for his club; wild olive was sacred and used for victors' crowns at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Zeus Soter means Zeus the Saviour, a common cult title.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "Characterization",
+    "text": "Pausanias reveals himself as a pious, reflective guide, ranking Theseus' deeds by providence rather than mere strength.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Narrative voice",
+    "text": "The candid admission of ignorance gives the narrator an honest, scholarly tone that encourages the reader's trust.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "narrative voice",
+    "text": "The parenthetical '(believe it who will)' shows Pausanias' skeptical, personal voice as he reports a local marvel without vouching for it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "symbolism",
+    "text": "The unfailing river, golden in name, symbolizes the city's divine favor and endurance through a long drought.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,536 @@
+{
+ "section_id": "pausanias-body-41",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10475,
+  "output": 4576
+ },
+ "result": {
+  "summary": "Pausanias tours Megara, visiting the tombs and shrines of Alcmene, Hyllus, Pandion, Hippolyta and Tereus. He records local legends, such as Alcathous killing the lion of Cithaeron, and criticizes Megarian claims that conflict with older poets and the historical record.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Tombs of Alcmene and Hyllus",
+    "summary": "Pausanias describes Alcmene's tomb, the burial dispute settled by Apollo, the place called Rhun, and the monument of Hyllus.",
+    "stakes": "",
+    "present": [
+     "Alcmene",
+     "Apollo",
+     "Hyllus",
+     "Echemus",
+     "Theagenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Megara",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9936,
+     "lon": 23.3469
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 21,
+    "title": "Temple of Apollo and Artemis",
+    "summary": "The Megarians say Alcathous killed the Cithaeron lion and built the temple. Pausanias disputes their account of Timalcus and Theseus, and of Alcathous's rise.",
+    "stakes": "Megarians were being devoured by the lion; the kingdom and a bride were promised to its slayer.",
+    "present": [
+     "Alcathous",
+     "Megareus",
+     "Euippus",
+     "Timalcus",
+     "Theseus",
+     "Castor",
+     "Pollux",
+     "Nisus",
+     "Apollo",
+     "Artemis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Megara",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9936,
+     "lon": 23.3469
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 27,
+    "title": "Shrines of Pandion and Hippolyta",
+    "summary": "Pausanias notes Pandion's hero-chapel and the tomb of Hippolyta, who fled to Megara after the Amazons' defeat by Theseus and died of grief.",
+    "stakes": "Hippolyta and the Amazons face defeat and being unable to return home.",
+    "present": [
+     "Pandion",
+     "Hippolyta",
+     "Antiope",
+     "Theseus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Megara",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9936,
+     "lon": 23.3469
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 33,
+    "title": "Tomb of Tereus",
+    "summary": "Pausanias gives the Tereus story, his suicide at Megara, his annual sacrifices, and the transformation of Procne and Philomela into birds.",
+    "stakes": "Tereus loses his kingdom and life after his crime against Philomela.",
+    "present": [
+     "Tereus",
+     "Procne",
+     "Philomela",
+     "Itys",
+     "Pandion"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Megara",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9936,
+     "lon": 23.3469
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Alcmene",
+    "aliases": [
+     "Alcmena"
+    ],
+    "kind": "mortal",
+    "description": "mother of Hercules, died at Megara"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero whose sons are mentioned"
+   },
+   {
+    "name": "Hyllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hercules, buried at Megara"
+   },
+   {
+    "name": "Echemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian who fought Hyllus"
+   },
+   {
+    "name": "Aeropus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Echemus"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Hunter Apollo"
+    ],
+    "kind": "god",
+    "description": "god of Delphi and Megarian temple"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Huntress Artemis"
+    ],
+    "kind": "goddess",
+    "description": "goddess honored in Megarian temple"
+   },
+   {
+    "name": "Theagenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who diverted the water"
+   },
+   {
+    "name": "Alcathous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Pelops, slew the lion and became king"
+   },
+   {
+    "name": "Megareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Megara, father of Euippus"
+   },
+   {
+    "name": "Euippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king's son devoured by the lion"
+   },
+   {
+    "name": "Timalcus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "elder son of Megareus"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian hero"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the Dioscuri"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the Dioscuri"
+   },
+   {
+    "name": "Nisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "earlier king of Megara"
+   },
+   {
+    "name": "Pandion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian king honored at Megara"
+   },
+   {
+    "name": "Hippolyta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Amazon leader who died at Megara"
+   },
+   {
+    "name": "Antiope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Amazon, sister of Hippolyta"
+   },
+   {
+    "name": "Tereus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who wronged Philomela"
+   },
+   {
+    "name": "Procne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Pandion, wife of Tereus"
+   },
+   {
+    "name": "Philomela",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wronged by Tereus"
+   },
+   {
+    "name": "Itys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "murdered by Procne and Philomela"
+   },
+   {
+    "name": "Pirithous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "friend of Theseus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Alcmene",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "outside",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Hyllus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Aeropus",
+    "relation": "parent_of",
+    "b": "Echemus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Megareus",
+    "relation": "parent_of",
+    "b": "Euippus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Megareus",
+    "relation": "parent_of",
+    "b": "Timalcus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Procne",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Tereus",
+    "relation": "spouse_of",
+    "b": "Procne",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Hippolyta",
+    "relation": "sibling_of",
+    "b": "Antiope",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Procne",
+    "relation": "transformed_into",
+    "b": "nightingale",
+    "source": "text",
+    "evidence_sentence": 33
+   },
+   {
+    "a": "Philomela",
+    "relation": "transformed_into",
+    "b": "swallow",
+    "source": "text",
+    "evidence_sentence": 33
+   },
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Philomela",
+    "source": "outside",
+    "evidence_sentence": 30
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Alcmena",
+    "canonical": "Alcmene",
+    "explanation": "Variant spelling of the same name in this translation."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 33,
+    "reason": "Pausanias rationalizes the myth of the bird transformations as reflecting the birds' mournful song.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias tests local legends against earlier poets and logic, showing his critical attitude toward civic myth-making.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Megarian traditions flattered civic pride, such as hiding that the city was once captured, and Pausanias exposes this.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Tereus, Procne and Philomela myth was retold by Ovid in the Metamorphoses and inspired later literary treatments."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes that the Megarians sacrificed to Tereus using pebbles instead of barley.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Sepulchre means tomb. The Olympieum is the temple of Olympian Zeus (Jove) at Megara.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Interpreter of national Antiquities\" is the local guide (exegete) who explained the city's monuments to visitors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "Rhun is the Greek word for \"flow\"; the place name is explained by the stream that once ran there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Refers to the Heraclidae's return to the Peloponnese, the descendants of Hercules seeking their ancestral claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Castor and Pollux (the Dioscuri) invaded Attica to rescue their sister Helen, whom Theseus had carried off, and took Aphidna and Theseus' mother Aethra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Pirithous and Theseus went to the underworld to seize Proserpine (Persephone) as Pirithous' bride.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "Pausanias sarcastically says the genealogist exploited Megarian gullibility, as Theseus was descended from Pelops and so related to Alcathous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Alcathous is said to have rebuilt Megara's walls, which tradition says the Cretans of Minos had destroyed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "A hero-chapel (heroon) is a small shrine where a dead hero received cult honours, not worship as a full god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "\"As I have already shewn\" refers to Pausanias's earlier mention of Pandion's burial on the rock of Athene the Diver, a headland near Megara.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Antiope was an Amazon taken or won by Theseus; the Amazons' attack on Athens was avenged by his victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"Proofs of what I state\" means surviving evidence Pausanias claims for Tereus ruling Daulis in Phocis, not Pagæ.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "Pebbles replace barley because barley grains were normally sprinkled on sacrificial victims; the substitution is an unusual local rite.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "In myth Tereus was changed into a hoopoe, so the bird's first appearance here hints at his transformation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "Versions differ on who became which bird; here Procne and Philomela become the nightingale and swallow.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Alcmene was Hercules' mother. Megara was Hercules' wife, and Amphitryon was Alcmene's husband and Hercules' mortal stepfather.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Apollo's oracle at Delphi was the usual authority for settling disputes and ritual questions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Isis was an Egyptian goddess whose cult spread widely through the Greek world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Alcathous was a son of Pelops, who came from Elis; Pelops gave his name to the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Themiscyra was the Amazons' legendary homeland on the Thermodon river, on the Black Sea coast of Asia Minor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Tereus, Procne and Philomela: Tereus wronged Philomela, Procne's sister; the sisters killed his son Itys in revenge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Pausanias often rationalises myth; here he disputes the Megarian claim and places Tereus in Daulis, in central Greece.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 13,
+    "device": "rhetorical question",
+    "text": "Pausanias challenges the Megarian tale by asking who ever recorded it, showing his critical, source-minded historian's voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "irony",
+    "text": "The remark on Megarian \"simplicity\" gently mocks their credulity while criticizing the genealogist.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "Pathos",
+    "text": "Her death of grief and despair after defeat, far from home, makes the long sentence a sorrowful end for a warrior queen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "Symbolism",
+    "text": "The Amazon's shield on the tomb stands for Hippolyta's identity as a warrior, marking her grave.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "Rationalism",
+    "text": "Pausanias dismisses the metamorphosis as a poetic explanation from the birds' mournful song, showing his skeptical narrative voice.",
+    "spoiler": false
+   }
+  ]
+ }
+}

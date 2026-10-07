@@ -1,0 +1,355 @@
+{
+ "section_id": "pausanias-body-268",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7429,
+  "output": 2913
+ },
+ "result": {
+  "summary": "Pausanias describes the road from Megalopolis toward Pallantium and Tegea, listing towns, ruins and temples. He notes the sources of the Alpheus and Eurotas, the sanctuaries of Pallantium, and the Tegean legend of Ares, Aerope and the god Aphneus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "Road from Megalopolis to the Mound",
+    "summary": "Pausanias lists places along the road: Ladocea, Hæmoniæ, Oresthasium, Asea, and the sources of the Alpheus and Eurotas. He mentions Mount Boreum and the Mound boundary.",
+    "stakes": "",
+    "present": [
+     "Ladocus",
+     "Echemus",
+     "Hæmon",
+     "Lycaon",
+     "Odysseus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Road from Megalopolis to Tegea",
+     "modern_name": "Arcadia, near Megalopoli",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 15,
+    "title": "Pallantium and the Pure gods",
+    "summary": "Pausanias describes the temples and statues of Pallantium and the secret gods called Pure.",
+    "stakes": "",
+    "present": [
+     "Pallas",
+     "Evander",
+     "Proserpine",
+     "Demeter",
+     "Polybius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pallantium",
+     "modern_name": "Palaiopyrgos near Tripoli, Arcadia",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 19,
+    "title": "Manthuric plain and Aphneus",
+    "summary": "Near Tegea, the Tegeans tell how Ares fathered a child by the dying Aerope, giving rise to the name Aphneus. The Leuconius well is also noted.",
+    "stakes": "Aerope dies in childbirth.",
+    "present": [
+     "Ares",
+     "Aerope",
+     "Cepheus",
+     "Aleus",
+     "Aeropus",
+     "Leucone",
+     "Aphidas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Manthuric plain, Tegea",
+     "modern_name": "near Tegea, Arcadia",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.42
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ladocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Echemus, namesake of Ladocea"
+   },
+   {
+    "name": "Echemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Ladocus"
+   },
+   {
+    "name": "Hæmon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycaon, founder of Hæmoniæ"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hæmon"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have built a temple on Mount Boreum"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian whose father sacrificed to Lycæan Zeus"
+   },
+   {
+    "name": "Evander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "honored with a statue at Pallantium"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Demeter"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Proserpine"
+   },
+   {
+    "name": "Polybius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "has a statue at Pallantium"
+   },
+   {
+    "name": "Ares",
+    "aliases": [
+     "Aphneus"
+    ],
+    "kind": "god",
+    "description": "father of Aeropus by Aerope"
+   },
+   {
+    "name": "Aerope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Cepheus, died in childbirth"
+   },
+   {
+    "name": "Cepheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aleus, father of Aerope"
+   },
+   {
+    "name": "Aleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cepheus"
+   },
+   {
+    "name": "Aeropus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boy who nursed from his dead mother"
+   },
+   {
+    "name": "Leucone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Aphidas, for whom the well is named"
+   },
+   {
+    "name": "Aphidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Leucone"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Echemus",
+    "relation": "parent_of",
+    "b": "Ladocus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Hæmon",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Proserpine",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Cepheus",
+    "relation": "parent_of",
+    "b": "Aerope",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Aleus",
+    "relation": "parent_of",
+    "b": "Cepheus",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Ares",
+    "relation": "lover_of",
+    "b": "Aerope",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Ares",
+    "relation": "parent_of",
+    "b": "Aeropus",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Aerope",
+    "relation": "parent_of",
+    "b": "Aeropus",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Aphidas",
+    "relation": "parent_of",
+    "b": "Leucone",
+    "source": "text",
+    "evidence_sentence": 19
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Aphneus",
+    "canonical": "Ares",
+    "explanation": "Tegeans gave Ares this title because of the plentiful milk the dead Aerope supplied."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 18,
+    "reason": "Memorable Tegean legend of a baby nursing from his dead mother.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage is a typical travel itinerary, tying places to myths, founders and cults.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The secret names of the Pure gods show reverent religious reticence in Arcadian cult, with oaths held especially binding.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The sources of the Alpheus and Eurotas lie close together, and Pausanias repeats the ancient belief that the rivers join underground.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "The Mound (Greek Chōma) is a raised embankment marking the boundary between Arcadian territories; the text uses it as a landmark.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–200 metres, so 20 stades is about four kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Rivers disappearing underground and reappearing elsewhere was a common Greek belief, here explaining the Eurotas and Alpheus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Odysseus' return from Ilium (Troy) is the subject of Homer's Odyssey; this local tradition places his wanderings in Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "'Pure' is explained by Pausanias as a guess: these gods received different sacrifices from the human-style offerings made to Lycæan Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "Aphneus is explained as derived from the Greek word for 'plentiful', referring to the abundant milk; the etymology is the Tegeans' own.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 7,
+    "text": "The Mother of the Gods is Rhea or Cybele, often shown with lions as her attendants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Evander, according to tradition, left Pallantium in Arcadia and settled the site of Rome, naming the Palatine hill after his home town.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Oaths sworn by nameless or secret gods carried special religious weight, which is why the Pure gods' oaths were feared.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 14,
+    "device": "characterization",
+    "text": "The narrator shows the locals' religious reticence and his own respectful restraint about secret cult matters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "aetiology",
+    "text": "The story explains a divine title and a boy's name through a marvelous legend, typical of Pausanias' local traditions.",
+    "spoiler": false
+   }
+  ]
+ }
+}

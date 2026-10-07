@@ -1,0 +1,862 @@
+{
+ "section_id": "aeschylus-body-1",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 25361,
+  "output": 7897
+ },
+ "result": {
+  "summary": "After an argument summarizing the whole play, a watchman on the palace roof at Argos sees the beacon announcing Troy's fall. The Chorus of Elders recalls the omen of the eagles and the sacrifice of Iphigenia, then Clytaemestra tells them Troy has fallen and describes the chain of beacons.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 20,
+    "title": "Setting and Argument",
+    "summary": "Stage details and a summary of the myth and of the play's plot, from Helen's flight to the murder of Agamemnon.",
+    "stakes": "",
+    "present": [
+     "Agamemnon",
+     "Clytaemestra",
+     "Aegisthus",
+     "Calchas",
+     "Iphigenia",
+     "Cassandra",
+     "Orestes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 38,
+    "title": "The Watchman Sees the Beacon",
+    "summary": "The watchman, weary after a year's watch, sees the fire from Troy and hails it, hinting darkly at troubles in the house.",
+    "stakes": "His fear for the troubled house and for his own safety if he speaks.",
+    "present": [
+     "Watchman",
+     "Clytaemestra",
+     "Agamemnon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Palace of Agamemnon at Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 39,
+    "end_sentence": 86,
+    "title": "The Elders Recall Aulis",
+    "summary": "The Chorus recalls the army's departure, the eagle omen, Calchas' prophecy, and Agamemnon's sacrifice of Iphigenia at Aulis.",
+    "stakes": "Agamemnon must choose between his daughter's life and the fleet and the war.",
+    "present": [
+     "Chorus",
+     "Calchas",
+     "Agamemnon",
+     "Menelaüs",
+     "Iphigenia",
+     "Artemis",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Aulis",
+     "modern_name": "Aulis, Boeotia, Greece",
+     "certainty": "real",
+     "lat": 38.42,
+     "lon": 23.6
+    }
+   },
+   {
+    "start_sentence": 87,
+    "end_sentence": 148,
+    "title": "Clytaemestra Announces Troy's Fall",
+    "summary": "Clytaemestra tells the Elders that Troy has fallen, proving it by the relay of beacon fires, and imagines the conquered city.",
+    "stakes": "The Elders' doubt; the army risks divine anger if it offends the gods of Troy.",
+    "present": [
+     "Clytaemestra",
+     "Chorus",
+     "Hephaestus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos, Greece",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Argos, leader of the Greek host at Troy"
+   },
+   {
+    "name": "Menelaüs",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Agamemnon's brother, king, husband of Helen"
+   },
+   {
+    "name": "Clytaemestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Queen of Argos, Agamemnon's wife, plotting his death"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Menelaüs who fled to Troy with Paris"
+   },
+   {
+    "name": "Paris",
+    "aliases": [
+     "Alexander"
+    ],
+    "kind": "mortal",
+    "description": "Trojan prince who took Helen"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Troy"
+   },
+   {
+    "name": "Calchas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Seer of the Greek host"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess angered by the eagles' killing of the hare"
+   },
+   {
+    "name": "Iphigenia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Agamemnon's daughter, sacrificed at Aulis"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Chief god, guardian of guest and host"
+   },
+   {
+    "name": "Tyndareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mortal father of Clytaemestra"
+   },
+   {
+    "name": "Leda",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Clytaemestra and Helen"
+   },
+   {
+    "name": "Aegisthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Clytaemestra's lover, son of Thyestes"
+   },
+   {
+    "name": "Thyestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Atreus's brother, fed his own sons"
+   },
+   {
+    "name": "Atreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Agamemnon and Menelaüs"
+   },
+   {
+    "name": "Cassandra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Priam's daughter, Agamemnon's captive"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Agamemnon's son, future avenger"
+   },
+   {
+    "name": "Watchman",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Servant watching for the beacon"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [
+     "Elders"
+    ],
+    "kind": "mortal",
+    "description": "Aged Argive men"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of fire, named as the beacon's messenger"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Atreus",
+    "relation": "parent_of",
+    "b": "Agamemnon",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Atreus",
+    "relation": "parent_of",
+    "b": "Menelaüs",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "sibling_of",
+    "b": "Menelaüs",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "spouse_of",
+    "b": "Clytaemestra",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Iphigenia",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "parent_of",
+    "b": "Iphigenia",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Leda",
+    "relation": "parent_of",
+    "b": "Clytaemestra",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "sibling_of",
+    "b": "Helen",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Thyestes",
+    "relation": "parent_of",
+    "b": "Aegisthus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Atreus",
+    "relation": "sibling_of",
+    "b": "Thyestes",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Menelaüs",
+    "relation": "spouse_of",
+    "b": "Helen",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "lover_of",
+    "b": "Aegisthus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Helen",
+    "relation": "lover_of",
+    "b": "Paris",
+    "source": "outside",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Priam",
+    "relation": "parent_of",
+    "b": "Paris",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Priam",
+    "relation": "parent_of",
+    "b": "Cassandra",
+    "source": "text",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Alexander",
+    "canonical": "Paris",
+    "explanation": "Paris's other name, used by the Chorus."
+   },
+   {
+    "alias": "Atreidae",
+    "canonical": "Atreus",
+    "explanation": "Patronymic for Atreus's sons, Agamemnon and Menelaüs."
+   },
+   {
+    "alias": "Danaans",
+    "canonical": "Chorus",
+    "explanation": "A name for the Greeks, along with Argives and Achaeans."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 68,
+    "reason": "Zeus ordains that wisdom comes through suffering, a central principle of the Oresteia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "reason": "The watchman's 'great ox on my tongue' became proverbial for enforced silence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 91,
+    "reason": "Clytaemestra's image of morning born from night, announcing joy.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The opening joins victory with inherited guilt: Troy's fall is shadowed by Iphigenia's sacrifice and the curse on Atreus's house.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The play was staged in 458 B.C. at the City Dionysia, as the first part of the Oresteia trilogy.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The phrase 'wisdom through suffering' from this play is often quoted, and the Oresteia influenced later tragedy, including Eugene O'Neill's Mourning Becomes Electra (1931)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The beacon chain Clytaemestra describes runs from Mount Ida in Asia Minor across the Aegean to Argos, a distance of several hundred miles.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Two-throned\" renders the idea that Agamemnon and Menelaüs shared royal power; \"Troyland\" means the land of Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Paris broke the sacred law of hospitality by stealing Helen from his host Menelaüs; Zeus protected guests and hosts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The eagles devouring a pregnant hare are the omen at the start of the play's story; the hare stands for Troy, and it also hints at Artemis's anger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Wroth\" means angry; \"adverse winds\" are winds blowing against the fleet, preventing sailing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Albeit in darkling words\" means although in obscure, riddling language; \"spake unto\" and \"thou wilt\" are archaic forms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Atreus served Thyestes his own sons' flesh in revenge for adultery with Atreus's wife; this is the curse on the house of Atreus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Urgence\" means urging or insistence; \"bespeaks\" means asks for in advance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "\"Couchant\" means lying down with head raised, as a watchful animal does; here the watchman crouches like a dog.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "\"Atreidae\" are the sons of Atreus, Agamemnon and Menelaus; the palace is their family seat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "\"Sanguine\" here means hopeful and ardent, as the Queen's heart is bold and expectant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "A \"stave\" is a verse or stanza of a song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "allusion",
+    "text": "Refers to dice: three sixes was the best throw. The watchman counts his master's victory as his own good luck.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "\"A great ox stands upon my tongue\" was a Greek proverb for enforced silence, perhaps from an ox-stamped coin; he dare not speak.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "word",
+    "text": "Argives, Danaans, Achaeans and Hellas's people are all names for the Greeks. Priam's 'adversary' is Menelaüs; the 'twain' are the brothers Agamemnon and Menelaüs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "allusion",
+    "text": "Alexander is another name for Paris, the Trojan prince who took Helen, the 'woman of many a lord', from Menelaüs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "kind": "phrasing",
+    "text": "The old men lean on staves; 'triple feet' in 47 alludes to the riddle of the Sphinx: two feet, then three in old age.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "allusion",
+    "text": "The two eagles, one black and one white-tailed, stand for Agamemnon and Menelaüs; the pregnant hare stands for Troy and its people.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "kind": "allusion",
+    "text": "Artemis protects young creatures and is angry at Zeus's eagles, 'winged hounds of her sire', for killing a pregnant hare.",
+    "spoiler": false
+   },
+   {
+    "sentence": 62,
+    "kind": "phrasing",
+    "text": "'Another sacrifice' hints at Iphigenia. Calchas fears Artemis will send contrary winds to demand it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "kind": "phrasing",
+    "text": "'Wisdom cometh by suffering' is the play's central maxim: Zeus ordains that learning comes through pain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "kind": "phrasing",
+    "text": "'Donned the yoke of Necessity' means Agamemnon submitted to compulsion; his mind turned toward the unholy deed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "kind": "word",
+    "text": "The 'bit' is a gag placed on her mouth so she cannot utter a curse on his house.",
+    "spoiler": false
+   },
+   {
+    "sentence": 87,
+    "kind": "phrasing",
+    "text": "The Chorus addresses Clytaemestra indirectly, wishing good outcome 'as is the wish' of the land's sole guardian, meaning her, the one nearest the absent king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 87,
+    "kind": "allusion",
+    "text": "'Apian land' is an old name for the Argolid or Peloponnese, said to come from Apis, a legendary seer; here it means Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 88,
+    "kind": "word",
+    "text": "'Tenantless' means unoccupied; Agamemnon's throne is empty because he is away at Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 89,
+    "kind": "word",
+    "text": "'Fain' means gladly or willingly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 91,
+    "kind": "allusion",
+    "text": "The proverb says dawn is born of night, meaning good fortune can follow darkness. Here it points to the beacon fires that burned through the night.",
+    "spoiler": false
+   },
+   {
+    "sentence": 92,
+    "kind": "word",
+    "text": "'Argives' is a name for the Greeks, here the Greek army, taken from Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "kind": "word",
+    "text": "'Achaeans' is another Homeric name for the Greeks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "kind": "phrasing",
+    "text": "She means that the Elders' tears show their loyalty to the king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "kind": "word",
+    "text": "'Floutest' means mockest or treatest with scorn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 119,
+    "kind": "phrasing",
+    "text": "Answers the Chorus's unseen question about when Troy fell: in the night just ended, whose birth is the sunrise. The 'yonder sun' is the dawn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 123,
+    "kind": "allusion",
+    "text": "Hephaestus is the god of fire; here he stands for the beacon flame itself, which began on Mount Ida near Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 124,
+    "kind": "word",
+    "text": "'Scaur' means a steep cliff or rocky height; 'main' is the open sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 128,
+    "kind": "word",
+    "text": "'O'erleaped' means leaped over. The beacon crosses the plain of Asopus in Boeotia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 131,
+    "kind": "phrasing",
+    "text": "'Not undescended from the Idaean flame' means this fire is truly descended from the first beacon on Ida, though it looks new.",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "kind": "allusion",
+    "text": "Alludes to the Greek torch-race, in which teams passed a flame along and the last runner's team won.",
+    "spoiler": false
+   },
+   {
+    "sentence": 135,
+    "kind": "word",
+    "text": "'Anon' means soon; 'fain' in the next line means gladly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 140,
+    "kind": "word",
+    "text": "A 'cruse' is a small jar. Oil and vinegar do not mix, like the cries of victors and vanquished.",
+    "spoiler": false
+   },
+   {
+    "sentence": 145,
+    "kind": "phrasing",
+    "text": "The 'double course' refers to the racecourse, which ran out and back. The army must make the return journey safely.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "The play was first performed in 458 B.C. at the City Dionysia, Athens's great festival, as part of the Oresteia trilogy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Clytaemestra was Helen's half-sister: Tyndareus was Clytaemestra's father, while Zeus fathered Helen, according to the myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Beacon-fires on mountaintops were a relay signal system, carrying news from Troy to Argos swiftly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "The Chorus of Elders is a group of old Argive men who comment on the action throughout the play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Orestes is the son of Agamemnon and Clytaemestra, and he later avenges his father in the following play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Beacon fires were relayed from mountain to mountain across the Aegean to carry word of Troy's fall to Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "The Queen is Clytemnestra, who rules Argos in her husband Agamemnon's long absence at the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "text": "The Trojan War has lasted ten years. The elders of Argos, too old to fight, form the Chorus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "text": "Clytaemestra is Agamemnon's queen, ruling Argos in his absence. She has ordered sacrifices throughout the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "text": "At Aulis the Greek fleet was held by contrary winds. Calchas, the army's seer, said Artemis demanded Agamemnon's daughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 81,
+    "text": "Iphigenia had sung at her father's banquets, at the third libation, which was offered to Zeus the Saviour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 88,
+    "text": "Clytaemestra rules Argos while Agamemnon is at Troy. Her royal authority is real, though the Elders remain uneasy about it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 92,
+    "text": "Priam was king of Troy. The Greeks had besieged the city for ten years to recover Helen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 109,
+    "text": "Dreams were commonly believed to carry messages from the gods, so the Elders ask whether her news rests on one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 124,
+    "text": "The beacon chain crossed the Aegean from Troy via Lemnos and Athos to Mount Arachnaeus near Argos, about 500 miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 131,
+    "text": "The Atreidae are the sons of Atreus, Agamemnon and Menelaus. Their palace at Argos is where the speaker stands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 143,
+    "text": "Greeks believed that sacking temples and offending the local gods would bring divine punishment on the conquerors.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "symbolism",
+    "text": "The eagles and the hare stand for the kings and Troy, an omen turning animals into political meaning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "motif",
+    "text": "The inherited curse and cycle of revenge in the house of Atreus recurs through the trilogy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "foreshadowing",
+    "text": "The Elders' warning about Orestes anticipates the vengeance that drives the next plays.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "simile",
+    "text": "The watchman likens himself to a hound lying on the roof, conveying his animal-like, lowly and patient vigil.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "characterization",
+    "text": "Calling the Queen woman in heart but man in purpose introduces Clytemnestra's formidable, unsettling authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "foreshadowing",
+    "text": "His tears for the house's fortunes, \"not ordered for the best,\" hint at the coming crimes within the family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "apostrophe",
+    "text": "He addresses the beacon directly as if it could hear, expressing his sudden joy and relief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "personification",
+    "text": "The house itself might speak and tell a tale, suggesting dark secrets and a guilt he dare not name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "simile",
+    "text": "The Greek battle-cry is compared to grieving eagles whose nest was robbed, casting the Atreidae as wronged parents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "metaphor",
+    "text": "Old age is a withering tree and 'a dream that is dreamed by day', conveying the elders' frailty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 55,
+    "device": "refrain",
+    "text": "The repeated cry of woe, hoping the good will prevail, sets a tone of dread and foreshadows the coming disaster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "device": "foreshadowing",
+    "text": "The 'wrath that exacteth vengeance for a child' points ahead to Clytaemestra's murder of Agamemnon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 80,
+    "device": "simile",
+    "text": "Iphigenia is lifted 'as it were a kid', stressing her helplessness and turning human sacrifice into animal slaughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 81,
+    "device": "imagery",
+    "text": "Her silent glance, 'as in a picture', makes the scene vivid and pitiable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 82,
+    "device": "narrative voice",
+    "text": "The Chorus breaks off abruptly, and this silence about the killing makes the horror more powerful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 91,
+    "device": "personification",
+    "text": "Morn is imagined as a daughter born of her mother Night, which turns the proverb into a sign of hope.",
+    "spoiler": false
+   },
+   {
+    "sentence": 100,
+    "device": "paradox",
+    "text": "Joy 'giving challenge to my tears' joins gladness and grief in one feeling, showing the Elders' disbelief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 115,
+    "device": "characterization",
+    "text": "Her sharp retort shows Clytaemestra as proud and impatient, unwilling to be doubted.",
+    "spoiler": false
+   },
+   {
+    "sentence": 124,
+    "device": "personification",
+    "text": "The flame 'travelling joyously' in 'its strength' is given a living will, as though the fire itself were a joyful messenger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 128,
+    "device": "simile",
+    "text": "The flame is likened to a radiant moon leaping the plain, giving the relay a grand, cosmic scale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "device": "metaphor",
+    "text": "Describing the beacons as a torch-race with a victor turns the signal chain into a contest, showing Clytaemestra's control of the arrangement.",
+    "spoiler": false
+   },
+   {
+    "sentence": 140,
+    "device": "simile",
+    "text": "The image of oil and vinegar in one jar makes the sounds of Troy's two groups, victors and vanquished, vivid and domestic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 143,
+    "device": "foreshadowing",
+    "text": "The warning that conquerors may become captives hints at the Greeks' troubled return and Agamemnon's own fate.",
+    "spoiler": false
+   }
+  ]
+ }
+}

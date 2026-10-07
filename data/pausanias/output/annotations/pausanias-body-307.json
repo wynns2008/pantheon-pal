@@ -1,0 +1,363 @@
+{
+ "section_id": "pausanias-body-307",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8025,
+  "output": 2977
+ },
+ "result": {
+  "summary": "Pausanias describes the Muses' sanctuary on Helicon. He discusses who first honoured the Muses, how their number and names changed, and the spring Aganippe and the statues of Eupheme and Linus, with various traditions about Linus's death and burial.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Origins of the Muses' cult",
+    "summary": "Pausanias reports that Ephialtes and Otus founded the cult and Ascra, and that Pierus later changed the number and names of the Muses. Various poets' views on their parentage are given.",
+    "stakes": "",
+    "present": [
+     "Ephialtes",
+     "Otus",
+     "Poseidon",
+     "Pierus",
+     "Mimnermus",
+     "Hegesinous",
+     "Callippus",
+     "Oeoclus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ascra, Helicon",
+     "modern_name": "Helicon (Mount Zagara), Boeotia",
+     "certainty": "real",
+     "lat": 38.3,
+     "lon": 23.0
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 21,
+    "title": "Aganippe, Eupheme and Linus",
+    "summary": "Pausanias walks the road to the grove of the Muses, noting the spring Aganippe and the statues of Eupheme and Linus. He relates traditions of Linus's death, laments, and burial.",
+    "stakes": "Linus is killed by Apollo for boasting himself equal to the god.",
+    "present": [
+     "Aganippe",
+     "Termesus",
+     "Eupheme",
+     "Linus",
+     "Apollo",
+     "Urania",
+     "Amphiaraus",
+     "Philip",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Helicon, grove of the Muses",
+     "modern_name": "Valley of the Muses, Helicon",
+     "certainty": "real",
+     "lat": 38.3,
+     "lon": 23.08
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ephialtes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aloeus, said to have first sacrificed to the Muses"
+   },
+   {
+    "name": "Otus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aloeus, co-founder of Ascra"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "earth-shaking god, father of Oeoclus"
+   },
+   {
+    "name": "Oeoclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Poseidon and Ascra, builder of Ascra"
+   },
+   {
+    "name": "Ascra",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "woman for whom the town was named, mother of Oeoclus"
+   },
+   {
+    "name": "Pierus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian who made the Muses nine"
+   },
+   {
+    "name": "Mimnermus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "elegiac poet"
+   },
+   {
+    "name": "Hegesinous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet quoted for Ascra"
+   },
+   {
+    "name": "Callippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian writer on Orchomenus"
+   },
+   {
+    "name": "Aganippe",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "spring on Helicon, daughter of Termesus"
+   },
+   {
+    "name": "Termesus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river flowing round Helicon"
+   },
+   {
+    "name": "Eupheme",
+    "aliases": [],
+    "kind": "other",
+    "description": "nurse of the Muses, with a stone image"
+   },
+   {
+    "name": "Linus",
+    "aliases": [
+     "Oetolinus",
+     "Maneros"
+    ],
+    "kind": "mortal",
+    "description": "famed musician killed by Apollo and mourned"
+   },
+   {
+    "name": "Urania",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Muse, mother of Linus"
+   },
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Linus in this account"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "slew Linus for his boasting"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amyntas, moved Linus's remains"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killed his music-master Linus"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who mentions Linus's song"
+   },
+   {
+    "name": "Pamphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early Athenian hymn writer"
+   },
+   {
+    "name": "Sappho",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lesbian poet"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Oeoclus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Poseidon",
+    "relation": "lover_of",
+    "b": "Ascra",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Urania",
+    "relation": "parent_of",
+    "b": "Linus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Amphiaraus",
+    "relation": "parent_of",
+    "b": "Linus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Amphiaraus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Termesus",
+    "relation": "parent_of",
+    "b": "Aganippe",
+    "source": "text",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Oetolinus",
+    "canonical": "Linus",
+    "explanation": "Pamphus's name meaning 'sad Linus'."
+   },
+   {
+    "alias": "Maneros",
+    "canonical": "Linus",
+    "explanation": "Egyptian dialect name of the Lament called Linus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Homer's famous image of the boy singing the song of Linus on Achilles' shield.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs competing traditions about the Muses and Linus, showing his habit of citing sources and doubting some.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows Greek cult sites collecting local legends, and how Greeks linked foreign laments like Egypt's Maneros to their own myths.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Linus lament and the Muses' spring Aganippe became poetic commonplaces in later Greek and Latin literature."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias admits he never read Hegesinous's poem, which was lost by his time, and relies on Callippus's quotations.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Ephialtes and Otus are the Aloeidae, giant sons of Aloeus (or Poseidon) in myth; the text later calls them 'sons of Aloeus'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Melete, Mneme and Aoide mean 'practice', 'memory' and 'song', the three original Muses' names.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Mimnermus was an Elegiac poet of Colophon; his Smyrneis told of Smyrna's war with Gyges of Lydia. Uranus is Heaven, Zeus's father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Maneros is the Egyptian dirge-song, which the Greeks equated with their Linus lament.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Œtolinus is formed from Greek oitos, 'woe', plus Linus, hence 'sad Linus'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Chæronea (338 BC) was where Philip of Macedon defeated the Greeks, ending their independence.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Poseidon is the sea god, called 'earth-shaking' because he was also god of earthquakes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Funeral rites for Linus before the Muses' sacrifice show his lament was part of the cult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Sappho of Lesbos was a famous poet of about 600 BC; Adonis was a beautiful youth mourned in ritual song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Hercules was said to have been taught music by Linus and to have killed him with a lyre in anger.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "epithet",
+    "text": "'Earth-shaking' and 'many-fountained' are Homeric-style compound epithets that characterize Poseidon and Helicon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "characterization",
+    "text": "Pausanias' aside praising the Thracians' cleverness and piety shows his interest in religion and his readiness to judge peoples.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "motif",
+    "text": "Lament as a recurring theme: Linus's death is tied to mourning songs across cultures, linking Greece and Egypt.",
+    "spoiler": false
+   }
+  ]
+ }
+}

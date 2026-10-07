@@ -1,0 +1,425 @@
+{
+ "section_id": "pausanias-body-220",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9845,
+  "output": 3589
+ },
+ "result": {
+  "summary": "Pausanias follows the Achaean coast, telling local legends of Selemnus and Argyra and of Bolina, and noting the promontory Drepanum. At Ægium he describes temples and statues, including Ilithyia's veiled statue by Damophon, and recounts a debate with a Sidonian over Æsculapius.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Coast legends: Selemnus, Bolina, Drepanum",
+    "summary": "Pausanias describes the rivers and ruins along the road and tells of Selemnus turned into a river, of Bolina, and of Cronos's sickle.",
+    "stakes": "Selemnus dies of unrequited love and loses his form; Bolina flees Apollo.",
+    "present": [
+     "Selemnus",
+     "Argyra",
+     "Aphrodite",
+     "Bolina",
+     "Apollo",
+     "Cronos",
+     "Uranus",
+     "Alpheus",
+     "Arethusa"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argyra and the Selemnus river",
+     "modern_name": "coast near Patras, Achaea",
+     "certainty": "traditional",
+     "lat": 38.17,
+     "lon": 21.9
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 12,
+    "title": "Rhypæ and the district of Ægium",
+    "summary": "Pausanias notes Rhypæ, nearby rivers and a portico built for the athlete Strato.",
+    "stakes": "",
+    "present": [
+     "Strato"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ægium",
+     "modern_name": "Aigio",
+     "certainty": "real",
+     "lat": 38.25,
+     "lon": 22.08
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 21,
+    "title": "Ilithyia, Æsculapius and the Sidonian",
+    "summary": "Pausanias describes the temples of Ilithyia and Æsculapius and argues with a Sidonian about Æsculapius being the air and Apollo the Sun.",
+    "stakes": "",
+    "present": [
+     "Ilithyia",
+     "Damophon",
+     "Æsculapius",
+     "Hygiea",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ægium",
+     "modern_name": "Aigio",
+     "certainty": "real",
+     "lat": 38.25,
+     "lon": 22.08
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 26,
+    "title": "Other temples and the Argive gods",
+    "summary": "Pausanias lists further temples and statues and tells how the Argive gods came to stay at Ægium.",
+    "stakes": "The Argives lose their statues because they cannot repay the sacrifice costs.",
+    "present": [
+     "Athene",
+     "Hera",
+     "Dionysus",
+     "Zeus",
+     "Poseidon",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ægium",
+     "modern_name": "Aigio",
+     "certainty": "real",
+     "lat": 38.25,
+     "lon": 22.08
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Selemnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "handsome shepherd turned into a river"
+   },
+   {
+    "name": "Argyra",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "sea-nymph who loved Selemnus"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "turned Selemnus into a river and gave him forgetfulness"
+   },
+   {
+    "name": "Bolina",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "maiden who fled Apollo and became immortal"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "loved Bolina; said to be father of Æsculapius"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "threw the sickle into the sea"
+   },
+   {
+    "name": "Uranus",
+    "aliases": [],
+    "kind": "god",
+    "description": "mutilated by his son Cronos"
+   },
+   {
+    "name": "Alpheus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river said to love Arethusa"
+   },
+   {
+    "name": "Arethusa",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "loved by Alpheus"
+   },
+   {
+    "name": "Strato",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "athlete who won pancratium and wrestling on one day"
+   },
+   {
+    "name": "Ilithyia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of childbirth with a veiled statue"
+   },
+   {
+    "name": "Damophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian sculptor"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of healing"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [
+     "Health"
+    ],
+    "kind": "goddess",
+    "description": "goddess of health with a statue"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Ægium"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose statue only priestesses may see"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "beardless statue near the theatre"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Zeus Soter"
+    ],
+    "kind": "god",
+    "description": "god with a precinct in the market-place"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "one of the Argive gods statues"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "one of the Argive gods statues"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Selemnus",
+    "relation": "transformed_into",
+    "b": "river",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Argyra",
+    "relation": "lover_of",
+    "b": "Selemnus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Æsculapius",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Cronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "outside",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Uranus",
+    "relation": "parent_of",
+    "b": "Cronos",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Health",
+    "canonical": "Hygiea",
+    "explanation": "At Titane the statue of Æsculapius was called Health."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 6,
+    "reason": "Pausanias's wry remark that a love-curing water would be worth more than great wealth.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local myths explain landscape features such as rivers and promontories, tying love, loss and divine power to place.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The debate with the Sidonian shows Greek and Phoenician religious ideas being compared and rationalised in Roman-era Greece.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Damophon of Messene, sculptor of the Ilithyia statue, was one of the few notable Greek sculptors of the Hellenistic period.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Alpheus, a river god, was said to love the spring nymph Arethusa and pursue her under the sea to Sicily, his waters mingling with hers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Cronos castrated his father Uranus (Heaven) with a sickle, according to the myth. Drepanum means 'sickle' in Greek.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "A stade was a Greek measure of about 600 feet (roughly 185 metres), so 30 stades is under four miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "The pancratium was a brutal combined event of boxing and wrestling, with very few rules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Ilithyia (Eileithyia) is the Greek goddess of childbirth. Pentelican marble comes from Mount Pentelicus near Athens and was prized for its whiteness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "The iambic line is a verse inscription in iambic metre carved on the statue base, naming the sculptor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "At Titane, near Sicyon, Æsculapius was worshipped under the name Health, which supports the idea that he is a power of the healthy air.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Athene's statues are of white stone, probably marble; Pausanias uses Athene and Hera as this translation's spellings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "Zeus Soter means Zeus the Saviour, a common cult title.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "\"Found out a trick\" means the people devised a scheme: they sacrificed as required but ate the victims themselves, at no cost.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Aphrodite is the goddess of love, so her turning the lovelorn youth into a river fits her domain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Winning both pancratium and wrestling on one day at Olympia was a rare feat; Pausanias treats Strato as a famous champion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Damophon of Messene was a noted sculptor of the second century BC, famed for cult statues in the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Hygiea (Health) was the daughter of Æsculapius, god of healing, and often shown beside him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Sidon was a Phœnician city. Pausanias reports a Phœnician view equating Æsculapius with healthful air and Apollo with the Sun.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Argos was a rival city, so statues held by Ægium as the \"Argive gods\" had a contested origin.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "pathos",
+    "text": "The phrase 'poor lad' invites sympathy for Selemnus, who is both abandoned and dying for love before his transformation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "hyperbole",
+    "text": "Pausanias wryly declares the river's water worth more than great wealth, a playful exaggeration that shows his skeptical, conditional voice ('if there is any truth').",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "symbolism",
+    "text": "The torch is read as a symbol of the fire-like pain of labour, showing Pausanias interpreting religious imagery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "characterization",
+    "text": "Pausanias appears as a courteous but firm debater, politely granting the point while asserting Greek priority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "irony",
+    "text": "The Ægians' cheap trick of feasting on the offerings ends with them keeping the statues, as the Argives cannot repay the costs.",
+    "spoiler": false
+   }
+  ]
+ }
+}

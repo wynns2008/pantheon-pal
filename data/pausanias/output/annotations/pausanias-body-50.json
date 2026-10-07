@@ -1,0 +1,610 @@
+{
+ "section_id": "pausanias-body-50",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9599,
+  "output": 4834
+ },
+ "result": {
+  "summary": "Epopeus becomes king of Sicyon and is drawn into war with Thebes over Antiope. After the deaths of Nycteus and Epopeus, Antiope is given up and bears her sons on the road. The chapter then traces the later kings of Sicyon down to the Dorian return.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "War over Antiope",
+    "summary": "Epopeus takes the throne and fights Thebes over Antiope. Nycteus and Epopeus both die of their wounds, and Lamedon surrenders Antiope.",
+    "stakes": "Epopeus risks his kingdom and life in a war over Antiope; Nycteus risks his life and his family's honour.",
+    "present": [
+     "Corax",
+     "Epopeus",
+     "Antiope",
+     "Nycteus",
+     "Lycus",
+     "Labdacus",
+     "Lamedon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ægialea",
+     "modern_name": "Sicyon, Peloponnese",
+     "certainty": "real",
+     "lat": 37.99,
+     "lon": 22.72
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 12,
+    "title": "Birth of Zethus and Amphion",
+    "summary": "Antiope gives birth near Eleutheræ on the way to Thebes. Pausanias cites Asius and Homer on the twins' parentage.",
+    "stakes": "",
+    "present": [
+     "Antiope",
+     "Zethus",
+     "Amphion",
+     "Asopus",
+     "Epopeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Eleutheræ",
+     "modern_name": "Eleutherai, near Mount Cithaeron",
+     "certainty": "real",
+     "lat": 38.15,
+     "lon": 23.4
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 24,
+    "title": "Kings of Sicyon",
+    "summary": "Sicyon gives his name to the land and city, and a list of later kings follows. It ends with the Dorian seizure of Sicyon.",
+    "stakes": "Kings risk losing their thrones to invasion, as when Agamemnon and the Dorians attack.",
+    "present": [
+     "Lamedon",
+     "Pheno",
+     "Sicyon",
+     "Zeuxippe",
+     "Chthonophyle",
+     "Polybus",
+     "Hermes",
+     "Phlias",
+     "Androdamas",
+     "Lysianassa",
+     "Talaus",
+     "Adrastus",
+     "Ianiscus",
+     "Phæstus",
+     "Zeuxippus",
+     "Syllis",
+     "Agamemnon",
+     "Hippolytus",
+     "Lacestades",
+     "Phalces"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sicyon",
+     "modern_name": "Sicyon, Peloponnese",
+     "certainty": "real",
+     "lat": 37.99,
+     "lon": 22.72
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Corax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Earlier king who died childless"
+   },
+   {
+    "name": "Epopeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King from Thessaly who took Antiope"
+   },
+   {
+    "name": "Antiope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Beautiful daughter of Nycteus"
+   },
+   {
+    "name": "Nycteus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban regent, wounded in the war"
+   },
+   {
+    "name": "Lycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Brother of Nycteus, new Theban ruler"
+   },
+   {
+    "name": "Labdacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Child heir of Thebes"
+   },
+   {
+    "name": "Polydorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Labdacus"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Builder of the Theban citadel"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "other",
+    "description": "River said to be Antiope's father"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess to whom Epopeus built a temple"
+   },
+   {
+    "name": "Lamedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Sicyon who gave up Antiope"
+   },
+   {
+    "name": "Coronus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Lamedon"
+   },
+   {
+    "name": "Zethus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Antiope"
+   },
+   {
+    "name": "Amphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Antiope"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Said by Asius to father the twins"
+   },
+   {
+    "name": "Asius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet quoted by Pausanias"
+   },
+   {
+    "name": "Pheno",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian wife of Lamedon"
+   },
+   {
+    "name": "Clytius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Pheno"
+   },
+   {
+    "name": "Sicyon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Became king and gave the city his name"
+   },
+   {
+    "name": "Zeuxippe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Lamedon, wife of Sicyon"
+   },
+   {
+    "name": "Chthonophyle",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Sicyon"
+   },
+   {
+    "name": "Polybus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Sicyon, son of Hermes"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Polybus"
+   },
+   {
+    "name": "Phlias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Dionysus, husband of Chthonophyle"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Phlias"
+   },
+   {
+    "name": "Androdamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Phlias and Chthonophyle"
+   },
+   {
+    "name": "Lysianassa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Polybus"
+   },
+   {
+    "name": "Talaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive king, son of Bias"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Exile who became king of Sicyon"
+   },
+   {
+    "name": "Ianiscus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who became king of Sicyon"
+   },
+   {
+    "name": "Phæstus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Reputed son of Hercules, king"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "Ancestor of Phæstus and Temenus's line"
+   },
+   {
+    "name": "Zeuxippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King, son of Apollo"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Zeuxippus"
+   },
+   {
+    "name": "Syllis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Mother of Zeuxippus"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Led an army against Sicyon"
+   },
+   {
+    "name": "Hippolytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King who submitted to Agamemnon"
+   },
+   {
+    "name": "Rhopalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Hippolytus"
+   },
+   {
+    "name": "Lacestades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Hippolytus"
+   },
+   {
+    "name": "Phalces",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Temenus who seized Sicyon"
+   },
+   {
+    "name": "Temenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Phalces"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Nycteus",
+    "relation": "parent_of",
+    "b": "Antiope",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Nycteus",
+    "relation": "sibling_of",
+    "b": "Lycus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Polydorus",
+    "relation": "parent_of",
+    "b": "Labdacus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Cadmus",
+    "relation": "parent_of",
+    "b": "Polydorus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Antiope",
+    "relation": "parent_of",
+    "b": "Zethus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Antiope",
+    "relation": "parent_of",
+    "b": "Amphion",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Amphion",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Lamedon",
+    "relation": "spouse_of",
+    "b": "Pheno",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Lamedon",
+    "relation": "parent_of",
+    "b": "Zeuxippe",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Sicyon",
+    "relation": "spouse_of",
+    "b": "Zeuxippe",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Sicyon",
+    "relation": "parent_of",
+    "b": "Chthonophyle",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Hermes",
+    "relation": "parent_of",
+    "b": "Polybus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Phlias",
+    "relation": "spouse_of",
+    "b": "Chthonophyle",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Polybus",
+    "relation": "parent_of",
+    "b": "Lysianassa",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Zeuxippus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Syllis",
+    "relation": "parent_of",
+    "b": "Zeuxippus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Hippolytus",
+    "relation": "parent_of",
+    "b": "Lacestades",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Temenus",
+    "relation": "parent_of",
+    "b": "Phalces",
+    "source": "text",
+    "evidence_sentence": 24
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias builds Sicyon's history from king lists and rival genealogies, showing how Greek cities tied their past to myth and heroes.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "He weighs Asius, Homer, Hesiod and Ibycus against each other, showing how local tradition and poetry were used as historical evidence.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Regent: one who rules on behalf of a child king until he is old enough to govern.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Ægialea is the old name of the region around Sicyon, in the northern Peloponnese, where Epopeus ruled.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Asius, an early epic poet, makes Antiope mother of the twins by two fathers, Zeus and Epopeus; Jove is the Roman name for Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Homer (Odyssey 11) says Zethus and Amphion founded Thebes and walled its lower city. Pausanias reconciles this with Cadmus's earlier city, the Cadmea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Ægialea\" is the older name of the coastal region, later Achaea; here it is the earlier name of the town and land before Sicyon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Asius was an early epic poet from Samos, often cited by Pausanias for genealogies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Hesiod and Ibycus are early Greek poets, cited by Pausanias as rival authorities on Sicyon's parentage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Adrastus fled Argos after a civil conflict; his later restoration and the war of the Seven against Thebes belong to his legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "\"Migrated to Crete in accordance with an oracle\" means he left Sicyon to settle there because a god's pronouncement directed it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "The Dorians' arrival is the \"Return of the Heraclidae\": Hercules' descendants reclaimed the Peloponnese, which explains the leniency shown to Lacestades.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Asopus was a river god. A rumour of divine parentage was a common Greek way of explaining exceptional beauty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Eleutheræ lay on the border between Boeotia and Attica, on the road to Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Sicyon was a city-state west of Corinth. Its kings are given mixed Attic and Argive origins in Pausanias' account.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Agamemnon was king of Mycenæ and leader of the Greeks at Troy, so Sicyon was made his dependent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Temenus was a Heraclid who took Argos; his son Phalces took Sicyon, ending the old royal line's independent rule.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "narrative voice",
+    "text": "The hedge \"they say\" shows Pausanias reporting local tradition rather than vouching for it, a habit throughout his work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "narrative voice",
+    "text": "Pausanias openly admits uncertainty, offering marriage or abduction as rival explanations and showing himself a cautious historian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "symbolism",
+    "text": "The trickling oil serves as a divine sign of approval, a miraculous omen answering the prayer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "narrative voice",
+    "text": "Pausanias acts as a careful researcher, setting local Sicyonian tradition against other accounts rather than choosing one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "irony",
+    "text": "The conquering Dorian spares his victim because of shared descent from Hercules, so the seizure ends in shared rule rather than bloodshed.",
+    "spoiler": false
+   }
+  ]
+ }
+}

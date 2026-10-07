@@ -1,0 +1,239 @@
+{
+ "section_id": "pausanias-body-12",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7748,
+  "output": 2330
+ },
+ "result": {
+  "summary": "Pausanias tells how Pyrrhus of Epirus crossed to Italy at the call of Tarentum and used elephants to terrify the Romans. He digresses on the history of elephants in Greece and Homer's silence about them, then recounts Pyrrhus's expedition to Sicily to relieve Syracuse from the Carthaginians.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Tarentum invites Pyrrhus",
+    "summary": "Envoys from Tarentum persuade Pyrrhus to fight Rome. He sees himself as an Achilles descendant against Trojan colonists and prepares an army and fleet.",
+    "stakes": "Pyrrhus risks a costly war against Rome; Tarentum risks defeat without him.",
+    "present": [
+     "Pyrrhus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Epirus",
+     "modern_name": "Epirus, Greece",
+     "certainty": "real",
+     "lat": 39.5,
+     "lon": 20.8
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 12,
+    "title": "Pyrrhus's elephants against Rome",
+    "summary": "Pyrrhus lands unnoticed in Italy and routs the Romans with elephants. Pausanias digresses on how Greeks came to have elephants and notes Homer never mentions them.",
+    "stakes": "The Romans face defeat and panic before unfamiliar beasts.",
+    "present": [
+     "Pyrrhus",
+     "Alexander",
+     "Antigonus",
+     "Demetrius",
+     "Porus",
+     "Homer"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Italy",
+     "modern_name": "Southern Italy",
+     "certainty": "real",
+     "lat": 40.5,
+     "lon": 17.2
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 18,
+    "title": "Pyrrhus goes to Sicily",
+    "summary": "Syracusans call Pyrrhus to Sicily, where he forces the Carthaginians to lift the siege. Pausanias criticizes his overconfidence in challenging Carthage at sea with seafaring-ignorant Epirotes.",
+    "stakes": "Syracuse faces capture by Carthage; Pyrrhus risks naval defeat through overconfidence.",
+    "present": [
+     "Pyrrhus",
+     "Homer"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Syracuse",
+     "modern_name": "Syracuse, Sicily",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 15.29
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Epirus who fought the Romans and Carthaginians"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "First European to acquire elephants after conquering Porus"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King who had very many elephants"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Opponent of Pyrrhus who lost elephants to him in battle"
+   },
+   {
+    "name": "Porus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Indian king conquered by Alexander"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet cited as never mentioning elephants"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero from whom Pyrrhus descended"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Pyrrhus",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 18,
+    "reason": "Homer's line about men ignorant of the sea and salt, quoted from the Odyssey.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias judges Pyrrhus as bold and farsighted yet overconfident, and uses Trojan-war descent to explain his motives.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage records Greek reactions to Hellenistic wars with Rome and Carthage and the arrival of elephants in Mediterranean warfare.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The phrase 'Pyrrhic victory' derives from Pyrrhus's costly wins against Rome."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias reasons from Homer's silence that elephants were unknown to Greeks in the heroic age.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Leave them in the lurch\" means to abandon them when they were in difficulty and needed help.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The capture of Ilium (Troy) by the Greeks; Pyrrhus saw himself repeating it against Rome, whose people were thought to descend from Trojan refugees.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Commentaries\" here means memoirs or notebooks of events, probably by participants; Pausanias does not name the authors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Libyans\" means the peoples of North Africa generally, not only modern Libya.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Refers to the Iliad's simile of the Trojans advancing like cranes, which fly to fight the Pygmies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Epirotes\" are the people of Epirus, in north-western Greece, Pyrrhus's homeland; \"barbarians\" here simply means non-Greeks.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Pyrrhus, king of Epirus, invaded Italy in 280 BC. Tarentum was a wealthy Greek city in southern Italy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Alexander the Great defeated the Indian king Porus in 326 BC. Antigonus and Demetrius were successor kings who fought over his empire.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Carthage was a Phoenician colony in North Africa and Syracuse's chief rival for control of Sicily.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "The line is from Odyssey 11, where Tiresias tells Ulysses of a people who know nothing of the sea.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "allusion",
+    "text": "Pyrrhus casts his campaign in Homeric terms, imagining himself as a new Achilles, which shows his ambition and his taste for heroic precedent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "The Romans' terror at unknown beasts they take for something superhuman contrasts with their later mastery of Pyrrhus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "characterization",
+    "text": "Pausanias's phrase \"overweening self-confidence\" shows Pyrrhus's flaw: a bold commander whose pride leads him to misjudge his army's limits.",
+    "spoiler": false
+   }
+  ]
+ }
+}

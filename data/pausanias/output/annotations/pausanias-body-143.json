@@ -1,0 +1,343 @@
+{
+ "section_id": "pausanias-body-143",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8878,
+  "output": 2916
+ },
+ "result": {
+  "summary": "Pausanias discusses the origin of Mothone's name, its settlers from Nauplia, and an Illyrian pirate raid that carried off many of its people. He then describes the temples of Athene and Artemis at Mothone and digresses on remarkable springs around the world.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Origin of Mothone's name",
+    "summary": "Pausanias gives two explanations of the name Mothone and recounts how the people of Nauplia settled there. Trajan later gave the town a free constitution.",
+    "stakes": "",
+    "present": [
+     "Oeneus",
+     "Diomede",
+     "Mothone",
+     "Nauplius",
+     "Danaus",
+     "Trajan"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mothone",
+     "modern_name": "Methoni",
+     "certainty": "real",
+     "lat": 36.8208,
+     "lon": 21.7048
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 17,
+    "title": "Illyrian raid on Mothone",
+    "summary": "After Epirus fell into anarchy and was conquered by Illyrians, they tricked the people of Mothone with trade and carried off many captives.",
+    "stakes": "The people of Mothone risk capture and enslavement by the pirates.",
+    "present": [
+     "Deidamia",
+     "Pyrrhus",
+     "Procles",
+     "Alexander"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mothone",
+     "modern_name": "Methoni",
+     "certainty": "real",
+     "lat": 36.8208,
+     "lon": 21.7048
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 19,
+    "title": "Temples at Mothone",
+    "summary": "Diomede dedicated a statue of Athene of Winds, ending the harmful gales. Mothone also has a temple of Artemis and a pitchy well.",
+    "stakes": "",
+    "present": [
+     "Diomede",
+     "Athene",
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mothone",
+     "modern_name": "Methoni",
+     "certainty": "real",
+     "lat": 36.8208,
+     "lon": 21.7048
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 27,
+    "title": "Marvellous waters digression",
+    "summary": "Pausanias lists remarkable springs he has seen, of differing colours and temperatures, and argues that other reported wonders are credible.",
+    "stakes": "",
+    "present": [
+     "Perseus",
+     "Pactyas",
+     "Herodotus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Various places",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Mothone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Oeneus, said to have given the town its name"
+   },
+   {
+    "name": "Oeneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Porthaon, who went to the Peloponnese with Diomede"
+   },
+   {
+    "name": "Diomede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who dedicated the statue of Athene of Winds"
+   },
+   {
+    "name": "Nauplius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amymone, led the colony to Nauplia"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "came to Argolis by ship"
+   },
+   {
+    "name": "Trajan",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor who gave Mothone a free constitution"
+   },
+   {
+    "name": "Deidamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Pyrrhus, last ruler of Thesprotia"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Epirus, praised as a general"
+   },
+   {
+    "name": "Procles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Carthaginian who compared Alexander and Pyrrhus"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Philip, praised for good fortune"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "worshipped at Mothone as Goddess of Winds"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "has a temple at Mothone"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero said to have washed off blood at a spring near Joppa"
+   },
+   {
+    "name": "Pactyas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lydian suppliant surrendered to the Medes"
+   },
+   {
+    "name": "Herodotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "historian who described a bitter spring"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Oeneus",
+    "relation": "parent_of",
+    "b": "Mothone",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Amymone",
+    "relation": "parent_of",
+    "b": "Nauplius",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Pyrrhus",
+    "relation": "parent_of",
+    "b": "Deidamia",
+    "source": "text",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Goddess of Winds",
+    "canonical": "Athene",
+    "explanation": "Title given by Diomede to the statue of Athene at Mothone."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Pausanias's blunt judgment that only Athens achieved greatness as a democracy.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias mixes etymology, local cult and history, showing how places carry competing explanations of their origins.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "His view of democracy reflects a Roman-era Greek perspective, looking back on the instability of post-Alexander states like Epirus.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Mothone is today's Methoni, whose large Venetian fortress stands near the harbour rock.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Mothon is the Greek word for a rock; the name Mothone is thus explained from the reef sheltering the harbour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Laconian proclivities\" means the Nauplians' pro-Spartan sympathies; Laconia is the territory of Sparta, called Lacedæmon here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"A want of ballast\" is a nautical figure for instability and lack of steadiness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"Clapped them on board\" means hustled them aboard quickly, as prisoners.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Cyzicenian ointment was a perfume or unguent from Cyzicus, a city on the Propontis; Pausanias compares the well's appearance to it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Perseus rescued Andromeda, daughter of Cepheus, from a sea monster; Joppa was the traditional site of this myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Pactyas the Lydian was a rebel who sought refuge with the Chians; they surrendered him to the Persians (Medes) for Atarneus, as told by Herodotus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Œneus was a king of Calydon and father of Diomede's father Tydeus' line; Diomede was a Greek hero at Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Trajan was Roman emperor from AD 98 to 117; granting a free constitution gave a city self-government.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Pyrrhus, king of Epirus, fought Rome in the early third century BC; his descendants ruled Epirus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "The Illyrians, from the Adriatic coast north of Epirus, were notorious pirates in the third century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Diomede, a Greek hero at Troy, was closely associated with Athene, who aided him in battle.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "characterization",
+    "text": "Pausanias credits Athenian success to their intelligence and law-abidingness, setting them apart from ordinary democracies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "metaphor",
+    "text": "\"Tasted the sweets of conquest\" treats conquest as a food that creates appetite for more.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "irony",
+    "text": "The Mothonians' trusting trade grows brisker just as the trap closes, so friendliness becomes the pirates' weapon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "rhetorical question",
+    "text": "Pausanias ends the digression by arguing from his observed wonders that other reported marvels deserve belief.",
+    "spoiler": false
+   }
+  ]
+ }
+}

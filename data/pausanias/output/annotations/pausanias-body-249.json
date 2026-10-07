@@ -1,0 +1,468 @@
+{
+ "section_id": "pausanias-body-249",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10521,
+  "output": 4120
+ },
+ "result": {
+  "summary": "Pausanias walks the road from Psophis to Thelpusa, noting landmarks and temples along the river Ladon. He tells how Demeter became Erinys and Lusia after Poseidon's assault, the birth of the horse Arion, and the Boy Æsculapius, ending with the Ladon's course.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Road to Thelpusa",
+    "summary": "Pausanias lists landmarks from the Psophis boundary to Thelpusa, including shrines of Æsculapius and Demeter.",
+    "stakes": "",
+    "present": [
+     "Thelpusa",
+     "Ladon",
+     "Æsculapius",
+     "Demeter",
+     "Proserpine",
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thelpusa",
+     "modern_name": "Thelpousa, Arcadia",
+     "certainty": "real",
+     "lat": 37.88,
+     "lon": 21.9
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 13,
+    "title": "Demeter Erinys and Lusia",
+    "summary": "At Onceum Demeter is worshipped as Erinys and Lusia. Pausanias tells how Poseidon pursued her in horse form and describes the statues.",
+    "stakes": "Demeter is pursued and violated by Poseidon while searching for her daughter.",
+    "present": [
+     "Demeter",
+     "Poseidon",
+     "Proserpine",
+     "Oncius",
+     "Apollo",
+     "Antimachus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Onceum",
+     "modern_name": "near Thelpousa, Arcadia",
+     "certainty": "traditional",
+     "lat": 37.88,
+     "lon": 21.88
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 23,
+    "title": "The horse Arion",
+    "summary": "Demeter is said to have borne Arion to Poseidon. Pausanias weighs Homer and Antimachus on his parentage and his owners Hercules and Adrastus.",
+    "stakes": "",
+    "present": [
+     "Demeter",
+     "Poseidon",
+     "Arion",
+     "Adrastus",
+     "Hercules",
+     "Oncus",
+     "Antimachus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Onceum",
+     "modern_name": "near Thelpousa, Arcadia",
+     "certainty": "traditional",
+     "lat": 37.88,
+     "lon": 21.88
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 29,
+    "title": "Boy Æsculapius and the Ladon",
+    "summary": "Pausanias describes the Boy Æsculapius shrine and the Ladon's tributaries, rejecting the idea that it formed Homer's islands.",
+    "stakes": "The infant Æsculapius is exposed and needs rescue.",
+    "present": [
+     "Æsculapius",
+     "Trygon",
+     "Autolaus",
+     "Arcas",
+     "Ladon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "River Ladon, Arcadia",
+     "modern_name": "Ladon River",
+     "certainty": "real",
+     "lat": 37.85,
+     "lon": 21.85
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Erinys",
+     "Lusia"
+    ],
+    "kind": "goddess",
+    "description": "goddess who wandered seeking her daughter and was assaulted by Poseidon"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Demeter's daughter"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Hippius"
+    ],
+    "kind": "god",
+    "description": "god who took horse form to seize Demeter"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a statue at Eleusinian Demeter's temple"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "healing god worshipped at Caus and Thelpusa; exposed as a boy"
+   },
+   {
+    "name": "Thelpusa",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "River-Nymph, daughter of Ladon, namesake of the town"
+   },
+   {
+    "name": "Ladon",
+    "aliases": [],
+    "kind": "other",
+    "description": "river and father of Thelpusa"
+   },
+   {
+    "name": "Oncius",
+    "aliases": [
+     "Oncus"
+    ],
+    "kind": "mortal",
+    "description": "son of Apollo, king at Onceum"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Oncius, worshipped as Oncean"
+   },
+   {
+    "name": "Arion",
+    "aliases": [],
+    "kind": "creature",
+    "description": "divine dark-maned horse"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Talaus, owner of Arion"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "rode Arion against Elis"
+   },
+   {
+    "name": "Trygon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "nurse of Æsculapius"
+   },
+   {
+    "name": "Autolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "bastard son of Arcas who raised Æsculapius"
+   },
+   {
+    "name": "Arcas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Autolaus"
+   },
+   {
+    "name": "Antimachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet quoted about Demeter and Arion"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ladon",
+    "relation": "parent_of",
+    "b": "Thelpusa",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Oncius",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Proserpine",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Arion",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Arion",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Demeter",
+    "relation": "lover_of",
+    "b": "Poseidon",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Arcas",
+    "relation": "parent_of",
+    "b": "Autolaus",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Demeter",
+    "relation": "transformed_into",
+    "b": "mare",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Poseidon",
+    "relation": "transformed_into",
+    "b": "horse",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Erinys",
+    "canonical": "Demeter",
+    "explanation": "Arcadian surname meaning Fury, from her anger at Poseidon."
+   },
+   {
+    "alias": "Lusia",
+    "canonical": "Demeter",
+    "explanation": "Surname from her bathing in the Ladon."
+   },
+   {
+    "alias": "Hippius",
+    "canonical": "Poseidon",
+    "explanation": "Horse-god title, said to originate in Arcadia."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Gives the Arcadian myth of Demeter as mare and Poseidon as stallion.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Place names and cult titles are explained through myth, showing how local ritual preserved stories of divine anger and reconciliation.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias compares local tradition with Homer and Antimachus, and dismisses rival views as foolish, showing his habit of testing myth against poetry and geography.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Arcadian horse-headed Demeter is a known cult image from Pausanias; the myth of Arion influenced later accounts of Poseidon's horses."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias reports that the Thelpusans' cult statue of Demeter Erinys was nine feet tall, with wooden body and Parian marble extremities.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet (about 180 metres), so 25 stades is under three miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Antimachus was a Greek epic poet; his Thebaid told of the Argive expedition against Thebes (the Seven against Thebes). Pausanias cites him as evidence for the title Erinys.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Amatory intentions\" and \"got his ends\" are euphemisms: Poseidon wanted to seduce her and succeeded by taking horse form himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Lusia comes from the Greek for \"bathing\" or \"washing\"; the Arcadian word for being angry is likewise linked to Erinys, \"Fury\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "A cist is a sacred basket or chest used to carry sacred objects in Demeter's rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Hippius means \"of horses\"; it is a cult title of Poseidon as horse-god, explaining the horse-foal story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The Thebaid is a lost early epic about the war of the Seven against Thebes; Pausanias cites it as evidence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "The lines are called ambiguous because they call Arion of immortal race and dark-maned, which could hint at Poseidon, whose epithet is \"dark-haired\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Danai is Homer's term for the Greeks; Thelpusian means from Thelpusa in Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Refers to Hercules' campaign against Augeas of Elis; Oncus was an Arcadian who held the horse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"Broken in thirdly\" means Adrastus was Arion's third master, after Oncus and Hercules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Pausanias refers back to his earlier account of Epidaurus, where Æsculapius' birth and exposure are told.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Enispe, Stratie and Rhipe are Arcadian towns named in Homer's Catalogue of Ships, in the Iliad.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Demeter was goddess of grain; Proserpine is her daughter, carried off to the underworld. Eleusinian Demeter refers to her famous mysteries at Eleusis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Parian marble came from the island of Paros and was prized for its fine white quality. Statues of wood with marble extremities are called acrolithic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Themis was a goddess of divine law and order. Pausanias rejects the identification, perhaps because some locals argued the statue represented her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Adrastus, king of Argos, was the sole survivor of the Seven against Thebes, saved by Arion's speed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "The Ladon is a river of Arcadia flowing into the Alpheus; Pausanias follows it past local shrines.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "The Ister is the Danube; the Eridanus was a legendary northern river, often identified with the Po.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "narrative voice",
+    "text": "The repeated \"they say\" shows Pausanias reporting local tradition at a distance, without vouching for the myth himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "characterization",
+    "text": "Pausanias' blunt dismissal of rival opinion shows him as a confident, opinionated guide and not a mere recorder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "epithet",
+    "text": "\"Godlike\" and \"swift courser\" are formulaic Homeric descriptions that mark Arion as no ordinary horse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "characterization",
+    "text": "Antimachus's genealogy of Adrastus and the miraculous birth of Arion stress the hero's status and the horse's wonder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "irony",
+    "text": "Pausanias dismisses the opposing view sharply, telling believers to \"know\" their idea is foolish; his rationalism shows through.",
+    "spoiler": false
+   }
+  ]
+ }
+}

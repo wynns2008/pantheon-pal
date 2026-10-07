@@ -1,0 +1,321 @@
+{
+ "section_id": "pindar-odes-body-34",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7946,
+  "output": 2655
+ },
+ "result": {
+  "summary": "Pindar praises Deinis of Aigina and his dead father Meges for victories in the Nemean games. He invokes Aiakos, warns against envy using the fate of Aias, and prays for an honest name and the power of song to honour the family.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Invocation and plea to Aiakos",
+    "summary": "Pindar invokes youthful desire, recalls Zeus and Aigina and their son Aiakos, and offers the victory song as a suppliant at his shrine.",
+    "stakes": "",
+    "present": [
+     "Pindar",
+     "Aiakos",
+     "Zeus",
+     "Aigina",
+     "Deinis",
+     "Meges"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.7467,
+     "lon": 23.4278
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 18,
+    "title": "Envy, Aias and honest fame",
+    "summary": "Pindar warns of envy, recalling how Aias was undone by the vote for Odysseus, and prays to keep a good name and honour justice.",
+    "stakes": "Aias loses the arms of Achilles and his life through envy and lying speech.",
+    "present": [
+     "Pindar",
+     "Aias",
+     "Odysseus",
+     "Zeus",
+     "Kinyras"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.9575,
+     "lon": 26.2389
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 22,
+    "title": "Song for Meges' house",
+    "summary": "Pindar admits he cannot bring Meges back, but promises a column of song for the family and notes that victory songs are ancient.",
+    "stakes": "",
+    "present": [
+     "Pindar",
+     "Meges",
+     "Adrastos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.7467,
+     "lon": 23.4278
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the poet, speaking in first person"
+   },
+   {
+    "name": "Aiakos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Oinone, son of Zeus and Aigina, honoured at Aigina"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of the gods, lover of Aigina"
+   },
+   {
+    "name": "Aigina",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "bride of Zeus, mother of Aiakos"
+   },
+   {
+    "name": "Deinis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "young victor at Nemea"
+   },
+   {
+    "name": "Meges",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Deinis' dead father, also a victor"
+   },
+   {
+    "name": "Kinyras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "legendary king of Cyprus enriched by divine favour"
+   },
+   {
+    "name": "Aias",
+    "aliases": [
+     "son of Telamon"
+    ],
+    "kind": "mortal",
+    "description": "hero who died by his own sword after losing Achilles' arms"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero preferred by the Danaoi for the arms"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "slain hero whose arms were contested"
+   },
+   {
+    "name": "Adrastos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader in the strife with the sons of Kadmos"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Aigina",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Aiakos",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Aigina",
+    "relation": "parent_of",
+    "b": "Aiakos",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Meges",
+    "relation": "parent_of",
+    "b": "Deinis",
+    "source": "text",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "son of Telamon",
+    "canonical": "Aias",
+    "explanation": "A patronymic naming Aias by his father."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "A compact statement of envy's habit of attacking the good.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "reason": "Memorable image of virtue growing like a tree in dew.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode contrasts envy and lying speech with honest praise, setting the poet's duty to honour merit against the injustice done to Aias.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Victory odes were commissioned and performed for athletes' families, often at shrines of local heroes such as Aiakos on Aigina.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Nemean Odes celebrated victories at games held at Nemea, one of the four great Panhellenic festivals.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"One... but other otherwise\" means Desire treats each person differently; the sentence then says success lies in aiming rightly at worthy loves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"The Cyprian\" is Aphrodite, worshipped on Cyprus; \"fain\" means gladly willing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The son is Aiakos, king of Oinone, the island's older name, later called Aigina after his mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "The \"Lydian crown\" is a figure for the song, as the Lydian headband was a finely worked ornament; \"two races\" are the victories of Deinis and Meges.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Kinyras was a legendary, proverbially wealthy king of Cyprus, favoured by Aphrodite.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Aias, son of Telamon, killed himself with Hector's sword after losing Achilles' arms to Odysseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The Danaoi (Greeks) voted secretly to award Achilles' armour to Odysseus rather than Aias.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Adrastos and the sons of Kadmos refers to the war of the Seven against Thebes, an ancient conflict.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Nemean Odes celebrate victories at the Nemean Games, held in honour of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Aigina was a nymph whom Zeus carried off; their son Aiakos became ancestor of Aiginetan heroes like Achilles and Aias.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Odysseus is the Latinised Ulysses; Pindar sides with Aias against the clever speaker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "A komos was a festive revel procession that celebrated victors with song.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "apostrophe",
+    "text": "Pindar addresses personified youthful desire directly as a herald of Aphrodite.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "metaphor",
+    "text": "Envy is imagined as feeding on words as dainties, and fastening on the good like a predator.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "personification",
+    "text": "Slander walks, schemes and does violence like a person, making hostility vivid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "simile",
+    "text": "Virtue grows like a tree watered by dew, rising toward the sky.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "metaphor",
+    "text": "The poem becomes a lofty column, like a monument that makes the family's glory lasting.",
+    "spoiler": false
+   }
+  ]
+ }
+}

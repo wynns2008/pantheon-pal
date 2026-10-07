@@ -1,0 +1,379 @@
+{
+ "section_id": "pausanias-body-8",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7760,
+  "output": 3288
+ },
+ "result": {
+  "summary": "Pausanias finishes describing Attalus, one of the Athenian Eponymi, then walks through the Athenian Agora. He lists statues of Demosthenes, the temple of Ares, Harmodius and Aristogiton, and the Ptolemies at the Odeum.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Attalus and his kingdom",
+    "summary": "Pausanias explains who Attalus was, tracing the line from Docimus and Philetaerus. He credits Attalus with driving the Galati inland.",
+    "stakes": "",
+    "present": [
+     "Attalus",
+     "Docimus",
+     "Philetærus",
+     "Eumenes",
+     "Lysimachus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Galatia",
+     "modern_name": "Central Anatolia, Turkey",
+     "certainty": "real",
+     "lat": 39.5,
+     "lon": 32.5
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 13,
+    "title": "Statues and Demosthenes' fate",
+    "summary": "Pausanias lists statues near the Eponymi and tells how Demosthenes was exiled twice and died by poison on Calauria. Archias handed other exiles to Antipater but not him.",
+    "stakes": "Demosthenes faces capture by the Macedonians and chooses poison in exile.",
+    "present": [
+     "Demosthenes",
+     "Archias",
+     "Antipater",
+     "Lycurgus",
+     "Callias"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Calauria",
+     "modern_name": "Poros, Greece",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 23.47
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 19,
+    "title": "Temple of Ares and tyrannicides",
+    "summary": "Pausanias describes the temple of Ares, its statues, and the statues of Harmodius and Aristogiton. Xerxes carried the statues off and Antiochus returned them.",
+    "stakes": "",
+    "present": [
+     "Ares",
+     "Aphrodite",
+     "Athene",
+     "Enyo",
+     "Harmodius",
+     "Aristogiton",
+     "Xerxes",
+     "Antiochus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athenian Agora",
+     "modern_name": "Ancient Agora of Athens",
+     "certainty": "real",
+     "lat": 37.9745,
+     "lon": 23.7225
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 24,
+    "title": "Ptolemies at the Odeum",
+    "summary": "Pausanias notes the statues of the Egyptian kings, all named Ptolemy, and of Arsinoe.",
+    "stakes": "",
+    "present": [
+     "Ptolemy Philadelphus",
+     "Arsinoe",
+     "Ptolemy Philometor",
+     "Ptolemy Soter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Odeum, Athens",
+     "modern_name": "Athens, Greece",
+     "certainty": "real",
+     "lat": 37.9755,
+     "lon": 23.7275
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Attalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King, an Athenian Eponymus, who drove the Galati inland"
+   },
+   {
+    "name": "Docimus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian general of Antigonus"
+   },
+   {
+    "name": "Philétærus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Paphlagonian eunuch who revolted from Lysimachus"
+   },
+   {
+    "name": "Eumenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cousin who handed the kingdom to Attalus"
+   },
+   {
+    "name": "Lysimachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler Docimus submitted to"
+   },
+   {
+    "name": "Demosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian statesman, twice exiled, died by poison"
+   },
+   {
+    "name": "Archias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man of Thurii who handed exiles to Antipater"
+   },
+   {
+    "name": "Antipater",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian ruler"
+   },
+   {
+    "name": "Lycurgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian, son of Lycophron, honored with a bronze statue"
+   },
+   {
+    "name": "Callias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Reputed negotiator of peace with Artaxerxes"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "God with a temple and statue by Alcamenes"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Two images in the temple of Ares"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Image by Locrus of Paros"
+   },
+   {
+    "name": "Enyo",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Image by sons of Praxiteles"
+   },
+   {
+    "name": "Harmodius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Murderer of Hipparchus, honored with statue"
+   },
+   {
+    "name": "Aristogiton",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Murderer of Hipparchus, honored with statue"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king who took the statues"
+   },
+   {
+    "name": "Antiochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Returned the statues to Athens"
+   },
+   {
+    "name": "Ptolemy Philadelphus",
+    "aliases": [
+     "Philadelphus"
+    ],
+    "kind": "mortal",
+    "description": "Egyptian king, an Eponymus"
+   },
+   {
+    "name": "Ptolemy Philometor",
+    "aliases": [
+     "Philometor"
+    ],
+    "kind": "mortal",
+    "description": "Egyptian king with statue"
+   },
+   {
+    "name": "Ptolemy Soter",
+    "aliases": [
+     "Soter"
+    ],
+    "kind": "mortal",
+    "description": "Son of Lagus, named by the Rhodians"
+   },
+   {
+    "name": "Arsinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sister of Philadelphus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Attalus",
+    "relation": "parent_of",
+    "b": "Attalus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Ptolemy Philadelphus",
+    "relation": "sibling_of",
+    "b": "Arsinoe",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Xerxes",
+    "relation": "parent_of",
+    "b": "Artaxerxes",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Soter",
+    "canonical": "Ptolemy Soter",
+    "explanation": "Epithet meaning savior, given by the Rhodians to the son of Lagus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Pausanias reflects on Demosthenes' fate, exiled yet loyal to democracy.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links statues to history, using monuments to recall political fortune, loyalty and the fate of public men.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The statues of Hellenistic kings show Athens honoring foreign monarchs who were patrons and protectors.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Statues of Harmodius and Aristogiton became lasting symbols of tyrannicide and Athenian liberty."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Demosthenes is traditionally said to have died on Calauria in 322 BC, taking poison to avoid capture.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Eponymi: the ten heroes after whom the Athenian tribes were named; their statues stood in Athens, and later kings were added to the group.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Galati: the Gauls (Celts) who invaded Asia Minor in the third century BC and settled in Galatia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The defeat at Lamia (322 BC) ended the Greek revolt against Macedon, called the Lamian War, after Alexander's death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The disaster in Thessaly refers to the Greek defeat at Crannon in 322 BC, which ended the Lamian War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Enyo was a war goddess, associated with the bloodshed of battle and often linked with Ares.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Philometor means 'mother-loving', Philadelphus 'sister-loving', and Soter 'saviour'; these were Ptolemaic distinguishing titles.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Philetærus later founded the Pergamene dynasty, of which Attalus was a ruler; eunuchs could hold positions of trust in Hellenistic courts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Archias, nicknamed the 'exile-hunter', tracked down opponents of Macedon for Antipater; Demosthenes escaped him by taking poison.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Harmodius and Aristogiton killed Hipparchus, brother of the tyrant Hippias, in 514 BC; Athenians honoured them as liberators.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Xerxes, king of Persia, took Athens in 480 BC; the statues were later returned, though other sources credit different rulers.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "irony",
+    "text": "Demosthenes' devoted love for Athens ends in exile and suicide, an ironic reward for his loyalty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "narrative voice",
+    "text": "Pausanias steps in with a personal judgment ('it seems to me'), showing his moralizing stance as a travel writer.",
+    "spoiler": false
+   }
+  ]
+ }
+}

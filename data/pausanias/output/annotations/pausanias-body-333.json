@@ -1,0 +1,342 @@
+{
+ "section_id": "pausanias-body-333",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7593,
+  "output": 2834
+ },
+ "result": {
+  "summary": "Pausanias tells how Tennes cut the ropes of his father Cycnus's ship with an axe, giving rise to the proverb of the Tenedian axe. He then turns to Greek offerings after the Persian Wars, Themistocles' rejected spoils at Delphi, and the Delphians' bronze wolf.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Cycnus, Tennes and the axe",
+    "summary": "Tennes and Hemithea are falsely accused by their stepmother and cast to sea in a chest. They reach Tenedos, where Tennes cuts his father's mooring ropes with an axe.",
+    "stakes": "Tennes and his sister face death at sea after a false accusation; Cycnus seeks his son's forgiveness.",
+    "present": [
+     "Cycnus",
+     "Tennes",
+     "Hemithea",
+     "Phylonome",
+     "Proclea"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Leucophrys (Tenedos)",
+     "modern_name": "Bozcaada",
+     "certainty": "real",
+     "lat": 39.83,
+     "lon": 26.07
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 14,
+    "title": "Persian spoils and Themistocles",
+    "summary": "Pausanias notes Greek dedications after the Persian Wars and the Pythian Priestess's refusal of Themistocles' spoils. He gives explanations and mentions earlier oracles.",
+    "stakes": "Themistocles risks the god's refusal and, as some say, Persian hatred.",
+    "present": [
+     "Themistocles",
+     "Apollo",
+     "Pythian Priestess"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.48,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 16,
+    "title": "The Delphian bronze wolf",
+    "summary": "A wolf kills a temple robber and howls daily in the town until the Delphians follow it to the hidden gold. They dedicate a bronze wolf.",
+    "stakes": "The god's treasure is stolen and could be lost.",
+    "present": [],
+    "told_as_story": true,
+    "place": {
+     "name": "Parnassus",
+     "modern_name": "Mount Parnassus",
+     "certainty": "real",
+     "lat": 38.53,
+     "lon": 22.62
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cycnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king at Colonae, son of Poseidon"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Cycnus"
+   },
+   {
+    "name": "Tennes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cycnus, cast to sea, eponym of Tenedos"
+   },
+   {
+    "name": "Hemithea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Cycnus, sister of Tennes"
+   },
+   {
+    "name": "Proclea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cycnus's first wife, daughter of Clytius"
+   },
+   {
+    "name": "Phylonome",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cycnus's second wife, who slandered Tennes"
+   },
+   {
+    "name": "Caletor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Proclea, slain by Ajax"
+   },
+   {
+    "name": "Clytius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Proclea"
+   },
+   {
+    "name": "Cragasus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Phylonome"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have slain Tennes"
+   },
+   {
+    "name": "Themistocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who brought Persian spoils to Delphi"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of Delphi"
+   },
+   {
+    "name": "Pythian Priestess",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Delphic oracle who refused the spoils"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Cycnus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Cycnus",
+    "relation": "parent_of",
+    "b": "Hemithea",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Cycnus",
+    "relation": "parent_of",
+    "b": "Tennes",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Proclea",
+    "relation": "parent_of",
+    "b": "Tennes",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Clytius",
+    "relation": "parent_of",
+    "b": "Proclea",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Clytius",
+    "relation": "parent_of",
+    "b": "Caletor",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Proclea",
+    "relation": "sibling_of",
+    "b": "Caletor",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Cycnus",
+    "relation": "spouse_of",
+    "b": "Phylonome",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Cragasus",
+    "relation": "parent_of",
+    "b": "Phylonome",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Tennes",
+    "relation": "sibling_of",
+    "b": "Hemithea",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Leucophrys",
+    "canonical": "Tenedos",
+    "explanation": "The island's earlier name; it was renamed Tenedos after Tennes."
+   },
+   {
+    "alias": "Medes",
+    "canonical": "Persians",
+    "explanation": "Pausanias uses Medes and Persians interchangeably for the Persian enemy."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "The oracle's terse refusal of Themistocles' Persian spoils at Delphi.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The chapter links offerings to origin stories and proverbs, showing how Pausanias explains dedications through local legend.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Themistocles anecdote reflects later tradition about his eventual exile among the Persians, read back into an oracle.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Tenedian axe became a Greek proverb for a harsh, abrupt cutting-off of discussion."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Tenedos was said to have had coins showing a double-headed axe, linking to this legend.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Caletor is a Trojan killed by Ajax in the Iliad while carrying fire to burn the Greek ship of Protesilaus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The 'Tenedian axe' became a proverbial phrase for a harsh, decisive cutting-off of discussion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "'Brazen' means made of bronze; Zeus is the Greek name for Jove, whose statue stood at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "'Medes' is the Greek habit of calling the Persians by the name of their neighbours and earlier rulers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Themistocles later fled Athens and sought refuge at the Persian court, which the god is said to have foreseen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Bacis and Euclus were famed early prophets whose collected oracles circulated in Greece.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Colonæ was a town on the coast of the Troad, in northwest Asia Minor, opposite Tenedos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The Pythian Priestess was the woman who delivered Apollo's oracles at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Parnassus is the mountain above Delphi, sacred to Apollo and the Muses.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "irony",
+    "text": "Cycnus arrives to repent just as his son is beyond reconciliation, a tragic reversal of his earlier rash belief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "characterization",
+    "text": "The single act of cutting the ropes shows Tennes' fierce, unforgiving anger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "motif",
+    "text": "The wolf as divine agent echoes the common ancient idea of animals carrying messages from the gods.",
+    "spoiler": false
+   }
+  ]
+ }
+}

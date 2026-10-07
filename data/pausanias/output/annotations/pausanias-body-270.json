@@ -1,0 +1,272 @@
+{
+ "section_id": "pausanias-body-270",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6682,
+  "output": 2402
+ },
+ "result": {
+  "summary": "Pausanias reports that Augustus took the old statue of Athene Alea and the Calydonian boar's tusks from Tegea after defeating Antony. He argues that carrying off statues from conquered peoples was an old custom, giving Greek, Persian and Sicilian examples, and says where the statue and a tusk can now be seen in Rome.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Augustus carries off Tegea's treasures",
+    "summary": "Augustus takes the statue of Athene Alea and the boar's tusks after defeating Antony. Pausanias says he was following an old custom.",
+    "stakes": "Tegea loses its sacred statue and relic to the victor.",
+    "present": [
+     "Augustus",
+     "Athene Alea",
+     "Antony"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tegea",
+     "modern_name": "Tegea, Arcadia",
+     "certainty": "real",
+     "lat": 37.4506,
+     "lon": 22.4231
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 7,
+    "title": "Earlier cases of statue-taking",
+    "summary": "Pausanias lists earlier removals of statues: by the Greeks after Troy, by Antiphemus of Gela, by Xerxes, and by the people of Cyzicus.",
+    "stakes": "Conquered peoples lose their sacred images.",
+    "present": [
+     "Sthenelus",
+     "Antiphemus",
+     "Xerxes",
+     "Seleucus",
+     "Augustus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ilium, Gela, Athens, Branchidæ, Cyzicus",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 11,
+    "title": "The statue and tusk in Rome",
+    "summary": "Pausanias says the ivory statue by Endœus stands in Augustus' Forum. One tusk of the boar is kept in Caesar's gardens.",
+    "stakes": "",
+    "present": [
+     "Athene Alea",
+     "Endœus",
+     "Dionysus",
+     "Augustus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Forum of Augustus, Rome",
+     "modern_name": "Forum of Augustus, Rome",
+     "certainty": "real",
+     "lat": 41.8941,
+     "lon": 12.4859
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Augustus",
+    "aliases": [
+     "Emperor Augustus",
+     "Cæsar"
+    ],
+    "kind": "mortal",
+    "description": "Roman emperor who took the statue and tusks from Tegea"
+   },
+   {
+    "name": "Athene Alea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess whose ancient statue was at Tegea"
+   },
+   {
+    "name": "Antony",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Augustus' defeated enemy"
+   },
+   {
+    "name": "Sthenelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Capaneus, given the statue of Household Zeus after Troy"
+   },
+   {
+    "name": "Capaneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Sthenelus"
+   },
+   {
+    "name": "Antiphemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Founder of Gela who sacked Omphace"
+   },
+   {
+    "name": "Dædalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Maker of a statue taken to Gela"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king who carried off statues"
+   },
+   {
+    "name": "Darius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Xerxes"
+   },
+   {
+    "name": "Seleucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sent the Apollo back to the Milesians"
+   },
+   {
+    "name": "Endœus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor of the ivory Athene Alea"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God whose temple in Caesar's gardens held the tusk"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Capaneus",
+    "relation": "parent_of",
+    "b": "Sthenelus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Darius",
+    "relation": "parent_of",
+    "b": "Xerxes",
+    "source": "text",
+    "evidence_sentence": 3
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cæsar",
+    "canonical": "Augustus",
+    "explanation": "Augustus' family name and imperial title, used for the emperor."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Pausanias sums up his defence of Augustus: plunder of sacred images was common to Greeks and barbarians.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias treats Roman plunder of sacred objects as part of a long human habit, not a special crime of Augustus.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Augustus punished Arcadians who sided with Antony, and Rome displayed Greek art and relics as trophies in its monuments.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says the tusk was about 2½ feet long, so he evidently saw it himself.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "The Calydonian boar was sent by Artemis to ravage Calydon in Aetolia; heroes hunted it. Its tusks were famous relics kept at Tegea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Household Zeus (Zeus Herkeios) was the god protecting the courtyard altar of a home; this statue came from Priam's house at Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Xerxes invaded Greece in 480 BC. The Milesians had joined his fleet, yet Pausanias says he accused them of cowardice at Salamis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Dindymene Mother is Cybele, worshipped on Mount Dindymon near Cyzicus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "This sentence seems to describe a different statue than the one just mentioned; the text appears confused or a passage is out of place.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Those who busy themselves about such curiosities\" means antiquarians or collectors of marvels; Pausanias distances himself from their report.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Augustus defeated Antony at Actium in 31 BC. Tegea's Athene Alea temple was a major Arcadian sanctuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "The Forum of Augustus in Rome was dedicated in 2 BC and displayed many spoils and works of art.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Endœus was an early Greek sculptor, said to have been a pupil of Dædalus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "Justification",
+    "text": "Pausanias defends Augustus by appeal to precedent, giving the removal of statues a respectable, traditional tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "Summary conclusion",
+    "text": "The repeated phrase \"long established custom\" closes the list of examples and restates the argument's point.",
+    "spoiler": false
+   }
+  ]
+ }
+}

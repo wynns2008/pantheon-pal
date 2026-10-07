@@ -1,0 +1,317 @@
+{
+ "section_id": "pausanias-body-252",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8873,
+  "output": 2773
+ },
+ "result": {
+  "summary": "Pausanias travels through Arcadia from the Buphagus to Gortys, describing its temple of Æsculapius and the cold river Gortynius. He tells how Teuthis wounded Athene at Aulis and how his land was afflicted until the goddess was appeased. He ends with the monument near Megalopolis.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Gortys and its Æsculapius temple",
+    "summary": "Pausanias describes Gortys, its temple of Æsculapius with statues by Scopas, and Alexander's offerings.",
+    "stakes": "",
+    "present": [
+     "Æsculapius",
+     "Hygiea",
+     "Alexander",
+     "Scopas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Gortys",
+     "modern_name": "Gortys, Arcadia",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 22.05
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 12,
+    "title": "The cold river Gortynius",
+    "summary": "The river's names, its coldness compared with other rivers, its sources at Thisoa and the village Teuthis.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Teuthis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thisoa",
+     "modern_name": "near Methydrium, Arcadia",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.1
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 19,
+    "title": "Teuthis wounds Athene",
+    "summary": "At Aulis Teuthis, angry with Agamemnon, stabs Athene who appeared as Melas; his land then suffers until a wounded Athene statue is made.",
+    "stakes": "Teuthis and his people face disease and barren land from the goddess's anger.",
+    "present": [
+     "Teuthis",
+     "Agamemnon",
+     "Athene",
+     "Melas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Aulis",
+     "modern_name": "Aulis, Boeotia",
+     "certainty": "real",
+     "lat": 38.42,
+     "lon": 23.6
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 24,
+    "title": "Monument near Megalopolis",
+    "summary": "Pausanias notes temples at Teuthis and the monument called the Treaty Violation, with the plain of Brenthe nearby.",
+    "stakes": "",
+    "present": [
+     "Cleomenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Road from Gortys to Megalopolis",
+     "modern_name": "near Megalopolis, Arcadia",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 22.15
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of healing honoured at Gortys"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of health, with a statue at Gortys"
+   },
+   {
+    "name": "Scopas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the statues"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Philip, dedicated breastplate and spear"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Alexander"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "washed in the river after his birth"
+   },
+   {
+    "name": "Teuthis",
+    "aliases": [
+     "Ornytus"
+    ],
+    "kind": "mortal",
+    "description": "Arcadian leader who wounded Athene"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the Greek expedition against Ilium"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess wounded in the thigh by Teuthis"
+   },
+   {
+    "name": "Melas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ops, whose form Athene took"
+   },
+   {
+    "name": "Ops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Melas"
+   },
+   {
+    "name": "Cleomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "violated the treaty with Megalopolis"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Ops",
+    "relation": "parent_of",
+    "b": "Melas",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Ornytus",
+    "canonical": "Teuthis",
+    "explanation": "Some say the leader from Teuthis was called Ornytus."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Divine anger and appeasement explain a local blight, and the wounded Athene statue preserves the memory in cult.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias blends local tradition, oracles, and his own observation of relics such as Alexander's breastplate.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Hygiea is the goddess of health, Æsculapius' daughter in Greek tradition; Scopas was a famous sculptor of the fourth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Refers to the legend that the infant Zeus was bathed in this river after his birth; Pausanias uses the name Zeus here, unlike Jove elsewhere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Ister is the Danube; Hypanis and Borysthenes are rivers of southern Scythia (the Bug and the Dnieper).",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Elegiac poets were writers of poetry in elegiac couplets; the Ales near Colophon in Ionia was praised by them for its coldness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The war against Ilium is the Trojan War; Ilium is Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"In the semblance of\" means in the outward appearance of; the goddess disguises herself as a mortal, a common device in Greek myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Shewed\" is an old spelling of \"showed\"; the goddess appears to him, probably in a vision, with the wound.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "\"Propitiate\" means to appease an angry deity so as to regain favour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Refers to Cleomenes III of Sparta, who broke a treaty with Megalopolis and fought its people in the third century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet or about 180 metres.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Alexander the Great's dedications of armour were typical royal gifts to temples, kept as relics for visitors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "The Alpheus is the main river of Arcadia, flowing west toward Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Aulis was the Boeotian harbour where the Greek fleet gathered before sailing to Troy; Agamemnon led the expedition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Dodona in Epirus had the oracle of Zeus, one of the oldest in Greece, consulted by many cities.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "characterization",
+    "text": "Pausanias shows his habit of personal judgement, using 'in my opinion' to redefine what counts as a truly cold river.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "hyperbole",
+    "text": "Calling the Gortynius colder than all the famous cold rivers elevates local pride, with a seasonal qualifier for plausibility.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Metaphor",
+    "text": "\"Boiling rage\" likens anger to a boiling liquid, conveying Teuthis' uncontrolled fury and his reckless act against a goddess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Divine retribution",
+    "text": "Teuthis' sickness and barren land show the gods punishing impiety, with the whole community suffering for one man's offence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

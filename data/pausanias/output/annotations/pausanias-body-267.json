@@ -1,0 +1,202 @@
+{
+ "section_id": "pausanias-body-267",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6949,
+  "output": 1710
+ },
+ "result": {
+  "summary": "Pausanias introduces Pallantium in Arcadia and explains that Evander's colony on the Tiber gave it favour with the Emperor Antoninus Pius. He then praises Antonine's wars, relief works and generous laws, and notes his successor's wars.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Evander and Pallantium's privileges",
+    "summary": "Pausanias tells how Evander led Arcadians from Pallantium to found a colony at Rome, which earned the Arcadian town its privileges.",
+    "stakes": "",
+    "present": [
+     "Evander",
+     "Hermes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pallantium",
+     "modern_name": "Palaiopyrgi, near Tripoli, Arcadia",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 14,
+    "title": "Antonine's reign and successor",
+    "summary": "Pausanias lists Antonine's wars, disaster relief and generous inheritance law, and mentions his son's wars.",
+    "stakes": "",
+    "present": [
+     "Antonine"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Roman Empire",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Evander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian leader who founded a colony on the Tiber"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Evander"
+   },
+   {
+    "name": "Antonine",
+    "aliases": [
+     "Pius"
+    ],
+    "kind": "mortal",
+    "description": "Roman Emperor who favoured Pallantium"
+   },
+   {
+    "name": "Lado",
+    "aliases": [],
+    "kind": "other",
+    "description": "father of Evander's mother, a Nymph"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hermes",
+    "relation": "parent_of",
+    "b": "Evander",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Antonine",
+    "relation": "parent_of",
+    "b": "Antonine",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pius",
+    "canonical": "Antonine",
+    "explanation": "Title given by the Romans for his piety toward the gods."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Pausanias compares Antonine to Cyrus the Elder as 'Father of mankind'.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "Pausanias links a Greek town to Rome through the Evander legend, showing how Greeks used myth to gain favour under Roman rule.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "The passage praises benevolent, pious rule, contrasting Antonine's restraint and generosity with conquest.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Palatium, from Evander's Pallantium in this account, is the origin of the word 'palace'.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Palatium is the Latin name of the Palatine Hill, source of the English word 'palace'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Mauri were the Moors, inhabitants of northwest Africa; 'Libyans' here means Africans generally.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "The sentence is obscure: it describes provincial Roman citizens who could by law leave property to non-relatives, or else it passed to the Emperor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Pius is Latin for dutiful or devout, the title given to Antoninus Pius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Cyrus the Elder, founder of the Persian Empire, was remembered by Greeks as a 'father' to his subjects for his mild rule.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Evander was a legendary Arcadian who, in Roman tradition, settled on the future site of Rome before Aeneas arrived.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "The Brigantes were a large British tribe in northern Britain; Antonine's campaign there led to the Antonine Wall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Cos and Rhodes were Aegean islands near Asia Minor, struck by a severe earthquake around AD 142.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "The son is Marcus Aurelius, who fought the Germanic tribes and the Sarmatians (Sauromatæ) on the Danube frontier.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "digression",
+    "text": "A parenthetical ethnography of the Mauri interrupts the narrative, typical of Pausanias' habit of adding curious detail about foreign peoples.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "characterization",
+    "text": "Antonine is portrayed as generous, choosing humane law over revenue, which builds Pausanias' admiring portrait of him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "allusion",
+    "text": "Comparing the Emperor to Cyrus is high praise, placing him among the ideal rulers of the past.",
+    "spoiler": false
+   }
+  ]
+ }
+}

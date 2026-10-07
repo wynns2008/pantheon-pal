@@ -1,0 +1,353 @@
+{
+ "section_id": "pausanias-body-124",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10074,
+  "output": 3303
+ },
+ "result": {
+  "summary": "In the Second Messenian War the armies clash and Aristomenes routs the Spartans, but loses his shield near a pear tree. He later recovers it at Trophonius's shrine, raids Pharae, and captures Spartan maidens at Caryae, protecting their honour.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 12,
+    "title": "Battle and the lost shield",
+    "summary": "After sacrifices, the armies fight; Aristomenes and his picked men rout Anaxander's division, but he drops his shield at the pear tree and the Spartans recover, helped by Tyrtaeus.",
+    "stakes": "Aristomenes risks losing the battle and his men's lives, and a fatal delay costs Messenian victory.",
+    "present": [
+     "Hecas",
+     "Theoclus",
+     "Anaxander",
+     "Phintas",
+     "Androcles",
+     "Tyrtæus",
+     "Aristomenes",
+     "Castor",
+     "Pollux"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "the plain near Stenyclerus",
+     "modern_name": "Stenyklaros, Messenia",
+     "certainty": "traditional",
+     "lat": 37.1,
+     "lon": 22.0
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 17,
+    "title": "Return and recovered shield",
+    "summary": "Aristomenes is welcomed at Andania with song, then recovers his shield through Delphi and Trophonius's shrine at Lebadea, where Pausanias saw it.",
+    "stakes": "",
+    "present": [
+     "Aristomenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lebadea",
+     "modern_name": "Livadeia",
+     "certainty": "real",
+     "lat": 38.43,
+     "lon": 22.88
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 21,
+    "title": "Raid on Pharae",
+    "summary": "Aristomenes attacks Pharae by night, takes booty, and beats Anaxander's pursuing hoplites, though wounded by a javelin.",
+    "stakes": "Aristomenes risks capture or death and loss of plunder when pursued by Spartans.",
+    "present": [
+     "Aristomenes",
+     "Anaxander"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pharae (Pharis)",
+     "modern_name": "Kalamata area",
+     "certainty": "real",
+     "lat": 37.04,
+     "lon": 22.11
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 24,
+    "title": "The maidens of Caryae",
+    "summary": "Deterred from Sparta by divine apparitions, Aristomenes seizes maidens dancing at Caryae, kills unruly guards who try to violate them, and ransoms the girls unharmed.",
+    "stakes": "The maidens' honour is in danger, and Aristomenes's discipline over his men.",
+    "present": [
+     "Aristomenes",
+     "Helen",
+     "Castor",
+     "Pollux"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Caryae",
+     "modern_name": "Karyes, Laconia",
+     "certainty": "real",
+     "lat": 37.1,
+     "lon": 22.4
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian hero and commander"
+   },
+   {
+    "name": "Anaxander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of the Lacedæmonians"
+   },
+   {
+    "name": "Theoclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian seer of the Iamidæ"
+   },
+   {
+    "name": "Hecas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lacedæmonian seer"
+   },
+   {
+    "name": "Tyrtæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet who rallies the Spartans"
+   },
+   {
+    "name": "Phintas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian commander"
+   },
+   {
+    "name": "Androcles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian commander"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "god",
+    "description": "Divine twin said to sit on the pear tree"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "god",
+    "description": "Divine twin, brother of Castor"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "other",
+    "description": "Heroine whose apparition stops Aristomenes"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess honoured by the dancing maidens"
+   },
+   {
+    "name": "Trophonius",
+    "aliases": [],
+    "kind": "other",
+    "description": "Hero with an oracular shrine at Lebadea"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Castor",
+    "relation": "sibling_of",
+    "b": "Pollux",
+    "source": "outside",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pharis",
+    "canonical": "Pharæ",
+    "explanation": "Pharis is the Homeric name of the city the Spartans call Pharæ."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "The women's victory song for Aristomenes, still sung in Pausanias's day.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Heroic valour is undone by neglected divine warning, yet the hero keeps his honour, shown by protecting the captive maidens.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias draws on Messenian tradition and his own visit to Lebadea, mixing local legend with personal observation.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says he personally saw Aristomenes's shield, with its eagle, hanging at Lebadea.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "The sons of Aristodemus (Eurysthenes and Procles) were the Heraclid founders of Sparta's two royal houses; Hecas's ancestor came with them at the Dorian return.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "The Iamidæ were a prophetic family of Elis claiming descent from Iamus, son of Apollo; Cresphontes, Messene's Heraclid king, brought them to Messene.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"In the very germ\" means in their earliest stage, before the leader had fully formed or spoken them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Castor and Pollux, the Dioscuri, were Spartan patron heroes, so the seer's warning implies Messenian defeat if he passes the tree.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Helots were the Spartans' serf class, descended from conquered Laconians and Messenians; here they are enrolled as soldiers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Ribands are ribbons; the women decked Aristomenes with them as a mark of victory and honour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Consulting the Pythian Priestess at Delphi was the usual way to learn a god's will; Trophonius's oracle at Lebadea involved descending into an underground chamber.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Homer's catalogue is the list of Greek forces in the Iliad, Book 2, which names Pharis among Menelaus's Laconian towns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "\"Was fain to pursue\" means he was eager or willing to pursue, an archaic use of \"fain\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Hinder quarters\" is a delicate, old-fashioned way of saying his rear or buttocks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Helen and the Dioscuri, Castor and Pollux, were Spartan divine figures; their apparition warned him off the city.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Anaxander was a Spartan king during the Second Messenian War, with Aristomenes the great Messenian leader opposing him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Tyrtæus was an Athenian-born poet whose war songs inspired Sparta; the Great Goddesses are Demeter and Persephone, whose priests accompanied the Messenian army.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Bœotia is the region of central Greece where Lebadea lay, far from Messenia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Anaxander was a Spartan king during the Second Messenian War, as Pausanias tells it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Caryae in Laconia had a sanctuary of Artemis where maidens performed ritual dances, making it a place where girls of good families gathered.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "hyperbole",
+    "text": "Fearless acceptance of wounds and reckless rushing heighten the heroic picture of Aristomenes' picked men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "characterization",
+    "text": "Aristomenes' furious charges show him as a superhuman warrior, stronger than a single man should be.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "irony",
+    "text": "Victory is undone by a small lapse: the hero's anger makes him ignore the prophecy and lose his shield.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "foreshadowing",
+    "text": "Tyrtæus's revival of Spartan spirit anticipates the Messenians' eventual setback in the war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "narrative voice",
+    "text": "Quoting a song still known in Pausanias's day links the legend to living tradition and lends it authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "narrative voice",
+    "text": "Pausanias adds his own eyewitness testimony, presenting himself as a traveller who verifies the legend with a surviving object.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "characterization",
+    "text": "Aristomenes' refusal to permit violation, and his killing of his own men, shows him as a man of honour and discipline.",
+    "spoiler": false
+   }
+  ]
+ }
+}

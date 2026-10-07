@@ -1,0 +1,240 @@
+{
+ "section_id": "pausanias-body-292",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7269,
+  "output": 2232
+ },
+ "result": {
+  "summary": "After Leuctra, Epaminondas keeps the Spartans shut in, then lets them go, and takes Ceressus as an old oracle foretold. He then helps the Arcadians found Megalopolis and Messene, defies the law on his term as Bœotarch, fights Iphicrates, and is acquitted at Thebes.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Epaminondas and the Spartans at Leuctra",
+    "summary": "Epaminondas dismisses the other Peloponnesians but holds the Lacedæmonians, then lets them go on terms when a Spartan relief army approaches.",
+    "stakes": "The Lacedæmonians risk further defeat; Epaminondas risks fighting a fresh Spartan army on Bœotian ground.",
+    "present": [
+     "Epaminondas",
+     "Lacedæmonians"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Leuctra",
+     "modern_name": "Leuctra, Boeotia",
+     "certainty": "real",
+     "lat": 38.2,
+     "lon": 23.2
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 7,
+    "title": "Ceressus and the Delphic oracle",
+    "summary": "The Thespians flee to Ceressus. The text recalls an oracle given to the Thessalians, and Epaminondas captures the place, fulfilling it.",
+    "stakes": "The Thespians risk capture and loss of their city.",
+    "present": [
+     "Thespians",
+     "Thessalians",
+     "Epaminondas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ceressus",
+     "modern_name": "near Thespiae, Boeotia",
+     "certainty": "real",
+     "lat": 38.3,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 12,
+    "title": "Founding Megalopolis and Messene",
+    "summary": "Epaminondas allies with Argos, restores Mantinea, founds Megalopolis, defies the term-limit law and campaigns against Sparta.",
+    "stakes": "Epaminondas risks the death penalty for staying in office past his term.",
+    "present": [
+     "Epaminondas",
+     "Agesilaus",
+     "Agesipolis",
+     "Arcadians",
+     "Argives",
+     "Mantineans"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Peloponnese",
+     "modern_name": "Peloponnese, Greece",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 15,
+    "title": "Iphicrates and the acquittal",
+    "summary": "Iphicrates attacks Epaminondas near Lechæum and is routed. Epaminondas returns to Thebes and is acquitted.",
+    "stakes": "Epaminondas faces a death sentence for exceeding his office.",
+    "present": [
+     "Epaminondas",
+     "Iphicrates",
+     "Athenians"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lechæum",
+     "modern_name": "Lechaion, Corinth",
+     "certainty": "real",
+     "lat": 37.93,
+     "lon": 22.88
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban general and Bœotarch"
+   },
+   {
+    "name": "Agesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king who declined battle"
+   },
+   {
+    "name": "Agesipolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan who scattered the Mantineans into villages"
+   },
+   {
+    "name": "Iphicrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian commander, son of Timotheus"
+   },
+   {
+    "name": "Timotheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Iphicrates"
+   },
+   {
+    "name": "Scedasus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of the unfortunate daughters named in the oracle"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Timotheus",
+    "relation": "parent_of",
+    "b": "Iphicrates",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Opening of the oracle linking Leuctra to the daughters of Scedasus.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows prophecy fulfilled: the oracle about Ceressus and the loss of Dorian youth at Leuctra comes true.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It records Theban dominance after Leuctra (371 BC), including the founding of Megalopolis and Messene, which weakened Sparta.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"On conditions of war\" means under a truce or terms of surrender, not a full peace; the Spartans were let go under agreed conditions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The daughters of Scedasus were Leuctra maidens said to have been raped by Spartans and then killed themselves; the oracle recalls this crime.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Dorians\" here means the Spartans, who were Dorian Greeks; \"flower of their young men\" means their best soldiers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Agesipolis, a Spartan king, broke up Mantinea into villages in 385 BC; Epaminondas reversed this.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Bœotarch was one of the chief officers of the Bœotian federation, chosen for a one-year term.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Targeteers were light-armed troops carrying small shields (targes), also called peltasts.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The battle of Leuctra (371 BC) was the Theban victory that broke Spartan dominance in Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Megalopolis, founded about 370 BC, was meant as a strong Arcadian capital to check Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Iphicrates was a noted Athenian general, and Athens was then allied with Sparta.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "foreshadowing",
+    "text": "The oracle predicts the fall of Ceressus after Dorian defeat, anticipating Leuctra and its aftermath as fated.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "characterization",
+    "text": "Epaminondas defies a law he thinks ill-timed, showing him as bold and guided by judgment over formal rules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "The man who broke a death-penalty law is acquitted because no judge would condemn him, showing his prestige.",
+    "spoiler": false
+   }
+  ]
+ }
+}

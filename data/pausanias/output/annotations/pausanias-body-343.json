@@ -1,0 +1,366 @@
+{
+ "section_id": "pausanias-body-343",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7721,
+  "output": 2975
+ },
+ "result": {
+  "summary": "Pausanias describes the vestibule and temple of Apollo at Delphi: the Seven Wise Men's sayings, the statue of Homer with rival oracles about his birthplace, and various altars, statues and tombs. He also mentions Pindar's chair, Neoptolemus's grave, the stone given to Cronos, and the fountain Cassotis.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "The Seven Wise Men's sayings",
+    "summary": "The vestibule bears the sayings of the Seven Wise Men, who offered 'Know thyself' and 'Not too much of anything' to Apollo.",
+    "stakes": "",
+    "present": [
+     "Thales",
+     "Bias",
+     "Pittacus",
+     "Cleobulus",
+     "Solon",
+     "Chilo",
+     "Myson",
+     "Periander",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 13,
+    "title": "Homer's statue and birthplace oracles",
+    "summary": "A bronze statue of Homer stands near an oracle saying his true home is Ios; Cyprus cites another prophecy. Pausanias offers no opinion of his own.",
+    "stakes": "",
+    "present": [
+     "Homer",
+     "Clymene",
+     "Themisto",
+     "Euclus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 21,
+    "title": "Altars, tombs, stone and fountain",
+    "summary": "Pausanias lists the altar of Poseidon, the Fates, Pindar's chair, Neoptolemus's tomb, the stone of Cronos and the fountain Cassotis.",
+    "stakes": "",
+    "present": [
+     "Poseidon",
+     "Zeus",
+     "Apollo",
+     "Neoptolemus",
+     "Pindar",
+     "Cronos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Thales",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wise Man of Miletus"
+   },
+   {
+    "name": "Bias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wise Man of Priene"
+   },
+   {
+    "name": "Pittacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wise Man of Mitylene"
+   },
+   {
+    "name": "Cleobulus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wise Man of Lindus"
+   },
+   {
+    "name": "Solon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wise Man of Athens"
+   },
+   {
+    "name": "Chilo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wise Man of Sparta"
+   },
+   {
+    "name": "Myson",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Of Chenæ, Plato's seventh wise man"
+   },
+   {
+    "name": "Periander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Cypselus, usual seventh wise man"
+   },
+   {
+    "name": "Cypselus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Periander"
+   },
+   {
+    "name": "Aristo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Plato"
+   },
+   {
+    "name": "Plato",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Philosopher who names Myson"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet whose birthplace is disputed"
+   },
+   {
+    "name": "Clymene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Homer's mother according to Ios"
+   },
+   {
+    "name": "Themisto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Homer's mother according to Cyprus"
+   },
+   {
+    "name": "Euclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Prophet whose verses Cyprus cites"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of Delphi"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Held the oldest oracle at Delphi"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Arbiter of the Fates"
+   },
+   {
+    "name": "Neoptolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Achilles, slain at Delphi"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Neoptolemus"
+   },
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet who sang hymns at Delphi"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Given a stone instead of a son"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cypselus",
+    "relation": "parent_of",
+    "b": "Periander",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Aristo",
+    "relation": "parent_of",
+    "b": "Plato",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Neoptolemus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Clymene",
+    "relation": "parent_of",
+    "b": "Homer",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Themisto",
+    "relation": "parent_of",
+    "b": "Homer",
+    "source": "text",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Origin of the famous Delphic maxims 'Know thyself' and 'Nothing in excess'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "reason": "Cryptic oracle on Homer's origins, typical Delphic wording.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Delphi is presented as a store of wisdom and tradition, where moral maxims, oracles and relics gather.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Many places claimed Homer, showing how local pride competed over cultural heritage.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "'Know thyself' became one of the best-known maxims in Western philosophy, notably associated with Socrates."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes that Plato's list of the Seven Wise Men differs from the usual one by including Myson.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Plato (Protagoras) names Myson in place of Periander; lists of the Seven varied, so Pausanias flags this alternative.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "'Fortunate and unfortunate' signals the oracle's riddling style, hinting at Homer's blessed fame and his blindness and sorrows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The riddle of young boys refers to the legend that Homer died of grief at failing to solve a riddle posed by fishing boys on Ios.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "Arbiter of the Fates translates the epithets Moiragetes, meaning leader or guide of the Fates; here Zeus and Apollo stand in for the third Fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Rhea gave Cronos a stone wrapped in cloth to swallow instead of the infant Zeus; Cronos later vomited it up, hence 'voided'.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The vestibule (pronaos) of Apollo's temple at Delphi displayed maxims, including 'Know thyself,' attributed to the Seven Wise Men of early Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Neoptolemus, son of Achilles, was killed at Delphi; Pausanias elsewhere says he came to demand reparation from Apollo for his father's death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Pindar was the great Theban lyric poet of the fifth century BC, honoured at Delphi, where he composed hymns and victory odes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Cassotis was a spring at Delphi linked to the Pythia's prophetic inspiration, as Pausanias reports local belief.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "antithesis",
+    "text": "The contrast of fatherland and motherland gives the oracle a paradoxical, riddling turn, typical of Delphic pronouncements.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "metaphor",
+    "text": "Being 'ever fresh' pictures Homer's fame as a living thing that never withers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a cautious first-person witness, declining to judge Homer's origins and relying on what he has heard and read.",
+    "spoiler": false
+   }
+  ]
+ }
+}

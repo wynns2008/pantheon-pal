@@ -1,0 +1,234 @@
+{
+ "section_id": "pausanias-body-194",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7536,
+  "output": 1965
+ },
+ "result": {
+  "summary": "Pausanias describes the gymnasium complex at Elis where athletes train before Olympia, with its courses, enclosures, altars, statues and council chamber. He then gives the route to the baths along the street called Silence and explains the name through a story about Oxylus' spies.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 15,
+    "title": "The gymnasium of Elis",
+    "summary": "Pausanias tours the gymnasium: the plane-tree colonnade, the courses, Plethrium, altars, the Square, Maltho and the council chamber Lalichmium.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Achilles",
+     "Serapion"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Elis, Peloponnese",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 18,
+    "title": "Street of Silence",
+    "summary": "The route from the gymnasium to the baths passes the temple of Artemis the Lover of Youths and the street called Silence.",
+    "stakes": "",
+    "present": [
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Elis, Peloponnese",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 20,
+    "title": "Oxylus' silent spies",
+    "summary": "Scouts of Oxylus' army crept silently up to Elis, entered unseen and returned to Ætolia with their intelligence, giving the street its name.",
+    "stakes": "The spies risk discovery by the people of Elis.",
+    "present": [
+     "Oxylus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Elis, Peloponnese",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Idæan Hercules"
+    ],
+    "kind": "god",
+    "description": "son of Amphitryon, who exercised in the Colonnade; honoured with an altar as Champion"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a cenotaph, mourned by the women of Elis"
+   },
+   {
+    "name": "Serapion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alexandrian boxer honoured for giving corn to Elis"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple as Lover of Youths"
+   },
+   {
+    "name": "Oxylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader whose army's spies entered Elis"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hercules"
+   },
+   {
+    "name": "Eros",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with an altar and statue in the gymnasium"
+   },
+   {
+    "name": "Anteros",
+    "aliases": [],
+    "kind": "god",
+    "description": "god paired with Eros, shown trying to take his palm"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Amphitryon",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Idæan Hercules",
+    "canonical": "Hercules",
+    "explanation": "Hercules worshipped under the title Champion with Idæan epithet."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 20,
+    "reason": "Concludes the charming origin story for the street's name.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias catalogues the civic and religious setting of athletic training, showing how sport, cult and local history were intertwined.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The gymnasium reflects Elis's role as administrator of the Olympic Games, with officials training and judging athletes beforehand.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The 217th Olympiad dates Serapion's crown to about AD 89.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Colonnade\" here translates the Greek name of the enclosure; the plane-tree walks, not stone columns, are meant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Umpires\" are the Hellanodikai, the Elean judges who ran the Olympic games and supervised training.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Anteros means \"Love returned\" or counter-love; the Athenians and Eleans honoured him as Eros's counterpart or rival.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "A cenotaph is an empty tomb, a monument to a person buried elsewhere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Custos Rotulorum\" is an English county office, the translator's rendering of an Elean official who kept records.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "The 217th Olympiad falls in the first century AD; Olympiads were four-year cycles used for dating.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Oxylus was the Ætolian leader who led the Heracleidae's return and took Elis; this is his earlier scouting expedition.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "The pentathlum was the five-event contest: running, jumping, discus, javelin and wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Statues of Zeus, called Zanes, were paid for from fines imposed on athletes who cheated.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "symbolism",
+    "text": "The group of Eros and Anteros struggling over a palm branch visualizes rivalry in love as an athletic contest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "etymological tale",
+    "text": "The closing line ties the street's name to the spies' silence, giving the place an origin story.",
+    "spoiler": false
+   }
+  ]
+ }
+}

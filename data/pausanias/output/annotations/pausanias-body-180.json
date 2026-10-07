@@ -1,0 +1,445 @@
+{
+ "section_id": "pausanias-body-180",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8141,
+  "output": 3669
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of the victor statues at Olympia, naming athletes and their sculptors. He disputes the identity of the Gelon who dedicated a chariot, and tells how the boxer Cleomedes of Astypalæa went mad, vanished into a chest and was honoured as a hero.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Statues of boy and men victors",
+    "summary": "Pausanias lists statues of Theognetus, Xenocles, Alcetus, Aristeus, Chimon and Philles with their sculptors. He notes the story of Taurosthenes' apparition at Ægina.",
+    "stakes": "",
+    "present": [
+     "Theognetus",
+     "Ptolichus",
+     "Xenocles",
+     "Alcetus",
+     "Cleon",
+     "Polycletus",
+     "Aristeus",
+     "Pantias",
+     "Chimon",
+     "Naucydes",
+     "Taurosthenes",
+     "Philles",
+     "Cratinus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 13,
+    "title": "Which Gelon dedicated the chariot?",
+    "summary": "Pausanias argues from the inscription and the dates that the dedicator was Gelon of Gela, not the Syracusan tyrant. Glaucias made the chariot and statue.",
+    "stakes": "",
+    "present": [
+     "Gelon",
+     "Glaucias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 18,
+    "title": "Cleomedes of Astypalæa",
+    "summary": "Cleomedes kills Iccus in a boxing match, is denied the prize and goes mad, then collapses a school roof. He hides in a chest in Athene's temple and vanishes; Delphi orders him honoured as a hero.",
+    "stakes": "Cleomedes faces death by stoning from the citizens after killing the schoolboys.",
+    "present": [
+     "Cleomedes",
+     "Iccus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Astypalæa",
+     "modern_name": "Astypalaia, Greece",
+     "certainty": "real",
+     "lat": 36.5489,
+     "lon": 26.35
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 23,
+    "title": "Philo and Agametor",
+    "summary": "Pausanias mentions the statue of Philo with Simonides' couplet, and that of Agametor.",
+    "stakes": "",
+    "present": [
+     "Philo",
+     "Glaucias",
+     "Simonides",
+     "Agametor"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Theognetus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æginetan boy wrestling victor"
+   },
+   {
+    "name": "Ptolichus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æginetan sculptor, pupil of Synnoon"
+   },
+   {
+    "name": "Synnoon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor, father of Ptolichus"
+   },
+   {
+    "name": "Aristocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicyonian sculptor, brother of Canachus"
+   },
+   {
+    "name": "Canachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "famous sculptor"
+   },
+   {
+    "name": "Xenocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boy wrestling victor from Mænalus"
+   },
+   {
+    "name": "Alcetus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian boy boxing victor from Clitor, son of Alcinous"
+   },
+   {
+    "name": "Alcinous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Alcetus"
+   },
+   {
+    "name": "Cleon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor"
+   },
+   {
+    "name": "Polycletus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor"
+   },
+   {
+    "name": "Aristeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive long-course victor, son of Chimon"
+   },
+   {
+    "name": "Pantias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Chian sculptor, pupil of Sostratus"
+   },
+   {
+    "name": "Sostratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor, father of Pantias"
+   },
+   {
+    "name": "Chimon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive wrestling victor"
+   },
+   {
+    "name": "Naucydes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Chimon's statues"
+   },
+   {
+    "name": "Taurosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æginetan wrestler whose apparition announced his victory"
+   },
+   {
+    "name": "Philles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean boy wrestling victor"
+   },
+   {
+    "name": "Cratinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan sculptor"
+   },
+   {
+    "name": "Gelon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Gelon of Gela, dedicator of the chariot, son of Dinomenes"
+   },
+   {
+    "name": "Dinomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Gelon"
+   },
+   {
+    "name": "Glaucias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æginetan sculptor"
+   },
+   {
+    "name": "Cleomedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boxer of Astypalæa honoured as a hero"
+   },
+   {
+    "name": "Iccus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Epidaurian boxer killed by Cleomedes"
+   },
+   {
+    "name": "Philo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boxer from Corcyra, son of Glaucus"
+   },
+   {
+    "name": "Glaucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Philo"
+   },
+   {
+    "name": "Simonides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet, son of Leoprepes"
+   },
+   {
+    "name": "Leoprepes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Simonides"
+   },
+   {
+    "name": "Agametor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mantinean boy boxing victor"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose temple at Astypalæa sheltered Cleomedes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Synnoon",
+    "relation": "parent_of",
+    "b": "Ptolichus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Alcinous",
+    "relation": "parent_of",
+    "b": "Alcetus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Sostratus",
+    "relation": "parent_of",
+    "b": "Pantias",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Chimon",
+    "relation": "parent_of",
+    "b": "Aristeus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Dinomenes",
+    "relation": "parent_of",
+    "b": "Gelon",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Aristocles",
+    "relation": "sibling_of",
+    "b": "Canachus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Leoprepes",
+    "relation": "parent_of",
+    "b": "Simonides",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Glaucus",
+    "relation": "parent_of",
+    "b": "Philo",
+    "source": "text",
+    "evidence_sentence": 22
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "The Delphic oracle declares Cleomedes the last of the heroes, to be worshipped as no longer mortal.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias catalogues statues but digresses into local legends and critical checks, showing his blend of guidebook and antiquarian scholarship.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Cleomedes story reflects Greek hero cult, in which exceptional or disappearing figures could be honoured as heroes on Delphi's advice.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias corrects earlier writers by comparing the inscription with Olympiad and Athenian archon dates.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "Pausanias admits he cannot explain why the statue holds pine fruit (a cone) and pomegranate, and guesses at a local Æginetan legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "The first man is unnamed; Elis did not register him because his victory came in the trotting-race (a mule-cart event), which was later abolished.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The temple of Peace in Rome was built by Vespasian and housed many Greek artworks taken from Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The apparition is a double: Taurosthenes' likeness appeared at Ægina the same day, announcing his Olympic victory far away.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "Dating by the Athenian Archon and Olympiad year was the standard way to fix events; Pausanias uses it to prove his chronology.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Umpires translates the Olympic judges (Hellanodicae), who could strip a victor of his prize for a foul.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "The oracle declares Cleomedes the last of the heroes, meaning he is to be worshipped as a demigod rather than mourned as a man.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 8,
+    "text": "Gelon, tyrant of Syracuse, was a famous Sicilian ruler who defeated the Carthaginians; Pausanias distinguishes him from a namesake of Gela.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The Pythian Priestess was the priestess of Apollo at Delphi, whose oracles settled questions of cult and honours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Simonides of Ceos was a celebrated lyric poet who wrote many epigrams for victors' statues.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "characterization",
+    "text": "Pausanias presents himself as a critical historian who weighs evidence and corrects earlier writers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "narrative voice",
+    "text": "Pausanias distances himself from the tale with 'they say', reporting local tradition while building a vivid, escalating story of grief and madness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "The searchers break open the chest and find it empty, a striking reversal of what a hiding man should leave behind.",
+    "spoiler": false
+   }
+  ]
+ }
+}

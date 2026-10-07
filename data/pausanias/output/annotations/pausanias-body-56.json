@@ -1,0 +1,436 @@
+{
+ "section_id": "pausanias-body-56",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9047,
+  "output": 3582
+ },
+ "result": {
+  "summary": "Pausanias finishes describing Titane's temples and rites, then travels the coast road toward Sicyon and its harbours. He enters Phliasia and relates its early traditions: the founder Aras, his children Aoris and Aræthyrea, and Phlias.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Titane: Athene and the winds",
+    "summary": "At Titane stand a temple of Athene with an old wooden statue, and an altar of the winds where a priest performs nightly yearly rites.",
+    "stakes": "",
+    "present": [
+     "Athene",
+     "Coronis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Titane",
+     "modern_name": "Titani, Corinthia",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 22.7
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 8,
+    "title": "Coast road toward Sicyon",
+    "summary": "Pausanias describes a roofless temple of Hera, a temple of Poseidon, and the rivers Helisson and Sythas.",
+    "stakes": "",
+    "present": [
+     "Hera",
+     "Prœtus",
+     "Abas",
+     "Poseidon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sicyonia",
+     "modern_name": "Sikyona, Corinthia",
+     "certainty": "real",
+     "lat": 37.98,
+     "lon": 22.72
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 13,
+    "title": "Introducing Phliasia",
+    "summary": "Pausanias locates Phlius and argues the Phliasians were originally Argives, not Arcadians.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Phlius",
+     "modern_name": "Fliounta, Corinthia",
+     "certainty": "real",
+     "lat": 37.85,
+     "lon": 22.65
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 23,
+    "title": "Aras and his children",
+    "summary": "Aras founds Arantia; Asopus finds the river; Aoris and Aræthyrea rename the city, and their tombs receive libations.",
+    "stakes": "",
+    "present": [
+     "Aras",
+     "Asopus",
+     "Aoris",
+     "Aræthyrea",
+     "Dysaules",
+     "Celusa",
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Arantine hill",
+     "modern_name": "Phlius area, Corinthia",
+     "certainty": "traditional",
+     "lat": 37.85,
+     "lon": 22.65
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 26,
+    "title": "The parentage of Phlias",
+    "summary": "Pausanias rejects the Argive story of Phlias's descent and cites a poet to give his parents.",
+    "stakes": "",
+    "present": [
+     "Phlias",
+     "Dionysus",
+     "Aræthyrea",
+     "Chthonophyle",
+     "Andromedas",
+     "Cisus",
+     "Temenus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Phlius",
+     "modern_name": "Fliounta, Corinthia",
+     "certainty": "real",
+     "lat": 37.85,
+     "lon": 22.65
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Titane"
+   },
+   {
+    "name": "Coronis",
+    "aliases": [],
+    "kind": "other",
+    "description": "figure whose statue is carried to Athene's temple"
+   },
+   {
+    "name": "Medea",
+    "aliases": [],
+    "kind": "other",
+    "description": "sorceress whose incantations the priest chants"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a roofless temple"
+   },
+   {
+    "name": "Prœtus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Abas, builder of the temple"
+   },
+   {
+    "name": "Abas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Prœtus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple; father of Asopus"
+   },
+   {
+    "name": "Aras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first inhabitant of Phliasia"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Celusa and Poseidon, found the river"
+   },
+   {
+    "name": "Celusa",
+    "aliases": [],
+    "kind": "other",
+    "description": "mother of Asopus"
+   },
+   {
+    "name": "Dysaules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eleusinian buried at Celeæ"
+   },
+   {
+    "name": "Aoris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aras, hunter"
+   },
+   {
+    "name": "Aræthyrea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Aras, hunter; city renamed for her"
+   },
+   {
+    "name": "Phlias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "eponym of the land, Argonaut"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Phlias"
+   },
+   {
+    "name": "Chthonophyle",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Phlias"
+   },
+   {
+    "name": "Andromedas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phlias and Chthonophyle"
+   },
+   {
+    "name": "Cisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Temenus, in Argive tradition father of Phlias"
+   },
+   {
+    "name": "Temenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cisus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Abas",
+    "relation": "parent_of",
+    "b": "Prœtus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Celusa",
+    "relation": "parent_of",
+    "b": "Asopus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Asopus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Aras",
+    "relation": "parent_of",
+    "b": "Aoris",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Aras",
+    "relation": "parent_of",
+    "b": "Aræthyrea",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Aoris",
+    "relation": "sibling_of",
+    "b": "Aræthyrea",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Dionysus",
+    "relation": "parent_of",
+    "b": "Phlias",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Phlias",
+    "relation": "spouse_of",
+    "b": "Chthonophyle",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Phlias",
+    "relation": "parent_of",
+    "b": "Andromedas",
+    "source": "text",
+    "evidence_sentence": 26
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Rhodian poet",
+    "canonical": "Apollonius of Rhodes",
+    "explanation": "The poet quoted is the author of the Argonautica."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias combines travel description with local tradition, weighing rival accounts of origins and preferring evidence from poets such as Homer.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The winds rite and Medea's incantations show surviving local magical cult, while the Phliasian origin debate reflects Greek concern with ancestry and Dorian migration.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Coronis was the mother of Asclepius by Apollo. Her statue is carried to Athene's temple in a ritual connected with the Asclepius cult at Titane.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Medea, the sorceress of Colchis, was famed for magic and charms, so her incantations suit a rite meant to calm violent winds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"With neither statue nor roof\" means the temple stood empty and open to the sky, a ruin or unfinished building.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Prœtus, son of Abas, was a legendary king of Argos and Tiryns, so this ruined temple is given a heroic founder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The Catalogue of Ships in the Iliad lists the Arcadian contingent. Pausanias uses its omission of Phlius as evidence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The return of the Heraclidae was the legendary Dorian invasion of the Peloponnese by Heracles' descendants, which changed the population of many cities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Autochthon means 'sprung from the soil': a native whose people had always lived in the land, not immigrants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Homer's Catalogue of Ships in the Iliad lists the contingents that sailed with Agamemnon to Ilium (Troy).",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "Libations are offerings of wine, milk or water poured out for gods or the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "The Rhodian poet is Apollonius of Rhodes, author of the Argonautica, the epic of the Argo's voyage.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Winds were worshipped as powerful divine forces, especially by sailors and farmers, and were appeased with sacrifices.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "A stade was about 600 Greek feet, roughly 180 metres, so forty stades is a little under five miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "The Phliasians are the people of Phlius, a small city in the northeastern Peloponnese, whose early history Pausanias is recounting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Ceres is the goddess of grain and harvest, the Roman name for the Greek Demeter; the rites honour her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Dionysus is the god of wine, which fits Phlias being called wealthy through his father.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "characterization",
+    "text": "The secret rites and borrowed magic of Medea give the priest an eerie, half-magical character and make the winds seem like beings to be tamed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "narrative voice",
+    "text": "Pausanias presents himself as a cautious reporter who gives local traditions but marks them as the Phliasians' own account.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "Etiology",
+    "text": "The city's changed name is explained by a family death, a typical way Pausanias accounts for place names.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "Narrative voice",
+    "text": "Pausanias speaks in the first person, weighing sources and rejecting the Argive tradition, which shows his critical, evidence-based method.",
+    "spoiler": false
+   }
+  ]
+ }
+}

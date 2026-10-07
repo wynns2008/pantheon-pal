@@ -1,0 +1,310 @@
+{
+ "section_id": "pausanias-body-273",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7818,
+  "output": 2808
+ },
+ "result": {
+  "summary": "Pausanias notes the bare statue bases of Philopoemen at Megalopolis and sketches his life: his upbringing, character and model Epaminondas. He then recounts his early deeds: saving the Megalopolitans from Cleomenes, fighting at Sellasia, serving in Crete, and winning a cavalry victory at the Larisus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Statue bases at Megalopolis",
+    "summary": "Near the market-place stand a theatre and the bases of vanished bronze statues, one inscribed as Philopoemen's.",
+    "stakes": "",
+    "present": [
+     "Philopoemen"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Megalopolis",
+     "modern_name": "Megalopoli, Arcadia",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 22.14
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 9,
+    "title": "Philopoemen's youth and character",
+    "summary": "Orphaned young, Philopoemen was raised by Cleander and taught by tutors. He was strong, plain, fond of farming, hunting and reading, and modelled himself on Epaminondas, though hot-tempered.",
+    "stakes": "",
+    "present": [
+     "Philopoemen",
+     "Craugis",
+     "Cleander",
+     "Megalophanes",
+     "Ecdelus",
+     "Epaminondas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Megalopolis",
+     "modern_name": "Megalopoli, Arcadia",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 22.14
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 11,
+    "title": "Cleomenes takes Megalopolis",
+    "summary": "Philopoemen leads most of the people to safety in Messene and persuades them to return only with arms, not under a treaty.",
+    "stakes": "The survival and freedom of the citizens of Megalopolis.",
+    "present": [
+     "Philopoemen",
+     "Cleomenes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Messene",
+     "modern_name": "Ancient Messene, Messenia",
+     "certainty": "real",
+     "lat": 37.18,
+     "lon": 21.92
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 14,
+    "title": "Battle of Sellasia",
+    "summary": "Philopoemen fights on foot, is speared through both thighs, and survives. Antigonus admires him and invites him to Macedonia.",
+    "stakes": "Philopoemen's life from a severe wound in battle.",
+    "present": [
+     "Philopoemen",
+     "Cleomenes",
+     "Antigonus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sellasia",
+     "modern_name": "near Sparta, Laconia",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 16,
+    "title": "Crete and cavalry command",
+    "summary": "He declines Antigonus, serves as a mercenary captain in Crete, then returns and makes the Achaean cavalry the best in Greece.",
+    "stakes": "",
+    "present": [
+     "Philopoemen",
+     "Antigonus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Crete",
+     "modern_name": "Crete",
+     "certainty": "real",
+     "lat": 35.24,
+     "lon": 24.81
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 17,
+    "title": "Victory at the Larisus",
+    "summary": "Philopoemen kills the Elean cavalry commander Demophantus and routs the Aetolian and Elean horse.",
+    "stakes": "Victory for the Achaeans against Elis and the Aetolians.",
+    "present": [
+     "Philopoemen",
+     "Demophantus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "river Larisus",
+     "modern_name": "Larisos river, Elis",
+     "certainty": "real",
+     "lat": 37.95,
+     "lon": 21.6
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Philopoemen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Megalopolitan general honoured by the Greeks"
+   },
+   {
+    "name": "Craugis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Philopoemen's noble father"
+   },
+   {
+    "name": "Cleander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mantinean exile, Philopoemen's guardian"
+   },
+   {
+    "name": "Megalophanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tutor of Philopoemen"
+   },
+   {
+    "name": "Ecdelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tutor of Philopoemen"
+   },
+   {
+    "name": "Arcesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of pupils of Pitanaeus"
+   },
+   {
+    "name": "Pitanaeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "teacher of the sons of Arcesilaus"
+   },
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Philopoemen's model, mild and self-controlled"
+   },
+   {
+    "name": "Cleomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king who captured Megalopolis"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian leader allied with the Achaeans"
+   },
+   {
+    "name": "Demophantus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean cavalry commander killed by Philopoemen"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Craugis",
+    "relation": "parent_of",
+    "b": "Philopoemen",
+    "source": "text",
+    "evidence_sentence": 3
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Shows Philopoemen's ideal of emulating Epaminondas, the model for his career.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias presents Philopoemen as a Greek hero shaped by education and by a model, Epaminondas, yet limited by his temper.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage reflects Arcadian resistance to Sparta and the Achaean League's wars in the third century BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes the statues are gone and only inscribed bases remain, a sign of how much he relied on inscriptions.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "An elegiac couplet is a two-line verse form, a hexameter followed by a pentameter, commonly used for inscriptions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"On a footing of old friendship\" means Cleander and Craugis' family were long-standing friends.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Sophists were professional teachers of rhetoric and philosophy; here the term simply means notable learned writers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "Returning \"with arms in their hands\" means as free, armed men, not as subjects accepting terms from Cleomenes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"Fall forwards... the spear snapped off\": his fall onto his feet's momentum broke the shaft, leaving the head in his thighs, as sentence 13 shows.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 8,
+    "text": "Epaminondas was the Theban general who defeated Sparta at Leuctra and helped found Megalopolis; he was a model of virtue and generalship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Cleomenes was the Spartan king who seized and sacked Megalopolis in 222 BC; Messene was an ally of the Arcadian city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Sellasia (222 BC) was the battle where Antigonus of Macedonia and the Achaeans defeated Cleomenes of Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The Aetolians were rivals of the Achaean League, and Elis was allied with them against the Achaeans.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "characterization",
+    "text": "Philopoemen's emulation of Epaminondas shows his ideals, while the admitted shortfall makes him a more human figure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "antithesis",
+    "text": "The contrast between Epaminondas' mildness and Philopoemen's hot temper sharpens the comparison and names his flaw.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "narrative voice",
+    "text": "The brisk summary compresses years of achievement into one plain statement, typical of Pausanias' economical reporting.",
+    "spoiler": false
+   }
+  ]
+ }
+}

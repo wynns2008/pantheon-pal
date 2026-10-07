@@ -1,0 +1,430 @@
+{
+ "section_id": "pausanias-body-190",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10707,
+  "output": 3651
+ },
+ "result": {
+  "summary": "Pausanias describes the treasuries at Olympia in the Altis, north of the temple of Hera. He lists each treasury, its builders, and its dedications, with digressions on Tartessus, the Myanes, Sybaris and Metapontum.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 15,
+    "title": "Treasury of the Sicyonians",
+    "summary": "Pausanias describes the Sicyonian treasury built by Myron, its bronze chambers, inscriptions, quoits and armour, and discusses where the bronze came from and who the Myanes were.",
+    "stakes": "",
+    "present": [
+     "Myron",
+     "Thucydides"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis at Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 18,
+    "title": "Other offerings in the treasury",
+    "summary": "The treasury also holds the sword of Pelops, the horn of Amalthea dedicated by Miltiades, and a boxwood Apollo.",
+    "stakes": "",
+    "present": [
+     "Miltiades",
+     "Cimon",
+     "Pelops",
+     "Patrocles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis at Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 32,
+    "title": "Carthaginian to Metapontine treasuries",
+    "summary": "Pausanias passes through the treasuries of the Carthaginians, Epidamnians, Sybarites, Libyans of Cyrene, Selinuntians and Metapontines, noting their dedications and the fates of their cities.",
+    "stakes": "",
+    "present": [
+     "Gelon",
+     "Theocles",
+     "Pyrrhus",
+     "Dionysus",
+     "Endymion",
+     "Hercules",
+     "Atlas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis at Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 42,
+    "title": "Megarian and Gelan treasuries",
+    "summary": "The Megarian treasury shows Hercules fighting Achelous and the gods against the giants; the last treasury, of Gela, has lost its statues.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Achelous",
+     "Zeus",
+     "Deianira",
+     "Ares",
+     "Athene",
+     "Dontas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis at Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Myron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Sicyon who built the Sicyonian treasury"
+   },
+   {
+    "name": "Thucydides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "historian cited for the Locrian towns"
+   },
+   {
+    "name": "Miltiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cimon, ruler of the Thracian Chersonese"
+   },
+   {
+    "name": "Cimon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Miltiades"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "owner of the sword kept at Olympia"
+   },
+   {
+    "name": "Patrocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "of Croton, dedicator of the Apollo statue"
+   },
+   {
+    "name": "Gelon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Syracusan who defeated the Phoenicians"
+   },
+   {
+    "name": "Theocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "carver, son of Hegylus"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "builder of the Epidamnian treasury"
+   },
+   {
+    "name": "Dontas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lacedaemonian sculptor, pupil of Dipoenus and Scyllis"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god to whom offerings were made"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose statue is of boxwood"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "statue of ivory"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero shown fighting Achelous"
+   },
+   {
+    "name": "Achelous",
+    "aliases": [],
+    "kind": "god",
+    "description": "river god fighting Hercules"
+   },
+   {
+    "name": "Deianira",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "figure in the Megarian group"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "helps Achelous in the carving"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "stands allied with Hercules"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "creature",
+    "description": "holds up the world in carving"
+   },
+   {
+    "name": "Endymion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ivory statue at Metapontum treasury"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cimon",
+    "relation": "parent_of",
+    "b": "Miltiades",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Hegylus",
+    "relation": "parent_of",
+    "b": "Theocles",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Pyrrhus",
+    "relation": "parent_of",
+    "b": "Lacrates",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Pyrrhus",
+    "relation": "parent_of",
+    "b": "Hermon",
+    "source": "text",
+    "evidence_sentence": 24
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Bætis",
+    "canonical": "Tartessus",
+    "explanation": "The river Tartessus was later called Bætis."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Old inscription on the horn of Amalthea recording Miltiades' capture of a Chersonese fort.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The catalogue shows Olympia as a pan-Hellenic showcase where cities displayed wealth and victories to Zeus.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Treasuries from Italy, Sicily, Libya and Greece reveal the reach of Greek colonization, and Pausanias notes cities later ruined.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias saw these treasuries in the 2nd century AD, so he records offerings centuries old.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Tufa is a soft, porous limestone, easily cut for building. Altis was the sacred grove and precinct of Zeus at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Doric and Ionic are two Greek architectural styles; Doric was plainer, Ionic more slender with scroll capitals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Brass\" here translates a Greek word for bronze or copper alloy; the translator uses it loosely.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "Bætis is the Roman name of the Guadalquivir; the derivation \"from ebb and flow\" is Pausanias' report, not certain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "A talent was a large weight of metal or sum of money; the inscription states the amount of bronze or value.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Pentathlum is the pentathlon: five events including discus, jumping, javelin, running and wrestling. The quoits are discuses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "Amalthea's horn is the cornucopia, the horn of plenty; in myth Amalthea nursed the infant Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Phœnicians here means the Carthaginians, who were of Phoenician descent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Hercules' eleventh labour was fetching the golden apples of the Hesperides, guarded by a dragon; Atlas holds up the heavens or world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "Navvies are manual laborers who dug canals and harbours; an English term used by the translator.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "Siceliotes are the Greek colonists living in Sicily.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "allusion",
+    "text": "Achelous, a river god, wrestled Hercules for Deianira's hand; Hercules won and married her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "allusion",
+    "text": "Pausanias dates the victory by early Athenian lifelong archons, before yearly archons and before Elis recorded Olympiads.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Treasuries were small buildings in sanctuaries where city-states stored offerings to the god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Myron was a tyrant of Sicyon, in the Peloponnese, who won the chariot race at Olympia and dedicated the treasury.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Thucydides, the Athenian historian, lists Locrian towns in his History; Pausanias uses him to identify the Myanes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Miltiades, son of Cimon, ruled the Thracian Chersonese in the sixth century BC; he was an ancestor of the Miltiades of Marathon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Treasuries at Olympia were small buildings where Greek cities stored offerings to Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "The temple of Hera at Olympia was very old and served as a repository for many dedications.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "Metapontum was a Greek colony in southern Italy; Pausanias admits ignorance of why it declined.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as an eyewitness yet openly withholds judgment on the Elean tradition, showing his cautious, inquiring persona.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "characterization",
+    "text": "The confident \"in my opinion\" and the explanation of worn letters show Pausanias as a scholarly reasoner who argues from evidence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Prosopopoeia",
+    "text": "The horn speaks in the first person through its inscription, as if the object itself were the dedicator's voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "Understatement",
+    "text": "The brief closing remark on missing statues quietly conveys loss and decay, ending the catalogue on a note of absence.",
+    "spoiler": false
+   }
+  ]
+ }
+}

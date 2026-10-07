@@ -1,0 +1,308 @@
+{
+ "section_id": "pausanias-body-334",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7798,
+  "output": 2770
+ },
+ "result": {
+  "summary": "Pausanias continues listing offerings at Delphi: statues of Apollo from various Greek cities, Phryne's gilt statue, and the Athenian palm with Athene. He recounts Phaennis's oracle about the Galati and Attalus, Clitodemus's tale of crows stripping the palm, and Battus of Cyrene.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Offerings of Greek cities",
+    "summary": "Pausanias lists statues of Phryne, Apollo, an ox and others given after victories by various peoples.",
+    "stakes": "",
+    "present": [
+     "Phryne",
+     "Praxiteles",
+     "Apollo",
+     "Mardonius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 10,
+    "title": "Phaennis's oracle on the Galati",
+    "summary": "Pausanias quotes Phaennis's prophecy that the Galati would invade Asia and be destroyed by Attalus.",
+    "stakes": "Asian cities face destruction by the invading Galati.",
+    "present": [
+     "Phaennis",
+     "Attalus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Hellespont",
+     "modern_name": "Dardanelles",
+     "certainty": "real",
+     "lat": 40.2,
+     "lon": 26.4
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 17,
+    "title": "Athenian palm and the crows",
+    "summary": "Pausanias describes the Pheraean and Athenian dedications and the gold stripped from Athene's statue, which Clitodemus ascribes to crows before the Sicilian expedition.",
+    "stakes": "The Athenians are warned off the fatal Sicilian expedition.",
+    "present": [
+     "Athene",
+     "Clitodemus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 23,
+    "title": "Battus of Cyrene",
+    "summary": "The Cyrenaeans' group of Battus is described, with the tale of his speech cured by fear of a lion, and another Apollo from the Phocian fine.",
+    "stakes": "Battus's speech impediment.",
+    "present": [
+     "Battus",
+     "Cyrene",
+     "Libya",
+     "Amphion"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Cyrene",
+     "modern_name": "Shahhat, Libya",
+     "certainty": "real",
+     "lat": 32.82,
+     "lon": 21.86
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Phryne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "courtesan who dedicated a gilt statue of herself"
+   },
+   {
+    "name": "Praxiteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor and lover of Phryne"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of Delphi, honored with many statues"
+   },
+   {
+    "name": "Mardonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian general, son of Gobryas"
+   },
+   {
+    "name": "Phaennis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "prophetess who foretold the Celtic invasion"
+   },
+   {
+    "name": "Attalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Pergamus, the bull of the oracle"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose gilt statue stands on a bronze palm"
+   },
+   {
+    "name": "Clitodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "oldest writer on Athenian antiquities"
+   },
+   {
+    "name": "Battus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of Cyrene who led settlers from Thera"
+   },
+   {
+    "name": "Cyrene",
+    "aliases": [],
+    "kind": "other",
+    "description": "personified city, charioteer in the group"
+   },
+   {
+    "name": "Libya",
+    "aliases": [],
+    "kind": "other",
+    "description": "personified land crowning Battus"
+   },
+   {
+    "name": "Amphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan sculptor, son of Acestor"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Praxiteles",
+    "relation": "lover_of",
+    "b": "Phryne",
+    "source": "text",
+    "evidence_sentence": 0
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Sitalcas",
+    "canonical": "Apollo",
+    "explanation": "Delphians' name for the 35-cubit statue of Apollo."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Oracle of Phaennis foretelling the bull-horned Attalus defeating the Galati.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Offerings at Delphi record Greek rivalries and victories, and the sanctuary serves as a public memory of war.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Galati (Gauls) invaded Greece and Asia Minor in the 270s BC; Attalus of Pergamum defeated them.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias cites Clitodemus, an early Atthidographer whose works survive only in fragments.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Sitalcas is a Delphian name for the statue; a cubit is roughly 18 inches, so the figure was colossal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Cronion means son of Cronus, i.e. Jove (the Greek Zeus); the oracle thus calls Attalus's helper Zeus-reared.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Attalus I of Pergamus defeated the Galati in the 230s BC; the 'bull-horned' title is attached to him in the oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The Eurymedon was a river in Pamphylia where Cimon defeated the Persians by land and sea, about 466 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "The 'owls' are the bird sacred to Athene; the palm's fruit was imitated in gilt bronze.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Battus was said to stammer; the story says fear of the lion freed his voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "Greek oracle line: 'Be of good courage, Bull-horned; you shall have kingly honour, and children's children, but after them no more children.'",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The Epidaurians' offering followed the Persian wars; the Megarians' followed a local victory over Athens at Nisæa, Megara's port.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "The Amphictyones were the league of states that administered Delphi and punished the Phocians for farming sacred land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Phaennis was a prophetess; the Galati (Celts, Gauls) invaded Greece and Asia Minor in the 270s BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "The Athenian expedition to Sicily (415 BC) ended in disaster; the crows are told as an omen against it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Battus founded Cyrene in Libya about 630 BC, leading settlers from the island of Thera.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "foreshadowing",
+    "text": "The oracle's prophecy anticipates the Galatian invasion of Asia, a prediction Pausanias presents as later fulfilled.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "metaphor",
+    "text": "Attalus is figured as a bull, a helper raised by Zeus, making the king a divine champion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "foreshadowing",
+    "text": "The crows stripping the gold act as an omen of the coming Sicilian catastrophe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "personification",
+    "text": "Cyrene as charioteer and Libya as crowning figure turn places into human figures, making the group an allegory of the colony.",
+    "spoiler": false
+   }
+  ]
+ }
+}

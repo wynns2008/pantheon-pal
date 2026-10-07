@@ -1,0 +1,494 @@
+{
+ "section_id": "aeschylus-body-24",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 17491,
+  "output": 4756
+ },
+ "result": {
+  "summary": "The play's setting and argument are given, then Elders of Persia voice dread over the long silence from Xerxes' army in Greece, listing its commanders and its bridge across the Hellespont. Queen Atossa arrives, confesses her fear, and tells of a dream of two women yoked to Xerxes' car, and of an omen of an eagle attacked by a falcon.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 12,
+    "title": "Setting and argument",
+    "summary": "The editor gives the scene, date and an argument summarizing the whole play.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Susa",
+     "modern_name": "Shush, Iran",
+     "certainty": "real",
+     "lat": 32.19,
+     "lon": 48.25
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 40,
+    "title": "The Elders fear for the army",
+    "summary": "The Chorus names the Persian leaders and nations who went to Greece, describes the bridge over the Hellespont, and fears disaster and the snares of divine Delusion.",
+    "stakes": "The Elders fear the army and Xerxes may be lost, leaving Persia desolate and its families in mourning.",
+    "present": [
+     "Chorus",
+     "Xerxes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Susa",
+     "modern_name": "Shush, Iran",
+     "certainty": "real",
+     "lat": 32.19,
+     "lon": 48.25
+    }
+   },
+   {
+    "start_sentence": 41,
+    "end_sentence": 58,
+    "title": "Atossa arrives",
+    "summary": "The Elders greet the Queen Mother, who admits her anxiety that wealth may have overturned Darius' prosperity, and asks their counsel.",
+    "stakes": "Atossa fears for her absent son and the prosperity of the house.",
+    "present": [
+     "Atossa",
+     "Chorus",
+     "Xerxes",
+     "Darius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Susa",
+     "modern_name": "Shush, Iran",
+     "certainty": "real",
+     "lat": 32.19,
+     "lon": 48.25
+    }
+   },
+   {
+    "start_sentence": 59,
+    "end_sentence": 75,
+    "title": "Atossa's dream and omen",
+    "summary": "Atossa recounts her dream of two sisters yoked to Xerxes' car, one of whom breaks free and throws him down, and the omen of the eagle and falcon at the altar.",
+    "stakes": "The dream and omen seem to portend ruin for Xerxes.",
+    "present": [
+     "Atossa",
+     "Xerxes",
+     "Darius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Persian palace, Susa",
+     "modern_name": "Shush, Iran",
+     "certainty": "real",
+     "lat": 32.19,
+     "lon": 48.25
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "young King of Persia, leading the army against Greece"
+   },
+   {
+    "name": "Darius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "late king, father of Xerxes and husband of Atossa"
+   },
+   {
+    "name": "Atossa",
+    "aliases": [
+     "Queen Mother"
+    ],
+    "kind": "mortal",
+    "description": "Queen Mother of Persia, mother of Xerxes"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [
+     "Elders"
+    ],
+    "kind": "mortal",
+    "description": "Persian elders left as guardians of the realm"
+   },
+   {
+    "name": "Helle",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Athamas, for whom the Hellespont is named"
+   },
+   {
+    "name": "Athamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Helle"
+   },
+   {
+    "name": "Phoebus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose altar the eagle flees to"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Darius",
+    "relation": "parent_of",
+    "b": "Xerxes",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Atossa",
+    "relation": "parent_of",
+    "b": "Xerxes",
+    "source": "text",
+    "evidence_sentence": 47
+   },
+   {
+    "a": "Darius",
+    "relation": "spouse_of",
+    "b": "Atossa",
+    "source": "text",
+    "evidence_sentence": 47
+   },
+   {
+    "a": "Athamas",
+    "relation": "parent_of",
+    "b": "Helle",
+    "source": "text",
+    "evidence_sentence": 26
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Queen Mother",
+    "canonical": "Atossa",
+    "explanation": "Her title as mother of King Xerxes."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 32,
+    "reason": "Expresses the play's theme that divine guile ensnares mortals who think themselves safe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "reason": "Personifies Delusion luring men into inescapable snares.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The opening builds dread through catalogues of proud Persian power set against fear of divine Delusion, foreshadowing hubris and downfall.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Produced in 472 B.C., only eight years after Salamis, it shows the Persian side of a war the Athenian audience had just fought.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Persians is the oldest surviving Greek tragedy and the only one built on recent history rather than myth."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The play won first prize at the City Dionysia of 472 B.C., and Pericles is said to have paid for the chorus.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The city Dionysia was Athens' spring festival of Dionysus, where tragedies were performed in competition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Transparent fiction\" means the Elders' meeting is an obvious pretext; they gather to discuss the king's fate while pretending it is routine council business.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Propitiate\" means to appease or win the favor of; \"ward off\" means to avert.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "A \"Courier\" is a messenger who carries news; here he is the one who reports the disaster.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Infatuate\" is archaic for infatuated, meaning blinded by folly; \"deprecates\" means expresses strong disapproval of.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Hellas is the Greek name for Greece; the Persians here are the Chorus of elders left to guard the kingdom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Susa, Agbatana (Ecbatana) and Cissa are major Persian royal cities; Cissia was the region around Susa.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Helle, daughter of Athamas, fell from the golden ram into the strait, which was named the Hellespont after her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "'Race sprung from gold' refers to the Persian royal line's legendary descent from Perseus, whose mother Danae was visited by Jove as golden rain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "phrasing",
+    "text": "'Guile of God' means a deception sent by the divine, which mortals cannot foresee or evade.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "word",
+    "text": "'Mellay' (line 30 sense: melee) means close hand-to-hand fighting; here 'thud of hands on breast' shows mourning gestures.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "phrasing",
+    "text": "\"Effulgence like unto the eyes of the gods\" means a radiance like the gods' gaze; the Chorus compares the Queen's splendour to divine brightness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "word",
+    "text": "\"Deep-girdled\" describes women who wear their belts low, a mark of dignified, richly dressed noblewomen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "kind": "phrasing",
+    "text": "\"Persians' god\" calls Darius divine, as the Persian king was revered almost as a god; \"its ancient fortune\" refers to the host's long-standing good luck.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "phrasing",
+    "text": "The syntax is tangled: Atossa means wealth without men is not to be honoured, and men without wealth lack the light of prosperity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "kind": "phrasing",
+    "text": "\"Light of my eyes\" means Xerxes, her son, who is away at war; the \"lord\" is the king, the house's guiding presence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "phrasing",
+    "text": "\"Not twice hast thou to point out\" means she need not repeat any request; they will obey at once.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "kind": "allusion",
+    "text": "The Ionians were Greeks of the Asiatic coast and islands; \"the land of the Ionians\" stands for Greece generally, as Persians used the term.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "kind": "word",
+    "text": "\"Dorian attire\" means plain Greek dress; Dorians were a major Greek people, so the second woman represents Hellas.",
+    "spoiler": false
+   },
+   {
+    "sentence": 65,
+    "kind": "word",
+    "text": "\"Twain\" is an archaic word for \"two\"; \"fancy\" here means the dreamer's imagination or impression.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "kind": "phrasing",
+    "text": "\"Divinities that avert evil\" refers to protective gods, offered cakes and incense to turn away the bad omen of the dream.",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "kind": "allusion",
+    "text": "Phoebus is Apollo, whose altar offers sanctuary; the eagle seeking refuge there shows how helpless it is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "kind": "phrasing",
+    "text": "\"Not answerable to the State\" means a king is not held accountable by the people for failure; he keeps his throne regardless.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Darius I's Persian expedition was defeated at Marathon in 490 B.C.; Xerxes' invasion of Greece came ten years later, in 480 B.C.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Atossa, the Queen Mother, was Darius' wife and Xerxes' mother; her dream opens the play's sense of foreboding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Plataea (479 B.C.) was the land battle where the Greeks destroyed the remaining Persian army, after the naval defeat at Salamis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Xerxes, son of Darius, led the Persian invasion of Greece in 480 BC; the play was staged in 472 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Tmolus is a mountain in Lydia, in western Asia Minor, near Sardis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Xerxes bridged the Hellespont with boats lashed by cables so his army could cross from Asia to Europe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "The 'spur' joining the continents is the bridge over the Hellespont, which separates Asia from Europe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "text": "Atossa, daughter of Cyrus, was wife of Darius and mother of Xerxes, who is leading the Persian invasion of Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "text": "Her fear is that Persian wealth, or the army fighting abroad, may have undone what Darius built; the audience knows Xerxes' expedition failed at Salamis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "text": "Darius, Xerxes' father and the previous king, is dead; his appearance in the dream foreshadows his later appearance as a ghost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 73,
+    "text": "The falcon and eagle are commonly read as the Greeks and Persians; the eagle was also a royal Persian emblem.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "foreshadowing",
+    "text": "The queen's ominous dream of disaster anticipates the news of defeat that follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "hubris",
+    "text": "The summary frames Xerxes' downfall as the result of presumptuous pride and sacrilege, the classic tragic pattern of arrogance followed by ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "foreshadowing",
+    "text": "The Chorus's anxious presage of disaster prepares for the news of defeat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "metaphor",
+    "text": "The bridge is imagined as a yoke on the sea's neck, treating the sea as a beast of burden, hinting at Xerxes' overreach.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "metaphor",
+    "text": "Xerxes' glare is likened to a deadly dragon's, portraying him as fierce and monstrous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "personification",
+    "text": "Delusion acts as a hunter, luring men into snares with a pleasing appearance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "simile",
+    "text": "The departing soldiers are compared to a swarm of bees, conveying their number and common purpose.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "metaphor",
+    "text": "The Queen is imagined as a shining light, linking her to the gods and setting up the later light and darkness imagery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 51,
+    "device": "foreshadowing",
+    "text": "Atossa's unease about overturned prosperity hints at the disaster to come, which the audience already knows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 53,
+    "device": "metaphor",
+    "text": "Light stands for a living, present ruler; the house is dim without its lord, expressing her worry about Xerxes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 63,
+    "device": "symbolism",
+    "text": "The two sisters symbolize Persia and Greece, related yet opposed, setting up the play's central conflict.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "device": "foreshadowing",
+    "text": "The unruly sister breaking the yoke and throwing Xerxes down hints at Greek resistance and Persian defeat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 73,
+    "device": "metaphor",
+    "text": "The eagle cowering under the falcon's attack stands for the powerful Persian empire being overcome, an omen of reversal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 75,
+    "device": "irony",
+    "text": "Atossa's reassuring political reasoning clashes with her fear, and the audience knows Xerxes' failure has already come.",
+    "spoiler": false
+   }
+  ]
+ }
+}

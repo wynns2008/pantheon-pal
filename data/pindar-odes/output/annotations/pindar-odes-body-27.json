@@ -1,0 +1,362 @@
+{
+ "section_id": "pindar-odes-body-27",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8731,
+  "output": 3036
+ },
+ "result": {
+  "summary": "Pindar praises Chromios of Aitna for his chariot victory at Nemea, beginning with Ortygia and Sicily as a gift of Zeus to Persephone. He then turns to the myth of the infant Herakles strangling Hera's snakes and Teiresias' prophecy of his labors and eventual bliss on Olympus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Editorial introduction to the ode",
+    "summary": "The editor identifies Chromios, the date of the victory and the setting of the ode's performance.",
+    "stakes": "",
+    "present": [
+     "Chromios"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ortygia",
+     "modern_name": "Ortygia, Syracuse",
+     "certainty": "real",
+     "lat": 37.0607,
+     "lon": 15.2931
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 17,
+    "title": "Song at the house of Chromios",
+    "summary": "Pindar hails Ortygia, praises Chromios' victory, recalls Sicily as Persephone's gift, and speaks of hospitality and generosity.",
+    "stakes": "",
+    "present": [
+     "Chromios"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ortygia",
+     "modern_name": "Ortygia, Syracuse",
+     "certainty": "real",
+     "lat": 37.0607,
+     "lon": 15.2931
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 22,
+    "title": "Infant Herakles and the snakes",
+    "summary": "Hera sends two snakes to the newborn twins; Herakles strangles them, and Alkmene and Amphitryon rush in amazed.",
+    "stakes": "The infant Herakles and his twin face death from Hera's snakes.",
+    "present": [
+     "Herakles",
+     "Hera",
+     "Alkmene",
+     "Amphitryon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3213,
+     "lon": 23.3182
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 24,
+    "title": "Teiresias prophesies Herakles' fate",
+    "summary": "Teiresias foretells Herakles' victories over monsters and giants and his final rest and marriage to Hebe on Olympus.",
+    "stakes": "",
+    "present": [
+     "Teiresias",
+     "Amphitryon",
+     "Herakles"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3213,
+     "lon": 23.3182
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chromios",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Victor in the chariot race, son of Agesidamos"
+   },
+   {
+    "name": "Agesidamos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Chromios"
+   },
+   {
+    "name": "Hieron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler of Syracuse, brother-in-law of Chromios"
+   },
+   {
+    "name": "Herakles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Zeus who strangled snakes as an infant"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "son of Kronos",
+     "Aitnaian Zeus"
+    ],
+    "kind": "god",
+    "description": "King of the gods, father of Herakles"
+   },
+   {
+    "name": "Kronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Zeus"
+   },
+   {
+    "name": "Persephone",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Given Sicily by Zeus"
+   },
+   {
+    "name": "Hera",
+    "aliases": [
+     "queen of gods"
+    ],
+    "kind": "goddess",
+    "description": "Sends snakes against the infant Herakles"
+   },
+   {
+    "name": "Alkmene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Herakles"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Husband of Alkmene, rushes in with sword"
+   },
+   {
+    "name": "Teiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Blind seer who prophesies Herakles' future"
+   },
+   {
+    "name": "Hebe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Future bride of Herakles"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess whose couch Ortygia is called"
+   },
+   {
+    "name": "Alpheos",
+    "aliases": [],
+    "kind": "other",
+    "description": "River whose resting-place is Ortygia"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Herakles",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Kronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Alkmene",
+    "relation": "parent_of",
+    "b": "Herakles",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Alkmene",
+    "relation": "spouse_of",
+    "b": "Amphitryon",
+    "source": "outside",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Herakles",
+    "relation": "spouse_of",
+    "b": "Hebe",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Agesidamos",
+    "relation": "parent_of",
+    "b": "Chromios",
+    "source": "text",
+    "evidence_sentence": 16
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Aitnaian Zeus",
+    "canonical": "Zeus",
+    "explanation": "Zeus worshipped in connection with the city of Aitna."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 14,
+    "reason": "Pindar's counsel to follow one's own nature and walk straight paths.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "reason": "Vivid image of the infant Herakles strangling the serpents.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode links Chromios' victory to Herakles, the model of inborn excellence. The myth shows nature and destiny shaping greatness.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pindar celebrates Sicilian aristocratic patrons such as Hieron's circle, tying their prestige to heroic ancestry and Hieron's new city of Aitna.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The infant Herakles strangling snakes became a favorite subject in Greek and Roman art and later literature."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The ode was likely performed outside Chromios' house, as the text itself says Pindar 'stands at the doors of the hall'.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Arethusa was a nymph who fled the river-god Alpheos and surfaced as a spring at Ortygia, linking Sicily to Greece's Alpheos river.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Couch of Artemis\" and \"sister of Delos\" call Ortygia a resting-place of the goddess and a twin of her birthplace, the island Delos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Fain\" means gladly willing or eager.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Sicily was given to Persephone by Zeus as a wedding gift, according to tradition; bowing his hair means nodding assent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Olympia's olive-leaves were the victor's crown at the Olympic games, so the Sicilians are praised as Olympic winners.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "The \"mouldering fire of reproach\" means smouldering envy or blame, which Chromios' generous friends quench.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "\"Sons of Kadmos\" are the Thebans, descended from Thebes' founder Kadmos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Phlegra is where the gods fought the giants; Herakles aided them, since the giants could only be killed with a mortal's help.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Hieron was the tyrant of Syracuse; Chromios was connected to him by marriage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Hera, Zeus's wife, hated Herakles as the son of Zeus and the mortal Alkmene. His twin was Iphikles, son of Amphitryon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Teiresias was the blind seer of Thebes, famous in Greek legend for his unfailing prophecies.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "metaphor",
+    "text": "Poetic praise is imagined as shooting arrows at a target, a common Pindaric image of the poet's aim at truth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "characterization",
+    "text": "The infant's instant strength and boldness establish Herakles as a hero from birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "gnomic statement",
+    "text": "The general maxim about grief for one's own house turns Amphitryon's panic into a universal truth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "foreshadowing",
+    "text": "Teiresias' prophecy sketches Herakles' future labors, battle with the giants and final reward in Olympus.",
+    "spoiler": false
+   }
+  ]
+ }
+}

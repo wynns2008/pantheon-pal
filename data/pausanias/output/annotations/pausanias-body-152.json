@@ -1,0 +1,545 @@
+{
+ "section_id": "pausanias-body-152",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9794,
+  "output": 4386
+ },
+ "result": {
+  "summary": "Pausanias traces the early history of the Olympic games, from Clymenus and Endymion through Pelops, Hercules and Iphitus. He then lists the events added over time, with their first winners.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "Mythic founders of the games",
+    "summary": "Clymenus, Endymion, Pelops, Amythaon, Pelias and Neleus, Augeas and Hercules each hold games at Olympia. Early winners are named, and the games lapse after Oxylus.",
+    "stakes": "",
+    "present": [
+     "Clymenus",
+     "Endymion",
+     "Pelops",
+     "Amythaon",
+     "Pelias",
+     "Neleus",
+     "Augeas",
+     "Hercules",
+     "Iolaus",
+     "Iasius",
+     "Castor",
+     "Pollux",
+     "Oxylus",
+     "Menelaus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 30,
+    "title": "Events added after Iphitus",
+    "summary": "After the revival under Iphitus, the Eleans gradually added events. Pausanias names each event's first winner, from Corœbus to Phædimus.",
+    "stakes": "",
+    "present": [
+     "Iphitus",
+     "Corœbus",
+     "Hypenus",
+     "Acanthus",
+     "Lampis",
+     "Eurybatus",
+     "Onomastus",
+     "Pagondas",
+     "Crauxidas",
+     "Lygdamis",
+     "Hipposthenes",
+     "Polynices",
+     "Philetas",
+     "Damaretus",
+     "Evagoras",
+     "Sybariades",
+     "Belistiche",
+     "Tlepolemus",
+     "Phædimus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Clymenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan descendant of Idæan Hercules who founded games at Olympia"
+   },
+   {
+    "name": "Cardys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Clymenus"
+   },
+   {
+    "name": "Endymion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Aethlius who deposed Clymenus"
+   },
+   {
+    "name": "Aethlius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Endymion, son of Æolus"
+   },
+   {
+    "name": "Æolus",
+    "aliases": [
+     "Zeus"
+    ],
+    "kind": "mortal",
+    "description": "Said to be surnamed Zeus, father of Aethlius"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Made the Olympian contest more famous"
+   },
+   {
+    "name": "Amythaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Cretheus, uncle of Endymion, held games"
+   },
+   {
+    "name": "Cretheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Amythaon"
+   },
+   {
+    "name": "Pelias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Held games jointly with Neleus"
+   },
+   {
+    "name": "Neleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Held games jointly with Pelias"
+   },
+   {
+    "name": "Augeas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Elis who held games"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Idæan Hercules"
+    ],
+    "kind": "god",
+    "description": "Son of Amphitryon, held games and won wrestling and pancratium"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Hercules"
+   },
+   {
+    "name": "Iolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Charioteer of Hercules, won the chariot race"
+   },
+   {
+    "name": "Iasius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian winner of the riding race"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Winner in running"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Winner in boxing"
+   },
+   {
+    "name": "Oxylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King who established games"
+   },
+   {
+    "name": "Iphitus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Reviver of the Olympic games"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "In Homer, yoked Agamemnon's mare with his own"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Owner of the horse Æthe"
+   },
+   {
+    "name": "Corœbus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean, first winner of the footrace after the revival"
+   },
+   {
+    "name": "Hypenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Pisan winner of the double course"
+   },
+   {
+    "name": "Acanthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Second in the double course"
+   },
+   {
+    "name": "Lampis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan winner of the pentathlum"
+   },
+   {
+    "name": "Eurybatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan wrestling winner"
+   },
+   {
+    "name": "Onomastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boxing winner from Smyrna"
+   },
+   {
+    "name": "Pagondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban winner of the full-grown horse race"
+   },
+   {
+    "name": "Crauxidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Crannonian whose horse won the riding race"
+   },
+   {
+    "name": "Lygdamis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Syracusan pancratium winner, said to be huge"
+   },
+   {
+    "name": "Hipposthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan boys' wrestling winner"
+   },
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean boys' running winner"
+   },
+   {
+    "name": "Philetas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sybarite boys' boxing winner"
+   },
+   {
+    "name": "Damaretus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Winner of the race in armour"
+   },
+   {
+    "name": "Evagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean winner of the pair-horse race"
+   },
+   {
+    "name": "Sybariades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan winner of the colt chariot race"
+   },
+   {
+    "name": "Belistiche",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian woman who won the colt-pair race"
+   },
+   {
+    "name": "Tlepolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lycian winner of the colt riding race"
+   },
+   {
+    "name": "Phædimus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æolian from the Troad, winner of boys' pancratium"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cardys",
+    "relation": "parent_of",
+    "b": "Clymenus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Aethlius",
+    "relation": "parent_of",
+    "b": "Endymion",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Amphitryon",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Cretheus",
+    "relation": "parent_of",
+    "b": "Amythaon",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Æolus",
+    "relation": "parent_of",
+    "b": "Aethlius",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Castor",
+    "relation": "sibling_of",
+    "b": "Pollux",
+    "source": "outside",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Zeus",
+    "canonical": "Æolus",
+    "explanation": "Tradition says Aethlius's father Æolus was surnamed Zeus."
+   },
+   {
+    "alias": "Idæan Hercules",
+    "canonical": "Hercules",
+    "explanation": "Cretan Hercules, one of the Curetes, distinguished from the Theban Hercules."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "Shows how the revived games recovered their ancient programme piece by piece.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias shows the games as an evolving institution, blending myth and recorded history, with founders giving way to dated victors.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Dating by Olympiads and listing winners from many cities reflects how Greeks reckoned time and civic pride through athletics.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Olympiad lists like these became the basis of Greek chronology and influenced the modern Olympic Games."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Belistiche, a woman from Macedonia, is recorded as an Olympic victor as a chariot owner, as owners rather than drivers won.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Deucalion's flood is the Greek myth's great deluge; Pausanias uses it as a starting point for dating the earliest mythic events.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Curetes: divine attendants linked with the infant Zeus on Crete; here Idæan Hercules is one of the Idæan Dactyls, not the son of Amphitryon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Æolus surnamed Zeus\" means Aethlius was said to be the son of Zeus by way of a tradition that identified Æolus with Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "The sentence is awkward: it means the only victors Hercules crowned were those listed, Iolaus winning with Hercules' borrowed mares.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Riding race: a race on horseback, distinct from the chariot race.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Pancratium: a brutal combined contest of wrestling and boxing with very few rules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "The \"double course\" (diaulos) was a race of two stadium lengths, down the track and back.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "\"Wild olive crown\" refers to the victor's prize at Olympia, a wreath cut from the sacred wild olive tree.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "The pentathlum was a five-event contest; the traditional events were running, jumping, discus, javelin and wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "The pancratium combined boxing and wrestling with very few restrictions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "\"307th Olympiad\" is evidently a textual error; the boys' contests were introduced in the 37th Olympiad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "The race in heavy armour (hoplitodromos) was run by men carrying a shield and wearing a helmet.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Pelops was the hero for whom the Peloponnese is named; his chariot-race victory is the traditional story behind the Olympic games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Homer's Iliad Book 23 describes the funeral games for Patroclus, including a chariot race in which Menelaus drives Agamemnon's mare Æthe.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Castor and Pollux were the twin Dioscuri, sons of Zeus or Tyndareus, famed as horseman and boxer respectively.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Iphitus of Elis was the king traditionally credited with reviving the Olympic games, conventionally dated to 776 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Smyrna was a city on the coast of Asia Minor, held at different times by Aeolians and Ionians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Crannon was a city in Thessaly, a region famous for its horses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Belistiche's victory is notable because women could not compete as athletes; they could win in equestrian events as owners.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "characterization",
+    "text": "Pausanias offers an antiquarian aside, justifying the borrowed horses as a custom of the heroic age and showing his habit of explaining the past through Homer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "narrative voice",
+    "text": "The flat, chronicle-like closing sentence compresses a long lapse into one clause, typical of Pausanias' catalogue style.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "personification",
+    "text": "The games are described almost as a memory slowly returning, as if the festival itself were recovering from forgetting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "narrative voice",
+    "text": "Pausanias distances himself from a local legend, showing his habit of reporting tradition while openly doubting it.",
+    "spoiler": false
+   }
+  ]
+ }
+}

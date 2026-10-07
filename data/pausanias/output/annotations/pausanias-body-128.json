@@ -1,0 +1,337 @@
+{
+ "section_id": "pausanias-body-128",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10006,
+  "output": 3117
+ },
+ "result": {
+  "summary": "In the 11th year of the siege, the oracle about the he-goat drinking from the Neda is read by Theoclus as a wild fig tree, so Aristomenes hides the sacred records on Mount Ithome. Then a Spartan slave herdsman, who has seduced a Messenian's wife, learns that the guards have left their posts in the rain and betrays this to his master Emperamus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "The oracle of the he-goat",
+    "summary": "The Pythian Priestess had warned the Messenians that Messene would end when a he-goat drank from the Neda. They feared literal goats.",
+    "stakes": "The Messenians face the fall of Messene as foretold by the oracle.",
+    "present": [
+     "Aristomenes",
+     "Theoclus",
+     "Pythian Priestess"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 11,
+    "title": "The fig tree and buried records",
+    "summary": "Theoclus identifies the wild fig tree on the Neda as the he-goat. Aristomenes buries the sacred records on Mount Ithome and prays to the gods to guard them.",
+    "stakes": "Losing the sacred records would mean Messene's permanent ruin and the loss of hope of return.",
+    "present": [
+     "Theoclus",
+     "Aristomenes",
+     "Zeus of Ithome"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Ithome",
+     "modern_name": "Mount Ithome",
+     "certainty": "real",
+     "lat": 37.1767,
+     "lon": 21.9227
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 19,
+    "title": "The herdsman's adultery",
+    "summary": "A slave herdsman of Emperamus seduces a Messenian's wife near the Neda and visits her whenever her husband is on guard duty.",
+    "stakes": "The Messenians' security is endangered by a deserter's access to their camp.",
+    "present": [
+     "Herdsman",
+     "Emperamus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eira",
+     "modern_name": "Mount Ira",
+     "certainty": "traditional",
+     "lat": 37.2,
+     "lon": 21.85
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 30,
+    "title": "Rainy night and betrayal",
+    "summary": "Heavy rain drives the guards from the citadel, and Aristomenes is wounded and cannot make his rounds. The herdsman overhears the husband and reveals the weakness to Emperamus.",
+    "stakes": "Eira is left unguarded and could be captured by the Lacedaemonians.",
+    "present": [
+     "Herdsman",
+     "Aristomenes",
+     "Euryalus",
+     "Emperamus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eira",
+     "modern_name": "Mount Ira",
+     "certainty": "traditional",
+     "lat": 37.2,
+     "lon": 21.85
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian leader, wounded rescuing a merchant friend"
+   },
+   {
+    "name": "Theoclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian seer who interprets the oracle"
+   },
+   {
+    "name": "Pythian Priestess",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Delphic oracle who gave the he-goat prophecy"
+   },
+   {
+    "name": "Lycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Pandion, author of oracles about the records"
+   },
+   {
+    "name": "Pandion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Lycus"
+   },
+   {
+    "name": "Zeus of Ithome",
+    "aliases": [],
+    "kind": "god",
+    "description": "God invoked to witness the buried records"
+   },
+   {
+    "name": "Emperamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan commander of the besieging forces"
+   },
+   {
+    "name": "Herdsman",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Slave of Emperamus who betrays Eira"
+   },
+   {
+    "name": "Euryalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan leading the capture of the merchant"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Lycus",
+    "source": "text",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Olynthe",
+    "canonical": "Tragus",
+    "explanation": "Both mean the wild fig tree; the Messenians call it Tragus, 'He-Goat'."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "The riddling oracle about the he-goat drinking from the Neda foretells Messene's fall.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Oracles are read wrongly until a wise interpreter finds their true sense, and fate cannot be avoided.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Small private failings, adultery and a neglected watch, bring down a great city, as with Troy.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "The Great Trench was the site of a Messenian defeat in the war against Sparta; the disaster prompted this consultation of Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"I cease to guard Messene\" means the god will withdraw protection; the oracle is phrased in riddling verse, typical of Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Olynthe is a Greek name for the wild fig; Tragus means he-goat, so the Messenian dialect name makes the riddle work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Arcana are secrets or hidden sacred things; here, the sacred records kept for Messene's future.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Keep her under\" means keep Messene subjugated permanently.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Refers to Paris's seduction of Helen, which brought the Trojan War and Troy's destruction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Eira is the mountain stronghold where the Messenians made their last stand against Sparta; the Neda is a river nearby.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Laconia is the territory of Sparta; 'Lacedæmonians' is another name for the Spartans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "'Improvised fortifications' means hastily built defences, lacking proper battlements (parapets) or turrets (small towers).",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Cephallenia is an Ionian island; Apteræan bowmen came from Aptera in Crete, serving as Spartan mercenaries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "The wife hides the herdsman and over-welcomes her husband to avert suspicion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "'Paramour' means a lover in an illicit affair.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Eira was the Messenian mountain stronghold held against Sparta in the Second Messenian War, led by Aristomenes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "The Pythian Priestess was the priestess of Apollo at Delphi, who delivered oracles in his name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Mount Ithome was the Messenians' sacred citadel mountain, with a shrine of Zeus of Ithome; the Lacedæmonians are the Spartans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Emperamus is a Spartan of note; the herdsman is his slave, so his desertion is a slave's flight to the Messenians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Aristomenes is the Messenian leader and hero of the Second Messenian War, whose nightly rounds kept the guards alert.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Spartan kings normally led armies, so a commander other than the kings leading the siege is notable.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "Riddle",
+    "text": "The oracle hides its meaning in a seemingly absurd image, so the Messenians misread it literally.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "Dramatic irony",
+    "text": "The Messenians fear real goats while the narrator tells us the god meant something else entirely.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "Personification",
+    "text": "The tree bends and touches the water as if drinking, making the oracle's image visible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Symbolism",
+    "text": "The buried records stand for Messene's identity and its hope of return from exile.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "allusion",
+    "text": "Comparing the Messenians' fall to Troy's lends the episode epic weight and frames private desire as a cause of public ruin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "foreshadowing",
+    "text": "The storm and the lack of defences hint that the guards' carelessness will prove disastrous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "dramatic irony",
+    "text": "The husband confides the secret to his wife, unaware that her hidden lover hears it; the reader sees the danger he cannot.",
+    "spoiler": false
+   }
+  ]
+ }
+}

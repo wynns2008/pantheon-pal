@@ -1,0 +1,322 @@
+{
+ "section_id": "aeschylus-body-10",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11287,
+  "output": 2854
+ },
+ "result": {
+  "summary": "The Chorus sings of women who destroyed their kin or husbands, then says Justice and Vengeance are bringing Orestes home. Orestes, disguised as a Phocian stranger, comes to the palace and tells Clytaemestra that Orestes is dead.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 17,
+    "title": "Chorus on women's crimes",
+    "summary": "The Chorus recalls Althaea, Scylla and the Lemnian women as examples of terrible deeds. It ends by saying Justice and Vengeance are bringing the son home.",
+    "stakes": "",
+    "present": [
+     "Chorus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos, before the palace",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 56,
+    "title": "Orestes' false news",
+    "summary": "Orestes, in disguise, knocks and is received by Clytaemestra. He says a man named Strophius asked him to report Orestes' death, and she welcomes him as a guest.",
+    "stakes": "Orestes risks discovery while gaining entry to the house of his enemies.",
+    "present": [
+     "Orestes",
+     "Pylades",
+     "Servant",
+     "Clytaemestra"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Palace at Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "women who sing of crime and justice"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "returning son, posing as a Daulian stranger"
+   },
+   {
+    "name": "Pylades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Orestes' companion"
+   },
+   {
+    "name": "Clytaemestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "queen who receives the stranger"
+   },
+   {
+    "name": "Servant",
+    "aliases": [
+     "Porter"
+    ],
+    "kind": "mortal",
+    "description": "palace porter"
+   },
+   {
+    "name": "Strophius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phocian who supposedly sent the message"
+   },
+   {
+    "name": "Aegisthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "master of the house, mentioned"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan king whose gift bribed Scylla"
+   },
+   {
+    "name": "Nisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king betrayed by his daughter"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who overtook Scylla"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "sovereign god whose majesty is honoured"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Thestius",
+    "relation": "parent_of",
+    "b": "Althaea",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Vivid image of Justice, announcing coming vengeance.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode links female crime to the house's curse while promising that Justice will repay old bloodshed.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Orestes' disguise and false news of his death deceive Clytaemestra, as Apollo's plan requires.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Lights hung aloft\" refers to meteors and fiery phenomena in the sky, listed among the world's terrors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Twixt\" is a contraction of \"betwixt,\" meaning between.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Althaea, daughter of Thestius, burned the brand on which her son Meleager's life depended, after he killed her brothers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "This is Scylla, daughter of Nisus king of Megara, who cut her father's magic lock of hair, bribed by Minos, on whom the city's safety depended.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Reft\" is the archaic past tense of \"reave,\" to seize or rob.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Hermes, as guide of the dead, overtook Nisus: he died after his daughter's betrayal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The Lemnian women killed their husbands on the island of Lemnos; \"Lemnian deeds\" became a byword for atrocity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "\"If by Aegisthus' will it offers welcome\" means: if the house, under Aegisthus' rule, receives strangers at all. Orestes pointedly names the usurper.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "\"Drop anchor\" is a sailing image for stopping at an inn; \"the car of Night\" pictures Night as a chariot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "Daulis was a town in Phocis, central Greece. Phocis is where Orestes was secretly raised, so his false identity stays close to the truth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "allusion",
+    "text": "The bronze urn of ashes is the invented proof of death; Greeks cremated the dead and kept the ashes in urns.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "allusion",
+    "text": "The Curse is the inherited doom on the house of Atreus, here treated as a hunter that strikes from afar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "kind": "word",
+    "text": "\"Guerdon\" means reward or recompense.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Orestes, Pylades and Electra leave to carry out the plan to kill Clytemnestra; the Chorus of libation-bearing women fills the interval with song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The \"marriage void of love\" is Clytemnestra's with Agamemnon, whom she killed on his return from Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The \"son\" is Orestes, who returns to avenge his father Agamemnon's murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Orestes has returned to Argos in secret to avenge his father Agamemnon. Pylades is his loyal friend, who barely speaks in the play.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Orestes asks for the master, Aegisthus, since he intends to kill him. Clytaemestra, Orestes' mother, answers instead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Strophius was king of Phocis and Pylades' father. In the tradition he sheltered the young Orestes in exile.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "catalogue",
+    "text": "The song opens with a list of natural terrors, building toward the claim that human, especially female, passion is worse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "epithet",
+    "text": "\"Dog-hearted\" condemns Scylla as shameless and ruthless in a single compound image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "rhetorical question",
+    "text": "The Chorus asks whether its examples are fair, pressing the audience to apply them to Clytemnestra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "metaphor",
+    "text": "Justice as an anvil and Destiny as a smith forging a sword present vengeance as fixed and inevitable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "personification",
+    "text": "Vengeance is imagined as a brooding spirit leading Orestes home, foreshadowing the coming matricide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "device": "dramatic irony",
+    "text": "The audience knows the speaker is Orestes, so he delivers news of his own death to his mother, who does not recognize him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "device": "metaphor",
+    "text": "The Curse is imagined as an archer whose arrows reach far, so even those sent to safety are struck.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "device": "rhetorical question",
+    "text": "Orestes' courteous question flatters his hosts and hides his purpose, helping him keep up the disguise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 56,
+    "device": "foreshadowing",
+    "text": "Clytaemestra's plan to tell the master leads to Aegisthus coming unguarded, which sets up his death.",
+    "spoiler": false
+   }
+  ]
+ }
+}

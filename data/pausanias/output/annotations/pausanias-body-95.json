@@ -1,0 +1,454 @@
+{
+ "section_id": "pausanias-body-95",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8161,
+  "output": 3619
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Sparta, describing tombs, temples and statues near Scias and in the city. He records local traditions about Castor and Pollux, Carneus and the Carnean Apollo, Dionysus, and Hera. He ends with the wrestler Etoemocles.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Tombs near Scias",
+    "summary": "Pausanias notes the tomb of Cynortas and the monument of Castor, and discusses where Castor and Pollux were buried.",
+    "stakes": "",
+    "present": [
+     "Cynortas",
+     "Castor",
+     "Pollux",
+     "Idas",
+     "Lynceus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Scias",
+     "modern_name": "Sparta, Laconia",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 10,
+    "title": "Proserpine, Carneus and Aphetaeus",
+    "summary": "Temples of Proserpine and Carnean Apollo are described, with rival stories of how Carneus was honoured and named, and the statue of Aphetaeus.",
+    "stakes": "The Dorians face the wrath of Apollo after the murder of his prophet Carnus.",
+    "present": [
+     "Proserpine",
+     "Orpheus",
+     "Abaris",
+     "Carneus",
+     "Crius",
+     "Carnus",
+     "Hippotes",
+     "Apollo",
+     "Leto",
+     "Praxilla",
+     "Aphetaeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta, Laconia",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 16,
+    "title": "Ambulian altars and Dionysus",
+    "summary": "Altars of the Ambulian gods, the hill Colona, rites for Dionysus and shrines of Zeus Euanemus and Pleuron are described.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Athene",
+     "Castor",
+     "Pollux",
+     "Dionysus",
+     "Pleuron",
+     "Thestius",
+     "Leda"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta, Laconia",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 21,
+    "title": "Temples of Hera and a wrestler",
+    "summary": "Temples of Argive and Hyperchirian Hera on the hill, and a statue of the wrestler Etoemocles.",
+    "stakes": "",
+    "present": [
+     "Eurydice",
+     "Hera",
+     "Aphrodite",
+     "Etoemocles",
+     "Hipposthenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta, Laconia",
+     "certainty": "real",
+     "lat": 37.074,
+     "lon": 22.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cynortas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amyclas, buried near Scias"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "god",
+    "description": "Spartan hero later reckoned a god"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "god",
+    "description": "brother of Castor, honoured as a god"
+   },
+   {
+    "name": "Idas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "fought Castor and Pollux"
+   },
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "fought Castor and Pollux"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "worshipped as Saviour at Sparta"
+   },
+   {
+    "name": "Orpheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thracian said to have built her temple"
+   },
+   {
+    "name": "Abaris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hyperborean said to have built her temple"
+   },
+   {
+    "name": "Carneus",
+    "aliases": [
+     "Œcetes"
+    ],
+    "kind": "god",
+    "description": "honoured at Sparta, tied to Apollo"
+   },
+   {
+    "name": "Crius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of the prophet Theocles, Spartan"
+   },
+   {
+    "name": "Carnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Acarnanian prophet of Apollo, slain"
+   },
+   {
+    "name": "Hippotes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phylas, killed Carnus"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Carnean Apollo"
+    ],
+    "kind": "god",
+    "description": "god whose wrath the Dorians appeased"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "helped raise Carneus"
+   },
+   {
+    "name": "Praxilla",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poetess who wrote of Carneus"
+   },
+   {
+    "name": "Aphetaeus",
+    "aliases": [],
+    "kind": "other",
+    "description": "statue marking the suitors' race start"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Ambulian Zeus"
+    ],
+    "kind": "god",
+    "description": "worshipped under several titles in Sparta"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Ambulian Athene"
+    ],
+    "kind": "goddess",
+    "description": "worshipped with an altar"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god honoured with races by women"
+   },
+   {
+    "name": "Pleuron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a chapel, ancestor of Tyndareus' sons"
+   },
+   {
+    "name": "Thestius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Leda"
+   },
+   {
+    "name": "Leda",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Thestius"
+   },
+   {
+    "name": "Eurydice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Lacedæmon, wife of Acrisius"
+   },
+   {
+    "name": "Hera",
+    "aliases": [
+     "Argive Hera",
+     "Hyperchirian Hera",
+     "Aphrodite Hera"
+    ],
+    "kind": "goddess",
+    "description": "worshipped in Spartan temples"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a Spartan temple"
+   },
+   {
+    "name": "Etœmocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wrestling victor at Olympia"
+   },
+   {
+    "name": "Hipposthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wrestling victor, father of Etœmocles"
+   },
+   {
+    "name": "Acrisius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Abas, husband of Eurydice"
+   },
+   {
+    "name": "Lacedæmon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Eurydice"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hipposthenes",
+    "relation": "parent_of",
+    "b": "Etœmocles",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Thestius",
+    "relation": "parent_of",
+    "b": "Leda",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Lacedæmon",
+    "relation": "parent_of",
+    "b": "Eurydice",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Eurydice",
+    "relation": "spouse_of",
+    "b": "Acrisius",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Castor",
+    "relation": "sibling_of",
+    "b": "Pollux",
+    "source": "outside",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Œcetes",
+    "canonical": "Carneus",
+    "explanation": "A surname of Carneus, meaning roughly 'of the house'."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Gives an etymology of Carnean Apollo from cornel trees cut for the Wooden Horse.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias gathers competing local traditions about cults and heroes, and openly weighs which is more probable.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows Spartan religion mixing Dorian and older Achaean cults, and the loss of Messenian traditions after their exile.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias cites the poetess Praxilla of Sicyon, whose work survives only in fragments.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Idas and Lynceus were Messenian brothers who fought Castor and Pollux; Castor was killed in the quarrel, and Pollux killed Lynceus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Abaris was a legendary wonder-working priest of Apollo from the Hyperboreans, a mythical people living far to the north.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Œcetes means 'house-dweller' or 'of the household', an epithet fitting a cult image set up in a private house.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "Greek 'kranea' (cornel) is said to become 'Carnean' by changing one letter, rho to a different letter, which is the 'transposing' meant here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The suitors of Penelope, wife of Ulysses, were said to have raced here to win her hand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "The eleven women were a set of Dionysus's votaries who competed in a ritual race, a practice said to be borrowed from Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "Hyperchirian means roughly 'holding her hand over', suggesting Hera protecting the land from the flooding river.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Scias was a place in Sparta's territory, apparently a building used for assemblies, with tombs and shrines nearby.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Proserpine is the Roman name for Persephone, queen of the underworld, daughter of Ceres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "The Heraclidæ were descendants of Hercules who, with the Dorians, invaded and took over the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Tyndareus's sons are Castor and Pollux; Leda was their mother, so Pleuron is their ancestor through her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Olympia held the most famous Greek games, and wrestling victories there brought great honour.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "narrative voice",
+    "text": "Pausanias comments as a careful scholar, noting how lost tradition leaves room for doubt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "irony",
+    "text": "A casual meeting at a well by a girl leads to Sparta's betrayal, a small act with large consequences.",
+    "spoiler": false
+   }
+  ]
+ }
+}

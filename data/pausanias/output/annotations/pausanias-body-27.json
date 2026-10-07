@@ -1,0 +1,478 @@
+{
+ "section_id": "pausanias-body-27",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10979,
+  "output": 4256
+ },
+ "result": {
+  "summary": "Pausanias describes dedications and statues on the Athenian Acropolis, including the Erechtheum's relics, the rite of the two carrier maidens, and a statue of Tolmides. He then recounts legends of Theseus shown in bronze: the lion's skin at Troezen, the lifting of the stone, and the Marathonian bull.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Relics in Athene's temple",
+    "summary": "Pausanias lists old offerings, Persian spoils, the olive and the temple of Pandrosus, doubting the Persian trophies' provenance.",
+    "stakes": "",
+    "present": [
+     "Pandrosus",
+     "Athene",
+     "Poseidon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Athene Polias, Acropolis",
+     "modern_name": "Acropolis, Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 11,
+    "title": "The carrier maidens' night rite",
+    "summary": "Two maidens carry unknown objects down an underground passage to a sanctuary of Aphrodite, swap them for others, and are replaced.",
+    "stakes": "",
+    "present": [
+     "Aphrodite"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Enclosure of Aphrodite of the Gardens",
+     "modern_name": "Athens, below the Acropolis",
+     "certainty": "real",
+     "lat": 37.9694,
+     "lon": 23.7283
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 19,
+    "title": "Statues and Tolmides",
+    "summary": "Pausanias notes statues of Lysimache, Erechtheus and Eumolpus, Tolmides' campaigns and death, old Athene statues scorched by Xerxes, and reliefs of hunts and fights.",
+    "stakes": "Tolmides' campaign ends in his death and the loss of his army at Haliartia.",
+    "present": [
+     "Lysimache",
+     "Erechtheus",
+     "Eumolpus",
+     "Immaradus",
+     "Tolmides",
+     "Xerxes",
+     "Hercules",
+     "Cycnus",
+     "Lycus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Acropolis",
+     "modern_name": "Acropolis, Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 24,
+    "title": "Young Theseus at Troezen",
+    "summary": "Theseus, aged seven, faces Hercules' lion skin unafraid, and at eighteen lifts the stone to retrieve Ægeus' tokens.",
+    "stakes": "",
+    "present": [
+     "Theseus",
+     "Hercules",
+     "Pittheus",
+     "Ægeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Trœzen",
+     "modern_name": "Troizina, Greece",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 23.35
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 34,
+    "title": "The bull and the Minotaur tribute",
+    "summary": "The bull sent by Poseidon ravages Crete and Attica, kills Androgeos, leads to Minos' tribute demand, and is finally sacrificed by Theseus.",
+    "stakes": "Athens must send seven youths and seven maidens to the Minotaur.",
+    "present": [
+     "Theseus",
+     "Poseidon",
+     "Minos",
+     "Androgeos",
+     "Hercules",
+     "Eurystheus",
+     "Minotaur",
+     "Athene"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Marathon",
+     "modern_name": "Marathon, Greece",
+     "certainty": "real",
+     "lat": 38.15,
+     "lon": 23.96
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Athene",
+    "aliases": [
+     "Athene Polias"
+    ],
+    "kind": "goddess",
+    "description": "patron goddess of Athens"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "rival of Athene for Attica, sent the bull"
+   },
+   {
+    "name": "Pandrosus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sister who did not peep into the chest"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Aphrodite of the Gardens"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a sacred enclosure in Athens"
+   },
+   {
+    "name": "Lysimache",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "handmaid commemorated by a small statue"
+   },
+   {
+    "name": "Erechtheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian king who slew Immaradus"
+   },
+   {
+    "name": "Eumolpus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "opponent of Erechtheus"
+   },
+   {
+    "name": "Immaradus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Eumolpus"
+   },
+   {
+    "name": "Tolmides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian admiral killed at Haliartia"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king who burned Athens"
+   },
+   {
+    "name": "Masistius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian cavalry commander killed at Platæa"
+   },
+   {
+    "name": "Mardonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian general killed by a Spartan"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who fought Cycnus and visited Pittheus"
+   },
+   {
+    "name": "Cycnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killed Lycus, slain by Hercules"
+   },
+   {
+    "name": "Lycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thracian killed in a prize fight"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian hero"
+   },
+   {
+    "name": "Pittheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Trœzen"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Theseus"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan king, master of the sea"
+   },
+   {
+    "name": "Androgeos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Minos killed by the bull"
+   },
+   {
+    "name": "Eurystheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who set Hercules' Labours"
+   },
+   {
+    "name": "Minotaur",
+    "aliases": [],
+    "kind": "monster",
+    "description": "creature in the Labyrinth at Gnossus"
+   },
+   {
+    "name": "Cecrops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "legendary donor of the wooden Hermes"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose wooden image stands in the temple"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Eumolpus",
+    "relation": "parent_of",
+    "b": "Immaradus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Ægeus",
+    "relation": "parent_of",
+    "b": "Theseus",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Minos",
+    "relation": "parent_of",
+    "b": "Androgeos",
+    "source": "text",
+    "evidence_sentence": 31
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Athene Polias",
+    "canonical": "Athene",
+    "explanation": "Polias means 'of the city', her title as Athens' protectress."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 21,
+    "reason": "Vivid anecdote of the child Theseus's fearlessness before Hercules' lion skin.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias mixes sightseeing with critical doubt, questioning how Persian trophies were acquired and misnamed statues.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows Athens' civic memory: Persian War relics, mythic origins, and Theseus as national hero shaped the Acropolis.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The olive's regrowth of two cubits in a day after the Persian burning echoes Herodotus' account of the same miracle.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "A scimetar is a curved single-edged sword of Eastern type; Pausanias reports it only as 'said to have belonged' to Mardonius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Alludes to the contest of Athene and Poseidon for Attica, in which her gift of the olive won her the land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "A cubit is an ancient measure of about the forearm's length, roughly 18 inches (45 cm).",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Refers to the myth of Cecrops' daughters, who were forbidden to open the chest containing the child Erichthonius; Pandrosus alone obeyed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "The maidens' Greek title is usually rendered Arrephoroi; here translated as 'carriers of the holy things'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "A cubit is an ancient measure of roughly a forearm's length, about 18 inches, so the statue is quite small.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Pausanias points out that the pairing is odd: in Athenian tradition Erechtheus killed Immaradus, Eumolpus' son, not Eumolpus himself, so the identification may be wrong.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Xerxes, king of Persia, captured and burnt Athens in 480 BC after the Athenians evacuated to their ships.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "The Calydonian boar was a monstrous beast sent by Artemis to ravage Calydon and hunted by heroes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Helter skelter\" means in confused, headlong flight; it is the translator's colloquial rendering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Boots\" here means sandals or shoes, left with the sword as tokens by which Ægeus could recognise his son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "\"Covenanted\" means agreed by treaty; the Athenians accepted the tribute terms.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Athene Polias, 'Athene of the City', was the Acropolis's chief protector goddess; her old temple housed the most ancient cult objects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Mardonius, Persian commander, died at Plataea in 479 BC; Masistius, his cavalry chief, fell in a skirmish before the battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Aphrodite of the Gardens had a precinct near the Acropolis's slopes; the rite's secret objects remained unknown even to the participants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Tolmides led an Athenian fleet around the Peloponnese in about 456 BC during the conflict with Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Tolmides was killed at Coronea in 447 BC, a defeat that ended Athenian control of Bœotia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Pittheus was king of Troezen and grandfather of Theseus, whose mother Æthra was his daughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Poseidon was god of the sea. Minos' sea power made his neglect of the god a notable slight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "text": "The Minotaur was a half-man, half-bull monster kept in the Labyrinth; Theseus later killed it.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "Rhetorical reasoning",
+    "text": "Pausanias critically weighs the claim, using logic about who killed whom to doubt the relic's authenticity, showing his skeptical narrative voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "Symbolism",
+    "text": "The olive burnt yet sprouting two cubits in a day symbolizes Athens' resilience after the Persian destruction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "Narrative voice",
+    "text": "Pausanias speaks personally, promising rarer lore and presenting himself as a curious traveller rather than a mere catalogue-maker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "irony",
+    "text": "The boy attacks a mere skin as if it were alive, a comic image foreshadowing his later monster-slaying courage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "characterization",
+    "text": "Pausanias shows his rationalizing, antiquarian voice by sorting the ancient monsters into origins: born of the earth, sacred to gods, or sent as punishment.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,436 @@
+{
+ "section_id": "pausanias-body-42",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8243,
+  "output": 3594
+ },
+ "result": {
+  "summary": "Pausanias describes the Alcathous citadel at Megara, its monuments, a harp-sounding stone that reminds him of the Memnon Colossus in Egypt, and several temples and statues. He also tells how Alcathous killed his son Callipolis, and records the Megarian cult of Ino.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Citadel of Alcathous and the harp stone",
+    "summary": "Pausanias lists the monument of Megareus, the altar of the Prodromi and the stone where Apollo laid his harp while helping Alcathous build the wall.",
+    "stakes": "",
+    "present": [
+     "Alcathous",
+     "Apollo",
+     "Megareus",
+     "Peribœa",
+     "Theseus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Megara",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9959,
+     "lon": 23.3446
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 9,
+    "title": "The Colossus at Thebes",
+    "summary": "Pausanias compares the stone to the singing statue at Egyptian Thebes, called Memnon, which Cambyses cut in two.",
+    "stakes": "",
+    "present": [
+     "Memnon",
+     "Phamenophes",
+     "Sesostris",
+     "Cambyses"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes in Egypt",
+     "modern_name": "Luxor, Egypt",
+     "certainty": "real",
+     "lat": 25.7207,
+     "lon": 32.6102
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 21,
+    "title": "Temples and statues of Megara",
+    "summary": "Pausanias describes the council chamber, the temples of Athene and Apollo, the ebony statues and the temple of Demeter.",
+    "stakes": "",
+    "present": [
+     "Timalcus",
+     "Theseus",
+     "Athene",
+     "Aias",
+     "Telamon",
+     "Peribœa",
+     "Apollo",
+     "Demeter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Megara",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9959,
+     "lon": 23.3446
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 24,
+    "title": "Death of Callipolis",
+    "summary": "Callipolis hears of Ischepolis' death, runs to the altar and throws down the wood. Alcathous, not knowing the news, kills him with a piece of it.",
+    "stakes": "Callipolis risks his father's anger at his apparent irreverence; he is killed.",
+    "present": [
+     "Alcathous",
+     "Callipolis",
+     "Ischepolis",
+     "Meleager",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Megara citadel",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9959,
+     "lon": 23.3446
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 28,
+    "title": "Shrine of Ino",
+    "summary": "Pausanias describes the hero-chapel of Ino and the Megarian story that her body washed ashore and was buried.",
+    "stakes": "",
+    "present": [
+     "Ino",
+     "Cleso",
+     "Tauropolis",
+     "Lelex"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Megara",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9959,
+     "lon": 23.3446
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Alcathous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Megarian king who built the wall and father of Peribœa, Ischepolis and Callipolis"
+   },
+   {
+    "name": "Megareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero from Onchestus who came to aid Megara"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Apollo Pythius",
+     "Apollo Decataphorus",
+     "Archegetes"
+    ],
+    "kind": "god",
+    "description": "God who helped build the wall"
+   },
+   {
+    "name": "Peribœa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Alcathous, sent to Crete and later wife of Telamon"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian hero who killed Timalcus"
+   },
+   {
+    "name": "Memnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ethiopian said to be represented by the Egyptian statue"
+   },
+   {
+    "name": "Phamenophes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban said by locals to be the statue's subject"
+   },
+   {
+    "name": "Sesostris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King some say the statue represents"
+   },
+   {
+    "name": "Cambyses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king who cut the statue in two"
+   },
+   {
+    "name": "Timalcus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man killed by Theseus, whose tomb was the council chamber"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Aiantis"
+    ],
+    "kind": "goddess",
+    "description": "Goddess with several temples at Megara"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Æacus, husband of Peribœa"
+   },
+   {
+    "name": "Æacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Telamon"
+   },
+   {
+    "name": "Aias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Successor of Alcathous, said to have made the Aiantis statue"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Honoured as Law-giving at Megara"
+   },
+   {
+    "name": "Callipolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Alcathous, killed by him"
+   },
+   {
+    "name": "Ischepolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elder son of Alcathous, killed in the Calydonian boar hunt"
+   },
+   {
+    "name": "Meleager",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ætolian leader of the boar hunt"
+   },
+   {
+    "name": "Ino",
+    "aliases": [
+     "Leucothea"
+    ],
+    "kind": "goddess",
+    "description": "Heroine whose body Megarians say washed ashore"
+   },
+   {
+    "name": "Cleso",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Finder of Ino's body, and mother of a daughter of the same name"
+   },
+   {
+    "name": "Tauropolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Finder of Ino's body"
+   },
+   {
+    "name": "Lelex",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ancestor of Cleso and Tauropolis"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Alcathous",
+    "relation": "parent_of",
+    "b": "Peribœa",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Telamon",
+    "relation": "spouse_of",
+    "b": "Peribœa",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Æacus",
+    "relation": "parent_of",
+    "b": "Telamon",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Alcathous",
+    "relation": "parent_of",
+    "b": "Callipolis",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Alcathous",
+    "relation": "parent_of",
+    "b": "Ischepolis",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Ischepolis",
+    "relation": "sibling_of",
+    "b": "Callipolis",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Telamon",
+    "relation": "parent_of",
+    "b": "Aias",
+    "source": "outside",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Leucothea",
+    "canonical": "Ino",
+    "explanation": "Megarians say Ino was first called Leucothea by them."
+   },
+   {
+    "alias": "Aiantis",
+    "canonical": "Athene",
+    "explanation": "Epithet of Athene, linked by Pausanias to Aias."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "The stone that sounds like a harp when struck with a pebble.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias ties monuments to local legend, showing how places keep memory of heroes and gods.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The comparison with the Memnon Colossus and the mention of Hadrian show Pausanias' Roman-era viewpoint and his travels.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Egyptian statue Pausanias mentions is one of the Colossi of Memnon, which was said to sing at dawn.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Prodromi means 'runners-before' or forerunners; the gods are so named as advance helpers, here honored at the start of the building.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Refers to the tribute of youths and maidens sent from Athens to Minos of Crete, to be given to the Minotaur; Theseus went with them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Syringes means 'pipes' or flutes; it names the rock-cut tombs at Thebes, whose narrow passages resembled pipes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Cambyses, Persian king, conquered Egypt in 525 BC; the statue's breaking and its morning sound were famous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Decataphorus probably means 'receiver of tithes'; Archegetes means 'founder-leader', a title for Apollo as guide of colonies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "'The wood from the altar' means the sacrificial firewood; throwing it down disrupted the rite, so Alcathous read it as sacrilege.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 10,
+    "text": "Timalcus was a Megarian killed by Theseus, according to Pausanias' earlier account in this book.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Adrian is the Roman emperor Hadrian, who sponsored many building works in Greece in the 2nd century AD.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "The Calydonian boar hunt was a heroic expedition led by Meleager, gathering many Greek heroes to kill a monstrous boar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Ino became the sea goddess Leucothea after leaping into the sea; she was worshipped as a protector of sailors.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "simile",
+    "text": "The statue's morning sound is compared to a harp or lyre with a broken string, giving the reader a concrete image of the sound.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "narrative voice",
+    "text": "Pausanias openly offers his own conjecture against local guides, showing his critical, personal manner as a traveller-author.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "irony",
+    "text": "Alcathous kills his son for impiety before learning that the son was only bringing news of his brother's death, making the act tragic.",
+    "spoiler": false
+   }
+  ]
+ }
+}

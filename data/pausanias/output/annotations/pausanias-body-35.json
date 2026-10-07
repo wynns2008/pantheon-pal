@@ -1,0 +1,385 @@
+{
+ "section_id": "pausanias-body-35",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8294,
+  "output": 3261
+ },
+ "result": {
+  "summary": "Pausanias lists Athenian islands, especially Salamis, with its history, its cult of Ajax and Eurysaces and a legendary flower. He then digresses to the huge bones and bodies of the dead, including Ajax's knees, Protophanes, Asterius and the bones at the Gates of Temenus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Islands of the Athenians",
+    "summary": "Pausanias names Athenian islands, including Helena, where Helen landed after Ilium's fall, and places Salamis opposite Eleusis.",
+    "stakes": "",
+    "present": [
+     "Helen"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Island Helena",
+     "modern_name": "Makronisos",
+     "certainty": "traditional",
+     "lat": 37.72,
+     "lon": 24.0
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 7,
+    "title": "Salamis and Ajax",
+    "summary": "The history of Salamis is traced from Telamon to Athenian rule, the expulsion of its people, and the honours for Ajax and Eurysaces. A stone of Telamon and a flower are shown.",
+    "stakes": "The Salaminians are condemned for treason and expelled; Ascetades is put to death.",
+    "present": [
+     "Salamis",
+     "Asopus",
+     "Telamon",
+     "Philæus",
+     "Eurysaces",
+     "Ajax",
+     "Ascetades"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Salamis",
+     "modern_name": "Salamis",
+     "certainty": "real",
+     "lat": 37.96,
+     "lon": 23.5
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 14,
+    "title": "Giant Bones and Odd Corpses",
+    "summary": "Pausanias reports the tomb of Ajax, his enormous kneecaps, and the strange corpse of Protophanes.",
+    "stakes": "",
+    "present": [
+     "Ajax",
+     "Odysseus",
+     "Protophanes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tomb of Ajax near Troy",
+     "modern_name": "Rhoeteum, Troad",
+     "certainty": "traditional",
+     "lat": 40.04,
+     "lon": 26.19
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 23,
+    "title": "Asterius and the bones of Hyllus",
+    "summary": "Pausanias describes Asterius's tomb on Lade and the huge bones in Lydia, which locals took for Geryon and later for Hyllus.",
+    "stakes": "",
+    "present": [
+     "Asterius",
+     "Anax",
+     "Geryon",
+     "Hyllus",
+     "Hercules",
+     "Omphale"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Gates of Temenus, Lydia",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Woman who landed on the island after Ilium's capture"
+   },
+   {
+    "name": "Salamis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Mother of Asopus, namesake of the island"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "other",
+    "description": "Son of Salamis"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler of Salamis who watched his sons sail"
+   },
+   {
+    "name": "Philæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Eurysaces who gave Salamis to Athens"
+   },
+   {
+    "name": "Eurysaces",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Ajax, honoured at Athens"
+   },
+   {
+    "name": "Ajax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero of Salamis, huge in size"
+   },
+   {
+    "name": "Ascetades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Governor of Salamis condemned to death"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Shipwrecked; the arms of Achilles were washed ashore"
+   },
+   {
+    "name": "Protophanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Magnesian victor at Olympia with a strange skeleton"
+   },
+   {
+    "name": "Asterius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Giant buried on Lade, son of Anax"
+   },
+   {
+    "name": "Anax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Earth, father of Asterius"
+   },
+   {
+    "name": "Geryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Chrysaor, owner of fine oxen"
+   },
+   {
+    "name": "Chrysaor",
+    "aliases": [],
+    "kind": "other",
+    "description": "Father of Geryon"
+   },
+   {
+    "name": "Hyllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Earth, whose bones were found in Lydia"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero who named his son Hyllus"
+   },
+   {
+    "name": "Omphale",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Woman with whom Hercules had intercourse"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Salamis",
+    "relation": "parent_of",
+    "b": "Asopus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Eurysaces",
+    "relation": "parent_of",
+    "b": "Philæus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Ajax",
+    "relation": "parent_of",
+    "b": "Eurysaces",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Telamon",
+    "relation": "parent_of",
+    "b": "Ajax",
+    "source": "outside",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Anax",
+    "relation": "parent_of",
+    "b": "Asterius",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Chrysaor",
+    "relation": "parent_of",
+    "b": "Geryon",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Hyllus",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Hercules",
+    "relation": "lover_of",
+    "b": "Omphale",
+    "source": "text",
+    "evidence_sentence": 23
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "Local legend of a hyacinth-like flower marked with letters springing up after Ajax's death.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends local history with marvels, using giant bones and relics to link the present to heroic times.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The punishment of Salamis shows Athens' harsh politics under Macedonian pressure after Cassander's wars; hero cults like Ajax's anchored civic identity.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Ancient people often took fossil bones for those of heroes; Pausanias himself corrects a local Lydian identification of Geryon.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Leaving Attica on the left\" means sailing with the Attic coast on the port side, past Cape Sunium.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The hyacinth flower was said to bear the letters AI (alas), marking the grief of Apollo for Hyacinthus; here the Ajax flower is said to show similar markings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The dispute over the arms of Achilles: Ajax and Ulysses (Odysseus) contended for them, and Ajax killed himself after losing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Pentathlum\" is the pentathlon, the five-event contest; quoits are discuses. \"Mills\" translates a Greek medical term for the kneecap.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "The pancratium was a brutal contest combining wrestling and boxing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "A cubit is roughly eighteen inches, so the corpse is about three feet long, which is small, not huge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Geryon was a three-bodied monster whose cattle Hercules carried off as one of his labours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Oceanus was the great river encircling the world in Greek belief, near where Geryon was thought to live.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Telamon, father of Ajax, was a king from Ægina who settled Salamis. Salamis was the name of an Asopus-related figure and the island.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Cassander was the Macedonian ruler who held Athens' region in the late fourth century BC; Salamis fell to his forces.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Aulis was the Boeotian port where the Greek fleet gathered before sailing to Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Pausanias argues that giant bodies are not explained by climate, since cold Celtic peoples are not larger than Egyptians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Hercules served the Lydian queen Omphale, and Hyllus was his son, later a leader of the Heracleidae.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "narrative voice",
+    "text": "Pausanias reports Athenian judgment and the oath in an even, documentary tone, treating political history as part of the monument record.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "foreshadowing",
+    "text": "The unexplained huge bones prepare for the competing local theories that follow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "irony",
+    "text": "The antiquarians claim to tell \"the real truth\" right after merely swapping one unproven identification for another.",
+    "spoiler": false
+   }
+  ]
+ }
+}

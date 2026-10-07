@@ -1,0 +1,789 @@
+{
+ "section_id": "apollodorus-body-33",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 12658,
+  "output": 6574
+ },
+ "result": {
+  "summary": "Apollodorus lists the early kings of Athens from Cecrops to Pandion. Along the way he tells of the contest of Poseidon and Athena, the birth of Adonis, the birth of Erichthonius, the death of Icarius, and the crime of Tereus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Poseidon and Athena contest Attica",
+    "summary": "Cecrops founds Attica. Poseidon and Athena each claim it, and the twelve gods award it to Athena, so Poseidon floods the land.",
+    "stakes": "Poseidon and Athena each risk losing patronage of Attica, and the land risks flooding.",
+    "present": [
+     "Cecrops",
+     "Poseidon",
+     "Athena",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Attica, the acropolis",
+     "modern_name": "Acropolis of Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 10,
+    "title": "Cecrops' family and Ares' trial",
+    "summary": "Cecrops' children are listed. Ares kills Halirrhothius for assaulting Alcippe and is acquitted at the Areopagus.",
+    "stakes": "Ares risks condemnation for killing Poseidon's son.",
+    "present": [
+     "Cecrops",
+     "Agraulus",
+     "Alcippe",
+     "Ares",
+     "Halirrhothius",
+     "Poseidon",
+     "Euryte"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Areopagus",
+     "modern_name": "Areopagus, Athens",
+     "certainty": "real",
+     "lat": 37.9733,
+     "lon": 23.7231
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 21,
+    "title": "Descendants of Herse and Adonis",
+    "summary": "Herse's line is traced through Cephalus to Cinyras in Cyprus. Adonis' birth from the myrrh tree is told, and he is shared among Persephone and Aphrodite and killed by a boar.",
+    "stakes": "Adonis is persecuted and killed. Smyrna flees her father's sword.",
+    "present": [
+     "Herse",
+     "Hermes",
+     "Cephalus",
+     "Cinyras",
+     "Adonis",
+     "Aphrodite",
+     "Artemis",
+     "Smyrna",
+     "Thias",
+     "Persephone",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Cyprus",
+     "modern_name": "Cyprus",
+     "certainty": "real",
+     "lat": 34.9,
+     "lon": 33.0
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 24,
+    "title": "Cranaus and Amphictyon reign",
+    "summary": "Cranaus reigns during the flood of Deucalion and is expelled by Amphictyon.",
+    "stakes": "Kings lose their thrones.",
+    "present": [
+     "Cranaus",
+     "Amphictyon",
+     "Pedias",
+     "Atthis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Attica",
+     "modern_name": "Attica, Greece",
+     "certainty": "real",
+     "lat": 38.0,
+     "lon": 23.8
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 31,
+    "title": "Birth of Erichthonius",
+    "summary": "Hephaestus pursues Athena, and Erichthonius is born from the seed on the ground. Cecrops' daughters open the chest and die, and Erichthonius becomes king.",
+    "stakes": "Cecrops' daughters die for disobeying Athena. Erichthonius' immortality is at risk.",
+    "present": [
+     "Hephaestus",
+     "Athena",
+     "Erichthonius",
+     "Pandrosus",
+     "Aphrodite",
+     "Amphictyon",
+     "Praxithea"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens acropolis",
+     "modern_name": "Acropolis of Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 32,
+    "end_sentence": 35,
+    "title": "Icarius and the gift of wine",
+    "summary": "Dionysus gives Icarius wine. Shepherds kill him, and his daughter Erigone hangs herself after the dog Maera finds his body.",
+    "stakes": "Icarius is killed by the shepherds he meant to benefit.",
+    "present": [
+     "Pandion",
+     "Demeter",
+     "Dionysus",
+     "Celeus",
+     "Icarius",
+     "Erigone",
+     "Maera"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Attica",
+     "modern_name": "Attica, Greece",
+     "certainty": "real",
+     "lat": 38.0,
+     "lon": 23.8
+    }
+   },
+   {
+    "start_sentence": 36,
+    "end_sentence": 44,
+    "title": "Tereus, Procne and Philomela",
+    "summary": "Tereus marries Procne, then rapes and mutilates Philomela. The sisters kill Itys and serve him to Tereus, and all are turned into birds.",
+    "stakes": "Philomela and Procne face Tereus' axe, and Itys is killed.",
+    "present": [
+     "Pandion",
+     "Zeuxippe",
+     "Procne",
+     "Philomela",
+     "Erechtheus",
+     "Butes",
+     "Labdacus",
+     "Tereus",
+     "Itys"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Daulia, Phocis",
+     "modern_name": "Davleia, Greece",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 22.8
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cecrops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Earth-born first king of Attica, half man and half serpent"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Sea god who contests Attica"
+   },
+   {
+    "name": "Athena",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who wins Attica with the olive"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Appoints the twelve gods as arbiters"
+   },
+   {
+    "name": "Agraulus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Cecrops, or one of his daughters"
+   },
+   {
+    "name": "Erysichthon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Cecrops who died childless"
+   },
+   {
+    "name": "Herse",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Cecrops, mother of Cephalus"
+   },
+   {
+    "name": "Pandrosus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Cecrops given the chest"
+   },
+   {
+    "name": "Alcippe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Ares and Agraulus"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "War god who kills Halirrhothius"
+   },
+   {
+    "name": "Halirrhothius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Poseidon killed by Ares"
+   },
+   {
+    "name": "Euryte",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Mother of Halirrhothius"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Cephalus"
+   },
+   {
+    "name": "Cephalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Loved and carried off by Dawn"
+   },
+   {
+    "name": "Dawn",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Carries off Cephalus and bears Tithonus"
+   },
+   {
+    "name": "Tithonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Cephalus and Dawn"
+   },
+   {
+    "name": "Phaethon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Tithonus"
+   },
+   {
+    "name": "Astynous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Phaethon"
+   },
+   {
+    "name": "Sandocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Founder of Celenderis"
+   },
+   {
+    "name": "Cinyras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Founder of Paphos, father of Adonis"
+   },
+   {
+    "name": "Adonis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Beautiful youth killed by a boar"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who hides Adonis"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Sends the boar in one version"
+   },
+   {
+    "name": "Smyrna",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Became the myrrh tree, mother of Adonis"
+   },
+   {
+    "name": "Thias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Assyria, father of Smyrna"
+   },
+   {
+    "name": "Persephone",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Keeps Adonis for part of the year"
+   },
+   {
+    "name": "Cranaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Second king of Athens"
+   },
+   {
+    "name": "Pedias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Cranaus"
+   },
+   {
+    "name": "Atthis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Cranaus who died unmarried"
+   },
+   {
+    "name": "Amphictyon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King who expelled Cranaus"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Lame smith god, father of Erichthonius"
+   },
+   {
+    "name": "Erichthonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Earth-born king of Athens"
+   },
+   {
+    "name": "Praxithea",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Naiad wife of Erichthonius"
+   },
+   {
+    "name": "Pandion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Athens, father of Procne"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Welcomed by Celeus"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Gives Icarius the vine"
+   },
+   {
+    "name": "Celeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Host of Demeter at Eleusis"
+   },
+   {
+    "name": "Icarius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Taught winemaking, killed by shepherds"
+   },
+   {
+    "name": "Erigone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Icarius who hanged herself"
+   },
+   {
+    "name": "Maera",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Dog of Icarius"
+   },
+   {
+    "name": "Zeuxippe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Pandion"
+   },
+   {
+    "name": "Procne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Tereus, became a nightingale"
+   },
+   {
+    "name": "Philomela",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sister of Procne, became a swallow"
+   },
+   {
+    "name": "Erechtheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Twin son of Pandion"
+   },
+   {
+    "name": "Butes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Twin son of Pandion"
+   },
+   {
+    "name": "Labdacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Enemy in a boundary war"
+   },
+   {
+    "name": "Tereus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thracian son of Ares, became a hoopoe"
+   },
+   {
+    "name": "Itys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Tereus and Procne, killed by his mother"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cecrops",
+    "relation": "spouse_of",
+    "b": "Agraulus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Cecrops",
+    "relation": "parent_of",
+    "b": "Herse",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Ares",
+    "relation": "parent_of",
+    "b": "Alcippe",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Halirrhothius",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Hermes",
+    "relation": "parent_of",
+    "b": "Cephalus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Cinyras",
+    "relation": "parent_of",
+    "b": "Adonis",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Smyrna",
+    "relation": "transformed_into",
+    "b": "Smyrna",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Hephaestus",
+    "relation": "parent_of",
+    "b": "Erichthonius",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Procne",
+    "source": "text",
+    "evidence_sentence": 36
+   },
+   {
+    "a": "Tereus",
+    "relation": "spouse_of",
+    "b": "Procne",
+    "source": "text",
+    "evidence_sentence": 37
+   },
+   {
+    "a": "Tereus",
+    "relation": "parent_of",
+    "b": "Itys",
+    "source": "text",
+    "evidence_sentence": 38
+   },
+   {
+    "a": "Procne",
+    "relation": "transformed_into",
+    "b": "Procne",
+    "source": "text",
+    "evidence_sentence": 43
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 28,
+    "reason": "Gives the Athenian myth of Erichthonius' earth-born birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "reason": "Ends the Tereus story with all three transformed into birds.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The chapter links Athens' kings to myths of divine patronage, autochthony and transformation, giving the city a sacred origin.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The myths explain Athenian institutions such as the Areopagus court, the Panathenaea and the sacred olive.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Procne and Philomela became a classic subject for later poets, notably Ovid in his Metamorphoses."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Apollodorus offers rival versions of Adonis' parentage, citing Hesiod and Panyasis.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"A son of the soil\" means autochthonous: born from the earth itself, not from human parents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Trident: Poseidon's three-pronged spear. The acropolis is the fortified high rock of a Greek city, here Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Arbiters are judges chosen to settle a dispute between parties.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Departed this life childless\" is a euphemism for dying without children.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Violate\" here means to rape; Halirrhothius is caught in the attempt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Impeached\" means formally accused. The Areopagus is the hill of Ares at Athens, later the seat of a court.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Consorting with him\" means living as his lover; \"Dawn\" is the goddess Eos, personified.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Smyrna is the Greek word for myrrh, the aromatic resin of the tree, so her name explains the tree.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "\"Ordained\" means decreed by divine authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Son of the soil\" means autochthonous: born from the earth itself, not from human parents, a claim of native Athenian origin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Maid\" here means a virgin, so Atthis died unmarried.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "\"With much ado\" is archaic for with great difficulty or effort, since Hephaestus's lameness slows him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "The name Erichthonius was popularly explained from Greek words for 'strife' (eris) and 'earth' (chthon), referring to this birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "phrasing",
+    "text": "\"Quaffed it copiously without water\" means drank it undiluted; the Greeks normally mixed wine with water, so the shepherds became badly drunk.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "phrasing",
+    "text": "\"Weaving characters in a robe\" means weaving letters or written signs into cloth, a way to communicate without a tongue.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "The olive was Athena's gift to Athens. The Pandrosium was a shrine near the Erechtheum on the acropolis, named for Cecrops' daughter Pandrosus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "The twelve gods are the major Olympians, who act here as a divine jury.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Adonis was a beautiful youth loved by Aphrodite; his death was mourned in an annual Greek festival, the Adonia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Hesiod and Panyasis were Greek epic poets; the text cites them for rival accounts of Adonis' parentage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Persephone is queen of the underworld, which explains why Adonis spends part of the year with her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "The flood of Deucalion is the Greek flood myth, sent by Zeus to destroy the bronze race; Deucalion and Pyrrha survived.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "The Panathenaea was Athens' great festival honoring Athena, held on the acropolis with a procession and games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Eleusis, where Celeus welcomed Demeter, later became the home of the Eleusinian Mysteries.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Thrace, a region north of Greece, was associated with Ares and was seen by Greeks as a wild, warlike land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "text": "Daulia in Phocis was the traditional site of the Tereus legend, linked with the nightingale and swallow.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "Symbolism",
+    "text": "Cecrops' mixed man-and-serpent body marks Athens' claim to be rooted in its own land and in a primeval age.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "Characterization",
+    "text": "Poseidon's \"hot anger\" and flooding show a vengeful, volatile god who punishes mortals for a divine verdict.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Metamorphosis",
+    "text": "Smyrna's prayer to vanish is answered by transformation into a tree, a typical myth of origin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "Irony",
+    "text": "Adonis, whose beauty made goddesses fight over him, is ended by a boar; his generosity to Aphrodite does not save him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "irony",
+    "text": "The god of the forge, who makes arms, is rebuffed by the virgin goddess of war, and his failed desire still produces a child.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "foreshadowing",
+    "text": "The forbidden chest and the sisters' curiosity set up a familiar pattern of prohibition broken, followed by punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "dramatic irony",
+    "text": "Icarius brings a gift meant to benefit people, yet the shepherds misread it as sorcery and kill him; the reader knows the truth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "narrative voice",
+    "text": "The brisk, matter-of-fact telling of Itys's killing and the banquet makes the horror stand out.",
+    "spoiler": false
+   }
+  ]
+ }
+}

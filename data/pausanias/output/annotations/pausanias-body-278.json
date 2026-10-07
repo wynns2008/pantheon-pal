@@ -1,0 +1,274 @@
+{
+ "section_id": "pausanias-body-278",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7156,
+  "output": 2479
+ },
+ "result": {
+  "summary": "Pausanias describes the Alpheus river, which repeatedly disappears underground and finally reaches Syracuse. He then lists sights on the roads from Tegea to Thyrea and to Argos, including tombs, temples and sacred Mount Parthenium, and ends Book 8.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "The wandering river Alpheus",
+    "summary": "The Alpheus rises at Phylace, repeatedly vanishes underground, and flows past Olympia to the sea. It is said to reappear at Ortygia in Syracuse and mix with the Arethusa.",
+    "stakes": "",
+    "present": [
+     "Alpheus",
+     "Arethusa"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phylace and the Alpheus",
+     "modern_name": "Upper Alpheus valley, Arcadia",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 5,
+    "title": "Road to Thyrea",
+    "summary": "The road to Thyrea holds the claimed tomb of Orestes, the river Garates and a temple of Pan with a sacred oak.",
+    "stakes": "",
+    "present": [
+     "Orestes",
+     "Agamemnon",
+     "Pan"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tegea",
+     "modern_name": "Tegea (Alea), Arcadia",
+     "certainty": "real",
+     "lat": 37.45,
+     "lon": 22.42
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 14,
+    "title": "Road to Argos and Parthenium",
+    "summary": "Along the carriage road to Argos are temples of Aesculapius, Apollo, Demeter and Dionysus, then Mount Parthenium with Telephus's enclosure and Pan's temple. The boundary is at Hysiae, and Pausanias closes his survey of the Peloponnese.",
+    "stakes": "",
+    "present": [
+     "Æsculapius",
+     "Pythian Apollo",
+     "Demeter",
+     "Mystic Dionysus",
+     "Telephus",
+     "Pan",
+     "Philippides"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Parthenium",
+     "modern_name": "Parthenio mountain, Arcadia",
+     "certainty": "real",
+     "lat": 37.55,
+     "lon": 22.6
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Alpheus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river that disappears and reappears underground"
+   },
+   {
+    "name": "Arethusa",
+    "aliases": [],
+    "kind": "other",
+    "description": "spring at Syracuse where the Alpheus is said to emerge"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Agamemnon, whose tomb was claimed near Tegea"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Orestes"
+   },
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with temples and sacred oak and tortoises"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple on the Argos road"
+   },
+   {
+    "name": "Pythian Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose temple lies in ruins"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Demeter of Corythes"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a temple in an oak grove"
+   },
+   {
+    "name": "Mystic Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple near Demeter's"
+   },
+   {
+    "name": "Telephus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero exposed as a boy and nursed by a doe"
+   },
+   {
+    "name": "Philippides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man to whom Pan appeared"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pythian Apollo",
+    "canonical": "Apollo",
+    "explanation": "Apollo's epithet linked with Pytho, Delphi."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias mixes natural wonders, cult sites and local tradition, closing Book 8 and the survey of the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Alpheus-Arethusa tale shows ancient belief in underground rivers linking Greece and Sicily.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Alpheus flowing under the sea to Arethusa inspired later poets, including Shelley's poem Arethusa (1820) and Coleridge's Kubla Khan (1816) with its sacred river Alph."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Philippides is the runner who, in Herodotus's account, met Pan on Mount Parthenium on his way to Sparta before Marathon.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Arsenal\" here means a naval dockyard or harbour of the Eleans, from which ships were fitted out.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The tale that the Alpheus runs under the sea to Ortygia, the island part of Syracuse, and joins the spring Arethusa was a widespread Greek legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "A stade is a Greek unit of length, roughly 180–200 metres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Telephus, son of Heracles and Auge, was exposed as an infant and suckled by a deer, according to the legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Philippides was the Athenian runner sent to Sparta before Marathon (490 BC); he reported that Pan met him on this mountain and asked why Athens neglected him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Tortoise shells were used as the sound-boxes of lyres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"_viz_.\" abbreviates the Latin videlicet, meaning \"namely\"; the sentence continues into the next.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Orestes, son of Agamemnon, killed his mother Clytemnestra to avenge his father. Tegea claimed his bones had been brought there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Æsculapius was the god of healing, and his shrines were often placed along roads and in the countryside.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Demeter was goddess of grain and agriculture, and Dionysus god of wine; \"Mystic\" suggests a cult with secret rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "This sentence ends Pausanias' account of the Peloponnese, which he had been surveying region by region.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "personification",
+    "text": "The river is spoken of as having a \"nature\" that runs contrary to other rivers, giving it a willful character.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "device": "personification",
+    "text": "The sea is imagined as an obstacle that tries to \"bar\" the river's passage, making the Alpheus seem determined and heroic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "narrative voice",
+    "text": "Pausanias closes with a concise summary in the manner of a methodical traveller-guide, signalling the end of his survey.",
+    "spoiler": false
+   }
+  ]
+ }
+}

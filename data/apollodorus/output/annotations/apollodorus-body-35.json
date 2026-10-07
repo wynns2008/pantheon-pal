@@ -1,0 +1,284 @@
+{
+ "section_id": "apollodorus-body-35",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 5880,
+  "output": 2303
+ },
+ "result": {
+  "summary": "Theseus, son of Aethra and Aegeus, lifts the rock, takes the sandals and sword, and travels on foot to Athens. On the way he clears the road of evildoers, killing Periphetes the Clubman and Sinis the Pine-bender.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Theseus sets out for Athens",
+    "summary": "Theseus, grown up, pushes away the rock, takes the sandals and sword, and goes on foot to Athens, clearing the dangerous road.",
+    "stakes": "Theseus risks his life on a road beset by evildoers.",
+    "present": [
+     "Theseus",
+     "Aethra",
+     "Aegeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens road",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 4,
+    "title": "Theseus kills Periphetes",
+    "summary": "In Epidaurus Theseus slays Periphetes the Clubman and takes his iron club, which he keeps carrying.",
+    "stakes": "Theseus faces death from the iron club of Periphetes.",
+    "present": [
+     "Theseus",
+     "Periphetes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Epidaurus",
+     "modern_name": "Epidavros, Greece",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 23.15
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 7,
+    "title": "Theseus kills Sinis",
+    "summary": "On the Isthmus of Corinth Theseus kills Sinis, who killed travellers by bending pine trees, by the same method.",
+    "stakes": "Theseus risks being flung to death by the bent pines.",
+    "present": [
+     "Theseus",
+     "Sinis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Isthmus of Corinth",
+     "modern_name": "Isthmus of Corinth, Greece",
+     "certainty": "real",
+     "lat": 37.92,
+     "lon": 22.99
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aethra and Aegeus, hero traveling to Athens"
+   },
+   {
+    "name": "Aethra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Theseus"
+   },
+   {
+    "name": "Aegeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Theseus"
+   },
+   {
+    "name": "Periphetes",
+    "aliases": [
+     "the Clubman"
+    ],
+    "kind": "mortal",
+    "description": "club-carrying brigand killed by Theseus"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Periphetes"
+   },
+   {
+    "name": "Anticlia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Periphetes"
+   },
+   {
+    "name": "Sinis",
+    "aliases": [
+     "the Pine-bender"
+    ],
+    "kind": "mortal",
+    "description": "brigand of the Isthmus who bent pines to kill travellers"
+   },
+   {
+    "name": "Polypemon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Sinis"
+   },
+   {
+    "name": "Sylea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Sinis, daughter of Corinthus"
+   },
+   {
+    "name": "Corinthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Sylea"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Aethra",
+    "relation": "parent_of",
+    "b": "Theseus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Aegeus",
+    "relation": "parent_of",
+    "b": "Theseus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Hephaestus",
+    "relation": "parent_of",
+    "b": "Periphetes",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Anticlia",
+    "relation": "parent_of",
+    "b": "Periphetes",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Polypemon",
+    "relation": "parent_of",
+    "b": "Sinis",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Sylea",
+    "relation": "parent_of",
+    "b": "Sinis",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Corinthus",
+    "relation": "parent_of",
+    "b": "Sylea",
+    "source": "text",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Clubman",
+    "canonical": "Periphetes",
+    "explanation": "Nickname from the club he carried."
+   },
+   {
+    "alias": "the Pine-bender",
+    "canonical": "Sinis",
+    "explanation": "Nickname from his habit of bending pine trees."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Theseus begins his heroic career by cleansing the road, and he punishes each villain with his own method, a pattern of poetic justice.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The labours on the road to Athens parallel those of Heracles and present Theseus as the Athenian national hero.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The road labours of Theseus were popular in Greek vase painting and were told by later authors such as Plutarch and Ovid."
+   }
+  ],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "The rock, sandals and sword were tokens Aegeus left hidden beneath a rock so that his son could later prove who his father was.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Crazy on his legs\" means he was lame or feeble in the legs, so he used the club as a weapon, perhaps as a support too.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Wrested\" means pulled away by force, twisting it out of his grip.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "The Isthmus of Corinth is the narrow strip of land linking central Greece to the Peloponnese, so travellers had to cross it.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Aethra was princess of Troezen, and Aegeus was king of Athens. Theseus was raised in Troezen, away from his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Hephaestus is the god of fire and the forge, so an iron club suits his son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Pine-bending: Sinis bent two pines down, tied victims between them, then released the trees to tear them apart. Here the text simply says they were tossed up.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "epithet",
+    "text": "The nickname \"the Clubman\" names the villain by his weapon, a typical way myth labels monsters and brigands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "symbolism",
+    "text": "Keeping the club turns the victim's weapon into Theseus' trophy, signalling his growing power and a hero's habit of taking his enemies' arms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "irony",
+    "text": "Sinis dies by his own cruel method, a poetic justice that repeats through Theseus' labours.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,423 @@
+{
+ "section_id": "pausanias-body-93",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8927,
+  "output": 3372
+ },
+ "result": {
+  "summary": "Pausanias arrives at Sparta and describes its market-place, public offices and monuments, including the Persian Portico and temples of Caesar and Augustus. He tells the story of the seer Agias and his ancestor Tisamenus, then lists statues, temples and tombs, including that of Orestes.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Arrival and Spartan market-place",
+    "summary": "Pausanias reaches Sparta, states his method, and describes the market-place offices, the Persian Portico and the temples of Caesar and Augustus.",
+    "stakes": "",
+    "present": [
+     "Mardonius",
+     "Artemisia",
+     "Caesar",
+     "Augustus",
+     "Xerxes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta, Greece",
+     "certainty": "real",
+     "lat": 37.0742,
+     "lon": 22.4297
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 23,
+    "title": "Agias and Tisamenus the seer",
+    "summary": "Pausanias tells how Agias foretold Lysander's victory, and how his ancestor Tisamenus won five victories for Sparta as the oracle foretold.",
+    "stakes": "Tisamenus risks missing the oracle's promised victories; the Spartans risk defeat in their wars.",
+    "present": [
+     "Agias",
+     "Lysander",
+     "Tisamenus",
+     "Agelochus",
+     "Hieronymus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ægos-potamoi, Olympia, Platæa and other battlefields",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 33,
+    "title": "Statues, temples and tombs",
+    "summary": "Pausanias lists the Dance-ground, temples, the tomb of Orestes and other monuments around the market-place.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Artemis",
+     "Leto",
+     "Orestes",
+     "Polydorus",
+     "Hermes",
+     "Dionysus",
+     "Epimenides",
+     "Aphareus",
+     "Zeus",
+     "Athene",
+     "Poseidon",
+     "Hera"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta market-place",
+     "modern_name": "Sparta, Greece",
+     "certainty": "real",
+     "lat": 37.0742,
+     "lon": 22.4297
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Mardonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian commander, son of Gobryas, shown in a statue"
+   },
+   {
+    "name": "Artemisia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Queen of Halicarnassus who fought for Xerxes at Salamis"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king who invaded Greece"
+   },
+   {
+    "name": "Caesar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first Roman to aim at autocracy"
+   },
+   {
+    "name": "Augustus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Caesar's adopted son who confirmed autocratic rule"
+   },
+   {
+    "name": "Agias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "seer who foretold Lysander's capture of the Athenian fleet"
+   },
+   {
+    "name": "Lysander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan commander at Ægos-potamoi"
+   },
+   {
+    "name": "Agelochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Agias"
+   },
+   {
+    "name": "Tisamenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean seer of the Iamidæ who won five victories for Sparta"
+   },
+   {
+    "name": "Hieronymus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man of Andros who beat Tisamenus in wrestling"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Pythæan Apollo"
+    ],
+    "kind": "god",
+    "description": "god honoured with statues and dances"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a statue in the market-place"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a statue in the market-place"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Agamemnon, whose bones lie at Sparta"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Orestes"
+   },
+   {
+    "name": "Polydorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Alcamenes, whose image is used as a seal"
+   },
+   {
+    "name": "Alcamenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Polydorus"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Market Hermes"
+    ],
+    "kind": "god",
+    "description": "god shown carrying the infant Dionysus"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god carried by Hermes in a statue"
+   },
+   {
+    "name": "Epimenides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan with memorials at Sparta"
+   },
+   {
+    "name": "Aphareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Perieres, commemorated at Sparta"
+   },
+   {
+    "name": "Perieres",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aphareus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Market Zeus",
+     "Hospitable Zeus"
+    ],
+    "kind": "god",
+    "description": "god with several Spartan cults"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Market Athene",
+     "Hospitable Athene"
+    ],
+    "kind": "goddess",
+    "description": "goddess with several Spartan cults"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Asphalius"
+    ],
+    "kind": "god",
+    "description": "god worshipped as Asphalius"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Sparta"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Agelochus",
+    "relation": "parent_of",
+    "b": "Agias",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Alcamenes",
+    "relation": "parent_of",
+    "b": "Polydorus",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Perieres",
+    "relation": "parent_of",
+    "b": "Aphareus",
+    "source": "text",
+    "evidence_sentence": 30
+   },
+   {
+    "a": "Caesar",
+    "relation": "parent_of",
+    "b": "Augustus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "outside",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Artemis",
+    "source": "outside",
+    "evidence_sentence": 24
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Asphalius",
+    "canonical": "Poseidon",
+    "explanation": "Cult title of Poseidon meaning the securer."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Pausanias states his method of selecting only the most remarkable details.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "The Persian Portico, built from spoils of the Persian Wars, shows how Sparta remembered its victories in civic architecture.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Pausanias blends monuments with local tradition, such as oracles and tombs, to present Sparta's religious and political identity.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias writes under Roman rule, so he explains Augustus by giving the Greek equivalent Sebastus.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "The Bidiæi were a board of five Spartan magistrates who supervised the young men's exercises and contests.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Eponymus: the magistrate whose name was used to date the year, as the archon did at Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Autocracy means rule by a single person; here it refers to the Roman imperial government.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Sebastus is Greek for 'revered' or 'august', the standard Greek rendering of the title Augustus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Ægos-potamoi (405 BC) was the battle where Lysander destroyed the Athenian fleet, ending the Peloponnesian War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "The pentathlum was the Olympic pentathlon: running, leaping, discus, javelin and wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "The Gymnopædia was a Spartan festival where boys danced and exercised unclad, honouring Apollo and commemorating fallen warriors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "allusion",
+    "text": "Epimenides was a legendary Cretan seer and purifier, said to have cleansed Athens of plague.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Mardonius commanded the Persian army and was killed at Platæa in 479 BC, so the Portico celebrates that Greek victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "The Iamidæ were a famous Elean family of seers, descended from the prophet Iamus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Orestes, son of Agamemnon, was a mythical figure whose bones, by tradition, were moved to Sparta as an oracle commanded.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "narrative voice",
+    "text": "The firm, personal declaration of method shows Pausanias as a selective, authoritative guide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "Tisamenus lost the Olympic contest yet the oracle was fulfilled differently, so the apparent failure reveals its true meaning.",
+    "spoiler": false
+   }
+  ]
+ }
+}

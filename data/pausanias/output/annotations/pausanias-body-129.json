@@ -1,0 +1,311 @@
+{
+ "section_id": "pausanias-body-129",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8988,
+  "output": 2654
+ },
+ "result": {
+  "summary": "Guided by a herdsman, the Spartans under Emperamus break into the Messenian stronghold of Eira in a rainstorm. After three days of desperate fighting the seer Theoclus dies, and Aristomenes leads the survivors out through the Spartan lines.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Night assault on Eira",
+    "summary": "The Spartans climb into Eira by ladder in the dark and rain. Aristomenes and Theoclus rally the Messenians while secretly knowing the oracle dooms them.",
+    "stakes": "The Messenians risk losing their last stronghold and their country.",
+    "present": [
+     "Emperamus",
+     "Aristomenes",
+     "Theoclus",
+     "Gorgus",
+     "Manticlus",
+     "Euergetidas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eira",
+     "modern_name": "Mount Ithome area, Messenia",
+     "certainty": "traditional",
+     "lat": 37.1,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 19,
+    "title": "Three days of battle",
+    "summary": "At daybreak the Messenians, women included, fight with despair while the storm seems to favour the Spartans. Hecas rotates Spartan reserves, and the Messenians wear out.",
+    "stakes": "The Messenians face exhaustion, enslavement and the loss of their homeland.",
+    "present": [
+     "Aristomenes",
+     "Theoclus",
+     "Hecas",
+     "Emperamus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eira",
+     "modern_name": "Mount Ithome area, Messenia",
+     "certainty": "traditional",
+     "lat": 37.1,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 30,
+    "title": "Death of Theoclus, retreat",
+    "summary": "Theoclus tells Aristomenes the fall is fated, then dies fighting. Aristomenes gathers the survivors and the Spartans let them pass.",
+    "stakes": "Aristomenes must save the surviving Messenians, including women and children, from slaughter.",
+    "present": [
+     "Theoclus",
+     "Aristomenes",
+     "Gorgus",
+     "Manticlus",
+     "Emperamus",
+     "Hecas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Eira",
+     "modern_name": "Mount Ithome area, Messenia",
+     "certainty": "traditional",
+     "lat": 37.1,
+     "lon": 22.3
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Emperamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan commander who attacks Eira"
+   },
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian general"
+   },
+   {
+    "name": "Gorgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aristomenes"
+   },
+   {
+    "name": "Theoclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian seer who dies fighting"
+   },
+   {
+    "name": "Manticlus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Theoclus"
+   },
+   {
+    "name": "Euergetidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "honoured Messenian married to Agnagora"
+   },
+   {
+    "name": "Agnagora",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sister of Aristomenes"
+   },
+   {
+    "name": "Hecas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan seer"
+   },
+   {
+    "name": "Gyges",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lydian driven from Smyrna, son of Dascylus"
+   },
+   {
+    "name": "Dascylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Gyges"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Aristomenes",
+    "relation": "parent_of",
+    "b": "Gorgus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Theoclus",
+    "relation": "parent_of",
+    "b": "Manticlus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Euergetidas",
+    "relation": "spouse_of",
+    "b": "Agnagora",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Agnagora",
+    "relation": "sibling_of",
+    "b": "Aristomenes",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Dascylus",
+    "relation": "parent_of",
+    "b": "Gyges",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lacedæmonians",
+    "canonical": "Spartans",
+    "explanation": "The text uses Lacedæmonians and Spartans for the same people."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Conveys the despair of defending the last inch of Messenian fatherland.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "reason": "Theoclus's defiant last words before dying.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Fate and oracles dominate: the leaders know the prophecy dooms Messene yet keep fighting and hide the truth to preserve morale.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias recounts the end of the Second Messenian War, a founding tale of Messenian identity under Spartan domination.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias compares the Messenians to the Ionians of Smyrna who expelled the Lydians, drawing on the early history of Asia Minor.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Alacrity\" means cheerful eagerness; \"dispatch\" means speed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The Pythian Priestess is the Delphic oracle; her prophecy about the he-goat (the wild fig tree, called \"goat-fig\") said Messene would fall when a he-goat drank from the Neda.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Smyrna's resistance to Gyges, king of Lydia, is cited as an example of a small city defying a stronger power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Give destiny the go-by\" means evade or slip past fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Rearmen\" are the men in the rear ranks, who could not reach the fighting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Burthen\" is an archaic form of burden.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "The wild fig tree refers to an earlier omen: its growth toward the Neda's water fulfilled the oracle's sign of Messene's fall.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Emperamus was the Spartan commander; the herdsman was a Messenian who had deserted and guided the Spartans to Eira.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Eira was the Messenians' last mountain stronghold in the long Second Messenian War against Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Seers judged omens by direction; lightning on the right was taken as a favourable sign. Hecas was the Spartan seer.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "foreshadowing",
+    "text": "The dogs' unusual barking acts as an omen, hinting at the disaster about to overwhelm the Messenians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "repetition",
+    "text": "\"Their last possession... their last inch of fatherland\" piles up phrases to heighten pathos and finality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "dramatic irony",
+    "text": "The leaders know the oracle dooms Messene while the others still hope, so readers see the hopelessness the crowd cannot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "pathetic fallacy",
+    "text": "The storm, thunder and lightning seem to side with the Spartans, mirroring the Messenians' doom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "metaphor",
+    "text": "\"Glutted his soul with slaughter\" pictures vengeance as a feast, showing Theoclus's defiant, fated death.",
+    "spoiler": false
+   }
+  ]
+ }
+}

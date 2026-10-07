@@ -1,0 +1,598 @@
+{
+ "section_id": "pausanias-body-83",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8453,
+  "output": 4639
+ },
+ "result": {
+  "summary": "Pausanias begins Laconia with its early kings: Lelex, Myles, Eurotas and Lacedaemon, who named the country and Sparta. He traces the dynasty through Tyndareus and Menelaus to the Heraclidae's return and the twin royal houses of Procles and Eurysthenes, with Theras founding the colony on Thera.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Early kings of Laconia",
+    "summary": "Lelex, Myles and Eurotas rule; Eurotas names the river, and Lacedaemon names the land and Sparta. Amyclas founds Amyclae and his son Hyacinthus dies.",
+    "stakes": "",
+    "present": [
+     "Lelex",
+     "Myles",
+     "Polycaon",
+     "Eurotas",
+     "Lacedaemon",
+     "Taygete",
+     "Sparta",
+     "Amyclas",
+     "Hyacinthus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Laconia",
+     "modern_name": "Laconia, Greece",
+     "certainty": "real",
+     "lat": 36.9,
+     "lon": 22.4
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 17,
+    "title": "Tyndareus and the Heraclidae",
+    "summary": "Hippocoon drives Tyndareus out; Hercules restores him. His line, including Menelaus and Orestes, rules until the Heraclidae return.",
+    "stakes": "Tyndareus risks losing his kingdom to Hippocoon's stronger faction.",
+    "present": [
+     "Argalus",
+     "Cynortas",
+     "Oebalus",
+     "Gorgophone",
+     "Tyndareus",
+     "Hippocoon",
+     "Icarius",
+     "Aphareus",
+     "Hercules",
+     "Menelaus",
+     "Orestes",
+     "Hermione",
+     "Tisamenus",
+     "Temenus",
+     "Cresphontes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lacedaemon",
+     "modern_name": "Sparta, Greece",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 27,
+    "title": "Twin kings and Thera",
+    "summary": "Aristodemus dies and his twin sons Procles and Eurysthenes found two royal houses. With Theras they colonize Calliste, renamed Thera.",
+    "stakes": "The twins' rivalry threatens harmony; Membliarus' descendants may lose their rule of the island.",
+    "present": [
+     "Aristodemus",
+     "Procles",
+     "Eurysthenes",
+     "Theras",
+     "Apollo",
+     "Hercules",
+     "Membliarus",
+     "Cadmus",
+     "Pylades",
+     "Electra",
+     "Tisamenus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thera",
+     "modern_name": "Santorini",
+     "certainty": "real",
+     "lat": 36.4,
+     "lon": 25.45
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Lelex",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first autochthonous king of Laconia"
+   },
+   {
+    "name": "Myles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lelex, king"
+   },
+   {
+    "name": "Polycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "younger son of Lelex"
+   },
+   {
+    "name": "Eurotas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who drained the plain and named the river"
+   },
+   {
+    "name": "Lacedaemon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king, son of Taygete, named the land"
+   },
+   {
+    "name": "Taygete",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "mother of Lacedaemon, gave name to Taygetus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "reputed father of Lacedaemon"
+   },
+   {
+    "name": "Sparta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Eurotas, wife of Lacedaemon"
+   },
+   {
+    "name": "Amyclas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who built Amyclae"
+   },
+   {
+    "name": "Hyacinthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "youngest, handsome son of Amyclas, died young"
+   },
+   {
+    "name": "Argalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "eldest son of Amyclas, king"
+   },
+   {
+    "name": "Cynortas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king after Argalus"
+   },
+   {
+    "name": "Oebalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cynortas"
+   },
+   {
+    "name": "Gorgophone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Perseus, wife of Oebalus"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Gorgophone, from Argos"
+   },
+   {
+    "name": "Tyndareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king exiled by Hippocoon and restored"
+   },
+   {
+    "name": "Hippocoon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "rival claimant to the kingdom"
+   },
+   {
+    "name": "Icarius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "supporter of Hippocoon"
+   },
+   {
+    "name": "Aphareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Perieres, half-brother of Tyndareus in Messenia"
+   },
+   {
+    "name": "Perieres",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aphareus"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "restored Tyndareus; consulted by Aristodemus"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Atreus, son-in-law of Tyndareus"
+   },
+   {
+    "name": "Atreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Menelaus"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king, husband of Hermione"
+   },
+   {
+    "name": "Hermione",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Menelaus"
+   },
+   {
+    "name": "Tisamenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Orestes, king when Heraclidae returned"
+   },
+   {
+    "name": "Temenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid made king in Argos"
+   },
+   {
+    "name": "Cresphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid made king in Messene"
+   },
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid, father of twins, died before the return"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of Delphi, said to have shot Aristodemus"
+   },
+   {
+    "name": "Pylades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Aristodemus' murderers"
+   },
+   {
+    "name": "Electra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Aristodemus' murderers"
+   },
+   {
+    "name": "Procles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "twin son of Aristodemus"
+   },
+   {
+    "name": "Eurysthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "twin son of Aristodemus"
+   },
+   {
+    "name": "Theras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "regent and founder of Thera, son of Autesion"
+   },
+   {
+    "name": "Autesion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Theras"
+   },
+   {
+    "name": "Membliarus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cadmus' colonist left on the island"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of Theras"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lelex",
+    "relation": "parent_of",
+    "b": "Myles",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Lelex",
+    "relation": "parent_of",
+    "b": "Polycaon",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Myles",
+    "relation": "parent_of",
+    "b": "Eurotas",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Eurotas",
+    "relation": "parent_of",
+    "b": "Sparta",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Taygete",
+    "relation": "parent_of",
+    "b": "Lacedaemon",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Lacedaemon",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Lacedaemon",
+    "relation": "spouse_of",
+    "b": "Sparta",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Amyclas",
+    "relation": "parent_of",
+    "b": "Hyacinthus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Amyclas",
+    "relation": "parent_of",
+    "b": "Argalus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Cynortas",
+    "relation": "parent_of",
+    "b": "Oebalus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Oebalus",
+    "relation": "spouse_of",
+    "b": "Gorgophone",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Oebalus",
+    "relation": "parent_of",
+    "b": "Tyndareus",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Perseus",
+    "relation": "parent_of",
+    "b": "Gorgophone",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Perieres",
+    "relation": "parent_of",
+    "b": "Aphareus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Atreus",
+    "relation": "parent_of",
+    "b": "Menelaus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Menelaus",
+    "relation": "parent_of",
+    "b": "Hermione",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Orestes",
+    "relation": "spouse_of",
+    "b": "Hermione",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Orestes",
+    "relation": "parent_of",
+    "b": "Tisamenus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Aristodemus",
+    "relation": "parent_of",
+    "b": "Procles",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Aristodemus",
+    "relation": "parent_of",
+    "b": "Eurysthenes",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Procles",
+    "relation": "sibling_of",
+    "b": "Eurysthenes",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Autesion",
+    "relation": "parent_of",
+    "b": "Theras",
+    "source": "text",
+    "evidence_sentence": 23
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Leleges",
+    "canonical": "Lelex",
+    "explanation": "The people were named after their king Lelex."
+   },
+   {
+    "alias": "Heraclidae",
+    "canonical": "Hercules",
+    "explanation": "Descendants of Hercules who returned to the Peloponnese."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows how place names and cities arise from founders, tying Sparta's identity to a royal genealogy.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias weighs rival Lacedaemonian and Messenian traditions, showing his method of recording local accounts and preferring the more credible.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Sparta famously kept two kings at once, and Pausanias here traces this to the twin sons Procles and Eurysthenes.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Autochthon\" means sprung from the soil itself, a native who did not migrate from elsewhere. The Leleges were an ancient people of early Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Reputed father Zeus\": the child was said to be fathered by Zeus, though a mortal husband was not credited. Note that this translation spells the god's name Zeus here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "Hippocoon claimed the throne by seniority, as an elder brother of Tyndareus's line, over the younger man.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Uterine brother\" means a half-brother through the same mother but a different father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The Heraclidae were descendants of Hercules who, with the Dorians, invaded the Peloponnese and took kingdoms there; this is the legendary \"Return\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "phrasing",
+    "text": "\"Arithmetically dovetail\" means the generations could not be neatly matched in one family tree, so Pausanias will treat each house separately.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 9,
+    "text": "Hyacinthus was beloved by Apollo in myth, and his death was commemorated at Amyclae, which had a famous Apollo statue and festival.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Menelaus, husband of Helen, was a leader in the Trojan War; Orestes is known for avenging his father Agamemnon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Sparta famously had two kings at once, drawn from two royal houses, the Agiads and the Eurypontids, here traced to twin brothers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Thera is the island now called Santorini; offering sacrifice to a city's founder was a regular Greek custom.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 20,
+    "device": "narrative voice",
+    "text": "Pausanias dismisses a flattering local story as self-magnifying and weighs it against a \"truer account\", showing his critical historian's stance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "characterization",
+    "text": "The twins are described as alike in birth but opposite in temper, setting up the lasting rivalry of the two royal houses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "irony",
+    "text": "The brothers hate each other bitterly yet cooperate in founding a colony, an ironic mix of enmity and common purpose.",
+    "spoiler": false
+   }
+  ]
+ }
+}

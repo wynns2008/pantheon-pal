@@ -1,0 +1,294 @@
+{
+ "section_id": "pausanias-body-296",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6887,
+  "output": 2491
+ },
+ "result": {
+  "summary": "Pausanias walks the road from Thebes toward Chalcis and lists the tombs along it, including those of Melanippus, Tydeus, the children of Oedipus, Tiresias, Hector and Asphodicus. He adds an eyewitness parallel for the divided flame and smoke at hero sacrifices, and records the oracle that brought Hector's bones to Thebes.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Tombs on the Chalcis road",
+    "summary": "Pausanias describes the tombs of Melanippus and Tydeus near the gate Proetis, and the tombs of Oedipus' children.",
+    "stakes": "",
+    "present": [
+     "Melanippus",
+     "Tydeus",
+     "Mecisteus",
+     "Amphiaraus",
+     "Maeon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, gate Proetis",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.3223,
+     "lon": 23.3185
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 9,
+    "title": "Divided flame and smoke",
+    "summary": "The Thebans say the flame divides at hero sacrifices; Pausanias recalls seeing smoke rise spontaneously at Pioniae.",
+    "stakes": "",
+    "present": [
+     "Pionis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pioniae in Mysia",
+     "modern_name": "near Kirkağaç, Turkey",
+     "certainty": "real",
+     "lat": 39.1,
+     "lon": 27.6
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 15,
+    "title": "Tombs of Tiresias, Hector, Asphodicus",
+    "summary": "Pausanias lists the cenotaph of Tiresias, Hector's tomb brought by oracle, Oedipus' Well and the tomb of Asphodicus.",
+    "stakes": "",
+    "present": [
+     "Tiresias",
+     "Hector",
+     "Oedipus",
+     "Asphodicus",
+     "Parthenopaeus",
+     "Periclymenus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.3223,
+     "lon": 23.3185
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Melanippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban warrior who slew Tydeus and Mecisteus"
+   },
+   {
+    "name": "Tydeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive attacker of Thebes, buried near the road"
+   },
+   {
+    "name": "Mecisteus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Adrastus, slain by Melanippus"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive leader, brother of Mecisteus"
+   },
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive said to have slain Melanippus"
+   },
+   {
+    "name": "Maeon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have buried Tydeus"
+   },
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "washed his father's blood in the well"
+   },
+   {
+    "name": "Pionis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "descendant of Hercules, founder of Pioniae"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of Pionis"
+   },
+   {
+    "name": "Tiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "seer with a cenotaph at Thebes"
+   },
+   {
+    "name": "Hector",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Priam whose bones were brought to Thebes"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hector"
+   },
+   {
+    "name": "Asphodicus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban said to have slain Parthenopaeus"
+   },
+   {
+    "name": "Parthenopaeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Talaus, slain in the Argive attack"
+   },
+   {
+    "name": "Talaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Parthenopaeus"
+   },
+   {
+    "name": "Periclymenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "named in the Thebais as slayer of Parthenopaeus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose prompting the oracle invokes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Priam",
+    "relation": "parent_of",
+    "b": "Hector",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Talaus",
+    "relation": "parent_of",
+    "b": "Parthenopaeus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Tydeus",
+    "source": "outside",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "The oracle that brought Hector's bones to Thebes.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias guides the reader by tombs, tying the landscape to the Theban myths and the war of the Seven.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Hero cult and the transfer of relics for a city's welfare were real Greek practices, and Pausanias weighs local tradition against epic sources.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias gives rival accounts of Parthenopaeus' death, citing the lost epic Thebais against local Theban tradition.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Theban antiquarians: local experts on Theban past, who preserved local traditions about monuments and graves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Iliad line (Book 14) is cited as proof that Tydeus lay buried at Thebes, a common method of Pausanias.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Cenotaph: an empty tomb, a monument to someone buried elsewhere. A stade is about 185 metres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Asia Minor\" is the translator's wording; the oracle itself would have named Asia more generally. \"Zeus\" here is the translation's own spelling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The Thebais was a lost epic about the war of the Seven against Thebes; Pausanias notes it disagrees with Theban tradition.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Melanippus was a Theban defender in the war of the Seven against Thebes, in which Argive champions attacked the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Hercules was the great Greek hero; many cities claimed descent from him. Mysia was a region of north-western Asia Minor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Oedipus unknowingly killed his father Laius; the washing refers to purification after that bloodshed.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "narrative voice",
+    "text": "The short first-person claim of eyewitness shows Pausanias asserting his authority as a traveller and weighing reports.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "irony",
+    "text": "An oracle promising prosperity for bringing home an enemy hero's bones is a surprising reversal of expectation, since Hector was a foe of Greeks.",
+    "spoiler": false
+   }
+  ]
+ }
+}

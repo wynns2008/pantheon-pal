@@ -1,0 +1,775 @@
+{
+ "section_id": "aeschylus-body-4",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 28142,
+  "output": 7715
+ },
+ "result": {
+  "summary": "The Chorus voice dark forebodings. Clytaemestra orders the captive Cassandra into the palace, but Cassandra, raving in prophecy, sees the house's old crimes and foretells Agamemnon's murder and her own. She then goes in to meet her death.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 16,
+    "title": "Chorus's growing dread",
+    "summary": "The Chorus sing of their unexplained fear and of the danger that follows prosperity and bloodshed.",
+    "stakes": "The Chorus fear that Agamemnon's homecoming will end in disaster for the city.",
+    "present": [
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Before the palace at Argos",
+     "modern_name": "Argos",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 45,
+    "title": "Clytaemestra commands Cassandra",
+    "summary": "Clytaemestra tells Cassandra to leave the car and enter the house. Cassandra does not answer, and Clytaemestra leaves in anger.",
+    "stakes": "Cassandra, a captive slave, faces the queen's displeasure and her own coming fate.",
+    "present": [
+     "Clytaemestra",
+     "Chorus",
+     "Cassandra"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Before the palace at Argos",
+     "modern_name": "Argos",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 46,
+    "end_sentence": 151,
+    "title": "Cassandra's visions of the house",
+    "summary": "Cassandra cries to Apollo and sees the Thyestean banquet and the bath murder. She mourns Troy and tells of the Furies.",
+    "stakes": "Cassandra sees her own death and Agamemnon's, and no one will believe her.",
+    "present": [
+     "Cassandra",
+     "Chorus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Before the palace at Argos",
+     "modern_name": "Argos",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 152,
+    "end_sentence": 192,
+    "title": "Apollo's curse and Agamemnon's doom",
+    "summary": "Cassandra tells how Apollo wooed her and cursed her to be disbelieved. She sees the slaughtered children and the treacherous woman.",
+    "stakes": "Cassandra is doomed to be disbelieved while she foresees her master's murder.",
+    "present": [
+     "Cassandra",
+     "Chorus",
+     "Apollo",
+     "Agamemnon",
+     "Clytaemestra"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Troy",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.96,
+     "lon": 26.24
+    }
+   },
+   {
+    "start_sentence": 193,
+    "end_sentence": 287,
+    "title": "Cassandra goes in to die",
+    "summary": "Cassandra foretells Agamemnon's death and Orestes' revenge, destroys her prophetic insignia and recoils from the smell of blood. She enters the palace.",
+    "stakes": "Cassandra faces certain death inside the palace.",
+    "present": [
+     "Cassandra",
+     "Chorus",
+     "Apollo",
+     "Clytaemestra",
+     "Agamemnon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Before the palace at Argos",
+     "modern_name": "Argos",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elders of Argos"
+   },
+   {
+    "name": "Clytaemestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Queen of Argos, Agamemnon's wife"
+   },
+   {
+    "name": "Cassandra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan princess and captive prophetess"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Loxias",
+     "Lycean Apollo"
+    ],
+    "kind": "god",
+    "description": "God of prophecy who cursed Cassandra"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King and commander of the fleet, returned from Troy"
+   },
+   {
+    "name": "Thyestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Fed his children's flesh at a banquet"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Chief of the gods"
+   },
+   {
+    "name": "Paris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan whose marriage ruined his people"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Cassandra",
+    "source": "text",
+    "evidence_sentence": 164
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "spouse_of",
+    "b": "Clytaemestra",
+    "source": "text",
+    "evidence_sentence": 88
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Loxias",
+    "canonical": "Apollo",
+    "explanation": "A title of Apollo as god of oracles."
+   },
+   {
+    "alias": "Lycean Apollo",
+    "canonical": "Apollo",
+    "explanation": "An epithet of Apollo."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 286,
+    "reason": "Closing image of the fragility of human fortune, a shadow or a wet sponge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 206,
+    "reason": "Cassandra's blunt reply to the Chorus's prayers.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Cassandra's visions link the house's past crimes to the coming murder, showing cycles of inherited bloodguilt.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Aeschylus's audience knew the myths, so Cassandra's doom of being true but never believed gave the scene dramatic irony.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Cassandra gave her name to the 'Cassandra complex', the fate of speaking truth and not being believed."
+   }
+  ],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Portals of my prophetic soul\" pictures the Chorus's fear as a visitor lingering at the door of an inner, foreboding mind.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Refers to the Greek fleet's departure for Troy (Ilium); ships were moored by cables fixed on the shore, and years have since buried them in sand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The \"Avenging Spirit\" is the Fury, who punishes bloodshed; its dirge is \"lyreless\" because no instrument accompanies this inner song of mourning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "Means that prudently jettisoning some wealth can save the household from sinking, as sailors lighten a ship in a storm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Alludes to Asclepius, who raised a man from the dead and was struck down by Zeus for overstepping the limits of mortals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "Says that the Chorus's fears are held in check by other fates, so they can only mutter their dread rather than speak it out.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "The 'holy water' refers to the lustral water used in household sacrifices; sharing it means Cassandra is admitted as a member of the household, though a slave.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Alcmene's son is Heracles, who was sold into slavery to Omphale as penance for killing Iphitus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "'Belike' means 'perhaps' or 'probably'; 'in the toils' means caught as in a hunter's net.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Comparing Cassandra's foreign speech to a swallow's twittering was a Greek commonplace for the unintelligible talk of non-Greeks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "phrasing",
+    "text": "The 'central hearth' is the household altar; the victims await sacrifice, and 'a joy we never expected' is ironic given the murder to come.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "phrasing",
+    "text": "'Brook the curb' means accept the bit; 'foamed away her fretfulness in blood' pictures a bridled horse and darkly hints at Cassandra's coming death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "kind": "word",
+    "text": "Loxias is a title of Apollo, the god of prophecy, often explained as 'the Oblique' speaker of oracles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "kind": "word",
+    "text": "'God of the Ways' translates Apollo's title Agyieus, protector of streets and thresholds; it also puns on 'Apollon' and 'destroyer'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 59,
+    "kind": "allusion",
+    "text": "'This second time': Apollo first ruined Cassandra by giving her prophecy, then making no one believe her; now he leads her to death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "kind": "allusion",
+    "text": "Atreus' sons are Agamemnon and Menelaus; the house is that of Atreus, marked by crimes within the family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 74,
+    "kind": "phrasing",
+    "text": "The Chorus compares Cassandra to a hunting hound tracking blood, though they do not yet understand what she senses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 77,
+    "kind": "allusion",
+    "text": "Refers to Thyestes' children, killed and served to him by his brother Atreus at a banquet.",
+    "spoiler": false
+   },
+   {
+    "sentence": 97,
+    "kind": "allusion",
+    "text": "The 'fatal pack' are the Furies, avenging spirits who haunt the family for its bloodshed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 104,
+    "kind": "allusion",
+    "text": "Cassandra's riddling image: the bull is Agamemnon, his mate Clytemnestra, who will trap him in a robe (the net-like garment) and strike him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 112,
+    "kind": "phrasing",
+    "text": "\"Crowning the cup\" means adding the final measure to a full cup; her own death is the last of the house's woes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "kind": "allusion",
+    "text": "The nightingale mourning Itys refers to Procne, who killed her son Itys and was turned into a bird, forever lamenting him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 127,
+    "kind": "allusion",
+    "text": "Paris's \"bridal\" is his union with Helen, which caused the Trojan War and ruined his own family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 129,
+    "kind": "allusion",
+    "text": "Cocytus and Acheron are rivers of the underworld; she means she will soon be dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 143,
+    "kind": "phrasing",
+    "text": "She says her prophecy will no longer be veiled like a bride, but will come plain and strong, like a wave breaking on sunlight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 148,
+    "kind": "allusion",
+    "text": "The \"primal sin\" is Thyestes' seduction of his brother Atreus's wife, which began the house's cycle of bloody revenge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 156,
+    "kind": "allusion",
+    "text": "Apollo, god of prophecy, gave Cassandra her gift of foresight, as the following lines explain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 162,
+    "kind": "phrasing",
+    "text": "\"Over nice\" means too fastidious or squeamish; the Chorus says the fortunate grow overly delicate about shameful matters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 168,
+    "kind": "word",
+    "text": "Loxias is a title of Apollo as prophet, meaning roughly \"the oblique one\" (of his oracles).",
+    "spoiler": false
+   },
+   {
+    "sentence": 183,
+    "kind": "allusion",
+    "text": "The slaughtered children allude to Thyestes, tricked into eating his own sons' flesh by his brother Atreus, Agamemnon's father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 183,
+    "kind": "word",
+    "text": "\"Dastard lion\" is Aegisthus, a cowardly man who stays at home; \"burthen\" is an old form of burden.",
+    "spoiler": false
+   },
+   {
+    "sentence": 184,
+    "kind": "allusion",
+    "text": "Ate is the goddess of blind ruin and delusion, here compared to a deceitfully fawning Clytemnestra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 187,
+    "kind": "word",
+    "text": "An amphisbaena is a mythical serpent with a head at each end.",
+    "spoiler": false
+   },
+   {
+    "sentence": 187,
+    "kind": "allusion",
+    "text": "Scylla was a sea monster living on a rock, who devoured sailors passing through the strait.",
+    "spoiler": false
+   },
+   {
+    "sentence": 194,
+    "kind": "allusion",
+    "text": "Thyestes unknowingly ate his own children, served by his brother Atreus, Agamemnon's father. This is the house's founding crime.",
+    "spoiler": false
+   },
+   {
+    "sentence": 200,
+    "kind": "phrasing",
+    "text": "'Words propitious' means words of good omen; the Chorus urges her to speak nothing ill-omened.",
+    "spoiler": false
+   },
+   {
+    "sentence": 216,
+    "kind": "allusion",
+    "text": "The Pythian oracles are Apollo's responses at Delphi, famously riddling. The Chorus says her words are as obscure as those.",
+    "spoiler": false
+   },
+   {
+    "sentence": 220,
+    "kind": "word",
+    "text": "Lycean: an epithet of Apollo, perhaps 'wolf-god' or 'of light'. It prepares the wolf image that follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 224,
+    "kind": "word",
+    "text": "Chaplets are wreaths or garlands, here worn as signs of a prophet's office.",
+    "spoiler": false
+   },
+   {
+    "sentence": 230,
+    "kind": "word",
+    "text": "A mountebank is a travelling charlatan or street trickster; 'bravery' means finery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 233,
+    "kind": "allusion",
+    "text": "The avenger is Orestes, who will kill his mother Clytemnestra to avenge Agamemnon. 'Coping-stone' means the finishing stone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 242,
+    "kind": "allusion",
+    "text": "Sacrificial oxen were driven to the altar; the Chorus marvels that Cassandra walks to death as calmly as a beast, yet knowingly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 246,
+    "kind": "phrasing",
+    "text": "A proverb-like remark: the one who comes last gains time. The Chorus suggests she may delay her death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 262,
+    "kind": "word",
+    "text": "\"Faugh\" is an exclamation of disgust at a foul smell.",
+    "spoiler": false
+   },
+   {
+    "sentence": 271,
+    "kind": "word",
+    "text": "A charnel-house is a building or vault where corpses or bones are kept.",
+    "spoiler": false
+   },
+   {
+    "sentence": 273,
+    "kind": "allusion",
+    "text": "Syrian incense was a costly, fragrant offering; the Chorus contrasts it with the stench of blood Cassandra smells.",
+    "spoiler": false
+   },
+   {
+    "sentence": 277,
+    "kind": "phrasing",
+    "text": "She compares herself to a bird fearing a bush: her fear is not groundless, unlike a bird startled by nothing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 278,
+    "kind": "allusion",
+    "text": "The woman to be slain is Clytemnestra, and the man Aegisthus, who will die at Orestes' hands. Cassandra asks the Chorus to remember.",
+    "spoiler": false
+   },
+   {
+    "sentence": 286,
+    "kind": "phrasing",
+    "text": "Prosperity is overthrown by a mere shadow, while ruin is erased as easily as a wet sponge wipes a drawing.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The stage direction marks a change of scene: the Chorus of Argive elders now sings alone, voicing unease after the news of Troy's fall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Spilled blood was thought to cry out for vengeance; no spell could undo a murder, a theme that foreshadows the house of Atreus's fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Cassandra is a Trojan princess and prophetess, given to Agamemnon as war booty. Apollo cursed her so that no one would believe her prophecies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "'Barbarian' to Greeks meant simply a non-Greek speaker, not necessarily uncivilised.",
+    "spoiler": false
+   },
+   {
+    "sentence": 62,
+    "text": "Cassandra was a Trojan princess taken as Agamemnon's captive; Apollo had given her prophecy, so the Chorus notes her gift remains despite slavery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 88,
+    "text": "Agamemnon will be killed by Clytemnestra as he bathes, entangled in a robe or net.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "text": "Cassandra is a Trojan princess brought to Argos as Agamemnon's captive. Apollo gave her prophecy, but because she spurned him, no one believes her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 128,
+    "text": "The Scamander is the river near Troy, Cassandra's home city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 147,
+    "text": "The Furies are goddesses who punish bloodshed within families, especially murder of kin. Here they haunt the house of Atreus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 156,
+    "text": "Cassandra, a Trojan princess, is now Agamemnon's captive and concubine, brought to Argos after the fall of Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 184,
+    "text": "Ilium is Troy; Agamemnon led the Greek fleet that sacked it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 192,
+    "text": "Cassandra's curse was that her true prophecies would never be believed; the Chorus only believes her later.",
+    "spoiler": false
+   },
+   {
+    "sentence": 198,
+    "text": "Cassandra, Trojan princess and Agamemnon's captive, was given prophecy by Apollo but cursed never to be believed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 222,
+    "text": "The lioness is Clytemnestra; the wolf is Aegisthus, her lover, who stayed home while Agamemnon fought at Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 231,
+    "text": "Apollo gave Cassandra prophecy, then cursed her when she refused him, so no one believed her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 256,
+    "text": "Cassandra's father is Priam, king of Troy, whose city and sons were destroyed in the war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 284,
+    "text": "Cassandra, a Trojan princess, was taken as Agamemnon's captive; she prays to the sun for vengeance on her killers.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "personification",
+    "text": "Terror is made a creature that hovers at the door of the soul, giving the vague dread a physical presence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "metaphor",
+    "text": "Confidence is imagined as a ruler on a throne in the bosom, who should drive out fear like a dismissed dream.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "metaphor",
+    "text": "Human fortune becomes a ship sailing smoothly until it strikes a hidden reef, showing how sudden ruin follows success.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "rhetorical question",
+    "text": "The unanswerable question stresses that murder is irreversible, darkening the mood and hinting at coming vengeance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "dramatic irony",
+    "text": "Clytaemestra speaks of sacrifice and joy while planning Agamemnon's murder; the audience knows the real victims are Agamemnon and Cassandra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "device": "metaphor",
+    "text": "Cassandra is likened to an untamed horse that resists the bit, expressing Clytaemestra's contempt and foreshadowing violence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "device": "characterization",
+    "text": "The Chorus's pity contrasts with the queen's harshness, showing its gentler, sympathetic nature.",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "device": "metaphor",
+    "text": "The house is called a 'human shambles' with a floor swimming in blood, turning the home into a slaughterhouse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 79,
+    "device": "dramatic irony",
+    "text": "The Chorus rejects prophets just as Cassandra's truths are being spoken, repeating her curse of never being believed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 95,
+    "device": "imagery",
+    "text": "The net of death foreshadows the entangling robe in which Agamemnon will be trapped and slain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 105,
+    "device": "metaphor",
+    "text": "Clytemnestra is a cow-like beast with a black horn and Agamemnon a bull; the animal imagery turns the murder into a sacrifice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 117,
+    "device": "simile",
+    "text": "The chorus compares Cassandra's ceaseless lament to a nightingale mourning Itys, linking her grief to ancient myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 143,
+    "device": "simile",
+    "text": "Her prophecy is compared to a veiled bride, then to a wind and wave, marking a shift from riddle to plain speech.",
+    "spoiler": false
+   },
+   {
+    "sentence": 147,
+    "device": "personification",
+    "text": "The Furies are drunk on human blood, a revel-rout lodged in the house, which makes the family's guilt a living presence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 182,
+    "device": "imagery",
+    "text": "Ghostly children seated before the house make a vivid, eerie vision of the house's past crimes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 184,
+    "device": "metaphor",
+    "text": "Clytemnestra is called a lewd hound that fawns, licking the hand that she will betray.",
+    "spoiler": false
+   },
+   {
+    "sentence": 187,
+    "device": "simile",
+    "text": "Comparing Clytemnestra to monsters like Scylla presents her as inhuman and destructive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 188,
+    "device": "irony",
+    "text": "Clytemnestra's shout of triumph is disguised as joy at his return, a deceit the audience can see through.",
+    "spoiler": false
+   },
+   {
+    "sentence": 192,
+    "device": "dramatic irony",
+    "text": "Cassandra knows she will be proved right, though only when it is too late; the audience shares her knowledge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 206,
+    "device": "irony",
+    "text": "Cassandra's curt retort shows the Chorus's prayers are powerless against those set on killing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 222,
+    "device": "metaphor",
+    "text": "Clytemnestra is a 'two-footed lioness' mating with a wolf; the animal imagery makes the adulterous queen predatory and monstrous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 223,
+    "device": "metaphor",
+    "text": "Brewing poison and whetting a sword combine to picture Clytemnestra's vengeance as deliberate, domestic preparation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 232,
+    "device": "symbolism",
+    "text": "The block replaces her father's altar, turning her death into a perverted sacrifice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 238,
+    "device": "metaphor",
+    "text": "The palace door becomes the gates of Death, marking her calm acceptance of her fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 267,
+    "device": "imagery",
+    "text": "The house is said to reek of blood, giving a sensory foretaste of the murders within.",
+    "spoiler": false
+   },
+   {
+    "sentence": 269,
+    "device": "dramatic irony",
+    "text": "The Chorus takes the smell for ordinary sacrifice, unaware that it signals the coming murders that the audience knows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 286,
+    "device": "metaphor",
+    "text": "The wet sponge wiping a drawing compares the fragility of human fortune to a picture easily erased.",
+    "spoiler": false
+   }
+  ]
+ }
+}

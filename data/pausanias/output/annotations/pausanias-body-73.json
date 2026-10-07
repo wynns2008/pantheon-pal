@@ -1,0 +1,675 @@
+{
+ "section_id": "pausanias-body-73",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10780,
+  "output": 5447
+ },
+ "result": {
+  "summary": "Pausanias lists the notable sights of Epidaurus, then turns to the island of Ægina, giving its early history, the genealogy of Æacus's descendants and the later fortunes of the Æginetans. He describes the Hall of Æacus and the drought story behind its statues, the tomb of Phocus and how Peleus killed him, and the island's theatre.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Sights of Epidaurus",
+    "summary": "Pausanias lists the temples and statues of Epidaurus, including those of Æsculapius, Dionysus, Artemis, Aphrodite, Hera and Athene.",
+    "stakes": "",
+    "present": [
+     "Æsculapius",
+     "Epione",
+     "Dionysus",
+     "Artemis",
+     "Aphrodite",
+     "Hera",
+     "Athene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Epidaurus",
+     "modern_name": "Epidaurus, Greece",
+     "certainty": "real",
+     "lat": 37.596,
+     "lon": 23.079
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 17,
+    "title": "History of Ægina",
+    "summary": "Ægina is settled by men Zeus made from the soil. The text traces the descendants of Æacus and Phocus and the island's later rise and fall.",
+    "stakes": "The Æginetans risk losing their island and power to Athens.",
+    "present": [
+     "Zeus",
+     "Ægina",
+     "Æacus",
+     "Peleus",
+     "Telamon",
+     "Phocus",
+     "Miltiades",
+     "Cimon",
+     "Teucer",
+     "Panopeus",
+     "Crisus",
+     "Epeus",
+     "Pylades",
+     "Strophius",
+     "Anaxibia",
+     "Agamemnon",
+     "Deiphontes",
+     "Asius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ægina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.746,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 27,
+    "title": "Ægina and the Hall of Æacus",
+    "summary": "Pausanias describes the island's dangerous approaches and the Hall of Æacus. The statues commemorate the envoys who begged Æacus to end a drought.",
+    "stakes": "Greece suffers drought until Æacus intercedes with Zeus.",
+    "present": [
+     "Æacus",
+     "Zeus",
+     "Pythian Priestess"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ægina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.746,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 35,
+    "title": "Death of Phocus",
+    "summary": "At the tomb of Phocus, Pausanias tells how Peleus killed him with a quoit. Telamon's attempt to defend himself from a mole fails and he sails back to Salamis.",
+    "stakes": "Telamon and Peleus face exile and guilt for murder.",
+    "present": [
+     "Phocus",
+     "Peleus",
+     "Telamon",
+     "Endeis",
+     "Thetis",
+     "Æacus",
+     "Pylades",
+     "Orestes",
+     "Neoptolemus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ægina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.746,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 36,
+    "end_sentence": 37,
+    "title": "The Theatre",
+    "summary": "A theatre near the harbour Secret resembles the one at Epidaurus, with a stadium wall supporting it.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Ægina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.746,
+     "lon": 23.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god honoured at Epidaurus"
+   },
+   {
+    "name": "Epione",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "wife of Æsculapius"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple at Epidaurus"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "worshipped as Huntress"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with temples at Epidaurus and Ægina"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple on the cliff"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Cissæan Athene"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a wooden statue in the citadel"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Pan-Hellenian Zeus"
+    ],
+    "kind": "god",
+    "description": "carried off Ægina and made men from soil; sends rain"
+   },
+   {
+    "name": "Ægina",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Asopus, namesake of the island"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "other",
+    "description": "father of Ægina"
+   },
+   {
+    "name": "Æacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Ægina who prayed for rain"
+   },
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Æacus who killed Phocus"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Æacus, exiled for Phocus's death"
+   },
+   {
+    "name": "Phocus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Æacus killed by a quoit"
+   },
+   {
+    "name": "Endeis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Sciron, mother of Peleus and Telamon"
+   },
+   {
+    "name": "Sciron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Endeis"
+   },
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sister of Endeis, mother of Phocus"
+   },
+   {
+    "name": "Miltiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "descendant of Telamon, led Athenians at Marathon"
+   },
+   {
+    "name": "Cimon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Miltiades"
+   },
+   {
+    "name": "Teucer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of the kings of Cyprus"
+   },
+   {
+    "name": "Evagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "last king of Teucer's line in Cyprus"
+   },
+   {
+    "name": "Ajax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Telamon whose family was obscure"
+   },
+   {
+    "name": "Panopeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phocus"
+   },
+   {
+    "name": "Crisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phocus"
+   },
+   {
+    "name": "Epeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Panopeus, builder of the wooden horse"
+   },
+   {
+    "name": "Pylades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Strophius, friend of Orestes"
+   },
+   {
+    "name": "Strophius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Crisus"
+   },
+   {
+    "name": "Anaxibia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Agamemnon, wife of Crisus"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Anaxibia"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "friend of Pylades"
+   },
+   {
+    "name": "Neoptolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "killed through Pylades's plot"
+   },
+   {
+    "name": "Deiphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of Argives at Epidaurus"
+   },
+   {
+    "name": "Asius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet cited for genealogy"
+   },
+   {
+    "name": "Pythian Priestess",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Delphic oracle who advised the Greeks"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Æsculapius",
+    "relation": "spouse_of",
+    "b": "Epione",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Asopus",
+    "relation": "parent_of",
+    "b": "Ægina",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Ægina",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Æacus",
+    "source": "outside",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Æacus",
+    "relation": "parent_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Æacus",
+    "relation": "parent_of",
+    "b": "Peleus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Æacus",
+    "relation": "parent_of",
+    "b": "Telamon",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Endeis",
+    "relation": "parent_of",
+    "b": "Peleus",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Endeis",
+    "relation": "parent_of",
+    "b": "Telamon",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Sciron",
+    "relation": "parent_of",
+    "b": "Endeis",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Thetis",
+    "relation": "parent_of",
+    "b": "Phocus",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Endeis",
+    "relation": "sibling_of",
+    "b": "Thetis",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Phocus",
+    "relation": "parent_of",
+    "b": "Panopeus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Phocus",
+    "relation": "parent_of",
+    "b": "Crisus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Panopeus",
+    "relation": "parent_of",
+    "b": "Epeus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Crisus",
+    "relation": "parent_of",
+    "b": "Strophius",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Strophius",
+    "relation": "parent_of",
+    "b": "Pylades",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Anaxibia",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Crisus",
+    "relation": "spouse_of",
+    "b": "Anaxibia",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Telamon",
+    "relation": "parent_of",
+    "b": "Ajax",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Miltiades",
+    "relation": "parent_of",
+    "b": "Cimon",
+    "source": "text",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cissæan Athene",
+    "canonical": "Athene",
+    "explanation": "Local epithet of Athene for her wooden statue at Epidaurus."
+   },
+   {
+    "alias": "Pan-Hellenian Zeus",
+    "canonical": "Zeus",
+    "explanation": "Epithet of Zeus as god of all Greeks, worshipped on Ægina."
+   },
+   {
+    "alias": "Œnone",
+    "canonical": "Ægina",
+    "explanation": "Old name of the island, replaced by the name of Asopus's daughter."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 18,
+    "reason": "Pausanias remarks on Ægina's famously dangerous approaches, a rare comment on its geography.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The chapter links sights to local legends and genealogies, showing how Greek places preserved memory through monuments, tombs and descent.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Æginetan naval power, its expulsion by Athens and later recovery reflect real rivalries of the fifth century BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Epidaurus theatre, which Pausanias uses as a comparison, is still in use for performances today.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Cissæan is an epithet of Athene, probably from Cissus (ivy); the text only says this is what the locals call the statue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Zeus carried off Ægina, daughter of the river-god Asopus; their son was Æacus. The island's old name Œnone means 'wine-land'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Peleus and Telamon, sons of Æacus, killed their half-brother Phocus and were exiled; Peleus fathered Achilles, Telamon fathered Ajax.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Miltiades and Cimon, Athenian leaders, traced their descent to Ajax's family; Miltiades commanded at Marathon (490 BC).",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Æacidæ means 'descendants of Æacus'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Deiphontes was an Heraclid who took Epidaurus with Argive followers, bringing Dorian settlers who then spread to Ægina.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The Athenian fleet was destroyed at Aegospotami on the Hellespont (405 BC), ending the Athenian hold on Ægina.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "\"Propitiate\" means to appease or win the favour of an angry god; a suppliant is one who humbly begs for help.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "\"Secretly whispered\" means the altar's meaning is only quietly told, a hint of a hidden rite for Æacus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "The pentathlum (pentathlon) was a contest of five events: running, jumping, discus, javelin and wrestling. The \"quoit\" is the discus-like throwing weight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "allusion",
+    "text": "Pausanias compares a story in which Pylades, Orestes' friend, helped kill Neoptolemus; he suggests a family grudge, not only friendship, motivated it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "phrasing",
+    "text": "A \"mole\" here is a breakwater or causeway of piled stones built out into the sea, not the animal.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Epidaurus, in Argolis, was famed above all for its sanctuary of Æsculapius, god of healing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Artemis as a Huntress is the goddess of wild places and hunting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Ægina was a major Greek sea power, sending ships against Persia at Salamis in 480 BC; Athens expelled its people in 431 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Æacus was the legendary king of Ægina, son of Zeus, famed for justice and piety, and later a judge of the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Delphi's oracle, voiced by the Pythian Priestess of Apollo, was the usual authority Greeks consulted in crises such as drought.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "Salamis is the island near Athens that was Telamon's home; his exile from Ægina is the penalty for Phocus' death.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "myth of origins",
+    "text": "The men made from the soil explain the island's population; the autochthonous tale gives the people a divine, native origin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "rise and fall",
+    "text": "The sentence traces a sudden reversal of fortune, moving from greatness to expulsion, a pattern common in historical narrative.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "characterization",
+    "text": "Æacus is shown as shrewd and protective, turning the island's natural hazards into a deliberate defence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "symbolism",
+    "text": "The statues of envoys from all Greece symbolize Greek unity and Æacus' piety, as his prayers succeed where others failed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "narrative voice",
+    "text": "The hedge \"if the Greeks speak the truth\" shows Pausanias as a cautious, skeptical reporter of inherited stories.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,399 @@
+{
+ "section_id": "pausanias-body-17",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8125,
+  "output": 3576
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of the Athenian market-place, noting altars to Mercy, Shame, Rumour and Energy, and the gymnasium of Ptolemy. He then describes the temple of Theseus and its paintings, and uses them to tell stories of Theseus' ring, his imprisonment in Thesprotia, his exile and death on Scyrus, and the return of his bones by Cimon.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Altars and Ptolemy's gymnasium",
+    "summary": "Pausanias notes the altars of Mercy, Shame, Rumour and Energy, praises Athenian piety, and describes the statues in Ptolemy's gymnasium.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Market-place of Athens",
+     "modern_name": "Ancient Agora, Athens",
+     "certainty": "real",
+     "lat": 37.9745,
+     "lon": 23.7225
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 9,
+    "title": "Paintings in Theseus' temple",
+    "summary": "The temple of Theseus holds paintings of the Amazon war, the Centaurs and Lapithae, and a third unclear picture by Micon.",
+    "stakes": "",
+    "present": [
+     "Theseus",
+     "Micon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Theseus, Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9745,
+     "lon": 23.7225
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 11,
+    "title": "Minos' ring and Theseus' dive",
+    "summary": "Minos taunts Theseus about his parentage and throws a ring into the sea; Theseus retrieves it with a crown from Amphitrite.",
+    "stakes": "Theseus' claim to be the son of Poseidon is challenged.",
+    "present": [
+     "Minos",
+     "Theseus",
+     "Peribœa",
+     "Amphitrite",
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sea off Crete",
+     "modern_name": "Aegean Sea near Crete",
+     "certainty": "traditional",
+     "lat": 35.3,
+     "lon": 25.1
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 17,
+    "title": "Theseus imprisoned in Thesprotia",
+    "summary": "Pausanias gives rival accounts of Theseus' death and prefers the story of his capture with Pirithous in Thesprotia, noting rivers that Homer may have borrowed for Hades.",
+    "stakes": "Theseus and Pirithous are held prisoner after their failed attempt to carry off the king's wife.",
+    "present": [
+     "Theseus",
+     "Pirithous",
+     "Pluto",
+     "Hercules",
+     "Homer"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Cichyrus, Thesprotia",
+     "modern_name": "Epirus, northwestern Greece",
+     "certainty": "real",
+     "lat": 39.4,
+     "lon": 20.5
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 21,
+    "title": "Menestheus, Scyrus and Cimon",
+    "summary": "While Theseus is away Menestheus is restored to power; Theseus is later killed through Lycomedes' plot on Scyrus, and Cimon brings his bones to Athens.",
+    "stakes": "Theseus' kingdom and then his life are lost to rivals.",
+    "present": [
+     "Menestheus",
+     "Theseus",
+     "Lycomedes",
+     "Cimon",
+     "Elephenor",
+     "Deucalion"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Scyrus",
+     "modern_name": "Skyros",
+     "certainty": "real",
+     "lat": 38.9,
+     "lon": 24.55
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian hero, painted in the temple and subject of tales"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Crete who taunts Theseus"
+   },
+   {
+    "name": "Peribœa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman desired by Minos"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of the sea, said to be Theseus' father"
+   },
+   {
+    "name": "Amphitrite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sea goddess who gave Theseus a golden crown"
+   },
+   {
+    "name": "Pirithous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "companion of Theseus, imprisoned with him"
+   },
+   {
+    "name": "Pluto",
+    "aliases": [],
+    "kind": "god",
+    "description": "god said to have bound Theseus"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who freed Theseus in one account"
+   },
+   {
+    "name": "Menestheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "restored to the kingdom of Athens"
+   },
+   {
+    "name": "Elephenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler in Eubœa who sheltered Theseus' sons"
+   },
+   {
+    "name": "Deucalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man in Crete to whom Theseus was sent"
+   },
+   {
+    "name": "Lycomedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Scyrus who planned Theseus' death"
+   },
+   {
+    "name": "Cimon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Miltiades who brought Theseus' bones to Athens"
+   },
+   {
+    "name": "Miltiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cimon"
+   },
+   {
+    "name": "Micon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "painter of the temple pictures"
+   },
+   {
+    "name": "Ptolemy",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of the gymnasium, with a bronze statue"
+   },
+   {
+    "name": "Juba",
+    "aliases": [
+     "the Libyan Juba"
+    ],
+    "kind": "mortal",
+    "description": "statue in the gymnasium"
+   },
+   {
+    "name": "Chrysippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "of Soli, statue in the gymnasium"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who named the rivers of Hades"
+   },
+   {
+    "name": "Tyndarus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the sons who took Aphidna"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Theseus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Tyndarus",
+    "relation": "parent_of",
+    "b": "Theseus",
+    "source": "outside",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Miltiades",
+    "relation": "parent_of",
+    "b": "Cimon",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Theseus",
+    "relation": "parent_of",
+    "b": "Theseus",
+    "source": "outside",
+    "evidence_sentence": 19
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "sons of Tyndarus",
+    "canonical": "Tyndarus",
+    "explanation": "Patronymic for Castor and Polydeuces, not named in this section."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 0,
+    "reason": "Athens alone honours Mercy as a god, a famous detail of Athenian religion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "reason": "Pausanias states his view that piety brings good fortune.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links Athenian piety and philanthropy to worship of abstract virtues and to the honouring of heroes like Theseus.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The return of Theseus' bones by Cimon around 475 BC shows how Athens used hero cult to build civic identity after the Persian Wars.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The altar of Mercy (Eleos) at Athens became a famous example of cult for personified abstractions, cited by later writers."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Theseum paintings by Micon were lost, so Pausanias is a key witness to their subjects.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Vicissitudes\" means the changes of fortune, ups and downs, that mark human life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Hermæ\" are stone pillars topped with a head of Hermes, common in Athens as markers and dedications.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Pourtrayed\" is an old spelling of \"portrayed\"; Micon the painter did not depict the whole story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "The sentence is long and clumsy: Minos taunts Theseus, claiming that if he were Poseidon's son he could retrieve a ring thrown into the sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "This refers to the story that Theseus and Pirithous went down to the underworld and Hercules rescued Theseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"Marriage-hunting\" means Pirithous came seeking a bride; the pair planned to seize the king's wife for him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "\"Sons of Tyndarus\" are Castor and Pollux, brothers of Helen, whom Theseus had abducted; Aphidna was where she was held.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Ptolemy's gymnasium was a public building for exercise and education; Juba was a Libyan king and writer, and Chrysippus a Stoic philosopher.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "The Amazon battle was a favourite Athenian subject, since Theseus was said to have defeated the Amazons who invaded Attica.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Micon was a famous Athenian painter of the fifth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Cimon brought back the bones of Theseus from Scyrus around 475 BC, and Athens honoured them with a shrine.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "narrative voice",
+    "text": "Pausanias interrupts description with a moral judgment, linking piety to prosperity and showing his own religious outlook.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "narrative voice",
+    "text": "The author offers a personal conjecture (\"I fancy\"), showing his habit of rationalising myth and tracing literary borrowing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "characterization",
+    "text": "Menestheus is shown as calculating and cautious, flattering the people to keep Theseus from returning.",
+    "spoiler": false
+   }
+  ]
+ }
+}

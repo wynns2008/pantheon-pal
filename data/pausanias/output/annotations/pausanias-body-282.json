@@ -1,0 +1,260 @@
+{
+ "section_id": "pausanias-body-282",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6331,
+  "output": 2293
+ },
+ "result": {
+  "summary": "Pausanias describes the sights of Plataea: the temple of Arean Athene with its Phidian statue and paintings, a temple of Eleusinian Demeter, and the tomb of Leitus. He then notes the fouled spring Gargaphia and follows the road toward Thebes past the Oeroe, the ruins of Scolus and the Asopus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Monuments of Plataea",
+    "summary": "The temple of Arean Athene, its statue and paintings, the Demeter temple, Leitus' tomb and the spring Gargaphia are described.",
+    "stakes": "",
+    "present": [
+     "Arean Athene",
+     "Phidias",
+     "Polygnotus",
+     "Onatas",
+     "Arimnestus",
+     "Leitus",
+     "Mardonius",
+     "Odysseus",
+     "Adrastus",
+     "Demeter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Platæa",
+     "modern_name": "Plataies",
+     "certainty": "real",
+     "lat": 38.2158,
+     "lon": 23.2686
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 9,
+    "title": "Road to Thebes and Scolus",
+    "summary": "Along the road to Thebes, Pausanias mentions the Oeroe, the ruins of Scolus with its unfinished temple, and the Asopus boundary.",
+    "stakes": "",
+    "present": [
+     "Oeroe",
+     "Asopus",
+     "Demeter",
+     "Proserpine"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Scolus",
+     "modern_name": "near Plataea, Boeotia",
+     "certainty": "real",
+     "lat": 38.25,
+     "lon": 23.35
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Arean Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Athene worshipped at Plataea with a gilded wooden statue"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the statue"
+   },
+   {
+    "name": "Polygnotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "painter of Odysseus slaying the suitors"
+   },
+   {
+    "name": "Onatas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "painter of the expedition against Thebes"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "shown in a painting after slaying the suitors"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the Argives against Thebes"
+   },
+   {
+    "name": "Arimnestus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Plataean commander at Marathon and against Mardonius"
+   },
+   {
+    "name": "Mardonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian commander who fouled Gargaphia"
+   },
+   {
+    "name": "Leitus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boeotian leader who returned from Troy"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Eleusinian Demeter"
+    ],
+    "kind": "goddess",
+    "description": "goddess with temples at Plataea and Scolus"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess honored with Demeter at Scolus"
+   },
+   {
+    "name": "Oeroe",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "river, said to be daughter of Asopus"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river and boundary between Plataea and Thebes, father of Oeroe"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Asopus",
+    "relation": "parent_of",
+    "b": "Oeroe",
+    "source": "text",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Proserpine",
+    "canonical": "Persephone",
+    "explanation": "Proserpine is the Roman name of the Greek Persephone, daughter of Demeter."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows how monuments tie Plataea to Marathon and the Persian wars, preserving memory of Greek victory.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Athens gave Plataea the spoil of Marathon, reflecting the close alliance between the two cities.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The statue was said to be by Phidias, the sculptor of the Parthenon's great Athena.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Arean Athene: Athene as goddess of war, from Ares, the war god. Her cult title marks the Plataean victory theme.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Gilt over: covered with a thin layer of gold. Only the exposed parts, head, fingers and toes, are marble, a technique called acrolithic.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "Odysseus is the Greek name; elsewhere in this translation he appears as Ulysses. The painting shows the slaying of the suitors, from the Odyssey's ending.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Adrastus and the Argives against Thebes: the first expedition is the Seven against Thebes, the mythic war led by Adrastus, king of Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Leitus was a Boeotian leader at Troy; the Iliad names him among the Greek commanders. Other Boeotian leaders died or were lost on the way.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Stades: a Greek unit of length, roughly 600 feet, so forty stades is about four and a half miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Proserpine: the Latin name for Persephone, Demeter's daughter. The translation uses Roman names for some deities.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "The bronze Athene on the Acropolis was the famous Athene Promachos by Phidias, the great Athenian sculptor of the fifth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Mardonius was the Persian commander defeated at Plataea in 479 BC. Arimnestus is said to have killed him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "The Greek army camped near Gargaphia before the battle of Plataea in 479 BC. Persian cavalry blocked and fouled the spring.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "The Asopus is the river of Boeotia near Plataea and Thebes. Rivers were often treated as gods, with nymph daughters.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "narrative voice",
+    "text": "Pausanias briefly recounts the battle's history as an aside, a guidebook habit of linking each monument to a memorable past event.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "symbolism",
+    "text": "The unfinished temple and half-complete statues serve as an image of decay and abandonment, showing Scolus's ruin.",
+    "spoiler": false
+   }
+  ]
+ }
+}

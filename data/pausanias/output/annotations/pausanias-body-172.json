@@ -1,0 +1,398 @@
+{
+ "section_id": "pausanias-body-172",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7341,
+  "output": 3210
+ },
+ "result": {
+  "summary": "Pausanias opens Book 6 by explaining that he will describe only the more renowned or finer statues of Olympic victors. He then walks past statues near the temple of Hera, noting wrestlers, boxers, horse-race winners, Cynisca's chariot group, and Spartan chariot victors.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Principles for choosing statues",
+    "summary": "Pausanias explains that not every victor has a statue and that he will mention only the most renowned or finest.",
+    "stakes": "",
+    "present": [
+     "Pausanias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6382,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 13,
+    "title": "Statues beside the temple of Hera",
+    "summary": "Statues of wrestlers, boxers and horse-race winners from Elis and elsewhere are listed with their sculptors, including Troilus's controversial win and the dream of Dinolochus's mother.",
+    "stakes": "",
+    "present": [
+     "Symmachus",
+     "Neolaidas",
+     "Archedamus",
+     "Alypus",
+     "Naucydes",
+     "Cleogenes",
+     "Dinolochus",
+     "Troilus",
+     "Lysippus",
+     "Cleon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Hera, Olympia",
+     "modern_name": "Heraion, Olympia",
+     "certainty": "real",
+     "lat": 37.6385,
+     "lon": 21.6256
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 23,
+    "title": "Cynisca and the Spartan victors",
+    "summary": "Pausanias describes the chariot group of Cynisca and the statues of Spartan victors Anaxander and Polycles.",
+    "stakes": "",
+    "present": [
+     "Cynisca",
+     "Apelles",
+     "Anaxander",
+     "Polycles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6382,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Symmachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wrestler from Elis, son of Æschylus"
+   },
+   {
+    "name": "Æschylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Symmachus"
+   },
+   {
+    "name": "Neolaidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boy boxing victor from Pheneos, son of Proxenus"
+   },
+   {
+    "name": "Proxenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Neolaidas"
+   },
+   {
+    "name": "Archedamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boy wrestling victor from Elis, son of Xenius"
+   },
+   {
+    "name": "Xenius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Archedamus"
+   },
+   {
+    "name": "Alypus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicyonian sculptor, pupil of Naucydes"
+   },
+   {
+    "name": "Naucydes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive sculptor"
+   },
+   {
+    "name": "Cleogenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean victor with a horse from his own stud, son of Silenus"
+   },
+   {
+    "name": "Silenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cleogenes"
+   },
+   {
+    "name": "Dinolochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean boy victor, son of Pyrrhus"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Dinolochus"
+   },
+   {
+    "name": "Troilus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean umpire and horse-race victor, son of Alcinous"
+   },
+   {
+    "name": "Alcinous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Troilus"
+   },
+   {
+    "name": "Lysippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Troilus's statue"
+   },
+   {
+    "name": "Cleon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sicyonian sculptor of Dinolochus's statue"
+   },
+   {
+    "name": "Cynisca",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan woman, wife of Archidamus, chariot victor"
+   },
+   {
+    "name": "Archidamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, husband of Cynisca"
+   },
+   {
+    "name": "Apelles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "artist credited with Cynisca's effigy"
+   },
+   {
+    "name": "Anaxander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan, first proclaimed chariot-race victor"
+   },
+   {
+    "name": "Polycles",
+    "aliases": [
+     "Polychalcus"
+    ],
+    "kind": "mortal",
+    "description": "Spartan victor in the four-horse chariot race"
+   },
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the narrator"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose temple stands at Olympia"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Æschylus",
+    "relation": "parent_of",
+    "b": "Symmachus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Proxenus",
+    "relation": "parent_of",
+    "b": "Neolaidas",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Xenius",
+    "relation": "parent_of",
+    "b": "Archedamus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Silenus",
+    "relation": "parent_of",
+    "b": "Cleogenes",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Pyrrhus",
+    "relation": "parent_of",
+    "b": "Dinolochus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Alcinous",
+    "relation": "parent_of",
+    "b": "Troilus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Archidamus",
+    "relation": "spouse_of",
+    "b": "Cynisca",
+    "source": "text",
+    "evidence_sentence": 14
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Polychalcus",
+    "canonical": "Polycles",
+    "explanation": "A surname of Polycles, meaning roughly 'much bronze'."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 2,
+    "reason": "Pausanias states his method: a record of statues and offerings, not a list of victors.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias is selective, favouring renown and artistry over completeness, and ties victories to sculptors and local pride.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Cynisca's statue shows that a woman could win Olympic chariot victories as an owner, since owners rather than drivers were crowned.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Olympic victors' crowns were of wild olive, as this chapter notes.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Amateurs\" here likely means private individuals, not professional athletes, who competed or owned entrants; the sense is a little loose in this translation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The crown of wild olive was the Olympic victor's prize, cut from a sacred tree at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Stud\" means a breeding stable of horses; Cleogenes won with a horse he himself had bred.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Umpire\" translates the Greek Hellanodikes, the Elean judges of the games; Troilus held this office when he won.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "\"Proclaimed\" refers to the herald announcing the victor's name aloud, the formal act of declaring a win.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "The pentathlum (pentathlon) was a five-event contest: running, jumping, discus, javelin and wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "\"Polychalcus\" means roughly \"much bronze\"; a riband is a fillet or ribbon tied on victors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "The Pythian, Isthmian and Nemean games, with Olympia, formed the four great Greek festival circuits.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "The temple of Hera at Olympia was one of the oldest buildings in the sanctuary, and statues stood around it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "The Eleans managed the games, so the rule was a reform responding to a perceived conflict of interest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Lysippus of Sicyon was a famous fourth-century BC bronze sculptor, known as Alexander's court sculptor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Cynisca, a Spartan princess and daughter of King Archidamus, was the first woman to win an Olympic victory, with horses she owned.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a selective, judging guide, explaining his criteria of renown and artistic quality to the reader.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "foreshadowing",
+    "text": "The mother's dream of embracing her crowned son anticipates his victory, presenting the win as divinely signaled.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "characterization",
+    "text": "The small details of the two boys, one with the wheel and one begging the riband, give the statue group a lively, human scene.",
+    "spoiler": false
+   }
+  ]
+ }
+}

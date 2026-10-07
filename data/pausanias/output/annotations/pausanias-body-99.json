@@ -1,0 +1,328 @@
+{
+ "section_id": "pausanias-body-99",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8439,
+  "output": 2854
+ },
+ "result": {
+  "summary": "Pausanias describes the Spartan acropolis, especially the bronze temple of Athene Chalciœcus with its reliefs, statues and neighbouring shrines. He then tells the story of the Spartan general Pausanias, who killed the maiden Cleonice and could not escape the guilt.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Ilithyia's temple and the citadel",
+    "summary": "The temple of Ilithyia, the Spartan citadel and the building of Athene Poliuchus's temple and bronze statue by Gitiadas.",
+    "stakes": "",
+    "present": [
+     "Tyndareus",
+     "Gitiadas",
+     "Athene",
+     "Ilithyia"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sparta",
+     "modern_name": "Sparta",
+     "certainty": "real",
+     "lat": 37.0736,
+     "lon": 22.4297
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 19,
+    "title": "Sights around Athene Chalciœcus",
+    "summary": "Reliefs, porches, offerings, shrines and statues around the temple are described, including Lysander's dedication and Clearchus's bronze Zeus.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Castor",
+     "Pollux",
+     "Perseus",
+     "Lysander",
+     "Clearchus",
+     "Euryleonis",
+     "Athene",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Spartan citadel",
+     "modern_name": "Acropolis of Sparta",
+     "certainty": "real",
+     "lat": 37.0795,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 26,
+    "title": "Pausanias and Cleonice",
+    "summary": "Pausanias the general, at Byzantium, accidentally frightened and killed Cleonice, and could not be cleansed of the guilt despite rites and sanctuary.",
+    "stakes": "Pausanias faces divine wrath and punishment for murder; Cleonice loses her life.",
+    "present": [
+     "Pausanias",
+     "Cleonice",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Byzantium",
+     "modern_name": "Istanbul",
+     "certainty": "real",
+     "lat": 41.0082,
+     "lon": 28.9784
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ilithyia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of childbirth with a Spartan temple"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Poliuchus",
+     "Chalciœcus"
+    ],
+    "kind": "goddess",
+    "description": "goddess honoured in the bronze temple at Sparta"
+   },
+   {
+    "name": "Tyndareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "began the temple; buried before the Arranger's temple"
+   },
+   {
+    "name": "Gitiadas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan sculptor and poet who made the bronze statue"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero shown in the bronze reliefs"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Tyndareus, shown abducting Leucippus's daughters"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Castor, shown in reliefs"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero given cap and sandals by the Nymphs"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Arranger",
+     "Supreme Zeus",
+     "Acquitter",
+     "Suppliants"
+    ],
+    "kind": "god",
+    "description": "king of gods, honoured under many titles"
+   },
+   {
+    "name": "Lysander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan admiral who dedicated eagles and Victories"
+   },
+   {
+    "name": "Clearchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man of Rhegium who made the bronze Zeus"
+   },
+   {
+    "name": "Euryleonis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan woman who won at Olympia with horses"
+   },
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan general at Platæa who killed Cleonice"
+   },
+   {
+    "name": "Cleonice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Byzantian maiden killed by Pausanias"
+   },
+   {
+    "name": "Epidotes",
+    "aliases": [],
+    "kind": "god",
+    "description": "deity who turned aside Zeus's wrath"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Tyndareus",
+    "relation": "parent_of",
+    "b": "Castor",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Tyndareus",
+    "relation": "parent_of",
+    "b": "Pollux",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Castor",
+    "relation": "sibling_of",
+    "b": "Pollux",
+    "source": "outside",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Poliuchus",
+    "canonical": "Athene",
+    "explanation": "Title meaning 'city-holder', used for Athene at Sparta."
+   },
+   {
+    "alias": "Chalciœcus",
+    "canonical": "Athene",
+    "explanation": "Title meaning 'of the Brazen House', from her bronze temple."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 13,
+    "reason": "Explains the Spartan custom of marching to battle with music rather than trumpets.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Sacred sites carry memory: art, offerings and tombs link Sparta to its myths and wars.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The story of Pausanias shows the Spartan fear of sanctuary violation and of generals corrupted abroad after the Persian Wars.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The bronze Zeus by Clearchus was said to be made of hammered plates joined with studs, an early bronze-working method.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Aphidna was the Attic town where Theseus kept Helen; Castor and Pollux captured it to rescue her, so its spoils paid for the temple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Castor and Pollux carried off Leucippus's daughters Phoebe and Hilaeira; Hephæstus freeing his mother Hera is a story of his trapping her in a magic throne.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Ægos-potamoi (405 BC) was the decisive Spartan victory that ended the Peloponnesian War; the Ephesus (Notium) victory came earlier.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "Forged piece by piece: the statue was made of separate hammered bronze plates joined with studs, before casting in one piece became common.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "The Scenoma means 'tent' or 'tent-like structure'; the name is Pausanias's own label for that spot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "Took sanctuary: fled to the temple for protection. Indemnity means immunity from punishment, which Pausanias was denied.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "A scimetar is a curved sword; the translator's spelling of 'scimitar'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "Necromancers were those who summoned the spirits of the dead; at Phigalia they were asked to appease Cleonice's ghost.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The Cadmea was the citadel of Thebes and Larissa that of Argos; Sparta's acropolis was by comparison a modest hill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Gitiadas was a Spartan sculptor and poet; his bronze Athene gave the temple its name, Chalciœcus, 'of the Brazen House'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Spartan armies marched to flutes in measured step, which kept their ranks orderly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Pausanias commanded the Greeks at Platæa in 479 BC and later fell into disgrace for treasonable dealings with Persia.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 24,
+    "device": "irony",
+    "text": "The traitor's guilty conscience makes him panic and kill an innocent girl, so his own fear brings about his crime.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "motif",
+    "text": "Pollution and failed purification recur here: even Zeus the Acquitter and the necromancers cannot cleanse the blood-guilt.",
+    "spoiler": false
+   }
+  ]
+ }
+}

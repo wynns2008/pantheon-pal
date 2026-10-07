@@ -1,0 +1,362 @@
+{
+ "section_id": "pausanias-body-181",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8071,
+  "output": 2999
+ },
+ "result": {
+  "summary": "Pausanias continues listing Olympic victor statues. He tells how Glaucus of Carystus, a farmer's son, became a champion boxer, then notes the armed-race victors of Heraea, the Argive sculptors, and the chariot of Cleosthenes of Epidamnus, the first horse-owner to set up his statue at Olympia.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Glaucus the ploughman boxer",
+    "summary": "Glaucus, who mended a plough with his bare hand, is sent to Olympia by his father and wins after being urged to remember the ploughshare. His statue shows him boxing.",
+    "stakes": "Glaucus risks defeat and fainting from punishment in his last bout at Olympia.",
+    "present": [
+     "Glaucus",
+     "Demylus",
+     "Glaucias"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 19,
+    "title": "Statues of Heraea and others",
+    "summary": "Pausanias describes the statues of Damaretus and his family, the Argive sculptors' inscription, Iccus, and Pantarces.",
+    "stakes": "",
+    "present": [
+     "Damaretus",
+     "Theopompus",
+     "Eutelidas",
+     "Chrysothemis",
+     "Iccus",
+     "Pantarces",
+     "Phidias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 28,
+    "title": "Chariot of Cleosthenes",
+    "summary": "Pausanias describes the chariot of Cleosthenes of Epidamnus, the first horse-breeder to set up his statue, then Epidamnus and further boy victors.",
+    "stakes": "",
+    "present": [
+     "Cleosthenes",
+     "Ageladas",
+     "Euagoras",
+     "Miltiades",
+     "Lycinus",
+     "Cleon",
+     "Epicradius",
+     "Ptolichus",
+     "Tellon",
+     "Agiadas",
+     "Serambus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Glaucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boxer of Carystus, a farmer's son"
+   },
+   {
+    "name": "Demylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Glaucus"
+   },
+   {
+    "name": "Glaucias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aeginetan sculptor of Glaucus's statue"
+   },
+   {
+    "name": "Damaretus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraean winner of the armed race"
+   },
+   {
+    "name": "Theopompus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "pentathlon winner, son of Damaretus; grandson of same name wrestled"
+   },
+   {
+    "name": "Eutelidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive sculptor"
+   },
+   {
+    "name": "Chrysothemis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive sculptor"
+   },
+   {
+    "name": "Iccus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Tarentine pentathlon victor and trainer"
+   },
+   {
+    "name": "Nicolaidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Iccus"
+   },
+   {
+    "name": "Pantarces",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boy wrestling victor of Elis"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor who loved Pantarces"
+   },
+   {
+    "name": "Cleosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "chariot victor of Epidamnus"
+   },
+   {
+    "name": "Ageladas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the chariot"
+   },
+   {
+    "name": "Euagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lacedaemonian who dedicated a chariot"
+   },
+   {
+    "name": "Miltiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian dedicator at Olympia"
+   },
+   {
+    "name": "Lycinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boys' race victor of Heraea"
+   },
+   {
+    "name": "Cleon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Lycinus"
+   },
+   {
+    "name": "Epicradius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boy boxer of Mantinea"
+   },
+   {
+    "name": "Ptolichus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aeginetan sculptor"
+   },
+   {
+    "name": "Tellon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boy boxer from Oresthasium"
+   },
+   {
+    "name": "Agiadas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boy boxer of Elis"
+   },
+   {
+    "name": "Serambus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aeginetan sculptor"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Demylus",
+    "relation": "parent_of",
+    "b": "Glaucus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Damaretus",
+    "relation": "parent_of",
+    "b": "Theopompus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Nicolaidas",
+    "relation": "parent_of",
+    "b": "Iccus",
+    "source": "text",
+    "evidence_sentence": 18
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "Father's famous cry reminding Glaucus of his strength turned the boxing match.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows how athletic fame came from humble origins and is preserved through statues and inscriptions.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The statues record the Greek habit of honoring victors and show the early armed race, later abandoned.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The armed race (hoplitodromos) was introduced at Olympia in 520 BC, the 65th Olympiad.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "A ploughshare is the cutting blade of a plough. The point is that he used his bare hand as a hammer, which shows extraordinary strength.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "The father's cry reminds Glaucus of his hand's feat on the farm, urging him to strike with the same force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"The noble Science\" is an old term for boxing as a skilled art.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "The race in heavy armour (hoplite race) was run by men carrying shield, helmet and greaves. The 65th Olympiad is about 520 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "The pentathlum (pentathlon) was a five-event contest: running, jumping, discus, javelin and wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "The Zeus behind it was dedicated from the spoils of the Greek victory over the Persians at Platæa in 479 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "An elegiac couplet is a two-line verse form, a hexameter followed by a pentameter, common in inscriptions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Epidamnus, on the Adriatic coast, was later called Dyrrhachium; Pausanias says the name came from its founder.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Carystus is a city on Euboea. Glaucus the sea god was a fisherman turned deity in Greek legend, which gives the athlete a divine ancestor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "The Pythian, Nemean and Isthmian games were the other great Panhellenic festivals, so these wins make Glaucus a major champion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Phidias was the famous sculptor who made the great Zeus at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Offerings at Olympia could be a chariot alone, without the dedicator's statue, as with Euagoras.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "Anecdote",
+    "text": "The father's brief, direct cry turns a legend into a dramatic reversal, explaining the victory through the earlier ploughshare feat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Epigraph",
+    "text": "The quoted inscription gives the sculptors' own voice, serving as evidence and adding documentary authority to the narrative.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "Narrative voice",
+    "text": "Pausanias speaks as a careful antiquarian, ranking Cleosthenes as a first and noting what he knows from what he does not.",
+    "spoiler": false
+   }
+  ]
+ }
+}

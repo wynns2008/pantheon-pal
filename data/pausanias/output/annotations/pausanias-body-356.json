@@ -1,0 +1,372 @@
+{
+ "section_id": "pausanias-body-356",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8074,
+  "output": 3156
+ },
+ "result": {
+  "summary": "Pausanias describes a temple of Artemis near an unnamed town, then the Phocian coastal town of Bulis with its temples and purple-dye industry. He moves on to Cirrha, port of Delphi, and tells how the Amphictyones, advised by Solon, destroyed it for its impiety against Apollo.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 0,
+    "title": "Temple of Artemis by Praxiteles",
+    "summary": "A temple on a lofty rock holds a tall statue of Artemis by Praxiteles, with torch, quiver and dog.",
+    "stakes": "",
+    "present": [
+     "Artemis",
+     "Praxiteles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "rock near the town",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 1,
+    "end_sentence": 10,
+    "title": "The town of Bulis",
+    "summary": "Pausanias gives the founding, distances, purple-dye trade and temples of Bulis.",
+    "stakes": "",
+    "present": [
+     "Bulon",
+     "Artemis",
+     "Dionysus",
+     "Zeus",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Bulis",
+     "modern_name": "Bouliasmeni, near Zaltsa (Boeotia/Phocis coast)",
+     "certainty": "real",
+     "lat": 38.3667,
+     "lon": 22.6
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 16,
+    "title": "Cirrha and its Hippodrome",
+    "summary": "Pausanias describes the Pythian Hippodrome, the barren plain of Cirrha, and the town's names and impiety.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Cirrha",
+     "Homer"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cirrha",
+     "modern_name": "near Itea",
+     "certainty": "real",
+     "lat": 38.42,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 21,
+    "title": "Solon and the siege of Cirrha",
+    "summary": "The Amphictyones besiege Cirrha; following the oracle and Solon's hellebore trick, they capture it.",
+    "stakes": "Cirrha's people face destruction for their impiety against Apollo.",
+    "present": [
+     "Clisthenes",
+     "Solon",
+     "Pythian Priestess",
+     "Amphitrite",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Cirrha",
+     "modern_name": "near Itea",
+     "certainty": "real",
+     "lat": 38.42,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 23,
+    "title": "Temple at Cirrha",
+    "summary": "Cirrha has a temple of Apollo, Artemis and Leto with Attic statues, and a small Adrastea.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Artemis",
+     "Leto",
+     "Adrastea"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cirrha",
+     "modern_name": "near Itea",
+     "certainty": "real",
+     "lat": 38.42,
+     "lon": 22.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple and statue; worshipped at Bulis and Cirrha"
+   },
+   {
+    "name": "Praxiteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the Artemis statue"
+   },
+   {
+    "name": "Bulon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of the colony of Bulis"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a wooden statue at Bulis"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Supreme"
+    ],
+    "kind": "god",
+    "description": "probably the god called Supreme at Bulis"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "name given to a torrent near Bulis"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of Delphi, wronged by Cirrha"
+   },
+   {
+    "name": "Cirrha",
+    "aliases": [
+     "Crisa"
+    ],
+    "kind": "nymph",
+    "description": "nymph from whom the town is said to be named"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who uses the old name Crisa"
+   },
+   {
+    "name": "Clisthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Sicyon, leader of the Amphictyones"
+   },
+   {
+    "name": "Solon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian adviser who devised the stratagems"
+   },
+   {
+    "name": "Pythian Priestess",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "delivers the oracle at Delphi"
+   },
+   {
+    "name": "Amphitrite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sea goddess named in the oracle"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "honored in the Cirrha temple"
+   },
+   {
+    "name": "Adrastea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "deity with a small statue at Cirrha"
+   },
+   {
+    "name": "Philomelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phocian leader linked to impiety"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "outside",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Artemis",
+    "source": "outside",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Apollo",
+    "relation": "sibling_of",
+    "b": "Artemis",
+    "source": "outside",
+    "evidence_sentence": 22
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Supreme",
+    "canonical": "Zeus",
+    "explanation": "Pausanias guesses the Bulis title 'Supreme' refers to Zeus."
+   },
+   {
+    "alias": "Crisa",
+    "canonical": "Cirrha",
+    "explanation": "Ancient name of Cirrha, used by Homer."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 18,
+    "reason": "The oracle's riddling response that guided the capture of Cirrha.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Offences against Apollo's sanctuary bring divine punishment, and the oracle's riddle is solved by human cleverness.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The account reflects the First Sacred War (early 6th century BC), in which the Amphictyonic League destroyed Cirrha and secured Delphi's access to the sea.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Bulis was known in antiquity for purple dye from shellfish, which Pausanias notes employed most of its people.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–185 metres, so 2 stades is about 370 metres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Supreme\" (Hypatos) was a cult title often attached to Zeus; Pausanias guesses the god meant, since the locals do not name him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The Taraxippus (\"horse-terrifier\") was a spot in the Olympia hippodrome where horses were said to panic; Pausanias treated it in his book on Elis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Crisa is the name in Homer's Iliad and the Hymn to Apollo; Cirrha later became the usual name for the town.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "The Amphictyones were the member states of the league that administered the Delphic sanctuary and could declare sacred wars.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Amphitrite, the sea goddess and wife of Poseidon, stands here for the sea itself; the oracle asks for the sea to reach Apollo's grove.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Adrastea is a goddess associated with Nemesis, who punishes excess and arrogance, which suits a town punished for impiety.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Praxiteles was a famous fourth-century BC Athenian sculptor; Artemis is the goddess of hunting, often shown with a quiver, torch and hound.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Philomelus was a Phocian general who seized Delphi's sanctuary and treasure in the Third Sacred War (mid-fourth century BC).",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Purple dye was made from murex shellfish and was a valuable ancient trade.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "This is the First Sacred War (early sixth century BC). Solon was the Athenian statesman and lawgiver.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Hellebore is a poisonous plant used as a strong purge. This stratagem is a famous story of early chemical warfare.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 13,
+    "device": "characterization",
+    "text": "Pausanias shows his rational, pious outlook, attributing fortune to the god and rejecting hero-malice explanations for horses' fear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "irony",
+    "text": "The oracle seems to demand the impossible, yet Solon fulfils it by a clever reading, consecrating the land to the sea's edge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "narrative voice",
+    "text": "One long, flowing sentence narrates the whole trick, effect and conquest in sequence, ending with the town's new role.",
+    "spoiler": false
+   }
+  ]
+ }
+}

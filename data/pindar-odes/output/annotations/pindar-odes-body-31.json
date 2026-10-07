@@ -1,0 +1,378 @@
+{
+ "section_id": "pindar-odes-body-31",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8192,
+  "output": 3315
+ },
+ "result": {
+  "summary": "Pindar says his song, unlike a statue, travels by ship to announce that Pytheas of Aigina won the boys' pankration at Nemea. He praises the Aiakidai and Aigina, hints at a dark deed of Peleus and Telamon and breaks off, then sings the Muses' tale of Peleus resisting Hippolyte and winning Thetis, before praising Pytheas's kin and trainer.",
+  "scenes": [
+   {
+    "start_sentence": 3,
+    "end_sentence": 5,
+    "title": "Song sails forth for Pytheas",
+    "summary": "Pindar announces Pytheas's Nemean victory and honours the Aiakidai and Aigina, recalling their ancestors' prayer at the altar of Zeus Hellenios.",
+    "stakes": "",
+    "present": [
+     "Pytheas",
+     "Lampon",
+     "Zeus",
+     "Phokos",
+     "Endais",
+     "Psamatheia"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.7467,
+     "lon": 23.4278
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 8,
+    "title": "Pindar breaks off",
+    "summary": "Pindar refuses to tell of the heroes' crime and exile, saying silence is often wisest, and turns to other praise.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.7467,
+     "lon": 23.4278
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 12,
+    "title": "The Muses sing of Peleus",
+    "summary": "On Pelion the Muses and Apollo sing how Peleus refused Hippolyte's advances, was slandered, and was rewarded by Zeus with the Nereid Thetis through Poseidon.",
+    "stakes": "Peleus risks false accusation and the wrath of Zeus if he betrays his host.",
+    "present": [
+     "Apollo",
+     "Peleus",
+     "Thetis",
+     "Hippolyte",
+     "Akastos",
+     "Zeus",
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pelion",
+     "modern_name": "Mount Pelion",
+     "certainty": "real",
+     "lat": 39.4,
+     "lon": 23.05
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 19,
+    "title": "Praise of Pytheas's kin",
+    "summary": "Pindar honours Euthymenes, Pytheas, his uncle Themistios and trainer Menander, and urges singing of Themistios's victories.",
+    "stakes": "",
+    "present": [
+     "Euthymenes",
+     "Pytheas",
+     "Menander",
+     "Themistios"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.7467,
+     "lon": 23.4278
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pytheas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "young Aiginetan winner of the Nemean pankration"
+   },
+   {
+    "name": "Lampon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pytheas"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Zeus Hellenios"
+    ],
+    "kind": "god",
+    "description": "king of the gods, grandsire of the Aiakidai"
+   },
+   {
+    "name": "Phokos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "goddess-born hero, son of Psamatheia"
+   },
+   {
+    "name": "Psamatheia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "sea-nymph who bore Phokos"
+   },
+   {
+    "name": "Endais",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of heroes"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "leads the Muses on the lyre"
+   },
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who refused Hippolyte"
+   },
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Nereid promised to Peleus"
+   },
+   {
+    "name": "Hippolyte",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Kretheus, wife of Akastos, slanders Peleus"
+   },
+   {
+    "name": "Akastos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Magnetes, Hippolyte's husband"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god, kinsman of the Nereids by marriage"
+   },
+   {
+    "name": "Euthymenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "earlier Aiginetan victor, kinsman of Pytheas"
+   },
+   {
+    "name": "Menander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian trainer of Pytheas"
+   },
+   {
+    "name": "Themistios",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "uncle of Pytheas, double victor at Epidauros"
+   },
+   {
+    "name": "Kretheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hippolyte"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lampon",
+    "relation": "parent_of",
+    "b": "Pytheas",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Psamatheia",
+    "relation": "parent_of",
+    "b": "Phokos",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Kretheus",
+    "relation": "parent_of",
+    "b": "Hippolyte",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Hippolyte",
+    "relation": "spouse_of",
+    "b": "Akastos",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Peleus",
+    "relation": "spouse_of",
+    "b": "Thetis",
+    "source": "outside",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Famous opening contrasting travelling song with static statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "reason": "Memorable reflection that silence is sometimes wisest.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Poetry is presented as mobile and lasting, spreading athletic fame beyond the island, while the myth of Peleus's restraint models virtue rewarded.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Epinikian odes honoured victors and their families, and tied Aigina's civic pride to the local Aiakid heroes.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The opening line is often cited as a comparison between poetry and sculpture, though Pindar's song was meant for choral performance.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "The 'vine-bloom's mother, mellowing midsummer' is a periphrasis for the first beard; Pytheas is still beardless, so very young.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Pankratiast: a competitor in the pankration, a brutal combined boxing and wrestling contest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Aiakidai: the descendants of Aiakos, the legendary heroes of Aigina, including Peleus, Telamon and Achilles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The 'deed portentous' is the killing of Phokos by his half-brothers Peleus and Telamon, which led to their exile from Aigina. Pindar declines to name it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Oinone: an older name for Aigina.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Hippolyte, wife of Akastos, falsely accused Peleus of trying to seduce her after he rejected her advances.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Nereids: sea-nymphs, daughters of Nereus. Thetis was one of them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Poseidon was worshipped at the Isthmian games near Corinth, the 'Dorian Isthmus', where contests were held in his honour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "Athens is praised as the source of a good trainer; Menander was an Athenian.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Zeus Hellenios was a cult title of Zeus on Aigina. Aiakos, father of Peleus and Telamon, was said to have prayed to him there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Pelion is the mountain in Thessaly where Peleus later married Thetis, with the Muses and Apollo singing at the wedding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Euthymenes was an earlier family victor, probably Pytheas's maternal grandfather. 'Thy mother's brother' refers to Pytheas's uncle Themistios.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "personification",
+    "text": "Pindar's song is imagined as a traveller sailing on merchant ships, contrasting poetry's mobility with a static statue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "aposiopesis",
+    "text": "Pindar abruptly breaks off the myth, using silence itself as a way to hint at the unspeakable crime.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "metaphor",
+    "text": "The poet as a leaping athlete with nimble knees, and the eagles flying over the sea, convey his ease in moving to a new theme.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "characterization",
+    "text": "Peleus's refusal out of respect for Zeus, protector of host and guest, shows his piety and self-restraint.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "gnomic statement",
+    "text": "A short general maxim about inborn fate sums up the myth and prepares the turn to the victors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "metaphor",
+    "text": "Hoisting the sail to the mast-top means praising boldly, extending the ship imagery from the opening.",
+    "spoiler": false
+   }
+  ]
+ }
+}

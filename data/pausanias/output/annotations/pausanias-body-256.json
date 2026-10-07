@@ -1,0 +1,315 @@
+{
+ "section_id": "pausanias-body-256",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6949,
+  "output": 2420
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Megalopolis, describing the south-facing part of the city across the river. He lists the theatre, the Thersilium council-chamber, temples, altars and statues, and the large bones said to be a giant's.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Theatre, council-chamber and temples",
+    "summary": "Pausanias describes the theatre, the Thersilium, Alexander's house and several ruined temples, a racecourse and altars.",
+    "stakes": "",
+    "present": [
+     "Alexander",
+     "Ammon",
+     "Aphrodite",
+     "Ares",
+     "Dionysus",
+     "Hercules",
+     "Hermes",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Megalopolis",
+     "modern_name": "Megalopoli",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 22.14
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 15,
+    "title": "The hill sanctuaries and giant's bones",
+    "summary": "On the eastern hill are temples of Artemis, Æsculapius and Apollo, and the bones of a giant are kept.",
+    "stakes": "",
+    "present": [
+     "Artemis",
+     "Æsculapius",
+     "Hygiea",
+     "Athene",
+     "Apollo",
+     "Hermes",
+     "Hercules",
+     "Ilithyia",
+     "Hopladamus",
+     "Rhea"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Megalopolis",
+     "modern_name": "Megalopoli",
+     "certainty": "real",
+     "lat": 37.4,
+     "lon": 22.14
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Philip, for whom a house was built"
+   },
+   {
+    "name": "Ammon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god shown with ram's horns"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Apollo Agyieus"
+    ],
+    "kind": "god",
+    "description": "god with statues and temples in the city"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "messenger of Zeus who conveys souls to Hades"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with three statues"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with an altar"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose temple was struck by lightning"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "famed for his Labours"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "the Huntress Artemis"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a temple on the hill"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "healing god with temples"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with statue beside Æsculapius"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Athene Ergane"
+    ],
+    "kind": "goddess",
+    "description": "goddess as Worker"
+   },
+   {
+    "name": "Ilithyia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "presides over childbirth"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of gods whose messenger is Hermes"
+   },
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicator of the Artemis temple"
+   },
+   {
+    "name": "Hopladamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "called a giant to aid Rhea"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess aided by giants"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Alexander"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Ergane",
+    "canonical": "Athene",
+    "explanation": "Athene as 'Worker', a cult title."
+   },
+   {
+    "alias": "Agyieus",
+    "canonical": "Apollo",
+    "explanation": "Apollo as protector of streets, shown as a square pillar."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias catalogues a city's monuments, showing decay: many temples are ruins in his day.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Thersilium and the theatre reflect Megalopolis's founding as a federal Arcadian capital in the 4th century BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The theatre of Megalopolis was among the largest in Greece, and its remains can still be seen.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Perennial means the spring never dries up, flowing all year round.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Council-chamber translates the Greek bouleuterion, a roofed hall where an assembly met; here it served the Arcadian federal assembly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "Square Hermæ: pillar-shaped statues with a head on a squared shaft, originally images of Hermes. Here the form is used for other gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Ammon is the Egyptian god Amun, identified with Zeus and shown with ram's horns; Alexander claimed his divine sonship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "Celestial and Common are the Greek Aphrodite Urania (heavenly love) and Pandemos (of all the people).",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Vestibule means the entrance porch of the temple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Workers: Athene Ergane is Athene as patroness of crafts; Apollo Agyieus is Apollo as guardian of streets and doorways, shown as a pillar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "A cubit is about a foot and a half (roughly 45 cm).",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Rhea, mother of Zeus, was aided by giants in Arcadian legend; Pausanias promises the story later.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Alexander the Great, son of Philip of Macedon, conquered the Persian empire; a house built for him shows the city's Macedonian-era ties.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Dionysus was the god of wine and theatre; lightning was a sign of Zeus's anger or a god's direct action.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Æsculapius was the god of healing; Hygiea, health, was regarded as his daughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Ilithyia was the goddess who helped women in childbirth.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "imagery of decay",
+    "text": "Only a few foundations remain, a sad contrast with the earlier grandeur; ruin is a recurring theme of this tour of the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "foreshadowing",
+    "text": "The promise to narrate the story later links this relic to a larger myth and builds anticipation.",
+    "spoiler": false
+   }
+  ]
+ }
+}

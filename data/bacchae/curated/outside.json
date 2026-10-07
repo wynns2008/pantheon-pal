@@ -1,0 +1,339 @@
+{
+ "model": "claude-sonnet-5-5",
+ "work": "The Bacchae of Euripides",
+ "requested": [
+  "Actaeon",
+  "Agave",
+  "Agenor",
+  "Ares",
+  "Autonoe",
+  "Cadmus",
+  "Chorus",
+  "Dionysus",
+  "Echion",
+  "Harmonia",
+  "Ino",
+  "Leader",
+  "Messenger",
+  "Pentheus",
+  "Semele",
+  "Soldier",
+  "Teiresias",
+  "Zeus"
+ ],
+ "people": [
+  {
+   "name": "Chaos",
+   "other_name": "",
+   "description": "Primordial void, first being of Greek cosmogony"
+  },
+  {
+   "name": "Gaia",
+   "other_name": "Earth",
+   "description": "Primordial Earth goddess, mother of Titans"
+  },
+  {
+   "name": "Uranus",
+   "other_name": "Ouranos",
+   "description": "Primordial sky god, husband of Gaia"
+  },
+  {
+   "name": "Cronus",
+   "other_name": "Kronos",
+   "description": "Titan king, father of the Olympian gods"
+  },
+  {
+   "name": "Rhea",
+   "other_name": "",
+   "description": "Titaness, mother of the Olympian gods"
+  },
+  {
+   "name": "Zeus",
+   "other_name": "Jupiter",
+   "description": "King of the gods, ruler of sky and thunder"
+  },
+  {
+   "name": "Ares",
+   "other_name": "Mars",
+   "description": "God of war"
+  },
+  {
+   "name": "Hera",
+   "other_name": "Juno",
+   "description": "Queen of the gods, goddess of marriage"
+  },
+  {
+   "name": "Aphrodite",
+   "other_name": "Venus",
+   "description": "Goddess of love and beauty"
+  },
+  {
+   "name": "Harmonia",
+   "other_name": "",
+   "description": "Goddess of concord, wife of Cadmus"
+  },
+  {
+   "name": "Agenor",
+   "other_name": "",
+   "description": "King of Tyre or Phoenicia, father of Cadmus"
+  },
+  {
+   "name": "Cadmus",
+   "other_name": "",
+   "description": "Founder and king of Thebes, slayer of the dragon"
+  },
+  {
+   "name": "Semele",
+   "other_name": "",
+   "description": "Theban princess, mother of Dionysus, killed by Zeus's glory"
+  },
+  {
+   "name": "Dionysus",
+   "other_name": "Bacchus",
+   "description": "God of wine, ecstasy and theatre"
+  },
+  {
+   "name": "Ino",
+   "other_name": "",
+   "description": "Daughter of Cadmus, later the sea goddess Leucothea"
+  },
+  {
+   "name": "Agave",
+   "other_name": "",
+   "description": "Daughter of Cadmus, mother of Pentheus, a maenad"
+  },
+  {
+   "name": "Autonoe",
+   "other_name": "",
+   "description": "Daughter of Cadmus, mother of Actaeon"
+  },
+  {
+   "name": "Echion",
+   "other_name": "",
+   "description": "One of the Spartoi, husband of Agave"
+  },
+  {
+   "name": "Pentheus",
+   "other_name": "",
+   "description": "King of Thebes, torn apart by the maenads"
+  },
+  {
+   "name": "Actaeon",
+   "other_name": "",
+   "description": "Hunter turned into a stag and killed by his hounds"
+  }
+ ],
+ "relationships": [
+  {
+   "a": "Chaos",
+   "relation": "parent_of",
+   "b": "Gaia",
+   "note": "Hesiod: Gaia arose from Chaos"
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Uranus",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Cronus",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Cronus",
+   "note": ""
+  },
+  {
+   "a": "Gaia",
+   "relation": "parent_of",
+   "b": "Rhea",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Rhea",
+   "note": ""
+  },
+  {
+   "a": "Cronus",
+   "relation": "spouse_of",
+   "b": "Rhea",
+   "note": ""
+  },
+  {
+   "a": "Cronus",
+   "relation": "parent_of",
+   "b": "Zeus",
+   "note": ""
+  },
+  {
+   "a": "Rhea",
+   "relation": "parent_of",
+   "b": "Zeus",
+   "note": ""
+  },
+  {
+   "a": "Cronus",
+   "relation": "parent_of",
+   "b": "Hera",
+   "note": ""
+  },
+  {
+   "a": "Rhea",
+   "relation": "parent_of",
+   "b": "Hera",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "spouse_of",
+   "b": "Hera",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Ares",
+   "note": ""
+  },
+  {
+   "a": "Hera",
+   "relation": "parent_of",
+   "b": "Ares",
+   "note": ""
+  },
+  {
+   "a": "Uranus",
+   "relation": "parent_of",
+   "b": "Aphrodite",
+   "note": "Homer: daughter of Zeus and Dione"
+  },
+  {
+   "a": "Ares",
+   "relation": "parent_of",
+   "b": "Harmonia",
+   "note": ""
+  },
+  {
+   "a": "Aphrodite",
+   "relation": "parent_of",
+   "b": "Harmonia",
+   "note": ""
+  },
+  {
+   "a": "Agenor",
+   "relation": "parent_of",
+   "b": "Cadmus",
+   "note": ""
+  },
+  {
+   "a": "Cadmus",
+   "relation": "spouse_of",
+   "b": "Harmonia",
+   "note": ""
+  },
+  {
+   "a": "Cadmus",
+   "relation": "parent_of",
+   "b": "Semele",
+   "note": ""
+  },
+  {
+   "a": "Harmonia",
+   "relation": "parent_of",
+   "b": "Semele",
+   "note": ""
+  },
+  {
+   "a": "Cadmus",
+   "relation": "parent_of",
+   "b": "Ino",
+   "note": ""
+  },
+  {
+   "a": "Harmonia",
+   "relation": "parent_of",
+   "b": "Ino",
+   "note": ""
+  },
+  {
+   "a": "Cadmus",
+   "relation": "parent_of",
+   "b": "Agave",
+   "note": ""
+  },
+  {
+   "a": "Harmonia",
+   "relation": "parent_of",
+   "b": "Agave",
+   "note": ""
+  },
+  {
+   "a": "Cadmus",
+   "relation": "parent_of",
+   "b": "Autonoe",
+   "note": ""
+  },
+  {
+   "a": "Harmonia",
+   "relation": "parent_of",
+   "b": "Autonoe",
+   "note": ""
+  },
+  {
+   "a": "Zeus",
+   "relation": "parent_of",
+   "b": "Dionysus",
+   "note": ""
+  },
+  {
+   "a": "Semele",
+   "relation": "parent_of",
+   "b": "Dionysus",
+   "note": ""
+  },
+  {
+   "a": "Echion",
+   "relation": "spouse_of",
+   "b": "Agave",
+   "note": ""
+  },
+  {
+   "a": "Echion",
+   "relation": "parent_of",
+   "b": "Pentheus",
+   "note": ""
+  },
+  {
+   "a": "Agave",
+   "relation": "parent_of",
+   "b": "Pentheus",
+   "note": ""
+  }
+ ],
+ "report": {
+  "people": 20,
+  "relationships": 32,
+  "requested": 18,
+  "requested_missing": [
+   "Chorus",
+   "Leader",
+   "Messenger",
+   "Soldier",
+   "Teiresias"
+  ],
+  "added_ancestors": 7,
+  "dropped": {
+   "unknown_endpoint": [],
+   "self_link": [],
+   "cycle": [],
+   "duplicate": 0
+  }
+ }
+}

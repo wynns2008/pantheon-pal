@@ -1,0 +1,318 @@
+{
+ "section_id": "pausanias-body-81",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7217,
+  "output": 2755
+ },
+ "result": {
+  "summary": "Pausanias describes the plane-tree grove and sanctuaries near Lerna, including statues of Demeter, Dionysus and Aphrodite, and doubts the antiquity of the Lernaean mysteries. He then discusses the Hydra's spring and the bottomless Alcyonian marsh, entrance to Hades for Dionysus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Grove and sanctuaries at Lerna",
+    "summary": "The plane-tree grove between two rivers holds statues of Demeter, Dionysus and Aphrodite and a temple of Athene. Philhammon is said to have founded the rites at Lerna.",
+    "stakes": "",
+    "present": [
+     "Danaus",
+     "Philhammon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lerna",
+     "modern_name": "Lerna, Argolis",
+     "certainty": "real",
+     "lat": 37.55,
+     "lon": 22.72
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 8,
+    "title": "Dating the mysteries",
+    "summary": "Pausanias argues the verses attributed to Philhammon are too late, being in Doric, and probably composed by Arriphon.",
+    "stakes": "",
+    "present": [
+     "Arriphon",
+     "Philhammon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lerna",
+     "modern_name": "Lerna, Argolis",
+     "certainty": "real",
+     "lat": 37.55,
+     "lon": 22.72
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 11,
+    "title": "The Hydra's plane-tree",
+    "summary": "The Hydra was reared under a plane-tree at the Amymone's source. Pausanias thinks it had one head, and that Pisander added more.",
+    "stakes": "",
+    "present": [
+     "Hydra",
+     "Hercules",
+     "Pisander"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Source of the Amymone",
+     "modern_name": "Lerna, Argolis",
+     "certainty": "traditional",
+     "lat": 37.56,
+     "lon": 22.72
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 16,
+    "title": "The Alcyonian marsh",
+    "summary": "Pausanias describes the bottomless marsh through which Dionysus is said to have descended to Hades, and declines to reveal the nightly rites.",
+    "stakes": "Dionysus seeks to bring Semele back from Hades; swimmers in the marsh are dragged under.",
+    "present": [
+     "Dionysus",
+     "Semele",
+     "Polymnus",
+     "Nero"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Alcyonian marsh",
+     "modern_name": "Lake Lerna, Argolis",
+     "certainty": "traditional",
+     "lat": 37.56,
+     "lon": 22.71
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the daughters who gave the Amymone its name"
+   },
+   {
+    "name": "Amymone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Danaus, namesake of the river"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Demeter Prosymne"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a seated stone statue in the grove"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [
+     "Dionysus the Saviour"
+    ],
+    "kind": "god",
+    "description": "god with statues here who descended to Hades for Semele"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a stone statue by the sea"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose temple Danaus built"
+   },
+   {
+    "name": "Philhammon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said founder of the Lerna rites"
+   },
+   {
+    "name": "Arriphon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man of Triconium who likely composed the verses"
+   },
+   {
+    "name": "Hydra",
+    "aliases": [],
+    "kind": "monster",
+    "description": "water-snake with venomous gall"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who dipped arrows in the Hydra's gall"
+   },
+   {
+    "name": "Pisander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet of Camirus who gave the Hydra many heads"
+   },
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "seer with a well at Lerna"
+   },
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman fetched from Hades by Dionysus"
+   },
+   {
+    "name": "Polymnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "showed Dionysus the way down"
+   },
+   {
+    "name": "Nero",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "emperor who tried to sound the marsh"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Danaus",
+    "relation": "parent_of",
+    "b": "Amymone",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Semele",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "outside",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Pausanias withholds secret rites, typical of his religious reticence.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs tradition against reasoning, rejecting myth details like the many-headed Hydra and dating cults by dialect.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage reflects secrecy of mystery cults and Roman-era interest in local wonders, including Nero's attempt to sound the marsh.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Hydra of Lerna remained a central image in art and literature, and gave English the word 'hydra' for a many-sided problem."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias reasons from the Doric dialect that the verses could not be as old as Philhammon.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Prosymne is a cult title of Demeter at Lerna; its exact meaning is uncertain, sometimes linked to hymn-singing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Orichalcum is a prized metal of ancient tradition, often a kind of fine bronze or brass; here the verses were said to be inscribed on a heart of it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The return of the Heraclidae refers to the descendants of Hercules coming back to the Peloponnese, traditionally bringing the Dorians and their dialect.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Pisander of Camirus was an early epic poet who wrote a Heracleia, in which the Hydra seems to have had many heads.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Dionysus descended to Hades to bring back his mother Semele, who became the goddess Thyone; Polymnus is the guide in this story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet (about 180 metres).",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Danaus was a legendary king of Argos; his daughter Amymone gave her name to the spring and river.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Hercules killed the Hydra of Lerna as one of his labours and used its poison on his arrows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Nero was the Roman emperor (reigned AD 54-68), whose attempt to sound the lake is mentioned as a famous test.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "irony",
+    "text": "The curt claim of proof after a loose chain of inference gives the author's confident, slightly self-satisfied scholarly voice a faintly ironic tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "characterization",
+    "text": "Pausanias presents himself as a rationalizing skeptic, accepting a large snake and poison but trimming the myth's extra heads.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "imagery",
+    "text": "The calm surface hiding a deadly pull creates an eerie contrast between appearance and danger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "narrative voice",
+    "text": "His religious reticence ends the scene on a note of mystery, hinting at secrets he will not disclose.",
+    "spoiler": false
+   }
+  ]
+ }
+}

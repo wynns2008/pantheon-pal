@@ -1,0 +1,353 @@
+{
+ "section_id": "pausanias-body-147",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7812,
+  "output": 2983
+ },
+ "result": {
+  "summary": "Hercules sacks Elis but spares Pisa because of a Delphic oracle, and gives Elis to Phyleus. The text then traces the Elean kings down to Eleus and tells how the one-eyed mule's driver Oxylus became guide of the Dorians and was promised Elis.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Hercules conquers Elis, spares Pisa",
+    "summary": "Hercules sacks Elis and punishes Pylos but is stopped from attacking Pisa by an oracle. He yields Elis to Phyleus, and the Elean women pray to Athene for children.",
+    "stakes": "Pisa faces destruction by Hercules' army; Elis has lost its young men.",
+    "present": [
+     "Hercules",
+     "Phyleus",
+     "Augeas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Elis, Peloponnese",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.4
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 12,
+    "title": "Kings of Elis after Augeas",
+    "summary": "Augeas dies and his son and the sons of Actor share the kingdom. Homer's catalogue and the descent to Eleus are used as evidence.",
+    "stakes": "",
+    "present": [
+     "Augeas",
+     "Agasthenes",
+     "Amphimachus",
+     "Thalpius",
+     "Diores",
+     "Polyxenus",
+     "Eleus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Elis, Peloponnese",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.4
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 20,
+    "title": "Oxylus guides the Dorians",
+    "summary": "An oracle tells the Dorians to take a three-eyed leader; they choose Oxylus, the muleteer with a one-eyed mule. He advises sea travel and is promised Elis; his exile from Aetolia is explained.",
+    "stakes": "The Dorians need a way back to the Peloponnese; Oxylus was exiled for killing his brother.",
+    "present": [
+     "Oxylus",
+     "Cresphontes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Naupactus",
+     "modern_name": "Nafpaktos",
+     "certainty": "real",
+     "lat": 38.39,
+     "lon": 21.83
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who sacks Elis"
+   },
+   {
+    "name": "Phyleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "given Elis by Hercules"
+   },
+   {
+    "name": "Augeas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Elis who dies old"
+   },
+   {
+    "name": "Agasthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Augeas, king of Elis"
+   },
+   {
+    "name": "Amphimachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean king, son of Cteatus"
+   },
+   {
+    "name": "Thalpius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean king, son of Eurytus"
+   },
+   {
+    "name": "Eurytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Actor"
+   },
+   {
+    "name": "Diores",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amarynceus, led ships at Troy"
+   },
+   {
+    "name": "Amarynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Diores"
+   },
+   {
+    "name": "Polyxenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Agasthenes, at Troy"
+   },
+   {
+    "name": "Eleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Elis in Dorian times"
+   },
+   {
+    "name": "Cresphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Dorian leader who read the oracle"
+   },
+   {
+    "name": "Oxylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "muleteer, son of Haemon, Dorian guide"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "worshipped in Elis as Mother"
+   },
+   {
+    "name": "Dexamenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king at Olenus"
+   },
+   {
+    "name": "Theronice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Dexamenus"
+   },
+   {
+    "name": "Theraphone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Dexamenus"
+   },
+   {
+    "name": "Thermius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Oxylus, accidentally killed"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Augeas",
+    "relation": "parent_of",
+    "b": "Agasthenes",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Eurytus",
+    "relation": "parent_of",
+    "b": "Thalpius",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Amarynceus",
+    "relation": "parent_of",
+    "b": "Diores",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Agasthenes",
+    "relation": "parent_of",
+    "b": "Polyxenus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Polyxenus",
+    "relation": "parent_of",
+    "b": "Amphimachus",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Dexamenus",
+    "relation": "parent_of",
+    "b": "Theronice",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Dexamenus",
+    "relation": "parent_of",
+    "b": "Theraphone",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Eurytus",
+    "relation": "spouse_of",
+    "b": "Theraphone",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "The Delphic oracle that saved Pisa from Hercules.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Oracles shape the fate of cities and peoples, often through riddling words fulfilled in odd ways, like the one-eyed mule.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias reconciles local Elean tradition with Homer's catalogue and the Dorian return to build a coherent royal genealogy.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Pytho is the old name of Delphi, seat of Apollo's oracle. The speaker is the god, who says he holds Pisa in trust.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Bady is Pausanias' transliteration of a local Elean word meaning 'sweet'; he explains it in the parenthesis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "'In a private capacity' means they never held royal power; Pausanias argues that they, too, ruled, contrary to the idea that only the other three did.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Homer's catalogue is the list of Greek ships and leaders in the Iliad, Book 2, used here as historical evidence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "'Return' refers to the Return of the Heraclidae, the descendants of Hercules reclaiming the Peloponnese with the Dorians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "'Force their way through the isthmus' means attacking overland across the Isthmus of Corinth, the land route into the Peloponnese.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "Heraclidæ means the descendants of Hercules, here led by the sons of Aristomachus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Phyleus was Augeas' son, who had sided with Hercules against his father and was exiled to Dulichium.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Athene is the goddess of wisdom and war; here she is also invoked for childbirth, as 'Mother'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Naupactus and Molycrium are on the north shore of the Gulf of Corinth; sailing from there avoided the isthmus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Quoit throwing was a discus-like athletic contest; accidental killing normally required exile for purification in Greek custom.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "narrative voice",
+    "text": "Pausanias adds his own judgment, reading the oracle as the reason Pisa survived.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "narrative voice",
+    "text": "The parenthetical 'I fancy' shows the author speculating openly about naming customs, marking his guess as such.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "The riddling oracle is solved by a chance, humble sight: a muleteer with a one-eyed mule makes three eyes.",
+    "spoiler": false
+   }
+  ]
+ }
+}

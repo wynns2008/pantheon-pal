@@ -1,0 +1,324 @@
+{
+ "section_id": "pausanias-body-103",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8147,
+  "output": 2691
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Laconia, passing Ladas' tomb, Pellana, Belemina, Croceæ and Ægiæ. He then reaches Gythium, lists the free Laconian cities and describes the town's founding story and sanctuaries.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Eurotas road to Pellana",
+    "summary": "Pausanias describes the tomb of Ladas, Characoma, Pellana with its temple and fountains, and well-watered Belemina.",
+    "stakes": "",
+    "present": [
+     "Ladas",
+     "Tyndareus",
+     "Hippocoon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pellana",
+     "modern_name": "Pellana, Laconia",
+     "certainty": "real",
+     "lat": 37.2,
+     "lon": 22.35
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 12,
+    "title": "Croceæ and Ægiæ",
+    "summary": "He describes the quarries and statues of Croceæ, then Ægiæ with Poseidon's marsh, where fishing is said to turn people into fish.",
+    "stakes": "Locals fear that whoever fishes in the marsh will become a fish.",
+    "present": [
+     "Zeus",
+     "Castor",
+     "Pollux",
+     "Poseidon",
+     "Homer"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Croceæ",
+     "modern_name": "Croceai (near Levetsova)",
+     "certainty": "real",
+     "lat": 36.9,
+     "lon": 22.6
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 22,
+    "title": "Gythium and free Laconians",
+    "summary": "He lists the Eleutherolacones' cities and describes Gythium, its divine founders, and its sanctuaries.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Apollo",
+     "Dionysus",
+     "Æsculapius",
+     "Demeter",
+     "Poseidon",
+     "Nereus",
+     "Athene",
+     "Augustus",
+     "Thetis",
+     "Homer"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Gythium",
+     "modern_name": "Gytheio",
+     "certainty": "real",
+     "lat": 36.76,
+     "lon": 22.57
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ladas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "swift runner, Olympic victor, buried by the road"
+   },
+   {
+    "name": "Tyndareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "fled Sparta to Pellana from Hippocoon"
+   },
+   {
+    "name": "Hippocoon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan who drove out Tyndareus"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with temples at Pellana and Gythium"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "worshipped at Croceæ"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "god",
+    "description": "bronze statue at the quarry"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "god",
+    "description": "bronze statue at the quarry"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with temple at Ægiæ and Gythium"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet cited by Pausanias"
+   },
+   {
+    "name": "Augustus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor who freed the Eleutherolacones"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "said to have co-founded Gythium"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Carnean Apollo"
+    ],
+    "kind": "god",
+    "description": "co-founder of Gythium"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "statue in Gythium market-place"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "temple at Gythium"
+   },
+   {
+    "name": "Nereus",
+    "aliases": [
+     "the old man of the sea"
+    ],
+    "kind": "god",
+    "description": "sea god honored at Gythium"
+   },
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "speaker in the quoted Iliad line"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "temple and statue in Gythium citadel"
+   }
+  ],
+  "relationships": [],
+  "alias_notes": [
+   {
+    "alias": "the old man of the sea",
+    "canonical": "Nereus",
+    "explanation": "Gythium's local title for the sea god, identified by Pausanias as Nereus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "Memorable local belief that fishing in the marsh turns a person into a fish.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links places to myth, cult and Homer, showing how local sites preserved Greek tradition.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Eleutherolacones, freed by Augustus, show Roman reshaping of Laconia's political order.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Laconian coasts were known for purple dye from shellfish, ranked just below Tyrian purple.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of distance, roughly 180–200 metres, so 20 stades is a little over 3 kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "The 'long race' was the dolichos, a distance event at the Olympic Games; Ladas's death after winning is Pausanias's wry explanation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The archives of Elis: Elis administered the Olympic Games and kept the official lists of victors, which Pausanias treats as authoritative.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Homer's Iliad lists a place called Augeiai among Laconian towns; Pausanias identifies it with Ægiæ.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Eleutherolacones means 'free Laconians', perioikic communities freed from Spartan control by Augustus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Tyrian purple was the costly dye made from murex shells at Tyre in Phoenicia, the benchmark of quality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "The contest for the tripod refers to Hercules's quarrel with Apollo over the Delphic tripod, when Hercules tried to seize it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Earth-holder translates Poseidon's epithet Gaiaochos, linking him to earthquakes and the stability of land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Nereus is the sea-god father of the Nereids, including Thetis, mother of Achilles; Homer calls him the old man of the sea.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Tyndareus, later father of Helen and the Dioscuri's mother's husband, was driven from Sparta by Hippocoon and his sons.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Æsculapius was the god of healing, whose temples were centres of cures.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Castor and Pollux were the twin Dioscuri, sons of Leda, closely associated with Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Augustus's grant of freedom to these coastal towns after Actium created the league of free Laconians, later numbering twenty-four.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "irony",
+    "text": "Pausanias's dry, humorous guess that Ladas died of exhaustion after winning gently undercuts the heroic athlete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "folklore motif",
+    "text": "The tale of fishers turning into fish is a metamorphosis legend, explaining a local taboo and the god's power over the marsh.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "quotation",
+    "text": "Quoting Homer lends the local name for the sea's old man literary authority and shows Pausanias's habit of verifying tradition.",
+    "spoiler": false
+   }
+  ]
+ }
+}

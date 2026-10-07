@@ -1,0 +1,398 @@
+{
+ "section_id": "pausanias-body-288",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7230,
+  "output": 3148
+ },
+ "result": {
+  "summary": "Pausanias walks through Thebes near the gates, noting a mass tomb, the place where Cadmus sowed the dragon's teeth, and the hill and temple of Ismenian Apollo with its statues and offerings. He ends with the spring of Ares and the story of Caanthus, Melia and her sons by Apollo.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Outside the gates of Thebes",
+    "summary": "Pausanias notes a large tomb of those who fell against Alexander and the spot where Cadmus sowed the dragon's teeth. He then names the hill, god and river Ismenius.",
+    "stakes": "",
+    "present": [
+     "Cadmus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes, near the gates",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.3217,
+     "lon": 23.3181
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 13,
+    "title": "The temple of Ismenian Apollo",
+    "summary": "Pausanias describes the statues, the cedarwood Apollo by Canachus, Manto's seat, the daughters of Creon, the laurel-bearer priest and the tripods.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Athene",
+     "Hermes",
+     "Manto",
+     "Henioche",
+     "Pyrrha",
+     "Amphitryon",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Ismenian Apollo, Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "real",
+     "lat": 38.319,
+     "lon": 23.324
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 18,
+    "title": "Spring of Ares and Caanthus",
+    "summary": "Near the spring of Ares lies the tomb of Caanthus, killed by Apollo for burning his grove while seeking Melia. Melia bore Apollo Tenerus and Ismenius.",
+    "stakes": "Caanthus risks death at the god's hands for setting fire to the sacred grove.",
+    "present": [
+     "Caanthus",
+     "Melia",
+     "Apollo",
+     "Ares",
+     "Tenerus",
+     "Ismenius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Spring of Ares, Thebes",
+     "modern_name": "Thebes, Greece",
+     "certainty": "traditional",
+     "lat": 38.318,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who slew the dragon and sowed its teeth"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Ismenius"
+    ],
+    "kind": "god",
+    "description": "god worshipped at the Ismenian temple"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a statue by Scopas"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a statue by Phidias"
+   },
+   {
+    "name": "Canachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the Apollo statues"
+   },
+   {
+    "name": "Manto",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Tiresias"
+   },
+   {
+    "name": "Tiresias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Manto"
+   },
+   {
+    "name": "Henioche",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Creon"
+   },
+   {
+    "name": "Pyrrha",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Creon"
+   },
+   {
+    "name": "Creon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "guardian of Laodamas"
+   },
+   {
+    "name": "Laodamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Eteocles"
+   },
+   {
+    "name": "Eteocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Laodamas"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicated a tripod"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wore the laurel crown when the tripod was given"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "god to whom the spring is sacred"
+   },
+   {
+    "name": "Caanthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Oceanus, killed by Apollo"
+   },
+   {
+    "name": "Melia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "sister of Caanthus, mother of Apollo's sons"
+   },
+   {
+    "name": "Oceanus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Caanthus and Melia"
+   },
+   {
+    "name": "Tenerus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Apollo given divination"
+   },
+   {
+    "name": "Ismenius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Apollo who named the river"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Tiresias",
+    "relation": "parent_of",
+    "b": "Manto",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Creon",
+    "relation": "parent_of",
+    "b": "Henioche",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Creon",
+    "relation": "parent_of",
+    "b": "Pyrrha",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Eteocles",
+    "relation": "parent_of",
+    "b": "Laodamas",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Oceanus",
+    "relation": "parent_of",
+    "b": "Caanthus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Oceanus",
+    "relation": "parent_of",
+    "b": "Melia",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Caanthus",
+    "relation": "sibling_of",
+    "b": "Melia",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Tenerus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Ismenius",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Melia",
+    "relation": "parent_of",
+    "b": "Tenerus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Melia",
+    "relation": "parent_of",
+    "b": "Ismenius",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Melia",
+    "source": "text",
+    "evidence_sentence": 16
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Ismenius",
+    "canonical": "Apollo",
+    "explanation": "Apollo's title at Thebes, shared by the hill and river; also the name of his son."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 1,
+    "reason": "Pausanias' sceptical aside about Cadmus and the armed men from the dragon's teeth.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local monuments tie Theban landscape to myth, with sacred places explained by stories of gods and heroes.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias records cult practice such as the laurel-bearer priest and tripod dedications, showing living religion in Roman-era Thebes.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias compares the Theban Apollo to the one at Branchidae, both attributed to Canachus, to illustrate recognising a sculptor's style.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Believe it who will\" signals Pausanias's skepticism about the legend that armed men (the Sparti) sprang from the dragon's teeth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Vestibule\" translates the Greek word for the forecourt; these gods stood before the temple (Greek Pronaoi).",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Sagacity\" means keen discernment; any observer familiar with one statue's style could recognize the same sculptor's other work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Sate\" is an archaic past tense of \"sit\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "The phrase means Hercules was the boy wearing the laurel when Amphitryon, his reputed father, dedicated the tripod.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"Bare\" is archaic for \"bore\"; Melia gave birth to two sons.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Alexander the Great destroyed Thebes in 335 BC after the city revolted against Macedonian rule.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Branchidæ was the oracular sanctuary of Apollo near Miletus in Asia Minor; its statue was also by Canachus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Manto, daughter of the seer Tiresias, was herself a prophetess associated with Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Creon acted as regent for Laodamas, young son of Eteocles, after Eteocles died in the war of the Seven against Thebes.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "narrative voice",
+    "text": "Pausanias interjects personal doubt, giving the guidebook a skeptical, conversational tone toward local myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "irony",
+    "text": "The wry aside corrects the etymology just given, noting the river's earlier name Ladon with a hint of doubt.",
+    "spoiler": false
+   }
+  ]
+ }
+}

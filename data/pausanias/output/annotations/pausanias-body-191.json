@@ -1,0 +1,594 @@
+{
+ "section_id": "pausanias-body-191",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 13342,
+  "output": 5266
+ },
+ "result": {
+  "summary": "Pausanias describes the sanctuaries near Mount Cronos at Olympia, including the temple of Ilithyia and Sosipolis, whose origin story involves a baby turned dragon. He then describes the Hippodamium, the stadium entrance, and the hippodrome with its starting mechanism and the horse-frightening Taraxippus, with its many explanations.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Mount Cronos and Sosipolis' temple",
+    "summary": "Rites to Cronos on his mountain, and the temple of Ilithyia where Sosipolis is worshipped with strict rules for his priestess.",
+    "stakes": "",
+    "present": [
+     "Sosipolis",
+     "Ilithyia",
+     "Cronos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Cronos, Olympia",
+     "modern_name": "Hill of Kronos, Olympia",
+     "certainty": "real",
+     "lat": 37.6385,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 11,
+    "title": "The child who became a dragon",
+    "summary": "A woman offers her baby to Elis's army against the Arcadians; he turns into a dragon and the Arcadians flee.",
+    "stakes": "Elis risks defeat by the invading Arcadian army.",
+    "present": [
+     "Sosipolis",
+     "Ilithyia"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Elis, western Peloponnese",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.4
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 20,
+    "title": "Aphrodite, Hippodamium, and stadium entrance",
+    "summary": "Pausanias lists the ruined Aphrodite temple, the Hippodamium, the Private entrance, seats of the Umpires and Endymion's tomb.",
+    "stakes": "",
+    "present": [
+     "Hippodamia",
+     "Pelops",
+     "Endymion",
+     "Chrysippus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis, Olympia",
+     "modern_name": "Ancient Olympia",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 33,
+    "title": "The hippodrome starting mechanism",
+    "summary": "The ship-prow starting place with its bronze eagle and dolphin, and the staggered release of the horses, invented by Cleœtas.",
+    "stakes": "",
+    "present": [
+     "Cleœtas",
+     "Aristides"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hippodrome, Olympia",
+     "modern_name": "Ancient Olympia",
+     "certainty": "real",
+     "lat": 37.6375,
+     "lon": 21.633
+    }
+   },
+   {
+    "start_sentence": 34,
+    "end_sentence": 47,
+    "title": "Taraxippus, terror of horses",
+    "summary": "Pausanias reports many explanations of the horse-frightening Taraxippus, compares others at the Isthmus and Nemea, and notes Hippodamia's statue.",
+    "stakes": "Charioteers risk crashes and injury from the unexplained terror.",
+    "present": [
+     "Taraxippus",
+     "Olenius",
+     "Dameon",
+     "Cteatus",
+     "Pelops",
+     "Myrtilus",
+     "Œnomaus",
+     "Alcathous",
+     "Amphion",
+     "Orpheus",
+     "Glaucus",
+     "Hippodamia",
+     "Poseidon Hippius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Hippodrome, Olympia",
+     "modern_name": "Ancient Olympia",
+     "certainty": "real",
+     "lat": 37.6375,
+     "lon": 21.633
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Sosipolis",
+    "aliases": [],
+    "kind": "god",
+    "description": "tutelary deity of Elis, a child who became a dragon"
+   },
+   {
+    "name": "Ilithyia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of childbirth, surnamed Olympian"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "god honoured on his mountain"
+   },
+   {
+    "name": "Hippodamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "heroine honoured by women of Elis"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero, husband of Hippodamia"
+   },
+   {
+    "name": "Chrysippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man whose death angered Pelops"
+   },
+   {
+    "name": "Endymion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a tomb at the starting-place"
+   },
+   {
+    "name": "Cleœtas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aristocles, inventor of the horse start"
+   },
+   {
+    "name": "Aristides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "improver of the starting device"
+   },
+   {
+    "name": "Taraxippus",
+    "aliases": [],
+    "kind": "other",
+    "description": "horse-terrifying altar or spirit at Olympia"
+   },
+   {
+    "name": "Olenius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Autochthon skilled with horses"
+   },
+   {
+    "name": "Dameon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phlius, companion of Hercules, killed with his horse"
+   },
+   {
+    "name": "Phlius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Dameon"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero who campaigned against Augeas"
+   },
+   {
+    "name": "Augeas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Elis attacked by Hercules"
+   },
+   {
+    "name": "Cteatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Actor, killer of Dameon"
+   },
+   {
+    "name": "Actor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cteatus"
+   },
+   {
+    "name": "Myrtilus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man murdered by Pelops"
+   },
+   {
+    "name": "Œnomaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who killed Hippodamia's suitors"
+   },
+   {
+    "name": "Alcathous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Porthaon, slain suitor"
+   },
+   {
+    "name": "Porthaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Alcathous"
+   },
+   {
+    "name": "Amphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "magician said to move stones into houses"
+   },
+   {
+    "name": "Orpheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thracian magician whose charms drew beasts"
+   },
+   {
+    "name": "Glaucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Sisyphus, killed by horses"
+   },
+   {
+    "name": "Sisyphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Glaucus"
+   },
+   {
+    "name": "Acastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "held funeral games for his father"
+   },
+   {
+    "name": "Poseidon Hippius",
+    "aliases": [],
+    "kind": "god",
+    "description": "Poseidon of horses"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Phlius",
+    "relation": "parent_of",
+    "b": "Dameon",
+    "source": "text",
+    "evidence_sentence": 37
+   },
+   {
+    "a": "Actor",
+    "relation": "parent_of",
+    "b": "Cteatus",
+    "source": "text",
+    "evidence_sentence": 37
+   },
+   {
+    "a": "Porthaon",
+    "relation": "parent_of",
+    "b": "Alcathous",
+    "source": "text",
+    "evidence_sentence": 40
+   },
+   {
+    "a": "Sisyphus",
+    "relation": "parent_of",
+    "b": "Glaucus",
+    "source": "text",
+    "evidence_sentence": 44
+   },
+   {
+    "a": "Pelops",
+    "relation": "spouse_of",
+    "b": "Hippodamia",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Sosipolis",
+    "relation": "transformed_into",
+    "b": "dragon",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Poseidon Hippius",
+    "canonical": "Taraxippus",
+    "explanation": "One view takes Taraxippus as a surname of Poseidon, god of horses."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 32,
+    "reason": "Cleœtas's own inscription proudly claiming invention of the Olympic horse start.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local cult and legend explain the sacred landscape; Pausanias weighs rival explanations of Taraxippus without settling them.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage preserves details of Olympia's hippodrome and its starting machinery, plus women's limited roles in the festival.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The hippodrome Pausanias describes has not survived; its site is thought to lie largely eroded by the Alpheios river.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Basilæ means 'queens' in Greek; the term refers to a group of women (or officials) in Elis who performed this sacrifice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Tutelary means guardian or protecting; Sosipolis is the protector of the city and people of Elis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Lustral water is water used for ritual purification before sacred rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "Libations are offerings of poured liquid; here wine is excluded from his cult, unlike most Greek worship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The name Sosipolis means 'saviour of the city' in Greek, explaining why the Eleans gave the god this title after the victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "The Altis was the sacred grove and precinct of Zeus at Olympia; here a walled enclosure is called the Hippodamium after Hippodamia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Pelops, Hippodamia's husband, was angry because her sons killed his son Chrysippus, his illegitimate child; she then fled to Midea in Argolis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "\"Umpires\" translates the Hellanodicae, the Elean judges who presided over the games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Demeter Chamyne's priestess is the one woman privileged to watch; the text notes that unmarried girls were allowed, unlike married women, who were barred.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Endymion, in Elean tradition, was an early king of Elis, said to have set his sons a race at Olympia for the kingdom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "Agnaptus means \"unbent\" or \"unbroken\"; it names the portico beside the starting-place.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "The rope served as a barrier, held across the front of the teams until released.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "\"Clerk of the course\" is the official who operated the starting device, which raised the eagle and dropped the dolphin as the signal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "word",
+    "text": "Hippodrome is the horse-racing course at Olympia; its 'outlet' is where the chariots exit the course's side embankment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "word",
+    "text": "Autochthon means a native 'sprung from the soil', a person said to be original to the land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "word",
+    "text": "A cenotaph is an empty tomb, a monument to someone buried elsewhere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "allusion",
+    "text": "Myrtilus was Œnomaus' charioteer; bribed by Pelops, he sabotaged the chariot, then Pelops killed him, so Pelops sought to appease his ghost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "phrasing",
+    "text": "'Evil eye' here means a harmful, malicious influence; a 'demon' is a spirit, not necessarily a devil.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "kind": "allusion",
+    "text": "Poseidon Hippius is Poseidon as 'horse-god'; Taraxippus would be a title of his, not a separate hero.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "word",
+    "text": "A fillet is a ribbon or headband, given to victors as a sign of honour.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Cronos was the father of Jove (the Greek Zeus) and was honoured at Olympia on the hill named for him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Ilithyia (Eileithyia) was the goddess of childbirth, which fits her joint worship with a child-god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Elis and Arcadia were neighbouring regions of the Peloponnese and often fought over Olympia and its surroundings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Ilithyia was the goddess of childbirth; she had a sanctuary at Olympia, and Pausanias is describing monuments in sequence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The statues paid for by fines were images of Zeus, set up at Olympia from penalties on athletes who cheated.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Cleœtas was an Athenian craftsman; the starting gate he devised was the hippodrome's famous mechanism.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Hercules' campaign against Augeas, king of Elis, is the setting; Cteatus was one of the Molionid twins who fought for Elis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "text": "Orpheus was the legendary musician whose song moved beasts and trees; Amphion's lyre made stones build the walls of Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "text": "The Isthmus is the Isthmus of Corinth, site of the Isthmian Games, where chariot racing also took place.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "text": "Nemea in Argolis hosted the Nemean Games, another of the great Greek athletic festivals.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "Irony",
+    "text": "The Eleans place a naked infant as their front line, a seemingly absurd defence that proves decisive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Symbolism",
+    "text": "The child's transformation into a dragon shows divine power hidden in apparent weakness; the serpent was a common emblem of protective powers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "simile",
+    "text": "Comparing the starting-place to a ship's prow gives the reader a clear picture of its pointed shape, with its \"beak\" facing the course.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "narrative voice",
+    "text": "The brief, dramatic sentence shifts from technical description to excitement, as the guide-writer turns attention to the contest itself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "characterization",
+    "text": "The inscription in Cleœtas's own voice shows his pride in the invention, supporting Pausanias's remark that he plumed himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "imagery",
+    "text": "The vivid picture of smashed chariots and injured drivers conveys the real danger and the sense of unexplained dread.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "device": "narrative voice",
+    "text": "Pausanias reports the Egyptian's account at second hand, keeping a cautious, investigative distance from the claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 43,
+    "device": "characterization",
+    "text": "Pausanias reveals his rationalizing, judicious temperament by weighing many stories and choosing the one he finds most plausible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "device": "irony",
+    "text": "The statue shows Hippodamia about to crown the man who won her by killing suitors, a quietly ironic ending to the catalogue of deaths.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,234 @@
+{
+ "section_id": "pausanias-body-240",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6841,
+  "output": 2104
+ },
+ "result": {
+  "summary": "Pausanias describes the road east from Pheneus to Geronteum and the Tricrena mountains, where nymphs washed the infant Hermes. He then visits the hill Sepia and the tomb of Æpytus, and digresses to two famous tombs, the Mausoleum at Halicarnassus and Helen's tomb at Jerusalem.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Geronteum, Tricrena and Sepia",
+    "summary": "The route east from Pheneus passes Geronteum and the three wells of Tricrena, where Hermes was washed. On Sepia, Æpytus is said to have died of a snakebite.",
+    "stakes": "",
+    "present": [
+     "Hermes",
+     "Æpytus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tricrena and Sepia",
+     "modern_name": "Mountains near Feneos, Arcadia",
+     "certainty": "traditional",
+     "lat": 37.95,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 9,
+    "title": "The tomb of Æpytus",
+    "summary": "Pausanias sees the modest earth tomb of Æpytus, which Homer mentioned, and reflects on Homer's limited experience.",
+    "stakes": "",
+    "present": [
+     "Æpytus",
+     "Homer",
+     "Hephæstus",
+     "Dædalus",
+     "Ariadne"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sepia",
+     "modern_name": "Mountains near Feneos, Arcadia",
+     "certainty": "traditional",
+     "lat": 37.95,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 14,
+    "title": "Marvellous tombs abroad",
+    "summary": "Pausanias describes the Mausoleum of Halicarnassus and the self-opening tomb of Helen at Jerusalem.",
+    "stakes": "",
+    "present": [
+     "Mausolus",
+     "Helen"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Halicarnassus and Jerusalem",
+     "modern_name": "Bodrum and Jerusalem",
+     "certainty": "real",
+     "lat": 37.04,
+     "lon": 27.42
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god washed by nymphs at his birth in the Tricrena wells"
+   },
+   {
+    "name": "Æpytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Elatus, died of a snakebite and was buried on Sepia"
+   },
+   {
+    "name": "Elatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Æpytus"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who mentions the tomb of Æpytus"
+   },
+   {
+    "name": "Hephæstus",
+    "aliases": [],
+    "kind": "god",
+    "description": "made the dancing-ground on Achilles' shield"
+   },
+   {
+    "name": "Dædalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "made a dancing-ground for Ariadne"
+   },
+   {
+    "name": "Ariadne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "for whom Dædalus made a dancing-ground"
+   },
+   {
+    "name": "Mausolus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Halicarnassus, for whom the Mausoleum was built"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman of Jerusalem with a self-opening tomb"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Elatus",
+    "relation": "parent_of",
+    "b": "Æpytus",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Explains the origin of the word 'mausoleum' for grand tombs.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links local Arcadian sites to myth and Homer, then widens to wonders of the wider world.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "He notes Jerusalem was razed by the Romans, and records how the Romans adopted the name Mausoleum.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The word 'mausoleum' in many languages derives from the tomb of Mausolus at Halicarnassus."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The tomb of Helen at Jerusalem is usually identified with the tomb of Queen Helena of Adiabene.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Homer's Iliad 2.604 mentions the Arcadians living 'beneath Cyllene's steep, beside the tomb of Aepytus'; Pausanias checks the poet's landmark.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "A coping is a protective top or border course of stone around the mound.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Iliad 18 describes the dancing-floor on Achilles' shield, likened to one Daedalus made at Cnossus for fair-haired Ariadne.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "'Adornation' is an old word for ornamentation or decoration.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "'Rased' means razed, levelled to the ground; the reference is to Rome's destruction of Jerusalem.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Hermes, the messenger god, was said to have been born on Mount Cyllene in Arcadia, so local wells claimed his infancy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Mausolus was a Carian ruler of the 4th century BC; his huge tomb at Halicarnassus was one of the Seven Wonders, giving us 'mausoleum'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Helen here is Queen Helena of Adiabene, a convert to Judaism, whose tomb lay near Jerusalem. She is not Helen of Troy.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "irony",
+    "text": "Pausanias gently mocks Homer: the poet's awe is explained by his limited experience of tombs, making a humble mound seem grand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "narrative voice",
+    "text": "The plain, matter-of-fact reporting of a marvel conveys Pausanias' travelogue manner: he treats wonders as observed facts.",
+    "spoiler": false
+   }
+  ]
+ }
+}

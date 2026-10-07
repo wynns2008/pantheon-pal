@@ -1,0 +1,111 @@
+{
+ "work": "The Extant Odes of Pindar",
+ "model": "claude-sonnet-5-5",
+ "usage": {
+  "input": 15697,
+  "output": 1405
+ },
+ "same": [
+  {
+   "names": [
+    "Zeus",
+    "Jove"
+   ],
+   "reason": "Jove is the Roman name for Zeus; both listed as separate entries.",
+   "change": true
+  },
+  {
+   "names": [
+    "Hector",
+    "Hektor"
+   ],
+   "reason": "Same Trojan hero, two spellings.",
+   "change": true
+  },
+  {
+   "names": [
+    "Dionysos",
+    "Dionysus",
+    "Bromios"
+   ],
+   "reason": "Same god under alternate spelling and cult title.",
+   "change": true
+  },
+  {
+   "names": [
+    "Kadmos",
+    "Cadmus"
+   ],
+   "reason": "Same founder of Thebes, two spellings.",
+   "change": true
+  },
+  {
+   "names": [
+    "Tantalos",
+    "Tantalus"
+   ],
+   "reason": "Same father of Pelops, two spellings.",
+   "change": true
+  },
+  {
+   "names": [
+    "Meleagros",
+    "Meleager"
+   ],
+   "reason": "Same hero, two spellings.",
+   "change": true
+  },
+  {
+   "names": [
+    "Ocean",
+    "Oceanus"
+   ],
+   "reason": "Same Titan, Ocean father of nymphs.",
+   "change": true
+  },
+  {
+   "names": [
+    "Athene",
+    "Pallas Athene"
+   ],
+   "reason": "Same goddess Athena.",
+   "change": true
+  },
+  {
+   "names": [
+    "Sun",
+    "Helios"
+   ],
+   "reason": "Sun is the sun god Helios.",
+   "change": true
+  },
+  {
+   "names": [
+    "Eileithuia",
+    "Eleutho"
+   ],
+   "reason": "Same goddess of childbirth, two spellings.",
+   "change": true
+  }
+ ],
+ "different": [
+  {
+   "name": "Kastor",
+   "other": "Dioskouroi",
+   "reason": "Dioskouroi names both twins, not Kastor alone.",
+   "change": true
+  },
+  {
+   "name": "Kastor",
+   "other": "Tyndaridai",
+   "reason": "Tyndaridai names both twins, not Kastor alone.",
+   "change": true
+  },
+  {
+   "name": "Aiakos",
+   "other": "Aiakids",
+   "reason": "Aiakids are Aiakos' descendants, not Aiakos himself.",
+   "change": true
+  }
+ ]
+}

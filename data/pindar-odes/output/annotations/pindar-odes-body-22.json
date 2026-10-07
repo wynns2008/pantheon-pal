@@ -1,0 +1,491 @@
+{
+ "section_id": "pindar-odes-body-22",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10544,
+  "output": 4364
+ },
+ "result": {
+  "summary": "Pindar praises Aristomenes of Aigina, a young wrestler who won at the Pythian games. He hails Peace, warns that violence and insolence are ruined (Typhon, Porphyrion), and recalls Amphiaraos' prophecy and the hero Alkmaion. He ends by reflecting on human frailty and praying for Aigina's protection.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Editor's introduction",
+    "summary": "The editor gives the likely date, after Salamis, and the context of Aigina's victors.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 14,
+    "title": "Hymn to Peace and praise",
+    "summary": "Pindar invokes Peace, recalls the fall of Typhon and Porphyrion, praises Aigina and Aristomenes' wrestling family.",
+    "stakes": "Insolent violence brings ruin, as it did for the giants.",
+    "present": [
+     "Peace",
+     "Aristomenes",
+     "Porphyrion",
+     "Typhon",
+     "Apollo",
+     "Xenarches"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 21,
+    "title": "Amphiaraos' prophecy at Thebes",
+    "summary": "Pindar recounts Amphiaraos seeing Alkmaion and predicting Adrastos' fate; Pindar honors Alkmaion's grave.",
+    "stakes": "Adrastos will lose his son, though he returns home safely.",
+    "present": [
+     "Amphiaraos",
+     "Alkmaion",
+     "Adrastos"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 34,
+    "title": "Victories, mortality, prayer",
+    "summary": "Pindar thanks Apollo, lists Aristomenes' wins, contrasts his defeated rivals, reflects on human frailty, and prays for Aigina.",
+    "stakes": "Human fortune can fall in a moment.",
+    "present": [
+     "Apollo",
+     "Aristomenes",
+     "Xenarches",
+     "Aigina"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aigina",
+     "modern_name": "Aegina",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 23.43
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "young Aiginetan wrestler who won at Pytho"
+   },
+   {
+    "name": "Peace",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Righteousness, addressed in the opening"
+   },
+   {
+    "name": "Righteousness",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Peace"
+   },
+   {
+    "name": "Porphyrion",
+    "aliases": [
+     "the king of giants"
+    ],
+    "kind": "monster",
+    "description": "giant who provoked Peace and fell"
+   },
+   {
+    "name": "Typhon",
+    "aliases": [],
+    "kind": "monster",
+    "description": "hundred-headed giant of Kilikia"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of Pytho, whose bow helped fell giants"
+   },
+   {
+    "name": "Xenarches",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "relative of Aristomenes, welcomed home from Kirrha"
+   },
+   {
+    "name": "Amphiaraos",
+    "aliases": [
+     "son of Oikleus"
+    ],
+    "kind": "mortal",
+    "description": "seer who prophesied at Thebes"
+   },
+   {
+    "name": "Alkmaion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a dragon shield; Pindar's neighbour and prophet"
+   },
+   {
+    "name": "Adrastos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive hero who will lose his son"
+   },
+   {
+    "name": "Aigina",
+    "aliases": [],
+    "kind": "place",
+    "description": "island city addressed as mother"
+   },
+   {
+    "name": "Aiakos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "lordly hero of Aigina"
+   },
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aiginetan hero"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "valiant Aiginetan hero"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aiginetan hero"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god invoked to guard Aigina"
+   },
+   {
+    "name": "Theognetos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "uncle of Aristomenes, Olympic victor"
+   },
+   {
+    "name": "Kleitomachos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "uncle of Aristomenes, Isthmian victor"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Righteousness",
+    "relation": "parent_of",
+    "b": "Peace",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Oikleus",
+    "relation": "parent_of",
+    "b": "Amphiaraos",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Aiakos",
+    "relation": "parent_of",
+    "b": "Peleus",
+    "source": "outside",
+    "evidence_sentence": 34
+   },
+   {
+    "a": "Aiakos",
+    "relation": "parent_of",
+    "b": "Telamon",
+    "source": "outside",
+    "evidence_sentence": 34
+   },
+   {
+    "a": "Peleus",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "outside",
+    "evidence_sentence": 34
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "son of Oikleus",
+    "canonical": "Amphiaraos",
+    "explanation": "Patronymic for the seer Amphiaraos."
+   },
+   {
+    "alias": "king of giants",
+    "canonical": "Porphyrion",
+    "explanation": "Title for Porphyrion, named earlier in the ode."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 31,
+    "reason": "Famous meditation on human fragility.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "reason": "Often-quoted line: man is a dream of shadows.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Insolence brings ruin while peace and measure bring prosperity; human success depends on divine favour and is fleeting.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The ode likely follows Salamis (480 BC), casting Persian arrogance as the giants' hubris and celebrating Aigina's valour.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "'Man is a dream of shadows' is among Pindar's best-known lines, often quoted in later literature on mortality."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Eleven of Pindar's surviving victory odes honor winners from Aigina.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Aristeia is Greek for the prize of valour, the award given to the bravest after a battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Boldest\" is archaic for \"holdest\"; the second-person verb endings (-est) go with \"thou\" throughout the address.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Alike to give and take gentleness\" means Peace knows how to both offer and receive mildness at the right moment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"Boast he never so loudly\" means \"however loudly he may boast\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Typhon and the king of giants (Porphyrion) were monstrous rebels against the gods, defeated by Zeus's thunderbolt and Apollo's arrows. Kirrha was the port of Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The sons of Aiakos, such as Peleus and Telamon, were legendary heroes of Aigina, whose glory the island claims as its own.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Satiety\" means the weariness that comes from having too much of something.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Theognetos and Kleitomachos were the victor's uncles, earlier winners at Olympia and the Isthmus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The son of Oikleus is Amphiaraos, the seer. The 'sons of the Seven' are the Epigoni, who later attacked Thebes to avenge their fathers' failed expedition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Alkmaion, son of Amphiaraos, led the Epigoni. A serpent on his shield is the device Pindar gives him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Adrastos was the only one of the Seven to survive the first attack on Thebes; now he sees a better omen for the sons' attack.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "Danaan means Greek, here the Argives. Adrastos' son Aigialeus died in this second war; Adrastos returned with his army unharmed to Argos, the 'streets of Abas'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "The 'earth's centre-stone' is the omphalos at Delphi, thought to mark the centre of the world. Alkmaion's prophetic gift was inherited from Amphiaraos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "'Far-darter' is a title of Apollo, the archer god. Pytho is Delphi, site of the Pythian games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "Aristomenes is pictured as a wrestler hurling himself on four defeated opponents, who slink home by back ways in shame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "phrasing",
+    "text": "'A dream of shadows' means that human life is insubstantial, barely real.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Typhon and Porphyrion were giants who challenged the gods; here they stand for the Persian king Xerxes' invasion of Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Pindar wrote many odes for Aiginetan athletes, since the island was prosperous and famed for its wrestlers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "Peace (Hesychia) is personified as a goddess, daughter of Righteousness (Dike). The Pythian games were held at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Xenarches is Aristomenes' father, addressed here as the head of the family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Aristomenes' earlier wins were at Megara and Marathon, plus the Aiginetan games for Hera, probably the Heraia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Aiakos was the legendary king of Aigina; Peleus and Telamon were his sons, and Achilles was Peleus' son. They are the island's heroic protectors.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "apostrophe",
+    "text": "Pindar opens by directly addressing Peace as a goddess, giving the ode a hymn-like solemnity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "personification",
+    "text": "Insolence is treated as a thing that can be sunk in the sea, showing Peace's power to defeat pride.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "gnomic statement",
+    "text": "A general moral maxim about violence ruining men prepares the mythic examples that follow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "topos of brevity",
+    "text": "Pindar claims lack of time to say more, a conventional way to cut short praise and move on.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "metaphor",
+    "text": "The debt of praise \"runs on apace, winged by my art\", picturing the song as a swift, winged runner.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Prophecy",
+    "text": "Amphiaraos' words become a riddle-like compliment: Alkmaion's inherited valor stands for Aristomenes' inherited excellence, linking the myth to the victor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "Personification",
+    "text": "Righteousness takes her stand beside the song, as if a goddess guarded the poem's praise as truthful.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "Metaphor",
+    "text": "The young victor is lifted on 'wings' of hope and valor, showing how success gives a sense of soaring.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "Rhetorical question",
+    "text": "The question stresses human insignificance and prepares the famous reflection that follows.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "Metaphor",
+    "text": "Calling man 'a dream of shadows' compresses the fragility and unreality of life into one phrase.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "Apostrophe",
+    "text": "Pindar closes by directly addressing Aigina as a dear mother, turning the ode into a prayer.",
+    "spoiler": false
+   }
+  ]
+ }
+}

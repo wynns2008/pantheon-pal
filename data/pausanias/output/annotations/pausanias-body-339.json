@@ -1,0 +1,350 @@
+{
+ "section_id": "pausanias-body-339",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8386,
+  "output": 2921
+ },
+ "result": {
+  "summary": "Pausanias describes the Greeks' desperate resolve against the Galati and compares the forces at Thermopylae against Xerxes with those against the Gauls. He lists the allied contingents and commanders, then tells how Brennus sent men across the Sperchius, forcing the Greek guard to withdraw.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Greek resolve before the Galati",
+    "summary": "The Greeks, remembering Galatian outrages, decide they must conquer or die. Pausanias proposes comparing the armies at Thermopylae.",
+    "stakes": "Greek security and survival, beyond mere liberty, if the Galati win.",
+    "present": [
+     "Galati"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Greece",
+     "modern_name": "Greece",
+     "certainty": "real",
+     "lat": 39.0,
+     "lon": 22.0
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 10,
+    "title": "Forces against Xerxes",
+    "summary": "Pausanias totals the Greek troops who fought the Persians at Thermopylae, estimating the Locrians from Athenian numbers at Marathon.",
+    "stakes": "",
+    "present": [
+     "Leonidas",
+     "Xerxes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thermopylae",
+     "modern_name": "Thermopylae",
+     "certainty": "real",
+     "lat": 38.797,
+     "lon": 22.536
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 13,
+    "title": "Forces against the Galati",
+    "summary": "Pausanias lists the Boeotian, Phocian, Locrian, Megarian, Aetolian, Athenian and mercenary contingents with their commanders.",
+    "stakes": "",
+    "present": [
+     "Cephisodotus",
+     "Thearidas",
+     "Diogenes",
+     "Lysander",
+     "Critobulus",
+     "Antiochus",
+     "Midias",
+     "Megareus",
+     "Polyarchus",
+     "Polyphron",
+     "Lacrates",
+     "Callippus",
+     "Aristodemus",
+     "Telesarchus",
+     "Antigonus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thermopylae",
+     "modern_name": "Thermopylae",
+     "certainty": "real",
+     "lat": 38.797,
+     "lon": 22.536
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 19,
+    "title": "Brennus crosses the Sperchius",
+    "summary": "The Greeks send a force to hold the Sperchius and break its bridges. Brennus sends 10,000 tall swimmers across a marshy stretch, and the Greeks fall back.",
+    "stakes": "The Greeks risk being outflanked at the river and losing the pass.",
+    "present": [
+     "Brennus",
+     "Galati"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "River Sperchius",
+     "modern_name": "Spercheios River",
+     "certainty": "real",
+     "lat": 38.87,
+     "lon": 22.4
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Brennus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the Galati, a capable strategist"
+   },
+   {
+    "name": "Galati",
+    "aliases": [
+     "Celts"
+    ],
+    "kind": "other",
+    "description": "barbarian invaders of Greece, remarkably tall"
+   },
+   {
+    "name": "Leonidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "commander of the Lacedaemonians at Thermopylae"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [
+     "the Mede"
+    ],
+    "kind": "mortal",
+    "description": "Persian king who invaded Greece"
+   },
+   {
+    "name": "Cephisodotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boeotarch"
+   },
+   {
+    "name": "Thearidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boeotarch"
+   },
+   {
+    "name": "Diogenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boeotarch"
+   },
+   {
+    "name": "Lysander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boeotarch"
+   },
+   {
+    "name": "Critobulus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phocian commander"
+   },
+   {
+    "name": "Antiochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phocian commander; also a king sending mercenaries"
+   },
+   {
+    "name": "Midias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Locrian commander"
+   },
+   {
+    "name": "Megareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Megarian cavalry commander"
+   },
+   {
+    "name": "Polyarchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aetolian commander"
+   },
+   {
+    "name": "Polyphron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aetolian commander"
+   },
+   {
+    "name": "Lacrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aetolian commander"
+   },
+   {
+    "name": "Callippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian commander, son of Moerocles"
+   },
+   {
+    "name": "Moerocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Callippus"
+   },
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian leading Antigonus' mercenaries"
+   },
+   {
+    "name": "Telesarchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of Antiochus' mercenaries"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who sent mercenaries"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Moerocles",
+    "relation": "parent_of",
+    "b": "Callippus",
+    "source": "text",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "the Mede",
+    "canonical": "Xerxes",
+    "explanation": "The Persian invaders are called Medes; here the term stands for the Persian army under Xerxes."
+   },
+   {
+    "alias": "Celts",
+    "canonical": "Galati",
+    "explanation": "Pausanias uses Celts as another name for the Galati (Gauls)."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "Sums up the Greeks' desperate resolve: die or conquer.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias frames the Gallic invasion as a crisis worse than the Persian one, since submission would bring no safety.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage reflects the Gallic invasion of Greece in 279 BC and the Hellenistic kings' involvement; Pausanias compares it with Herodotus' account of Thermopylae.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias estimates the Locrian numbers by reasoning from Athenian numbers at Marathon, since Herodotus gave no figure.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Giving 'earth and water' was the Persian demand for submission; yielding it meant accepting Persian rule, as at Xerxes' invasion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "'Irruption' means a violent invasion or sudden breaking in.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "This is Herodotus's roster of Greeks at Thermopylæ in 480 BC, with Leonidas the Spartan king commanding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "Pausanias reasons by analogy: Athenian manpower at Marathon sets a ceiling for the Locrians. The argument is a rough guess, not evidence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Bœotarchs were the chief magistrates and military commanders of the Bœotian League.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "'As I have before stated' refers to Pausanias's earlier mention of Callippus and the Athenian contingent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "'Celts' is used here for the Galati, the Gauls; Pausanias treats the names as the same people.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Thermopylæ was the narrow coastal pass in central Greece where Leonidas's force held Xerxes's Persians in 480 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Antigonus (of Macedonia) and Antiochus (the Seleucid king) were rival Hellenistic monarchs who sent paid soldiers to help against the Gauls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Brennus was the Gallic leader of the invasion of Greece in 279 BC, which reached Thermopylæ.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "Characterization",
+    "text": "The shared 'conquer or die' mood shows a united Greek spirit, set against their earlier dejection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Narrative voice",
+    "text": "Pausanias grudgingly praises Brennus, with the qualifier 'for a barbarian' revealing his Greek bias.",
+    "spoiler": false
+   }
+  ]
+ }
+}

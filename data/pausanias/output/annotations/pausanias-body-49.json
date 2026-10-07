@@ -1,0 +1,547 @@
+{
+ "section_id": "pausanias-body-49",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8299,
+  "output": 4227
+ },
+ "result": {
+  "summary": "Pausanias describes sites near Corinth, including the temple of Aphrodite, the fountain given by Asopus to Sisyphus, and the river Asopus with its traditions. He then turns to Tenea and a burnt temple on the road to Sicyon, and gives the Sicyonian line of early kings.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Aphrodite's temple and Sisyphus's fountain",
+    "summary": "On Acro-Corinthus stands a temple of Aphrodite with statues. A fountain behind it was said to be Asopus's payment to Sisyphus for telling where Ægina went.",
+    "stakes": "Sisyphus suffers punishment in Hades for betraying Zeus's secret.",
+    "present": [
+     "Asopus",
+     "Sisyphus",
+     "Zeus",
+     "Ægina",
+     "Aphrodite"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Acro-Corinthus",
+     "modern_name": "Acrocorinth",
+     "certainty": "real",
+     "lat": 37.8903,
+     "lon": 22.8701
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 10,
+    "title": "The river Asopus and its daughters",
+    "summary": "Pausanias gives the course of the Asopus, its daughters' names, and claims that it and other rivers came from distant rivers.",
+    "stakes": "",
+    "present": [
+     "Asopus",
+     "Corcyra",
+     "Ægina",
+     "Thebe",
+     "Mæander"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Phlius and Sicyonian district",
+     "modern_name": "Phlius, Peloponnese",
+     "certainty": "real",
+     "lat": 37.85,
+     "lon": 22.65
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 16,
+    "title": "Tenea and the burnt temple",
+    "summary": "Pausanias describes Tenea, whose people claim Trojan descent, and a burnt temple on the Sicyon road.",
+    "stakes": "",
+    "present": [
+     "Agamemnon",
+     "Pyrrhus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Tenea",
+     "modern_name": "Chiliomodi area, near Corinth",
+     "certainty": "real",
+     "lat": 37.8,
+     "lon": 22.88
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 24,
+    "title": "Early kings of Sicyon",
+    "summary": "The Sicyonians list their early kings from Ægialeus down to Coronus and his sons.",
+    "stakes": "",
+    "present": [
+     "Ægialeus",
+     "Europs",
+     "Telchis",
+     "Apis",
+     "Thelxion",
+     "Ægyrus",
+     "Thurimachus",
+     "Leucippus",
+     "Chalcinia",
+     "Poseidon",
+     "Peratus",
+     "Plemnæus",
+     "Demeter",
+     "Orthopolis",
+     "Chrysorthe",
+     "Coronus",
+     "Corax",
+     "Lamedon",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Sicyon",
+     "modern_name": "Sicyon",
+     "certainty": "real",
+     "lat": 37.98,
+     "lon": 22.72
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess honoured with a temple on Acro-Corinthus"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "god",
+    "description": "River, father of Ægina, who gave water to Sisyphus"
+   },
+   {
+    "name": "Sisyphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man who told Asopus of Ægina's fate and is punished in Hades"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Carried off Ægina; also Olympian Zeus"
+   },
+   {
+    "name": "Ægina",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Asopus carried off by Zeus"
+   },
+   {
+    "name": "Corcyra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Asopus per Phliasians"
+   },
+   {
+    "name": "Thebe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Asopus, who gave her name to Thebes"
+   },
+   {
+    "name": "Mæander",
+    "aliases": [],
+    "kind": "other",
+    "description": "River said to have travelled to make the Asopus"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Settled Trojan captives at Tenea"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "God honoured at Tenea; supposed father of Coronus"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Achilles, said to have burnt a temple"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Pyrrhus"
+   },
+   {
+    "name": "Ægialeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Autochthonous first king of Sicyon"
+   },
+   {
+    "name": "Europs",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Ægialeus"
+   },
+   {
+    "name": "Telchis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Europs"
+   },
+   {
+    "name": "Apis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Telchis; land called Apian after him"
+   },
+   {
+    "name": "Thelxion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Apis"
+   },
+   {
+    "name": "Ægyrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Thelxion"
+   },
+   {
+    "name": "Thurimachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Ægyrus"
+   },
+   {
+    "name": "Leucippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Sicyon with only a daughter"
+   },
+   {
+    "name": "Chalcinia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Leucippus, mother of Peratus"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Peratus"
+   },
+   {
+    "name": "Peratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heir of Leucippus"
+   },
+   {
+    "name": "Plemnæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Peratus whose children died at birth"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Pitied Plemnæus and reared his child"
+   },
+   {
+    "name": "Orthopolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Child of Plemnæus reared by Demeter"
+   },
+   {
+    "name": "Chrysorthe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Orthopolis"
+   },
+   {
+    "name": "Coronus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Supposed son of Apollo"
+   },
+   {
+    "name": "Corax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elder son of Coronus"
+   },
+   {
+    "name": "Lamedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Younger son of Coronus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Asopus",
+    "relation": "parent_of",
+    "b": "Ægina",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Ægina",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Asopus",
+    "relation": "parent_of",
+    "b": "Thebe",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Asopus",
+    "relation": "parent_of",
+    "b": "Corcyra",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Pyrrhus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Ægialeus",
+    "relation": "parent_of",
+    "b": "Europs",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Europs",
+    "relation": "parent_of",
+    "b": "Telchis",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Telchis",
+    "relation": "parent_of",
+    "b": "Apis",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Apis",
+    "relation": "parent_of",
+    "b": "Thelxion",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Thelxion",
+    "relation": "parent_of",
+    "b": "Ægyrus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Ægyrus",
+    "relation": "parent_of",
+    "b": "Thurimachus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Thurimachus",
+    "relation": "parent_of",
+    "b": "Leucippus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Leucippus",
+    "relation": "parent_of",
+    "b": "Chalcinia",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Chalcinia",
+    "relation": "parent_of",
+    "b": "Peratus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Peratus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Peratus",
+    "relation": "parent_of",
+    "b": "Plemnæus",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Orthopolis",
+    "relation": "parent_of",
+    "b": "Chrysorthe",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Chrysorthe",
+    "relation": "parent_of",
+    "b": "Coronus",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Coronus",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Coronus",
+    "relation": "parent_of",
+    "b": "Corax",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Coronus",
+    "relation": "parent_of",
+    "b": "Lamedon",
+    "source": "text",
+    "evidence_sentence": 24
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends local legends, rival claims and his own scepticism, as when he doubts Sisyphus's punishment is credible.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Cities such as Tenea and Sicyon asserted prestige through legendary founders and royal genealogies reaching back to heroic times.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Acrocorinth still has a spring, often identified with Upper Pirene, mentioned in the discussion of the fountain.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Zeus carried off Ægina, Asopus's daughter; Sisyphus, the legendary king of Corinth, informed on him, which is why he was punished in Hades.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Vouchsafed\" means graciously granted; here Sisyphus condescended to give the information.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Pirene was Corinth's famous spring, said in myth to have been a woman who wept herself into a fountain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Indigenous\" means native to the place; the claim is that the river came from abroad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet (about 185 metres).",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "\"Autochthon\" means born from the land itself, a native who did not migrate in.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Pelops gave his name to the Peloponnese and was linked with the founding of the Olympic games, so this dates Apis's greatness to early times.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Acro-Corinthus was the steep citadel hill above Corinth, long associated with the worship of Aphrodite.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Ilithyia was the goddess who presided over childbirth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Pyrrhus (Neoptolemus), son of Achilles, was a Trojan War hero said to have wandered widely after the war.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "irony",
+    "text": "Pausanias's sceptical aside \"if indeed this is credible\" shows him distancing himself from the myth he reports.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "narrative voice",
+    "text": "Pausanias reports traditions with phrases like \"there is a tradition,\" acting as a careful collector who does not vouch for them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "characterization",
+    "text": "The narrator's personal verdict of \"most marvellous\" shows his taste for wonders and builds anticipation for the story.",
+    "spoiler": false
+   }
+  ]
+ }
+}

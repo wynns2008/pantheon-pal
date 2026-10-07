@@ -1,0 +1,402 @@
+{
+ "section_id": "pausanias-body-72",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7956,
+  "output": 3262
+ },
+ "result": {
+  "summary": "Pausanias describes sacred dragons of Æsculapius at Epidaurus and the olive tree on Mount Coryphon, then tells the story of Hyrnetho, who was killed when her brothers tried to carry her off from Deiphontes. He ends with the tombs of Melissa and Proclees.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Sacred dragons of Epidaurus",
+    "summary": "Pausanias says tame dragons sacred to Æsculapius breed only in Epidauria, and compares other regional animals.",
+    "stakes": "",
+    "present": [
+     "Æsculapius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Epidaurian country",
+     "modern_name": "Epidauria, Argolis",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 8,
+    "title": "Coryphon and Hyrnethium",
+    "summary": "Pausanias describes the Twisted olive, the temple of Artemis on Coryphon and the wild olive place Hyrnethium.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Artemis",
+     "Telesilla"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Coryphon",
+     "modern_name": "Mount Koryfi, Argolis",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 23.15
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 19,
+    "title": "The abduction of Hyrnetho",
+    "summary": "Cerynes and Phalces try to take Hyrnetho from Deiphontes. Deiphontes kills Cerynes, and Phalces accidentally kills Hyrnetho.",
+    "stakes": "Hyrnetho's freedom and life; Deiphontes risks losing his wife and unborn child.",
+    "present": [
+     "Cisus",
+     "Cerynes",
+     "Phalces",
+     "Argæeus",
+     "Hyrnetho",
+     "Deiphontes",
+     "Antimenes",
+     "Xanthippus",
+     "Argeus",
+     "Orsobia",
+     "Pamphylus",
+     "Temenus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Epidaurus",
+     "modern_name": "Epidaurus, Argolis",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 23.15
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 22,
+    "title": "Honours and tombs",
+    "summary": "Hyrnetho's grove is kept sacred, and Pausanias notes the tombs of Melissa and Proclees.",
+    "stakes": "",
+    "present": [
+     "Hyrnetho",
+     "Melissa",
+     "Periander",
+     "Proclees"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Epidaurus",
+     "modern_name": "Epidaurus, Argolis",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 23.15
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god to whom dragons are sacred"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero said to have shaped the Twisted olive"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple on Coryphon"
+   },
+   {
+    "name": "Telesilla",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who mentioned the temple"
+   },
+   {
+    "name": "Cisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Temenus"
+   },
+   {
+    "name": "Cerynes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Temenus, killed by Deiphontes"
+   },
+   {
+    "name": "Phalces",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Temenus who accidentally killed his sister"
+   },
+   {
+    "name": "Argæeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "youngest son of Temenus, opposed the plot"
+   },
+   {
+    "name": "Temenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hyrnetho and her brothers"
+   },
+   {
+    "name": "Hyrnetho",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Temenus, wife of Deiphontes"
+   },
+   {
+    "name": "Deiphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Hyrnetho"
+   },
+   {
+    "name": "Antimenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Deiphontes"
+   },
+   {
+    "name": "Xanthippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Deiphontes"
+   },
+   {
+    "name": "Argeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Deiphontes"
+   },
+   {
+    "name": "Orsobia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Deiphontes, wife of Pamphylus"
+   },
+   {
+    "name": "Pamphylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ægimius, husband of Orsobia"
+   },
+   {
+    "name": "Ægimius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pamphylus"
+   },
+   {
+    "name": "Melissa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Periander"
+   },
+   {
+    "name": "Periander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king at Corinth, son of Cypselus"
+   },
+   {
+    "name": "Cypselus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Periander"
+   },
+   {
+    "name": "Proclees",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king at Epidaurus, father of Melissa"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Temenus",
+    "relation": "parent_of",
+    "b": "Hyrnetho",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Temenus",
+    "relation": "parent_of",
+    "b": "Cerynes",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Temenus",
+    "relation": "parent_of",
+    "b": "Phalces",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Deiphontes",
+    "relation": "spouse_of",
+    "b": "Hyrnetho",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Deiphontes",
+    "relation": "parent_of",
+    "b": "Orsobia",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Hyrnetho",
+    "relation": "parent_of",
+    "b": "Antimenes",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Cerynes",
+    "relation": "sibling_of",
+    "b": "Hyrnetho",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Orsobia",
+    "relation": "spouse_of",
+    "b": "Pamphylus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Ægimius",
+    "relation": "parent_of",
+    "b": "Pamphylus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Periander",
+    "relation": "spouse_of",
+    "b": "Melissa",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Proclees",
+    "relation": "parent_of",
+    "b": "Melissa",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Cypselus",
+    "relation": "parent_of",
+    "b": "Periander",
+    "source": "text",
+    "evidence_sentence": 21
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias mixes natural curiosities, sacred sites and local legend, showing how places keep memory through cult and custom.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Hyrnetho story reflects the Heraclid settlement of the Peloponnese and family rivalries over inheritance in Argos.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Æsculapius (the Greek Asclepius) was the god of healing, and his sanctuary at Epidaurus was his chief cult centre. Sacred snakes were kept there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "A cubit is an ancient measure of about 18 inches (roughly half a metre), based on the length of the forearm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "phrasing",
+    "text": "\"Its having been so moulded by Hercules' hand is the origin of the name\" means the tree was called Twisted because Hercules bent it by hand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Telesilla was a poetess of Argos, famed in antiquity. Her poem is not preserved here, so the reference cannot be checked.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Gave them back as good as they brought\" means she answered their charges with equally sharp words.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"Closed with him\" means he came to close grips with Phalces, grappling hand to hand.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 9,
+    "text": "Temenus, the Heraclid king of Argos, favoured Deiphontes and his daughter Hyrnetho. His sons resented this, and Pausanias elsewhere says they had plotted against their father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Periander was tyrant of Corinth, c. 600 BC, counted among the Seven Sages by some. His wife Melissa was daughter of Proclees of Epidaurus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a careful investigator, distinguishing local tradition from what he thinks probably true. This lends the account critical authority.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "irony",
+    "text": "Phalces' attempt to carry off his sister ends in her death. The act meant to benefit her destroys her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "motif",
+    "text": "The taboo on cutting the sacred trees recalls the earlier olive tree and gives a place-name its origin, as with many tales in Pausanias.",
+    "spoiler": false
+   }
+  ]
+ }
+}

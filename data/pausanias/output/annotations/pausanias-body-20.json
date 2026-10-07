@@ -1,0 +1,372 @@
+{
+ "section_id": "pausanias-body-20",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9944,
+  "output": 3334
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Athens from the Tripods, describing statues and paintings of Dionysus and the Praxiteles and Phryne anecdote. He then digresses on Sulla's capture of Athens in the war with Mithridates, and on Sulla's disease as punishment for killing Aristion.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Praxiteles, Phryne and the Satyr",
+    "summary": "Pausanias describes the Street of Tripods and tells how Phryne tricked Praxiteles into naming his finest work.",
+    "stakes": "Praxiteles fears losing his finest sculptures to fire.",
+    "present": [
+     "Praxiteles",
+     "Phryne"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "The Tripods",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7292
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 15,
+    "title": "Temples and paintings of Dionysus",
+    "summary": "Pausanias lists statues and paintings at the Dionysus precincts and theatre, including the tale of Hephaestus, and a copy of Xerxes' tent.",
+    "stakes": "",
+    "present": [
+     "Dionysus",
+     "Hephæstus",
+     "Hera",
+     "Pentheus",
+     "Lycurgus",
+     "Ariadne",
+     "Theseus",
+     "Cupid"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Theatre of Dionysus, Athens",
+     "modern_name": "Theatre of Dionysus, Athens",
+     "certainty": "real",
+     "lat": 37.9696,
+     "lon": 23.7283
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 30,
+    "title": "Sulla captures Athens",
+    "summary": "Pausanias recounts the Mithridatic war, Sulla's siege and savagery, and his disease as divine punishment; Athens later recovered under Adrian.",
+    "stakes": "Athens faces destruction and its people slaughter.",
+    "present": [
+     "Sulla",
+     "Mithridates",
+     "Aristion",
+     "Archelaus",
+     "Taxilus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Praxiteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the Satyr and Cupid"
+   },
+   {
+    "name": "Phryne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman who tricked Praxiteles"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god honoured in Athenian temples"
+   },
+   {
+    "name": "Hephæstus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who trapped Hera in a golden seat"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "exposed Hephæstus at birth"
+   },
+   {
+    "name": "Cupid",
+    "aliases": [],
+    "kind": "god",
+    "description": "statue and painting subject"
+   },
+   {
+    "name": "Pentheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "punished for insulting Dionysus"
+   },
+   {
+    "name": "Lycurgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "punished for insulting Dionysus"
+   },
+   {
+    "name": "Ariadne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "shown asleep in a painting"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "shown putting out to sea"
+   },
+   {
+    "name": "Sulla",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman general who took Athens"
+   },
+   {
+    "name": "Mithridates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king near the Euxine Sea fighting Rome"
+   },
+   {
+    "name": "Aristion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian envoy of Mithridates"
+   },
+   {
+    "name": "Archelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "general of Mithridates"
+   },
+   {
+    "name": "Taxilus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "general of Mithridates"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of Suppliants, angered by Aristion's death"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "her temple was Aristion's refuge"
+   },
+   {
+    "name": "Adrian",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor under whom Athens flourished"
+   }
+  ],
+  "relationships": [],
+  "alias_notes": [
+   {
+    "alias": "Cupid",
+    "canonical": "Eros",
+    "explanation": "Cupid is the Roman name of the Greek god Eros."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Phryne's artifice reveals Praxiteles' favourite work.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias mixes art description with anecdote and history, showing how monuments carry memory.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The account of Sulla's sack of Athens in 86 BC shows Roman conquest and Pausanias' belief in divine punishment.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Phryne was a famous courtesan said to have modelled for Praxiteles' Aphrodite of Cnidus.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A tripod is a three-legged bronze stand or cauldron, often won as a prize in choral contests and dedicated in a temple.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Like a lover\" means he offered the Satyr as a lover's gift, yet still refused to say which work he valued most.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Cupid\" is this translation's name for Eros, the god of love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"One by Eleuthereus\" is odd: Eleuthereus is a title of Dionysus, from Eleutherae, so the sculptor's name seems missing or confused.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"Nursing up his grievance\" means cherishing and brooding over his resentment at being cast out.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Sulla captured Athens in 86 BC during the Mithridatic War, and the city suffered heavy damage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "Pausanias declines to narrate the wider Mithridatic war, a typical digression-limiting move; \"diplomacy\" renders his word for persuasion or agreement rather than force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "\"Barbarians\" here means non-Greeks, in this case Mithridates' Pontic and Asian troops, not uncivilised people.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "\"Decimated\" originally meant killing one in every ten, chosen by lot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The \"Pythian priestess\" is the Pythia, Apollo's oracle at Delphi. Her answer about the bladder is cryptic and apparently foretells Sulla's disease.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Pherecydes of Syros, a philosopher, was said to have died of a loathsome disease, traditionally lice. Pausanias implies Sulla suffered similarly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Zeus the God of Suppliants (Zeus Hikesios) protected those seeking sanctuary. Dragging Aristion from Athene's temple was sacrilege.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Phryne was a celebrated Athenian courtesan, said to have been Praxiteles' lover and a model for his statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Hephæstus is the smith god. Dionysus, god of wine, was famed for bringing him back to Olympus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Pentheus and Lycurgus were mythical kings punished for resisting or insulting Dionysus and his worship.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Xerxes was the Persian king who invaded Greece in 480 BC. The building copied his tent, probably the Odeum.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Mithridates VI of Pontus was a powerful king who fought three wars against Rome in the early first century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Archelaus commanded Mithridates' forces in Greece. Sipylus is a mountain near Magnesia in Asia Minor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "The Ceramicus was the potters' quarter and cemetery district of Athens, in the northwest of the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Adrian is the emperor Hadrian (reigned AD 117-138), who greatly benefited Athens with buildings and gifts.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "irony",
+    "text": "Phryne's trick turns Praxiteles' panic into the answer he withheld, so his own alarm reveals his favourite.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "characterization",
+    "text": "Hephæstus is shown as vengeful and clever, and Dionysus as a friend who wins him over with wine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "narrative voice",
+    "text": "Pausanias adds a brief historical aside, typical of his guidebook manner, explaining why the building is a copy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "foreshadowing",
+    "text": "The oracle's obscure reference to the bladder hints at the punishment that Sulla will suffer next.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "irony",
+    "text": "Pausanias denies Sulla's mass cruelty caused the illness, blaming instead one sacrilege, a moral judgment framed as divine retribution.",
+    "spoiler": false
+   }
+  ]
+ }
+}

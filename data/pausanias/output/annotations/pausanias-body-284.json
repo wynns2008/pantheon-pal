@@ -1,0 +1,232 @@
+{
+ "section_id": "pausanias-body-284",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6803,
+  "output": 2153
+ },
+ "result": {
+  "summary": "Pausanias reviews the notable victories and defeats of Thebes in war, from early losses to Athens through the triumph at Leuctra and the Sacred War. He closes with the Macedonian garrison, Thebes' revolt against Alexander, and the omens of spider webs that foretold ruin.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Theban wars and fortunes reviewed",
+    "summary": "Pausanias lists Theban defeats and victories against Athenians and Lacedaemonians, including Plataea, Delium, Leuctra and the Sacred War.",
+    "stakes": "",
+    "present": [
+     "Thebans",
+     "Athenians",
+     "Lacedæmonians",
+     "Hippocrates",
+     "Xerxes",
+     "Pisistratus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes and Boeotia",
+     "modern_name": "Thebes, Boeotia",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 10,
+    "title": "Omens before Alexander's destruction",
+    "summary": "After Chaeronea Thebes got a Macedonian garrison; when they revolted under Alexander, black spider webs appeared in the temple of Demeter Thesmophorus. A rain of ashes at Athens is mentioned before Sulla's war.",
+    "stakes": "The Thebans risk total ruin by rebelling against Alexander and the Macedonians.",
+    "present": [
+     "Thebans",
+     "Alexander",
+     "Philip",
+     "Demeter Thesmophorus",
+     "Sulla"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Temple of Demeter Thesmophorus, Thebes",
+     "modern_name": "Thebes, Boeotia",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hippocrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian general, son of Ariphron, killed at Delium"
+   },
+   {
+    "name": "Ariphron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hippocrates"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king"
+   },
+   {
+    "name": "Pisistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "former ruler of Athens"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king who won at Chaeronea"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian king who succeeded Philip"
+   },
+   {
+    "name": "Sulla",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman general who made war on Athens"
+   },
+   {
+    "name": "Demeter Thesmophorus",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Thebes where omens appeared"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Ariphron",
+    "relation": "parent_of",
+    "b": "Hippocrates",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Alexander",
+    "source": "outside",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Medizing",
+    "canonical": "siding with the Medes",
+    "explanation": "Greek term for taking the Persians' side; Medes is used for Persians."
+   },
+   {
+    "alias": "Sacred War",
+    "canonical": "Phocian War",
+    "explanation": "The Phocian War is called the Sacred War by the Greeks."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Memorable omen: white spider webs before Leuctra, black ones before Alexander's destruction of Thebes.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links fortune in war to divine signs, showing how the gods warn of coming ruin.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "He defends Thebes' Medizing as the act of an oligarchy, reflecting Greek memory of the Persian Wars and civic blame.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Leuctra (371 BC) ended Spartan dominance in Greece, which is why Pausanias calls it the most famous battle between Greeks.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "\"Medizing\" means siding with the Medes, i.e. the Persians, against the Greeks; a standard charge of treason in Greek writers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Decemvirates were ruling boards of ten men; Harmosts were Spartan governors placed in subject cities to keep them loyal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The Phocian or Sacred War (356-346 BC) began when Phocis seized Delphi's sanctuary; Thebes led the opposing side.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Chaeronea (338 BC) was where Philip of Macedon defeated the Greek allies, ending Greek independence; Pausanias described it in his Attica book.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Sulla's war is his siege and sack of Athens in 86 BC during the Mithridatic War.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "The battle of Delium took place in 424 BC during the Peloponnesian War; the Boeotians defeated an Athenian invasion force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Leuctra (371 BC) was Epaminondas' victory over Sparta, which broke Spartan supremacy in Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Demeter Thesmophorus, \"law-bringer\", was worshipped at Thebes in a sanctuary on the old citadel, the Cadmea; Alexander destroyed Thebes in 335 BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "counterfactual argument",
+    "text": "Pausanias imagines Athens under the tyrants to excuse Thebes, showing his balanced, reflective judgment of Greek states.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "foreshadowing",
+    "text": "The black webs, contrasted with the white ones before Leuctra, are omens that signal Theban ruin and mirror the earlier victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "foreshadowing",
+    "text": "The rain of ashes is a portent, linking Athens' coming suffering to an omen just as the Theban one.",
+    "spoiler": false
+   }
+  ]
+ }
+}

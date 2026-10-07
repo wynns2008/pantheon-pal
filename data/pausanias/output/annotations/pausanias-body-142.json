@@ -1,0 +1,396 @@
+{
+ "section_id": "pausanias-body-142",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10732,
+  "output": 3387
+ },
+ "result": {
+  "summary": "Pausanias describes the Pamisus river and its fish, then the coastal towns of Messenia: Corone, with its temples and the tale of its name, Colonides, and Asine, whose people are descended from the Dryopes. He ends with the nearby promontory, island and harbour.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "The Pamisus and river beasts",
+    "summary": "Pausanias describes the Pamisus, its clear water and sea fish, and compares Greek rivers with the dangerous rivers of other lands.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Pamisus",
+     "modern_name": "Pamisos river, Messenia",
+     "certainty": "real",
+     "lat": 36.95,
+     "lon": 21.97
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 22,
+    "title": "Corone and its temples",
+    "summary": "Pausanias describes Corone, its sites, the origin of its name, its statues and the ancient temple of Apollo Corydus.",
+    "stakes": "",
+    "present": [
+     "Ino",
+     "Epimelides",
+     "Apollo",
+     "Athene",
+     "Aesculapius",
+     "Dionysus",
+     "Artemis",
+     "Zeus",
+     "Bias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Corone",
+     "modern_name": "Koroni",
+     "certainty": "real",
+     "lat": 36.8,
+     "lon": 21.96
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 26,
+    "title": "Colonides",
+    "summary": "The people of Colonides claim Attic origin under Colaenus and later took on Dorian ways.",
+    "stakes": "",
+    "present": [
+     "Colaenus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Colonides",
+     "modern_name": "near Petalidi",
+     "certainty": "real",
+     "lat": 36.95,
+     "lon": 21.93
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 39,
+    "title": "Asine and the Dryopes",
+    "summary": "Pausanias gives two accounts of how the Dryopes, defeated by Hercules, came to Asine, and describes the nearby coast.",
+    "stakes": "The Dryopes risk captivity and loss of their homeland after defeat by Hercules.",
+    "present": [
+     "Hercules",
+     "Phylas",
+     "Eurystheus",
+     "Apollo",
+     "Dryops"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Asine",
+     "modern_name": "near Koroni",
+     "certainty": "real",
+     "lat": 36.8,
+     "lon": 21.95
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ino",
+    "aliases": [
+     "Leucothea"
+    ],
+    "kind": "goddess",
+    "description": "goddess who landed from the sea and was worshipped as Leucothea"
+   },
+   {
+    "name": "Bias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amythaon, namesake of the river Bias"
+   },
+   {
+    "name": "Amythaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Bias"
+   },
+   {
+    "name": "Epimelides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man sent to rebuild Corone, buried there"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "worshipped at Corone as Rearer of children"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a stone statue at Corone"
+   },
+   {
+    "name": "Aesculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple at Corone"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "worshipped as Soter at Corone"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "bronze statue holding a crow"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Corydus"
+    ],
+    "kind": "god",
+    "description": "healing god, said to be father of Dryops"
+   },
+   {
+    "name": "Colaenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "led settlers from Attica following a lark"
+   },
+   {
+    "name": "Phylas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Dryopes when Hercules defeated them"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero who defeated the Dryopes"
+   },
+   {
+    "name": "Eurystheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "enemy of Hercules who gave Asine to the Dryopes"
+   },
+   {
+    "name": "Dryops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of the Dryopes, honored at Asine"
+   },
+   {
+    "name": "Argeotas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "maker of a bronze statue of Apollo"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Amythaon",
+    "relation": "parent_of",
+    "b": "Bias",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Dryops",
+    "source": "text",
+    "evidence_sentence": 37
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Leucothea",
+    "canonical": "Ino",
+    "explanation": "Ino was worshipped under the name Leucothea."
+   },
+   {
+    "alias": "Corydus",
+    "canonical": "Apollo",
+    "explanation": "Title under which Apollo is called at his temple near Corone."
+   },
+   {
+    "alias": "Zeus Soter",
+    "canonical": "Zeus",
+    "explanation": "Zeus the Saviour."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links places to etymologies, founding legends and cult, showing how local identity rests on tradition.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Dryopes' rival accounts and the Messenian restoration by the Thebans show how migration and politics shaped local memory.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–200 metres, so 80 stades is about 15 kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Mullets are sea fish that also enter rivers and feed along muddy bottoms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Glanides are a kind of fish, probably catfish (silurus). Pausanias compares them with the man-eating river beasts of foreign rivers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "'Sea dogs' are marine animals, probably sharks, that come up the river. Pausanias denies they are true river creatures.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Ino, daughter of Cadmus, leapt into the sea and became the sea goddess Leucothea ('White Goddess').",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The Thebans under Epaminondas restored the Messenians to their land after 370 BC. Epimelides is named here as the founder of the town.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Corone sounds like the Greek word for crow (korone), so the crow finding explains the name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "Corydus is a cult title of Apollo; its meaning is uncertain, perhaps 'lark' or 'helmeted'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "The Argonauts were the heroes who sailed with Jason in the Argo to fetch the Golden Fleece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Colænus was led by an oracle to settle where a crested lark (korydallos) led him; the story explains the town's name and its supposed Attic origin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"In the third generation afterwards\" means three generations after the Dryopes were named for their founder, a rough way of dating the event.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "Eurystheus was the king of Argos who set Hercules his labours, so his hostility to Hercules explains why he welcomed the Dryopes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "phrasing",
+    "text": "\"Plume themselves\" means take pride in, like a bird preening its feathers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet or about 180 metres, so 40 stades is about four and a half miles.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Pausanias lists famous rivers of distant lands as known for crocodiles and other dangerous animals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Æsculapius was the god of healing, and Dionysus the god of wine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Athene was the goddess of wisdom and war, and the crow was one of her sacred birds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Corone and Colonides lie on the Messenian coast in the south-western Peloponnese, on the Messenian Gulf.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "The Messenians were driven out by the Spartans (Lacedæmonians) and later restored to their land, which is the \"restoration\" meant here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "Delphi lay in Phocis, yet its people disliked being called Phocians, which shows that regional names could carry prestige or shame.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "contrast",
+    "text": "Pausanias sets the gentle Greek rivers against the dangerous foreign ones, flattering Greece's own waters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "etiology",
+    "text": "An origin tale explains the town's name through the crow, a story of the kind Pausanias often reports.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "narrative voice",
+    "text": "Pausanias openly admits ignorance, which shows his honest, careful stance as a traveller-historian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "contrast",
+    "text": "Pausanias sets the Asinæi against the Eubœans of Styra, who disown the same ancestry, to highlight differing attitudes to the same origin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "characterization",
+    "text": "The Asinæi are shown as proud of their ancestry, with their temples imitating those of their old home, which marks them out as a people clinging to their past.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,369 @@
+{
+ "section_id": "pausanias-body-215",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10471,
+  "output": 3318
+ },
+ "result": {
+  "summary": "Pausanias describes the coast from the river Pirus to Patræ, giving the legendary founding of Patræ and its later history under the Romans. He then describes the temple and statue of Laphrian Artemis and the festival Laphria with its sacrifice of live animals.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Olenus and the coast",
+    "summary": "The river Pirus and the old town of Olenus, home of Dexamenus, which was later abandoned.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Dexamenus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olenus",
+     "modern_name": "near Dyme, Achaea",
+     "certainty": "real",
+     "lat": 38.1,
+     "lon": 21.6
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 13,
+    "title": "Early founding of Patræ",
+    "summary": "Eumelus, Triptolemus and Antheas found Aroe, Anthea and Mesatis; Patreus later enlarges Aroe and names it Patræ.",
+    "stakes": "Antheas dies when he falls from Triptolemus' chariot.",
+    "present": [
+     "Eumelus",
+     "Triptolemus",
+     "Antheas",
+     "Patreus",
+     "Dionysus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Patræ",
+     "modern_name": "Patras",
+     "certainty": "real",
+     "lat": 38.2466,
+     "lon": 21.7346
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 19,
+    "title": "Decline and Augustus",
+    "summary": "Patræ loses people in the war against the Galati, then Augustus repopulates it and grants it freedom.",
+    "stakes": "The city is nearly emptied by defeat and poverty.",
+    "present": [
+     "Augustus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Patræ",
+     "modern_name": "Patras",
+     "certainty": "real",
+     "lat": 38.2466,
+     "lon": 21.7346
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 26,
+    "title": "Laphrian Artemis statue",
+    "summary": "The statue came from Calydon under Augustus; its title and makers are discussed.",
+    "stakes": "",
+    "present": [
+     "Artemis",
+     "Augustus",
+     "Laphrius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Citadel of Patræ",
+     "modern_name": "Patras",
+     "certainty": "real",
+     "lat": 38.2466,
+     "lon": 21.7346
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 36,
+    "title": "The Laphria festival",
+    "summary": "A procession and a great fire sacrifice of live animals on a pile of wood.",
+    "stakes": "The animals are burned alive, though none are said to have hurt anyone.",
+    "present": [
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Patræ",
+     "modern_name": "Patras",
+     "certainty": "real",
+     "lat": 38.2466,
+     "lon": 21.7346
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero entertained by Dexamenus"
+   },
+   {
+    "name": "Dexamenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Olenus"
+   },
+   {
+    "name": "Eumelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Autochthon, first settler of Patræ"
+   },
+   {
+    "name": "Triptolemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Attic giver of corn"
+   },
+   {
+    "name": "Antheas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Eumelus, died falling from the chariot"
+   },
+   {
+    "name": "Patreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Preugenes, namesake of Patræ"
+   },
+   {
+    "name": "Preugenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Patreus"
+   },
+   {
+    "name": "Agenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Preugenes"
+   },
+   {
+    "name": "Augustus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman emperor who resettled Patræ"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Laphrian Artemis"
+    ],
+    "kind": "goddess",
+    "description": "goddess worshipped at Patræ as a huntress"
+   },
+   {
+    "name": "Laphrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phocian said to have made the old statue"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "said to have been reared at Mesatis"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Eumelus",
+    "relation": "parent_of",
+    "b": "Antheas",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Preugenes",
+    "relation": "parent_of",
+    "b": "Patreus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Agenor",
+    "relation": "parent_of",
+    "b": "Preugenes",
+    "source": "text",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Laphrian Artemis",
+    "canonical": "Artemis",
+    "explanation": "A title of Artemis, said to come from Laphrius or from appeasing her wrath against Œneus."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local founding legends and genealogies tie Patræ to heroic ancestry, while real history shows decline and Roman refounding.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Augustus' resettlement of Patræ and removal of Calydon's statues to Nicopolis show Roman reshaping of Greek cities and cults.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says he personally saw animals trying to escape the Laphria fire.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Dexamenus hosted Hercules and, in some versions, was saved by him from a forced marriage to the Centaur Eurytion; hence the prominence of his hospitality in Hercules stories.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Autochthon means 'sprung from the soil itself': a native, not an immigrant, claimed to be the land's original inhabitant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Aroe is linked to the Greek word for ploughing or tilling, which is the etymology Pausanias gives for the name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Triptolemus travelled in a chariot drawn by winged dragons, given by Demeter, to spread the gift of corn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The Titans were said to have attacked the infant Dionysus and torn him apart in a myth known from mystery cults.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "The Galati are the Gauls (Celts) who invaded Greece in 279 BC; the Ætolians led resistance against them, which explains Patræ's alliance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "\"Rasing\" is an archaic spelling of razing: demolishing the town completely and merging its people into Patræ.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "\"Freedom\" means exemption from tribute and local self-government under Rome, a status granted to favoured cities, here with the privileges of a Roman colony.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Œneus, king of Calydon, neglected Artemis in his harvest offerings, so she sent the Calydonian boar; the title was said to soothe her anger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Canachus of Sicyon and Callon of Ægina were sculptors of the late sixth and early fifth centuries BC, used here to date the artists.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "A cubit is about eighteen inches, so the pile stood roughly twenty-four feet high.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "A stade was a Greek unit of distance, roughly 180–200 metres, so 40 stades is about 7–8 kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Triptolemus was the Eleusinian hero who taught agriculture on Demeter's behalf, coming here from Attica.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "The Achæans took over the northern Peloponnese after expelling the Ionians, who had lived there earlier.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Augustus, first Roman emperor, refounded Patræ as a Roman colony around 14 BC, making it a major port for travel between Italy and Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Nicopolis, \"Victory City,\" was founded by Augustus near Actium to commemorate his naval victory over Antony and Cleopatra in 31 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Artemis was the goddess of hunting and wild animals, so a stag-drawn chariot and animal offerings suit her cult.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "irony",
+    "text": "Antheas dies trying to sow corn, the very gift meant to nourish humanity, making his ambition end tragically.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "narrative voice",
+    "text": "Pausanias distances himself from local myths, neither endorsing nor denying them, showing his cautious, sceptical-yet-respectful manner as a traveller recording traditions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "catalogue",
+    "text": "The long genealogy running back to Lacedæmon gives Patreus a Spartan-royal lineage and reflects the epic habit of listing ancestry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as an eyewitness, using \"I have seen\" to lend authority and vividness to his account of the ritual.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "device": "irony",
+    "text": "The closing claim that no one was ever hurt is quietly striking after the animals' struggles, suggesting the goddess protects her worshippers.",
+    "spoiler": false
+   }
+  ]
+ }
+}

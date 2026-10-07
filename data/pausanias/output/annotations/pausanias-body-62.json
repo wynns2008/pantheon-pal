@@ -1,0 +1,620 @@
+{
+ "section_id": "pausanias-body-62",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10435,
+  "output": 5210
+ },
+ "result": {
+  "summary": "Pausanias walks the road from Mycenae toward Argos, noting the hero-chapel of Perseus, the tomb of Thyestes, and a roofless temple of Demeter. He then turns to the Argive royal houses, the three kingdoms, and how the Heraclidae displaced Tisamenus and the Nestor family.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Perseus' shrine and Thyestes' tomb",
+    "summary": "Pausanias describes the shrine of Perseus and the tomb of Thyestes, and recounts the feud of Atreus and Thyestes. He reflects on inherited family guilt.",
+    "stakes": "",
+    "present": [
+     "Perseus",
+     "Dictys",
+     "Clymene",
+     "Thyestes",
+     "Atreus",
+     "Ægisthus",
+     "Agamemnon",
+     "Tantalus",
+     "Clytæmnestra",
+     "Tyndareus",
+     "Pelops",
+     "Myrtilus",
+     "Glaucus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Road from Mycenæ to Argos",
+     "modern_name": "Argolid, near Mycenae",
+     "certainty": "real",
+     "lat": 37.7,
+     "lon": 22.72
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 11,
+    "title": "Mysian Demeter and the Inachus",
+    "summary": "Further along are the temple of Mysian Demeter, the river Inachus, an altar of the Sun and the gate of Ilithyia.",
+    "stakes": "",
+    "present": [
+     "Mysius",
+     "Demeter",
+     "Proserpine",
+     "Pluto"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mysia, near Argos",
+     "modern_name": "Near Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.72
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 21,
+    "title": "Argive kingdoms and Orestes",
+    "summary": "Pausanias explains the division of Argos into three kingdoms after the women's madness, and the descent of the kings to Orestes and Tisamenus.",
+    "stakes": "Control of the Argive kingdom passes among rival royal lines.",
+    "present": [
+     "Anaxagoras",
+     "Melampus",
+     "Bias",
+     "Iphis",
+     "Sthenelus",
+     "Cylarabes",
+     "Orestes",
+     "Tisamenus",
+     "Penthilus",
+     "Hermione",
+     "Erigone",
+     "Nicostratus",
+     "Megapenthes",
+     "Menelaus",
+     "Amphilochus",
+     "Cyanippus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 28,
+    "title": "Return of the Heraclidæ",
+    "summary": "The Heraclidae return and claim Argos and Lacedaemon, driving out Tisamenus and the Nestor descendants, who go to Achaia and Athens. Melanthus becomes king at Athens.",
+    "stakes": "Tisamenus and the Neleids lose their kingdoms to the returning Heraclidae.",
+    "present": [
+     "Temenus",
+     "Cresphontes",
+     "Aristomachus",
+     "Aristodemus",
+     "Tisamenus",
+     "Hercules",
+     "Hippocoon",
+     "Tyndareus",
+     "Nestor",
+     "Melanthus",
+     "Thymœtes",
+     "Pisistratus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Peloponnese",
+     "modern_name": "Peloponnese",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 22.2
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero honoured with a chapel near Mycenae"
+   },
+   {
+    "name": "Dictys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "called a Saviour of Perseus"
+   },
+   {
+    "name": "Clymene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "called a Saviour of Perseus"
+   },
+   {
+    "name": "Thyestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "buried near the road; stole the golden sheep"
+   },
+   {
+    "name": "Atreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother who killed Thyestes' children"
+   },
+   {
+    "name": "Ægisthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Thyestes"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have murdered Tantalus"
+   },
+   {
+    "name": "Tantalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Thyestes, Clytæmnestra's first husband"
+   },
+   {
+    "name": "Clytæmnestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Tyndareus"
+   },
+   {
+    "name": "Tyndareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Sparta"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor whose crime haunted the family"
+   },
+   {
+    "name": "Myrtilus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ghost haunting Pelops' line"
+   },
+   {
+    "name": "Glaucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan son of Epicydes who planned perjury"
+   },
+   {
+    "name": "Mysius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "host of Demeter"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Mysian Demeter"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a roofless temple"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "image in Demeter's shrine"
+   },
+   {
+    "name": "Pluto",
+    "aliases": [],
+    "kind": "god",
+    "description": "image in Demeter's shrine"
+   },
+   {
+    "name": "Anaxagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Argos in the time of the madness"
+   },
+   {
+    "name": "Melampus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "healer who cured the women"
+   },
+   {
+    "name": "Bias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brother of Melampus, sharing the kingdom"
+   },
+   {
+    "name": "Iphis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive king, son of Alector"
+   },
+   {
+    "name": "Sthenelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Capaneus, king"
+   },
+   {
+    "name": "Capaneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Sthenelus"
+   },
+   {
+    "name": "Cylarabes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Sthenelus, last of his line"
+   },
+   {
+    "name": "Cyanippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive king who died childless"
+   },
+   {
+    "name": "Amphilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amphiaraus, migrated after Ilium"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Agamemnon, king of Argos and Sparta"
+   },
+   {
+    "name": "Menelaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Nicostratus, Megapenthes and Hermione"
+   },
+   {
+    "name": "Nicostratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Menelaus by a bondmaid"
+   },
+   {
+    "name": "Megapenthes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Menelaus by a bondmaid"
+   },
+   {
+    "name": "Tisamenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Orestes, king driven out"
+   },
+   {
+    "name": "Hermione",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Menelaus"
+   },
+   {
+    "name": "Penthilus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "bastard son of Orestes"
+   },
+   {
+    "name": "Erigone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Ægisthus"
+   },
+   {
+    "name": "Temenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid, son of Aristomachus"
+   },
+   {
+    "name": "Cresphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid, son of Aristomachus"
+   },
+   {
+    "name": "Aristomachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Temenus and Cresphontes"
+   },
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Heraclid who died early"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who killed Hippocoon"
+   },
+   {
+    "name": "Hippocoon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "expelled Tyndareus"
+   },
+   {
+    "name": "Nestor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "given Messenia by Hercules"
+   },
+   {
+    "name": "Melanthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "became king at Athens"
+   },
+   {
+    "name": "Thymœtes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "last Theseid king of Athens"
+   },
+   {
+    "name": "Pisistratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Neleid who went elsewhere"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Thyestes",
+    "relation": "parent_of",
+    "b": "Tantalus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Orestes",
+    "relation": "parent_of",
+    "b": "Tisamenus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Hermione",
+    "relation": "parent_of",
+    "b": "Tisamenus",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Menelaus",
+    "relation": "parent_of",
+    "b": "Hermione",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Orestes",
+    "relation": "parent_of",
+    "b": "Penthilus",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Ægisthus",
+    "relation": "parent_of",
+    "b": "Erigone",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Orestes",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Aristomachus",
+    "relation": "parent_of",
+    "b": "Temenus",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Atreus",
+    "relation": "sibling_of",
+    "b": "Thyestes",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Melampus",
+    "relation": "sibling_of",
+    "b": "Bias",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links landmarks to inherited guilt and royal succession, showing how Argive history is read off the landscape.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Heraclidae's claim to Argos reflects the Greek tradition of the Dorian 'Return', used to legitimise Dorian rule in the Peloponnese.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A hero-chapel is a small shrine where a hero, a mortal honoured after death, received cult offerings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Dictys and Clymene: the fisherman and his wife who, in the myth, rescued Danae and the infant Perseus from the sea chest at Seriphus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The golden sheep: a golden lamb from Atreus' flock. Thyestes took it with the help of Atreus' wife Aerope, whose seduction gave him the means.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "The 'law of Tit for Tat' means strict retaliation in kind; Atreus is said to have gone far beyond it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Glaucus asked the Delphic oracle whether he could keep money entrusted to him by swearing falsely. The Pythia warned that his descendants would be punished.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "'Host' here means one who entertained the goddess as a guest, a common origin story for cult titles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The madness of the Argive women is the myth of the Proetides: women driven mad, whom the seer Melampus cured in return for a share of the kingdom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Ilium\" is Troy; Amphilochus left Argos after the Trojan War to settle in the region later called Amphilochia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Heraclidæ\" means descendants of Hercules; \"viz.\" means \"namely\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Hercules was said to have helped Tyndareus by defeating Hippocoon, who had driven him from Sparta; the Heraclidæ cite this as a precedent for their claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "\"Pæonidæ\" and \"Alcmæonidæ\" are Athenian families named for Pæon and Alcmæon, descendants of Nestor's line.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Perseus was honoured at Seriphus, the island where he grew up and later turned King Polydectes to stone with Medusa's head.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Pelops killed the charioteer Myrtilus, who cursed his house. This curse was blamed for the crimes of Atreus and Thyestes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "The Inachus was the chief river of the Argolid, named for a river-god regarded as an early king of Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Argos lay in the northeastern Peloponnese. Pausanias uses the three-kingdom division as a mark of its unusual political history.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Cinæthon was an early Greek epic poet of Lacedaemon, cited by Pausanias for genealogies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Pelops's line (Atreus, Agamemnon, Orestes) ruled Argos; the Heraclidæ descended from Perseus, an earlier Argive king, hence their claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Melanthus came from Nestor's Pylian family and became king of Athens, replacing Thymœtes, last of Theseus's line.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a cautious, humane investigator, refusing to condemn the family and showing his reflective, personal stance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "allusion",
+    "text": "He compares the family's suffering to the oracle given to Glaucus, using it to suggest guilt passing down through generations.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "narrative voice",
+    "text": "Pausanias gives the myth briefly and matter-of-factly as history, treating legendary cures and kingships as established fact.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "narrative voice",
+    "text": "The phrase \"it seems to me\" shows Pausanias the traveller-historian giving his own judgment on the claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "characterization",
+    "text": "The long chain of fathers and sons shows Pausanias's genealogical method, defining each person by his descent.",
+    "spoiler": false
+   }
+  ]
+ }
+}

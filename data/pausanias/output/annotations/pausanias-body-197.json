@@ -1,0 +1,361 @@
+{
+ "section_id": "pausanias-body-197",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9190,
+  "output": 3152
+ },
+ "result": {
+  "summary": "Pausanias finishes describing Elis: the temples of Dionysus and Athene, the wine miracle at the Thyia festival, and the harbour of Cyllene. He then digresses on flax and on the silk of the Seres, and ends with the Larisus river, the border with Achaia.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Sanctuaries and wine miracle at Elis",
+    "summary": "Pausanias describes the theatre and temple of Dionysus, the Thyia festival where flagons fill with wine, and the Athene statue on the citadel.",
+    "stakes": "",
+    "present": [
+     "Dionysus",
+     "Athene"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Ancient Elis, near Ilida",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 13,
+    "title": "Cyllene, harbour of Elis",
+    "summary": "Pausanias describes the harbour of Cyllene, quotes Homer on it, and lists its gods.",
+    "stakes": "",
+    "present": [
+     "Homer",
+     "Polydamas",
+     "Otus",
+     "Phyleides",
+     "Æsculapius",
+     "Aphrodite",
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cyllene",
+     "modern_name": "Killini",
+     "certainty": "real",
+     "lat": 37.94,
+     "lon": 21.14
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 29,
+    "title": "Flax and the silk of the Seres",
+    "summary": "Pausanias notes Elis's flax, then describes how the Seres obtain silk from an insect and debates their island and race.",
+    "stakes": "",
+    "present": [
+     "Seres"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Seria",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 30,
+    "end_sentence": 30,
+    "title": "Boundary of Elis and Achaia",
+    "summary": "He gives the distance to the Larisus river, the border of Achaia.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "river Larisus",
+     "modern_name": "Larissos river",
+     "certainty": "real",
+     "lat": 38.1,
+     "lon": 21.45
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god honoured most at Elis, whose festival brings wine"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Athene the Worker"
+    ],
+    "kind": "goddess",
+    "description": "goddess with an ivory and gold statue on the Elis citadel"
+   },
+   {
+    "name": "Mene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "moon goddess with a temple at Elis"
+   },
+   {
+    "name": "Praxiteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the Dionysus statue"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor said to have made the Athene statue"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet cited on Cyllene"
+   },
+   {
+    "name": "Polydamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan who killed Otus"
+   },
+   {
+    "name": "Otus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man of Cyllene killed by Polydamas"
+   },
+   {
+    "name": "Phyleides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader of the Epeans"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with a temple at Cyllene"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Cyllene"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with an Ithyphallic statue at Cyllene"
+   },
+   {
+    "name": "Seres",
+    "aliases": [],
+    "kind": "other",
+    "description": "people who make silk from an insect"
+   },
+   {
+    "name": "Ser",
+    "aliases": [],
+    "kind": "creature",
+    "description": "insect that produces silk thread"
+   }
+  ],
+  "relationships": [],
+  "alias_notes": [
+   {
+    "alias": "Athene the Worker",
+    "canonical": "Athene",
+    "explanation": "A cult title of Athene as patron of crafts."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 6,
+    "reason": "Pausanias sceptically compares Greek wine miracles to the Ethiopian Table of the Sun.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "reason": "Concludes his account of silk's origin, a notable early Greek description.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias mixes religious wonders with reported hearsay, noting his own distance from the evidence.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "His silk account shows how little Greeks knew of China; he wrongly takes silk to come from spider-like insects fed on reed.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias calls silk-makers Seres, from which Latin and Greek terms for silk and China derive.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "The sentence is loosely joined: the old theatre is the one containing the theatre and temple of Dionysus, whose statue is by Praxiteles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Flagons are large narrow-necked wine vessels; here they serve as the sealed test containers for the miracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The Table of the Sun was a legendary Ethiopian meadow where meat appeared miraculously; Herodotus tells of it. Pausanias implies both tales are equally incredible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Athene the Worker (Ergane) is Athene as patroness of crafts and handiwork, which explains her link with the industrious cock.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "The Catalogue is the Iliad's list of Greek contingents (Book 2). Pausanias notes Cyllene is missing there yet appears later in the poem.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Ithyphallic means depicted with an erect phallus, a common fertility symbol on statues of Hermes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "word",
+    "text": "Ser is the Greek name for the silk-producing creature; the Seres are the people, probably Chinese, from whom silk came. Pausanias's account is mistaken.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Domiciles\" means little dwellings or houses; here, small enclosures built for the insects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Repletion\" means overfullness from eating too much.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "The Delta is the triangular land at the Nile's mouth, so called from the Greek letter delta; the comparison explains a river-made island.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 600 feet (about 185 metres), so 127 stades is about 15 miles.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Praxiteles was a famous fourth-century BC Athenian sculptor, so this statue would be a celebrated work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "text": "A stade was about 600 feet (roughly 185 metres), so 8 stades is about a mile and a half.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Phidias, the great fifth-century BC sculptor, made the gold-and-ivory Athene Parthenos and Zeus at Olympia; ascription here is only reported.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Æsculapius is the god of healing, with temples that served as sanctuaries for the sick.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "The \"Red Sea\" in ancient usage could mean a wide area of eastern seas, including the Indian Ocean, not only the modern Red Sea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Scythians were nomadic peoples of the northern steppe; Greeks often used the name loosely for northern barbarians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Araxus is a cape on the northwest coast of the Peloponnese, in the region of Elis.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "narrative voice",
+    "text": "Pausanias distances himself as a careful reporter, citing oaths of others and admitting he was absent, which lends credibility.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "irony",
+    "text": "Pausanias's polite conditional sneers at the miracle, comparing Greek claims to a fabled tale he plainly disbelieves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "allusion",
+    "text": "Quoting Homer gives authority to Cyllene's existence, a habit of Pausanias to support local claims with epic evidence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "simile",
+    "text": "The silk-producing creature is compared to a spider in form and legs, helping Greek readers picture an unfamiliar animal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "analogy",
+    "text": "Egypt's Delta serves as a familiar parallel to make the idea of a river-formed island understandable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "narrative voice",
+    "text": "Pausanias closes with a detached, scholarly summary, reporting rival accounts without deciding between them.",
+    "spoiler": false
+   }
+  ]
+ }
+}

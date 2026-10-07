@@ -1,0 +1,306 @@
+{
+ "section_id": "pausanias-body-337",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7625,
+  "output": 2556
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Delphi, listing offerings and the stories behind them. He tells how the Achaeans took Phana by fouling its water, how the Ambraciotes beat the Molossi, and how Orneae replaced a costly vow with bronze figures.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 0,
+    "title": "Callias' horse",
+    "summary": "Pausanias notes a horse dedicated by the Athenian Callias from profits of the Persian war.",
+    "stakes": "",
+    "present": [
+     "Callias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 1,
+    "end_sentence": 7,
+    "title": "The siege of Phana",
+    "summary": "The Achaeans, unable to take Phana, receive an oracle, capture a woman at the well, learn of the town's scarce water, and foul it to win.",
+    "stakes": "The besieged town's survival depended on its small water supply; the Achaeans risked failure.",
+    "present": [
+     "Achaeans",
+     "Athene"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Phana in Ætolia",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 8,
+    "title": "Apollo of Lindus",
+    "summary": "The Rhodians of Lindus set up a statue of Apollo beside the Athene.",
+    "stakes": "",
+    "present": [
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 10,
+    "title": "The Ambraciote ass",
+    "summary": "A braying ass and its driver scare Molossian ambushers, letting the Ambraciotes detect and defeat them.",
+    "stakes": "The Ambraciotes faced a surprise night attack.",
+    "present": [
+     "Ambraciotes",
+     "Molossi"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ambracia",
+     "modern_name": "Arta, Greece",
+     "certainty": "real",
+     "lat": 39.16,
+     "lon": 20.99
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 12,
+    "title": "Orneae's vow",
+    "summary": "The people of Orneae, pressed by Sicyon, vow daily processions to Apollo, then fulfil it with bronze figures.",
+    "stakes": "Defeat by the Sicyonians, then the burden of an expensive vow.",
+    "present": [
+     "Orneae people",
+     "Sicyonians",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Orneae in Argolis",
+     "modern_name": "near Lyrkeia, Argolis",
+     "certainty": "real",
+     "lat": 37.68,
+     "lon": 22.6
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 20,
+    "title": "More offerings at Delphi",
+    "summary": "Pausanias lists Tisagoras' iron Hercules and Hydra, the Elatean lion, the Massaliote Apollo, the Ætolian trophy and Gorgias' statue.",
+    "stakes": "",
+    "present": [
+     "Tisagoras",
+     "Hercules",
+     "Hydra",
+     "Dionysus",
+     "Apollo",
+     "Gorgias",
+     "Cassander",
+     "Olympiodorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Callias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian, son of Lysimachides, who dedicated a horse"
+   },
+   {
+    "name": "Lysimachides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Callias"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess whose statue the Achaeans dedicated"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of Delphi, recipient of offerings"
+   },
+   {
+    "name": "Tisagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Maker of iron statues"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "Hero shown fighting the Hydra"
+   },
+   {
+    "name": "Hydra",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Monster fought by Hercules"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God to whom Tisagoras dedicated iron heads"
+   },
+   {
+    "name": "Cassander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Besieged Elatea"
+   },
+   {
+    "name": "Olympiodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Relieved Elatea from Athens"
+   },
+   {
+    "name": "Gorgias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man of Leontini with a gilt statue"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lysimachides",
+    "relation": "parent_of",
+    "b": "Callias",
+    "source": "text",
+    "evidence_sentence": 0
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 3,
+    "reason": "The riddling Delphic oracle that hints at how to take Phana.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Offerings at Delphi commemorate victories and clever stratagems, showing how cities used the sanctuary to record their glory.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Orneae story shows how bronze dedications could substitute for costly ritual obligations.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Gorgias of Leontini, the famous orator, set up a gilt statue of himself at Delphi.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "The Persian war refers to the Greek resistance to Xerxes' invasion (480–479 BC); Callias is said to have profited from it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "The oracle speaks in riddle: the besiegers should note how little water keeps the inhabitants alive, and how much is already used up. The hint is to cut off their water.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Pytho is the older name for Delphi, the seat of Apollo's oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "The sentence is clumsily built: the ass's lust and braying and the driver's shouting caused the Molossi, hidden in ambush, to panic and flee.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "Galati means Gauls, the Celtic invaders who raided Greece in the third century BC.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 9,
+    "text": "The Molossi were a people of Epirus, neighbours of the Ambraciotes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Such bronze substitutes let the city honour a vow permanently without the daily cost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Massalia (modern Marseille) was a Greek colony in Gaul.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "riddle",
+    "text": "The oracle's cryptic wording hides its meaning from the Achaeans, delaying understanding until the captured woman reveals the water shortage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "irony",
+    "text": "A comic accident, a lustful ass and a shouting driver, saves a city and defeats an army, which is why it is commemorated in bronze.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "irony",
+    "text": "The vow's burden becomes so heavy that the people satisfy it by a clever loophole, bronze figures standing in for endless processions.",
+    "spoiler": false
+   }
+  ]
+ }
+}

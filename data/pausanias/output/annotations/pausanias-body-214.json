@@ -1,0 +1,447 @@
+{
+ "section_id": "pausanias-body-214",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10943,
+  "output": 3914
+ },
+ "result": {
+  "summary": "Pausanias closes a survey of Greece's decline under Macedon, Rome, Nero and Vespasian. He then describes Dyme in Achaia, with its tomb of Sostratus, its shrine of the Dindymene Mother and Attes, and the story of the runner Oebotas.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Greece's decline under foreign powers",
+    "summary": "Pausanias recounts the weakening of Greek cities, Nero's gift of freedom and Vespasian's withdrawal of it.",
+    "stakes": "Greek liberty and prosperity are lost through war, folly and foreign rule.",
+    "present": [
+     "Nero",
+     "Vespasian",
+     "Plato",
+     "Alexander",
+     "Epaminondas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Greece",
+     "modern_name": "Greece",
+     "certainty": "real",
+     "lat": 38.0,
+     "lon": 23.0
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 22,
+    "title": "Dyme, its name and Sostratus",
+    "summary": "Pausanias gives Dyme's boundaries, history and name, then describes the tomb of Sostratus, beloved of Hercules.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Sostratus",
+     "Oebotas",
+     "Philip",
+     "Sulpicius",
+     "Augustus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Dyme",
+     "modern_name": "Kato Achaia, near Dymi",
+     "certainty": "real",
+     "lat": 38.15,
+     "lon": 21.6
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 35,
+    "title": "The legend of Attes",
+    "summary": "Pausanias reports two traditions about Attes and the Mother's temple at Dyme: the Lydian boar story and the Agdistis story.",
+    "stakes": "Attes is killed by a boar in one version and mutilated in the other.",
+    "present": [
+     "Attes",
+     "Agdistis",
+     "Zeus",
+     "Hermesianax",
+     "Calaus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pessinus",
+     "modern_name": "Ballıhisar, Turkey",
+     "certainty": "real",
+     "lat": 39.33,
+     "lon": 31.58
+    }
+   },
+   {
+    "start_sentence": 36,
+    "end_sentence": 41,
+    "title": "The curse and honour of Oebotas",
+    "summary": "Oebotas, unrewarded for his Olympic victory, cursed the Achaeans. After Delphi's advice they honoured him and the curse ended.",
+    "stakes": "Achaean victory at Olympia is blocked by a curse.",
+    "present": [
+     "Oebotas",
+     "Sostratus of Pellene"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Dyme",
+     "modern_name": "Kato Achaia, near Dymi",
+     "certainty": "real",
+     "lat": 38.15,
+     "lon": 21.6
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Nero",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman emperor who freed Greece"
+   },
+   {
+    "name": "Vespasian",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor who made Greece pay taxes again"
+   },
+   {
+    "name": "Plato",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Philosopher, son of Aristo"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian conqueror who attacked Thebes"
+   },
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban who humbled the Lacedaemonians"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Demetrius, took Dyme"
+   },
+   {
+    "name": "Sulpicius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman Praetor who let his army plunder Dyme"
+   },
+   {
+    "name": "Augustus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor who assigned Dyme to Patrae"
+   },
+   {
+    "name": "Oebotas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Runner of Dyme, first Achaean Olympic victor"
+   },
+   {
+    "name": "Sostratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Youth of Dyme loved by Hercules"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "Hero who mourned Sostratus"
+   },
+   {
+    "name": "Attes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phrygian devotee of the Mother"
+   },
+   {
+    "name": "Agdistis",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Hermaphrodite born from Zeus's seed"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God who sent the boar"
+   },
+   {
+    "name": "Hermesianax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elegiac poet cited by Pausanias"
+   },
+   {
+    "name": "Calaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phrygian, father of Attes in one version"
+   },
+   {
+    "name": "Sangarius",
+    "aliases": [],
+    "kind": "god",
+    "description": "River-god whose daughter bore Attes"
+   },
+   {
+    "name": "Sostratus of Pellene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Won the boys' race at Olympia"
+   },
+   {
+    "name": "Dymas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Aegimius, possible namesake of Dyme"
+   },
+   {
+    "name": "Aegimius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Dymas"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Calaus",
+    "relation": "parent_of",
+    "b": "Attes",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Aegimius",
+    "relation": "parent_of",
+    "b": "Dymas",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Sangarius",
+    "relation": "parent_of",
+    "b": "Attes",
+    "source": "text",
+    "evidence_sentence": 30
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Dindymene Mother",
+    "canonical": "Mother of the gods",
+    "explanation": "Title of the Phrygian mother goddess, named from Mount Dindymus."
+   },
+   {
+    "alias": "Palea",
+    "canonical": "Dyme",
+    "explanation": "Older name of Dyme, used in poetry."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Vespasian's verdict that Greece had forgotten how to use liberty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "reason": "Pausanias applies Plato's view that great crimes come from noble souls badly raised.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "historical",
+    "text": "Pausanias sums up Greek political decline from the Dorians to Roman rule, showing a Greek view of Roman power.",
+    "spoiler": false
+   },
+   {
+    "kind": "theme",
+    "text": "Local cults and legends, such as Attes and Oebotas, show how religion and memory shaped Greek places.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Pausanias' account of Attes and Agdistis is a key ancient source for the myth of Attis and Cybele."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Nero's declaration of Greek freedom was made at the Isthmian Games in AD 67.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "The 'overthrow of the Dorians' refers to the Dorian conquest of the Peloponnese, after which Argos lost its heroic-age greatness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Epaminondas of Thebes broke Spartan power at Leuctra (371 BC); the Achæan war refers to the Achæan League's later conflict with Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "'Intestine discord' means internal strife or civil conflict; 'prætor' here means the Roman governor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "'The course' means the footrace; an Elegiac couplet is a two-line verse form often used for inscriptions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "Pausanias means poets use archaic names; 'sons of Phoroneus' and 'son of Erechtheus' use old genealogical titles rather than the men's actual ancestry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Offering 'first fruits of his hair' was a Greek mourning and dedication custom: a lock of hair cut and given to the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "Dindymene is an epithet of the Mother of the gods, taken from Mount Dindymus in Phrygia, where she was worshipped.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Hermesianax was a Greek elegiac poet of the early third century BC; Pausanias cites his lines as a source.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "Galati means Galatians, the Gauls who settled in central Asia Minor and held Pessinus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "Privities is an archaic word for the genitals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "word",
+    "text": "Imprecation means a curse, here a solemn prayer calling harm on the Achaeans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "phrasing",
+    "text": "Race for boys in the course means the boys' footrace, the stade, run at Olympia.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Nero proclaimed Greek freedom in AD 67 during his tour of Greece. Sardinia was then made an imperial province in exchange.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Philip V of Macedon, son of Demetrius, attacked Achaia during the Social War in the late 3rd century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Sulpicius Galba commanded Roman forces in Greece in the Second Macedonian War, around 200 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Augustus reorganized Achaia after Actium and founded Roman Patræ, giving it control over nearby towns like Dyme.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Hercules, the Roman form of Heracles, is known in myth for his labours, and for his bond with younger companions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Pausanias often declines to explain cult matters he regards as mysteries, secret rites not to be disclosed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Sangarius was a river in Phrygia, a regular figure in Phrygian myth as a river-god.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Oebotas was an early Achaean runner; Pausanias dates his victory to the sixth Olympiad, a detail he gives elsewhere.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "simile",
+    "text": "Achaia is compared to a tree injured early, which grows tall but is later stunted, conveying the harm done by its leaders' folly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "irony",
+    "text": "Pausanias reflects that Nero's remarkable act of generosity came from a corrupted noble nature, a paradoxical praise and condemnation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "Vespasian's remark that Greece had forgotten how to use liberty turns Nero's gift of freedom into a bitter judgment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "motif",
+    "text": "The miraculous conception and exposure of a child raised by animals echoes the common myth pattern of a hero's marvellous birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "irony",
+    "text": "A wedding song turns into scenes of mutilation, and joy reverses into horror.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "narrative voice",
+    "text": "Pausanias attributes the curse's force vaguely to one of the gods, showing his habit of religious caution.",
+    "spoiler": false
+   }
+  ]
+ }
+}

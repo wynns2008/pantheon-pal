@@ -12,6 +12,10 @@ _END_RE = re.compile(r"""([.!?]["'”’)\]}]*(?:\[\d+\])*)\s+(?=["'“‘({\[]?
 _ABBREVIATIONS = {"mr", "mrs", "dr", "st", "viz", "etc", "ver", "vol", "cf", "vs", "no", "ch", "b.c", "a.d", "i.e", "e.g"}
 _MARKER_RE = re.compile(r"\[(\d+|[A-Z])\]")
 _TAG_RE = re.compile(r"^\[[IVXLC]+\.\s*[\d\-–, ]+\]$")
+# A verse line number printed in the right margin of a prose translation ("as he                5"). It is not shown,
+# but it still counts as a word while the paragraph is split, so sentences keep the numbers their notes were made with.
+_MARGIN_RE = re.compile(r"\s{4,}\d{1,4}\s*$")
+_GAP = "\x00"
 
 
 @dataclass
@@ -46,11 +50,12 @@ def _split_paragraph(paragraph: str) -> list[str]:
 def split_sentences(text: str) -> list[Sentence]:
     """Paragraphs are separated by blank lines; wrapped lines inside a paragraph are joined."""
     out: list[Sentence] = []
-    paragraphs = [" ".join(l.strip() for l in block.split("\n") if l.strip())
+    paragraphs = [" ".join(_MARGIN_RE.sub(" " + _GAP, l).strip() for l in block.split("\n") if l.strip())
                   for block in re.split(r"\n\s*\n", text)]
     # Skip empty paragraphs and bare line-range tags such as "[V. 462-563]".
     paragraphs = [x for x in paragraphs if x and not _TAG_RE.match(x)]
     for p, paragraph in enumerate(paragraphs):
         for sentence in _split_paragraph(paragraph):
+            sentence = re.sub(r"\s*" + _GAP, "", sentence)
             out.append(Sentence(len(out), p, sentence, _MARKER_RE.findall(sentence)))
     return out

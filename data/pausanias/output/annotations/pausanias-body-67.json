@@ -1,0 +1,499 @@
+{
+ "section_id": "pausanias-body-67",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8129,
+  "output": 3966
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Argos, describing the temples of Dionysus, Æsculapius and others along the Hollow Way, and the local legends attached to them. He rejects several Argive claims, such as the tombs of Deianira and Helenus and the Palladium, and records Argive stories about Ariadne's burial.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Dionysus statue from Eubœa",
+    "summary": "The Argives say their statue of Dionysus came from a cave in Eubœa, where shipwrecked Argives found shelter and wild goats.",
+    "stakes": "The shipwrecked Argives face death from cold and hunger.",
+    "present": [
+     "Dionysus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Caphareus, Eubœa",
+     "modern_name": "Cape Kafireas, Euboea",
+     "certainty": "real",
+     "lat": 38.0,
+     "lon": 24.55
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 11,
+    "title": "Shrines along the Hollow Way",
+    "summary": "Pausanias lists the house of Adrastus, the shrines of Amphiaraus, Eriphyle, Æsculapius and Bato, and the tomb of Hyrnetho, and the temple built by Sphyrus.",
+    "stakes": "",
+    "present": [
+     "Adrastus",
+     "Amphiaraus",
+     "Eriphyle",
+     "Æsculapius",
+     "Bato",
+     "Hyrnetho",
+     "Hygiea",
+     "Xenophilus",
+     "Strato",
+     "Sphyrus",
+     "Machaon",
+     "Alexanor"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hollow Way, Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 17,
+    "title": "Pausanias doubts Argive claims",
+    "summary": "Pausanias rejects Argive claims to the tombs of Deianira and Helenus and to the Palladium, citing other traditions.",
+    "stakes": "",
+    "present": [
+     "Artemis",
+     "Deianira",
+     "Helenus",
+     "Athene",
+     "Æneas",
+     "Pyrrhus",
+     "Andromache",
+     "Cestrinus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 22,
+    "title": "Cretan Dionysus and Ariadne",
+    "summary": "Pausanias describes the brazen chamber, the tomb of Crotopus and the temple of Cretan Dionysus, where Ariadne's ashes were said to be found.",
+    "stakes": "",
+    "present": [
+     "Acrisius",
+     "Perilaus",
+     "Crotopus",
+     "Dionysus",
+     "Perseus",
+     "Ariadne",
+     "Lyceas",
+     "Aphrodite"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with temples at Argos"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero whose house is at Argos"
+   },
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "seer swallowed by the earth after the rout from Thebes"
+   },
+   {
+    "name": "Eriphyle",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman with a tomb at Argos"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "healing god with a temple at Argos"
+   },
+   {
+    "name": "Bato",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "charioteer of Amphiaraus"
+   },
+   {
+    "name": "Hyrnetho",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman with a reputed tomb"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue beside Æsculapius"
+   },
+   {
+    "name": "Xenophilus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the statues"
+   },
+   {
+    "name": "Strato",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the statues"
+   },
+   {
+    "name": "Sphyrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "builder of the temple of Æsculapius"
+   },
+   {
+    "name": "Machaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Sphyrus"
+   },
+   {
+    "name": "Alexanor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "honoured at Titane in Sicyon"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Pheræan Artemis"
+    ],
+    "kind": "goddess",
+    "description": "goddess whose statue came from Pheræ"
+   },
+   {
+    "name": "Deianira",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Œneus, died at Trachis"
+   },
+   {
+    "name": "Œneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Deianira"
+   },
+   {
+    "name": "Helenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Priam who went to Epirus"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Helenus"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose Palladium was taken from Ilium"
+   },
+   {
+    "name": "Æneas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "carried the Palladium to Italy"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero whose tomb is on Mount Œta"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Achilles, went to Epirus"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Pyrrhus"
+   },
+   {
+    "name": "Andromache",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "married Helenus"
+   },
+   {
+    "name": "Cestrinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Helenus"
+   },
+   {
+    "name": "Acrisius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "built the brazen chamber for his daughter"
+   },
+   {
+    "name": "Perilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "deposed and succeeded Acrisius"
+   },
+   {
+    "name": "Crotopus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "has a tomb at Argos"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "warred with Dionysus then reconciled"
+   },
+   {
+    "name": "Ariadne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to be buried at Argos"
+   },
+   {
+    "name": "Lyceas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "reporter of the urn discovery"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [
+     "Celestial Aphrodite"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a temple near that of Dionysus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Machaon",
+    "relation": "parent_of",
+    "b": "Sphyrus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Machaon",
+    "relation": "parent_of",
+    "b": "Alexanor",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Sphyrus",
+    "relation": "sibling_of",
+    "b": "Alexanor",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Œneus",
+    "relation": "parent_of",
+    "b": "Deianira",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Priam",
+    "relation": "parent_of",
+    "b": "Helenus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Achilles",
+    "relation": "parent_of",
+    "b": "Pyrrhus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Helenus",
+    "relation": "spouse_of",
+    "b": "Andromache",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Helenus",
+    "relation": "parent_of",
+    "b": "Cestrinus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Acrisius",
+    "relation": "parent_of",
+    "b": "Danae",
+    "source": "outside",
+    "evidence_sentence": 18
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Palladium",
+    "canonical": "Athene",
+    "explanation": "The Palladium is the ancient statue of Athene taken from Ilium."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Pausanias remarks on the difficulty of changing popular opinion.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs local tradition against his own knowledge, skeptically correcting Argive claims.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows how Greek cities tied cults and monuments to heroic legend, and how statues and temples were linked to myths of origin.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias wrote in the 2nd century AD, and his guidebook is a main source for the monuments of Greece.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "The Hollow Way was a sunken road in Argos; the name describes its low, enclosed course.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Many Greek ships were wrecked off Caphareus, a dangerous cape of Eubœa, on the return from Troy (Ilium), through Athene's anger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The rout from Thebes refers to the failed expedition of the Seven against Thebes, in which Amphiaraus was swallowed by the earth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "A cenotaph is an empty tomb built as a memorial to someone buried elsewhere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The statue of Athene is the Palladium, the image whose possession was believed to protect Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "I have already shown refers to Pausanias' earlier account in Book 1, where he tells of Pyrrhus' settlement in Epirus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Acrisius shut his daughter Danaë in a brazen chamber to prevent the birth of a grandson who, it was prophesied, would kill him; that grandson was Perseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Ariadne, daughter of Minos of Crete, helped Theseus and was later associated with Dionysus, hence the Cretan connection.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Amphiaraus was a seer and hero of Argos. Bato, his charioteer, shared his fate when the earth swallowed them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Machaon was a son of Æsculapius and a physician at Troy; his family continued the god's healing cult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Deianira was the wife of Hercules; tradition places her death at Trachis, near Mount Œta, where Hercules died.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Pausanias often reports local guides' claims and then criticizes them, as he does here with the Argive antiquarians.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "Divine intervention",
+    "text": "The shipwrecked men pray and at once find a god's cave and shelter, presenting the statue's origin as an answer to prayer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "Irony",
+    "text": "Pausanias sarcastically suggests only someone ignorant of Epidaurus could believe the Argive claim, undercutting local pride.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Characterization",
+    "text": "Pausanias portrays the Argive guides as knowingly repeating falsehoods, and the crowd as resistant to correction, revealing his own skeptical voice.",
+    "spoiler": false
+   }
+  ]
+ }
+}

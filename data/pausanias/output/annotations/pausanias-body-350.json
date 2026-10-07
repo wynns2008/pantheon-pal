@@ -1,0 +1,495 @@
+{
+ "section_id": "pausanias-body-350",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11352,
+  "output": 4510
+ },
+ "result": {
+  "summary": "Pausanias continues describing Polygnotus' painting of the Underworld at Delphi, covering enemies of Odysseus, Trojan War heroes, Memnon and his birds, and figures such as Sisyphus and Tantalus. He adds digressions on Meleager's death and the Eleusinian mysteries.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "Dice players and Meleager",
+    "summary": "Upper part of the painting shows Actaeon, the two Ajaxes, Palamedes and Thersites, and Meleager. Pausanias digresses on Palamedes' death and on Meleager's death and the firebrand.",
+    "stakes": "",
+    "present": [
+     "Actæon",
+     "Ajax",
+     "Palamedes",
+     "Thersites",
+     "Ajax the son of Oileus",
+     "Meleager",
+     "Odysseus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lesche of the Cnidians, Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 23,
+    "title": "Trojan heroes, Paris and Penthesilea",
+    "summary": "Hector, Memnon and Sarpedon sit together, with Memnon's birds and origin explained. Above them Paris attracts Penthesilea, and two women carry water in broken pitchers.",
+    "stakes": "",
+    "present": [
+     "Hector",
+     "Memnon",
+     "Sarpedon",
+     "Paris",
+     "Penthesilea",
+     "Thamyris"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lesche of the Cnidians, Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 35,
+    "title": "Callisto, Sisyphus and Tantalus",
+    "summary": "Callisto, Nomia and Pero are shown, then Sisyphus with his stone and a scene mocking the Eleusinian mysteries. Tantalus is shown beneath the winejar, and Pausanias ends his account.",
+    "stakes": "Sisyphus and Tantalus suffer endless punishment in the underworld.",
+    "present": [
+     "Callisto",
+     "Nomia",
+     "Pero",
+     "Sisyphus",
+     "Tantalus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lesche of the Cnidians, Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Actæon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "figure in the painting"
+   },
+   {
+    "name": "Ajax",
+    "aliases": [
+     "Salaminian Ajax"
+    ],
+    "kind": "mortal",
+    "description": "Greek hero from Salamis, painted playing dice"
+   },
+   {
+    "name": "Palamedes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "inventor of dice, drowned by Diomede and Odysseus"
+   },
+   {
+    "name": "Thersites",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dice player in the painting"
+   },
+   {
+    "name": "Ajax the son of Oileus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "shipwrecked-looking hero who hated Odysseus"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero whose enemies Polygnotus grouped"
+   },
+   {
+    "name": "Diomede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "helped drown Palamedes"
+   },
+   {
+    "name": "Cassandra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman raped by Ajax son of Oileus"
+   },
+   {
+    "name": "Meleager",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero killed by fate of the firebrand"
+   },
+   {
+    "name": "Althæa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Meleager's mother who burned the firebrand"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "said to have killed Meleager"
+   },
+   {
+    "name": "Phrynichus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "playwright, son of Polyphradmon"
+   },
+   {
+    "name": "Thamyris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thracian in the painting"
+   },
+   {
+    "name": "Hector",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan hero shown sorrowing"
+   },
+   {
+    "name": "Memnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Ethiopians who came from Susa"
+   },
+   {
+    "name": "Sarpedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero leaning on his hands beside Memnon"
+   },
+   {
+    "name": "Paris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "beardless youth clapping his hands"
+   },
+   {
+    "name": "Penthesilea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Amazon with Scythian bow who scorns Paris"
+   },
+   {
+    "name": "Callisto",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "daughter of Lycaon, with a bear-skin"
+   },
+   {
+    "name": "Nomia",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "Arcadian Nymph"
+   },
+   {
+    "name": "Pero",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Neleus"
+   },
+   {
+    "name": "Sisyphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Æolus, rolling a stone uphill"
+   },
+   {
+    "name": "Tantalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "punished beneath the winejar"
+   },
+   {
+    "name": "Polygnotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thasian painter of the picture"
+   },
+   {
+    "name": "Archilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet whose account Polygnotus followed"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Neleus",
+    "relation": "parent_of",
+    "b": "Pero",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Callisto",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Æolus",
+    "relation": "parent_of",
+    "b": "Sisyphus",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Althæa",
+    "relation": "parent_of",
+    "b": "Meleager",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Polyphradmon",
+    "relation": "parent_of",
+    "b": "Phrynichus",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Salaminian Ajax",
+    "canonical": "Ajax",
+    "explanation": "Ajax of Salamis, distinguished from the son of Oileus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Preserves the famous firebrand legend of Meleager and credits Phrynichus with first telling it.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The painting groups figures by shared fate or enmity, showing punishment and grievance continuing after death.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias compares poets and traditions, showing how Greek myths varied and how art preserved them.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Sisyphus' endless stone-rolling became proverbial and inspired Camus' essay The Myth of Sisyphus (1942)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Tantalus' name gave English the word \"tantalize\".",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Palamedes was said to have invented dice during the Trojan War, so he is shown playing them, here with Ajax, a fitting pairing of enemies of Odysseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Ajax son of Oileus dragged Cassandra from Athena's statue at Troy's fall; Odysseus proposed stoning him, but Ajax escaped by taking refuge at the altar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The Cyprian Poems (Cypria) were an early epic about events before the Iliad. Its version has Palamedes drowned while fishing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The Great Eoeae and the Minyad were early epics; the Curetes fought the Ætolians in the Calydonian war, in which Meleager died.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Firebrand: a burning or half-burnt piece of wood. Meleager's life was tied to its survival.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "\"Next\" here means \"beside\"; Pausanias describes Polygnotus' painting of the Underworld at Delphi, working through figures in order.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The Memnonides were legendary birds said to honour Memnon, mourning and purifying his tomb annually, as a local tradition around the Hellespont.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Pausanias corrects the common tale that Memnon came from Ethiopia, placing him instead at Susa, the Persian royal city, on the Choaspes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Women carrying water in broken pitchers recall the punishment of those who failed to be initiated into the mysteries, forever pouring water uselessly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "\"Uninitiated\" means not admitted to mystery rites such as the Eleusinian, whose followers were believed to enjoy a better afterlife.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Pero's father Neleus demanded the cattle of Iphiclus from each suitor; this refers to the myth of Melampus winning Pero for his brother Bias by fetching those cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "\"Kine\" is an archaic plural for cows or cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "The jar-filling with a broken pot resembles the Danaids' endless task; the uninitiated were said to suffer such futile labour in the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "Homer (Odyssey 11) describes Tantalus standing in water and under fruit trees, unable to drink or eat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "kind": "allusion",
+    "text": "Archilochus was a 7th-century BC poet from Paros; Pausanias says he supplied the detail of the overhanging stone.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The other Ajax, son of Oileus, was drowned on the voyage home from Troy, which explains his shipwrecked look.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Phrynichus was an early Athenian tragic poet of the late sixth to early fifth century BC. His play Pleuroniae is lost.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Hector was the chief Trojan warrior, killed by Achilles; his grief-stricken pose suits his fate and the Trojan defeat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Sarpedon, a Lycian ally of Troy, was killed by Patroclus. Memnon, an Ethiopian king, was killed by Achilles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Penthesilea was queen of the Amazons who came to help Troy and was killed by Achilles. Paris, Priam's son, caused the war by taking Helen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "The Amazons were a warlike nation of women; the Scythian bow and animal skin mark her as a foreign archer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Callisto, an Arcadian nymph, was in myth turned into a bear; the bear-skin refers to this transformation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Sisyphus, king of Corinth, was punished in the underworld by endlessly rolling a stone uphill.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "text": "Polygnotus of Thasos painted the Cnidian Lesche at Delphi, whose underworld scene Pausanias has been describing.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "imagery",
+    "text": "The wet body and sea foam vividly show Ajax's fate, so the painted figure recalls his death in the shipwreck.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "personification",
+    "text": "Fate is called dread and the firebrand ill-contrived, as though destiny and the object had purpose, stressing the mother's fatal act.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "characterization",
+    "text": "Hector's posture, hands clasped on his knee, conveys his sorrow without words, showing character through gesture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "irony",
+    "text": "Paris, who will cause the ruin of Troy, is shown as a foolish rustic youth mocked by a warrior woman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "symbolism",
+    "text": "The leaking pitchers symbolize futile effort and the fate of those who neglected religious initiation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "imagery",
+    "text": "\"Laboriously rolling\" conveys Sisyphus's endless, futile toil, making the punishment vivid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "simile",
+    "text": "The mysteries' superiority is compared to gods over heroes, stressing the rite's extreme sanctity.",
+    "spoiler": false
+   }
+  ]
+ }
+}

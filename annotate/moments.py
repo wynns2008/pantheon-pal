@@ -2,6 +2,8 @@
 
     python -m annotate.moments <slug>          show what would be sent and what it costs; spends nothing
     python -m annotate.moments <slug> --yes    ask Claude and save data/<slug>/output/moments.json
+    python -m annotate.moments <slug> --yes --missing   only the people annotate.namesakes split off that have no key
+                                               moments yet; the saved ones are kept
 
 A god like Jove is named in almost every section, usually in passing. For a list of references that is worth
 reading, Claude is shown every section a character appears in, with what that section says of them, and keeps
@@ -103,9 +105,16 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("slug")
     ap.add_argument("--yes", action="store_true", help="confirm that you want to spend money")
+    ap.add_argument("--missing", action="store_true", help="keep the saved key moments; ask only for characters without any")
     args = ap.parse_args()
 
     title, sections, people = appearances(args.slug)
+    file = ROOT / "data" / args.slug / "output" / "moments.json"
+    kept = json.loads(file.read_text(encoding="utf-8"))["people"] if args.missing and file.exists() else {}
+    if args.missing:        # only the people annotate.namesakes split off, not those the first run gave no moments
+        split = ROOT / "data" / args.slug / "output" / "namesakes.json"
+        new = {g["name"] for s in json.loads(split.read_text(encoding="utf-8"))["split"] for g in s["groups"]} if split.exists() else set()
+        people = [p for p in people if p["name"] in new and p["name"] not in kept]
     batches = [people[i:i + PER_REQUEST] for i in range(0, len(people), PER_REQUEST)]
     texts = [request_text(title, sections, b) for b in batches]
     client = get_client()
@@ -117,7 +126,7 @@ def main() -> None:
         return print(f"Nothing spent. To run it: python -m annotate.moments {args.slug} --yes")
 
     by_number = {s["number"]: s["id"] for s in sections}
-    saved, tokens_in, tokens_out, failed = {}, 0, 0, 0
+    saved, tokens_in, tokens_out, failed = dict(kept), 0, 0, 0
     with ThreadPoolExecutor(max_workers=4) as pool:
         for batch, (answer, usage) in zip(batches, pool.map(lambda t: ask(client, t), texts)):
             tokens_in, tokens_out = tokens_in + usage[0], tokens_out + usage[1]
@@ -131,7 +140,7 @@ def main() -> None:
                            if m["section"] in person["sections"] and m["what"].strip()]     # only sections they are really in
                 if moments:
                     saved[person["name"]] = moments
-    (ROOT / "data" / args.slug / "output" / "moments.json").write_text(json.dumps(
+    file.write_text(json.dumps(
         {"work": title, "model": MODEL, "people": saved}, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Saved output/moments.json: {sum(len(m) for m in saved.values())} key moments for {len(saved)} of {len(people)} "
           f"characters; tokens {tokens_in:,} in / {tokens_out:,} out = about ${cost(tokens_in, tokens_out, batch=False):.2f}"

@@ -1,0 +1,385 @@
+{
+ "section_id": "pausanias-body-221",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10665,
+  "output": 3472
+ },
+ "result": {
+  "summary": "Pausanias describes the temples and statues at Ægium, including the cult of Zeus Homagyrius and its Agamemnon story. He then turns to nearby Helice, destroyed by an earthquake and flood after the Achæans killed suppliants, and describes earthquake signs and types.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 13,
+    "title": "Sanctuaries and statues of Ægium",
+    "summary": "Pausanias lists the temples, statues and rites at Ægium, including the Zeus Homagyrius cult and the gathering of Agamemnon's leaders.",
+    "stakes": "",
+    "present": [
+     "Talthybius",
+     "Agamemnon",
+     "Zeus",
+     "Aphrodite",
+     "Poseidon",
+     "Proserpine",
+     "Demeter",
+     "Artemis",
+     "Apollo",
+     "Athene",
+     "Hercules",
+     "Ageladas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ægium",
+     "modern_name": "Aigio",
+     "certainty": "real",
+     "lat": 38.25,
+     "lon": 22.08
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 19,
+    "title": "Helice and Poseidon's vengeance",
+    "summary": "Pausanias describes Helice and the spread of Poseidon's cult by the Ionians. The Achæans killed suppliants there and the city was destroyed by an earthquake.",
+    "stakes": "The Achæans of Helice face the god's punishment for killing suppliants; the city is destroyed.",
+    "present": [
+     "Poseidon",
+     "Homer"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Helice",
+     "modern_name": "near Rizomylos, Achaea",
+     "certainty": "real",
+     "lat": 38.22,
+     "lon": 22.18
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 32,
+    "title": "Signs and kinds of earthquakes",
+    "summary": "Pausanias lists the warning signs of earthquakes and three kinds, the deadliest being the one that razed Helice.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Helice",
+     "modern_name": "near Rizomylos, Achaea",
+     "certainty": "real",
+     "lat": 38.22,
+     "lon": 22.18
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 38,
+    "title": "Flood of Helice and Sipylus",
+    "summary": "The sea flooded Helice, and Pausanias compares the fate of Sipylus, which became the lake Saloe.",
+    "stakes": "Helice and its people are swept away.",
+    "present": [
+     "Poseidon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Helice",
+     "modern_name": "near Rizomylos, Achaea",
+     "certainty": "real",
+     "lat": 38.22,
+     "lon": 22.18
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Talthybius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "herald honoured with tombs at Ægium and Sparta"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader who gathered Greek chiefs and sacked Ilium"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king whose realm the Greeks attacked"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Zeus Homagyrius"
+    ],
+    "kind": "god",
+    "description": "worshipped at Ægium as the Gatherer"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "shares a temple with Artemis"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "huntress goddess with temples at Ægium"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "has a temple by the sea"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Poseidon of Helice"
+    ],
+    "kind": "god",
+    "description": "sea god who destroyed Helice"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Demeter"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Pan-Achæan Demeter"
+    ],
+    "kind": "goddess",
+    "description": "goddess with a temple at Ægium"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a statue at Ægium"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "beardless bronze statue at Ægium"
+   },
+   {
+    "name": "Ageladas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive sculptor of bronze statues"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who mentioned Helice"
+   },
+   {
+    "name": "Arethusa",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "spring at Syracuse to which cakes are said to be sent"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Proserpine",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Zeus Homagyrius",
+    "canonical": "Zeus",
+    "explanation": "Surname meaning the Gatherer, from Agamemnon gathering the Greek chiefs there."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 19,
+    "reason": "Records Poseidon's punishment of the Achæans for killing suppliants, destroying Helice.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Divine punishment for violating suppliants' sanctuary explains the ruin of Helice.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias gives an early systematic account of earthquake signs and types, mixing observation with religion. Helice was destroyed in 373 BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The destruction of Helice became a classical example of a city lost to earthquake and sea, often cited by ancient writers."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Helice's ruins were long said to be visible under water; its site was identified by modern geologists in the 20th century.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Homagyrius is glossed by Pausanias as 'the Gatherer', from Greek words for assembling together.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Pan-Achæan means 'of all the Achæans', a title of Demeter as goddess of the whole Achæan league.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Arethusa was a famous spring at Syracuse in Sicily; sending cakes there via the sea links the two sacred waters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "'As Zeus as a boy' is a garbled phrase; it means statues of Zeus as a boy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The Amphictyonic Council was a league of Greek peoples that managed Delphi's sanctuary and met at Thermopylæ and Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 185 metres, so 40 stades is about 7 kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The Ionians were driven from the northern Peloponnese by the Achæans, went to Athens, then colonized the Asia Minor coast. They carried their cult with them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Homer mentions Helice as a seat of Poseidon in the Iliad; the bracketed [13] is an editor's footnote marker.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "\"Wont\" means accustomed; \"disk of the sun\" is the visible round face of the sun.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "\"Military engines\" are siege machines such as battering rams, used to batter down city walls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "word",
+    "text": "\"Rased\" is an old spelling of razed, meaning levelled to the ground.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "allusion",
+    "text": "Sipylus was a city near Mount Sipylus in Lydia; its fate was linked in legend with Tantalus and Niobe.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Talthybius was Agamemnon's herald in the Trojan War, so his tomb here fits the town's Agamemnon traditions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Proserpine (Greek Persephone) was daughter of Demeter and queen of the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Ageladas of Argos was a celebrated early fifth-century BC sculptor in bronze, said to have taught great later sculptors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Poseidon, god of the sea, was also the \"earth-shaker\" who caused earthquakes, which explains his role in Helice's fate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Suppliants who took refuge at an altar were protected by the gods; killing them was a grave sacrilege. Helice was destroyed in 373 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Pausanias compares the earthquake's warning signs to a fever patient's laboured breathing and pulse, an analogy drawn from medical observation.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "characterization",
+    "text": "Praising Agamemnon's feat of sacking Ilium without reinforcements builds his heroic reputation within a catalogue of cults.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "motif",
+    "text": "The choice of a beautiful boy as priest reflects the Greek ideal of youthful beauty as fitting for divine service.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "Divine retribution",
+    "text": "The destruction is framed as Poseidon's punishment for sacrilege, giving the disaster a moral meaning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "Simile",
+    "text": "Comparing the quake's force to siege engines conveys its systematic, wall-breaking violence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "Simile",
+    "text": "Moles burrowing beneath the ground make the hidden undermining of foundations vivid and familiar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "Imagery",
+    "text": "Only treetops showing above the water gives a haunting picture of the drowned sacred grove.",
+    "spoiler": false
+   }
+  ]
+ }
+}

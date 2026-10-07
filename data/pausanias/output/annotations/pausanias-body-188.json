@@ -1,0 +1,424 @@
+{
+ "section_id": "pausanias-body-188",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9411,
+  "output": 3631
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Olympia's victor statues near the great altar, naming winners from many cities and their sculptors. He digresses on the seer Eperastus's descent from Melampus and on the orator Gorgias of Leontini.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 12,
+    "title": "Victor statues near the altar",
+    "summary": "Pausanias lists statues of athletes from many cities, with their events and sculptors.",
+    "stakes": "",
+    "present": [
+     "Democrates",
+     "Criannius",
+     "Herodotus",
+     "Philinus",
+     "Callicrates",
+     "Hermesianax",
+     "Theotimus",
+     "Archidamus",
+     "Eperastus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis at Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 17,
+    "title": "Eperastus and the seer lineage",
+    "summary": "Eperastus's inscription claims descent from Melampus, and Pausanias traces the family down to Clytius, who moved to Elis.",
+    "stakes": "Alcmaeon's kin had plotted his murder, so Clytius left to avoid his mother's brothers.",
+    "present": [
+     "Eperastus",
+     "Melampus",
+     "Mantius",
+     "Oecles",
+     "Amphiaraus",
+     "Alcmaeon",
+     "Clytius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Elis",
+     "modern_name": "Elis, Peloponnese",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 24,
+    "title": "Gorgias and other statues",
+    "summary": "Pausanias notes more statues and tells of Gorgias of Leontini, the rhetorician, and his embassy to Athens.",
+    "stakes": "",
+    "present": [
+     "Alexinicus",
+     "Gorgias",
+     "Eumolpus",
+     "Tisias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis at Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Democrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Tenedian wrestling victor among men"
+   },
+   {
+    "name": "Criannius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean victor in the heavy armour race"
+   },
+   {
+    "name": "Herodotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first Clazomenian victor, in the boys' course"
+   },
+   {
+    "name": "Philinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Coan runner with many victories"
+   },
+   {
+    "name": "Callicrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Magnesian twice victor in heavy armour race"
+   },
+   {
+    "name": "Hermesianax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Colophonian boy wrestling victor"
+   },
+   {
+    "name": "Theotimus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean boy boxing victor, son of Moschion"
+   },
+   {
+    "name": "Archidamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean victor in the four-horse race"
+   },
+   {
+    "name": "Eperastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean victor and seer of the Clytidae"
+   },
+   {
+    "name": "Melampus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestor of the Clytidae, son of Amythaon"
+   },
+   {
+    "name": "Amythaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Melampus"
+   },
+   {
+    "name": "Mantius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Melampus, father of Oecles"
+   },
+   {
+    "name": "Oecles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Mantius"
+   },
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Oecles"
+   },
+   {
+    "name": "Alcmaeon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amphiaraus who moved to Elis"
+   },
+   {
+    "name": "Clytius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Alcmaeon, ancestor of the Clytidae"
+   },
+   {
+    "name": "Phegeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Alcmaeon's wife"
+   },
+   {
+    "name": "Alexinicus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean boy wrestling victor"
+   },
+   {
+    "name": "Gorgias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Leontine orator, son of Carmantides"
+   },
+   {
+    "name": "Eumolpus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicated Gorgias's statue"
+   },
+   {
+    "name": "Tisias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "orator who went with Gorgias to Athens"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Mantius",
+    "relation": "parent_of",
+    "b": "Oecles",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Melampus",
+    "relation": "parent_of",
+    "b": "Mantius",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Amythaon",
+    "relation": "parent_of",
+    "b": "Melampus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Alcmaeon",
+    "relation": "parent_of",
+    "b": "Clytius",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Amphiaraus",
+    "relation": "parent_of",
+    "b": "Alcmaeon",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Oecles",
+    "relation": "parent_of",
+    "b": "Amphiaraus",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Moschion",
+    "relation": "parent_of",
+    "b": "Theotimus",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Carmantides",
+    "relation": "parent_of",
+    "b": "Gorgias",
+    "source": "text",
+    "evidence_sentence": 20
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 14,
+    "reason": "Eperastus's boastful inscription claiming prophetic descent from Melampus.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Statues serve as public memory of civic pride, with cities honoring victors and families asserting lineage.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Gorgias's visit to Athens reflects the spread of Sicilian rhetoric in the fifth century BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Altis was the sacred grove of Zeus at Olympia, the precinct containing the temples, altars and many victor statues.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The Pythian, Nemean and Isthmian games were the other three great Greek festivals; Olympia's victories combined with these made Philinus exceptional.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Race in heavy armour was the hoplite race, run by competitors carrying a shield and sometimes helmet and greaves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Pentathlum is the pentathlon, a five-event contest: running, jumping, discus, javelin and wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Alexander's expedition against Darius is the conquest of Persia (334-330 BC), so Theotimus's father served in a famous campaign.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Holy-mouthed\" (Greek euphemos) suggests speaking auspiciously or piously, an apt description for prophets; Clytidæ are the seer family descended from Clytius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Alcmæon killed his mother Eriphyle; Phegeus's sons later killed Alcmæon. The text's phrasing is confused: the victim is Alcmæon, the father, and Clytius's mother was Phegeus's daughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "\"Desuetude\" means disuse; rhetoric had fallen out of practice, in Pausanias's claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "The Syracusan woman's money case alludes to early Sicilian lawcourt oratory, associated with Tisias; the details are not given here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Leontini in Sicily was destroyed by Syracuse; Pausanias notes it was resettled in his own time.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Leonidas here is an Elean, not the Spartan king; his monument stood near the entrance to the Altis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Ptolemy son of Lagus was the Macedonian general who became king of Egypt; the statue honours his son of the same name, not the king himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Lysippus of Sicyon was one of the most celebrated Greek bronze sculptors, court sculptor to Alexander the Great.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Melampus was a legendary seer of Argos; this genealogy links seers from Melampus through Amphiaraus down to the Clytidæ of Elis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Votive offerings were dedications to the gods at Olympia; victor statues of boys' wrestling were common there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Gorgias came to Athens in 427 BC as ambassador from Leontini, seeking help against Syracuse, and impressed the Athenians with his oratory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Jason of Pheræ was tyrant of Thessaly in the fourth century BC. Polycrates was an Athenian rhetorician and teacher.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "characterization",
+    "text": "The tally of victories in four festivals conveys Philinus's extraordinary prestige without comment, letting statistics speak for his fame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "narrative voice",
+    "text": "Pausanias admits what the inscription leaves unsaid, showing his careful, scholarly habit of reporting only what he can verify.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "epithet",
+    "text": "\"Holy-mouthed\" and \"godlike\" are honorific epithets, lending the seer's self-proclaimed lineage divine prestige.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "narrative voice",
+    "text": "Pausanias cites his source briefly, showing his habit of attributing claims to inscriptions or informants rather than vouching for them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "characterization",
+    "text": "Comparing reputations, including a tyrant's judgment, portrays Gorgias as the pre-eminent rhetorician of his age.",
+    "spoiler": false
+   }
+  ]
+ }
+}

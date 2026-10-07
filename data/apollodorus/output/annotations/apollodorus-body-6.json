@@ -1,0 +1,547 @@
+{
+ "section_id": "apollodorus-body-6",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10529,
+  "output": 4616
+ },
+ "result": {
+  "summary": "Earth, angry over the Titans, bears the giants, and the gods defeat them with Hercules' help since an oracle says a mortal is needed. Earth then bears Typhon, who drives the gods to flee to Egypt, and Zeus after a hard struggle finally buries him under Mount Etna.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "Birth of the giants",
+    "summary": "Earth bears the giants, who attack heaven. Because of an oracle, Zeus summons Hercules, who kills Alcyoneus by dragging him out of his native land.",
+    "stakes": "The gods risk defeat unless a mortal helps them, while Earth tries to protect the giants.",
+    "present": [
+     "Earth",
+     "Sky",
+     "Porphyrion",
+     "Alcyoneus",
+     "Zeus",
+     "Athena",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phlegrae",
+     "modern_name": "Phlegraean Fields / Pallene (Kassandra peninsula)",
+     "certainty": "traditional",
+     "lat": 40.83,
+     "lon": 14.14
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 19,
+    "title": "Battle of gods and giants",
+    "summary": "Porphyrion attacks Hera and is killed. The gods each slay other giants, and Hercules finishes them with arrows.",
+    "stakes": "Hera is threatened with violation, and the gods' victory depends on destroying every giant.",
+    "present": [
+     "Porphyrion",
+     "Hercules",
+     "Hera",
+     "Zeus",
+     "Apollo",
+     "Ephialtes",
+     "Eurytus",
+     "Dionysus",
+     "Clytius",
+     "Hecate",
+     "Mimas",
+     "Hephaestus",
+     "Enceladus",
+     "Athena",
+     "Pallas",
+     "Polybotes",
+     "Poseidon",
+     "Hermes",
+     "Hippolytus",
+     "Artemis",
+     "Gration",
+     "Fates",
+     "Agrius",
+     "Thoas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Phlegrae",
+     "modern_name": "Phlegraean Fields / Pallene (Kassandra peninsula)",
+     "certainty": "traditional",
+     "lat": 40.83,
+     "lon": 14.14
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 27,
+    "title": "Typhon attacks heaven",
+    "summary": "Earth bears the monstrous Typhon in Cilicia. He assaults heaven and the gods flee to Egypt in animal forms.",
+    "stakes": "The gods' rule over heaven is threatened.",
+    "present": [
+     "Earth",
+     "Tartarus",
+     "Typhon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cilicia",
+     "modern_name": "Cilicia, southern Turkey",
+     "certainty": "real",
+     "lat": 36.9,
+     "lon": 35.0
+    }
+   },
+   {
+    "start_sentence": 28,
+    "end_sentence": 32,
+    "title": "Zeus defeated and maimed",
+    "summary": "Zeus fights Typhon at Mount Casius, loses his sinews and is hidden in the Corycian cave. Hermes and Aegipan steal the sinews back.",
+    "stakes": "Zeus is crippled and captive, and could lose his power.",
+    "present": [
+     "Zeus",
+     "Typhon",
+     "Delphyne",
+     "Hermes",
+     "Aegipan"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Corycian cave, Cilicia",
+     "modern_name": "Corycian Cave near Silifke, Turkey",
+     "certainty": "traditional",
+     "lat": 36.46,
+     "lon": 34.2
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 38,
+    "title": "Typhon pursued and buried",
+    "summary": "Restored Zeus chases Typhon through Nysa and Thrace, where he is wounded at Haemus, then buries him under Etna.",
+    "stakes": "Typhon fights for survival; Zeus must secure his rule.",
+    "present": [
+     "Zeus",
+     "Typhon",
+     "Fates"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Etna, Sicily",
+     "modern_name": "Mount Etna, Sicily",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 14.99
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Earth",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Mother of the giants and Typhon, angry at the gods"
+   },
+   {
+    "name": "Sky",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of the giants"
+   },
+   {
+    "name": "Porphyrion",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant who attacks Hera"
+   },
+   {
+    "name": "Alcyoneus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant immortal in his native land"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "King of the gods"
+   },
+   {
+    "name": "Athena",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who aids Zeus and Hercules"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mortal hero whose help the gods need"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess attacked by Porphyrion"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "Shoots Ephialtes"
+   },
+   {
+    "name": "Ephialtes",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant shot in both eyes"
+   },
+   {
+    "name": "Eurytus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant killed by Dionysus"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Kills Eurytus with a thyrsus"
+   },
+   {
+    "name": "Clytius",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant killed by Hecate"
+   },
+   {
+    "name": "Hecate",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Kills Clytius with torches"
+   },
+   {
+    "name": "Mimas",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant killed by Hephaestus"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Kills Mimas with hot metal"
+   },
+   {
+    "name": "Enceladus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant buried under Sicily"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant flayed by Athena"
+   },
+   {
+    "name": "Polybotes",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant crushed under Nisyrum"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Chases Polybotes"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Slays Hippolytus; steals Zeus' sinews"
+   },
+   {
+    "name": "Hades",
+    "aliases": [],
+    "kind": "god",
+    "description": "Owner of the helmet"
+   },
+   {
+    "name": "Hippolytus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant slain by Hermes"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Slays Gration"
+   },
+   {
+    "name": "Gration",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant slain by Artemis"
+   },
+   {
+    "name": "Fates",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Kill Agrius and Thoas; trick Typhon"
+   },
+   {
+    "name": "Agrius",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant killed by the Fates"
+   },
+   {
+    "name": "Thoas",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Giant killed by the Fates"
+   },
+   {
+    "name": "Tartarus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Typhon"
+   },
+   {
+    "name": "Typhon",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Huge hybrid monster who attacks heaven"
+   },
+   {
+    "name": "Delphyne",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Half-bestial she-dragon guarding the sinews"
+   },
+   {
+    "name": "Aegipan",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Helps Hermes steal the sinews"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Earth",
+    "relation": "parent_of",
+    "b": "Porphyrion",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Sky",
+    "relation": "parent_of",
+    "b": "Alcyoneus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Earth",
+    "relation": "parent_of",
+    "b": "Typhon",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Tartarus",
+    "relation": "parent_of",
+    "b": "Typhon",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "outside",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "The oracle that gods alone cannot kill the giants, requiring a mortal's help.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Order against chaos: Earth's monstrous children challenge the Olympians, and victory needs cunning and a mortal ally as well as force.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Typhon's battle sites in Cilicia, Syria, Thrace and Sicily link the myth to volcanic and eastern Mediterranean landscapes, and the flight to Egypt echoes Greek links between animal-headed Egyptian gods and their own.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Gigantomachy was a favorite subject of Greek art, as on the Pergamon Altar, and Typhon's burial under Etna became the traditional explanation of volcanic eruptions."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The name Typhon is the root of the word 'typhoon' in some etymological accounts.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "The Titans were Earth's earlier children, imprisoned in Tartarus by Zeus; Earth's anger at this punishment motivates the giants' birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Phlegrae (\"burning\") and Pallene are places in northern Greece (Chalcidice) traditionally named as the battlefield of the gods and giants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Erythia is the western island where Hercules took the cattle of Geryones; the Sun's cows are a separate herd, so this is a different tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Made an end of\" means destroyed or killed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Simple\" means a medicinal herb or plant; here a magical plant that would make the giants immune to death even by a mortal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "A thyrsus is a staff tipped with a pine cone and wreathed in ivy, carried by Dionysus and his followers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The helmet of Hades made its wearer invisible, so Hermes could fight unseen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "'Brazer' is likely a misprint for 'brazen', meaning made of bronze.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "Adamantine means made of adamant, a legendary unbreakable metal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "word",
+    "text": "Ephemeral fruits are short-lived, mortal fruits. Typhon is tricked into thinking they will strengthen him; in fact they weaken him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "The name Haemus is explained by Greek haima, 'blood'; this is an ancient folk etymology.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Sky (Uranus) is Earth's husband and the father of the Titans; the giants are a second brood born from his blood and Earth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Hercules was a mortal son of Zeus, which is why the gods needed him; Athena often guides heroes with advice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Zeus's trick makes Porphyrion's assault on Hera lead to his own destruction, since it gives the gods a pretext to kill him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Athena, goddess of war and wisdom, is often shown wearing the aegis, a protective skin or cloak.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Tartarus is the deepest region of the underworld; here Earth takes him as her mate to produce Typhon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Egyptian gods had animal forms, and Greek writers explained this by saying the Olympians once hid there as animals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Delphyne is a serpent guardian, linked to Delphi in some versions of the myth.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "imagery",
+    "text": "Vivid physical detail of long hair, beards and dragon-scale feet makes the giants monstrous and sets them apart from the Olympian gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "Zeus darkens the heavenly lights to keep the herb hidden, so the sky itself is used as a tool against Earth's plan.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "foreshadowing",
+    "text": "The earlier remark that Alcyoneus is immortal only in his native land prepares for his defeat by being dragged beyond its border.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "hyperbole",
+    "text": "Typhon towering over mountains and brushing the stars conveys his monstrous scale.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "imagery",
+    "text": "Hurled burning rocks, hissing, shouting and spouted fire create a vivid, overwhelming picture of assault on heaven.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "irony",
+    "text": "Typhon eats the fruit to gain strength but is undone by it, reversing his intention.",
+    "spoiler": false
+   }
+  ]
+ }
+}

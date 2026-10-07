@@ -1,0 +1,290 @@
+{
+ "section_id": "pausanias-body-330",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7475,
+  "output": 2644
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Delphi, describing the treasuries and offerings near the Sicyonian treasury. He gives the reasons behind several treasuries, including the Siphnian gold tithe, the Lipara colony history, and Athenian naval spoils.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Treasuries of Sicyon, Cnidus, Siphnos",
+    "summary": "Pausanias notes the Sicyonian treasury and the Cnidian statues beside it. He tells how the Siphnians built a treasury, then lost their mines to the sea after neglecting the god's tithe.",
+    "stakes": "The Siphnians lose their gold mines when greed makes them stop paying the god's tenth.",
+    "present": [
+     "Triopas",
+     "Leto",
+     "Apollo",
+     "Artemis",
+     "Tityus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 9,
+    "title": "The Liparaeans and Aeolian Islands",
+    "summary": "Pausanias recounts, following Antiochus, how Cnidian colonists under Pentathlus were driven from Pachynus and settled the islands of Aeolus, and he describes their volcanic fires and hot baths.",
+    "stakes": "The colonists are expelled by force and must find new land.",
+    "present": [
+     "Pentathlus",
+     "Antiochus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Lipara",
+     "modern_name": "Lipari, Aeolian Islands",
+     "certainty": "real",
+     "lat": 38.4673,
+     "lon": 14.9546
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 17,
+    "title": "Other Treasuries and Athenian Spoils",
+    "summary": "Pausanias explains the origins of the Theban, Athenian, Cleonaean, Syracusan and Potidaean treasuries and describes the Athenian portico with spoils from naval victories.",
+    "stakes": "The Cleonaeans suffer a plague until the oracle's sacrifice delivers them.",
+    "present": [
+     "Apollo",
+     "Theseus",
+     "Poseidon",
+     "Phormio"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Triopas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of the Cnidians, shown in a statue by a horse"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess shown shooting Tityus in the Cnidian group"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "the god"
+    ],
+    "kind": "god",
+    "description": "god of Delphi who orders the tithe and receives offerings"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess shown shooting Tityus"
+   },
+   {
+    "name": "Tityus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "figure shown wounded by Leto, Apollo and Artemis"
+   },
+   {
+    "name": "Pentathlus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cnidian leader of the colony to Lipara"
+   },
+   {
+    "name": "Antiochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Syracusan historian, son of Xenophanes, cited by Pausanias"
+   },
+   {
+    "name": "Xenophanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Antiochus"
+   },
+   {
+    "name": "Datis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian commander whose spoil funded Athenian treasuries"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero to whom the Athenians sacrifice after naval victories"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "sea god honored at Rhium"
+   },
+   {
+    "name": "Phormio",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Asopichus, Athenian commander"
+   },
+   {
+    "name": "Asopichus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Phormio"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who named the islands of Aeolus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Xenophanes",
+    "relation": "parent_of",
+    "b": "Antiochus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Asopichus",
+    "relation": "parent_of",
+    "b": "Phormio",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "outside",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Artemis",
+    "source": "outside",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows how offerings at Delphi record piety, wealth and victory, and how neglecting the god brings punishment, as with the Siphnians.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Treasuries at Delphi were built by Greek cities to hold offerings and to advertise their status and military successes.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Aeolian islands Pausanias describes, with Strongyle (Stromboli) and Hiera (Vulcano), are still volcanically active; the word volcano comes from Vulcano.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Siphnii is this translation's form for the people of Siphnos, an Aegean island, usually called Siphnians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Cupidity means greed; the Siphnians stopped paying the god's tenth because they wanted to keep the money.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Homer's islands of Æolus are the Aeolian Islands north of Sicily, where the Odyssey places Aeolus, keeper of the winds.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Hiera, Strongyle and Didymæ are small volcanic islands of the Lipari group; Strongyle is now Stromboli.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Cleonæ suffered a plague like the Athenians' plague, which Pausanias assumes the reader knows; the goat sacrifice to the rising sun was the oracle's cure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The great reverses of Athens means the destruction of the Athenian expedition to Sicily (413 BC), which Syracuse commemorated at Delphi.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Rhium is the promontory at the mouth of the Gulf of Corinth, where Phormio won naval victories for Athens in 429 BC.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "A treasury was a small building at a sanctuary where a city kept its offerings to the god. Pausanias says they held no money in his day.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Antiochus of Syracuse was a historian of the fifth century BC. Lipara is the chief island of the Aeolian group.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Thebes beat Sparta at Leuctra in 371 BC. Athens beat the Persians at Marathon in 490 BC, under the Persian commander Datis.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "moral tale",
+    "text": "The sea's destruction of the mines is divine retribution: greed and neglect of the god lead to loss, a typical Pausanian lesson.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "narrative voice",
+    "text": "Pausanias openly admits ignorance, which makes him a candid, cautious guide who separates what he knows from what he guesses.",
+    "spoiler": false
+   }
+  ]
+ }
+}

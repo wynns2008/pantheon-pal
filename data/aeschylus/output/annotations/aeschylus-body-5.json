@@ -1,0 +1,422 @@
+{
+ "section_id": "aeschylus-body-5",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11581,
+  "output": 4024
+ },
+ "result": {
+  "summary": "Agamemnon is heard crying out as he is struck down inside the palace, and the Chorus of Argive elders argue helplessly about what to do. The bodies of Agamemnon and Cassandra are then revealed, and Clytaemestra boasts of the murder, justifying it by the sacrifice of her daughter and relying on Aegisthus for protection.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "The Chorus fears for the king",
+    "summary": "As Agamemnon enters the palace, the Chorus reflects that prosperity is never safe and that old bloodshed may demand payment.",
+    "stakes": "Agamemnon's life, and the Chorus's hope that the house's inherited bloodguilt will not fall on him.",
+    "present": [
+     "Chorus",
+     "Agamemnon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, before the palace",
+     "modern_name": "Argos, Greece",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 32,
+    "title": "Cries within; the elders debate",
+    "summary": "Agamemnon cries out twice from inside. The elders of the Chorus argue over summoning help, storming the palace, or waiting for proof.",
+    "stakes": "The elders risk acting too late against a feared tyranny, or acting rashly on mere groans.",
+    "present": [
+     "Agamemnon",
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, before the palace",
+     "modern_name": "Argos, Greece",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 71,
+    "title": "Clytaemestra avows the murder",
+    "summary": "Clytaemestra stands by the bodies and boasts of trapping and killing Agamemnon. She answers the Chorus's threats of exile by citing the sacrifice of her daughter and her trust in Aegisthus.",
+    "stakes": "Clytaemestra risks exile, public hatred and vengeance for the killing.",
+    "present": [
+     "Clytaemestra",
+     "Chorus",
+     "Agamemnon",
+     "Cassandra",
+     "Aegisthus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, before the palace",
+     "modern_name": "Argos, Greece",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Agamemnon",
+    "aliases": [
+     "Atreus’ son"
+    ],
+    "kind": "mortal",
+    "description": "King of Argos, who has taken Troy and is murdered by his wife"
+   },
+   {
+    "name": "Clytaemestra",
+    "aliases": [
+     "the Queen"
+    ],
+    "kind": "mortal",
+    "description": "Agamemnon's wife, who kills him in revenge for their daughter"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "other",
+    "description": "Argive elders who watch and debate"
+   },
+   {
+    "name": "Cassandra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Agamemnon's captive and seer, killed beside him (unnamed in speech here)"
+   },
+   {
+    "name": "Aegisthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Clytaemestra's loyal ally who keeps her hearth fire lit"
+   },
+   {
+    "name": "Atreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Agamemnon"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Troy, whose town was captured"
+   },
+   {
+    "name": "Chryseïs",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan-war captive named as a type of Agamemnon's mistresses"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "the infernal Zeus"
+    ],
+    "kind": "god",
+    "description": "Invoked as saviour of the dead"
+   },
+   {
+    "name": "Ate",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Spirit of ruin, invoked in Clytaemestra's oath"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Atreus",
+    "relation": "parent_of",
+    "b": "Agamemnon",
+    "source": "text",
+    "evidence_sentence": 32
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "spouse_of",
+    "b": "Agamemnon",
+    "source": "text",
+    "evidence_sentence": 50
+   },
+   {
+    "a": "Agamemnon",
+    "relation": "parent_of",
+    "b": "Iphigenia",
+    "source": "outside",
+    "evidence_sentence": 57
+   },
+   {
+    "a": "Clytaemestra",
+    "relation": "lover_of",
+    "b": "Aegisthus",
+    "source": "outside",
+    "evidence_sentence": 67
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Atreus’ son",
+    "canonical": "Agamemnon",
+    "explanation": "A patronymic naming Agamemnon by his father."
+   },
+   {
+    "alias": "infernal Zeus",
+    "canonical": "Zeus",
+    "explanation": "Zeus in his underworld aspect, a title often linked with Hades."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 38,
+    "reason": "Clytaemestra openly claims the murder with chilling calm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "reason": "Vivid image of Agamemnon drinking the cup of ills he prepared.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "reason": "Concise warning that guesswork is not certainty.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows inherited guilt and cyclical vengeance: Clytaemestra claims justice for her daughter while the Chorus sees only a new crime that will demand payment.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The elders' fear of tyranny and their paralysed debate reflect Athenian anxieties about autocratic rule and the limits of civic action.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The murder in the bath of Agamemnon shaped later tragedies of the house of Atreus, including Sophocles' and Euripides' Electra plays and Eugene O'Neill's Mourning Becomes Electra (1931)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Agamemnon's death cries offstage are an early example of violence kept out of sight in Greek tragedy, as it normally was.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "Prosperity is personified as something no warning voice bars from a great house; 'barreth' means keeps out or forbids entry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Refers to the curse on the house of Atreus: Atreus murdered his brother Thyestes' children, and Agamemnon sacrificed his daughter Iphigenia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "'Scatheless' means unharmed, free from injury or misfortune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "'Methinks' is archaic for 'it seems to me'; 'haply' in the next sentence means perhaps.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "'Amain' means with full force, at once.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "'Tyranny' means seizure of power by an unlawful ruler, which the elders suspect is Aegisthus' and Clytemnestra's aim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "The speaker says the killers scorn 'Delay', the praised virtue of caution, and never let their hands rest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "Atreus' son is Agamemnon, identified by his father.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "phrasing",
+    "text": "She describes the robe as a net or fence of ruin set so high that Agamemnon cannot leap over it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "kind": "allusion",
+    "text": "The \"infernal Zeus\" is Hades, lord of the dead. A third libation at feasts was offered to Zeus the Saviour, which she twists into a grim parallel.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "word",
+    "text": "\"Mote\" is an archaic past form of \"smite\"; \"ensanguined\" means blood-stained.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "kind": "allusion",
+    "text": "The mixing-bowl refers to the wine-bowl of a feast. Here it stands for the cup of evils Agamemnon poured out and now must drink.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "allusion",
+    "text": "Refers to Agamemnon sacrificing his daughter Iphigenia at Aulis to gain favourable winds from Thrace for the fleet sailing to Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "word",
+    "text": "\"Recking\" means caring or heeding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "kind": "word",
+    "text": "Ate is the goddess of delusion and ruin; the Avenging Spirit is the Fury who punishes bloodshed within a family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 69,
+    "kind": "allusion",
+    "text": "Chryseïs was a captive girl Agamemnon kept at Troy, in Homer's Iliad. Clytaemestra sneers that Cassandra is just another such concubine.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Priam was king of Troy, which the Greeks under Agamemnon captured after a ten-year siege.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Agamemnon's cries come from inside the palace, where Clytemnestra is killing him; the killing is never shown on stage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The Chorus here splits into individual elders, each voicing a different opinion, unlike its usual unified voice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "The ancient feud is the curse on the house of Atreus, including Atreus's murder of Thyestes' children and Agamemnon's sacrifice of Iphigenia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "text": "Agamemnon was trapped in a robe or cloth while bathing, then struck down. This is the murder weapon she describes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 67,
+    "text": "Aegisthus is Clytaemestra's lover and cousin of Agamemnon. His loyalty is her protection against any vengeance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "text": "Cassandra was the Trojan princess and prophetess brought home by Agamemnon as war prize. She was killed alongside him.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "personification",
+    "text": "Prosperity is treated as an intruder entering a house unchecked, suggesting that good fortune carries danger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "foreshadowing",
+    "text": "The Chorus's gloomy reflection on inherited bloodguilt anticipates Agamemnon's murder, which follows immediately.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "dramatic irony",
+    "text": "Agamemnon's offstage cries confirm the Chorus's fears and the audience's expectation, while the elders still hesitate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "irony",
+    "text": "Delay is called a 'lauded name' that the murderers spurn, ironically underlining the elders' own paralysis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "antithesis",
+    "text": "The balanced contrast of surmise and assurance captures the cautious elder's reasoning, and shows the Chorus failing to act.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "metaphor",
+    "text": "The robe becomes a fishing net, casting Agamemnon as helpless prey and the murder as a hunter's catch.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "device": "simile",
+    "text": "She compares her joy at his spurting blood to parched earth welcoming rain, a shocking image of life and growth for a murder.",
+    "spoiler": false
+   },
+   {
+    "sentence": 45,
+    "device": "irony",
+    "text": "Agamemnon is made to drink the cup of evils he prepared himself, a reversal that gives the killing a sense of justice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 50,
+    "device": "characterization",
+    "text": "Clytaemestra's blunt, unrepentant claim to the deed shows her as proud, defiant and masculine in will.",
+    "spoiler": false
+   },
+   {
+    "sentence": 71,
+    "device": "simile",
+    "text": "Cassandra is likened to a dying swan singing its last song, a pitying image that Clytaemestra turns cruelly mocking.",
+    "spoiler": false
+   }
+  ]
+ }
+}

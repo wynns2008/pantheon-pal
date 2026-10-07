@@ -1,0 +1,513 @@
+{
+ "section_id": "pausanias-body-232",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10221,
+  "output": 4285
+ },
+ "result": {
+  "summary": "Pausanias describes the road from Nestane to Mantinea, including the Arne fountain and its tale of the infant Poseidon. He then gives Mantinea's founding and its long history of shifting alliances with Sparta, Athens, Thebes, the Achaeans and Rome, down to Hadrian restoring the city's old name.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Road to the Arne fountain",
+    "summary": "Pausanias lists places near Nestane and tells the Arcadian story of why the Arne fountain is named for lambs. He reflects on Greek myths as riddles.",
+    "stakes": "",
+    "present": [
+     "Rhea",
+     "Poseidon",
+     "Cronos",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Arne fountain near Nestane",
+     "modern_name": "near Mantinea, Arcadia",
+     "certainty": "traditional",
+     "lat": 37.62,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 13,
+    "title": "Founding of Mantinea and the serpent",
+    "summary": "Mantineus built the town and Antinoe moved it, guided by a serpent, which gave the river Ophis its name. Pausanias argues from Homer that it was a dragon.",
+    "stakes": "",
+    "present": [
+     "Mantineus",
+     "Antinoe",
+     "Lycaon",
+     "Cepheus",
+     "Aleus",
+     "Homer",
+     "Philoctetes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mantinea",
+     "modern_name": "Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.61,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 20,
+    "title": "Agesipolis captures Mantinea",
+    "summary": "Mantinea sides against Sparta and is taken by Agesipolis, who floods its brick walls with the river. Pausanias notes Cimon used the same trick at Eion.",
+    "stakes": "The Mantineans risk the loss of their city to Sparta.",
+    "present": [
+     "Agesipolis",
+     "Cimon",
+     "Boges"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mantinea",
+     "modern_name": "Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.61,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 29,
+    "title": "Later alliances to Hadrian",
+    "summary": "Mantinea is restored, changes sides repeatedly, joins the Achaeans, is renamed Antigonea, fights for Augustus at Actium, and regains its name under Hadrian.",
+    "stakes": "Mantinea's independence amid rival powers.",
+    "present": [
+     "Epaminondas",
+     "Agis",
+     "Aratus",
+     "Cleomenes",
+     "Antigonus",
+     "Philip",
+     "Perseus",
+     "Augustus",
+     "Antony",
+     "Adrian"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mantinea",
+     "modern_name": "Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.61,
+     "lon": 22.38
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother who hid her son Poseidon among lambs"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "infant hidden among the flocks"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "deceived into eating a foal"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "replaced by a stone in swaddling-clothes"
+   },
+   {
+    "name": "Mantineus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycaon, built Mantinea"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Mantineus"
+   },
+   {
+    "name": "Antinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Cepheus who moved the town"
+   },
+   {
+    "name": "Cepheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aleus"
+   },
+   {
+    "name": "Aleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cepheus"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet cited as evidence"
+   },
+   {
+    "name": "Philoctetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Greek left in Lemnos with an ulcer"
+   },
+   {
+    "name": "Agesipolis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king who took Mantinea"
+   },
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Agesipolis"
+   },
+   {
+    "name": "Cimon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Miltiades, used the same stratagem at Eion"
+   },
+   {
+    "name": "Miltiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cimon"
+   },
+   {
+    "name": "Boges",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mede besieged at Eion"
+   },
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban commander"
+   },
+   {
+    "name": "Agis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Eudamidas"
+   },
+   {
+    "name": "Eudamidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Agis"
+   },
+   {
+    "name": "Aratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean commander"
+   },
+   {
+    "name": "Cleomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan enemy of the Achaeans"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Regent of Macedonia"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Perseus"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian prince, a boy then"
+   },
+   {
+    "name": "Augustus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "emperor who fought at Actium"
+   },
+   {
+    "name": "Antony",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "opponent of Augustus"
+   },
+   {
+    "name": "Adrian",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "emperor who restored Mantinea's name"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Rhea",
+    "relation": "parent_of",
+    "b": "Poseidon",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Rhea",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Mantineus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Cepheus",
+    "relation": "parent_of",
+    "b": "Antinoe",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Aleus",
+    "relation": "parent_of",
+    "b": "Cepheus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Pausanias",
+    "relation": "parent_of",
+    "b": "Agesipolis",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Miltiades",
+    "relation": "parent_of",
+    "b": "Cimon",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Eudamidas",
+    "relation": "parent_of",
+    "b": "Agis",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Philip",
+    "relation": "parent_of",
+    "b": "Perseus",
+    "source": "text",
+    "evidence_sentence": 27
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Antigonea",
+    "canonical": "Mantinea",
+    "explanation": "Name given to Mantinea in honour of Antigonus, later undone by Hadrian."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 6,
+    "reason": "Pausanias explains his view that Greek myths are wisdom spoken in riddles.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias blends myth and history, treating legends as possible veiled truth and checking them against Homer.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Mantinea's shifting alliances show the rivalries of Sparta, Thebes, Achaea and Macedon, and later Roman power.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Agesipolis's flooding of Mantinea's mud-brick walls happened around 385 BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–200 metres, so 10 stades is a little over a kilometre.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Arne is linked to the Greek word for lamb. The story says Rhea hid the infant Poseidon among sheep to save him from Cronos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Refers to the myth that Cronos swallowed his children; Rhea tricked him with a stone in place of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "\"Spoke in riddles\" means the ancient wise men veiled their meaning in allegory rather than stating it plainly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Alludes to the Iliad: Philoctetes was left on Lemnos with a snake-bitten wound, and a portent serpent was dropped by an eagle before the Trojans.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Dipæa was an earlier battle (c. 470 BC) in which Sparta defeated the Arcadians, with Mantinea absent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "Rams batter stone into pieces, but brick absorbs the blows; water, however, dissolves unbaked brick, as the wax simile says.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Cimon, the Athenian general, besieged Eion around 476 BC, where the Persian commander Boges held out until he destroyed himself and his household.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "'Sung of by the Greeks' means the Eion story was celebrated in poetry and popular report.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "'Rased' is an old spelling of 'razed': demolished. The inhabitants were dispersed to villages, the old settlement pattern.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Leuctra (371 BC) was the Theban victory that broke Spartan dominance and led to Arcadian revival.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "The battle on Mantinean ground is Mantinea (362 BC), where Epaminondas won but was killed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Actium (31 BC) was the naval battle where Augustus defeated Antony and Cleopatra.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Demeter was the goddess of grain and agriculture, and her festivals were widespread in Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Mantinea was an important Arcadian city, later the site of major battles, including Epaminondas's death in 362 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Agesipolis captured Mantinea in 385 BC. Sparta then broke the city up into villages.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "The Achæan League was a federation of Peloponnesian cities that opposed Sparta in the third century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Adrian is the emperor Hadrian (reigned AD 117–138), who favoured Greek cities and restored their old names.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "narrative voice",
+    "text": "Pausanias speaks in the first person, admitting he changed his mind about the myths, which gives the narration a candid, reflective tone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "etymology",
+    "text": "The river's name is explained by the serpent story, a typical aetiological tale linking place names to legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "allusion",
+    "text": "Pausanias cites Homer as textual authority, using careful reading of word choice to settle a question of fact.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "simile",
+    "text": "Unbaked brick melting under water is compared to wax under the sun, making the walls' weakness vivid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "irony",
+    "text": "The stratagem seems clever, yet Pausanias says Agesipolis merely borrowed a trick from old song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "narrative voice",
+    "text": "The history closes with a summary of Mantinea's changing names, showing the author's antiquarian interest.",
+    "spoiler": false
+   }
+  ]
+ }
+}

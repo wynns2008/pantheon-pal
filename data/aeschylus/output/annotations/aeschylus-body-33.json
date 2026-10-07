@@ -1,0 +1,698 @@
+{
+ "section_id": "aeschylus-body-33",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 19626,
+  "output": 6344
+ },
+ "result": {
+  "summary": "Danaüs urges his daughters to sit as suppliants at the altar, and the King of Argos, Pelasgus, arrives. The Chorus prove their Argive descent from Io and ask for protection from the sons of Aegyptus. The King, fearing war and the wrath of Zeus, refuses to decide without the consent of his people.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Danaüs instructs the suppliants",
+    "summary": "Danaüs tells his daughters to take seat at the altar like doves fearing hawks, and warns of judgment after death for forced marriage.",
+    "stakes": "The maidens risk being seized and forced into marriage if they fail to win sanctuary.",
+    "present": [
+     "Danaüs",
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, the sanctuary of the gods",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 29,
+    "title": "Pelasgus greets the strangers",
+    "summary": "The King questions their foreign dress, names himself Pelasgus, describes his realm and tells of Apis who cleansed the land of serpents.",
+    "stakes": "",
+    "present": [
+     "King",
+     "Chorus",
+     "Pelasgus",
+     "Apis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, the sanctuary of the gods",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 30,
+    "end_sentence": 102,
+    "title": "The lineage from Io",
+    "summary": "By question and answer the King and Chorus recount Io's transformation, wandering and Egyptian offspring down to Danaüs and Aegyptus, proving the maidens' Argive descent.",
+    "stakes": "The maidens must convince the King of their kinship to win his help.",
+    "present": [
+     "King",
+     "Chorus",
+     "Io",
+     "Zeus",
+     "Hera",
+     "Argus",
+     "Hermes",
+     "Epaphus",
+     "Libya",
+     "Agenor",
+     "Belus",
+     "Danaüs",
+     "Aegyptus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos, Egypt and the wanderings of Io",
+     "modern_name": "Argos",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 103,
+    "end_sentence": 180,
+    "title": "The plea and the King's dilemma",
+    "summary": "The maidens beg not to be surrendered to the sons of Aegyptus. The King, torn between war and the wrath of Zeus, insists on consulting the people.",
+    "stakes": "The King risks war with Egypt or the vengeance of Zeus, god of suppliants; the maidens risk forced marriage.",
+    "present": [
+     "King",
+     "Chorus",
+     "Zeus",
+     "Justice"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, the sanctuary of the gods",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Danaüs",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aged father of the suppliant maidens"
+   },
+   {
+    "name": "Chorus",
+    "aliases": [
+     "suppliant maidens"
+    ],
+    "kind": "mortal",
+    "description": "The daughters of Danaüs fleeing marriage"
+   },
+   {
+    "name": "King",
+    "aliases": [
+     "Pelasgus",
+     "Lord of the Pelasgians"
+    ],
+    "kind": "mortal",
+    "description": "Ruler of Argos"
+   },
+   {
+    "name": "Palaechthon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Earth-born father of Pelasgus"
+   },
+   {
+    "name": "Apis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Seer and healer, son of Apollo, who cleansed the land of serpents"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Apis"
+   },
+   {
+    "name": "Io",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Woman loved by Zeus, turned into a cow"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "Lover of Io and god of suppliants"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Zeus' jealous consort who changed Io"
+   },
+   {
+    "name": "Argus",
+    "aliases": [],
+    "kind": "monster",
+    "description": "All-seeing herdsman, son of Earth, slain by Hermes"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Slayer of Argus"
+   },
+   {
+    "name": "Epaphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Zeus and Io"
+   },
+   {
+    "name": "Libya",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Descendant of Epaphus"
+   },
+   {
+    "name": "Agenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "First child of Libya"
+   },
+   {
+    "name": "Belus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Descendant of Libya, father of Danaüs and Aegyptus"
+   },
+   {
+    "name": "Aegyptus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Brother of Danaüs with fifty sons"
+   },
+   {
+    "name": "Justice",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Daughter of Zeus who protects suppliants"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Apis",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Palaechthon",
+    "relation": "parent_of",
+    "b": "King",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Epaphus",
+    "source": "text",
+    "evidence_sentence": 80
+   },
+   {
+    "a": "Io",
+    "relation": "parent_of",
+    "b": "Epaphus",
+    "source": "text",
+    "evidence_sentence": 80
+   },
+   {
+    "a": "Epaphus",
+    "relation": "parent_of",
+    "b": "Libya",
+    "source": "text",
+    "evidence_sentence": 86
+   },
+   {
+    "a": "Belus",
+    "relation": "parent_of",
+    "b": "Danaüs",
+    "source": "text",
+    "evidence_sentence": 94
+   },
+   {
+    "a": "Belus",
+    "relation": "parent_of",
+    "b": "Aegyptus",
+    "source": "text",
+    "evidence_sentence": 98
+   },
+   {
+    "a": "Danaüs",
+    "relation": "sibling_of",
+    "b": "Aegyptus",
+    "source": "text",
+    "evidence_sentence": 98
+   },
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Io",
+    "source": "text",
+    "evidence_sentence": 46
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Justice",
+    "source": "text",
+    "evidence_sentence": 146
+   },
+   {
+    "a": "Io",
+    "relation": "transformed_into",
+    "b": "cow",
+    "source": "text",
+    "evidence_sentence": 52
+   },
+   {
+    "a": "Zeus",
+    "relation": "spouse_of",
+    "b": "Hera",
+    "source": "text",
+    "evidence_sentence": 58
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Pelasgus",
+    "canonical": "King",
+    "explanation": "The King names himself Pelasgus, son of Palaechthon, lord of the Pelasgians."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 154,
+    "reason": "The Chorus flatter the King as sole embodiment of the State, pressing him to decide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "reason": "Danaüs's sharp image of bird preying on bird frames the kinship violence of the plot.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage sets the central conflict: the duty to protect suppliants under Zeus against the political cost of war, and kinship as a claim for help.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The King's refusal to act without his people reflects Athenian ideas of shared civic decision-making, projected onto mythical Argos.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Many scholars regard this play as one of the earliest surviving Greek tragedies, with the chorus as the main protagonist.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Fain\" means gladly or eagerly; the hawks are said to be eager to defile their own kin, just as the Egyptian suitors would.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Arraignment\" means formal accusation and trial; even in Hades the offender will be called to account.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Another Zeus is Hades, called the Zeus of the underworld, who judges the dead.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Un-Hellenic\" means not Greek; \"close woof\" refers to tightly woven foreign cloth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "The sacred wand was carried by heralds, marking them as inviolable messengers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "\"Leech\" is an old word for physician, not the bloodsucking worm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The serpents are linked to earlier bloodshed that polluted the land; Earth is imagined as angered and spawning them in response.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "phrasing",
+    "text": "The 'cow blest in its offspring' is Io, turned into a cow; her child Epaphus was fathered by Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "phrasing",
+    "text": "'Cyprian impress' means the stamp of Aphrodite (the Cyprian); the king means the women's features look like Egyptian figures made by male sculptors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "word",
+    "text": "Amazons were a legendary race of warrior women, here called 'mateless' because they lived without men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "kind": "word",
+    "text": "'Fane' means temple or sanctuary; Io served as a priestess of Hera at Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "word",
+    "text": "'Certes' is an archaic word meaning 'certainly' or 'assuredly'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 60,
+    "kind": "allusion",
+    "text": "The 'all-seeing one' is Argus Panoptes, a giant with many eyes, set by Hera to guard Io.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "kind": "allusion",
+    "text": "Hermes killed Argus at Zeus's bidding, freeing Io; this is why Hermes is known as Argeiphontes, 'slayer of Argus'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 68,
+    "kind": "word",
+    "text": "The 'sting' is the gadfly sent by Hera to drive Io, who had been turned into a cow, across the world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 70,
+    "kind": "word",
+    "text": "Brize is the Greek word for gadfly, here said to be an Egyptian usage; it is related to a verb meaning 'to sting'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 72,
+    "kind": "word",
+    "text": "'Drave' is an archaic past tense of 'drove'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 78,
+    "kind": "allusion",
+    "text": "Zeus begot Epaphus on Io by a mere touch of his hand, ending her torment and restoring her human form.",
+    "spoiler": false
+   },
+   {
+    "sentence": 82,
+    "kind": "allusion",
+    "text": "Epaphus's name is linked to the Greek verb for 'touch', as the play explains through the gentle touch of Zeus's hand.",
+    "spoiler": false
+   },
+   {
+    "sentence": 96,
+    "kind": "phrasing",
+    "text": "'With wisdom fraught' means full of wisdom; the King flatters the Chorus as he asks for the name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "kind": "word",
+    "text": "'Succour' means to help or aid someone in distress.",
+    "spoiler": false
+   },
+   {
+    "sentence": 104,
+    "kind": "allusion",
+    "text": "The King recognizes that the maidens, descended from Io of Argos, have an ancestral claim on Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 108,
+    "kind": "word",
+    "text": "Pelasgians: the old name for the people of Argos, whose king is here addressed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 108,
+    "kind": "phrasing",
+    "text": "'Of the self-same plume' means 'of the same kind'; troubles are likened to birds' feathers differing in colour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 120,
+    "kind": "phrasing",
+    "text": "The King suggests marriage to cousins strengthens a family's power and property, so their refusal seems unreasonable.",
+    "spoiler": false
+   },
+   {
+    "sentence": 122,
+    "kind": "phrasing",
+    "text": "The Chorus answers ironically: if such a marriage fails, a wife can easily be put away, meaning kinship offers women no protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 132,
+    "kind": "phrasing",
+    "text": "The King says Justice helps only if she favoured the maidens' claim from the start; he doubts that their cause is just.",
+    "spoiler": false
+   },
+   {
+    "sentence": 134,
+    "kind": "phrasing",
+    "text": "'Helm of the State' is the altar, wreathed with suppliant boughs, which symbolizes the city's guidance and safety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 139,
+    "kind": "word",
+    "text": "Palaechthon: the King's father, so the Chorus addresses the King by his lineage.",
+    "spoiler": false
+   },
+   {
+    "sentence": 146,
+    "kind": "allusion",
+    "text": "Justice (Dike) is called daughter of Zeus the Apportioner, the god who allots each person's due; the maidens appeal to divine order.",
+    "spoiler": false
+   },
+   {
+    "sentence": 148,
+    "kind": "phrasing",
+    "text": "The line is broken: the text is corrupt or incomplete here, so the sense is lost after the opening clause.",
+    "spoiler": false
+   },
+   {
+    "sentence": 151,
+    "kind": "word",
+    "text": "\"Commonalty\" means the common people or community; the King says the people as a whole must share in curing the pollution.",
+    "spoiler": false
+   },
+   {
+    "sentence": 155,
+    "kind": "phrasing",
+    "text": "\"Rule the altar, thy country's hearth\": the maidens say the King controls the city's public altars, so the decision is his alone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 164,
+    "kind": "allusion",
+    "text": "Zeus is the suppliant's god (Zeus Hikesios), who punishes those who reject or harm suppliants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 176,
+    "kind": "allusion",
+    "text": "Zeus is kindred to both sides through Io, his beloved and ancestress of the Danaids and of the sons of Aegyptus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 179,
+    "kind": "allusion",
+    "text": "\"The all-destroying god, who even in the realm of Death\" is Zeus of the suppliants, whose vengeance is said to reach beyond the grave.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 22,
+    "text": "Pelasgus is king of Argos; the Pelasgi were an early people of Greece, and he claims descent from Palaechthon, meaning \"ancient earth.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "The Strymon is a river in Thrace and Macedonia, marking the northern reach of his claimed realm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Apis is a legendary healer-seer from Naupactus, credited with freeing the land of serpents; the region took his name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "text": "Hera, wife of Zeus, was goddess of marriage and jealously punished his lovers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 52,
+    "text": "In the myth Hera transforms Io, though some versions say Zeus did it to hide her from Hera.",
+    "spoiler": false
+   },
+   {
+    "sentence": 76,
+    "text": "Canobus and Memphis are Egyptian places, Canobus on the Nile delta coast and Memphis the ancient capital. Io's wanderings ended in Egypt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 98,
+    "text": "Danaüs is the Chorus's father; his brother Aegyptus has fifty sons who pursue the fifty daughters, which is why they flee to Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 113,
+    "text": "The maidens are the Danaids, fifty daughters of Danaus, fleeing forced marriage to their cousins, the fifty sons of Aegyptus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 138,
+    "text": "Zeus, god of suppliants, punishes those who reject or harm people seeking sanctuary, which puts the King in a dilemma.",
+    "spoiler": false
+   },
+   {
+    "sentence": 146,
+    "text": "The Chorus are the fifty daughters of Danaus, who have fled Egypt to Argos to escape forced marriage to their cousins, the sons of Aegyptus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 150,
+    "text": "The King is Pelasgus of Argos. The maidens sit at public altars, so he argues the matter concerns the whole city, not his own household.",
+    "spoiler": false
+   },
+   {
+    "sentence": 156,
+    "text": "The maidens threaten religious pollution: if suppliants are mistreated or die at the altars, the city would be defiled and suffer divine anger.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "simile",
+    "text": "The suppliant daughters are compared to doves fearing hawks, picturing their helplessness and the danger from their pursuing cousins.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "rhetorical question",
+    "text": "Danaüs argues that preying on one's own kind is impure, turning the bird image into a moral claim against the cousins.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "metaphor",
+    "text": "Plague and serpents are treated as a disease cured by \"surgery and spells,\" presenting Apis as both physician and priest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "device": "characterization",
+    "text": "The King's courteous but skeptical tone shows him as cautious and rational, testing the maidens' claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 62,
+    "device": "epithet",
+    "text": "'All-seeing herdsman' compresses Argus's defining trait into a descriptive title, with irony in a watchman who is later killed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 74,
+    "device": "stichomythia",
+    "text": "The rapid one-line exchanges between King and Chorus, alternating question and answer, build the genealogy step by step and give the scene its brisk, legal-sounding rhythm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 102,
+    "device": "characterization",
+    "text": "After the genealogy, the Chorus turns proof of kinship into a direct plea for protection, showing their purpose and how they use argument to persuade.",
+    "spoiler": false
+   },
+   {
+    "sentence": 108,
+    "device": "metaphor",
+    "text": "Misfortunes are pictured as birds of differing plumage, giving a vivid image of how varied human suffering is.",
+    "spoiler": false
+   },
+   {
+    "sentence": 128,
+    "device": "characterization",
+    "text": "The King's cautious, practical reply shows a ruler weighing the risk of war to his people against religious duty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 140,
+    "device": "simile",
+    "text": "The fleeing maiden is compared to a heifer chased by wolves, conveying helplessness, fear and trust in a protector.",
+    "spoiler": false
+   },
+   {
+    "sentence": 154,
+    "device": "hyperbole",
+    "text": "The maidens exaggerate the King's power, calling him the whole State, to pressure him into deciding alone and to make him responsible for the outcome.",
+    "spoiler": false
+   },
+   {
+    "sentence": 161,
+    "device": "characterization",
+    "text": "The King's admission of perplexity shows a cautious ruler caught between two dangers, rather than a tyrant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 179,
+    "device": "simile",
+    "text": "Comparing careful counsel to a diver descending into the depths conveys how deeply and cautiously the King must probe the problem.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,464 @@
+{
+ "section_id": "pausanias-body-5",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7497,
+  "output": 3718
+ },
+ "result": {
+  "summary": "Pausanias describes the Rotunda and the statues of the Eponymi, the heroes who gave their names to the Athenian tribes. He digresses on the confusing royal lines of Cecrops and Pandion and Pandion's tragic daughters, then notes later additions: Attalus, Ptolemy and the Emperor Adrian.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Rotunda and the Eponymi",
+    "summary": "Pausanias describes the Rotunda and the statues of heroes who named the Athenian tribes, listing several of them.",
+    "stakes": "",
+    "present": [
+     "Hippothoon",
+     "Antiochus",
+     "Ajax",
+     "Leo",
+     "Erechtheus",
+     "Ægius",
+     "Œneus",
+     "Acamas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Rotunda, Athens",
+     "modern_name": "Athens, Ancient Agora",
+     "certainty": "real",
+     "lat": 37.9755,
+     "lon": 23.7215
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 14,
+    "title": "Cecrops, Pandion and Tereus",
+    "summary": "Pausanias untangles the two Cecrops and two Pandions, tells of Pandion's exile, death at Megara and return of his sons, and of Tereus' crime against Philomela.",
+    "stakes": "Pandion loses his kingdom and his daughters' fortunes are ruined.",
+    "present": [
+     "Cecrops",
+     "Pandion",
+     "Ægeus",
+     "Tereus",
+     "Procne",
+     "Philomela"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Megara",
+     "modern_name": "Megara, Greece",
+     "certainty": "real",
+     "lat": 37.9958,
+     "lon": 23.3469
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 17,
+    "title": "Later Eponymi and Adrian",
+    "summary": "Later Eponymi are named, and Pausanias praises the Emperor Adrian for piety, peace and benefactions recorded at Athens.",
+    "stakes": "",
+    "present": [
+     "Adrian",
+     "Attalus",
+     "Ptolemy"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9838,
+     "lon": 23.7275
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hippothoon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eponymous hero, son of Poseidon and Alope"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Hippothoon"
+   },
+   {
+    "name": "Alope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Cercyon, mother of Hippothoon"
+   },
+   {
+    "name": "Cercyon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Alope"
+   },
+   {
+    "name": "Antiochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eponymous hero, son of Hercules and Meda"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Antiochus"
+   },
+   {
+    "name": "Meda",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Phylas, mother of Antiochus"
+   },
+   {
+    "name": "Phylas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Meda"
+   },
+   {
+    "name": "Ajax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eponymous hero, son of Telamon"
+   },
+   {
+    "name": "Telamon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Ajax"
+   },
+   {
+    "name": "Leo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian hero who gave his daughters for the public good"
+   },
+   {
+    "name": "Erechtheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eponymous hero who defeated the Eleusinians"
+   },
+   {
+    "name": "Immaradus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eleusinian commander slain by Erechtheus, son of Eumolpus"
+   },
+   {
+    "name": "Eumolpus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Immaradus"
+   },
+   {
+    "name": "Ægius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eponymous hero"
+   },
+   {
+    "name": "Œneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Illegitimate son of Pandion, an Eponymus"
+   },
+   {
+    "name": "Pandion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian king, exiled to Megara, father of Ægeus"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Acamas"
+   },
+   {
+    "name": "Acamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Theseus, an Eponymus"
+   },
+   {
+    "name": "Cecrops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Name of two early Athenian kings"
+   },
+   {
+    "name": "Actæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of the first Cecrops' wife"
+   },
+   {
+    "name": "Erichthonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ancestor of the Pandions"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Eldest son of Pandion, became king of Athens"
+   },
+   {
+    "name": "Tereus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thracian king who wronged Philomela"
+   },
+   {
+    "name": "Procne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Tereus"
+   },
+   {
+    "name": "Philomela",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Woman dishonoured and murdered by Tereus"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess called the Diver at Megara"
+   },
+   {
+    "name": "Attalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mysian later made an Eponymus"
+   },
+   {
+    "name": "Ptolemy",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Egyptian later made an Eponymus"
+   },
+   {
+    "name": "Adrian",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor, pious and generous, honoured as an Eponymus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Hippothoon",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Alope",
+    "relation": "parent_of",
+    "b": "Hippothoon",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Cercyon",
+    "relation": "parent_of",
+    "b": "Alope",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Antiochus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Meda",
+    "relation": "parent_of",
+    "b": "Antiochus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Phylas",
+    "relation": "parent_of",
+    "b": "Meda",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Telamon",
+    "relation": "parent_of",
+    "b": "Ajax",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Eumolpus",
+    "relation": "parent_of",
+    "b": "Immaradus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Œneus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Theseus",
+    "relation": "parent_of",
+    "b": "Acamas",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Ægeus",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Tereus",
+    "relation": "spouse_of",
+    "b": "Procne",
+    "source": "text",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Eponymus",
+    "canonical": "Eponymi",
+    "explanation": "Greek term for the heroes after whom the Athenian tribes were named."
+   },
+   {
+    "alias": "Adrian",
+    "canonical": "Hadrian",
+    "explanation": "The translation's spelling of the Roman emperor Hadrian."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Pausanias' moral aside that mortals cannot escape divine will.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links civic monuments to genealogy and myth, showing how Athens remembered its past through statues and royal lines.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Adding Attalus, Ptolemy and Hadrian as Eponymi shows Athens honouring foreign benefactors and Roman emperors in the Hellenistic and Roman periods.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Hebrew revolt Pausanias mentions is probably the Bar Kokhba revolt of AD 132–135.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "The Prytanes were the fifty members of the council serving as presiding committee in each part of the year; the Rotunda (Tholos) was their dining and sacrificing place.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Refers to Herodotus's account of Cleisthenes reorganizing the Athenian tribes, replacing the four old Ionian tribes with ten.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Eponymus means a hero whose name is given to a tribe; the statues honoured these name-giving heroes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Leo's daughters were said to have been sacrificed during a plague or famine at the oracle's command, for the city's good.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Metionidæ were the sons of Metion, who had earlier driven Pandion from Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Made affinity\" means formed a marriage alliance; Pandion gave his daughter Procne to Tereus of Thrace.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Alludes to the myth of Tereus raping Philomela, Procne's sister, and the sisters' vengeance; the sentence is compressed and leaves out details.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Refers to the Jewish revolt under Hadrian (Adrian), the Bar Kokhba revolt, in Judaea.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 15,
+    "text": "Attalus of Pergamum and Ptolemy of Egypt were Hellenistic kings honoured by Athens with tribes named after them; Hadrian was later honoured likewise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The temple common to all the gods is the Pantheon built by Hadrian at Athens, which held a record of his benefactions.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "Moralizing aside",
+    "text": "Pausanias interrupts the narrative with a general maxim about fate and divine will, shaping how the reader judges Pandion's misfortunes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Characterization",
+    "text": "Hadrian is praised as pious and benevolent, presenting an idealized image of the emperor.",
+    "spoiler": false
+   }
+  ]
+ }
+}

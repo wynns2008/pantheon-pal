@@ -1,0 +1,332 @@
+{
+ "section_id": "pausanias-body-187",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8141,
+  "output": 2671
+ },
+ "result": {
+  "summary": "Pausanias continues his catalogue of victor statues in the Altis at Olympia, mostly Elean athletes, with notes on dedications by Thespians and Eleans to Hellenistic kings. He adds asides on the horse-race, a road distance to Lacedaemon, and a border arbitration.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 21,
+    "title": "Statues of victors in the Altis",
+    "summary": "Pausanias walks past statues of athletes and royal dedications, naming victors, sculptors and dedicators.",
+    "stakes": "",
+    "present": [
+     "Caprus",
+     "Plistænus",
+     "Tydeus",
+     "Timon",
+     "Aristides",
+     "Pyttalus",
+     "Dinosthenes",
+     "Glaucon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Altis at Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6385,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Caprus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Olympic victor who won with great effort"
+   },
+   {
+    "name": "Plistænus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Eurydamus, Ætolian general against the Galati"
+   },
+   {
+    "name": "Eurydamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Plistænus"
+   },
+   {
+    "name": "Tydeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean who erected statues of kings"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Demetrius; also a regent for Philip"
+   },
+   {
+    "name": "Seleucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King famed for capturing Demetrius"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King captured by Seleucus"
+   },
+   {
+    "name": "Timon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean pentathlete and garrison leader at Naupactus"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Demetrius, crowned by Greece"
+   },
+   {
+    "name": "Ptolemy",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Lagus, crowned by Elis"
+   },
+   {
+    "name": "Aristides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean victor at Olympia, Pythian and Nemean games"
+   },
+   {
+    "name": "Adrian",
+    "aliases": [
+     "the Emperor"
+    ],
+    "kind": "mortal",
+    "description": "Emperor who restored the horse-race at Nemea"
+   },
+   {
+    "name": "Philonides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan courier of Alexander"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Philip"
+   },
+   {
+    "name": "Pyttalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean boxer, arbitrator of the Arcadian border dispute"
+   },
+   {
+    "name": "Lampis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Pyttalus"
+   },
+   {
+    "name": "Dinosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lacedaemonian sprinter who set up a pillar"
+   },
+   {
+    "name": "Glaucon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian chariot victor, son of Eteocles"
+   },
+   {
+    "name": "Eteocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Glaucon"
+   },
+   {
+    "name": "Polypithes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lacedaemonian with a chariot statue"
+   },
+   {
+    "name": "Calliteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wrestler, father of Polypithes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Eurydamus",
+    "relation": "parent_of",
+    "b": "Plistænus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Antigonus",
+    "relation": "parent_of",
+    "b": "Demetrius",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Demetrius",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Calliteles",
+    "relation": "parent_of",
+    "b": "Polypithes",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Lampis",
+    "relation": "parent_of",
+    "b": "Pyttalus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Eteocles",
+    "relation": "parent_of",
+    "b": "Glaucon",
+    "source": "text",
+    "evidence_sentence": 21
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Adrian",
+    "canonical": "Hadrian",
+    "explanation": "The Roman emperor Hadrian, spelled Adrian in this translation."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The catalogue shows how Olympia's statues preserved civic pride, victories and political loyalties, including Elean ties to Hellenistic kings.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Dedications to Antigonus, Seleucus and Ptolemy show Greek cities courting Successor kings, while Hadrian's restoration of a race shows Roman patronage of Greek games.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias gives a road distance of 660 stades from Dinosthenes' pillar to one at Lacedaemon, a rare precise measurement.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Galati are the Gauls (Celts) who invaded Greece in 279 BC; the Ætolians led resistance against them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"Noised abroad\" is archaic for widely reported or made famous.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Pentathlum is the pentathlon: a five-event contest including running, jumping, discus, javelin and wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Regent\" here means Antigonus ruled on behalf of the young Philip; \"juxtaposition\" means placed side by side.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Desuetude\" means disuse; the race had lapsed from the festivals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Courier\" translates a long-distance runner who carried dispatches for Alexander.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Consuls\" renders proxenoi, citizens who looked after another city's visitors and interests.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "A stade was a unit of about 185 metres, so 660 stades is roughly 120 km.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"Were let any one know natives of Elis\" is garbled; it means they were, as anyone should know, natives of Elis.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Seleucus I captured Demetrius Poliorcetes, who died in captivity; Demetrius had been a famous besieger of cities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Eleans were excluded from the Isthmian games, traditionally because of an ancient curse connected with the Moliones.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Emperor Adrian is Hadrian, who ruled 117–138 AD and was a generous patron of Greek festivals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Dinosthenes' pillar recorded the distance between Olympia and Sparta, a kind of record of his running fame.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 0,
+    "device": "narrative voice",
+    "text": "Pausanias' guidebook style, listing statues as he passes, gives a catalogue-like tone with occasional personal comment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "personification",
+    "text": "Greece and Elis are statues crowning kings, personifying the cities' political favour toward rulers.",
+    "spoiler": false
+   }
+  ]
+ }
+}

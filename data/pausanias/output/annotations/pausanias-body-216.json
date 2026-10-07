@@ -1,0 +1,371 @@
+{
+ "section_id": "pausanias-body-216",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9831,
+  "output": 3460
+ },
+ "result": {
+  "summary": "Pausanias tells how the human sacrifices to Artemis Triclaria began, after Melanippus and Comaetho profaned her temple, and how Eurypylus, driven mad by a statue of Dionysus, ended them as the oracle had foretold. He rejects a rival version in which the Eurypylus of Olenus received the chest from Hercules.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Tomb of Eurypylus and Ionian festival",
+    "summary": "Pausanias notes the tomb of Eurypylus and promises to explain it, first describing the Ionians' shared shrine of Artemis Triclaria.",
+    "stakes": "",
+    "present": [
+     "Eurypylus",
+     "Artemis"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Patrae, between temple of Laphria and the altar",
+     "modern_name": "Patras",
+     "certainty": "real",
+     "lat": 38.2466,
+     "lon": 21.7346
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 12,
+    "title": "Melanippus, Comaetho and the sacrifices",
+    "summary": "Melanippus and Comaetho, forbidden to marry, couple in Artemis's temple. The goddess sends famine and plague, and Delphi demands the sacrifice of a handsome maiden and youth each year.",
+    "stakes": "The lovers risk the goddess's wrath, and the people suffer famine, disease and the yearly loss of youths.",
+    "present": [
+     "Comaetho",
+     "Melanippus",
+     "Artemis",
+     "Pythian Priestess"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Temple of Artemis Triclaria near Aroe",
+     "modern_name": "near Patras",
+     "certainty": "traditional",
+     "lat": 38.2466,
+     "lon": 21.7346
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 23,
+    "title": "Eurypylus ends the sacrifice",
+    "summary": "Eurypylus takes a chest containing a statue of Dionysus from Troy, goes mad, and is sent by Delphi to a land with a strange sacrifice. He lands at Aroe, is cured, and the sacrifices stop.",
+    "stakes": "Eurypylus risks permanent madness; the youths risk death at the altar.",
+    "present": [
+     "Eurypylus",
+     "Dionysus",
+     "Artemis",
+     "Cassandra",
+     "Aeneas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Aroe",
+     "modern_name": "Patras",
+     "certainty": "traditional",
+     "lat": 38.2466,
+     "lon": 21.7346
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 27,
+    "title": "Rival tradition rejected",
+    "summary": "Pausanias dismisses the version naming Eurypylus of Olenus, noting the people of Patras honour only the son of Euaemon.",
+    "stakes": "",
+    "present": [
+     "Eurypylus",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Patrae",
+     "modern_name": "Patras",
+     "certainty": "real",
+     "lat": 38.2466,
+     "lon": 21.7346
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Eurypylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thessalian king, son of Euaemon, who ended the sacrifices"
+   },
+   {
+    "name": "Comaetho",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "beautiful priestess of Artemis"
+   },
+   {
+    "name": "Melanippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "handsome youth who loved Comaetho"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Artemis Triclaria"
+    ],
+    "kind": "goddess",
+    "description": "goddess angered by the profanation of her temple"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose statue was in the chest"
+   },
+   {
+    "name": "Hephaestus",
+    "aliases": [],
+    "kind": "god",
+    "description": "said by some to have made the statue"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "said to have given the statue to Dardanus"
+   },
+   {
+    "name": "Dardanus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early recipient of the statue"
+   },
+   {
+    "name": "Aeneas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said by some to have left the chest behind"
+   },
+   {
+    "name": "Cassandra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said by some to have thrown the chest away"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said in a rival version to have given the chest to Eurypylus"
+   },
+   {
+    "name": "Euaemon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Eurypylus"
+   },
+   {
+    "name": "Dexamenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king at Olenus, father of the other Eurypylus"
+   },
+   {
+    "name": "Pythian Priestess",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Delphic oracle who blamed the lovers"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Euaemon",
+    "relation": "parent_of",
+    "b": "Eurypylus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Dexamenus",
+    "relation": "parent_of",
+    "b": "Eurypylus",
+    "source": "text",
+    "evidence_sentence": 24
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Milichus",
+    "canonical": "Amilichus",
+    "explanation": "The river, once called Amilichus (Relentless), was renamed Milichus (Mild) after the sacrifices ended."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "Pausanias's reflection that love is felt worth life excuses the lovers.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Love defying human and divine law brings collective punishment, and a prophesied foreign god brings relief.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The story explains a local cult of Artemis and Dionysus at Patras and the end of human sacrifice, and shows Pausanias weighing rival traditions.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "Pausanias defers the explanation, a habit of his: he promises to tell the story of Eurypylus after describing the earlier conditions of the country.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Antipodes\" here means exact opposites; old age is said to be the reverse of youth, especially in attitude toward love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Confound human laws\" means love overturns social rules and customs, even religious obligations such as the priestess's chastity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Amilichus means \"relentless\" or \"unappeased\", an etymological explanation of the river's name tied to the cruel sacrifices.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "The final clause is compressed and ambiguous: love is felt by humans as worth risking life for, so blame is lessened.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "Ilium is another name for Troy; the \"spoil\" is the plunder divided among the Greek leaders after the city fell.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Cassandra, Trojan prophetess whom no one believed, is here imagined discarding the chest as a curse on whichever Greek took it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "Cirrha was the port on the Gulf of Corinth serving Delphi, so Eurypylus landed near the oracle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "word",
+    "text": "Milichus is glossed \"Mild\": the river's name now reflects the end of the savage rite.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Hercules took part in an earlier expedition against Ilium, in the time of Laomedon, which explains the rival claim.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Aroe, Anthea and Mesatis were towns that later merged into Patrae in Achaea, a region once held by Ionians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Virgin priestesses were common in Artemis's cult, since she was a virgin goddess who demanded chastity of her servants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The Pythian Priestess was the oracle of Apollo at Delphi, consulted by Greek cities in times of plague or famine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Artemis Triclaria was worshipped near Patrae, where a youth and maiden were sacrificed to her annually, as Pausanias recounts earlier.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Dardanus was the legendary ancestor of the Trojan royal house; Hephaestus was the smith god, so the statue is given a divine pedigree.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Patras (Patrae) was the main city of the region; its local cult honoured Eurypylus within the Dionysus festival.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "characterization",
+    "text": "Pausanias generalizes about old age, portraying the parents as unsympathetic and setting generational conflict as the cause of the lovers' defiance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "cause and effect",
+    "text": "Divine anger is shown through famine and plague, a common ancient pattern linking human sacrilege to collective suffering.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "pathos",
+    "text": "The innocent youths dying for others' offense, and their grieving relatives, evoke pity and highlight the injustice of the punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "narrative voice",
+    "text": "Pausanias steps in with a personal judgment, softening blame and showing his reflective, sympathetic stance toward human passion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "foreshadowing",
+    "text": "The oracle's prophecy of a foreign king and god sets up the events that follow and their fulfilment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "irony",
+    "text": "The god's image, which will bring healing and end bloodshed, first drives its finder mad.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "symbolism",
+    "text": "The river's new name, Mild, marks the change from cruelty to gentleness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "narrative voice",
+    "text": "Pausanias intrudes as a critical historian, rejecting a rival tradition by appeal to what he finds plausible.",
+    "spoiler": false
+   }
+  ]
+ }
+}

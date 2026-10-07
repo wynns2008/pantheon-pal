@@ -1,0 +1,503 @@
+{
+ "section_id": "pausanias-body-106",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10166,
+  "output": 4196
+ },
+ "result": {
+  "summary": "Pausanias describes the southern Laconian coast: Zarax, Cyphanta, Brasiae and Las, with their temples, springs and local traditions. He records Brasiae's claim to have received Semele and Dionysus in a chest, and argues that Achilles cannot have been a suitor of Helen.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Zarax and Cyphanta",
+    "summary": "Pausanias describes the harbour of Zarax, razed by Cleonymus, and the ruins of Cyphanta with its temple of Aesculapius and the spring Atalanta is said to have struck from the rock.",
+    "stakes": "",
+    "present": [
+     "Cleonymus",
+     "Atalanta",
+     "Apollo",
+     "Æsculapius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Zarax",
+     "modern_name": "Ierakas, Laconia",
+     "certainty": "real",
+     "lat": 36.8,
+     "lon": 22.97
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 13,
+    "title": "Brasiae and Dionysus",
+    "summary": "The people of Brasiae tell how Semele and the infant Dionysus washed ashore in a chest and how Ino nursed him. Pausanias also lists their temples and small bronze statues.",
+    "stakes": "Semele and the infant Dionysus are cast into the sea in a chest by Cadmus.",
+    "present": [
+     "Semele",
+     "Dionysus",
+     "Cadmus",
+     "Ino",
+     "Æsculapius",
+     "Achilles",
+     "Athene"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Brasiae",
+     "modern_name": "Prasties (Leonidio area)",
+     "certainty": "real",
+     "lat": 37.1,
+     "lon": 22.9
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 24,
+    "title": "Las and its surroundings",
+    "summary": "Pausanias describes Las, its old and new towns, temples, the fountain Galaco, Hypsi, and the river Smenus.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Castor",
+     "Pollux",
+     "Athene",
+     "Hermes",
+     "Dionysus",
+     "Æsculapius",
+     "Apollo",
+     "Artemis",
+     "Las",
+     "Philip"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Las",
+     "modern_name": "near Passavas, Laconia",
+     "certainty": "real",
+     "lat": 36.65,
+     "lon": 22.5
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 28,
+    "title": "Who killed Las?",
+    "summary": "The locals say Achilles killed Las when he came to woo Helen. Pausanias argues from Homer that Achilles was not a suitor, and that Patroclus was the one.",
+    "stakes": "",
+    "present": [
+     "Las",
+     "Achilles",
+     "Patroclus",
+     "Helen",
+     "Tyndareus",
+     "Homer",
+     "Odysseus",
+     "Antilochus",
+     "Theseus",
+     "Pirithous"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Araïnum",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Cleonymus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan, son of Cleomenes, who razed Zarax"
+   },
+   {
+    "name": "Atalanta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "huntress said to have made water gush from a rock"
+   },
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Dionysus by Zeus, buried at Brasiae per local tradition"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Dionysus"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "son of Semele, reared at Brasiae"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "put Semele and Dionysus in a chest"
+   },
+   {
+    "name": "Ino",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "came to Brasiae and nursed Dionysus"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero honoured at Brasiae, said by Las to have killed Las"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with temples in many of these towns"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Carnean Apollo"
+    ],
+    "kind": "god",
+    "description": "god with temples at Zarax and Cnacadium"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Athene Asia"
+    ],
+    "kind": "goddess",
+    "description": "goddess with statues and temples"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "god",
+    "description": "Dioscuri twin, said to have founded temple of Athene Asia"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "god",
+    "description": "Dioscuri twin, brother of Castor"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero with a statue at Las"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with an ancient statue at Las"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [
+     "Daphnean Artemis",
+     "Artemis Dictynna"
+    ],
+    "kind": "goddess",
+    "description": "goddess with temples near Hypsi"
+   },
+   {
+    "name": "Las",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of the town Las, buried at Araïnum"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king whose army invaded Laconia"
+   },
+   {
+    "name": "Patroclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said by Pausanias to be Helen's suitor who killed Las"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman wooed by suitors"
+   },
+   {
+    "name": "Tyndareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Helen's father"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet cited as evidence"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero cited by Homer"
+   },
+   {
+    "name": "Antilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "speaker in the Games in the Iliad"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who carried off Helen"
+   },
+   {
+    "name": "Pirithous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "companion of Theseus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Semele",
+    "relation": "parent_of",
+    "b": "Dionysus",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Cleomenes",
+    "relation": "parent_of",
+    "b": "Cleonymus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Tyndareus",
+    "relation": "parent_of",
+    "b": "Helen",
+    "source": "outside",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Castor",
+    "relation": "sibling_of",
+    "b": "Pollux",
+    "source": "outside",
+    "evidence_sentence": 16
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Athene Asia",
+    "canonical": "Athene",
+    "explanation": "Cult title of Athene at Las, said to be copied from Colchis."
+   },
+   {
+    "alias": "Artemis Dictynna",
+    "canonical": "Artemis",
+    "explanation": "Cult title of Artemis at the promontory near Hypsi."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Pausanias gives a folk etymology linking Brasiae to the word for things cast ashore.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local traditions compete with panhellenic myth, and Pausanias tests them against Homer and other texts.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Place names and cults were explained through myths, such as Brasiae through Dionysus' chest, showing how Greek towns claimed ties to famous stories.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias reasons from Homer's chronology, not local memory, to reject the claim that Achilles was Helen's suitor.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Eleutherolacones means 'free Laconians': perioikic towns freed from Spartan control by Augustus and given their own league.",
+    "spoiler": false
+   },
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of about 185 metres, so 100 stades is roughly 18 km.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Pausanias refers back to his earlier account of Cleonymus, the Spartan prince who invaded Pyrrhus-era Greece; the reference is to an earlier book.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Stethæum derives from Greek stethos, 'chest' or 'breast', apparently a cult epithet of Æsculapius here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Atalanta is the legendary huntress, famed for her speed and for the Calydonian boar hunt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The usual Greek story has Semele killed by Zeus's lightning; here the locals claim she and the child came ashore in a chest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "'Brashed' is the translator's attempt to reproduce a Greek verb for being cast up by waves, supposedly giving Brasiæ its name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Corybantes were attendants of the Great Mother goddess, known for ecstatic dances; Pausanias is unsure which divine figures the statues show.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "A trophy was a monument of captured arms set up to mark a victory over an enemy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Castor and Pollux sailed with Jason on the Argo to Colchis, the land of the Golden Fleece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "Galaco comes from the Greek word for milk (gala); the spring is named for its milky colour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "The Catalogue of Women is a poem attributed to Hesiod listing heroines and their suitors, including Helen's.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Pausanias says Odysseus, though the translation elsewhere uses Ulysses; the allusion is to Odysseus's underworld tale in the Odyssey, where he wished to see Theseus and Pirithous.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Apollo was god of music and prophecy, and the lyre is his usual attribute.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Æsculapius was the god of healing, worshipped at sanctuaries across Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Ino was Semele's sister and, in myth, nursed the infant Dionysus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Achilles received hero-cult honours in parts of Laconia, with annual feasts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Philip is Philip V of Macedon, who invaded Laconia in 218 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Dictynna is a title of Artemis, linked with Crete and with nets (diktya) used in hunting and fishing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Tyndareus was king of Sparta and Helen's legal father; her suitors came to him to ask for her hand.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "aetiology",
+    "text": "The story explains the spring's origin through a mythic act of Atalanta, a typical way local legend accounts for landmarks.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "narrative voice",
+    "text": "Repeated 'they say' distances Pausanias from the local tradition, marking it as report rather than his own claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "characterization",
+    "text": "Pausanias' admission 'I know not' presents him as a careful, honest observer who does not guess beyond his knowledge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "narrative voice",
+    "text": "The blunt 'to speak truth' sets the author's critical judgment against local tradition, showing his rationalizing, scholarly stance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "argument from evidence",
+    "text": "Pausanias builds a chain of Homeric citations, answering the objection first, to show Achilles was too young to have wooed Helen.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -35,6 +35,9 @@ Hand corrections in aliases.json are applied last and always win. The report lis
 If data/<slug>/output/review.json exists (python -m annotate.review <slug>, Claude reading the whole tree once)
 its decisions are applied too: names it found to be one being are joined, and names it found wrongly joined are kept
 apart. Hand corrections win over these as well.
+
+If data/<slug>/output/namesakes.json exists (python -m annotate.namesakes <slug>) different people who share a name
+are kept apart: each section's entry for that name is given the name of the person it is.
 """
 import argparse
 import json
@@ -154,6 +157,31 @@ def wikidata_parents(qids: set[str], entities: dict) -> set[tuple[str, str]]:
     return links
 
 
+def apply_namesakes(out_dir: Path, annotations: dict[str, dict]) -> None:
+    """Different people who share a name (python -m annotate.namesakes): in the annotations ({section id: result}),
+    each section's entry for such a name takes the name of the person it is ("Ptolemy, son of Lagus"), and the shared
+    name no longer joins anyone. Changed in place; nothing happens if the book has no namesakes.json."""
+    names_file = out_dir / "namesakes.json"
+    if not names_file.exists():
+        return
+    renamed, shared = {}, set()
+    for s in json.loads(names_file.read_text(encoding="utf-8"))["split"]:
+        for g in s["groups"]:
+            for sid, name in g["entries"]:
+                renamed[(sid, norm(name))] = g["name"]
+                shared.add(norm(name))
+    for sid, a in annotations.items():
+        new = lambda name, sid=sid: renamed.get((sid, norm(name)), name)
+        for c in a["characters"]:
+            c["name"] = new(c["name"])
+            c["aliases"] = [x for x in c["aliases"] if norm(x) not in shared]
+        for r in a["relationships"]:
+            r["a"], r["b"] = new(r["a"]), new(r["b"])
+        for sc in a.get("scenes", []):          # who is present in each scene, so the reader can link them
+            sc["present"] = [new(x) for x in sc.get("present", [])]
+        a["alias_notes"] = [{**n, "canonical": new(n["canonical"])} for n in a["alias_notes"] if norm(n["alias"]) not in shared]
+
+
 def slugify(name: str) -> str:
     return re.sub(r"\s+", "-", norm(name)) or "unnamed"
 
@@ -168,6 +196,7 @@ def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
         d = json.loads(f.read_text(encoding="utf-8"))
         annotations[d["section_id"]] = d["result"]
     ids = sorted(annotations, key=order.get)
+    apply_namesakes(out_dir, annotations)
 
     # 1. Join names that are the same person. Evidence = sections where the model links two names.
     groups = Groups()

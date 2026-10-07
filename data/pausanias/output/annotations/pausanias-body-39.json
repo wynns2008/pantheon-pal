@@ -1,0 +1,483 @@
+{
+ "section_id": "pausanias-body-39",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8240,
+  "output": 4008
+ },
+ "result": {
+  "summary": "Pausanias describes the road from Eleusis to Megara, with the Well of Flowers, the temple of Metanira, the tombs of the Argives who fell at Thebes, and the tomb of Alope and Cercyon's wrestling ground. He then turns to Megaris and gives the Megarian and Boeotian accounts of its early kings and its name.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "The Well of Flowers",
+    "summary": "On the road to Megara is the well where Demeter sat as an old woman and was led to Metanira's house. Nearby stand Metanira's temple and the tombs of those who fell at Thebes.",
+    "stakes": "",
+    "present": [
+     "Demeter",
+     "Metanira"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Well of Flowers, near Eleusis",
+     "modern_name": "Eleusis",
+     "certainty": "traditional",
+     "lat": 38.0414,
+     "lon": 23.5397
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 4,
+    "title": "Burial of the Argive dead",
+    "summary": "Creon refused burial to the dead from Thebes; Adrastus appealed to Theseus, who brought the bodies to Eleusis. The Thebans deny any battle.",
+    "stakes": "The dead risk going unburied; Adrastus needs Theseus' help.",
+    "present": [
+     "Creon",
+     "Adrastus",
+     "Theseus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes and Eleusis",
+     "modern_name": "Eleusis",
+     "certainty": "real",
+     "lat": 38.0414,
+     "lon": 23.5397
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 10,
+    "title": "Alope and Cercyon's wrestling",
+    "summary": "Alope, mother of Hippothoon by Poseidon, was put to death by her father Cercyon. Cercyon killed those who wrestled him until Theseus beat him by skill.",
+    "stakes": "Challengers to Cercyon lose their lives; Alope was killed for her pregnancy.",
+    "present": [
+     "Alope",
+     "Cercyon",
+     "Theseus",
+     "Poseidon",
+     "Hippothoon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Cercyon's wrestling ground",
+     "modern_name": "Eleusis",
+     "certainty": "traditional",
+     "lat": 38.0414,
+     "lon": 23.5397
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 14,
+    "title": "Megaris under Athens and Dorians",
+    "summary": "Megaris first belonged to Athens, was ruled by Nisus, and was taken by the Peloponnesians in Codrus' time. The Megarians became Dorians.",
+    "stakes": "Megara's loss to the Peloponnesians changes its people's customs and dialect.",
+    "present": [
+     "Pandion",
+     "Pylas",
+     "Nisus",
+     "Ægeus",
+     "Codrus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Megaris",
+     "modern_name": "Megara",
+     "certainty": "real",
+     "lat": 37.9959,
+     "lon": 23.3445
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 21,
+    "title": "Origins of Megara's name",
+    "summary": "The Megarians trace the name to Car and their early kings, including Lelex and Sciron. The Boeotians say it came from Megareus, son of Poseidon.",
+    "stakes": "",
+    "present": [
+     "Car",
+     "Phoroneus",
+     "Megareus",
+     "Poseidon",
+     "Nisus",
+     "Minos",
+     "Lelex",
+     "Cleson",
+     "Pylas",
+     "Sciron",
+     "Pandion",
+     "Æacus",
+     "Iphinoe"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Megara",
+     "modern_name": "Megara",
+     "certainty": "real",
+     "lat": 37.9959,
+     "lon": 23.3445
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who sat at the well as an old woman"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Demeter's daughter, carried off"
+   },
+   {
+    "name": "Metanira",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Celeus' daughters, who entrusted her son to Demeter"
+   },
+   {
+    "name": "Celeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of the daughters who led Demeter home"
+   },
+   {
+    "name": "Creon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban regent who refused burial"
+   },
+   {
+    "name": "Laodamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Eteocles"
+   },
+   {
+    "name": "Eteocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Laodamas"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive who supplicated Theseus"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian hero, victor over Cercyon"
+   },
+   {
+    "name": "Alope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Hippothoon by Poseidon"
+   },
+   {
+    "name": "Hippothoon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Alope and Poseidon"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Hippothoon and Megareus"
+   },
+   {
+    "name": "Cercyon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "harsh wrestler who killed Alope"
+   },
+   {
+    "name": "Pandion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian king, given Megaris"
+   },
+   {
+    "name": "Pylas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who bequeathed Megaris to Pandion; also a later Megarian"
+   },
+   {
+    "name": "Nisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Megara, son of Pandion"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "head of the family, king of Attica"
+   },
+   {
+    "name": "Codrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian king during the Peloponnesian invasion"
+   },
+   {
+    "name": "Car",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early king of Megara, son of Phoroneus"
+   },
+   {
+    "name": "Phoroneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Car"
+   },
+   {
+    "name": "Megareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Poseidon, from whom Megara is named"
+   },
+   {
+    "name": "Minos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Cretan king at war with Nisus"
+   },
+   {
+    "name": "Lelex",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who came from Egypt"
+   },
+   {
+    "name": "Cleson",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lelex"
+   },
+   {
+    "name": "Sciron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Megarian commander, married Pandion's daughter"
+   },
+   {
+    "name": "Æacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "arbitrator between Sciron and Nisus"
+   },
+   {
+    "name": "Iphinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Nisus, wife of Megareus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Alope",
+    "relation": "parent_of",
+    "b": "Hippothoon",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Hippothoon",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Cercyon",
+    "relation": "parent_of",
+    "b": "Alope",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Megareus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Phoroneus",
+    "relation": "parent_of",
+    "b": "Car",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Lelex",
+    "relation": "parent_of",
+    "b": "Cleson",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Pandion",
+    "relation": "parent_of",
+    "b": "Nisus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Nisus",
+    "relation": "parent_of",
+    "b": "Iphinoe",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Megareus",
+    "relation": "spouse_of",
+    "b": "Iphinoe",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Eteocles",
+    "relation": "parent_of",
+    "b": "Laodamas",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Alope",
+    "relation": "lover_of",
+    "b": "Poseidon",
+    "source": "text",
+    "evidence_sentence": 5
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 8,
+    "reason": "Credits Theseus with turning wrestling from brute strength into a skilled science.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links places on the road to local myths, showing how landscape preserved memory of Demeter, Theseus and early kings.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The rival Athenian, Theban, Megarian and Boeotian accounts show local pride and politics shaping tradition, including Megara's Dorian takeover.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias admits he selects only material important enough to count as history, leaving out the rest.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Pamphus was an early Athenian poet whose hymns Pausanias often cites. Proserpine is the Roman name for Demeter's daughter, seized by Pluto (Hades).",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The dead are the Argive champions who fell in the expedition of the Seven against Thebes; Adrastus, king of Argos, led it and survived.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Supplicated\" means begged humbly for help, here asking Theseus to win back the bodies for burial.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "phrasing",
+    "text": "\"Bequeathed\" is loose: Pylas gave Megaris to Pandion, his kinsman, when he left after killing a relative.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "\"Dorians\" were Greeks of the Peloponnesian stock, distinct from Ionian Athenians in dialect and custom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Halls\" translates the Greek megara, which Pausanias offers as the origin of the city's name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Pretend to know nothing\" means the Megarians deny the Cretan war story, which is told in the Athenian and Boeotian versions.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Metanira was the wife of Celeus, king of Eleusis, and received Demeter into her house as nurse to her son.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Theseus was the Athenian hero-king, credited by tradition with founding scientific wrestling, as opposed to brute force.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Nisus and Ægeus were sons of Pandion; Ægeus received Attica, and Nisus received Megara.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Codrus was the last legendary king of Athens; the Dorian invasion of Attica failed in his time.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "irony",
+    "text": "Thebes denies the battle that Athenian tradition celebrates, so each city's local pride shapes how the same event is remembered.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "characterization",
+    "text": "Theseus is shown as clever rather than merely strong, and as an innovator who founded wrestling schools.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a selective historian who excludes unimportant material and states his own judgment.",
+    "spoiler": false
+   }
+  ]
+ }
+}

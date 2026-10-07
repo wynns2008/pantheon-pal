@@ -1,0 +1,338 @@
+{
+ "section_id": "pausanias-body-18",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8469,
+  "output": 3289
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of Athens, passing the temple of the Dioscuri, the grove of Aglaurus, the Prytaneum and temples of Serapis and Ilithyia. He then describes the Olympieion and the other buildings Hadrian gave the city, with side stories about Erichthonius, Deucalion's flood and Isocrates.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Dioscuri temple, Aglaurus grove, Prytaneum",
+    "summary": "Pausanias notes the temple of the Dioscuri with its paintings, then the grove of Aglaurus and its story. He ends at the Prytaneum and its statues.",
+    "stakes": "",
+    "present": [
+     "Pausanias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens, below the Acropolis",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7267
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 12,
+    "title": "Serapis, Pirithous, Ilithyia",
+    "summary": "Pausanias describes the temple of Serapis, the place where Pirithous and Theseus made their agreement, and the temple of Ilithyia with its draped statues.",
+    "stakes": "",
+    "present": [
+     "Pausanias",
+     "Ilithyia",
+     "Serapis",
+     "Pirithous",
+     "Theseus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lower city of Athens",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.969,
+     "lon": 23.73
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 23,
+    "title": "Olympieion and Hadrian's buildings",
+    "summary": "Pausanias describes the great temple of Olympian Zeus, its statues and precinct, and Hadrian's other buildings. These include the temple of all the gods, a library room and a gymnasium.",
+    "stakes": "",
+    "present": [
+     "Pausanias",
+     "Adrian",
+     "Isocrates",
+     "Deucalion"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Olympian Zeus",
+     "modern_name": "Olympieion, Athens",
+     "certainty": "real",
+     "lat": 37.9693,
+     "lon": 23.733
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the narrator touring Athens"
+   },
+   {
+    "name": "Aglaurus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sister who opened the chest and threw herself from the Acropolis"
+   },
+   {
+    "name": "Erse",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sister who opened the chest and went mad"
+   },
+   {
+    "name": "Pandrosus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sister who obeyed Athene"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who gave Erichthonius to the sisters in a chest"
+   },
+   {
+    "name": "Erichthonius",
+    "aliases": [],
+    "kind": "creature",
+    "description": "child hidden in the chest"
+   },
+   {
+    "name": "Ilithyia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of childbirth who helped Leto"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess aided in labour by Ilithyia"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Ilithyia in Cretan belief"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian hero who made an agreement with Pirithous"
+   },
+   {
+    "name": "Pirithous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "companion of Theseus"
+   },
+   {
+    "name": "Adrian",
+    "aliases": [
+     "Emperor Adrian"
+    ],
+    "kind": "mortal",
+    "description": "Roman emperor who built many Athenian monuments"
+   },
+   {
+    "name": "Deucalion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "survivor of the flood, said to have built the old Olympian Zeus temple"
+   },
+   {
+    "name": "Isocrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "orator honoured with a statue"
+   },
+   {
+    "name": "Serapis",
+    "aliases": [],
+    "kind": "god",
+    "description": "Egyptian god worshipped in Athens"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Olympian Zeus"
+    ],
+    "kind": "god",
+    "description": "king of the gods, worshipped in the great temple"
+   },
+   {
+    "name": "Erysichthon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "brought the oldest statue of Ilithyia from Delos"
+   },
+   {
+    "name": "Phædra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dedicated two Cretan statues of Ilithyia"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hera",
+    "relation": "parent_of",
+    "b": "Ilithyia",
+    "source": "text",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Adrian",
+    "canonical": "Hadrian",
+    "explanation": "The translation spells the Roman emperor's name Adrian."
+   },
+   {
+    "alias": "Vesta",
+    "canonical": "Hestia",
+    "explanation": "Vesta is the Roman name of the Greek goddess Hestia."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Pausanias sums up Isocrates' life in three virtues: industry, wisdom and love of liberty.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias mixes sights with local legends, such as the chest of Erichthonius and Deucalion's flood, to show how places keep memory.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The long account of Hadrian's gifts shows Athens flourishing under Roman patronage in the 2nd century AD, while Pausanias regrets that old heroes' statues were replaced.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says the Olympieion's colossal statue of Zeus was larger than any except the Colossi at Rhodes and Rome.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Designed standing\" means the Dioscuri are represented standing, while their sons are shown seated on horseback; the sons' names are not given here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Refers to the Persian sack of Athens in 480 BC, when defenders trusting a 'wooden wall' oracle fortified the Acropolis with palisades; Themistocles read the wall as ships.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Pancratiast: a competitor in the pancratium, an athletic contest combining wrestling and boxing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Pausanias complains that old statues of Miltiades and Themistocles were reinscribed for a Roman and a Thracian, reusing the bronzes for later honorees.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The Hymn of Olen: Olen was a legendary Lycian poet credited with early hymns sung at Delos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Adrian\" is this translation's spelling of Hadrian, the Roman emperor. A stade is about 600 feet (roughly 185 m).",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Deucalion's flood was the Greek myth of a great deluge; Deucalion and his wife survived it in a chest or ark.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The battle of Chæronea (338 BC) was Philip of Macedon's victory over Athens and Thebes, which ended Greek independence.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Polygnotus and Micon were famous fifth-century BC painters who decorated several Athenian buildings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "text": "Erichthonius was a legendary early king of Athens, born from the earth and raised by Athene.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "text": "The Prytaneum was the city's civic hearth building, where the sacred fire burned and honored citizens dined.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Serapis was a Greco-Egyptian god promoted under the Ptolemies, the Macedonian rulers of Egypt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Ilithyia was the goddess of childbirth; Leto was the mother of Apollo and Artemis, born on Delos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Isocrates was a famous Athenian orator and teacher of rhetoric, who died in 338 BC.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "foreshadowing",
+    "text": "The sisters' disobedience and madness hint at the danger of forbidden curiosity, a pattern in myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "irony",
+    "text": "Pausanias' bitter exclamation mocks the Athenians for dishonoring their great heroes, sharpening his sense of civic decline.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "characterization",
+    "text": "Hadrian is shown as a grand builder, his scale and the Athenians' flattery measured by the huge statues.",
+    "spoiler": false
+   }
+  ]
+ }
+}

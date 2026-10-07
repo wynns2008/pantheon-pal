@@ -1,0 +1,233 @@
+{
+ "section_id": "pausanias-body-121",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7299,
+  "output": 2190
+ },
+ "result": {
+  "summary": "Omens foretell the fall of Ithome, and Aristodemus, troubled by a dream and by the renewed blindness of Ophioneus, kills himself at his daughter's grave. The Messenians appoint Damis dictator, but after famine and heavy losses they abandon Ithome in the twentieth year of the war.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Omens and death of Aristodemus",
+    "summary": "Portents of brass shield, rams and dogs trouble Aristodemus, and a dream of his dead daughter troubles him more. When Ophioneus goes blind again he understands the oracle and kills himself at her grave.",
+    "stakes": "Aristodemus's hope of saving Messenia and his own life, which he loses in despair.",
+    "present": [
+     "Aristodemus",
+     "Ophioneus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ithome",
+     "modern_name": "Mount Ithome, Messenia",
+     "certainty": "real",
+     "lat": 37.1767,
+     "lon": 21.9211
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 15,
+    "title": "Damis and the fall of Ithome",
+    "summary": "The Messenians appoint Damis dictator, but famine and losses force them to leave Ithome after twenty years of war. The war is dated by Olympiad and Athenian archons.",
+    "stakes": "The Messenians' survival in their stronghold against siege and famine, which is lost.",
+    "present": [
+     "Damis",
+     "Cleonnis",
+     "Phyleus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ithome",
+     "modern_name": "Mount Ithome, Messenia",
+     "certainty": "real",
+     "lat": 37.1767,
+     "lon": 21.9211
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of the Messenians who sacrificed his daughter and then killed himself"
+   },
+   {
+    "name": "Ophioneus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man whose sight was restored and then lost again, fulfilling the oracle"
+   },
+   {
+    "name": "Damis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian appointed dictator after the king's death"
+   },
+   {
+    "name": "Cleonnis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Coadjutor chosen by Damis"
+   },
+   {
+    "name": "Phyleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Coadjutor chosen by Damis"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess whose brass statue dropped its shield"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of Ithome to whom Aristodemus sacrificed"
+   },
+   {
+    "name": "Tyrtæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet whose lines attest the war's length"
+   },
+   {
+    "name": "Dasmon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian victor in the stadium race"
+   },
+   {
+    "name": "Hippomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian official used to date the war's end"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Aristodemus",
+    "relation": "parent_of",
+    "b": "Aristodemus's daughter",
+    "source": "text",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 14,
+    "reason": "Quotes Tyrtæus, contemporary testimony that Ithome fell in the twentieth year.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Fate and ambiguous oracles dominate: signs and dreams are understood only once too late, and human effort, even terrible sacrifice, cannot avert destiny.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias dates the war with Olympiads and Athenian archons and cites Tyrtæus, showing how he anchors early Messenian history in poetry and chronology.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Messenians buried notable men in white robes with crowns, which is why Aristodemus read his dream as foretelling his death.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "phrasing",
+    "text": "\"Turned the scales\" pictures fate as a balance tipping toward Ithome's capture; the god's predictions are the omens that follow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "White robes and crowns marked Messenian burial of notable men, so Aristodemus reads the golden crown and white robe as a sign of his death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Refers to the earlier Pythian oracle, given at Delphi, whose riddle about a hidden pair reappearing is now read as the eyes of Ophioneus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "His daughter had been sacrificed earlier at the oracle's demand, in an attempt to save Messenia; hence \"to no purpose\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Dictator\" here translates a title for a chosen leader with supreme power (autocrat), not a king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "\"Coadjutors\" means assistants or colleagues in command.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "Dating by Olympiad and Athenian archons: the Medontidae held a ten-year archonship, and Hippomenes was in his fourth year. The fourteenth Olympiad is about 724 BC.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "The Lacedæmonians are the Spartans, the Messenians' enemies in this war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Tyrtæus was a Spartan war poet of the period, cited here as a witness for the war's twenty-year length.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "foreshadowing",
+    "text": "The dropped shield and self-slaughtering rams are omens of defeat and death, and they suggest that the gods have turned against Ithome.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "device": "symbolism",
+    "text": "The dead daughter taking away armour and giving a crown and robe symbolizes the end of war and the coming of death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "irony",
+    "text": "His sacrifice of his daughter failed, and a man who might have saved his country is undone by fortune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "allusion",
+    "text": "The quoted Tyrtæus verse lends the historian's account poetic authority and an elegiac tone of exile.",
+    "spoiler": false
+   }
+  ]
+ }
+}

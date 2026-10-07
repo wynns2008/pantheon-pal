@@ -48,6 +48,10 @@ def listed_footnotes(text: str) -> dict[str, str]:
         body = " ".join(text[m.end():following.start() if following else len(text)].split())
         if body.startswith("[") and body.endswith("]"):       # Butler wraps every note in brackets
             body = body[1:-1].strip()
+            # ...and a note that runs on to a second paragraph was closed after the first too ("wash.] A lady...").
+            extra = body.count("]") - body.count("[")
+            if extra > 0:
+                body = re.sub(r"(?<=[.!?”’])\](?=\s)", "", body, count=extra)
         notes.setdefault(m.group(1), body)
     return notes
 

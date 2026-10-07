@@ -1,0 +1,319 @@
+{
+ "section_id": "pausanias-body-179",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7505,
+  "output": 2731
+ },
+ "result": {
+  "summary": "Pausanias lists further statues of Olympic victors at Olympia, noting their sculptors and some stories about the athletes. He doubts the tale of Damarchus turning into a wolf, and tells of Timanthes' self-immolation and Timasitheus' death after joining Isagoras at Athens.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Statues of early victors",
+    "summary": "Pausanias names victors and sculptors, including Amertus, Euanoridas, Damarchus and Eubotas. He rejects the wolf-transformation tale about Damarchus.",
+    "stakes": "",
+    "present": [
+     "Socrates of Pellene",
+     "Amertus",
+     "Euanoridas",
+     "Damarchus",
+     "Eubotas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 14,
+    "title": "Timanthes and Arcadian athletes",
+    "summary": "Statues of Timanthes, Baucis and Arcadian athletes are listed. Timanthes is said to have burned himself alive when he could no longer bend his bow.",
+    "stakes": "Timanthes cannot bear losing his strength and chooses death.",
+    "present": [
+     "Timanthes",
+     "Baucis",
+     "Euthymenes",
+     "Philip",
+     "Critodamus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 19,
+    "title": "Timasitheus of Delphi",
+    "summary": "Timasitheus won many victories and was brave in war. He joined Isagoras' seizure of the Acropolis and was executed by the Athenians.",
+    "stakes": "Timasitheus risks his life by joining Isagoras' attempt to seize Athens.",
+    "present": [
+     "Promachus",
+     "Timasitheus",
+     "Isagoras"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Acropolis of Athens",
+     "modern_name": "Acropolis, Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Socrates of Pellene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Winner of the boys' race"
+   },
+   {
+    "name": "Amertus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean wrestler who won at the Pythian games"
+   },
+   {
+    "name": "Euanoridas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean boy wrestler who became an umpire and listed victors"
+   },
+   {
+    "name": "Damarchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian boxer said to have become a wolf"
+   },
+   {
+    "name": "Eubotas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Runner of Cyrene who had his statue made beforehand"
+   },
+   {
+    "name": "Timanthes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Pancratium winner who burned himself alive"
+   },
+   {
+    "name": "Baucis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wrestler of Trœzen"
+   },
+   {
+    "name": "Euthymenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian wrestler of Mænalus"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boy boxer from Pellene, son of Azan"
+   },
+   {
+    "name": "Critodamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Boy boxer from Clitor"
+   },
+   {
+    "name": "Promachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Pancratiast of Pellene, son of Dryon"
+   },
+   {
+    "name": "Timasitheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Delphian pancratiast executed at Athens"
+   },
+   {
+    "name": "Isagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian who seized the Acropolis"
+   },
+   {
+    "name": "Dinnytas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Damarchus"
+   },
+   {
+    "name": "Azan",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Philip"
+   },
+   {
+    "name": "Dryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Promachus"
+   },
+   {
+    "name": "Zeus Lycæus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God at whose sacrifice the wolf change was said to occur"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Dinnytas",
+    "relation": "parent_of",
+    "b": "Damarchus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Azan",
+    "relation": "parent_of",
+    "b": "Philip",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Dryon",
+    "relation": "parent_of",
+    "b": "Promachus",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Damarchus",
+    "relation": "transformed_into",
+    "b": "wolf",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "Pausanias' judgment that such self-destruction is madness rather than bravery.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs athletic fame against folklore, skeptically judging tales like the wolf-man and the self-burning athlete.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Olympic statues served as public records of victories, and Pausanias uses them as evidence, including for the Isagoras episode in Athenian politics around 508 BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Damarchus wolf story belongs to the Arcadian werewolf tradition, often cited in the history of lycanthropy legends."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Euanoridas is said to have compiled a list of Olympic victors, an early example of such record-keeping.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Umpire\" translates Hellanodikes, the Elean judges who presided over the Olympic games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "The tale of a man turned wolf at the sacrifice to Zeus Lycæus (\"wolf Zeus\") belongs to Arcadian Mount Lycaeus lore.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "The Eleans struck from their records the Olympiad held by the Arcadians, who had seized control of the sanctuary; hence it was \"not reckoned\".",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "The pancratium was a brutal combination of wrestling and boxing with very few restrictions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Isagoras' seizure of the Acropolis happened c. 508 BC, when he sought Spartan help against Cleisthenes' reforms.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "The Pythian games were held at Delphi in honour of Apollo, and ranked among the great Greek festivals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Victors' statues at Olympia were normally set up after the victory; Eubotas' reversal is meant to show his certainty.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Ageladas of Argos was a famous early fifth-century sculptor, said to have taught Myron, Phidias and Polycleitus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "characterization",
+    "text": "Pausanias reveals his rationalist, skeptical narrative voice, setting the Olympic fact against what he dismisses as boastful fictions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "irony",
+    "text": "A man's devotion to strength ends in self-destruction when he cannot bend his bow; his pride turns to tragedy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "narrative voice",
+    "text": "Pausanias breaks from listing to give a blunt personal verdict, redefining courage as distinct from madness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "foreshadowing",
+    "text": "The reversal from constant good fortune hints at the coming downfall, which the next sentence explains.",
+    "spoiler": false
+   }
+  ]
+ }
+}

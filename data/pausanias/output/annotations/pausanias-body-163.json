@@ -1,0 +1,658 @@
+{
+ "section_id": "pausanias-body-163",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10966,
+  "output": 5584
+ },
+ "result": {
+  "summary": "Pausanias continues describing the carved chest of Cypselus at Olympia, listing mythological scenes on its left side and its inscriptions. He then interprets the uninscribed top side and ends by doubting who made the chest, suggesting Eumelus the Corinthian.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "Left side: heroes and Helen",
+    "summary": "Pausanias lists scenes of Boreas, Hercules, Theseus, Achilles, Ajax and Hector, and the Dioscuri rescuing Helen and Aethra, with an inscription quoted.",
+    "stakes": "",
+    "present": [
+     "Boreas",
+     "Orithyia",
+     "Hercules",
+     "Geryon",
+     "Theseus",
+     "Ariadne",
+     "Achilles",
+     "Memnon",
+     "Melanion",
+     "Atalanta",
+     "Ajax",
+     "Hector",
+     "Castor",
+     "Pollux",
+     "Helen",
+     "Æthra"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 26,
+    "title": "Trojan scenes and Theban doom",
+    "summary": "The chest shows Iphidamas and Coon, the Judgment of Paris, Ajax and Cassandra, Polynices and Eteocles, and Dionysus in a cave, many with inscriptions.",
+    "stakes": "",
+    "present": [
+     "Iphidamas",
+     "Coon",
+     "Agamemnon",
+     "Hermes",
+     "Paris",
+     "Hera",
+     "Athene",
+     "Aphrodite",
+     "Artemis",
+     "Ajax",
+     "Cassandra",
+     "Polynices",
+     "Eteocles",
+     "Dionysus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 38,
+    "title": "Top side and the chest's maker",
+    "summary": "Pausanias interprets the uninscribed top side as Odysseus and Circe, Thetis receiving arms, Nausicaa and Hercules, then guesses the maker was Eumelus.",
+    "stakes": "",
+    "present": [
+     "Odysseus",
+     "Circe",
+     "Thetis",
+     "Hephæstus",
+     "Chiron",
+     "Achilles",
+     "Nausicaa",
+     "Hercules",
+     "Eumelus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Boreas",
+    "aliases": [],
+    "kind": "god",
+    "description": "North wind carrying off Orithyia, with serpent tails for feet"
+   },
+   {
+    "name": "Orithyia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman carried off by Boreas"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero fighting Geryon and Centaurs"
+   },
+   {
+    "name": "Geryon",
+    "aliases": [],
+    "kind": "monster",
+    "description": "three men in one"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero shown with a lyre"
+   },
+   {
+    "name": "Ariadne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "woman with a garland near Theseus"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "fights Memnon"
+   },
+   {
+    "name": "Memnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "fights Achilles"
+   },
+   {
+    "name": "Melanion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "shown beside Atalanta"
+   },
+   {
+    "name": "Atalanta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "shown with a fawn"
+   },
+   {
+    "name": "Ajax",
+    "aliases": [
+     "Locrian Ajax"
+    ],
+    "kind": "mortal",
+    "description": "fights Hector; also drags Cassandra from Athene's statue"
+   },
+   {
+    "name": "Hector",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "duels Ajax"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the Dioscuri"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "one of the Dioscuri"
+   },
+   {
+    "name": "Helen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "shown between Castor and Pollux"
+   },
+   {
+    "name": "Æthra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Pittheus, prostrate before Helen"
+   },
+   {
+    "name": "Pittheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Æthra"
+   },
+   {
+    "name": "Iphidamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Agenor, slain"
+   },
+   {
+    "name": "Agenor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Iphidamas"
+   },
+   {
+    "name": "Coon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "fights Agamemnon over Iphidamas"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "fights Coon; shield bears Fear"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "brings goddesses to Paris"
+   },
+   {
+    "name": "Paris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Priam, judge of beauty"
+   },
+   {
+    "name": "Priam",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Paris"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess in the judgment"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess in the judgment; her statue"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess in the judgment"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "winged, holding leopard and lion"
+   },
+   {
+    "name": "Cassandra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "dragged from Athene's statue"
+   },
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Œdipus, falling"
+   },
+   {
+    "name": "Eteocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Œdipus, pressing Polynices"
+   },
+   {
+    "name": "Œdipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Polynices and Eteocles"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "bearded, lying in a cave with a golden bowl"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "thought to sleep with Circe"
+   },
+   {
+    "name": "Circe",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "woman attended by four handmaids"
+   },
+   {
+    "name": "Thetis",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "receives arms from Hephæstus"
+   },
+   {
+    "name": "Hephæstus",
+    "aliases": [],
+    "kind": "god",
+    "description": "lame smith giving arms"
+   },
+   {
+    "name": "Chiron",
+    "aliases": [],
+    "kind": "creature",
+    "description": "Centaur said to comfort Achilles"
+   },
+   {
+    "name": "Nausicaa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Alcinous, driving to wash"
+   },
+   {
+    "name": "Alcinous",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Nausicaa"
+   },
+   {
+    "name": "Eumelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian poet suspected as author of the inscriptions"
+   },
+   {
+    "name": "Calliphon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Samian painter of Strife at Ephesus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Pittheus",
+    "relation": "parent_of",
+    "b": "Æthra",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Agenor",
+    "relation": "parent_of",
+    "b": "Iphidamas",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Priam",
+    "relation": "parent_of",
+    "b": "Paris",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Œdipus",
+    "relation": "parent_of",
+    "b": "Polynices",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Œdipus",
+    "relation": "parent_of",
+    "b": "Eteocles",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Alcinous",
+    "relation": "parent_of",
+    "b": "Nausicaa",
+    "source": "text",
+    "evidence_sentence": 36
+   },
+   {
+    "a": "Castor",
+    "relation": "sibling_of",
+    "b": "Pollux",
+    "source": "outside",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Polynices",
+    "relation": "sibling_of",
+    "b": "Eteocles",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Thetis",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "outside",
+    "evidence_sentence": 3
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Locrian Ajax",
+    "canonical": "Ajax",
+    "explanation": "The inscription distinguishes the Locrian Ajax from the other Ajax, who fights Hector."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "Quoted inscription on the chest naming the Dioscuri's rescue of Helen and Æthra.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "reason": "Inscription naming Fear on Agamemnon's shield.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The chest compresses Greek myth into a catalogue of heroic episodes, with inscriptions and Pausanias's interpretations showing how images were read.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias reasons about authorship and meaning from Homer, tradition and archaic poets like Eumelus, showing how ancient antiquarians identified old art.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The inscriptions on the chest were reportedly written in boustrophedon style, though this section only notes their verse form.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Boreas, the North Wind, carried off Orithyia, daughter of the Athenian king Erechtheus. Here he is shown with serpents' tails as a monstrous being.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Geryon was a monster whose cattle Hercules had to fetch as one of his labours; he was imagined with three bodies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Memnon, an Ethiopian king, fought Achilles at Troy. Their mothers, Eos (Dawn) and Thetis, are shown standing by.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Melanion won the swift huntress Atalanta as his bride; in some versions by beating her in a race.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "The inscription is one full hexameter verse plus one extra word, so it does not fit the metre exactly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Castor and Pollux (the Dioscuri) invaded Attica to recover their sister Helen, whom Theseus had abducted, and took Æthra, Theseus' mother, as a captive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "\"Bestrides\" means stands astride the fallen man to defend or strip him, a standard Homeric image of fighting over a corpse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Dainty\" here means delightful or exquisite, describing the goddesses' beauty rather than anything delicate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Winged Artemis with beasts is the \"Mistress of Animals\" type from early Greek art; Pausanias does not recognize it, hence \"I know not why.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Locrian Ajax, not the greater Ajax, violated Cassandra at Athene's statue during the sack of Troy; the Locrian label distinguishes him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "\"Doom\" translates Greek Ker, a death-spirit of violent fate; the inscription gives it a voice on the chest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "\"Conjecture\" means to guess from indirect evidence; Pausanias often admits he is interpreting unlabeled images, since this side has no inscription.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "Refers to Homer's Odyssey, where Circe's four maidservants prepare the house, with tasks like laying covers, setting tables, mixing wine and heating water.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "Alludes to the Iliad, where Thetis, mother of Achilles, gets new armour from Hephæstus after Patroclus' death, and the Nereids are her sister sea-nymphs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "Refers to a tradition that Chiron, the wise Centaur, returned from heaven to console Achilles; this explains the Centaur's presence in the scene.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "kind": "allusion",
+    "text": "Alludes to Odyssey Book 6, where Nausicaa drives a mule-cart to wash clothes and meets the shipwrecked Odysseus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "phrasing",
+    "text": "\"Suspicion points to\" signals only a guess; Pausanias attributes the chest to Eumelus, an early Corinthian poet, from his supposed style and a Delos hymn.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Theseus was the Athenian hero who, with Ariadne's help, killed the Minotaur in Crete.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "The temple of Artemis at Ephesus was one of the most famous sanctuaries of the Greek world.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Castor and Pollux were twin sons of Leda, brothers of Helen, and divine protectors of travellers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "In the Iliad, Agamemnon kills Iphidamas, and Coon, Antenor's son, wounds Agamemnon while trying to protect his brother's body.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Paris judged which goddess was fairest, choosing Aphrodite, who promised him Helen; this led to the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Oedipus' sons Polynices and Eteocles fought over Thebes' throne and killed each other in single combat.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "text": "Dionysus is the god of wine; the vines and fruit mark his association with fertility and abundance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "text": "Hephæstus, god of the forge, was lame, so Pausanias identifies him by his limp and the smith's tongs carried by his servant.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "text": "Hercules fought Centaurs at the cave of Pholus, a well-known labour-related episode, so he is identified from the scene.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "personification",
+    "text": "Strife appears as a hateful figure standing beside the duel, embodying the discord and hostility of the fight.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "characterization",
+    "text": "The dark dress and prostrate pose show Æthra's humiliation as a captive, visually contrasting with Helen's rescue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "narrative voice",
+    "text": "Pausanias stresses exact quotation, showing his careful, eyewitness approach as a guide.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "symbolism",
+    "text": "Fear on the shield, shown as a lion-headed figure, symbolizes the terror Agamemnon spreads; the Iliad likewise describes Fear on his shield.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "personification",
+    "text": "Fear is treated as a being that Agamemnon \"has got,\" turning an abstract emotion into a captured figure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "personification",
+    "text": "Doom appears as a fanged, clawed monster, giving death's inevitability a frightening bodily form.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "characterization",
+    "text": "Pausanias reasons like an investigator, using the handmaids' number and tasks as evidence, presenting himself as a careful, learned observer.",
+    "spoiler": false
+   }
+  ]
+ }
+}

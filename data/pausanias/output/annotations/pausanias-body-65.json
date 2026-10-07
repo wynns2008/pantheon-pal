@@ -1,0 +1,475 @@
+{
+ "section_id": "pausanias-body-65",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10075,
+  "output": 4055
+ },
+ "result": {
+  "summary": "Pausanias tours the market-place of Argos, listing tombs, temples and monuments with the local stories attached to them. He discusses the burial of Pyrrhus, the head of Medusa and the Tritonian marsh account, and the Argive legends of Laphaes and Chloris, daughter of Niobe.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Tombs and temples of the market-place",
+    "summary": "Pausanias lists the tombs and temples near the market-place, including those of Hypermnestra, Epimenides and the Pyrrhus pyre building.",
+    "stakes": "",
+    "present": [
+     "Pausanias",
+     "Hypermnestra",
+     "Hegeleus",
+     "Epimenides",
+     "Pyrrhus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Market-place of Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 18,
+    "title": "The grave of Medusa",
+    "summary": "A mound is said to cover Medusa's head. Pausanias gives a rationalised account of her as a Libyan queen, then a second from Procles, and notes Perseus' tomb.",
+    "stakes": "Medusa is slain by Perseus in the told account.",
+    "present": [
+     "Medusa",
+     "Perseus",
+     "Procles",
+     "Athene",
+     "Phorcus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Tritonian marsh",
+     "modern_name": "Lake Tritonis, Tunisia",
+     "certainty": "traditional",
+     "lat": 33.8,
+     "lon": 8.4
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 26,
+    "title": "Laphaes and the temple of Leto",
+    "summary": "Pausanias notes a trophy for Laphaes, the temple of Leto and the story of Chloris, who was turned pale from fear.",
+    "stakes": "Niobe's children are killed; Melibœa and Amyclas survive only by supplicating Leto.",
+    "present": [
+     "Laphaes",
+     "Leto",
+     "Chloris",
+     "Amyclas",
+     "Niobe",
+     "Apollo",
+     "Artemis"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 27,
+    "end_sentence": 30,
+    "title": "Pausanias doubts the survivors",
+    "summary": "Citing Homer, Pausanias argues that none of Niobe's children survived.",
+    "stakes": "",
+    "present": [
+     "Pausanias",
+     "Homer"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the narrator, a traveller describing Greece"
+   },
+   {
+    "name": "Hypermnestra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Danaus who built the temple of Persuasion"
+   },
+   {
+    "name": "Lynceus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man buried with Hypermnestra"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hypermnestra"
+   },
+   {
+    "name": "Hegeleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have built the temple of Athene Trumpet"
+   },
+   {
+    "name": "Tyrsenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "inventor of the trumpet"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Tyrsenus"
+   },
+   {
+    "name": "Epimenides",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "prophet killed by the Lacedæmonians"
+   },
+   {
+    "name": "Pyrrhus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Epirus who died at Argos"
+   },
+   {
+    "name": "Medusa",
+    "aliases": [
+     "Gorgon"
+    ],
+    "kind": "monster",
+    "description": "Gorgon whose head is said to lie in Argos"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [
+     "Gorgon-slayer"
+    ],
+    "kind": "mortal",
+    "description": "slayer of Medusa"
+   },
+   {
+    "name": "Phorcus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Medusa in this account"
+   },
+   {
+    "name": "Procles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Carthaginian who gave another account of Medusa"
+   },
+   {
+    "name": "Athene",
+    "aliases": [
+     "Trumpet"
+    ],
+    "kind": "goddess",
+    "description": "goddess who helped Perseus"
+   },
+   {
+    "name": "Laphaes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive king expelled and slain"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with a temple at Argos"
+   },
+   {
+    "name": "Chloris",
+    "aliases": [
+     "Melibœa"
+    ],
+    "kind": "mortal",
+    "description": "daughter of Niobe, made pale by fear"
+   },
+   {
+    "name": "Amyclas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "child of Niobe said to survive"
+   },
+   {
+    "name": "Niobe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother whose children were slain"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "slayer of Niobe's children"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "slayer of Niobe's children"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet Pausanias trusts"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Tyrsenus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Tyrsenus",
+    "relation": "parent_of",
+    "b": "Hegeleus",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Danaus",
+    "relation": "parent_of",
+    "b": "Hypermnestra",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Phorcus",
+    "relation": "parent_of",
+    "b": "Medusa",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Niobe",
+    "relation": "parent_of",
+    "b": "Chloris",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Hypermnestra",
+    "relation": "spouse_of",
+    "b": "Lynceus",
+    "source": "outside",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Apollo",
+    "relation": "sibling_of",
+    "b": "Artemis",
+    "source": "outside",
+    "evidence_sentence": 24
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Melibœa",
+    "canonical": "Chloris",
+    "explanation": "Her original name, changed to Chloris ('pale') after fear paled her."
+   },
+   {
+    "alias": "Trumpet",
+    "canonical": "Athene",
+    "explanation": "Cult title of Athene at Argos, from the trumpet taught to the Dorians."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 29,
+    "reason": "Homeric line Pausanias cites to argue all Niobe's children died.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs local legend against reason and authority, rationalising myths like Medusa and preferring Homer to Argive tradition.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows Argos as a city of monuments, where civic memory and rivalry with Sparta were kept alive through tombs and trophies.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes that the Argives mistook Pyrrhus' pyre building for a trophy, showing his habit of correcting local guides.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Hypermnestra, daughter of Danaus, spared her husband Lynceus when her father ordered the daughters to kill their husbands; her father then put her on trial.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Delta is the Greek letter Δ, a triangle shape; Pausanias declines to give the explanation of the name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "\"Trumpet\" translates the Greek epithet Salpinx, a title given to Athene here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Epimenides was a Cretan seer and purifier; Gnossians are people of Cnossus in Crete. Pausanias reports the Spartan capture as local tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Pyrrhus, king of Epirus, was killed at Argos in 272 BC; elephants were among his war equipment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "\"Tritonian marsh\" refers to Lake Tritonis in Libya, associated with Athene's birth tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "The note marker [23] is an editor's footnote; the remark implies the name Gorgon is obviously connected to her fierce, terrible look.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "\"She\" is Gorgophone, daughter of Perseus, whose remarriage Pausanias treats as a first. Her tomb is the one mentioned in the previous sentences.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "A trophy was a monument set up to mark the turning point of a battle; here it is carved in stone rather than made of captured arms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "\"Supplicated Leto\" means they begged her for mercy; Leto was the mother of Apollo and Artemis, who had killed the other children.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "Chloris is Greek for pale or greenish-yellow, so the name explains the legend as an etymology.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "allusion",
+    "text": "This quotes the Iliad's story of Niobe, whose children Apollo and Artemis killed; Homer says nothing of survivors.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Argos's market-place (agora) was the civic centre, crowded with tombs, shrines and monuments, which Pausanias tours in order.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Temenus was the Heraclid leader who, in myth, led the Dorians to conquer the Peloponnese, including Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Perseus, the Argive hero, killed the Gorgon Medusa; this passage strips the myth of monsters and presents her as a Libyan queen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Perseus was the legendary hero and founder-figure of Argos, so his tomb stands beside the monument to his famous victim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Praxiteles was a famous Athenian sculptor of the fourth century BC, so a statue by him was a notable work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Niobe boasted that she had more children than Leto, so Apollo and Artemis killed her children in revenge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Pausanias often tests local traditions against Homer, whom he treats as an early and reliable authority.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 13,
+    "device": "Rationalism",
+    "text": "Pausanias replaces the myth with a plausible human story: a ruler, a battle and a murder, with her beauty remaining as a trace of the legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "Appeal to eyewitness authority",
+    "text": "Procles' claim to have seen a wild man gives apparent proof for the explanation of Medusa as a real woman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "Understatement",
+    "text": "The brief, dry closing remark leaves the name's meaning unexplained, trusting the reader to infer the frightening sense.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "etymology",
+    "text": "The tale explains the name Chloris as the result of fear, a typical aetiological story that links a name to a legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "narrative voice",
+    "text": "Pausanias interrupts the local tradition with a personal judgement, showing his critical, authorial stance as a traveller-historian.",
+    "spoiler": false
+   }
+  ]
+ }
+}

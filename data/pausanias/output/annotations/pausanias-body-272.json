@@ -1,0 +1,426 @@
+{
+ "section_id": "pausanias-body-272",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7792,
+  "output": 3536
+ },
+ "result": {
+  "summary": "Pausanias describes the market-place of Tegea: its temples, statues and pillars. He digresses on victors' crowns and the palm, tells how the Tegean women defeated Charillus and the Spartans, and mentions tombs and the story of Auge.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Aphrodite, pillars and the palm",
+    "summary": "Pausanias describes the Brick Aphrodite and the pillars of the legislators and Iasius. He digresses on the crowns given to victors and the origin of the palm prize.",
+    "stakes": "",
+    "present": [
+     "Iasius",
+     "Hercules",
+     "Theseus",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Market-place of Tegea",
+     "modern_name": "Tegea, Arcadia",
+     "certainty": "real",
+     "lat": 37.4566,
+     "lon": 22.4231
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 13,
+    "title": "The women's victory over Charillus",
+    "summary": "The statue of Ares Gynæcothœnas recalls the Tegean women's ambush that routed the Lacedæmonians and captured Charillus. The women sacrificed privately to Ares and kept the meat from the men.",
+    "stakes": "Tegea faces invasion by Sparta; the women fight to save their country.",
+    "present": [
+     "Ares",
+     "Charillus",
+     "Marpessa"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Hill Phylactris, Tegea",
+     "modern_name": "Tegea, Arcadia",
+     "certainty": "traditional",
+     "lat": 37.4566,
+     "lon": 22.4231
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 19,
+    "title": "Tombs, Auge and other monuments",
+    "summary": "Pausanias lists the altar of Zeus, the tombs of Tegeates and Mæra, and the statue of Auge at the temple of Ilithyia with two versions of her story. He ends with the monuments of Polybius and Elatus.",
+    "stakes": "Auge is ordered drowned by her father Aleus.",
+    "present": [
+     "Zeus",
+     "Tegeates",
+     "Mæra",
+     "Auge",
+     "Aleus",
+     "Nauplius",
+     "Telephus",
+     "Polybius",
+     "Elatus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Market-place of Tegea",
+     "modern_name": "Tegea, Arcadia",
+     "certainty": "real",
+     "lat": 37.4566,
+     "lon": 22.4231
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess honoured in the Brick Aphrodite temple"
+   },
+   {
+    "name": "Iasius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Olympic horserace victor honoured with a statue"
+   },
+   {
+    "name": "Antiphanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Tegean legislator"
+   },
+   {
+    "name": "Crisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Tegean legislator"
+   },
+   {
+    "name": "Tyronidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Tegean legislator"
+   },
+   {
+    "name": "Pyrrhias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Tegean legislator"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the Theban who founded the Olympian games"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "returned from Crete and founded games at Delos"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god honoured with games at Delos"
+   },
+   {
+    "name": "Ares",
+    "aliases": [
+     "Gynæcothœnas"
+    ],
+    "kind": "god",
+    "description": "god sacrificed to by the Tegean women"
+   },
+   {
+    "name": "Charillus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king captured by Tegean women"
+   },
+   {
+    "name": "Marpessa",
+    "aliases": [
+     "the Widow"
+    ],
+    "kind": "mortal",
+    "description": "bravest of the Tegean women"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Adult Zeus"
+    ],
+    "kind": "god",
+    "description": "god with an altar and square statue"
+   },
+   {
+    "name": "Tegeates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycaon, buried at Tegea"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Tegeates"
+   },
+   {
+    "name": "Mæra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Tegeates, daughter of Atlas"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "other",
+    "description": "father of Mæra"
+   },
+   {
+    "name": "Auge",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Aleus who gave birth on her knees"
+   },
+   {
+    "name": "Aleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Auge"
+   },
+   {
+    "name": "Nauplius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ordered to drown Auge"
+   },
+   {
+    "name": "Telephus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Auge, exposed on Mount Parthenium"
+   },
+   {
+    "name": "Polybius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Lycortas, honoured with a statue"
+   },
+   {
+    "name": "Lycortas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Polybius"
+   },
+   {
+    "name": "Elatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Arcas, with a statue"
+   },
+   {
+    "name": "Arcas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Elatus"
+   },
+   {
+    "name": "Ilithyia",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of childbirth with a temple in the market-place"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Lycaon",
+    "relation": "parent_of",
+    "b": "Tegeates",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Tegeates",
+    "relation": "spouse_of",
+    "b": "Mæra",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Atlas",
+    "relation": "parent_of",
+    "b": "Mæra",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Aleus",
+    "relation": "parent_of",
+    "b": "Auge",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Auge",
+    "relation": "parent_of",
+    "b": "Telephus",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Lycortas",
+    "relation": "parent_of",
+    "b": "Polybius",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Arcas",
+    "relation": "parent_of",
+    "b": "Elatus",
+    "source": "text",
+    "evidence_sentence": 19
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Gynæcothœnas",
+    "canonical": "Ares",
+    "explanation": "Epithet meaning 'Women's Feast', from the women's private sacrifice."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Tells the Tegean women's rout of the Spartans and the capture of Charillus.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links monuments to local tradition and Homer, explaining customs such as victors' crowns through stories of origin.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Tegean women's victory reflects Tegea's long rivalry with Sparta, remembered in cult and civic monuments.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias cites Homer's Odyssey for the palm at Delos and for Mæra among the souls in Hades.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Aphrodite's epithet refers to the market-place's brick-like shape, as the sentence says, not to the temple's material.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Palæmon and Archemorus were heroes in whose honour the Isthmian and Nemean games were founded, which is why pine and parsley were used.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "In the Odyssey, Odysseus (Ulysses) compares Nausicaa to a young palm tree he once saw at Delos, beside Apollo's altar.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "Gynæcothœnas is Greek for 'women's feast', explained in sentence 13.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "'Taken prisoner... released without ransom' means Charillus was freed on his oath alone, which he later broke.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "'Adult' translates teleios, meaning full-grown or perfect, an epithet of Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Homer's Odyssey (Book 11) lists Mæra among the heroines Odysseus saw in Hades.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Telephus, son of Auge and Hercules, was later king of Mysia. Arcadian tradition says he was suckled by a doe.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Hercules the Theban is the Hercules of Thebes, distinguished from the Idæan Hercules, to whom Pausanias also attributes the games' founding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Theseus, the Athenian hero, returned from Crete after killing the Minotaur; Delos was Apollo's sacred island.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Charillus was a king of Sparta; Sparta and Tegea fought repeated wars over territory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Ilithyia was the goddess of childbirth, so her temple fits the story of Auge giving birth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Polybius, the historian from Megalopolis, was honoured in Arcadian cities; Elatus was a son of Arcas, the eponymous Arcadian ancestor.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 11,
+    "device": "characterization",
+    "text": "Marpessa's epithet 'the Widow' and her surpassing daring present the Tegean women as bolder than the men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "etiology",
+    "text": "The cult title is explained by a founding story, a common device in Pausanias's antiquarian narrative.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "narrative voice",
+    "text": "Pausanias adds a dry personal observation on Arcadian taste, interrupting his catalogue of monuments.",
+    "spoiler": false
+   }
+  ]
+ }
+}

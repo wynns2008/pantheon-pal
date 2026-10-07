@@ -1,0 +1,197 @@
+{
+ "section_id": "pausanias-body-225",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7011,
+  "output": 1890
+ },
+ "result": {
+  "summary": "Pausanias opens his Arcadian book by describing Arcadia as the landlocked heart of the Peloponnese, ringed by its seaboard neighbours. He then gives the Arcadian tradition of Pelasgus, the first king, who taught people to build huts, wear pigskin and eat acorns.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Arcadia within the Peloponnese",
+    "summary": "Pausanias lists the coastal states around the Peloponnese to show that Arcadia is landlocked, and notes Homer's remark about Arcadians at Troy.",
+    "stakes": "",
+    "present": [
+     "Homer",
+     "Agamemnon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Arcadia",
+     "modern_name": "Arcadia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 22.3
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 18,
+    "title": "Pelasgus the first king",
+    "summary": "The Arcadians say Pelasgus was first settler and king. He invented huts and pigskin clothing and taught the eating of acorns, and the land was called Pelasgia.",
+    "stakes": "",
+    "present": [
+     "Pelasgus",
+     "Asius",
+     "Black Earth",
+     "Pythian Priestess"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Arcadia",
+     "modern_name": "Arcadia, Peloponnese",
+     "certainty": "real",
+     "lat": 37.5,
+     "lon": 22.3
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pelasgus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first settler and king of Arcadia, inventor of huts, pigskin clothing and acorn diet"
+   },
+   {
+    "name": "Asius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early poet quoted for Pelasgus' origin"
+   },
+   {
+    "name": "Black Earth",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "the earth, said in Asius' verse to have brought forth Pelasgus"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet cited on the Arcadians at Troy"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "leader who provided transports for the Arcadians"
+   },
+   {
+    "name": "Pythian Priestess",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "priestess at Delphi who warned the Lacedæmonians off Arcadia"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Black Earth",
+    "relation": "parent_of",
+    "b": "Pelasgus",
+    "source": "text",
+    "evidence_sentence": 11
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "The Delphic oracle's famous warning about Arcadia's acorn-eating warriors.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The chapter presents Arcadia as an isolated, inland and primitive land, and credits its first king with the beginnings of civilization.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias blends geography, Homer, early poetry and oracle to support local traditions, while reasoning rationally about how Pelasgus could have been king.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Pelasgus gave his name to the Pelasgians, whom later Greek writers treated as the Greeks' primitive predecessors."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The oracle quoted here is the famous reply to the Spartans, who wished to conquer Arcadia; Herodotus also records it.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Pausanias traces the coast in order: Corinth, Epidaurus, Trœzen, Hermion, Laconia, Messenia, to show every neighbour has a shoreline except Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Refers to the Catalogue of Ships in Homer's Iliad, where Agamemnon supplies sixty ships to the Arcadians, who had none of their own.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Asius was an early Greek epic poet from Samos; his verse makes Pelasgus earth-born, a common way of describing a land's first people.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Eubœa and Phocis are regions of central Greece; the pig-skin garments were still worn there by the poor in Pausanias' day.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The Pythian Priestess is the Delphic oracle. The Spartans consulted her about conquering Arcadia, and she warned them off, as Herodotus also reports.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Tegea and Mantinea were the chief Arcadian cities on the border with Argolis, the region around Argos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Acorns were seen as primitive food, so calling Arcadians acorn-eaters marked them as hardy, ancient and tough in battle.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "rhetorical question",
+    "text": "Pausanias argues from common sense: a king needs subjects, so Pelasgus cannot have arrived alone. It shows his rationalizing approach to myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "epithet",
+    "text": "\"Divine\" and \"Black Earth\" lend Pelasgus a mythic, autochthonous origin, contrasting with Pausanias' more practical explanation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "irony",
+    "text": "The oracle's polite \"no grudge\" softens a refusal, giving the warning a wry, almost courteous tone.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,426 @@
+{
+ "section_id": "pausanias-body-170",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7608,
+  "output": 3407
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of the offerings at Olympia. He describes the Victory by Pæonius given by the Messenians, the many dedications of Micythus made by the Argive sculptors Glaucus and Dionysius, and other statues given by Elis, Mantinea and Heraclea.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "The Messenian Victory of Pæonius",
+    "summary": "The Messenians of Naupactus set up a Victory on a pillar. Pausanias thinks it commemorates a war with the Acarnanians, but the Messenians say it commemorates Sphacteria.",
+    "stakes": "",
+    "present": [
+     "Pæonius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 13,
+    "title": "Offerings of Micythus",
+    "summary": "Pausanias lists the statues Micythus dedicated, made by Glaucus and Dionysius. He then gives Micythus's history and his vow for his sick son.",
+    "stakes": "Micythus's son was wasting away with consumption, which is why the vow was made.",
+    "present": [
+     "Micythus",
+     "Glaucus",
+     "Dionysius",
+     "Iphitus",
+     "Truce",
+     "Amphitrite",
+     "Poseidon",
+     "Vesta",
+     "Proserpine",
+     "Demeter",
+     "Aphrodite",
+     "Ganymede",
+     "Artemis",
+     "Homer",
+     "Hesiod",
+     "Æsculapius",
+     "Hygiea",
+     "Agon",
+     "Dionysus",
+     "Orpheus",
+     "Zeus",
+     "Nero",
+     "Herodotus",
+     "Anaxilas",
+     "Chœrus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 17,
+    "title": "Athene and Victory statues",
+    "summary": "Pausanias notes a statue of Athene given by the Eleans and a Victory given by the Mantineans.",
+    "stakes": "",
+    "present": [
+     "Athene",
+     "Nicodamus",
+     "Calamis",
+     "Victory"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 21,
+    "title": "Labours of Hercules from Heraclea",
+    "summary": "The men of Heraclea dedicated the Labours of Hercules, taken from the Mariandyni. Pausanias explains the colony's founding.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Dionysius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Heraclea on the Euxine",
+     "modern_name": "Karadeniz Ereğli, Turkey",
+     "certainty": "real",
+     "lat": 41.28,
+     "lon": 31.42
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pæonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of Mendæ who made the Victory"
+   },
+   {
+    "name": "Micythus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "former slave and treasurer of Anaxilas who dedicated many offerings"
+   },
+   {
+    "name": "Glaucus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive sculptor"
+   },
+   {
+    "name": "Dionysius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive sculptor"
+   },
+   {
+    "name": "Iphitus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean, shown crowned by Truce"
+   },
+   {
+    "name": "Truce",
+    "aliases": [],
+    "kind": "other",
+    "description": "personification crowning Iphitus"
+   },
+   {
+    "name": "Amphitrite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sea goddess in a statue"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of the sea in a statue"
+   },
+   {
+    "name": "Vesta",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess in a statue"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Demeter"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of Proserpine"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess in a statue"
+   },
+   {
+    "name": "Ganymede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "figure in a statue"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess in a statue"
+   },
+   {
+    "name": "Homer",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet, statue"
+   },
+   {
+    "name": "Hesiod",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet, statue"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of healing, statue"
+   },
+   {
+    "name": "Hygiea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess of health, statue"
+   },
+   {
+    "name": "Agon",
+    "aliases": [],
+    "kind": "other",
+    "description": "personified Contest holding dumb bells"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god in a statue"
+   },
+   {
+    "name": "Orpheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thracian musician, statue"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "statue mentioned earlier"
+   },
+   {
+    "name": "Nero",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "emperor who removed some offerings"
+   },
+   {
+    "name": "Herodotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "historian cited by Pausanias"
+   },
+   {
+    "name": "Anaxilas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king at Rhegium"
+   },
+   {
+    "name": "Chœrus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Micythus"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with helmet and Ægis in a statue"
+   },
+   {
+    "name": "Nicodamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mænalian sculptor"
+   },
+   {
+    "name": "Calamis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the Mantinean Victory"
+   },
+   {
+    "name": "Victory",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "winged goddess in statues"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero whose Labours are depicted"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Chœrus",
+    "relation": "parent_of",
+    "b": "Micythus",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Proserpine",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Micythus",
+    "relation": "parent_of",
+    "b": "Micythus's son",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias acts as a guide, dating artists and checking dedications against inscriptions and other writers.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The dedications show Greek cities using Olympia to display victories, wealth and piety, and Messenian reticence about the enemy reflects Spartan power.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Victory of Pæonius was found at Olympia in the 1870s and is now in the site museum.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Naupactus was given to the Messenians by Athens after they were expelled from their homeland in the 450s BC; the Acarnanians and Œniadæ were their neighbours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Sphacteria: in 425 BC Athens and its Messenian allies captured Spartan hoplites there. The Messenians feared Spartan anger, so the inscription omits the enemy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "Agon is the personified spirit of athletic contest. The dumb bells are halteres, jumping weights held in the hands by long jumpers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "Nero plundered Greek sanctuaries for statues to take to Rome, during his visit to Greece in AD 66-67.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Herodotus mentions Micythus as a former slave who became regent of Rhegium for Anaxilas's sons. He later retired to Tegea in Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Consumption is an old term for wasting disease, usually tuberculosis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Wingless Victory refers to the Athenian statue of Victory without wings, kept so she could never fly away from the city.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Æsculapius was the god of healing, and Hygiea was his daughter, the personification of health.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "The Ægis was a goat-skin cloak or breastplate, fringed with snakes, worn by Athene as her emblem.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "The Mariandyni were a people of northern Asia Minor, near the Black Sea, who were subject to Heraclea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "The Euxine is the ancient name for the Black Sea.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "irony",
+    "text": "Pausanias notes the Messenians' stated reason, which undercuts his own guess. The silence of the inscription itself becomes evidence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "characterization",
+    "text": "The vow for a dying son shows Micythus as a devoted father, giving a personal motive to his many dedications.",
+    "spoiler": false
+   }
+  ]
+ }
+}

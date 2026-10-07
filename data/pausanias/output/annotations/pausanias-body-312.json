@@ -1,0 +1,577 @@
+{
+ "section_id": "pausanias-body-312",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8087,
+  "output": 4488
+ },
+ "result": {
+  "summary": "Pausanias describes sites around Coronea: the temple of Itonian Athene, Hera's temple with Sirens, Mount Libethrium and Mount Laphystium with their legends. He then begins the early history of Orchomenus, tracing Andreus, Athamas, Eteocles and Almus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Temple of Itonian Athene",
+    "summary": "The shrine of Itonian Athene holds the Boeotian assembly and statues by Agoracritus. Iodama was turned to stone on seeing Medusa's head.",
+    "stakes": "Iodama is turned to stone when she faces Athene's Gorgon head.",
+    "present": [
+     "Athene",
+     "Iodama",
+     "Zeus",
+     "Agoracritus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Itonian Athene",
+     "modern_name": "near Koroneia, Boeotia",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 22.95
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 9,
+    "title": "Coronea and the Sirens",
+    "summary": "Coronea has altars of Hermes and the Winds and an ancient Hera holding Sirens. The Sirens lost their wings after losing a singing contest with the Muses.",
+    "stakes": "The Sirens lose their wings after challenging the Muses.",
+    "present": [
+     "Hera",
+     "Sirens",
+     "Muses",
+     "Achelous"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Coronea",
+     "modern_name": "Koroneia",
+     "certainty": "real",
+     "lat": 38.4,
+     "lon": 22.97
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 10,
+    "title": "Mount Libethrium",
+    "summary": "Statues of the Muses and Libethrides stand here, with two milk-like springs.",
+    "stakes": "",
+    "present": [
+     "Muses",
+     "Libethrides"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mount Libethrium",
+     "modern_name": "Mount Zagara (Helicon)",
+     "certainty": "traditional",
+     "lat": 38.3,
+     "lon": 23.0
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 14,
+    "title": "Mount Laphystium",
+    "summary": "At the shrine of Laphystian Zeus, the golden ram saved Phrixus and Helle from sacrifice. Hercules is said to have come up here with Cerberus.",
+    "stakes": "Phrixus and Helle face sacrifice by Athamas.",
+    "present": [
+     "Zeus",
+     "Athamas",
+     "Phrixus",
+     "Helle",
+     "Hercules",
+     "Cerberus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mount Laphystium",
+     "modern_name": "Mount Laphystion near Aliartos",
+     "certainty": "traditional",
+     "lat": 38.4,
+     "lon": 23.0
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 23,
+    "title": "Early History of Orchomenus",
+    "summary": "Andreus, then Athamas, Haliartus and Coronus, and Eteocles rule the region. Almus is given a village.",
+    "stakes": "",
+    "present": [
+     "Andreus",
+     "Athamas",
+     "Haliartus",
+     "Coronus",
+     "Phrixus",
+     "Presbon",
+     "Eteocles",
+     "Almus",
+     "Euippe"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Orchomenus",
+     "modern_name": "Orchomenos",
+     "certainty": "real",
+     "lat": 38.49,
+     "lon": 22.98
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Athene",
+    "aliases": [
+     "Itonian Athene"
+    ],
+    "kind": "goddess",
+    "description": "goddess worshipped at Itonian temple"
+   },
+   {
+    "name": "Itonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amphictyon, namesake of Itonian Athene"
+   },
+   {
+    "name": "Amphictyon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Itonus"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Laphystian Zeus"
+    ],
+    "kind": "god",
+    "description": "god with statues at the temple and Laphystium"
+   },
+   {
+    "name": "Agoracritus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor, pupil of Phidias"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor, teacher of Agoracritus"
+   },
+   {
+    "name": "Iodama",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "priestess turned to stone"
+   },
+   {
+    "name": "Medusa",
+    "aliases": [
+     "Gorgon"
+    ],
+    "kind": "monster",
+    "description": "Gorgon whose head is on Athene's tunic"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Hermes Epimelius"
+    ],
+    "kind": "god",
+    "description": "god with altar at Coronea"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose statue holds Sirens"
+   },
+   {
+    "name": "Pythodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban sculptor of Hera's statue"
+   },
+   {
+    "name": "Sirens",
+    "aliases": [],
+    "kind": "creature",
+    "description": "singers who lost to the Muses"
+   },
+   {
+    "name": "Achelous",
+    "aliases": [],
+    "kind": "god",
+    "description": "river, father of the Sirens"
+   },
+   {
+    "name": "Muses",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddesses who won the singing contest"
+   },
+   {
+    "name": "Libethrides",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymphs honoured on Libethrium"
+   },
+   {
+    "name": "Athamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king who received land from Andreus"
+   },
+   {
+    "name": "Phrixus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "child saved by the golden ram"
+   },
+   {
+    "name": "Helle",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "child saved by the golden ram"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Hercules Charops"
+    ],
+    "kind": "god",
+    "description": "hero said to have come up from the underworld"
+   },
+   {
+    "name": "Cerberus",
+    "aliases": [],
+    "kind": "monster",
+    "description": "hound of the underworld"
+   },
+   {
+    "name": "Andreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first settler of Orchomenus, son of Peneus"
+   },
+   {
+    "name": "Peneus",
+    "aliases": [],
+    "kind": "god",
+    "description": "river, father of Andreus"
+   },
+   {
+    "name": "Learchus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Athamas, killed by him"
+   },
+   {
+    "name": "Melicerta",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Athamas, killed by him"
+   },
+   {
+    "name": "Leucon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Athamas who died of illness"
+   },
+   {
+    "name": "Haliartus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "adopted by Athamas, son of Thersander"
+   },
+   {
+    "name": "Coronus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "adopted by Athamas, son of Thersander"
+   },
+   {
+    "name": "Thersander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Sisyphus"
+   },
+   {
+    "name": "Sisyphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Thersander and Almus"
+   },
+   {
+    "name": "Presbon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Phrixus by Aeetes' daughter"
+   },
+   {
+    "name": "Aeetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Phrixus' wife"
+   },
+   {
+    "name": "Euippe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Leucon, wife of Andreus"
+   },
+   {
+    "name": "Eteocles",
+    "aliases": [
+     "Cephisiades"
+    ],
+    "kind": "mortal",
+    "description": "king of Orchomenus, son of Andreus"
+   },
+   {
+    "name": "Cephisus",
+    "aliases": [],
+    "kind": "god",
+    "description": "river, poets' father of Eteocles"
+   },
+   {
+    "name": "Almus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Sisyphus given a village"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Amphictyon",
+    "relation": "parent_of",
+    "b": "Itonus",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Achelous",
+    "relation": "parent_of",
+    "b": "Sirens",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Peneus",
+    "relation": "parent_of",
+    "b": "Andreus",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Thersander",
+    "relation": "parent_of",
+    "b": "Haliartus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Thersander",
+    "relation": "parent_of",
+    "b": "Coronus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Sisyphus",
+    "relation": "parent_of",
+    "b": "Thersander",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Sisyphus",
+    "relation": "parent_of",
+    "b": "Almus",
+    "source": "text",
+    "evidence_sentence": 23
+   },
+   {
+    "a": "Phrixus",
+    "relation": "parent_of",
+    "b": "Presbon",
+    "source": "text",
+    "evidence_sentence": 20
+   },
+   {
+    "a": "Andreus",
+    "relation": "spouse_of",
+    "b": "Euippe",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Andreus",
+    "relation": "parent_of",
+    "b": "Eteocles",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Leucon",
+    "relation": "parent_of",
+    "b": "Euippe",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Athamas",
+    "relation": "parent_of",
+    "b": "Learchus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Iodama",
+    "relation": "transformed_into",
+    "b": "stone",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Itonian Athene",
+    "canonical": "Athene",
+    "explanation": "Epithet from Itonus, whose name the temple bears."
+   },
+   {
+    "alias": "Hercules Charops",
+    "canonical": "Hercules",
+    "explanation": "Cult epithet of Hercules at Laphystium."
+   },
+   {
+    "alias": "Cephisiades",
+    "canonical": "Eteocles",
+    "explanation": "Poets' patronymic making Eteocles son of the river Cephisus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "Ritual cry commemorating the petrified priestess Iodama.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links local cults and landmarks to myths, explaining ritual and place-names through legend.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Boeotian federal assembly at the Itonian temple shows the sanctuary's political importance.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Agoracritus, sculptor of the temple statues, was a favourite pupil of Phidias.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "\"Brazen\" means made of bronze. Agoracritus, from Paros, was a sculptor said to be Phidias' favourite pupil.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The Gorgon Medusa's head turned anyone who looked at it to stone; Athene wore it on her aegis, which is why Iodama was petrified.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "Epimelius means \"caretaker\" or \"guardian of flocks\", a title of Hermes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The Sirens were part-bird singers. Here they lose their wings after a failed singing contest with the Muses, the goddesses of the arts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "A stade was a Greek length of roughly 600 feet (about 185 metres), so 40 stades is about 4.5 miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Charops, \"bright-eyed\", is a title of Hercules. The \"lower world\" is the underworld, from which he brought Cerberus as his last labour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"Acme\" means peak. Pausanias says Orchomenus fell as Mycenæ and Delos did, losing its former greatness.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Athamas killed his son Learchus in a fit of madness; Melicerta died when his mother Ino leapt into the sea with him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "Pausanias explains a place name by the change of Almones to Olmones, a common habit of his.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "The Boeotian League met at this sanctuary for its common festival, the Pamboeotia, and for federal business.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "In the myth, Phrixus and Helle fled their father Athamas on a golden ram. Helle fell into the strait later named the Hellespont.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Cephisus was a Boeotian river god, so tracing Eteocles to the river links the king to the local landscape.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "ritual refrain",
+    "text": "The daily call keeps the dead priestess symbolically alive, and the repeated formula shows how myth is preserved in custom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "simile",
+    "text": "The springs are compared to women's breasts and their water to milk, a vivid image of nourishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "foreshadowing",
+    "text": "Saying Orchomenus was destined to decline like Mycenæ and Delos hints at a fall before the history is told.",
+    "spoiler": false
+   }
+  ]
+ }
+}

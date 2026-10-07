@@ -1,0 +1,427 @@
+{
+ "section_id": "pindar-odes-body-8",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9928,
+  "output": 3871
+ },
+ "result": {
+  "summary": "Pindar celebrates Alkimedon of Aigina, a boy wrestler who won at Olympia in 460 B.C. He praises Aigina's justice and tells how Aiakos helped build Troy's wall and how Apollo read a sign of its fall. He praises trainer Melesias and the victor's family, and prays for their continued fortune.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Editorial introduction",
+    "summary": "A note gives the date of the victory and the ode's likely use in a procession, and notes how many odes honour Aiginetans.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6379,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 10,
+    "title": "Invocation of Olympia and Aigina",
+    "summary": "Pindar addresses Olympia, announces the victory of Alkimedon, and praises Aigina's justice toward strangers.",
+    "stakes": "",
+    "present": [
+     "Olympia",
+     "Timosthenes",
+     "Alkimedon",
+     "Themis",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6379,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 16,
+    "title": "Aiakos builds Troy's wall",
+    "summary": "Aiakos helps Apollo and Poseidon build Troy's wall; three dragons assault it and Apollo interprets the sign as Troy's fall through Aiakos' descendants.",
+    "stakes": "Troy's wall is destined to fall to Aiakos' descendants.",
+    "present": [
+     "Aiakos",
+     "Apollo",
+     "Poseidon",
+     "Zeus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ilion",
+     "modern_name": "Hisarlik, Turkey",
+     "certainty": "traditional",
+     "lat": 39.9575,
+     "lon": 26.2389
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 28,
+    "title": "Praise of Melesias and the family",
+    "summary": "Pindar defends himself against envy, praises the trainer Melesias and the Blepsiad family, and prays for their lasting prosperity.",
+    "stakes": "Pindar and the family face envy and the risk of reversal of fortune.",
+    "present": [
+     "Melesias",
+     "Alkimedon",
+     "Iphion",
+     "Kallimachos",
+     "Zeus",
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6379,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Alkimedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aiginetan boy wrestler, Olympic victor"
+   },
+   {
+    "name": "Timosthenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alkimedon's brother, victor at Nemea"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "King of the gods, lord of lightning and Olympia"
+   },
+   {
+    "name": "Themis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Saviour goddess of judgment honoured in Aigina"
+   },
+   {
+    "name": "Aiakos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero who helped build Troy's wall"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Leto's son"
+    ],
+    "kind": "god",
+    "description": "God who built Troy's wall and read the sign"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "Trident-wielder"
+    ],
+    "kind": "god",
+    "description": "Sea god who helped build Troy's wall"
+   },
+   {
+    "name": "Melesias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trainer of the victorious boys"
+   },
+   {
+    "name": "Iphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Alkimedon's dead relative, to hear of the victory"
+   },
+   {
+    "name": "Kallimachos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Dead kinsman to be told of the victory"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Fame"
+   },
+   {
+    "name": "Fame",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Daughter of Hermes who carries news"
+   },
+   {
+    "name": "Olympia",
+    "aliases": [],
+    "kind": "place",
+    "description": "Addressed as mother of contests and queen of truth"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Mother of Apollo"
+   },
+   {
+    "name": "Kronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Zeus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Kronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Hermes",
+    "relation": "parent_of",
+    "b": "Fame",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Timosthenes",
+    "relation": "sibling_of",
+    "b": "Alkimedon",
+    "source": "text",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Leto's son",
+    "canonical": "Apollo",
+    "explanation": "Patronymic-style epithet for Apollo."
+   },
+   {
+    "alias": "Trident-wielder",
+    "canonical": "Poseidon",
+    "explanation": "Epithet referring to Poseidon's trident."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Memorable invocation of Olympia as mother of contests and queen of truth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "reason": "Aphorism that noble deeds free a man from fear of death.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode links athletic victory to justice, divine favour and family glory, with Aigina's hospitality and heroic past as background.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Aigina was a major Greek naval power, and Pindar wrote many odes for its athletes, who often won in boys' events and trained under figures like Melesias.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Of Pindar's forty-four surviving victory odes, eleven honour Aiginetan winners.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Diviners 'made trial of Zeus' by reading omens in burnt offerings (pyromancy) at Olympia, seeking a sign whether the god promised success to contestants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Nemea and 'the hill of Kronos' (at Olympia) name the sites of two victories: Timosthenes won at the Nemean games, Alkimedon at Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "'Of long oars' is a fixed descriptive phrase for Aigina, an island famed for seafaring. 'Stranger's succour' refers to Zeus as protector of guests.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Ilion is Troy. 'Make a crown for Ilion' means build its crowning wall; Aiakos' help was needed because a mortal had to share the work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Pergamos was the citadel of Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "'First and fourth' means Aiakos' son Telamon (with Herakles, in the first sack) and his great-grandson Neoptolemos, in the later war; interpretations vary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "'Trident-wielder' is an epithet for Poseidon; Isthmos is the Isthmus of Corinth, where the Isthmian games were held.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "phrasing",
+    "text": "Pindar hopes envy will not pelt him with 'a cruel stone', meaning malicious criticism for praising Melesias so much.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Pindar promises a further ode for a victory at Nemea, the games in the Nemean valley, won in the pankration, a combined wrestling and boxing contest.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "phrasing",
+    "text": "'The loathed return ungreeted of fair speech' means going home defeated, with no words of praise to welcome the losers; 'striplings' are the youths defeated.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "'Blepsiad' is the name of Alkimedon's clan, the Blepsiadai, descended from a common ancestor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Iphion and Kallimachos are Alkimedon's dead father and grandfather. Fame, daughter of Hermes the messenger god, will carry the news to them in the underworld.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "'Contrary discontent' means a reversal of fortune or divine resentment sent to balance the family's great success.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "460 B.C. is the year of the 80th Olympiad, when the boy Alkimedon won the boys' wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Themis is the goddess of justice and established order; she sits beside Zeus. Aigina was famed for just dealing.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Aiakos, a legendary king of Aigina, was son of Zeus and famed for justice. Apollo (Leto's son) and Poseidon served Laomedon of Troy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Xanthos is a river or region of Lycia, and Ister is the Danube; Apollo journeys to far northern and eastern lands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Melesias was the Athenian trainer of Alkimedon, famous for coaching many young athletes to victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Greeks believed the dead could share in the honour of their living kin's victories, especially when praised in song and rites.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "apostrophe",
+    "text": "Pindar addresses Olympia directly as a mother and queen, making the sacred site a personified recipient of the victory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "metaphor",
+    "text": "Aigina becomes 'a pillar built of God,' a metaphor for the island as a firm support for strangers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "symbolism",
+    "text": "The three dragons stand for the fate of the wall: two fall, one enters, an omen of the city's capture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "foreshadowing",
+    "text": "Apollo's reading foretells Troy's fall at the hands of Aiakos' descendants, linking the myth to Aigina's heroic line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "personification",
+    "text": "Envy is imagined as a woman hurling a stone, making the poet's fear of criticism vivid.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "gnomic statement",
+    "text": "Pindar states a general truth about teaching and experience, implicitly praising Melesias's expertise.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "hyperbole",
+    "text": "Alkimedon's victory is said to renew his grandfather, giving vigour against old age, a striking claim of rejuvenating glory.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "personification",
+    "text": "Fame is made a daughter of Hermes who carries news to the dead, giving the abstract idea a messenger's role.",
+    "spoiler": false
+   }
+  ]
+ }
+}

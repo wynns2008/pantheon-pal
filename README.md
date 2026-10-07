@@ -40,7 +40,17 @@ The repository already contains parsed data and annotations for all five books, 
 
 ## Adding a book
 
-Only Project Gutenberg plain-text files are supported (they must contain the `*** START` / `*** END` markers). A verse anthology without chapter headings, marked only with line ranges like `(ll. 1-25)`, is split into its works at their titles in capitals; a long poem is then cut into sections of about 100 lines, and a collection of fragments into groups ("Fragments 1-12").
+Project Gutenberg plain-text files are supported (they must contain the `*** START` / `*** END` markers), and so are texts from the Perseus Digital Library, which `python -m litparse.perseus` turns into the same layout (`*** START OF THIS TEXT ***`, with a `Source:` and `Licence:` line in its header, which the footer and the About page then credit):
+
+```bash
+python -m litparse.perseus apollodorus --repo canonical-greekLit --path tlg0548/tlg001/tlg0548.tlg001.perseus-eng2.xml \
+    --title "The Library" --author Apollodorus --translator "Sir James George Frazer (Loeb Classical Library, 1921)"
+python -m annotate.book apollodorus --parse-only
+```
+
+Perseus files are Creative Commons licensed, but add only a translation that is itself in the public domain (Frazer's is from 1921).
+
+English Wikisource holds proofread Loeb Classical Library volumes from before 1931, and `python -m litparse.wikisource` turns them into the same layout: one `--section "LABEL=Wikisource page"` per book, keeping the English (Loeb prints the original on facing pages), speaker names and footnotes (see the command's help for an example, Statius' *Thebaid*). A verse anthology without chapter headings, marked only with line ranges like `(ll. 1-25)`, is split into its works at their titles in capitals; a long poem is then cut into sections of about 100 lines, and a collection of fragments into groups ("Fragments 1-12").
 
 ### The protocol for a new book
 
@@ -279,7 +289,7 @@ Write down what was found, fix what is wrong at its source (the parser, the prom
 
 - **Code** (`litparse/`, `annotate/`, `server/`, `web/`): MIT, see [LICENSE](LICENSE). Copyright (c) 2026 Wynn Shatzer.
 - **Annotations made for this project** (scene cards, notes, key moments, places, pronunciations in `data/`): also MIT.
-- **Book texts** (`books/`): from Project Gutenberg, public domain in the United States; each file keeps Gutenberg's header and licence. If you are elsewhere, check your local laws.
+- **Book texts** (`books/`): from Project Gutenberg, public domain in the United States; each file keeps Gutenberg's header and licence. If you are elsewhere, check your local laws. Texts from the Perseus Digital Library (Tufts University) and from English Wikisource are CC BY-SA 4.0 (Wikisource's contributions; Perseus's files); their translations are in the public domain, and the footer of each credits its source.
 - **Wikipedia excerpts** (summaries, themes, history, sources and the opening lines on characters and places, in `data/*/output/about.json` and `places.json`): CC BY-SA 4.0, from the English Wikipedia; each links to its article.
 - **Wikidata** (character descriptions and family links): CC0.
 - **Pictures**: not stored here; they load from Wikimedia Commons, each under its own licence, shown in its credit line with a link to its Commons page.

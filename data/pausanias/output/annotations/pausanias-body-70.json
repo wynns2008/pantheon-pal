@@ -1,0 +1,468 @@
+{
+ "section_id": "pausanias-body-70",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10025,
+  "output": 4211
+ },
+ "result": {
+  "summary": "Pausanias introduces Epidaurus and its sanctuary of Æsculapius, tracing the region's kings and the name of the land. He gives the Epidaurian story of the god's birth and exposure, weighs rival traditions, and uses cult spread and Homer to argue for the Epidaurian origin.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Epidauria and its kings",
+    "summary": "Pausanias locates Epidaurus and the temple, and recounts how Pityreus yielded the land to Deiphontes and the Argives. He lists differing accounts of Epidaurus's father.",
+    "stakes": "",
+    "present": [
+     "Pityreus",
+     "Deiphontes",
+     "Hyrnetho",
+     "Cisus",
+     "Epidaurus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Epidaurus in Argolis",
+     "modern_name": "Epidaurus, Greece",
+     "certainty": "real",
+     "lat": 37.596,
+     "lon": 23.079
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 14,
+    "title": "Birth of Æsculapius",
+    "summary": "Phlegyas visits the Peloponnese, and his daughter bears Apollo's child and exposes him on the mountain. A goat and dog protect him, and the goat-herd Aresthanas sees lightning from the child.",
+    "stakes": "The newborn infant, exposed on the mountain, could die.",
+    "present": [
+     "Phlegyas",
+     "Apollo",
+     "Æsculapius",
+     "Aresthanas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mount Titthion (Myrgion)",
+     "modern_name": "Mount Titthion near Epidaurus",
+     "certainty": "traditional",
+     "lat": 37.63,
+     "lon": 23.12
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 19,
+    "title": "Rival birth traditions",
+    "summary": "Pausanias reports the Coronis and Ischys story, and the Messenian claim that Arsinoe was the mother. He rejects it using an oracle of Apollo.",
+    "stakes": "Coronis is put to death for infidelity, and the child is rescued from the pyre.",
+    "present": [
+     "Coronis",
+     "Ischys",
+     "Artemis",
+     "Hermes",
+     "Æsculapius",
+     "Arsinoe",
+     "Apollophanes",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi, Greece",
+     "certainty": "real",
+     "lat": 38.482,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 27,
+    "title": "Spread of the cult",
+    "summary": "Pausanias traces the worship from Epidaurus to Athens, Pergamum, Smyrna, Cyrene and Crete. He cites Homer to show Æsculapius was a god from the start.",
+    "stakes": "",
+    "present": [
+     "Archias",
+     "Æsculapius",
+     "Agamemnon",
+     "Talthybius",
+     "Machaon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Epidaurus and its cult sites",
+     "modern_name": "Epidaurus, Greece",
+     "certainty": "real",
+     "lat": 37.596,
+     "lon": 23.079
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of healing, son of Apollo, born at Epidaurus"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who fathered Æsculapius and spoke the oracle"
+   },
+   {
+    "name": "Phlegyas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "warlike father of Coronis"
+   },
+   {
+    "name": "Coronis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Phlegyas, mother of Æsculapius"
+   },
+   {
+    "name": "Ischys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Elatus, lover of Coronis in one tradition"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "killed Coronis for unfaithfulness"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "plucked the child from the pyre"
+   },
+   {
+    "name": "Arsinoe",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Leucippus, claimed by Messenians as Æsculapius's mother"
+   },
+   {
+    "name": "Aresthanas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "goat-herd who found the child"
+   },
+   {
+    "name": "Pityreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "last king of Epidauria before the Dorians"
+   },
+   {
+    "name": "Deiphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive who took Epidauria"
+   },
+   {
+    "name": "Hyrnetho",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ally of Deiphontes, hostile to Temenus's sons"
+   },
+   {
+    "name": "Cisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Temenus"
+   },
+   {
+    "name": "Epidaurus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "eponym of the land, of disputed parentage"
+   },
+   {
+    "name": "Apollophanes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian who consulted Delphi"
+   },
+   {
+    "name": "Archias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Aristæchmus, healed at Epidauria, brought the cult to Pergamum"
+   },
+   {
+    "name": "Machaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Æsculapius in Homer"
+   },
+   {
+    "name": "Agamemnon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Homeric king who speaks of Machaon"
+   },
+   {
+    "name": "Talthybius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "herald addressed by Agamemnon"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "claimed father of Epidaurus by the Eleans"
+   },
+   {
+    "name": "Argus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "claimed father of Epidaurus by Argives"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Æsculapius",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Phlegyas",
+    "relation": "parent_of",
+    "b": "Coronis",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Coronis",
+    "relation": "parent_of",
+    "b": "Æsculapius",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Æsculapius",
+    "relation": "parent_of",
+    "b": "Machaon",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Coronis",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Coronis",
+    "relation": "lover_of",
+    "b": "Ischys",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Pelops",
+    "relation": "parent_of",
+    "b": "Epidaurus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Argus",
+    "relation": "parent_of",
+    "b": "Epidaurus",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Apollo",
+    "relation": "parent_of",
+    "b": "Epidaurus",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Myrgion",
+    "canonical": "Titthion",
+    "explanation": "The mountain's older name, before it was called Titthion."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 17,
+    "reason": "Apollo's oracle declares Æsculapius born at Epidaurus to Coronis, settling the dispute.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias weighs competing local traditions and tests them against oracles, cult practice and Homer, showing his method of reasoned argument about myth.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The spread of the cult to Athens, Pergamum, Smyrna, Cyrene and Crete shows how Epidaurus became the center of Greek healing worship.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Æsculapius's cult spread across the Mediterranean, and his serpent-entwined staff became a lasting symbol of medicine."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Archaeology confirms Epidaurus as a major healing sanctuary, with its famous theatre nearby.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Lessa is a place on the road in Argolis; Epidaurus here means the region and town, with the famous sanctuary of Æsculapius (the healing god) lying just outside.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "\"Espoused his cause\" means took his side or supported him; the Argives here are those who followed Deiphontes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The Great Eœæ was an early Greek poem attributed to Hesiod, listing heroines and their offspring; only fragments survive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "\"Exposed\" means left out in the open to die or be found, a common Greek practice for unwanted infants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "phrasing",
+    "text": "\"Not tallying\" means the count of goats did not match what it should be; \"noised abroad\" in the next sentence means spread as news.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Coronis, loved by Apollo, was said to be unfaithful with Ischys; Artemis, Apollo's sister, kills her, and Hermes rescues the unborn child from the pyre.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"Bare to me the child of love\" means she bore him to Apollo as his beloved son; \"bare\" is the archaic past tense of \"bear.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "\"Interpolated\" means inserted later into a text by another hand; Pausanias suspects the Messenian story was added to Hesiod's poem.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "\"Epidauria\" is the name of the Athenian festival day, literally meaning \"of Epidaurus,\" the god's home sanctuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "\"Doctor\" renders the Greek title used at Balagræ for Æsculapius as healer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "Quoted from the Iliad (Book 4), where Agamemnon summons the physician Machaon to tend the wounded Menelaus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "phrasing",
+    "text": "Pausanias' point: Homer calls Machaon \"mortal\" to contrast him with his father, implying the father was already a god.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Deiphontes, a descendant of Heracles, married Hyrnetho, daughter of Temenus, and took Epidauria with Argive support in the Dorian return of the Heraclidae.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Phlegyas was a king of the Lapiths or Phlegyans in northern Greece, known as a violent raider and father of Coronis, mother of Æsculapius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Delphi was Apollo's chief oracle; consulting it settled disputes over cult and legend. Epidaurus was the main sanctuary of Æsculapius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Pergamum, in Asia Minor, became a famous healing centre of Æsculapius, whose cult spread widely from Epidaurus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "Pausanias often notes differences in ritual between branches of a cult as evidence of local custom.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "motif",
+    "text": "Animals nurturing an abandoned child is a familiar motif in heroic birth stories, marking the infant as special.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "foreshadowing",
+    "text": "The lightning around the child signals his divine parentage and hints at his later fame as a healer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "hyperbole",
+    "text": "The claim that the child could raise the dead is a legendary exaggeration of rumor, establishing his miraculous reputation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "Narrative voice",
+    "text": "Pausanias' \"as it seems to me\" marks his personal, critical judgment as a researcher weighing rival traditions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "Apostrophe",
+    "text": "The god addresses the newborn directly, giving the oracle a solemn, authoritative voice that settles the question.",
+    "spoiler": false
+   }
+  ]
+ }
+}

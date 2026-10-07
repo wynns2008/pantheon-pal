@@ -1,0 +1,260 @@
+{
+ "section_id": "pausanias-body-34",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7378,
+  "output": 2228
+ },
+ "result": {
+  "summary": "Pausanias describes Oropus, now Athenian, and the sanctuary of Amphiaraus near it. He covers the hero's deification, the five-part altar, the fountain and the dream-oracle ritual.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Oropus and Amphiaraus' fate",
+    "summary": "Oropus passed from Boeotia to Athens. Amphiaraus is said to have been swallowed by the earth at Harma, and the Oropians first made him a god.",
+    "stakes": "",
+    "present": [
+     "Amphiaraus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Oropus",
+     "modern_name": "Oropos",
+     "certainty": "real",
+     "lat": 38.3,
+     "lon": 23.75
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 10,
+    "title": "The temple and its altar",
+    "summary": "Pausanias compares other deified men, then describes the statue and the altar's five divisions with the deities honoured on each.",
+    "stakes": "",
+    "present": [
+     "Amphiaraus",
+     "Amphilochus",
+     "Alcmæon",
+     "Protesilaus",
+     "Trophonius"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Amphiaraus",
+     "modern_name": "Amphiareion of Oropos",
+     "certainty": "real",
+     "lat": 38.2886,
+     "lon": 23.7456
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 19,
+    "title": "Fountain and dream oracle",
+    "summary": "The fountain receives coins from the healed. Pausanias explains Amphiaraus' dream divination and the ram-skin incubation rite.",
+    "stakes": "",
+    "present": [
+     "Amphiaraus",
+     "Iophon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Temple of Amphiaraus",
+     "modern_name": "Amphiareion of Oropos",
+     "certainty": "real",
+     "lat": 38.2886,
+     "lon": 23.7456
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Seer who fled Thebes, swallowed by the earth and later worshipped as a god of dream oracles"
+   },
+   {
+    "name": "Amphilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero with an altar at Athens and an oracle at Mallus"
+   },
+   {
+    "name": "Alcmæon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Honourless among them because he murdered Eriphyle"
+   },
+   {
+    "name": "Eriphyle",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Woman whose murder cost Alcmæon honour"
+   },
+   {
+    "name": "Protesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero honoured at Eleus"
+   },
+   {
+    "name": "Trophonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero honoured at Lebadea"
+   },
+   {
+    "name": "Iophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Gnossian interpreter of antiquities who preserved oracles"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Gave Oropus to Athens after Thebes fell"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Amphiaraus",
+    "relation": "parent_of",
+    "b": "Amphilochus",
+    "source": "outside",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Alcmæon",
+    "relation": "parent_of",
+    "b": "Amphilochus",
+    "source": "outside",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Amphiaraus",
+    "relation": "spouse_of",
+    "b": "Eriphyle",
+    "source": "outside",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Vesta",
+    "canonical": "Hestia",
+    "explanation": "Vesta is the Roman name of the hearth goddess, used by the translator."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 19,
+    "reason": "Vividly describes incubation: sleeping in a ram's skin to receive a prophetic dream.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows how mortals could become gods through cult, and how Greek religion linked healing, oracles and ritual purity.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Oropus changed hands between Boeotia and Athens, and Philip of Macedon's grant reflects Macedonian power over Greek border disputes.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Amphiareion at Oropos survives, with remains of its temple, altar and theatre.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Philip is Philip II of Macedon, who defeated Thebes at Chaeronea in 338 BC and gave Oropus to Athens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180-200 metres, so about 12 stades is a little over two kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Amphiaraus, a seer, fled from Thebes after the failed expedition of the Seven against it; Zeus opened the earth to save him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Protesilaus was the first Greek killed at Troy; Trophonius was a hero with a famous oracle at Lebadea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "Alcmæon, son of Amphiaraus, killed his mother Eriphyle, who had betrayed his father for a necklace, so he is excluded from honour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "word",
+    "text": "Lustrations are ritual purifications with water.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Hexameters are verses of six metrical feet, the usual form of epic and oracular verse.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "This is incubation: sleeping in a sacred place so the god may send a healing or prophetic dream.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 6,
+    "text": "Pæonian Apollo is Apollo as healer; Pæon was the physician of the gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Panacea and Hygiea were goddesses of healing and health, associated with Asclepius's cult.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Amphilochus, son of Amphiaraus, was said to have founded an oracle at Mallus in Cilicia.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "narrative voice",
+    "text": "The hedge \"they say\" shows Pausanias reporting local tradition while keeping distance from it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "characterization",
+    "text": "Pausanias defines Amphiaraus by his skill in dream divination, linking the hero's character to his later cult.",
+    "spoiler": false
+   }
+  ]
+ }
+}

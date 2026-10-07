@@ -1,0 +1,322 @@
+{
+ "section_id": "pausanias-body-279",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7736,
+  "output": 2657
+ },
+ "result": {
+  "summary": "Pausanias opens Book 9 with Bœotia, its name and the Platæans. He recounts their early history, their part against Xerxes, and their two expulsions, ending with Thebes razing Platæa and Philip later restoring it.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "Bœotia and the Platæans' origins",
+    "summary": "Pausanias explains the name Bœotia and the Platæans' name and early kings.",
+    "stakes": "",
+    "present": [
+     "Bœotus",
+     "Platæa",
+     "Asopus",
+     "Cithæron"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Bœotia",
+     "modern_name": "Boeotia",
+     "certainty": "real",
+     "lat": 38.35,
+     "lon": 23.2
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 9,
+    "title": "Platæa in the Persian and Greek wars",
+    "summary": "The Platæans fight Mardonius, and are later driven out and restored after the Spartan siege.",
+    "stakes": "The Platæans risk losing their homeland.",
+    "present": [
+     "Mardonius",
+     "Xerxes",
+     "Antalcidas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Platæa",
+     "modern_name": "Plataea",
+     "certainty": "real",
+     "lat": 38.22,
+     "lon": 23.27
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 19,
+    "title": "Thebes seizes Platæa",
+    "summary": "Neocles leads the Thebans by a roundabout route and takes Platæa while its farmers are in the fields. The Platæans are expelled and the town razed, and Athens takes them in.",
+    "stakes": "The Platæans lose their city and homes.",
+    "present": [
+     "Neocles"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Platæa",
+     "modern_name": "Plataea",
+     "certainty": "real",
+     "lat": 38.22,
+     "lon": 23.27
+    }
+   },
+   {
+    "start_sentence": 20,
+    "end_sentence": 20,
+    "title": "Philip restores Platæa",
+    "summary": "After Chæronea Philip garrisons Thebes and restores the Platæans.",
+    "stakes": "",
+    "present": [
+     "Philip"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Bœotus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "eponym of the Bœotians, son of Itonus"
+   },
+   {
+    "name": "Itonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Amphictyon, father of Bœotus"
+   },
+   {
+    "name": "Amphictyon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Itonus"
+   },
+   {
+    "name": "Melanippe",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "nymph, mother of Bœotus"
+   },
+   {
+    "name": "Platæa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Asopus, who gave her name to the town"
+   },
+   {
+    "name": "Asopus",
+    "aliases": [],
+    "kind": "god",
+    "description": "river-god, or early king, father of Platæa"
+   },
+   {
+    "name": "Cithæron",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "early king who gave name to the mountain"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king who invaded Greece"
+   },
+   {
+    "name": "Mardonius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian general, son of Gobryas"
+   },
+   {
+    "name": "Gobryas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Mardonius"
+   },
+   {
+    "name": "Antalcidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan who negotiated peace with Persia"
+   },
+   {
+    "name": "Neocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban Bœotarch who captured Platæa"
+   },
+   {
+    "name": "Archidamus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan leader at the earlier siege"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "victor at Chæronea who restored Platæa"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Itonus",
+    "relation": "parent_of",
+    "b": "Bœotus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Amphictyon",
+    "relation": "parent_of",
+    "b": "Itonus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Melanippe",
+    "relation": "parent_of",
+    "b": "Bœotus",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Asopus",
+    "relation": "parent_of",
+    "b": "Platæa",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Gobryas",
+    "relation": "parent_of",
+    "b": "Mardonius",
+    "source": "text",
+    "evidence_sentence": 7
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lacedæmonians",
+    "canonical": "Spartans",
+    "explanation": "The text uses both names for the people of Sparta."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 4,
+    "reason": "Pausanias notes that early Greece was ruled by kings, with no democracies.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias traces Bœotian places to eponymous founders and shows how Platæa's fortunes rose and fell with Greek power struggles.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage records the fourth-century conflict between Thebes and Sparta and Athens, ending with Macedonian dominance under Philip.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Platæa was famous for the Greek victory over Mardonius in 479 BC, though Pausanias here mentions it only briefly.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "\"Contiguous\" means bordering; Bœotia adjoins Attica, and Platæa lies next to Eleutheræ, a town on the Attic border.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "The Peace of Antalcidas (387 BC), also called the King's Peace, ended the Corinthian War on terms set by the Persian king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Cadmea was Thebes' citadel, seized by a Spartan force in 382 BC; the Platæans claim they had no part in that plot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "A Bœotarch was one of the chief officers of the Bœotian league, here serving at Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "\"One dress\" for men and \"two\" for women means each could carry off only the clothing specified, no other goods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "word",
+    "text": "\"Rased\" is an old spelling of razed, meaning leveled; \"no sack\" means the town was not plundered.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 7,
+    "text": "Platæa fought beside Athens at Marathon in 490 BC. Mardonius was defeated near Platæa in 479 BC, in the decisive land battle of the Persian invasion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Leuctra (371 BC) was Thebes' great victory over Sparta; Platæa fell three years later, so about 373 BC by this reckoning.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Philip II of Macedon defeated Athens and Thebes at Chæronea in 338 BC and punished Thebes by favouring its enemies.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "foreshadowing",
+    "text": "The phrase \"destined to come upon them\" hints that another disaster is coming for Platæa, preparing the account of the Theban attack.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "characterization",
+    "text": "Neocles is shown as shrewd: he notices the Platæans' routine and plans a roundabout march to exploit it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "antithesis",
+    "text": "The contrast between being shut in and being shut out sets the two disasters side by side to compare them.",
+    "spoiler": false
+   }
+  ]
+ }
+}

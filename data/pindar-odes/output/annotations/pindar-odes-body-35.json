@@ -1,0 +1,413 @@
+{
+ "section_id": "pindar-odes-body-35",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10156,
+  "output": 3728
+ },
+ "result": {
+  "summary": "Pindar celebrates Chromios of Aitna for a chariot victory won at Sikyon. He recounts how Adrastos founded the Sikyonian games and the doomed expedition of the Seven against Thebes, then praises Chromios's war record and fortune.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Editor's introduction",
+    "summary": "The editor explains that the victory was won at Sikyon, not Nemea, and that the date is uncertain.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Sikyon",
+     "modern_name": "Sikyon, Corinthia",
+     "certainty": "real",
+     "lat": 37.98,
+     "lon": 22.72
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 9,
+    "title": "Procession to Aitna",
+    "summary": "The singers lead the victory song from Sikyon to Aitna and the house of Chromios, and recall Adrastos's founding of the games.",
+    "stakes": "",
+    "present": [
+     "Chromios",
+     "Adrastos"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aitna",
+     "modern_name": "Etna area, Sicily",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 14.97
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 16,
+    "title": "Adrastos and the Seven",
+    "summary": "Adrastos flees Argos, is reconciled with Amphiaraos through Eriphyle, and leads the doomed expedition against Thebes, where Amphiaraos is swallowed by the earth.",
+    "stakes": "Adrastos and his army face death after ignoring Zeus's warning signs at Thebes.",
+    "present": [
+     "Adrastos",
+     "Amphiaraos",
+     "Eriphyle",
+     "Zeus",
+     "Periklymenos"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Boeotia",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 23,
+    "title": "Prayer and praise of Chromios",
+    "summary": "Pindar prays Zeus for good laws for Aitna and praises Chromios's courage in war by land and sea.",
+    "stakes": "Aitna's peace is threatened by Phoenician (Carthaginian) war.",
+    "present": [
+     "Zeus",
+     "Chromios",
+     "Enyalios"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aitna",
+     "modern_name": "Etna area, Sicily",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 14.97
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 29,
+    "title": "Banquet and closing boast",
+    "summary": "Pindar speaks of calm old age, calls for wine in the victory goblets, and claims his song hits the Muses' mark.",
+    "stakes": "",
+    "present": [
+     "Chromios",
+     "Zeus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Aitna",
+     "modern_name": "Etna area, Sicily",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 14.97
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chromios",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man of Aitna honoured for his chariot victory and war deeds"
+   },
+   {
+    "name": "Adrastos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Exiled Argive who became king at Sikyon and founded games"
+   },
+   {
+    "name": "Amphiaraos",
+    "aliases": [
+     "son of Oikleus"
+    ],
+    "kind": "mortal",
+    "description": "Seer swallowed by the earth at Thebes"
+   },
+   {
+    "name": "Eriphyle",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Amphiaraos, given as surety of reconciliation"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "son of Kronos"
+    ],
+    "kind": "god",
+    "description": "Chief god who sends lightning and thunderbolt"
+   },
+   {
+    "name": "Periklymenos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban warrior whose spear threatened Amphiaraos"
+   },
+   {
+    "name": "Enyalios",
+    "aliases": [],
+    "kind": "god",
+    "description": "War god"
+   },
+   {
+    "name": "Hektor",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan hero whose glory is compared"
+   },
+   {
+    "name": "Agesidamos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Chromios"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoibos",
+     "Leto's son"
+    ],
+    "kind": "god",
+    "description": "God honoured by the games and crowns"
+   },
+   {
+    "name": "Kronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Zeus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Kronos",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Agesidamos",
+    "relation": "parent_of",
+    "b": "Chromios",
+    "source": "text",
+    "evidence_sentence": 22
+   },
+   {
+    "a": "Amphiaraos",
+    "relation": "spouse_of",
+    "b": "Eriphyle",
+    "source": "text",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "son of Oikleus",
+    "canonical": "Amphiaraos",
+    "explanation": "Patronymic for Amphiaraos."
+   },
+   {
+    "alias": "Phoibos",
+    "canonical": "Apollo",
+    "explanation": "Epithet of Apollo."
+   },
+   {
+    "alias": "son of Kronos",
+    "canonical": "Zeus",
+    "explanation": "Patronymic for Zeus."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Memorable maxim that even sons of gods flee divine terror.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "reason": "Pindar's proud closing boast about his poetry.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode pairs athletic honour with the myth of Adrastos, warning that success needs the gods' favour.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Chromios served Hieron of Syracuse, and the Phoenician reference reflects Sicilian Greeks' fear of Carthage.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Though grouped with the Nemeans, this ode celebrates a victory at Sikyon's local Pythian games.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Aitna was a new city founded by Hieron; 'invading guests' is a playful phrase for the crowd of visitors that fills Chromios's open doors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "The mother and her twin children are Leto, Apollo and Artemis, who share guardianship of Pytho (Delphi).",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "'Withal' means 'also' or 'in addition'; 'voiceful' means loud and resounding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Eriphyle, sister of Adrastos, was given as wife to Amphiaraos, son of Oikleus, to end their feud. She later betrayed him, which is why she is called his slayer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "The expedition of the Seven against Thebes is the well-known legend. Zeus (the son of Kronos) sent lightning as a warning sign against it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "'Fed the white smoke with their bodies' means their corpses were burned on funeral pyres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Amphiaraos was saved from death in flight by Zeus, who opened the earth for him. Periklymenos was a Theban warrior who would have speared him in the back.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Phenician spears refer to the Carthaginians, Phoenician colonists in the west, who threatened Greek Sicily. Pindar hopes the battle with them can be postponed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "\"Would fain defer unto the utmost\" means he would gladly put off the conflict as long as possible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Enyalios is a war-god, here often identified with Ares or his aspect; \"havoc of Enyalios\" means the destruction of battle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Hektor was the Trojan champion, famed beside the river Skamander. Pindar compares Chromios's glory at the Heloros to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "phrasing",
+    "text": "\"The grapes' potent child\" is a poetic way of saying wine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "\"Leto's son\" is Apollo; the crowns suggest the goblets were prizes won at games in his honour, sent from Sikyon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "The Charites are the Graces, goddesses of charm and beauty who favoured poets.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Chromios was a Sicilian commander and brother-in-law of Hieron, tyrant of Syracuse, and is also honoured in Nemean 1.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Adrastos, king of Sikyon, was said to have founded the games there in honour of Apollo (Phoibos). The Asopos is a river near Sikyon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Adrastos, son of Talaos, fled Argos after a quarrel with Amphiaraos and became king at Sikyon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Aitna was a Sicilian city founded by Hieron of Syracuse. Chromios was a commander closely tied to Hieron.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "text": "Sikyon, a city in the Peloponnese, held games where Chromios's mares won a chariot victory, with silver cups as prizes.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "metaphor",
+    "text": "The games are called the 'crown' of all horse contests, picturing the event as the finest ornament or highest prize.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "imagery",
+    "text": "The earth cleaving 'deep-breasted' and swallowing the hero with his horses gives a vivid, almost bodily picture of divine rescue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "gnomic statement",
+    "text": "The closing maxim turns the myth into a general truth about terror from the gods, which even divine offspring flee.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "metaphor",
+    "text": "Old age is imagined as a ripening crop, and the calm day as its harvest, rewarding righteous toil in youth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "hyperbole",
+    "text": "The mountain-top image suggests there is no higher peak of human happiness than Chromios's wealth joined with fame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "device": "personification",
+    "text": "The banquet \"loveth peace\" and the singer's voice \"waxeth brave\", giving feast and song lively human traits.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "metaphor",
+    "text": "Pindar likens his song to a javelin thrown at a target, claiming his praise lands closest to the Muses' mark.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,680 @@
+{
+ "section_id": "pausanias-body-161",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10386,
+  "output": 5362
+ },
+ "result": {
+  "summary": "Pausanias describes the statues in Hera's temple at Olympia, both the old gold-and-ivory ones and later additions. He then begins describing the cedar chest of Cypselus, explaining its origin and inscriptions, and its carved scenes of Oenomaus, Amphiaraus, the funeral games of Pelias and Hercules.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Statues in Hera's temple",
+    "summary": "Pausanias lists the old statues of gods and Seasons by Spartan and Aeginetan artists, then later additions by Praxiteles and others.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Hera",
+     "Themis",
+     "Athene",
+     "Proserpine",
+     "Demeter",
+     "Apollo",
+     "Artemis",
+     "Leto",
+     "Dionysus",
+     "Hermes",
+     "Aphrodite",
+     "Eurydice",
+     "Olympias"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hera's temple, Olympia",
+     "modern_name": "Heraion of Olympia",
+     "certainty": "real",
+     "lat": 37.6385,
+     "lon": 21.6295
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 15,
+    "title": "The chest of Cypselus",
+    "summary": "The cedar chest is described, with the story of how Cypselus was hidden in it and its old inscriptions.",
+    "stakes": "The infant Cypselus was in danger from the Bacchidae, who sought him.",
+    "present": [
+     "Cypselus",
+     "Bacchidae"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Corinth",
+     "certainty": "real",
+     "lat": 37.9056,
+     "lon": 22.8786
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 21,
+    "title": "Oenomaus and Amphiaraus carvings",
+    "summary": "The chest shows Oenomaus chasing Pelops and the house of Amphiaraus with his family.",
+    "stakes": "Amphiaraus is doomed by Eriphyle's betrayal; Pelops risks death in the chase.",
+    "present": [
+     "Oenomaus",
+     "Pelops",
+     "Hippodamia",
+     "Amphiaraus",
+     "Amphilochus",
+     "Eriphyle",
+     "Eurydice",
+     "Demonassa",
+     "Alcmæon",
+     "Baton"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Chest of Cypselus, Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6385,
+     "lon": 21.6295
+    }
+   },
+   {
+    "start_sentence": 22,
+    "end_sentence": 32,
+    "title": "Games for Pelias",
+    "summary": "The chest shows the funeral games of Pelias with many heroes competing.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Pisus",
+     "Asterion",
+     "Pollux",
+     "Admetus",
+     "Euphemus",
+     "Mopsus",
+     "Jason",
+     "Peleus",
+     "Eurybotas",
+     "Melanion",
+     "Neotheus",
+     "Phalareus",
+     "Argeus",
+     "Iphiclus",
+     "Acastus",
+     "Alcestis",
+     "Iolaus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Chest of Cypselus, Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6385,
+     "lon": 21.6295
+    }
+   },
+   {
+    "start_sentence": 33,
+    "end_sentence": 35,
+    "title": "Hercules and Phineus",
+    "summary": "Hercules shoots the hydra with Athene beside him, and the sons of Boreas drive off the Harpies from Phineus.",
+    "stakes": "Phineus is tormented by the Harpies.",
+    "present": [
+     "Athene",
+     "Hercules",
+     "Phineus",
+     "Boreas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Chest of Cypselus, Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.6385,
+     "lon": 21.6295
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods, statue in Hera's temple"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess seated on a throne"
+   },
+   {
+    "name": "Themis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother of the Seasons"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess with helmet, spear and shield"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "seated statue"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "seated statue"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "standing statue"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "standing statue"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "carried as a babe by Hermes"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "carries baby Dionysus"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "bronze statue"
+   },
+   {
+    "name": "Eurydice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Philip; also daughter of Eriphyle"
+   },
+   {
+    "name": "Olympias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "statue from Philip's house"
+   },
+   {
+    "name": "Cypselus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrant of Corinth hidden in the chest"
+   },
+   {
+    "name": "Bacchidae",
+    "aliases": [],
+    "kind": "other",
+    "description": "Corinthian rulers seeking the infant"
+   },
+   {
+    "name": "Oenomaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "pursuer of Pelops"
+   },
+   {
+    "name": "Pelops",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "has winged horses"
+   },
+   {
+    "name": "Hippodamia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "carried off with Pelops"
+   },
+   {
+    "name": "Amphiaraus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "angry at Eriphyle"
+   },
+   {
+    "name": "Amphilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "baby son of Amphiaraus"
+   },
+   {
+    "name": "Eriphyle",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wife of Amphiaraus with a necklace"
+   },
+   {
+    "name": "Demonassa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Eriphyle"
+   },
+   {
+    "name": "Alcmæon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "little naked boy"
+   },
+   {
+    "name": "Alcmena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "called daughter of Amphiaraus by Asius"
+   },
+   {
+    "name": "Baton",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "charioteer of Amphiaraus"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero at the games and shooting the hydra"
+   },
+   {
+    "name": "Pisus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Perieres, charioteer"
+   },
+   {
+    "name": "Asterion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Cometes, Argonaut"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "competitor"
+   },
+   {
+    "name": "Admetus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "competitor and boxer"
+   },
+   {
+    "name": "Euphemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Poseidon, Argonaut"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Euphemus"
+   },
+   {
+    "name": "Mopsus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Ampyx, boxer"
+   },
+   {
+    "name": "Jason",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wrestler"
+   },
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "wrestler"
+   },
+   {
+    "name": "Eurybotas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "quoit thrower"
+   },
+   {
+    "name": "Melanion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "runner"
+   },
+   {
+    "name": "Neotheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "runner"
+   },
+   {
+    "name": "Phalareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "runner"
+   },
+   {
+    "name": "Argeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "runner"
+   },
+   {
+    "name": "Iphiclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "winning runner, father of Protesilaus"
+   },
+   {
+    "name": "Protesilaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "fought at Ilium"
+   },
+   {
+    "name": "Acastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "holds out the crown"
+   },
+   {
+    "name": "Alcestis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Pelias"
+   },
+   {
+    "name": "Iolaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "companion of Hercules, chariot winner"
+   },
+   {
+    "name": "Pelias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "honoured by the games"
+   },
+   {
+    "name": "Phineus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Thracian tormented by Harpies"
+   },
+   {
+    "name": "Boreas",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of the flying sons"
+   },
+   {
+    "name": "Philip",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "owner of Philip's house"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Themis",
+    "relation": "parent_of",
+    "b": "Seasons",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Euphemus",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Amphiaraus",
+    "relation": "spouse_of",
+    "b": "Eriphyle",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Amphiaraus",
+    "relation": "parent_of",
+    "b": "Amphilochus",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Eriphyle",
+    "relation": "parent_of",
+    "b": "Alcmæon",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Iphiclus",
+    "relation": "parent_of",
+    "b": "Protesilaus",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Philip",
+    "relation": "spouse_of",
+    "b": "Eurydice",
+    "source": "text",
+    "evidence_sentence": 9
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 21,
+    "reason": "Vivid depiction of Amphiaraus' rage against Eriphyle, who betrayed him for a necklace.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows Olympia as a storehouse of memory, where votive objects preserve myth, family history and artistic lineage.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias traces sculptors by teacher and pupil, and notes archaic features like ox-fashion (boustrophedon) writing.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Ox-fashion writing, called boustrophedon, alternates direction each line like an ox ploughing a field.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Athene is this translation's spelling for the goddess Athena; the helmet, spear and shield are her usual attributes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "allusion",
+    "text": "'Philip's house' refers to the Philippeion at Olympia, built by Philip of Macedon; Eurydice and Olympias were members of his family.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "The asterisks mark a gap or break in the text, so the chest is introduced without its earlier setting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "Pausanias explains the name by a Greek word for chest, kypsele. 'So they say' marks it as a local tradition he does not vouch for.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "'Ox-fashion' translates boustrophedon: writing that turns at each line's end, like an ox pulling a plough.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Œnomaus, king of Pisa, raced suitors for his daughter Hippodamia's hand; Pelops won by defeating him, in the story linked to Olympia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Eriphyle was bribed with the necklace of Harmonia to persuade her husband Amphiaraus to join the doomed expedition against Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "Asius is an early epic poet; the text gives his genealogy as a variant, naming Alcmena (usually Hercules' mother) as Amphiaraus' daughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "word",
+    "text": "Pentathlum is the pentathlon, the five-event contest; flute music accompanied the jumping event.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "word",
+    "text": "A quoit is a discus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "kind": "allusion",
+    "text": "Hercules' killing of the Lernaean hydra is one of his Labours; Athene was his divine helper.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "allusion",
+    "text": "Phineus was a blind king plagued by Harpies who fouled his food; the Boreads, winged sons of the North Wind, drove them off.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Smilis of Aegina was a very early Greek sculptor, here credited with the Seasons (Horae), goddesses of the natural order.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Themis was a goddess of divine law and order, and in myth the mother of the Seasons by Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "The Hesperides were nymphs who guarded the golden apples in a western garden.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Praxiteles was a famous fourth-century BC sculptor; his Hermes carrying the infant Dionysus is among his best-known works.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Cypselus became tyrant of Corinth in the seventh century BC. The Bacchidae were the ruling aristocratic clan, who had been warned he would overthrow them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Amphiaraus, a seer, knew he would die at Thebes and was forced to go by Eriphyle; hence his anger at her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "text": "Funeral games for Pelias, king of Iolcus, were a famous subject in early Greek art and poetry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Phrygian pipes were associated with Asia Minor and had a different sound from Greek pipes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Alcestis, daughter of Pelias, later became the wife of Admetus and agreed to die in his place.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 1,
+    "device": "characterization",
+    "text": "Pausanias' brief remark on the simple workmanship shows his habit of judging art by age and style, favoring antiquity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "simile",
+    "text": "The turning lines of text are compared to runners doubling back on a racecourse, making an unfamiliar script easy to picture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "symbolism",
+    "text": "The winged horses of Pelops hint at his divine aid and his coming victory over Œnomaus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "characterization",
+    "text": "The scene shows Amphiaraus' suppressed fury through posture, one foot in the chariot and sword drawn, making his feelings visible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 34,
+    "device": "narrative voice",
+    "text": "Pausanias reasons as a careful observer, explaining why the artist left Hercules unlabeled.",
+    "spoiler": false
+   }
+  ]
+ }
+}

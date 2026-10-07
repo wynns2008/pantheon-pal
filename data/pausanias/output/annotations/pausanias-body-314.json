@@ -1,0 +1,458 @@
+{
+ "section_id": "pausanias-body-314",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7645,
+  "output": 3756
+ },
+ "result": {
+  "summary": "Pausanias traces the kings of Orchomenus after Eteocles: Phlegyas, Chryses, Minyas and Orchomenus. He describes the fall of the Phlegyans, the Treasury of Minyas, and the exile of Hyettus, the first avenger of adultery.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Phlegyas and his warlike people",
+    "summary": "Phlegyas succeeds Eteocles and renames the land and city. His people attack Delphi and are defeated.",
+    "stakes": "The Phlegyans risk destruction by attacking the god's temple at Delphi.",
+    "present": [
+     "Eteocles",
+     "Almus",
+     "Chrysogenia",
+     "Chryse",
+     "Ares",
+     "Phlegyas",
+     "Philammon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Orchomenus (Phlegyantis)",
+     "modern_name": "Orchomenos, Boeotia",
+     "certainty": "real",
+     "lat": 38.4872,
+     "lon": 22.9764
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 7,
+    "title": "Homer on the Phlegyans; their ruin",
+    "summary": "Pausanias cites the Iliad on the warlike Phlegyans, then says lightning, earthquakes and plague destroyed them.",
+    "stakes": "The Phlegyan people are wiped out by disaster.",
+    "present": [
+     "Ares",
+     "Panic",
+     "Phlegyas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Phlegyantis",
+     "modern_name": "Orchomenos, Boeotia",
+     "certainty": "real",
+     "lat": 38.4872,
+     "lon": 22.9764
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 12,
+    "title": "Chryses, Minyas and the Treasury",
+    "summary": "Chryses and Minyas rule; Minyas builds the first Treasury. Orchomenus then gives the town its name.",
+    "stakes": "",
+    "present": [
+     "Chryses",
+     "Chrysogenia",
+     "Poseidon",
+     "Minyas",
+     "Orchomenus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Orchomenus",
+     "modern_name": "Orchomenos, Boeotia",
+     "certainty": "real",
+     "lat": 38.4872,
+     "lon": 22.9764
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 18,
+    "title": "Hyettus the exile",
+    "summary": "Hyettus flees Argos after killing Molurus and is given land by Orchomenus. The Minyae's fame is such that Neleus marries Chloris.",
+    "stakes": "Hyettus, an exile for murder, needs refuge and land.",
+    "present": [
+     "Hyettus",
+     "Molurus",
+     "Arisbas",
+     "Orchomenus",
+     "Draco",
+     "Neleus",
+     "Cretheus",
+     "Chloris",
+     "Amphion",
+     "Iasius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Hyettus",
+     "modern_name": "Orchomenos area, Boeotia",
+     "certainty": "real",
+     "lat": 38.45,
+     "lon": 23.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Eteocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Orchomenus who died without male heirs"
+   },
+   {
+    "name": "Almus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ancestor whose daughters bore the next kings"
+   },
+   {
+    "name": "Chrysogenia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Almus, mother of Chryses by Poseidon"
+   },
+   {
+    "name": "Chryse",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Almus, mother of Phlegyas by Ares"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "God of war, father of Phlegyas and Panic"
+   },
+   {
+    "name": "Phlegyas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King who gave his name to the country and city"
+   },
+   {
+    "name": "Philammon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Leader who fought the Phlegyans at Delphi and died"
+   },
+   {
+    "name": "Panic",
+    "aliases": [],
+    "kind": "god",
+    "description": "Son of Ares in the Iliad"
+   },
+   {
+    "name": "Chryses",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King, son of Chrysogenia and Poseidon"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "Father of Chryses"
+   },
+   {
+    "name": "Minyas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wealthy king who built the first Treasury"
+   },
+   {
+    "name": "Orchomenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Minyas, king who gave Hyettus land"
+   },
+   {
+    "name": "Hyettus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive exile who killed Molurus for adultery"
+   },
+   {
+    "name": "Molurus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Arisbas, slain by Hyettus"
+   },
+   {
+    "name": "Arisbas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Molurus"
+   },
+   {
+    "name": "Draco",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian legislator"
+   },
+   {
+    "name": "Neleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Pylos, son of Cretheus"
+   },
+   {
+    "name": "Cretheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Neleus"
+   },
+   {
+    "name": "Chloris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Orchomenian wife of Neleus"
+   },
+   {
+    "name": "Amphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Iasius, father of Chloris"
+   },
+   {
+    "name": "Iasius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Amphion"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Almus",
+    "relation": "parent_of",
+    "b": "Chryse",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Almus",
+    "relation": "parent_of",
+    "b": "Chrysogenia",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Ares",
+    "relation": "parent_of",
+    "b": "Phlegyas",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Chryse",
+    "relation": "parent_of",
+    "b": "Phlegyas",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Chrysogenia",
+    "relation": "parent_of",
+    "b": "Chryses",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Chryses",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Chryses",
+    "relation": "parent_of",
+    "b": "Minyas",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Minyas",
+    "relation": "parent_of",
+    "b": "Orchomenus",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Ares",
+    "relation": "parent_of",
+    "b": "Panic",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Arisbas",
+    "relation": "parent_of",
+    "b": "Molurus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Cretheus",
+    "relation": "parent_of",
+    "b": "Neleus",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Amphion",
+    "relation": "parent_of",
+    "b": "Chloris",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Iasius",
+    "relation": "parent_of",
+    "b": "Amphion",
+    "source": "text",
+    "evidence_sentence": 18
+   },
+   {
+    "a": "Neleus",
+    "relation": "spouse_of",
+    "b": "Chloris",
+    "source": "text",
+    "evidence_sentence": 18
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Andreis",
+    "canonical": "Phlegyantis",
+    "explanation": "Old name of the country and city, renamed after Phlegyas."
+   },
+   {
+    "alias": "Minyæ",
+    "canonical": "Orchomenians",
+    "explanation": "Name of the Orchomenians, from Minyas, distinguishing them from Arcadian Orchomenians."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 11,
+    "reason": "Pausanias complains that Greeks admire foreign wonders but neglect the Treasury of Minyas and Tiryns walls.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Royal genealogy and divine descent explain the rise and fall of Orchomenus, with impiety toward Delphi bringing ruin.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias compares Greek monuments with the Pyramids and notes early law on adultery, showing his interest in local heritage and customs.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Treasury of Minyas, a Mycenaean tholos tomb near Orchomenos, is a well-known archaeological site."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias quotes the Great Eoiae, a poem attributed to Hesiod that survives only in fragments.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Andreis was the older name of the land and city; Phlegyantis means 'land of Phlegyas'. The king renamed both after himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Quoted from Iliad 13, where Ares and his son Panic (Fear) arm for war; the Ephyri and Phlegyans are named as warlike peoples.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The Treasury of Minyas was a great beehive-shaped building at Orchomenus; the walls of Tiryns were massive 'Cyclopean' stonework. Pausanias admires both.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "The Great Eoeae was an ancient poem listing heroines and heroes; it was attributed to Hesiod. Its text survives only in fragments.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Draco gave Athens its first written laws around 621 BC; they were famously harsh, hence the word 'draconian'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Neleus was father of Nestor. His marriage to Chloris links the Minyae of Orchomenus with the royal house of Pylos.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Eteocles was an earlier king of Orchomenus in Boeotia; Almus was his ancestor in the local royal line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Delphi was the shrine of Apollo, and attacking it was a serious act of impiety in Greek eyes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Pausanias presents natural disasters as the people's ruin, implying divine punishment for their impiety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "A Treasury was a strongroom or building for storing wealth, here the ruler's riches.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "Characterization",
+    "text": "'Folly and audacity' sums up the Phlegyans as arrogant and reckless, preparing for their punishment.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "device": "Foreshadowing",
+    "text": "The earlier attack on Delphi is followed by destruction from heaven, implying divine retribution for the sacrilege.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "Irony",
+    "text": "Pausanias notes that Greeks marvel at foreign wonders while neglecting equal marvels in their own land.",
+    "spoiler": false
+   }
+  ]
+ }
+}

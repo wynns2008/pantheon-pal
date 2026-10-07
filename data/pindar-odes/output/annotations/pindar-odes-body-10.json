@@ -1,0 +1,177 @@
+{
+ "section_id": "pindar-odes-body-10",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6120,
+  "output": 1636
+ },
+ "result": {
+  "summary": "Pindar opens a short victory ode for the boxer Agesidamos of Epizephyrian Lokris, who won at Olympia in 484 B.C. He says songs are due to winners, promises a fuller ode for the celebration in Italy, and praises the Lokrians as cultured and brave.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Editor's introductory note",
+    "summary": "A note explains that this ode was sung at Olympia on the night of the victory and that a longer ode is promised. It dates the victory to 484 B.C.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 10,
+    "title": "Pindar promises a song of triumph",
+    "summary": "Pindar says that songs are owed to winners and promises Agesidamos a song of praise. He asks the Muses to join in and to visit the Lokrians, a people of arts and arms.",
+    "stakes": "Pindar has a debt of praise to pay; the poet's promise to the victor must be kept.",
+    "present": [
+     "Pindar",
+     "Agesidamos",
+     "Muses"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the poet speaking in the first person, who promises the song"
+   },
+   {
+    "name": "Agesidamos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "boxer from Epizephyrian Lokris who won the Olympic victory"
+   },
+   {
+    "name": "Archestratos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Agesidamos"
+   },
+   {
+    "name": "Muses",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddesses of song, invoked to join the triumph song"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Archestratos",
+    "relation": "parent_of",
+    "b": "Agesidamos",
+    "source": "text",
+    "evidence_sentence": 8
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 10,
+    "reason": "A memorable proverb that inborn character cannot be changed, used here to praise the Lokrians' nature.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode treats praise-song as a debt owed to success won through labour, and links excellence to divine help.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Olympic victory odes were commissioned by victors or their cities. Here the ode is sung at Olympia on the night of the victory, with a longer one promised for the celebration at home.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "The 'longer one' is Olympian 11, written for Agesidamos' celebration at Epizephyrian Lokris in southern Italy, so the 'Italian home' means the Lokrian colony there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "The 'prelude' and 'pledge confirmed by oath' mean this short song is a first instalment, promising a fuller ode later.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "'Fain' means eager or glad; 'to keep some part in fold' continues the shepherd image of storing glory as in a sheepfold.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "'Stranger-banishing' describes a people who expel foreigners; Pindar says the Lokrians are the opposite, hospitable and cultured.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "allusion",
+    "text": "Fox and lion stand for inborn character. Lokrian nature, like theirs, cannot change, so the praise of their arts and arms holds.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 8,
+    "text": "Agesidamos won the boys' boxing at Olympia. The victor's crown there was a wreath of wild olive.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "The Muses are the goddesses of poetry, music and the arts, here invited to join the victory song.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "metaphor",
+    "text": "Winds and rain stand for the different needs of life; the opening gnomic image leads to the point that victory calls for song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "extended metaphor",
+    "text": "Pindar calls himself a shepherd who folds part of the glory in his song, treating praise as a flock he tends.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "apostrophe",
+    "text": "Pindar turns to address the Muses directly, asking them to come to the Lokrians and join the victory song.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "simile",
+    "text": "Animal examples serve as a comparison for inborn Lokrian character, grounding the praise in nature.",
+    "spoiler": false
+   }
+  ]
+ }
+}

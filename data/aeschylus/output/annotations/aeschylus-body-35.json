@@ -1,0 +1,488 @@
+{
+ "section_id": "aeschylus-body-35",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 14373,
+  "output": 4487
+ },
+ "result": {
+  "summary": "The Chorus of Danaid maidens pray to Zeus and recall their ancestress Io's wanderings and her rescue by Zeus. Danaüs returns with news that the Argives have voted to protect them, and the Chorus pray for blessings on Argos. Danaüs then sights the Egyptian ships approaching and urges calm while he fetches help.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 20,
+    "title": "Hymn to Zeus and Io",
+    "summary": "The Chorus pray to Zeus to protect them, and retell Io's flight from Hera's gad-fly, her arrival at the Nile, and her relief by Zeus, who bore her child Epaphus.",
+    "stakes": "The maidens face forced marriage and depend on Zeus to protect his kin.",
+    "present": [
+     "Chorus",
+     "Zeus",
+     "Io",
+     "Hera",
+     "Epaphus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, sanctuary of the gods",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 33,
+    "title": "Danaüs reports the Argive vote",
+    "summary": "Danaüs returns and tells how the Argives voted by show of hands to grant the maidens asylum, persuaded by the king.",
+    "stakes": "The maidens' safety depends on the vote of the Argives.",
+    "present": [
+     "Danaüs",
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, sanctuary of the gods",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 34,
+    "end_sentence": 54,
+    "title": "Chorus bless Argos",
+    "summary": "The Chorus pray for peace, health, prosperity and good government for the Argives, and for their reverence of the gods.",
+    "stakes": "",
+    "present": [
+     "Chorus",
+     "Zeus",
+     "Ares",
+     "Artemis-Hecate"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, sanctuary of the gods",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   },
+   {
+    "start_sentence": 55,
+    "end_sentence": 64,
+    "title": "The Egyptian ships approach",
+    "summary": "Danaüs sees the pursuing ship near the shore and tells his daughters to stay calm while he fetches help.",
+    "stakes": "The maidens may be seized and dragged away by the Egyptians' herald.",
+    "present": [
+     "Danaüs",
+     "Chorus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Argos, sanctuary of the gods",
+     "modern_name": "Argos",
+     "certainty": "real",
+     "lat": 37.63,
+     "lon": 22.73
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Chorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the Danaid maidens, suppliants descended from Io"
+   },
+   {
+    "name": "Danaüs",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "aged father of the maidens"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Lyceüs"
+    ],
+    "kind": "god",
+    "description": "king of the gods, protector of suppliants"
+   },
+   {
+    "name": "Io",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ancestress tormented by Hera, loved by Zeus"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sent the gad-fly to torment Io"
+   },
+   {
+    "name": "Epaphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "child of Zeus and Io"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of war, invoked in prayers"
+   },
+   {
+    "name": "Artemis-Hecate",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "guardian of childbirth"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose bed Ares shares"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Zeus",
+    "relation": "lover_of",
+    "b": "Io",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Epaphus",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Io",
+    "relation": "parent_of",
+    "b": "Epaphus",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Ares",
+    "relation": "lover_of",
+    "b": "Aphrodite",
+    "source": "text",
+    "evidence_sentence": 44
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lyceüs",
+    "canonical": "Zeus",
+    "explanation": "An epithet; the note in the translation links it to the wolf-god, often Apollo, so the identification is uncertain."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 20,
+    "reason": "Memorable statement of Zeus' absolute, effortless power.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "reason": "Stresses Zeus' sovereignty, answerable to no higher power.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The play stresses Zeus as protector of suppliants and guest-right, with Io's story giving the maidens a divine claim on him.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Argives' vote by raised hands reflects Athenian democratic practice, which Aeschylus projects onto mythical Argos.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "\"Black-benched pest\" refers to the Egyptian ships with dark rowing benches, carrying the pursuing sons of Aegyptus, whom the Chorus call a plague.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Zeus \"laid his hand\" on Io: a reference to his seduction of her and his later touch that cured her and begot Epaphus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Bourne\" means goal or boundary; Io made the far shore her destination after crossing the strait (the Bosporus, traditionally).",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "\"Typho\" is the monster Typhon, whom Zeus defeated; Egypt is here linked to his struggle with Zeus. \"Winged herdsman\" is the gad-fly sent by Hera.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Astonied\" is archaic for astonished or stunned.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "\"Distemper\" means disorder or sickness; here Io's madness and bovine transformation, caused by Hera's scheming.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Epaphus, whose name suggests \"touch\", was Io's son by Zeus and ancestor of the Danaids through Danaus's line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "phrasing",
+    "text": "\"Carrying full authority\" means the decrees are legally binding; the assembly's vote is final and cannot be reversed.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "\"Suffrages\" means votes; \"purport\" means substance or meaning of the decision.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "phrasing",
+    "text": "\"Subject to no seizure\" and \"secure from robbery of man\" mean the women cannot be lawfully seized or carried off by anyone.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "phrasing",
+    "text": "\"Feed fat the wrath of Zeus\" means to nourish his anger by wronging suppliants. \"Burghers\" are the city's own citizens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "phrasing",
+    "text": "The Argives did not wait for a herald to formally call the vote; they voted at once by raised hands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 35,
+    "kind": "word",
+    "text": "\"Requital\" means repayment: the Argives gave protection, so the Chorus repay with prayers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 38,
+    "kind": "word",
+    "text": "\"Orisons\" are prayers.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "word",
+    "text": "\"Pelasgian\" refers to the Argives, called after the early people and king Pelasgus of this land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 40,
+    "kind": "phrasing",
+    "text": "The avenging eye of Zeus is his watchful justice; a house defiled by wronging suppliants would bear its burden like a weight on the roof.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "word",
+    "text": "\"Unculled\" means unplucked: the young men are imagined as flowers not to be picked by death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "allusion",
+    "text": "Artemis was invoked as protector of childbirth; Hecate was a related goddess, here identified with her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "kind": "allusion",
+    "text": "Lyceüs is Apollo, here as a god who wards off plague and wolves.",
+    "spoiler": false
+   },
+   {
+    "sentence": 54,
+    "kind": "allusion",
+    "text": "Honouring parents is listed third among Justice's laws, after honouring the gods and guests, according to the Chorus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "kind": "phrasing",
+    "text": "The \"eyes\" of the prow refer to eyes painted on the bow of Greek ships.",
+    "spoiler": false
+   },
+   {
+    "sentence": 62,
+    "kind": "word",
+    "text": "\"Hale\" means drag by force; \"haply\" means perhaps.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "The Chorus are the fifty daughters of Danaus, fleeing forced marriage to their cousins, the sons of Aegyptus, and seeking Zeus's protection.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Io, a priestess of Hera at Argos, was loved by Zeus; Hera turned her into a cow and tormented her with a gad-fly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "The route lists real regions of Asia Minor, tracing Io's wandering on the way to Egypt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Argos is a democracy here: the king persuades, but the assembly votes by raised hands.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "Zeus Hikesios protected suppliants. Harming people who sought sanctuary at an altar was a grave religious offense that brought divine punishment on the city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "text": "The Pelasgians are the Argives' people; their king, Pelasgus, argued for the maidens in the assembly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 36,
+    "text": "Zeus was protector of strangers and suppliants (Zeus Xenios), central to the Danaids' plea for refuge.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "text": "Ares, god of war, was lover of Aphrodite, hence \"partner of Aphrodite's bed.\"",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "text": "Danaüs, father of the fifty maidens, watches from a raised sanctuary of suppliant gods, seeing the Egyptians' ship approach.",
+    "spoiler": false
+   },
+   {
+    "sentence": 58,
+    "text": "The Egyptians' dark skin and white clothing mark them as foreigners, like the Danaids themselves.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "apostrophe",
+    "text": "The Chorus address Zeus directly with piled-up superlatives, stressing his supreme power before asking him for help.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "personification",
+    "text": "The Nile's water is called untouched by disease, giving the land and river a sacred, almost protective character.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "rhetorical question",
+    "text": "The Chorus ask who brought Io relief, building suspense before the answer, Zeus, in the next line.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "device": "anaphora",
+    "text": "Repeated \"he\" clauses pile up Zeus's attributes, giving the praise a hymn-like, incantatory rhythm.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "contrast",
+    "text": "The Chorus set Zeus's absolute sovereignty against ordinary rulers, implying that no mortal king can overrule him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "metaphor",
+    "text": "The old man's heart \"renewing its youth\" conveys his joy and relief through the image of rejuvenation.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "device": "personification",
+    "text": "The air itself \"bristled\" with hands, like a field of spears, vividly showing the vote's overwhelming unanimity.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "device": "antithesis",
+    "text": "The contrast between the people's persuasion and Zeus's accomplishment suggests divine will working through human choices.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "device": "metaphor",
+    "text": "War is imagined as a reaper harvesting men in foreign fields, making battle a grim crop.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "device": "metaphor",
+    "text": "Youth as a flower that war might shear off continues the harvest imagery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 48,
+    "device": "epithet",
+    "text": "Ares is called \"foe to the dance and lute, parent of tears,\" defining him by his harms.",
+    "spoiler": false
+   },
+   {
+    "sentence": 49,
+    "device": "personification",
+    "text": "Diseases are a joyless swarm that might settle on heads like insects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 57,
+    "device": "personification",
+    "text": "The ship's prow has eyes and obeys the rudder, making the vessel a menacing living pursuer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 64,
+    "device": "foreshadowing",
+    "text": "Danaüs's assurance that the god-despisers will be punished hints at the coming conflict and the Egyptians' downfall.",
+    "spoiler": false
+   }
+  ]
+ }
+}

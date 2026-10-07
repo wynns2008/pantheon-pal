@@ -1,0 +1,324 @@
+{
+ "section_id": "pausanias-body-112",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8268,
+  "output": 2720
+ },
+ "result": {
+  "summary": "Under King Phintas the Messenians send a choir to Delos, and the first quarrel with Sparta arises at a temple of Artemis Limnas, with two rival accounts. A generation later, the wrong done to the Messenian Polychares by the Spartan Euæphnus leads to open strife.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 1,
+    "title": "Messenian offering to Delos",
+    "summary": "In Phintas' reign the Messenians first send sacrifices and a men's choir to Apollo at Delos, with a hymn by Eumelus.",
+    "stakes": "",
+    "present": [
+     "Phintas",
+     "Eumelus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delos",
+     "modern_name": "Delos",
+     "certainty": "real",
+     "lat": 37.396,
+     "lon": 25.268
+    }
+   },
+   {
+    "start_sentence": 2,
+    "end_sentence": 9,
+    "title": "Quarrel at Artemis Limnas",
+    "summary": "Sparta and Messenia give conflicting accounts of how King Teleclus died at the temple on their border.",
+    "stakes": "Teleclus is killed; the maidens' honour (Spartan version) or Spartan treachery exposed (Messenian version).",
+    "present": [
+     "Teleclus",
+     "Phintas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Temple of Artemis Limnas",
+     "modern_name": "Border of Laconia and Messenia",
+     "certainty": "traditional",
+     "lat": 36.97,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 12,
+    "title": "Strife begins under new kings",
+    "summary": "A generation later, Sparta begins hostilities on a plausible pretext, which could have been settled by arbitration.",
+    "stakes": "War between the two peoples.",
+    "present": [
+     "Alcamenes",
+     "Theopompus",
+     "Antiochus",
+     "Androcles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lacedæmon and Messenia",
+     "modern_name": "Peloponnese, Greece",
+     "certainty": "real",
+     "lat": 37.0,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 21,
+    "title": "Polychares wronged by Euæphnus",
+    "summary": "Euæphnus sells Polychares' cattle, then kills his son; denied justice by Sparta, Polychares goes mad with rage and kills Spartans.",
+    "stakes": "Polychares loses his property and his son, and his sanity.",
+    "present": [
+     "Polychares",
+     "Euæphnus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Laconia",
+     "modern_name": "Laconia, Greece",
+     "certainty": "real",
+     "lat": 36.9,
+     "lon": 22.4
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Phintas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian king, son of Sybotas"
+   },
+   {
+    "name": "Sybotas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Phintas"
+   },
+   {
+    "name": "Eumelus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Poet who composed the processional hymn"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "God honoured at Delos"
+   },
+   {
+    "name": "Artemis Limnas",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess of a border temple shared by Messenians and Spartans"
+   },
+   {
+    "name": "Teleclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king killed at the temple"
+   },
+   {
+    "name": "Alcamenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Teleclus"
+   },
+   {
+    "name": "Theopompus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king of the other house, son of Nicander"
+   },
+   {
+    "name": "Antiochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian king, son of Phintas"
+   },
+   {
+    "name": "Androcles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian king, son of Phintas"
+   },
+   {
+    "name": "Polychares",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian Olympic victor wronged by Euæphnus"
+   },
+   {
+    "name": "Euæphnus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Treacherous Spartan who stole cattle and killed a boy"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Sybotas",
+    "relation": "parent_of",
+    "b": "Phintas",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Teleclus",
+    "relation": "parent_of",
+    "b": "Alcamenes",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Phintas",
+    "relation": "parent_of",
+    "b": "Antiochus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Phintas",
+    "relation": "parent_of",
+    "b": "Androcles",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Antiochus",
+    "relation": "sibling_of",
+    "b": "Androcles",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Nicander",
+    "relation": "parent_of",
+    "b": "Theopompus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Polychares",
+    "relation": "parent_of",
+    "b": "Polychares' son",
+    "source": "text",
+    "evidence_sentence": 19
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Lacedæmonians",
+    "canonical": "Spartans",
+    "explanation": "The text uses both names for the people of Sparta."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Pausanias openly leaves readers to choose between rival accounts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "reason": "Euæphnus' plea that love of gain compels injustice.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage shows how wars arise from disputed wrongs, with each side telling a self-justifying story.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "It prepares the account of the First Messenian War, which Sparta used to subjugate Messenia, and Pausanias weighs local traditions.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says the hymn to Delos was the only genuine work of Eumelus, showing ancient doubts about attributions.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Processional hymn (prosodion) was sung by a choir as it approached the altar; the Messenian offering to Delos was of this kind.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Persons of quality\" means Messenian nobles; \"beardless\" means youths too young to grow beards, so they could pass as girls.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Specious\" means seeming right or fair but not truly so; the pretext looked reasonable but was misleading.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "allusion",
+    "text": "Games were dated by Olympiads, four-year cycles; the fourth Olympiad falls about 758 BC. Only the footrace was then contested.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "word",
+    "text": "Ephors were the five annually elected Spartan magistrates who held great power alongside the two kings.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Eumelus was an early Corinthian poet; Pausanias doubts that much work ascribed to him is genuine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "text": "Artemis Limnas, \"of the marsh,\" had a shared sanctuary on the Laconian-Messenian frontier. Dorians were one of the main Greek peoples.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Sparta had two royal houses ruling at once; here Alcamenes and Theopompus, one from each family.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "narrative voice",
+    "text": "Pausanias steps back as a historian, presenting both accounts and leaving judgment to the reader instead of settling the dispute.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "characterization",
+    "text": "Euæphnus is shown as greedy and smooth-tongued through his deceit, making his later betrayal of a friend unsurprising.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "irony",
+    "text": "Polychares seeks justice from Spartan authorities and is refused, so he turns to indiscriminate violence himself.",
+    "spoiler": false
+   }
+  ]
+ }
+}

@@ -1,0 +1,377 @@
+{
+ "section_id": "pausanias-body-204",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9592,
+  "output": 3445
+ },
+ "result": {
+  "summary": "Pausanias traces the rise of the Achaean League and its wars with Sparta under Agis and Cleomenes. He then describes the tyrannical Philip, son of Demetrius, and Rome's intervention against him.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Rise of the Achaean League",
+    "summary": "The Achaeans prosper while the Greeks are divided, and form their League at Aegium. The Sicyonians and other Peloponnesians join, while only the Lacedaemonians resist.",
+    "stakes": "",
+    "present": [
+     "Achaeans",
+     "Sicyonians",
+     "Lacedaemonians"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Aegium",
+     "modern_name": "Aigio",
+     "certainty": "real",
+     "lat": 38.25,
+     "lon": 22.08
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 13,
+    "title": "Wars with Sparta",
+    "summary": "Agis takes Pellene but is expelled by Aratus. Cleomenes defeats the Achaeans at Dyme, breaks his peace, enslaves Megalopolis and is beaten at Sellasia.",
+    "stakes": "Achaean independence against Spartan attack.",
+    "present": [
+     "Agis",
+     "Aratus",
+     "Cleomenes",
+     "Antigonus",
+     "Achaeans",
+     "Sicyonians"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Dyme",
+     "modern_name": "Kato Achaia",
+     "certainty": "real",
+     "lat": 38.15,
+     "lon": 21.57
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 18,
+    "title": "Philip's tyranny and keys of Greece",
+    "summary": "Philip, son of Demetrius, succeeds Antigonus, uses bribery and poison, and garrisons Corinth, Chalcis and Magnesia as the keys of Greece.",
+    "stakes": "The freedom of the Greeks under Macedonian domination.",
+    "present": [
+     "Philip son of Demetrius",
+     "Antigonus",
+     "Philip son of Amyntas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Corinth",
+     "certainty": "real",
+     "lat": 37.91,
+     "lon": 22.88
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 25,
+    "title": "Rome sends Otilius",
+    "summary": "Rome sends Otilius to protect Athens and Aetolia. He destroys Hestiaea and Anticyra, and the Senate replaces him with Flaminius.",
+    "stakes": "Otilius risks Roman displeasure and loses his command.",
+    "present": [
+     "Otilius",
+     "Flaminius",
+     "Philip son of Demetrius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Hestiaea",
+     "modern_name": "Histiaia, Euboea",
+     "certainty": "real",
+     "lat": 38.95,
+     "lon": 23.1
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Agis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Eudamidas, king of Sparta, took Pellene"
+   },
+   {
+    "name": "Aratus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Achaean leader who drove Agis out"
+   },
+   {
+    "name": "Cleomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan king, son of Leonidas, oath-breaker"
+   },
+   {
+    "name": "Antigonus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian regent, uncle and stepfather of Philip"
+   },
+   {
+    "name": "Philip son of Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "tyrannical Macedonian king who poisoned guests"
+   },
+   {
+    "name": "Philip son of Amyntas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "earlier Macedonian despot used for comparison"
+   },
+   {
+    "name": "Otilius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman commander sent against Philip"
+   },
+   {
+    "name": "Flaminius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman who replaced Otilius"
+   },
+   {
+    "name": "Eudamidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Agis"
+   },
+   {
+    "name": "Leonidas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cleomenes"
+   },
+   {
+    "name": "Demetrius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Philip"
+   },
+   {
+    "name": "Achaeans",
+    "aliases": [],
+    "kind": "other",
+    "description": "people of Achaia forming the League"
+   },
+   {
+    "name": "Sicyonians",
+    "aliases": [],
+    "kind": "other",
+    "description": "first to join the League"
+   },
+   {
+    "name": "Lacedaemonians",
+    "aliases": [],
+    "kind": "other",
+    "description": "Spartans hostile to the League"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Eudamidas",
+    "relation": "parent_of",
+    "b": "Agis",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Leonidas",
+    "relation": "parent_of",
+    "b": "Cleomenes",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Demetrius",
+    "relation": "parent_of",
+    "b": "Philip son of Demetrius",
+    "source": "text",
+    "evidence_sentence": 10
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 16,
+    "reason": "Philip's arrogant name for his garrison towns, the keys of Greece.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links Greek decline to disunity, broken oaths and tyranny, ending with Rome's entry.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage covers the Achaean League and the Macedonian and Roman struggle for Greece in the third and second centuries BC.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes that Romans bore at least three names, unlike Greeks.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "phrasing",
+    "text": "\"By common consent the design and act of the Achæans\" means the League was a joint undertaking of all the Achæan towns, not imposed by an outsider.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Helice was swallowed by the sea after an earthquake and flood in 373 BC, a famous disaster in Achaia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "\"A king of the other family\" refers to Sparta's two royal houses, the Agiads and Eurypontids, ruling jointly.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "\"Regent\" means someone governing on behalf of a king too young to rule.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "phrasing",
+    "text": "Antigonus is called stepfather because he married Philip's mother and ruled as guardian; 'glad to surrender' is Pausanias' gloss on handing over the kingdom.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "'Despot' here means an absolute ruler who governs by force and without restraint, a harsher sense than a mere king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "phrasing",
+    "text": "'Cup of fellowship and kindness' is the loving-cup shared at banquets as a pledge of friendship, which makes the poisoning a betrayal of hospitality.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "'Points d'appui' is French for strongholds or bases from which a military power can operate.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The Euripus is the narrow strait between Euboea and the mainland, where Chalcis stood; holding it controlled movement between central Greece and the island.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Pausanias contrasts Greek single names plus patronymic with the Roman system of several names (praenomen, nomen, cognomen).",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "'Rased' is an old spelling of 'razed', meaning levelled to the ground.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Flaminius is Titus Quinctius Flamininus, the Roman general who later defeated Philip and proclaimed Greek freedom.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Pellene's tyrant is probably a reference to Chaeron, whom Alexander is said to have installed there; other Achæan towns avoided tyranny until later.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Aratus of Sicyon was the great leader of the Achæan League in the third century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Sellasia (222 BC) was the battle where Antigonus and the Achæans crushed Cleomenes and ended his reforms at Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Philip V of Macedon (reigned 221–179 BC) is distinguished from Philip II, father of Alexander, who bribed Greek politicians to betray their cities.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Corinth, Chalcis and Demetrias (near Mount Pelion) were famously called the 'fetters of Greece'; Pausanias names Magnesia for the Thessalian one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Rome intervened in the First and Second Macedonian Wars, partly responding to Greek appeals from Aetolia and Athens.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 12,
+    "device": "moral causation",
+    "text": "The defeat is presented as the consequence of broken faith, implying that oath-breaking brings retribution.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "narrative voice",
+    "text": "Pausanias speaks directly as the guide, promising to return to Cleomenes and tying the narrative to his planned route through Arcadia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "characterization",
+    "text": "Pausanias sets the two Philips side by side to define the younger as an even worse tyrant than his model.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "irony",
+    "text": "A cup of friendship meant for toasting goodwill becomes a means of murder, turning a symbol of trust into one of treachery.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "metaphor",
+    "text": "Calling garrisoned towns 'keys' makes Greece a locked house that Philip can open or shut at will, expressing his arrogance.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "narrative voice",
+    "text": "The historian's cautious 'I think' marks his own inference about Rome's motives, showing his judicious, personal voice.",
+    "spoiler": false
+   }
+  ]
+ }
+}

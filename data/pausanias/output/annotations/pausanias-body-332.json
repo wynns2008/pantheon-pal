@@ -1,0 +1,416 @@
+{
+ "section_id": "pausanias-body-332",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8550,
+  "output": 3444
+ },
+ "result": {
+  "summary": "Pausanias describes votive offerings at Delphi, beginning with a bronze bison head and how Pæonians hunt bisons. He then lists statues given by Andros, the Phocians, Thessalians, Thebans, Tarentines and others, and tells the story of Hercules and the Delphic tripod.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 6,
+    "title": "The Pæonian bison and its capture",
+    "summary": "Pausanias describes the bronze bison head sent by Dropion and explains how Pæonians trap bisons with hides and pine nuts.",
+    "stakes": "",
+    "present": [
+     "Dropion"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pæonia",
+     "modern_name": "North Macedonia / northern Greece",
+     "certainty": "real",
+     "lat": 41.5,
+     "lon": 22.0
+    }
+   },
+   {
+    "start_sentence": 7,
+    "end_sentence": 18,
+    "title": "Offerings at Delphi from many cities",
+    "summary": "Pausanias lists statues and treasuries dedicated by Andros, Phocians, Thessalians, Macedonians, Cyrene, Corinth, Thebes, Phlius and Mantinea, including the Hercules and Apollo tripod group.",
+    "stakes": "",
+    "present": [
+     "Andreus",
+     "Apollo",
+     "Athene",
+     "Artemis",
+     "Hercules",
+     "Leto",
+     "Tellias",
+     "Diyllus",
+     "Amyclæus",
+     "Chionis",
+     "Ammon",
+     "Achilles",
+     "Patroclus",
+     "Zeus",
+     "Ægina"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 23,
+    "title": "Hercules seizes the tripod",
+    "summary": "The Delphians say Xenoclea refused Hercules an oracle because of the murder of Iphitus, so he carried off the tripod. He later returned it and received his answer.",
+    "stakes": "Hercules wants an oracle to be cleansed of Iphitus's murder, and is refused.",
+    "present": [
+     "Hercules",
+     "Xenoclea",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   },
+   {
+    "start_sentence": 24,
+    "end_sentence": 28,
+    "title": "Platæa tripod and Tarentine offerings",
+    "summary": "Pausanias describes the Greek tripod after Platæa and the Tarentine group showing Opis, Taras, Phalanthus and a dolphin.",
+    "stakes": "",
+    "present": [
+     "Opis",
+     "Taras",
+     "Phalanthus",
+     "Onatas",
+     "Calynthus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Delphi",
+     "modern_name": "Delphi",
+     "certainty": "real",
+     "lat": 38.4824,
+     "lon": 22.501
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Dropion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Deon, king of the Pæonians"
+   },
+   {
+    "name": "Deon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Dropion"
+   },
+   {
+    "name": "Andreus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of Andros, shown in a statue"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god of Delphi, shown in several offerings"
+   },
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess shown defending Hercules"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who calms Apollo"
+   },
+   {
+    "name": "Leto",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "mother figure appeasing Apollo"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "son of Amphitryon"
+    ],
+    "kind": "mortal",
+    "description": "hero who took the Delphic tripod"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Hercules"
+   },
+   {
+    "name": "Xenoclea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Delphic priestess"
+   },
+   {
+    "name": "Iphitus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "man murdered by Hercules"
+   },
+   {
+    "name": "Tellias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elean who led the Phocians"
+   },
+   {
+    "name": "Diyllus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian sculptor"
+   },
+   {
+    "name": "Amyclæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian sculptor"
+   },
+   {
+    "name": "Chionis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian sculptor"
+   },
+   {
+    "name": "Ammon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god whose statue stood on a chariot"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero shown on horseback"
+   },
+   {
+    "name": "Patroclus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero running beside Achilles's horse"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "brazen statue sent by Phlius"
+   },
+   {
+    "name": "Ægina",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "figure shown with Zeus"
+   },
+   {
+    "name": "Onatas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Æginetan sculptor"
+   },
+   {
+    "name": "Calynthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor"
+   },
+   {
+    "name": "Opis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of the Iapyges, shown dying"
+   },
+   {
+    "name": "Taras",
+    "aliases": [],
+    "kind": "other",
+    "description": "hero of Tarentum"
+   },
+   {
+    "name": "Phalanthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lacedæmonian founder of Tarentum saved by a dolphin"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Deon",
+    "relation": "parent_of",
+    "b": "Dropion",
+    "source": "text",
+    "evidence_sentence": 0
+   },
+   {
+    "a": "Amphitryon",
+    "relation": "parent_of",
+    "b": "Hercules",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Apollo",
+    "source": "outside",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Leto",
+    "relation": "parent_of",
+    "b": "Artemis",
+    "source": "outside",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Apollo",
+    "relation": "sibling_of",
+    "b": "Artemis",
+    "source": "outside",
+    "evidence_sentence": 16
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Egyptian Hercules",
+    "canonical": "Hercules",
+    "explanation": "The priestess distinguishes an earlier Egyptian Hercules from the Theban-Tirynthian son of Amphitryon."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 20,
+    "reason": "The priestess's rebuke distinguishes two Hercules figures while refusing the hero an oracle.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Dedications show civic pride, rivalry and memory of wars, with city victories displayed at Panhellenic Delphi.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The list reflects Delphi's role as a treasury of Greek politics, including Phocian conflict with Thessaly and the Sacred War.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The bronze serpent column from the Platæa tripod survives in Istanbul's Hippodrome.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "The bison here is the European wild bison (wisent), found in Paeonia, north of Macedonia, not the American animal.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "A palisade is a fence of stakes; the hunters use it to enclose the hollow so the animals cannot escape.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Except where the Epicnemidian Locrians come in\" means the Locrians' territory lay between Phocis and Thessaly along part of the border.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The Sacred War here is the Phocian seizure of Delphi's sanctuary and treasures in the fourth century BC, fought against Thebes and its allies.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Canopus was an Egyptian town; the priestess distinguishes the Greek Hercules of Tiryns from the Egyptian god identified with him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "\"Abstracted\" means stolen or removed; the Phocian leaders melted the gold during the Sacred War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Phalanthus was the legendary founder of Tarentum (Taras) in Italy; the dolphin that rescued him recalls the city's later dolphin-rider coin emblem.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Paeonia lay north of Macedonia. Its kings sometimes sent gifts to Delphi, the chief oracle sanctuary of Apollo.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "Treasuries were small buildings at Delphi where cities stored offerings to Apollo. Corinth's held gold given by the Lydian kings.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Hercules killed Iphitus in anger; he came to Delphi seeking purification and an oracle. The priestess was the Pythia, here named Xenoclea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "text": "The Greeks won at Plataea in 479 BC against the Persians. The tripod was set on a bronze serpent column.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 16,
+    "device": "Imagery",
+    "text": "The sculpted scene freezes the moment before the fight, with goddesses restraining the combatants, so a mythic quarrel becomes a vivid tableau.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "Narrative voice",
+    "text": "Pausanias adds this aside as a learned guide, reconciling the Delphians' story with the existence of two Herculeses.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "device": "Symbolism",
+    "text": "The dolphin stands for the divine rescue of Phalanthus and marks the Tarentines' founding legend within the monument.",
+    "spoiler": false
+   }
+  ]
+ }
+}

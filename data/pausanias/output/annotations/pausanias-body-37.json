@@ -1,0 +1,322 @@
+{
+ "section_id": "pausanias-body-37",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8352,
+  "output": 2826
+ },
+ "result": {
+  "summary": "Pausanias walks along the Sacred Way out of Athens, noting tombs, shrines and local legends. He tells of Phytalus and the fig, Theseus' purification, the tomb of Pythionice, and the Athenians descended from Cephalus who founded a temple of Apollo.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 9,
+    "title": "Tombs, Lacius, and Phytalus's fig",
+    "summary": "Pausanias lists tombs, including the family of Themistocles, and shrines. He recounts how Phytalus received Demeter and was given the fig tree.",
+    "stakes": "",
+    "present": [
+     "Heliodorus",
+     "Themistocles",
+     "Demeter",
+     "Phytalus",
+     "Nicocles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Sacred Way outside Athens",
+     "modern_name": "Athens, Greece",
+     "certainty": "real",
+     "lat": 37.98,
+     "lon": 23.68
+    }
+   },
+   {
+    "start_sentence": 10,
+    "end_sentence": 18,
+    "title": "The Cephisus and Zeus Milichius",
+    "summary": "Pausanias describes monuments by the river Cephisus, hair offerings to rivers, and the altar where Theseus was purified. He remarks on the Cyamites shrine and beans.",
+    "stakes": "Theseus needs purification after killing.",
+    "present": [
+     "Theodorus",
+     "Mnesimaches",
+     "Theseus",
+     "Peleus",
+     "Achilles",
+     "Mnesitheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "River Cephisus",
+     "modern_name": "Cephisus river, Athens",
+     "certainty": "real",
+     "lat": 37.97,
+     "lon": 23.68
+    }
+   },
+   {
+    "start_sentence": 19,
+    "end_sentence": 25,
+    "title": "Pythionice's tomb and Apollo's temple",
+    "summary": "Pausanias describes the grand tomb of Pythionice and the temple of Apollo, explaining its origin through the descendants of Cephalus.",
+    "stakes": "Chalcinus and Daetus seek the god's permission to return home to Athens.",
+    "present": [
+     "Harpalus",
+     "Pythionice",
+     "Cephalus",
+     "Procris",
+     "Chalcinus",
+     "Dætus",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Temple of Apollo on the Sacred Way",
+     "modern_name": "Daphni area, Attica",
+     "certainty": "traditional",
+     "lat": 38.01,
+     "lon": 23.64
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Heliodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man of Alieis buried here"
+   },
+   {
+    "name": "Themistocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Descendant of the victor over Xerxes, torchbearer"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess who gave Phytalus the fig"
+   },
+   {
+    "name": "Phytalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero who hosted Demeter"
+   },
+   {
+    "name": "Nicocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Harper of Tarentum"
+   },
+   {
+    "name": "Theodorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Tragic actor"
+   },
+   {
+    "name": "Mnesimaches",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man with a statue by the river"
+   },
+   {
+    "name": "Peleus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Vowed hair to the river Spercheus"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Peleus"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero purified after killing"
+   },
+   {
+    "name": "Mnesitheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Noted doctor"
+   },
+   {
+    "name": "Harpalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Macedonian who fled Alexander and built Pythionice's tomb"
+   },
+   {
+    "name": "Pythionice",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Courtesan loved by Harpalus"
+   },
+   {
+    "name": "Cephalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Deioneus, exile who settled Cephallenia"
+   },
+   {
+    "name": "Procris",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife killed by Cephalus"
+   },
+   {
+    "name": "Chalcinus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Descendant of Cephalus"
+   },
+   {
+    "name": "Dætus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Descendant of Cephalus"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "God whose temple was founded"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Peleus",
+    "relation": "parent_of",
+    "b": "Achilles",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Cephalus",
+    "relation": "spouse_of",
+    "b": "Procris",
+    "source": "text",
+    "evidence_sentence": 22
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Epitaph crediting Phytalus with receiving Demeter and the gift of the fig.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links monuments to local myths and customs, grounding the road in memory and piety.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The tomb of Pythionice shows Alexander's reach into Athenian affairs through the fugitive Harpalus.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Sacred Way was the route of the Eleusinian Mysteries procession from Athens.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Torchbearer (dadouchos) was a hereditary priestly office in the Eleusinian Mysteries; the family held it for generations.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "word",
+    "text": "\"Vouchsafed\" means graciously granted; the epitaph uses archaic, elevated diction.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Refers to Iliad 23, where Peleus had vowed his son's hair to the river Spercheus, but Achilles instead gave it to Patroclus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "allusion",
+    "text": "Sinis the pine-bender was one of Theseus' robber foes; Theseus needed purification for killing a kinsman.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Beans were taboo in the Eleusinian and Orphic traditions, so Demeter could not be credited with inventing them.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Cephalus accidentally killed his wife Procris with a javelin, and went into exile because of the bloodguilt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "phrasing",
+    "text": "\"A trireme on land moving\" is an oracle's riddle; the sign turns out to be a snake, whose winding looks like oars in motion.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Themistocles, the Athenian statesman, commanded at the sea-fight of Salamis against Xerxes' Persian fleet in 480 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Phytalus was an Attic hero; the tale credits his hospitality with the origin of the cultivated fig in Attica.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Zeus Milichius, \"the gracious,\" was invoked for cleansing from bloodguilt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Harpalus was Alexander's treasurer who fled with stolen funds to Athens in 324 BC and later bribed his way out.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "narrative voice",
+    "text": "The \"is said to\" framing shows Pausanias reporting tradition while distancing himself from guaranteeing it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "epitaph",
+    "text": "The inscription cites verse as evidence and links the hero's lasting fame to his gift of the fig.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "device": "characterization",
+    "text": "Harpalus's devotion to a courtesan shows his extravagance, and the tomb's grandeur reveals his wealth and passion.",
+    "spoiler": false
+   }
+  ]
+ }
+}

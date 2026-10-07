@@ -1,0 +1,414 @@
+{
+ "section_id": "pindar-odes-body-38",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8443,
+  "output": 3521
+ },
+ "result": {
+  "summary": "Pindar explains that he sets aside a song for Delian Apollo to honour Thebes and the charioteer Herodotos, who won at the Isthmian games. He praises the heroes Kastor and Iolaos, recalls Herodotos' father's shipwreck and new home in Orchomenos, and reflects on the worth of praise for those who strive for excellence.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 2,
+    "title": "Editor's introduction",
+    "summary": "The editor notes the ode's undated origin and Pindar's postponed commission for Apollo at Keos.",
+    "stakes": "",
+    "present": [
+     "Pindar"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Keos",
+     "modern_name": "Kea",
+     "certainty": "real",
+     "lat": 37.62,
+     "lon": 24.33
+    }
+   },
+   {
+    "start_sentence": 3,
+    "end_sentence": 8,
+    "title": "Thebe before Delos",
+    "summary": "Pindar puts Thebes first, promises Apollo his Keian song later, and turns to honour Herodotos' chariot victory.",
+    "stakes": "Pindar risks the anger of Delos, to which he is vowed.",
+    "present": [
+     "Pindar",
+     "Thebe",
+     "Apollo",
+     "Herodotos",
+     "Herakles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 11,
+    "title": "Kastor and Iolaos",
+    "summary": "Pindar recalls the two great charioteer heroes and their many prizes in the games.",
+    "stakes": "",
+    "present": [
+     "Kastor",
+     "Iolaos",
+     "Iphikles",
+     "Tyndareus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes and Sparta",
+     "modern_name": "Thebes and Sparta",
+     "certainty": "real",
+     "lat": 37.07,
+     "lon": 22.43
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 13,
+    "title": "Herodotos' father's shipwreck",
+    "summary": "Pindar will praise Herodotos and his father Asopodoros, who was wrecked and sheltered in Orchomenos.",
+    "stakes": "Asopodoros suffered a wreck and exile.",
+    "present": [
+     "Pindar",
+     "Herodotos",
+     "Asopodoros",
+     "Poseidon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Orchomenos",
+     "modern_name": "Orchomenos, Boeotia",
+     "certainty": "real",
+     "lat": 38.49,
+     "lon": 22.98
+    }
+   },
+   {
+    "start_sentence": 14,
+    "end_sentence": 22,
+    "title": "Praise, rewards and the miser",
+    "summary": "Pindar reflects on valour and praise, names places that share the god's favour, and wishes Herodotos more wreaths. He ends by scorning hoarders of wealth who die unpraised.",
+    "stakes": "A man who hoards wealth and mocks others dies without good report.",
+    "present": [
+     "Pindar",
+     "Herodotos",
+     "Poseidon",
+     "Protesilas",
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the poet speaking as 'I'"
+   },
+   {
+    "name": "Thebe",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "eponym of Thebes, addressed as mother"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Phoibos"
+    ],
+    "kind": "god",
+    "description": "god honoured at Delos and Keos"
+   },
+   {
+    "name": "Herodotos",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban winner of the chariot race"
+   },
+   {
+    "name": "Asopodoros",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Herodotos' father, shipwrecked"
+   },
+   {
+    "name": "Kastor",
+    "aliases": [
+     "son of Tyndareus"
+    ],
+    "kind": "mortal",
+    "description": "Spartan hero and charioteer"
+   },
+   {
+    "name": "Iolaos",
+    "aliases": [
+     "son of Iphikles"
+    ],
+    "kind": "mortal",
+    "description": "Theban hero and charioteer"
+   },
+   {
+    "name": "Iphikles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Iolaos"
+   },
+   {
+    "name": "Tyndareus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Kastor"
+   },
+   {
+    "name": "Alkmene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban mother of a dauntless son"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [
+     "earth-shaking son of Kronos"
+    ],
+    "kind": "god",
+    "description": "god of the Isthmos who gave horses speed"
+   },
+   {
+    "name": "Kronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Poseidon"
+   },
+   {
+    "name": "Protesilas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero with a shrine at Phylake"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "lord of games"
+   },
+   {
+    "name": "Herakles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "unnamed son of Alkmene who beat Geryon's hounds"
+   },
+   {
+    "name": "Amphitryon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "addressed as father of Theban heroes"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Alkmene",
+    "relation": "parent_of",
+    "b": "Herakles",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Iphikles",
+    "relation": "parent_of",
+    "b": "Iolaos",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Tyndareus",
+    "relation": "parent_of",
+    "b": "Kastor",
+    "source": "text",
+    "evidence_sentence": 11
+   },
+   {
+    "a": "Asopodoros",
+    "relation": "parent_of",
+    "b": "Herodotos",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Kronos",
+    "relation": "parent_of",
+    "b": "Poseidon",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Amphitryon",
+    "relation": "spouse_of",
+    "b": "Alkmene",
+    "source": "outside",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Phoibos",
+    "canonical": "Apollo",
+    "explanation": "Phoibos is a common epithet of Apollo."
+   },
+   {
+    "alias": "son of Tyndareus",
+    "canonical": "Kastor",
+    "explanation": "Patronymic for Kastor."
+   },
+   {
+    "alias": "earth-shaking son of Kronos",
+    "canonical": "Poseidon",
+    "explanation": "Epithet describing Poseidon."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 5,
+    "reason": "Pindar's famous rhetorical question putting loyalty to one's parents and homeland first.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "reason": "A memorable remark that silence can bring greater joy than telling everything.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The ode joins loyalty to homeland with the poet's duty to praise achievement, arguing that fame is the proper reward of effort and expense.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Chariot victories at the Isthmian games brought prestige to wealthy families and their cities, and poets were hired to commemorate them.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The text notes that the date of this ode is unknown, and the opening shows Pindar juggling two commissions.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Thebe is the nymph who personifies Thebes, Pindar's native city; her 'golden shield' evokes the city's martial identity. Pindar addresses her as mother of his city.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "'Apollonian isle' is Delos, Apollo's birthplace; Pindar asks it to 'give place', meaning to yield precedence to Thebes for now.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "allusion",
+    "text": "The dauntless son of Alkmene is Herakles, born at Thebes; Geryon's hounds refer to his labour of driving off Geryon's cattle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "'Marry to the strain' means to join Herodotos' fame with a song in the style of Kastor or Iolaos; 'his own and no helping hand' means he drove himself.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "The Spartoi were the 'sown men' who sprang from dragon's teeth planted by Kadmos, ancestors of Theban nobles; Iolaos, son of Iphikles, is Theban.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "phrasing",
+    "text": "'Throw the mantle of my song' means to wrap these places in praise; 'dismal hap' is his unhappy misfortune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The earth-shaker, son of Kronos, is Poseidon, god of horses and the sea, honoured at the Isthmus.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Keos was Simonides' and Bacchylides' island home; Delos was Apollo's sacred island, so a commission there was a significant one.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "text": "Tripods and caldrons were typical prizes at early games, valuable bronze vessels displayed in the winners' homes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Asopodoros, Herodotos' father, was apparently shipwrecked and settled at Orchomenos, a Boeotian city, before the family's fortune recovered.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Protesilas was the first Greek to die at Troy; he was worshipped at a shrine at Phylake in Thessaly.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "apostrophe",
+    "text": "Pindar directly addresses Thebe as mother, giving the city a personal, filial warmth and justifying putting her before Delos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "metaphor",
+    "text": "Song 'married' to fame presents poetry and victory as a joined couple, making the ode a fitting union.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "contrast",
+    "text": "Pindar lists humble livelihoods that merely stave off hunger, against the athlete's reward of renown, to elevate glory above subsistence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "metaphor",
+    "text": "The Muse's 'shining wings' carry the victor upward, picturing poetry as lifting him toward fame.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "device": "moral",
+    "text": "The closing image of the secretive hoarder dying without good report warns against wealth without generosity, which earns no praise.",
+    "spoiler": false
+   }
+  ]
+ }
+}

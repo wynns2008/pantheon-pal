@@ -1,0 +1,443 @@
+{
+ "section_id": "pausanias-body-22",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9626,
+  "output": 3915
+ },
+ "result": {
+  "summary": "Pausanias walks toward the Acropolis, noting the tomb of Hippolytus and the Trozenian version of Phaedra's story. He then describes the Acropolis approach, the shrine of Wingless Victory where Aegeus died, and the gallery of paintings with their mythological subjects.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "Below the Acropolis: Hippolytus and Phaedra",
+    "summary": "Pausanias notes the temple of Themis and the tomb of Hippolytus, tells the Troezenian story of Phaedra, and mentions temples founded by Theseus.",
+    "stakes": "",
+    "present": [
+     "Hippolytus",
+     "Phædra",
+     "Theseus",
+     "Pittheus",
+     "Pallas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athens, below the Acropolis",
+     "modern_name": "Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 20,
+    "title": "Entrance and Wingless Victory",
+    "summary": "Pausanias describes the single approach and vestibules, then tells how Aegeus threw himself into the sea when he saw black sails.",
+    "stakes": "Aegeus fears his son Theseus has died fighting the Minotaur.",
+    "present": [
+     "Ægeus",
+     "Theseus",
+     "Ariadne"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Acropolis of Athens",
+     "modern_name": "Acropolis, Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 31,
+    "title": "The Picture Gallery",
+    "summary": "Pausanias lists paintings of Trojan and other heroic scenes, comments on Homer and Musaeus, and notes statues at the entrance.",
+    "stakes": "",
+    "present": [
+     "Diomede",
+     "Odysseus",
+     "Philoctetes",
+     "Ægisthus",
+     "Orestes",
+     "Pylades",
+     "Polyxena",
+     "Achilles",
+     "Nausicaa",
+     "Alcibiades",
+     "Perseus",
+     "Polydectes",
+     "Medusa",
+     "Musæus",
+     "Onomacritus",
+     "Socrates",
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pinakotheke, Acropolis of Athens",
+     "modern_name": "Acropolis, Athens",
+     "certainty": "real",
+     "lat": 37.9716,
+     "lon": 23.7255
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hippolytus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Theseus, died through his father's curses"
+   },
+   {
+    "name": "Phædra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Theseus who loved Hippolytus"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian king, father of Hippolytus"
+   },
+   {
+    "name": "Pittheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler of Troezen who raised Hippolytus"
+   },
+   {
+    "name": "Pallas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Rebel who with his sons fought Theseus"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Theseus, drowned himself"
+   },
+   {
+    "name": "Ariadne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Woman Theseus lost and forgot his promise over"
+   },
+   {
+    "name": "Diomede",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Painted taking Philoctetes' bow"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Painted stealing the Palladium; appears to Nausicaa"
+   },
+   {
+    "name": "Philoctetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Owner of the bow, on Lemnos"
+   },
+   {
+    "name": "Ægisthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Slain by Orestes in a painting"
+   },
+   {
+    "name": "Orestes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Slayer of Ægisthus"
+   },
+   {
+    "name": "Pylades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Companion of Orestes"
+   },
+   {
+    "name": "Polyxena",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Trojan maiden about to be sacrificed"
+   },
+   {
+    "name": "Achilles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero at whose tomb Polyxena is killed"
+   },
+   {
+    "name": "Nausicaa",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Maiden bathing when Odysseus appeared"
+   },
+   {
+    "name": "Alcibiades",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian painted with his Nemea victory"
+   },
+   {
+    "name": "Perseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero carrying Medusa's head"
+   },
+   {
+    "name": "Polydectes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Ruler of Seriphus"
+   },
+   {
+    "name": "Medusa",
+    "aliases": [],
+    "kind": "monster",
+    "description": "Gorgon whose head Perseus carries"
+   },
+   {
+    "name": "Musæus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Early poet, painted on the wall"
+   },
+   {
+    "name": "Onomacritus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Suspected author of verses attributed to Musæus"
+   },
+   {
+    "name": "Socrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sculptor of the Graces, son of Sophroniscus"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Propylæus"
+    ],
+    "kind": "god",
+    "description": "God with a statue at the Acropolis entrance"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Theseus",
+    "relation": "parent_of",
+    "b": "Hippolytus",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Theseus",
+    "relation": "spouse_of",
+    "b": "Phædra",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Ægeus",
+    "relation": "parent_of",
+    "b": "Theseus",
+    "source": "text",
+    "evidence_sentence": 17
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Propylæus",
+    "canonical": "Hermes",
+    "explanation": "Epithet meaning 'of the gateway', for Hermes at the Acropolis entrance."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 24,
+    "reason": "Pausanias shows his critical judgment of Homer's restraint over a savage episode.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links monuments to local myths, comparing Athenian and Troezenian traditions and weighing sources critically.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The passage shows the Acropolis in the Roman period, with its Propylaea and a gallery of famous paintings, including works by Polygnotus.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The story of Phaedra and Hippolytus inspired Euripides' Hippolytus, Seneca, Racine's Phèdre (1677) and many later works."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias doubts Musaeus wrote the verses attributed to him, naming Onomacritus as the likely author, an early case of literary attribution criticism.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Themis is the Greek goddess of divine law and custom; her temple stood on the south slope of the Acropolis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Theseus, deceived by Phædra's false accusation, cursed his son Hippolytus, who was then killed when his horses bolted.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "This refers to the tragic story of Phædra's love, known through Euripides' play Hippolytus; the nurse acted as go-between.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Pallas and his sons were Theseus' cousins who contested his rule of Athens; killing kin required ritual purification.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Perforated means pierced with holes; the myrtle's holes were explained as pinpricks made by Phædra's hairpin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Theseus' synoecism: he was credited with uniting Attica's scattered townships into a single Athenian state.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "Pandemian means 'of all the people', so this Aphrodite is the goddess of the united citizenry.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "word",
+    "text": "Chloe means 'green' or 'young verdure'; Demeter Chloe was the goddess of the green shoots of grain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Vestibules means the entrance porches (the Propylaea) at the western approach to the Acropolis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Diomede and Odysseus took Philoctetes' bow from Lemnos and the Palladium, a sacred image of Athena, from Troy (Ilium), both needed for Troy to fall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "kind": "allusion",
+    "text": "Polyxena, a daughter of Priam, was sacrificed at Achilles' tomb by the Greeks after Troy's fall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Achilles was said to have been hidden among the maidens at Scyrus, disguised, to avoid the Trojan War.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "allusion",
+    "text": "Onomacritus was a sixth-century BC Athenian compiler of oracles, accused of forging verses under Musaeus' name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "kind": "allusion",
+    "text": "The Pythian priestess is the Delphic oracle's mouthpiece, who reportedly called Socrates the wisest of men.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Træzen, in the Argolid, was the home of Theseus' mother Æthra and of her father Pittheus; Troezenians claimed their own tomb of Hippolytus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Pausanias often notes lost ancient statues and replacements; he judges the later ones to be the work of mediocre sculptors.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Xenophon here is an Athenian otherwise unidentified in the passage; Pausanias admits he cannot tell who the horsemen represent.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Theseus went to Crete as one of the Athenian youths sent as tribute to the Minotaur, a monster in the Labyrinth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "text": "Theseus had abandoned Ariadne, who helped him defeat the Minotaur, on the island of Naxos.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "text": "Perseus, a hero, killed the Gorgon Medusa and carried her head to Polydectes, king of Seriphus.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 7,
+    "device": "aetiology",
+    "text": "The legend explains a natural curiosity, the pierced myrtle leaves, as a lasting trace of Phædra's passion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "narrative voice",
+    "text": "Pausanias, as guide, declines to explain and refers readers to the priests, showing his habit of reticence about sacred matters.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "irony",
+    "text": "Theseus's forgotten signal turns his victory into his father's death, a tragic consequence of a lapse caused by love.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "characterization",
+    "text": "Pausanias reveals himself as a critic with moral taste, approving Homer's restraint about cruelty.",
+    "spoiler": false
+   }
+  ]
+ }
+}

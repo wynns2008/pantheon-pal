@@ -1,0 +1,245 @@
+{
+ "section_id": "pausanias-body-302",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6807,
+  "output": 2029
+ },
+ "result": {
+  "summary": "Pausanias travels from Acraephnium through the Copaic lake region of Boeotia, describing Copae, Olmones, Hyettus, Cyrtones and Corsea. He notes temples, statues, a flood that destroyed old towns, and the fine eels of the lake.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Lake Cephisis and Copae",
+    "summary": "Pausanias describes the plain Athamantium, the lake fed by the Cephisus, and the temples at Copae. He tells of the flooded towns and the excellent eels.",
+    "stakes": "",
+    "present": [
+     "Athamas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Lake Cephisis",
+     "modern_name": "Lake Copais (drained)",
+     "certainty": "real",
+     "lat": 38.45,
+     "lon": 23.1
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 8,
+    "title": "Olmones and Hyettus",
+    "summary": "Pausanias passes Olmones and reaches Hyettus, where Hercules heals the sick through a statue of rude stone.",
+    "stakes": "",
+    "present": [
+     "Hercules",
+     "Hyettus",
+     "Olmus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Hyettus",
+     "modern_name": "near Kastro, Boeotia",
+     "certainty": "real",
+     "lat": 38.42,
+     "lon": 23.05
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 14,
+    "title": "Cyrtones, Corsea and Halae",
+    "summary": "He describes the hill town Cyrtones with its sanctuaries, then Corsea, its grove with a Hermes statue, and the coast at Halae.",
+    "stakes": "",
+    "present": [
+     "Apollo",
+     "Artemis",
+     "Hermes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cyrtones",
+     "modern_name": "",
+     "certainty": "real",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Athamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "said to have lived in the plain Athamantium"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "healing god worshipped at Hyettus"
+   },
+   {
+    "name": "Hyettus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the Argive of local tradition"
+   },
+   {
+    "name": "Olmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Sisyphus"
+   },
+   {
+    "name": "Sisyphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Olmus"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "has a temple and grove at Cyrtones"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "statue at Cyrtones"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "small statue near Corsea"
+   },
+   {
+    "name": "Demeter",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "temple at Copae"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "temple at Copae"
+   },
+   {
+    "name": "Serapis",
+    "aliases": [],
+    "kind": "god",
+    "description": "temple at Copae"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Sisyphus",
+    "relation": "parent_of",
+    "b": "Olmus",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias catalogues local cults, statues and traditions, showing how religion was tied to place in Boeotia.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The ancient statue of rude stone and the temple of Serapis show both archaic worship and newer cults in Roman-era Greece.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Lake Copais was drained in antiquity and again in the 1880s, and is now farmland.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Homer's Catalogue of the ships (Iliad, Book 2) lists the Greek contingents at Troy, naming Boeotian towns including Copae.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "This Athenae and Eleusis are Boeotian towns, not the famous Attic ones; they were said to have been lost to the lake's flooding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "A stade is a Greek unit of distance, roughly 180–200 metres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Pausanias refers ahead to his account of Orchomenus, where he will give the legends of Hyettus and Olmus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "\"Not artistic, but made of rude stone\" means an unworked, unshaped stone, kept as an ancient cult object.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"In a standing picture\" is an awkward rendering; it likely means the statues stand upright, though the original sense is unclear.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Holm-oaks are evergreen oaks with glossy, often prickly leaves, common around the Mediterranean.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Serapis was a Greco-Egyptian god promoted under the Ptolemies, so his temple here shows Egyptian cults reaching Boeotia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "Hercules was widely worshipped as a healer and protector, so sick pilgrims seeking cures at his shrine is not surprising.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Halae lay on the Boeotian coast facing the Euboean strait, near the Locrian border.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "narrative voice",
+    "text": "\"The Boeotians say\" distances the narrator from the flood story, marking it as local tradition rather than his own claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "device": "characterization",
+    "text": "Pausanias' aside on the eels shows his curiosity about local life and his taste for practical detail alongside antiquities.",
+    "spoiler": false
+   }
+  ]
+ }
+}

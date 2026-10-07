@@ -1,0 +1,202 @@
+{
+ "section_id": "pausanias-body-241",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6675,
+  "output": 1758
+ },
+ "result": {
+  "summary": "Pausanias describes Mount Cyllene in Arcadia, its juniper-wood statue of Hermes and its white blackbirds, then turns to Mount Chelydorea. He ends with the road from Pheneus to Nonacris and the water of the Styx.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 10,
+    "title": "Mount Cyllene and its white blackbirds",
+    "summary": "Pausanias describes Cyllene, its ruined temple, the juniper statue of Hermes and the white blackbirds, comparing other white animals he has seen.",
+    "stakes": "",
+    "present": [
+     "Hermes",
+     "Cyllen"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cyllene",
+     "modern_name": "Mount Kyllini",
+     "certainty": "real",
+     "lat": 37.94,
+     "lon": 22.39
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 12,
+    "title": "Chelydorea and the tortoise",
+    "summary": "The neighbouring mountain Chelydorea is where Hermes is said to have found the tortoise and made a lyre.",
+    "stakes": "",
+    "present": [
+     "Hermes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Chelydorea",
+     "modern_name": "Mount Chelmos area",
+     "certainty": "traditional",
+     "lat": 37.97,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 16,
+    "title": "Road to Nonacris and the Styx",
+    "summary": "From Pheneus the roads lead to Clitor and to ruined Nonacris, near a high cliff dripping the water called the Styx.",
+    "stakes": "",
+    "present": [
+     "Lycaon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Nonacris",
+     "modern_name": "near Mesorrouga, Mount Chelmos",
+     "certainty": "real",
+     "lat": 37.98,
+     "lon": 22.18
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Hermes",
+    "aliases": [
+     "Cyllenian Hermes"
+    ],
+    "kind": "god",
+    "description": "god worshipped on Cyllene, said to have made the lyre from a tortoise"
+   },
+   {
+    "name": "Cyllen",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Elatus, source of the name of mountain and god"
+   },
+   {
+    "name": "Elatus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Cyllen"
+   },
+   {
+    "name": "Lycaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Arcadian whose wife gave Nonacris its name"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Elatus",
+    "relation": "parent_of",
+    "b": "Cyllen",
+    "source": "text",
+    "evidence_sentence": 1
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Cyllenian Hermes",
+    "canonical": "Hermes",
+    "explanation": "Hermes' title from Mount Cyllene."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links landscape, cult and myth, explaining names by local heroes and gods and reporting marvels like white blackbirds.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "His comparisons with white animals and his personal observations show the travel-writer's method of eyewitness checking.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The tale of Hermes making a lyre from a tortoise shell is told in the Homeric Hymn to Hermes and became a lasting image in art."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias says the Cyllenian Hermes statue was of juniper wood, unusual among the woods used for early statues.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "\"Got their title\" means the mountain and the god received the name Cyllenian from Cyllen, a local figure.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "\"Lodge\" means roost or dwell; the blackbirds are said to live on the mountain permanently.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "Pausanias distinguishes the Bœotian birds sharing the name blackbird; they are not songbirds, unlike the white ones.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "word",
+    "text": "\"Swan-eagles\" is the popular name for a white eagle that looked like a swan.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Refers to the myth that the infant Hermes killed a tortoise and strung its shell with strings to make the first lyre.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "The Styx was the water by which gods swore their most binding oaths; this Arcadian stream was identified with it.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "Juniper was an aromatic, durable wood, so a juniper statue was an archaic and unusual cult image.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Lycaon was a legendary early king of Arcadia, whose wife gave Nonacris its name.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "characterization",
+    "text": "Pausanias presents himself as a widely travelled eyewitness, building his authority by listing white animals he has personally seen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "device": "hyperbole",
+    "text": "His claim that he recalls no higher cliff stresses the Styx's awe-inspiring setting, though it is framed as personal experience.",
+    "spoiler": false
+   }
+  ]
+ }
+}

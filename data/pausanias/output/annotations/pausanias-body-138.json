@@ -1,0 +1,466 @@
+{
+ "section_id": "pausanias-body-138",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8865,
+  "output": 3816
+ },
+ "result": {
+  "summary": "Pausanias describes the Messenian towns of Abia and Pharae, their founders, temples and local heroes. He traces the family of Diocles and the healing cult of Nicomachus and Gorgasus. He then digresses on Fortune, her place in Homer, and the first statue of her by Bupalus.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Abia and the road to Pharae",
+    "summary": "Abia, formerly Ire, is named for Hercules' nurse and has temples of Hercules and Æsculapius. Pharae lies 80 stades away and was placed under Laconia by Augustus.",
+    "stakes": "",
+    "present": [
+     "Abia",
+     "Glenus",
+     "Hercules",
+     "Cresphontes",
+     "Augustus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Abia",
+     "modern_name": "Avia, Messenia",
+     "certainty": "real",
+     "lat": 36.8,
+     "lon": 22.2
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 12,
+    "title": "Founders and healers of Pharae",
+    "summary": "Pharis founded Pharae, and his daughter Telegone is linked to the line of Diocles. Diocles' grandsons Nicomachus and Gorgasus are honoured as healers.",
+    "stakes": "",
+    "present": [
+     "Pharis",
+     "Hermes",
+     "Phylodamea",
+     "Telegone",
+     "Alpheus",
+     "Ortilochus",
+     "Diocles",
+     "Crethon",
+     "Anticlea",
+     "Machaon",
+     "Nicomachus",
+     "Gorgasus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Pharae",
+     "modern_name": "Kalamata",
+     "certainty": "real",
+     "lat": 37.04,
+     "lon": 22.11
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 24,
+    "title": "Fortune in poetry and art",
+    "summary": "Pausanias notes the temple of Fortune at Pharae and discusses Homer's, Bupalus' and Pindar's treatment of her.",
+    "stakes": "",
+    "present": [
+     "Fortune",
+     "Proserpine",
+     "Bupalus",
+     "Pindar",
+     "Homer"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Pharae",
+     "modern_name": "Kalamata",
+     "certainty": "real",
+     "lat": 37.04,
+     "lon": 22.11
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Abia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "nurse of Glenus, honoured by Cresphontes"
+   },
+   {
+    "name": "Glenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hercules"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero with a temple at Abia"
+   },
+   {
+    "name": "Cresphontes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler who renamed the town"
+   },
+   {
+    "name": "Augustus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Emperor who ranked Pharae under Laconia"
+   },
+   {
+    "name": "Pharis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "founder of Pharae"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "father of Pharis"
+   },
+   {
+    "name": "Phylodamea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Danaus, mother of Pharis"
+   },
+   {
+    "name": "Danaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Phylodamea"
+   },
+   {
+    "name": "Telegone",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Pharis, wife of Alpheus"
+   },
+   {
+    "name": "Alpheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Telegone"
+   },
+   {
+    "name": "Ortilochus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Alpheus, father of Diocles"
+   },
+   {
+    "name": "Diocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king, father of twins and Anticlea"
+   },
+   {
+    "name": "Crethon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "twin son of Diocles"
+   },
+   {
+    "name": "Anticlea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Diocles"
+   },
+   {
+    "name": "Machaon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Æsculapius, husband of Anticlea"
+   },
+   {
+    "name": "Æsculapius",
+    "aliases": [],
+    "kind": "god",
+    "description": "healing god with a temple at Abia"
+   },
+   {
+    "name": "Nicomachus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "healer-king worshipped at Pharae"
+   },
+   {
+    "name": "Gorgasus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "healer-king worshipped at Pharae"
+   },
+   {
+    "name": "Fortune",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Oceanus, powerful in human affairs"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "daughter of Demeter"
+   },
+   {
+    "name": "Bupalus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of first Fortune statue"
+   },
+   {
+    "name": "Pindar",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet who called Fortune City-Preserver"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hermes",
+    "relation": "parent_of",
+    "b": "Pharis",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Phylodamea",
+    "relation": "parent_of",
+    "b": "Pharis",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Danaus",
+    "relation": "parent_of",
+    "b": "Phylodamea",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Pharis",
+    "relation": "parent_of",
+    "b": "Telegone",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Alpheus",
+    "relation": "spouse_of",
+    "b": "Telegone",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Telegone",
+    "relation": "parent_of",
+    "b": "Ortilochus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Ortilochus",
+    "relation": "parent_of",
+    "b": "Diocles",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Diocles",
+    "relation": "parent_of",
+    "b": "Anticlea",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Machaon",
+    "relation": "parent_of",
+    "b": "Nicomachus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Machaon",
+    "relation": "parent_of",
+    "b": "Gorgasus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Æsculapius",
+    "relation": "parent_of",
+    "b": "Machaon",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Glenus",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Ire",
+    "canonical": "Abia",
+    "explanation": "Abia's older name, changed by Cresphontes."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 18,
+    "reason": "Pausanias calls Fortune the greatest goddess in human affairs.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Local cult and genealogy tie Messenian places to Homeric heroes and divine healers.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The note on Augustus shows Roman administration reshaping Greek regions.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Bupalus was a sculptor from Chios, active in the 6th century BC.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "In the Iliad (Book 9) Agamemnon offers Achilles seven cities in Messenia, including Ire, to win him back to the fighting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Hyllus, son of Hercules, led the Heraclidae (Dorians) in their attempt to return to the Peloponnese; their defeat by the Achæans is the earlier event referred to.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180-200 metres, so 80 stades is about 15 kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "phrasing",
+    "text": "\"Ranked under Laconia\" means Pharæ was detached from Messenia and made part of Laconian territory, probably as a reward for Laconian loyalty to Augustus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Bare ... to Machaon\" means she bore sons by him; Machaon was a physician at Troy, which explains the healing tradition.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "The Homeric Hymn to Demeter tells how Proserpine (Persephone) was seized by Pluto while gathering flowers with the daughters of Oceanus; Pausanias attributes the hymn to Homer.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "allusion",
+    "text": "Enyo is a war goddess, associated with Bellona in Latin; Pausanias says Homer shows each goddess ruling one sphere of life.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "The horn of Amalthea is the cornucopia, the horn of plenty, named for the nurse of Jove (Zeus) in myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "word",
+    "text": "The globe on her head is the polos, a cylindrical or rounded crown, here a sign of her power over the heavens.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "City-Preserver translates the Greek epithet Soteira-like title, meaning protector of cities; Pindar called Fortune (Tyche) a preserver of cities.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Cresphontes was a Heraclid who gained Messenia in the Dorian division of the Peloponnese and became its king.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Æsculapius was the god of healing, so a temple of him suits a tradition of healers in the region.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Hermes was the messenger god. Danaus was the legendary king of Argos, father of the fifty Danaids.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Pharæ was a town in Messenia, in the southern Peloponnese, which Pausanias is describing in this book.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "Bupalus was a sculptor from Chios, active in the sixth century BC, also known for being mocked by the poet Hipponax.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Smyrna was an important Greek city on the coast of Asia Minor, now Izmir in Turkey.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "narrative voice",
+    "text": "Pausanias sets Homer's silence against local Messenian tradition, showing his habit of weighing written authority against what he learned on the spot.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "device": "motif",
+    "text": "The recurring theme of healing runs from Æsculapius through Machaon to these grandsons, linking the family's heroic lineage to continuing cult practice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "characterization",
+    "text": "Homer's gods are defined by single domains: war, childbirth, marriage. Pausanias uses this contrast to show how little Homer made of Fortune.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "device": "symbolism",
+    "text": "The globe and horn of plenty stand for Fortune's power and her gift of abundance, making abstract chance visible.",
+    "spoiler": false
+   }
+  ]
+ }
+}

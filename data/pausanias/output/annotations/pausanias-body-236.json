@@ -1,0 +1,362 @@
+{
+ "section_id": "pausanias-body-236",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7826,
+  "output": 3201
+ },
+ "result": {
+  "summary": "Pausanias walks the roads around Mantinea in Arcadia, noting a temple of Zeus, the oaks and cork, and the legend of the jay well. He then describes the road to Orchomenus, with the tombs of Penelope and Anchises, the ruins of old Mantinea and the district boundaries.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 4,
+    "title": "Temple of Zeus and Arcadian oaks",
+    "summary": "Pausanias notes a temple of Zeus Charmo near the tomb of Epaminondas and describes the oak varieties, including the cork oak.",
+    "stakes": "",
+    "present": [
+     "Zeus",
+     "Hermesianax"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Mantinea",
+     "modern_name": "Mantineia, Arcadia",
+     "certainty": "real",
+     "lat": 37.6,
+     "lon": 22.38
+    }
+   },
+   {
+    "start_sentence": 5,
+    "end_sentence": 11,
+    "title": "The jay well and Alcimedon",
+    "summary": "On the road to Methydrium, Pausanias tells how Alcimedon exposed his daughter Phialo and her baby by Hercules. A jay imitated the child's cry, Hercules rescued them, and the well was named Jay.",
+    "stakes": "The infant Æchmagoras and his mother Phialo face death by exposure on the mountain.",
+    "present": [
+     "Alcimedon",
+     "Hercules",
+     "Phialo",
+     "Æchmagoras"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mount Ostracina, plain of Alcimedon",
+     "modern_name": "",
+     "certainty": "traditional",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 22,
+    "title": "Road to Orchomenus",
+    "summary": "Along the road to Orchomenus Pausanias notes Ladas' course, Penelope's tomb with rival traditions, old Mantinea, Mæra and the tomb of Anchises.",
+    "stakes": "",
+    "present": [
+     "Ladas",
+     "Penelope",
+     "Odysseus",
+     "Mæra",
+     "Anchises",
+     "Æneas",
+     "Artemis",
+     "Aphrodite"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Road from Mantinea to Orchomenus",
+     "modern_name": "Arcadia, Greece",
+     "certainty": "real",
+     "lat": 37.68,
+     "lon": 22.35
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Charmo"
+    ],
+    "kind": "god",
+    "description": "God worshipped in a temple near Mantinea"
+   },
+   {
+    "name": "Hermesianax",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Elegiac poet who used the word cork"
+   },
+   {
+    "name": "Alcimedon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Hero who lived in a cave on Ostracina and exposed his daughter"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "Hero who fathered a boy with Phialo and saved them"
+   },
+   {
+    "name": "Phialo",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Alcimedon, mother of Hercules' son"
+   },
+   {
+    "name": "Æchmagoras",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Phialo and Hercules"
+   },
+   {
+    "name": "Ladas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Runner who practised on a course near Mantinea"
+   },
+   {
+    "name": "Penelope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Wife of Odysseus, said by Mantineans to be buried there"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Husband of Penelope"
+   },
+   {
+    "name": "Ptoliporthes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Penelope in the Thesprotian Poem"
+   },
+   {
+    "name": "Mæra",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Atlas, buried at Tegea or Mantinea"
+   },
+   {
+    "name": "Atlas",
+    "aliases": [],
+    "kind": "other",
+    "description": "Father of Mæra"
+   },
+   {
+    "name": "Anchises",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Æneas, said to be buried near Mantinea"
+   },
+   {
+    "name": "Æneas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Founder of Aphrodisias and Etis in Laconia"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess with a temple on the road"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Goddess with a ruined temple near Anchises' tomb"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Hercules",
+    "relation": "lover_of",
+    "b": "Phialo",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Alcimedon",
+    "relation": "parent_of",
+    "b": "Phialo",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Phialo",
+    "relation": "parent_of",
+    "b": "Æchmagoras",
+    "source": "text",
+    "evidence_sentence": 7
+   },
+   {
+    "a": "Hercules",
+    "relation": "parent_of",
+    "b": "Æchmagoras",
+    "source": "text",
+    "evidence_sentence": 6
+   },
+   {
+    "a": "Penelope",
+    "relation": "spouse_of",
+    "b": "Odysseus",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Penelope",
+    "relation": "parent_of",
+    "b": "Ptoliporthes",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Odysseus",
+    "relation": "parent_of",
+    "b": "Ptoliporthes",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Atlas",
+    "relation": "parent_of",
+    "b": "Mæra",
+    "source": "text",
+    "evidence_sentence": 17
+   },
+   {
+    "a": "Anchises",
+    "relation": "parent_of",
+    "b": "Æneas",
+    "source": "text",
+    "evidence_sentence": 20
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "Hercules mistakes the jay's mimicry for his son's cry, explaining the Jay well's name.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links landmarks to local legends and weighs rival traditions, as with Penelope's supposed disgrace and burial at Mantinea.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Claims like Anchises' tomb in Arcadia show Greek cities tying themselves to the heroic and Trojan past.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias uses the absence of Anchises' tomb at Ilium as evidence for the Arcadian tradition.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "\"Fegi\" is the Greek name for a kind of oak, probably the valonia oak with edible acorns; the translator keeps the Greek form.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "phrasing",
+    "text": "The bark is so light that it is used to make floats for anchor lines and fishing nets, the same use cork has today.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "\"Exposed\" means abandoned in the open to die, a common ancient way of disposing of unwanted infants.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "The Thesprotian Poem is a lost epic about Odysseus' adventures in Thesprotia. Ladas was a famous runner, probably the Olympic victor of that name.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "word",
+    "text": "\"Alalcomenea\" names a well; Alalcomenae was a Boeotian place linked with Athena, and the name was also used for places elsewhere.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "allusion",
+    "text": "Æneas, the Trojan hero, fled Troy and was said to be heading for Italy. Here a local tradition places him in Laconia and Sicily.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "allusion",
+    "text": "Ilium is Troy. The Æolians lived there in later times, so Pausanias argues that Anchises' tomb being absent from Troy supports the Arcadian claim.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Epaminondas was the Theban general killed at Mantinea in 362 BC. A stade is about 600 feet (roughly 185 metres).",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Hermesianax was a Greek elegiac poet of the early third century BC, cited here for his use of the word.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "text": "Hercules fathered many children in love affairs with local women; the Phigalians were Arcadians of the town of Phigalia.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Penelope was Odysseus' wife. The Mantinean version makes her unfaithful, contradicting the usual story of her loyalty in the Odyssey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "Mæra was a legendary figure said to have died in Arcadia, and Pausanias is weighing which town holds her tomb.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 8,
+    "device": "imitation",
+    "text": "The jay's mimicry of the baby's wail drives the plot, and the bird's call becomes the means of rescue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "aetiology",
+    "text": "The story ends by explaining the well's name, a typical way for Pausanias to tie myth to a place.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "irony",
+    "text": "Penelope, the model of faithful wife in Homer, is here said to have been sent away for betraying her husband, reversing her image.",
+    "spoiler": false
+   }
+  ]
+ }
+}

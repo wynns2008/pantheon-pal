@@ -1,0 +1,356 @@
+{
+ "section_id": "pausanias-body-151",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 8592,
+  "output": 2977
+ },
+ "result": {
+  "summary": "Pausanias describes the river Alpheus at Olympia, its tributaries, and the legend of Alpheus and Arethusa, supporting rivers flowing underground with other examples. He then gives the Elean account of the origin of the Olympian Games, founded by Idaean Hercules and his brothers.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "The river Alpheus and tributaries",
+    "summary": "Pausanias lists the seven rivers that flow into the Alpheus near Olympia.",
+    "stakes": "",
+    "present": [
+     "Alpheus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 8,
+    "title": "Alpheus and Arethusa",
+    "summary": "The tradition says Alpheus loved Arethusa, who fled to Ortygia and became a spring, and he became a river. Pausanias cites a Delphic oracle to explain the underground flow.",
+    "stakes": "Arethusa tries to escape unwanted marriage.",
+    "present": [
+     "Alpheus",
+     "Arethusa",
+     "Archias"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Ortygia",
+     "modern_name": "Ortygia, Syracuse",
+     "certainty": "real",
+     "lat": 37.06,
+     "lon": 15.293
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 14,
+    "title": "Other rivers that go underground",
+    "summary": "Pausanias cites the Nile, the Jordan and an Ionian river as parallels.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Ethiopia, Judaea and Ionia",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   },
+   {
+    "start_sentence": 15,
+    "end_sentence": 24,
+    "title": "Origin of the Olympian Games",
+    "summary": "The Eleans say the Idaean Dactyli, led by Hercules, began the games, with the wild olive crown, and gods were also said to have won contests.",
+    "stakes": "",
+    "present": [
+     "Cronos",
+     "Zeus",
+     "Rhea",
+     "Hercules",
+     "Epimedes",
+     "Pæonæus",
+     "Iasius",
+     "Idas",
+     "Apollo",
+     "Hermes",
+     "Ares"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia, Greece",
+     "certainty": "real",
+     "lat": 37.6384,
+     "lon": 21.63
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Alpheus",
+    "aliases": [],
+    "kind": "other",
+    "description": "river, said to be a hunter who loved Arethusa"
+   },
+   {
+    "name": "Arethusa",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "huntress who became a spring at Ortygia"
+   },
+   {
+    "name": "Archias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Corinthian sent by Delphi to found Syracuse"
+   },
+   {
+    "name": "Cronos",
+    "aliases": [],
+    "kind": "god",
+    "description": "first king of Heaven, given a temple at Olympia"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "born to Rhea, said to have contended with Cronos"
+   },
+   {
+    "name": "Rhea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "entrusted the infant Zeus to the Dactyli"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Idæan Hercules"
+    ],
+    "kind": "mortal",
+    "description": "eldest Idaean Dactyl, founder of the Olympic contests"
+   },
+   {
+    "name": "Epimedes",
+    "aliases": [],
+    "kind": "creature",
+    "description": "one of the Idaean Dactyli"
+   },
+   {
+    "name": "Pæonæus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "one of the Idaean Dactyli"
+   },
+   {
+    "name": "Iasius",
+    "aliases": [],
+    "kind": "creature",
+    "description": "one of the Idaean Dactyli"
+   },
+   {
+    "name": "Idas",
+    "aliases": [],
+    "kind": "creature",
+    "description": "one of the Idaean Dactyli"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "won at Olympia, outran Hermes and outboxed Ares"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "lost a race to Apollo"
+   },
+   {
+    "name": "Ares",
+    "aliases": [],
+    "kind": "god",
+    "description": "outboxed by Apollo"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Alpheus",
+    "relation": "transformed_into",
+    "b": "river",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Arethusa",
+    "relation": "transformed_into",
+    "b": "spring",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Alpheus",
+    "relation": "lover_of",
+    "b": "Arethusa",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Hercules",
+    "relation": "sibling_of",
+    "b": "Epimedes",
+    "source": "text",
+    "evidence_sentence": 16
+   },
+   {
+    "a": "Rhea",
+    "relation": "parent_of",
+    "b": "Zeus",
+    "source": "text",
+    "evidence_sentence": 15
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Curetes",
+    "canonical": "Idæan Dactyli",
+    "explanation": "The text says the Dactyli were otherwise called the Curetes."
+   },
+   {
+    "alias": "Idæan Hercules",
+    "canonical": "Hercules",
+    "explanation": "The Cretan Hercules, distinguished from the son of Alcmene."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 7,
+    "reason": "The Delphic oracle's verse linking Ortygia and the Alpheus.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias rationalises myth, reading the love story as a folk explanation of a real geographic phenomenon, rivers flowing underground.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Elean archives give Olympia a divine origin, supporting the sanctuary's prestige and the claim to have founded the games.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Alpheus and Arethusa legend inspired later poets, including Shelley's poem Arethusa (1820)."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The Dead Sea's buoyancy, noted here, is due to its very high salt content.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Megalopolis, Gortyna, Melæneæ, Heræa and Clitor are Arcadian towns; the list traces the Alpheus's tributaries through that region.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Ortygia is the island at Syracuse in Sicily where the spring Arethusa was located; the myth links it to the Alpheus in Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "word",
+    "text": "Trinacria is an old name for Sicily, meaning 'three-cornered'.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "phrasing",
+    "text": "'Love passages' means romantic episodes or love affairs.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "'Archives' here means the old records or traditions kept by the Eleans, not necessarily written documents.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "phrasing",
+    "text": "'Strewed under them' means they spread the fresh olive leaves beneath themselves as bedding.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "word",
+    "text": "The pentathlum is the pentathlon, the five-event contest including leaping, running, discus, javelin and wrestling.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 7,
+    "text": "Archias of Corinth founded Syracuse around 734 BC; consulting the Delphic oracle before founding colonies was standard Greek practice.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Cronos ruled before Zeus; the golden age was the mythical era of his reign. The Curetes and Dactyli were divine attendants who guarded the infant Zeus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The Hyperboreans were a legendary people living in a blessed land far to the north, beyond the north wind.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Apollo was patron of music and the Pythian games at Delphi, so his athletic victories at Olympia are noteworthy.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "metamorphosis",
+    "text": "The transformation of Arethusa into a spring and Alpheus into a river is a classic myth explaining natural features through love and pursuit.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "device": "rationalization",
+    "text": "Pausanias reinterprets the romantic myth as a distorted memory of two waters physically joining, showing his habit of explaining legend by fact.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "narrative voice",
+    "text": "This blunt verdict shows Pausanias as a confident, authoritative traveler who judges the accounts he collects.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "imagery",
+    "text": "The beds of green olive leaves give a vivid, pastoral picture of the golden-age setting of the first games.",
+    "spoiler": false
+   }
+  ]
+ }
+}

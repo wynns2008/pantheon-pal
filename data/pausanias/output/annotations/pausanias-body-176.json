@@ -1,0 +1,290 @@
+{
+ "section_id": "pausanias-body-176",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7655,
+  "output": 2390
+ },
+ "result": {
+  "summary": "Pausanias describes the Olympia statue of Polydamas, the huge pancratium victor from Scotusa, and recounts the destruction of his hometown. He lists Polydamas' feats, including killing a lion, holding a bull, stopping a chariot and fighting Persian Immortals, and his death when a cave roof collapsed.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Statue and fate of Scotusa",
+    "summary": "Pausanias introduces the statue of Polydamas and tells how Alexander of Pheræ massacred the people of Scotusa.",
+    "stakes": "The people of Scotusa face massacre and enslavement.",
+    "present": [
+     "Polydamas",
+     "Alexander",
+     "Lysippus"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.638,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 12,
+    "title": "Feats of Polydamas",
+    "summary": "Polydamas kills a lion on Mount Olympus, holds a bull by its hoof and stops a speeding chariot.",
+    "stakes": "Polydamas risks death by lion, bull and chariot in demonstrating his strength.",
+    "present": [
+     "Polydamas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mount Olympus",
+     "modern_name": "Mount Olympus",
+     "certainty": "real",
+     "lat": 40.0859,
+     "lon": 22.3584
+    }
+   },
+   {
+    "start_sentence": 13,
+    "end_sentence": 15,
+    "title": "Summoned to Susa",
+    "summary": "King Darius lures Polydamas to Susa, where he kills three Immortals.",
+    "stakes": "Polydamas faces single combat against Persian Immortals.",
+    "present": [
+     "Polydamas",
+     "Darius",
+     "Artaxerxes",
+     "Sogdius"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Susa",
+     "modern_name": "Shush, Iran",
+     "certainty": "real",
+     "lat": 32.19,
+     "lon": 48.25
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 18,
+    "title": "Death in the cave",
+    "summary": "Polydamas tries to hold up a collapsing cave roof while his friends flee and is crushed.",
+    "stakes": "Polydamas' life, lost through overconfidence in his strength.",
+    "present": [
+     "Polydamas"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "a cave",
+     "modern_name": "",
+     "certainty": "unknown",
+     "lat": null,
+     "lon": null
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Polydamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "giant pancratium victor from Scotusa"
+   },
+   {
+    "name": "Lysippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the statue"
+   },
+   {
+    "name": "Nicias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Polydamas"
+   },
+   {
+    "name": "Alexander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Pheræ who destroyed Scotusa"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "other",
+    "description": "hero who vanquished the Nemean lion"
+   },
+   {
+    "name": "Darius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "illegitimate son of Artaxerxes, Persian king"
+   },
+   {
+    "name": "Artaxerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king, father of Darius and Sogdius"
+   },
+   {
+    "name": "Sogdius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "legitimate son of Artaxerxes, deposed"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king whose army lions attacked"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Nicias",
+    "relation": "parent_of",
+    "b": "Polydamas",
+    "source": "text",
+    "evidence_sentence": 1
+   },
+   {
+    "a": "Artaxerxes",
+    "relation": "parent_of",
+    "b": "Darius",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Artaxerxes",
+    "relation": "parent_of",
+    "b": "Sogdius",
+    "source": "text",
+    "evidence_sentence": 13
+   },
+   {
+    "a": "Darius",
+    "relation": "sibling_of",
+    "b": "Sogdius",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 18,
+    "reason": "Polydamas' dramatic death trying to hold up a collapsing cave.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Polydamas' feats imitate Hercules, but his overconfidence in strength brings his death, a warning about hubris.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias links athletes' statues at Olympia to local history, such as the destruction of Scotusa by a tyrant of Pheræ.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias dates the Scotusa massacre by the Athenian Archon and the 102nd Olympiad, showing how Greeks reckoned time.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Heroes means the legendary figures of the age before the Trojan War; Pausanias allows only them or mythical giants to have been bigger.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "word",
+    "text": "Targeteers were soldiers armed with the light small shield called a target.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "word",
+    "text": "The pancratium was a combined wrestling and boxing contest with very few rules.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "kind": "word",
+    "text": "Commonalty means the common people, here the Persian populace who supported Darius against Sogdius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "The Immortals were the elite Persian royal guard, so called because their number was always kept at full strength.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "kind": "allusion",
+    "text": "Refers to a Homeric warning that reliance on one's own strength brings ruin; Pausanias applies it to Polydamas.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 0,
+    "text": "Lysippus was a famous fourth-century BC sculptor from Sicyon, best known as Alexander the Great's court sculptor.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "text": "Alexander of Pheræ was a ruthless tyrant of Thessaly in the mid-fourth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Killing the Nemean lion was the first of Hercules' labours; Polydamas imitates him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "text": "Susa was one of the main royal capitals of the Persian empire.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "hyperbole",
+    "text": "Imagining mythical giants as the only larger men stresses Polydamas' enormous size.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "allusion",
+    "text": "Comparing Polydamas to Hercules frames him as a heroic figure and a mortal rival of the demigod.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "device": "foreshadowing",
+    "text": "The warning about overconfidence prepares the reader for his fatal end in the cave.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "irony",
+    "text": "His strength, the source of his fame, leads him to attempt the impossible and causes his death.",
+    "spoiler": false
+   }
+  ]
+ }
+}

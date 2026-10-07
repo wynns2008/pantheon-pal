@@ -1,0 +1,575 @@
+{
+ "section_id": "pausanias-body-283",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 11838,
+  "output": 5061
+ },
+ "result": {
+  "summary": "Pausanias traces the early kings of Thebes from the Ectenes and Cadmus down through Amphion and Zethus, Laius, Oedipus and his sons, to the Epigoni and the end of the monarchy. He cites Homer and other poets to correct popular legends, for example that Oedipus's children were not by Jocasta.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 7,
+    "title": "Early peoples and Cadmus",
+    "summary": "Thebes is settled by the Ectenes, then the Hyantes and Aones. Cadmus conquers the land, builds the Cadmea and has famous children and contemporaries.",
+    "stakes": "The Hyantes lose their land to Cadmus's invasion; the Aones keep theirs by submitting.",
+    "present": [
+     "Ogygus",
+     "Cadmus",
+     "Semele",
+     "Ino",
+     "Echion"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Boeotia",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 8,
+    "end_sentence": 24,
+    "title": "From Polydorus to Amphion",
+    "summary": "Succession passes from Polydorus through Labdacus, Nycteus and Lycus until Amphion and Zethus seize Thebes and fortify it. Pausanias discusses Amphion's music and punishment before Laius is restored.",
+    "stakes": "The Cadmean line is threatened by guardians and invaders.",
+    "present": [
+     "Cadmus",
+     "Polydorus",
+     "Pentheus",
+     "Labdacus",
+     "Nycteus",
+     "Lycus",
+     "Laius",
+     "Amphion",
+     "Zethus",
+     "Antiope",
+     "Hermes"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Boeotia",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 33,
+    "title": "Laius, Oedipus and Euryganea",
+    "summary": "Laius is warned by Delphi and exposes Oedipus, who kills his father and marries his mother. Pausanias argues from Homer that Oedipus's children were by Euryganea.",
+    "stakes": "Laius faces death at his son's hands; Oedipus faces his fated crimes.",
+    "present": [
+     "Laius",
+     "Jocasta",
+     "Oedipus",
+     "Euryganea"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Boeotia",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 34,
+    "end_sentence": 47,
+    "title": "Sons of Oedipus to magistrates",
+    "summary": "Polynices and Eteocles kill each other, the Argives take Thebes, and the kingship passes through Thersander, Tisamenus and later kings. After Xanthus is killed, Thebes adopts rule by magistrates.",
+    "stakes": "Thebes risks conquest and exile in war and dynastic strife.",
+    "present": [
+     "Polynices",
+     "Eteocles",
+     "Adrastus",
+     "Creon",
+     "Laodamas",
+     "Thersander",
+     "Telephus",
+     "Tisamenus",
+     "Xanthus",
+     "Andropompus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes, Boeotia",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ogygus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Autochthon king of the Ectenes"
+   },
+   {
+    "name": "Cadmus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Phoenician founder of the Cadmea"
+   },
+   {
+    "name": "Semele",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Cadmus, mother of a son by Zeus"
+   },
+   {
+    "name": "Ino",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Cadmus, a sea goddess"
+   },
+   {
+    "name": "Echion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "One of the Sparti, son-in-law of Cadmus"
+   },
+   {
+    "name": "Polydorus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son and successor of Cadmus"
+   },
+   {
+    "name": "Pentheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Haughty son of Echion punished by Dionysus"
+   },
+   {
+    "name": "Labdacus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Polydorus, king"
+   },
+   {
+    "name": "Nycteus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Guardian of Labdacus's son"
+   },
+   {
+    "name": "Lycus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Brother of Nycteus, guardian of Laius"
+   },
+   {
+    "name": "Laius",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Labdacus, father of Oedipus"
+   },
+   {
+    "name": "Amphion",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Musician, son of Antiope, co-ruler of Thebes"
+   },
+   {
+    "name": "Zethus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Brother of Amphion"
+   },
+   {
+    "name": "Antiope",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Mother of Amphion and Zethus"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "Said to have taught Amphion the lyre"
+   },
+   {
+    "name": "Jocasta",
+    "aliases": [
+     "Epicaste"
+    ],
+    "kind": "mortal",
+    "description": "Wife of Laius and later of Oedipus"
+   },
+   {
+    "name": "Oedipus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Laius who killed his father"
+   },
+   {
+    "name": "Euryganea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Hyperphas, mother of Oedipus's children"
+   },
+   {
+    "name": "Polynices",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Oedipus, exiled, married Adrastus's daughter"
+   },
+   {
+    "name": "Eteocles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Oedipus, killed Polynices and died"
+   },
+   {
+    "name": "Adrastus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "King of Argos"
+   },
+   {
+    "name": "Creon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Menoeceus, guardian of Laodamas"
+   },
+   {
+    "name": "Laodamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Eteocles, king of Thebes"
+   },
+   {
+    "name": "Thersander",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Polynices, killed by Telephus"
+   },
+   {
+    "name": "Telephus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Killer of Thersander in Mysia"
+   },
+   {
+    "name": "Tisamenus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Thersander, king of Thebes"
+   },
+   {
+    "name": "Xanthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban king killed by Andropompus"
+   },
+   {
+    "name": "Andropompus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Killed Xanthus by treachery"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Cadmus",
+    "relation": "parent_of",
+    "b": "Semele",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Cadmus",
+    "relation": "parent_of",
+    "b": "Ino",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Polydorus",
+    "relation": "parent_of",
+    "b": "Labdacus",
+    "source": "text",
+    "evidence_sentence": 10
+   },
+   {
+    "a": "Labdacus",
+    "relation": "parent_of",
+    "b": "Laius",
+    "source": "text",
+    "evidence_sentence": 12
+   },
+   {
+    "a": "Echion",
+    "relation": "parent_of",
+    "b": "Pentheus",
+    "source": "text",
+    "evidence_sentence": 9
+   },
+   {
+    "a": "Laius",
+    "relation": "spouse_of",
+    "b": "Jocasta",
+    "source": "text",
+    "evidence_sentence": 25
+   },
+   {
+    "a": "Laius",
+    "relation": "parent_of",
+    "b": "Oedipus",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Oedipus",
+    "relation": "parent_of",
+    "b": "Polynices",
+    "source": "text",
+    "evidence_sentence": 34
+   },
+   {
+    "a": "Eteocles",
+    "relation": "parent_of",
+    "b": "Laodamas",
+    "source": "text",
+    "evidence_sentence": 37
+   },
+   {
+    "a": "Polynices",
+    "relation": "parent_of",
+    "b": "Thersander",
+    "source": "text",
+    "evidence_sentence": 40
+   },
+   {
+    "a": "Thersander",
+    "relation": "parent_of",
+    "b": "Tisamenus",
+    "source": "text",
+    "evidence_sentence": 43
+   },
+   {
+    "a": "Polynices",
+    "relation": "sibling_of",
+    "b": "Eteocles",
+    "source": "text",
+    "evidence_sentence": 37
+   },
+   {
+    "a": "Amphion",
+    "relation": "sibling_of",
+    "b": "Zethus",
+    "source": "text",
+    "evidence_sentence": 13
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Epicaste",
+    "canonical": "Jocasta",
+    "explanation": "Homer's name for Oedipus's mother, called Jocasta by Pausanias."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 31,
+    "reason": "Pausanias's reasoned argument from Homer that Oedipus's children were not by his mother.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage is a dynastic history of Thebes, showing how cursed and disputed succession repeatedly brings ruin until kingship ends.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias tests legends against Homer and other early poetry, a typical method of ancient antiquarian scholarship.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Theban cycle of Oedipus, Polynices and Eteocles became central to Greek tragedy, including Sophocles and Aeschylus."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias notes Homer never mentions Amphion's walls rising to his harp, though later tradition made this famous.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Autochthon means 'sprung from the soil itself', a native rather than an immigrant. Ogygiæ is the adjective 'Ogygian', meaning Theban or very ancient.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "Cadmus married Harmonia, daughter of Aphrodite and Ares. Semele bore Dionysus to Zeus, and Ino became the sea goddess Leucothea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Sparti means 'sown men', the warriors said to have sprung from dragon's teeth sown by Cadmus. Pausanias follows the usual story without elaborating.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "Pausanias refers back to his earlier book on Sicyon and Sicyonia, where he told of Nycteus' death and the guardianship passing to Lycus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Tantalus, ancestor of Pelops, was a Lydian king. Amphion's link to him through his wife Niobe is why the Lydian musical mode is attached to him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Leto and her sons Apollo and Artemis were insulted by Niobe, Amphion's wife. Amphion's railing against them is a separate tradition of impiety.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "word",
+    "text": "\"Bare\" is the archaic past tense of \"bear\", meaning gave birth to.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "allusion",
+    "text": "Quoted from Homer's Odyssey (Book 11), where Ulysses sees the dead in Hades. Epicaste is Homer's name for Jocasta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "kind": "allusion",
+    "text": "The Œdipodia was a lost early epic about Œdipus' family; Pausanias cites it as evidence for Euryganea as mother.",
+    "spoiler": false
+   },
+   {
+    "sentence": 37,
+    "kind": "phrasing",
+    "text": "\"Devolved upon\" means the kingship passed by inheritance to Laodamas, who was too young to rule.",
+    "spoiler": false
+   },
+   {
+    "sentence": 39,
+    "kind": "allusion",
+    "text": "Glisas was a place near Thebes in Bœotia; the Illyrians lived far to the northwest, so Laodamas fled a long way.",
+    "spoiler": false
+   },
+   {
+    "sentence": 44,
+    "kind": "allusion",
+    "text": "The Furies were avenging spirits punishing crimes within a family; here the curse of Laius and Œdipus afflicts Autesion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 47,
+    "kind": "phrasing",
+    "text": "\"Several magistrates\" means a group of officials sharing power instead of a single king.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 3,
+    "text": "The Cadmea was Thebes' citadel, said to be founded by Cadmus. Its name survived into Pausanias' own time.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Thebe was a nymph or woman after whom the city was named. Amphion and Zethus were her kinsmen, sons of Antiope.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "text": "The quotation is from Odyssey 11, where Amphion and Zethus are said to have first built the walls and seven gates of Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Thamyris was a legendary Thracian singer who boasted he could outsing the Muses and was punished for it.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "Delphi's oracle, speaking for Apollo, was the most respected prophetic shrine in Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 33,
+    "text": "Onatas was a noted artist of the fifth century BC. Platæa was a Bœotian city near Thebes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 41,
+    "text": "Telephus was king of Mysia. The Greeks, sailing toward Troy, landed there by mistake and fought him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 42,
+    "text": "Paris and Ilium (Troy) were the targets of the Trojan War, which is why a second fleet gathered.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 9,
+    "device": "characterization",
+    "text": "Pentheus is briefly sketched as powerful, haughty and impious, preparing for his punishment by Dionysus as a moral outcome.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "narrative voice",
+    "text": "Pausanias acts as a critical scholar, setting the wall-building legend against Homer's silence and preferring textual evidence to myth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "device": "irony",
+    "text": "Amphion's line, which seized the throne and ended Cadmus' rule, dies out entirely, and the throne returns to the Cadmean heir Laius.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "irony",
+    "text": "Laius's attempt to avoid the prophecy by exposing the child helps bring it about.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "rhetorical question",
+    "text": "Pausanias poses a question to argue against the tradition, using Homer's word \"soon\" as his proof.",
+    "spoiler": false
+   },
+   {
+    "sentence": 46,
+    "device": "characterization",
+    "text": "Adding \"by treachery and not fairly\" shows Pausanias's moral judgment of Xanthus's death and the end of the monarchy.",
+    "spoiler": false
+   }
+  ]
+ }
+}

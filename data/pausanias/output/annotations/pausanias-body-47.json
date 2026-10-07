@@ -1,0 +1,648 @@
+{
+ "section_id": "pausanias-body-47",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10461,
+  "output": 5296
+ },
+ "result": {
+  "summary": "Pausanias walks through Corinth, describing statues, the well of Pirene, baths and conduits along the roads to Lechaeum and Sicyon. He then recounts the story of Medea, her children's tomb at Corinth, and differing poets' versions of her fate and Jason's.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 11,
+    "title": "Market-place and road to Lechaeum",
+    "summary": "Pausanias lists statues, temples and the well of Pirene around the market-place and on the road to Lechaeum.",
+    "stakes": "",
+    "present": [
+     "Pirene",
+     "Cenchrias",
+     "Artemis",
+     "Hermes",
+     "Phaethon",
+     "Hercules"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Ancient Corinth, Greece",
+     "certainty": "real",
+     "lat": 37.9056,
+     "lon": 22.8803
+    }
+   },
+   {
+    "start_sentence": 12,
+    "end_sentence": 16,
+    "title": "Baths and conduits of Corinth",
+    "summary": "Pausanias describes the public baths, including that of Eurycles, and the conduits supplied with water by Hadrian.",
+    "stakes": "",
+    "present": [
+     "Eurycles",
+     "Poseidon",
+     "Artemis",
+     "Bellerophon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Ancient Corinth, Greece",
+     "certainty": "real",
+     "lat": 37.9056,
+     "lon": 22.8803
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 22,
+    "title": "Well of Glauce and Medea's sons",
+    "summary": "On the road to Sicyon are the well of Glauce and the tomb of Medea's sons, stoned by the Corinthians, whose death brought a plague on the children and led to rites.",
+    "stakes": "Glauce fears death by Medea's poison; the Corinthian children waste away until the sons are propitiated.",
+    "present": [
+     "Glauce",
+     "Medea",
+     "Mermerus",
+     "Pheres"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Ancient Corinth, Greece",
+     "certainty": "real",
+     "lat": 37.9056,
+     "lon": 22.8803
+    }
+   },
+   {
+    "start_sentence": 23,
+    "end_sentence": 31,
+    "title": "Medea and rival traditions",
+    "summary": "Pausanias gives the varying accounts of Medea's flight to Athens, her son, the fate of her children by Jason, and her rule at Corinth.",
+    "stakes": "Medea risks losing her children and Jason's forgiveness.",
+    "present": [
+     "Medea",
+     "Ægeus",
+     "Medus",
+     "Jason",
+     "Hellanicus",
+     "Cinæthon",
+     "Eumœlus",
+     "Sisyphus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Corinth",
+     "modern_name": "Ancient Corinth, Greece",
+     "certainty": "real",
+     "lat": 37.9056,
+     "lon": 22.8803
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose brass statue stands in the market-place"
+   },
+   {
+    "name": "Octavia",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sister of Augustus, honoured with a temple"
+   },
+   {
+    "name": "Augustus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Roman Emperor after Cæsar"
+   },
+   {
+    "name": "Phaethon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of the Sun, shown in a chariot"
+   },
+   {
+    "name": "Sun",
+    "aliases": [],
+    "kind": "god",
+    "description": "shown in a golden chariot"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "god",
+    "description": "hero with a brazen statue"
+   },
+   {
+    "name": "Pirene",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "woman who became a well weeping for her son"
+   },
+   {
+    "name": "Cenchrias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Pirene, killed by Artemis"
+   },
+   {
+    "name": "Artemis",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess who killed Cenchrias"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with statues at Corinth"
+   },
+   {
+    "name": "Odysseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "shown in a painting killing the suitors"
+   },
+   {
+    "name": "Hermes",
+    "aliases": [],
+    "kind": "god",
+    "description": "guardian of flocks, statue with ram"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god with statues at Corinth"
+   },
+   {
+    "name": "Leucothea",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "sea goddess with a statue"
+   },
+   {
+    "name": "Palæmon",
+    "aliases": [],
+    "kind": "god",
+    "description": "shown on a dolphin's back"
+   },
+   {
+    "name": "Eurycles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Spartan who built the famous bath"
+   },
+   {
+    "name": "Bellerophon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero shown on a conduit"
+   },
+   {
+    "name": "Pegasus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "winged horse on the conduit"
+   },
+   {
+    "name": "Glauce",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "threw herself into a well fearing Medea's poison"
+   },
+   {
+    "name": "Medea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sorceress wife of Jason"
+   },
+   {
+    "name": "Mermerus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "elder son of Medea"
+   },
+   {
+    "name": "Pheres",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Medea"
+   },
+   {
+    "name": "Ægeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "king of Athens who sheltered Medea"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian plotted against by Medea"
+   },
+   {
+    "name": "Medus",
+    "aliases": [
+     "Polyxenus",
+     "Medeus"
+    ],
+    "kind": "mortal",
+    "description": "son of Medea, ancestor of the Medes"
+   },
+   {
+    "name": "Jason",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "husband of Medea, king of Corinth"
+   },
+   {
+    "name": "Hellanicus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "writer who names Medea's son Polyxenus"
+   },
+   {
+    "name": "Cinæthon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Lacedæmonian genealogical poet"
+   },
+   {
+    "name": "Eriopis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "daughter of Jason and Medea per Cinæthon"
+   },
+   {
+    "name": "Eumœlus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "poet whose account is given"
+   },
+   {
+    "name": "Æetes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "given Ephyræa, went to Colchis"
+   },
+   {
+    "name": "Aloeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "given Asopia by the Sun"
+   },
+   {
+    "name": "Bunus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hermes and Alcidamea, ruler"
+   },
+   {
+    "name": "Alcidamea",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "mother of Bunus"
+   },
+   {
+    "name": "Epopeus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of the Ephyræans"
+   },
+   {
+    "name": "Corinthus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Marathon, died childless"
+   },
+   {
+    "name": "Marathon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Corinthus"
+   },
+   {
+    "name": "Sisyphus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "received the kingdom from Medea"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess whose temple Medea used to hide children"
+   },
+   {
+    "name": "Pelias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "whose death preceded Jason's move"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Pirene",
+    "relation": "parent_of",
+    "b": "Cenchrias",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Pirene",
+    "relation": "transformed_into",
+    "b": "well",
+    "source": "text",
+    "evidence_sentence": 5
+   },
+   {
+    "a": "Medea",
+    "relation": "parent_of",
+    "b": "Mermerus",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Medea",
+    "relation": "parent_of",
+    "b": "Pheres",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Jason",
+    "relation": "parent_of",
+    "b": "Mermerus",
+    "source": "text",
+    "evidence_sentence": 26
+   },
+   {
+    "a": "Jason",
+    "relation": "parent_of",
+    "b": "Eriopis",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Medea",
+    "relation": "parent_of",
+    "b": "Eriopis",
+    "source": "text",
+    "evidence_sentence": 27
+   },
+   {
+    "a": "Ægeus",
+    "relation": "parent_of",
+    "b": "Medus",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Medea",
+    "relation": "parent_of",
+    "b": "Medus",
+    "source": "text",
+    "evidence_sentence": 24
+   },
+   {
+    "a": "Hermes",
+    "relation": "parent_of",
+    "b": "Bunus",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Alcidamea",
+    "relation": "parent_of",
+    "b": "Bunus",
+    "source": "text",
+    "evidence_sentence": 28
+   },
+   {
+    "a": "Marathon",
+    "relation": "parent_of",
+    "b": "Corinthus",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Jason",
+    "relation": "spouse_of",
+    "b": "Medea",
+    "source": "text",
+    "evidence_sentence": 29
+   },
+   {
+    "a": "Sun",
+    "relation": "parent_of",
+    "b": "Phaethon",
+    "source": "text",
+    "evidence_sentence": 2
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Polyxenus",
+    "canonical": "Medus",
+    "explanation": "Hellanicus gives this name to Medea's son and makes Jason his father."
+   },
+   {
+    "alias": "Medeus",
+    "canonical": "Medus",
+    "explanation": "Cinæthon's name for Jason and Medea's son."
+   },
+   {
+    "alias": "Adrian",
+    "canonical": "Hadrian",
+    "explanation": "The translation spells the Roman emperor's name Adrian."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 21,
+    "reason": "Vivid image of the statue of Panic, a lasting monument to the murdered children.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias links monuments to myths, showing how Corinth's landmarks preserved memory of figures like Pirene and Medea.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "He notes the break caused by the Roman destruction of Corinth: old rites ceased once new settlers replaced the old Corinthians.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Pausanias' variant accounts of Medea's children, killed by Corinthians rather than by her, differ from Euripides' Medea and show the myth's flexibility."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias says Corinthian brass was dipped hissing hot into the water of Pirene.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Octavia was Augustus's sister; \"Cæsar\" here means Julius Caesar, who refounded Corinth as a Roman colony in 44 BC after its destruction in 146 BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Vestibules are entrance gateways or porches; here they form a monumental entrance to the road to Lechæum, Corinth's harbour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "allusion",
+    "text": "Corinthian brass was a famous, prized bronze alloy; the claim that it was tempered by dipping it hot in Pirene is Pausanias's report of local belief.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "kind": "allusion",
+    "text": "Odysseus (the name used here, unlike Ulysses elsewhere) killed the suitors who besieged his wife Penelope, as told at the end of the Odyssey.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "kind": "allusion",
+    "text": "Leucothea and her son Palæmon were sea deities, once the mortals Ino and Melicertes; Palæmon was said to have been carried ashore by a dolphin near Corinth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Adrian is this translation's spelling of the Emperor Hadrian, who ruled Rome AD 117–138 and funded many building works in Greece.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "kind": "word",
+    "text": "Croceæ was a Laconian village known for its quarry of a green-flecked porphyry stone, prized for decoration.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "Glauce was the princess Jason planned to marry; Medea's poisoned gifts killed her. She sought water to quench the burning poison.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "kind": "word",
+    "text": "The Odeum was a roofed building for musical performances and recitals.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "'The gifts which they took Glauce' means the poisoned gifts the boys carried to Glauce on Medea's behalf.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "kind": "phrasing",
+    "text": "'Wasted away' means the children died of sickness; the oracle demanded yearly sacrifices to appease the murdered boys.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Corinth was sacked by the Romans in 146 BC and refounded as a colony by Caesar in 44 BC, breaking the old rites.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "The Naupactian poems were a lost early epic about heroes, named for Naupactus. Iolcus was Jason's home city, and Pelias his enemy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Eumelus was an early Corinthian epic poet; his version of Corinth's early kings differs from the Medea tradition of tragedy.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 5,
+    "text": "Pirene was Corinth's famous spring. The myth explains its origin as a mother's grief turned into flowing water.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Hermes was a god of herds and flocks as well as of travellers, which explains the ram beside his statue.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Poseidon was the god of the sea, especially honoured at Corinth, a city on the Isthmus with two harbours.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "Bellerophon was the hero who tamed the winged horse Pegasus; Pegasus was closely linked with Corinth, and a spring there was said to come from his hoof.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "Medea, the Colchian sorceress, married Ægeus king of Athens; she tried to poison his son Theseus when he arrived.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 5,
+    "device": "aetiological myth",
+    "text": "The story explains the spring's origin through transformation: a grieving mother's tears become water, linking natural features to human sorrow.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "quotation as authority",
+    "text": "Pausanias cites Homer to support his explanation, a habit that lends literary weight to his local observations.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "narrative voice",
+    "text": "Pausanias hints at religious secrets he knows but withholds, giving the narrator an air of reverence and discretion.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "device": "symbolism",
+    "text": "The statue of a terrified woman embodies the city's guilt and fear after the unjust killing of the boys.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "narrative voice",
+    "text": "Pausanias sets rival authorities side by side, showing the detached, scholarly voice of a traveller who weighs competing traditions.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "irony",
+    "text": "Medea tries to make her children immortal by hiding them, yet the attempt costs her husband and shows her error.",
+    "spoiler": false
+   }
+  ]
+ }
+}

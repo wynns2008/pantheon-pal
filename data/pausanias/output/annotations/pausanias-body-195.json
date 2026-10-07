@@ -1,0 +1,292 @@
+{
+ "section_id": "pausanias-body-195",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7932,
+  "output": 2539
+ },
+ "result": {
+  "summary": "Pausanias describes the market-place of Elis: its old-fashioned layout, the Umpires' Hall where the Olympic judges train, and the Corcyræan portico with its statue of Pyrrho. He then lists temples and statues nearby, including Apollo, the Sun and Moon, the Graces, Eros and Silenus, and ends with a pillared monument and the room of the sixteen matrons.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 8,
+    "title": "Gymnasium exit and Umpires' Hall",
+    "summary": "Pausanias describes the route from the gymnasium to the market-place, the market's antique plan, and the Umpires' Hall where the judges live and train.",
+    "stakes": "",
+    "present": [],
+    "told_as_story": false,
+    "place": {
+     "name": "Market-place of Elis",
+     "modern_name": "Elis (Ilida), Greece",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   },
+   {
+    "start_sentence": 9,
+    "end_sentence": 15,
+    "title": "Corcyræan portico and Pyrrho",
+    "summary": "The Corcyræan portico is explained as built from spoils taken from invading Corcyræans, and Pyrrho's statue and tomb are noted. Apollo the Healer's temple is mentioned.",
+    "stakes": "",
+    "present": [
+     "Pyrrho",
+     "Pistocrates",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Market-place of Elis",
+     "modern_name": "Elis (Ilida), Greece",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   },
+   {
+    "start_sentence": 16,
+    "end_sentence": 26,
+    "title": "Shrines and monuments of the market",
+    "summary": "Pausanias describes the Sun and Moon, the Graces, Eros, Silenus, a wall-less oak-pillared monument and the room of the sixteen matrons.",
+    "stakes": "",
+    "present": [
+     "Sun",
+     "Moon",
+     "Graces",
+     "Aphrodite",
+     "Eros",
+     "Silenus",
+     "Dionysus",
+     "Oxylus",
+     "Hera"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Market-place of Elis",
+     "modern_name": "Elis (Ilida), Greece",
+     "certainty": "real",
+     "lat": 37.9,
+     "lon": 21.37
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Pyrrho",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sophist honoured with a statue at Elis"
+   },
+   {
+    "name": "Pistocrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Sophist, father of Pyrrho"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Averter of Evil"
+    ],
+    "kind": "god",
+    "description": "god with a temple at Elis as Healer"
+   },
+   {
+    "name": "Sun",
+    "aliases": [],
+    "kind": "god",
+    "description": "honoured with a stone statue"
+   },
+   {
+    "name": "Moon",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "honoured with a horned statue"
+   },
+   {
+    "name": "Graces",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "three goddesses with a temple and wooden statues"
+   },
+   {
+    "name": "Aphrodite",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "goddess to whom rose and myrtle are sacred"
+   },
+   {
+    "name": "Adonis",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "figure of legend connected with rose and myrtle"
+   },
+   {
+    "name": "Eros",
+    "aliases": [],
+    "kind": "god",
+    "description": "statue stands beside the Graces"
+   },
+   {
+    "name": "Silenus",
+    "aliases": [],
+    "kind": "creature",
+    "description": "has a temple of his own at Elis"
+   },
+   {
+    "name": "Dionysus",
+    "aliases": [],
+    "kind": "god",
+    "description": "god normally linked with Silenus"
+   },
+   {
+    "name": "Oxylus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "possible subject of the oak-pillared monument"
+   },
+   {
+    "name": "Hera",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "receives a woven shawl from the matrons"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "altars to him stand in the market-place"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Pistocrates",
+    "relation": "parent_of",
+    "b": "Pyrrho",
+    "source": "text",
+    "evidence_sentence": 12
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Averter of Evil",
+    "canonical": "Apollo",
+    "explanation": "Athenian title of Apollo, compared with his Elean title Healer."
+   }
+  ],
+  "notable_quotes": [],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias reads cult images through symbols, such as the Graces' rose, dice and myrtle, linking them to Aphrodite.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Elean market-place doubled as a training ground and administrative centre for the Olympic judges, showing how closely Elis's civic life was tied to the games.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "The Umpires (Hellanodikai) lived ten months in their hall learning the rules before the games.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "Umpires translates the Hellanodikai, the Elean judges who presided over the Olympic games.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "word",
+    "text": "Pentathlum is the pentathlon, a five-event contest: running, jumping, discus, javelin and wrestling.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "kind": "phrasing",
+    "text": "\"Custodes Rotulorum\" is an odd, English-flavoured Latin title for the Elean officials who kept the rules and instructed the judges.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "A tenth of the spoil was the customary share dedicated to the gods or public works.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Apollo was worshipped at Athens as Alexikakos, 'Averter of Evil', which the translator links to the Healer title.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Aphrodite loved Adonis, and the rose and myrtle were linked to her and to his legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 22,
+    "kind": "allusion",
+    "text": "Sileni were woodland beings of Dionysus's retinue; Pausanias argues from tombs that they were mortal, not gods.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "allusion",
+    "text": "Oxylus was the Aetolian leader who, in legend, helped the Heraclidae return and became king of Elis.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "kind": "allusion",
+    "text": "The sixteen matrons wove the robe for Hera, and also organised the women's Heraean games.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 2,
+    "text": "Elis's market-place was an old-fashioned plan of separate porticoes and streets, unlike the more compact Ionian agora.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Pyrrho of Elis was the founder of Pyrrhonian scepticism, who lived around the time of Alexander.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "The Sun and Moon are shown with typical attributes: rays for the Sun and horns, the crescent, for the Moon.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "text": "Silenus was the drunken, elderly companion and tutor of Dionysus, so a separate temple for him alone is unusual.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 21,
+    "device": "personification",
+    "text": "Drunkenness is imagined as a figure filling Silenus's cup, giving an abstract state a physical form in the statuary.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "device": "narrative voice",
+    "text": "Pausanias openly weighs hearsay from an old man against local silence, showing a cautious, inquiring traveller's voice.",
+    "spoiler": false
+   }
+  ]
+ }
+}

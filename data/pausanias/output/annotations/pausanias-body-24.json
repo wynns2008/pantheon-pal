@@ -1,0 +1,466 @@
+{
+ "section_id": "pausanias-body-24",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 9615,
+  "output": 4039
+ },
+ "result": {
+  "summary": "Pausanias continues his tour of the Athenian Acropolis, listing statues and paintings, a strange sacrificial ritual, and the great gold and ivory Athene in the Parthenon. He ends with Phidias' Apollo and a remark on locusts.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 20,
+    "title": "Statues and votives on Acropolis",
+    "summary": "Pausanias lists statues and myth groups, including Athene and Marsyas, Theseus and the Minotaur, Phrixus, and Hercules, and describes the Zeus Guardian ox sacrifice.",
+    "stakes": "",
+    "present": [
+     "Athene",
+     "Marsyas",
+     "Theseus",
+     "Phrixus",
+     "Hercules",
+     "Zeus",
+     "Procne",
+     "Itys",
+     "Poseidon",
+     "Timotheus",
+     "Conon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athenian Acropolis",
+     "modern_name": "Acropolis of Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   },
+   {
+    "start_sentence": 21,
+    "end_sentence": 28,
+    "title": "The Parthenon and its Athene",
+    "summary": "He describes the Parthenon gables and the ivory and gold statue of Athene, with a digression on griffins and Arimaspians, and the birth of Pandora on the base.",
+    "stakes": "",
+    "present": [
+     "Athene",
+     "Poseidon",
+     "Aristæus",
+     "Medusa",
+     "Erichthonius",
+     "Pandora"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Parthenon",
+     "modern_name": "Parthenon, Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7266
+    }
+   },
+   {
+    "start_sentence": 29,
+    "end_sentence": 33,
+    "title": "Adrian, Iphicrates, Apollo and locusts",
+    "summary": "He notes statues of Adrian and Iphicrates and Phidias' Apollo Averter of Locusts, adding his own experience of locusts' destruction.",
+    "stakes": "",
+    "present": [
+     "Adrian",
+     "Iphicrates",
+     "Apollo"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Athenian Acropolis",
+     "modern_name": "Acropolis of Athens",
+     "certainty": "real",
+     "lat": 37.9715,
+     "lon": 23.7257
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Athene",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "patron goddess of Athens, shown in many works"
+   },
+   {
+    "name": "Marsyas",
+    "aliases": [
+     "the Silenus"
+    ],
+    "kind": "creature",
+    "description": "Silenus struck for taking up the flutes"
+   },
+   {
+    "name": "Theseus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero who fought the Minotaur"
+   },
+   {
+    "name": "Phrixus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Athamas, carried by the ram"
+   },
+   {
+    "name": "Athamas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Phrixus"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "hero throttling snakes"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "king of the gods; Athene sprang from his head"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "contested Attica with Athene"
+   },
+   {
+    "name": "Procne",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "cruel mother of Itys"
+   },
+   {
+    "name": "Itys",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Procne"
+   },
+   {
+    "name": "Timotheus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian, son of Conon"
+   },
+   {
+    "name": "Conon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian, father of Timotheus"
+   },
+   {
+    "name": "Minotaur",
+    "aliases": [],
+    "kind": "monster",
+    "description": "man or beast fought by Theseus"
+   },
+   {
+    "name": "Medusa",
+    "aliases": [],
+    "kind": "monster",
+    "description": "her head is on Athene's breast"
+   },
+   {
+    "name": "Erichthonius",
+    "aliases": [],
+    "kind": "creature",
+    "description": "possibly the dragon by Athene's spear"
+   },
+   {
+    "name": "Pandora",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "first woman according to Hesiod"
+   },
+   {
+    "name": "Aristæus",
+    "aliases": [
+     "the Proconnesian"
+    ],
+    "kind": "mortal",
+    "description": "poet who wrote of griffins"
+   },
+   {
+    "name": "Adrian",
+    "aliases": [
+     "the Emperor Adrian"
+    ],
+    "kind": "mortal",
+    "description": "emperor with a statue"
+   },
+   {
+    "name": "Iphicrates",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "celebrated Athenian general"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [
+     "Averter of Locusts"
+    ],
+    "kind": "god",
+    "description": "bronze statue by Phidias"
+   },
+   {
+    "name": "Phidias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "sculptor of the Apollo"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Athamas",
+    "relation": "parent_of",
+    "b": "Phrixus",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Conon",
+    "relation": "parent_of",
+    "b": "Timotheus",
+    "source": "text",
+    "evidence_sentence": 14
+   },
+   {
+    "a": "Procne",
+    "relation": "parent_of",
+    "b": "Itys",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Zeus",
+    "relation": "parent_of",
+    "b": "Athene",
+    "source": "text",
+    "evidence_sentence": 6
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Laphystius",
+    "canonical": "Zeus",
+    "explanation": "Epithet of the god at Orchomenus, conjectured as the recipient of Phrixus' sacrifice."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 19,
+    "reason": "Describes the odd Athenian ritual of putting the axe on trial.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "reason": "Records the birth of Pandora and Hesiod's view that no women existed before her.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Pausanias catalogues art and cult, showing Athenian piety and his interest in myth, ritual and rival traditions.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The Parthenon's chryselephantine Athene, with Hadrian's statue nearby, shows how classical monuments were still visited in the Roman era.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "Pausanias' description of Phidias' Athene Parthenos is a key source for reconstructing the lost statue."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "The ritual with the axe on trial refers to the Athenian Bouphonia, an ox-sacrifice festival.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "allusion",
+    "text": "Athene invented the flute but threw it away because playing distorted her face; the satyr Marsyas picked it up and was later punished.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "Phrixus fled with his sister Helle on a golden-fleeced ram; he reached Colchis and sacrificed the ram, whose fleece the Argonauts later sought.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "Laphystius was a title of Zeus at Orchomenus in Boeotia, linked to the Phrixus story and to a tradition of sacrificing the ram.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "allusion",
+    "text": "The infant Hercules strangled the two snakes sent by Hera to kill him in his cradle.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "kind": "phrasing",
+    "text": "\"Mutilated Hermæ\" are square pillar-statues of Hermes, with head and phallus; \"worker\" refers to Athene Ergane, patron of crafts.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "Pausanias often declines to give explanations of rites, here saying he records the customs without the reasons offered.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "This is the Bouphonia, the ox-murder ritual: the axe was tried in court and thrown into the sea, so no one bore guilt.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "word",
+    "text": "Parthenon means the temple of the maiden (parthenos), a title of Athene; \"pourtrayed\" is an old spelling of portrayed, and gables are the triangular pediments.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Aristæus of Proconnesus wrote an early poem about northern peoples, the Arimaspians and Issedones, and is Pausanias' source for the griffin story.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "A cubit is about the length of a forearm, roughly 18 inches, so the Victory is about six feet tall.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "allusion",
+    "text": "Erichthonius was an early Athenian hero-king born from the earth and raised by Athene, often shown as a snake; Pausanias is unsure the dragon is him.",
+    "spoiler": false
+   },
+   {
+    "sentence": 28,
+    "kind": "allusion",
+    "text": "Pandora is the first woman in Hesiod's Works and Days and Theogony, made by the gods and bringing evils to men.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "word",
+    "text": "Adrian is this translation's spelling of the Emperor Hadrian.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "kind": "word",
+    "text": "\"Brazen\" means made of bronze; \"Averter\" translates the title of a god who turns away a pest.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 1,
+    "text": "Theseus, Athenian hero, killed the Minotaur, a half-bull monster kept in the Cretan Labyrinth.",
+    "spoiler": false
+   },
+   {
+    "sentence": 7,
+    "text": "The Areopagus was Athens' ancient council, which met on the hill of Ares and judged homicide cases.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "text": "Cleœtas was a sculptor; the silver nails show the taste for detail in later bronze work.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Procne killed her son Itys to punish her husband Tereus, who had wronged her sister Philomela.",
+    "spoiler": false
+   },
+   {
+    "sentence": 16,
+    "text": "This recalls the contest of Athene and Poseidon for Athens: she offered the olive, he a salt spring.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "text": "The Sphinx is a winged monster with a woman's head and a lion's body, best known from the Theban story of Oedipus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "text": "Iphicrates was an Athenian general of the early fourth century BC, known for reforming the use of light-armed troops.",
+    "spoiler": false
+   },
+   {
+    "sentence": 30,
+    "text": "Phidias was the famous fifth-century Athenian sculptor who also made the great gold and ivory Athene inside the Parthenon.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 2,
+    "device": "irony",
+    "text": "Pausanias lightly defends the Minotaur myth by pointing to monstrous births in his own day, a sober, skeptical aside.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "characterization",
+    "text": "The Athenians are portrayed as exceptionally pious, a theme Pausanias uses to justify their many sacred monuments.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "device": "personification",
+    "text": "Earth is shown as a woman begging Zeus for rain, making a natural need a human plea.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "device": "irony",
+    "text": "The axe is tried as if guilty while everyone knows the priest struck, a ritual pretense of innocence.",
+    "spoiler": false
+   },
+   {
+    "sentence": 26,
+    "device": "narrative voice",
+    "text": "Pausanias abruptly cuts off his digression, showing the guidebook's businesslike voice and his awareness of staying on the tour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 31,
+    "device": "irony",
+    "text": "The Athenians are sure of the miracle yet cannot explain it, and Pausanias gently exposes the gap in their claim.",
+    "spoiler": false
+   },
+   {
+    "sentence": 32,
+    "device": "characterization",
+    "text": "Pausanias presents himself as a careful eyewitness, offering natural causes for the locusts' destruction beside the god's supposed intervention.",
+    "spoiler": false
+   }
+  ]
+ }
+}

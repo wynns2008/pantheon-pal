@@ -38,6 +38,7 @@ def export_book(slug: str) -> int:
     put("boilerplate", server.list_sections(slug, "boilerplate", True))
     put("about", server.get_about(slug))
     put("places", server.get_places(slug))
+    put("items", server.get_items(slug))
     put("journey", server.get_journey(slug))
     put("book-starts", server.get_book_starts(slug))
     for s in server.load(slug)["sections"]:
@@ -62,7 +63,7 @@ def main() -> None:
     books = server.list_books()
     write("books", books)
     files = 1 + sum(export_book(b["slug"]) for b in books)
-    # The search index: every character and place, grouped by the being or place they are (see server.entries).
+    # The search index: every character, place and thing, grouped by the being, place or thing they are (see server.entries).
     groups: dict[int, list] = {}
     for e in server.entries():
         groups.setdefault(e["key"], []).append({k: e[k] for k in ("type", "book", "book_title", "id", "name", "kind",

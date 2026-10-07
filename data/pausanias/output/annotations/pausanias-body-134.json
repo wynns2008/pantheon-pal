@@ -1,0 +1,293 @@
+{
+ "section_id": "pausanias-body-134",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 7953,
+  "output": 2720
+ },
+ "result": {
+  "summary": "The Messenians, driven from Naupactus after Athens' defeat, scatter to Sicily and Libya, where dreams foretell their return. After Leuctra the Thebans recall them, and Epaminondas is guided by a vision and an ancient buried tin scroll of the Great Goddesses' mysteries to refound Messene.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "Messenians exiled from Naupactus",
+    "summary": "Messenian hostility to Sparta grows; they help Athens, then are driven from Naupactus and scatter to Sicily and Libya under Comon.",
+    "stakes": "The Messenians risk losing their refuge and remaining homeless exiles.",
+    "present": [
+     "Comon"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Naupactus",
+     "modern_name": "Nafpaktos",
+     "certainty": "real",
+     "lat": 38.39,
+     "lon": 21.83
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 10,
+    "title": "Dreams foretell the return",
+    "summary": "A priest of Hercules and Comon have dreams that foretell Messene's revival, and Leuctra brings the fated disaster to Sparta.",
+    "stakes": "Comon's people hope to escape permanent exile.",
+    "present": [
+     "Comon",
+     "Hercules",
+     "Aristodemus"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Euesperitæ in Libya",
+     "modern_name": "Benghazi",
+     "certainty": "real",
+     "lat": 32.12,
+     "lon": 20.07
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 16,
+    "title": "Epaminondas' vision",
+    "summary": "The Thebans recall the Messenians. Epaminondas, unsure where to build, is told in a vision to restore them.",
+    "stakes": "Epaminondas must choose a site to check Sparta, and the Messenians must avoid unlucky places.",
+    "present": [
+     "Epaminondas",
+     "Epiteles"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Thebes",
+     "modern_name": "Thebes",
+     "certainty": "real",
+     "lat": 38.32,
+     "lon": 23.32
+    }
+   },
+   {
+    "start_sentence": 17,
+    "end_sentence": 21,
+    "title": "The bronze urn at Ithome",
+    "summary": "Epiteles digs up a bronze urn holding a tin scroll of the Great Goddesses' mysteries, buried by Aristomenes. The dreamer was Caucon.",
+    "stakes": "The lost sacred rites could stay buried and Messene unrefounded.",
+    "present": [
+     "Epiteles",
+     "Epaminondas",
+     "Caucon",
+     "Aristomenes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Ithome",
+     "modern_name": "Mount Ithome, Messenia",
+     "certainty": "real",
+     "lat": 37.18,
+     "lon": 21.92
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Comon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian general at Sphacteria who led exiles to Libya"
+   },
+   {
+    "name": "Epaminondas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Theban leader who restores the Messenians"
+   },
+   {
+    "name": "Epiteles",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Son of Æschines, Argive general and restorer of Messene"
+   },
+   {
+    "name": "Æschines",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Epiteles"
+   },
+   {
+    "name": "Aristodemus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian king who received an oracle"
+   },
+   {
+    "name": "Aristomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Messenian who buried the tin scroll"
+   },
+   {
+    "name": "Hercules",
+    "aliases": [
+     "Hercules Manticlus"
+    ],
+    "kind": "god",
+    "description": "Hero-god seen in a dream invited to Ithome"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [],
+    "kind": "god",
+    "description": "God who invites Hercules to Ithome in the dream"
+   },
+   {
+    "name": "Caucon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Man from Athens who appeared in the dreams"
+   },
+   {
+    "name": "Messene",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Daughter of Triopas"
+   },
+   {
+    "name": "Triopas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Father of Messene"
+   },
+   {
+    "name": "Castor",
+    "aliases": [],
+    "kind": "god",
+    "description": "One of the Dioscuri, whose wrath is appeased"
+   },
+   {
+    "name": "Pollux",
+    "aliases": [],
+    "kind": "god",
+    "description": "One of the Dioscuri, whose wrath is appeased"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Triopas",
+    "relation": "parent_of",
+    "b": "Messene",
+    "source": "text",
+    "evidence_sentence": 21
+   },
+   {
+    "a": "Æschines",
+    "relation": "parent_of",
+    "b": "Epiteles",
+    "source": "text",
+    "evidence_sentence": 16
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 9,
+    "reason": "The oracle's closing line on fate, applied to both Messenia and Sparta.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Fate and reversal: Sparta's fall at Leuctra mirrors Messenia's earlier misfortune, and dreams and oracles guide the restoration.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "The refounding of Messene in 369 BC by Thebes was meant to weaken Sparta by freeing the helots of Messenia.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [],
+  "language_notes": [
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Sphacteria (425 BC): Spartan hoplites were trapped on this island off Pylos and surrendered to Athens, with Messenian help from Naupactus.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "allusion",
+    "text": "Ægos-potamoi (405 BC) was where Sparta destroyed the Athenian fleet, ending the Peloponnesian War in Sparta's favour.",
+    "spoiler": false
+   },
+   {
+    "sentence": 5,
+    "kind": "word",
+    "text": "Manticlus is a title of Hercules, said to recall Manticlus, founder of Messene on the Sicilian strait (Zancle). Zeus is the Greek form of Jove.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "kind": "phrasing",
+    "text": "The oracle's line means misfortune takes its turn with every people; Messenian suffering would later be matched by Sparta's.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "allusion",
+    "text": "Castor and Pollux, the Dioscuri, were angered at the Messenians through the old quarrel at the Messenian-Spartan border, which led to war.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "phrasing",
+    "text": "The 'old woman' in a brass coffin is a dream image for the buried urn; the riddling form hides what is to be found.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "phrasing",
+    "text": "'Rolled up like a book' means a scroll, as ancient books were rolls, here of thin tin.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Leuctra (371 BC): Thebes under Epaminondas crushed Sparta, ending Spartan dominance and making Messenian liberation possible.",
+    "spoiler": false
+   },
+   {
+    "sentence": 13,
+    "text": "Epaminondas was the Theban general and statesman who founded Messene in 369 BC to hem in Sparta.",
+    "spoiler": false
+   },
+   {
+    "sentence": 20,
+    "text": "The Great Goddesses are Demeter and Persephone, honoured in the mysteries at Andania. Aristomenes was the Messenian hero of the Second Messenian War.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 6,
+    "device": "symbolism",
+    "text": "The mother's death and return to life symbolizes the fatherland, Messene, dead and reborn.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "irony",
+    "text": "Fate's reversal is ironic: Sparta, once the conqueror, suffers the same helpless doom it imposed on the Messenians.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "foreshadowing",
+    "text": "The promise of fame beyond death hints at Epaminondas's glory and his coming death in battle.",
+    "spoiler": false
+   }
+  ]
+ }
+}

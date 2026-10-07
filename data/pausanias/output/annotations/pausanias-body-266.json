@@ -1,0 +1,458 @@
+{
+ "section_id": "pausanias-body-266",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 10174,
+  "output": 4176
+ },
+ "result": {
+  "summary": "Pausanias describes the cave of Black Demeter on Mount Elaion near Phigalia, telling how Demeter hid there in grief until Pan was found to have seen her. He recounts the burning of the old wooden statue, the famine, the Pythian oracle, and the bronze statue by Onatas, which was later destroyed by falling stones.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 5,
+    "title": "Demeter hides in the cave",
+    "summary": "The Phigalians tell how Demeter, angry at Poseidon and grieving for Proserpine, hid in the cave in black until Pan revealed her and the Fates reconciled her.",
+    "stakes": "Mankind faces famine while Demeter's anger and grief blight the fruits of the earth.",
+    "present": [
+     "Demeter",
+     "Poseidon",
+     "Pan",
+     "Zeus",
+     "Despœna",
+     "Proserpine"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Mount Elaion",
+     "modern_name": "Mount Elaion near Phigalia, Arcadia",
+     "certainty": "traditional",
+     "lat": 37.4,
+     "lon": 21.85
+    }
+   },
+   {
+    "start_sentence": 6,
+    "end_sentence": 10,
+    "title": "The old wooden statue",
+    "summary": "Pausanias describes the wooden statue with a mare's head, dolphin and dove, and explains the name Black Demeter.",
+    "stakes": "",
+    "present": [
+     "Demeter"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cave of Black Demeter",
+     "modern_name": "Near Phigalia, Arcadia",
+     "certainty": "traditional",
+     "lat": 37.4,
+     "lon": 21.85
+    }
+   },
+   {
+    "start_sentence": 11,
+    "end_sentence": 17,
+    "title": "Famine and the oracle",
+    "summary": "After the statue burned, the neglected goddess brought dearth. The Pythian priestess told the Phigalians to propitiate her, so they hired Onatas to make a bronze statue.",
+    "stakes": "The Phigalians face famine and the oracle's threat that they will eat their own children.",
+    "present": [
+     "Onatas",
+     "Mico",
+     "Demeter"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "Phigalia",
+     "modern_name": "Phigalia, Arcadia",
+     "certainty": "real",
+     "lat": 37.39,
+     "lon": 21.85
+    }
+   },
+   {
+    "start_sentence": 18,
+    "end_sentence": 24,
+    "title": "Dating Onatas",
+    "summary": "Pausanias dates Onatas through the Syracusan offerings at Olympia made for Hiero and inscribed with his name.",
+    "stakes": "",
+    "present": [
+     "Onatas",
+     "Hiero",
+     "Dinomenes",
+     "Gelon",
+     "Xerxes"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Olympia",
+     "modern_name": "Olympia",
+     "certainty": "real",
+     "lat": 37.64,
+     "lon": 21.63
+    }
+   },
+   {
+    "start_sentence": 25,
+    "end_sentence": 29,
+    "title": "Pausanias's visit and sacrifice",
+    "summary": "Pausanias sacrifices at the cave in the local manner and reports that the Onatas statue was crushed by falling roof stones.",
+    "stakes": "",
+    "present": [
+     "Pausanias",
+     "Onatas"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Cave of Black Demeter",
+     "modern_name": "Near Phigalia, Arcadia",
+     "certainty": "traditional",
+     "lat": 37.4,
+     "lon": 21.85
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Demeter",
+    "aliases": [
+     "Black Demeter"
+    ],
+    "kind": "goddess",
+    "description": "goddess of corn who hid in the cave in mourning"
+   },
+   {
+    "name": "Poseidon",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who had a union with Demeter"
+   },
+   {
+    "name": "Despœna",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Arcadian name of Demeter's daughter by Poseidon"
+   },
+   {
+    "name": "Proserpine",
+    "aliases": [],
+    "kind": "goddess",
+    "description": "Demeter's daughter who was carried off"
+   },
+   {
+    "name": "Pan",
+    "aliases": [],
+    "kind": "god",
+    "description": "god who saw Demeter on Mount Elaion"
+   },
+   {
+    "name": "Zeus",
+    "aliases": [
+     "Olympian Zeus"
+    ],
+    "kind": "god",
+    "description": "king of gods who sent the Fates to Demeter"
+   },
+   {
+    "name": "Onatas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Aeginetan sculptor, son of Mico"
+   },
+   {
+    "name": "Mico",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "father of Onatas"
+   },
+   {
+    "name": "Hiero",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Syracuse who vowed offerings"
+   },
+   {
+    "name": "Gelon",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler of Syracuse, son of Dinomenes"
+   },
+   {
+    "name": "Dinomenes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Hiero who gave the offerings; also father of Gelon"
+   },
+   {
+    "name": "Xerxes",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Persian king who invaded Europe"
+   },
+   {
+    "name": "Hegias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Athenian sculptor, contemporary of Onatas"
+   },
+   {
+    "name": "Ageladas",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "Argive sculptor, contemporary of Onatas"
+   },
+   {
+    "name": "Pausanias",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "the author, who visited and sacrificed"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Despœna",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Poseidon",
+    "relation": "parent_of",
+    "b": "Despœna",
+    "source": "text",
+    "evidence_sentence": 2
+   },
+   {
+    "a": "Demeter",
+    "relation": "parent_of",
+    "b": "Proserpine",
+    "source": "text",
+    "evidence_sentence": 3
+   },
+   {
+    "a": "Mico",
+    "relation": "parent_of",
+    "b": "Onatas",
+    "source": "text",
+    "evidence_sentence": 15
+   },
+   {
+    "a": "Dinomenes",
+    "relation": "parent_of",
+    "b": "Gelon",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Gelon",
+    "relation": "sibling_of",
+    "b": "Hiero",
+    "source": "text",
+    "evidence_sentence": 19
+   },
+   {
+    "a": "Hiero",
+    "relation": "parent_of",
+    "b": "Dinomenes",
+    "source": "text",
+    "evidence_sentence": 21
+   }
+  ],
+  "alias_notes": [
+   {
+    "alias": "Black Demeter",
+    "canonical": "Demeter",
+    "explanation": "Title from the goddess's black dress at the Phigalian cave."
+   }
+  ],
+  "notable_quotes": [
+   {
+    "sentence": 12,
+    "reason": "The Pythian oracle's opening address, rebuking the Arcadians as acorn-eating Azanes.",
+    "spoiler": false
+   },
+   {
+    "sentence": 23,
+    "reason": "Onatas's signature inscription, evidence for dating the sculptor.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "Neglect of the gods brings famine; restored honour brings relief. The myth explains the cult's strange image and offerings.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias uses inscriptions and the Syracusan tyrants' dedications to date an artist, showing his antiquarian method.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [],
+  "fun_facts": [
+   {
+    "text": "Pausanias says the offerings were bloodless: fruits, honeycombs and unworked greasy wool, with oil poured over them.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of length, roughly 180–200 metres, so 30 stades is a little under 6 kilometres.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "allusion",
+    "text": "Refers to the earlier story, told for Thelpusa, of Poseidon pursuing Demeter, who took the form of a mare; he became a stallion and mated with her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 2,
+    "kind": "word",
+    "text": "Despœna means 'the Mistress'; Arcadians used it as a title for a goddess, daughter of Demeter, whose real name was kept secret.",
+    "spoiler": false
+   },
+   {
+    "sentence": 3,
+    "kind": "allusion",
+    "text": "The rape of Proserpine (Persephone) by Hades is the myth that explains Demeter's grief and search for her daughter.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "The Fates (Moirai) are the goddesses who assign each being its portion of destiny; here they carry Zeus's message.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "word",
+    "text": "Azanes is an old name for a group of Arcadian peoples; 'Nomads' here means pasture-feeders, wandering herdsmen.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "kind": "allusion",
+    "text": "'Acorn-eating' recalls the Arcadian tradition that early people lived on acorns before learning agriculture.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "kind": "word",
+    "text": "'Brazen' means made of bronze.",
+    "spoiler": false
+   },
+   {
+    "sentence": 17,
+    "kind": "allusion",
+    "text": "The Persian invasion of Greece (480–479 BC) dates the statue to roughly the generation afterward.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "kind": "allusion",
+    "text": "Xerxes' invasion of Greece in 480 BC fixes the date; Gelon and Hiero were Sicilian tyrants, so the offerings fall in the early to mid fifth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 21,
+    "kind": "phrasing",
+    "text": "\"Single horse\" means the single-horse race (the ridden race), as opposed to the four-horse chariot race.",
+    "spoiler": false
+   },
+   {
+    "sentence": 24,
+    "kind": "allusion",
+    "text": "Hegias (Hegesias) of Athens and Ageladas of Argos were famous early fifth-century sculptors, so Onatas is placed among them by date.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "kind": "phrasing",
+    "text": "\"Unworked state with all its grease still on it\" means raw, unwashed fleece, still carrying its natural lanolin.",
+    "spoiler": false
+   },
+   {
+    "sentence": 27,
+    "kind": "word",
+    "text": "\"Sacrificing Priests\" translates a Phigalian title for three citizens who assisted in the cult; the youngest serves with the priestess.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "kind": "phrasing",
+    "text": "\"3 generations before his time\" means roughly a century or so before Pausanias' visit, going by the old man's account.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Pan is the goat-footed Arcadian god of shepherds and wild places, so it fits that he alone knows the mountains well enough to find her.",
+    "spoiler": false
+   },
+   {
+    "sentence": 11,
+    "text": "The Pythian Priestess was the Pythia, the priestess of Apollo at Delphi, whom Greek states consulted in crises such as famine.",
+    "spoiler": false
+   },
+   {
+    "sentence": 15,
+    "text": "Onatas of Ægina was a celebrated bronze sculptor of the early fifth century BC.",
+    "spoiler": false
+   },
+   {
+    "sentence": 19,
+    "text": "Hiero ruled Syracuse after his brother Gelon, and his horses won at Olympia, which is why the Syracusan family dedicated offerings there.",
+    "spoiler": false
+   },
+   {
+    "sentence": 25,
+    "text": "This Demeter was the black-robed, horse-headed goddess of the cave near Phigalia in Arcadia, which Pausanias describes earlier in this chapter. Her offerings were bloodless.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 4,
+    "device": "Personification",
+    "text": "The earth's fruits wither because of Demeter's grief, tying the goddess's emotions directly to the fertility of the land.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "Symbolism",
+    "text": "The black dress signifies mourning and anger, and gives the goddess her cult title.",
+    "spoiler": false
+   },
+   {
+    "sentence": 12,
+    "device": "Irony",
+    "text": "The oracle reminds the Phigalians that Demeter gave them agriculture, making their neglect of her ungrateful and their famine fitting.",
+    "spoiler": false
+   },
+   {
+    "sentence": 14,
+    "device": "Hyperbole",
+    "text": "The threat that they will eat their own children dramatizes how severe the punishment for neglect could become.",
+    "spoiler": false
+   },
+   {
+    "sentence": 18,
+    "device": "Narrative voice",
+    "text": "Pausanias flags his argument openly, in the manner of a scholar presenting evidence, which shapes the digression into a proof.",
+    "spoiler": false
+   },
+   {
+    "sentence": 29,
+    "device": "Narrative voice",
+    "text": "Pausanias acts as a traveller-investigator, weighing oral testimony from the oldest local against visible evidence in the roof, which lends the loss of the statue credibility.",
+    "spoiler": false
+   }
+  ]
+ }
+}

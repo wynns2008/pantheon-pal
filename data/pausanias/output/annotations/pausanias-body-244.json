@@ -1,0 +1,215 @@
+{
+ "section_id": "pausanias-body-244",
+ "model": "claude-sonnet-5-5",
+ "schema": 6,
+ "usage": {
+  "input": 6328,
+  "output": 2089
+ },
+ "result": {
+  "summary": "Pausanias describes the springs of the river Ladon in Arcadia, noting a report that they are fed from the marsh at Pheneus. He then recounts the Arcadian and Elean story of Leucippus, who disguised himself as a girl to win Daphne and was killed when his sex was discovered.",
+  "scenes": [
+   {
+    "start_sentence": 0,
+    "end_sentence": 3,
+    "title": "The springs of the Ladon",
+    "summary": "Pausanias travels about 50 stades from Lycuria to the springs of the Ladon. He doubts the report that the water comes from the Pheneus marsh, and praises the river's beauty.",
+    "stakes": "",
+    "present": [
+     "Ladon"
+    ],
+    "told_as_story": false,
+    "place": {
+     "name": "Springs of the river Ladon",
+     "modern_name": "Ladon river, Arcadia",
+     "certainty": "real",
+     "lat": 37.75,
+     "lon": 22.0
+    }
+   },
+   {
+    "start_sentence": 4,
+    "end_sentence": 10,
+    "title": "Leucippus disguised for Daphne",
+    "summary": "Leucippus, son of Oenomaus, dresses as a girl to win Daphne's friendship. Apollo, jealous, is said to have caused his exposure, and the maidens killed him when he was found out while bathing in the Ladon.",
+    "stakes": "Leucippus risks his life by deceiving Daphne and her companions.",
+    "present": [
+     "Leucippus",
+     "Daphne",
+     "Œnomaus",
+     "Apollo"
+    ],
+    "told_as_story": true,
+    "place": {
+     "name": "River Ladon",
+     "modern_name": "Ladon river, Arcadia",
+     "certainty": "traditional",
+     "lat": 37.75,
+     "lon": 22.0
+    }
+   }
+  ],
+  "characters": [
+   {
+    "name": "Ladon",
+    "aliases": [],
+    "kind": "other",
+    "description": "Arcadian river with the most beautiful stream in Greece, in whose waters the maidens bathed"
+   },
+   {
+    "name": "Daphne",
+    "aliases": [],
+    "kind": "nymph",
+    "description": "huntress who disliked all males, loved by Leucippus and Apollo"
+   },
+   {
+    "name": "Leucippus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "son of Oenomaus who disguised himself as a girl to win Daphne"
+   },
+   {
+    "name": "Œnomaus",
+    "aliases": [],
+    "kind": "mortal",
+    "description": "ruler at Pisa, father of Leucippus"
+   },
+   {
+    "name": "Apollo",
+    "aliases": [],
+    "kind": "god",
+    "description": "god said to love Daphne and be jealous of Leucippus"
+   }
+  ],
+  "relationships": [
+   {
+    "a": "Œnomaus",
+    "relation": "parent_of",
+    "b": "Leucippus",
+    "source": "text",
+    "evidence_sentence": 4
+   },
+   {
+    "a": "Apollo",
+    "relation": "lover_of",
+    "b": "Daphne",
+    "source": "text",
+    "evidence_sentence": 8
+   },
+   {
+    "a": "Leucippus",
+    "relation": "lover_of",
+    "b": "Daphne",
+    "source": "text",
+    "evidence_sentence": 4
+   }
+  ],
+  "alias_notes": [],
+  "notable_quotes": [
+   {
+    "sentence": 6,
+    "reason": "Vivid image of Leucippus's disguise, with hair grown long and dressed as a girl.",
+    "spoiler": false
+   }
+  ],
+  "analysis": [
+   {
+    "kind": "theme",
+    "text": "The passage ties a landscape feature to myth, showing Pausanias's habit of pairing local geography with traditional stories while stating his doubts.",
+    "spoiler": false
+   },
+   {
+    "kind": "historical",
+    "text": "Pausanias notes rival local traditions about Daphne, Arcadian and Elean versus those along the Orontes, showing how myths varied by region.",
+    "spoiler": false
+   }
+  ],
+  "legacy": [
+   {
+    "kind": "history",
+    "text": "The Leucippus and Daphne tale is a variant of the Daphne myth later retold in Ovid-style tradition with Apollo pursuing her, and by Parthenius and others."
+   }
+  ],
+  "fun_facts": [
+   {
+    "text": "Pausanias repeats the report that the Pheneus marsh water reappears at the Ladon springs but declines to confirm it, a common feature of Greek underground-drainage (karst) lore.",
+    "spoiler": false
+   }
+  ],
+  "language_notes": [
+   {
+    "sentence": 0,
+    "kind": "word",
+    "text": "A stade was a Greek unit of about 600 feet (roughly 180 metres), so 50 stades is about six miles.",
+    "spoiler": false
+   },
+   {
+    "sentence": 1,
+    "kind": "phrasing",
+    "text": "Pausanias reports an underground-channel theory: water swallowed by pits (katavothra) in the mountains is said to resurface elsewhere, a common feature of Arcadia's limestone terrain.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "allusion",
+    "text": "The Orontes is a Syrian river; Antioch's Daphne story differs, with Daphne turned into a laurel, a version Pausanias declines to retell.",
+    "spoiler": false
+   },
+   {
+    "sentence": 4,
+    "kind": "word",
+    "text": "'Enamoured' means in love; 'hotly wooed' means ardently courted.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "kind": "phrasing",
+    "text": "Growing hair 'to the Alpheus' means he dedicated it to the river Alpheus, a custom of youths; here he instead uses it to pass as a girl.",
+    "spoiler": false
+   }
+  ],
+  "context_notes": [
+   {
+    "sentence": 4,
+    "text": "Œnomaus, king of Pisa in Elis, is known for killing suitors of his daughter Hippodamia in chariot races; Leucippus is his son here.",
+    "spoiler": false
+   },
+   {
+    "sentence": 8,
+    "text": "Apollo was the god pursuing Daphne in the better-known myth, which ends with her becoming a laurel tree; here he is a jealous rival.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "text": "Daphne and her companions are huntresses devoted to chastity, like followers of Artemis, which explains their violent reaction to a male intruder.",
+    "spoiler": false
+   }
+  ],
+  "literary_notes": [
+   {
+    "sentence": 3,
+    "device": "narrative voice",
+    "text": "Pausanias speaks as a travelling observer, mixing personal aesthetic judgement with poetic fame to introduce the river's legend.",
+    "spoiler": false
+   },
+   {
+    "sentence": 6,
+    "device": "irony",
+    "text": "A suitor wins a man-hating girl's trust by disguising himself as a woman, turning her aversion into the means of intimacy.",
+    "spoiler": false
+   },
+   {
+    "sentence": 9,
+    "device": "irony",
+    "text": "The river bath meant to deepen friendship becomes the moment of exposure; the intimacy he gained leads directly to his death.",
+    "spoiler": false
+   },
+   {
+    "sentence": 10,
+    "device": "narrative voice",
+    "text": "The curt closing formula distances Pausanias from the tale, signalling that he reports tradition without vouching for it.",
+    "spoiler": false
+   }
+  ]
+ }
+}
