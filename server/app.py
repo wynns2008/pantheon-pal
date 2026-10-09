@@ -172,7 +172,11 @@ def entries() -> list[dict]:
                 continue
             url = next((pages[q]["url"] for q in p.get("wikidata", []) if pages.get(q, {}).get("url")), "")
             links += [(len(found), ("person", e)) for e in (url, beings.get((slug, p["id"]))) if e]
+            # The same Wikidata entry is the same being. A relative brought in from another book (annotate.merge)
+            # joins by it, so its profile can say where it is told of; it is never itself listed as in this book.
+            links += [(len(found), ("person", "q:" + q)) for q in p.get("wikidata", [])]
             found.append({"type": "person", "book": slug, "book_title": title, "id": p["id"], "name": p["name"],
+                          "imported": bool(p.get("from_library")),
                           # epithets too, so "son of Latona" finds Apollo
                           "names": [p["name"], *p["aliases"], *p.get("epithets", [])], "kind": p["kind"], "weight": p["section_count"],
                           "about": p["about"] or (p["descriptions"][0]["text"] if p["descriptions"] else "")})
@@ -227,7 +231,8 @@ def search(q: str, book: str = ""):
         return []
     groups: dict[int, list] = {}
     for e in entries():
-        groups.setdefault(e["key"], []).append(e)
+        if not e.get("imported"):
+            groups.setdefault(e["key"], []).append(e)
     found = []
     for members in groups.values():
         hits = [(0 if norm(n).startswith(key) else 1 if f" {key}" in f" {norm(n)}" else 2, n, e)
@@ -248,7 +253,7 @@ def get_elsewhere(slug: str, type: str, id: str):
     mine = next((e for e in entries() if e["book"] == slug and e["type"] == type and e["id"] == id), None)
     if mine is None:
         return []
-    return [entry_row(e) for e in entries() if e["key"] == mine["key"] and e is not mine]
+    return [entry_row(e) for e in entries() if e["key"] == mine["key"] and e is not mine and not e.get("imported")]
 
 
 @app.get("/api/books/{slug}/sections")
@@ -433,7 +438,7 @@ def get_references(slug: str, person_id: str):
             if norm(name) in names:
                 here += [{"section": m["section"], "title": titles.get(m["section"], ""), "what": m["what"],
                           "scene": first_scene(present, m["section"])} for m in listed]
-    elsewhere = []
+    elsewhere, elsewhere_scenes = [], []
     library = DATA / "library.json"
     if library.exists():
         for being in json.loads(library.read_text(encoding="utf-8"))["beings"]:
@@ -442,10 +447,17 @@ def get_references(slug: str, person_id: str):
                 for member in being["members"]:
                     other = next((p for p in load_tree(member["book"])["people"] if p["id"] == member["id"]), None)
                     there[member["book"]] = scenes_with(member["book"], other) if other and member["book"] != slug else []
+                    # Every such scene, not only the key moments: Ovid's Bacchus with Pentheus and with Ariadne.
+                    if there[member["book"]]:
+                        other_titles = {s["id"]: " › ".join(s["path"]) for s in load(member["book"])["sections"]}
+                        elsewhere_scenes += [{"book": member["book"], "book_title": short_title(member["book"]),
+                                              "name": member["name"], "section": sc["section"], "scene": sc["scene"],
+                                              "title": other_titles.get(sc["section"], ""), "scene_title": sc["title"]}
+                                             for sc in there[member["book"]]]
                 elsewhere = [{**m, "book_title": short_title(m["book"]), "scene": first_scene(there.get(m["book"], []), m["section"])}
                              for m in being["moments"] if m["book"] != slug]
                 break
-    return {"here": here, "elsewhere": elsewhere,
+    return {"here": here, "elsewhere": elsewhere, "elsewhere_scenes": elsewhere_scenes,
             "scenes": [{"section": sc["section"], "scene": sc["scene"], "title": titles.get(sc["section"], ""),
                         "scene_title": sc["title"]} for sc in present]}
 
@@ -560,6 +572,6 @@ def get_tree(slug: str, upto: str | None = None, spoilers: bool = True, outside:
         "position": upto, "spoilers": spoilers, "hidden": hidden, "current": here,
         "people": [person(p) for p in people.values()], "others": [person(p) for p in others],
         "relationships": [{"a": e["a"], "relation": e["relation"], "b": e["b"], "source": e["source"], "note": e["note"],
-                           "first_section": e["first_section"],
+                           "first_section": e["first_section"], "confirmed": bool(e.get("confirmed")), "from_books": e.get("from_books"),
                            "evidence": [v for v in e["evidence"] if order[v["section"]] <= pos]} for e in links],
     }

@@ -37,7 +37,13 @@ USER_AGENT = "PantheonPal/0.1 (personal reading companion; Python urllib)"
 PAUSE = 1.5                 # seconds between requests; Wikipedia answers "429 Too Many Requests" to anything faster
 LEAD_SENTENCES = 2         # sentences of a character's article shown as their description
 # Brackets left empty where Wikipedia's text had a pronunciation the plain-text extract drops: "Aphrodite ( ) is"
-EMPTY_BRACKETS = re.compile(r"\s*\(\s*[,;]?\s*\)")
+EMPTY_BRACKETS = re.compile(r"\s*\(\s*(?:or\s*)?[,;]?\s*\)")
+# What is left of a bracket once Wikipedia's pronunciation is cut out: "Bacchus ( or ; Ancient Greek: ...)".
+BRACKET_LEFTOVER = re.compile(r"\(\s*(?:or\s*)?[,;]\s*")
+
+
+def tidy(lead: str) -> str:
+    return " ".join(BRACKET_LEFTOVER.sub("(", EMPTY_BRACKETS.sub("", lead)).split())
 EXCERPT = 900               # characters kept from each section, cut at the end of a sentence
 NUMBERED = re.compile(r"^(?:Book|Chapter|Part|Canto|Act|Volume|Letter|Stave|Section|Fable)s?\s+\d", re.I)
 BOOKS = re.compile(r"\bbooks?\s+(\d+)(?:\s*(?:[-–—]|to|and)\s*(\d+))?", re.I)
@@ -130,7 +136,7 @@ def article(title: str) -> dict | None:
     parts = re.split(r"^(==+)\s*(.+?)\s*==+\s*$", page["extract"], flags=re.M)      # [lead, level, heading, text, ...]
     # The opening sentence usually carries a bracket of pronunciations and foreign spellings; leave it out.
     lead = re.sub(r"\s*\((?=[^()]*(?:;|[^\x00-\x7f]))(?:[^()]|\([^()]*\))*\)", "", parts[0], count=1)
-    found = {"title": name, "url": url, "lead": excerpt(EMPTY_BRACKETS.sub("", lead)), "synopsis": [], "summaries": [], "themes": [], "history": [],
+    found = {"title": name, "url": url, "lead": excerpt(tidy(lead)), "synopsis": [], "summaries": [], "themes": [], "history": [],
              "primary": [], "secondary": [], "tertiary": [], "paragraphs": []}
     above: list[str] = []                 # the headings this one sits under, outermost first
     for level, heading, text in zip(parts[1::3], parts[2::3], parts[3::3]):
@@ -243,7 +249,7 @@ def character_pages(slug: str) -> dict[str, dict]:
                 title = renamed[title]
             if title in by_title and page.get("extract"):
                 lead = re.sub(r"\s*\((?=[^()]*(?:;|[^\x00-\x7f]))(?:[^()]|\([^()]*\))*\)", "", page["extract"], count=1)
-                pages[by_title[title]]["lead"] = " ".join(EMPTY_BRACKETS.sub("", lead).split())
+                pages[by_title[title]]["lead"] = tidy(lead)
     return pages
 
 

@@ -52,6 +52,7 @@ SYMMETRIC = {"spouse_of", "sibling_of", "lover_of"}
 RELATIONS = SYMMETRIC | {"parent_of", "transformed_into"}
 # The model sometimes writes "invalid" or "incorrect" in the note of a link it has just given; drop those.
 BAD_NOTE_WORDS = ("invalid", "incorrect", "mistake", "error")
+LOVER_NOTE = re.compile(r"\blover\b|not (a |the )?(formal )?(marriage|wife|husband)|\bconsort, not\b", re.I)
 GENERIC = {"father", "mother", "son", "daughter", "god", "goddess", "gods", "goddesses", "king", "queen", "lord",
            "lady", "hero", "nymph", "nymphs", "maiden", "youth", "man", "woman", "men", "women", "mortal",
            "mortals", "brother", "sister", "wife", "husband", "he", "she", "the"}
@@ -161,11 +162,12 @@ def apply_namesakes(out_dir: Path, annotations: dict[str, dict]) -> None:
     """Different people who share a name (python -m annotate.namesakes): in the annotations ({section id: result}),
     each section's entry for such a name takes the name of the person it is ("Ptolemy, son of Lagus"), and the shared
     name no longer joins anyone. Changed in place; nothing happens if the book has no namesakes.json."""
-    names_file = out_dir / "namesakes.json"
-    if not names_file.exists():
+    # Splits made by hand (curated/namesakes.json, same layout) are added to the step's own, and survive a re-run of it.
+    files = [f for f in (out_dir / "namesakes.json", out_dir.parent / "curated" / "namesakes.json") if f.exists()]
+    if not files:
         return
     renamed, shared = {}, set()
-    for s in json.loads(names_file.read_text(encoding="utf-8"))["split"]:
+    for s in [s for f in files for s in json.loads(f.read_text(encoding="utf-8"))["split"]]:
         for g in s["groups"]:
             for sid, name in g["entries"]:
                 renamed[(sid, norm(name))] = g["name"]
@@ -186,7 +188,7 @@ def slugify(name: str) -> str:
     return re.sub(r"\s+", "-", norm(name)) or "unnamed"
 
 
-def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
+def merge(slug: str, root: Path = ROOT, review: bool = True, theoi: bool = True, library: bool = True) -> dict:
     out_dir = root / "data" / slug / "output"
     sections = [s for s in json.loads((out_dir / "sections.json").read_text(encoding="utf-8"))["sections"]
                 if s["category"] == "body"]
@@ -247,6 +249,14 @@ def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
     wd = json.loads(wd_file.read_text(encoding="utf-8")) if wd_file.exists() else {"names": {}, "entities": {}}
     entities = wd["entities"]
     qid_of = {key: n["qid"] for key, n in wd["names"].items() if n["qid"] and n["confidence"] == "high"}
+    # Matches set by hand ("wikidata" in curated/aliases.json: {name: qid}), for a name the Wikidata step did not see,
+    # such as one a namesake split made up ("Menoetius, father of Patroclus").
+    # A null drops a wrong match (Pausanias' Clymenes are not the Oceanid).
+    for name, qid in curated.get("wikidata", {}).items():
+        if qid:
+            qid_of[norm(name)] = qid
+        else:
+            qid_of.pop(norm(name), None)
 
     def blocked(pair) -> bool:
         ra, rb = (groups.find(x) for x in pair)
@@ -357,7 +367,33 @@ def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
             continue
         if r["relation"] in SYMMETRIC and a > b:
             a, b = b, a
-        edges.setdefault((a, r["relation"], b), {"source": "outside", "first": None, "evidence": [], "note": r["note"]})
+        # The outside step sometimes files a love affair as a marriage while its own note says otherwise ("Koronis
+        # was his lover", "Consort, not formal wife"), or for a pair the book itself calls lovers: those are lovers.
+        rel = r["relation"]
+        if rel == "spouse_of" and (LOVER_NOTE.search(r["note"]) or (a, "lover_of", b) in edges):
+            rel = "lover_of"
+        edges.setdefault((a, rel, b), {"source": "outside", "first": None, "evidence": [], "note": r["note"]})
+
+    # Wrong links the reader has marked for removal (spouse/sibling/lover links match in either order). They go first,
+    # so a hand addition is never refused, nor a third parent trimmed, because of a link that is about to be removed.
+    # The Wikidata step below never puts one back.
+    removed, struck = 0, set()
+    for a_name, rel, b_name in curated.get("remove", []):
+        a, b = groups.find(norm(a_name)), groups.find(norm(b_name))
+        for key in {(a, rel, b), (b, rel, a)} if rel in SYMMETRIC else {(a, rel, b)}:
+            struck.add(key)
+            if key in edges:
+                del edges[key]
+                removed += 1
+    # So do the links the private family check (kept off the repository) shows to be wrong: a parent
+    # about to be removed must not take the place of a right one when a third parent is trimmed (Melia for Zeus).
+    theoi_file = root / "data" / slug / "curated" / "theoi.json"
+    checked = json.loads(theoi_file.read_text(encoding="utf-8")) if theoi and theoi_file.exists() else {}
+    for a_name, rel, b_name, *_ in checked.get("remove", []):
+        a, b = groups.find(norm(a_name)), groups.find(norm(b_name))
+        for key in {(a, rel, b), (b, rel, a)} if rel in SYMMETRIC else {(a, rel, b)}:
+            struck.add(key)
+            edges.pop(key, None)
 
     # Missing links the reader has supplied. A link that would make someone their own ancestor is refused.
     added, refused = 0, []
@@ -424,7 +460,7 @@ def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
     for qa, qb in sorted(wikidata_parents(set(owner), entities)):
         a, b = owner[qa], owner[qb]
         if (a == b or a in doubtful or b in doubtful or (a, "parent_of", b) in edges or (b, "parent_of", a) in edges
-                or is_ancestor(b, a)):
+                or (a, "parent_of", b) in struck or is_ancestor(b, a)):
             continue
         parents = [pa for (pa, rel, child) in edges if rel == "parent_of" and child == b]
         if len(parents) >= 2 or (sex(a) and any(sex(pa) == sex(a) for pa in parents)):
@@ -457,17 +493,159 @@ def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
             edges[(a, rel, b)] = {"source": "outside", "first": None, "evidence": [],
                                   "note": entry[3] if len(entry) > 3 else "added by hand", "hand": True}
             added += 1
+    # The family the other books of this library tell. Each person of this book gets the parents, children, spouses
+    # and siblings the other books give them (people are matched by Wikidata, as in annotate.library), as outside
+    # links naming the books they come from. Only those books' own links count, not ones they took from a third
+    # book; only one step out (a relative brought in brings none of their own); and never against this book: no link
+    # removed here by hand, no third parent or a second of the same sex, no ancestor loop, and no link kept only for
+    # another book's tradition (Hesiod's Oceanid Calypso is not Homer's).
+    lib_titles, lib_anchor, lib_people = {}, {}, set()
+    all_entities = dict(entities)            # this book's Wikidata entries, and the other books' when they are read
+    if library:
+        decisions = root / "data" / "theoi_decisions.json"
+        kept_for = {(a, b): set(books) for a, b, books in
+                    (json.loads(decisions.read_text(encoding="utf-8")).get("keep", []) if decisions.exists() else [])}
+        # People are matched by the cross-book index (data/library.json, python -m annotate.library), which joins at
+        # most one person per book into each being: Diana is Artemis, not also Selene.
+        lib_file = root / "data" / "library.json"
+        beings = json.loads(lib_file.read_text(encoding="utf-8")).get("beings", []) if lib_file.exists() else []
+        being_of = {(m["book"], m["id"]): i for i, being in enumerate(beings) for m in being["members"]}
+        key_of_being = {i: k for i, being in enumerate(beings) for m in being["members"]
+                        if m["book"] == slug and (k := groups.find(norm(m["name"]))) in people}
+        qid_owner = {q: key for key, qids in sorted(person_qids.items()) for q in qids}
+        # Links Claude's review (python -m annotate.judge) found wrong or a namesake in this book are not brought in
+        # again (unless the family check confirms them): Antigone, Oedipus' daughter, did not marry Peleus.
+        judge_file = root / "data" / "judge.json"
+        judged_out = {x["link"] for v in (json.loads(judge_file.read_text(encoding="utf-8")).values() if judge_file.exists() else [])
+                      if v["book"] == slug for x in v["links"] if x["fix"] == "remove"}
+        shown = lambda key: people[key]["names"].most_common(1)[0][0]
+        parents_of = defaultdict(set)
+        for (a, rel, b) in edges:
+            if rel == "parent_of":
+                parents_of[b].add(a)
+
+        def above(x: str, y: str) -> bool:          # is x already an ancestor of y?
+            stack, seen = [y], set()
+            while stack:
+                node = stack.pop()
+                if node == x:
+                    return True
+                if node not in seen:
+                    seen.add(node)
+                    stack += parents_of.get(node, ())
+            return False
+
+        def lib_sex(key: str) -> str:
+            return next((all_entities[q]["sex"] for q in person_qids.get(key, []) if all_entities.get(q, {}).get("sex")), "")
+
+        for other in sorted((root / "data").glob("*/output/tree.json")):
+            book = other.parent.parent.name
+            if book == slug:
+                continue
+            tree = json.loads(other.read_text(encoding="utf-8"))
+            wd_other = other.parent / "wikidata.json"
+            their = json.loads(wd_other.read_text(encoding="utf-8")).get("entities", {}) if wd_other.exists() else {}
+            all_entities.update(their)
+            secs = other.parent / "sections.json"
+            lib_titles[book] = (json.loads(secs.read_text(encoding="utf-8")).get("title") if secs.exists() else None) or book
+            person = {p["id"]: p for p in tree["people"]}
+
+            def match(p: dict) -> str | None:
+                i = being_of.get((book, p["id"]))
+                if i is not None and i in key_of_being:
+                    return key_of_being[i]
+                # Failing the index, the very same Wikidata entry (Athene here, Athena there) is the same person.
+                return next((qid_owner[q] for q in p.get("wikidata", []) if q in qid_owner), None)
+
+            def bring(p: dict) -> str | None:
+                """This book's person for a relative another book names, or None when a name is all there is to go on:
+                a relative with no Wikidata match could be anyone of that name (Pausanias' Thoas is not the son of
+                Dionysus), and so could this book's unmatched namesake."""
+                key = groups.find(norm(p["name"]))
+                mine, theirs = person_qids.get(key, []), p.get("wikidata", [])
+                if not theirs or (key in people and not mine):
+                    return None
+                if key in people and not any(same_being(x, y, all_entities) for x in mine for y in theirs):
+                    key = f"{norm(p['name'])} {book}"           # someone else of that name is in this book
+                if key not in people:
+                    people[key]["names"][p["name"]] += 0
+                    people[key]["kinds"][p.get("kind") or "other"] += 1
+                    if p.get("about"):
+                        people[key]["about"].append(p["about"])
+                    lib_people.add(key)
+                if p.get("wikidata") and key in lib_people:
+                    person_qids[key] = sorted(set(person_qids.get(key, [])) | set(p["wikidata"]))
+                    for q in p["wikidata"]:
+                        qid_owner.setdefault(q, key)
+                if (i := being_of.get((book, p["id"]))) is not None:
+                    key_of_being.setdefault(i, key)        # the same being from a later book comes to this one
+                return key
+
+            for e in tree["relationships"]:
+                rel = e["relation"]
+                # Only what that book states in its own text, or what the family check confirms: a guess
+                # from Wikidata or the outside step stays in its own book instead of spreading to every other.
+                if rel not in ("parent_of", "spouse_of", "sibling_of", "lover_of") or e.get("from_books") \
+                        or not (e["source"] == "text" or e.get("confirmed") or e.get("theoi")):
+                    continue
+                pa, pb = person[e["a"]], person[e["b"]]
+                if (pa["name"], pb["name"]) in kept_for and slug not in kept_for[(pa["name"], pb["name"])]:
+                    continue
+                ka, kb = match(pa), match(pb)
+                anchored = [k for k in (ka, kb) if k is not None and people[k]["sections"]]
+                if not anchored:
+                    continue
+                ka, kb = ka or bring(pa), kb or bring(pb)
+                if ka is None or kb is None or ka == kb:
+                    continue
+                a, b = (kb, ka) if rel in SYMMETRIC and ka > kb else (ka, kb)
+                if (a, rel, b) in struck or (rel in SYMMETRIC and (b, rel, a) in struck):
+                    continue
+                if not (e.get("confirmed") or e.get("theoi")) and ({f"{shown(a)} {rel} {shown(b)}", f"{shown(b)} {rel} {shown(a)}"} & judged_out):
+                    continue
+                if (a, rel, b) in edges:
+                    if edges[(a, rel, b)].get("from_books") and book not in edges[(a, rel, b)]["from_books"]:
+                        edges[(a, rel, b)]["from_books"].append(book)
+                    continue
+                if rel == "parent_of":
+                    if (b, rel, a) in edges or above(b, a) or b in doubtful or len(parents_of[b]) >= 2 \
+                            or (lib_sex(a) and any(lib_sex(x) == lib_sex(a) for x in parents_of[b])):
+                        continue
+                    parents_of[b].add(a)
+                edges[(a, rel, b)] = {"source": "outside", "first": None, "evidence": [], "from_books": [book]}
+                for k in (a, b):
+                    if k in lib_people:
+                        lib_anchor.setdefault(k, anchored[0])
+        for e in edges.values():
+            if e.get("from_books"):
+                e["note"] = "From " + ", ".join(lib_titles[b] for b in e["from_books"])
+        for key in lib_people - {end for (a, _, b) in edges for end in (a, b)}:   # brought in, then no link kept
+            del people[key]
+            person_qids.pop(key, None)
+            lib_anchor.pop(key, None)
+        lib_people &= set(people)
+
     # Nobody gets a third parent from outside the book. The outside layer and Wikidata can each name a parent under a
     # different name or from a different tradition (Ops and Cybele for Juno): links the book states always stay, then
-    # links added by hand, then those that Wikidata confirms.
+    # links added by hand, then those that Wikidata confirms. A parent of a sex the child has none of yet still comes
+    # in: where the book names two mothers (Leda and Nemesis for Helen), the father (Zeus) is not a third of a kind.
+    def parent_sex(key: str) -> str:
+        return next((all_entities[q]["sex"] for q in person_qids.get(key, []) if all_entities.get(q, {}).get("sex")), "")
+
     trimmed = []
     for child in sorted({b for (a, rel, b) in edges if rel == "parent_of"}):
         parents = [(a, edges[(a, "parent_of", child)]) for (a, rel, b) in edges if rel == "parent_of" and b == child]
+        if len(parents) <= 2:
+            continue
         extra = sorted((a for a, e in parents if e["source"] == "outside"),
                        key=lambda a: (not edges[(a, "parent_of", child)].get("hand"),
                                       edges[(a, "parent_of", child)].get("check") != "confirmed", a))
-        stated = len(parents) - len(extra)
-        for a in extra[max(0, 2 - stated):] if len(parents) > 2 else []:
+        kept = [a for a, e in parents if a not in extra]
+        for a in extra:
+            s = parent_sex(a)
+            if len(kept) < 2 or (s and all(parent_sex(k) and parent_sex(k) != s for k in kept)):
+                kept.append(a)
+                continue
             del edges[(a, "parent_of", child)]
             trimmed.append(f"{people[a]['names'].most_common(1)[0][0]} parent_of {people[child]['names'].most_common(1)[0][0]}")
     for name, text in curated.get("about", {}).items():
@@ -477,14 +655,49 @@ def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
             people[key]["kinds"]["outside"] += 1
         people[key]["about"].insert(0, text)
 
-    # Wrong links the reader has marked for removal (spouse/sibling/lover links match in either order).
-    removed = 0
-    for a_name, rel, b_name in curated.get("remove", []):
+    # The private family check (its wrong links were removed above): the parents it cites to this same
+    # book are added in place of wrong ones, and the links it confirms carry its citations. Links brought in after
+    # the removal (the cross-book step) are removed again here.
+    for a_name, rel, b_name, *_ in checked.get("remove", []):
         a, b = groups.find(norm(a_name)), groups.find(norm(b_name))
-        for key in {(a, rel, b), (b, rel, a)}:
-            if key in edges:
-                del edges[key]
-                removed += 1
+        for key in {(a, rel, b), (b, rel, a)} if rel in SYMMETRIC else {(a, rel, b)}:
+            edges.pop(key, None)
+    for a_name, rel, b_name, cite in checked.get("add", []):
+        a, b = groups.find(norm(a_name)), groups.find(norm(b_name))
+        if a in people and b in people and a != b and (a, rel, b) not in edges:
+            edges[(a, rel, b)] = {"source": "outside", "first": None, "evidence": [], "note": f"Ancient source: {cite}"}
+    theoi_cites = {}
+    for a_name, rel, b_name, cites in checked.get("confirmed", []) + [r[:3] + [[r[3]]] for r in checked.get("add", [])]:
+        a, b = groups.find(norm(a_name)), groups.find(norm(b_name))
+        theoi_cites[(a, rel, b)] = theoi_cites[(b, rel, a)] = cites
+    theoi_places = checked.get("places", {})
+
+    # A being's only marriages (data/only_spouses.json, by Wikidata entry): any other "spouse" of theirs is a lover.
+    # Zeus had one wife, Hera; Metis, Leto and the rest were his lovers, whatever a translation or the outside step says.
+    only_file = root / "data" / "only_spouses.json"
+    only = json.loads(only_file.read_text(encoding="utf-8")).get("spouses", {}) if only_file.exists() else {}
+
+    def being_is(key: str, qid: str) -> bool:
+        return any(same_being(x, qid, all_entities) for x in person_qids.get(key, []))
+
+    for (a, rel, b), e in list(edges.items()):
+        # (Only against a partner known by Wikidata: an unmatched "Hephæstus" may well be the husband.)
+        if rel == "spouse_of" and any((being_is(x, q) and person_qids.get(y) and not any(being_is(y, w) for w in wives))
+                                      for x, y in ((a, b), (b, a)) for q, wives in only.items()):
+            del edges[(a, rel, b)]
+            edges.setdefault((a, "lover_of", b), e)
+    # Links the book's sentence does not really state but tradition does ("tradition" in curated/aliases.json, from
+    # the family-tree review): kept, but as known from tradition, so the reader shows them greyed.
+    for a_name, rel, b_name, *note in curated.get("tradition", []):
+        a, b = groups.find(norm(a_name)), groups.find(norm(b_name))
+        for key in {(a, rel, b), (b, rel, a)} if rel in SYMMETRIC else {(a, rel, b)}:
+            if key in edges and edges[key]["source"] == "text":
+                edges[key]["source"] = "outside"
+                edges[key]["note"] = note[0] if note else "Known from tradition; not stated in this book"
+    # A wife is not also listed as a lover: Ariadne, whom Dionysus made his wife in Hesiod, and his love in Ovid.
+    for (a, rel, b) in [k for k in edges if k[1] == "lover_of"]:
+        if (a, "spouse_of", b) in edges or (b, "spouse_of", a) in edges:
+            del edges[(a, rel, b)]
 
     # 4. When does each person first appear? Outside-only people appear with the earliest relative who does.
     first_of: dict[str, int | None] = {}
@@ -505,6 +718,9 @@ def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
                         and not people[x]["sections"]:
                     first_of[x] = first_of[y]
                     changed = True
+    for key, anchor in lib_anchor.items():          # a relative from another book appears with the one they belong to
+        if first_of.get(key) is None:
+            first_of[key] = first_of.get(anchor)
 
     result_people, id_of, used = [], {}, Counter()
     for key, p in sorted(people.items(), key=lambda kv: (-sum(kv[1]["names"].values()), kv[0])):
@@ -527,7 +743,7 @@ def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
             "aliases": sorted(n for n in p["names"] if n != name), "epithets": sorted(p["epithets"]),
             "first_index": first, "first_section": sections[first]["id"] if first is not None else None,
             "section_count": len(p["sections"]), "descriptions": descriptions,
-            "wikidata": person_qids.get(key, [])})
+            "wikidata": person_qids.get(key, []), "from_library": key in lib_people})
     result_edges = []
     for (a, rel, b), e in edges.items():
         first = e["first"]
@@ -536,7 +752,9 @@ def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
             first = None if None in ends else max(ends)
         result_edges.append({"a": id_of[a], "relation": rel, "b": id_of[b], "source": e["source"], "note": e.get("note", ""),
                              "first_index": first, "first_section": sections[first]["id"] if first is not None else None,
-                             "evidence": e["evidence"], "check": e.get("check", "")})
+                             "evidence": e["evidence"], "check": e.get("check", ""),
+                             # Only whether the private check confirmed the link; its sources stay off the repository.
+                             "confirmed": (a, rel, b) in theoi_cites, "from_books": e.get("from_books")})
     result_edges.sort(key=lambda e: (e["first_index"] is None, e["first_index"] or 0))
     raw = sum(len(a["characters"]) for a in annotations.values())
     return {"slug": slug, "sections": [s["id"] for s in sections], "people": result_people,
@@ -547,6 +765,7 @@ def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
                        "outside_links_dropped_as_invalid": dropped_outside,
                        "links_removed_by_curation": removed, "third_parents_dropped": trimmed,
                        "links_added_by_curation": added, "added_links_refused": refused,
+                       "library_links_added": sum(1 for e in result_edges if e["from_books"]),
                        "outside_only_people": sum(1 for p in result_people if not p["in_book"]),
                        "never_shown": sum(1 for p in result_people if p["first_index"] is None),
                        "merges_held_back": [{"names": n, "sections": c} for n, c in held_back[:40]],

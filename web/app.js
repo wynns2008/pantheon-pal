@@ -978,6 +978,13 @@ function otherNames(name, names) {
   return names.filter((n) => !seen.has(plainName(n)) && seen.add(plainName(n)));
 }
 
+// A profile's "Also called" row: the names other books give the being first, then the book's own (see showPerson).
+function fillCalled(row, name, fromOtherBooks = []) {
+  const names = otherNames(name, [...fromOtherBooks, ...JSON.parse(row.dataset.names || "[]")]).slice(0, 6);
+  row.hidden = !names.length;
+  row.replaceChildren(row.firstChild, " " + names.join(", "));
+}
+
 function openPlace(id) { openThing("place", id); }
 function openItem(id) { openThing("item", id); }
 
@@ -1042,7 +1049,10 @@ async function loadElsewhere(info, type, id, name) {
   let others = [];
   const render = info.dataset.render;
   try { others = await api(`books/${state.slug}/elsewhere?type=${type}&id=${encodeURIComponent(id)}`); } catch { return; }
-  if (info.dataset.render !== render || info.dataset[type] !== id || !others.length) return;   // closed, moved on or drawn again
+  if (info.dataset.render !== render || info.dataset[type] !== id) return;   // closed, moved on or drawn again
+  const unreferenced = info.querySelector(":scope > p.unreferenced");
+  if (unreferenced && !others.length) unreferenced.textContent = "Not referenced in any of the books on this site.";
+  if (!others.length) return;
   const links = others.flatMap((o, k) => {
     // Another book's name for it, where that differs: "The Iliad (as Jove)".
     const label = o.book === state.slug ? o.name : o.book_title + (o.name !== name ? ` (as ${o.name})` : "");
@@ -1050,8 +1060,10 @@ async function loadElsewhere(info, type, id, name) {
     a.addEventListener("click", (e) => { e.preventDefault(); openResult(o); });
     return [k ? ", " : " ", a];
   });
+  const called = info.querySelector(":scope > p.called");
+  if (called) fillCalled(called, name, others.map((o) => o.name));     // "Jove", "Jupiter"
   const row = el("p", { className: "note" }, el("span", { className: "label", textContent: "Also in:" }), ...links);
-  const after = info.querySelector("p.note:last-of-type");     // with the facts, before the scenes and key moments
+  const after = info.querySelector(":scope > p.note:last-of-type");     // with the facts, before the scenes and key moments
   after ? after.after(row) : info.append(row);
 }
 
@@ -1178,6 +1190,8 @@ async function loadTree() {
   try {
     const upto = state.current.category === "body" ? `upto=${state.current.id}&` : "";      // outside the story: the whole book's tree
     data = await api(`books/${state.slug}/tree?${upto}outside=${state.outside}`);
+    // Lovers are not drawn in the tree, but a profile lists them.
+    state.loverData = await api(`books/${state.slug}/tree?${upto}outside=${state.outside}&relations=lover_of`).catch(() => null);
   } catch { /* this book has no tree yet */ }
   if (token !== state.treeToken) return;      // a newer request has taken over
   state.treeData = data;
@@ -1401,7 +1415,8 @@ function drawTree(container, info, old, data, fontSize, full = data, keep = null
     elements: [
       ...data.people.map((p) => ({ data: { id: p.id, label: p.name + (data.collapsedCounts?.get(p.id) ? `\n\u25b8 ${data.collapsedCounts.get(p.id)}` : ""),
                                            color: kindColor(p.kind) },
-                                   classes: data.current.includes(p.id) ? "current" : "" })),
+                                   // Someone the book never names (a relative known only from tradition) is drawn in grey.
+                                   classes: [data.current.includes(p.id) ? "current" : "", p.in_book === false ? "tradition" : ""].join(" ").trim() })),
       ...data.relationships.map((r, i) => ({ data: { id: "e" + i, source: r.a, target: r.b, relation: r.relation, origin: r.source } })),
     ],
     style: [
@@ -1415,6 +1430,7 @@ function drawTree(container, info, old, data, fontSize, full = data, keep = null
       { selector: 'edge[relation = "parent_of"]', style: { "curve-style": "taxi", "taxi-direction": "downward", "taxi-turn": "50%" } },
       { selector: 'edge[relation != "parent_of"]', style: { "target-arrow-shape": "none", "line-style": "dotted", "line-color": "#b0709b" } },
       { selector: 'edge[origin = "outside"]', style: { "line-style": "dashed", opacity: 0.75 } },
+      { selector: "node.tradition", style: { "background-color": "#8f8a80", opacity: 0.8 } },
     ],
   });
   layoutFamilies(cy);
@@ -1440,16 +1456,70 @@ function drawTree(container, info, old, data, fontSize, full = data, keep = null
 function showPerson(info, id, data, inTree = true) {
   const byId = new Map(data.people.map((p) => [p.id, p]));
   const p = byId.get(id);
+  if (!p) return;                  // not in this book's tree as far as the reader has got
   const related = (relation, own, other) => data.relationships
     .filter((r) => r.relation === relation && r[own] === id).map((r) => byId.get(r[other])?.name).filter(Boolean);
   const rows = [];
   const add = (label, text) => { if (text) rows.push(el("p", { className: "note" }, el("span", { className: "label", textContent: label + ":" }), " " + text)); };
   add(KIND_SHOWN.has(p.kind) ? "Domain" : "Who", p.about);
-  add("In the book", p.in_book && p.description !== p.about ? p.description : "");
-  add("Also called", otherNames(p.name, p.aliases).slice(0, 6).join(", "));
-  add("Parents", related("parent_of", "b", "a").join(", "));
-  add("Children", related("parent_of", "a", "b").join(", "));
-  add("Spouse", [...related("spouse_of", "a", "b"), ...related("spouse_of", "b", "a")].join(", "));
+  // A god's domain says more than the passing note of one section ("loved Amphissa"), so gods have no "In the book".
+  add("In the book", p.in_book && !KIND_SHOWN.has(p.kind) && p.description !== p.about ? p.description : "");
+  // Proper names before cult titles: "Ambulian Zeus" and the like (titles built on the name itself) go last. The
+  // names other books give the same being ("Jove", "Jupiter") are put in front once the server answers.
+  const word = plainName(p.name);
+  const aliases = otherNames(p.name, p.aliases);
+  const titled = (n) => plainName(n).split(/\s+/).includes(word);
+  const calledRow = el("p", { className: "note called" }, el("span", { className: "label", textContent: "Also called:" }));
+  calledRow.dataset.names = JSON.stringify([...aliases.filter((n) => !titled(n)), ...aliases.filter(titled)]);
+  fillCalled(calledRow, p.name);
+  rows.push(calledRow);
+  // The relatives: this book's first, then those only other books tell of, each being once (Athene here and Athena
+  // there are one). Each name opens that person's profile. A link the book itself does not state (it is known from
+  // tradition: Wikidata, the outside-the-book step, the ancient sources or another book) is greyed, with where it comes from on hover.
+  const told = (r) => r.source === "text";
+  const whence = (r) => r.from_books ? (r.note || "From other books") : r.note === "Wikidata" ? "From Wikidata"
+    : (r.note || "").startsWith("Ancient source") ? r.note : "From tradition outside this book" + (r.note ? `: ${r.note}` : "");
+  const linked = (relation, own, other, links = data.relationships, people = byId) => links
+    .filter((r) => r.relation === relation && r[own] === id && people.has(r[other]))
+    .sort((x, y) => told(y) - told(x) || Boolean(x.from_books) - Boolean(y.from_books))
+    .map((r) => ({ person: people.get(r[other]), link: r }));
+  const both = (relation, links, people) => [...linked(relation, "a", "b", links, people), ...linked(relation, "b", "a", links, people)];
+  const once = (list) => {
+    const seen = new Set();
+    return list.filter(({ person }) => {
+      const keys = [plainName(person.name), ...(person.wikidata || [])];
+      if (keys.some((k) => seen.has(k))) return false;
+      keys.forEach((k) => seen.add(k));
+      return true;
+    });
+  };
+  let traditional = false;
+  const addPeople = (label, list) => {
+    if (!list.length) return;
+    rows.push(el("p", { className: "note" }, el("span", { className: "label", textContent: label + ":" }),
+      ...list.flatMap(({ person, link }, k) => {
+        const grey = !told(link);
+        traditional ||= grey;
+        const button = el("button", { type: "button", className: "link person-link" + (grey ? " tradition" : ""), textContent: person.name,
+          title: grey ? `${whence(link)}. Not stated in this book.` : "Stated in this book. Who is this?" });
+        button.addEventListener("click", () => openProfile(person.id));
+        return [k ? ", " : " ", button];
+      })));
+  };
+  addPeople("Parents", once(linked("parent_of", "b", "a")));
+  addPeople("Children", once(linked("parent_of", "a", "b")));
+  addPeople("Spouse", once(both("spouse_of")));
+  addPeople("Siblings", once(both("sibling_of")));
+  const lovers = state.loverData || { people: [], relationships: [] };
+  addPeople("Lovers", once(both("lover_of", lovers.relationships, new Map(lovers.people.map((x) => [x.id, x])))));
+  if (traditional) {
+    rows.push(el("p", { className: "note tradition-key", textContent: "Names in grey are known from tradition (other books, the ancient sources or Wikidata) but not stated in this book." }));
+  }
+  // Someone this book never names (a relative from another book or from outside the books): said plainly. Whether
+  // any book on the site names them is known once the server answers (loadElsewhere).
+  if (!p.in_book) {
+    rows.push(el("p", { className: "note unreferenced", textContent: "Not referenced in this book." }));
+  }
   const page = state.about && (p.wikidata || []).map((q) => state.about.characters[q]).find((c) => c && c.url);
   const pic = page && picture(page.url);
   if (pic) rows.unshift(pic);
@@ -1488,8 +1558,11 @@ function showFound() {
   const spans = els.text.querySelectorAll(".s");
   const scene = find.scene === null || find.scene === undefined ? null : scenes()[find.scene];
   if (scene) setScene(find.scene);
+  // A link to one sentence (where a family link was read) opens at that sentence; otherwise at the first that names
+  // the character.
   const hit = scene ? els.text.querySelector(`.s[data-i="${scene.start_sentence}"]`)
-    : [...(spans.length ? spans : els.text.querySelectorAll("p"))].find((node) => find.names.some((n) => node.textContent.includes(n)));
+    : (find.sentence != null && els.text.querySelector(`.s[data-i="${find.sentence}"]`))
+      || [...(spans.length ? spans : els.text.querySelectorAll("p"))].find((node) => find.names.some((n) => node.textContent.includes(n)));
   if (!hit) return;
   state.sceneLock = Date.now() + 1500;        // the jump itself must not move the scene card to another scene
   const folded = hit.closest("details");
@@ -1506,7 +1579,8 @@ async function loadReferences(info, id, names) {
   const render = info.dataset.render;
   try { refs = await api(`books/${state.slug}/people/${encodeURIComponent(id)}/references`); } catch { return; }
   const all = refs.scenes || [];
-  if (info.dataset.render !== render || info.dataset.person !== id || (!refs.here.length && !refs.elsewhere.length && !all.length)) return;     // closed, or nothing to show
+  if (info.dataset.render !== render || info.dataset.person !== id
+      || (!refs.here.length && !refs.elsewhere.length && !(refs.elsewhere_scenes || []).length && !all.length)) return;     // closed, or nothing to show
   const item = (slug, m, label) => {
     const a = el("a", { href: `#${slug}/${m.section}`, textContent: label });
     a.addEventListener("click", () => {
@@ -1528,17 +1602,24 @@ async function loadReferences(info, id, names) {
       el("summary", { textContent: `All scenes \u00b7 ${all.length} in ${sections} section${sections > 1 ? "s" : ""}` }),
       el("ul", { className: "moments" }, ...all.map((m) => item(state.slug, m, `${m.title} \u203a ${m.scene_title}`)))));
   }
-  const books = new Map();                 // one foldable group per book
-  for (const m of refs.elsewhere) {
-    if (!books.has(m.book)) books.set(m.book, []);
-    books.get(m.book).push(m);
-  }
+  // One foldable group per book: its key moments, then every scene the character is in there.
+  const books = new Map();
+  const group = (m) => {
+    if (!books.has(m.book)) books.set(m.book, { first: m, moments: [], scenes: [] });
+    return books.get(m.book);
+  };
+  for (const m of refs.elsewhere) group(m).moments.push(m);
+  for (const m of refs.elsewhere_scenes || []) group(m).scenes.push(m);
   if (books.size) info.append(el("h4", { textContent: "In other books:" }));
-  for (const [slug, list] of books) {
-    const as = list[0].name !== names[0] ? ` (as ${list[0].name})` : "";
+  for (const [slug, { first, moments, scenes }] of books) {
+    const as = first.name !== names[0] ? ` (as ${first.name})` : "";
+    const count = [moments.length ? `${moments.length} key moment${moments.length > 1 ? "s" : ""}` : "",
+      scenes.length ? `${scenes.length} scene${scenes.length > 1 ? "s" : ""}` : ""].filter(Boolean).join(", ");
     info.append(el("details", { className: "book-refs" },
-      el("summary", { textContent: `${list[0].book_title}${as} \u00b7 ${list.length}` }),
-      el("ul", { className: "moments" }, ...list.map((m) => item(slug, m, `${m.book_title} › ${m.title}${as}`)))));
+      el("summary", { textContent: `${first.book_title}${as} \u00b7 ${count}` }),
+      ...(moments.length ? [el("ul", { className: "moments" }, ...moments.map((m) => item(slug, m, `${m.title}${as}`)))] : []),
+      ...(scenes.length ? [el("p", { className: "scenes-head", textContent: "All scenes:" }),
+        el("ul", { className: "moments" }, ...scenes.map((m) => item(slug, m, `${m.title} \u203a ${m.scene_title}`)))] : [])));
   }
 }
 

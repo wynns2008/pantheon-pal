@@ -181,7 +181,7 @@ dialog h2 { margin: 0 0 8px; font-size: 1.1rem; }
 .tree-info { margin-top: 8px; font-size: 0.9rem; line-height: 1.45; }
 .tree-info.placeholder { font-size: 0.85rem; }
 .tree-info .note { margin: 4px 0 0; }
-.tree-info .note .label { display: inline; }
+.tree-info .note .label { display: inline; font-weight: 700; color: var(--text); }
 .tree-list { margin-top: 10px; font-size: 0.9rem; }
 .tree-list summary { cursor: pointer; color: var(--muted); }
 dialog.tree-dialog { width: min(1000px, 94vw); max-width: none; height: 82vh; overflow: auto; }
@@ -277,6 +277,9 @@ button.scene-link.current { color: var(--accent); font-weight: 600; }
 /* A character's name in the scene card opens their profile */
 button.person-link { margin-left: 0; color: var(--text); text-decoration: underline dotted; text-underline-offset: 3px; }
 button.person-link:hover { color: var(--accent); }
+/* A relative known from tradition, not stated in this book */
+button.person-link.tradition { color: var(--muted); opacity: 0.6; font-style: italic; }
+.tree-info .note.tradition-key { font-size: 0.78rem; color: var(--muted); }
 
 /* Wikipedia's sections as a row of small buttons; the chosen one's text shows underneath */
 .pills { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }

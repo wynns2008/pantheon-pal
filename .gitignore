@@ -13,3 +13,15 @@ archive/
 # Python
 __pycache__/
 .pytest_cache/
+
+# The check against the Theoi Project (python -m annotate.theoi) and the review built on it: kept on this computer
+# only. What Theoi's pages list is theirs; the trees made with the check's help are committed as usual.
+annotate/theoi.py
+data/theoi.json
+data/theoi_decisions.json
+data/*/curated/theoi.json
+data/judge.json
+data/judge_rows.json
+data/judge_trial.json
+data/judge_batch.json
+annotate/judge.py

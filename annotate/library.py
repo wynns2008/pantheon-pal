@@ -32,7 +32,7 @@ def build() -> dict:
         entities.update(b["entities"])
     people = [{"book": b["slug"], "id": p["id"], "name": p["name"], "qids": p["wikidata"], "weight": p["section_count"],
                "names": {norm(n) for n in [p["name"], *p["aliases"]]}}
-              for b in books for p in b["tree"]["people"] if p.get("wikidata")]
+              for b in books for p in b["tree"]["people"] if p.get("wikidata") and not p.get("from_library")]
     # Pairs of people from different books that Wikidata says are one being; the surest and most prominent first.
     pairs = []
     for i, x in enumerate(people):
